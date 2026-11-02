@@ -1,3 +1,0 @@
-# /etc/cron.d/hs-ops-backup  (hora del server en UTC)
-CRON_TZ=UTC
-17 10 * * * root /opt/hs-ops-repo/scripts/backup.sh >> /var/log/hs-ops-backup.log 2>&1

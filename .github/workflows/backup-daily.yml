@@ -1,0 +1,51 @@
+name: backup-daily
+on:
+  schedule:
+    - cron: "23 9 * * *"   # 9:23 UTC = 4:23 Miami en EST, 5:23 en EDT
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: backup-daily
+  cancel-in-progress: false
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Export Make
+        env:
+          MAKE_API_TOKEN: ${{ secrets.MAKE_API_TOKEN }}
+        run: python3 scripts/export_make.py
+
+      - name: Escaneo de secretos (gitleaks)
+        run: docker run --rm -v "$PWD:/repo" zricethezav/gitleaks:v8.18.4 detect --no-git --source /repo/make --redact -v
+
+      - name: Commit si hubo cambios
+        run: |
+          git config user.name "hs-ops-backup"
+          git config user.email "hs-ops-backup@users.noreply.github.com"
+          git add -A make/
+          if git diff --cached --quiet; then
+            echo "Sin cambios"
+          else
+            git commit -m "backup: export diario $(date -u +%F)"
+            git pull --rebase origin "${GITHUB_REF_NAME}"
+            git push
+          fi
+
+      - name: Heartbeat
+        if: success()
+        env:
+          HEARTBEAT_URL: ${{ secrets.HEARTBEAT_URL }}
+        run: |
+          if [ -n "$HEARTBEAT_URL" ]; then curl -fsS -m 10 --retry 3 "$HEARTBEAT_URL" >/dev/null; else echo "HEARTBEAT_URL no configurado"; fi
