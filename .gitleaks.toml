@@ -1,0 +1,7 @@
+[extend]
+useDefault = true
+
+[allowlist]
+description = "Nombres de módulo de Make (app:Modulo), no son claves"
+regexTarget = "line"
+regexes = ['''"module":\s*"airtable:[A-Za-z]+"''']
