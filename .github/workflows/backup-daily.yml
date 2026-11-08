@@ -28,7 +28,7 @@ jobs:
         run: python3 scripts/export_make.py
 
       - name: Escaneo de secretos (gitleaks)
-        run: docker run --rm -v "$PWD:/repo" zricethezav/gitleaks:v8.18.4 detect --no-git --source /repo/make --redact -v
+        run: docker run --rm -v "$PWD:/repo" zricethezav/gitleaks:v8.18.4 detect --no-git --source /repo/make --config /repo/.gitleaks.toml --redact -v
 
       - name: Commit si hubo cambios
         run: |
