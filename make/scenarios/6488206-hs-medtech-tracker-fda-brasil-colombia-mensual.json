@@ -1,0 +1,308 @@
+{
+  "blueprint": {
+    "flow": [
+      {
+        "id": 1,
+        "mapper": {
+          "codeEditorJavascript": "// Módulo 1: dispositivos novedosos FDA (PMA originales + De Novo)\n// input.month_override: \"AAAA-MM\" opcional; por defecto, mes anterior al actual\nconst pad = n => String(n).padStart(2, '0');\nconst now = new Date();\nlet y, m;\nif (input.month_override && /^\\d{4}-\\d{2}$/.test(input.month_override)) {\n  [y, m] = input.month_override.split('-').map(Number);\n} else {\n  const d = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth() - 1, 1));\n  y = d.getUTCFullYear(); m = d.getUTCMonth() + 1;\n}\nconst ym = (yy, mm) => { const d = new Date(Date.UTC(yy, mm - 1, 1)); return [d.getUTCFullYear(), d.getUTCMonth() + 1]; };\nconst lastDay = (yy, mm) => new Date(Date.UTC(yy, mm, 0)).getUTCDate();\nconst month = `${y}-${pad(m)}`;\nconst [py, pm] = ym(y, m - 1);\nconst [by, bm] = ym(y, m - 36);\nconst freshFrom = `${py}${pad(pm)}01`, to = `${y}${pad(m)}${pad(lastDay(y, m))}`;\nconst backFrom = `${by}${pad(bm)}01`;\n\nasync function q(path) {\n  const r = await fetch('https://api.fda.gov/device/' + path);\n  const j = await r.json();\n  if (j.error && j.error.code === 'NOT_FOUND') return { results: [], meta: {} };\n  if (!r.ok) throw new Error('openFDA ' + r.status + ' ' + JSON.stringify(j.error));\n  return j;\n}\nconst [pma, den] = await Promise.all([\n  q(`pma.json?search=decision_date:[${backFrom}+TO+${to}]+AND+supplement_number:\"\"&limit=1000`),\n  q(`510k.json?search=k_number:DEN*+AND+decision_date:[${backFrom}+TO+${to}]&limit=1000`)\n]);\nconst devs = [];\nfor (const x of pma.results || []) {\n  if (x.decision_code && x.decision_code !== 'APPR') continue;\n  devs.push({ id: x.pma_number, pathway: 'PMA', name: x.trade_name || x.generic_name || '', generic: x.generic_name || '', applicant: x.applicant || '', date: x.decision_date, specialty: x.advisory_committee_description || '' });\n}\nfor (const x of den.results || []) {\n  if (x.decision_code && !/^DEN/.test(x.decision_code)) continue;\n  devs.push({ id: x.k_number, pathway: 'De Novo', name: x.device_name || '', generic: '', applicant: x.applicant || '', date: x.decision_date, specialty: x.advisory_committee_description || '' });\n}\nconst freshStart = `${py}-${pad(pm)}-01`;\nfor (const d of devs) d.fresh = d.date >= freshStart;\nreturn {\n  month,\n  fresh_window: `${freshStart} a ${y}-${pad(m)}-${pad(lastDay(y, m))}`,\n  fda_last_updated: (pma.meta && pma.meta.last_updated) || '',\n  n_fresh: devs.filter(d => d.fresh).length,\n  n_backlog: devs.length,\n  devices_json: JSON.stringify(devs)\n};\n",
+          "input": [
+            {
+              "name": "month_override",
+              "value": ""
+            }
+          ],
+          "inputFormat": "editor",
+          "language": "javascript"
+        },
+        "metadata": {
+          "designer": {
+            "name": "FDA — novedosos (PMA + De Novo)"
+          }
+        },
+        "module": "code:ExecuteCode",
+        "version": 0
+      },
+      {
+        "id": 2,
+        "mapper": {
+          "bodyType": "raw",
+          "followAllRedirects": true,
+          "followRedirect": true,
+          "gzip": true,
+          "headers": [
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (compatible; HealthSignals/1.0)"
+            }
+          ],
+          "method": "get",
+          "parseResponse": false,
+          "qs": [],
+          "rejectUnauthorized": true,
+          "serializeUrl": false,
+          "shareCookies": false,
+          "timeout": 300,
+          "url": "https://dados.anvisa.gov.br/dados/TA_PRODUTO_SAUDE_SITE.csv",
+          "useMtls": false,
+          "useQuerystring": false
+        },
+        "metadata": {
+          "designer": {
+            "name": "ANVISA — CSV productos para salud"
+          }
+        },
+        "module": "http:ActionSendData",
+        "parameters": {
+          "handleErrors": false
+        },
+        "version": 3
+      },
+      {
+        "id": 3,
+        "mapper": {
+          "headers": [],
+          "method": "GET",
+          "qs": [
+            {
+              "key": "fields[]",
+              "value": "Key"
+            },
+            {
+              "key": "pageSize",
+              "value": "100"
+            },
+            {
+              "key": "filterByFormula",
+              "value": "OR(AND({Row_Type}='Nuevo FDA', IS_AFTER({FDA_Decision_Date}, DATEADD(TODAY(), -150, 'days'))), IS_AFTER(CREATED_TIME(), DATEADD(TODAY(), -100, 'days')))"
+            }
+          ],
+          "url": "v0/appd73iOSApIFksdP/tbl3bNPIvzfaPwHGm"
+        },
+        "metadata": {
+          "designer": {
+            "name": "Airtable — keys ya cargadas"
+          }
+        },
+        "module": "airtable:makeApiCall",
+        "parameters": {
+          "__IMTCONN__": 9132003
+        },
+        "version": 3
+      },
+      {
+        "id": 4,
+        "mapper": {
+          "codeEditorJavascript": "// Módulo 4: matching contra ANVISA (CSV) — salida para revisión humana\nconst TS = Date.now(); const lap = {};\nconst devs = JSON.parse(input.devices_json || '[]');\nconst month = input.month; // AAAA-MM\nconst csv = input.csv || '';\nif (csv.length < 1000000) throw new Error('CSV ANVISA vacío o truncado: ' + csv.length + ' caracteres');\n\nconst norm = s => (s || '').toUpperCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/�/g, '').replace(/[®™©]/g, ' ');\nconst STOP = new Set(('SYSTEM SYSTEMS DEVICE DEVICES KIT CATHETER CATHETERS DELIVERY VALVE REPLACEMENT MONITOR MONITORING TEST ASSAY ' +\n  'THE AND FOR WITH OF MODEL DX ANALYSIS SENSOR SET TOOL TOOLS PTCA DRUG ELUTING BALLOON STENT SCAFFOLD IMPLANT IMPLANTABLE ' +\n  'PROSTHESIS DISC CERVICAL LENS CONTACT AI ECG CONTINUOUS GLUCOSE DAY SOFTWARE TRANSCATHETER TRICUSPID MITRAL AORTIC PULSED FIELD ' +\n  'ABLATION GUIDE STEERABLE SURGICAL ROBOTIC AUTOMATED MANAGEMENT STOOL DUAL KETONE PLUS PRO MINI MAX NEW GEN SYSTEMA SISTEMA ' +\n  'OVERNIGHT ORTHOKERATOLOGY DEPLOYMENT RESORBABLE EVEROLIMUS VASCULAR CORONARY PERIPHERAL HOME USE KIT PANEL DETECTION').split(/\\s+/));\nconst CORP = new Set('INC INC. LLC LTD LIMITED CORP CORPORATION CO COMPANY GMBH SA S.A. AG BV PLC THE MEDICAL MEDICALS TECHNOLOGY TECHNOLOGIES USA US HEALTH HEALTHCARE LIFE SCIENCES BIOSCIENCES SURGICAL'.split(' '));\n\nfunction brandKey(name, applicant) {\n  const n = norm(name).replace(/\\(.*?\\)/g, ' ');\n  const own = new Set(norm(applicant).split(/[^A-Z0-9]+/));\n  const toks = n.split(/[^A-Z0-9-]+/).map(t => t.replace(/^-+|-+$/g, '').replace(/^(.{3,})TM$/, '$1')).filter(Boolean);\n  const cand = toks.filter(t => t.length >= 3 && !STOP.has(t) && !own.has(t) && !/^\\d+$/.test(t) && !/^(G|S|V)\\d+$/.test(t));\n  return cand[0] || '';\n}\nfunction mfrKey(app) {\n  const all = norm(app).split(/[^A-Z0-9]+/).filter(Boolean);\n  const toks = all.filter(t => t.length >= 3 && !CORP.has(t));\n  return toks[0] || all.filter(t => t.length >= 2 && !CORP.has(t))[0] || '';\n}\nconst esc = s => s.replace(/[.*+?^${}()|[\\]\\\\]/g, '\\\\$&');\nconst wordRe = k => new RegExp('(^|[^A-Z0-9])' + esc(k) + '($|[^A-Z0-9])');\n// marcas de 6+ letras también matchean como prefijo (ej. BAGUERA en \"BAGUERAc\")\nconst brandRe = k => k.length >= 6 ? new RegExp('(^|[^A-Z0-9])' + esc(k)) : wordRe(k);\nconst toISO = s => { const mm = (s || '').match(/(\\d\\d)\\/(\\d\\d)\\/(\\d{4})/); return mm ? `${mm[3]}-${mm[2]}-${mm[1]}` : ''; };\nconst months = (a, b) => Math.round(((new Date(b) - new Date(a)) / 86400000 / 30.44) * 10) / 10;\n\n// --- ANVISA: recorrer el CSV sin partirlo entero (límite de memoria del sandbox) y\n// quedarse solo con filas cuyo NOME_COMERCIAL contiene alguna marca buscada\nconst BKS = new Set(devs.map(d => brandKey(d.name, d.applicant)).filter(Boolean));\nconst tokensOf = s => { const out = new Set(); for (const w of s.split(/[^A-Z0-9-]+/)) { for (const t of [w, w.replace(/^-+|-+$/g, '')]) { if (t.length < 3) continue; out.add(t); for (let n = 6; n < t.length; n++) out.add(t.slice(0, n)); } } return out; };\nlet p = csv.indexOf('\\n');\nconst H = csv.slice(0, p).replace(/\\r/g, '').split(';');\nconst ix = k => H.indexOf(k);\nconst iReg = ix('NUMERO_REGISTRO_CADASTRO'), iNom = ix('NOME_COMERCIAL'), iCls = ix('CLASSE_RISCO'),\n  iDet = ix('DETENTOR_REGISTRO_CADASTRO'), iFab = ix('NOME_FABRICANTE'), iDt = ix('DT_PUB_REGISTRO_CADASTRO');\nif ([iReg, iNom, iDet, iFab, iDt].some(i => i < 0)) throw new Error('Cambió el formato del CSV ANVISA: ' + H.join('|'));\nconst up = s => (s || '').toUpperCase().replace(/�/g, '');\nconst regs = new Map(); const allRegs = new Set(); let nLines = 0;\nwhile (p >= 0 && p < csv.length) {\n  const q = csv.indexOf('\\n', p + 1); const line = csv.slice(p + 1, q < 0 ? csv.length : q); p = q;\n  if (!line) continue; nLines++;\n  const c = line.split(';'); if (c.length < H.length - 1) continue;\n  allRegs.add(c[iReg]);\n  const nome = up(c[iNom]); let hit = false;\n  for (const t of tokensOf(nome)) if (BKS.has(t)) { hit = true; break; }\n  if (!hit) continue;\n  const k = c[iReg]; let r = regs.get(k);\n  if (!r) { r = { reg: k, nome, cls: c[iCls], det: up(c[iDet]), fab: '', date: toISO(c[iDt]) }; regs.set(k, r); }\n  if (c[iFab]) r.fab += ' ' + up(c[iFab]);\n}\nif (nLines < 50000) throw new Error('CSV ANVISA con pocas filas: ' + nLines);\nlap.parse = Date.now() - TS;\nconst REGS = [...regs.values()];\nconst NREGS = allRegs.size;\nconst IDX = new Map();\nfor (const r of REGS) for (const t of tokensOf(r.nome)) { let a = IDX.get(t); if (!a) IDX.set(t, a = []); a.push(r); }\nconst byToken = k => IDX.get(k) || [];\nlap.index = Date.now() - TS; lap.kept = REGS.length;\n\nfunction anvisa(d) {\n  const bk = brandKey(d.name, d.applicant), mk = mfrKey(d.applicant);\n  if (!bk) return { status: 'Revisar', ev: 'Sin token de marca; buscar a mano', bk, mk, hits: [] };\n  const re = brandRe(bk), mre = mk ? wordRe(mk) : null;\n  const brand = byToken(bk).filter(r => re.test(r.nome));\n  const strong = brand.filter(r => mre && (mre.test(r.fab) || mre.test(r.det)));\n  const fmt = r => `${r.reg} | ${r.nome.slice(0, 90)} | fab: ${r.fab.trim().slice(0, 60)} | clase ${r.cls} | ${r.date}`;\n  if (strong.length) {\n    strong.sort((a, b) => a.date.localeCompare(b.date));\n    const before = strong.filter(r => r.date && r.date < d.date);\n    const after = strong.filter(r => r.date && r.date >= d.date);\n    const pick = after[0] || strong[0];\n    const status = before.length ? 'Revisar' : 'Encontrado';\n    let ev = strong.slice(0, 5).map(fmt).join('\\n');\n    if (before.length) ev = `OJO: ${before.length} registro(s) anterior(es) a la FDA (posible generación previa o aprobación CE primero).\\n` + ev;\n    return { status, ev, bk, mk, hits: strong, pick };\n  }\n  if (brand.length) return { status: 'Revisar', ev: 'Marca coincide pero fabricante no:\\n' + brand.slice(0, 5).map(fmt).join('\\n'), bk, mk, hits: [] };\n  return { status: 'No encontrado', ev: `Sin coincidencias para \"${bk}\" en ${NREGS} registros ANVISA`, bk, mk, hits: [] };\n}\n\nconst out = [];\nconst fresh = devs.filter(d => d.fresh);\nfresh.forEach((d, i) => {\n  const a = anvisa(d);\n  out.push({\n    Device: d.name, Key: `${d.id}|Nuevo FDA`, Run_Month: d.date.slice(0, 7), Row_Type: 'Nuevo FDA', FDA_ID: d.id, Pathway: d.pathway,\n    Applicant: d.applicant, FDA_Decision_Date: d.date, Specialty: d.specialty, Brand_Key: `${a.bk} / ${a.mk}`,\n    BR_Status: a.status, BR_Reg_Number: a.pick ? a.pick.reg : '', BR_Reg_Date: a.pick ? a.pick.date : '',\n    Lag_BR_Months: a.pick && a.status === 'Encontrado' ? months(d.date, a.pick.date) : '',\n    BR_Evidence: a.ev, _bk: a.bk, _mk: a.mk\n  });\n});\n// Llegadas a Brasil en el mes, de dispositivos FDA de los últimos 36 meses\nfor (const d of devs.filter(x => !x.fresh)) {\n  const a = anvisa(d);\n  if (!a.hits.length) continue;\n  const arrivals = a.hits.filter(r => r.date.slice(0, 7) === month);\n  for (const r of arrivals) {\n    const prior = a.hits.filter(h => h.date && h.date < r.date);\n    if (prior.length > 10) continue; // marca paraguas (plataforma con decenas de registros): ruido, no es el dispositivo FDA\n    out.push({\n      Device: d.name, Key: `${d.id}|${r.reg}|Llegó a Brasil`, Run_Month: month, Row_Type: 'Llegó a Brasil', FDA_ID: d.id, Pathway: d.pathway,\n      Applicant: d.applicant, FDA_Decision_Date: d.date, Specialty: d.specialty, Brand_Key: `${a.bk} / ${a.mk}`,\n      BR_Status: prior.length || r.date < d.date ? 'Revisar' : 'Encontrado', BR_Reg_Number: r.reg, BR_Reg_Date: r.date,\n      Lag_BR_Months: prior.length || r.date < d.date ? '' : months(d.date, r.date),\n      BR_Evidence: (prior.length ? `OJO: ya había ${prior.length} registro(s) previo(s) con esta marca: ${prior.slice(0, 3).map(h => h.reg + ' ' + h.date).join(', ')}\\n` : '') +\n        `${r.reg} | ${r.nome.slice(0, 90)} | fab: ${r.fab.trim().slice(0, 60)} | clase ${r.cls} | ${r.date}`,\n      CO_Status: '', CO_Evidence: ''\n    });\n  }\n}\n// Consultas INVIMA para los nuevos (las hace Make con módulos HTTP); siempre hay una fila dummy para que la cadena siga\nconst queries = [{ key: '_dummy', bk: 'ZZZZQQQQ' }].concat(out.filter(r => r.Row_Type === 'Nuevo FDA' && r._bk).map(r => ({ key: r.Key, bk: r._bk })));\n\nreturn { n_candidates: out.length, n_anvisa_regs: NREGS, lap: JSON.stringify(lap), rows_json: JSON.stringify(out), queries };\n",
+          "input": [
+            {
+              "name": "csv",
+              "value": "{{toString(2.data)}}"
+            },
+            {
+              "name": "devices_json",
+              "value": "{{1.result.devices_json}}"
+            },
+            {
+              "name": "month",
+              "value": "{{1.result.month}}"
+            }
+          ],
+          "inputFormat": "editor",
+          "language": "javascript"
+        },
+        "metadata": {
+          "designer": {
+            "name": "Matching ANVISA"
+          }
+        },
+        "module": "code:ExecuteCode",
+        "version": 0
+      },
+      {
+        "id": 5,
+        "mapper": {
+          "array": "{{4.result.queries}}"
+        },
+        "metadata": {
+          "designer": {
+            "name": "Una consulta INVIMA por dispositivo nuevo"
+          }
+        },
+        "module": "builtin:BasicFeeder",
+        "version": 1
+      },
+      {
+        "id": 6,
+        "mapper": {
+          "bodyType": "raw",
+          "followAllRedirects": true,
+          "followRedirect": true,
+          "gzip": true,
+          "headers": [
+            {
+              "name": "Accept",
+              "value": "application/json"
+            }
+          ],
+          "method": "get",
+          "parseResponse": false,
+          "qs": [
+            {
+              "name": "$limit",
+              "value": "300"
+            },
+            {
+              "name": "$q",
+              "value": "{{5.bk}}"
+            }
+          ],
+          "rejectUnauthorized": true,
+          "serializeUrl": false,
+          "shareCookies": false,
+          "timeout": 25,
+          "url": "https://www.datos.gov.co/resource/y4qt-w6tk.json",
+          "useMtls": false,
+          "useQuerystring": false
+        },
+        "metadata": {
+          "designer": {
+            "name": "INVIMA — búsqueda por marca"
+          }
+        },
+        "module": "http:ActionSendData",
+        "onerror": [
+          {
+            "id": 11,
+            "mapper": {
+              "data": "",
+              "statusCode": "0"
+            },
+            "metadata": {
+              "designer": {
+                "name": "INVIMA — seguir si falla"
+              }
+            },
+            "module": "builtin:Resume",
+            "parameters": {},
+            "version": 1
+          }
+        ],
+        "parameters": {
+          "handleErrors": true
+        },
+        "version": 3
+      },
+      {
+        "id": 7,
+        "mapper": {
+          "value": "{{5.key}}|||{{toString(6.data)}}"
+        },
+        "metadata": {
+          "designer": {
+            "name": "Juntar respuestas INVIMA"
+          }
+        },
+        "module": "util:TextAggregator",
+        "parameters": {
+          "feeder": 5,
+          "otherRowSeparator": "@@@",
+          "rowSeparator": "other"
+        },
+        "version": 1
+      },
+      {
+        "id": 8,
+        "mapper": {
+          "codeEditorJavascript": "// Módulo 8: clasificar INVIMA, deduplicar contra Airtable y armar lotes\nconst norm = s => (s || '').toUpperCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/�/g, '').replace(/[®™©]/g, ' ');\nconst esc = s => s.replace(/[.*+?^${}()|[\\]\\\\]/g, '\\\\$&');\nconst wordRe = k => new RegExp('(^|[^A-Z0-9])' + esc(k) + '($|[^A-Z0-9])');\nconst brandRe = k => k.length >= 6 ? new RegExp('(^|[^A-Z0-9])' + esc(k)) : wordRe(k);\nconst rows = JSON.parse(input.rows_json || '[]');\nconst raw = String(input.invima || '');\nconst resp = new Map();\nfor (const chunk of raw.split('@@@')) {\n  const k = chunk.indexOf('|||'); if (k < 0) continue;\n  resp.set(chunk.slice(0, k).trim(), chunk.slice(k + 3));\n}\nfunction classify(bk, mk, txt, fdaDate) {\n  let data; try { data = JSON.parse(txt); } catch (e) { return { status: 'Revisar', ev: 'INVIMA no respondió o respuesta inválida; revisar a mano' }; }\n  if (!Array.isArray(data)) return { status: 'Revisar', ev: 'Error API INVIMA: ' + String(txt).slice(0, 200) };\n  const re = brandRe(bk), mre = mk ? wordRe(mk) : null;\n  const b = data.filter(x => re.test(norm(x.prodcuto)) || re.test(norm(x.marca)));\n  const byExp = new Map();\n  for (const x of b) { const e = byExp.get(x.expediente) || { ...x, roles: '' }; e.roles += ' ' + norm(x.nombre_rol) + ' ' + norm(x.titular); byExp.set(x.expediente, e); }\n  const exps = [...byExp.values()];\n  const strong = exps.filter(x => mre && mre.test(x.roles));\n  const fmt = x => `${x.registro_sanitario} | ${x.estado_registro} | ${norm(x.prodcuto).slice(0, 80)} | titular: ${norm(x.titular).slice(0, 50)} | riesgo ${x.nivel_riesgo}`;\n  if (strong.length) {\n    const st = strong.some(x => /VIGENTE/i.test(x.estado_registro)) ? 'Vigente' : strong.some(x => /ESTUDIO|TRAMITE/i.test(norm(x.estado_registro))) ? 'En trámite' : 'Revisar';\n    const fy = Number(String(fdaDate || '').slice(0, 4));\n    const old = strong.filter(x => { const mm = String(x.registro_sanitario || '').match(/(\\d{4})DM/); return mm && fy && Number(mm[1]) < fy; });\n    const warn = old.length ? `OJO: ${old.length} registro(s) con año anterior a la aprobación FDA (posible generación previa, otro producto de la marca o aprobación CE primero).\\n` : '';\n    return { status: old.length ? 'Revisar' : st, ev: warn + strong.slice(0, 5).map(fmt).join('\\n') + '\\n(INVIMA no publica fecha de otorgamiento)' };\n  }\n  if (exps.length) return { status: 'Revisar', ev: 'Marca coincide pero titular/fabricante no:\\n' + exps.slice(0, 5).map(fmt).join('\\n') };\n  return { status: 'No encontrado', ev: `Sin coincidencias para \"${bk}\" en INVIMA` };\n}\nfor (const r of rows) {\n  if (r.Row_Type === 'Nuevo FDA') {\n    if (!r._bk) { r.CO_Status = 'Revisar'; r.CO_Evidence = 'Sin token de marca'; }\n    else { const c = classify(r._bk, r._mk, resp.has(r.Key) ? resp.get(r.Key) : '', r.FDA_Decision_Date); r.CO_Status = c.status; r.CO_Evidence = c.ev; }\n  }\n  delete r._bk; delete r._mk;\n}\n// Duplicado semántico: el mismo registro ANVISA asignado a más de un dispositivo FDA en esta corrida\nconst regCount = {};\nfor (const r of rows) if (r.BR_Reg_Number) regCount[r.BR_Reg_Number] = (regCount[r.BR_Reg_Number] || 0) + 1;\nfor (const r of rows) if (r.BR_Reg_Number && regCount[r.BR_Reg_Number] > 1) {\n  r.BR_Status = 'Revisar'; r.Lag_BR_Months = '';\n  r.BR_Evidence = `OJO: el registro ANVISA ${r.BR_Reg_Number} quedó asignado a ${regCount[r.BR_Reg_Number]} dispositivos FDA distintos; probablemente es otro producto de la marca.\\n` + (r.BR_Evidence || '');\n}\nlet existing = input.existing;\nif (typeof existing === 'string') { try { existing = JSON.parse(existing); } catch (e) { existing = []; } }\nif (Array.isArray(existing) && existing.length >= 100) throw new Error('Airtable devolvió 100+ keys para dedupe: ampliar el control antes de cargar (riesgo de duplicados)');\nconst have = new Set((Array.isArray(existing) ? existing : []).map(r => r && r.fields && r.fields.Key).filter(Boolean));\nconst fresh_rows = rows.filter(r => !have.has(r.Key)).map(r => {\n  const f = { ...r, Review: 'Pendiente' };\n  for (const k of Object.keys(f)) if (f[k] === '' || f[k] === null || f[k] === undefined) delete f[k];\n  return f;\n});\nconst batches = [];\nfor (let i = 0; i < fresh_rows.length; i += 10) batches.push(JSON.stringify({ typecast: true, records: fresh_rows.slice(i, i + 10).map(fields => ({ fields })) }));\nreturn { n_rows: rows.length, n_new: fresh_rows.length, n_skipped_existing: rows.length - fresh_rows.length, n_invima_resp: resp.size, batches };\n",
+          "input": [
+            {
+              "name": "rows_json",
+              "value": "{{4.result.rows_json}}"
+            },
+            {
+              "name": "invima",
+              "value": "{{7.text}}"
+            },
+            {
+              "name": "existing",
+              "value": "{{3.body.records}}"
+            }
+          ],
+          "inputFormat": "editor",
+          "language": "javascript"
+        },
+        "metadata": {
+          "designer": {
+            "name": "INVIMA + dedupe + lotes"
+          }
+        },
+        "module": "code:ExecuteCode",
+        "version": 0
+      },
+      {
+        "id": 9,
+        "mapper": {
+          "array": "{{8.result.batches}}"
+        },
+        "metadata": {
+          "designer": {
+            "name": "Un lote por llamada"
+          }
+        },
+        "module": "builtin:BasicFeeder",
+        "version": 1
+      },
+      {
+        "id": 10,
+        "mapper": {
+          "body": "{{9.value}}",
+          "headers": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "method": "POST",
+          "qs": [],
+          "url": "v0/appd73iOSApIFksdP/tbl3bNPIvzfaPwHGm"
+        },
+        "metadata": {
+          "designer": {
+            "name": "Airtable — crear filas (lote de 10)"
+          }
+        },
+        "module": "airtable:makeApiCall",
+        "parameters": {
+          "__IMTCONN__": 9132003
+        },
+        "version": 3
+      }
+    ],
+    "metadata": {
+      "instant": false,
+      "scenario": {
+        "autoCommit": true,
+        "autoCommitTriggerLast": true,
+        "confidential": false,
+        "dataloss": false,
+        "dlq": false,
+        "maxErrors": 3,
+        "roundtrips": 1,
+        "sequential": false
+      },
+      "version": 1
+    },
+    "name": "HS MedTech Tracker — FDA → Brasil/Colombia (mensual)"
+  },
+  "folderId": 268067,
+  "id": 6488206,
+  "isActive": true,
+  "name": "HS MedTech Tracker — FDA → Brasil/Colombia (mensual)",
+  "scheduling": {
+    "days": [
+      8
+    ],
+    "time": "07:10",
+    "type": "monthly"
+  }
+}

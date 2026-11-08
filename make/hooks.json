@@ -1,0 +1,42 @@
+[
+  {
+    "enabled": true,
+    "gone": false,
+    "id": 2656053,
+    "name": "HS Prospect Search Webhook",
+    "scenarioId": 5843912,
+    "typeName": "gateway-webhook"
+  },
+  {
+    "enabled": true,
+    "gone": false,
+    "id": 2666530,
+    "name": "X OAuth Callback - HealthSignals",
+    "scenarioId": 5882000,
+    "typeName": "gateway-webhook"
+  },
+  {
+    "enabled": true,
+    "gone": false,
+    "id": 2876709,
+    "name": "HS Brief Subscribers (web CTA)",
+    "scenarioId": 6459598,
+    "typeName": "gateway-webhook"
+  },
+  {
+    "enabled": true,
+    "gone": false,
+    "id": 2948578,
+    "name": "HS Press Signup (página prensa)",
+    "scenarioId": 6674701,
+    "typeName": "gateway-webhook"
+  },
+  {
+    "enabled": true,
+    "gone": false,
+    "id": 3008026,
+    "name": "HS Invite 1-click subscribe",
+    "scenarioId": 6854895,
+    "typeName": "gateway-webhook"
+  }
+]

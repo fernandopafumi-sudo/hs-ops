@@ -1,0 +1,106 @@
+{
+  "blueprint": {
+    "flow": [
+      {
+        "id": 1,
+        "mapper": {},
+        "metadata": {
+          "designer": {
+            "x": 0,
+            "y": 0
+          },
+          "parameters": [
+            {
+              "label": "Webhook",
+              "name": "hook",
+              "required": true,
+              "type": "hook:gateway-webhook"
+            },
+            {
+              "label": "Maximum number of results",
+              "name": "maxResults",
+              "type": "number"
+            }
+          ],
+          "restore": {
+            "parameters": {
+              "hook": {
+                "data": {
+                  "editable": "true"
+                },
+                "label": "HS Prospect Search Webhook"
+              }
+            }
+          }
+        },
+        "module": "gateway:CustomWebHook",
+        "parameters": {
+          "hook": 2656053,
+          "maxResults": 1
+        },
+        "version": 1
+      },
+      {
+        "id": 2,
+        "mapper": {
+          "array": "{{1.data}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 300,
+            "y": 0
+          }
+        },
+        "module": "builtin:BasicFeeder",
+        "parameters": {},
+        "version": 1
+      },
+      {
+        "id": 3,
+        "mapper": {
+          "body": "{\"typecast\":true,\"fields\":{\"fldxBD670lnLpYrLD\":\"{{2.value.name}}\",\"fldgucbTdN3swkcSi\":\"{{2.value.email}}\",\"fldQJBSZifoxWU0Tn\":\"{{2.value.title}}\",\"fld59v0caVayISnqc\":\"{{2.value.company}}\",\"fldBYXT4HQz6W3WLQ\":\"{{2.value.country}}\",\"fldiC11z9y6mEAPRj\":\"{{2.value.linkedin_url}}\",\"fldLiF7syfOwSfjzD\":\"New\",\"fldLdTVGWDwv4r3b0\":\"Pending Review\",\"fld4FgQaXttVYeBs6\":\"Webhook\"}}",
+          "headers": [
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "method": "POST",
+          "qs": [],
+          "url": "v0/appjkRayvA0YEjczd/tblalG4gDQFhUYC0D"
+        },
+        "metadata": {
+          "designer": {
+            "x": 600,
+            "y": 0
+          }
+        },
+        "module": "airtable:makeApiCall",
+        "parameters": {
+          "__IMTCONN__": 9132003
+        },
+        "version": 3
+      }
+    ],
+    "metadata": {
+      "designer": {
+        "orphans": []
+      },
+      "instant": true,
+      "scenario": {
+        "sequential": true,
+        "slots": null
+      },
+      "version": 1
+    },
+    "name": "HS Prospect Search - LinkedIn LATAM"
+  },
+  "folderId": 268063,
+  "id": 5843912,
+  "isActive": false,
+  "name": "HS Prospect Search - LinkedIn LATAM",
+  "scheduling": {
+    "maximum_runs_per_minute": 100,
+    "type": "immediately"
+  }
+}

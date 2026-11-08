@@ -1,0 +1,165 @@
+{
+  "blueprint": {
+    "flow": [
+      {
+        "id": 1,
+        "mapper": {
+          "authPass": "",
+          "authUser": "",
+          "bodyType": "",
+          "ca": "",
+          "followAllRedirects": true,
+          "followRedirect": true,
+          "gzip": true,
+          "headers": [
+            {
+              "name": "User-Agent",
+              "value": "HealthSignalsBot/1.0"
+            }
+          ],
+          "method": "get",
+          "parseResponse": true,
+          "qs": [],
+          "rejectUnauthorized": true,
+          "serializeUrl": false,
+          "shareCookies": false,
+          "timeout": "",
+          "url": "https://healthsignals.news/wp-json/wp/v2/posts?per_page=6&orderby=date&order=desc&_fields=id,link,title,excerpt",
+          "useMtls": false,
+          "useQuerystring": false
+        },
+        "metadata": {
+          "designer": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        "module": "http:ActionSendData",
+        "parameters": {
+          "handleErrors": false,
+          "useNewZLibDeCompress": true
+        },
+        "version": 3
+      },
+      {
+        "id": 2,
+        "mapper": {
+          "array": "{{1.data}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 300,
+            "y": 0
+          }
+        },
+        "module": "builtin:BasicFeeder",
+        "parameters": {},
+        "version": 1
+      },
+      {
+        "id": 3,
+        "mapper": {
+          "value": "- {{2.title.rendered}} | {{2.link}} | {{2.excerpt.rendered}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 600,
+            "y": 0
+          }
+        },
+        "module": "util:TextAggregator",
+        "parameters": {
+          "feeder": 2,
+          "otherRowSeparator": "\n",
+          "rowSeparator": "other"
+        },
+        "version": 1
+      },
+      {
+        "id": 4,
+        "mapper": {
+          "max_tokens": "1500",
+          "model": "claude-sonnet-4-6",
+          "textPrompt": "You are the editor of HealthSignals, a healthcare intelligence brief for Latin America and the US. Write a concise WEEKLY newsletter digest in simple HTML, Bloomberg/FT tone (sharp, factual, no hype). Structure: (1) a 2-sentence intro on the week's through-line; (2) for each briefing below, one block: <p><strong>Headline</strong> — one sentence on why it matters. <a href=\"URL\">Read the briefing &rarr;</a></p>; (3) a closing line inviting the reader to forward to a colleague. Use only <p>, <strong>, <em>, <a> tags. This week's briefings (format: title | url | summary):\n{{3.text}}\nReturn ONLY the HTML body, no preamble."
+        },
+        "metadata": {
+          "designer": {
+            "x": 900,
+            "y": 0
+          },
+          "expect": [
+            {
+              "label": "Model",
+              "name": "model",
+              "required": true,
+              "type": "select"
+            },
+            {
+              "label": "Text Prompt",
+              "name": "textPrompt",
+              "required": true,
+              "type": "text"
+            },
+            {
+              "label": "Max Tokens",
+              "name": "max_tokens",
+              "required": true,
+              "type": "uinteger"
+            }
+          ]
+        },
+        "module": "anthropic-claude:simpleTextPrompt",
+        "parameters": {},
+        "version": 1
+      },
+      {
+        "id": 5,
+        "mapper": {
+          "categories": "789169946",
+          "content": "{{4.result}}",
+          "excerpt": "This week in healthcare intelligence for Latin America and the US.",
+          "status": "draft",
+          "title": "HealthSignals Weekly — {{formatDate(now; \"MMM D, YYYY\")}}",
+          "type": "posts"
+        },
+        "metadata": {
+          "designer": {
+            "x": 1200,
+            "y": 0
+          }
+        },
+        "module": "wordpress:createPost",
+        "parameters": {
+          "__IMTCONN__": 8921729
+        },
+        "version": 3
+      }
+    ],
+    "metadata": {
+      "designer": {
+        "orphans": []
+      },
+      "instant": false,
+      "scenario": {
+        "autoCommit": true,
+        "confidential": false,
+        "dataloss": false,
+        "dlq": false,
+        "freshVariables": false,
+        "maxErrors": 3,
+        "roundtrips": 1,
+        "sequential": true
+      },
+      "version": 1
+    },
+    "name": "HS Weekly Digest"
+  },
+  "folderId": 247198,
+  "id": 5454484,
+  "isActive": false,
+  "name": "HS Weekly Digest",
+  "scheduling": {
+    "interval": 604800,
+    "type": "indefinitely"
+  }
+}

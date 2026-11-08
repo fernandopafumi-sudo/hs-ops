@@ -1,0 +1,105 @@
+{
+  "blueprint": {
+    "flow": [
+      {
+        "id": 1,
+        "mapper": {
+          "scope": "roundtrip",
+          "variables": [
+            {
+              "name": "R",
+              "value": "T13 SPLIT_PATH | BRAZIL · GILEAD · MARKET ACCESS\n- T12 RACE | BRAZIL · ANVISA · PHARMA REGULATION\n- T05 GATE_OPENED | MEXICO · COFEPRIS · X"
+            },
+            {
+              "name": "P",
+              "value": "Two parallel horizontal racing tracks run across the middle ground. On the upper track, one large pen races ahead. In the far background right, a small flat silhouette of the twin towers and domes of the National Congress of Brasilia is rendered in a single muted sage-green tone, occupying less than one quarter of the image width. Upper-left zone is kept empty. Crisp edges."
+            },
+            {
+              "name": "C1",
+              "value": "Brazil"
+            },
+            {
+              "name": "C2",
+              "value": "Mexico"
+            },
+            {
+              "name": "C3",
+              "value": ""
+            }
+          ]
+        },
+        "metadata": {
+          "designer": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        "module": "util:SetVariables",
+        "parameters": {},
+        "version": 1
+      },
+      {
+        "id": 2,
+        "mapper": {
+          "scope": "roundtrip",
+          "variables": [
+            {
+              "name": "f1",
+              "value": "1"
+            }
+          ]
+        },
+        "metadata": {
+          "designer": {
+            "x": 300,
+            "y": 0
+          }
+        },
+        "module": "util:SetVariables",
+        "parameters": {},
+        "version": 1
+      },
+      {
+        "id": 3,
+        "mapper": {
+          "data": "A={{replace(1.P; \"/[^.]*(Obelisco|Obelisk|Angel of Independence|National Congress|Brasilia|Brasília|Cartagena|Santiago|Machu Picchu|Panama Canal|Capitol|[Ll]andmark)[^.]*[.]?/g\"; \"\")}}\nB={{replace(1.P; \"/[^.]*(Obelisco|Obelisk|Angel of Independence|National Congress|Brasilia|Brasília|Cartagena|Santiago|Machu Picchu|Panama Canal|Capitol|[Ll]andmark)[^.]*[.]?/\"; \"\")}}\nC={{replace(1.P; \"/National Congress/g\"; \"XX\")}}\nD={{replace(1.P; \"/[^.]*Congress[^.]*\\./\"; \"\")}}\nE={{replace(1.P; \"/(Congress|Capitol)/\"; \"YY\")}}\n",
+          "filename": "hs-lmtest2.txt",
+          "folderId": "131ApKeYrTpSsDSEcKKeboAIt6eodC-AH",
+          "select": "map"
+        },
+        "metadata": {
+          "designer": {
+            "x": 600,
+            "y": 0
+          }
+        },
+        "module": "google-drive:uploadAFile",
+        "parameters": {
+          "__IMTCONN__": 11340939
+        },
+        "version": 4
+      }
+    ],
+    "metadata": {
+      "instant": false,
+      "scenario": {
+        "autoCommit": true,
+        "confidential": false,
+        "dataloss": false,
+        "dlq": false,
+        "maxErrors": 3,
+        "roundtrips": 1,
+        "sequential": false
+      },
+      "version": 1
+    },
+    "name": "[BORRAR] HS test 6424598"
+  },
+  "folderId": null,
+  "id": 6424598,
+  "isActive": false,
+  "name": "[BORRAR] HS test 6424598",
+  "scheduling": {
+    "type": "on-demand"
+  }
+}

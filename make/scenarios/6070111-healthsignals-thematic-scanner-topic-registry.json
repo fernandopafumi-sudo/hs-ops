@@ -1,0 +1,255 @@
+{
+  "blueprint": {
+    "flow": [
+      {
+        "id": 8,
+        "mapper": {
+          "dateTimeRenderOption": "FORMATTED_STRING",
+          "filter": [
+            [
+              {
+                "a": "AO",
+                "o": "exist"
+              }
+            ]
+          ],
+          "from": "drive",
+          "includesHeaders": true,
+          "limit": "500",
+          "sheetId": "Editorial Queue",
+          "spreadsheetId": "1J8ca4Pvp3HTSdHqq9-TZ1H-nF6_fM5R3Jm1bf9bAU8A",
+          "tableFirstRow": "A1:CZ1",
+          "valueRenderOption": "FORMATTED_VALUE"
+        },
+        "metadata": {
+          "designer": {
+            "x": -600,
+            "y": 0
+          }
+        },
+        "module": "google-sheets:filterRows",
+        "parameters": {
+          "__IMTCONN__": 8923977
+        },
+        "version": 2
+      },
+      {
+        "id": 9,
+        "mapper": {
+          "value": "{{8.`40`}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": -300,
+            "y": 0
+          }
+        },
+        "module": "util:TextAggregator",
+        "parameters": {
+          "feeder": 8,
+          "otherRowSeparator": "|",
+          "rowSeparator": "other"
+        },
+        "version": 1
+      },
+      {
+        "id": 1,
+        "mapper": {
+          "dateTimeRenderOption": "FORMATTED_STRING",
+          "filter": [
+            [
+              {
+                "a": "H",
+                "b": "yes",
+                "o": "text:equal"
+              }
+            ]
+          ],
+          "from": "drive",
+          "includesHeaders": true,
+          "limit": "20",
+          "sheetId": "Topic Registry",
+          "spreadsheetId": "1J8ca4Pvp3HTSdHqq9-TZ1H-nF6_fM5R3Jm1bf9bAU8A",
+          "tableFirstRow": "A1:H1",
+          "valueRenderOption": "FORMATTED_VALUE"
+        },
+        "metadata": {
+          "designer": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        "module": "google-sheets:filterRows",
+        "parameters": {
+          "__IMTCONN__": 8923977
+        },
+        "version": 2
+      },
+      {
+        "id": 2,
+        "mapper": {
+          "contents": {
+            "text": {
+              "maxCharacters": 2000
+            }
+          },
+          "includeContent": true,
+          "includeDomains": "{{split(1.`3`; \",\")}}",
+          "numResults": "{{parseNumber(1.`4`; \".\")}}",
+          "query": "{{1.`2`}}",
+          "startPublishedDate": "{{formatDate(addDays(now; -14); \"YYYY-MM-DD\")}}",
+          "type": "neural",
+          "useAutoprompt": true
+        },
+        "metadata": {
+          "designer": {
+            "x": 300,
+            "y": 0
+          }
+        },
+        "module": "exa-ai:performASearchWithContent",
+        "parameters": {
+          "__IMTCONN__": 8984010
+        },
+        "version": 1
+      },
+      {
+        "filter": {
+          "conditions": [
+            [
+              {
+                "a": "{{9.text}}",
+                "b": "{{2.url}}",
+                "o": "text:notcontain"
+              }
+            ]
+          ],
+          "name": "no duplicado"
+        },
+        "id": 3,
+        "mapper": {
+          "max_tokens": 500,
+          "messages": [
+            {
+              "content": "Return exactly one valid JSON object and nothing else: no markdown, no code fences, no text before or after. It must parse with JSON.parse. Each string value under 15 words, single line. If a value would contain a double quote, rephrase to avoid it.\nTITLE: {{2.title}}\nEXCERPT: {{substring(2.text; 0; 900)}}\n\nSchema (all string values):\ncategory: one of [market access, drug pricing, pharma regulation, M&A, clinical catalyst, oncology, manufacturing, digital health, ai healthcare, payer systems, public health, litigation]\ncountry: single country name or Global\ncompany: main institution or company\nangle: one affirmative sentence\nwhy_it_matters: one sentence\npatients_impact: one sentence\nindustry_impact: one sentence\nlitigation_risk: low, medium or high\npriority: breaking, high, medium or low",
+              "inputType": "single",
+              "role": "user"
+            }
+          ],
+          "model": "claude-fable-5"
+        },
+        "metadata": {
+          "designer": {
+            "x": 600,
+            "y": 0
+          }
+        },
+        "module": "anthropic-claude:createAMessage",
+        "parameters": {
+          "__IMTCONN__": 8923111
+        },
+        "version": 1
+      },
+      {
+        "id": 4,
+        "mapper": {
+          "json": "{{replace(replace(3.content[1].text; \"```json\"; \"\"); \"```\"; \"\")}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 750,
+            "y": 0
+          }
+        },
+        "module": "json:ParseJSON",
+        "onerror": [
+          {
+            "id": 6,
+            "metadata": {
+              "designer": {
+                "x": 750,
+                "y": 80
+              }
+            },
+            "module": "builtin:Ignore",
+            "version": 1
+          }
+        ],
+        "parameters": {
+          "type": 444121
+        },
+        "version": 1
+      },
+      {
+        "id": 5,
+        "mapper": {
+          "insertUnformatted": false,
+          "mode": "map",
+          "sheetId": "Editorial Queue",
+          "spreadsheetId": "1J8ca4Pvp3HTSdHqq9-TZ1H-nF6_fM5R3Jm1bf9bAU8A",
+          "tableFirstRow": "A1:CZ1",
+          "valueInputOption": "USER_ENTERED",
+          "values": {
+            "1": "{{now}}",
+            "10": "{{4.industry_impact}}",
+            "11": "{{4.litigation_risk}}",
+            "12": "{{2.url}}",
+            "14": "{{4.priority}}",
+            "15": "draft",
+            "16": "awaiting editor review",
+            "2": "{{2.title}}",
+            "29": "Exa thematic {{1.`1`}}",
+            "3": "{{4.category}}",
+            "30": "{{2.url}}",
+            "31": "{{3.content[1].text}}",
+            "35": "{{now}}",
+            "39": "{{1.`6`}}",
+            "4": "{{switch(trim(4.country); \"United States\"; \"USA\"; \"USA\"; \"USA\"; \"US\"; \"USA\"; \"United States of America\"; \"USA\"; \"Brazil\"; \"Brazil\"; \"Brasil\"; \"Brazil\"; \"Mexico\"; \"Mexico\"; \"México\"; \"Mexico\"; \"Global\"; \"Global\"; \"United Kingdom\"; \"Global\"; \"Switzerland\"; \"Global\"; \"Germany\"; \"Global\"; \"France\"; \"Global\"; \"Denmark\"; \"Global\"; \"Japan\"; \"Global\"; \"China\"; \"Global\"; \"India\"; \"Global\"; \"LATAM\")}}",
+            "40": "{{2.url}}",
+            "5": "{{4.country}}",
+            "6": "{{4.company}}",
+            "7": "{{4.angle}}",
+            "8": "{{4.why_it_matters}}",
+            "9": "{{4.patients_impact}}"
+          }
+        },
+        "metadata": {
+          "designer": {
+            "x": 1050,
+            "y": 0
+          }
+        },
+        "module": "google-sheets:addRow",
+        "onerror": [
+          {
+            "id": 7,
+            "metadata": {
+              "designer": {
+                "x": 1050,
+                "y": 80
+              }
+            },
+            "module": "builtin:Ignore",
+            "version": 1
+          }
+        ],
+        "parameters": {
+          "__IMTCONN__": 8923977
+        },
+        "version": 2
+      }
+    ],
+    "metadata": {
+      "instant": false,
+      "version": 1
+    },
+    "name": "HealthSignals - Thematic Scanner (Topic Registry)"
+  },
+  "folderId": 247198,
+  "id": 6070111,
+  "isActive": true,
+  "name": "HealthSignals - Thematic Scanner (Topic Registry)",
+  "scheduling": {
+    "type": "on-demand"
+  }
+}

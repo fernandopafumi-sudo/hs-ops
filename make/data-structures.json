@@ -1,0 +1,1084 @@
+[
+  {
+    "id": 372799,
+    "name": "ArticleStructure",
+    "spec": [
+      {
+        "default": null,
+        "help": "",
+        "label": null,
+        "multiline": false,
+        "name": "title",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "default": null,
+        "help": "",
+        "label": null,
+        "multiline": false,
+        "name": "excerpt",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "default": null,
+        "help": "",
+        "label": null,
+        "multiline": false,
+        "name": "linkedin post",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "default": null,
+        "help": "",
+        "label": null,
+        "multiline": false,
+        "name": "linkedin article",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "default": null,
+        "help": "",
+        "label": null,
+        "multiline": false,
+        "name": "image prompt",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "default": null,
+        "help": "",
+        "label": null,
+        "multiline": false,
+        "name": "category",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "default": null,
+        "help": "",
+        "label": null,
+        "multiline": false,
+        "name": "region",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "default": null,
+        "help": "",
+        "label": null,
+        "multiline": false,
+        "name": "priority",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "default": null,
+        "help": "",
+        "label": null,
+        "multiline": false,
+        "name": "article",
+        "required": false,
+        "type": "text"
+      }
+    ],
+    "teamId": 2174293
+  },
+  {
+    "id": 383391,
+    "name": "ClaudeMonitor_DailyMetrics",
+    "spec": [
+      {
+        "name": "scenario_id",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "name": "scenario_name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "name": "snapshot_date",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "name": "executions_24h",
+        "required": false,
+        "type": "number"
+      },
+      {
+        "name": "errors_24h",
+        "required": false,
+        "type": "number"
+      },
+      {
+        "name": "error_rate",
+        "required": false,
+        "type": "number"
+      },
+      {
+        "name": "avg_duration_ms",
+        "required": false,
+        "type": "number"
+      },
+      {
+        "name": "p95_duration_ms",
+        "required": false,
+        "type": "number"
+      },
+      {
+        "name": "total_operations",
+        "required": false,
+        "type": "number"
+      },
+      {
+        "name": "total_centicredits",
+        "required": false,
+        "type": "number"
+      },
+      {
+        "name": "dlq_count",
+        "required": false,
+        "type": "number"
+      },
+      {
+        "name": "is_active",
+        "required": false,
+        "type": "boolean"
+      },
+      {
+        "multiline": true,
+        "name": "anomalies_json",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "multiline": true,
+        "name": "recommendations_json",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "multiline": true,
+        "name": "notes",
+        "required": false,
+        "type": "text"
+      }
+    ],
+    "teamId": 2174293
+  },
+  {
+    "id": 444197,
+    "name": "GateB_Editorial_Verdict",
+    "spec": [
+      {
+        "name": "overall_verdict",
+        "type": "text"
+      },
+      {
+        "name": "score",
+        "type": "text"
+      },
+      {
+        "name": "editor_notes",
+        "type": "text"
+      }
+    ],
+    "teamId": 2174293
+  },
+  {
+    "id": 494253,
+    "name": "HS Event Dedup",
+    "spec": [
+      {
+        "label": "Seen at",
+        "name": "seen_at",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "label": "Headline",
+        "name": "headline",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "label": "Batch",
+        "name": "batch",
+        "required": false,
+        "type": "text"
+      }
+    ],
+    "teamId": 2174293
+  },
+  {
+    "id": 516924,
+    "name": "HS gate state (capa 2)",
+    "spec": [
+      {
+        "label": "state",
+        "name": "state",
+        "type": "text"
+      },
+      {
+        "label": "wp_modified",
+        "name": "wp_modified",
+        "type": "text"
+      },
+      {
+        "label": "title",
+        "name": "title",
+        "type": "text"
+      },
+      {
+        "label": "updated_at",
+        "name": "updated_at",
+        "type": "text"
+      },
+      {
+        "label": "run_id",
+        "name": "run_id",
+        "type": "text"
+      },
+      {
+        "label": "notes",
+        "name": "notes",
+        "type": "text"
+      }
+    ],
+    "teamId": 2174293
+  },
+  {
+    "id": 522303,
+    "name": "HS_LinkedIn_Shared",
+    "spec": [
+      {
+        "label": "Shared WP post IDs",
+        "name": "ids",
+        "type": "text"
+      },
+      {
+        "label": "Last note/error",
+        "name": "note",
+        "type": "text"
+      }
+    ],
+    "teamId": 2174293
+  },
+  {
+    "id": 494535,
+    "name": "HS Queue Snapshot",
+    "spec": [
+      {
+        "label": "row",
+        "name": "row",
+        "type": "number"
+      },
+      {
+        "label": "headline",
+        "name": "headline",
+        "type": "text"
+      },
+      {
+        "label": "status",
+        "name": "status",
+        "type": "text"
+      },
+      {
+        "label": "step",
+        "name": "step",
+        "type": "text"
+      },
+      {
+        "label": "post_id",
+        "name": "post_id",
+        "type": "text"
+      },
+      {
+        "label": "category",
+        "name": "category",
+        "type": "text"
+      },
+      {
+        "label": "country",
+        "name": "country",
+        "type": "text"
+      },
+      {
+        "label": "priority",
+        "name": "priority",
+        "type": "text"
+      },
+      {
+        "label": "wp_url",
+        "name": "wp_url",
+        "type": "text"
+      },
+      {
+        "label": "linkedin_url",
+        "name": "linkedin_url",
+        "type": "text"
+      },
+      {
+        "label": "error",
+        "name": "error",
+        "type": "text"
+      },
+      {
+        "label": "li_post_len",
+        "name": "li_post_len",
+        "type": "number"
+      }
+    ],
+    "teamId": 2174293
+  },
+  {
+    "id": 518730,
+    "name": "HS Voices Rules",
+    "spec": [
+      {
+        "name": "version",
+        "type": "text"
+      },
+      {
+        "name": "updated",
+        "type": "text"
+      },
+      {
+        "name": "format",
+        "type": "text"
+      },
+      {
+        "name": "tone",
+        "type": "text"
+      },
+      {
+        "name": "email_structure",
+        "type": "text"
+      },
+      {
+        "name": "fixed_phrases",
+        "type": "text"
+      },
+      {
+        "name": "attachment",
+        "type": "text"
+      },
+      {
+        "name": "question_rules",
+        "type": "text"
+      },
+      {
+        "name": "review_panel",
+        "type": "text"
+      },
+      {
+        "name": "sending",
+        "type": "text"
+      }
+    ],
+    "teamId": 2174293
+  },
+  {
+    "id": 372810,
+    "name": "My data structure",
+    "spec": [
+      {
+        "default": null,
+        "help": "",
+        "label": "Headline",
+        "multiline": false,
+        "name": "headline",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "default": null,
+        "help": "",
+        "label": "Category",
+        "multiline": false,
+        "name": "category",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "default": null,
+        "help": "",
+        "label": "Region",
+        "multiline": false,
+        "name": "region",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "default": null,
+        "help": "",
+        "label": "Country",
+        "multiline": false,
+        "name": "country",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "default": null,
+        "help": "",
+        "label": "Angle",
+        "multiline": false,
+        "name": "angle",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "default": null,
+        "help": "",
+        "label": "Why it matters",
+        "multiline": false,
+        "name": "why_it_matters",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "default": null,
+        "help": "",
+        "label": "Patients impact",
+        "multiline": false,
+        "name": "patients_impact",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "default": null,
+        "help": "",
+        "label": "Industry impact",
+        "multiline": false,
+        "name": "industry_impact",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "default": null,
+        "help": "",
+        "label": "Litigation risk",
+        "multiline": false,
+        "name": "litigation_risk",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "default": null,
+        "help": "",
+        "label": "Source 1",
+        "multiline": false,
+        "name": "source_1",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "default": null,
+        "help": "",
+        "label": "Source 2",
+        "multiline": false,
+        "name": "source_2",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "default": null,
+        "help": "",
+        "label": "Priority",
+        "multiline": false,
+        "name": "priority",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "default": null,
+        "help": "",
+        "label": "Status",
+        "multiline": false,
+        "name": "status",
+        "required": false,
+        "type": "text"
+      }
+    ],
+    "teamId": 2174293
+  },
+  {
+    "id": 376139,
+    "name": "My data structure",
+    "spec": [
+      {
+        "help": "",
+        "label": "Signals",
+        "name": "signals",
+        "required": false,
+        "spec": {
+          "required": false,
+          "spec": [
+            {
+              "default": null,
+              "help": "",
+              "label": null,
+              "multiline": false,
+              "name": "headline",
+              "required": false,
+              "type": "text"
+            },
+            {
+              "default": null,
+              "help": "",
+              "label": null,
+              "multiline": false,
+              "name": "category",
+              "required": false,
+              "type": "text"
+            },
+            {
+              "default": null,
+              "help": "",
+              "label": null,
+              "multiline": false,
+              "name": "region",
+              "required": false,
+              "type": "text"
+            },
+            {
+              "default": null,
+              "help": "",
+              "label": null,
+              "multiline": false,
+              "name": "country",
+              "required": false,
+              "type": "text"
+            },
+            {
+              "default": null,
+              "help": "",
+              "label": null,
+              "multiline": false,
+              "name": "institution_company",
+              "required": false,
+              "type": "text"
+            },
+            {
+              "default": null,
+              "help": "",
+              "label": null,
+              "multiline": false,
+              "name": "angle",
+              "required": false,
+              "type": "text"
+            },
+            {
+              "default": null,
+              "help": "",
+              "label": null,
+              "multiline": false,
+              "name": "why_it_matters",
+              "required": false,
+              "type": "text"
+            },
+            {
+              "default": null,
+              "help": "",
+              "label": null,
+              "multiline": false,
+              "name": "patients_impact",
+              "required": false,
+              "type": "text"
+            },
+            {
+              "default": null,
+              "help": "",
+              "label": null,
+              "multiline": false,
+              "name": "industry_impact",
+              "required": false,
+              "type": "text"
+            },
+            {
+              "default": null,
+              "help": "",
+              "label": null,
+              "multiline": false,
+              "name": "litigation_risk",
+              "required": false,
+              "type": "text"
+            },
+            {
+              "default": null,
+              "help": "",
+              "label": null,
+              "multiline": false,
+              "name": "source_1",
+              "required": false,
+              "type": "text"
+            },
+            {
+              "default": null,
+              "help": "",
+              "label": null,
+              "multiline": false,
+              "name": "source_2",
+              "required": false,
+              "type": "text"
+            },
+            {
+              "default": null,
+              "help": "",
+              "label": null,
+              "multiline": false,
+              "name": "priority",
+              "required": false,
+              "type": "text"
+            },
+            {
+              "default": null,
+              "help": "",
+              "label": null,
+              "multiline": false,
+              "name": "status",
+              "required": false,
+              "type": "text"
+            },
+            {
+              "default": null,
+              "help": "",
+              "label": null,
+              "multiline": false,
+              "name": "current_step",
+              "required": false,
+              "type": "text"
+            },
+            {
+              "default": null,
+              "help": "",
+              "label": null,
+              "multiline": false,
+              "name": "signal_hash",
+              "required": false,
+              "type": "text"
+            }
+          ],
+          "type": "collection"
+        },
+        "type": "array"
+      }
+    ],
+    "teamId": 2174293
+  },
+  {
+    "id": 375976,
+    "name": "My data structure",
+    "spec": [
+      {
+        "help": "",
+        "label": "Signals",
+        "name": "signals",
+        "required": false,
+        "spec": {
+          "required": false,
+          "spec": [
+            {
+              "default": null,
+              "help": "",
+              "label": null,
+              "multiline": false,
+              "name": "headline",
+              "required": false,
+              "type": "text"
+            },
+            {
+              "default": null,
+              "help": "",
+              "label": null,
+              "multiline": false,
+              "name": "category",
+              "required": false,
+              "type": "text"
+            },
+            {
+              "default": null,
+              "help": "",
+              "label": null,
+              "multiline": false,
+              "name": "region",
+              "required": false,
+              "type": "text"
+            },
+            {
+              "default": null,
+              "help": "",
+              "label": null,
+              "multiline": false,
+              "name": "country",
+              "required": false,
+              "type": "text"
+            },
+            {
+              "default": null,
+              "help": "",
+              "label": null,
+              "multiline": false,
+              "name": "institution_company",
+              "required": false,
+              "type": "text"
+            },
+            {
+              "default": null,
+              "help": "",
+              "label": null,
+              "multiline": false,
+              "name": "angle",
+              "required": false,
+              "type": "text"
+            },
+            {
+              "default": null,
+              "help": "",
+              "label": null,
+              "multiline": false,
+              "name": "why_it_matters",
+              "required": false,
+              "type": "text"
+            },
+            {
+              "default": null,
+              "help": "",
+              "label": null,
+              "multiline": false,
+              "name": "patients_impact",
+              "required": false,
+              "type": "text"
+            },
+            {
+              "default": null,
+              "help": "",
+              "label": null,
+              "multiline": false,
+              "name": "industry_impact",
+              "required": false,
+              "type": "text"
+            },
+            {
+              "default": null,
+              "help": "",
+              "label": null,
+              "multiline": false,
+              "name": "litigation_risk",
+              "required": false,
+              "type": "text"
+            },
+            {
+              "default": null,
+              "help": "",
+              "label": null,
+              "multiline": false,
+              "name": "source_1",
+              "required": false,
+              "type": "text"
+            },
+            {
+              "default": null,
+              "help": "",
+              "label": null,
+              "multiline": false,
+              "name": "source_2",
+              "required": false,
+              "type": "text"
+            },
+            {
+              "default": null,
+              "help": "",
+              "label": null,
+              "multiline": false,
+              "name": "priority",
+              "required": false,
+              "type": "text"
+            },
+            {
+              "default": null,
+              "help": "",
+              "label": null,
+              "multiline": false,
+              "name": "status",
+              "required": false,
+              "type": "text"
+            },
+            {
+              "default": null,
+              "help": "",
+              "label": null,
+              "multiline": false,
+              "name": "current_step",
+              "required": false,
+              "type": "text"
+            }
+          ],
+          "type": "collection"
+        },
+        "type": "array"
+      }
+    ],
+    "teamId": 2174293
+  },
+  {
+    "id": 375209,
+    "name": "My data structure",
+    "spec": [
+      {
+        "default": null,
+        "help": "",
+        "label": "Headline",
+        "multiline": false,
+        "name": "headline",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "default": null,
+        "help": "",
+        "label": "Category",
+        "multiline": false,
+        "name": "category",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "default": null,
+        "help": "",
+        "label": "Region",
+        "multiline": false,
+        "name": "region",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "default": null,
+        "help": "",
+        "label": "Country",
+        "multiline": false,
+        "name": "country",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "default": null,
+        "help": "",
+        "label": "Angle",
+        "multiline": false,
+        "name": "angle",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "default": null,
+        "help": "",
+        "label": "Why it matters",
+        "multiline": false,
+        "name": "why_it_matters",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "default": null,
+        "help": "",
+        "label": "Patients impact",
+        "multiline": false,
+        "name": "patients_impact",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "default": null,
+        "help": "",
+        "label": "Industry impact",
+        "multiline": false,
+        "name": "industry_impact",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "default": null,
+        "help": "",
+        "label": "Litigation risk",
+        "multiline": false,
+        "name": "litigation_risk",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "default": null,
+        "help": "",
+        "label": "Source 1",
+        "multiline": false,
+        "name": "source_1",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "default": null,
+        "help": "",
+        "label": "Source 2",
+        "multiline": false,
+        "name": "source_2",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "default": null,
+        "help": "",
+        "label": "Priority",
+        "multiline": false,
+        "name": "priority",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "default": null,
+        "help": "",
+        "label": "Status",
+        "multiline": false,
+        "name": "status",
+        "required": false,
+        "type": "text"
+      }
+    ],
+    "teamId": 2174293
+  },
+  {
+    "id": 547298,
+    "name": "Scanner_Event_Signal_Metadata",
+    "spec": [
+      {
+        "name": "keep",
+        "type": "text"
+      },
+      {
+        "name": "event",
+        "type": "text"
+      },
+      {
+        "name": "speaker",
+        "type": "text"
+      },
+      {
+        "name": "category",
+        "type": "text"
+      },
+      {
+        "name": "country",
+        "type": "text"
+      },
+      {
+        "name": "company",
+        "type": "text"
+      },
+      {
+        "name": "angle",
+        "type": "text"
+      },
+      {
+        "name": "why_it_matters",
+        "type": "text"
+      },
+      {
+        "name": "patients_impact",
+        "type": "text"
+      },
+      {
+        "name": "industry_impact",
+        "type": "text"
+      },
+      {
+        "name": "litigation_risk",
+        "type": "text"
+      },
+      {
+        "name": "priority",
+        "type": "text"
+      }
+    ],
+    "teamId": 2174293
+  },
+  {
+    "id": 444121,
+    "name": "Scanner_Signal_Metadata",
+    "spec": [
+      {
+        "name": "category",
+        "type": "text"
+      },
+      {
+        "name": "country",
+        "type": "text"
+      },
+      {
+        "name": "company",
+        "type": "text"
+      },
+      {
+        "name": "angle",
+        "type": "text"
+      },
+      {
+        "name": "why_it_matters",
+        "type": "text"
+      },
+      {
+        "name": "patients_impact",
+        "type": "text"
+      },
+      {
+        "name": "industry_impact",
+        "type": "text"
+      },
+      {
+        "name": "litigation_risk",
+        "type": "text"
+      },
+      {
+        "name": "priority",
+        "type": "text"
+      }
+    ],
+    "teamId": 2174293
+  },
+  {
+    "id": 451740,
+    "name": "X OAuth Tokens",
+    "spec": [
+      {
+        "label": "Client ID",
+        "name": "client_id",
+        "type": "text"
+      },
+      {
+        "label": "Client Secret",
+        "name": "client_secret",
+        "type": "text"
+      },
+      {
+        "label": "Access Token",
+        "name": "access_token",
+        "type": "text"
+      },
+      {
+        "label": "Refresh Token",
+        "name": "refresh_token",
+        "type": "text"
+      },
+      {
+        "label": "Updated At",
+        "name": "updated_at",
+        "type": "text"
+      }
+    ],
+    "teamId": 2174293
+  }
+]

@@ -1,0 +1,712 @@
+{
+  "blueprint": {
+    "flow": [
+      {
+        "id": 30,
+        "mapper": {
+          "key": "shared",
+          "returnWrapped": false
+        },
+        "metadata": {
+          "designer": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        "module": "datastore:GetRecord",
+        "parameters": {
+          "datastore": 164495
+        },
+        "version": 1
+      },
+      {
+        "id": 31,
+        "mapper": {
+          "authPass": "",
+          "authUser": "",
+          "bodyType": "",
+          "ca": "",
+          "followAllRedirects": true,
+          "followRedirect": true,
+          "gzip": true,
+          "headers": [
+            {
+              "name": "User-Agent",
+              "value": "HealthSignalsBot/1.0"
+            }
+          ],
+          "method": "get",
+          "parseResponse": true,
+          "qs": [],
+          "rejectUnauthorized": true,
+          "serializeUrl": false,
+          "shareCookies": false,
+          "timeout": "",
+          "url": "https://healthsignals.news/wp-json/wp/v2/posts?status=publish&per_page=15&orderby=date&order=desc&after={{formatDate(addDays(now; -10); \"YYYY-MM-DDTHH:mm:ss\")}}&_fields=id,date",
+          "useMtls": false,
+          "useQuerystring": false
+        },
+        "metadata": {
+          "designer": {
+            "x": 300,
+            "y": 0
+          }
+        },
+        "module": "http:ActionSendData",
+        "parameters": {
+          "handleErrors": false,
+          "useNewZLibDeCompress": true
+        },
+        "version": 3
+      },
+      {
+        "id": 32,
+        "mapper": {
+          "array": "{{31.data}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 600,
+            "y": 0
+          }
+        },
+        "module": "builtin:BasicFeeder",
+        "parameters": {},
+        "version": 1
+      },
+      {
+        "filter": {
+          "conditions": [
+            [
+              {
+                "a": ",{{30.ids}},",
+                "b": ",{{32.id}},",
+                "o": "text:notcontain"
+              }
+            ]
+          ],
+          "name": "no compartido aun"
+        },
+        "id": 33,
+        "mapper": {
+          "value": "{{32.id}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 900,
+            "y": 0
+          }
+        },
+        "module": "util:TextAggregator",
+        "parameters": {
+          "feeder": 32,
+          "otherRowSeparator": ",",
+          "rowSeparator": "other"
+        },
+        "version": 1
+      },
+      {
+        "filter": {
+          "conditions": [
+            [
+              {
+                "a": "{{33.text}}",
+                "o": "exist"
+              },
+              {
+                "a": "{{33.text}}",
+                "b": "",
+                "o": "text:notequal"
+              }
+            ]
+          ],
+          "name": "hay nota pendiente"
+        },
+        "id": 34,
+        "mapper": {
+          "name": "pick",
+          "scope": "roundtrip",
+          "value": "{{first(split(33.text; \",\"))}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 1200,
+            "y": 0
+          }
+        },
+        "module": "util:SetVariable2",
+        "parameters": {},
+        "version": 1
+      },
+      {
+        "id": 36,
+        "mapper": {
+          "data": {
+            "ids": "{{30.ids}},{{34.pick}}",
+            "note": "marcado {{now}}"
+          },
+          "key": "shared",
+          "overwrite": true
+        },
+        "metadata": {
+          "designer": {
+            "x": 1500,
+            "y": 0
+          }
+        },
+        "module": "datastore:AddRecord",
+        "parameters": {
+          "datastore": 164495
+        },
+        "version": 1
+      },
+      {
+        "id": 35,
+        "mapper": {
+          "authPass": "",
+          "authUser": "",
+          "bodyType": "",
+          "ca": "",
+          "followAllRedirects": true,
+          "followRedirect": true,
+          "gzip": true,
+          "headers": [
+            {
+              "name": "User-Agent",
+              "value": "HealthSignalsBot/1.0"
+            }
+          ],
+          "method": "get",
+          "parseResponse": true,
+          "qs": [],
+          "rejectUnauthorized": true,
+          "serializeUrl": false,
+          "shareCookies": false,
+          "timeout": "",
+          "url": "https://healthsignals.news/wp-json/wp/v2/posts/{{34.pick}}?_fields=id,link,title,excerpt,jetpack_featured_media_url",
+          "useMtls": false,
+          "useQuerystring": false
+        },
+        "metadata": {
+          "designer": {
+            "x": 1800,
+            "y": 0
+          }
+        },
+        "module": "http:ActionSendData",
+        "onerror": [
+          {
+            "id": 51,
+            "mapper": {
+              "data": {
+                "ids": "",
+                "note": "WP fetch fallo {{now}} post {{34.pick}}"
+              },
+              "key": "last_error",
+              "overwrite": true
+            },
+            "metadata": {
+              "designer": {
+                "x": 1800,
+                "y": 300
+              }
+            },
+            "module": "datastore:AddRecord",
+            "parameters": {
+              "datastore": 164495
+            },
+            "version": 1
+          }
+        ],
+        "parameters": {
+          "handleErrors": false,
+          "useNewZLibDeCompress": true
+        },
+        "version": 3
+      },
+      {
+        "id": 37,
+        "mapper": {
+          "dateTimeRenderOption": "FORMATTED_STRING",
+          "filter": [
+            [
+              {
+                "a": "W",
+                "b": "{{34.pick}}",
+                "o": "text:equal"
+              }
+            ]
+          ],
+          "from": "drive",
+          "includesHeaders": true,
+          "limit": "1",
+          "sheetId": "Editorial Queue",
+          "sortOrder": "asc",
+          "spreadsheetId": "1J8ca4Pvp3HTSdHqq9-TZ1H-nF6_fM5R3Jm1bf9bAU8A",
+          "tableFirstRow": "A1:CZ1",
+          "valueRenderOption": "FORMATTED_VALUE"
+        },
+        "metadata": {
+          "designer": {
+            "x": 2100,
+            "y": 0
+          }
+        },
+        "module": "google-sheets:filterRows",
+        "parameters": {
+          "__IMTCONN__": 8923977
+        },
+        "version": 2
+      },
+      {
+        "id": 38,
+        "mapper": {
+          "value": "{{37.`__ROW_NUMBER__`}}§§{{37.`41`}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 2400,
+            "y": 0
+          }
+        },
+        "module": "util:TextAggregator",
+        "parameters": {
+          "feeder": 37,
+          "otherRowSeparator": "\n",
+          "rowSeparator": "other"
+        },
+        "version": 1
+      },
+      {
+        "id": 39,
+        "mapper": {
+          "name": "row",
+          "scope": "roundtrip",
+          "value": "{{if(38.text; first(split(38.text; \"§§\")); \"\")}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 2700,
+            "y": 0
+          }
+        },
+        "module": "util:SetVariable2",
+        "parameters": {},
+        "version": 1
+      },
+      {
+        "id": 45,
+        "mapper": {
+          "name": "title_clean",
+          "scope": "roundtrip",
+          "value": "{{replace(replace(replace(replace(replace(replace(replace(replace(35.data.title.rendered; \"&#8217;\"; \"’\"); \"&#8216;\"; \"‘\"); \"&#8211;\"; \"–\"); \"&#8212;\"; \"—\"); \"&#8220;\"; \"“\"); \"&#8221;\"; \"”\"); \"&#038;\"; \"&\"); \"&amp;\"; \"&\")}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 3000,
+            "y": 0
+          }
+        },
+        "module": "util:SetVariable2",
+        "parameters": {},
+        "version": 1
+      },
+      {
+        "id": 40,
+        "mapper": {
+          "name": "fallback",
+          "scope": "roundtrip",
+          "value": "{{45.title_clean}}\n\n{{trim(replace(replace(replace(replace(replace(replace(replace(replace(stripHTML(35.data.excerpt.rendered); \"&#8217;\"; \"’\"); \"&#8216;\"; \"‘\"); \"&#8211;\"; \"–\"); \"&#8212;\"; \"—\"); \"&#8220;\"; \"“\"); \"&#8221;\"; \"”\"); \"&#038;\"; \"&\"); \"&amp;\"; \"&\"))}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 3300,
+            "y": 0
+          }
+        },
+        "module": "util:SetVariable2",
+        "parameters": {},
+        "version": 1
+      },
+      {
+        "id": 41,
+        "mapper": {
+          "name": "copy",
+          "scope": "roundtrip",
+          "value": "{{ifempty(trim(replace(38.text; 39.row + \"§§\"; \"\")); 40.fallback)}}\n\nFull analysis: {{35.data.link}}?utm_source=linkedin&utm_medium=social&utm_campaign=hs_company_page"
+        },
+        "metadata": {
+          "designer": {
+            "x": 3600,
+            "y": 0
+          }
+        },
+        "module": "util:SetVariable2",
+        "parameters": {},
+        "version": 1
+      },
+      {
+        "filter": {
+          "conditions": [
+            [
+              {
+                "a": "{{35.data.jetpack_featured_media_url}}",
+                "o": "exist"
+              },
+              {
+                "a": "{{35.data.jetpack_featured_media_url}}",
+                "b": "",
+                "o": "text:notequal"
+              }
+            ]
+          ],
+          "name": "tiene imagen"
+        },
+        "id": 42,
+        "mapper": {
+          "altText": "{{45.title_clean}}",
+          "content": "{{41.copy}}",
+          "feedDistribution": "MAIN_FEED",
+          "isReshareDisabledByAuthor": false,
+          "method": "link",
+          "organization": "urn:li:organization:122604026",
+          "title": "{{45.title_clean}}",
+          "url": "{{35.data.jetpack_featured_media_url}}",
+          "visibility": "PUBLIC"
+        },
+        "metadata": {
+          "designer": {
+            "x": 3900,
+            "y": 0
+          }
+        },
+        "module": "linkedin:CreateCompanyImagePost",
+        "onerror": [
+          {
+            "id": 52,
+            "mapper": {
+              "data": {
+                "ids": "",
+                "note": "LinkedIn post fallo {{now}} post {{34.pick}}: {{ifempty(42.error.message; \"unknown\")}}"
+              },
+              "key": "last_error",
+              "overwrite": true
+            },
+            "metadata": {
+              "designer": {
+                "x": 3900,
+                "y": 300
+              }
+            },
+            "module": "datastore:AddRecord",
+            "parameters": {
+              "datastore": 164495
+            },
+            "version": 1
+          }
+        ],
+        "parameters": {
+          "__IMTCONN__": 9040242
+        },
+        "version": 2
+      },
+      {
+        "id": 60,
+        "mapper": null,
+        "metadata": {
+          "designer": {
+            "x": 4100,
+            "y": 0
+          }
+        },
+        "module": "builtin:BasicRouter",
+        "routes": [
+          {
+            "flow": [
+              {
+                "filter": {
+                  "conditions": [
+                    [
+                      {
+                        "a": "{{39.row}}",
+                        "b": "",
+                        "o": "text:notequal"
+                      }
+                    ]
+                  ],
+                  "name": "nota esta en la cola"
+                },
+                "id": 44,
+                "mapper": {
+                  "from": "drive",
+                  "includesHeaders": true,
+                  "mode": "select",
+                  "rowNumber": "{{39.row}}",
+                  "sheetId": "Editorial Queue",
+                  "spreadsheetId": "1J8ca4Pvp3HTSdHqq9-TZ1H-nF6_fM5R3Jm1bf9bAU8A",
+                  "useColumnHeaders": true,
+                  "valueInputOption": "USER_ENTERED",
+                  "values": {
+                    "Current Step": "distribuido LinkedIn - {{now}}",
+                    "Error": "",
+                    "LinkedIn URL": "{{now}} | {{42.id}}"
+                  }
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 4400,
+                    "y": -200
+                  }
+                },
+                "module": "google-sheets:updateRow",
+                "parameters": {
+                  "__IMTCONN__": 8923977
+                },
+                "version": 2
+              }
+            ]
+          },
+          {
+            "flow": [
+              {
+                "id": 20,
+                "mapper": {
+                  "name": "tweet_text",
+                  "scope": "roundtrip",
+                  "value": "{{substring(45.title_clean; 0; 230)}}"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 4400,
+                    "y": 100
+                  }
+                },
+                "module": "util:SetVariable2",
+                "parameters": {},
+                "version": 1
+              },
+              {
+                "id": 21,
+                "mapper": {
+                  "key": "main",
+                  "returnWrapped": false
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 4700,
+                    "y": 100
+                  }
+                },
+                "module": "datastore:GetRecord",
+                "parameters": {
+                  "datastore": 128118
+                },
+                "version": 1
+              },
+              {
+                "id": 22,
+                "mapper": {
+                  "authPass": "{{21.client_secret}}",
+                  "authUser": "{{21.client_id}}",
+                  "bodyType": "x_www_form_urlencoded",
+                  "ca": "",
+                  "followAllRedirects": true,
+                  "followRedirect": true,
+                  "formFields": [
+                    {
+                      "key": "grant_type",
+                      "value": "refresh_token"
+                    },
+                    {
+                      "key": "refresh_token",
+                      "value": "{{21.refresh_token}}"
+                    },
+                    {
+                      "key": "client_id",
+                      "value": "{{21.client_id}}"
+                    }
+                  ],
+                  "gzip": true,
+                  "headers": [],
+                  "method": "post",
+                  "parseResponse": true,
+                  "qs": [],
+                  "rejectUnauthorized": true,
+                  "serializeUrl": false,
+                  "shareCookies": false,
+                  "timeout": "",
+                  "url": "https://api.x.com/2/oauth2/token",
+                  "useMtls": false,
+                  "useQuerystring": false
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 5000,
+                    "y": 100
+                  }
+                },
+                "module": "http:ActionSendData",
+                "onerror": [
+                  {
+                    "id": 25,
+                    "mapper": {
+                      "data": {
+                        "ids": "",
+                        "note": "X token refresh fallo {{now}} - reautorizar con scenario 5882000"
+                      },
+                      "key": "last_error",
+                      "overwrite": true
+                    },
+                    "metadata": {
+                      "designer": {
+                        "x": 5000,
+                        "y": 400
+                      }
+                    },
+                    "module": "datastore:AddRecord",
+                    "parameters": {
+                      "datastore": 164495
+                    },
+                    "version": 1
+                  }
+                ],
+                "parameters": {
+                  "handleErrors": true,
+                  "useNewZLibDeCompress": true
+                },
+                "version": 3
+              },
+              {
+                "id": 23,
+                "mapper": {
+                  "data": {
+                    "access_token": "{{22.data.access_token}}",
+                    "client_id": "{{21.client_id}}",
+                    "client_secret": "{{21.client_secret}}",
+                    "refresh_token": "{{22.data.refresh_token}}",
+                    "updated_at": "{{now}}"
+                  },
+                  "key": "main",
+                  "overwrite": true
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 5300,
+                    "y": 100
+                  }
+                },
+                "module": "datastore:AddRecord",
+                "parameters": {
+                  "datastore": 128118
+                },
+                "version": 1
+              },
+              {
+                "id": 24,
+                "mapper": {
+                  "authPass": "",
+                  "authUser": "",
+                  "bodyType": "raw",
+                  "ca": "",
+                  "contentType": "application/json",
+                  "data": "{\"text\": \"{{20.tweet_text}} {{35.data.link}}\"}",
+                  "followAllRedirects": true,
+                  "followRedirect": true,
+                  "gzip": true,
+                  "headers": [
+                    {
+                      "name": "Authorization",
+                      "value": "<<REDACTED>>"
+                    }
+                  ],
+                  "method": "post",
+                  "parseResponse": true,
+                  "qs": [],
+                  "rejectUnauthorized": true,
+                  "serializeUrl": false,
+                  "shareCookies": false,
+                  "timeout": "",
+                  "url": "https://api.x.com/2/tweets",
+                  "useMtls": false,
+                  "useQuerystring": false
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 5600,
+                    "y": 100
+                  }
+                },
+                "module": "http:ActionSendData",
+                "onerror": [
+                  {
+                    "id": 26,
+                    "mapper": {
+                      "data": {
+                        "ids": "",
+                        "note": "X publish fallo {{now}} post {{34.pick}}"
+                      },
+                      "key": "last_error",
+                      "overwrite": true
+                    },
+                    "metadata": {
+                      "designer": {
+                        "x": 5600,
+                        "y": 400
+                      }
+                    },
+                    "module": "datastore:AddRecord",
+                    "parameters": {
+                      "datastore": 164495
+                    },
+                    "version": 1
+                  }
+                ],
+                "parameters": {
+                  "handleErrors": true,
+                  "useNewZLibDeCompress": true
+                },
+                "version": 3
+              }
+            ]
+          }
+        ],
+        "version": 1
+      }
+    ],
+    "metadata": {
+      "designer": {
+        "orphans": []
+      },
+      "instant": false,
+      "scenario": {
+        "autoCommit": true,
+        "autoCommitTriggerLast": true,
+        "confidential": false,
+        "dataloss": false,
+        "dlq": false,
+        "freshVariables": false,
+        "maxErrors": 3,
+        "roundtrips": 1,
+        "sequential": true,
+        "slots": null
+      },
+      "version": 1
+    },
+    "name": "HS Social Publisher v3"
+  },
+  "folderId": 247198,
+  "id": 6508650,
+  "isActive": true,
+  "name": "HS Social Publisher v3",
+  "scheduling": {
+    "days": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "time": "08:40",
+    "type": "weekly"
+  }
+}

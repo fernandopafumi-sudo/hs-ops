@@ -1,0 +1,189 @@
+{
+  "blueprint": {
+    "flow": [
+      {
+        "id": 1,
+        "mapper": {},
+        "metadata": {
+          "designer": {
+            "x": 0,
+            "y": 0
+          },
+          "parameters": [
+            {
+              "label": "Webhook",
+              "name": "hook",
+              "required": true,
+              "type": "hook:gateway-webhook"
+            },
+            {
+              "label": "Maximum number of results",
+              "name": "maxResults",
+              "type": "number"
+            }
+          ],
+          "restore": {
+            "parameters": {
+              "hook": {
+                "data": {
+                  "editable": "true"
+                },
+                "label": "X OAuth Callback - HealthSignals"
+              }
+            }
+          }
+        },
+        "module": "gateway:CustomWebHook",
+        "parameters": {
+          "hook": 2666530,
+          "maxResults": 1
+        },
+        "version": 1
+      },
+      {
+        "id": 2,
+        "mapper": {
+          "key": "main",
+          "returnWrapped": false
+        },
+        "metadata": {
+          "designer": {
+            "x": 300,
+            "y": 0
+          }
+        },
+        "module": "datastore:GetRecord",
+        "parameters": {
+          "datastore": 128118
+        },
+        "version": 1
+      },
+      {
+        "id": 3,
+        "mapper": {
+          "authPass": "{{2.client_secret}}",
+          "authUser": "{{2.client_id}}",
+          "bodyType": "x_www_form_urlencoded",
+          "ca": "",
+          "followAllRedirects": true,
+          "followRedirect": true,
+          "formFields": [
+            {
+              "key": "grant_type",
+              "value": "authorization_code"
+            },
+            {
+              "key": "code",
+              "value": "{{1.code}}"
+            },
+            {
+              "key": "redirect_uri",
+              "value": "<<REDACTED>>"
+            },
+            {
+              "key": "code_verifier",
+              "value": "hs-healthsignals-x-oauth-code-verifier-2026-make-integration"
+            },
+            {
+              "key": "client_id",
+              "value": "{{2.client_id}}"
+            }
+          ],
+          "gzip": true,
+          "headers": [],
+          "method": "post",
+          "parseResponse": true,
+          "qs": [],
+          "rejectUnauthorized": true,
+          "serializeUrl": false,
+          "shareCookies": false,
+          "timeout": "",
+          "url": "https://api.x.com/2/oauth2/token",
+          "useMtls": false,
+          "useQuerystring": false
+        },
+        "metadata": {
+          "designer": {
+            "x": 600,
+            "y": 0
+          }
+        },
+        "module": "http:ActionSendData",
+        "parameters": {
+          "handleErrors": false,
+          "useNewZLibDeCompress": true
+        },
+        "version": 3
+      },
+      {
+        "id": 4,
+        "mapper": {
+          "data": {
+            "access_token": "{{3.data.access_token}}",
+            "client_id": "{{2.client_id}}",
+            "client_secret": "{{2.client_secret}}",
+            "refresh_token": "{{3.data.refresh_token}}",
+            "updated_at": "{{now}}"
+          },
+          "key": "main",
+          "overwrite": true
+        },
+        "metadata": {
+          "designer": {
+            "x": 900,
+            "y": 0
+          }
+        },
+        "module": "datastore:AddRecord",
+        "parameters": {
+          "datastore": 128118
+        },
+        "version": 1
+      },
+      {
+        "id": 5,
+        "mapper": {
+          "body": "X conectado OK - ya podes cerrar esta ventana y volver al chat.",
+          "headers": [],
+          "status": "200"
+        },
+        "metadata": {
+          "designer": {
+            "x": 1200,
+            "y": 0
+          }
+        },
+        "module": "gateway:WebhookRespond",
+        "version": 1
+      }
+    ],
+    "metadata": {
+      "designer": {
+        "orphans": []
+      },
+      "instant": true,
+      "scenario": {
+        "autoCommit": true,
+        "autoCommitTriggerLast": true,
+        "confidential": false,
+        "dataloss": false,
+        "dlq": false,
+        "freshVariables": false,
+        "maxErrors": 3,
+        "roundtrips": 1,
+        "sequential": false,
+        "slots": null
+      },
+      "version": 1
+    },
+    "name": "HS X OAuth Setup"
+  },
+  "folderId": 247198,
+  "id": 5882000,
+  "isActive": true,
+  "name": "HS X OAuth Setup",
+  "scheduling": {
+    "maximum_runs_per_minute": 100,
+    "type": "immediately"
+  }
+}

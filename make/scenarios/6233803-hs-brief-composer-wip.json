@@ -1,0 +1,145 @@
+{
+  "blueprint": {
+    "flow": [
+      {
+        "id": 1,
+        "mapper": {
+          "authPass": "",
+          "authUser": "",
+          "bodyType": "",
+          "ca": "",
+          "followAllRedirects": true,
+          "followRedirect": true,
+          "gzip": true,
+          "headers": [
+            {
+              "name": "User-Agent",
+              "value": "HealthSignalsBot/1.0"
+            }
+          ],
+          "method": "get",
+          "parseResponse": true,
+          "qs": [],
+          "rejectUnauthorized": true,
+          "serializeUrl": false,
+          "shareCookies": false,
+          "timeout": "",
+          "url": "https://healthsignals.news/wp-json/wp/v2/posts?per_page=100&orderby=date&order=desc&after={{formatDate(addDays(now; -15); \"YYYY-MM-DDTHH:mm:ss\")}}&_fields=id,link,title,excerpt,categories,date",
+          "useMtls": false,
+          "useQuerystring": false
+        },
+        "metadata": {
+          "designer": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        "module": "http:ActionSendData",
+        "parameters": {
+          "handleErrors": false,
+          "useNewZLibDeCompress": true
+        },
+        "version": 3
+      },
+      {
+        "id": 2,
+        "mapper": {
+          "array": "{{1.data}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 300,
+            "y": 0
+          }
+        },
+        "module": "builtin:BasicFeeder",
+        "parameters": {},
+        "version": 1
+      },
+      {
+        "id": 3,
+        "mapper": {
+          "value": "- {{2.title.rendered}} | {{2.link}} | cats:{{join(2.categories; \",\")}} | {{2.date}} | {{2.excerpt.rendered}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 600,
+            "y": 0
+          }
+        },
+        "module": "util:TextAggregator",
+        "parameters": {
+          "feeder": 2,
+          "otherRowSeparator": "\n",
+          "rowSeparator": "other"
+        },
+        "version": 1
+      },
+      {
+        "id": 4,
+        "mapper": {
+          "max_tokens": 4000,
+          "model": "claude-sonnet-4-6",
+          "textPrompt": "You are the editor of The HealthSignals Brief, a fortnightly pharma & healthcare intelligence brief for Latin America and the US, Bloomberg/FT tone. From the published articles below (title | url | cats:categoryIDs | date | excerpt), produce ONE valid JSON object and nothing else. Category IDs: 789154359=LatAm Focus, 286880753=Policy & Markets, 21583=Pharma, 2674268=Pharma, 1113941=US Healthcare, 8782=HealthTech, 1346276=HealthTech. Derive Country from title/excerpt. JSON: {\"signal_html\":\"2-3 sentence thesis\",\"sections\":[{\"category\":\"LatAm Focus\",\"stories\":[{\"country\":\"Mexico\",\"headline\":\"...\",\"url\":\"...\",\"takeaway\":\"one sentence\"}]}],\"regulatory_radar\":[{\"country\":\"Mexico\",\"text\":\"what to watch\"}]}. Rules: five categories in order [LatAm Focus, Policy & Markets, Pharma, US Healthcare, HealthTech]; balance countries (max 3 per country); radar 6 items >=5 countries; EXPAND every acronym on first use (CMS = Centers for Medicare & Medicaid Services, PBM = pharmacy benefit manager, HHS = Department of Health and Human Services; exceptions GLP-1, FDA, EMA, WHO). Return ONLY JSON.\n\nArticles:\n{{3.text}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 900,
+            "y": 0
+          }
+        },
+        "module": "anthropic-claude:simpleTextPrompt",
+        "parameters": {
+          "__IMTCONN__": 8923111
+        },
+        "version": 1
+      },
+      {
+        "id": 5,
+        "mapper": {
+          "body": "{\"typecast\":true,\"fields\":{\"Issue\":\"Issue (Make auto {{formatDate(now; \\\"YYYY-MM-DD\\\")}})\",\"Status\":\"Draft\",\"Period_Start\":\"{{formatDate(addDays(now; -15); \\\"YYYY-MM-DD\\\")}}\",\"Period_End\":\"{{formatDate(now; \\\"YYYY-MM-DD\\\")}}\",\"Article_Count\":{{length(1.data)}},\"Notes\":\"Auto-created by HS Brief Composer WIP via makeApiCall\"}}",
+          "headers": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "method": "POST",
+          "qs": [],
+          "url": "v0/appd73iOSApIFksdP/tblxxMvi8Xx2UAcDv"
+        },
+        "metadata": {
+          "designer": {
+            "x": 1200,
+            "y": 0
+          }
+        },
+        "module": "airtable:makeApiCall",
+        "parameters": {
+          "__IMTCONN__": 9132003
+        },
+        "version": 3
+      }
+    ],
+    "metadata": {
+      "designer": {
+        "orphans": []
+      },
+      "instant": false,
+      "scenario": {
+        "autoCommit": true,
+        "maxErrors": 3,
+        "sequential": true
+      },
+      "version": 1
+    },
+    "name": "HS Brief — Composer (WIP)"
+  },
+  "folderId": 247198,
+  "id": 6233803,
+  "isActive": true,
+  "name": "HS Brief — Composer (WIP)",
+  "scheduling": {
+    "type": "on-demand"
+  }
+}

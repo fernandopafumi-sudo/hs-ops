@@ -1,0 +1,319 @@
+{
+  "blueprint": {
+    "flow": [
+      {
+        "id": 13,
+        "mapper": {
+          "dateTimeRenderOption": "FORMATTED_STRING",
+          "fieldType": "string",
+          "filter": [
+            [
+              {
+                "a": "AO",
+                "o": "exist"
+              }
+            ]
+          ],
+          "from": "drive",
+          "includesHeaders": true,
+          "limit": "300",
+          "orderBy": "B",
+          "sheetId": "Editorial Queue",
+          "sortOrder": "desc",
+          "spreadsheetId": "1J8ca4Pvp3HTSdHqq9-TZ1H-nF6_fM5R3Jm1bf9bAU8A",
+          "tableFirstRow": "A1:CZ1",
+          "valueRenderOption": "FORMATTED_VALUE"
+        },
+        "metadata": {
+          "designer": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        "module": "google-sheets:filterRows",
+        "parameters": {
+          "__IMTCONN__": 8923977
+        },
+        "version": 2
+      },
+      {
+        "id": 91,
+        "mapper": {
+          "value": "{{13.`40`}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 150,
+            "y": 0
+          }
+        },
+        "module": "util:TextAggregator",
+        "parameters": {
+          "feeder": 13,
+          "otherRowSeparator": "|",
+          "rowSeparator": "other"
+        },
+        "version": 1
+      },
+      {
+        "id": 240,
+        "mapper": {
+          "filterDateFrom": "{{formatDate(addDays(now; -14); \"YYYY-MM-DD\")}}",
+          "gzip": true,
+          "maxResults": 30,
+          "url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/press-releases/rss.xml"
+        },
+        "metadata": {
+          "designer": {
+            "x": 300,
+            "y": 0
+          }
+        },
+        "module": "rss:ActionReadArticles",
+        "parameters": {
+          "include": ""
+        },
+        "version": 4
+      },
+      {
+        "filter": {
+          "conditions": [
+            [
+              {
+                "a": "{{91.text}}",
+                "b": "{{240.url}}",
+                "o": "text:notcontain"
+              },
+              {
+                "a": "{{lower(240.title)}}",
+                "b": "consent decree",
+                "o": "text:notcontain"
+              },
+              {
+                "a": "{{lower(240.title)}}",
+                "b": "charges against",
+                "o": "text:notcontain"
+              },
+              {
+                "a": "{{lower(240.title)}}",
+                "b": "indict",
+                "o": "text:notcontain"
+              },
+              {
+                "a": "{{lower(240.title)}}",
+                "b": "counterfeit",
+                "o": "text:notcontain"
+              },
+              {
+                "a": "{{lower(240.title)}}",
+                "b": "tobacco",
+                "o": "text:notcontain"
+              },
+              {
+                "a": "{{lower(240.title)}}",
+                "b": "e-cigarette",
+                "o": "text:notcontain"
+              },
+              {
+                "a": "{{lower(240.title)}}",
+                "b": "vape",
+                "o": "text:notcontain"
+              },
+              {
+                "a": "{{lower(240.title)}}",
+                "b": "sentenced",
+                "o": "text:notcontain"
+              },
+              {
+                "a": "{{lower(240.title)}}",
+                "b": "pleads guilty",
+                "o": "text:notcontain"
+              },
+              {
+                "a": "{{lower(240.title)}}",
+                "b": "warning letter",
+                "o": "text:notcontain"
+              }
+            ]
+          ],
+          "name": "no duplicado + no enforcement"
+        },
+        "id": 241,
+        "mapper": {
+          "max_tokens": 1500,
+          "messages": [
+            {
+              "content": "Return exactly one valid JSON object and nothing else: no markdown, no code fences, no text before or after. It must parse with JSON.parse. Each string value under 15 words, single line. If a value would contain a double quote, rephrase to avoid it.\nTITLE: {{240.title}}\nEXCERPT: {{substring(240.description; 0; 900)}}\nSOURCE: official U.S. FDA press release. If it announces an approval, authorization or clearance of a new drug, biologic, gene/cell therapy, vaccine or device, or a first-of-its-kind treatment, set priority to high (breaking if it is the first therapy for a disease or a new mechanism) and category to pharma regulation or clinical catalyst.\n\nSchema (all string values):\ncategory: one of [market access, drug pricing, pharma regulation, M&A, clinical catalyst, oncology, manufacturing, digital health, ai healthcare, payer systems, public health, litigation, health systems & disease burden]\ncountry: single country name or Global\ncompany: main institution or company\nangle: one affirmative sentence\nwhy_it_matters: one sentence\npatients_impact: one sentence\nindustry_impact: one sentence\nlitigation_risk: low, medium or high\npriority: breaking, high, medium or low",
+              "inputType": "single",
+              "role": "user"
+            }
+          ],
+          "model": "claude-fable-5"
+        },
+        "metadata": {
+          "designer": {
+            "x": 450,
+            "y": 0
+          }
+        },
+        "module": "anthropic-claude:createAMessage",
+        "parameters": {
+          "__IMTCONN__": 8923111
+        },
+        "version": 1
+      },
+      {
+        "id": 242,
+        "mapper": {
+          "json": "{{replace(replace(join(map(241.content; \"text\"); \"\"); \"```json\"; \"\"); \"```\"; \"\")}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 600,
+            "y": 0
+          }
+        },
+        "module": "json:ParseJSON",
+        "onerror": [
+          {
+            "id": 243,
+            "metadata": {
+              "designer": {
+                "x": 1050,
+                "y": 80
+              }
+            },
+            "module": "builtin:Ignore",
+            "version": 1
+          }
+        ],
+        "parameters": {
+          "type": 444121
+        },
+        "version": 1
+      },
+      {
+        "id": 244,
+        "mapper": {
+          "data": {
+            "batch": "SCAN-FDA",
+            "headline": "{{240.title}}",
+            "seen_at": "{{now}}"
+          },
+          "key": "fda~{{md5(240.url)}}",
+          "overwrite": false
+        },
+        "metadata": {
+          "designer": {
+            "x": 750,
+            "y": 0
+          }
+        },
+        "module": "datastore:AddRecord",
+        "onerror": [
+          {
+            "id": 245,
+            "metadata": {
+              "designer": {
+                "x": 1200,
+                "y": 80
+              }
+            },
+            "module": "builtin:Ignore",
+            "version": 1
+          }
+        ],
+        "parameters": {
+          "datastore": 148747
+        },
+        "version": 1
+      },
+      {
+        "id": 246,
+        "mapper": {
+          "insertUnformatted": false,
+          "mode": "map",
+          "sheetId": "Editorial Queue",
+          "spreadsheetId": "1J8ca4Pvp3HTSdHqq9-TZ1H-nF6_fM5R3Jm1bf9bAU8A",
+          "tableFirstRow": "A1:CZ1",
+          "valueInputOption": "USER_ENTERED",
+          "values": {
+            "1": "{{now}}",
+            "10": "{{242.industry_impact}}",
+            "11": "{{242.litigation_risk}}",
+            "12": "{{240.url}}",
+            "14": "{{242.priority}}",
+            "15": "draft",
+            "16": "awaiting editor review",
+            "2": "{{240.title}}",
+            "29": "FDA press releases RSS",
+            "3": "{{242.category}}",
+            "30": "{{240.url}}",
+            "31": "{{join(map(241.content; \"text\"); \"\")}}",
+            "35": "{{now}}",
+            "39": "SCAN-FDA",
+            "4": "USA",
+            "40": "{{240.url}}",
+            "5": "{{242.country}}",
+            "6": "{{242.company}}",
+            "7": "{{242.angle}}",
+            "8": "{{242.why_it_matters}}",
+            "9": "{{242.patients_impact}}"
+          }
+        },
+        "metadata": {
+          "designer": {
+            "x": 900,
+            "y": 0
+          }
+        },
+        "module": "google-sheets:addRow",
+        "onerror": [
+          {
+            "id": 247,
+            "metadata": {
+              "designer": {
+                "x": 1350,
+                "y": 80
+              }
+            },
+            "module": "builtin:Ignore",
+            "version": 1
+          }
+        ],
+        "parameters": {
+          "__IMTCONN__": 8923977
+        },
+        "version": 2
+      }
+    ],
+    "metadata": {
+      "designer": {
+        "orphans": []
+      },
+      "instant": false,
+      "scenario": {
+        "autoCommit": true,
+        "autoCommitTriggerLast": true,
+        "confidential": false,
+        "dataloss": false,
+        "dlq": false,
+        "freshVariables": false,
+        "maxErrors": 3,
+        "roundtrips": 1,
+        "sequential": false,
+        "slots": null
+      },
+      "version": 1
+    },
+    "name": "HS - FDA Approvals Scanner (RSS)"
+  },
+  "folderId": 247198,
+  "id": 6721172,
+  "isActive": true,
+  "name": "HS - FDA Approvals Scanner (RSS)",
+  "scheduling": {
+    "time": "06:41",
+    "type": "daily"
+  }
+}

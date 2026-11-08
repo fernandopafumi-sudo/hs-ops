@@ -1,0 +1,100 @@
+{
+  "blueprint": {
+    "flow": [
+      {
+        "id": 1,
+        "mapper": {
+          "dateTimeRenderOption": "FORMATTED_STRING",
+          "fieldType": "string",
+          "filter": [
+            [
+              {
+                "a": "P",
+                "b": "processing",
+                "o": "text:equal"
+              }
+            ],
+            [
+              {
+                "a": "P",
+                "b": "error",
+                "o": "text:equal"
+              }
+            ]
+          ],
+          "from": "drive",
+          "includesHeaders": true,
+          "limit": "50",
+          "orderBy": "B",
+          "sheetId": "Editorial Queue",
+          "sortOrder": "asc",
+          "spreadsheetId": "1J8ca4Pvp3HTSdHqq9-TZ1H-nF6_fM5R3Jm1bf9bAU8A",
+          "tableFirstRow": "A1:CZ1",
+          "valueRenderOption": "FORMATTED_VALUE"
+        },
+        "metadata": {
+          "designer": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        "module": "google-sheets:filterRows",
+        "parameters": {
+          "__IMTCONN__": 8923977
+        },
+        "version": 2
+      },
+      {
+        "filter": {
+          "conditions": [
+            [
+              {
+                "a": "{{1.`__ROW_NUMBER__`}}",
+                "o": "exist"
+              }
+            ]
+          ],
+          "name": "fila valida"
+        },
+        "id": 2,
+        "mapper": {
+          "from": "drive",
+          "includesHeaders": true,
+          "mode": "select",
+          "rowNumber": "{{1.`__ROW_NUMBER__`}}",
+          "sheetId": "Editorial Queue",
+          "spreadsheetId": "1J8ca4Pvp3HTSdHqq9-TZ1H-nF6_fM5R3Jm1bf9bAU8A",
+          "useColumnHeaders": true,
+          "valueInputOption": "USER_ENTERED",
+          "values": {
+            "Current Step": "reintento - fallo transitorio en createPost",
+            "Status": "approved"
+          }
+        },
+        "metadata": {
+          "designer": {
+            "x": 300,
+            "y": 0
+          }
+        },
+        "module": "google-sheets:updateRow",
+        "parameters": {
+          "__IMTCONN__": 8923977
+        },
+        "version": 2
+      }
+    ],
+    "metadata": {
+      "instant": false,
+      "version": 1
+    },
+    "name": "HS - Unstick processing rows"
+  },
+  "folderId": 247198,
+  "id": 6245658,
+  "isActive": true,
+  "name": "HS - Unstick processing rows",
+  "scheduling": {
+    "type": "on-demand"
+  }
+}

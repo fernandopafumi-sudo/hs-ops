@@ -1,0 +1,425 @@
+{
+  "blueprint": {
+    "flow": [
+      {
+        "id": 1,
+        "mapper": {},
+        "metadata": {
+          "designer": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        "module": "gateway:CustomWebHook",
+        "parameters": {
+          "hook": 2876709,
+          "maxResults": 1
+        },
+        "version": 1
+      },
+      {
+        "id": 2,
+        "mapper": null,
+        "metadata": {
+          "designer": {
+            "x": 300,
+            "y": 0
+          }
+        },
+        "module": "builtin:BasicRouter",
+        "routes": [
+          {
+            "flow": [
+              {
+                "filter": {
+                  "conditions": [
+                    [
+                      {
+                        "a": "{{1.stage}}",
+                        "b": "partial",
+                        "o": "text:equal"
+                      },
+                      {
+                        "a": "{{1.secret}}",
+                        "b": "56b264a30f230897533b5ee6744191ed4d35b71e",
+                        "o": "text:equal"
+                      }
+                    ]
+                  ],
+                  "name": "Paso 1 (partial) + secreto OK"
+                },
+                "id": 3,
+                "mapper": {
+                  "headers": [],
+                  "method": "GET",
+                  "qs": [],
+                  "url": "v0/appjkRayvA0YEjczd/tble1o8yKXjqOCwam?maxRecords=1&fields%5B%5D=Email&filterByFormula={{encodeURL(\"LOWER({Email})='\" + 1.email + \"'\")}}"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 600,
+                    "y": -150
+                  }
+                },
+                "module": "airtable:makeApiCall",
+                "parameters": {
+                  "__IMTCONN__": 9132003
+                },
+                "version": 3
+              },
+              {
+                "filter": {
+                  "conditions": [
+                    [
+                      {
+                        "a": "{{length(3.body.records)}}",
+                        "b": "0",
+                        "o": "number:equal"
+                      }
+                    ]
+                  ],
+                  "name": "Email nuevo (no existe)"
+                },
+                "id": 4,
+                "mapper": {
+                  "body": "{\"typecast\":true,\"records\":[{\"fields\":{{1.fields_json}}}]}",
+                  "headers": [
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    }
+                  ],
+                  "method": "POST",
+                  "qs": [],
+                  "url": "v0/appjkRayvA0YEjczd/tble1o8yKXjqOCwam"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 900,
+                    "y": -150
+                  }
+                },
+                "module": "airtable:makeApiCall",
+                "parameters": {
+                  "__IMTCONN__": 9132003
+                },
+                "version": 3
+              }
+            ]
+          },
+          {
+            "flow": [
+              {
+                "filter": {
+                  "conditions": [
+                    [
+                      {
+                        "a": "{{1.stage}}",
+                        "b": "complete",
+                        "o": "text:equal"
+                      },
+                      {
+                        "a": "{{1.secret}}",
+                        "b": "56b264a30f230897533b5ee6744191ed4d35b71e",
+                        "o": "text:equal"
+                      }
+                    ]
+                  ],
+                  "name": "Paso 2 (complete) + secreto OK"
+                },
+                "id": 12,
+                "mapper": {
+                  "headers": [],
+                  "method": "GET",
+                  "qs": [],
+                  "url": "v0/appjkRayvA0YEjczd/tble1o8yKXjqOCwam?maxRecords=1&fields%5B%5D=Email&fields%5B%5D=Status&filterByFormula={{encodeURL(\"LOWER({Email})='\" + 1.email + \"'\")}}"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 600,
+                    "y": 150
+                  }
+                },
+                "module": "airtable:makeApiCall",
+                "parameters": {
+                  "__IMTCONN__": 9132003
+                },
+                "version": 3
+              },
+              {
+                "id": 5,
+                "mapper": {
+                  "body": "{\"typecast\":true,\"performUpsert\":{\"fieldsToMergeOn\":[\"Email\"]},\"records\":[{\"fields\":{{1.fields_json}}}]}",
+                  "headers": [
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    }
+                  ],
+                  "method": "PATCH",
+                  "qs": [],
+                  "url": "v0/appjkRayvA0YEjczd/tble1o8yKXjqOCwam"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 900,
+                    "y": 150
+                  }
+                },
+                "module": "airtable:makeApiCall",
+                "parameters": {
+                  "__IMTCONN__": 9132003
+                },
+                "version": 3
+              },
+              {
+                "id": 6,
+                "mapper": {
+                  "json": "{{1.fields_json}}"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 1200,
+                    "y": 150
+                  }
+                },
+                "module": "json:ParseJSON",
+                "parameters": {
+                  "type": ""
+                },
+                "version": 1
+              },
+              {
+                "filter": {
+                  "conditions": [
+                    [
+                      {
+                        "a": "{{12.body.records[1].fields.Status}}",
+                        "o": "notexist"
+                      }
+                    ],
+                    [
+                      {
+                        "a": "{{12.body.records[1].fields.Status}}",
+                        "b": "Pending",
+                        "o": "text:equal"
+                      }
+                    ],
+                    [
+                      {
+                        "a": "{{12.body.records[1].fields.Status}}",
+                        "b": "Rejected",
+                        "o": "text:equal"
+                      }
+                    ]
+                  ],
+                  "name": "Estado previo vacio, Pending o Rejected"
+                },
+                "id": 14,
+                "mapper": {
+                  "body": "{\"typecast\":true,\"performUpsert\":{\"fieldsToMergeOn\":[\"Email\"]},\"records\":[{\"fields\":{\"Email\":\"{{1.email}}\",\"Status\":\"{{if(1.route = \"direct\"; \"Active\"; \"Requested\")}}\"}}]}",
+                  "headers": [
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    }
+                  ],
+                  "method": "PATCH",
+                  "qs": [],
+                  "url": "v0/appjkRayvA0YEjczd/tble1o8yKXjqOCwam"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 1500,
+                    "y": 150
+                  }
+                },
+                "module": "airtable:makeApiCall",
+                "parameters": {
+                  "__IMTCONN__": 9132003
+                },
+                "version": 3
+              },
+              {
+                "filter": {
+                  "conditions": [
+                    [
+                      {
+                        "a": "{{1.route}}",
+                        "b": "direct",
+                        "o": "text:equal"
+                      },
+                      {
+                        "a": "{{6.Access}}",
+                        "b": "Corporate",
+                        "o": "text:equal"
+                      }
+                    ]
+                  ],
+                  "name": "Ruta directa (corporativo)"
+                },
+                "id": 7,
+                "mapper": {
+                  "attributes": {
+                    "APELLIDOS": "{{6.`Last Name`}}",
+                    "EMPRESA": "{{6.Company}}",
+                    "JOB_TITLE": "{{6.`Job Title`}}",
+                    "NOMBRE": "{{6.Name}}",
+                    "PAIS": "{{6.Country}}"
+                  },
+                  "email": "{{1.email}}",
+                  "listIds": [
+                    5
+                  ],
+                  "updateEnabled": true
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 1800,
+                    "y": 150
+                  },
+                  "restore": {
+                    "expect": {
+                      "listIds": {
+                        "mode": "chose"
+                      },
+                      "updateEnabled": {
+                        "mode": "chose"
+                      }
+                    },
+                    "parameters": {
+                      "__IMTCONN__": {
+                        "data": {
+                          "connection": "sendinblue2",
+                          "scoped": "true"
+                        },
+                        "label": "Fernando's Brevo connection"
+                      }
+                    }
+                  }
+                },
+                "module": "sendinblue:CreateContact",
+                "onerror": [
+                  {
+                    "id": 10,
+                    "mapper": {
+                      "count": "3",
+                      "interval": "15",
+                      "retry": true
+                    },
+                    "metadata": {
+                      "designer": {
+                        "x": 1800,
+                        "y": 350
+                      }
+                    },
+                    "module": "builtin:Break",
+                    "version": 1
+                  }
+                ],
+                "parameters": {
+                  "__IMTCONN__": 11417335
+                },
+                "version": 2
+              },
+              {
+                "id": 11,
+                "mapper": {
+                  "body": "{\"templateId\":15,\"to\":[{\"email\":\"{{1.email}}\"}],\"params\":{\"NAME\":\"{{6.Name}}\"}}",
+                  "headers": [
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    }
+                  ],
+                  "method": "POST",
+                  "url": "/v3/smtp/email"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 2100,
+                    "y": 150
+                  },
+                  "restore": {
+                    "expect": {
+                      "headers": {
+                        "items": [
+                          null
+                        ],
+                        "mode": "chose"
+                      },
+                      "method": {
+                        "label": "POST",
+                        "mode": "chose"
+                      },
+                      "qs": {
+                        "mode": "chose"
+                      }
+                    },
+                    "parameters": {
+                      "__IMTCONN__": {
+                        "data": {
+                          "connection": "sendinblue2",
+                          "scoped": "true"
+                        },
+                        "label": "Fernando's Brevo connection"
+                      }
+                    }
+                  }
+                },
+                "module": "sendinblue:MakeAPICall",
+                "onerror": [
+                  {
+                    "id": 15,
+                    "mapper": {
+                      "count": "3",
+                      "interval": "15",
+                      "retry": true
+                    },
+                    "metadata": {
+                      "designer": {
+                        "x": 2100,
+                        "y": 350
+                      }
+                    },
+                    "module": "builtin:Break",
+                    "version": 1
+                  }
+                ],
+                "parameters": {
+                  "__IMTCONN__": 11417335
+                },
+                "version": 2
+              }
+            ]
+          }
+        ],
+        "version": 1
+      }
+    ],
+    "metadata": {
+      "designer": {
+        "orphans": []
+      },
+      "instant": true,
+      "scenario": {
+        "autoCommit": true,
+        "dlq": true,
+        "maxErrors": 3,
+        "roundtrips": 1,
+        "sequential": false,
+        "slots": null
+      },
+      "version": 1
+    },
+    "name": "HS Brief Subscribers"
+  },
+  "folderId": 247198,
+  "id": 6459598,
+  "isActive": true,
+  "name": "HS Brief Subscribers",
+  "scheduling": {
+    "maximum_runs_per_minute": 100,
+    "type": "immediately"
+  }
+}

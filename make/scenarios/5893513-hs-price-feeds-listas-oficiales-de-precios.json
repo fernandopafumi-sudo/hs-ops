@@ -1,0 +1,500 @@
+{
+  "blueprint": {
+    "flow": [
+      {
+        "id": 1,
+        "mapper": {
+          "value": "HS Price Feeds"
+        },
+        "metadata": {
+          "designer": {
+            "name": "Inicio"
+          }
+        },
+        "module": "util:ComposeTransformer",
+        "parameters": {},
+        "version": 1
+      },
+      {
+        "id": 2,
+        "mapper": null,
+        "metadata": {
+          "designer": {
+            "name": "Una ruta por pais"
+          }
+        },
+        "module": "builtin:BasicRouter",
+        "routes": [
+          {
+            "flow": [
+              {
+                "id": 3,
+                "mapper": {
+                  "bodyType": "raw",
+                  "followAllRedirects": true,
+                  "followRedirect": true,
+                  "gzip": true,
+                  "headers": [
+                    {
+                      "name": "User-Agent",
+                      "value": "Mozilla/5.0 (compatible; HealthSignals/1.0)"
+                    },
+                    {
+                      "name": "Accept-Language",
+                      "value": "pt-BR,es,en;q=0.8"
+                    }
+                  ],
+                  "method": "get",
+                  "parseResponse": false,
+                  "qs": [],
+                  "rejectUnauthorized": true,
+                  "serializeUrl": false,
+                  "shareCookies": false,
+                  "timeout": 120,
+                  "url": "https://www.gov.br/anvisa/pt-br/assuntos/medicamentos/cmed/precos",
+                  "useMtls": false,
+                  "useQuerystring": false
+                },
+                "metadata": {
+                  "designer": {
+                    "name": "CMED — pagina de precos"
+                  }
+                },
+                "module": "http:ActionSendData",
+                "parameters": {
+                  "handleErrors": false
+                },
+                "version": 3
+              },
+              {
+                "id": 4,
+                "mapper": {
+                  "text": "{{3.data}}"
+                },
+                "metadata": {
+                  "designer": {
+                    "name": "CMED — extraer link"
+                  }
+                },
+                "module": "regexp:Parser",
+                "parameters": {
+                  "continueWhenNoRes": true,
+                  "global": false,
+                  "ignoreInfiniteLoopsWhenGlobal": false,
+                  "multiline": false,
+                  "pattern": "(https://www\\.gov\\.br/[^\"'\\s>]*conformidade[^\"'\\s>]*\\.xlsx)",
+                  "sensitive": false,
+                  "singleline": true
+                },
+                "version": 1
+              },
+              {
+                "filter": {
+                  "conditions": [
+                    [
+                      {
+                        "a": "{{4.`$1`}}",
+                        "o": "exist"
+                      }
+                    ]
+                  ],
+                  "name": "link resuelto"
+                },
+                "id": 5,
+                "mapper": {
+                  "base": "appjkRayvA0YEjczd",
+                  "record": [
+                    {
+                      "id": "Source",
+                      "type": "text",
+                      "value": "CMED — lista de precos maximos ao consumidor"
+                    },
+                    {
+                      "id": "Country",
+                      "type": "text",
+                      "value": "Brasil"
+                    },
+                    {
+                      "id": "Publisher",
+                      "type": "text",
+                      "value": "CMED / ANVISA"
+                    },
+                    {
+                      "id": "File URL",
+                      "type": "text",
+                      "value": "{{4.`$1`}}"
+                    },
+                    {
+                      "id": "Page URL",
+                      "type": "text",
+                      "value": "https://www.gov.br/anvisa/pt-br/assuntos/medicamentos/cmed/precos"
+                    },
+                    {
+                      "id": "Captured at",
+                      "type": "date",
+                      "value": "{{now}}"
+                    },
+                    {
+                      "id": "Status",
+                      "type": "text",
+                      "value": "Capturado"
+                    },
+                    {
+                      "id": "Notes",
+                      "type": "text",
+                      "value": "Preco maximo ao consumidor por apresentacao y faixa de ICMS. Buscar semaglutida, tirzepatida y liraglutida."
+                    },
+                    {
+                      "id": "File",
+                      "type": "openUrl",
+                      "value": [
+                        {
+                          "filename": "CMED_lista_precos_{{formatDate(now; \"YYYY-MM-DD\")}}.xlsx",
+                          "url": "{{4.`$1`}}"
+                        }
+                      ]
+                    }
+                  ],
+                  "table": "tblVVQzK1OmhLzaXQ",
+                  "typecast": true
+                },
+                "metadata": {
+                  "designer": {
+                    "name": "CMED — guardar en Airtable"
+                  }
+                },
+                "module": "airtable:CreateRecordAdvanced",
+                "parameters": {
+                  "__IMTCONN__": 9132003
+                },
+                "version": 3
+              }
+            ]
+          },
+          {
+            "flow": [
+              {
+                "id": 6,
+                "mapper": {
+                  "bodyType": "raw",
+                  "followAllRedirects": true,
+                  "followRedirect": true,
+                  "gzip": true,
+                  "headers": [
+                    {
+                      "name": "User-Agent",
+                      "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36"
+                    },
+                    {
+                      "name": "Accept",
+                      "value": "*/*"
+                    },
+                    {
+                      "name": "Accept-Language",
+                      "value": "es-PE,es;q=0.9"
+                    }
+                  ],
+                  "method": "get",
+                  "parseResponse": false,
+                  "qs": [],
+                  "rejectUnauthorized": true,
+                  "serializeUrl": false,
+                  "shareCookies": false,
+                  "timeout": 180,
+                  "url": "https://www.digemid.minsa.gob.pe/Archivos/Indicadores/TendenciaCentral/FT_{{formatDate(addMonths(now; -3); \"YYYYMM\")}}.zip",
+                  "useMtls": false,
+                  "useQuerystring": false
+                },
+                "metadata": {
+                  "designer": {
+                    "name": "DIGEMID — archivo del mes (URL directa)"
+                  }
+                },
+                "module": "http:ActionSendData",
+                "onerror": [
+                  {
+                    "id": 12,
+                    "mapper": {
+                      "data": "",
+                      "statusCode": "0"
+                    },
+                    "metadata": {
+                      "designer": {
+                        "name": "DIGEMID — resume si falla (statusCode 0)"
+                      }
+                    },
+                    "module": "builtin:Resume",
+                    "parameters": {},
+                    "version": 1
+                  }
+                ],
+                "parameters": {
+                  "handleErrors": true
+                },
+                "version": 3
+              },
+              {
+                "filter": {
+                  "conditions": [
+                    [
+                      {
+                        "a": "{{6.statusCode}}",
+                        "b": "200",
+                        "o": "number:equal"
+                      }
+                    ]
+                  ],
+                  "name": "archivo existe"
+                },
+                "id": 8,
+                "mapper": {
+                  "base": "appjkRayvA0YEjczd",
+                  "record": [
+                    {
+                      "id": "Source",
+                      "type": "text",
+                      "value": "Indicador de Precios de Productos Farmaceuticos"
+                    },
+                    {
+                      "id": "Country",
+                      "type": "text",
+                      "value": "Peru"
+                    },
+                    {
+                      "id": "Publisher",
+                      "type": "text",
+                      "value": "DIGEMID / MINSA"
+                    },
+                    {
+                      "id": "File URL",
+                      "type": "text",
+                      "value": "https://www.digemid.minsa.gob.pe/Archivos/Indicadores/TendenciaCentral/FT_{{formatDate(addMonths(now; -3); \"YYYYMM\")}}.zip"
+                    },
+                    {
+                      "id": "Page URL",
+                      "type": "text",
+                      "value": "https://www.digemid.minsa.gob.pe/webDigemid/reportes/2025/indicador-de-precios-de-productos-farmaceuticos/"
+                    },
+                    {
+                      "id": "Captured at",
+                      "type": "date",
+                      "value": "{{now}}"
+                    },
+                    {
+                      "id": "Status",
+                      "type": "text",
+                      "value": "Capturado"
+                    },
+                    {
+                      "id": "Notes",
+                      "type": "text",
+                      "value": "Media, mediana y moda de precios reportados por farmacias, por mes. Patron de URL fijo FT_AAAAMM.zip verificado el 09/08/2026 con navegador; la serie va con unos 3 meses de rezago, por eso el scenario pide now menos 3 meses. La pagina HTML esta detras de Cloudflare pero el archivo estatico no."
+                    },
+                    {
+                      "id": "File",
+                      "type": "openUrl",
+                      "value": [
+                        {
+                          "filename": "DIGEMID_FT_{{formatDate(addMonths(now; -3); \"YYYYMM\")}}.zip",
+                          "url": "https://www.digemid.minsa.gob.pe/Archivos/Indicadores/TendenciaCentral/FT_{{formatDate(addMonths(now; -3); \"YYYYMM\")}}.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "table": "tblVVQzK1OmhLzaXQ",
+                  "typecast": true
+                },
+                "metadata": {
+                  "designer": {
+                    "name": "DIGEMID — guardar en Airtable"
+                  }
+                },
+                "module": "airtable:CreateRecordAdvanced",
+                "parameters": {
+                  "__IMTCONN__": 9132003
+                },
+                "version": 3
+              }
+            ]
+          },
+          {
+            "flow": [
+              {
+                "id": 9,
+                "mapper": {
+                  "bodyType": "raw",
+                  "followAllRedirects": true,
+                  "followRedirect": true,
+                  "gzip": true,
+                  "headers": [
+                    {
+                      "name": "User-Agent",
+                      "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36"
+                    },
+                    {
+                      "name": "Accept-Language",
+                      "value": "es-CO,es;q=0.9,en;q=0.8"
+                    }
+                  ],
+                  "method": "get",
+                  "parseResponse": false,
+                  "qs": [],
+                  "rejectUnauthorized": true,
+                  "serializeUrl": false,
+                  "shareCookies": false,
+                  "timeout": 120,
+                  "url": "https://www.sispro.gov.co/catalogos/Pages/reporte-de-informacion.aspx",
+                  "useMtls": false,
+                  "useQuerystring": false
+                },
+                "metadata": {
+                  "designer": {
+                    "name": "SISMED — sin fuente identificada"
+                  }
+                },
+                "module": "http:ActionSendData",
+                "parameters": {
+                  "handleErrors": false
+                },
+                "version": 3
+              },
+              {
+                "id": 10,
+                "mapper": {
+                  "text": "{{9.data}}"
+                },
+                "metadata": {
+                  "designer": {
+                    "name": "SISMED — extraer link"
+                  }
+                },
+                "module": "regexp:Parser",
+                "parameters": {
+                  "continueWhenNoRes": true,
+                  "global": false,
+                  "ignoreInfiniteLoopsWhenGlobal": false,
+                  "multiline": false,
+                  "pattern": "(https?://[^\"'\\s>]+\\.xlsx?)",
+                  "sensitive": false,
+                  "singleline": true
+                },
+                "version": 1
+              },
+              {
+                "filter": {
+                  "conditions": [
+                    [
+                      {
+                        "a": "{{10.`$1`}}",
+                        "o": "exist"
+                      }
+                    ]
+                  ],
+                  "name": "link resuelto"
+                },
+                "id": 11,
+                "mapper": {
+                  "base": "appjkRayvA0YEjczd",
+                  "record": [
+                    {
+                      "id": "Source",
+                      "type": "text",
+                      "value": "SISMED — precios reportados"
+                    },
+                    {
+                      "id": "Country",
+                      "type": "text",
+                      "value": "Colombia"
+                    },
+                    {
+                      "id": "Publisher",
+                      "type": "text",
+                      "value": "MinSalud / SISPRO"
+                    },
+                    {
+                      "id": "File URL",
+                      "type": "text",
+                      "value": "{{10.`$1`}}"
+                    },
+                    {
+                      "id": "Page URL",
+                      "type": "text",
+                      "value": "https://www.sispro.gov.co/catalogos/Pages/reporte-de-informacion.aspx"
+                    },
+                    {
+                      "id": "Captured at",
+                      "type": "date",
+                      "value": "{{now}}"
+                    },
+                    {
+                      "id": "Status",
+                      "type": "text",
+                      "value": "Capturado"
+                    },
+                    {
+                      "id": "Notes",
+                      "type": "text",
+                      "value": "SIN FUENTE IDENTIFICADA al 09/08/2026. Verificado con navegador: reporte-de-informacion.aspx es un visor de obligaciones de reporte, no un repositorio de archivos, y minsalud.gov.co/salud/MT/Paginas/sismed.aspx devuelve 404. Los datos de SISMED parecen vivir en los cubos de la Bodega de Datos de SISPRO, que exigen inicio de sesion. Pegar aca la URL directa cuando se consiga."
+                    },
+                    {
+                      "id": "File",
+                      "type": "openUrl",
+                      "value": [
+                        {
+                          "filename": "SISMED_precios_{{formatDate(now; \"YYYY-MM-DD\")}}.xlsx",
+                          "url": "{{10.`$1`}}"
+                        }
+                      ]
+                    }
+                  ],
+                  "table": "tblVVQzK1OmhLzaXQ",
+                  "typecast": true
+                },
+                "metadata": {
+                  "designer": {
+                    "name": "SISMED — guardar en Airtable"
+                  }
+                },
+                "module": "airtable:CreateRecordAdvanced",
+                "parameters": {
+                  "__IMTCONN__": 9132003
+                },
+                "version": 3
+              }
+            ]
+          }
+        ],
+        "version": 1
+      }
+    ],
+    "metadata": {
+      "designer": {
+        "orphans": []
+      },
+      "instant": false,
+      "scenario": {
+        "autoCommit": true,
+        "autoCommitTriggerLast": true,
+        "confidential": false,
+        "dataloss": false,
+        "dlq": false,
+        "maxErrors": 3,
+        "roundtrips": 1,
+        "sequential": false
+      },
+      "version": 1
+    },
+    "name": "HS Price Feeds — listas oficiales de precios"
+  },
+  "folderId": 268067,
+  "id": 5893513,
+  "isActive": true,
+  "name": "HS Price Feeds — listas oficiales de precios",
+  "scheduling": {
+    "days": [
+      5
+    ],
+    "time": "06:00",
+    "type": "monthly"
+  }
+}

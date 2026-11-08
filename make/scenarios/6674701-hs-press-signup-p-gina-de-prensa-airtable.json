@@ -1,0 +1,284 @@
+{
+  "blueprint": {
+    "flow": [
+      {
+        "id": 1,
+        "mapper": {},
+        "metadata": {
+          "designer": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        "module": "gateway:CustomWebHook",
+        "parameters": {
+          "hook": 2948578,
+          "maxResults": 1
+        },
+        "version": 1
+      },
+      {
+        "id": 2,
+        "mapper": {
+          "body": "",
+          "headers": [
+            {
+              "key": "Location",
+              "value": "https://healthsignals.news/press-thank-you/"
+            }
+          ],
+          "status": 302
+        },
+        "metadata": {
+          "designer": {
+            "x": 300,
+            "y": 0
+          }
+        },
+        "module": "gateway:WebhookRespond",
+        "parameters": {},
+        "version": 1
+      },
+      {
+        "filter": {
+          "conditions": [
+            [
+              {
+                "a": "{{1.website}}",
+                "b": "",
+                "o": "text:equal"
+              },
+              {
+                "a": "{{1.email}}",
+                "b": "@",
+                "o": "text:contain"
+              },
+              {
+                "a": "{{1.consent}}",
+                "b": "yes",
+                "o": "text:equal"
+              }
+            ]
+          ],
+          "name": "Honeypot vacío + email + consentimiento"
+        },
+        "id": 3,
+        "mapper": {
+          "headers": [],
+          "method": "GET",
+          "qs": [],
+          "url": "v0/appjkRayvA0YEjczd/tblCz9trAX2uC0hcI?maxRecords=1&fields%5B%5D=Email&filterByFormula={{encodeURL(\"LOWER({Email})='\" + lower(trim(1.email)) + \"'\")}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 600,
+            "y": 0
+          }
+        },
+        "module": "airtable:makeApiCall",
+        "parameters": {
+          "__IMTCONN__": 9132003
+        },
+        "version": 3
+      },
+      {
+        "filter": {
+          "conditions": [
+            [
+              {
+                "a": "{{length(3.body.records)}}",
+                "b": "0",
+                "o": "number:equal"
+              }
+            ]
+          ],
+          "name": "Email no existe en la tabla"
+        },
+        "id": 4,
+        "mapper": {
+          "base": "appjkRayvA0YEjczd",
+          "record": {
+            "fld0HUVYyY9OrgUDj": "Prensa especializada",
+            "fld36dcxyGaldunzp": "{{substring(trim(1.name); 0; 120)}}",
+            "fld6tV1oXMgsEIOtH": true,
+            "fldBOQDleY88DCLDA": "{{formatDate(now; \"YYYY-MM-DD\")}}: inscripción propia en healthsignals.news (página de prensa). Temas: {{1.t1}}{{1.t2}}{{1.t3}}{{1.t4}}{{1.t5}}{{1.t6}}{{1.t7}}. Comentario: {{substring(trim(1.comment); 0; 400)}}.",
+            "fldCUVPeEV1EWYS8b": "{{if(1.lang = \"PT\"; \"PT\"; if(1.lang = \"EN\"; \"EN\"; \"ES\"))}}",
+            "fldI1lwuhECxdYQ6X": "{{substring(trim(1.country); 0; 60)}}",
+            "fldYso9kOU0mRW8It": "{{lower(trim(1.email))}}",
+            "fldi4c6chRhRkyQXN": "{{substring(trim(1.outlet); 0; 120)}}",
+            "fldk5oRdclzfklp16": "New",
+            "fldtulzmcgnaFZtAx": "{{substring(trim(1.role); 0; 120)}}"
+          },
+          "table": "tblCz9trAX2uC0hcI",
+          "typecast": false,
+          "useColumnId": true
+        },
+        "metadata": {
+          "designer": {
+            "x": 900,
+            "y": 0
+          }
+        },
+        "module": "airtable:ActionCreateRecord",
+        "parameters": {
+          "__IMTCONN__": 9132003
+        },
+        "version": 3
+      },
+      {
+        "id": 5,
+        "mapper": null,
+        "metadata": {
+          "designer": {
+            "x": 1200,
+            "y": 0
+          }
+        },
+        "module": "builtin:BasicRouter",
+        "routes": [
+          {
+            "flow": [
+              {
+                "filter": {
+                  "conditions": [
+                    [
+                      {
+                        "a": "{{1.lang}}",
+                        "b": "PT",
+                        "o": "text:equal"
+                      }
+                    ]
+                  ],
+                  "name": "Portugués"
+                },
+                "id": 6,
+                "mapper": {
+                  "from": "Fernando Pafumi <editor@healthsignals.news>",
+                  "sendEmailAs": "text",
+                  "subject": "Você está na lista de imprensa do HealthSignals",
+                  "text": "Olá, {{first(split(trim(1.name); \" \"))}}:\n\nObrigado por se inscrever na lista de imprensa do HealthSignals. Vamos escrever apenas quando tivermos dados, análises ou entrevistas sobre os temas que você escolheu.\n\nSe algo mudar (veículo, temas ou e-mail), responda a esta mensagem e atualizamos. Se preferir não receber mais e-mails, responda “sair”.\n\nCordialmente,\n\nFernando Pafumi\nEditor, HealthSignals\nhealthsignals.news",
+                  "to": [
+                    "{{lower(trim(1.email))}}"
+                  ]
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 1500,
+                    "y": -200
+                  }
+                },
+                "module": "resend:sendAnEmail",
+                "parameters": {
+                  "__IMTCONN__": 9533217
+                },
+                "version": 1
+              }
+            ]
+          },
+          {
+            "flow": [
+              {
+                "filter": {
+                  "conditions": [
+                    [
+                      {
+                        "a": "{{1.lang}}",
+                        "b": "EN",
+                        "o": "text:equal"
+                      }
+                    ]
+                  ],
+                  "name": "Inglés"
+                },
+                "id": 7,
+                "mapper": {
+                  "from": "Fernando Pafumi <editor@healthsignals.news>",
+                  "sendEmailAs": "text",
+                  "subject": "You are on the HealthSignals press list",
+                  "text": "Hello {{first(split(trim(1.name); \" \"))}},\n\nThank you for joining the HealthSignals press list. We will write only when we have data, analysis or interviews on the topics you selected.\n\nIf anything changes (outlet, topics or email), reply to this message and we will update it. To stop receiving emails, reply “unsubscribe”.\n\nBest regards,\n\nFernando Pafumi\nEditor, HealthSignals\nhealthsignals.news",
+                  "to": [
+                    "{{lower(trim(1.email))}}"
+                  ]
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 1500,
+                    "y": 0
+                  }
+                },
+                "module": "resend:sendAnEmail",
+                "parameters": {
+                  "__IMTCONN__": 9533217
+                },
+                "version": 1
+              }
+            ]
+          },
+          {
+            "flow": [
+              {
+                "filter": {
+                  "conditions": [
+                    [
+                      {
+                        "a": "{{1.lang}}",
+                        "b": "PT",
+                        "o": "text:notequal"
+                      },
+                      {
+                        "a": "{{1.lang}}",
+                        "b": "EN",
+                        "o": "text:notequal"
+                      }
+                    ]
+                  ],
+                  "name": "Español (resto)"
+                },
+                "id": 8,
+                "mapper": {
+                  "from": "Fernando Pafumi <editor@healthsignals.news>",
+                  "sendEmailAs": "text",
+                  "subject": "Ya estás en la lista de prensa de HealthSignals",
+                  "text": "Hola, {{first(split(trim(1.name); \" \"))}}:\n\nGracias por inscribirte en la lista de prensa de HealthSignals. Te escribiremos solo cuando tengamos datos, análisis o entrevistas sobre los temas que elegiste.\n\nSi algo cambia (medio, temas o correo), responde a este mensaje y lo actualizaremos. Si prefieres no recibir más correos, responde “baja”.\n\nSaludos cordiales,\n\nFernando Pafumi\nEditor, HealthSignals\nhealthsignals.news",
+                  "to": [
+                    "{{lower(trim(1.email))}}"
+                  ]
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 1500,
+                    "y": 200
+                  }
+                },
+                "module": "resend:sendAnEmail",
+                "parameters": {
+                  "__IMTCONN__": 9533217
+                },
+                "version": 1
+              }
+            ]
+          }
+        ],
+        "version": 1
+      }
+    ],
+    "metadata": {
+      "instant": true,
+      "scenario": {
+        "autoCommit": true,
+        "maxErrors": 3,
+        "roundtrips": 1,
+        "sequential": false
+      },
+      "version": 1
+    },
+    "name": "HS Press Signup — página de prensa → Airtable"
+  },
+  "folderId": 247198,
+  "id": 6674701,
+  "isActive": true,
+  "name": "HS Press Signup — página de prensa → Airtable",
+  "scheduling": {
+    "type": "immediately"
+  }
+}

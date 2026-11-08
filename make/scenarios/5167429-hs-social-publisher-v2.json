@@ -1,0 +1,568 @@
+{
+  "blueprint": {
+    "flow": [
+      {
+        "id": 1,
+        "mapper": {
+          "dateTimeRenderOption": "FORMATTED_STRING",
+          "filter": [
+            [
+              {
+                "a": "P",
+                "b": "published",
+                "o": "text:equal"
+              },
+              {
+                "a": "Y",
+                "b": "",
+                "o": "text:equal"
+              },
+              {
+                "a": "AP",
+                "b": "",
+                "o": "text:notequal"
+              },
+              {
+                "a": "AI",
+                "b": "",
+                "o": "text:equal"
+              }
+            ]
+          ],
+          "from": "drive",
+          "includesHeaders": true,
+          "limit": "1",
+          "sheetId": "Editorial Queue",
+          "sortOrder": "asc",
+          "spreadsheetId": "1J8ca4Pvp3HTSdHqq9-TZ1H-nF6_fM5R3Jm1bf9bAU8A",
+          "tableFirstRow": "A1:CZ1",
+          "valueRenderOption": "FORMATTED_VALUE"
+        },
+        "metadata": {
+          "designer": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        "module": "google-sheets:filterRows",
+        "parameters": {
+          "__IMTCONN__": 8923977
+        },
+        "version": 2
+      },
+      {
+        "filter": {
+          "conditions": [
+            [
+              {
+                "a": "{{1.`__ROW_NUMBER__`}}",
+                "b": "",
+                "o": "text:notequal"
+              },
+              {
+                "a": "{{1.`__ROW_NUMBER__`}}",
+                "b": "undefined",
+                "o": "text:notequal"
+              }
+            ]
+          ],
+          "name": "row has valid number"
+        },
+        "id": 7,
+        "mapper": {
+          "from": "drive",
+          "includesHeaders": true,
+          "mode": "select",
+          "rowNumber": "{{1.`__ROW_NUMBER__`}}",
+          "sheetId": "Editorial Queue",
+          "spreadsheetId": "1J8ca4Pvp3HTSdHqq9-TZ1H-nF6_fM5R3Jm1bf9bAU8A",
+          "useColumnHeaders": true,
+          "valueInputOption": "USER_ENTERED",
+          "values": {
+            "LinkedIn URL": "PROCESSING_{{formatDate(now; \"YYYY-MM-DD HH:mm:ss\")}}"
+          }
+        },
+        "metadata": {
+          "designer": {
+            "x": 300,
+            "y": 0
+          }
+        },
+        "module": "google-sheets:updateRow",
+        "parameters": {
+          "__IMTCONN__": 8923977
+        },
+        "version": 2
+      },
+      {
+        "id": 3,
+        "mapper": {
+          "authPass": "",
+          "authUser": "",
+          "bodyType": "",
+          "ca": "",
+          "followAllRedirects": true,
+          "followRedirect": true,
+          "gzip": true,
+          "headers": [
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (compatible; HealthSignalsBot/1.0)"
+            }
+          ],
+          "method": "get",
+          "parseResponse": false,
+          "qs": [],
+          "rejectUnauthorized": true,
+          "serializeUrl": false,
+          "shareCookies": false,
+          "timeout": "",
+          "url": "{{1.`23`}}",
+          "useMtls": false,
+          "useQuerystring": false
+        },
+        "metadata": {
+          "designer": {
+            "x": 600,
+            "y": 0
+          }
+        },
+        "module": "http:ActionSendData",
+        "onerror": [
+          {
+            "id": 8,
+            "mapper": {
+              "from": "drive",
+              "includesHeaders": true,
+              "mode": "select",
+              "rowNumber": "{{1.`__ROW_NUMBER__`}}",
+              "sheetId": "Editorial Queue",
+              "spreadsheetId": "1J8ca4Pvp3HTSdHqq9-TZ1H-nF6_fM5R3Jm1bf9bAU8A",
+              "useColumnHeaders": true,
+              "valueInputOption": "USER_ENTERED",
+              "values": {
+                "Current Step": "esperando publicacion en WP (draft o URL no accesible) - chequeado {{now}}",
+                "LinkedIn URL": ""
+              }
+            },
+            "metadata": {
+              "designer": {
+                "x": 600,
+                "y": 300
+              }
+            },
+            "module": "google-sheets:updateRow",
+            "parameters": {
+              "__IMTCONN__": 8923977
+            },
+            "version": 2
+          }
+        ],
+        "parameters": {
+          "handleErrors": true,
+          "useNewZLibDeCompress": true
+        },
+        "version": 3
+      },
+      {
+        "id": 4,
+        "mapper": {
+          "text": "{{3.data}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 900,
+            "y": 0
+          }
+        },
+        "module": "regexp:Parser",
+        "parameters": {
+          "continueWhenNoRes": true,
+          "global": false,
+          "multiline": false,
+          "pattern": "property=[\"']og:image(?::secure_url)?[\"'][^>]*?content=[\"'](?<imageUrl>[^\"']+)",
+          "sensitive": false,
+          "singleline": true
+        },
+        "version": 1
+      },
+      {
+        "id": 12,
+        "mapper": {
+          "text": "{{3.data}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 1050,
+            "y": 0
+          }
+        },
+        "module": "regexp:Parser",
+        "parameters": {
+          "continueWhenNoRes": true,
+          "global": false,
+          "multiline": false,
+          "pattern": "property=[\"']og:title[\"'][^>]*?content=\"(?<ogTitle>[^\"]*)\"",
+          "sensitive": false,
+          "singleline": true
+        },
+        "version": 1
+      },
+      {
+        "id": 13,
+        "mapper": {
+          "name": "title_en",
+          "scope": "roundtrip",
+          "value": "{{replace(replace(replace(replace(replace(ifempty(12.ogTitle; 1.`2`); \"&#8217;\"; \"'\"); \"&#8216;\"; \"'\"); \"&#8211;\"; \"-\"); \"&#038;\"; \"&\"); \"&amp;\"; \"&\")}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 1200,
+            "y": 0
+          }
+        },
+        "module": "util:SetVariable2",
+        "parameters": {},
+        "version": 1
+      },
+      {
+        "filter": {
+          "conditions": [
+            [
+              {
+                "a": "{{4.imageUrl}}",
+                "b": "",
+                "o": "text:notequal"
+              },
+              {
+                "a": "{{4.imageUrl}}",
+                "o": "exist"
+              }
+            ]
+          ],
+          "name": "og:image encontrada"
+        },
+        "id": 11,
+        "mapper": {
+          "altText": "{{13.title_en}}",
+          "content": "{{1.`41`}}",
+          "feedDistribution": "MAIN_FEED",
+          "isReshareDisabledByAuthor": false,
+          "method": "link",
+          "organization": "urn:li:organization:122604026",
+          "title": "{{13.title_en}}",
+          "url": "{{4.imageUrl}}",
+          "visibility": "PUBLIC"
+        },
+        "metadata": {
+          "designer": {
+            "x": 1350,
+            "y": 0
+          }
+        },
+        "module": "linkedin:CreateCompanyImagePost",
+        "onerror": [
+          {
+            "id": 10,
+            "mapper": {
+              "from": "drive",
+              "includesHeaders": true,
+              "mode": "select",
+              "rowNumber": "{{1.`__ROW_NUMBER__`}}",
+              "sheetId": "Editorial Queue",
+              "spreadsheetId": "1J8ca4Pvp3HTSdHqq9-TZ1H-nF6_fM5R3Jm1bf9bAU8A",
+              "useColumnHeaders": true,
+              "valueInputOption": "USER_ENTERED",
+              "values": {
+                "Error": "LinkedIn fallo {{now}}: {{ifempty(11.error.message; \"unknown\")}} | imageUrl={{4.imageUrl}}",
+                "LinkedIn URL": ""
+              }
+            },
+            "metadata": {
+              "designer": {
+                "x": 1350,
+                "y": 300
+              }
+            },
+            "module": "google-sheets:updateRow",
+            "parameters": {
+              "__IMTCONN__": 8923977
+            },
+            "version": 2
+          }
+        ],
+        "parameters": {
+          "__IMTCONN__": 9040242
+        },
+        "version": 2
+      },
+      {
+        "id": 6,
+        "mapper": {
+          "from": "drive",
+          "includesHeaders": true,
+          "mode": "select",
+          "rowNumber": "{{1.`__ROW_NUMBER__`}}",
+          "sheetId": "Editorial Queue",
+          "spreadsheetId": "1J8ca4Pvp3HTSdHqq9-TZ1H-nF6_fM5R3Jm1bf9bAU8A",
+          "useColumnHeaders": true,
+          "valueInputOption": "USER_ENTERED",
+          "values": {
+            "Current Step": "distribuido - {{now}}",
+            "Error": "",
+            "LinkedIn URL": "{{now}}"
+          }
+        },
+        "metadata": {
+          "designer": {
+            "x": 1500,
+            "y": 0
+          }
+        },
+        "module": "google-sheets:updateRow",
+        "parameters": {
+          "__IMTCONN__": 8923977
+        },
+        "version": 2
+      },
+      {
+        "id": 20,
+        "mapper": {
+          "name": "tweet_text",
+          "scope": "roundtrip",
+          "value": "{{substring(13.title_en; 0; 230)}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 1800,
+            "y": 0
+          }
+        },
+        "module": "util:SetVariable2",
+        "parameters": {},
+        "version": 1
+      },
+      {
+        "id": 21,
+        "mapper": {
+          "key": "main",
+          "returnWrapped": false
+        },
+        "metadata": {
+          "designer": {
+            "x": 2100,
+            "y": 0
+          }
+        },
+        "module": "datastore:GetRecord",
+        "parameters": {
+          "datastore": 128118
+        },
+        "version": 1
+      },
+      {
+        "id": 22,
+        "mapper": {
+          "authPass": "{{21.client_secret}}",
+          "authUser": "{{21.client_id}}",
+          "bodyType": "x_www_form_urlencoded",
+          "ca": "",
+          "followAllRedirects": true,
+          "followRedirect": true,
+          "formFields": [
+            {
+              "key": "grant_type",
+              "value": "refresh_token"
+            },
+            {
+              "key": "refresh_token",
+              "value": "{{21.refresh_token}}"
+            },
+            {
+              "key": "client_id",
+              "value": "{{21.client_id}}"
+            }
+          ],
+          "gzip": true,
+          "headers": [],
+          "method": "post",
+          "parseResponse": true,
+          "qs": [],
+          "rejectUnauthorized": true,
+          "serializeUrl": false,
+          "shareCookies": false,
+          "timeout": "",
+          "url": "https://api.x.com/2/oauth2/token",
+          "useMtls": false,
+          "useQuerystring": false
+        },
+        "metadata": {
+          "designer": {
+            "x": 2400,
+            "y": 0
+          }
+        },
+        "module": "http:ActionSendData",
+        "onerror": [
+          {
+            "id": 25,
+            "mapper": {
+              "from": "drive",
+              "includesHeaders": true,
+              "mode": "select",
+              "rowNumber": "{{1.`__ROW_NUMBER__`}}",
+              "sheetId": "Editorial Queue",
+              "spreadsheetId": "1J8ca4Pvp3HTSdHqq9-TZ1H-nF6_fM5R3Jm1bf9bAU8A",
+              "useColumnHeaders": true,
+              "valueInputOption": "USER_ENTERED",
+              "values": {
+                "Error": "X token refresh fallo {{now}} - reautorizar con scenario 5882000"
+              }
+            },
+            "metadata": {
+              "designer": {
+                "x": 2400,
+                "y": 300
+              }
+            },
+            "module": "google-sheets:updateRow",
+            "parameters": {
+              "__IMTCONN__": 8923977
+            },
+            "version": 2
+          }
+        ],
+        "parameters": {
+          "handleErrors": true,
+          "useNewZLibDeCompress": true
+        },
+        "version": 3
+      },
+      {
+        "id": 23,
+        "mapper": {
+          "data": {
+            "access_token": "{{22.data.access_token}}",
+            "client_id": "{{21.client_id}}",
+            "client_secret": "{{21.client_secret}}",
+            "refresh_token": "{{22.data.refresh_token}}",
+            "updated_at": "{{now}}"
+          },
+          "key": "main",
+          "overwrite": true
+        },
+        "metadata": {
+          "designer": {
+            "x": 2700,
+            "y": 0
+          }
+        },
+        "module": "datastore:AddRecord",
+        "parameters": {
+          "datastore": 128118
+        },
+        "version": 1
+      },
+      {
+        "id": 24,
+        "mapper": {
+          "authPass": "",
+          "authUser": "",
+          "bodyType": "raw",
+          "ca": "",
+          "contentType": "application/json",
+          "data": "{\"text\": \"{{20.tweet_text}} {{1.`23`}}\"}",
+          "followAllRedirects": true,
+          "followRedirect": true,
+          "gzip": true,
+          "headers": [
+            {
+              "name": "Authorization",
+              "value": "<<REDACTED>>"
+            }
+          ],
+          "method": "post",
+          "parseResponse": true,
+          "qs": [],
+          "rejectUnauthorized": true,
+          "serializeUrl": false,
+          "shareCookies": false,
+          "timeout": "",
+          "url": "https://api.x.com/2/tweets",
+          "useMtls": false,
+          "useQuerystring": false
+        },
+        "metadata": {
+          "designer": {
+            "x": 3000,
+            "y": 0
+          }
+        },
+        "module": "http:ActionSendData",
+        "onerror": [
+          {
+            "id": 26,
+            "mapper": {
+              "from": "drive",
+              "includesHeaders": true,
+              "mode": "select",
+              "rowNumber": "{{1.`__ROW_NUMBER__`}}",
+              "sheetId": "Editorial Queue",
+              "spreadsheetId": "1J8ca4Pvp3HTSdHqq9-TZ1H-nF6_fM5R3Jm1bf9bAU8A",
+              "useColumnHeaders": true,
+              "valueInputOption": "USER_ENTERED",
+              "values": {
+                "Current Step": "distribuido solo LinkedIn - {{now}}",
+                "Error": "X publish fallo {{now}}"
+              }
+            },
+            "metadata": {
+              "designer": {
+                "x": 3000,
+                "y": 300
+              }
+            },
+            "module": "google-sheets:updateRow",
+            "parameters": {
+              "__IMTCONN__": 8923977
+            },
+            "version": 2
+          }
+        ],
+        "parameters": {
+          "handleErrors": true,
+          "useNewZLibDeCompress": true
+        },
+        "version": 3
+      }
+    ],
+    "metadata": {
+      "designer": {
+        "orphans": []
+      },
+      "instant": false,
+      "scenario": {
+        "autoCommit": true,
+        "autoCommitTriggerLast": true,
+        "confidential": false,
+        "dataloss": false,
+        "dlq": false,
+        "freshVariables": false,
+        "maxErrors": 3,
+        "roundtrips": 1,
+        "sequential": true,
+        "slots": null
+      },
+      "version": 1
+    },
+    "name": "HS Social Publisher v2"
+  },
+  "folderId": 247198,
+  "id": 5167429,
+  "isActive": false,
+  "name": "HS Social Publisher v2",
+  "scheduling": {
+    "interval": 10800,
+    "type": "indefinitely"
+  }
+}

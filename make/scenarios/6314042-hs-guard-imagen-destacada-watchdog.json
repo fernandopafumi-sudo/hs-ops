@@ -1,0 +1,355 @@
+{
+  "blueprint": {
+    "flow": [
+      {
+        "id": 1,
+        "mapper": {
+          "authPass": "",
+          "authUser": "",
+          "bodyType": "",
+          "ca": "",
+          "followAllRedirects": true,
+          "followRedirect": true,
+          "gzip": true,
+          "headers": [],
+          "method": "get",
+          "parseResponse": true,
+          "qs": [
+            {
+              "name": "per_page",
+              "value": "10"
+            },
+            {
+              "name": "status",
+              "value": "publish"
+            },
+            {
+              "name": "_fields",
+              "value": "id,title,featured_media"
+            },
+            {
+              "name": "orderby",
+              "value": "date"
+            },
+            {
+              "name": "order",
+              "value": "desc"
+            }
+          ],
+          "rejectUnauthorized": true,
+          "serializeUrl": false,
+          "shareCookies": false,
+          "timeout": "",
+          "url": "https://healthsignals.news/wp-json/wp/v2/posts",
+          "useMtls": false,
+          "useQuerystring": false
+        },
+        "metadata": {
+          "designer": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        "module": "http:ActionSendData",
+        "parameters": {
+          "handleErrors": false,
+          "useNewZLibDeCompress": true
+        },
+        "version": 3
+      },
+      {
+        "id": 2,
+        "mapper": {
+          "array": "{{1.data}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 300,
+            "y": 0
+          }
+        },
+        "module": "builtin:BasicFeeder",
+        "parameters": {},
+        "version": 1
+      },
+      {
+        "id": 11,
+        "mapper": {
+          "name": "target",
+          "scope": "roundtrip",
+          "value": "{{ifempty(2.value.id; 2.id)}}|{{ifempty(2.value.featured_media; 2.featured_media)}}|{{ifempty(2.value.title.rendered; 2.title.rendered)}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 450,
+            "y": 0
+          }
+        },
+        "module": "util:SetVariable2",
+        "parameters": {},
+        "version": 1
+      },
+      {
+        "filter": {
+          "conditions": [
+            [
+              {
+                "a": "{{get(split(11.target; \"|\"); 2)}}",
+                "b": "0",
+                "o": "text:equal"
+              }
+            ],
+            [
+              {
+                "a": "{{get(split(11.target; \"|\"); 2)}}",
+                "b": "14",
+                "o": "text:equal"
+              }
+            ],
+            [
+              {
+                "a": "{{get(split(11.target; \"|\"); 2)}}",
+                "b": "15",
+                "o": "text:equal"
+              }
+            ],
+            [
+              {
+                "a": "{{get(split(11.target; \"|\"); 2)}}",
+                "b": "46",
+                "o": "text:equal"
+              }
+            ]
+          ],
+          "name": "sin imagen propia o placeholder"
+        },
+        "id": 3,
+        "mapper": {
+          "container": {},
+          "max_tokens": 900,
+          "messages": [
+            {
+              "content": [
+                {
+                  "text": "You are the art director for HealthSignals, a B2B pharma and healthcare intelligence publication covering Latin America and the US. Editorial reference: The Economist, EIU, Bloomberg Intelligence.\n\nProduce ONE cover illustration prompt for this article.\n\nARTICLE HEADLINE: {{get(split(11.target; \"|\"); 3)}}\n\nHOUSE STYLE - non-negotiable\n- Flat editorial illustration. Geometric shapes, flat fills, no gradients, no shadows, no texture, no 3D, no photorealism.\n- No text, numbers, letters, logos, wordmarks or signage anywhere in the image, in any language.\n- No real or identifiable people. Human presence only as flat silhouettes at environmental scale, without facial features, never the focal point, never in white coats as the subject.\n- Landscape 1536x1024, single scene, generous negative space, subject readable at 300px wide because this runs as a thumbnail.\n\nPALETTE - pick ONE row that fits the subject and write the literal colour names into the prompt. Never name the letter alone.\nA - warm cream / off-white background, deep teal, coral-terracotta, amber golden yellow.\nB - deep navy background, warm gold, white, soft powder blue.\nC - pale sage-mint background, forest green, burnt sienna, cream.\nD - soft warm grey background, deep burgundy-wine, teal, ivory.\nE - light golden-yellow background, deep navy, coral, white.\nName the background colour first, then where each accent colour goes.\n\nBANNED as dominant element: molecular rings, hexagons, benzene, DNA helices, microscopes, test tubes, beakers, petri dishes, pills or syringes floating decoratively, stethoscopes, lightbulbs, gears, rising arrows, glowing brains, handshakes, scientists in lab coats, doctors holding tablets, dotted world maps.\n\nCHOOSE THE ANGLE that the headline supports best: the mechanism (how the thing works: pipeline, gate, flow, stages), the actors (regulator as a formal gate or institutional facade, company as a document node or supply segment, payer as a data grid, hospital as a building silhouette - distinguished by shape and accent colour, never by logo or name), or the stakes (geographic overlay, population scale, access gap, before-and-after asymmetry).\n\nOUTPUT - valid JSON only, no markdown fence, no commentary:\n{\"alt_base\":\"\",\"prompt\":\"\"}\n- alt_base: one sentence describing what the illustration shows, for screen readers. Describe the picture. Never repeat the headline and never state a statistic.\n- prompt: 60 to 110 words, self-contained, restating the house style constraints (flat, no text, no logos, no identifiable people) inside the prompt itself.",
+                  "type": "text"
+                }
+              ],
+              "inputType": "multiple",
+              "role": "user"
+            }
+          ],
+          "metadata": {},
+          "model": "claude-sonnet-4-6",
+          "outputFormat": {
+            "type": "text"
+          },
+          "temperature": 0.4,
+          "thinking": {
+            "type": "disabled"
+          },
+          "tool_choice": {}
+        },
+        "metadata": {
+          "designer": {
+            "x": 600,
+            "y": 0
+          }
+        },
+        "module": "anthropic-claude:createAMessage",
+        "parameters": {
+          "__IMTCONN__": 8922808
+        },
+        "version": 1
+      },
+      {
+        "id": 4,
+        "mapper": {
+          "name": "clean_art_json",
+          "scope": "roundtrip",
+          "value": "{{trim(replace(replace(3.content[1].text; \"```json\"; \"\"); \"```\"; \"\"))}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 900,
+            "y": 0
+          }
+        },
+        "module": "util:SetVariable2",
+        "parameters": {},
+        "version": 1
+      },
+      {
+        "id": 5,
+        "mapper": {
+          "json": "{{4.clean_art_json}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 1200,
+            "y": 0
+          }
+        },
+        "module": "json:ParseJSON",
+        "parameters": {},
+        "version": 1
+      },
+      {
+        "id": 6,
+        "mapper": {
+          "model": "gpt-image-2",
+          "n": 1,
+          "output_compression": 85,
+          "output_format": "jpeg",
+          "prompt": "{{5.prompt}} STRICT CONSTRAINTS: flat vector editorial illustration, flat fills only, no gradients, no shadows, no photorealism. No text, letters, numbers, logos, emblems or signage anywhere. No identifiable faces, no facial features on any figure. Landscape composition with generous negative space.",
+          "quality": "medium",
+          "size": "1536x1024"
+        },
+        "metadata": {
+          "designer": {
+            "x": 1500,
+            "y": 0
+          }
+        },
+        "module": "openai-gpt-3:GenerateImage",
+        "parameters": {
+          "__IMTCONN__": 8943313
+        },
+        "version": 1
+      },
+      {
+        "id": 7,
+        "mapper": {
+          "array": "{{6.data}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 1800,
+            "y": 0
+          }
+        },
+        "module": "builtin:BasicFeeder",
+        "parameters": {},
+        "version": 1
+      },
+      {
+        "id": 8,
+        "mapper": {
+          "images": [
+            {
+              "imageFileData": "{{7.fileData}}",
+              "imageUploadType": "imageFile"
+            }
+          ],
+          "max_tokens": 200,
+          "model": "gpt-5.6-luna",
+          "prompt": "You are the pre-publication check for the cover illustration of a healthcare news article. The illustration is AI-generated and flat editorial by design. Do not reject it for being stylised.\n\nREJECT if any of these is true:\n1. Readable text, letters, numbers or symbols that read as words, anywhere in the image, including on documents, screens, buildings or signage.\n2. A logo, wordmark, emblem, flag or coat of arms of a real organisation.\n3. A photorealistic or identifiable human face, or any rendering that could be mistaken for a photograph.\n4. A chart, graph, dashboard or table with legible values a reader could take as data from the article.\n5. Deformed anatomy on any human figure.\n6. The dominant element is a molecular ring, DNA helix, microscope, test tube, floating pills or a stethoscope.\n\nAPPROVE otherwise, including: abstract document shapes with no readable text, faceless flat silhouettes, stylised building blocks, maps without labels, grids without numbers.\n\nReply with exactly one word: APPROVE or REJECT."
+        },
+        "metadata": {
+          "designer": {
+            "x": 2100,
+            "y": 0
+          }
+        },
+        "module": "openai-gpt-3:analyzeImages",
+        "onerror": [
+          {
+            "id": 80,
+            "mapper": {
+              "result": "REJECT"
+            },
+            "metadata": {
+              "designer": {
+                "x": 2100,
+                "y": 300
+              }
+            },
+            "module": "builtin:Resume",
+            "parameters": {},
+            "version": 1
+          }
+        ],
+        "parameters": {
+          "__IMTCONN__": 8943313
+        },
+        "version": 1
+      },
+      {
+        "filter": {
+          "conditions": [
+            [
+              {
+                "a": "{{trim(8.result)}}",
+                "b": "APPROVE",
+                "o": "text:equal"
+              }
+            ]
+          ],
+          "name": "aprobada por QA"
+        },
+        "id": 9,
+        "mapper": {
+          "altText": "{{5.alt_base}}",
+          "caption": "{{5.alt_base}} · Illustration generated with AI for HealthSignals.",
+          "data": "{{7.fileData}}",
+          "fileName": "hs-guard-{{get(split(11.target; \"|\"); 1)}}-{{formatDate(now; \"YYYYMMDD-HHmmss\")}}.jpeg",
+          "title": "Cover image - {{get(split(11.target; \"|\"); 3)}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 2400,
+            "y": 0
+          }
+        },
+        "module": "wordpress:createMediaItem",
+        "parameters": {
+          "__IMTCONN__": 8921729
+        },
+        "version": 3
+      },
+      {
+        "filter": {
+          "conditions": [
+            [
+              {
+                "a": "{{9.ID}}",
+                "o": "exist"
+              }
+            ]
+          ],
+          "name": "hay media nueva"
+        },
+        "id": 10,
+        "mapper": {
+          "featuredMedia": "{{9.ID}}",
+          "id": "{{get(split(11.target; \"|\"); 1)}}",
+          "type": "posts"
+        },
+        "metadata": {
+          "designer": {
+            "x": 2700,
+            "y": 0
+          }
+        },
+        "module": "wordpress:updatePost",
+        "parameters": {
+          "__IMTCONN__": 8921729
+        },
+        "version": 3
+      }
+    ],
+    "metadata": {
+      "instant": false,
+      "version": 1
+    },
+    "name": "HS — Guard imagen destacada (watchdog)"
+  },
+  "folderId": null,
+  "id": 6314042,
+  "isActive": true,
+  "name": "HS — Guard imagen destacada (watchdog)",
+  "scheduling": {
+    "interval": 10800,
+    "type": "indefinitely"
+  }
+}

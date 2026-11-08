@@ -1,0 +1,115 @@
+{
+  "blueprint": {
+    "flow": [
+      {
+        "id": 1,
+        "mapper": {
+          "dateTimeRenderOption": "FORMATTED_STRING",
+          "fieldType": "string",
+          "filter": [
+            [
+              {
+                "a": "P",
+                "b": "queued",
+                "o": "text:notequal"
+              },
+              {
+                "a": "P",
+                "b": "draft",
+                "o": "text:notequal"
+              }
+            ]
+          ],
+          "from": "drive",
+          "includesHeaders": true,
+          "limit": "300",
+          "orderBy": "B",
+          "sheetId": "Editorial Queue",
+          "sortOrder": "asc",
+          "spreadsheetId": "1J8ca4Pvp3HTSdHqq9-TZ1H-nF6_fM5R3Jm1bf9bAU8A",
+          "tableFirstRow": "A1:CZ1",
+          "valueRenderOption": "FORMATTED_VALUE"
+        },
+        "metadata": {
+          "designer": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        "module": "google-sheets:filterRows",
+        "parameters": {
+          "__IMTCONN__": 8923977
+        },
+        "version": 2
+      },
+      {
+        "filter": {
+          "conditions": [
+            [
+              {
+                "a": "{{1.`__ROW_NUMBER__`}}",
+                "o": "exist"
+              }
+            ]
+          ],
+          "name": "fila valida"
+        },
+        "id": 2,
+        "mapper": {
+          "data": {
+            "category": "{{1.`3`}}",
+            "country": "{{1.`5`}}",
+            "error": "{{substring(1.`34`; 0; 160)}}",
+            "headline": "{{substring(1.`2`; 0; 90)}}",
+            "li_post_len": "{{length(1.`41`)}}",
+            "linkedin_url": "{{1.`24`}}",
+            "post_id": "{{1.`22`}}",
+            "priority": "{{1.`14`}}",
+            "row": "{{1.`__ROW_NUMBER__`}}",
+            "status": "{{1.`15`}}",
+            "step": "{{substring(1.`16`; 0; 120)}}",
+            "wp_url": "{{1.`23`}}"
+          },
+          "key": "{{1.`__ROW_NUMBER__`}}",
+          "overwrite": true
+        },
+        "metadata": {
+          "designer": {
+            "x": 300,
+            "y": 0
+          }
+        },
+        "module": "datastore:AddRecord",
+        "onerror": [
+          {
+            "id": 3,
+            "metadata": {
+              "designer": {
+                "x": 450,
+                "y": 150
+              }
+            },
+            "module": "builtin:Ignore",
+            "version": 1
+          }
+        ],
+        "parameters": {
+          "datastore": 148918
+        },
+        "version": 1
+      }
+    ],
+    "metadata": {
+      "instant": false,
+      "version": 1
+    },
+    "name": "HS - Queue snapshot to datastore"
+  },
+  "folderId": 247198,
+  "id": 6248217,
+  "isActive": true,
+  "name": "HS - Queue snapshot to datastore",
+  "scheduling": {
+    "type": "on-demand"
+  }
+}

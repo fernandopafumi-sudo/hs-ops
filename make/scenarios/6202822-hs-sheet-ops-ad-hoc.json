@@ -1,0 +1,82 @@
+{
+  "blueprint": {
+    "flow": [
+      {
+        "id": 1,
+        "mapper": {
+          "dateTimeRenderOption": "FORMATTED_STRING",
+          "filter": [
+            [
+              {
+                "a": "T",
+                "b": "smoke test v2",
+                "o": "text:contain"
+              }
+            ]
+          ],
+          "from": "drive",
+          "includesHeaders": true,
+          "limit": "10",
+          "sheetId": "Editorial Queue",
+          "spreadsheetId": "1J8ca4Pvp3HTSdHqq9-TZ1H-nF6_fM5R3Jm1bf9bAU8A",
+          "tableFirstRow": "A1:CZ1",
+          "valueRenderOption": "FORMATTED_VALUE"
+        },
+        "metadata": {
+          "designer": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        "module": "google-sheets:filterRows",
+        "parameters": {
+          "__IMTCONN__": 8923977
+        },
+        "version": 2
+      },
+      {
+        "id": 2,
+        "mapper": {
+          "key": "SMOKE2 row{{1.`__ROW_NUMBER__`}} | {{1.`15`}} | WP {{1.`22`}} | {{substring(1.`16`; 0; 1200)}}",
+          "overwrite": true
+        },
+        "metadata": {
+          "designer": {
+            "x": 300,
+            "y": 0
+          }
+        },
+        "module": "datastore:AddRecord",
+        "parameters": {
+          "datastore": 124602
+        },
+        "version": 1
+      }
+    ],
+    "metadata": {
+      "designer": {
+        "orphans": []
+      },
+      "instant": false,
+      "scenario": {
+        "autoCommit": true,
+        "autoCommitTriggerLast": true,
+        "confidential": false,
+        "dataloss": false,
+        "dlq": false,
+        "maxErrors": 3,
+        "roundtrips": 1,
+        "sequential": false
+      },
+      "version": 1
+    },
+    "name": "HS - Sheet Ops (ad-hoc)"
+  },
+  "folderId": 247198,
+  "id": 6202822,
+  "isActive": true,
+  "name": "HS - Sheet Ops (ad-hoc)",
+  "scheduling": {
+    "type": "on-demand"
+  }
+}

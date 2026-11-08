@@ -1,0 +1,114 @@
+{
+  "blueprint": {
+    "flow": [
+      {
+        "id": 1,
+        "mapper": {
+          "base": "appoQCjO9RqdaSDnW",
+          "formula": "AND({status} = 'scheduled', IS_SAME({scheduled_date}, TODAY(), 'day'))",
+          "maxRecords": 5,
+          "table": "tbl7fLhIbN8SyZ3rm"
+        },
+        "metadata": {
+          "designer": {
+            "name": "Buscar posts de hoy",
+            "x": 0,
+            "y": 0
+          }
+        },
+        "module": "airtable:ActionSearchRecords",
+        "parameters": {
+          "__IMTCONN__": 9132003
+        },
+        "version": 3
+      },
+      {
+        "filter": {
+          "conditions": [
+            [
+              {
+                "a": "{{1.id}}",
+                "o": "exist"
+              }
+            ]
+          ],
+          "name": "Solo si hay registro real"
+        },
+        "id": 2,
+        "mapper": {
+          "from": "ListingBoost AI <listingboost@healthsignals.news>",
+          "sendEmailAs": "text",
+          "subject": "Post de grupo listo para pegar — {{1.group_type}}",
+          "text": "POST PARA GRUPO DE FACEBOOK — listo para copiar y pegar\n===========================================================\n\nAngulo: {{1.angle}}\nTipo de grupo: {{1.group_type}}\nFoto a adjuntar: {{1.photo_file}}\n\n\nANTES DE PEGAR — chequeo de 30 segundos\n-----------------------------------------------------------\n[ ] Lei las reglas fijadas del grupo\n[ ] El grupo NO dice \"no agents\" ni \"FSBO only\"\n     (esta casa esta listada con UDI LLC, no es FSBO)\n[ ] No poste en este mismo grupo en los ultimos 7 dias\n[ ] Reemplace los datos entre corchetes por los reales de DBPR\n[ ] El listing sigue ACTIVO en Zillow\n\n\nTEXTO DEL POST\n===========================================================\n\n{{1.post_body}}\n\n===========================================================\n\n\nPRIMER COMENTARIO (el link va aca, NO en el cuerpo del post)\n-----------------------------------------------------------\n\n{{1.first_comment}}\n\n\nDESPUES DE POSTEAR\n-----------------------------------------------------------\nAbri Airtable > ListingBoost AI > group_posts y marca este\nregistro como \"posted\". Anota el nombre del grupo en\ngroup_name para saber despues cual trajo trafico.\n\nSi alguien pide ver la casa, pasalo a Asher Abadi\n(321-622-3937). El Exclusive Right of Sale te obliga a\nreferirle las consultas.\n\n-----------------------------------------------------------\nRecordatorio automatico de ListingBoost AI.\nLa publicacion en grupos es manual: Meta elimino la Groups\nAPI el 22-abr-2024 y no existe forma oficial de automatizarla.",
+          "to": [
+            "fernandopafumi@gmail.com"
+          ]
+        },
+        "metadata": {
+          "designer": {
+            "name": "Enviar recordatorio",
+            "x": 300,
+            "y": 0
+          }
+        },
+        "module": "resend:sendAnEmail",
+        "parameters": {
+          "__IMTCONN__": 9533217
+        },
+        "version": 1
+      },
+      {
+        "filter": {
+          "conditions": [
+            [
+              {
+                "a": "{{1.id}}",
+                "o": "exist"
+              }
+            ]
+          ],
+          "name": "Solo si hay registro real"
+        },
+        "id": 3,
+        "mapper": {
+          "base": "appoQCjO9RqdaSDnW",
+          "id": "{{1.id}}",
+          "record": {
+            "fldY5duXIa2G4kT3Q": "reminder_sent"
+          },
+          "table": "tbl7fLhIbN8SyZ3rm",
+          "typecast": true,
+          "useColumnId": true
+        },
+        "metadata": {
+          "designer": {
+            "name": "Marcar reminder_sent",
+            "x": 600,
+            "y": 0
+          }
+        },
+        "module": "airtable:ActionUpdateRecords",
+        "parameters": {
+          "__IMTCONN__": 9132003
+        },
+        "version": 3
+      }
+    ],
+    "metadata": {
+      "designer": {
+        "orphans": []
+      },
+      "instant": false,
+      "version": 1
+    },
+    "name": "LB — Group Post Reminder (620 Spend A Buck)"
+  },
+  "folderId": null,
+  "id": 5841829,
+  "isActive": false,
+  "name": "LB — Group Post Reminder (620 Spend A Buck)",
+  "scheduling": {
+    "time": "09:00",
+    "type": "daily"
+  }
+}

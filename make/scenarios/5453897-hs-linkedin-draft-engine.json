@@ -1,0 +1,205 @@
+{
+  "blueprint": {
+    "flow": [
+      {
+        "id": 1,
+        "mapper": {
+          "authPass": "",
+          "authUser": "",
+          "bodyType": "",
+          "ca": "",
+          "followAllRedirects": true,
+          "followRedirect": true,
+          "gzip": true,
+          "headers": [
+            {
+              "name": "User-Agent",
+              "value": "HealthSignalsBot/1.0"
+            }
+          ],
+          "method": "get",
+          "parseResponse": true,
+          "qs": [],
+          "rejectUnauthorized": true,
+          "serializeUrl": false,
+          "shareCookies": false,
+          "timeout": "",
+          "url": "https://healthsignals.news/wp-json/wp/v2/posts?per_page=8&orderby=date&order=desc&_fields=id,link,title,excerpt",
+          "useMtls": false,
+          "useQuerystring": false
+        },
+        "metadata": {
+          "designer": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        "module": "http:ActionSendData",
+        "parameters": {
+          "handleErrors": false,
+          "useNewZLibDeCompress": true
+        },
+        "version": 3
+      },
+      {
+        "id": 2,
+        "mapper": {
+          "array": "{{1.data}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 300,
+            "y": 0
+          }
+        },
+        "module": "builtin:BasicFeeder",
+        "parameters": {},
+        "version": 1
+      },
+      {
+        "id": 3,
+        "mapper": {
+          "body": "",
+          "headers": [],
+          "method": "GET",
+          "qs": [
+            {
+              "key": "filterByFormula",
+              "value": "{WP_Post_ID}={{2.id}}"
+            }
+          ],
+          "url": "v0/appjkRayvA0YEjczd/tbliGiN7TL82pGCCV"
+        },
+        "metadata": {
+          "designer": {
+            "x": 600,
+            "y": 0
+          }
+        },
+        "module": "airtable:makeApiCall",
+        "parameters": {
+          "__IMTCONN__": 9132003
+        },
+        "version": 3
+      },
+      {
+        "filter": {
+          "conditions": [
+            [
+              {
+                "a": "{{length(3.body.records)}}",
+                "b": "0",
+                "o": "text:equal"
+              }
+            ]
+          ],
+          "name": "not yet drafted"
+        },
+        "id": 5,
+        "mapper": {
+          "max_tokens": "700",
+          "model": "claude-sonnet-4-6",
+          "textPrompt": "You write LinkedIn posts for Fernando Pafumi, editor of HealthSignals (healthcare intelligence for Latin America and the US). Write ONE native LinkedIn post in English, Bloomberg/FT tone: sharp, factual, no hype, max 2 hashtags. Structure: a strong 1-line hook; then 2-4 short lines with the key insight and why it matters commercially; then a final CTA line exactly: 'Full briefing + subscribe at healthsignals.news (link in comments).' Do NOT put any URL in the body. Base it ONLY on this article:\nTitle: {{2.title.rendered}}\nSummary: {{2.excerpt.rendered}}\nReturn ONLY the post text, no preamble, no quotes."
+        },
+        "metadata": {
+          "designer": {
+            "x": 900,
+            "y": 0
+          },
+          "expect": [
+            {
+              "label": "Model",
+              "name": "model",
+              "required": true,
+              "type": "select"
+            },
+            {
+              "label": "Text Prompt",
+              "name": "textPrompt",
+              "required": true,
+              "type": "text"
+            },
+            {
+              "label": "Max Tokens",
+              "name": "max_tokens",
+              "required": true,
+              "type": "uinteger"
+            }
+          ]
+        },
+        "module": "anthropic-claude:simpleTextPrompt",
+        "parameters": {},
+        "version": 1
+      },
+      {
+        "id": 6,
+        "mapper": {
+          "name": "post_clean",
+          "scope": "roundtrip",
+          "value": "{{replace(5.result; newline; \"\\n\")}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 1150,
+            "y": 0
+          }
+        },
+        "module": "util:SetVariable2",
+        "parameters": {},
+        "version": 1
+      },
+      {
+        "id": 7,
+        "mapper": {
+          "body": "{\"typecast\":true,\"fields\":{\"WP_Post_ID\":{{2.id}},\"Hook\":\"{{2.title.rendered}}\",\"Post_Text\":\"{{6.post_clean}}\",\"Status\":\"Draft\",\"Target\":\"Personal\"}}",
+          "headers": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "method": "POST",
+          "qs": [],
+          "url": "v0/appjkRayvA0YEjczd/tbliGiN7TL82pGCCV"
+        },
+        "metadata": {
+          "designer": {
+            "x": 1400,
+            "y": 0
+          }
+        },
+        "module": "airtable:makeApiCall",
+        "parameters": {
+          "__IMTCONN__": 9132003
+        },
+        "version": 3
+      }
+    ],
+    "metadata": {
+      "designer": {
+        "orphans": []
+      },
+      "instant": false,
+      "scenario": {
+        "autoCommit": true,
+        "confidential": false,
+        "dataloss": false,
+        "dlq": false,
+        "freshVariables": false,
+        "maxErrors": 3,
+        "roundtrips": 1,
+        "sequential": true
+      },
+      "version": 1
+    },
+    "name": "HS LinkedIn Draft Engine"
+  },
+  "folderId": 268065,
+  "id": 5453897,
+  "isActive": false,
+  "name": "HS LinkedIn Draft Engine",
+  "scheduling": {
+    "interval": 86400,
+    "type": "indefinitely"
+  }
+}

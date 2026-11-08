@@ -1,0 +1,43 @@
+{
+  "blueprint": {
+    "flow": [
+      {
+        "id": 1,
+        "mapper": {
+          "base": "appBHU5GcqlKpwbIh",
+          "maxRecords": 1000,
+          "table": "tblzZeqms4kbo0bTa"
+        },
+        "module": "airtable:ActionSearchRecords",
+        "parameters": {
+          "__IMTCONN__": 9132003
+        },
+        "version": 3
+      },
+      {
+        "id": 2,
+        "mapper": {
+          "records": "{{1.records}}"
+        },
+        "module": "airtable:bulkCreateRecords",
+        "parameters": {
+          "baseId": "appjkRayvA0YEjczd",
+          "tableId": "tblalG4gDQFhUYC0D"
+        },
+        "version": 3
+      }
+    ],
+    "metadata": {
+      "instant": false,
+      "version": 1
+    },
+    "name": "HS LinkedIn Import → CRM Sync"
+  },
+  "folderId": 268065,
+  "id": 5890673,
+  "isActive": false,
+  "name": "HS LinkedIn Import → CRM Sync",
+  "scheduling": {
+    "type": "on-demand"
+  }
+}

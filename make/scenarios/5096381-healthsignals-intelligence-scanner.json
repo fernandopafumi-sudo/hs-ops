@@ -1,0 +1,2975 @@
+{
+  "blueprint": {
+    "flow": [
+      {
+        "id": 13,
+        "mapper": {
+          "dateTimeRenderOption": "FORMATTED_STRING",
+          "fieldType": "string",
+          "filter": [
+            [
+              {
+                "a": "AO",
+                "o": "exist"
+              }
+            ]
+          ],
+          "from": "drive",
+          "includesHeaders": true,
+          "limit": "300",
+          "orderBy": "B",
+          "sheetId": "Editorial Queue",
+          "sortOrder": "desc",
+          "spreadsheetId": "1J8ca4Pvp3HTSdHqq9-TZ1H-nF6_fM5R3Jm1bf9bAU8A",
+          "tableFirstRow": "A1:CZ1",
+          "valueRenderOption": "FORMATTED_VALUE"
+        },
+        "metadata": {
+          "designer": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        "module": "google-sheets:filterRows",
+        "parameters": {
+          "__IMTCONN__": 8923977
+        },
+        "version": 2
+      },
+      {
+        "id": 91,
+        "mapper": {
+          "value": "{{13.`40`}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 150,
+            "y": 0
+          }
+        },
+        "module": "util:TextAggregator",
+        "parameters": {
+          "feeder": 13,
+          "otherRowSeparator": "|",
+          "rowSeparator": "other"
+        },
+        "version": 1
+      },
+      {
+        "id": 90,
+        "mapper": null,
+        "metadata": {
+          "designer": {
+            "x": 300,
+            "y": 0
+          }
+        },
+        "module": "builtin:BasicRouter",
+        "routes": [
+          {
+            "flow": [
+              {
+                "id": 110,
+                "mapper": {
+                  "contents": {
+                    "text": {
+                      "maxCharacters": 2000
+                    }
+                  },
+                  "includeContent": true,
+                  "includeDomains": [
+                    "eleconomista.com.mx",
+                    "expansion.mx",
+                    "elfinanciero.com.mx",
+                    "milenio.com",
+                    "eluniversal.com.mx",
+                    "reforma.com",
+                    "americaeconomia.com",
+                    "saludiario.com",
+                    "consultorsalud.com.mx",
+                    "infobae.com",
+                    "prnewswire.com",
+                    "businesswire.com",
+                    "globenewswire.com",
+                    "genommalab.com"
+                  ],
+                  "numResults": 8,
+                  "query": "Mexico salud y farma, noticias de EMPRESAS primero: resultados trimestrales OR facturacion OR lanzamiento de producto OR nueva planta OR capacidad productiva OR acuerdo de licencia OR distribucion OR expansion OR inversion OR adquisicion OR alianza OR nuevo CEO, de laboratorios, biotecnologicas, dispositivos medicos, hospitales privados, aseguradoras y farmacias en Mexico como Genomma Lab, Sanfer, Silanes, Neolpharma, Liomont, Psicofarma, Chinoin, Grupo Angeles, Salud Digna, Farmacias del Ahorro, y las multinacionales con operacion mexicana. Secundariamente COFEPRIS, IMSS ISSSTE compras consolidadas y acceso a medicamentos. En oncologia inmunologia neurologia cardio-metabolico diabetes obesidad enfermedades raras vacunas enfermedades infecciosas terapia celular y genica.",
+                  "startPublishedDate": "{{formatDate(addDays(now; -30); \"YYYY-MM-DD\")}}",
+                  "type": "neural",
+                  "useAutoprompt": true
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 600,
+                    "y": 0
+                  }
+                },
+                "module": "exa-ai:performASearchWithContent",
+                "parameters": {
+                  "__IMTCONN__": 8984010
+                },
+                "version": 1
+              },
+              {
+                "filter": {
+                  "conditions": [
+                    [
+                      {
+                        "a": "{{91.text}}",
+                        "b": "{{110.url}}",
+                        "o": "text:notcontain"
+                      }
+                    ]
+                  ],
+                  "name": "no duplicado"
+                },
+                "id": 111,
+                "mapper": {
+                  "max_tokens": 500,
+                  "messages": [
+                    {
+                      "content": "Return exactly one valid JSON object and nothing else: no markdown, no code fences, no text before or after. It must parse with JSON.parse. Each string value under 15 words, single line. If a value would contain a double quote, rephrase to avoid it.\nTITLE: {{110.title}}\nEXCERPT: {{substring(110.text; 0; 900)}}\n\nSchema (all string values):\ncategory: one of [market access, drug pricing, pharma regulation, M&A, clinical catalyst, oncology, manufacturing, digital health, ai healthcare, payer systems, public health, litigation, health systems & disease burden]\ncountry: single country name or Global\ncompany: main institution or company\nangle: one affirmative sentence\nwhy_it_matters: one sentence\npatients_impact: one sentence\nindustry_impact: one sentence\nlitigation_risk: low, medium or high\npriority: breaking, high, medium or low",
+                      "inputType": "single",
+                      "role": "user"
+                    }
+                  ],
+                  "model": "claude-fable-5"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 900,
+                    "y": 0
+                  }
+                },
+                "module": "anthropic-claude:createAMessage",
+                "parameters": {
+                  "__IMTCONN__": 8923111
+                },
+                "version": 1
+              },
+              {
+                "id": 112,
+                "mapper": {
+                  "json": "{{replace(replace(111.content[1].text; \"```json\"; \"\"); \"```\"; \"\")}}"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 1050,
+                    "y": 0
+                  }
+                },
+                "module": "json:ParseJSON",
+                "onerror": [
+                  {
+                    "id": 114,
+                    "metadata": {
+                      "designer": {
+                        "x": 1050,
+                        "y": 80
+                      }
+                    },
+                    "module": "builtin:Ignore",
+                    "version": 1
+                  }
+                ],
+                "parameters": {
+                  "type": 444121
+                },
+                "version": 1
+              },
+              {
+                "id": 190,
+                "mapper": {
+                  "data": {
+                    "batch": "SCAN-MX",
+                    "headline": "{{110.title}}",
+                    "seen_at": "{{now}}"
+                  },
+                  "key": "{{lower(trim(112.company))}}~{{lower(trim(112.category))}}~{{formatDate(now; \"YYYY-MM-DD\")}}",
+                  "overwrite": false
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 1200,
+                    "y": 0
+                  }
+                },
+                "module": "datastore:AddRecord",
+                "onerror": [
+                  {
+                    "id": 191,
+                    "metadata": {
+                      "designer": {
+                        "x": 1200,
+                        "y": 80
+                      }
+                    },
+                    "module": "builtin:Ignore",
+                    "version": 1
+                  }
+                ],
+                "parameters": {
+                  "datastore": 148747
+                },
+                "version": 1
+              },
+              {
+                "id": 113,
+                "mapper": {
+                  "insertUnformatted": false,
+                  "mode": "map",
+                  "sheetId": "Editorial Queue",
+                  "spreadsheetId": "1J8ca4Pvp3HTSdHqq9-TZ1H-nF6_fM5R3Jm1bf9bAU8A",
+                  "tableFirstRow": "A1:CZ1",
+                  "valueInputOption": "USER_ENTERED",
+                  "values": {
+                    "1": "{{now}}",
+                    "10": "{{112.industry_impact}}",
+                    "11": "{{112.litigation_risk}}",
+                    "12": "{{110.url}}",
+                    "14": "{{112.priority}}",
+                    "15": "draft",
+                    "16": "awaiting editor review",
+                    "2": "{{110.title}}",
+                    "29": "Exa Mexico pharma/regulatory",
+                    "3": "{{112.category}}",
+                    "30": "{{110.url}}",
+                    "31": "{{111.content[1].text}}",
+                    "35": "{{now}}",
+                    "39": "SCAN-MX",
+                    "4": "Mexico",
+                    "40": "{{110.url}}",
+                    "5": "{{112.country}}",
+                    "6": "{{112.company}}",
+                    "7": "{{112.angle}}",
+                    "8": "{{112.why_it_matters}}",
+                    "9": "{{112.patients_impact}}"
+                  }
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 1350,
+                    "y": 0
+                  }
+                },
+                "module": "google-sheets:addRow",
+                "onerror": [
+                  {
+                    "id": 115,
+                    "metadata": {
+                      "designer": {
+                        "x": 1350,
+                        "y": 80
+                      }
+                    },
+                    "module": "builtin:Ignore",
+                    "version": 1
+                  }
+                ],
+                "parameters": {
+                  "__IMTCONN__": 8923977
+                },
+                "version": 2
+              }
+            ]
+          },
+          {
+            "flow": [
+              {
+                "id": 120,
+                "mapper": {
+                  "contents": {
+                    "text": {
+                      "maxCharacters": 2000
+                    }
+                  },
+                  "includeContent": true,
+                  "includeDomains": [
+                    "valor.globo.com",
+                    "exame.com",
+                    "folha.uol.com.br",
+                    "estadao.com.br",
+                    "oglobo.globo.com",
+                    "neofeed.com.br",
+                    "braziljournal.com",
+                    "panoramafarmaceutico.com.br",
+                    "futurodasaude.com.br",
+                    "jota.info",
+                    "eurofarma.com.br",
+                    "ems.com.br",
+                    "prnewswire.com",
+                    "businesswire.com",
+                    "globenewswire.com",
+                    "hapvida.com.br",
+                    "rededorsaoluiz.com.br",
+                    "hypera.com.br",
+                    "achelab.com.br",
+                    "libbs.com.br",
+                    "biolabfarma.com.br",
+                    "oncoclinicas.com"
+                  ],
+                  "numResults": 8,
+                  "query": "Brasil saude e farma, noticias de EMPRESAS primeiro: resultados trimestrais OR faturamento OR lancamento de produto OR nova fabrica OR capacidade produtiva OR acordo de licenciamento OR distribuicao OR expansao OR investimento OR aquisicao OR parceria OR novo CEO, de laboratorios, biotecnologicas, dispositivos medicos, hospitais privados, operadoras e laboratorios de diagnostico no Brasil como EMS, Hypera Pharma, Ache, Eurofarma, Libbs, Biolab, Cristalia, Blau, Uniao Quimica, Dasa, Grupo Fleury, Rede D Or, Hapvida, NotreDame Intermedica, Amil, e as multinacionais com operacao brasileira. Secundariamente ANVISA, ANS, SUS e CMED. Em oncologia imunologia neurologia cardio-metabolico diabetes obesidade doencas raras vacinas doencas infecciosas terapia celular e genica.",
+                  "startPublishedDate": "{{formatDate(addDays(now; -30); \"YYYY-MM-DD\")}}",
+                  "type": "neural",
+                  "useAutoprompt": true
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 600,
+                    "y": 0
+                  }
+                },
+                "module": "exa-ai:performASearchWithContent",
+                "parameters": {
+                  "__IMTCONN__": 8984010
+                },
+                "version": 1
+              },
+              {
+                "filter": {
+                  "conditions": [
+                    [
+                      {
+                        "a": "{{91.text}}",
+                        "b": "{{120.url}}",
+                        "o": "text:notcontain"
+                      }
+                    ]
+                  ],
+                  "name": "no duplicado"
+                },
+                "id": 121,
+                "mapper": {
+                  "max_tokens": 500,
+                  "messages": [
+                    {
+                      "content": "Return exactly one valid JSON object and nothing else: no markdown, no code fences, no text before or after. It must parse with JSON.parse. Each string value under 15 words, single line. If a value would contain a double quote, rephrase to avoid it.\nTITLE: {{120.title}}\nEXCERPT: {{substring(120.text; 0; 900)}}\n\nSchema (all string values):\ncategory: one of [market access, drug pricing, pharma regulation, M&A, clinical catalyst, oncology, manufacturing, digital health, ai healthcare, payer systems, public health, litigation, health systems & disease burden]\ncountry: single country name or Global\ncompany: main institution or company\nangle: one affirmative sentence\nwhy_it_matters: one sentence\npatients_impact: one sentence\nindustry_impact: one sentence\nlitigation_risk: low, medium or high\npriority: breaking, high, medium or low",
+                      "inputType": "single",
+                      "role": "user"
+                    }
+                  ],
+                  "model": "claude-fable-5"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 900,
+                    "y": 0
+                  }
+                },
+                "module": "anthropic-claude:createAMessage",
+                "parameters": {
+                  "__IMTCONN__": 8923111
+                },
+                "version": 1
+              },
+              {
+                "id": 122,
+                "mapper": {
+                  "json": "{{replace(replace(121.content[1].text; \"```json\"; \"\"); \"```\"; \"\")}}"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 1050,
+                    "y": 0
+                  }
+                },
+                "module": "json:ParseJSON",
+                "onerror": [
+                  {
+                    "id": 124,
+                    "metadata": {
+                      "designer": {
+                        "x": 1050,
+                        "y": 80
+                      }
+                    },
+                    "module": "builtin:Ignore",
+                    "version": 1
+                  }
+                ],
+                "parameters": {
+                  "type": 444121
+                },
+                "version": 1
+              },
+              {
+                "id": 192,
+                "mapper": {
+                  "data": {
+                    "batch": "SCAN-BR",
+                    "headline": "{{120.title}}",
+                    "seen_at": "{{now}}"
+                  },
+                  "key": "{{lower(trim(122.company))}}~{{lower(trim(122.category))}}~{{formatDate(now; \"YYYY-MM-DD\")}}",
+                  "overwrite": false
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 1200,
+                    "y": 0
+                  }
+                },
+                "module": "datastore:AddRecord",
+                "onerror": [
+                  {
+                    "id": 193,
+                    "metadata": {
+                      "designer": {
+                        "x": 1200,
+                        "y": 80
+                      }
+                    },
+                    "module": "builtin:Ignore",
+                    "version": 1
+                  }
+                ],
+                "parameters": {
+                  "datastore": 148747
+                },
+                "version": 1
+              },
+              {
+                "id": 123,
+                "mapper": {
+                  "insertUnformatted": false,
+                  "mode": "map",
+                  "sheetId": "Editorial Queue",
+                  "spreadsheetId": "1J8ca4Pvp3HTSdHqq9-TZ1H-nF6_fM5R3Jm1bf9bAU8A",
+                  "tableFirstRow": "A1:CZ1",
+                  "valueInputOption": "USER_ENTERED",
+                  "values": {
+                    "1": "{{now}}",
+                    "10": "{{122.industry_impact}}",
+                    "11": "{{122.litigation_risk}}",
+                    "12": "{{120.url}}",
+                    "14": "{{122.priority}}",
+                    "15": "draft",
+                    "16": "awaiting editor review",
+                    "2": "{{120.title}}",
+                    "29": "Exa Brazil pharma/regulatory",
+                    "3": "{{122.category}}",
+                    "30": "{{120.url}}",
+                    "31": "{{121.content[1].text}}",
+                    "35": "{{now}}",
+                    "39": "SCAN-BR",
+                    "4": "Brazil",
+                    "40": "{{120.url}}",
+                    "5": "{{122.country}}",
+                    "6": "{{122.company}}",
+                    "7": "{{122.angle}}",
+                    "8": "{{122.why_it_matters}}",
+                    "9": "{{122.patients_impact}}"
+                  }
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 1350,
+                    "y": 0
+                  }
+                },
+                "module": "google-sheets:addRow",
+                "onerror": [
+                  {
+                    "id": 125,
+                    "metadata": {
+                      "designer": {
+                        "x": 1350,
+                        "y": 80
+                      }
+                    },
+                    "module": "builtin:Ignore",
+                    "version": 1
+                  }
+                ],
+                "parameters": {
+                  "__IMTCONN__": 8923977
+                },
+                "version": 2
+              }
+            ]
+          },
+          {
+            "flow": [
+              {
+                "id": 130,
+                "mapper": {
+                  "contents": {
+                    "text": {
+                      "maxCharacters": 2000
+                    }
+                  },
+                  "includeContent": true,
+                  "includeDomains": [
+                    "cronista.com",
+                    "lanacion.com.ar",
+                    "ambito.com",
+                    "perfil.com",
+                    "infobae.com",
+                    "latercera.com",
+                    "emol.com",
+                    "df.cl",
+                    "pulso.cl",
+                    "elpais.com.uy",
+                    "elobservador.com.uy",
+                    "abc.com.py",
+                    "bnamericas.com",
+                    "prnewswire.com",
+                    "businesswire.com",
+                    "globenewswire.com",
+                    "mabxience.com",
+                    "grupoinsud.com",
+                    "sinergiumbiotech.com",
+                    "roemmers.com",
+                    "elea.com",
+                    "bago.com.ar",
+                    "laboratoriochile.cl"
+                  ],
+                  "numResults": 8,
+                  "query": "Argentina Chile Uruguay Paraguay salud y farma, noticias de EMPRESAS primero: resultados trimestrales OR facturacion OR lanzamiento de producto OR nueva planta OR capacidad productiva OR acuerdo de licencia OR distribucion OR expansion OR inversion OR adquisicion OR alianza OR nuevo CEO, de laboratorios, biotecnologicas, dispositivos medicos, clinicas privadas y prepagas del Cono Sur como Roemmers, Elea, Bago, Gador, Raffo, Casasco, Sinergium Biotech, Laboratorio Chile, Saval, Andromaco, Recalcine, Clinicas Las Condes, Swiss Medical, OSDE, y las multinacionales con operacion regional. Secundariamente ANMAT, PAMI, ISP, FONASA, ISAPRES y acceso a medicamentos. En oncologia inmunologia neurologia cardio-metabolico diabetes obesidad enfermedades raras vacunas enfermedades infecciosas terapia celular y genica.",
+                  "startPublishedDate": "{{formatDate(addDays(now; -30); \"YYYY-MM-DD\")}}",
+                  "type": "neural",
+                  "useAutoprompt": true
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 600,
+                    "y": 0
+                  }
+                },
+                "module": "exa-ai:performASearchWithContent",
+                "parameters": {
+                  "__IMTCONN__": 8984010
+                },
+                "version": 1
+              },
+              {
+                "filter": {
+                  "conditions": [
+                    [
+                      {
+                        "a": "{{91.text}}",
+                        "b": "{{130.url}}",
+                        "o": "text:notcontain"
+                      }
+                    ]
+                  ],
+                  "name": "no duplicado"
+                },
+                "id": 131,
+                "mapper": {
+                  "max_tokens": 500,
+                  "messages": [
+                    {
+                      "content": "Return exactly one valid JSON object and nothing else: no markdown, no code fences, no text before or after. It must parse with JSON.parse. Each string value under 15 words, single line. If a value would contain a double quote, rephrase to avoid it.\nTITLE: {{130.title}}\nEXCERPT: {{substring(130.text; 0; 900)}}\n\nSchema (all string values):\ncategory: one of [market access, drug pricing, pharma regulation, M&A, clinical catalyst, oncology, manufacturing, digital health, ai healthcare, payer systems, public health, litigation, health systems & disease burden]\ncountry: single country name or Global\ncompany: main institution or company\nangle: one affirmative sentence\nwhy_it_matters: one sentence\npatients_impact: one sentence\nindustry_impact: one sentence\nlitigation_risk: low, medium or high\npriority: breaking, high, medium or low",
+                      "inputType": "single",
+                      "role": "user"
+                    }
+                  ],
+                  "model": "claude-fable-5"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 900,
+                    "y": 0
+                  }
+                },
+                "module": "anthropic-claude:createAMessage",
+                "parameters": {
+                  "__IMTCONN__": 8923111
+                },
+                "version": 1
+              },
+              {
+                "id": 132,
+                "mapper": {
+                  "json": "{{replace(replace(131.content[1].text; \"```json\"; \"\"); \"```\"; \"\")}}"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 1050,
+                    "y": 0
+                  }
+                },
+                "module": "json:ParseJSON",
+                "onerror": [
+                  {
+                    "id": 134,
+                    "metadata": {
+                      "designer": {
+                        "x": 1050,
+                        "y": 80
+                      }
+                    },
+                    "module": "builtin:Ignore",
+                    "version": 1
+                  }
+                ],
+                "parameters": {
+                  "type": 444121
+                },
+                "version": 1
+              },
+              {
+                "id": 194,
+                "mapper": {
+                  "data": {
+                    "batch": "SCAN-CONOSUR",
+                    "headline": "{{130.title}}",
+                    "seen_at": "{{now}}"
+                  },
+                  "key": "{{lower(trim(132.company))}}~{{lower(trim(132.category))}}~{{formatDate(now; \"YYYY-MM-DD\")}}",
+                  "overwrite": false
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 1200,
+                    "y": 0
+                  }
+                },
+                "module": "datastore:AddRecord",
+                "onerror": [
+                  {
+                    "id": 195,
+                    "metadata": {
+                      "designer": {
+                        "x": 1200,
+                        "y": 80
+                      }
+                    },
+                    "module": "builtin:Ignore",
+                    "version": 1
+                  }
+                ],
+                "parameters": {
+                  "datastore": 148747
+                },
+                "version": 1
+              },
+              {
+                "id": 133,
+                "mapper": {
+                  "insertUnformatted": false,
+                  "mode": "map",
+                  "sheetId": "Editorial Queue",
+                  "spreadsheetId": "1J8ca4Pvp3HTSdHqq9-TZ1H-nF6_fM5R3Jm1bf9bAU8A",
+                  "tableFirstRow": "A1:CZ1",
+                  "valueInputOption": "USER_ENTERED",
+                  "values": {
+                    "1": "{{now}}",
+                    "10": "{{132.industry_impact}}",
+                    "11": "{{132.litigation_risk}}",
+                    "12": "{{130.url}}",
+                    "14": "{{132.priority}}",
+                    "15": "draft",
+                    "16": "awaiting editor review",
+                    "2": "{{130.title}}",
+                    "29": "Exa Cono Sur pharma/regulatory",
+                    "3": "{{132.category}}",
+                    "30": "{{130.url}}",
+                    "31": "{{131.content[1].text}}",
+                    "35": "{{now}}",
+                    "39": "SCAN-CONOSUR",
+                    "4": "LATAM",
+                    "40": "{{130.url}}",
+                    "5": "{{132.country}}",
+                    "6": "{{132.company}}",
+                    "7": "{{132.angle}}",
+                    "8": "{{132.why_it_matters}}",
+                    "9": "{{132.patients_impact}}"
+                  }
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 1350,
+                    "y": 0
+                  }
+                },
+                "module": "google-sheets:addRow",
+                "onerror": [
+                  {
+                    "id": 135,
+                    "metadata": {
+                      "designer": {
+                        "x": 1350,
+                        "y": 80
+                      }
+                    },
+                    "module": "builtin:Ignore",
+                    "version": 1
+                  }
+                ],
+                "parameters": {
+                  "__IMTCONN__": 8923977
+                },
+                "version": 2
+              }
+            ]
+          },
+          {
+            "flow": [
+              {
+                "id": 140,
+                "mapper": {
+                  "contents": {
+                    "text": {
+                      "maxCharacters": 2000
+                    }
+                  },
+                  "includeContent": true,
+                  "includeDomains": [
+                    "eltiempo.com",
+                    "elespectador.com",
+                    "semana.com",
+                    "portafolio.co",
+                    "larepublica.co",
+                    "gestion.pe",
+                    "elcomercio.pe",
+                    "primicias.ec",
+                    "elcomercio.com",
+                    "prensa.com",
+                    "consultorsalud.com",
+                    "prnewswire.com",
+                    "businesswire.com",
+                    "globenewswire.com",
+                    "tecnoquimicas.com",
+                    "procapsgroup.com",
+                    "auna.com"
+                  ],
+                  "numResults": 8,
+                  "query": "Colombia Peru Ecuador Panama salud y farma, noticias de EMPRESAS primero: resultados trimestrales OR facturacion OR lanzamiento de producto OR nueva planta OR capacidad productiva OR acuerdo de licencia OR distribucion OR expansion OR inversion OR adquisicion OR alianza OR nuevo CEO, de laboratorios, biotecnologicas, dispositivos medicos, EPS, clinicas privadas y droguerias de la region Andina como Tecnoquimicas, Procaps, Genfar, Lafrancol, Siegfried, Keralty, Sura, Sanitas, Farmindustria, Medifarma, Portugal, Difare, Quifatex, y las multinacionales con operacion regional. Secundariamente INVIMA, ADRES, DIGEMID, EsSalud y judicializacion de la salud. En oncologia inmunologia neurologia cardio-metabolico diabetes obesidad enfermedades raras vacunas enfermedades infecciosas terapia celular y genica.",
+                  "startPublishedDate": "{{formatDate(addDays(now; -30); \"YYYY-MM-DD\")}}",
+                  "type": "neural",
+                  "useAutoprompt": true
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 600,
+                    "y": 0
+                  }
+                },
+                "module": "exa-ai:performASearchWithContent",
+                "parameters": {
+                  "__IMTCONN__": 8984010
+                },
+                "version": 1
+              },
+              {
+                "filter": {
+                  "conditions": [
+                    [
+                      {
+                        "a": "{{91.text}}",
+                        "b": "{{140.url}}",
+                        "o": "text:notcontain"
+                      }
+                    ]
+                  ],
+                  "name": "no duplicado"
+                },
+                "id": 141,
+                "mapper": {
+                  "max_tokens": 500,
+                  "messages": [
+                    {
+                      "content": "Return exactly one valid JSON object and nothing else: no markdown, no code fences, no text before or after. It must parse with JSON.parse. Each string value under 15 words, single line. If a value would contain a double quote, rephrase to avoid it.\nTITLE: {{140.title}}\nEXCERPT: {{substring(140.text; 0; 900)}}\n\nSchema (all string values):\ncategory: one of [market access, drug pricing, pharma regulation, M&A, clinical catalyst, oncology, manufacturing, digital health, ai healthcare, payer systems, public health, litigation, health systems & disease burden]\ncountry: single country name or Global\ncompany: main institution or company\nangle: one affirmative sentence\nwhy_it_matters: one sentence\npatients_impact: one sentence\nindustry_impact: one sentence\nlitigation_risk: low, medium or high\npriority: breaking, high, medium or low",
+                      "inputType": "single",
+                      "role": "user"
+                    }
+                  ],
+                  "model": "claude-fable-5"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 900,
+                    "y": 0
+                  }
+                },
+                "module": "anthropic-claude:createAMessage",
+                "parameters": {
+                  "__IMTCONN__": 8923111
+                },
+                "version": 1
+              },
+              {
+                "id": 142,
+                "mapper": {
+                  "json": "{{replace(replace(141.content[1].text; \"```json\"; \"\"); \"```\"; \"\")}}"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 1050,
+                    "y": 0
+                  }
+                },
+                "module": "json:ParseJSON",
+                "onerror": [
+                  {
+                    "id": 144,
+                    "metadata": {
+                      "designer": {
+                        "x": 1050,
+                        "y": 80
+                      }
+                    },
+                    "module": "builtin:Ignore",
+                    "version": 1
+                  }
+                ],
+                "parameters": {
+                  "type": 444121
+                },
+                "version": 1
+              },
+              {
+                "id": 196,
+                "mapper": {
+                  "data": {
+                    "batch": "SCAN-ANDINA",
+                    "headline": "{{140.title}}",
+                    "seen_at": "{{now}}"
+                  },
+                  "key": "{{lower(trim(142.company))}}~{{lower(trim(142.category))}}~{{formatDate(now; \"YYYY-MM-DD\")}}",
+                  "overwrite": false
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 1200,
+                    "y": 0
+                  }
+                },
+                "module": "datastore:AddRecord",
+                "onerror": [
+                  {
+                    "id": 197,
+                    "metadata": {
+                      "designer": {
+                        "x": 1200,
+                        "y": 80
+                      }
+                    },
+                    "module": "builtin:Ignore",
+                    "version": 1
+                  }
+                ],
+                "parameters": {
+                  "datastore": 148747
+                },
+                "version": 1
+              },
+              {
+                "id": 143,
+                "mapper": {
+                  "insertUnformatted": false,
+                  "mode": "map",
+                  "sheetId": "Editorial Queue",
+                  "spreadsheetId": "1J8ca4Pvp3HTSdHqq9-TZ1H-nF6_fM5R3Jm1bf9bAU8A",
+                  "tableFirstRow": "A1:CZ1",
+                  "valueInputOption": "USER_ENTERED",
+                  "values": {
+                    "1": "{{now}}",
+                    "10": "{{142.industry_impact}}",
+                    "11": "{{142.litigation_risk}}",
+                    "12": "{{140.url}}",
+                    "14": "{{142.priority}}",
+                    "15": "draft",
+                    "16": "awaiting editor review",
+                    "2": "{{140.title}}",
+                    "29": "Exa Andina pharma/regulatory",
+                    "3": "{{142.category}}",
+                    "30": "{{140.url}}",
+                    "31": "{{141.content[1].text}}",
+                    "35": "{{now}}",
+                    "39": "SCAN-ANDINA",
+                    "4": "LATAM",
+                    "40": "{{140.url}}",
+                    "5": "{{142.country}}",
+                    "6": "{{142.company}}",
+                    "7": "{{142.angle}}",
+                    "8": "{{142.why_it_matters}}",
+                    "9": "{{142.patients_impact}}"
+                  }
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 1350,
+                    "y": 0
+                  }
+                },
+                "module": "google-sheets:addRow",
+                "onerror": [
+                  {
+                    "id": 145,
+                    "metadata": {
+                      "designer": {
+                        "x": 1350,
+                        "y": 80
+                      }
+                    },
+                    "module": "builtin:Ignore",
+                    "version": 1
+                  }
+                ],
+                "parameters": {
+                  "__IMTCONN__": 8923977
+                },
+                "version": 2
+              }
+            ]
+          },
+          {
+            "flow": [
+              {
+                "id": 41,
+                "mapper": {
+                  "contents": {
+                    "text": {
+                      "maxCharacters": 2000
+                    }
+                  },
+                  "includeContent": true,
+                  "includeDomains": [
+                    "abbott.com",
+                    "amgen.com",
+                    "beckershospitalreview.com",
+                    "biopharmadive.com",
+                    "businesswire.com",
+                    "cigna.com",
+                    "cms.gov",
+                    "endpts.com",
+                    "fda.gov",
+                    "fiercehealthcare.com",
+                    "fiercepharma.com",
+                    "globenewswire.com",
+                    "hcahealthcare.com",
+                    "healthcaredive.com",
+                    "kff.org",
+                    "lilly.com",
+                    "medtechdive.com",
+                    "merck.com",
+                    "modernhealthcare.com",
+                    "pfizer.com",
+                    "prnewswire.com",
+                    "sec.gov",
+                    "statnews.com",
+                    "unitedhealthgroup.com",
+                    "nature.com",
+                    "novartis.com",
+                    "roche.com",
+                    "astrazeneca.com",
+                    "gsk.com",
+                    "sanofi.com",
+                    "bms.com",
+                    "abbvie.com",
+                    "gilead.com",
+                    "bayer.com",
+                    "boehringer-ingelheim.com",
+                    "takeda.com",
+                    "novonordisk.com",
+                    "jnj.com",
+                    "modernatx.com",
+                    "regeneron.com",
+                    "vrtx.com",
+                    "biogen.com",
+                    "organon.com",
+                    "haleon.com",
+                    "medtronic.com",
+                    "bostonscientific.com",
+                    "siemens-healthineers.com",
+                    "gehealthcare.com",
+                    "stryker.com",
+                    "bd.com",
+                    "baxter.com",
+                    "edwards.com",
+                    "intuitive.com",
+                    "zimmerbiomet.com",
+                    "dexcom.com",
+                    "hologic.com",
+                    "philips.com",
+                    "olympus-global.com",
+                    "ema.europa.eu",
+                    "who.int"
+                  ],
+                  "numResults": 15,
+                  "query": "POLICY/PAYER/HOSPITAL USA: hospital merger OR health plan restructuring OR 340B pricing litigation OR CMS Medicare Advantage OR FDA approval market access. PHARMA/MEDTECH earnings OR M&A OR AI healthcare deal OR digital health venture funding OR telehealth, across oncology immunology neurology cardiometabolic diabetes obesity rare and genetic disease vaccines infectious disease cell and gene therapy",
+                  "startPublishedDate": "{{formatDate(addDays(now; -30); \"YYYY-MM-DD\")}}",
+                  "type": "neural",
+                  "useAutoprompt": true
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 600,
+                    "y": 0
+                  }
+                },
+                "module": "exa-ai:performASearchWithContent",
+                "parameters": {
+                  "__IMTCONN__": 8984010
+                },
+                "version": 1
+              },
+              {
+                "filter": {
+                  "conditions": [
+                    [
+                      {
+                        "a": "{{91.text}}",
+                        "b": "{{41.url}}",
+                        "o": "text:notcontain"
+                      }
+                    ]
+                  ],
+                  "name": "no duplicado"
+                },
+                "id": 42,
+                "mapper": {
+                  "max_tokens": 500,
+                  "messages": [
+                    {
+                      "content": "Return exactly one valid JSON object and nothing else: no markdown, no code fences, no text before or after. It must parse with JSON.parse. Each string value under 15 words, single line. If a value would contain a double quote, rephrase to avoid it.\nTITLE: {{41.title}}\nEXCERPT: {{substring(41.text; 0; 900)}}\n\nSchema (all string values):\ncategory: one of [market access, drug pricing, pharma regulation, M&A, clinical catalyst, oncology, manufacturing, digital health, ai healthcare, payer systems, public health, litigation, health systems & disease burden]\ncountry: single country name or Global\ncompany: main institution or company\nangle: one affirmative sentence\nwhy_it_matters: one sentence\npatients_impact: one sentence\nindustry_impact: one sentence\nlitigation_risk: low, medium or high\npriority: breaking, high, medium or low",
+                      "inputType": "single",
+                      "role": "user"
+                    }
+                  ],
+                  "model": "claude-fable-5"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 900,
+                    "y": 0
+                  }
+                },
+                "module": "anthropic-claude:createAMessage",
+                "parameters": {
+                  "__IMTCONN__": 8923111
+                },
+                "version": 1
+              },
+              {
+                "id": 44,
+                "mapper": {
+                  "json": "{{replace(replace(42.content[1].text; \"```json\"; \"\"); \"```\"; \"\")}}"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 1050,
+                    "y": 0
+                  }
+                },
+                "module": "json:ParseJSON",
+                "onerror": [
+                  {
+                    "id": 97,
+                    "metadata": {
+                      "designer": {
+                        "x": 1050,
+                        "y": 80
+                      }
+                    },
+                    "module": "builtin:Ignore",
+                    "version": 1
+                  }
+                ],
+                "parameters": {
+                  "type": 444121
+                },
+                "version": 1
+              },
+              {
+                "id": 198,
+                "mapper": {
+                  "data": {
+                    "batch": "SCAN-USA",
+                    "headline": "{{41.title}}",
+                    "seen_at": "{{now}}"
+                  },
+                  "key": "{{lower(trim(44.company))}}~{{lower(trim(44.category))}}~{{formatDate(now; \"YYYY-MM-DD\")}}",
+                  "overwrite": false
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 1200,
+                    "y": 0
+                  }
+                },
+                "module": "datastore:AddRecord",
+                "onerror": [
+                  {
+                    "id": 199,
+                    "metadata": {
+                      "designer": {
+                        "x": 1200,
+                        "y": 80
+                      }
+                    },
+                    "module": "builtin:Ignore",
+                    "version": 1
+                  }
+                ],
+                "parameters": {
+                  "datastore": 148747
+                },
+                "version": 1
+              },
+              {
+                "id": 43,
+                "mapper": {
+                  "insertUnformatted": false,
+                  "mode": "map",
+                  "sheetId": "Editorial Queue",
+                  "spreadsheetId": "1J8ca4Pvp3HTSdHqq9-TZ1H-nF6_fM5R3Jm1bf9bAU8A",
+                  "tableFirstRow": "A1:CZ1",
+                  "valueInputOption": "USER_ENTERED",
+                  "values": {
+                    "1": "{{now}}",
+                    "10": "{{44.industry_impact}}",
+                    "11": "{{44.litigation_risk}}",
+                    "12": "{{41.url}}",
+                    "14": "{{44.priority}}",
+                    "15": "draft",
+                    "16": "awaiting editor review",
+                    "2": "{{41.title}}",
+                    "29": "Exa USA policy/payer/pharma",
+                    "3": "{{44.category}}",
+                    "30": "{{41.url}}",
+                    "31": "{{42.content[1].text}}",
+                    "35": "{{now}}",
+                    "39": "SCAN-USA",
+                    "4": "USA",
+                    "40": "{{41.url}}",
+                    "5": "{{44.country}}",
+                    "6": "{{44.company}}",
+                    "7": "{{44.angle}}",
+                    "8": "{{44.why_it_matters}}",
+                    "9": "{{44.patients_impact}}"
+                  }
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 1350,
+                    "y": 0
+                  }
+                },
+                "module": "google-sheets:addRow",
+                "onerror": [
+                  {
+                    "id": 95,
+                    "metadata": {
+                      "designer": {
+                        "x": 1350,
+                        "y": 80
+                      }
+                    },
+                    "module": "builtin:Ignore",
+                    "version": 1
+                  }
+                ],
+                "parameters": {
+                  "__IMTCONN__": 8923977
+                },
+                "version": 2
+              }
+            ]
+          },
+          {
+            "flow": [
+              {
+                "id": 210,
+                "mapper": {
+                  "contents": {
+                    "text": {
+                      "maxCharacters": 2000
+                    }
+                  },
+                  "includeContent": true,
+                  "includeDomains": [
+                    "stf.jus.br",
+                    "stj.jus.br",
+                    "cnj.jus.br",
+                    "conjur.com.br",
+                    "jota.info",
+                    "migalhas.com.br",
+                    "corteconstitucional.gov.co",
+                    "defensoria.gov.co",
+                    "csjn.gov.ar",
+                    "pjud.cl",
+                    "consultorsalud.com",
+                    "ambito.com",
+                    "latercera.com"
+                  ],
+                  "numResults": 4,
+                  "query": "Judicializacion de la salud en America Latina: sentencia OR fallo OR tutela OR amparo OR acao judicial OR liminar que obliga a cubrir medicamentos de alto costo o tratamientos, contra SUS, planos de saude, EPS, obras sociales, prepagas o ISAPRES. Judicializacao da saude STF STJ CNJ tema de repercussao geral fornecimento de medicamentos; Corte Constitucional tutela salud Colombia; Corte Suprema amparo medicamentos Argentina Chile. En oncologia enfermedades raras terapia genica diabetes obesidad.",
+                  "startPublishedDate": "{{formatDate(addDays(now; -30); \"YYYY-MM-DD\")}}",
+                  "type": "neural",
+                  "useAutoprompt": true
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 600,
+                    "y": 300
+                  }
+                },
+                "module": "exa-ai:performASearchWithContent",
+                "parameters": {
+                  "__IMTCONN__": 8984010
+                },
+                "version": 1
+              },
+              {
+                "filter": {
+                  "conditions": [
+                    [
+                      {
+                        "a": "{{91.text}}",
+                        "b": "{{210.url}}",
+                        "o": "text:notcontain"
+                      }
+                    ]
+                  ],
+                  "name": "no duplicado"
+                },
+                "id": 211,
+                "mapper": {
+                  "max_tokens": 500,
+                  "messages": [
+                    {
+                      "content": "Return exactly one valid JSON object and nothing else: no markdown, no code fences, no text before or after. It must parse with JSON.parse. Each string value under 15 words, single line. If a value would contain a double quote, rephrase to avoid it.\nTITLE: {{210.title}}\nEXCERPT: {{substring(210.text; 0; 900)}}\n\nSchema (all string values):\ncategory: one of [market access, drug pricing, pharma regulation, M&A, clinical catalyst, oncology, manufacturing, digital health, ai healthcare, payer systems, public health, litigation, health systems & disease burden]\ncountry: single country name or Global\ncompany: main institution or company\nangle: one affirmative sentence\nwhy_it_matters: one sentence\npatients_impact: one sentence\nindustry_impact: one sentence\nlitigation_risk: low, medium or high\npriority: breaking, high, medium or low",
+                      "inputType": "single",
+                      "role": "user"
+                    }
+                  ],
+                  "model": "claude-fable-5"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 900,
+                    "y": 300
+                  }
+                },
+                "module": "anthropic-claude:createAMessage",
+                "parameters": {
+                  "__IMTCONN__": 8923111
+                },
+                "version": 1
+              },
+              {
+                "id": 212,
+                "mapper": {
+                  "json": "{{replace(replace(211.content[1].text; \"```json\"; \"\"); \"```\"; \"\")}}"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 1050,
+                    "y": 300
+                  }
+                },
+                "module": "json:ParseJSON",
+                "onerror": [
+                  {
+                    "id": 213,
+                    "metadata": {
+                      "designer": {
+                        "x": 1050,
+                        "y": 380
+                      }
+                    },
+                    "module": "builtin:Ignore",
+                    "version": 1
+                  }
+                ],
+                "parameters": {
+                  "type": 444121
+                },
+                "version": 1
+              },
+              {
+                "id": 214,
+                "mapper": {
+                  "data": {
+                    "batch": "SCAN-JUDICIAL",
+                    "headline": "{{210.title}}",
+                    "seen_at": "{{now}}"
+                  },
+                  "key": "{{lower(trim(212.company))}}~{{lower(trim(212.category))}}~{{formatDate(now; \"YYYY-MM-DD\")}}",
+                  "overwrite": false
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 1200,
+                    "y": 300
+                  }
+                },
+                "module": "datastore:AddRecord",
+                "onerror": [
+                  {
+                    "id": 215,
+                    "metadata": {
+                      "designer": {
+                        "x": 1200,
+                        "y": 380
+                      }
+                    },
+                    "module": "builtin:Ignore",
+                    "version": 1
+                  }
+                ],
+                "parameters": {
+                  "datastore": 148747
+                },
+                "version": 1
+              },
+              {
+                "id": 216,
+                "mapper": {
+                  "insertUnformatted": false,
+                  "mode": "map",
+                  "sheetId": "Editorial Queue",
+                  "spreadsheetId": "1J8ca4Pvp3HTSdHqq9-TZ1H-nF6_fM5R3Jm1bf9bAU8A",
+                  "tableFirstRow": "A1:CZ1",
+                  "valueInputOption": "USER_ENTERED",
+                  "values": {
+                    "1": "{{now}}",
+                    "10": "{{212.industry_impact}}",
+                    "11": "{{212.litigation_risk}}",
+                    "12": "{{210.url}}",
+                    "14": "{{212.priority}}",
+                    "15": "draft",
+                    "16": "awaiting editor review",
+                    "2": "{{210.title}}",
+                    "29": "Exa LatAm judicializacion",
+                    "3": "{{212.category}}",
+                    "30": "{{210.url}}",
+                    "31": "{{211.content[1].text}}",
+                    "35": "{{now}}",
+                    "39": "SCAN-JUDICIAL",
+                    "4": "LATAM",
+                    "40": "{{210.url}}",
+                    "5": "{{212.country}}",
+                    "6": "{{212.company}}",
+                    "7": "{{212.angle}}",
+                    "8": "{{212.why_it_matters}}",
+                    "9": "{{212.patients_impact}}"
+                  }
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 1350,
+                    "y": 300
+                  }
+                },
+                "module": "google-sheets:addRow",
+                "onerror": [
+                  {
+                    "id": 217,
+                    "metadata": {
+                      "designer": {
+                        "x": 1350,
+                        "y": 380
+                      }
+                    },
+                    "module": "builtin:Ignore",
+                    "version": 1
+                  }
+                ],
+                "parameters": {
+                  "__IMTCONN__": 8923977
+                },
+                "version": 2
+              }
+            ]
+          },
+          {
+            "flow": [
+              {
+                "id": 150,
+                "mapper": {
+                  "contents": {
+                    "text": {
+                      "maxCharacters": 2000
+                    }
+                  },
+                  "includeContent": true,
+                  "includeDomains": [
+                    "businesswire.com",
+                    "globenewswire.com",
+                    "endpts.com",
+                    "fiercebiotech.com",
+                    "biopharmadive.com",
+                    "biospace.com",
+                    "news.crunchbase.com",
+                    "contxto.com",
+                    "latamlist.com",
+                    "bnamericas.com",
+                    "bloomberglinea.com",
+                    "medcitynews.com",
+                    "mobihealthnews.com",
+                    "prnewswire.com",
+                    "pfizer.com",
+                    "novartis.com",
+                    "roche.com",
+                    "astrazeneca.com",
+                    "gsk.com",
+                    "sanofi.com",
+                    "merck.com",
+                    "bms.com",
+                    "abbvie.com",
+                    "lilly.com",
+                    "amgen.com",
+                    "gilead.com",
+                    "bayer.com",
+                    "boehringer-ingelheim.com",
+                    "takeda.com",
+                    "novonordisk.com",
+                    "jnj.com",
+                    "modernatx.com",
+                    "regeneron.com",
+                    "vrtx.com",
+                    "biogen.com",
+                    "organon.com",
+                    "haleon.com",
+                    "medtronic.com",
+                    "abbott.com",
+                    "bostonscientific.com",
+                    "siemens-healthineers.com",
+                    "gehealthcare.com",
+                    "stryker.com",
+                    "bd.com",
+                    "baxter.com",
+                    "edwards.com",
+                    "intuitive.com",
+                    "zimmerbiomet.com",
+                    "dexcom.com",
+                    "hologic.com",
+                    "philips.com",
+                    "olympus-global.com",
+                    "fiercepharma.com",
+                    "statnews.com",
+                    "pharmavoice.com",
+                    "pmlive.com",
+                    "accesswire.com",
+                    "reuters.com",
+                    "bloomberg.com"
+                  ],
+                  "numResults": 15,
+                  "query": "Latin America and United States healthcare pharma biotech medtech deals: merger OR acquisition OR M&A OR licensing agreement OR Series A OR Series B OR Series C funding OR venture capital round OR private equity OR startup raises OR strategic partnership OR spinout, across oncology immunology neurology cardiometabolic diabetes obesity rare and genetic disease vaccines infectious disease cell and gene therapy",
+                  "startPublishedDate": "{{formatDate(addDays(now; -30); \"YYYY-MM-DD\")}}",
+                  "type": "neural",
+                  "useAutoprompt": true
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 600,
+                    "y": 600
+                  }
+                },
+                "module": "exa-ai:performASearchWithContent",
+                "parameters": {
+                  "__IMTCONN__": 8984010
+                },
+                "version": 1
+              },
+              {
+                "filter": {
+                  "conditions": [
+                    [
+                      {
+                        "a": "{{91.text}}",
+                        "b": "{{150.url}}",
+                        "o": "text:notcontain"
+                      }
+                    ]
+                  ],
+                  "name": "no duplicado"
+                },
+                "id": 151,
+                "mapper": {
+                  "max_tokens": 500,
+                  "messages": [
+                    {
+                      "content": "Return exactly one valid JSON object and nothing else: no markdown, no code fences, no text before or after. It must parse with JSON.parse. Each string value under 15 words, single line. If a value would contain a double quote, rephrase to avoid it.\nTITLE: {{150.title}}\nEXCERPT: {{substring(150.text; 0; 900)}}\n\nSchema (all string values):\ncategory: one of [market access, drug pricing, pharma regulation, M&A, clinical catalyst, oncology, manufacturing, digital health, ai healthcare, payer systems, public health, litigation, health systems & disease burden]\ncountry: single country name or Global\ncompany: main institution or company\nangle: one affirmative sentence\nwhy_it_matters: one sentence\npatients_impact: one sentence\nindustry_impact: one sentence\nlitigation_risk: low, medium or high\npriority: breaking, high, medium or low",
+                      "inputType": "single",
+                      "role": "user"
+                    }
+                  ],
+                  "model": "claude-fable-5"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 900,
+                    "y": 600
+                  }
+                },
+                "module": "anthropic-claude:createAMessage",
+                "parameters": {
+                  "__IMTCONN__": 8923111
+                },
+                "version": 1
+              },
+              {
+                "id": 152,
+                "mapper": {
+                  "json": "{{replace(replace(151.content[1].text; \"```json\"; \"\"); \"```\"; \"\")}}"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 1050,
+                    "y": 600
+                  }
+                },
+                "module": "json:ParseJSON",
+                "onerror": [
+                  {
+                    "id": 154,
+                    "metadata": {
+                      "designer": {
+                        "x": 1050,
+                        "y": 680
+                      }
+                    },
+                    "module": "builtin:Ignore",
+                    "version": 1
+                  }
+                ],
+                "parameters": {
+                  "type": 444121
+                },
+                "version": 1
+              },
+              {
+                "id": 200,
+                "mapper": {
+                  "data": {
+                    "batch": "SCAN-DEALS",
+                    "headline": "{{150.title}}",
+                    "seen_at": "{{now}}"
+                  },
+                  "key": "{{lower(trim(152.company))}}~{{lower(trim(152.category))}}~{{formatDate(now; \"YYYY-MM-DD\")}}",
+                  "overwrite": false
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 1200,
+                    "y": 600
+                  }
+                },
+                "module": "datastore:AddRecord",
+                "onerror": [
+                  {
+                    "id": 201,
+                    "metadata": {
+                      "designer": {
+                        "x": 1200,
+                        "y": 680
+                      }
+                    },
+                    "module": "builtin:Ignore",
+                    "version": 1
+                  }
+                ],
+                "parameters": {
+                  "datastore": 148747
+                },
+                "version": 1
+              },
+              {
+                "id": 153,
+                "mapper": {
+                  "insertUnformatted": false,
+                  "mode": "map",
+                  "sheetId": "Editorial Queue",
+                  "spreadsheetId": "1J8ca4Pvp3HTSdHqq9-TZ1H-nF6_fM5R3Jm1bf9bAU8A",
+                  "tableFirstRow": "A1:CZ1",
+                  "valueInputOption": "USER_ENTERED",
+                  "values": {
+                    "1": "{{now}}",
+                    "10": "{{152.industry_impact}}",
+                    "11": "{{152.litigation_risk}}",
+                    "12": "{{150.url}}",
+                    "14": "{{152.priority}}",
+                    "15": "draft",
+                    "16": "awaiting editor review",
+                    "2": "{{150.title}}",
+                    "29": "Exa Deals/M&A global",
+                    "3": "{{152.category}}",
+                    "30": "{{150.url}}",
+                    "31": "{{151.content[1].text}}",
+                    "35": "{{now}}",
+                    "39": "SCAN-DEALS",
+                    "4": "Global",
+                    "40": "{{150.url}}",
+                    "5": "{{152.country}}",
+                    "6": "{{152.company}}",
+                    "7": "{{152.angle}}",
+                    "8": "{{152.why_it_matters}}",
+                    "9": "{{152.patients_impact}}"
+                  }
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 1350,
+                    "y": 600
+                  }
+                },
+                "module": "google-sheets:addRow",
+                "onerror": [
+                  {
+                    "id": 155,
+                    "metadata": {
+                      "designer": {
+                        "x": 1350,
+                        "y": 680
+                      }
+                    },
+                    "module": "builtin:Ignore",
+                    "version": 1
+                  }
+                ],
+                "parameters": {
+                  "__IMTCONN__": 8923977
+                },
+                "version": 2
+              }
+            ]
+          },
+          {
+            "flow": [
+              {
+                "id": 160,
+                "mapper": {
+                  "contents": {
+                    "text": {
+                      "maxCharacters": 2000
+                    }
+                  },
+                  "includeContent": true,
+                  "includeDomains": [
+                    "contxto.com",
+                    "latamlist.com",
+                    "bnamericas.com",
+                    "bloomberglinea.com",
+                    "lavca.org",
+                    "startupi.com.br",
+                    "neofeed.com.br",
+                    "valor.globo.com",
+                    "exame.com",
+                    "cronista.com",
+                    "eleconomista.com.mx",
+                    "expansion.mx",
+                    "gestion.pe",
+                    "larepublica.co",
+                    "businesswire.com",
+                    "globenewswire.com",
+                    "cofece.mx",
+                    "sic.gov.co",
+                    "b3.com.br",
+                    "bmv.com.mx",
+                    "prnewswire.com",
+                    "hapvida.com.br",
+                    "rededorsaoluiz.com.br",
+                    "auna.com",
+                    "grupoinsud.com"
+                  ],
+                  "numResults": 12,
+                  "query": "Latinoamerica salud pharma biotech medtech deal: adquisicion OR fusion OR compra OR ronda de inversion OR Serie A OR Serie B OR Serie C OR capital de riesgo OR levanta capital OR fondo OR alianza estrategica OR joint venture, farmaceutica biotecnologia salud digital dispositivos medicos, en Brasil Mexico Argentina Colombia Chile Peru",
+                  "startPublishedDate": "{{formatDate(addDays(now; -30); \"YYYY-MM-DD\")}}",
+                  "type": "neural",
+                  "useAutoprompt": true
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 600,
+                    "y": 900
+                  }
+                },
+                "module": "exa-ai:performASearchWithContent",
+                "parameters": {
+                  "__IMTCONN__": 8984010
+                },
+                "version": 1
+              },
+              {
+                "filter": {
+                  "conditions": [
+                    [
+                      {
+                        "a": "{{91.text}}",
+                        "b": "{{160.url}}",
+                        "o": "text:notcontain"
+                      }
+                    ]
+                  ],
+                  "name": "no duplicado"
+                },
+                "id": 161,
+                "mapper": {
+                  "max_tokens": 500,
+                  "messages": [
+                    {
+                      "content": "Return exactly one valid JSON object and nothing else: no markdown, no code fences, no text before or after. It must parse with JSON.parse. Each string value under 15 words, single line. If a value would contain a double quote, rephrase to avoid it.\nTITLE: {{160.title}}\nEXCERPT: {{substring(160.text; 0; 900)}}\n\nSchema (all string values):\ncategory: one of [market access, drug pricing, pharma regulation, M&A, clinical catalyst, oncology, manufacturing, digital health, ai healthcare, payer systems, public health, litigation, health systems & disease burden]\ncountry: single country name or Global\ncompany: main institution or company\nangle: one affirmative sentence\nwhy_it_matters: one sentence\npatients_impact: one sentence\nindustry_impact: one sentence\nlitigation_risk: low, medium or high\npriority: breaking, high, medium or low",
+                      "inputType": "single",
+                      "role": "user"
+                    }
+                  ],
+                  "model": "claude-fable-5"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 900,
+                    "y": 900
+                  }
+                },
+                "module": "anthropic-claude:createAMessage",
+                "parameters": {
+                  "__IMTCONN__": 8923111
+                },
+                "version": 1
+              },
+              {
+                "id": 162,
+                "mapper": {
+                  "json": "{{replace(replace(161.content[1].text; \"```json\"; \"\"); \"```\"; \"\")}}"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 1050,
+                    "y": 900
+                  }
+                },
+                "module": "json:ParseJSON",
+                "onerror": [
+                  {
+                    "id": 164,
+                    "metadata": {
+                      "designer": {
+                        "x": 1050,
+                        "y": 980
+                      }
+                    },
+                    "module": "builtin:Ignore",
+                    "version": 1
+                  }
+                ],
+                "parameters": {
+                  "type": 444121
+                },
+                "version": 1
+              },
+              {
+                "id": 202,
+                "mapper": {
+                  "data": {
+                    "batch": "SCAN-DEALS-LATAM",
+                    "headline": "{{160.title}}",
+                    "seen_at": "{{now}}"
+                  },
+                  "key": "{{lower(trim(162.company))}}~{{lower(trim(162.category))}}~{{formatDate(now; \"YYYY-MM-DD\")}}",
+                  "overwrite": false
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 1200,
+                    "y": 900
+                  }
+                },
+                "module": "datastore:AddRecord",
+                "onerror": [
+                  {
+                    "id": 203,
+                    "metadata": {
+                      "designer": {
+                        "x": 1200,
+                        "y": 980
+                      }
+                    },
+                    "module": "builtin:Ignore",
+                    "version": 1
+                  }
+                ],
+                "parameters": {
+                  "datastore": 148747
+                },
+                "version": 1
+              },
+              {
+                "id": 163,
+                "mapper": {
+                  "insertUnformatted": false,
+                  "mode": "map",
+                  "sheetId": "Editorial Queue",
+                  "spreadsheetId": "1J8ca4Pvp3HTSdHqq9-TZ1H-nF6_fM5R3Jm1bf9bAU8A",
+                  "tableFirstRow": "A1:CZ1",
+                  "valueInputOption": "USER_ENTERED",
+                  "values": {
+                    "1": "{{now}}",
+                    "10": "{{162.industry_impact}}",
+                    "11": "{{162.litigation_risk}}",
+                    "12": "{{160.url}}",
+                    "14": "{{162.priority}}",
+                    "15": "draft",
+                    "16": "awaiting editor review",
+                    "2": "{{160.title}}",
+                    "29": "Exa Deals LatAm",
+                    "3": "{{162.category}}",
+                    "30": "{{160.url}}",
+                    "31": "{{161.content[1].text}}",
+                    "35": "{{now}}",
+                    "39": "SCAN-DEALS-LATAM",
+                    "4": "LATAM",
+                    "40": "{{160.url}}",
+                    "5": "{{162.country}}",
+                    "6": "{{162.company}}",
+                    "7": "{{162.angle}}",
+                    "8": "{{162.why_it_matters}}",
+                    "9": "{{162.patients_impact}}"
+                  }
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 1350,
+                    "y": 900
+                  }
+                },
+                "module": "google-sheets:addRow",
+                "onerror": [
+                  {
+                    "id": 165,
+                    "metadata": {
+                      "designer": {
+                        "x": 1350,
+                        "y": 980
+                      }
+                    },
+                    "module": "builtin:Ignore",
+                    "version": 1
+                  }
+                ],
+                "parameters": {
+                  "__IMTCONN__": 8923977
+                },
+                "version": 2
+              }
+            ]
+          },
+          {
+            "flow": [
+              {
+                "id": 170,
+                "mapper": {
+                  "contents": {
+                    "text": {
+                      "maxCharacters": 2000
+                    }
+                  },
+                  "includeContent": true,
+                  "includeDomains": [
+                    "valor.globo.com",
+                    "exame.com",
+                    "neofeed.com.br",
+                    "braziljournal.com",
+                    "panoramafarmaceutico.com.br",
+                    "guiadafarmacia.com.br",
+                    "startupi.com.br",
+                    "eleconomista.com.mx",
+                    "expansion.mx",
+                    "elfinanciero.com.mx",
+                    "saludiario.com",
+                    "cronista.com",
+                    "ambito.com",
+                    "infobae.com",
+                    "df.cl",
+                    "latercera.com",
+                    "larepublica.co",
+                    "portafolio.co",
+                    "consultorsalud.com",
+                    "gestion.pe",
+                    "americaeconomia.com",
+                    "bnamericas.com",
+                    "bloomberglinea.com",
+                    "prnewswire.com",
+                    "businesswire.com",
+                    "globenewswire.com",
+                    "hapvida.com.br",
+                    "rededorsaoluiz.com.br",
+                    "hypera.com.br",
+                    "genommalab.com",
+                    "mabxience.com",
+                    "grupoinsud.com",
+                    "sinergiumbiotech.com",
+                    "auna.com",
+                    "oncoclinicas.com",
+                    "tecnoquimicas.com",
+                    "procapsgroup.com"
+                  ],
+                  "numResults": 12,
+                  "query": "Noticias corporativas de empresas farmaceuticas, biotecnologicas, de dispositivos medicos, laboratorios de diagnostico, hospitales privados y aseguradoras de salud en America Latina: resultados trimestrales OR balance OR facturacion OR lanzamiento de producto OR nueva planta OR ampliacion de capacidad productiva OR acuerdo de licencia OR acuerdo de distribucion OR expansion regional OR inversion OR nuevo CEO. Empresas como EMS, Hypera Pharma, Ache, Eurofarma, Libbs, Biolab, Cristalia, Blau, Uniao Quimica, Genomma Lab, Sanfer, Silanes, Neolpharma, Roemmers, Elea, Bago, Gador, Sinergium Biotech, Laboratorio Chile, Saval, Andromaco, Tecnoquimicas, Procaps, Genfar, Medifarma, Dasa, Grupo Fleury, Rede D Or, Hapvida, NotreDame Intermedica, Amil, Keralty, Sura, Sanitas, Swiss Medical. En oncologia inmunologia neurologia cardio-metabolico diabetes obesidad enfermedades raras vacunas enfermedades infecciosas terapia celular y genica y genericos y biosimilares.",
+                  "startPublishedDate": "{{formatDate(addDays(now; -30); \"YYYY-MM-DD\")}}",
+                  "type": "neural",
+                  "useAutoprompt": true
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 600,
+                    "y": 1200
+                  }
+                },
+                "module": "exa-ai:performASearchWithContent",
+                "parameters": {
+                  "__IMTCONN__": 8984010
+                },
+                "version": 1
+              },
+              {
+                "filter": {
+                  "conditions": [
+                    [
+                      {
+                        "a": "{{91.text}}",
+                        "b": "{{170.url}}",
+                        "o": "text:notcontain"
+                      }
+                    ]
+                  ],
+                  "name": "no duplicado"
+                },
+                "id": 171,
+                "mapper": {
+                  "max_tokens": 500,
+                  "messages": [
+                    {
+                      "content": "Return exactly one valid JSON object and nothing else: no markdown, no code fences, no text before or after. It must parse with JSON.parse. Each string value under 15 words, single line. If a value would contain a double quote, rephrase to avoid it.\nTITLE: {{170.title}}\nEXCERPT: {{substring(170.text; 0; 900)}}\n\nSchema (all string values):\ncategory: one of [market access, drug pricing, pharma regulation, M&A, clinical catalyst, oncology, manufacturing, digital health, ai healthcare, payer systems, public health, litigation, health systems & disease burden]\ncountry: single country name or Global\ncompany: main institution or company\nangle: one affirmative sentence\nwhy_it_matters: one sentence\npatients_impact: one sentence\nindustry_impact: one sentence\nlitigation_risk: low, medium or high\npriority: breaking, high, medium or low",
+                      "inputType": "single",
+                      "role": "user"
+                    }
+                  ],
+                  "model": "claude-fable-5"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 900,
+                    "y": 1200
+                  }
+                },
+                "module": "anthropic-claude:createAMessage",
+                "parameters": {
+                  "__IMTCONN__": 8923111
+                },
+                "version": 1
+              },
+              {
+                "id": 172,
+                "mapper": {
+                  "json": "{{replace(replace(171.content[1].text; \"```json\"; \"\"); \"```\"; \"\")}}"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 1050,
+                    "y": 1200
+                  }
+                },
+                "module": "json:ParseJSON",
+                "onerror": [
+                  {
+                    "id": 174,
+                    "metadata": {
+                      "designer": {
+                        "x": 1050,
+                        "y": 1280
+                      }
+                    },
+                    "module": "builtin:Ignore",
+                    "version": 1
+                  }
+                ],
+                "parameters": {
+                  "type": 444121
+                },
+                "version": 1
+              },
+              {
+                "id": 204,
+                "mapper": {
+                  "data": {
+                    "batch": "SCAN-LATAM-CORP",
+                    "headline": "{{170.title}}",
+                    "seen_at": "{{now}}"
+                  },
+                  "key": "{{lower(trim(172.company))}}~{{lower(trim(172.category))}}~{{formatDate(now; \"YYYY-MM-DD\")}}",
+                  "overwrite": false
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 1200,
+                    "y": 1200
+                  }
+                },
+                "module": "datastore:AddRecord",
+                "onerror": [
+                  {
+                    "id": 205,
+                    "metadata": {
+                      "designer": {
+                        "x": 1200,
+                        "y": 1280
+                      }
+                    },
+                    "module": "builtin:Ignore",
+                    "version": 1
+                  }
+                ],
+                "parameters": {
+                  "datastore": 148747
+                },
+                "version": 1
+              },
+              {
+                "id": 173,
+                "mapper": {
+                  "insertUnformatted": false,
+                  "mode": "map",
+                  "sheetId": "Editorial Queue",
+                  "spreadsheetId": "1J8ca4Pvp3HTSdHqq9-TZ1H-nF6_fM5R3Jm1bf9bAU8A",
+                  "tableFirstRow": "A1:CZ1",
+                  "valueInputOption": "USER_ENTERED",
+                  "values": {
+                    "1": "{{now}}",
+                    "10": "{{172.industry_impact}}",
+                    "11": "{{172.litigation_risk}}",
+                    "12": "{{170.url}}",
+                    "14": "{{172.priority}}",
+                    "15": "draft",
+                    "16": "awaiting editor review",
+                    "2": "{{170.title}}",
+                    "29": "Exa LatAm corporate",
+                    "3": "{{172.category}}",
+                    "30": "{{170.url}}",
+                    "31": "{{171.content[1].text}}",
+                    "35": "{{now}}",
+                    "39": "SCAN-LATAM-CORP",
+                    "4": "LATAM",
+                    "40": "{{170.url}}",
+                    "5": "{{172.country}}",
+                    "6": "{{172.company}}",
+                    "7": "{{172.angle}}",
+                    "8": "{{172.why_it_matters}}",
+                    "9": "{{172.patients_impact}}"
+                  }
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 1350,
+                    "y": 1200
+                  }
+                },
+                "module": "google-sheets:addRow",
+                "onerror": [
+                  {
+                    "id": 175,
+                    "metadata": {
+                      "designer": {
+                        "x": 1350,
+                        "y": 1280
+                      }
+                    },
+                    "module": "builtin:Ignore",
+                    "version": 1
+                  }
+                ],
+                "parameters": {
+                  "__IMTCONN__": 8923977
+                },
+                "version": 2
+              }
+            ]
+          },
+          {
+            "flow": [
+              {
+                "id": 180,
+                "mapper": {
+                  "contents": {
+                    "text": {
+                      "maxCharacters": 2000
+                    }
+                  },
+                  "includeContent": true,
+                  "includeDomains": [
+                    "cofepris.gob.mx",
+                    "gob.mx",
+                    "salud.gob.mx",
+                    "imss.gob.mx",
+                    "anvisa.gov.br",
+                    "gov.br",
+                    "ans.gov.br",
+                    "anmat.gob.ar",
+                    "minsal.cl",
+                    "ispch.gob.cl",
+                    "msp.gub.uy",
+                    "invima.gov.co",
+                    "minsalud.gov.co",
+                    "adres.gov.co",
+                    "digemid.minsa.gob.pe",
+                    "controlsanitario.gob.ec",
+                    "minsa.gob.pa",
+                    "pami.org.ar",
+                    "sssalud.gob.ar",
+                    "fonasa.cl",
+                    "superdesalud.gob.cl",
+                    "supersalud.gov.co",
+                    "iets.org.co",
+                    "essalud.gob.pe",
+                    "paho.org",
+                    "iris.paho.org",
+                    "healthpolicy-watch.news"
+                  ],
+                  "numResults": 8,
+                  "query": "Regulacion y financiamiento de salud en America Latina: aprobacion o registro sanitario OR guia o resolucion regulatoria OR precio de medicamentos OR licitacion o compra publica OR cobertura e incorporacion de tecnologias OR evaluacion de tecnologias sanitarias OR alerta sanitaria OR intervencion de aseguradoras, por COFEPRIS, IMSS, ISSSTE, ANVISA, ANS, CMED, CONITEC, ANMAT, PAMI, Superintendencia de Servicios de Salud, ISP Chile, FONASA, Superintendencia de Salud, MSP Uruguay, INVIMA, IETS, ADRES, Supersalud, DIGEMID, EsSalud, ARCSA, MINSA Panama y OPS. En oncologia inmunologia neurologia cardio-metabolico diabetes obesidad enfermedades raras vacunas enfermedades infecciosas terapia celular y genica.",
+                  "startPublishedDate": "{{formatDate(addDays(now; -30); \"YYYY-MM-DD\")}}",
+                  "type": "neural",
+                  "useAutoprompt": true
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 600,
+                    "y": 1500
+                  }
+                },
+                "module": "exa-ai:performASearchWithContent",
+                "parameters": {
+                  "__IMTCONN__": 8984010
+                },
+                "version": 1
+              },
+              {
+                "filter": {
+                  "conditions": [
+                    [
+                      {
+                        "a": "{{91.text}}",
+                        "b": "{{180.url}}",
+                        "o": "text:notcontain"
+                      }
+                    ]
+                  ],
+                  "name": "no duplicado"
+                },
+                "id": 181,
+                "mapper": {
+                  "max_tokens": 500,
+                  "messages": [
+                    {
+                      "content": "Return exactly one valid JSON object and nothing else: no markdown, no code fences, no text before or after. It must parse with JSON.parse. Each string value under 15 words, single line. If a value would contain a double quote, rephrase to avoid it.\nTITLE: {{180.title}}\nEXCERPT: {{substring(180.text; 0; 900)}}\n\nSchema (all string values):\ncategory: one of [market access, drug pricing, pharma regulation, M&A, clinical catalyst, oncology, manufacturing, digital health, ai healthcare, payer systems, public health, litigation, health systems & disease burden]\ncountry: single country name or Global\ncompany: main institution or company\nangle: one affirmative sentence\nwhy_it_matters: one sentence\npatients_impact: one sentence\nindustry_impact: one sentence\nlitigation_risk: low, medium or high\npriority: breaking, high, medium or low",
+                      "inputType": "single",
+                      "role": "user"
+                    }
+                  ],
+                  "model": "claude-fable-5"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 900,
+                    "y": 1500
+                  }
+                },
+                "module": "anthropic-claude:createAMessage",
+                "parameters": {
+                  "__IMTCONN__": 8923111
+                },
+                "version": 1
+              },
+              {
+                "id": 182,
+                "mapper": {
+                  "json": "{{replace(replace(181.content[1].text; \"```json\"; \"\"); \"```\"; \"\")}}"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 1050,
+                    "y": 1500
+                  }
+                },
+                "module": "json:ParseJSON",
+                "onerror": [
+                  {
+                    "id": 184,
+                    "metadata": {
+                      "designer": {
+                        "x": 1050,
+                        "y": 1580
+                      }
+                    },
+                    "module": "builtin:Ignore",
+                    "version": 1
+                  }
+                ],
+                "parameters": {
+                  "type": 444121
+                },
+                "version": 1
+              },
+              {
+                "id": 206,
+                "mapper": {
+                  "data": {
+                    "batch": "SCAN-REG-LATAM",
+                    "headline": "{{180.title}}",
+                    "seen_at": "{{now}}"
+                  },
+                  "key": "{{lower(trim(182.company))}}~{{lower(trim(182.category))}}~{{formatDate(now; \"YYYY-MM-DD\")}}",
+                  "overwrite": false
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 1200,
+                    "y": 1500
+                  }
+                },
+                "module": "datastore:AddRecord",
+                "onerror": [
+                  {
+                    "id": 207,
+                    "metadata": {
+                      "designer": {
+                        "x": 1200,
+                        "y": 1580
+                      }
+                    },
+                    "module": "builtin:Ignore",
+                    "version": 1
+                  }
+                ],
+                "parameters": {
+                  "datastore": 148747
+                },
+                "version": 1
+              },
+              {
+                "id": 183,
+                "mapper": {
+                  "insertUnformatted": false,
+                  "mode": "map",
+                  "sheetId": "Editorial Queue",
+                  "spreadsheetId": "1J8ca4Pvp3HTSdHqq9-TZ1H-nF6_fM5R3Jm1bf9bAU8A",
+                  "tableFirstRow": "A1:CZ1",
+                  "valueInputOption": "USER_ENTERED",
+                  "values": {
+                    "1": "{{now}}",
+                    "10": "{{182.industry_impact}}",
+                    "11": "{{182.litigation_risk}}",
+                    "12": "{{180.url}}",
+                    "14": "{{182.priority}}",
+                    "15": "draft",
+                    "16": "awaiting editor review",
+                    "2": "{{180.title}}",
+                    "29": "Exa LatAm regulatory",
+                    "3": "{{182.category}}",
+                    "30": "{{180.url}}",
+                    "31": "{{181.content[1].text}}",
+                    "35": "{{now}}",
+                    "39": "SCAN-REG-LATAM",
+                    "4": "LATAM",
+                    "40": "{{180.url}}",
+                    "5": "{{182.country}}",
+                    "6": "{{182.company}}",
+                    "7": "{{182.angle}}",
+                    "8": "{{182.why_it_matters}}",
+                    "9": "{{182.patients_impact}}"
+                  }
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 1350,
+                    "y": 1500
+                  }
+                },
+                "module": "google-sheets:addRow",
+                "onerror": [
+                  {
+                    "id": 185,
+                    "metadata": {
+                      "designer": {
+                        "x": 1350,
+                        "y": 1580
+                      }
+                    },
+                    "module": "builtin:Ignore",
+                    "version": 1
+                  }
+                ],
+                "parameters": {
+                  "__IMTCONN__": 8923977
+                },
+                "version": 2
+              }
+            ]
+          },
+          {
+            "flow": [
+              {
+                "id": 220,
+                "mapper": {
+                  "contents": {
+                    "text": {
+                      "maxCharacters": 2000
+                    }
+                  },
+                  "includeContent": true,
+                  "includeDomains": [
+                    "supersalud.gov.co",
+                    "colombiacompra.gov.co",
+                    "cenabast.cl",
+                    "mercadopublico.cl",
+                    "cmfchile.cl",
+                    "cvm.gov.br",
+                    "smv.gob.pe",
+                    "cnv.gov.ar",
+                    "b3.com.br",
+                    "bmv.com.mx",
+                    "paho.org",
+                    "reuters.com",
+                    "bloomberg.com",
+                    "iadb.org",
+                    "worldbank.org"
+                  ],
+                  "numResults": 8,
+                  "query": "Dinero en salud en America Latina: precio de medicamentos OR licitacion OR compra publica OR adjudicacion OR compra consolidada OR deuda con prestadores OR intervencion de EPS OR resultados trimestrales OR fato relevante OR emision de deuda OR ingresos por mercado de farmaceuticas, operadoras de salud, hospitales privados y EPS en Brasil Mexico Colombia Chile Argentina Peru. Supersalud Nueva EPS Sanitas Famisanar; Cenabast y Mercado Publico; CVM Hapvida Rede D Or Hypera Dasa Fleury; Fondo Rotatorio y Fondo Estrategico de OPS precios de vacunas y medicamentos.",
+                  "startPublishedDate": "{{formatDate(addDays(now; -30); \"YYYY-MM-DD\")}}",
+                  "type": "neural",
+                  "useAutoprompt": true
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 600,
+                    "y": 1800
+                  }
+                },
+                "module": "exa-ai:performASearchWithContent",
+                "parameters": {
+                  "__IMTCONN__": 8984010
+                },
+                "version": 1
+              },
+              {
+                "filter": {
+                  "conditions": [
+                    [
+                      {
+                        "a": "{{91.text}}",
+                        "b": "{{220.url}}",
+                        "o": "text:notcontain"
+                      }
+                    ]
+                  ],
+                  "name": "no duplicado"
+                },
+                "id": 221,
+                "mapper": {
+                  "max_tokens": 500,
+                  "messages": [
+                    {
+                      "content": "Return exactly one valid JSON object and nothing else: no markdown, no code fences, no text before or after. It must parse with JSON.parse. Each string value under 15 words, single line. If a value would contain a double quote, rephrase to avoid it.\nTITLE: {{220.title}}\nEXCERPT: {{substring(220.text; 0; 900)}}\n\nSchema (all string values):\ncategory: one of [market access, drug pricing, pharma regulation, M&A, clinical catalyst, oncology, manufacturing, digital health, ai healthcare, payer systems, public health, litigation, health systems & disease burden]\ncountry: single country name or Global\ncompany: main institution or company\nangle: one affirmative sentence\nwhy_it_matters: one sentence\npatients_impact: one sentence\nindustry_impact: one sentence\nlitigation_risk: low, medium or high\npriority: breaking, high, medium or low",
+                      "inputType": "single",
+                      "role": "user"
+                    }
+                  ],
+                  "model": "claude-fable-5"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 900,
+                    "y": 1800
+                  }
+                },
+                "module": "anthropic-claude:createAMessage",
+                "parameters": {
+                  "__IMTCONN__": 8923111
+                },
+                "version": 1
+              },
+              {
+                "id": 222,
+                "mapper": {
+                  "json": "{{replace(replace(221.content[1].text; \"```json\"; \"\"); \"```\"; \"\")}}"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 1050,
+                    "y": 1800
+                  }
+                },
+                "module": "json:ParseJSON",
+                "onerror": [
+                  {
+                    "id": 223,
+                    "metadata": {
+                      "designer": {
+                        "x": 1050,
+                        "y": 1880
+                      }
+                    },
+                    "module": "builtin:Ignore",
+                    "version": 1
+                  }
+                ],
+                "parameters": {
+                  "type": 444121
+                },
+                "version": 1
+              },
+              {
+                "id": 224,
+                "mapper": {
+                  "data": {
+                    "batch": "SCAN-MONEY-LATAM",
+                    "headline": "{{220.title}}",
+                    "seen_at": "{{now}}"
+                  },
+                  "key": "{{lower(trim(222.company))}}~{{lower(trim(222.category))}}~{{formatDate(now; \"YYYY-MM-DD\")}}",
+                  "overwrite": false
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 1200,
+                    "y": 1800
+                  }
+                },
+                "module": "datastore:AddRecord",
+                "onerror": [
+                  {
+                    "id": 225,
+                    "metadata": {
+                      "designer": {
+                        "x": 1200,
+                        "y": 1880
+                      }
+                    },
+                    "module": "builtin:Ignore",
+                    "version": 1
+                  }
+                ],
+                "parameters": {
+                  "datastore": 148747
+                },
+                "version": 1
+              },
+              {
+                "id": 226,
+                "mapper": {
+                  "insertUnformatted": false,
+                  "mode": "map",
+                  "sheetId": "Editorial Queue",
+                  "spreadsheetId": "1J8ca4Pvp3HTSdHqq9-TZ1H-nF6_fM5R3Jm1bf9bAU8A",
+                  "tableFirstRow": "A1:CZ1",
+                  "valueInputOption": "USER_ENTERED",
+                  "values": {
+                    "1": "{{now}}",
+                    "10": "{{222.industry_impact}}",
+                    "11": "{{222.litigation_risk}}",
+                    "12": "{{220.url}}",
+                    "14": "{{222.priority}}",
+                    "15": "draft",
+                    "16": "awaiting editor review",
+                    "2": "{{220.title}}",
+                    "29": "Exa LatAm dinero/compras/precios",
+                    "3": "{{222.category}}",
+                    "30": "{{220.url}}",
+                    "31": "{{221.content[1].text}}",
+                    "35": "{{now}}",
+                    "39": "SCAN-MONEY-LATAM",
+                    "4": "LATAM",
+                    "40": "{{220.url}}",
+                    "5": "{{222.country}}",
+                    "6": "{{222.company}}",
+                    "7": "{{222.angle}}",
+                    "8": "{{222.why_it_matters}}",
+                    "9": "{{222.patients_impact}}"
+                  }
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 1350,
+                    "y": 1800
+                  }
+                },
+                "module": "google-sheets:addRow",
+                "onerror": [
+                  {
+                    "id": 227,
+                    "metadata": {
+                      "designer": {
+                        "x": 1350,
+                        "y": 1880
+                      }
+                    },
+                    "module": "builtin:Ignore",
+                    "version": 1
+                  }
+                ],
+                "parameters": {
+                  "__IMTCONN__": 8923977
+                },
+                "version": 2
+              }
+            ]
+          },
+          {
+            "flow": [
+              {
+                "id": 230,
+                "mapper": {
+                  "contents": {
+                    "text": {
+                      "maxCharacters": 2000
+                    }
+                  },
+                  "includeContent": true,
+                  "includeDomains": [
+                    "paho.org",
+                    "iris.paho.org",
+                    "who.int",
+                    "worldbank.org",
+                    "documents.worldbank.org",
+                    "undp.org",
+                    "iadb.org",
+                    "publications.iadb.org",
+                    "cepal.org",
+                    "oecd.org",
+                    "unicef.org",
+                    "unaids.org",
+                    "gavi.org",
+                    "theglobalfund.org",
+                    "healthdata.org",
+                    "thelancet.com",
+                    "bmj.com",
+                    "journals.plos.org",
+                    "fiocruz.br",
+                    "insp.mx",
+                    "cdc.gov",
+                    "kff.org",
+                    "healthaffairs.org",
+                    "commonwealthfund.org",
+                    "healthpolicy-watch.news",
+                    "thinkglobalhealth.org",
+                    "devex.com",
+                    "cgdev.org",
+                    "atlanticcouncil.org"
+                  ],
+                  "numResults": 30,
+                  "query": "Structural health and disease trends affecting Latin America and the Caribbean and the United States: disease burden, epidemiology, prevalence and mortality data, noncommunicable diseases, infectious disease outbreaks, vaccination coverage, health financing and health spending, out-of-pocket costs, health workforce, health system capacity, primary care, multilateral health funding and donor cuts, new reports and data releases from PAHO, WHO, World Bank, IDB, CEPAL, OECD, IHME. Tendencias estructurales de salud en America Latina: carga de enfermedad, financiamiento sanitario, cobertura de vacunacion, gasto de bolsillo, capacidad de los sistemas de salud, recortes de financiamiento multilateral.",
+                  "startPublishedDate": "{{formatDate(addDays(now; -30); \"YYYY-MM-DD\")}}",
+                  "type": "neural",
+                  "useAutoprompt": true
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 600,
+                    "y": 2100
+                  }
+                },
+                "module": "exa-ai:performASearchWithContent",
+                "parameters": {
+                  "__IMTCONN__": 8984010
+                },
+                "version": 1
+              },
+              {
+                "filter": {
+                  "conditions": [
+                    [
+                      {
+                        "a": "{{91.text}}",
+                        "b": "{{230.url}}",
+                        "o": "text:notcontain"
+                      }
+                    ]
+                  ],
+                  "name": "no duplicado"
+                },
+                "id": 231,
+                "mapper": {
+                  "max_tokens": 500,
+                  "messages": [
+                    {
+                      "content": "Return exactly one valid JSON object and nothing else: no markdown, no code fences, no text before or after. It must parse with JSON.parse. Each string value under 15 words, single line. If a value would contain a double quote, rephrase to avoid it.\nThis is a structural health story (disease burden, financing, system capacity, multilateral funding). Prefer category health systems & disease burden. In why_it_matters and industry_impact name the concrete implication for a Latin American country or the US.\nTITLE: {{230.title}}\nEXCERPT: {{substring(230.text; 0; 900)}}\n\nSchema (all string values):\ncategory: one of [market access, drug pricing, pharma regulation, M&A, clinical catalyst, oncology, manufacturing, digital health, ai healthcare, payer systems, public health, litigation, health systems & disease burden]\ncountry: single country name or Global\ncompany: main institution or company\nangle: one affirmative sentence\nwhy_it_matters: one sentence\npatients_impact: one sentence\nindustry_impact: one sentence\nlitigation_risk: low, medium or high\npriority: breaking, high, medium or low",
+                      "inputType": "single",
+                      "role": "user"
+                    }
+                  ],
+                  "model": "claude-fable-5"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 900,
+                    "y": 2100
+                  }
+                },
+                "module": "anthropic-claude:createAMessage",
+                "parameters": {
+                  "__IMTCONN__": 8923111
+                },
+                "version": 1
+              },
+              {
+                "id": 232,
+                "mapper": {
+                  "json": "{{replace(replace(231.content[1].text; \"```json\"; \"\"); \"```\"; \"\")}}"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 1050,
+                    "y": 2100
+                  }
+                },
+                "module": "json:ParseJSON",
+                "onerror": [
+                  {
+                    "id": 233,
+                    "metadata": {
+                      "designer": {
+                        "x": 1050,
+                        "y": 2180
+                      }
+                    },
+                    "module": "builtin:Ignore",
+                    "version": 1
+                  }
+                ],
+                "parameters": {
+                  "type": 444121
+                },
+                "version": 1
+              },
+              {
+                "id": 234,
+                "mapper": {
+                  "data": {
+                    "batch": "SCAN-STRUCTURAL",
+                    "headline": "{{230.title}}",
+                    "seen_at": "{{now}}"
+                  },
+                  "key": "{{lower(trim(232.company))}}~{{lower(trim(232.category))}}~{{formatDate(now; \"YYYY-MM-DD\")}}",
+                  "overwrite": false
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 1200,
+                    "y": 2100
+                  }
+                },
+                "module": "datastore:AddRecord",
+                "onerror": [
+                  {
+                    "id": 235,
+                    "metadata": {
+                      "designer": {
+                        "x": 1200,
+                        "y": 2180
+                      }
+                    },
+                    "module": "builtin:Ignore",
+                    "version": 1
+                  }
+                ],
+                "parameters": {
+                  "datastore": 148747
+                },
+                "version": 1
+              },
+              {
+                "id": 236,
+                "mapper": {
+                  "insertUnformatted": false,
+                  "mode": "map",
+                  "sheetId": "Editorial Queue",
+                  "spreadsheetId": "1J8ca4Pvp3HTSdHqq9-TZ1H-nF6_fM5R3Jm1bf9bAU8A",
+                  "tableFirstRow": "A1:CZ1",
+                  "valueInputOption": "USER_ENTERED",
+                  "values": {
+                    "1": "{{now}}",
+                    "10": "{{232.industry_impact}}",
+                    "11": "{{232.litigation_risk}}",
+                    "12": "{{230.url}}",
+                    "14": "{{232.priority}}",
+                    "15": "draft",
+                    "16": "awaiting editor review",
+                    "2": "{{230.title}}",
+                    "29": "Exa structural/multilateral",
+                    "3": "{{232.category}}",
+                    "30": "{{230.url}}",
+                    "31": "{{231.content[1].text}}",
+                    "35": "{{now}}",
+                    "39": "SCAN-STRUCTURAL",
+                    "4": "LATAM",
+                    "40": "{{230.url}}",
+                    "5": "{{232.country}}",
+                    "6": "{{232.company}}",
+                    "7": "{{232.angle}}",
+                    "8": "{{232.why_it_matters}}",
+                    "9": "{{232.patients_impact}}"
+                  }
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 1350,
+                    "y": 2100
+                  }
+                },
+                "module": "google-sheets:addRow",
+                "onerror": [
+                  {
+                    "id": 237,
+                    "metadata": {
+                      "designer": {
+                        "x": 1350,
+                        "y": 2180
+                      }
+                    },
+                    "module": "builtin:Ignore",
+                    "version": 1
+                  }
+                ],
+                "parameters": {
+                  "__IMTCONN__": 8923977
+                },
+                "version": 2
+              }
+            ]
+          },
+          {
+            "flow": [
+              {
+                "id": 240,
+                "mapper": {
+                  "contents": {
+                    "text": {
+                      "maxCharacters": 2000
+                    }
+                  },
+                  "includeContent": true,
+                  "includeDomains": [
+                    "thelancet.com"
+                  ],
+                  "numResults": 8,
+                  "query": "New peer-reviewed study in The Lancet Regional Health Americas: epidemiology, incidence, prevalence, mortality and disease burden, noncommunicable and chronic diseases, infectious diseases and vaccination, health financing, access to medicines, health system performance and health policy in Latin America, the Caribbean and the United States, including Brazil, Mexico, Argentina, Colombia, Chile and Peru.",
+                  "startPublishedDate": "{{formatDate(addDays(now; -30); \"YYYY-MM-DD\")}}",
+                  "type": "neural",
+                  "useAutoprompt": true
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 600,
+                    "y": 2400
+                  }
+                },
+                "module": "exa-ai:performASearchWithContent",
+                "parameters": {
+                  "__IMTCONN__": 8984010
+                },
+                "version": 1
+              },
+              {
+                "filter": {
+                  "conditions": [
+                    [
+                      {
+                        "a": "{{91.text}}",
+                        "b": "{{240.url}}",
+                        "o": "text:notcontain"
+                      },
+                      {
+                        "a": "{{240.url}}",
+                        "b": "/lanam/",
+                        "o": "text:contain"
+                      }
+                    ]
+                  ],
+                  "name": "no duplicado y solo Lancet Americas"
+                },
+                "id": 241,
+                "mapper": {
+                  "max_tokens": 500,
+                  "messages": [
+                    {
+                      "content": "Return exactly one valid JSON object and nothing else: no markdown, no code fences, no text before or after. It must parse with JSON.parse. Each string value under 15 words, single line. If a value would contain a double quote, rephrase to avoid it.\nThis is a peer-reviewed study from The Lancet Regional Health - Americas. Prefer category health systems & disease burden or public health unless it is clearly about drug pricing, market access or a clinical result. In why_it_matters and industry_impact name the concrete implication for a Latin American country or the US.\nTITLE: {{240.title}}\nEXCERPT: {{substring(240.text; 0; 900)}}\n\nSchema (all string values):\ncategory: one of [market access, drug pricing, pharma regulation, M&A, clinical catalyst, oncology, manufacturing, digital health, ai healthcare, payer systems, public health, litigation, health systems & disease burden]\ncountry: single country name or Global\ncompany: main institution or company\nangle: one affirmative sentence\nwhy_it_matters: one sentence\npatients_impact: one sentence\nindustry_impact: one sentence\nlitigation_risk: low, medium or high\npriority: breaking, high, medium or low",
+                      "inputType": "single",
+                      "role": "user"
+                    }
+                  ],
+                  "model": "claude-fable-5"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 900,
+                    "y": 2400
+                  }
+                },
+                "module": "anthropic-claude:createAMessage",
+                "parameters": {
+                  "__IMTCONN__": 8923111
+                },
+                "version": 1
+              },
+              {
+                "id": 242,
+                "mapper": {
+                  "json": "{{replace(replace(241.content[1].text; \"```json\"; \"\"); \"```\"; \"\")}}"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 1050,
+                    "y": 2400
+                  }
+                },
+                "module": "json:ParseJSON",
+                "onerror": [
+                  {
+                    "id": 243,
+                    "metadata": {
+                      "designer": {
+                        "x": 1050,
+                        "y": 2480
+                      }
+                    },
+                    "module": "builtin:Ignore",
+                    "version": 1
+                  }
+                ],
+                "parameters": {
+                  "type": 444121
+                },
+                "version": 1
+              },
+              {
+                "id": 244,
+                "mapper": {
+                  "data": {
+                    "batch": "SCAN-LANCET-AM",
+                    "headline": "{{240.title}}",
+                    "seen_at": "{{now}}"
+                  },
+                  "key": "{{lower(trim(242.company))}}~{{lower(trim(242.category))}}~{{formatDate(now; \"YYYY-MM-DD\")}}",
+                  "overwrite": false
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 1200,
+                    "y": 2400
+                  }
+                },
+                "module": "datastore:AddRecord",
+                "onerror": [
+                  {
+                    "id": 245,
+                    "metadata": {
+                      "designer": {
+                        "x": 1200,
+                        "y": 2480
+                      }
+                    },
+                    "module": "builtin:Ignore",
+                    "version": 1
+                  }
+                ],
+                "parameters": {
+                  "datastore": 148747
+                },
+                "version": 1
+              },
+              {
+                "id": 246,
+                "mapper": {
+                  "insertUnformatted": false,
+                  "mode": "map",
+                  "sheetId": "Editorial Queue",
+                  "spreadsheetId": "1J8ca4Pvp3HTSdHqq9-TZ1H-nF6_fM5R3Jm1bf9bAU8A",
+                  "tableFirstRow": "A1:CZ1",
+                  "valueInputOption": "USER_ENTERED",
+                  "values": {
+                    "1": "{{now}}",
+                    "10": "{{242.industry_impact}}",
+                    "11": "{{242.litigation_risk}}",
+                    "12": "{{240.url}}",
+                    "14": "{{242.priority}}",
+                    "15": "draft",
+                    "16": "awaiting editor review",
+                    "2": "{{240.title}}",
+                    "29": "Exa Lancet Regional Health Americas",
+                    "3": "{{242.category}}",
+                    "30": "{{240.url}}",
+                    "31": "{{241.content[1].text}}",
+                    "35": "{{now}}",
+                    "39": "SCAN-LANCET-AM",
+                    "4": "LATAM",
+                    "40": "{{240.url}}",
+                    "5": "{{242.country}}",
+                    "6": "{{242.company}}",
+                    "7": "{{242.angle}}",
+                    "8": "{{242.why_it_matters}}",
+                    "9": "{{242.patients_impact}}"
+                  }
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 1350,
+                    "y": 2400
+                  }
+                },
+                "module": "google-sheets:addRow",
+                "onerror": [
+                  {
+                    "id": 247,
+                    "metadata": {
+                      "designer": {
+                        "x": 1350,
+                        "y": 2480
+                      }
+                    },
+                    "module": "builtin:Ignore",
+                    "version": 1
+                  }
+                ],
+                "parameters": {
+                  "__IMTCONN__": 8923977
+                },
+                "version": 2
+              }
+            ]
+          }
+        ],
+        "version": 1
+      }
+    ],
+    "metadata": {
+      "designer": {
+        "orphans": []
+      },
+      "instant": false,
+      "scenario": {
+        "autoCommit": true,
+        "autoCommitTriggerLast": true,
+        "confidential": false,
+        "dataloss": false,
+        "dlq": false,
+        "freshVariables": false,
+        "maxErrors": 3,
+        "roundtrips": 1,
+        "sequential": false,
+        "slots": null
+      },
+      "version": 1
+    },
+    "name": "HealthSignals- Intelligence Scanner"
+  },
+  "folderId": 247198,
+  "id": 5096381,
+  "isActive": true,
+  "name": "HealthSignals- Intelligence Scanner",
+  "scheduling": {
+    "days": [
+      1,
+      4
+    ],
+    "time": "07:00",
+    "type": "weekly"
+  }
+}

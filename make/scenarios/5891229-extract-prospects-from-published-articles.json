@@ -1,0 +1,88 @@
+{
+  "blueprint": {
+    "flow": [
+      {
+        "id": 1,
+        "mapper": {
+          "baseId": "appjkRayvA0YEjczd",
+          "formula": "NOT({Prospects_Extracted})",
+          "maxRecords": 10,
+          "tableId": "tblq2AXF9qdHtTnHF"
+        },
+        "module": "airtable:ActionSearchRecords",
+        "parameters": {},
+        "version": 1
+      },
+      {
+        "id": 2,
+        "mapper": {
+          "array": "{{1.records}}"
+        },
+        "module": "builtin:BasicFeeder",
+        "parameters": {},
+        "version": 1
+      },
+      {
+        "id": 3,
+        "mapper": {
+          "max_tokens": 1000,
+          "model": "claude-sonnet-4-6",
+          "textPrompt": "Extract company names from this article.\n\nTitle: {{2.value.Title}}\nSummary: {{2.value.Summary}}\n\nReturn only JSON array: {\"companies\": [{\"name\": \"name1\"}, {\"name\": \"name2\"}]}\n\nStrict: only mention real companies."
+        },
+        "module": "anthropic-claude:simpleTextPrompt",
+        "parameters": {
+          "__IMTCONN__": 8922808
+        },
+        "version": 1
+      },
+      {
+        "id": 4,
+        "mapper": {
+          "array": "{{parseJson(3.result).companies}}"
+        },
+        "module": "builtin:BasicFeeder",
+        "parameters": {},
+        "version": 1
+      },
+      {
+        "id": 5,
+        "mapper": {
+          "Approval": "Pending Review",
+          "Name": "{{4.value.name}}",
+          "Notes": "Mentioned in: {{2.value.Title}}",
+          "Source": "Article Auto-Extract",
+          "Stage": "New",
+          "baseId": "appjkRayvA0YEjczd",
+          "tableId": "tblalG4gDQFhUYC0D"
+        },
+        "module": "airtable:ActionCreateRecord",
+        "parameters": {},
+        "version": 1
+      },
+      {
+        "id": 6,
+        "mapper": {
+          "Prospects_Extracted": true,
+          "baseId": "appjkRayvA0YEjczd",
+          "id": "{{2.value.id}}",
+          "tableId": "tblq2AXF9qdHtTnHF"
+        },
+        "module": "airtable:ActionUpdateRecords",
+        "parameters": {},
+        "version": 1
+      }
+    ],
+    "metadata": {
+      "instant": false,
+      "version": 1
+    },
+    "name": "Extract Prospects from Published Articles"
+  },
+  "folderId": 268063,
+  "id": 5891229,
+  "isActive": false,
+  "name": "Extract Prospects from Published Articles",
+  "scheduling": {
+    "type": "on-demand"
+  }
+}

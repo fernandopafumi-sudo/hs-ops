@@ -1,0 +1,396 @@
+{
+  "blueprint": {
+    "flow": [
+      {
+        "id": 13,
+        "mapper": {
+          "dateTimeRenderOption": "FORMATTED_STRING",
+          "fieldType": "string",
+          "filter": [
+            [
+              {
+                "a": "AO",
+                "o": "exist"
+              }
+            ]
+          ],
+          "from": "drive",
+          "includesHeaders": true,
+          "limit": "300",
+          "orderBy": "B",
+          "sheetId": "Editorial Queue",
+          "sortOrder": "desc",
+          "spreadsheetId": "1J8ca4Pvp3HTSdHqq9-TZ1H-nF6_fM5R3Jm1bf9bAU8A",
+          "tableFirstRow": "A1:CZ1",
+          "valueRenderOption": "FORMATTED_VALUE"
+        },
+        "metadata": {
+          "designer": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        "module": "google-sheets:filterRows",
+        "parameters": {
+          "__IMTCONN__": 8923977
+        },
+        "version": 2
+      },
+      {
+        "id": 91,
+        "mapper": {
+          "value": "{{13.`40`}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 150,
+            "y": 0
+          }
+        },
+        "module": "util:TextAggregator",
+        "parameters": {
+          "feeder": 13,
+          "otherRowSeparator": "|",
+          "rowSeparator": "other"
+        },
+        "version": 1
+      },
+      {
+        "id": 300,
+        "mapper": {
+          "json": "[{\"event\":\"ESMO Congress 2026\",\"start\":\"20261023\",\"end\":\"20261027\",\"type\":\"sci\",\"domains\":[\"esmo.org\",\"annalsofoncology.org\"],\"hint\":\"oncology trial results presented\"},{\"event\":\"AHA Scientific Sessions 2026\",\"start\":\"20261106\",\"end\":\"20261109\",\"type\":\"sci\",\"domains\":[\"heart.org\",\"ahajournals.org\"],\"hint\":\"cardiovascular trial results presented\"},{\"event\":\"Milken Institute Future of Health Summit 2026\",\"start\":\"20261111\",\"end\":\"20261113\",\"type\":\"pol\",\"domains\":[\"milkeninstitute.org\"],\"hint\":\"health policy financing statements\"},{\"event\":\"ObesityWeek 2026\",\"start\":\"20261114\",\"end\":\"20261117\",\"type\":\"sci\",\"domains\":[\"obesityweek.org\",\"obesity.org\"],\"hint\":\"obesity GLP-1 data presented\"},{\"event\":\"HLTH 2026\",\"start\":\"20261115\",\"end\":\"20261118\",\"type\":\"pol\",\"domains\":[\"hlth.com\"],\"hint\":\"health system payer AI announcements\"},{\"event\":\"San Antonio Breast Cancer Symposium 2026\",\"start\":\"20261208\",\"end\":\"20261211\",\"type\":\"sci\",\"domains\":[\"aacr.org\"],\"hint\":\"breast cancer trial results presented\"},{\"event\":\"ASH Annual Meeting 2026\",\"start\":\"20261212\",\"end\":\"20261215\",\"type\":\"sci\",\"domains\":[\"hematology.org\",\"ashpublications.org\"],\"hint\":\"hematology trial results presented\"},{\"event\":\"J.P. Morgan Healthcare Conference 2027\",\"start\":\"20270111\",\"end\":\"20270114\",\"type\":\"pol\",\"domains\":[\"jpmorgan.com\",\"endpts.com\",\"fiercepharma.com\",\"biopharmadive.com\"],\"hint\":\"CEO guidance deals pricing announcements\"},{\"event\":\"CROI 2027\",\"start\":\"20270321\",\"end\":\"20270324\",\"type\":\"sci\",\"domains\":[\"croiconference.org\"],\"hint\":\"HIV prevention treatment data presented\"},{\"event\":\"AACR Annual Meeting 2027\",\"start\":\"20270402\",\"end\":\"20270407\",\"type\":\"sci\",\"domains\":[\"aacr.org\"],\"hint\":\"cancer research results presented\"},{\"event\":\"ACC.27 Scientific Session\",\"start\":\"20270410\",\"end\":\"20270412\",\"type\":\"sci\",\"domains\":[\"acc.org\"],\"hint\":\"cardiology trial results presented\"},{\"event\":\"Hospitalar 2027\",\"start\":\"20270518\",\"end\":\"20270521\",\"type\":\"pol\",\"domains\":[\"hospitalar.com\",\"exame.com\",\"neofeed.com.br\",\"futurodasaude.com.br\",\"panoramafarmaceutico.com.br\"],\"hint\":\"ministro saude anuncio investimento\"},{\"event\":\"ISPOR 2027\",\"start\":\"20270523\",\"end\":\"20270526\",\"type\":\"pol\",\"domains\":[\"ispor.org\"],\"hint\":\"drug pricing health technology assessment\"},{\"event\":\"World Health Assembly WHA80\",\"start\":\"20270523\",\"end\":\"20270530\",\"type\":\"pol\",\"domains\":[\"who.int\",\"paho.org\",\"healthpolicy-watch.news\"],\"hint\":\"resolution adopted ministers Americas\"},{\"event\":\"ASCO Annual Meeting 2027\",\"start\":\"20270604\",\"end\":\"20270608\",\"type\":\"sci\",\"domains\":[\"asco.org\",\"ascopubs.org\"],\"hint\":\"oncology trial results presented\"},{\"event\":\"BIO International Convention 2027\",\"start\":\"20270607\",\"end\":\"20270610\",\"type\":\"pol\",\"domains\":[\"bio.org\",\"endpts.com\",\"fiercebiotech.com\"],\"hint\":\"biotech policy FDA commissioner deals\"},{\"event\":\"AHIP 2027\",\"start\":\"20270610\",\"end\":\"20270611\",\"type\":\"pol\",\"domains\":[\"ahip.org\"],\"hint\":\"health insurers payers policy announcements\"},{\"event\":\"ADA Scientific Sessions 2027\",\"start\":\"20270618\",\"end\":\"20270621\",\"type\":\"sci\",\"domains\":[\"diabetes.org\",\"diabetesjournals.org\"],\"hint\":\"diabetes obesity trial results presented\"},{\"event\":\"Aspen Ideas: Health 2027\",\"start\":\"20270622\",\"end\":\"20270625\",\"type\":\"pol\",\"domains\":[\"aspenideas.org\",\"aspeninstitute.org\"],\"hint\":\"health policy officials statements\"},{\"event\":\"PAHO Executive Committee 180th session\",\"start\":\"20270628\",\"end\":\"20270702\",\"type\":\"pol\",\"domains\":[\"paho.org\",\"iris.paho.org\"],\"hint\":\"resolucion aprobada ministros salud Americas\"},{\"event\":\"IAS 2027 HIV Science\",\"start\":\"20270712\",\"end\":\"20270715\",\"type\":\"sci\",\"domains\":[\"iasociety.org\"],\"hint\":\"HIV data presented Latin America\"},{\"event\":\"PAHO 31st Pan American Sanitary Conference\",\"start\":\"20270927\",\"end\":\"20271001\",\"type\":\"pol\",\"domains\":[\"paho.org\",\"iris.paho.org\"],\"hint\":\"resolucion aprobada ministros salud Americas\"}]"
+        },
+        "metadata": {
+          "designer": {
+            "x": 300,
+            "y": 0
+          }
+        },
+        "module": "json:ParseJSON",
+        "parameters": {},
+        "version": 1
+      },
+      {
+        "filter": {
+          "conditions": [
+            [
+              {
+                "a": "{{formatDate(now; \"YYYYMMDD\")}}",
+                "b": "{{formatDate(addDays(parseDate(300.start; \"YYYYMMDD\"); -3); \"YYYYMMDD\")}}",
+                "o": "number:greaterorequal"
+              },
+              {
+                "a": "{{formatDate(now; \"YYYYMMDD\")}}",
+                "b": "{{formatDate(addDays(parseDate(300.end; \"YYYYMMDD\"); 7); \"YYYYMMDD\")}}",
+                "o": "number:lessorequal"
+              }
+            ]
+          ],
+          "name": "evento en ventana (-3 / +7 dias)"
+        },
+        "id": 301,
+        "mapper": {
+          "contents": {
+            "text": {
+              "maxCharacters": 2500
+            }
+          },
+          "includeContent": true,
+          "includeDomains": "{{merge(300.domains; split(if(300.type = \"sci\"; \"statnews.com,endpts.com,fiercepharma.com,fiercebiotech.com,biopharmadive.com,medpagetoday.com,healio.com,onclive.com,nejm.org,thelancet.com,jamanetwork.com,reuters.com,infobae.com,valor.globo.com,folha.uol.com.br,estadao.com.br,eltiempo.com\"; \"statnews.com,fiercehealthcare.com,healthcaredive.com,modernhealthcare.com,axios.com,politico.com,kff.org,reuters.com,bloomberg.com,infobae.com,valor.globo.com,folha.uol.com.br,bnamericas.com,bloomberglinea.com,healthpolicy-watch.news\"); \",\"))}}",
+          "numResults": 10,
+          "query": "{{300.event}}: {{300.hint}}. What was announced, decided or presented and its impact on the United States or Latin America",
+          "startPublishedDate": "{{formatDate(addDays(parseDate(300.start; \"YYYYMMDD\"); -1); \"YYYY-MM-DD\")}}",
+          "type": "neural",
+          "useAutoprompt": true
+        },
+        "metadata": {
+          "designer": {
+            "x": 450,
+            "y": 0
+          }
+        },
+        "module": "exa-ai:performASearchWithContent",
+        "parameters": {
+          "__IMTCONN__": 8984010
+        },
+        "version": 1
+      },
+      {
+        "filter": {
+          "conditions": [
+            [
+              {
+                "a": "{{91.text}}",
+                "b": "{{301.url}}",
+                "o": "text:notcontain"
+              },
+              {
+                "a": "{{lower(301.title)}}",
+                "b": "will present",
+                "o": "text:notcontain"
+              },
+              {
+                "a": "{{lower(301.title)}}",
+                "b": "to present",
+                "o": "text:notcontain"
+              },
+              {
+                "a": "{{lower(301.title)}}",
+                "b": "to be presented",
+                "o": "text:notcontain"
+              },
+              {
+                "a": "{{lower(301.title)}}",
+                "b": "upcoming",
+                "o": "text:notcontain"
+              },
+              {
+                "a": "{{lower(301.title)}}",
+                "b": "save the date",
+                "o": "text:notcontain"
+              },
+              {
+                "a": "{{lower(301.title)}}",
+                "b": "registration",
+                "o": "text:notcontain"
+              },
+              {
+                "a": "{{lower(301.title)}}",
+                "b": "preview",
+                "o": "text:notcontain"
+              },
+              {
+                "a": "{{lower(301.title)}}",
+                "b": "what to watch",
+                "o": "text:notcontain"
+              },
+              {
+                "a": "{{lower(301.title)}}",
+                "b": "what to expect",
+                "o": "text:notcontain"
+              },
+              {
+                "a": "{{lower(301.title)}}",
+                "b": "presentara",
+                "o": "text:notcontain"
+              },
+              {
+                "a": "{{lower(301.title)}}",
+                "b": "se realizara",
+                "o": "text:notcontain"
+              },
+              {
+                "a": "{{lower(301.title)}}",
+                "b": "inscripcion",
+                "o": "text:notcontain"
+              },
+              {
+                "a": "{{lower(301.title)}}",
+                "b": "lead plaintiff",
+                "o": "text:notcontain"
+              },
+              {
+                "a": "{{lower(301.title)}}",
+                "b": "class action",
+                "o": "text:notcontain"
+              },
+              {
+                "a": "{{lower(301.title)}}",
+                "b": "shareholder alert",
+                "o": "text:notcontain"
+              }
+            ]
+          ],
+          "name": "no duplicado + no previa"
+        },
+        "id": 302,
+        "mapper": {
+          "max_tokens": 1500,
+          "messages": [
+            {
+              "content": "You screen coverage of a health congress for HealthSignals, a publication on health policy, pharma and markets in the United States and Latin America. Return exactly one valid JSON object and nothing else: no markdown, no code fences. Each string value under 20 words, single line, no double quotes inside values.\nEVENT: {{300.event}}\nTITLE: {{301.title}}\nEXCERPT: {{substring(301.text; 0; 1500)}}\n\nkeep = yes ONLY if the item reports something that already happened at or around the event AND it is either (a) a public policy decision, commitment or statement by someone with decision power (minister, regulator, payer, agency head, PAHO/WHO resolution, CEO announcing price, access or investment) with concrete effect in the US or Latin America, or (b) new data or a discovery presented there (trial result, new mechanism, practice-changing finding) with concrete impact for patients, payers or markets in the US or Latin America. keep = no for previews, agendas, registrations, award lists, generic panels, opinion without decision, or results with no US/LatAm relevance.\n\nSchema (all string values):\nkeep: yes or no\nevent: event name\nspeaker: person and role who said or presented it, or none\ncategory: one of [market access, drug pricing, pharma regulation, M&A, clinical catalyst, oncology, manufacturing, digital health, ai healthcare, payer systems, public health, litigation, health systems & disease burden]\ncountry: single country name or Global\ncompany: main institution or company\nangle: one affirmative sentence stating what was said or shown\nwhy_it_matters: one sentence\npatients_impact: one sentence\nindustry_impact: one sentence\nlitigation_risk: low, medium or high\npriority: breaking, high, medium or low",
+              "inputType": "single",
+              "role": "user"
+            }
+          ],
+          "model": "claude-fable-5"
+        },
+        "metadata": {
+          "designer": {
+            "x": 600,
+            "y": 0
+          }
+        },
+        "module": "anthropic-claude:createAMessage",
+        "parameters": {
+          "__IMTCONN__": 8923111
+        },
+        "version": 1
+      },
+      {
+        "id": 303,
+        "mapper": {
+          "json": "{{replace(replace(join(map(302.content; \"text\"); \"\"); \"```json\"; \"\"); \"```\"; \"\")}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 750,
+            "y": 0
+          }
+        },
+        "module": "json:ParseJSON",
+        "onerror": [
+          {
+            "id": 306,
+            "metadata": {
+              "designer": {
+                "x": 750,
+                "y": 80
+              }
+            },
+            "module": "builtin:Ignore",
+            "version": 1
+          }
+        ],
+        "parameters": {
+          "type": 547298
+        },
+        "version": 1
+      },
+      {
+        "filter": {
+          "conditions": [
+            [
+              {
+                "a": "{{lower(trim(303.keep))}}",
+                "b": "yes",
+                "o": "text:equal"
+              }
+            ]
+          ],
+          "name": "keep = yes"
+        },
+        "id": 304,
+        "mapper": {
+          "data": {
+            "batch": "SCAN-EVENTS",
+            "headline": "{{301.title}}",
+            "seen_at": "{{now}}"
+          },
+          "key": "evt~{{md5(301.url)}}",
+          "overwrite": false
+        },
+        "metadata": {
+          "designer": {
+            "x": 900,
+            "y": 0
+          }
+        },
+        "module": "datastore:AddRecord",
+        "onerror": [
+          {
+            "id": 307,
+            "metadata": {
+              "designer": {
+                "x": 900,
+                "y": 80
+              }
+            },
+            "module": "builtin:Ignore",
+            "version": 1
+          }
+        ],
+        "parameters": {
+          "datastore": 148747
+        },
+        "version": 1
+      },
+      {
+        "id": 305,
+        "mapper": {
+          "insertUnformatted": false,
+          "mode": "map",
+          "sheetId": "Editorial Queue",
+          "spreadsheetId": "1J8ca4Pvp3HTSdHqq9-TZ1H-nF6_fM5R3Jm1bf9bAU8A",
+          "tableFirstRow": "A1:CZ1",
+          "valueInputOption": "USER_ENTERED",
+          "values": {
+            "1": "{{now}}",
+            "10": "{{303.industry_impact}}",
+            "11": "{{303.litigation_risk}}",
+            "12": "{{301.url}}",
+            "14": "{{303.priority}}",
+            "15": "draft",
+            "16": "awaiting editor review",
+            "2": "{{301.title}}",
+            "29": "Evento: {{300.event}} | Voz: {{303.speaker}}",
+            "3": "{{303.category}}",
+            "30": "{{301.url}}",
+            "31": "{{join(map(302.content; \"text\"); \"\")}}",
+            "35": "{{now}}",
+            "39": "SCAN-EVENTS",
+            "4": "{{if(303.country = \"United States\"; \"USA\"; if(303.country = \"Global\"; \"Global\"; \"LATAM\"))}}",
+            "40": "{{301.url}}",
+            "5": "{{303.country}}",
+            "6": "{{303.company}}",
+            "7": "{{303.angle}}",
+            "8": "{{303.why_it_matters}}",
+            "9": "{{303.patients_impact}}"
+          }
+        },
+        "metadata": {
+          "designer": {
+            "x": 1050,
+            "y": 0
+          }
+        },
+        "module": "google-sheets:addRow",
+        "onerror": [
+          {
+            "id": 308,
+            "metadata": {
+              "designer": {
+                "x": 1050,
+                "y": 80
+              }
+            },
+            "module": "builtin:Ignore",
+            "version": 1
+          }
+        ],
+        "parameters": {
+          "__IMTCONN__": 8923977
+        },
+        "version": 2
+      }
+    ],
+    "metadata": {
+      "designer": {
+        "orphans": []
+      },
+      "instant": false,
+      "scenario": {
+        "autoCommit": true,
+        "autoCommitTriggerLast": true,
+        "confidential": false,
+        "dataloss": false,
+        "dlq": false,
+        "freshVariables": false,
+        "maxErrors": 3,
+        "roundtrips": 1,
+        "sequential": false,
+        "slots": null
+      },
+      "version": 1
+    },
+    "name": "HS - Events Scanner (congresos y cumbres)"
+  },
+  "folderId": 247198,
+  "id": 6724293,
+  "isActive": true,
+  "name": "HS - Events Scanner (congresos y cumbres)",
+  "scheduling": {
+    "time": "07:23",
+    "type": "daily"
+  }
+}

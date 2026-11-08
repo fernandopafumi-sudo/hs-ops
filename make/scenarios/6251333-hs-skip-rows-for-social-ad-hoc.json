@@ -1,0 +1,117 @@
+{
+  "blueprint": {
+    "flow": [
+      {
+        "id": 1,
+        "mapper": {
+          "dateTimeRenderOption": "FORMATTED_STRING",
+          "fieldType": "string",
+          "filter": [
+            [
+              {
+                "a": "W",
+                "b": "35265",
+                "o": "text:equal"
+              }
+            ],
+            [
+              {
+                "a": "W",
+                "b": "34785",
+                "o": "text:equal"
+              }
+            ],
+            [
+              {
+                "a": "W",
+                "b": "35390",
+                "o": "text:equal"
+              }
+            ],
+            [
+              {
+                "a": "W",
+                "b": "35401",
+                "o": "text:equal"
+              }
+            ]
+          ],
+          "from": "drive",
+          "includesHeaders": true,
+          "limit": "20",
+          "sheetId": "Editorial Queue",
+          "sortOrder": "asc",
+          "spreadsheetId": "1J8ca4Pvp3HTSdHqq9-TZ1H-nF6_fM5R3Jm1bf9bAU8A",
+          "tableFirstRow": "A1:CZ1",
+          "valueRenderOption": "FORMATTED_VALUE"
+        },
+        "metadata": {
+          "designer": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        "module": "google-sheets:filterRows",
+        "parameters": {
+          "__IMTCONN__": 8923977
+        },
+        "version": 2
+      },
+      {
+        "filter": {
+          "conditions": [
+            [
+              {
+                "a": "{{1.`__ROW_NUMBER__`}}",
+                "o": "exist"
+              },
+              {
+                "a": "{{1.`24`}}",
+                "b": "",
+                "o": "text:equal"
+              }
+            ]
+          ],
+          "name": "fila valida"
+        },
+        "id": 2,
+        "mapper": {
+          "from": "drive",
+          "includesHeaders": true,
+          "mode": "select",
+          "rowNumber": "{{1.`__ROW_NUMBER__`}}",
+          "sheetId": "Editorial Queue",
+          "spreadsheetId": "1J8ca4Pvp3HTSdHqq9-TZ1H-nF6_fM5R3Jm1bf9bAU8A",
+          "useColumnHeaders": true,
+          "valueInputOption": "USER_ENTERED",
+          "values": {
+            "LinkedIn URL": "skipped-social 2026-09-12 (post viejo, borrador o en papelera)"
+          }
+        },
+        "metadata": {
+          "designer": {
+            "x": 300,
+            "y": 0
+          }
+        },
+        "module": "google-sheets:updateRow",
+        "parameters": {
+          "__IMTCONN__": 8923977
+        },
+        "version": 2
+      }
+    ],
+    "metadata": {
+      "instant": false,
+      "version": 1
+    },
+    "name": "HS - Skip rows for social (ad-hoc)"
+  },
+  "folderId": 247198,
+  "id": 6251333,
+  "isActive": true,
+  "name": "HS - Skip rows for social (ad-hoc)",
+  "scheduling": {
+    "type": "on-demand"
+  }
+}

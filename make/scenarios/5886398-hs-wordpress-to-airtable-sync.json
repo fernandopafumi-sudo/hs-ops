@@ -1,0 +1,114 @@
+{
+  "blueprint": {
+    "flow": [
+      {
+        "id": 1,
+        "mapper": {
+          "method": "get",
+          "parseResponse": true,
+          "qs": [
+            {
+              "name": "per_page",
+              "value": "100"
+            },
+            {
+              "name": "status",
+              "value": "publish"
+            },
+            {
+              "name": "orderby",
+              "value": "modified"
+            },
+            {
+              "name": "order",
+              "value": "desc"
+            }
+          ],
+          "url": "https://healthsignals.news/wp-json/wp/v2/posts"
+        },
+        "module": "http:ActionSendData",
+        "version": 3
+      },
+      {
+        "id": 2,
+        "mapper": {
+          "array": "{{1.data}}"
+        },
+        "module": "builtin:BasicFeeder",
+        "version": 1
+      },
+      {
+        "id": 3,
+        "mapper": {
+          "base": "appjkRayvA0YEjczd",
+          "records": [
+            {
+              "record": [
+                {
+                  "id": "fldSag7M96Tb2ulVF",
+                  "type": "text",
+                  "value": "{{2.value.title.rendered}}"
+                },
+                {
+                  "id": "fldyN0OMnrCiMhYKH",
+                  "type": "text",
+                  "value": "{{lower(2.value.slug)}}"
+                },
+                {
+                  "id": "fldseLlgoP0nn2mHL",
+                  "type": "text",
+                  "value": "published"
+                },
+                {
+                  "id": "fldLrCXSczmzaBtzx",
+                  "type": "text",
+                  "value": "{{2.value.link}}"
+                },
+                {
+                  "id": "fldFZbjJlaGZOoWAC",
+                  "type": "number",
+                  "value": "{{2.value.id}}"
+                },
+                {
+                  "id": "fld74E62kKQOpVyKx",
+                  "type": "date",
+                  "value": "{{2.value.date}}"
+                },
+                {
+                  "id": "fldawxS1djjXYfzvt",
+                  "type": "boolean",
+                  "value": false
+                }
+              ]
+            }
+          ],
+          "select": "map",
+          "table": "tblq2AXF9qdHtTnHF",
+          "typecast": false,
+          "useColumnId": false
+        },
+        "module": "airtable:bulkCreateRecords",
+        "parameters": {
+          "__IMTCONN__": 9132003
+        },
+        "version": 3
+      }
+    ],
+    "metadata": {
+      "instant": false,
+      "version": 1
+    },
+    "name": "HS WordPress to Airtable Sync"
+  },
+  "folderId": 268065,
+  "id": 5886398,
+  "isActive": false,
+  "name": "HS WordPress to Airtable Sync",
+  "scheduling": {
+    "days": [
+      2
+    ],
+    "time": "08:00",
+    "type": "weekly"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "blueprint": {
+    "flow": [
+      {
+        "id": 1,
+        "mapper": {
+          "array": "{{inputs.contacts}}"
+        },
+        "module": "builtin:BasicFeeder",
+        "version": 1
+      },
+      {
+        "id": 2,
+        "mapper": {
+          "records": "{{1}}"
+        },
+        "module": "airtable:bulkCreateRecords",
+        "parameters": {
+          "baseId": "appjkRayvA0YEjczd",
+          "tableId": "tblalG4gDQFhUYC0D"
+        },
+        "version": 3
+      }
+    ],
+    "metadata": {
+      "instant": false,
+      "version": 1
+    },
+    "name": "HS LinkedIn CRM Loader — Execute Now"
+  },
+  "folderId": 268065,
+  "id": 5890585,
+  "isActive": true,
+  "name": "HS LinkedIn CRM Loader — Execute Now",
+  "scheduling": {
+    "type": "on-demand"
+  }
+}

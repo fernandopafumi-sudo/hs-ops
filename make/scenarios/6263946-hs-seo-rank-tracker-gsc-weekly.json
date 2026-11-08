@@ -1,0 +1,76 @@
+{
+  "blueprint": {
+    "flow": [
+      {
+        "id": 1,
+        "mapper": {
+          "dataState": "FINAL",
+          "dimensions": "QUERY",
+          "endDate": "{{formatDate(addDays(now; -2); \"YYYY-MM-DD\")}}",
+          "limit": 50,
+          "siteUrl": "https://healthsignals.news/",
+          "startDate": "{{formatDate(addDays(now; -9); \"YYYY-MM-DD\")}}",
+          "type": "WEB"
+        },
+        "metadata": {
+          "designer": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        "module": "google-search-console:searchAnalytics",
+        "parameters": {
+          "__IMTCONN__": 11075018
+        },
+        "version": 1
+      },
+      {
+        "id": 2,
+        "mapper": {
+          "insertDataOption": "INSERT_ROWS",
+          "insertUnformatted": false,
+          "mode": "map",
+          "sheetId": "SEO Tracker",
+          "spreadsheetId": "1gM-PWPYr-N-8aZIRqgVS-0_5tEu1H2xClK6Zjcu9Xh4",
+          "tableFirstRow": "A1:Z1",
+          "valueInputOption": "USER_ENTERED",
+          "values": {
+            "0": "{{formatDate(now; \"YYYY-MM-DD\")}}",
+            "1": "{{1.keys[1]}}",
+            "2": "{{1.clicks}}",
+            "3": "{{1.impressions}}",
+            "4": "{{1.ctr}}",
+            "5": "{{1.position}}"
+          }
+        },
+        "metadata": {
+          "designer": {
+            "x": 300,
+            "y": 0
+          }
+        },
+        "module": "google-sheets:addRow",
+        "parameters": {
+          "__IMTCONN__": 8923977
+        },
+        "version": 2
+      }
+    ],
+    "metadata": {
+      "instant": false,
+      "version": 1
+    },
+    "name": "HS — SEO Rank Tracker (GSC weekly)"
+  },
+  "folderId": null,
+  "id": 6263946,
+  "isActive": true,
+  "name": "HS — SEO Rank Tracker (GSC weekly)",
+  "scheduling": {
+    "days": [
+      1
+    ],
+    "time": "08:00",
+    "type": "weekly"
+  }
+}

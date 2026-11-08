@@ -1,0 +1,176 @@
+{
+  "blueprint": {
+    "flow": [
+      {
+        "id": 1,
+        "mapper": {
+          "headers": [],
+          "method": "GET",
+          "qs": [],
+          "url": "v0/appjkRayvA0YEjczd/tble1o8yKXjqOCwam?maxRecords=50&filterByFormula={{encodeURL(\"{Status}='Approved'\")}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        "module": "airtable:makeApiCall",
+        "parameters": {
+          "__IMTCONN__": 9132003
+        },
+        "version": 3
+      },
+      {
+        "id": 2,
+        "mapper": {
+          "array": "{{1.body.records}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 300,
+            "y": 0
+          }
+        },
+        "module": "builtin:BasicFeeder",
+        "version": 1
+      },
+      {
+        "id": 3,
+        "mapper": {
+          "attributes": {
+            "APELLIDOS": "{{2.fields.`Last Name`}}",
+            "EMPRESA": "{{2.fields.Company}}",
+            "JOB_TITLE": "{{2.fields.`Job Title`}}",
+            "NOMBRE": "{{2.fields.Name}}",
+            "PAIS": "{{2.fields.Country}}"
+          },
+          "email": "{{2.fields.Email}}",
+          "listIds": [
+            5
+          ],
+          "updateEnabled": true
+        },
+        "metadata": {
+          "designer": {
+            "x": 600,
+            "y": 0
+          }
+        },
+        "module": "sendinblue:CreateContact",
+        "onerror": [
+          {
+            "id": 6,
+            "mapper": {
+              "count": "3",
+              "interval": "15",
+              "retry": true
+            },
+            "metadata": {
+              "designer": {
+                "x": 600,
+                "y": 200
+              }
+            },
+            "module": "builtin:Break",
+            "version": 1
+          }
+        ],
+        "parameters": {
+          "__IMTCONN__": 11417335
+        },
+        "version": 2
+      },
+      {
+        "id": 4,
+        "mapper": {
+          "body": "{\"templateId\":15,\"to\":[{\"email\":\"{{2.fields.Email}}\"}],\"params\":{\"NAME\":\"{{2.fields.Name}}\"}}",
+          "headers": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "method": "POST",
+          "url": "/v3/smtp/email"
+        },
+        "metadata": {
+          "designer": {
+            "x": 900,
+            "y": 0
+          }
+        },
+        "module": "sendinblue:MakeAPICall",
+        "onerror": [
+          {
+            "id": 7,
+            "mapper": {
+              "count": "3",
+              "interval": "15",
+              "retry": true
+            },
+            "metadata": {
+              "designer": {
+                "x": 900,
+                "y": 200
+              }
+            },
+            "module": "builtin:Break",
+            "version": 1
+          }
+        ],
+        "parameters": {
+          "__IMTCONN__": 11417335
+        },
+        "version": 2
+      },
+      {
+        "id": 5,
+        "mapper": {
+          "body": "{\"typecast\":true,\"fields\":{\"Status\":\"Active\"}}",
+          "headers": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "method": "PATCH",
+          "qs": [],
+          "url": "v0/appjkRayvA0YEjczd/tble1o8yKXjqOCwam/{{2.id}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 1200,
+            "y": 0
+          }
+        },
+        "module": "airtable:makeApiCall",
+        "parameters": {
+          "__IMTCONN__": 9132003
+        },
+        "version": 3
+      }
+    ],
+    "metadata": {
+      "instant": false,
+      "scenario": {
+        "autoCommit": true,
+        "dlq": true,
+        "maxErrors": 3,
+        "roundtrips": 1,
+        "sequential": true,
+        "slots": null
+      },
+      "version": 1
+    },
+    "name": "HS Brief Approvals (webmail aprobados por Fer)"
+  },
+  "folderId": 247198,
+  "id": 6726530,
+  "isActive": true,
+  "name": "HS Brief Approvals (webmail aprobados por Fer)",
+  "scheduling": {
+    "interval": 21600,
+    "type": "indefinitely"
+  }
+}

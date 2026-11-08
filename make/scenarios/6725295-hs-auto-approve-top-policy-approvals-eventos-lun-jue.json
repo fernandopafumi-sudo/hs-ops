@@ -1,0 +1,207 @@
+{
+  "blueprint": {
+    "flow": [
+      {
+        "id": 1,
+        "mapper": {
+          "dateTimeRenderOption": "FORMATTED_STRING",
+          "fieldType": "string",
+          "filter": [
+            [
+              {
+                "a": "P",
+                "b": "draft",
+                "o": "text:equal"
+              },
+              {
+                "a": "AN",
+                "b": "SCAN-FDA",
+                "o": "text:equal"
+              },
+              {
+                "a": "O",
+                "b": "breaking",
+                "o": "text:equal"
+              },
+              {
+                "a": "W",
+                "o": "notexist"
+              }
+            ],
+            [
+              {
+                "a": "P",
+                "b": "draft",
+                "o": "text:equal"
+              },
+              {
+                "a": "AN",
+                "b": "SCAN-FDA",
+                "o": "text:equal"
+              },
+              {
+                "a": "O",
+                "b": "high",
+                "o": "text:equal"
+              },
+              {
+                "a": "W",
+                "o": "notexist"
+              }
+            ],
+            [
+              {
+                "a": "P",
+                "b": "draft",
+                "o": "text:equal"
+              },
+              {
+                "a": "AN",
+                "b": "SCAN-EVENTS",
+                "o": "text:equal"
+              },
+              {
+                "a": "O",
+                "b": "breaking",
+                "o": "text:equal"
+              },
+              {
+                "a": "W",
+                "o": "notexist"
+              }
+            ],
+            [
+              {
+                "a": "P",
+                "b": "draft",
+                "o": "text:equal"
+              },
+              {
+                "a": "AN",
+                "b": "SCAN-EVENTS",
+                "o": "text:equal"
+              },
+              {
+                "a": "O",
+                "b": "high",
+                "o": "text:equal"
+              },
+              {
+                "a": "W",
+                "o": "notexist"
+              }
+            ]
+          ],
+          "from": "drive",
+          "includesHeaders": true,
+          "limit": "40",
+          "orderBy": "B",
+          "sheetId": "Editorial Queue",
+          "sortOrder": "desc",
+          "spreadsheetId": "1J8ca4Pvp3HTSdHqq9-TZ1H-nF6_fM5R3Jm1bf9bAU8A",
+          "tableFirstRow": "A1:CZ1",
+          "valueRenderOption": "FORMATTED_VALUE"
+        },
+        "metadata": {
+          "designer": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        "module": "google-sheets:filterRows",
+        "parameters": {
+          "__IMTCONN__": 8923977
+        },
+        "version": 2
+      },
+      {
+        "filter": {
+          "conditions": [
+            [
+              {
+                "a": "{{replace(substring(1.`1`; 0; 10); \"-\"; \"\")}}",
+                "b": "{{formatDate(addDays(now; -10); \"YYYYMMDD\")}}",
+                "o": "number:greaterorequal"
+              }
+            ]
+          ],
+          "name": "ultimos 10 dias"
+        },
+        "id": 10,
+        "mapper": {
+          "value": "{{if(1.`14` = \"breaking\"; \"a\"; \"b\")}}{{if(1.`39` = \"SCAN-EVENTS\"; \"a\"; \"b\")}}|{{99999999 - replace(substring(1.`1`; 0; 10); \"-\"; \"\")}}|{{1.`__ROW_NUMBER__`}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 300,
+            "y": 0
+          }
+        },
+        "module": "util:TextAggregator",
+        "parameters": {
+          "feeder": 1,
+          "otherRowSeparator": ";;",
+          "rowSeparator": "other"
+        },
+        "version": 1
+      },
+      {
+        "filter": {
+          "conditions": [
+            [
+              {
+                "a": "{{10.text}}",
+                "o": "exist"
+              }
+            ]
+          ],
+          "name": "hay candidata"
+        },
+        "id": 2,
+        "mapper": {
+          "from": "drive",
+          "includesHeaders": true,
+          "mode": "select",
+          "rowNumber": "{{last(split(first(sort(split(10.text; \";;\"))); \"|\"))}}",
+          "sheetId": "Editorial Queue",
+          "spreadsheetId": "1J8ca4Pvp3HTSdHqq9-TZ1H-nF6_fM5R3Jm1bf9bAU8A",
+          "useColumnHeaders": true,
+          "valueInputOption": "USER_ENTERED",
+          "values": {
+            "Approved By": "Fer (auto top policy/approvals/eventos lun+jue, desde 22-10)",
+            "Current Step": "approved auto {{formatDate(now; \"YYYY-MM-DD\")}} (top policy/approvals/eventos)",
+            "Status": "approved"
+          }
+        },
+        "metadata": {
+          "designer": {
+            "x": 600,
+            "y": 0
+          }
+        },
+        "module": "google-sheets:updateRow",
+        "parameters": {
+          "__IMTCONN__": 8923977
+        },
+        "version": 2
+      }
+    ],
+    "metadata": {
+      "instant": false,
+      "version": 1
+    },
+    "name": "HS - Auto-approve top policy/approvals/eventos (lun+jue)"
+  },
+  "folderId": 247198,
+  "id": 6725295,
+  "isActive": true,
+  "name": "HS - Auto-approve top policy/approvals/eventos (lun+jue)",
+  "scheduling": {
+    "days": [
+      1,
+      4
+    ],
+    "time": "06:20",
+    "type": "weekly"
+  }
+}

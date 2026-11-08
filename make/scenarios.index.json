@@ -1,0 +1,267 @@
+[
+  {
+    "id": 5096381,
+    "isActive": true,
+    "name": "HealthSignals- Intelligence Scanner"
+  },
+  {
+    "id": 5133643,
+    "isActive": true,
+    "name": "PROD Article Publisher v2"
+  },
+  {
+    "id": 5167429,
+    "isActive": false,
+    "name": "HS Social Publisher v2"
+  },
+  {
+    "id": 5453337,
+    "isActive": true,
+    "name": "HS Outreach A - Draft Generator"
+  },
+  {
+    "id": 5453401,
+    "isActive": true,
+    "name": "HS Outreach B - Sender"
+  },
+  {
+    "id": 5453897,
+    "isActive": false,
+    "name": "HS LinkedIn Draft Engine"
+  },
+  {
+    "id": 5454484,
+    "isActive": false,
+    "name": "HS Weekly Digest"
+  },
+  {
+    "id": 5699954,
+    "isActive": true,
+    "name": "HS Report — Proposer"
+  },
+  {
+    "id": 5841829,
+    "isActive": false,
+    "name": "LB — Group Post Reminder (620 Spend A Buck)"
+  },
+  {
+    "id": 5843912,
+    "isActive": false,
+    "name": "HS Prospect Search - LinkedIn LATAM"
+  },
+  {
+    "id": 5882000,
+    "isActive": true,
+    "name": "HS X OAuth Setup"
+  },
+  {
+    "id": 5886398,
+    "isActive": false,
+    "name": "HS WordPress to Airtable Sync"
+  },
+  {
+    "id": 5890585,
+    "isActive": true,
+    "name": "HS LinkedIn CRM Loader — Execute Now"
+  },
+  {
+    "id": 5890673,
+    "isActive": false,
+    "name": "HS LinkedIn Import → CRM Sync"
+  },
+  {
+    "id": 5891229,
+    "isActive": false,
+    "name": "Extract Prospects from Published Articles"
+  },
+  {
+    "id": 5893513,
+    "isActive": true,
+    "name": "HS Price Feeds — listas oficiales de precios"
+  },
+  {
+    "id": 6070111,
+    "isActive": true,
+    "name": "HealthSignals - Thematic Scanner (Topic Registry)"
+  },
+  {
+    "id": 6202822,
+    "isActive": true,
+    "name": "HS - Sheet Ops (ad-hoc)"
+  },
+  {
+    "id": 6233803,
+    "isActive": true,
+    "name": "HS Brief — Composer (WIP)"
+  },
+  {
+    "id": 6234149,
+    "isActive": true,
+    "name": "HS Brief — Render Test"
+  },
+  {
+    "id": 6234307,
+    "isActive": true,
+    "name": "HS Brief — Production"
+  },
+  {
+    "id": 6234838,
+    "isActive": true,
+    "name": "HS Brief — Email Test"
+  },
+  {
+    "id": 6234915,
+    "isActive": true,
+    "name": "HS Brief — Email Send"
+  },
+  {
+    "id": 6245658,
+    "isActive": true,
+    "name": "HS - Unstick processing rows"
+  },
+  {
+    "id": 6245964,
+    "isActive": true,
+    "name": "HS - Approve queue rows (ad-hoc)"
+  },
+  {
+    "id": 6246530,
+    "isActive": true,
+    "name": "HS - Park approved backlog"
+  },
+  {
+    "id": 6248217,
+    "isActive": true,
+    "name": "HS - Queue snapshot to datastore"
+  },
+  {
+    "id": 6251333,
+    "isActive": true,
+    "name": "HS - Skip rows for social (ad-hoc)"
+  },
+  {
+    "id": 6251400,
+    "isActive": true,
+    "name": "HS - Scanner rows snapshot (last batch)"
+  },
+  {
+    "id": 6263946,
+    "isActive": true,
+    "name": "HS — SEO Rank Tracker (GSC weekly)"
+  },
+  {
+    "id": 6313594,
+    "isActive": true,
+    "name": "HS — Featured image por post ID"
+  },
+  {
+    "id": 6314042,
+    "isActive": true,
+    "name": "HS — Guard imagen destacada (watchdog)"
+  },
+  {
+    "id": 6414510,
+    "isActive": false,
+    "name": "[BORRAR] HS test 6414510"
+  },
+  {
+    "id": 6424186,
+    "isActive": false,
+    "name": "[BORRAR] HS test cover fix 6424186"
+  },
+  {
+    "id": 6424598,
+    "isActive": false,
+    "name": "[BORRAR] HS test 6424598"
+  },
+  {
+    "id": 6426906,
+    "isActive": false,
+    "name": "[BORRAR] HS UTIL view images 6426906"
+  },
+  {
+    "id": 6427153,
+    "isActive": true,
+    "name": "HS Brief — Render from reviewed content"
+  },
+  {
+    "id": 6459598,
+    "isActive": true,
+    "name": "HS Brief Subscribers"
+  },
+  {
+    "id": 6460310,
+    "isActive": true,
+    "name": "HS Brief Subscribers — Sync confirmados (Brevo → Airtable)"
+  },
+  {
+    "id": 6461147,
+    "isActive": true,
+    "name": "HS gate vigilante (capa 2)"
+  },
+  {
+    "id": 6488206,
+    "isActive": true,
+    "name": "HS MedTech Tracker — FDA → Brasil/Colombia (mensual)"
+  },
+  {
+    "id": 6508650,
+    "isActive": true,
+    "name": "HS Social Publisher v3"
+  },
+  {
+    "id": 6543177,
+    "isActive": true,
+    "name": "HS - Auto-approve 1 high draft/day"
+  },
+  {
+    "id": 6674701,
+    "isActive": true,
+    "name": "HS Press Signup — página de prensa → Airtable"
+  },
+  {
+    "id": 6721172,
+    "isActive": true,
+    "name": "HS - FDA Approvals Scanner (RSS)"
+  },
+  {
+    "id": 6724293,
+    "isActive": true,
+    "name": "HS - Events Scanner (congresos y cumbres)"
+  },
+  {
+    "id": 6725295,
+    "isActive": true,
+    "name": "HS - Auto-approve top policy/approvals/eventos (lun+jue)"
+  },
+  {
+    "id": 6726530,
+    "isActive": true,
+    "name": "HS Brief Approvals (webmail aprobados por Fer)"
+  },
+  {
+    "id": 6735926,
+    "isActive": true,
+    "name": "HS - Cover for manual post (ad-hoc)"
+  },
+  {
+    "id": 6828787,
+    "isActive": true,
+    "name": "HS - Set queue status by row (ad-hoc)"
+  },
+  {
+    "id": 6841390,
+    "isActive": true,
+    "name": "TEST Publisher v2 - Evidencia C (fila 606)"
+  },
+  {
+    "id": 6854895,
+    "isActive": true,
+    "name": "HS Invite 1-click subscribe (Brief)"
+  },
+  {
+    "id": 6856433,
+    "isActive": false,
+    "name": "HS — Brevo: quitar internos de lista 5 (ad hoc)"
+  }
+]

@@ -1,0 +1,88 @@
+{
+  "blueprint": {
+    "flow": [
+      {
+        "id": 1,
+        "mapper": {
+          "name": "html",
+          "scope": "roundtrip",
+          "value": "<!DOCTYPE html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>The HealthSignals Brief</title></head><body style='margin:0;padding:0;background:#f3f2f2;'><div style='display:none;max-height:0;overflow:hidden;opacity:0;'>Your fortnightly read on pharma &amp; healthcare across Latin America and the US.</div><table role='presentation' width='100%' cellpadding='0' cellspacing='0' style='background:#f3f2f2;'><tr><td align='center' style='padding:24px 12px;'><table role='presentation' width='600' cellpadding='0' cellspacing='0' style='width:600px;max-width:600px;background:#f3f2f2;font-family:Archivo,Helvetica,Arial,sans-serif;color:#201e1d;'><tr><td style='padding:8px 4px 0;'><div style='font-family:Archivo,Arial,sans-serif;font-weight:700;font-size:11px;letter-spacing:2.2px;text-transform:uppercase;color:#0B6B4F;'>Pharma &amp; Healthcare Intelligence</div></td></tr><tr><td style='padding:8px 4px 0;'><div style='font-family:Archivo,Arial,sans-serif;font-weight:800;font-size:34px;line-height:1.0;letter-spacing:-0.5px;text-transform:uppercase;color:#201e1d;'>The HealthSignals Brief</div><div style='font-weight:700;font-size:11px;letter-spacing:1.6px;text-transform:uppercase;color:#444141;margin-top:8px;'>Latin America &amp; the United States</div></td></tr><tr><td style='padding:14px 4px 0;'><table role='presentation' width='100%' cellpadding='0' cellspacing='0' style='border-top:2px solid #201e1d;border-bottom:2px solid #201e1d;'><tr><td style='padding:10px 0;font-weight:700;font-size:12px;letter-spacing:0.6px;color:#201e1d;'>Issue 01</td><td align='right' style='padding:10px 0;font-weight:600;font-size:12px;letter-spacing:0.6px;color:#444141;'>10 Sep 2026 &nbsp;&middot;&nbsp; Bi-weekly</td></tr></table></td></tr><tr><td style='padding:20px 4px 0;'><table role='presentation' width='100%' cellpadding='0' cellspacing='0' style='background:#0B6B4F;'><tr><td style='padding:22px 24px;'><div style='color:#bfe2d7;font-weight:700;font-size:11px;letter-spacing:2.2px;text-transform:uppercase;margin-bottom:10px;'>This Issue Is Out</div><div style='color:#ffffff;font-weight:800;font-size:24px;line-height:1.2;letter-spacing:-0.4px;'>The fortnight's pharma &amp; healthcare intelligence for Latin America and the US &mdash; in one Brief.</div></td></tr></table></td></tr><tr><td align='center' style='padding:24px 4px 8px;'><table role='presentation' cellpadding='0' cellspacing='0'><tr><td align='center' style='background:#0B6B4F;'><a href='https://healthsignals.news/wp-content/uploads/2026/09/the-healthsignals-brief-2026-09-10-2.pdf' target='_blank' style='display:inline-block;padding:15px 30px;font-family:Archivo,Arial,sans-serif;font-weight:700;font-size:13px;letter-spacing:1.4px;text-transform:uppercase;color:#ffffff;text-decoration:none;'>Read the full Brief (PDF) &rarr;</a></td></tr></table></td></tr><tr><td align='center' style='padding:0 4px 20px;'><a href='https://healthsignals.news/newsletter/' target='_blank' style='font-weight:600;font-size:12px;letter-spacing:0.6px;color:#0B6B4F;text-decoration:none;'>or read it on healthsignals.news</a></td></tr><tr><td style='padding:4px 4px 0;'><div style='border-top:2px solid #201e1d;padding-top:12px;font-weight:800;font-size:12px;letter-spacing:1.4px;text-transform:uppercase;color:#0B6B4F;'>Inside this issue</div></td></tr><tr><td style='padding:12px 4px 0;'><table role='presentation' width='100%' cellpadding='0' cellspacing='0'><tr><td valign='top' style='width:33%;border-top:1px solid #c9c7c4;padding:9px 10px 0 0;'><div style='font-weight:600;font-size:10px;letter-spacing:1.2px;text-transform:uppercase;color:#444141;margin-bottom:5px;'>Special Report</div><div style='font-weight:700;font-size:13px;line-height:1.3;color:#201e1d;'>A six-market GLP-1 pricing audit</div></td><td valign='top' style='width:33%;border-top:1px solid #c9c7c4;padding:9px 10px 0;'><div style='font-weight:600;font-size:10px;letter-spacing:1.2px;text-transform:uppercase;color:#444141;margin-bottom:5px;'>This Issue in Review</div><div style='font-weight:700;font-size:13px;line-height:1.3;color:#201e1d;'>The fortnight's coverage, by section</div></td><td valign='top' style='width:33%;border-top:1px solid #c9c7c4;padding:9px 0 0 10px;'><div style='font-weight:600;font-size:10px;letter-spacing:1.2px;text-transform:uppercase;color:#444141;margin-bottom:5px;'>Regulatory Radar</div><div style='font-weight:700;font-size:13px;line-height:1.3;color:#201e1d;'>Decisions to watch next</div></td></tr></table></td></tr><tr><td style='padding:26px 4px 0;'><table role='presentation' width='100%' cellpadding='0' cellspacing='0' style='border-top:2px solid #201e1d;'><tr><td style='padding-top:14px;'><div style='font-weight:800;font-size:15px;letter-spacing:-0.3px;color:#201e1d;'>THE HEALTHSIGNALS BRIEF</div><div style='font-size:11px;color:#444141;line-height:1.5;margin-top:6px;'>Editorial intelligence &middot; Pharma &amp; healthcare &middot; Latin America &amp; the US</div><div style='font-size:11px;color:#444141;line-height:1.7;margin-top:12px;'><a href='https://healthsignals.news/newsletter/' style='color:#0B6B4F;text-decoration:none;'>View in browser</a> &middot;<a href='https://healthsignals.news/newsletter/' style='color:#0B6B4F;text-decoration:none;'>Unsubscribe</a><br>brief@healthsignals.news &middot; healthsignals.news</div><div style='font-size:9.5px;color:#8a8a8a;line-height:1.5;margin-top:12px;'>You are receiving this because you subscribed at healthsignals.news.<br>&copy; 2026 HealthSignals &middot; Published by HEALTHSIGNALS LLC &middot; [direccion postal a completar]</div></td></tr></table></td></tr></table></td></tr></table></body></html>"
+        },
+        "metadata": {
+          "designer": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        "module": "util:SetVariable2",
+        "parameters": {},
+        "version": 1
+      },
+      {
+        "id": 2,
+        "mapper": {
+          "bodyType": "raw",
+          "contentType": "application/json",
+          "data": "{\"sender\":{\"name\":\"The HealthSignals Brief\",\"email\":\"editor@healthsignals.news\"},\"to\":[{\"email\":\"fernandopafumi@gmail.com\"}],\"subject\":\"[TEST] The HealthSignals Brief — Issue 01\",\"htmlContent\":\"{{1.html}}\"}",
+          "followAllRedirects": true,
+          "followRedirect": true,
+          "gzip": true,
+          "headers": [
+            {
+              "name": "api-key",
+              "value": "<<REDACTED>>"
+            },
+            {
+              "name": "accept",
+              "value": "application/json"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json"
+            }
+          ],
+          "method": "post",
+          "parseResponse": true,
+          "rejectUnauthorized": true,
+          "serializeUrl": false,
+          "shareCookies": false,
+          "url": "https://api.brevo.com/v3/smtp/email",
+          "useMtls": false,
+          "useQuerystring": false
+        },
+        "metadata": {
+          "designer": {
+            "x": 300,
+            "y": 0
+          }
+        },
+        "module": "http:ActionSendData",
+        "parameters": {
+          "handleErrors": true,
+          "useNewZLibDeCompress": true
+        },
+        "version": 3
+      }
+    ],
+    "metadata": {
+      "designer": {
+        "orphans": []
+      },
+      "instant": false,
+      "scenario": {
+        "autoCommit": true,
+        "maxErrors": 1,
+        "sequential": true
+      },
+      "version": 1
+    },
+    "name": "HS Brief — Email Test"
+  },
+  "folderId": 247198,
+  "id": 6234838,
+  "isActive": true,
+  "name": "HS Brief — Email Test",
+  "scheduling": {
+    "type": "on-demand"
+  }
+}

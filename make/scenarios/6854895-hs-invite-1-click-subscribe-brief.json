@@ -1,0 +1,313 @@
+{
+  "blueprint": {
+    "flow": [
+      {
+        "id": 1,
+        "metadata": {
+          "designer": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        "module": "gateway:CustomWebHook",
+        "parameters": {
+          "hook": 3008026,
+          "maxResults": 1
+        },
+        "version": 1
+      },
+      {
+        "id": 11,
+        "mapper": {
+          "name": "f",
+          "scope": "roundtrip",
+          "value": "RECORD_ID()='{{replace(1.t; \"/[^A-Za-z0-9]/g\"; \"\")}}'"
+        },
+        "metadata": {
+          "designer": {
+            "x": 150,
+            "y": 0
+          }
+        },
+        "module": "util:SetVariable2",
+        "version": 1
+      },
+      {
+        "id": 2,
+        "mapper": {
+          "headers": [],
+          "method": "GET",
+          "qs": [],
+          "url": "v0/appjkRayvA0YEjczd/tblkavHlNJYZOQgx4?maxRecords=1&filterByFormula={{encodeURL(11.f)}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 300,
+            "y": 0
+          }
+        },
+        "module": "airtable:makeApiCall",
+        "parameters": {
+          "__IMTCONN__": 9132003
+        },
+        "version": 3
+      },
+      {
+        "id": 3,
+        "metadata": {
+          "designer": {
+            "x": 600,
+            "y": 0
+          }
+        },
+        "module": "builtin:BasicRouter",
+        "routes": [
+          {
+            "flow": [
+              {
+                "filter": {
+                  "conditions": [
+                    [
+                      {
+                        "a": "{{length(2.body.records)}}",
+                        "b": "0",
+                        "o": "number:greater"
+                      },
+                      {
+                        "a": "{{get(2.body.records; \"1.fields.Status\")}}",
+                        "b": "Subscribed",
+                        "o": "text:notequal"
+                      }
+                    ]
+                  ],
+                  "name": "Valid token, first click"
+                },
+                "id": 4,
+                "mapper": {
+                  "attributes": {
+                    "EMPRESA": "{{get(2.body.records; \"1.fields.Organization\")}}",
+                    "NOMBRE": "{{get(2.body.records; \"1.fields.First_Name\")}}",
+                    "PAIS": "{{get(2.body.records; \"1.fields.Country\")}}"
+                  },
+                  "email": "{{get(2.body.records; \"1.fields.Email\")}}",
+                  "listIds": [
+                    5
+                  ],
+                  "updateEnabled": true
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 900,
+                    "y": -200
+                  }
+                },
+                "module": "sendinblue:CreateContact",
+                "parameters": {
+                  "__IMTCONN__": 11417335
+                },
+                "version": 2
+              },
+              {
+                "id": 5,
+                "mapper": {
+                  "body": "{\"typecast\":true,\"records\":[{\"fields\":{\"Email\":\"{{get(2.body.records; \"1.fields.Email\")}}\",\"Name\":\"{{get(2.body.records; \"1.fields.Name\")}}\",\"Subscribe Date\":\"{{formatDate(now; \"YYYY-MM-DD\")}}\",\"Source\":\"Invite\",\"Status\":\"Active\",\"CTA Source\":\"invite-{{get(2.body.records; \"1.fields.Segment\")}}\",\"Consent At\":\"{{formatDate(now; \"YYYY-MM-DDTHH:mm:ssZ\")}}\",\"Consent Text\":\"Clicked Subscribe in personal invitation email from editor@healthsignals.news (invite-2026-11 v1)\",\"Country\":\"{{get(2.body.records; \"1.fields.Country\")}}\"}}]}",
+                  "headers": [
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    }
+                  ],
+                  "method": "POST",
+                  "qs": [],
+                  "url": "v0/appjkRayvA0YEjczd/tble1o8yKXjqOCwam"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 1200,
+                    "y": -200
+                  }
+                },
+                "module": "airtable:makeApiCall",
+                "parameters": {
+                  "__IMTCONN__": 9132003
+                },
+                "version": 3
+              },
+              {
+                "id": 6,
+                "mapper": {
+                  "body": "{\"typecast\":true,\"fields\":{\"Status\":\"Subscribed\",\"Clicked_At\":\"{{formatDate(now; \"YYYY-MM-DDTHH:mm:ssZ\")}}\"}}",
+                  "headers": [
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    }
+                  ],
+                  "method": "PATCH",
+                  "qs": [],
+                  "url": "v0/appjkRayvA0YEjczd/tblkavHlNJYZOQgx4/{{get(2.body.records; \"1.id\")}}"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 1500,
+                    "y": -200
+                  }
+                },
+                "module": "airtable:makeApiCall",
+                "parameters": {
+                  "__IMTCONN__": 9132003
+                },
+                "version": 3
+              },
+              {
+                "id": 7,
+                "mapper": {
+                  "body": "{\"templateId\":15,\"to\":[{\"email\":\"{{get(2.body.records; \"1.fields.Email\")}}\"}],\"params\":{\"NAME\":\"{{get(2.body.records; \"1.fields.First_Name\")}}\"}}",
+                  "headers": [
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    }
+                  ],
+                  "method": "POST",
+                  "url": "/v3/smtp/email"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 1800,
+                    "y": -200
+                  }
+                },
+                "module": "sendinblue:MakeAPICall",
+                "parameters": {
+                  "__IMTCONN__": 11417335
+                },
+                "version": 2
+              },
+              {
+                "id": 8,
+                "mapper": {
+                  "body": "",
+                  "headers": [
+                    {
+                      "key": "Location",
+                      "value": "https://healthsignals.news/welcome-to-the-brief/"
+                    }
+                  ],
+                  "status": "302"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 2100,
+                    "y": -200
+                  }
+                },
+                "module": "gateway:WebhookRespond",
+                "version": 1
+              }
+            ]
+          },
+          {
+            "flow": [
+              {
+                "filter": {
+                  "conditions": [
+                    [
+                      {
+                        "a": "{{length(2.body.records)}}",
+                        "b": "0",
+                        "o": "number:greater"
+                      },
+                      {
+                        "a": "{{get(2.body.records; \"1.fields.Status\")}}",
+                        "b": "Subscribed",
+                        "o": "text:equal"
+                      }
+                    ]
+                  ],
+                  "name": "Valid token, already subscribed"
+                },
+                "id": 9,
+                "mapper": {
+                  "body": "",
+                  "headers": [
+                    {
+                      "key": "Location",
+                      "value": "https://healthsignals.news/welcome-to-the-brief/"
+                    }
+                  ],
+                  "status": "302"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 900,
+                    "y": 0
+                  }
+                },
+                "module": "gateway:WebhookRespond",
+                "version": 1
+              }
+            ]
+          },
+          {
+            "flow": [
+              {
+                "filter": {
+                  "conditions": [
+                    [
+                      {
+                        "a": "{{length(2.body.records)}}",
+                        "b": "0",
+                        "o": "number:equal"
+                      }
+                    ]
+                  ],
+                  "name": "Unknown token"
+                },
+                "id": 10,
+                "mapper": {
+                  "body": "",
+                  "headers": [
+                    {
+                      "key": "Location",
+                      "value": "https://healthsignals.news/newsletter/?utm_source=invite&utm_medium=email&utm_campaign=invite-2026-11"
+                    }
+                  ],
+                  "status": "302"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 900,
+                    "y": 200
+                  }
+                },
+                "module": "gateway:WebhookRespond",
+                "version": 1
+              }
+            ]
+          }
+        ],
+        "version": 1
+      }
+    ],
+    "metadata": {
+      "instant": true,
+      "scenario": {
+        "autoCommit": true,
+        "dlq": true,
+        "maxErrors": 3,
+        "roundtrips": 1,
+        "sequential": false
+      },
+      "version": 1
+    },
+    "name": "HS Invite 1-click subscribe (Brief)"
+  },
+  "folderId": 247198,
+  "id": 6854895,
+  "isActive": true,
+  "name": "HS Invite 1-click subscribe (Brief)",
+  "scheduling": {
+    "type": "immediately"
+  }
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "datastructureId": null,
+    "id": 103109,
+    "maxSize": "1048576",
+    "name": "ClaudeMonitor_HistoricalMetrics",
+    "records": 19,
+    "size": "18399"
+  },
+  {
+    "datastructureId": null,
+    "id": 148747,
+    "maxSize": "1048576",
+    "name": "HS Event Dedup",
+    "records": 392,
+    "size": "90264"
+  },
+  {
+    "datastructureId": null,
+    "id": 161375,
+    "maxSize": "1048576",
+    "name": "HS gate state (capa 2)",
+    "records": 50,
+    "size": "67128"
+  },
+  {
+    "datastructureId": null,
+    "id": 128466,
+    "maxSize": "5242880",
+    "name": "HS LinkedIn Contacts Import",
+    "records": 3,
+    "size": "161"
+  },
+  {
+    "datastructureId": null,
+    "id": 164495,
+    "maxSize": "1048576",
+    "name": "HS LinkedIn shared posts",
+    "records": 1,
+    "size": "213"
+  },
+  {
+    "datastructureId": null,
+    "id": 148918,
+    "maxSize": "1048576",
+    "name": "HS Queue Snapshot",
+    "records": 109,
+    "size": "47648"
+  },
+  {
+    "datastructureId": null,
+    "id": 187494,
+    "maxSize": "1048576",
+    "name": "HS row lookup (ad-hoc)",
+    "records": 1,
+    "size": "269"
+  },
+  {
+    "datastructureId": null,
+    "id": 162492,
+    "maxSize": "1048576",
+    "name": "HS Voices Rules",
+    "records": 2,
+    "size": "23895"
+  },
+  {
+    "datastructureId": null,
+    "id": 124602,
+    "maxSize": "5242880",
+    "name": "sec_ticker_cache",
+    "records": 52,
+    "size": "18755"
+  },
+  {
+    "datastructureId": null,
+    "id": 128118,
+    "maxSize": "1048576",
+    "name": "X OAuth - HealthSignals",
+    "records": 1,
+    "size": "398"
+  }
+]

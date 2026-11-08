@@ -1,0 +1,146 @@
+[
+  {
+    "accountLabel": "Brevo",
+    "accountName": "sendinblue2",
+    "accountType": "basic",
+    "expire": null,
+    "id": 11417335,
+    "name": "Fernando's Brevo connection",
+    "scoped": true
+  },
+  {
+    "accountLabel": "Google Search Console",
+    "accountName": "google-search-console",
+    "accountType": "oauth",
+    "expire": null,
+    "id": 11075018,
+    "name": "Fernando's Google Search Console connection",
+    "scoped": true
+  },
+  {
+    "accountLabel": "Google Drive",
+    "accountName": "google-drive",
+    "accountType": "oauth",
+    "expire": "2027-04-18T22:17:05.257Z",
+    "id": 11340939,
+    "name": "Google Drive editor@ (full)",
+    "scoped": true
+  },
+  {
+    "accountLabel": "LinkedIn",
+    "accountName": "linkedin2",
+    "accountType": "oauth",
+    "expire": "2027-05-24T00:18:43.121Z",
+    "id": 9040242,
+    "name": "LinkedIn - HealthSignals Company Page",
+    "scoped": true
+  },
+  {
+    "accountLabel": "Airtable Token or Key",
+    "accountName": "airtable2",
+    "accountType": "basic",
+    "expire": null,
+    "id": 9132003,
+    "name": "My Airtable Token or Key connection",
+    "scoped": true
+  },
+  {
+    "accountLabel": "Anthropic Claude",
+    "accountName": "anthropic-claude",
+    "accountType": "basic",
+    "expire": null,
+    "id": 8922808,
+    "name": "My Anthropic Claude connection",
+    "scoped": true
+  },
+  {
+    "accountLabel": "Anthropic Claude",
+    "accountName": "anthropic-claude",
+    "accountType": "basic",
+    "expire": null,
+    "id": 8923111,
+    "name": "My Anthropic Claude connection",
+    "scoped": true
+  },
+  {
+    "accountLabel": "Exa",
+    "accountName": "exa-ai",
+    "accountType": "basic",
+    "expire": null,
+    "id": 8984010,
+    "name": "My Exa connection",
+    "scoped": true
+  },
+  {
+    "accountLabel": "Google",
+    "accountName": "google",
+    "accountType": "oauth",
+    "expire": null,
+    "id": 8923977,
+    "name": "My Google connection",
+    "scoped": true
+  },
+  {
+    "accountLabel": "Google Restricted",
+    "accountName": "google-restricted",
+    "accountType": "oauth",
+    "expire": "2027-04-21T20:35:39.008Z",
+    "id": 8455399,
+    "name": "My Google Restricted connection",
+    "scoped": true
+  },
+  {
+    "accountLabel": "LinkedIn",
+    "accountName": "linkedin2",
+    "accountType": "oauth",
+    "expire": "2027-05-22T18:42:11.014Z",
+    "id": 8921875,
+    "name": "My LinkedIn connection",
+    "scoped": true
+  },
+  {
+    "accountLabel": "OpenAI",
+    "accountName": "openai-gpt-3",
+    "accountType": "basic",
+    "expire": null,
+    "id": 8943313,
+    "name": "My OpenAI connection",
+    "scoped": true
+  },
+  {
+    "accountLabel": "OpenAI",
+    "accountName": "openai-gpt-3",
+    "accountType": "basic",
+    "expire": null,
+    "id": 8944176,
+    "name": "My OpenAI connection",
+    "scoped": true
+  },
+  {
+    "accountLabel": "Todoist",
+    "accountName": "todoist3",
+    "accountType": "oauth",
+    "expire": null,
+    "id": 8981470,
+    "name": "My Todoist connection",
+    "scoped": true
+  },
+  {
+    "accountLabel": "WordPress",
+    "accountName": "wordpress4",
+    "accountType": "basic",
+    "expire": null,
+    "id": 8921729,
+    "name": "My WordPress connection",
+    "scoped": true
+  },
+  {
+    "accountLabel": "Resend",
+    "accountName": "resend",
+    "accountType": "basic",
+    "expire": null,
+    "id": 9533217,
+    "name": "Resend HealthSignals",
+    "scoped": true
+  }
+]

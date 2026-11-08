@@ -1,0 +1,100 @@
+{
+  "blueprint": {
+    "flow": [
+      {
+        "id": 1,
+        "mapper": {
+          "base": "appjkRayvA0YEjczd",
+          "formula": "AND({Status}='Approved to Send', {Channel}='Email')",
+          "maxRecords": 5,
+          "table": "tbltaI1bftnXdfzME"
+        },
+        "metadata": {
+          "designer": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        "module": "airtable:ActionSearchRecords",
+        "parameters": {
+          "__IMTCONN__": 9132003
+        },
+        "version": 3
+      },
+      {
+        "id": 2,
+        "mapper": {
+          "from": "Fernando Pafumi <editor@healthsignals.news>",
+          "sendEmailAs": "text",
+          "subject": "{{1.Subject}}",
+          "text": "{{1.Body}}",
+          "to": [
+            "{{1.To_Email}}"
+          ]
+        },
+        "metadata": {
+          "designer": {
+            "x": 300,
+            "y": 0
+          }
+        },
+        "module": "resend:sendAnEmail",
+        "parameters": {
+          "__IMTCONN__": 9533217
+        },
+        "version": 1
+      },
+      {
+        "id": 3,
+        "mapper": {
+          "body": "{\"typecast\":true,\"fields\":{\"Status\":\"Sent\",\"Sent_At\":\"{{formatDate(now; \"YYYY-MM-DDTHH:mm:ssZ\")}}\",\"Make_Run_ID\":\"{{2.id}}\"}}",
+          "headers": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "method": "PATCH",
+          "qs": [],
+          "url": "v0/appjkRayvA0YEjczd/tbltaI1bftnXdfzME/{{1.id}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 600,
+            "y": 0
+          }
+        },
+        "module": "airtable:makeApiCall",
+        "parameters": {
+          "__IMTCONN__": 9132003
+        },
+        "version": 3
+      }
+    ],
+    "metadata": {
+      "designer": {
+        "orphans": []
+      },
+      "instant": false,
+      "scenario": {
+        "autoCommit": true,
+        "confidential": false,
+        "dataloss": false,
+        "dlq": false,
+        "freshVariables": false,
+        "maxErrors": 3,
+        "roundtrips": 1,
+        "sequential": true
+      },
+      "version": 1
+    },
+    "name": "HS Outreach B - Sender"
+  },
+  "folderId": 268063,
+  "id": 5453401,
+  "isActive": true,
+  "name": "HS Outreach B - Sender",
+  "scheduling": {
+    "type": "on-demand"
+  }
+}

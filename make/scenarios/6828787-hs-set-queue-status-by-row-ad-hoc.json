@@ -1,0 +1,71 @@
+{
+  "blueprint": {
+    "flow": [
+      {
+        "id": 1,
+        "mapper": {
+          "destinationSpreadsheetId": "1J8ca4Pvp3HTSdHqq9-TZ1H-nF6_fM5R3Jm1bf9bAU8A",
+          "newSheetName": "Archivo 2026-10-31",
+          "select": "map",
+          "sheetId": "1265602243",
+          "spreadsheetId": "1J8ca4Pvp3HTSdHqq9-TZ1H-nF6_fM5R3Jm1bf9bAU8A"
+        },
+        "metadata": {
+          "designer": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        "module": "google-sheets:copyASheet",
+        "parameters": {
+          "__IMTCONN__": 8923977
+        },
+        "version": 2
+      },
+      {
+        "id": 4,
+        "mapper": {
+          "data": {
+            "category": "",
+            "country": "",
+            "error": "",
+            "headline": "",
+            "li_post_len": "0",
+            "linkedin_url": "",
+            "post_id": "",
+            "priority": "",
+            "row": "",
+            "status": "",
+            "step": "copied: {{1.title}} | rows {{1.gridProperties.rowCount}} | sheetId {{1.sheetId}}",
+            "wp_url": ""
+          },
+          "key": "APPROVED",
+          "overwrite": true
+        },
+        "metadata": {
+          "designer": {
+            "x": 300,
+            "y": 0
+          }
+        },
+        "module": "datastore:AddRecord",
+        "parameters": {
+          "datastore": 187494
+        },
+        "version": 1
+      }
+    ],
+    "metadata": {
+      "instant": false,
+      "version": 1
+    },
+    "name": "HS - Set queue status by row (ad-hoc)"
+  },
+  "folderId": 247198,
+  "id": 6828787,
+  "isActive": true,
+  "name": "HS - Set queue status by row (ad-hoc)",
+  "scheduling": {
+    "type": "on-demand"
+  }
+}

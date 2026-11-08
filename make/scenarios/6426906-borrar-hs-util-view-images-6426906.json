@@ -1,0 +1,114 @@
+{
+  "blueprint": {
+    "flow": [
+      {
+        "id": 10,
+        "mapper": {
+          "name": "go",
+          "scope": "roundtrip",
+          "value": "https://i0.wp.com/healthsignals.news/wp-content/uploads/2026/09/hs-cover-20260928-120009.jpeg?w=600&ssl=1,https://i0.wp.com/healthsignals.news/wp-content/uploads/2026/09/hs-cover-20260928-120622.jpeg?w=600&ssl=1,https://i0.wp.com/healthsignals.news/wp-content/uploads/2026/09/hs-20260928-115648.png?w=600&ssl=1,https://i0.wp.com/healthsignals.news/wp-content/uploads/2026/09/hs-cover-20260928-133521.jpeg?w=600&ssl=1"
+        },
+        "metadata": {
+          "designer": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        "module": "util:SetVariable2",
+        "parameters": {},
+        "version": 1
+      },
+      {
+        "id": 1,
+        "mapper": {
+          "array": "{{split(10.go; \",\")}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 300,
+            "y": 0
+          }
+        },
+        "module": "builtin:BasicFeeder",
+        "parameters": {},
+        "version": 1
+      },
+      {
+        "id": 2,
+        "mapper": {
+          "followAllRedirects": true,
+          "followRedirect": true,
+          "gzip": true,
+          "method": "get",
+          "parseResponse": false,
+          "rejectUnauthorized": true,
+          "serializeUrl": false,
+          "shareCookies": false,
+          "timeout": 60,
+          "url": "{{1.value}}",
+          "useMtls": false,
+          "useQuerystring": false
+        },
+        "metadata": {
+          "designer": {
+            "x": 600,
+            "y": 0
+          }
+        },
+        "module": "http:ActionSendData",
+        "parameters": {
+          "handleErrors": true
+        },
+        "version": 3
+      },
+      {
+        "id": 3,
+        "mapper": {
+          "convert": false,
+          "data": "{{2.data}}",
+          "filename": "hs-view2-{{1.value}}.jpg",
+          "folderId": "131ApKeYrTpSsDSEcKKeboAIt6eodC-AH",
+          "select": "map"
+        },
+        "metadata": {
+          "designer": {
+            "x": 900,
+            "y": 0
+          }
+        },
+        "module": "google-drive:uploadAFile",
+        "parameters": {
+          "__IMTCONN__": 11340939
+        },
+        "version": 4
+      }
+    ],
+    "metadata": {
+      "designer": {
+        "orphans": []
+      },
+      "instant": false,
+      "scenario": {
+        "autoCommit": true,
+        "autoCommitTriggerLast": true,
+        "confidential": false,
+        "dataloss": false,
+        "dlq": false,
+        "freshVariables": false,
+        "maxErrors": 3,
+        "roundtrips": 1,
+        "sequential": true,
+        "slots": null
+      },
+      "version": 1
+    },
+    "name": "[BORRAR] HS UTIL view images 6426906"
+  },
+  "folderId": null,
+  "id": 6426906,
+  "isActive": false,
+  "name": "[BORRAR] HS UTIL view images 6426906",
+  "scheduling": {
+    "type": "on-demand"
+  }
+}

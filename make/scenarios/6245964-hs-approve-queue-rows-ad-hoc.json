@@ -1,0 +1,67 @@
+{
+  "blueprint": {
+    "flow": [
+      {
+        "id": 1,
+        "mapper": {
+          "from": "drive",
+          "includesHeaders": true,
+          "mode": "select",
+          "rowNumber": "469",
+          "sheetId": "Editorial Queue",
+          "spreadsheetId": "1J8ca4Pvp3HTSdHqq9-TZ1H-nF6_fM5R3Jm1bf9bAU8A",
+          "useColumnHeaders": true,
+          "valueInputOption": "RAW",
+          "values": {
+            "Approved By": "Fer (chat 02-11)",
+            "Current Step": "approved Fer chat 02-11 (test prompt v16.2; prev v16.1 draft = WP 36862)",
+            "Status": "approved"
+          }
+        },
+        "metadata": {
+          "designer": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        "module": "google-sheets:updateRow",
+        "parameters": {
+          "__IMTCONN__": 8923977
+        },
+        "version": 2
+      },
+      {
+        "id": 2,
+        "mapper": {
+          "cell": "W469",
+          "select": "map",
+          "sheetId": "Editorial Queue",
+          "spreadsheetId": "1J8ca4Pvp3HTSdHqq9-TZ1H-nF6_fM5R3Jm1bf9bAU8A"
+        },
+        "metadata": {
+          "designer": {
+            "x": 300,
+            "y": 0
+          }
+        },
+        "module": "google-sheets:clearCell",
+        "parameters": {
+          "__IMTCONN__": 8923977
+        },
+        "version": 2
+      }
+    ],
+    "metadata": {
+      "instant": false,
+      "version": 1
+    },
+    "name": "HS - Approve queue rows (ad-hoc)"
+  },
+  "folderId": 247198,
+  "id": 6245964,
+  "isActive": true,
+  "name": "HS - Approve queue rows (ad-hoc)",
+  "scheduling": {
+    "type": "on-demand"
+  }
+}

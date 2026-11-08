@@ -1,0 +1,134 @@
+{
+  "blueprint": {
+    "flow": [
+      {
+        "id": 1,
+        "mapper": {
+          "base": "appjkRayvA0YEjczd",
+          "formula": "AND({Approval}='Approved', NOT({Opt_Out}), OR({Stage}='New', {Stage}='Researching'))",
+          "maxRecords": 5,
+          "table": "tblalG4gDQFhUYC0D"
+        },
+        "metadata": {
+          "designer": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        "module": "airtable:ActionSearchRecords",
+        "parameters": {
+          "__IMTCONN__": 9132003
+        },
+        "version": 3
+      },
+      {
+        "id": 2,
+        "mapper": {
+          "max_tokens": "1000",
+          "model": "claude-sonnet-4-6",
+          "textPrompt": "Sos el equipo comercial de HealthSignals, inteligencia editorial de healthcare LATAM. Escribi un email de primer contacto en espanol, tono Bloomberg/FT (directo, sin hype), 5-8 lineas, para:\nNombre: {{1.Name}}\nEmpresa: {{1.Company}}\nCargo objetivo: {{1.Title}}\nSegmento: {{1.Segment}}\nPais/Region: {{1.Country}}\n\nReglas: 1 sola idea relevante a su segmento; ofrece una call de 15 min o un brief sin costo; cerra con opcion de baja (Responde 'baja' y no escribo mas). Firma como 'Fernando Pafumi - Editor, HealthSignals'. Devolve SOLO el cuerpo del email en texto plano, sin asunto, sin comillas dobles."
+        },
+        "metadata": {
+          "advanced": true,
+          "designer": {
+            "x": 300,
+            "y": 0
+          },
+          "expect": [
+            {
+              "label": "Model",
+              "name": "model",
+              "required": true,
+              "type": "select"
+            },
+            {
+              "label": "Text Prompt",
+              "name": "textPrompt",
+              "required": true,
+              "type": "text"
+            },
+            {
+              "label": "Max Tokens",
+              "name": "max_tokens",
+              "required": true,
+              "type": "uinteger"
+            }
+          ]
+        },
+        "module": "anthropic-claude:simpleTextPrompt",
+        "parameters": {
+          "__IMTCONN__": 8922808
+        },
+        "version": 1
+      },
+      {
+        "id": 5,
+        "mapper": {
+          "name": "email_clean",
+          "scope": "roundtrip",
+          "value": "{{replace(2.result; newline; \" \")}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 450,
+            "y": 0
+          }
+        },
+        "module": "util:SetVariable2",
+        "parameters": {},
+        "version": 1
+      },
+      {
+        "id": 3,
+        "mapper": {
+          "body": "{\"typecast\":true,\"fields\":{\"Summary\":\"Touch 1 - {{1.Name}}\",\"Channel\":\"Email\",\"Direction\":\"Outbound\",\"Status\":\"Draft\",\"Sequence_Step\":1,\"Subject\":\"HealthSignals para {{1.Company}}\",\"Body\":\"{{5.email_clean}}\",\"To_Email\":\"{{1.Email}}\",\"Prospect\":[\"{{1.id}}\"]}}",
+          "headers": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "method": "POST",
+          "qs": [],
+          "url": "v0/appjkRayvA0YEjczd/tbltaI1bftnXdfzME"
+        },
+        "metadata": {
+          "designer": {
+            "x": 600,
+            "y": 0
+          }
+        },
+        "module": "airtable:makeApiCall",
+        "parameters": {
+          "__IMTCONN__": 9132003
+        },
+        "version": 3
+      }
+    ],
+    "metadata": {
+      "designer": {
+        "orphans": []
+      },
+      "instant": false,
+      "scenario": {
+        "autoCommit": true,
+        "confidential": false,
+        "dataloss": false,
+        "dlq": false,
+        "freshVariables": false,
+        "maxErrors": 3,
+        "roundtrips": 1,
+        "sequential": true
+      },
+      "version": 1
+    },
+    "name": "HS Outreach A - Draft Generator"
+  },
+  "folderId": 268063,
+  "id": 5453337,
+  "isActive": true,
+  "name": "HS Outreach A - Draft Generator",
+  "scheduling": {
+    "type": "on-demand"
+  }
+}

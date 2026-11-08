@@ -1,0 +1,75 @@
+{
+  "blueprint": {
+    "flow": [
+      {
+        "id": 1,
+        "mapper": {
+          "max_tokens": "1200",
+          "model": "claude-sonnet-4-6",
+          "textPrompt": "Sos el estratega editorial de HealthSignals, medio de inteligencia pharma/healthcare para America Latina. Propone 3 temas para el proximo special report. Prioriza areas terapeuticas de alto gasto pharma y relevancia LATAM (oncologia, diabetes/obesidad, cardiometabolico, salud mental, vacunas, enfermedades raras, acceso/policy). Evita repetir diabetes salvo un angulo nuevo. Para cada tema: angulo editorial concreto, rationale (por que ahora), y por que le importaria a un sponsor.\n\nREGLAS DE FORMATO ESTRICTAS:\n- Devolve UNICAMENTE JSON crudo, empezando con { y terminando con }.\n- Todo en UNA SOLA LINEA, sin saltos de linea dentro del JSON.\n- No uses comillas dobles dentro de los valores; si necesitas comillas usa simples.\n- No uses bloques de codigo ni ```.\n\nFormato exacto:\n{\"records\":[{\"fields\":{\"Topic\":\"texto\",\"Angle\":\"texto\",\"Rationale\":\"texto\",\"Sponsor_Fit\":\"texto\",\"Status\":\"Proposed\",\"Priority\":\"Media\",\"Proposed_By\":\"Claude\"}},{\"fields\":{\"Topic\":\"texto\",\"Angle\":\"texto\",\"Rationale\":\"texto\",\"Sponsor_Fit\":\"texto\",\"Status\":\"Proposed\",\"Priority\":\"Media\",\"Proposed_By\":\"Claude\"}},{\"fields\":{\"Topic\":\"texto\",\"Angle\":\"texto\",\"Rationale\":\"texto\",\"Sponsor_Fit\":\"texto\",\"Status\":\"Proposed\",\"Priority\":\"Media\",\"Proposed_By\":\"Claude\"}}],\"typecast\":true}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        "module": "anthropic-claude:simpleTextPrompt",
+        "parameters": {
+          "__IMTCONN__": 8922808
+        },
+        "version": 1
+      },
+      {
+        "id": 2,
+        "mapper": {
+          "body": "{{trim(replace(replace(1.result; \"```json\"; emptystring); \"```\"; emptystring))}}",
+          "headers": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "method": "POST",
+          "qs": [],
+          "url": "v0/appjkRayvA0YEjczd/tblzZPvN5MofHncKH"
+        },
+        "metadata": {
+          "designer": {
+            "x": 300,
+            "y": 0
+          }
+        },
+        "module": "airtable:makeApiCall",
+        "parameters": {
+          "__IMTCONN__": 9132003
+        },
+        "version": 3
+      }
+    ],
+    "metadata": {
+      "designer": {
+        "orphans": []
+      },
+      "instant": false,
+      "scenario": {
+        "autoCommit": true,
+        "confidential": false,
+        "dataloss": false,
+        "dlq": false,
+        "maxErrors": 3,
+        "roundtrips": 1,
+        "sequential": false
+      },
+      "version": 1
+    },
+    "name": "HS Report — Proposer"
+  },
+  "folderId": 268067,
+  "id": 5699954,
+  "isActive": true,
+  "name": "HS Report — Proposer",
+  "scheduling": {
+    "type": "on-demand"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "blueprint": {
+    "flow": [
+      {
+        "id": 1,
+        "mapper": {
+          "filter": [
+            [
+              {
+                "a": "title",
+                "b": "REPORT",
+                "o": "text:equal"
+              },
+              {
+                "a": "run_id",
+                "b": "{{formatDate(now; \"YYYYMMDD\"; \"America/New_York\")}}",
+                "o": "text:startwith"
+              },
+              {
+                "a": "state",
+                "b": "passed",
+                "o": "text:equal"
+              }
+            ]
+          ]
+        },
+        "metadata": {
+          "designer": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        "module": "datastore:SearchRecord",
+        "parameters": {
+          "continueWhenNoRes": true,
+          "datastore": 161375,
+          "limit": 1
+        },
+        "version": 1
+      },
+      {
+        "filter": {
+          "conditions": [
+            [
+              {
+                "a": "{{1.key}}",
+                "o": "notexist"
+              }
+            ]
+          ],
+          "name": "no hubo reporte terminado hoy"
+        },
+        "id": 2,
+        "mapper": {
+          "from": "HealthSignals Alertas <editor@healthsignals.news>",
+          "sendEmailAs": "text",
+          "subject": "ALERTA: el gate diario de borradores no termino hoy ({{formatDate(now; \"YYYY-MM-DD\"; \"America/New_York\")}})",
+          "text": "A las 9:00 de Miami no hay un reporte terminado del gate diario de borradores (scheduled task 'HS gate borradores', 6:58 AM).\n\nPosibles causas: la corrida no arranco, se corto a mitad de camino, o no pudo escribir en Make.\n\nQue hacer: abri Claude y deci 'revisa el gate de hoy'. Mientras tanto, no publiques borradores nuevos sin pasar el gate.\n\nEste mail lo manda el scenario de Make 'HS gate vigilante (capa 2)' (6461147).",
+          "to": [
+            "fernandopafumi@gmail.com"
+          ]
+        },
+        "metadata": {
+          "designer": {
+            "x": 300,
+            "y": 0
+          }
+        },
+        "module": "resend:sendAnEmail",
+        "parameters": {
+          "__IMTCONN__": 9533217
+        },
+        "version": 1
+      }
+    ],
+    "metadata": {
+      "instant": false,
+      "scenario": {
+        "autoCommit": true,
+        "confidential": false,
+        "dataloss": false,
+        "dlq": false,
+        "maxErrors": 3,
+        "roundtrips": 1,
+        "sequential": false
+      },
+      "version": 1
+    },
+    "name": "HS gate vigilante (capa 2)"
+  },
+  "folderId": 247198,
+  "id": 6461147,
+  "isActive": true,
+  "name": "HS gate vigilante (capa 2)",
+  "scheduling": {
+    "time": "09:00",
+    "type": "daily"
+  }
+}

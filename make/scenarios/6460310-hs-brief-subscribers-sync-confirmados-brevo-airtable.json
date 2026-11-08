@@ -1,0 +1,160 @@
+{
+  "blueprint": {
+    "flow": [
+      {
+        "id": 1,
+        "mapper": {
+          "headers": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "method": "GET",
+          "qs": [
+            {
+              "key": "limit",
+              "value": "500"
+            },
+            {
+              "key": "modifiedSince",
+              "value": "{{formatDate(addDays(now; -2); \"YYYY-MM-DDTHH:mm:ss.SSSZ\")}}"
+            }
+          ],
+          "url": "/v3/contacts/lists/5/contacts"
+        },
+        "metadata": {
+          "designer": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        "module": "sendinblue:MakeAPICall",
+        "parameters": {
+          "__IMTCONN__": 11417335
+        },
+        "version": 2
+      },
+      {
+        "id": 2,
+        "mapper": {
+          "array": "{{1.body.contacts}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 300,
+            "y": 0
+          }
+        },
+        "module": "builtin:BasicFeeder",
+        "parameters": {},
+        "version": 1
+      },
+      {
+        "id": 3,
+        "mapper": {
+          "headers": [],
+          "method": "GET",
+          "qs": [],
+          "url": "v0/appjkRayvA0YEjczd/tble1o8yKXjqOCwam?maxRecords=1&fields%5B%5D=Email&filterByFormula={{encodeURL(\"AND(LOWER({Email})='\" + lower(2.email) + \"',{Status}='Pending')\")}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 600,
+            "y": 0
+          }
+        },
+        "module": "airtable:makeApiCall",
+        "onerror": [
+          {
+            "id": 5,
+            "metadata": {
+              "designer": {
+                "x": 600,
+                "y": 200
+              }
+            },
+            "module": "builtin:Ignore",
+            "version": 1
+          }
+        ],
+        "parameters": {
+          "__IMTCONN__": 9132003
+        },
+        "version": 3
+      },
+      {
+        "filter": {
+          "conditions": [
+            [
+              {
+                "a": "{{length(3.body.records)}}",
+                "b": "0",
+                "o": "number:greater"
+              }
+            ]
+          ],
+          "name": "Estaba en Pending"
+        },
+        "id": 4,
+        "mapper": {
+          "body": "{\"fields\":{\"Status\":\"Active\"}}",
+          "headers": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "method": "PATCH",
+          "qs": [],
+          "url": "v0/appjkRayvA0YEjczd/tble1o8yKXjqOCwam/{{3.body.records[1].id}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 900,
+            "y": 0
+          }
+        },
+        "module": "airtable:makeApiCall",
+        "onerror": [
+          {
+            "id": 6,
+            "metadata": {
+              "designer": {
+                "x": 900,
+                "y": 200
+              }
+            },
+            "module": "builtin:Ignore",
+            "version": 1
+          }
+        ],
+        "parameters": {
+          "__IMTCONN__": 9132003
+        },
+        "version": 3
+      }
+    ],
+    "metadata": {
+      "designer": {
+        "orphans": []
+      },
+      "instant": false,
+      "scenario": {
+        "autoCommit": true,
+        "maxErrors": 3,
+        "sequential": false
+      },
+      "version": 1
+    },
+    "name": "HS Brief Subscribers — Sync confirmados (Brevo → Airtable)"
+  },
+  "folderId": 247198,
+  "id": 6460310,
+  "isActive": true,
+  "name": "HS Brief Subscribers — Sync confirmados (Brevo → Airtable)",
+  "scheduling": {
+    "interval": 21600,
+    "type": "indefinitely"
+  }
+}

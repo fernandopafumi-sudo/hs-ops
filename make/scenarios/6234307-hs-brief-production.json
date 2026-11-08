@@ -1,0 +1,347 @@
+{
+  "blueprint": {
+    "flow": [
+      {
+        "id": 1,
+        "mapper": {
+          "authPass": "",
+          "authUser": "",
+          "bodyType": "",
+          "ca": "",
+          "followAllRedirects": true,
+          "followRedirect": true,
+          "gzip": true,
+          "headers": [
+            {
+              "name": "User-Agent",
+              "value": "HealthSignalsBot/1.0"
+            }
+          ],
+          "method": "get",
+          "parseResponse": true,
+          "qs": [],
+          "rejectUnauthorized": true,
+          "serializeUrl": false,
+          "shareCookies": false,
+          "timeout": "",
+          "url": "https://healthsignals.news/wp-json/wp/v2/posts?per_page=100&orderby=date&order=desc&after={{formatDate(addDays(now; -10); \"YYYY-MM-DDTHH:mm:ss\")}}&_fields=id,link,title,excerpt,categories,tags,date",
+          "useMtls": false,
+          "useQuerystring": false
+        },
+        "metadata": {
+          "designer": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        "module": "http:ActionSendData",
+        "parameters": {
+          "handleErrors": false,
+          "useNewZLibDeCompress": true
+        },
+        "version": 3
+      },
+      {
+        "filter": {
+          "conditions": [
+            [
+              {
+                "a": "{{length(1.data)}}",
+                "b": "15",
+                "o": "number:greaterorequal"
+              },
+              {
+                "a": ",{{join(flatten(map(1.data; \"tags\")); \",,\")}},",
+                "b": ",789169925,",
+                "o": "text:contain"
+              },
+              {
+                "a": ",{{join(flatten(map(1.data; \"tags\")); \",,\")}},",
+                "b": ",783,",
+                "o": "text:contain"
+              },
+              {
+                "a": ",{{join(flatten(map(1.data; \"tags\")); \",,\")}},",
+                "b": ",18939,",
+                "o": "text:contain"
+              },
+              {
+                "a": ",{{join(flatten(map(1.data; \"tags\")); \",,\")}},",
+                "b": ",789169974,",
+                "o": "text:contain"
+              },
+              {
+                "a": ",{{join(flatten(map(1.data; \"tags\")); \",,\")}},",
+                "b": ",789169975,",
+                "o": "text:contain"
+              },
+              {
+                "a": ",{{join(flatten(map(1.data; \"tags\")); \",,\")}},",
+                "b": ",789170143,",
+                "o": "text:contain"
+              },
+              {
+                "a": "{{length(split(join(flatten(map(1.data; \"tags\")); \",,\"); \"789169976\")) - 1}}",
+                "b": "3",
+                "o": "number:greaterorequal"
+              }
+            ]
+          ],
+          "name": "Min 15 articulos 10 dias + 1 c/u BR MX AR CO CL PE + 3 US"
+        },
+        "id": 2,
+        "mapper": {
+          "array": "{{1.data}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 300,
+            "y": 0
+          }
+        },
+        "module": "builtin:BasicFeeder",
+        "parameters": {},
+        "version": 1
+      },
+      {
+        "id": 3,
+        "mapper": {
+          "value": "- {{2.title.rendered}} | {{2.link}} | cats:{{join(2.categories; \",\")}} | tags:{{join(2.tags; \",\")}} | published:{{2.date}} | {{2.excerpt.rendered}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 600,
+            "y": 0
+          }
+        },
+        "module": "util:TextAggregator",
+        "parameters": {
+          "feeder": 2,
+          "otherRowSeparator": "\n",
+          "rowSeparator": "other"
+        },
+        "version": 1
+      },
+      {
+        "id": 4,
+        "mapper": {
+          "max_tokens": 10000,
+          "model": "claude-sonnet-4-6",
+          "textPrompt": "You are the editor of The HealthSignals Brief, a fortnightly pharma & healthcare intelligence brief for Latin America and the US, in a Bloomberg/FT register. From the published articles below (each line: title | url | cats:categoryIDs | published:date | excerpt) produce ONE valid JSON object and NOTHING else.\n\nGROUNDING RULES (non-negotiable):\n- Use ONLY facts, names, figures, dates and countries that appear in the titles and excerpts below. Add NOTHING from outside knowledge.\n- Never invent a figure, event, decision, deadline or url. If something is not in the excerpts, leave it out.\n- Keep the article's exact verbs and qualifiers: 'agreed to acquire' is not 'closed'; 'review' is not 'cut'; 'preventively suspended' is not 'shut down' or 'closed'; 'said it would question' is not 'challenged' or 'sued'; keep 'up to', 'estimated', 'about'. Do not upgrade a claim.\n- Market sizes, forecasts and valuations: attribute them to whoever estimated them (e.g. 'which mAbxience estimates at $5.7 billion'). Never state them as fact.\n- Do not count continents, countries or regulators unless the excerpts list them; prefer 'across the Americas and Europe'-style wording that the list supports.\n- DATES: if the excerpt dates the event earlier than the article's published date, state that date (e.g. 'on May 4', 'since March'). Never present an older event as news of this fortnight.\n- NOT YET IN FORCE: for rules, pathways, targets or deadlines that start later, say when and use 'commits to' or 'is scheduled to', never 'must'. Trials that are scheduled have not enrolled patients.\n- LEGAL PROCEEDINGS and regulatory sanctions against named people or companies: state the stage exactly as the excerpt gives it (preventive, first-instance, may appeal, no conviction). Never imply guilt.\n- No medical advice, no treatment recommendations, and no efficacy or safety claims beyond what an excerpt states. Keep medical qualifiers: indicated population, line of therapy, 'label update' vs new approval, 'disease-modifying', 'first-in-class as the companies call it'.\n- Pull quote: write it in the editorial desk's own voice; never put a company's claim in the desk's mouth.\n- HEADLINES: copy each article title exactly as given in the list.\n\nACRONYMS (house rule): expand EVERY acronym and agency abbreviation the first time it appears anywhere in the Brief (thesis, paragraphs, number labels, card deks or radar). If its first appearance is inside a headline, expand it in that card's dek. Do NOT expand GLP-1, FDA, EMA, WHO, AI, US. Use these expansions: HIV = human immunodeficiency virus; PrEP = pre-exposure prophylaxis; PAH = pulmonary arterial hypertension; CETP = cholesterol ester transfer protein; ccRCC = clear cell renal cell carcinoma; FOP = fibrodysplasia ossificans progressiva; PAMI = Programa de Atención Médica Integral; ANMAT = Administración Nacional de Medicamentos, Alimentos y Tecnología Médica; INAME = Instituto Nacional de Medicamentos; IMSS = Instituto Mexicano del Seguro Social; Cofepris = Comisión Federal para la Protección contra Riesgos Sanitarios; ANVISA = Agência Nacional de Vigilância Sanitária; Conitec = Comissão Nacional de Incorporação de Tecnologias no SUS; SUS = Sistema Único de Saúde; Cade = Conselho Administrativo de Defesa Econômica; Sercop = Servicio Nacional de Contratación Pública; OPA = oferta pública de aquisição; MSP = Ministerio de Salud Pública; EPS = entidades promotoras de salud; CFM = Conselho Federal de Medicina; SIC = Superintendencia de Industria y Comercio; CVM = Comissão de Valores Mobiliários; INVIMA = Instituto Nacional de Vigilancia de Medicamentos y Alimentos; ANS = Agência Nacional de Saúde Suplementar; CMS = Centers for Medicare & Medicaid Services; PBM = pharmacy benefit manager; HHS = Department of Health and Human Services; M&A = mergers and acquisitions. For any other acronym, expand it only if the excerpt gives the expansion; otherwise describe the body in plain words.\n\nSECTIONS ARE GEOGRAPHIC. Each line carries tags:IDs. Country tag IDs: 789169925=Brazil, 783=Mexico, 18939=Argentina, 789169974=Colombia, 789169975=Chile, 789170143=Peru, 789170141=Uruguay, 789170142=Ecuador, 789170144=Paraguay, 789170145=Panama, 17212=Latin America (multi-country), 789169976=United States. Category and other tag IDs are context only, never sections. Assign each article to exactly ONE of three sections: LATIN AMERICA = the event happens in a Latin American country; UNITED STATES = a US decision or US market story (FDA, CMS, US payers, US approvals); GLOBAL = multinational deals and licences, European (European Commission / EMA) decisions, and any story not tied to one Latin American country or to the US. If a tag and the title/excerpt disagree, follow the title/excerpt. The card eyebrow names the country where the event happens (e.g. BRAZIL, UNITED STATES), or GLOBAL / EUROPE.\n\nOUTPUT: a JSON object with exactly these 3 string keys, each a SINGLE LINE of HTML (no line breaks inside values):\n{\"dyn_p1\":\"...\",\"dyn_review\":\"...\",\"dyn_radar\":\"...\"}\n\nCRITICAL FORMAT RULES:\n- Single quotes for ALL attributes. NEVER a double quote inside any value; write quotations with &ldquo; and &rdquo;.\n- No newlines and no backslashes inside values. Use entities &amp; &mdash; &rarr; where needed.\n- Every headline links: <a class='hl' href='REAL_URL'>. Use ONLY urls that appear in the list. NEVER invent a url.\n\ndyn_p1 = signal band + intro + inside + numbers. Page 1 has FIXED space, so obey the word limits strictly: thesis max 14 words; lead paragraph max 38 words; Latin America paragraph max 45 words; US paragraph max 35 words; pull-quote max 16 words; each number label max 8 words. Copy classes exactly:\n<div class='band'><div class='bk'>The Signal &middot; This Issue</div><h1>ONE-SENTENCE THESIS drawn from the articles</h1></div><div class='p1cols'><p><span class='lead'>Lead phrase</span> synthesis.</p><p>Latin America angle.</p><p>US angle.</p><div class='pull'>Sharp pull-quote takeaway.</div><div class='pull-attr'>&mdash; The HealthSignals editorial desk</div></div><div class='inside'><div class='ih'>Inside this issue</div><div class='ig'><div class='ii'><div class='ik'>This Issue in Review</div><div class='it'>{{length(1.data)}} stories across the sections covered this issue</div></div><div class='ii'><div class='ik'>Regulatory Radar</div><div class='it'>RN developments to watch before the next issue</div></div><div class='ii'><div class='ik'>By the Numbers</div><div class='it'>Three figures from this fortnight&rsquo;s coverage</div></div></div></div><div class='numbers'><div class='n'><div class='big'>FIG</div><div class='lab'>context</div></div><div class='n'><div class='big'>FIG</div><div class='lab'>context</div></div><div class='n'><div class='big'>FIG</div><div class='lab'>context</div></div></div><div class='numbers-tag'>By the Numbers &middot; This Issue</div>\n(Copy the number {{length(1.data)}} exactly as written: the list has exactly {{length(1.data)}} articles and all of them must appear in dyn_review. RN = real number of radar items you emit. Each FIG must appear literally in one excerpt, max 7 characters (e.g. $10.9B, 6.6M, 143%), and its label must describe it precisely, including who estimated it when it is an estimate.)\n\ndyn_review = ADAPTIVE. Go through these sections IN THIS ORDER: Latin America, United States, Global. Inside Latin America, order the cards by country: Brazil, Mexico, Argentina, Colombia, Chile, Peru, then any other country. Assign EVERY article in the list to its single best-fit section and use it EXACTLY ONCE. Do NOT repeat an article across sections. Do NOT invent or pad. Emit ONLY sections that have at least one article. The section counts must add up to {{length(1.data)}}.\nFor each such section emit its header then its cards:\nHEADER: <div class='rsech'><div class='sect'><span class='sk'>SECTION NAME</span><span class='ln'></span><span class='cnt'>NN Stories</span></div></div>  (NN = zero-padded real count in that section, e.g. 02, 05)\nCARD: <div class='rcard'><div class='eyebrow'>COUNTRY</div><h2 class='rh'><a class='hl' href='URL'>Exact article title</a></h2><div class='dek'>One-sentence takeaway from the excerpt, max 28 words.</div><a class='read' href='URL'>Read &rarr;</a></div>\nCOLUMN RULE: add the class ' c3' (so <div class='rcard c3'>) to every card that is the 3rd, 6th, 9th ... card WITHIN its own section (1-based count that RESETS at each section header). All other cards use <div class='rcard'>.\n\ndyn_radar = between 3 and 6 items. Each item must be tied to ONE article in the list and describe a next step that the excerpt itself names or clearly implies (a pending decision, vote, deadline, filing, launch or court ruling). Do not add dates, countries or events that are not in that excerpt. Each item max 28 words. Format per item:\n<div class='witem'><div class='eyebrow'>COUNTRY</div><div class='wt'>What to watch, in one sentence.</div><a class='read' href='URL'>Source &rarr;</a></div>\n\nABSOLUTE OUTPUT RULE: respond with the raw JSON object ONLY. First character { and last character }. No markdown code fences, no ``` anywhere, no prose.\n\nReturn ONLY the JSON object.\n\nArticles:\n{{3.text}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 900,
+            "y": 0
+          }
+        },
+        "module": "anthropic-claude:simpleTextPrompt",
+        "parameters": {
+          "__IMTCONN__": 8923111
+        },
+        "version": 1
+      },
+      {
+        "id": 5,
+        "mapper": {
+          "json": "{{trim(replace(replace(4.result; \"```json\"; \"\"); \"```\"; \"\"))}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 1200,
+            "y": 0
+          }
+        },
+        "module": "json:ParseJSON",
+        "parameters": {
+          "type": ""
+        },
+        "version": 1
+      },
+      {
+        "id": 10,
+        "mapper": {
+          "headers": [],
+          "method": "GET",
+          "qs": [],
+          "url": "v0/appd73iOSApIFksdP/tblxxMvi8Xx2UAcDv?filterByFormula=OR(%7BStatus%7D%3D%27Sent%27%2C%7BStatus%7D%3D%27Brevo%20draft%27)&fields%5B%5D=Issue"
+        },
+        "metadata": {
+          "designer": {
+            "x": 1350,
+            "y": 150
+          }
+        },
+        "module": "airtable:makeApiCall",
+        "parameters": {
+          "__IMTCONN__": 9132003
+        },
+        "version": 3
+      },
+      {
+        "id": 12,
+        "mapper": {
+          "scope": "roundtrip",
+          "variables": [
+            {
+              "name": "issue",
+              "value": "{{if(length(10.body.records) < 9; \"0\"; \"\")}}{{length(10.body.records) + 1}}"
+            },
+            {
+              "name": "fname",
+              "value": "the-healthsignals-brief-{{formatDate(now; \"YYYY-MM-DD\")}}-{{substring(uuid; 0; 8)}}.pdf"
+            },
+            {
+              "name": "ym",
+              "value": "{{formatDate(now; \"YYYY/MM\")}}"
+            }
+          ]
+        },
+        "metadata": {
+          "designer": {
+            "x": 1425,
+            "y": 300
+          }
+        },
+        "module": "util:SetVariables",
+        "parameters": {},
+        "version": 1
+      },
+      {
+        "id": 6,
+        "mapper": {
+          "name": "html",
+          "scope": "roundtrip",
+          "value": "<!DOCTYPE html><html lang='en'><head><meta charset='utf-8'><title>The HealthSignals Brief — Issue {{12.issue}}</title><style>@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&display=swap');:root{--bg:#f3f2f2;--ink:#201e1d;--green:#0B6B4F;--dek:#444141;--hair:#c9c7c4;--rule:#201e1d;}*{box-sizing:border-box;margin:0;padding:0}html{-webkit-print-color-adjust:exact;print-color-adjust:exact;}@page{size:8.5in 11in;margin:0;}body{background:var(--bg);color:var(--ink);font-family:'Archivo','Helvetica Neue',Arial,sans-serif;font-size:15px;line-height:1.5;font-weight:400;}.page{position:relative;width:8.5in;height:11in;padding:0.5in 0.55in 0.48in;background:var(--bg);overflow:hidden;page-break-after:always;}.page:last-child{page-break-after:auto;}.kick{color:var(--green);font-weight:700;font-size:11px;letter-spacing:.18em;text-transform:uppercase;}.read{display:inline-block;color:var(--green);font-weight:700;font-size:11px;letter-spacing:.14em;text-transform:uppercase;text-decoration:none;margin-top:9px;}.eyebrow{color:var(--dek);font-weight:600;font-size:10.5px;letter-spacing:.15em;text-transform:uppercase;margin-bottom:5px;}.dek{color:var(--dek);font-size:13px;line-height:1.5;}.folio{position:absolute;bottom:0.3in;right:0.55in;font-weight:700;font-size:10px;color:var(--dek);letter-spacing:.1em;}.sect{display:flex;align-items:center;gap:14px;margin:0 0 18px;}.sect .sk{color:var(--green);font-weight:800;font-size:15px;letter-spacing:.13em;text-transform:uppercase;white-space:nowrap;}.sect .ln{flex:1;height:1px;background:var(--hair);}.sect .cnt{font-weight:600;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--dek);white-space:nowrap;}.p1-top{position:relative;margin-bottom:10px;}.p1-kick{color:var(--green);font-weight:700;font-size:12px;letter-spacing:.2em;text-transform:uppercase;margin-bottom:8px;}.wm{font-weight:800;font-size:40px;line-height:.95;letter-spacing:-.02em;text-transform:uppercase;}.p1-region{text-align:right;font-weight:700;font-size:11px;letter-spacing:.13em;text-transform:uppercase;color:var(--dek);line-height:1.5;margin-top:-30px;}.metarow{display:flex;border-top:2px solid var(--rule);border-bottom:2px solid var(--rule);margin:10px 0 0;}.metarow .cell{padding:9px 14px 9px 0;border-right:1px solid var(--hair);}.metarow .cell:last-child{border-right:none;padding-right:0;padding-left:14px;flex:1;}.metarow .ml{font-weight:600;font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--dek);margin-bottom:5px;}.metarow .mv{font-weight:700;font-size:14px;}.cellw1{width:118px;} .cellw2{width:150px;} .cellw3{width:150px;}.band{background:var(--green);color:#fff;padding:18px 22px 20px;margin:16px 0 16px;}.band .bk{color:#bfe2d7;font-weight:700;font-size:11px;letter-spacing:.18em;text-transform:uppercase;margin-bottom:10px;}.band h1{font-weight:800;font-size:30px;line-height:1.08;letter-spacing:-.02em;}.p1cols{column-count:2;column-gap:0.4in;font-size:13.5px;line-height:1.45;}.p1cols p{margin-bottom:10px;}.p1cols .lead{font-weight:700;}.pull{border-left:3px solid var(--green);padding:2px 0 2px 14px;font-weight:700;font-size:15px;line-height:1.3;break-inside:avoid;margin-bottom:8px;}.pull-attr{color:var(--dek);font-weight:600;font-size:10px;letter-spacing:.12em;text-transform:uppercase;padding-left:14px;}.numbers{border-top:2px solid var(--rule);display:flex;padding-top:12px;margin-top:14px;}.numbers .n{flex:1;padding-right:16px;border-right:1px solid var(--hair);}.numbers .n:last-child{border-right:none;padding-right:0;padding-left:16px;}.numbers .n+.n{padding-left:16px;}.numbers .big{color:var(--green);font-weight:800;font-size:36px;line-height:.95;letter-spacing:-.02em;}.numbers .lab{color:var(--dek);font-size:12.5px;line-height:1.4;margin-top:8px;}.numbers-tag{margin-top:8px;font-weight:600;font-size:9.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--dek);}.social-top{position:absolute;top:0;right:0;font-weight:700;font-size:11px;letter-spacing:.13em;text-transform:uppercase;white-space:nowrap;}.social-top a{color:var(--green);text-decoration:none;}.blockhead{display:flex;justify-content:space-between;align-items:baseline;border-top:2px solid var(--rule);padding-top:10px;margin:11px 0 10px;}.blockhead .ct{font-weight:800;font-size:15px;letter-spacing:-.01em;}.blockhead .cs{font-weight:600;font-size:10px;letter-spacing:.09em;text-transform:uppercase;color:var(--dek);}.watch-grid{display:grid;grid-template-columns:1fr 1fr 1fr;column-gap:0.36in;row-gap:12px;}.witem{border-top:1px solid var(--hair);padding-top:8px;}.witem .wt{font-weight:700;font-size:12.5px;line-height:1.26;letter-spacing:-.005em;}.witem .read{margin-top:6px;}.inside{border-top:2px solid var(--rule);padding-top:10px;margin-top:14px;}.inside .ih{font-weight:800;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--green);margin-bottom:10px;}.inside .ig{display:grid;grid-template-columns:1fr 1fr 1fr;column-gap:0.36in;}.inside .ii{border-top:1px solid var(--hair);padding-top:8px;}.inside .ii .ik{font-weight:600;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--dek);margin-bottom:5px;}.inside .ii .it{font-weight:700;font-size:13px;line-height:1.25;letter-spacing:-.005em;}@page flow{size:8.5in 11in;margin:0.55in 0.55in 0.6in}.review{page:flow}.rhead{border-bottom:2px solid var(--rule);padding-bottom:7px;margin-bottom:14px;overflow:hidden}.rhead .l{float:left;font-weight:800;font-size:13px;letter-spacing:.13em;text-transform:uppercase}.rhead .r{float:right;font-weight:600;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--dek)}.rgrid{font-size:0}.rsech{display:block;width:100%;margin:4px 0 12px;break-after:avoid;page-break-after:avoid}.rsech~.rsech{break-before:page;page-break-before:always;margin-top:0}.rsech .sect{display:flex;align-items:center;gap:14px;margin:0}.rcard{display:inline-block;width:32%;margin-right:2%;margin-bottom:12px;vertical-align:top;break-inside:avoid;font-size:15px}.rcard.c3{margin-right:0}.rcard .rh{font-weight:800;font-size:18px;letter-spacing:-.012em;line-height:1.12;margin-bottom:8px}.rcard .rh a{color:inherit;text-decoration:none}.rcard .dek{margin-bottom:2px}.radarblock,.aboutblock{clear:both;break-inside:avoid}.radarblock{margin-top:6px}.aboutblock p{font-size:12px;line-height:1.45;color:var(--dek)}.endfoot{clear:both;break-inside:avoid;border-top:2px solid var(--rule);margin-top:16px;padding-top:10px}.endfoot .frow{display:flex;justify-content:space-between}.endfoot .fbrand{font-weight:800;font-size:16px;letter-spacing:-.01em}.endfoot .ftag{font-size:10.5px;color:var(--dek);margin-top:3px}.endfoot .fcol{font-size:10.5px;color:var(--dek);line-height:1.6;text-align:right}.endfoot .fcol a{color:var(--green);text-decoration:none}.endfoot .legal{font-size:9px;color:var(--dek);margin-top:8px;line-height:1.45}</style></head><body><section class='page'><div class='p1-top'><div class='p1-kick'>Pharma &amp; Healthcare Intelligence</div><div class='social-top'><a href='https://www.linkedin.com/company/healthsignalsnews'>LinkedIn</a> · <a href='https://x.com/HealthsignalsX'>X</a></div><div class='wm'>The<br>HealthSignals<br>Brief</div><div class='p1-region'>Latin America<br>&amp; the United States</div></div><div class='metarow'><div class='cell cellw1'><div class='ml'>Issue</div><div class='mv'>{{12.issue}}</div></div><div class='cell cellw2'><div class='ml'>Cadence</div><div class='mv'>Bi-weekly</div></div><div class='cell cellw3'><div class='ml'>Dated</div><div class='mv'>{{formatDate(now; \"DD MMM YYYY\")}}</div></div><div class='cell'><div class='ml'>Coverage</div><div class='mv'>{{length(1.data)}} articles &middot; last 10 days</div></div></div>{{5.dyn_p1}}<div class='folio'>01</div></section><section class='review'><div class='rhead'><div class='l'>This Issue in Review</div><div class='r'>Each headline links to the full article on healthsignals.news</div></div><div class='rgrid'>{{5.dyn_review}}</div><div class='radarblock'><div class='blockhead' style='margin-top:0'><div class='ct'>Regulatory Radar &mdash; What to watch</div><div class='cs'>from this issue&rsquo;s coverage</div></div><div class='watch-grid'>{{5.dyn_radar}}</div></div><div class='aboutblock'><div class='blockhead'><div class='ct'>About this Brief</div><div class='cs'>Method &amp; independence</div></div><p>The HealthSignals Brief compiles the latest coverage published on healthsignals.news. Every story links to the full article, where sources are cited. The Brief is professional information for the health and life-sciences sector; it is not medical advice. Sponsorship, when present, buys placement and co-branding, never editorial conclusions.</p></div><div class='endfoot'><div class='frow'><div><div class='fbrand'>THE HEALTHSIGNALS BRIEF</div><div class='ftag'>Editorial intelligence &middot; Pharma &amp; healthcare &middot; Latin America &amp; the US</div></div><div class='fcol'><a href='https://healthsignals.news/newsletter/'>Subscribe</a> &middot; <a href='https://healthsignals.news/privacy/'>Privacy</a> &middot; <a href='https://healthsignals.news/terms/'>Terms</a><br>brief@healthsignals.news</div></div><div class='legal'>&copy; {{formatDate(now; \"YYYY\")}} HEALTHSIGNALS LLC &middot; 407 Lincoln Rd, Suite 6H, PMB 1683, Miami Beach, FL 33139, USA. To stop receiving the Brief, use the unsubscribe link in the email that delivered it or write to brief@healthsignals.news.</div></div></section></body></html>"
+        },
+        "metadata": {
+          "designer": {
+            "x": 1500,
+            "y": 0
+          }
+        },
+        "module": "util:SetVariable2",
+        "parameters": {},
+        "version": 1
+      },
+      {
+        "id": 11,
+        "mapper": {
+          "object": "{{6.html}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 1650,
+            "y": 150
+          }
+        },
+        "module": "json:TransformToJSON",
+        "parameters": {},
+        "version": 1
+      },
+      {
+        "id": 7,
+        "mapper": {
+          "bodyType": "raw",
+          "contentType": "application/json",
+          "data": "{\"source\": {{11.json}}, \"sandbox\": false, \"use_print\": true, \"format\": \"Letter\"}",
+          "followAllRedirects": true,
+          "followRedirect": true,
+          "gzip": true,
+          "headers": [
+            {
+              "name": "Authorization",
+              "value": "<<REDACTED>>"
+            }
+          ],
+          "method": "post",
+          "parseResponse": false,
+          "rejectUnauthorized": true,
+          "serializeUrl": false,
+          "shareCookies": false,
+          "url": "https://api.pdfshift.io/v3/convert/pdf",
+          "useMtls": false,
+          "useQuerystring": false
+        },
+        "metadata": {
+          "designer": {
+            "x": 1800,
+            "y": 0
+          }
+        },
+        "module": "http:ActionSendData",
+        "parameters": {
+          "handleErrors": false,
+          "useNewZLibDeCompress": true
+        },
+        "version": 3
+      },
+      {
+        "id": 8,
+        "mapper": {
+          "data": "{{7.data}}",
+          "fileName": "{{12.fname}}",
+          "title": "The HealthSignals Brief — Issue {{12.issue}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 2100,
+            "y": 0
+          }
+        },
+        "module": "wordpress:createMediaItem",
+        "parameters": {
+          "__IMTCONN__": 8921729
+        },
+        "version": 3
+      },
+      {
+        "id": 9,
+        "mapper": {
+          "body": "{\"typecast\":true,\"fields\":{\"Issue\":\"Issue {{12.issue}}\",\"Status\":\"Draft\",\"Period_Start\":\"{{formatDate(addDays(now; -10); \\\"YYYY-MM-DD\\\")}}\",\"Period_End\":\"{{formatDate(now; \\\"YYYY-MM-DD\\\")}}\",\"Article_Count\":{{length(1.data)}},\"PDF_URL\":\"https://healthsignals.news/wp-content/uploads/{{12.ym}}/{{12.fname}}\",\"Notes\":\"Generated by HS Brief Production v4. Must pass the prepublish gate (2 review rounds) and be re-rendered with scenario 6427153 before Approved.\"}}",
+          "headers": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "method": "POST",
+          "qs": [],
+          "url": "v0/appd73iOSApIFksdP/tblxxMvi8Xx2UAcDv"
+        },
+        "metadata": {
+          "designer": {
+            "x": 2400,
+            "y": 0
+          }
+        },
+        "module": "airtable:makeApiCall",
+        "parameters": {
+          "__IMTCONN__": 9132003
+        },
+        "version": 3
+      }
+    ],
+    "metadata": {
+      "designer": {
+        "orphans": []
+      },
+      "instant": false,
+      "scenario": {
+        "autoCommit": true,
+        "maxErrors": 3,
+        "sequential": true,
+        "slots": null
+      },
+      "version": 1
+    },
+    "name": "HS Brief — Production"
+  },
+  "folderId": 247198,
+  "id": 6234307,
+  "isActive": true,
+  "name": "HS Brief — Production",
+  "scheduling": {
+    "type": "on-demand"
+  }
+}

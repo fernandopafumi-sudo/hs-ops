@@ -1,0 +1,114 @@
+{
+  "blueprint": {
+    "flow": [
+      {
+        "id": 1,
+        "mapper": {
+          "dateTimeRenderOption": "FORMATTED_STRING",
+          "fieldType": "string",
+          "filter": [
+            [
+              {
+                "a": "B",
+                "b": "{{formatDate(now; \"YYYY-MM-DD\")}}",
+                "o": "text:contain"
+              },
+              {
+                "a": "P",
+                "b": "draft",
+                "o": "text:equal"
+              }
+            ]
+          ],
+          "from": "drive",
+          "includesHeaders": true,
+          "limit": "100",
+          "sheetId": "Editorial Queue",
+          "sortOrder": "asc",
+          "spreadsheetId": "1J8ca4Pvp3HTSdHqq9-TZ1H-nF6_fM5R3Jm1bf9bAU8A",
+          "tableFirstRow": "A1:CZ1",
+          "valueRenderOption": "FORMATTED_VALUE"
+        },
+        "metadata": {
+          "designer": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        "module": "google-sheets:filterRows",
+        "parameters": {
+          "__IMTCONN__": 8923977
+        },
+        "version": 2
+      },
+      {
+        "filter": {
+          "conditions": [
+            [
+              {
+                "a": "{{1.`__ROW_NUMBER__`}}",
+                "o": "exist"
+              }
+            ]
+          ],
+          "name": "fila valida"
+        },
+        "id": 2,
+        "mapper": {
+          "data": {
+            "category": "{{1.`3`}}",
+            "country": "{{1.`5`}}",
+            "error": "",
+            "headline": "{{substring(1.`2`; 0; 90)}}",
+            "li_post_len": "0",
+            "linkedin_url": "",
+            "post_id": "",
+            "priority": "{{1.`14`}}",
+            "row": "{{1.`__ROW_NUMBER__`}}",
+            "status": "{{1.`15`}}",
+            "step": "{{substring(1.`1`; 0; 25)}} {{1.`39`}}",
+            "wp_url": "{{1.`6`}}"
+          },
+          "key": "S{{1.`__ROW_NUMBER__`}}",
+          "overwrite": true
+        },
+        "metadata": {
+          "designer": {
+            "x": 300,
+            "y": 0
+          }
+        },
+        "module": "datastore:AddRecord",
+        "onerror": [
+          {
+            "id": 3,
+            "metadata": {
+              "designer": {
+                "x": 450,
+                "y": 150
+              }
+            },
+            "module": "builtin:Ignore",
+            "version": 1
+          }
+        ],
+        "parameters": {
+          "datastore": 148918
+        },
+        "version": 1
+      }
+    ],
+    "metadata": {
+      "instant": false,
+      "version": 1
+    },
+    "name": "HS - Scanner rows snapshot (last batch)"
+  },
+  "folderId": 247198,
+  "id": 6251400,
+  "isActive": true,
+  "name": "HS - Scanner rows snapshot (last batch)",
+  "scheduling": {
+    "type": "on-demand"
+  }
+}

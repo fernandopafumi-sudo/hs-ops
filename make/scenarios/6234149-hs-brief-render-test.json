@@ -1,0 +1,125 @@
+{
+  "blueprint": {
+    "flow": [
+      {
+        "id": 1,
+        "mapper": {
+          "name": "html",
+          "scope": "roundtrip",
+          "value": "<!doctype html><html><head><meta charset='utf-8'><style>@page{size:Letter;margin:0.5in}body{font-family:Archivo,Arial,sans-serif;color:#201e1d}h1{color:#0B6B4F;font-size:32px;margin:0 0 8px}.bar{fill:#0B6B4F}</style></head><body><h1>The HealthSignals Brief — render test</h1><p>PDFShift check: SVG bar + Archivo + green accent.</p><svg width='400' height='40'><rect class='bar' x='0' y='0' width='300' height='28'/></svg></body></html>"
+        },
+        "metadata": {
+          "designer": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        "module": "util:SetVariable2",
+        "parameters": {},
+        "version": 1
+      },
+      {
+        "id": 2,
+        "mapper": {
+          "bodyType": "raw",
+          "contentType": "application/json",
+          "data": "{\"source\": \"{{1.html}}\", \"sandbox\": true, \"use_print\": true, \"format\": \"Letter\"}",
+          "followAllRedirects": true,
+          "followRedirect": true,
+          "gzip": true,
+          "headers": [
+            {
+              "name": "Authorization",
+              "value": "<<REDACTED>>"
+            }
+          ],
+          "method": "post",
+          "parseResponse": false,
+          "rejectUnauthorized": true,
+          "serializeUrl": false,
+          "shareCookies": false,
+          "url": "https://api.pdfshift.io/v3/convert/pdf",
+          "useMtls": false,
+          "useQuerystring": false
+        },
+        "metadata": {
+          "designer": {
+            "x": 300,
+            "y": 0
+          }
+        },
+        "module": "http:ActionSendData",
+        "parameters": {
+          "handleErrors": true,
+          "useNewZLibDeCompress": true
+        },
+        "version": 3
+      },
+      {
+        "id": 3,
+        "mapper": {
+          "data": "{{2.data}}",
+          "fileName": "hs-brief-render-test.pdf",
+          "title": "HealthSignals Brief — render test"
+        },
+        "metadata": {
+          "designer": {
+            "x": 600,
+            "y": 0
+          }
+        },
+        "module": "wordpress:createMediaItem",
+        "parameters": {
+          "__IMTCONN__": 8921729
+        },
+        "version": 3
+      },
+      {
+        "id": 4,
+        "mapper": {
+          "body": "{\"typecast\":true,\"fields\":{\"Issue\":\"Render chain test\",\"Status\":\"Draft\",\"PDF_URL\":\"{{3.guid}}\",\"Notes\":\"render -> media -> airtable chain OK\"}}",
+          "headers": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "method": "POST",
+          "qs": [],
+          "url": "v0/appd73iOSApIFksdP/tblxxMvi8Xx2UAcDv"
+        },
+        "metadata": {
+          "designer": {
+            "x": 900,
+            "y": 0
+          }
+        },
+        "module": "airtable:makeApiCall",
+        "parameters": {
+          "__IMTCONN__": 9132003
+        },
+        "version": 3
+      }
+    ],
+    "metadata": {
+      "designer": {
+        "orphans": []
+      },
+      "instant": false,
+      "scenario": {
+        "autoCommit": true,
+        "maxErrors": 3,
+        "sequential": true
+      },
+      "version": 1
+    },
+    "name": "HS Brief — Render Test"
+  },
+  "folderId": 247198,
+  "id": 6234149,
+  "isActive": true,
+  "name": "HS Brief — Render Test",
+  "scheduling": {
+    "type": "on-demand"
+  }
+}

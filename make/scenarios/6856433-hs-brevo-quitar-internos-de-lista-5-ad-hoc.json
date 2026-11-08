@@ -1,0 +1,43 @@
+{
+  "blueprint": {
+    "flow": [
+      {
+        "id": 1,
+        "mapper": {
+          "body": "{\"emails\":[\"editor@healthsignals.news\",\"fernandopafumi@gmail.com\",\"fernandopafumi+invitetest@gmail.com\",\"editor+hstest1021@healthsignals.news\"]}",
+          "headers": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "method": "POST",
+          "url": "/v3/contacts/lists/5/contacts/remove"
+        },
+        "metadata": {
+          "designer": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        "module": "sendinblue:MakeAPICall",
+        "parameters": {
+          "__IMTCONN__": 11417335
+        },
+        "version": 2
+      }
+    ],
+    "metadata": {
+      "instant": false,
+      "version": 1
+    },
+    "name": "HS — Brevo: quitar internos de lista 5 (ad hoc)"
+  },
+  "folderId": 247198,
+  "id": 6856433,
+  "isActive": false,
+  "name": "HS — Brevo: quitar internos de lista 5 (ad hoc)",
+  "scheduling": {
+    "type": "on-demand"
+  }
+}
