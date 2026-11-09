@@ -12,6 +12,11 @@ TEAM = os.environ.get("MAKE_TEAM_ID", "2174293")
 TOKEN = os.environ.get("MAKE_API_TOKEN", "")
 OUT = Path(os.environ.get("OUT_DIR", "make"))
 BASE = f"https://{ZONE}/api/v2"
+# 148747 Event Dedup, 161375 gate, 162492 Voices Rules, 164495 dedup Social v3
+RECORD_STORES = [int(x) for x in os.environ.get("MAKE_RECORD_STORES", "148747,161375,162492,164495").split(",") if x]
+MIN_SCENARIOS = int(os.environ.get("MIN_SCENARIOS", "20"))
+MIN_STORES = int(os.environ.get("MIN_STORES", "5"))
+record_counts = {}
 
 # Patrones de secretos que no deben quedar en git (el valor real vive en Bitwarden)
 SECRET_PATTERNS = [
@@ -150,6 +155,29 @@ def main():
             pass
     dump(OUT / "data-structures.json", redact(full, "data-structures"))
 
+    # Records de los data stores que son estado operativo. Nunca 128118 (X OAuth: client_secret y refresh_token).
+    rec_dir = OUT / "data-store-records"
+    for f in rec_dir.glob("*.json") if rec_dir.exists() else []:
+        f.unlink()
+    for ds_id in RECORD_STORES:
+        records, offset, missing = [], 0, False
+        while True:
+            try:
+                batch = get(f"/data-stores/{ds_id}/data", {"pg[limit]": 100, "pg[offset]": offset}).get("records", [])
+            except NotFound:
+                print(f"::warning::Data store {ds_id} no existe (404)")
+                missing = True
+                break
+            records += batch
+            if len(batch) < 100:
+                break
+            offset += 100
+        if missing:
+            continue
+        records.sort(key=lambda r: str(r.get("key")))
+        dump(rec_dir / f"{ds_id}.json", redact(records, f"data-store {ds_id}"))
+        record_counts[ds_id] = len(records)
+
     hooks = paged("/hooks", "hooks")  # sin la URL: quien la tiene puede disparar el escenario
     dump(OUT / "hooks.json", [
         {k: h.get(k) for k in ("id", "name", "typeName", "scenarioId", "enabled", "gone")} for h in hooks
@@ -165,7 +193,13 @@ def main():
     if skipped:
         print(f"Salteados (404): {skipped}")
     print(f"OK: {len(index)} escenarios, {len(stores)} data stores, {len(full)} estructuras, "
-          f"{len(hooks)} webhooks, {len(conns)} conexiones, {len(set(redactions))} campos redactados")
+          f"{len(hooks)} webhooks, {len(conns)} conexiones, records {record_counts}, "
+          f"{len(set(redactions))} campos redactados")
+
+    # Un backup vacío no es un backup: fallar para que no se mande el heartbeat
+    if len(index) < MIN_SCENARIOS or len(stores) < MIN_STORES:
+        sys.exit(f"Export sospechoso: {len(index)} escenarios (mín {MIN_SCENARIOS}), "
+                 f"{len(stores)} data stores (mín {MIN_STORES}). Revisar token, scopes o team.")
 
 
 if __name__ == "__main__":

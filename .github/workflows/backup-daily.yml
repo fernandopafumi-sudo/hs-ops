@@ -14,9 +14,11 @@ concurrency:
 jobs:
   export:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # historial completo para el espejo
 
       - uses: actions/setup-python@v5
         with:
@@ -27,14 +29,27 @@ jobs:
           MAKE_API_TOKEN: ${{ secrets.MAKE_API_TOKEN }}
         run: python3 scripts/export_make.py
 
+      - name: Export Airtable
+        env:
+          AIRTABLE_TOKEN: ${{ secrets.AIRTABLE_TOKEN }}
+        run: |
+          if [ -z "$AIRTABLE_TOKEN" ]; then echo "::warning::AIRTABLE_TOKEN no configurado, se saltea Airtable"; exit 0; fi
+          python3 scripts/export_airtable.py
+
       - name: Escaneo de secretos (gitleaks)
-        run: docker run --rm -v "$PWD:/repo" zricethezav/gitleaks:v8.18.4 detect --no-git --source /repo/make --config /repo/.gitleaks.toml --redact -v
+        run: |
+          curl -fsSL -o gl.tgz https://github.com/gitleaks/gitleaks/releases/download/v8.18.4/gitleaks_8.18.4_linux_x64.tar.gz
+          tar -xzf gl.tgz gitleaks && rm gl.tgz
+          for d in make airtable; do
+            if [ -d "$d" ]; then ./gitleaks detect --no-git --source "$d" --config .gitleaks.toml --redact -v; fi
+          done
+          rm -f gitleaks
 
       - name: Commit si hubo cambios
         run: |
           git config user.name "hs-ops-backup"
           git config user.email "hs-ops-backup@users.noreply.github.com"
-          git add -A make/
+          git add -A make/ airtable/ 2>/dev/null || git add -A make/
           if git diff --cached --quiet; then
             echo "Sin cambios"
           else
@@ -43,9 +58,17 @@ jobs:
             git push
           fi
 
+      - name: Espejo en segundo proveedor
+        env:
+          MIRROR_URL: ${{ secrets.MIRROR_URL }}
+        run: |
+          if [ -z "$MIRROR_URL" ]; then echo "::warning::MIRROR_URL no configurado, sin espejo"; exit 0; fi
+          set -o pipefail
+          git push --force "$MIRROR_URL" "HEAD:refs/heads/main" 2>&1 | sed 's#https://[^@]*@#https://***@#g'
+
       - name: Heartbeat
         if: success()
         env:
           HEARTBEAT_URL: ${{ secrets.HEARTBEAT_URL }}
         run: |
-          if [ -n "$HEARTBEAT_URL" ]; then curl -fsS -m 10 --retry 3 "$HEARTBEAT_URL" >/dev/null; else echo "HEARTBEAT_URL no configurado"; fi
+          if [ -n "$HEARTBEAT_URL" ]; then curl -fsS -m 10 --retry 3 "$HEARTBEAT_URL" >/dev/null; else echo "::warning::HEARTBEAT_URL no configurado"; fi
