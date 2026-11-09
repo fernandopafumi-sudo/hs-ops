@@ -1,0 +1,534 @@
+[
+  {
+    "data": {
+      "notes": "aplicado con Fer 17-10: 8 reemplazos r1 + 15 r2 (sin re-verificar) + excerpt/metadesc. Sigue draft, espera OK para publicar. Pendiente: fecha kicker 12-10. Drive 11L4hSWscKtQ3TzzApq8PvXZ23nNTAV4f",
+      "run_id": "manual-20261017",
+      "state": "passed",
+      "title": "Colombia's Consejo de Estado Orders New Drug Policy Framework",
+      "updated_at": "2026-10-17T13:35:00-04:00",
+      "wp_modified": "2026-10-17T13:34:50"
+    },
+    "key": "36441"
+  },
+  {
+    "data": {
+      "notes": "hold: r1 PUBLISH AFTER EDIT (1 corr: reliance ISP solo biologicos), r2 HOLD (3 corr: 543/695 de dip. Santelices no ASILFA, 14% real, 'economies'; bio sin fuente: acting director, ANAMED hasta 2024, UDD). 4 corr de hecho, diff OK. Drive 1S_9UKDsfbptM64MUGigzqPefNvgROmQm",
+      "run_id": "20261016-0658",
+      "state": "hold",
+      "title": "Heriberto García Escorza: \"Registration is not a financial process\"",
+      "updated_at": "2026-10-16T07:11:23-04:00",
+      "wp_modified": "2026-10-15T16:45:11"
+    },
+    "key": "36447"
+  },
+  {
+    "data": {
+      "notes": "needs_edit: r1 2 corr de hecho, una en la bio (INAHTA 2010-2014, no 2011); borrar grant BID $800k sin fuente. Metadesc: expandir IECS. Falta hs-sources (8 URLs). Sin r2. Diff OK. Drive 1yBsl3_H66BZj3FXPYs2lyPjhO7GHcCEi",
+      "run_id": "20261018-0658",
+      "state": "needs_edit",
+      "title": "Andrés Pichon-Riviere: Argentina's courts are deciding drug coverage \"case by case\"",
+      "updated_at": "2026-10-18T07:07:42-04:00",
+      "wp_modified": "2026-10-17T21:05:24"
+    },
+    "key": "36460"
+  },
+  {
+    "data": {
+      "notes": "needs_edit: r1 12 corr de hecho (>5), sin r2. Clave: 5M no es caseload IMSS; 77.9% no es del Atlas 2024; rango Bolivia 0.2%/Suriname 8.6% sin fuente (borrar); '2.1% multiple budget cycles' sin sustento. Kicker 17-10 sobre nota Infobae de mayo. Diff OK. Drive 1RKvJXmrzvVbiZhev-W7ecAZusdlgm6c2",
+      "run_id": "20261018-0658",
+      "state": "needs_edit",
+      "title": "Mexico's Mental Health Budget Gap Leaves Millions Without Care",
+      "updated_at": "2026-10-18T07:07:42-04:00",
+      "wp_modified": "2026-10-17T20:52:42"
+    },
+    "key": "36488"
+  },
+  {
+    "data": {
+      "notes": "intento 3 (definitivo). Error: Drive create_file 'Requested entity was not found' (carpeta 1ZpyZ). Resultado (seria passed, 4 corr hecho, diff OK): r1 'The Moderna–Liomont partnership was signed under Plan Mexico'->'Moderna described the February MOU as aligned with Plan Mexico'. r2 (sin re-verificar) sacar 'mRNA ' en 3 lugares: 'contract for mRNA COVID-19 vaccine worth', 'Liomont for mRNA COVID-19 vaccine, running', 'award for mRNA COVID-19 vaccine, worth'. Ver REPORT-20261027-0659.",
+      "run_id": "20261027-0659",
+      "state": "failed",
+      "title": "Moderna and Liomont Sign Mexico Licensing Deal as BIRMEX Awards Up to US$1.75 Billion Contract",
+      "updated_at": "2026-10-27T07:08:39-04:00",
+      "wp_modified": "2026-10-24T15:46:44"
+    },
+    "key": "36552"
+  },
+  {
+    "data": {
+      "notes": "intento 1. vuelve a pending (failed por Drive 30-10, mismo wp_modified). Resultado previo: HOLD, ver REPORT-20261030-0659.",
+      "run_id": "20261031-0659",
+      "state": "pending",
+      "title": "J&J's RIPTAC Drug Shows 59% PSA Response in Phase 1",
+      "updated_at": "2026-10-31T07:01:00-04:00",
+      "wp_modified": "2026-10-30T06:55:54"
+    },
+    "key": "36600"
+  },
+  {
+    "data": {
+      "notes": null,
+      "run_id": "20261031-0659",
+      "state": "pending",
+      "title": "Brazil Adds Novartis' Iptacopan to SUS, Drops AstraZeneca's Ravulizumab",
+      "updated_at": "2026-10-31T07:01:00-04:00",
+      "wp_modified": "2026-10-30T16:01:48"
+    },
+    "key": "36615"
+  },
+  {
+    "data": {
+      "notes": null,
+      "run_id": "20261031-0659",
+      "state": "pending",
+      "title": "Merck & Co. and Moderna's mRNA Cancer Vaccine Clears Phase 3 at ESMO",
+      "updated_at": "2026-10-31T07:01:00-04:00",
+      "wp_modified": "2026-10-31T00:55:52"
+    },
+    "key": "36636"
+  },
+  {
+    "data": {
+      "notes": "intento 1. Error: Drive create_file 'Requested entity was not found' (carpeta 1ZpyZ). Resultado (seria needs_edit): r1 3 + r2 6 (sin re-verificar) = 9 corr de hecho. Clave: 128 medicamentos es dato de Kreplak, no verificado (excerpt, metadesc, cuerpo); excerpt 'from September 2026' mal; 76%->76.5%; tabla pone 14.1M (2025) bajo la lista nueva; frase pipeline 'not enumerated' (anexo: aspirina, atorva, rosuva, candesartan, HCTZ, ramipril). Ver REPORT-20261031-0659.",
+      "run_id": "20261031-0659",
+      "state": "failed",
+      "title": "Argentina's Ministry of Health cuts Remediar list to six vascular drugs",
+      "updated_at": "2026-10-31T07:11:07-04:00",
+      "wp_modified": "2026-10-31T01:06:30"
+    },
+    "key": "36640"
+  },
+  {
+    "data": {
+      "notes": "intento 1. Error: Drive create_file 'Requested entity was not found' (carpeta 1ZpyZ). Resultado (seria needs_edit, sin r2): 8 corr de hecho (>5). Clave: 31-03-2027 es plazo para SOLICITAR desembolsos, no para completarlos (5 lugares); tablero del 27-10 es del Plan de Choque, no de la linea ADRES; reforma 21-07 mal descrita (Fondo Unico Publico administrado por ADRES, bloque Petro saliente). Fuente: texto Res 002445 en consultorsalud.com. Ver REPORT-20261031-0659.",
+      "run_id": "20261031-0659",
+      "state": "failed",
+      "title": "ADRES Credit Line Lets Colombia's EPS Clear Drug and Procedure Debts",
+      "updated_at": "2026-10-31T07:11:07-04:00",
+      "wp_modified": "2026-10-31T01:44:08"
+    },
+    "key": "36644"
+  },
+  {
+    "data": {
+      "notes": "intento 1. Error: Drive create_file 'Requested entity was not found' (carpeta 1ZpyZ). Resultado (seria needs_edit, sin r2): 14 corr de hecho incl. titulo. Titulo solo melanoma pero cuerpo es resumen de 3 datasets ESMO; kicker EUROPE->GLOBAL; intismeran es +Keytruda vs Keytruda; Imdelltra ya tiene aprobacion plena FDA nov-2025 (What to Watch 3 y Regulators falsos); SCLC 10-15% es total, no ES; divarasib 11.3 vs 5.0 meses. Duplica evento de 36636. Ver REPORT-20261031-0659.",
+      "run_id": "20261031-0659",
+      "state": "failed",
+      "title": "Moderna and Merck & Co. mRNA vaccine cuts melanoma recurrence risk by 42%",
+      "updated_at": "2026-10-31T07:11:07-04:00",
+      "wp_modified": "2026-10-31T06:49:52"
+    },
+    "key": "36647"
+  },
+  {
+    "data": {
+      "notes": "aplicado con Fer 02-11: 6 reemplazos del gate (4 r1 + 2 r2 sin re-verificar) en content + metadesc; + traduccion al ingles de las 2 citas de Maffissoni (marcada 'translated from Portuguese by HealthSignals'), OK de Fer. Sigue draft, espera OK para publicar. Drive 1uVZ7qkWMOIlFpAwU9L4Low7rY8XcDao0",
+      "run_id": "manual-20261102",
+      "state": "passed",
+      "title": "Prati-Donaduzzi bets R$1 billion on a new 5-billion-dose plant",
+      "updated_at": "2026-11-02T18:52:00-05:00",
+      "wp_modified": "2026-11-02T18:51:21"
+    },
+    "key": "36862"
+  },
+  {
+    "data": {
+      "notes": "skipped por decision de Fer 02-11: no se publica (aprobacion FDA 28-08, sin gancho nuevo; 14 corr pendientes). Queda draft en WP, no se aplicaron cambios. Drive 1GLKE7uMNRTs9jcIk5GqheQGeqks47w9x",
+      "run_id": "manual-20261102",
+      "state": "skipped",
+      "title": "Takeda and Protagonist Win FDA Nod for Rusfertide in Polycythemia Vera",
+      "updated_at": "2026-11-02T19:00:00-05:00",
+      "wp_modified": "2026-11-02T06:58:38"
+    },
+    "key": "36868"
+  },
+  {
+    "data": {
+      "notes": "needs_edit: r1 10 corr de hecho (>5), una en el lede (TGH dice North America, no US), sin r2. Clave: 'third rollback' falso (ya fue Canada nov-2025) x2 + Revolving Fund sin fuente; HHS si apelo (29-04, STAT); ACIP no se reunio a sep; borrar 'proximate driver'. Diff OK. Drive 12nX73ijHqGPciUtQ4_foL8wd-oKQ82gJ",
+      "run_id": "20261103-0659",
+      "state": "needs_edit",
+      "title": "Measles Cases in 2026 Surpass Full-Year 2025 as US Exemptions Hit Record",
+      "updated_at": "2026-11-03T07:07:42-05:00",
+      "wp_modified": "2026-11-03T06:50:43"
+    },
+    "key": "36886"
+  },
+  {
+    "data": {
+      "notes": "needs_edit: r1 13 corr de hecho (>5), corrige titulo y lede (TGH: 'lowest since 2012' es el nivel de 2025), sin r2. Dieleman es associate professor; borra 3 frases del parrafo 'deeper asymmetry' sin fuente; 54.1% no es OECD. Diff OK. Drive 1AE3vIbQrjQWi5sUx71Zq9yjRf1VdRYBE",
+      "run_id": "20261104-0658",
+      "state": "needs_edit",
+      "title": "IHME: Global Health Funding Falls 5% in 2026, Hitting 14-Year Low",
+      "updated_at": "2026-11-04T07:07:19-05:00",
+      "wp_modified": "2026-11-04T06:52:42"
+    },
+    "key": "36891"
+  },
+  {
+    "data": {
+      "notes": "needs_edit: r1 13 corr de hecho (>5), sin r2. Clave: evaluacion es del 8-10 (no 9-10) x3; paises de los encuentros son Argentina, Peru, Uruguay (no Brasil, Colombia, Chile); cita Barbosa sin '(MMR)'; kicker LATIN AMERICA->AMERICAS; borra 5 frases sin fuente (incl. 'primary procurement channel' x2, deja frase sin verbo). Diff OK. Drive 1EQm1wCI0C2wIYBgnS37LBns7nGiUF1BY",
+      "run_id": "20261105-0659",
+      "state": "needs_edit",
+      "title": "PAHO flags very high measles risk ahead of South America gatherings",
+      "updated_at": "2026-11-05T07:05:49-05:00",
+      "wp_modified": "2026-11-05T06:57:18"
+    },
+    "key": "36896"
+  },
+  {
+    "data": {
+      "notes": "hold: r1 HOLD (Valor con paywall: acuerdo, precios CMED y 6 citas sin verificar), sin r2. 15 hallazgos, incl. lede (fecha=publicacion, indicacion nivo+ipi mas estrecha) y nombre Bristol Myers Squibb. Drive 1XQp5OEFPl_v5jkV6gOIEobArKxGHnCgG",
+      "run_id": "20261106-0658",
+      "state": "hold",
+      "title": "BMS signs first oncology risk-sharing deal in Brazil with A.C. Camargo",
+      "updated_at": "2026-11-06T07:05:17-05:00",
+      "wp_modified": "2026-11-06T06:49:09"
+    },
+    "key": "36900"
+  },
+  {
+    "data": {
+      "notes": "needs_edit: r1 13 corr de hecho (>5), corrige titulo ('Safe' > evidencia observacional) y lede (superlativo sin fuente), sin r2. Clave: Maven marzo no mayo; cargo de Arbel; '29 companies' sin 'remaining'; TRIAL->STUDY. 18 reemplazos aplicables (1 coincidencia c/u). Drive 1P3z02SI86iVRkUS2ZExHMa4T36ZLC5TW",
+      "run_id": "20261108-0658",
+      "state": "needs_edit",
+      "title": "Clalit 12-Year Data Show Hormone Therapy Safe for Cardiovascular Outcomes",
+      "updated_at": "2026-11-08T07:05:05-05:00",
+      "wp_modified": "2026-11-08T06:51:12"
+    },
+    "key": "36905"
+  },
+  {
+    "data": {
+      "notes": "needs_edit: r1 9 corr de hecho (>5), una en el lede (Nissen es senior author, no lead investigator), sin r2. Clave: 'up to' 2x -> 'at least' 2x; Bloomberg 'rattled' sin fuente BORRAR; CNBC->Reuters late-stage; OLE terminado (Veeva). Sin verificar: cifras FiercePharma. Drive 166cFwcF4ELzbvbYIj_hOAdgixh6ZQ3ux",
+      "run_id": "20261109-0658",
+      "state": "needs_edit",
+      "title": "Novartis' pelacarsen cuts Lp(a) 78% but fails cardiovascular trial",
+      "updated_at": "2026-11-09T07:06:31-05:00",
+      "wp_modified": "2026-11-09T06:51:57"
+    },
+    "key": "36920"
+  },
+  {
+    "data": {
+      "notes": "- sin fallos de acceso, aprobaciones ni bloqueos\n- aviso: REPORT-20261009-0659 y REPORT-20261001-0658 siguen 'iniciada, sin terminar' (corridas viejas caidas, ya reportadas)\n- run_id 20261011-0658\n- borradores vistos 12 (mismos que ayer); excluidos 5 (Weekly 36411, 36146, 35939, 35772; post 36041); skipped backlog 7 sin cambios (wp_modified igual); pendientes para manana 0\n- 0 borradores pendientes, no se reviso ninguno\n- limpieza: nada que borrar (carpeta de Drive vacia; sin REPORT ni registros de mas de 30 dias)\nPara aplicar y publicar, decile a Claude en un chat: aplicar gate <ID>. La sesión que aplique relee el post, rechaza si su modified es distinto del wp_modified del archivo, aplica los reemplazos con código, verifica el diff y publica solo con OK de Fer.",
+      "run_id": "20261011-0658",
+      "state": "passed",
+      "title": "REPORT",
+      "updated_at": "2026-10-11T06:59:17-04:00"
+    },
+    "key": "REPORT-20261011-0658"
+  },
+  {
+    "data": {
+      "notes": "- sin fallos de acceso, aprobaciones ni bloqueos\n- aviso: REPORT-20261009-0659 y REPORT-20261001-0658 siguen 'iniciada, sin terminar' (corridas viejas caidas, ya reportadas)\n- run_id 20261012-0659\n- borradores vistos 12 (mismos que ayer); excluidos 5 (Weekly 36411, 36146, 35939, 35772; post 36041); skipped backlog 7 sin cambios (wp_modified igual); pendientes para manana 0\n- 0 borradores pendientes, no se reviso ninguno\n- limpieza: nada que borrar (carpeta de Drive vacia; sin REPORT ni registros de mas de 30 dias)\nPara aplicar y publicar, decile a Claude en un chat: aplicar gate <ID>. La sesión que aplique relee el post, rechaza si su modified es distinto del wp_modified del archivo, aplica los reemplazos con código, verifica el diff y publica solo con OK de Fer.",
+      "run_id": "20261012-0659",
+      "state": "passed",
+      "title": "REPORT",
+      "updated_at": "2026-10-12T06:59:47-04:00",
+      "wp_modified": null
+    },
+    "key": "REPORT-20261012-0659"
+  },
+  {
+    "data": {
+      "notes": "- sin fallos de acceso, aprobaciones ni bloqueos\n- aviso: REPORT-20261009-0659 y REPORT-20261001-0658 siguen 'iniciada, sin terminar' (corridas viejas caidas, ya reportadas)\n- run_id 20261012-1341\n- borradores vistos 12 (mismos que en la corrida de 06:59); excluidos 5 (Weekly 36411, 36146, 35939, 35772; post 36041); skipped backlog 7 sin cambios (wp_modified igual); sin locks in_review; pendientes para manana 0\n- 0 borradores pendientes, no se reviso ninguno\n- limpieza: nada que borrar (carpeta de Drive vacia; sin REPORT ni registros de mas de 30 dias)\nPara aplicar y publicar, decile a Claude en un chat: aplicar gate <ID>. La sesión que aplique relee el post, rechaza si su modified es distinto del wp_modified del archivo, aplica los reemplazos con código, verifica el diff y publica solo con OK de Fer.",
+      "run_id": "20261012-1341",
+      "state": "passed",
+      "title": "REPORT",
+      "updated_at": "2026-10-12T13:41:28-04:00"
+    },
+    "key": "REPORT-20261012-1341"
+  },
+  {
+    "data": {
+      "notes": "- sin fallos de acceso, aprobaciones ni bloqueos\n- aviso: REPORT-20261009-0659 y REPORT-20261001-0658 siguen 'iniciada, sin terminar' (corridas viejas caidas, ya reportadas)\n- run_id 20261013-0658\n- borradores vistos 13; excluidos 5 (Weekly 36411, 36146, 35939, 35772; post 36041); skipped backlog 7 sin cambios; revisados 1 (nuevo); pendientes para manana 0\n- 36441 Colombia's Consejo de Estado Orders New Drug Policy Framework: needs_edit\n  - 8 correcciones de hecho (mas de 5, y 2 caen en el lead); titulo sin tocar; todas aplicables con 1 coincidencia, diff OK; sin ronda 2\n  - lead: es un fallo de 2da instancia (17-09) que confirma, con modificaciones, el del Tribunal Administrativo de Cundinamarca del 12-12-2024\n  - lead y Regulators: INVIMA no es 'required participant'; esta en el nucleo de la mesa con MinSalud (que la preside) y la CNPMDM\n  - recuadro: se borra 'the most recent regulatory action before the court order' (la Circular 23 salio el 16-07-2026)\n  - timeline: nombre de la CNPMDM inventado -> el oficial; Circular 18 = metodologia de control directo (no 'supply'); Auto 140/2019 = seguimiento de la orden 24 de la T-760 (sobrecostos de medicamentos)\n  - borrado: 'whether INVIMA's participation is advisory or decision-making' (What to Watch) y la frase del recuadro\n  - sin verificar: cita entre comillas de la Ley 1751, 'next scheduled review', Decreto 433 como 'prerequisite' (silencio positivo a 180 dias), produccion local no operacionalizada, fecha del kicker 12-10 (el fallo es del 17-09)\n  - postura: no publicar tal cual; publicable tras aplicar los 8 y sumar 3 URLs a hs-sources. Lo ideal es correr la ronda 2 despues de aplicar\n  - Drive: https://drive.google.com/file/d/1xs84QNj_8634ZbguXaebAyyCbmMvt-D0/view\n- limpieza: nada que borrar (Drive solo tiene el archivo vigente; sin REPORT ni registros de mas de 30 dias)\nPara aplicar y publicar, decile a Claude en un chat: aplicar gate <ID>. La sesión que aplique relee el post, rechaza si su modified es distinto del wp_modified del archivo, aplica los reemplazos con código, verifica el diff y publica solo con OK de Fer.",
+      "run_id": "20261013-0658",
+      "state": "passed",
+      "title": "REPORT",
+      "updated_at": "2026-10-13T07:06:19-04:00"
+    },
+    "key": "REPORT-20261013-0658"
+  },
+  {
+    "data": {
+      "notes": "- sin fallos de acceso, aprobaciones ni bloqueos\n- aviso: REPORT-20261009-0659 y REPORT-20261001-0658 siguen 'iniciada, sin terminar' (corridas viejas caidas, ya reportadas)\n- run_id 20261014-0659\n- borradores vistos 13 (mismos que ayer); excluidos 5 (Weekly 36411, 36146, 35939, 35772; post 36041); skipped backlog 7 sin cambios (wp_modified igual); 36441 sigue needs_edit sin edicion (wp_modified 2026-10-12T15:13:57 igual); sin locks in_review; pendientes para manana 0\n- 0 borradores pendientes, no se reviso ninguno\n- limpieza: nada que borrar (Drive solo tiene 36441-2026-10-12T15:13:57-hallazgos.md, vigente; sin REPORT ni registros de mas de 30 dias)\nPara aplicar y publicar, decile a Claude en un chat: aplicar gate <ID>. La sesión que aplique relee el post, rechaza si su modified es distinto del wp_modified del archivo, aplica los reemplazos con código, verifica el diff y publica solo con OK de Fer.",
+      "run_id": "20261014-0659",
+      "state": "passed",
+      "title": "REPORT",
+      "updated_at": "2026-10-14T06:59:41-04:00"
+    },
+    "key": "REPORT-20261014-0659"
+  },
+  {
+    "data": {
+      "notes": "- sin fallos de acceso, aprobaciones ni bloqueos\n- aviso: REPORT-20261009-0659 y REPORT-20261001-0658 siguen 'iniciada, sin terminar' (corridas viejas caidas, ya reportadas)\n- run_id 20261015-0658\n- borradores vistos 13 (mismos que ayer); excluidos 5 (Weekly 36411, 36146, 35939, 35772; post 36041); skipped backlog 7 sin cambios (wp_modified igual); 36441 sigue needs_edit sin edicion (wp_modified 2026-10-12T15:13:57 igual); sin locks in_review; pendientes para manana 0\n- 0 borradores pendientes, no se reviso ninguno\n- limpieza: nada que borrar (Drive solo tiene 36441-2026-10-12T15:13:57-hallazgos.md, vigente; sin REPORT ni registros de mas de 30 dias)\nPara aplicar y publicar, decile a Claude en un chat: aplicar gate <ID>. La sesión que aplique relee el post, rechaza si su modified es distinto del wp_modified del archivo, aplica los reemplazos con código, verifica el diff y publica solo con OK de Fer.",
+      "run_id": "20261015-0658",
+      "state": "passed",
+      "title": "REPORT",
+      "updated_at": "2026-10-15T06:58:40-04:00"
+    },
+    "key": "REPORT-20261015-0658"
+  },
+  {
+    "data": {
+      "notes": "- sin fallos de acceso, aprobaciones ni bloqueos\n- aviso: REPORT-20261009-0659 y REPORT-20261001-0658 siguen 'iniciada, sin terminar' (corridas viejas caidas, ya reportadas)\n- run_id 20261016-0658\n- borradores vistos 14; excluidos 5 (Weekly 36411, 36146, 35939, 35772; post 36041); skipped backlog 7 sin cambios; 36441 sigue needs_edit sin edicion; revisados 1 (nuevo); pendientes para manana 0\n- 36447 Heriberto Garcia Escorza: 'Registration is not a financial process' (VOICES, CL): hold\n  - r1 PUBLISH AFTER EDIT, r2 HOLD; 4 correcciones de hecho, todas aplicables con 1 coincidencia, diff OK; titulo y dek sin tocar; se agrega hs-sources (14 URLs)\n  - pregunta 1: el procedimiento de reliance 2025 es solo para biologicos -> '...abroad when registering biological medicines'\n  - pregunta ASILFA: 543/695 dias los dio la diputada Macarena Santelices en un seminario coorganizado por ASILFA (ronda 2, sin re-verificar)\n  - contexto: 'cuts its fund by 14%' -> 'by about 14% in real terms' (nominal da -12%) (ronda 2, sin re-verificar)\n  - nota del editor: 'six largest Latin American markets' -> 'economies' (ronda 2, sin re-verificar)\n  - borrado: nada\n  - motivo del hold: bio sin fuente ('acting director' del ISP, la WHO dice 'appointed'; ANAMED hasta 2024; cargo en la UDD). Conflicto r1/r2 sobre 'since 2021' de Ricarte Soto (r2: ultimas patologias en 2019, pausa desde 2021) y el +4,7% de salud (r1 lo verifica en pauta.cl, r2 no)\n  - sin verificar: 'pharmacy retail data' y ProlMed como asociacion de productores locales (el paper dice 'ProlMed AG'); IMS 2018; en respuestas: nirsevimab 2023 en 6 meses, IMDRF 2023, regla de biosimilares, nitrosaminas y 'toxicity is chronic'. Meta description vacia\n  - postura: no publicar; confirmar la bio con el entrevistado y resolver 'since 2021' antes de aplicar los 4\n  - Drive: https://drive.google.com/file/d/1S_9UKDsfbptM64MUGigzqPefNvgROmQm/view\n- limpieza: nada que borrar (Drive tiene 36441 y 36447, vigentes; sin REPORT ni registros de mas de 30 dias)\nPara aplicar y publicar, decile a Claude en un chat: aplicar gate <ID>. La sesión que aplique relee el post, rechaza si su modified es distinto del wp_modified del archivo, aplica los reemplazos con código, verifica el diff y publica solo con OK de Fer.",
+      "run_id": "20261016-0658",
+      "state": "passed",
+      "title": "REPORT",
+      "updated_at": "2026-10-16T07:11:23-04:00"
+    },
+    "key": "REPORT-20261016-0658"
+  },
+  {
+    "data": {
+      "notes": "- sin fallos de acceso, aprobaciones ni bloqueos\n- aviso: REPORT-20261009-0659 y REPORT-20261001-0658 siguen 'iniciada, sin terminar' (corridas viejas caidas, ya reportadas)\n- run_id 20261017-0658\n- borradores vistos 14 (mismos que ayer); excluidos 5 (Weekly 36411, 36146, 35939, 35772; post 36041); skipped backlog 7 sin cambios (wp_modified igual); 36441 sigue needs_edit y 36447 sigue hold, ambos sin edicion (wp_modified igual); sin locks in_review; pendientes para manana 0\n- 0 borradores pendientes, no se reviso ninguno\n- limpieza: nada que borrar (Drive tiene 36441 y 36447, vigentes; sin REPORT ni registros de mas de 30 dias)\nPara aplicar y publicar, decile a Claude en un chat: aplicar gate <ID>. La sesión que aplique relee el post, rechaza si su modified es distinto del wp_modified del archivo, aplica los reemplazos con código, verifica el diff y publica solo con OK de Fer.",
+      "run_id": "20261017-0658",
+      "state": "passed",
+      "title": "REPORT",
+      "updated_at": "2026-10-17T06:58:53-04:00",
+      "wp_modified": null
+    },
+    "key": "REPORT-20261017-0658"
+  },
+  {
+    "data": {
+      "notes": "- sin fallos de acceso, aprobaciones ni bloqueos\n- aviso: 36447 (Garcia Escorza, estaba en hold) ahora esta programado (future, modified 17-10 15:15); el gate no lo re-reviso. REPORT-20261009-0659 y -20261001-0658 siguen 'sin terminar' (ya reportadas)\n- run_id 20261018-0658\n- borradores vistos 15; excluidos 5 (Weekly 36411, 36146, 35939, 35772; post 36041); skipped backlog 7 sin cambios; 36441 sigue passed (aplicado con Fer 17-10, sin edicion); revisados 2 (nuevos); pendientes para manana 0\n- 36488 Mexico's Mental Health Budget Gap: needs_edit\n  - 12 correcciones de hecho (r1, sin r2); titulo y lead sin tocar; todas con 1 coincidencia, diff OK\n  - los ~5M son prevalencia nacional, no caseload de IMSS (metadesc e Industry)\n  - el 77.9% es de PAHO, no del Atlas 2024 (x2); en metadesc 'above 77.9%'\n  - suicidio: 'up 17% since 2000' (no 2000-2021)\n  - jovenes: ansiedad, conducta y desarrollo (no solo ansiedad)\n  - '2.1% across multiple budget cycles' sin sustento -> reescrito con el ~3% de CD60/9\n  - borrado: rango 0.2% Bolivia / 8.6% Suriname (sin fuente) y 'within that range'\n  - sin verificar: kicker 17-10 sobre nota Infobae del 20-05; 60% ansiedad digital; 42% (Atlas no leido); celda Mexico vacia en la tabla\n  - postura: no publicar tal cual; publicable tras aplicar los 13 y resolver la fecha\n  - Drive: https://drive.google.com/file/d/1RKvJXmrzvVbiZhev-W7ecAZusdlgm6c2/view\n- 36460 Andres Pichon-Riviere (VOICES, AR): needs_edit\n  - 2 correcciones de hecho; una en la bio: INAHTA 2010-2014 (no 2011)\n  - borrado: grant BID de $800.000 (sin fuente)\n  - metadesc: expandir IECS; se agrega hs-sources (8 URLs)\n  - sin verificar: co-direccion del centro OPS/OMS, 'principal researcher' CONICET, cita de abril 2025, 'still not operating', FSR/recaudacion, objecion CILFA, RedARETS 2012\n  - postura: publicable tras aplicar los 2 y hs-sources\n  - Drive: https://drive.google.com/file/d/1yBsl3_H66BZj3FXPYs2lyPjhO7GHcCEi/view\n- limpieza: a la papelera 36447-2026-10-15T16:45:11-hallazgos.md; nada mas\nPara aplicar y publicar, decile a Claude en un chat: aplicar gate <ID>. La sesión que aplique relee el post, rechaza si su modified es distinto del wp_modified del archivo, aplica los reemplazos con código, verifica el diff y publica solo con OK de Fer.",
+      "run_id": "20261018-0658",
+      "state": "passed",
+      "title": "REPORT",
+      "updated_at": "2026-10-18T07:08:30-04:00"
+    },
+    "key": "REPORT-20261018-0658"
+  },
+  {
+    "data": {
+      "notes": "- FALLO Drive: la carpeta 1ZpyZmnptFufBlsseJkdyxyDStjafzwgm y los archivos 1RKvJX... (36488) y 1yBsl3... (36460) dan 'not found'; search devuelve vacio. Posible cuenta de Drive distinta o archivos movidos. No se pudo hacer la limpieza de Drive\n- aviso: 36460 (Pichon-Riviere, estaba needs_edit) ahora esta programado (future, modified 18-10 09:21); el gate no lo re-reviso. 36447 sigue future (ya reportado). REPORT-20261009-0659 y -20261001-0658 siguen 'sin terminar'\n- run_id 20261019-0658\n- borradores vistos 14; excluidos 5 (Weekly 36411, 36146, 35939, 35772; post 36041); skipped backlog 7 sin cambios; 36488 sigue needs_edit y 36441 sigue passed, ambos sin edicion (wp_modified igual); sin locks in_review; pendientes para manana 0\n- 0 borradores pendientes, no se reviso ninguno\n- limpieza: Make sin REPORT ni registros de mas de 30 dias; Drive no se pudo (36460-...-hallazgos.md deberia ir a la papelera)\nPara aplicar y publicar, decile a Claude en un chat: aplicar gate <ID>. La sesión que aplique relee el post, rechaza si su modified es distinto del wp_modified del archivo, aplica los reemplazos con código, verifica el diff y publica solo con OK de Fer.",
+      "run_id": "20261019-0658",
+      "state": "passed",
+      "title": "REPORT",
+      "updated_at": "2026-10-19T07:03:00-04:00",
+      "wp_modified": null
+    },
+    "key": "REPORT-20261019-0658"
+  },
+  {
+    "data": {
+      "notes": "- sin fallos de acceso, aprobaciones ni bloqueos; Drive volvio a responder (ayer daba not found)\n- aviso: REPORT-20261009-0659 y -20261001-0658 siguen 'sin terminar' (corridas viejas, ya reportadas)\n- run_id 20261020-0659\n- borradores vistos 14 (mismos que ayer); excluidos 5 (Weekly 36411, 36146, 35939, 35772; post 36041); skipped backlog 7 sin cambios; 36488 sigue needs_edit y 36441 sigue passed, ambos sin edicion (wp_modified igual); sin locks in_review; pendientes para manana 0\n- 0 borradores pendientes, no se reviso ninguno\n- limpieza: a la papelera de Drive 36460-2026-10-17T21:05:24-hallazgos.md (post ya no esta en draft; pendiente de ayer); registros 36460 y 36447 se conservan (menos de 30 dias); sin REPORT ni registros de mas de 30 dias\nPara aplicar y publicar, decile a Claude en un chat: aplicar gate <ID>. La sesión que aplique relee el post, rechaza si su modified es distinto del wp_modified del archivo, aplica los reemplazos con código, verifica el diff y publica solo con OK de Fer.",
+      "run_id": "20261020-0659",
+      "state": "passed",
+      "title": "REPORT",
+      "updated_at": "2026-10-20T07:01:30-04:00"
+    },
+    "key": "REPORT-20261020-0659"
+  },
+  {
+    "data": {
+      "notes": "- sin fallos de acceso, aprobaciones ni bloqueos; STATE.md leido sin choques con el prompt\n- aviso: REPORT-20261009-0659 y -20261001-0658 siguen 'sin terminar' (corridas viejas, ya reportadas)\n- run_id 20261021-0659\n- borradores vistos 14 (mismos que ayer; el Publisher de 06:40 no dejo borrador nuevo); excluidos 5 (Weekly 36411, 36146, 35939, 35772; post 36041); skipped backlog 7 sin cambios; 36488 sigue needs_edit y 36441 sigue passed, ambos sin edicion (wp_modified igual); sin locks in_review; pendientes para manana 0\n- 0 borradores pendientes, no se reviso ninguno\n- limpieza: nada que borrar (Drive tiene 36488 y 36441, vigentes; sin REPORT ni registros de mas de 30 dias)\nPara aplicar y publicar, decile a Claude en un chat: aplicar gate <ID>. La sesión que aplique relee el post, rechaza si su modified es distinto del wp_modified del archivo, aplica los reemplazos con código, verifica el diff y publica solo con OK de Fer.",
+      "run_id": "20261021-0659",
+      "state": "passed",
+      "title": "REPORT",
+      "updated_at": "2026-10-21T07:01:00-04:00",
+      "wp_modified": null
+    },
+    "key": "REPORT-20261021-0659"
+  },
+  {
+    "data": {
+      "notes": "- sin fallos de acceso, aprobaciones ni bloqueos; STATE.md leido sin choques con el prompt\n- aviso: REPORT-20261009-0659 y -20261001-0658 siguen 'sin terminar' (corridas viejas, ya reportadas)\n- run_id 20261022-0659\n- borradores vistos 14 (mismos que ayer; el Publisher de 06:40 no dejo borrador nuevo); excluidos 5 (Weekly 36411, 36146, 35939, 35772; post 36041); skipped backlog 7 sin cambios; 36488 sigue needs_edit y 36441 sigue passed, ambos sin edicion (wp_modified igual); sin locks in_review ni failed; pendientes para manana 0\n- 0 borradores pendientes, no se reviso ninguno\n- limpieza: nada que borrar (Drive tiene 36488 y 36441, vigentes; sin REPORT ni registros de mas de 30 dias)\nPara aplicar y publicar, decile a Claude en un chat: aplicar gate <ID>. La sesión que aplique relee el post, rechaza si su modified es distinto del wp_modified del archivo, aplica los reemplazos con código, verifica el diff y publica solo con OK de Fer.",
+      "run_id": "20261022-0659",
+      "state": "passed",
+      "title": "REPORT",
+      "updated_at": "2026-10-22T07:01:00-04:00"
+    },
+    "key": "REPORT-20261022-0659"
+  },
+  {
+    "data": {
+      "notes": "- FALLO Drive: create_file en la carpeta 1ZpyZmnptFufBlsseJkdyxyDStjafzwgm da 'Requested entity was not found' y search devuelve vacio (igual que el 19-10). No se guardo el archivo de hallazgos de 36552 ni se pudo limpiar Drive\n- STATE.md leido, sin choques con el prompt\n- run_id 20261023-0700\n- borradores vistos 13; excluidos 5 (Weekly 36411, 36146, 35939, 35772; post 36041); skipped backlog 7 sin cambios; revisados 1 (nuevo); pendientes para manana 0 (36552 vuelve a pending por reintento)\n- 36488 y 36441 ya no estan en draft: publicados el 22-10\n- 36552 Moderna and Liomont Strike Mexico mRNA Supply and Manufacturing Deal: failed (intento 1, por Drive); resultado de r1 = HOLD, sin r2\n  - motivo del hold: noticia vieja. El MOU se firmo el 9-02-2026 (comunicado de Moderna 10-02) y el kicker dice 22-10-2026; lo mas nuevo es El Pais del 28-05. Falta gancho de octubre o reencuadre como analisis\n  - 10 correcciones de hecho (todas con 1 coincidencia): fecha timeline 2026-02-10 -> 02-09; la adjudicacion de 10M dosis ya estaba otorgada, no es compromiso futuro (recuadro, cuerpo, timeline, excerpt); dengue 2024 123.283/855 PUIREE -> 125.160/478 DGE; RSV 'the pathogen responsible for viral pneumonia' -> 'a virus that can cause pneumonia'; Makary renuncio el 12-05-2026 ('Then-FDA Commissioner'); cita de Bancel recortada a lo literal; 'vaccine and biopharmaceutical' -> 'multinational and domestic pharmaceutical'\n  - sigla: BIRMEX no es 'Instituto de Salud para el Bienestar'\n  - borrado: nada\n  - sin verificar: cita de Sheinbaum 'consolidate as a global platform...' (riesgo alto, no esta en el comunicado oficial), Kershenobich presente, RSV como investigacion mexicana, 10M dosis vs 10M anuales 2025-2030, Sanofi 100%\n  - postura: no publicar\n  - Drive: sin archivo (fallo); resumen en notes del registro 36552\n- limpieza: Make sin REPORT ni registros de mas de 30 dias; Drive no se pudo (36488 y 36441 deberian ir a la papelera)\nPara aplicar y publicar, decile a Claude en un chat: aplicar gate <ID>. La sesión que aplique relee el post, rechaza si su modified es distinto del wp_modified del archivo, aplica los reemplazos con código, verifica el diff y publica solo con OK de Fer.",
+      "run_id": "20261023-0700",
+      "state": "passed",
+      "title": "REPORT",
+      "updated_at": "2026-10-23T07:09:30-04:00",
+      "wp_modified": null
+    },
+    "key": "REPORT-20261023-0700"
+  },
+  {
+    "data": {
+      "notes": "- FALLO Drive (3ra vez: 19-10, 23-10, hoy): la carpeta 1ZpyZmnptFufBlsseJkdyxyDStjafzwgm da 'not found' y search de 'hallazgos' vuelve vacio. El conector de Drive parece estar en otra cuenta de Google que no ve la carpeta. Sin archivo de hallazgos ni limpieza de Drive\n- 36552 queda failed intento 2: manana va por el 3ro y, con Drive asi, falla igual\n- STATE.md leido, sin choques con el prompt\n- run_id 20261024-0659\n- borradores vistos 13; excluidos 5 (Weekly 36411, 36146, 35939, 35772; post 36041); skipped backlog 7 sin cambios; revisados 1 (36552, reintento); pendientes para manana 0\n- 36552 Moderna and Liomont Strike Mexico mRNA Supply and Manufacturing Deal: failed (Drive); resultado de r1 = HOLD, sin r2\n  - hold: noticia vieja. MOU firmado 9-02-2026, kicker 22-10-2026, no aparece nada mas nuevo. Coincide con la r1 de ayer\n  - 10 correcciones de hecho, mas de 5 (todas con 1 coincidencia en el HTML; la fecha va sobre <p class='hs-tl-date'>2026-02-10):\n    - fecha 02-10 -> 02-09\n    - RSV: 'which she described as the virus that causes pneumonia'\n    - dengue 2024: 123.283/855 PUIREE -> 125.160/478 DGE\n    - cita de Sheinbaum 'consolidate as a global platform...': no aparece (frase parecida de Opella) -> la cambia por cita de gob.mx\n    - planta Sanofi: no es basal, son insulinas de 1ra/2da generacion y rapida\n    - Makary: 'Then-FDA Commissioner', renuncio 12-05-2026\n    - recorte de HHS: 'in 2025' (mRNA vaccine research)\n    - timeline: 'pharmaceutical and medical-device producers'\n    - Spikevax: 'for individuals aged 6 months and older'\n    - 'most operationally specific commitment' -> 'is tied to' (sin cita, dudoso)\n  - sigla: BIRMEX no es 'Instituto de Salud para el Bienestar'\n  - fuentes: falta link al comunicado de Moderna (newswire)\n  - pipeline: la fecha del kicker\n  - borrado: nada\n  - sin verificar: si la compra de 10M (adjudicada a Medistik) se ejecuto; 'five years after' (son casi 6); descripcion de Plan Mexico; los 100% de Sanofi son proyeccion; El Pais y Reuters bloqueados (confirmado por copias)\n  - postura: no publicar. Necesita gancho de octubre o reencuadre como analisis\n  - Drive: sin archivo (fallo); resumen en notes de 36552\n- limpieza: Make sin REPORT ni registros de mas de 30 dias; Drive no se pudo (36488 y 36441 siguen pendientes de la papelera)\nPara aplicar y publicar, decile a Claude en un chat: aplicar gate <ID>. La sesión que aplique relee el post, rechaza si su modified es distinto del wp_modified del archivo, aplica los reemplazos con código, verifica el diff y publica solo con OK de Fer.",
+      "run_id": "20261024-0659",
+      "state": "passed",
+      "title": "REPORT",
+      "updated_at": "2026-10-24T07:06:30-04:00"
+    },
+    "key": "REPORT-20261024-0659"
+  },
+  {
+    "data": {
+      "notes": "- FALLO Drive (4ta vez: 19-10, 23-10, 24-10, hoy): la carpeta 1ZpyZmnptFufBlsseJkdyxyDStjafzwgm da 'not found' (metadata, search y create_file). El conector de Drive no ve la carpeta, probablemente esta conectado con otra cuenta. Sin archivo de hallazgos y sin limpieza de Drive. Hasta que se arregle, cada post revisado termina failed\n- STATE.md leido, sin choques con el prompt\n- run_id 20261025-0659\n- borradores vistos 13; excluidos 5 (Weekly 36411, 36146, 35939, 35772; post 36041); skipped backlog 7 sin cambios; revisados 1; pendientes para manana 0 (36552 reintenta por failed)\n- 36552 Moderna and Liomont Sign Mexico Licensing Deal as BIRMEX Awards Up to US$1.75 Billion Contract: failed intento 1, por Drive. Fue reescrito el 24-10, asi que el contador de intentos arranca de nuevo. Sin la falla de Drive quedaba passed\n  - el gancho de octubre ya esta resuelto: acuerdo Moderna-Liomont (enFarma 13-10) y adjudicacion directa BIRMEX de US$700M a 1.75bn (El Imparcial 11-10)\n  - r1 PUBLISH AFTER EDIT, 4 correcciones de hecho, todas con 1 coincidencia; diff OK; titulo y lead sin tocar\n    - sacar 'mRNA' del contrato BIRMEX en 3 lugares (p3, recuadro, timeline): las fuentes no dicen que el producto contratado sea de ARNm\n    - 'Laboratorios Kener, Sanofi, Bayer, Vazol Farma and Opella' pasa a 'Laboratorios Kener (part of Grupo Vazol), Sanofi, Bayer and Opella' (fuente: Expansion)\n  - r2 PUBLISH AFTER EDIT: expandir BIRMEX en el excerpt (sigla; ronda 2, sin re-verificar)\n  - descartado: un hallazgo 'pipeline' de r1 era un marcador del prompt del gate, no estaba en el post\n  - borrado: nada\n  - sin verificar en las 2 rondas (Executive Forecast da error): todo lo de Rimoch (julio; suministro local 2027-2028; ARNm operativo 2028; contratos de largo plazo). Aparece en el cuerpo, en el cierre y en Patients. El Pais, Reuters y El Universal estan bloqueados, pero se confirmaron con copias. Las citas de Saglio y Valentinotti son traducciones fieles. 'Palacio Nacional' solo aparece como 'anuncio desde'\n  - opcional: sumar el link de Expansion a hs-sources\n  - postura: publicar despues de aplicar los 5 reemplazos, si Fer confirma lo de Rimoch en Executive Forecast; si no, borrar esas frases antes\n  - Drive: sin archivo (fallo); resumen en notes del registro 36552\n- limpieza: en Make no hay REPORT ni registros de mas de 30 dias. Drive no se pudo: 36488 y 36441 siguen pendientes de ir a la papelera\nPara aplicar y publicar, decile a Claude en un chat: aplicar gate <ID>. La sesión que aplique relee el post, rechaza si su modified es distinto del wp_modified del archivo, aplica los reemplazos con código, verifica el diff y publica solo con OK de Fer.",
+      "run_id": "20261025-0659",
+      "state": "passed",
+      "title": "REPORT",
+      "updated_at": "2026-10-25T07:08:30-04:00"
+    },
+    "key": "REPORT-20261025-0659"
+  },
+  {
+    "data": {
+      "notes": "- FALLO Drive (5ta vez: 19, 23, 24, 25 y 26-10): la carpeta 1ZpyZmnptFufBlsseJkdyxyDStjafzwgm da 'Requested entity was not found' (metadata y create_file) y la busqueda vuelve vacia. El conector de Drive no ve la carpeta, probablemente esta conectado con otra cuenta de Google. No se guardo el archivo de hallazgos y no hubo limpieza de Drive\n- 36552 queda failed, intento 2. Manana va por el 3er y ultimo intento; si Drive sigue igual, queda failed definitivo\n- STATE.md leido, sin choques con el prompt\n- run_id 20261026-0659\n- borradores vistos 13 (mismos que ayer; el Publisher no dejo nada nuevo); excluidos 5 (Weekly 36411, 36146, 35939, 35772; post 36041); skipped backlog 7 sin cambios; revisados 1 (36552, reintento); pendientes para manana 0\n- 36552 Moderna and Liomont Sign Mexico Licensing Deal as BIRMEX Awards Up to US$1.75 Billion Contract: failed por Drive. Sin esa falla quedaba passed\n  - r1 PUBLISH AFTER EDIT, 3 correcciones de hecho, todas con 1 coincidencia, diff OK. Titulo y lead sin tocar; ya tenia hs-sources\n    - se saca 'Vazol Farma' de la lista de inversiones del 28-05, porque Kener es de Grupo Vazol (Expansion): 'Sanofi, Bayer, Vazol Farma and Opella' pasa a 'Sanofi, Bayer and Opella'\n    - excerpt: \"for Mexico's COVID-19 vaccines, with\" pasa a \"for Moderna's COVID-19 vaccine in Mexico, with\" (enFarma)\n    - metadesc: el mismo cambio\n  - r2 PUBLISH, sin hallazgos. Confirma montos, fechas, citas, Medistik, ComprasMX y Makary/BioSpace\n  - conflicto con la corrida de ayer: la r1 del 25-10 pedia sacar 'mRNA' del contrato BIRMEX en 3 lugares. Hoy ninguna ronda lo marco, y la r2 da el contrato por confirmado con El Imparcial. Decide Fer\n  - borrado: nada\n  - sin verificar: todo lo de Rimoch en Executive Forecast (julio, 2027-2028, 2028, 'long-term contracts'; el sitio esta bloqueado), 'at Palacio Nacional', Medistik como 'distributor', 'more than 21 billion pesos' (la suma da ~20 mil millones), y que COFEPRIS deba autorizar la planta (inferencia sin fuente)\n  - postura: publicar despues de aplicar los 3 reemplazos, si Fer confirma lo de Rimoch; si no, borrar esas frases\n  - Drive: sin archivo (fallo); los reemplazos estan en notes del registro 36552\n- limpieza: en Make no hay REPORT ni registros de mas de 30 dias. Drive no se pudo: 36488 y 36441 siguen pendientes de ir a la papelera\nPara aplicar y publicar, decile a Claude en un chat: aplicar gate <ID>. La sesión que aplique relee el post, rechaza si su modified es distinto del wp_modified del archivo, aplica los reemplazos con código, verifica el diff y publica solo con OK de Fer.",
+      "run_id": "20261026-0659",
+      "state": "passed",
+      "title": "REPORT",
+      "updated_at": "2026-10-26T07:08:00-04:00"
+    },
+    "key": "REPORT-20261026-0659"
+  },
+  {
+    "data": {
+      "notes": "- 36552 en su 3er fallo, queda failed definitivo. Causa: Drive. La carpeta 1ZpyZmnptFufBlsseJkdyxyDStjafzwgm sigue dando 'Requested entity was not found' en metadata y en create_file (6ta vez: 19, 23, 24, 25, 26 y 27-10). El conector de Drive no ve la carpeta. Hay que reconectarlo con la cuenta duena de la carpeta, o compartirla con la cuenta conectada. Sin eso, todo post revisado termina failed. Sin archivo de hallazgos y sin limpieza de Drive\n- STATE.md leido, sin choques con el prompt\n- run_id 20261027-0659\n- borradores vistos 13 (el Publisher no dejo nada nuevo); excluidos 5 (Weekly 36411, 36146, 35939, 35772; post 36041); skipped backlog 7 sin cambios; revisados 1 (36552, 3er intento); pendientes para manana 0\n- 36552 Moderna and Liomont Sign Mexico Licensing Deal as BIRMEX Awards Up to US$1.75 Billion Contract: failed por Drive. Sin esa falla quedaba passed\n  - 4 correcciones de hecho, todas con 1 coincidencia. Diff OK (revertir los 4 reemplazos devuelve el original exacto). Titulo y lead sin tocar; ya tenia hs-sources\n  - r1: 'The Moderna–Liomont partnership was signed under Plan Mexico' pasa a 'Moderna described the February MOU as aligned with Plan Mexico' (comunicado de Moderna)\n  - r2 (sin re-verificar): sacar 'mRNA ' del contrato BIRMEX en p3, recuadro y timeline: 'contract for mRNA COVID-19 vaccine worth', 'Liomont for mRNA COVID-19 vaccine, running', 'award for mRNA COVID-19 vaccine, worth'. El Imparcial no dice ARNm. Coincide con la r1 del 25-10\n  - conflicto con ayer: la r1 de hoy confirma 'Vazol Farma' en la lista del 28-05 (Excelsior, SRE), y ayer se pedia sacarla. Hoy no se toca. Excerpt/metadesc sin cambios hoy (ayer: \"Mexico's COVID-19 vaccines\" -> \"Moderna's COVID-19 vaccine in Mexico\"). Decide Fer\n  - borrado: nada\n  - sin verificar: Rimoch en Executive Forecast (julio, 2027-2028, 2028, 'long-term contracts'), 4 apariciones, pagina no carga. Tampoco: que COFEPRIS deba autorizar la planta (sin fuente), El Pais y Reuters bloqueados (contenido confirmado por otros medios)\n  - postura: publicar despues de los 4 reemplazos si Fer confirma lo de Rimoch; si no, borrar esas frases\n  - Drive: sin archivo (fallo). Los reemplazos estan en notes del registro 36552\n- limpieza: en Make no hay REPORT ni registros de mas de 30 dias. En Drive no se pudo: 36488 y 36441 siguen pendientes de ir a la papelera\nPara aplicar y publicar, decile a Claude en un chat: aplicar gate <ID>. La sesión que aplique relee el post, rechaza si su modified es distinto del wp_modified del archivo, aplica los reemplazos con código, verifica el diff y publica solo con OK de Fer.",
+      "run_id": "20261027-0659",
+      "state": "failed",
+      "title": "REPORT",
+      "updated_at": "2026-10-27T07:08:58-04:00"
+    },
+    "key": "REPORT-20261027-0659"
+  },
+  {
+    "data": {
+      "notes": "- FALLO Drive (7ma vez): search_files en la carpeta 1ZpyZmnptFufBlsseJkdyxyDStjafzwgm y por titulo 'hallazgos' devuelve vacio; el conector no ve la carpeta ni los archivos. Hay que reconectar Drive con la cuenta duena o compartir la carpeta. Hasta eso, todo post revisado termina failed\n- 36552 (Moderna/Liomont) sigue failed definitivo (intento 3, mismo wp_modified 2026-10-24T15:46:44): no se reintenta. Los reemplazos estan en notes de su registro y en REPORT-20261027-0659\n- STATE.md leido, sin choques con el prompt\n- run_id 20261028-0659\n- borradores vistos 13 (nada nuevo del Publisher); excluidos 5 (Weekly 36411, 36146, 35939, 35772; post 36041); skipped backlog 7 sin cambios; failed 1 (36552); 0 borradores pendientes, no se reviso ninguno; pendientes para manana 0\n- limpieza: en Make nada con mas de 30 dias (REPORT-20260930 tienen 28 dias; 36117 y los demas publicados tienen menos de 30). Drive no se pudo: 36488 y 36441 siguen pendientes de papelera\nPara aplicar y publicar, decile a Claude en un chat: aplicar gate <ID>. La sesión que aplique relee el post, rechaza si su modified es distinto del wp_modified del archivo, aplica los reemplazos con código, verifica el diff y publica solo con OK de Fer.",
+      "run_id": "20261028-0659",
+      "state": "report",
+      "title": "REPORT",
+      "updated_at": "2026-10-28T07:00:32-04:00"
+    },
+    "key": "REPORT-20261028-0659"
+  },
+  {
+    "data": {
+      "notes": "- FALLO Drive (8va vez): search_files con parentId de la carpeta 1ZpyZmnptFufBlsseJkdyxyDStjafzwgm devuelve vacio; el conector no ve la carpeta. Hay que reconectar Drive con la cuenta duena o compartir la carpeta. Hasta eso, todo post revisado termina failed\n- 36552 (Moderna/Liomont) sigue failed definitivo (intento 3, mismo wp_modified 2026-10-24T15:46:44): no se reintenta. Reemplazos en notes de su registro y en REPORT-20261027-0659\n- STATE.md leido, sin choques con el prompt\n- run_id 20261029-0659\n- borradores vistos 13 (nada nuevo del Publisher, 5to dia seguido); excluidos 5 (Weekly 36411, 36146, 35939, 35772; post 36041); skipped backlog 7 sin cambios; failed 1 (36552); 0 borradores pendientes, no se reviso ninguno; pendientes para manana 0\n- limpieza: en Make nada con mas de 30 dias (REPORT-20260930 tienen 28.7 dias; registros de publicados son de oct). Drive no se pudo: 36488 y 36441 siguen pendientes de papelera\nPara aplicar y publicar, decile a Claude en un chat: aplicar gate <ID>. La sesión que aplique relee el post, rechaza si su modified es distinto del wp_modified del archivo, aplica los reemplazos con código, verifica el diff y publica solo con OK de Fer.",
+      "run_id": "20261029-0659",
+      "state": "report",
+      "title": "REPORT",
+      "updated_at": "2026-10-29T06:59:44-04:00",
+      "wp_modified": null
+    },
+    "key": "REPORT-20261029-0659"
+  },
+  {
+    "data": {
+      "notes": "- FALLO Drive (9na vez): get_file_metadata y create_file en la carpeta 1ZpyZmnptFufBlsseJkdyxyDStjafzwgm dan 'Requested entity was not found'. Reconectar Drive con la cuenta duena o compartir la carpeta; hasta eso todo post revisado termina failed\n- 36600 (J&J RIPTAC, nuevo de hoy) quedo failed intento 1 por Drive; el resultado del gate es HOLD (ver abajo)\n- 36552 sigue failed definitivo (intento 3, mismo wp_modified), no se reintenta\n- STATE.md leido, sin choques con el prompt\n- run_id 20261030-0659\n- borradores vistos 14; excluidos 5 (Weekly 36411, 36146, 35939, 35772; post 36041); skipped backlog 7 sin cambios; failed previo 1 (36552); revisados 1; pendientes para manana 0\n- 36600 'J&J's RIPTAC Drug Shows 59% PSA Response in Phase 1': ronda 1 HOLD, sin ronda 2. 17 hallazgos (15 de hecho, incluye titulo y lede). Clave: el 59% PSA50 es el dato de Halda en AACR-NCI-EORTC oct-2025 (22 pacientes), anterior al deal; la noticia de oct-2026 es ESMO 2026: JNJ-6143 (ex HLD-0915) PSA50 77%, PSA90 48% a 50 mg, respuesta RECIST 75% (12/16), fase 2 NCT07832292 ya iniciada (verificado en jnj.com y UroToday). Tambien: 'no published phase 1 data' falso; Akeega no es apalutamida/niraparib (x2); parafrasis de Naumovic sin respaldo; tabla dice gozetotide (es vipivotide tetraxetan); What to Watch 1-2 y 'HLD-0915 is in phase 1' desactualizados. Sin verificar: demanda Bayer pendiente, target oncologia 50B 2030, base OS de Pluvicto. Postura: no publicar; reescribir con los datos ESMO 2026. Hallazgos completos en notes del registro 36600 (Drive no disponible)\n- limpieza: nada con mas de 30 dias en Make (REPORT-20260930 tienen 29.7 dias); Drive no se pudo\nPara aplicar y publicar, decile a Claude en un chat: aplicar gate <ID>. La sesión que aplique relee el post, rechaza si su modified es distinto del wp_modified del archivo, aplica los reemplazos con código, verifica el diff y publica solo con OK de Fer.",
+      "run_id": "20261030-0659",
+      "state": "report",
+      "title": "REPORT",
+      "updated_at": "2026-10-30T07:06:00-04:00"
+    },
+    "key": "REPORT-20261030-0659"
+  },
+  {
+    "data": {
+      "notes": "- FALLO Drive (10ma vez): create_file en la carpeta 1ZpyZmnptFufBlsseJkdyxyDStjafzwgm da 'Requested entity was not found'; search_files con parentId devuelve vacio. Reconectar Drive con la cuenta duena o compartir la carpeta. Por eso los 3 revisados quedaron failed intento 1 (resultados en notes de cada registro y aca)\n- 36552 sigue failed definitivo (intento 3), no se reintenta\n- STATE.md leido, sin choques con el prompt\n- run_id 20261031-0659\n- borradores vistos 19; excluidos 5 (Weekly 36411, 36146, 35939, 35772; post 36041); skipped backlog 7 sin cambios; nuevos 5; 36600 volvio a pending; revisados 3; pendientes para manana 3 (36636, 36615, 36600)\n- Duplicado: 36647 y 36636 cubren el mismo evento (intismeran en ESMO). 36647 no tiene imagen destacada\n- 36647 'Moderna and Merck & Co. mRNA vaccine cuts melanoma recurrence risk by 42%': seria needs_edit (14 corr de hecho incl. titulo, sin r2). Cuerpo = resumen de 3 datasets ESMO, titulo solo melanoma; kicker EUROPE->GLOBAL; intismeran fue +Keytruda vs Keytruda (excerpt, metadesc, cuerpo); Imdelltra con aprobacion plena FDA desde nov-2025 (What to Watch 3 y Regulators falsos); 10-15% es SCLC total; divarasib 11.3 vs 5.0 meses. Sin verificar: ventas Krazati/Lumakras, caida de Moderna. Postura: no publicar; elegir entre 36647 y 36636\n- 36644 'ADRES Credit Line Lets Colombia's EPS Clear Drug and Procedure Debts': seria needs_edit (8 corr de hecho, sin r2). 31-03-2027 es plazo para SOLICITAR desembolsos (5 lugares); tablero del 27-10 es del Plan de Choque, no de la linea ADRES; reforma 21-07 = Fondo Unico Publico administrado por ADRES (bloque Petro saliente). Sin verificar: estado de la reforma, cita de Vesga. Postura: publicable tras los 8 reemplazos (aplican 1 vez c/u, diff OK)\n- 36640 'Argentina's Ministry of Health cuts Remediar list to six vascular drugs': seria needs_edit (r1 3 + r2 6 sin re-verificar = 9). El 128 es dato de Kreplak, no verificado (excerpt, metadesc, cuerpo); excerpt 'from September 2026' mal; 76%->76.5%; tabla pone 14.1M (2025) bajo la lista nueva; frase de pipeline en el lede -> 6 moleculas (Chequeado); borrar 'no formal challenge'. Postura: no publicar sin arreglar tabla y 128\n- Links de Drive: ninguno (Drive caido)\n- limpieza: borrados REPORT-20260930-1340/1341/1345. Drive no se pudo\nPara aplicar y publicar, decile a Claude en un chat: aplicar gate <ID>. La sesión que aplique relee el post, rechaza si su modified es distinto del wp_modified del archivo, aplica los reemplazos con código, verifica el diff y publica solo con OK de Fer.",
+      "run_id": "20261031-0659",
+      "state": "report",
+      "title": "REPORT",
+      "updated_at": "2026-10-31T07:13:00-04:00"
+    },
+    "key": "REPORT-20261031-0659"
+  },
+  {
+    "data": {
+      "notes": "- Drive sigue sin acceso (11ra vez): search_files con parentId 1ZpyZmnptFufBlsseJkdyxyDStjafzwgm devuelve vacio. Hoy no afecto revisiones (0 pendientes), solo la limpieza de Drive\n- STATE.md leido, sin choques con el prompt\n- run_id 20261101-0658\n- 0 borradores pendientes\n- borradores vistos 12; excluidos 5 (Weekly 36411, 36146, 35939, 35772; post 36041); skipped backlog 7 sin cambios (35978, 35984, 36064, 36105, 36111, 36123, 36081); revisados 0; pendientes para manana 0\n- 36600, 36615 y 36636 tienen registro pending pero ya no son borradores: publicados el 31-10 (36600 con titulo nuevo ESMO 2026). 36552, 36640, 36644 (failed) tambien publicados; 36647 en papelera. No se tocan sus registros (menos de 30 dias)\n- Fuera de alcance: 36813, 36814, 36815 programados (future) desde 01-11 00:19, no pasaron por el gate\n- limpieza Make: borrados REPORT-20261001-0658 y 36117 (publicado, mas de 30 dias). Drive no se pudo\nPara aplicar y publicar, decile a Claude en un chat: aplicar gate <ID>. La sesión que aplique relee el post, rechaza si su modified es distinto del wp_modified del archivo, aplica los reemplazos con código, verifica el diff y publica solo con OK de Fer.",
+      "run_id": "20261101-0658",
+      "state": "report",
+      "title": "REPORT",
+      "updated_at": "2026-11-01T06:59:34-05:00"
+    },
+    "key": "REPORT-20261101-0658"
+  },
+  {
+    "data": {
+      "notes": "- sin fallos de acceso, aprobaciones ni bloqueos. Drive volvio a responder (tras 11 corridas caido): archivos creados y limpieza OK\n- STATE.md leido, sin choques con el prompt\n- run_id 20261102-0658\n- borradores vistos 2; excluidos 0; skipped backlog 0 (los 7 skipped, los 4 Weekly y 36041 estan en la papelera desde 01-11); revisados 2; pendientes para manana 0\n- 36868 'Takeda and Protagonist Win FDA Nod for Rusfertide in Polycythemia Vera': needs_edit, 14 corr de hecho, sin r2. Principales: Protagonist hizo opt-out del reparto de ganancias US en abr-2026 (Fierce Biotech) -> Takeda tiene derechos globales: corregir 'global ex-US' (2 lugares), sumar el opt-out y borrar What to Watch 2; zasocitinib ya esta en Priority Review con PDUFA 1T-2027 (cuerpo y What to Watch 3, 'fiscal 2025' ya paso); endpoint 76.9% vs 32.9% es semanas 20-32, no '32 semanas'; 'FDA filing' sin fuente; fatiga atribuida a NEJM -> Reuters; excerpt '90,000 diagnosed' -> 'affecting'. Se borra: hydroxyurea (2 lugares), 'line-of-therapy restrictions... comparator approvals', 'cytoreductive therapy does not consistently address'. Sin verificar: guia Takeda 'May 2025', label FDA completo. Postura: no publicar hasta aplicar los 14; chequear el opt-out primero. Lede y titulo OK. Drive https://drive.google.com/file/d/1GLKE7uMNRTs9jcIk5GqheQGeqks47w9x/view\n- 36862 'Prati-Donaduzzi bets R$1 billion on a new 5-billion-dose plant': needs_edit, 6 corr de hecho (r1 4 + r2 2 sin re-verificar; se pasa del tope por 1). Principales: el 31% de EMS es cuota post-deal y EMS ya era lider (ronda 2, sin re-verificar); meta de 50 paises es de 2024 (cuerpo y metadesc); estrategia regulatoria la describe Exame, no Maffissoni; el R$1 bi es un ciclo que incluye la planta (stat box, ronda 2, sin re-verificar). Nada se borra. Sin verificar: Valor 2025 (4 postores, Prati no nombrada; sitio bloqueado). Diff de la ronda 1 OK. Postura: publicar tras los 6 reemplazos, son chicos; titulo, lede y aritmetica (1/2.5=40%) OK. Drive https://drive.google.com/file/d/1uVZ7qkWMOIlFpAwU9L4Low7rY8XcDao0/view\n- Aviso: 36868 tenia modified 06:58:38, 13 s antes del arranque (lo acababa de crear el Publisher); no cambio durante la revision\n- Registros 36600, 36615, 36636 siguen pending pero ya estan publicados (<30 dias, no se tocan)\n- limpieza Make: borrados REPORT-20261002-0659, REPORT-20261003-0658, 36399 (publicado) y los 7 skipped en papelera (35978, 35984, 36064, 36105, 36111, 36123, 36081), todos >30 dias. Drive: a la papelera los hallazgos de 36441 y 36488 (ya no son draft)\nPara aplicar y publicar, decile a Claude en un chat: aplicar gate <ID>. La sesión que aplique relee el post, rechaza si su modified es distinto del wp_modified del archivo, aplica los reemplazos con código, verifica el diff y publica solo con OK de Fer.",
+      "run_id": "20261102-0658",
+      "state": "report",
+      "title": "REPORT",
+      "updated_at": "2026-11-02T07:14:00-05:00",
+      "wp_modified": null
+    },
+    "key": "REPORT-20261102-0658"
+  },
+  {
+    "data": {
+      "notes": "- sin fallos de acceso, aprobaciones ni bloqueos. Brevo no conecto (no se usa en esta tarea)\n- STATE.md leido, sin choques con el prompt\n- run_id 20261103-0659\n- borradores vistos 2; excluidos 0; skipped 1 (36868, decision de Fer, sin cambios); revisados 1; pendientes para manana 0\n- 36886 'Measles Cases in 2026 Surpass Full-Year 2025 as US Exemptions Hit Record': needs_edit, 10 corr de hecho, una en el lede, sin r2. Principales: lede atribuye a Think Global Health que EE.UU. supero 2025, pero TGH dice North America -> corregido a eso (el dato US si es cierto segun CDC/The Hill; si Fer quiere mantener US en el lede, hay que citar CDC); 'a loss would represent the third Americas-region rollback' es falso (la tercera ya fue Canada nov-2025; la region ya perdio el estatus) en What to Watch 1 y Regulators, y el Revolving Fund no tiene fuente; HHS SI apelo el 29-04 (STAT), no 'had not appealed'; ACIP no se reunio a sep-2026 (charter ya reescrito, no 'pending'); 'exemption surge predates' -> 'resurgence predates'; Bangladesh: muertes tras infecciones sospechosas. Se borra: 'The proximate driver is documented.' Se suman 3 links a hs-sources. Sin verificar: 6ta muerte en PA, England 407 (dato de abril), 18% contra el CDC primario, 'First Circuit'. Titulo y SEO title OK. Diff OK, los 11 'actual' aparecen 1 vez. Postura: no publicar hasta aplicar los 10; con eso queda publicable. Drive https://drive.google.com/file/d/12nX73ijHqGPciUtQ4_foL8wd-oKQ82gJ/view\n- Limpieza: Drive, a la papelera los hallazgos de 36862 (publicado 02-11 18:53). Make: borrado REPORT-20261004-0658 (>30 dias)\n- Registros 36600, 36615, 36636 siguen pending pero estan publicados (<30 dias, no se tocan)\nPara aplicar y publicar, decile a Claude en un chat: aplicar gate <ID>. La sesión que aplique relee el post, rechaza si su modified es distinto del wp_modified del archivo, aplica los reemplazos con código, verifica el diff y publica solo con OK de Fer.",
+      "run_id": "20261103-0659",
+      "state": "report",
+      "title": "REPORT",
+      "updated_at": "2026-11-03T07:09:00-05:00",
+      "wp_modified": null
+    },
+    "key": "REPORT-20261103-0659"
+  },
+  {
+    "data": {
+      "notes": "- sin fallos de acceso, aprobaciones ni bloqueos. Aviso: la 1ra ronda 1 de 36891 salio invalida (le llego un placeholder en vez del cuerpo); se descarto y se relanzo un subagente nuevo con el texto completo\n- STATE.md leido, sin choques con el prompt\n- data store sin lock confirmado por relectura separada: el create del registro 36891 devolvio mi run_id (clave nueva, sin competencia)\n- run_id 20261104-0658\n- borradores vistos 3; excluidos 0; skipped 1 (36868, decision de Fer); sin cambios 1 (36886 needs_edit, mismo wp_modified); revisados 1; pendientes para manana 0\n- 36891 'IHME: Global Health Funding Falls 5% in 2026, Hitting 14-Year Low': needs_edit, 13 corr de hecho, toca titulo y lede, sin r2. Principales: TGH dice 'lowest level since 2012' sobre 2025, no 2026 -> titulo, SEO title y lede; metadesc 'donor retreat accelerates' contradice la fuente (bajo de 12% a 5%); Dieleman es associate professor, no Professor; KFF habla de funding, no disbursements, y de paises que firmaron o senalaron intencion de firmar MOU; 54.1% de salud reproductiva no es OECD y no es la caida mas fuerte (malaria 60%, TB 57%); 'fastest-growing offset' no lo dice IHME; industria 'face' -> 'may face'. Se borra: el parrafo 'The deeper asymmetry...' entero (3 frases sin fuente). Se suman 3 links a hs-sources (OECD x2, IHME). Sin verificar: 'offset by domestic growth', estado del FY2027 en el Congreso, si los 9.4B FY2026 son enacted, 'WHO-hosted', 'compounding shortfalls' de excerpt/metadesc (no corregido, decide Fer). Cifras centrales por donante verificadas OK. Diff OK, los 13 'actual' aparecen 1 vez. Postura: no publicar hasta aplicar los 13; con eso queda publicable. Drive https://drive.google.com/file/d/1AE3vIbQrjQWi5sUx71Zq9yjRf1VdRYBE/view\n- Limpieza: nada para borrar en Drive ni en Make\nPara aplicar y publicar, decile a Claude en un chat: aplicar gate <ID>. La sesión que aplique relee el post, rechaza si su modified es distinto del wp_modified del archivo, aplica los reemplazos con código, verifica el diff y publica solo con OK de Fer.",
+      "run_id": "20261104-0658",
+      "state": "report",
+      "title": "REPORT",
+      "updated_at": "2026-11-04T07:07:19-05:00",
+      "wp_modified": null
+    },
+    "key": "REPORT-20261104-0658"
+  },
+  {
+    "data": {
+      "notes": "- sin fallos de acceso, aprobaciones ni bloqueos. Aviso: data-store-records_list devolvio 50 registros sin forma de paginar (tope 100 pedido); no puedo confirmar que no haya mas\n- STATE.md leido, sin choques con el prompt\n- lock 36896: create nuevo con mi run_id + update a in_review devolvio mi run_id\n- run_id 20261105-0659\n- borradores vistos 4; excluidos 0; skipped 1 (36868, decision de Fer); sin cambios 2 (36886 y 36891 needs_edit, mismo wp_modified); revisados 1; pendientes para manana 0\n- 36896 'PAHO flags very high measles risk ahead of South America gatherings': needs_edit, 13 corr de hecho (>5), sin r2, titulo y lede OK. Principales: la evaluacion de riesgo es del 8-10 (el comunicado es del 9-10), 3 lugares; What to Watch nombra Brasil, Colombia, Chile pero los encuentros son en Argentina, Peru y Uruguay; la cita de Barbosa omite '(MMR)'; kicker LATIN AMERICA -> AMERICAS (EE.UU. y Canada estan en el top 5; decide Fer); Regulators: 'Member States' -> 'countries' y 'case-finding' -> 'surveillance' (cita parafraseada). Se borra: 'primary regional procurement channel' (cuerpo e Industry), 'not deployed on short notice', 'highest-risk mobility period', 'could prove conservative' (sin fuente). Ojo: el primer borrado deja la frase de Revolving Funds sin verbo, hay que retocarla a mano. hs-sources: cambiar el link v3 (5-08, no usado) por la evaluacion del 8-10. Sin verificar: 2da frase literal de Barbosa, 4.8x (comunicado) vs 4.6x (evaluacion), 'headquartered in Washington'. Cifras centrales (55.792 casos, 77 muertes, 17 paises, 99,5%, coberturas 88/85%, 1,6 M ninos, 900 M USD / 230 M dosis) verificadas OK. Diff OK, los 14 'actual' aparecen 1 vez. Postura: no publicar hasta aplicar los 13 y arreglar esa frase; con eso queda publicable. Drive https://drive.google.com/file/d/1EQm1wCI0C2wIYBgnS37LBns7nGiUF1BY/view\n- Limpieza: Drive nada (los 3 archivos son de borradores vigentes). Make: borrados REPORT-20261005-0658 y REPORT-20261006-0658 (>30 dias)\n- Registros 36600, 36615, 36636 siguen pending pero no estan en draft (<30 dias, no se tocan)\nPara aplicar y publicar, decile a Claude en un chat: aplicar gate <ID>. La sesión que aplique relee el post, rechaza si su modified es distinto del wp_modified del archivo, aplica los reemplazos con código, verifica el diff y publica solo con OK de Fer.",
+      "run_id": "20261105-0659",
+      "state": "report",
+      "title": "REPORT",
+      "updated_at": "2026-11-05T07:06:30-05:00",
+      "wp_modified": null
+    },
+    "key": "REPORT-20261105-0659"
+  },
+  {
+    "data": {
+      "notes": "- sin fallos de acceso, aprobaciones ni bloqueos. STATE.md leido (sin choques con el prompt)\n- aviso: data-store-records_list devolvio 50 registros con limit 100 y el tool no pagina; si hay mas de 50, no se vieron (no puedo confirmar esto)\n- run_id 20261106-0658\n- borradores vistos 5; excluidos 0; skipped backlog 0; ya con estado y mismo modified, sin tocar: 36868 (skipped por Fer), 36886, 36891, 36896 (needs_edit); revisado 1; pendientes para manana 0\n- registros viejos de posts que ya no estan en draft: 36600, 36636, 36615 (pending) y 36647, 36644, 36640 (failed). Se borran solos al pasar 30 dias\n- limpieza: borrado REPORT-20261007-0658 (>30 dias). Drive: nada a la papelera\n\n36900 - BMS signs first oncology risk-sharing deal in Brazil with A.C. Camargo\n- estado: hold (ronda 1 HOLD, sin ronda 2). Ademas toca limites: correccion en el lede y >5 correcciones\n- correcciones de hecho: 14 (15 hallazgos menos 1 de tipo fuentes)\n- motivo: Valor Economico con paywall y sin replicas. Sin verificar: el acuerdo, la ventana de 90 dias, los creditos, los precios CMED, las cartas de intencion con Einstein y Unimed POA, el CAR-T en ANVISA y las 6 citas en portugues (Silva, Ielpo, Granja)\n- principales: el 5-11 es la fecha de publicacion, no la de firma (lede); la indicacion de nivo+ipi es mas estrecha (con 2 ciclos de quimio con platino, adultos, NSCLC metastatico sin EGFR/ALK); el nombre es Bristol Myers Squibb, sin guion (x4)\n- se borraria: las 6 citas sin verificar y la atribucion de seven-figure a Ielpo\n- dudas: el conteo 4 Roche/1 Pfizer/1 Adium (Futuro da Saude nombra tambien AbbVie y J&J); el nivolumab de 600 mg (IV en Brasil viene en 40 y 100 mg); el recuadro dice dose pero es un frasco; no esta claro si el precio es PMVG o PF; el cargo de Silva\n- postura: no publicar. Antes, alguien con acceso a Valor confirma citas, conteo y precios\n- Drive: https://drive.google.com/file/d/1XQp5OEFPl_v5jkV6gOIEobArKxGHnCgG/view\n\nPara aplicar y publicar, decile a Claude en un chat: aplicar gate <ID>. La sesión que aplique relee el post, rechaza si su modified es distinto del wp_modified del archivo, aplica los reemplazos con código, verifica el diff y publica solo con OK de Fer.",
+      "run_id": "20261106-0658",
+      "state": "passed",
+      "title": "REPORT",
+      "updated_at": "2026-11-06T07:05:40-05:00",
+      "wp_modified": null
+    },
+    "key": "REPORT-20261106-0658"
+  },
+  {
+    "data": {
+      "notes": "- sin fallos de acceso, aprobaciones ni bloqueos; STATE.md leido sin choques\n- run_id 20261107-0658\n- 0 borradores pendientes\n- borradores vistos 5 (36900, 36896, 36891, 36886, 36868); excluidos 0; todos con registro y mismo wp_modified: 36900 hold, 36896/36891/36886 needs_edit, 36868 skipped (decision de Fer 02-11); skipped backlog nuevos 0; pendientes para manana 0\n- no hubo Publisher nuevo desde 06-11 (ultimo borrador 36900, 06-11 06:49)\n- limpieza: borrado REPORT-20261008-0658 (>30 dias); Drive: 5 archivos, todos de borradores vigentes, nada a la papelera\n- registros viejos de posts que ya no son draft (36600/36636/36615 pending, 36640/36644/36647 failed) quedan hasta cumplir 30 dias\n- Para aplicar y publicar, decile a Claude en un chat: aplicar gate <ID>. La sesion que aplique relee el post, rechaza si su modified es distinto del wp_modified del archivo, aplica los reemplazos con codigo, verifica el diff y publica solo con OK de Fer.",
+      "run_id": "20261107-0658",
+      "state": "passed",
+      "title": "REPORT",
+      "updated_at": "2026-11-07T06:59:04-05:00",
+      "wp_modified": null
+    },
+    "key": "REPORT-20261107-0658"
+  },
+  {
+    "data": {
+      "notes": "- Sin fallos de acceso, sin aprobaciones pedidas ni bloqueos, ningun post en tercer fallo. STATE.md leido OK, sin choques con el prompt.\n- run_id 20261108-0658\n- Borradores vistos 6, excluidos 0. Nuevo: 36905 (pending -> revisado). 36900 hold, 36896/36891/36886 needs_edit y 36868 skipped (decision de Fer) sin cambios de modified: no se tocan. Skipped backlog nuevos 0. Pendientes para manana 0.\n- 36905 'Clalit 12-Year Data Show Hormone Therapy Safe for Cardiovascular Outcomes': needs_edit. 13 correcciones de hecho (>5) + titulo + lede, sin ronda 2. Principales: titulo 'Safe' -> 'Show No Excess Cardiovascular Risk With Hormone Therapy' (estudio observacional, sin peer review); kicker TRIAL -> STUDY; lede y cierre sin superlativos 'most contemporarily...'; Maven DTC fue marzo 2026, no mayo; cargo de Arbel (head of innovation and research, Clalit; associate professor, Sapir); FDA: 29 empresas presentaron cambios, sacar 'remaining/continuing to work' (x3); lista de productos atribuida a la pagina FDA al 30-10-2026; WHI: 1 estudio, edad media 63; metadesc 'equally safe' -> 'did not vary by route'. Borrado: frase sobre formularios que canalizan a transdermicos (sin fuente) y su eco en Payers. Sin verificar: 'one of the world's largest' / 'Israel's largest' sin fuente; ACOG 'and' vs etiqueta FDA 'or before age 60'; Reuters 'up to three years' sin atribuir; kicker UNITED STATES (datos israelies, defendible). Postura: no publicar tal cual; con los 18 reemplazos queda publicable, conviene una ronda 2 despues de aplicar. Drive: https://drive.google.com/file/d/1P3z02SI86iVRkUS2ZExHMa4T36ZLC5TW/view\n- Limpieza: Drive sin archivos viejos para borrar. Data store: borrados registros 36428 y 36427 (publicados, >30 dias). REPORT >30 dias: ninguno. Ojo: 36600, 36636, 36615 siguen en pending y 36647/36644/36640 en failed pero ya no son borradores; se borran solos al pasar 30 dias.\nPara aplicar y publicar, decile a Claude en un chat: aplicar gate <ID>. La sesion que aplique relee el post, rechaza si su modified es distinto del wp_modified del archivo, aplica los reemplazos con codigo, verifica el diff y publica solo con OK de Fer.",
+      "run_id": "20261108-0658",
+      "state": "done",
+      "title": "REPORT",
+      "updated_at": "2026-11-08T07:05:05-05:00",
+      "wp_modified": null
+    },
+    "key": "REPORT-20261108-0658"
+  },
+  {
+    "data": {
+      "notes": "- STATE.md leido OK. Sin fallos de acceso, aprobaciones ni bloqueos. Ningun post en tercer fallo.\n- Aviso: el subagente se paso del tope (~31 busquedas/lecturas vs 25); Reuters, FiercePharma, ClinicalTrials.gov y WHO ICTRP bloquearon lectura directa.\n- run_id 20261109-0658\n- Borradores vistos 7, excluidos 0, skipped nuevos 0, nuevo pending 1 (36920), pendientes para manana 0. Los otros 6 ya tienen estado final con mismo wp_modified (36868 skipped por Fer; 36886/36891/36896/36905 needs_edit; 36900 hold).\n- Registros viejos que ya no son draft y siguen pending/failed: 36600, 36615, 36636 (pending), 36640, 36644, 36647 (failed). Se borran solos a los 30 dias.\n- 36920 'Novartis pelacarsen cuts Lp(a) 78% but fails cardiovascular trial': needs_edit, 9 correcciones de hecho, sin r2. Principales: lede 'lead investigator' -> senior author Nissen; diseno: no se exigian metas antes de randomizar (fase 30-90 dias, 75% ya cumplia); 'up to two-fold' -> 'at least two-fold'; CNBC Phase III -> Reuters late-stage; What to Watch: AHA/NEJM ya ocurrio; >$10 bn atribuido por analistas; OLE NCT07517263 terminado por sponsor. Borrado: cita Bloomberg 'rattled' sin fuente; frase del OLE. Sin verificar: cifras y cita FiercePharma (5-6% 2025-2030, Rhapsido 4 bn, MS 4 bn), Phase III en Industry/What to Watch, 'pre-specified'. Postura: no publicar hasta editar. Drive https://drive.google.com/file/d/166cFwcF4ELzbvbYIj_hOAdgixh6ZQ3ux/view\n- Limpieza: borrados REPORT-20261009-0659 y REPORT-20261010-0658 (>30 dias). Drive sin archivos para papelera.\nPara aplicar y publicar, decile a Claude en un chat: aplicar gate <ID>. La sesion que aplique relee el post, rechaza si su modified es distinto del wp_modified del archivo, aplica los reemplazos con codigo, verifica el diff y publica solo con OK de Fer.",
+      "run_id": "20261109-0658",
+      "state": "report",
+      "title": "REPORT",
+      "updated_at": "2026-11-09T07:07:00-05:00"
+    },
+    "key": "REPORT-20261109-0658"
+  }
+]
