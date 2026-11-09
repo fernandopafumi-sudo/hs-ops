@@ -1,0 +1,11 @@
+SIN NAVEGADOR (decisión de Fer, 09-11-2026): esta tarea no usa navegador ni computadora: nada de Claude in Chrome, Claude_Browser ni computer use, y no existe el servidor hs-cloud-01. Lo que antes se publicaba o enviaba por navegador en LinkedIn o X ahora lo hace Fer a mano desde el teléfono: dejáselo listo en el mensaje (link solo en su línea para tocarlo y abrir la app; texto a pegar en un bloque de código; para comentarios, recordale 'Comentar como HealthSignals'). Cuando Fer confirme en el chat ('listo', 'publiqué', 'mandé' o pegue la URL), registrá lo hecho en Airtable como antes. Los mails se envían por el conector de Gmail (send_message / reply), nunca abriendo Gmail en un navegador.
+
+Proponerle a Fer (Fernando Pafumi) la quinta tanda de Voices de HealthSignals, con envío la semana del 12-01-2027 (evitar diciembre). Creado el 01-11-2026 al pasar las tareas de la PC con Windows a la nube; reemplaza al recordatorio "Voices: proponer tanda de enero" del 02-10. Español informal con Fer, sin negritas ni headers. No contactes a nadie: es solo una propuesta.
+
+Antes, leé /projects/019dff35-4aba-7529-8258-6127174f6c2c/areas/healthsignal-voices.md con mcp__memory__memory_read para el estado actual de Voices (la numeración de tandas pudo cambiar desde el 02-10; si ya existe una T5, esta propuesta es la tanda siguiente).
+
+Pasos:
+1. Calculá la tasa de respuesta de las tandas anteriores con Airtable (base appjkRayvA0YEjczd, tabla Voices Pipeline tblCnK5agV3rVKGnl): enviados, respondieron, aceptaron, publicados.
+2. Proponé 6 a 8 candidatos verificados, siguiendo el skill hs-voices-questionnaire si está disponible. Reservas que ya estaban anotadas: Karina Rando (Uruguay), Edwin Asturias (Guatemala/EE.UU., vacunas), Francisco Andino (Ecuador), Magdalena Rathe (República Dominicana). Huecos a cubrir: Bolivia y Panamá.
+3. Verificá cargo actual de cada uno contra fuente primaria y pasá la lista por un agente adversarial nuevo (que no la armó) antes de mandarla.
+4. Mandale a Fer la propuesta: por candidato, cargo verificado con fuente, país, por qué encaja y riesgo.
