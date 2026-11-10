@@ -85,6 +85,26 @@
     "id": "recDVh6wuiUaCaqd6"
   },
   {
+    "createdTime": "2026-11-10T13:56:48.000Z",
+    "fields": {
+      "Account": "Anvisa",
+      "Comment": "Segundo a agência, os dois novos registros de semaglutida desta terça (10/11), um genérico e o similar Loryvia, ambos para diabetes tipo 2, foram concedidos por comparação com o Ozempic e levam a 22 o total de canetas de GLP-1 registradas em 2026. Registro, porém, não é disponibilidade: o preço máximo precisa ser definido pela CMED (Câmara de Regulação do Mercado de Medicamentos) antes da venda. Que indicadores permitiriam acompanhar o intervalo entre o registro e a chegada dessas canetas às farmácias e, se houver incorporação, ao SUS (Sistema Único de Saúde)?\nhttps://healthsignals.news/anvisa-clears-five-semaglutide-pens-as-generic-race-heats-up/?utm_source=linkedin&utm_medium=comment&utm_campaign=anvisa #HealthSignals",
+      "Comment Style": [
+        "Dato",
+        "Pregunta",
+        "Angulo acceso"
+      ],
+      "Date": "2026-11-10",
+      "Fer Edits": "post de LinkedIn a ubicar al publicar (corrida sin navegador; fuente = comunicado oficial gov.br/anvisa). revisión adversarial (opus, 10-11): SUS condicionado ('se houver incorporação') porque la semaglutida no está incorporada. Ojo: el subtítulo del comunicado dice 'obesidade' pero el cuerpo dice DM2; seguimos el cuerpo.",
+      "HS Link": "https://healthsignals.news/anvisa-clears-five-semaglutide-pens-as-generic-race-heats-up/",
+      "Network": "LinkedIn",
+      "Post Summary": "Anvisa (10-11): registra genérico de semaglutida y similar Loryvia (DM2), 22 canetas GLP-1 registradas en 2026",
+      "Post URL": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-registra-duas-novas-canetas-de-semaglutida",
+      "Status": "Proposed"
+    },
+    "id": "recELkeqP1Cl3no2J"
+  },
+  {
     "createdTime": "2026-10-29T12:59:36.000Z",
     "fields": {
       "Account": "FIFARMA",
@@ -251,6 +271,26 @@
       "Status": "Rejected"
     },
     "id": "recP3OxoNQiXJM6l9"
+  },
+  {
+    "createdTime": "2026-11-10T13:56:48.000Z",
+    "fields": {
+      "Account": "FDA",
+      "Comment": "In its Drug Safety Communication of November 9, FDA is requiring all glucagon-like peptide-1 receptor agonist (GLP-1 RA) labels to add a potential increased risk of non-arteritic anterior ischemic optic neuropathy (NAION), a rare eye condition, to Warnings and Precautions. Its meta-analysis of 126 randomized controlled trials found 6.4 NAION events per 100,000 person-years with GLP-1 RAs versus 3.8 with comparators, based on 15 probable events in total.\nIn Latin America, payers such as Costa Rica's Social Security Fund (CCSS) are still evaluating which GLP-1 molecule to provide, starting with diabetes. Since the warning applies to the whole class, does it change how molecules compare, or does it mainly shape patient selection and monitoring once access begins?\nhttps://healthsignals.news/costa-rica-ccss-glp-1-coverage-diabetes-obesity/?utm_source=linkedin&utm_medium=comment&utm_campaign=fda #HealthSignals",
+      "Comment Style": [
+        "Dato",
+        "Pregunta",
+        "Angulo LatAm"
+      ],
+      "Date": "2026-11-10",
+      "Fer Edits": "post de LinkedIn a ubicar al publicar (corrida sin navegador; fuente = comunicado oficial FDA). revisión adversarial (opus, 10-11): la advertencia es de clase, pregunta reformulada (no criterio farmacoeconómico entre moléculas); 'FDA is requiring' en vez de 'Communication requires'; agregado '15 probable events'; CCSS 'provide' no 'cover'. Chequear antes de publicar que la CCSS no anunció su decisión.",
+      "HS Link": "https://healthsignals.news/costa-rica-ccss-glp-1-coverage-diabetes-obesity/",
+      "Network": "LinkedIn",
+      "Post Summary": "FDA DSC (09-11): todos los GLP-1 RA agregan riesgo potencial de NAION en Warnings and Precautions; 6.4 vs 3.8/100k PY",
+      "Post URL": "https://www.fda.gov/drugs/drug-safety-communications/fda-requires-safety-labeling-changes-glucagon-peptide-1-receptor-agonists-glp-1-ras-due-potential",
+      "Status": "Proposed"
+    },
+    "id": "recQfkOWblm6fISIP"
   },
   {
     "createdTime": "2026-10-21T15:56:16.000Z",

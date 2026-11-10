@@ -1146,6 +1146,14 @@
   {
     "data": {
       "batch": "SCAN-EVENTS",
+      "headline": "CMS rural health funding vow does little to spur CON deregulation",
+      "seen_at": "2026-11-10T12:23:40.685Z"
+    },
+    "key": "evt~34ae5a039d2473b0f7ba6e2f98b1e544"
+  },
+  {
+    "data": {
+      "batch": "SCAN-EVENTS",
       "headline": "KEYNOTE-C93 Shows PFS Benefit With First-Line Pembrolizumab Monotherapy in dMMR Endometrial Cancer",
       "seen_at": "2026-10-27T11:23:26.223Z"
     },
@@ -1198,6 +1206,14 @@
       "seen_at": "2026-11-09T12:23:26.956Z"
     },
     "key": "evt~5d364452cba38428bfb3604369452916"
+  },
+  {
+    "data": {
+      "batch": "SCAN-EVENTS",
+      "headline": "Why evaluating ROI from AI isn’t always straightforward",
+      "seen_at": "2026-11-10T12:24:12.185Z"
+    },
+    "key": "evt~5ea34187e229e62c17e4a73c632da347"
   },
   {
     "data": {
@@ -1322,6 +1338,14 @@
   {
     "data": {
       "batch": "SCAN-EVENTS",
+      "headline": "Daily, oral GLP-1 medication reduced episodes of sleep apnea in adults with excess weight | American Heart Association",
+      "seen_at": "2026-11-10T12:23:09.340Z"
+    },
+    "key": "evt~a0d3bd9d382ffbe45215f5aa73494ce0"
+  },
+  {
+    "data": {
+      "batch": "SCAN-EVENTS",
       "headline": "ESMO: AZ, Hutchmed’s Orpathys combo shows post-Tagrisso power in MET-driven lung cancer | Fierce Pharma",
       "seen_at": "2026-10-26T11:23:24.513Z"
     },
@@ -1426,6 +1450,14 @@
   {
     "data": {
       "batch": "SCAN-EVENTS",
+      "headline": "Survodutide does not raise CV risk in patients with obesity",
+      "seen_at": "2026-11-10T12:23:15.644Z"
+    },
+    "key": "evt~e4fe91faea752be54e784a45081899bf"
+  },
+  {
+    "data": {
+      "batch": "SCAN-EVENTS",
       "headline": "ESMO: Amgen’s Imdelltra stages Rasonque-like moment in SCLC",
       "seen_at": "2026-10-25T11:23:46.509Z"
     },
@@ -1510,6 +1542,14 @@
       "seen_at": "2026-10-21T16:10:51.825Z"
     },
     "key": "fda~2f7d64f3b70b4240d25b596f200f3ac3"
+  },
+  {
+    "data": {
+      "batch": "SCAN-FDA",
+      "headline": "FDA Approves First Factor Xla Inhibitor to Help Prevent Stroke in Certain Adults at High Risk",
+      "seen_at": "2026-11-10T11:41:09.066Z"
+    },
+    "key": "fda~32df068fcceb86c9659a23d9877c4b8c"
   },
   {
     "data": {

@@ -468,6 +468,19 @@
     "id": "recVLwnJ1uGDAEnA7"
   },
   {
+    "createdTime": "2026-11-10T13:57:12.000Z",
+    "fields": {
+      "Channel": "comentarios",
+      "Date": "2026-11-10",
+      "Items_Pending": 3,
+      "Notes": "Proposed: recydo1xeippdgLUX (AFIDRO, 09-11), recQfkOWblm6fISIP (FDA NAION), recELkeqP1Cl3no2J (Anvisa semaglutida). Revisión adversarial opus la corrió el principal (subagente sin Agent). Persona nueva: Liliana Vásquez (OPS) recbl7GJlYtFNDsTB. Cola Approved: 0. 33 personas New >48h sin decisión.",
+      "Run": "manana",
+      "Run_Key": "2026-11-10|manana|comentarios",
+      "Status": "ok"
+    },
+    "id": "recVMY0J5Clx88hno"
+  },
+  {
     "createdTime": "2026-11-02T14:27:06.000Z",
     "fields": {
       "Channel": "sponsors",
@@ -728,6 +741,19 @@
     "id": "recga7dR5jU8TUW8A"
   },
   {
+    "createdTime": "2026-11-10T13:57:12.000Z",
+    "fields": {
+      "Channel": "voices",
+      "Date": "2026-11-10",
+      "Items_Pending": 0,
+      "Notes": "Martes: solo paso 0. Programados: 21 revisados, sin problemas (Cabrera toque 3 sale 10-11 14:25 UTC según Notes). Sin invitaciones LinkedIn para hoy; 4 atrasadas sin nota aprobada (Cid, Vecina Neto, Ruales, Sepúlveda). LinkedIn_Planned borrado en Fernández Galeano y Trujillo (Declined). STATE.md desactualizado (habla de hs-cloud-01).",
+      "Run": "manana",
+      "Run_Key": "2026-11-10|manana|voices",
+      "Status": "sin novedades"
+    },
+    "id": "recgdO9CoBizUBVn3"
+  },
+  {
     "createdTime": "2026-11-06T13:59:12.000Z",
     "fields": {
       "Channel": "comentarios",
@@ -830,6 +856,19 @@
       "Status": "error"
     },
     "id": "reclCSbsdlrCx4oqc"
+  },
+  {
+    "createdTime": "2026-11-10T13:57:12.000Z",
+    "fields": {
+      "Channel": "sponsors",
+      "Date": "2026-11-10",
+      "Items_Pending": 14,
+      "Notes": "Sponsors 10-11 candidatos (esperan \"dale sponsors\"):\nMaxi Gutierrez | https://linkedin.com/in/maxi-gutierrez\nGabriela Shitara Maeda | https://linkedin.com/in/gabrielamaeda\nCristian Von Schulz Hausmann | https://linkedin.com/in/cristian-von-schulz-hausmann\nJuan Ignacio Diddi | https://linkedin.com/in/juanignaciodiddi\nNahuel Privato | https://linkedin.com/in/nahuel-privato-a07a9b233\nLeo Torres | https://linkedin.com/in/leo-torres79\nAntonio Sánchez Baca | https://linkedin.com/in/antonio-s%C3%A1nchez-baca\nAriel Carmona | https://linkedin.com/in/ariel-carmona-43231720\nMarcos Manara | https://linkedin.com/in/marcosmanara\nTanara Batista | https://linkedin.com/in/tanara-batista-a465ab5b\nMarcelo Bouhid | https://linkedin.com/in/marcelo-bouhid\nJean Lazaridis Jr | https://linkedin.com/in/jeanlazaridisjr\nMichelle Cuccia | https://linkedin.com/in/michelle-cuccia\nElisaul Perdomo Hernandez | https://linkedin.com/in/elisaulperdomo\nInvitaciones confirmadas por Fer: 0. Aceptaciones: n/d. Primera corrida sin navegador con resultado (12 previas en error).",
+      "Run": "manana",
+      "Run_Key": "2026-11-10|manana|sponsors",
+      "Status": "ok"
+    },
+    "id": "reclbEjqYojo933ub"
   },
   {
     "createdTime": "2026-11-04T13:56:16.000Z",
@@ -999,6 +1038,32 @@
       "Status": "sin novedades"
     },
     "id": "recvShC31n9MChs8t"
+  },
+  {
+    "createdTime": "2026-11-10T13:57:12.000Z",
+    "fields": {
+      "Channel": "grupos",
+      "Date": "2026-11-10",
+      "Items_Pending": 0,
+      "Notes": "Sin post: ningún grupo Member cumple 10 días (TPMG bloqueado por post 07-10 sin aprobar; Medtech sin nota medtech nueva). Próximo: Global Health Economics Network 12-11. Brief vigente: issue02.",
+      "Run": "manana",
+      "Run_Key": "2026-11-10|manana|grupos",
+      "Status": "sin novedades"
+    },
+    "id": "recwoUdXPH5KCuRn0"
+  },
+  {
+    "createdTime": "2026-11-10T13:57:12.000Z",
+    "fields": {
+      "Channel": "prensa",
+      "Date": "2026-11-10",
+      "Items_Pending": 4,
+      "Notes": "Sin respuestas, rebotes ni inscripciones nuevas. Recordatorio Soto (CIPER) aparece programado para 10-11 14:29 UTC: registrar cuando salga. Pendientes de decisión: Neira, Stang/Sigal, Adriana Bruno, LinkedIn Canales/Mathieu. Aviso Make: cerca del límite de créditos.",
+      "Run": "manana",
+      "Run_Key": "2026-11-10|manana|prensa",
+      "Status": "sin novedades"
+    },
+    "id": "recywSRf0rMHgmF2w"
   },
   {
     "createdTime": "2026-10-26T13:03:31.000Z",

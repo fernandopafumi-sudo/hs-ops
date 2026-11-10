@@ -210,13 +210,14 @@
   },
   {
     "data": {
-      "notes": "- sin fallos de acceso, aprobaciones ni bloqueos\n- aviso: REPORT-20261009-0659 y REPORT-20261001-0658 siguen 'iniciada, sin terminar' (corridas viejas caidas, ya reportadas)\n- run_id 20261011-0658\n- borradores vistos 12 (mismos que ayer); excluidos 5 (Weekly 36411, 36146, 35939, 35772; post 36041); skipped backlog 7 sin cambios (wp_modified igual); pendientes para manana 0\n- 0 borradores pendientes, no se reviso ninguno\n- limpieza: nada que borrar (carpeta de Drive vacia; sin REPORT ni registros de mas de 30 dias)\nPara aplicar y publicar, decile a Claude en un chat: aplicar gate <ID>. La sesión que aplique relee el post, rechaza si su modified es distinto del wp_modified del archivo, aplica los reemplazos con código, verifica el diff y publica solo con OK de Fer.",
-      "run_id": "20261011-0658",
-      "state": "passed",
-      "title": "REPORT",
-      "updated_at": "2026-10-11T06:59:17-04:00"
+      "notes": "needs_edit: r1 6 corr de hecho (>5), sin r2, ninguna en titulo ni lede. Clave: 59% no sale de 8.5/19.2 (~56%) ni es 'a cuatro anos' (2 lugares); metadesc 'heart failure' -> composite con hospitalizacion; borrar 'geographic concentration'; 2 atribuciones falsas al AHA sobre guias. Diff OK. Drive 18wHr_Bcq6FqyMZrk84mTmDYq-40UTCyv",
+      "run_id": "20261110-0658",
+      "state": "needs_edit",
+      "title": "OptimPacing trial backs left bundle branch pacing over standard RVP",
+      "updated_at": "2026-11-10T07:02:47-05:00",
+      "wp_modified": "2026-11-10T06:48:16"
     },
-    "key": "REPORT-20261011-0658"
+    "key": "36924"
   },
   {
     "data": {
@@ -530,5 +531,16 @@
       "updated_at": "2026-11-09T07:07:00-05:00"
     },
     "key": "REPORT-20261109-0658"
+  },
+  {
+    "data": {
+      "notes": "- STATE.md leido OK. Sin fallos de acceso, aprobaciones pedidas ni bloqueos. Ningun post en su 3er fallo. Brevo no conecto en la sesion (no se usa en este gate).\n- Aviso: 36600, 36615 y 36636 siguen en pending en el data store pero ya no son draft (no se gatean; se limpian a los 30 dias).\n- run_id 20261110-0658\n- borradores vistos 8; excluidos 0; skipped backlog 0 (36868 sigue skipped por decision de Fer); sin cambios desde su gate: 36920, 36905, 36900, 36896, 36891, 36886; nuevo: 1; pendientes para manana 0\n- 36924 \"OptimPacing trial backs left bundle branch pacing over standard RVP\": needs_edit. 6 correcciones de hecho (>5), ninguna en titulo ni lede, sin ronda 2; r1 = PUBLISH AFTER EDIT. Diff OK.\n  - el 59% no sale de 8.5% vs 19.2% (eso da ~56%; probable hazard ratio): 'That translates to a 59% lower relative risk' -> 'The AHA release reports a 59% lower risk'; y se saca 'at four years' del recuadro\n  - metadesc: 'cut death, heart failure, and cardiomyopathy' -> el compuesto con hospitalizacion por IC y PICM\n  - 2 atribuciones falsas al AHA sobre guias ('not yet incorporated into guidelines') -> lo que dice el release (abstract preliminar, sin peer review)\n  - borrado: 'The trial's geographic concentration warrants attention.' (sin sustento)\n  - sin verificar: base estadistica del 59% (NEJM no accesible), reparto por pais, horizonte de PICM/IC, estado de guias HRS/ESC\n  - postura: publicable despues de aplicar los 6 reemplazos; nucleo verificado contra el release del AHA. No publicar sin aplicarlos.\n  - Drive: https://drive.google.com/file/d/18wHr_Bcq6FqyMZrk84mTmDYq-40UTCyv/view\n- Limpieza: borrado REPORT-20261011-0658 (>30 dias). Drive sin archivos para mandar a la papelera.\nPara aplicar y publicar, decile a Claude en un chat: aplicar gate <ID>. La sesión que aplique relee el post, rechaza si su modified es distinto del wp_modified del archivo, aplica los reemplazos con código, verifica el diff y publica solo con OK de Fer.",
+      "run_id": "20261110-0658",
+      "state": "passed",
+      "title": "REPORT",
+      "updated_at": "2026-11-10T07:03:10-05:00",
+      "wp_modified": null
+    },
+    "key": "REPORT-20261110-0658"
   }
 ]
