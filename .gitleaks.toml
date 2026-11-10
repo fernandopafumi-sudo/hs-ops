@@ -2,6 +2,9 @@
 useDefault = true
 
 [allowlist]
-description = "Nombres de módulo de Make (app:Modulo), no son claves"
+description = "Falsos positivos conocidos: nombres de módulo de Make y claves de datos de Engine_Data_Points (slug|país|año)"
 regexTarget = "line"
-regexes = ['''"module":\s*"airtable:[A-Za-z]+"''']
+regexes = [
+  '''"module":\s*"airtable:[A-Za-z]+"''',
+  '''"Key":\s*"[a-z0-9.\-]+\|[a-z\-]+\|\d{4}"''',
+]
