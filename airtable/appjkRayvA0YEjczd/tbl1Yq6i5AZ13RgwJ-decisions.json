@@ -1,0 +1,595 @@
+[
+  {
+    "createdTime": "2026-10-22T19:53:38.000Z",
+    "fields": {
+      "Alternatives": "Reenviar el Issue 02 con el bloque (descartado: ya salió y no lo justifica). Dejar Voices como tarjetas comunes (descartado: no se distinguen).",
+      "Context": "En el Issue 02 las dos entrevistas Voices (Pichon-Riviere, García Escorza) salieron como tarjetas comunes en la revisión por país y Fer no las vio. Fer pidió además un chart of the week.",
+      "Date": "2026-10-22",
+      "Decision": "El Brief suma Chart of the Week y un bloque destacado de Voices desde el Issue 03",
+      "Doc_Link": "STATE.md (memoria del proyecto), entrada 22-10 Brief",
+      "Rationale": "Voices es marca propia y activo comercial; tiene que verse. El gráfico da un dato visual por número y es inventario sponsorizable a futuro."
+    },
+    "id": "rec1KMEp85E1f1HVB"
+  },
+  {
+    "createdTime": "2026-08-29T19:44:30.000Z",
+    "fields": {
+      "Alternatives": "Descartados: (a) copiar todo a un proyecto sin filtrar, que ensucia el retrieval con versiones viejas; (b) un proyecto por función, que fragmenta el contexto.",
+      "Area": "Estrategia",
+      "Context": "El material estaba repartido en varios proyectos de claude.ai y no había forma de saber qué versión de cada cosa era la vigente.",
+      "Date": "2026-08-29",
+      "Decided_By": "Fer",
+      "Decision": "Un solo proyecto de Claude para HealthSignals, con criterio de recencia para resolver conflictos",
+      "Doc_Link": "Airtable: Doc Index (tblJ8yijCjMxQCfwD)",
+      "Rationale": "Solo migra lo vivo. Lo obsoleto queda registrado en Doc Index con puntero al doc que lo reemplaza, en vez de reescribirse. Ante dos docs del mismo tema, gana el más reciente.",
+      "Reversible": "Media",
+      "Status": "Superseded",
+      "Superseded_By": "Cinco proyectos HealthSignals: Orchestrator, Report writer, Content/Article creator, Make, VOICES"
+    },
+    "id": "rec1rEfcLLYTB235j"
+  },
+  {
+    "createdTime": "2026-08-29T19:44:30.000Z",
+    "fields": {
+      "Area": "Infraestructura / Make",
+      "Context": "Make desactiva scenarios ante cambios estructurales y no hay undo confiable.",
+      "Date": "2026-08-07",
+      "Decided_By": "Fer",
+      "Decision": "Snapshot del blueprint antes de tocar cualquier scenario de Make",
+      "Doc_Link": "claude/backup-publisher-prod-v2.json",
+      "Rationale": "Un backup JSON del blueprint es el único punto de restauración que no expira.",
+      "Reversible": "Sí — barata de revertir",
+      "Status": "Vigente"
+    },
+    "id": "rec1thr235jgE0zuj"
+  },
+  {
+    "createdTime": "2026-08-29T19:44:30.000Z",
+    "fields": {
+      "Alternatives": "Descartado: suscripciones de inteligencia y data licensing (recomendado por integracion-sistema-v1).",
+      "Area": "Estrategia",
+      "Context": "Había dos modelos sobre la mesa para monetizar el motor editorial.",
+      "Date": "2026-07-29",
+      "Decided_By": "Fer",
+      "Decision": "El modelo de negocio es sponsorship, publicidad, artículos pagos y reportes patrocinados",
+      "Doc_Link": "claude/ceo-orchestrator-instrucciones-v2.md",
+      "Rationale": "Camino más corto a revenue con la audiencia y el producto que ya existen. Confirmado después por el plan Founding Members y el media kit.",
+      "Reversible": "Media",
+      "Status": "Vigente"
+    },
+    "id": "rec24SbEKSj1h6dYd"
+  },
+  {
+    "createdTime": "2026-09-04T19:10:03.000Z",
+    "fields": {
+      "Area": "Editorial",
+      "Context": "El mismo error de doble conteo apareció dos veces: en el media kit (117) y en estado-proyecto-2026-08-07, que dice 58 artículos y desglosa 79.",
+      "Date": "2026-08-29",
+      "Decided_By": "Claude (propuesta aprobada)",
+      "Decision": "Regla de conteo: un artículo es un post publicado, nunca una asignación de categoría",
+      "Doc_Link": "Airtable: tabla Articles (tblq2AXF9qdHtTnHF)",
+      "Rationale": "Toda cifra de volumen editorial se cuenta contra posts con status publish en healthsignals.news, con fecha de corte declarada. El índice de categorías no sirve como fuente de conteo porque los artículos llevan dos categorías.",
+      "Reversible": "Sí — barata de revertir",
+      "Status": "Vigente"
+    },
+    "id": "rec7jMnhl4our3xHq"
+  },
+  {
+    "createdTime": "2026-08-29T19:44:30.000Z",
+    "fields": {
+      "Alternatives": "Descartado: cargarlos en CRM Prospects (tblalG4gDQFhUYC0D), que es el pipeline comercial.",
+      "Area": "CRM / Outreach",
+      "Context": "Tres docs del mismo día daban tres destinos y tres segmentaciones distintas para la misma lista.",
+      "Date": "2026-08-08",
+      "Decided_By": "Fer",
+      "Decision": "Los 961 contactos de LinkedIn viven en Sucriptor prospects, no en CRM Prospects",
+      "Doc_Link": "claude/subscriber-prospects-table-setup.md",
+      "Rationale": "Son prospects de suscripción, no leads de sponsorship: mezclarlos manda pitches comerciales a gente que solo debería recibir el newsletter.",
+      "Reversible": "Media",
+      "Status": "Vigente"
+    },
+    "id": "recBoQspie16jzk2m"
+  },
+  {
+    "createdTime": "2026-08-29T19:44:30.000Z",
+    "fields": {
+      "Alternatives": "Descartado por ahora: abrir el vertical de energía en paralelo.",
+      "Area": "Estrategia",
+      "Context": "El motor editorial es replicable a otro sector; el candidato evaluado fue energía y transición energética en LatAm.",
+      "Date": "2026-08-28",
+      "Decided_By": "Fer",
+      "Decision": "No se abre un vertical 2 por ahora",
+      "Doc_Link": "claude/replicabilidad-motor-otro-vertical-v1.md",
+      "Rationale": "Regla de activación: no se abre hasta tener revenue recurrente en HealthSignals. Dos verticales sin caja dividen la única atención disponible.",
+      "Reversible": "Sí — barata de revertir",
+      "Status": "Vigente"
+    },
+    "id": "recBtj19dSY4sh8XO"
+  },
+  {
+    "createdTime": "2026-08-29T19:44:30.000Z",
+    "fields": {
+      "Alternatives": "Descartados como fuente de verdad: healthsignals-writing-style-guide y el skill v2.",
+      "Area": "Editorial",
+      "Context": "Convivían tres estándares: writing style guide, skill v2 y el guardrail de Make.",
+      "Date": "2026-08-10",
+      "Decided_By": "Fer",
+      "Decision": "El estándar editorial único es el skill de review v3",
+      "Doc_Link": "claude/healthsignals-editorial-review-skill-v3.md",
+      "Rationale": "La v3 agrega lo que la v2 no hacía: re-derivación aritmética por script, consistencia interna y render integrity. El house style quedó adentro como referencia.",
+      "Reversible": "Sí — barata de revertir",
+      "Status": "Vigente"
+    },
+    "id": "recC3oJ3m1WUpoFMj"
+  },
+  {
+    "createdTime": "2026-09-23T04:36:37.000Z",
+    "fields": {
+      "Area": "Editorial",
+      "Context": "La spec v2.1 (kicker/tags/Why this is relevant) nunca estuvo implementada en el pipeline; solo existía en 3 artículos hechos a mano. El motor automático producía v15.4 puro.",
+      "Date": "2026-09-23",
+      "Decided_By": "Fer",
+      "Decision": "El Publisher (v15.4) suma capa de presentación: kicker + stakeholder tags + bloque Why this is relevant, sin tocar el motor editorial",
+      "Rationale": "Híbrido: v15.4 como motor de contenido + capa de presentación como bloques HTML (módulos 500/501). Excerpt sigue en 35 palabras (no 25); sin blockquote obligatorio.",
+      "Reversible": "Sí — barata de revertir",
+      "Status": "Vigente"
+    },
+    "id": "recDi0my6HuZzAHBQ"
+  },
+  {
+    "createdTime": "2026-08-29T19:44:30.000Z",
+    "fields": {
+      "Alternatives": "Descartado: loop de aprendizaje automático sobre los temas.",
+      "Area": "Editorial",
+      "Context": "Se evaluó que el sistema ajustara solo los temas según performance.",
+      "Date": "2026-08-27",
+      "Decided_By": "Fer",
+      "Decision": "El Topic Registry se ajusta a mano: sin loop de aprendizaje automático",
+      "Doc_Link": "claude/thematic-scanner-topic-registry-2026-08-27.md",
+      "Rationale": "Agregar un tema es agregar una fila del registry, sin tocar Make. El criterio editorial lo pone Fer.",
+      "Reversible": "Sí — barata de revertir",
+      "Status": "Vigente"
+    },
+    "id": "recJYO0wDzcogGOZs"
+  },
+  {
+    "createdTime": "2026-09-23T18:00:24.000Z",
+    "fields": {
+      "Area": "Infraestructura / Make",
+      "Context": "Baja el listado base de herramientas que se carga en cada chat. Lo hace Fernando en el menú de conectores del chat.",
+      "Date": "2026-09-23",
+      "Decided_By": "Fer",
+      "Decision": "Apagar por chat los conectores que no se usan en HealthSignals (Spotify, Gamma, Microsoft Learn, PubMed/bioRxiv/Clinical Trials/Consensus)",
+      "Status": "Pendiente"
+    },
+    "id": "recJyLxReiJ3ETTnF"
+  },
+  {
+    "createdTime": "2026-08-29T19:44:30.000Z",
+    "fields": {
+      "Alternatives": "Descartado: MailPoet dentro de WordPress.",
+      "Area": "Infraestructura / Make",
+      "Context": "Hacía falta un motor de email con doble opt-in y flujos para distribuir los reportes.",
+      "Date": "2026-08-11",
+      "Decided_By": "Fer",
+      "Decision": "Brevo es la plataforma de email de la publicación; MailPoet se descarta",
+      "Doc_Link": "claude/spec-relatorio-glp1-dev-brevo.md",
+      "Rationale": "Doble opt-in y automatizaciones nativas; el spec del reporte GLP-1 ya se escribió contra Brevo.",
+      "Reversible": "Media",
+      "Status": "Vigente"
+    },
+    "id": "recK00I5amEPEBZJ5"
+  },
+  {
+    "createdTime": "2026-09-23T18:00:24.000Z",
+    "fields": {
+      "Area": "Producto / Web",
+      "Context": "Todo lo demás ya vive en skills. Lo ejecuta Fernando en la interfaz de proyectos; Claude le deja el texto listo para pegar.",
+      "Date": "2026-09-23",
+      "Decided_By": "Fer",
+      "Decision": "Acortar las instrucciones de cada proyecto HS a: alcance + bloque STATE (Airtable) + qué skills aplican",
+      "Status": "Pendiente"
+    },
+    "id": "recKTZQn2EiGtsiK4"
+  },
+  {
+    "createdTime": "2026-08-29T19:44:30.000Z",
+    "fields": {
+      "Alternatives": "Mensual (lo que dice el kit hoy) vs trimestral (lo que recomienda el pricing).",
+      "Area": "Comercial / Sponsors",
+      "Context": "El media kit promete un reporte co-branded por mes; el análisis de pricing del mismo día recomienda pasarlo a trimestral por margen.",
+      "Date": "2026-08-29",
+      "Decided_By": "Fer",
+      "Decision": "Cadencia de reportes del tier GOLD: mensual o trimestral",
+      "Doc_Link": "claude/media-kit-pricing-benchmark-2026-08-29.md",
+      "Rationale": "Sin resolver. El kit no debería salir con la promesa mensual si la decisión va a ser trimestral.",
+      "Reversible": "No — costosa",
+      "Status": "Superseded",
+      "Superseded_By": "Inventario: 5 founding partners + 4 Special Reports/año + 26 newsletters (21-09, reczzCQXKJOuk1z12). Ya no hay tier GOLD."
+    },
+    "id": "recMMx3cuGvVqYFJC"
+  },
+  {
+    "createdTime": "2026-09-23T18:00:24.000Z",
+    "fields": {
+      "Area": "Estrategia",
+      "Context": "Diferido por decisión de Fernando (23-09): por ahora usa los proyectos actuales como están, sin archivar nada; lo hará en su momento. Lo ejecuta Fernando en la interfaz (Claude no tiene herramienta para renombrar/archivar proyectos de la app).",
+      "Date": "2026-09-23",
+      "Decided_By": "Fer",
+      "Decision": "Consolidar los proyectos de claude.ai a los 5 vigentes (Orchestrator, Report writer, Content, Make, VOICES) y archivar el resto",
+      "Status": "Pendiente"
+    },
+    "id": "recQERXEyCJ2ufjFE"
+  },
+  {
+    "createdTime": "2026-08-29T19:44:30.000Z",
+    "fields": {
+      "Area": "Estrategia",
+      "Context": "Un board da credibilidad editorial frente a sponsors pharma, pero un advisor con vínculo industrial contamina la independencia.",
+      "Date": "2026-08-11",
+      "Decided_By": "Fer",
+      "Decision": "El Advisory Board tiene 7 asientos con reglas explícitas de conflicto de interés",
+      "Doc_Link": "claude/advisory-board-diseno-y-candidatos-v1.md",
+      "Rationale": "Composición por función y COI declarado. Los advisors no entran a CRM Prospects para que ningún scenario les mande un pitch de sponsorship. Outreach todavía no iniciado.",
+      "Reversible": "Media",
+      "Status": "Pendiente"
+    },
+    "id": "recQxwggVDgAzIeKg"
+  },
+  {
+    "createdTime": "2026-09-23T18:00:24.000Z",
+    "fields": {
+      "Area": "Infraestructura / Make",
+      "Context": "Lo ejecuta Claude en sesión propia. Diagnosticar el origen (módulos sin onerror después del #90) en vez de parchear cada corrida.",
+      "Date": "2026-09-23",
+      "Decided_By": "Fer",
+      "Decision": "Arreglar la causa raíz del pipeline: por qué el Publisher/Editorial Queue deja filas trabadas en processing (los unstick/approve/park recurrentes son síntoma)",
+      "Reversible": "Media",
+      "Status": "Pendiente"
+    },
+    "id": "recRuk0pWhddVHelW"
+  },
+  {
+    "createdTime": "2026-09-04T21:10:11.000Z",
+    "fields": {
+      "Area": "Comercial / Sponsors",
+      "Context": "Seis templates de outreach afirmaban 1000+ suscriptores; el dato real era 1. El media kit prometía newsletter en cada envío con cero envíos.",
+      "Date": "2026-09-04",
+      "Decided_By": "Claude (propuesta aprobada)",
+      "Decision": "Regla comercial: ninguna cifra de audiencia sale hacia afuera hasta tener datos reales",
+      "Doc_Link": "claude/media-kit-founding-partners-v2.html; claude/200-emails-weekly-outreach-plan-v1.md",
+      "Rationale": "El argumento de venta es el producto (58 briefings, 3 reportes, 6 mercados auditados, precio de fundador), no el alcance. Una cifra refutable en dos clics mata el deal y la marca.",
+      "Reversible": "Sí — barata de revertir",
+      "Status": "Vigente"
+    },
+    "id": "recS4vZ2KZjoDK03H"
+  },
+  {
+    "createdTime": "2026-08-29T19:44:30.000Z",
+    "fields": {
+      "Alternatives": "Descartado: publicar suscriptores y sesiones, como hacen los templates de outreach.",
+      "Area": "Comercial / Sponsors",
+      "Context": "La audiencia real es chica y los materiales previos afirmaban cifras que no se sostienen.",
+      "Date": "2026-08-29",
+      "Decided_By": "Fer",
+      "Decision": "El media kit no publica métricas de audiencia",
+      "Doc_Link": "claude/media-kit-founding-partners-v1.html",
+      "Rationale": "Se vende cobertura y calidad editorial, no alcance. Una cifra inflada descubierta mata el deal y la credibilidad.",
+      "Reversible": "Sí — barata de revertir",
+      "Status": "Vigente"
+    },
+    "id": "recTuuCQTGwpaQ8Mv"
+  },
+  {
+    "createdTime": "2026-08-29T19:44:30.000Z",
+    "fields": {
+      "Area": "Infraestructura / Make",
+      "Context": "Los scenarios tenían nombres inconsistentes y era difícil saber qué hacía cada uno.",
+      "Date": "2026-08-08",
+      "Decided_By": "Claude (propuesta aprobada)",
+      "Decision": "Convención de naming en Make: [Prefijo]: [Acción] [Sufijo]",
+      "Doc_Link": "claude/naming-consistency-make.md",
+      "Rationale": "Ordena el listado y hace obvio a qué carpeta pertenece cada scenario. Pendiente: los 3 renombres propuestos nunca se aplicaron.",
+      "Reversible": "Sí — barata de revertir",
+      "Status": "Vigente"
+    },
+    "id": "recUEvySMHcrPiczS"
+  },
+  {
+    "createdTime": "2026-10-03T22:06:20.000Z",
+    "fields": {
+      "Alternatives": "Diario 07:00 (02-10, otra sesión); solo on-demand (27-08).",
+      "Area": "Infraestructura / Make",
+      "Context": "On-demand dejaba semanas sin correr (se perdió el Directing Council de la OPS del 28-09); el diario del 02-10 subía el costo de Exa (136 resultados por corrida).",
+      "Date": "2026-10-03",
+      "Decided_By": "Fer",
+      "Decision": "El Scanner geográfico corre semanal, lunes 07:00 (Miami), además de a pedido",
+      "Rationale": "Cadencia semanal: cubre la ventana de 30 días sin huecos y controla consumo de API.",
+      "Reversible": "Sí — barata de revertir",
+      "Status": "Vigente"
+    },
+    "id": "recUyT82YC7LnBOHH"
+  },
+  {
+    "createdTime": "2026-09-30T17:47:49.000Z",
+    "fields": {
+      "Alternatives": "A) Comprar Elementor Pro (US$49-399/año; choca con la regla de no gastar antes de ingresos; tampoco guarda el paso 1). B) Forminator (no captura parcial automática; Embed URL falla con caché; sin categoría).",
+      "Area": "Producto / Web",
+      "Context": "Se pidió una plantilla Elementor Pro con form multi-step; el sitio no tiene Elementor Pro. Hacía falta guardar el email en el paso 1, registrar nota/categoría de origen y costo cero.",
+      "Date": "2026-09-30",
+      "Decided_By": "Claude (propuesta aprobada)",
+      "Decision": "La suscripción al Brief usa un formulario propio de 2 pasos (shortcode WPCode) con doble opt-in en Brevo, no Elementor Pro ni Forminator",
+      "Doc_Link": "claude/brief-cta-suscripcion-2-pasos-2026-09-30.md",
+      "Rationale": "Único camino que cumple captura en paso 1 + origen + costo cero; revisado por agente adversarial. Doble opt-in por LGPD/GDPR.",
+      "Reversible": "Sí — barata de revertir",
+      "Status": "Vigente"
+    },
+    "id": "recVsZVpKMWUghVeW"
+  },
+  {
+    "createdTime": "2026-08-29T19:44:30.000Z",
+    "fields": {
+      "Alternatives": "Descartado: publicación automática con revisión posterior.",
+      "Area": "Editorial",
+      "Context": "El publisher restaurado publicaba directo y no existía gate humano.",
+      "Date": "2026-08-07",
+      "Decided_By": "Fer",
+      "Decision": "El Publisher escribe en WordPress como draft: nada se publica sin lectura humana",
+      "Doc_Link": "claude/estado-proyecto-2026-08-07.md",
+      "Rationale": "Riesgo reputacional de publicar una señal mal sourceada en un medio que se vende como inteligencia.",
+      "Reversible": "Sí — barata de revertir",
+      "Status": "Vigente"
+    },
+    "id": "recWH9L0UKmojgCXA"
+  },
+  {
+    "createdTime": "2026-10-24T18:41:45.000Z",
+    "fields": {
+      "Area": "Product",
+      "Context": "El 22-10 se publicaron 10 notas juntas y las dos entrevistas Voices (Pichon-Riviere 36460, Garcia Escorza 36447) desaparecieron del home (verificado 24-10).",
+      "Date": "2026-10-24",
+      "Decided_By": "Fer",
+      "Decision": "El carrusel del home muestra siempre 1 nota Voices, rotando a diario entre las de los ultimos 4 meses",
+      "Doc_Link": "Snippet PHP WPCode 'HS Voices slot' (slider Elementor de3e30a, posicion 2). Pendiente de instalar al 24-10.",
+      "Rationale": "Voices es el contenido mas valioso para sponsors (que dicen los decisores). Pasados 4 meses (120 dias) quedan solo en la seccion Voices.",
+      "Reversible": "Yes",
+      "Status": "Active"
+    },
+    "id": "recXSrclXwP4xUzRY"
+  },
+  {
+    "createdTime": "2026-09-04T21:10:11.000Z",
+    "fields": {
+      "Alternatives": "Dedup por nombre (falla con nombres mutilados); por email (97% vacío).",
+      "Area": "CRM / Outreach",
+      "Context": "Sucriptor prospects tenía 252 duplicados por doble carga del 8-ago, con nombres corrompidos en una de las tandas.",
+      "Date": "2026-09-04",
+      "Decided_By": "Claude (propuesta aprobada)",
+      "Decision": "Dedup de contactos por LinkedIn URL, conservando el registro más antiguo",
+      "Doc_Link": "Backup en Drive (3 partes), ver System Changelog 04-09",
+      "Rationale": "LinkedIn URL está poblada en el 100% y es estable. El más antiguo es el de la primera carga, la que no tuvo corrupción.",
+      "Reversible": "Sí — barata de revertir",
+      "Status": "Vigente"
+    },
+    "id": "recYqAjMObDJFFAbP"
+  },
+  {
+    "createdTime": "2026-09-26T19:03:56.000Z",
+    "fields": {
+      "Alternatives": "Mantener los tiers mensuales 8K/5K/2,5K/1K con lock de 6 meses (descartado).",
+      "Area": "Comercial / Sponsors",
+      "Context": "Los tiers mensuales 8K/5K/2,5K/1K del 08-08 se armaron sobre un producto de medios sin audiencia medible.",
+      "Date": "2026-09-21",
+      "Decided_By": "Fer",
+      "Decision": "Piso de precio del research: USD 8.000; precios de media y display quedan sin fijar hasta tener baseline de audiencia",
+      "Doc_Link": "Memoria del proyecto: areas/healthsignal-founding-partners (21-09); registrado en Decisions el 26-09",
+      "Rationale": "El research se vende sin esperar audiencia; el producto de medios sí depende del baseline. Benchmarks: ACCESS LATAM Bronze USD 12.500/año, HTAi USD 35.750/año, medios LatAm USD 1.000-7.200/año.",
+      "Reversible": "Sí — barata de revertir",
+      "Status": "Vigente"
+    },
+    "id": "recZGznS6lM3MjzqP"
+  },
+  {
+    "createdTime": "2026-09-26T21:14:39.000Z",
+    "fields": {
+      "Alternatives": "Red 1-1 por LinkedIn/email y posts propios (quedan como complemento, no descartados).",
+      "Area": "Comercial / Sponsors",
+      "Context": "Soft launch con 0 suscriptores; Fernando quiere testear congresos como canal de audiencia antes que outreach 1-1 masivo.",
+      "Date": "2026-09-26",
+      "Decided_By": "Fer",
+      "Decision": "Canal de audiencia: media partnerships sin pago con congresos (cobertura + banner a cambio de una invitación a suscribirse)",
+      "Doc_Link": "claude/congresos-media-partner-2026-09-26.md",
+      "Rationale": "Términos v1 publicados en /media-partner-terms/ con aceptación online. Banner mínimo: 7 días antes del evento hasta su último día, solo marca del evento, creativo alojado, slot antes del contenido en artículos (728x90 / 300x250). El organizador decide el canal de la invitación y nunca comparte datos. Primeros objetivos: Biosimilars LatAm Mexico (18-19 nov) y SBOC (5-7 nov).",
+      "Reversible": "Sí — barata de revertir",
+      "Status": "Vigente"
+    },
+    "id": "recZqEyUD2itVNXD5"
+  },
+  {
+    "createdTime": "2026-08-29T19:44:30.000Z",
+    "fields": {
+      "Alternatives": "Descartado: schedule automático diario.",
+      "Area": "Infraestructura / Make",
+      "Context": "El scanner geográfico y el temático podían quedar en schedule diario.",
+      "Date": "2026-08-27",
+      "Decided_By": "Fer",
+      "Decision": "Los scanners corren on-demand: no hay schedule automático",
+      "Doc_Link": "claude/thematic-scanner-topic-registry-2026-08-27.md",
+      "Rationale": "Fer controla el volumen de señales y el consumo de API; el sitio está en regeneración y no hay a dónde publicarlas todavía.",
+      "Reversible": "Sí — barata de revertir",
+      "Status": "Superseded",
+      "Superseded_By": "El Scanner geográfico corre semanal, lunes 07:00 + a pedido (03-10, recUyT82YC7LnBOHH). El Thematic Scanner 6070111 sigue on-demand."
+    },
+    "id": "recbXoeGYONVcBHVz"
+  },
+  {
+    "createdTime": "2026-09-23T04:36:37.000Z",
+    "fields": {
+      "Area": "Estrategia",
+      "Context": "Reemplaza la decisión del 29-ago de un solo proyecto. El conocimiento fragmentado en ~7 proyectos generaba re-trabajo. VOICES está en desarrollo.",
+      "Date": "2026-09-23",
+      "Decided_By": "Fer",
+      "Decision": "Cinco proyectos de Claude para HealthSignals: Orchestrator, Report writer, Content/Article creator, Make, VOICES; el resto se consolida y archiva",
+      "Rationale": "Separar Editorial / Ops / Negocio / reportes por dominio; STATE.md como snapshot compartido regenerado desde Decisions+Changelog.",
+      "Reversible": "Media",
+      "Status": "Vigente"
+    },
+    "id": "recbao81AlNixIo8r"
+  },
+  {
+    "createdTime": "2026-08-29T19:44:30.000Z",
+    "fields": {
+      "Alternatives": "Descartado: filtrar dominios corporativos.",
+      "Area": "Editorial",
+      "Context": "Se planteó excluir dominios corporativos por sesgo de fuente.",
+      "Date": "2026-08-27",
+      "Decided_By": "Fer",
+      "Decision": "Los scanners mantienen dominios corporativos entre sus fuentes",
+      "Doc_Link": "claude/thematic-scanner-topic-registry-2026-08-27.md",
+      "Rationale": "Decisión explícita de Fer: los anuncios de empresa son señal primaria en pharma; no se pierden.",
+      "Reversible": "Sí — barata de revertir",
+      "Status": "Vigente"
+    },
+    "id": "reccpCdVuNK8D6yrf"
+  },
+  {
+    "createdTime": "2026-09-22T20:45:14.000Z",
+    "fields": {
+      "Alternatives": "B) Partir la base y quedar en Free: sacar Sucriptor prospects + Press + Doc Index deja 775 registros, margen de 225; se vuelve a chocar en 1-2 ciclos de reporte y obliga a reapuntar scenarios de Make. C) Migrar a NocoDB/Supabase: sin límite pero reescribe 9+ tablas, MCP y scenarios. Descuentos: anual ahorra 17%; créditos startup de hasta $1.000 (Secret, HubSpot for Startups) sin elegibilidad confirmada.",
+      "Area": "Airtable / Data",
+      "Context": "La base del motor llegó a 2.037 registros (Sucriptor prospects 961, Engine_Data_Points 424, Press 153, Doc Index 148, resto 351) contra el límite Free de 1.000/base. Airtable bloqueó toda escritura: Gate 0 del motor quedaba inoperable.",
+      "Date": "2026-09-22",
+      "Decided_By": "Claude (propuesta aprobada)",
+      "Decision": "Airtable pasa a plan Team mensual con un solo asiento pago",
+      "Rationale": "Desbloquea el motor en el acto sin tocar producción. Mensual y no anual por riesgo de precios post adquisición de Airtable por Bending Spoons (agosto 2026). editor@ a Solo lectura para pagar 1 asiento ($24/mes). Revisar pasar a anual o pedir créditos startup si el precio se mantiene.",
+      "Reversible": "Sí — barata de revertir",
+      "Status": "Vigente"
+    },
+    "id": "recjE0qNUQFLZmNej"
+  },
+  {
+    "createdTime": "2026-08-29T19:44:30.000Z",
+    "fields": {
+      "Area": "Motor de reportes",
+      "Context": "Había que decidir cuándo una fuente deja de valer la pena conservar en Engine_Reference_Library.",
+      "Date": "2026-08-29",
+      "Decided_By": "Fer",
+      "Decision": "El corte de vigencia de una fuente en la biblioteca es 4 años",
+      "Doc_Link": "Airtable: Engine_Reference_Library, campo Vigencia",
+      "Rationale": "Se mide contra Data_Vintage si existe, si no contra Year. Es distinta de la ventana de publicación para entrar a un reporte, que sigue siendo 2-3 años y 2 para precios.",
+      "Reversible": "Sí — barata de revertir",
+      "Status": "Vigente"
+    },
+    "id": "recjmKo5v9Z1375yk"
+  },
+  {
+    "createdTime": "2026-09-04T19:10:03.000Z",
+    "fields": {
+      "Alternatives": "Descartado: sostener 117. Los counts de categoría son HealthTech 12 + LatAm Focus 37 + Pharma 21 + Policy & Markets 28 + US Healthcare 19 = 117 exacto. Cada artículo lleva dos categorías: se contaron asignaciones, no artículos.",
+      "Area": "Comercial / Sponsors",
+      "Context": "El media kit afirmaba 117 artículos citando el índice de categorías del sitio. WordPress tiene 58 posts publicados y 16 borradores.",
+      "Date": "2026-08-29",
+      "Decided_By": "Fer",
+      "Decision": "El conteo público de artículos es 58, no 117",
+      "Doc_Link": "claude/media-kit-founding-partners-v2.html",
+      "Rationale": "58 es verificable en dos clics por cualquier prospecto; 117 es refutable en los mismos dos clics. Se agrega el desglose regional (37 LATAM / 19 USA), que muestra cobertura real por mercado, que es lo que compra un sponsor pharma.",
+      "Reversible": "Sí — barata de revertir",
+      "Status": "Vigente"
+    },
+    "id": "recker2S7gEApHZRq"
+  },
+  {
+    "createdTime": "2026-09-04T21:10:11.000Z",
+    "fields": {
+      "Alternatives": "Mantener draft y arreglar solo la planilla (deja el cuello de botella humano); publicar directo (elegido).",
+      "Area": "Editorial",
+      "Context": "El gate humano de draft no se atendía: 5 semanas de piezas en borrador y la planilla marcándolas como publicadas. El motor editorial estuvo detenido de hecho desde el 7-ago.",
+      "Date": "2026-09-04",
+      "Decided_By": "Fer",
+      "Decision": "El Publisher publica directo en WordPress (status publish)",
+      "Doc_Link": "Make 5133643 módulo 17; backup en claude/backup-publisher-prod-2026-09-04.json",
+      "Rationale": "El control humano real es la aprobación de la fila en la Editorial Queue (Status approved), que sigue siendo manual. Publicar en draft duplicaba el gate y nadie lo atendía.",
+      "Reversible": "Sí — barata de revertir",
+      "Status": "Superseded",
+      "Superseded_By": "El Publisher escribe en WordPress como draft (revertido 11-sep en el deploy DRAFT MODE; verificado en el blueprint 22-sep)"
+    },
+    "id": "recqApYLimO1DzFLt"
+  },
+  {
+    "createdTime": "2026-09-26T19:03:56.000Z",
+    "fields": {
+      "Area": "Comercial / Sponsors",
+      "Context": "Buscar el camino más corto a un primer cierre con producto que ya existe.",
+      "Date": "2026-09-21",
+      "Decided_By": "Fer",
+      "Decision": "Jugada de arranque: reporte inaugural co-branded cardio-metabólico (obesidad/GLP-1 + diabetes), multi-sponsor (anchor USD 8k + participaciones de 2-3k)",
+      "Doc_Link": "Memoria del proyecto: areas/healthsignal-founding-partners (21-09); registrado en Decisions el 26-09",
+      "Rationale": "Apalanca el reporte de Diabetes ya publicado como muestra. Producto research-first: el gate audiencia→sponsors aplica solo al producto de medios. Fernando puede producir un special report en 1 semana. Segmento: CRO/consultoras de market access + Novo Nordisk y Eli Lilly como anchors + FIFARMA.",
+      "Reversible": "Sí — barata de revertir",
+      "Status": "Vigente"
+    },
+    "id": "rectDKPkdGfx30lx9"
+  },
+  {
+    "createdTime": "2026-08-29T19:44:30.000Z",
+    "fields": {
+      "Area": "Comercial / Sponsors",
+      "Context": "Había que fijar precio para poder salir a vender Founding Partners.",
+      "Date": "2026-08-08",
+      "Decided_By": "Fer",
+      "Decision": "Los tiers de sponsorship son 8K / 5K / 2,5K / 1K USD con lock de 6 meses",
+      "Doc_Link": "claude/media-kit-pricing-benchmark-2026-08-29.md",
+      "Rationale": "Validado el 29-ago contra el rate card de Economist y newsletters B2B comparables. Los tiers pasaron sin cambios del plan v1 al media kit.",
+      "Reversible": "Media",
+      "Status": "Superseded",
+      "Superseded_By": "Piso de precio del research: USD 8.000; media y display sin fijar hasta baseline de audiencia (21-09, recZGznS6lM3MjzqP)"
+    },
+    "id": "recwBKnXlJ0Y2lvk2"
+  },
+  {
+    "createdTime": "2026-08-29T19:44:30.000Z",
+    "fields": {
+      "Alternatives": "Descartados: Prompt Maestro V2.0 y los archivos de prompt en Drive.",
+      "Area": "Editorial",
+      "Context": "Había copias del prompt en Google Drive y una versión llamada Prompt Maestro V2.0 circulando.",
+      "Date": "2026-08-11",
+      "Decided_By": "Fer",
+      "Decision": "El prompt editorial vivo es EDITORIAL ENGINE v15.4 + addendum v15.5, dentro del Publisher en Make",
+      "Doc_Link": "claude/hs-editorial-guardrail-make.md",
+      "Rationale": "Una sola copia editable, la que efectivamente corre. Las copias en Drive se desincronizaban.",
+      "Reversible": "Media",
+      "Status": "Vigente"
+    },
+    "id": "recwotokaOmAX9KhO"
+  },
+  {
+    "createdTime": "2026-08-29T19:44:30.000Z",
+    "fields": {
+      "Area": "CRM / Outreach",
+      "Context": "Hay 961 prospects cargados y un plan de 200 emails semanales listo para arrancar.",
+      "Date": "2026-08-29",
+      "Decided_By": "Fer",
+      "Decision": "El outreach de newsletter queda en pausa hasta que el sitio esté listo",
+      "Doc_Link": "Airtable: System Changelog, 2026-08-29",
+      "Rationale": "Mandar tráfico a un sitio en regeneración quema la lista una sola vez. Los scenarios de Make están apagados a propósito, no rotos.",
+      "Reversible": "Sí — barata de revertir",
+      "Status": "Vigente"
+    },
+    "id": "recypiufPUdIKnu90"
+  },
+  {
+    "createdTime": "2026-09-26T19:03:56.000Z",
+    "fields": {
+      "Area": "Comercial / Sponsors",
+      "Context": "Hacía falta fijar el tamaño del programa de founding partners antes de salir a vender.",
+      "Date": "2026-09-21",
+      "Decided_By": "Fer",
+      "Decision": "El inventario comercial es 5 founding partners (uno por sección), 4 Special Reports al año con un sponsor cada uno y 26 ediciones de newsletter con presenting sponsor",
+      "Doc_Link": "Memoria del proyecto: areas/healthsignal-founding-partners (21-09); registrado en Decisions el 26-09",
+      "Rationale": "Una posición por cada sección editorial (Policy & Markets, Pharma, LatAm Focus, US Healthcare, Reports) y un reporte por trimestre. La cadencia publicada funciona como compromiso de facto con los partners. Reemplaza la discusión de cadencia mensual vs trimestral del tier GOLD.",
+      "Reversible": "Media",
+      "Status": "Vigente"
+    },
+    "id": "reczzCQXKJOuk1z12"
+  }
+]

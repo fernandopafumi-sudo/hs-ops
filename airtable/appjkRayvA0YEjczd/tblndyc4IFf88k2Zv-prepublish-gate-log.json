@@ -1,0 +1,192 @@
+[
+  {
+    "createdTime": "2026-09-29T13:15:16.000Z",
+    "fields": {
+      "Changes": "C1 saved (15 edits): through 2028 to into 2028; acromegaly patient figures and competitors added; 38 pct credited to full syndicate; Kuva described correctly; Delaware suit details; hs-sources. R2 found: truncated Lehrer quote (not verbatim), Novartis misattributed, reverse-merger/IPO-window speculation paragraphs, misleading Yoast title. C2 BLOCKED, not applied.",
+      "Country": "USA",
+      "Post ID": 36081,
+      "Reviewed At": "2026-09-29T13:20:00.000Z",
+      "Title": "Lisata Acquires Marea in $225M-Backed Cardioendocrine Bet",
+      "Unverified": "Kuva financing failure (BioPharma Dive only); Kuva suit still pending; kicker date Sep 26 vs announced Sep 17.",
+      "Verdict": "Hold"
+    },
+    "id": "rec1BFikmi3UWVt8R"
+  },
+  {
+    "createdTime": "2026-09-29T13:15:16.000Z",
+    "fields": {
+      "Changes": "R1: 13 errors (exchange ratio inverted, 47.3 vs 47.4 pct, dividend/premium terms, 26 states misread, figures wrongly credited to Exame, quote misattributed to Marques). Correction 1 BLOCKED by permission classifier: nothing saved. No R2.",
+      "Country": "Brazil",
+      "Post ID": 36276,
+      "Reviewed At": "2026-09-29T13:20:00.000Z",
+      "Title": "Afya-Yduqs Merger Creates R$9.4bn Brazilian Education Group",
+      "Unverified": "Seat share approx 17 pct (sources 12-18). Editorial paragraph on retreat from US markets.",
+      "Verdict": "Hold"
+    },
+    "id": "recBxWtglewrpRXAq"
+  },
+  {
+    "createdTime": "2026-09-28T16:40:30.000Z",
+    "fields": {
+      "Changes": "Superseded; do not review or publish.",
+      "Post ID": 35978,
+      "Reviewed At": "2026-09-28T16:30:00.000Z",
+      "Title": "Bertelsmann (old draft, superseded)",
+      "Verdict": "Hold"
+    },
+    "id": "recEq6HN0HlCPyr0D"
+  },
+  {
+    "createdTime": "2026-09-29T13:15:16.000Z",
+    "fields": {
+      "Changes": "C1 (22 edits): Medicare Part D to Part B; 440M milestone to 250M received plus up to 1.3B; Trelegy and Omers terms; fake Davis quote removed; LatAm registry paragraph deleted; hs-sources. C2 (12 edits): Trelegy milestone made conditional, false co-developed claim removed, 266.6M sales, generic entry 2039, unverified no-litigation and payer inferences removed.",
+      "Country": "Global",
+      "Post ID": 36117,
+      "Reviewed At": "2026-09-29T13:20:00.000Z",
+      "Title": "Zymeworks Closes $929M Theravance Deal for Royalty Diversification",
+      "Unverified": "4 pct discount (Fierce only); CVR 10 years (Fierce); according to company filings for Omers note (actually press release); kicker date Sep 26 vs close Sep 23.",
+      "Verdict": "Ready to publish"
+    },
+    "id": "recIlftqaFLCT5SDU"
+  },
+  {
+    "createdTime": "2026-09-28T16:40:30.000Z",
+    "fields": {
+      "Changes": "Semana piece labelled Sanfer-supported everywhere; 84.1M is capacity not target; INVIMA throughput claims softened; INS added as partner.",
+      "Country": "Colombia",
+      "Post ID": 36228,
+      "Reviewed At": "2026-09-28T16:30:00.000Z",
+      "Title": "Sanfer Lifts Colombian Drug Capacity With More Than $40 Million Investment",
+      "Unverified": "Semana figures (investment, 2,200 workers) only from sponsored content.",
+      "Verdict": "Published"
+    },
+    "id": "recMteWT2WhyY5qoC"
+  },
+  {
+    "createdTime": "2026-09-28T16:40:30.000Z",
+    "fields": {
+      "Changes": "Old draft; do not review unless Fernando asks.",
+      "Post ID": 35984,
+      "Reviewed At": "2026-09-28T16:30:00.000Z",
+      "Title": "Essity (old draft)",
+      "Verdict": "Hold"
+    },
+    "id": "recPhqrQCBboYchJb"
+  },
+  {
+    "createdTime": "2026-10-24T19:46:57.000Z",
+    "fields": {
+      "Changes": "R1 (62/100, HOLD): nota sin gancho (MOU de febrero), BIRMEX mal expandido, cita de Sheinbaum que era de Luis Soares (Opella), dengue en conflicto con SSA, fecha de firma 9-feb, 10M dosis eran via Medistik. Reescrita con Fer OK sobre acuerdo Moderna-Liomont (enFarma 13-10) + adjudicacion directa BIRMEX US$700M-1.75bn hasta 2030 (El Universal/El Imparcial 11-10). R2 (78/100): aplicadas S2a-d y S4a-f (sin 'put into effect', sin 'replaces', sin superlativo Plan Mexico, Spikevax->vacuna 2025-2026, MOU hacia acuerdo de 5 anos, COFEPRIS 'would need authorization', Makary 23-feb). Score estimado post-edicion ~88.",
+      "Country": "Mexico",
+      "Post ID": 36552,
+      "Reviewed At": "2026-10-24T19:47:00.000Z",
+      "Title": "Moderna and Liomont Sign Mexico Licensing Deal as BIRMEX Awards Up to US$1.75 Billion Contract",
+      "Unverified": "Reuters bloqueado al fetch (titulo verificado via sindicacion). Kicker con fecha 24-10 = placeholder, ajustar al publicar. Imagen destacada 36549 es de la version vieja: revisar overlay.",
+      "Verdict": "PUBLISH AFTER EDIT"
+    },
+    "id": "recQuqfHNgicyx6SU"
+  },
+  {
+    "createdTime": "2026-10-22T14:32:18.000Z",
+    "fields": {
+      "Changes": "R1+R2 (2 agentes nuevos). Lead reescrito (confirmó con modificaciones la orden de 12-12-2024; acción popular de la Procuraduría; mesa en 1 mes; comité de verificación; CONPES u otro instrumento). CONPES 155 vencido en 2021. Excerpt sin 'industry compelled'. Decreto 433, Auto 140, INVIMA apelación corregidos. Timeline con ambos fallos. Kicker 22-10. Score ~88. Publicado 22-10 14:31 UTC con OK de Fer.",
+      "Country": "Colombia",
+      "Post ID": 36441,
+      "Reviewed At": "2026-10-22T14:31:00.000Z",
+      "Title": "Colombia's Consejo de Estado Upholds Order for New National Drug Policy",
+      "Unverified": "Render visual e imagen destacada no revisados por agentes.",
+      "Verdict": "PUBLISH AFTER EDIT"
+    },
+    "id": "recRiwauXK6PrUsn7"
+  },
+  {
+    "createdTime": "2026-09-28T16:40:30.000Z",
+    "fields": {
+      "Changes": "R1 HOLD -> near-total rewrite to Gestion/Edaily facts; unsourced contract, stock and projection figures deleted. R2: payers speculation removed.",
+      "Country": "Peru",
+      "Post ID": 36232,
+      "Reviewed At": "2026-09-28T16:30:00.000Z",
+      "Title": "L&C Bio Wins Digemid Approval to Sell Re2O in Peru",
+      "Verdict": "Published"
+    },
+    "id": "recScfoiWAjWEVM9Q"
+  },
+  {
+    "createdTime": "2026-10-22T15:06:41.000Z",
+    "fields": {
+      "Changes": "Escrita a mano 22-10 (Tier 2 salud mental, filas 420/421). R1 (84) + R2 (88): excerpt corregido (no 'cost-saving'), Conitec decidió por beneficio clínico, impacto incremental de ambos modelos, Atlas 'responding countries', inferencias marcadas 'Our reading', traducción SISALRIL marcada, siglas SCTIE. Todo aplicado. Falta imagen destacada; kicker 23-10.",
+      "Country": "Latin America (Brazil, Dominican Republic)",
+      "Post ID": 36517,
+      "Reviewed At": "2026-10-22T15:06:00.000Z",
+      "Title": "Brazil adds extended-release lithium, Dominican Republic weighs mental health cover as budgets lag",
+      "Unverified": "Si el 2,1% de PAHO es mediana regional propia o global; declaración OAS solo vía PAHO; render no visto.",
+      "Verdict": "PUBLISH AFTER EDIT"
+    },
+    "id": "recc4jKVWft4DKtRL"
+  },
+  {
+    "createdTime": "2026-09-29T13:15:16.000Z",
+    "fields": {
+      "Changes": "R1: 8+ false not-disclosed claims (executives, 50/50 split, adviser, IND, timelines, close date), financing wrongly said closed, Cell Pouch misdescribed, undercapitalized thesis unsourced, 18-day-old news. Correction 1 BLOCKED: nothing saved. No R2.",
+      "Country": "Global (should be Canada / US)",
+      "Post ID": 36111,
+      "Reviewed At": "2026-09-29T13:20:00.000Z",
+      "Title": "Sernova and Seraxis Merge to Form BetaNova Biotherapeutics",
+      "Unverified": "CMS NCD claim; Vertex zimislecel 2026 status; Sana hypoimmune program; SEC registration inference.",
+      "Verdict": "Needs rewrite"
+    },
+    "id": "rech4nbspsxBTfK4I"
+  },
+  {
+    "createdTime": "2026-09-29T13:15:16.000Z",
+    "fields": {
+      "Changes": "R1: 141M/21M/120M valuations and July 27 date found in no source (release is Sep 16); many false not-disclosed claims (85/15 split, Q4 close, pipeline stages, execs, advisers); pipeline leak entity card derived from available feeds; DNase indication wrong; no sources. Correction 1 BLOCKED: nothing saved. No R2.",
+      "Country": "Global (should be US / Switzerland)",
+      "Post ID": 36105,
+      "Reviewed At": "2026-09-29T13:20:00.000Z",
+      "Title": "Xenetic and Santersus Merge to Build NET-Targeting Platform",
+      "Unverified": "All valuation figures; first-in-class and global leader are company claims.",
+      "Verdict": "Needs rewrite"
+    },
+    "id": "recipqauyM2hrCQR6"
+  },
+  {
+    "createdTime": "2026-10-22T15:06:41.000Z",
+    "fields": {
+      "Changes": "Escrita a mano 22-10 (fila 523 de la cola). R1 (86) + R2 (86): Americas incluye EE.UU./Canadá; tenofovir WHO global; BMO con contexto; fomivirsen 1998 (Ionis ya estaba en infecciosas); excerpt con 24 semanas; China/Europa en revisión; boxed warning técnico; autoadministración supervisada. Todo aplicado. Falta imagen destacada.",
+      "Country": "United States",
+      "Post ID": 36515,
+      "Reviewed At": "2026-10-22T14:57:00.000Z",
+      "Title": "FDA approves GSK's Hibsago, first antisense drug for chronic hepatitis B",
+      "Unverified": "Notas de Jefferies/BMO solo vía prensa; ausencia de filings LatAm no probada; render no visto.",
+      "Verdict": "PUBLISH AFTER EDIT"
+    },
+    "id": "recqc3KbVC0rW2kRB"
+  },
+  {
+    "createdTime": "2026-09-29T13:15:16.000Z",
+    "fields": {
+      "Changes": "C1 saved (27 edits): 1.3B to 750M everywhere; wrong antigens CD19/CD20 removed; Abdullah quote; DREAMM-7 data; hs-sources. R2 found more (Miels framing, Reuters/OncoDaily cites not in Sources, unsourced 2029 inference, 1.19B vs 1.185B, licensing vs acquisition). C2 BLOCKED, not applied.",
+      "Country": "Global",
+      "Post ID": 36123,
+      "Reviewed At": "2026-09-29T13:20:00.000Z",
+      "Title": "GSK Bets Up to $750M on Chimagen Trispecific for Myeloma",
+      "Unverified": "Current Blenrep label line; HUTCHMED Hong Kong-listed; ISB 2001 current phase; kicker date Sep 26 vs announced Sep 15.",
+      "Verdict": "Hold"
+    },
+    "id": "rectE9wZpuG4BnLN1"
+  },
+  {
+    "createdTime": "2026-09-28T16:40:30.000Z",
+    "fields": {
+      "Changes": "R1 HOLD -> rewrite: 7 generic applications at ISP (not only Selfix), invented quote and analyst removed, misattributions fixed. R2: Novo guidance updated (4-Aug), out-of-pocket claims removed.",
+      "Country": "Chile",
+      "Post ID": 36218,
+      "Reviewed At": "2026-09-28T16:30:00.000Z",
+      "Title": "Novo Nordisk Faces Generic Pressure as Chile Spends Nearly US$100M a Year on Weight-Loss Drugs",
+      "Unverified": "ISP ruling on the 7 applications pending as of 28-09; re-check before publishing.",
+      "Verdict": "Published"
+    },
+    "id": "recuRJicHoYOhB6zX"
+  }
+]

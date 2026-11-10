@@ -1,0 +1,914 @@
+[
+  {
+    "createdTime": "2026-10-03T01:11:24.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 2. Salud es periférica; suele usar datos GBD de 2-4 años de antigüedad: ir a la fuente primaria. En Scanner: STRUCTURAL.",
+      "Name": "PNUD / UNDP — América Latina y el Caribe",
+      "Reliability": "Media",
+      "Topics": "desarrollo humano, salud mental, desigualdad, LATAM",
+      "Type": "Autoridad/Policy",
+      "URL": "https://www.undp.org/latin-america"
+    },
+    "id": "rec0Kbnrm5UcxJz9D"
+  },
+  {
+    "createdTime": "2026-07-19T01:17:21.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 5 · Literatura regional en español/portugués; refuerza citación en idioma original y corroboración LATAM",
+      "Name": "Revista Panamericana de Salud Pública (PAHO)",
+      "Reliability": "Media",
+      "Topics": "LATAM, salud pública, all therapeutic areas",
+      "Type": "Científica",
+      "URL": "https://journal.paho.org"
+    },
+    "id": "rec0gjuQztbMk2lQo"
+  },
+  {
+    "createdTime": "2026-09-22T21:08:34.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 1 · Multilateral independiente. Umbral propio de 6,7% del PIB en gasto público en salud. OJO: sus promedios regionales (4,8% vs 4,5% para 2021) difieren según conjunto de países: declarar denominador. Fichas en Engine_Reference_Library (rec0hnDgbPDKzue8X, recu0PX7QoKFhLHfG, recdJYRJT8HzTKQ7S). Alta 22/09/2026",
+      "Name": "CEPAL / ECLAC — salud, financiamiento e industria de la salud",
+      "Reliability": "Alta",
+      "Topics": "financiamiento de la salud, cobertura universal, industria farmacéutica y de dispositivos, LATAM",
+      "Type": "Autoridad/Policy",
+      "URL": "https://www.cepal.org/es/publicaciones"
+    },
+    "id": "rec0itABvCQWJQotA"
+  },
+  {
+    "createdTime": "2026-07-18T23:05:14.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 3 · Revenue por región, menciones Brasil/LATAM, capacidad/escasez; transcripts = quotes de ejecutivos con nombre y fecha (Tier 4)",
+      "Name": "Novo Nordisk IR (annual report + earnings calls)",
+      "Reliability": "Alta",
+      "Topics": "GLP-1, market, revenue, LATAM",
+      "Type": "Comercial/Mercado",
+      "URL": "https://www.novonordisk.com/investors.html"
+    },
+    "id": "rec0jEgFYAq8k9UbK"
+  },
+  {
+    "createdTime": "2026-07-19T01:24:15.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 1+5 · Spine resistencia antimicrobiana: vigilancia GLASS por país; Lancet AMR para carga y proyecciones",
+      "Name": "WHO GLASS + Lancet AMR series (antimicrobianos)",
+      "Reliability": "Media",
+      "Topics": "AMR, resistencia, antibióticos",
+      "Type": "Epidemiología",
+      "URL": "https://www.who.int/initiatives/glass"
+    },
+    "id": "rec2BpiHAOcnsHsLX"
+  },
+  {
+    "createdTime": "2026-07-19T01:17:21.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 2 · Patologías con garantía explícita de cobertura (GES); el caso payer chileno con lista y plazos publicados",
+      "Name": "Superintendencia de Salud / GES-AUGE (Chile)",
+      "Reliability": "Alta",
+      "Topics": "CL, cobertura garantizada, GES, all therapeutic areas",
+      "Type": "Regulatorio/Payer",
+      "URL": "https://www.superdesalud.gob.cl"
+    },
+    "id": "rec2jkIGeDWuCjmJ7"
+  },
+  {
+    "createdTime": "2026-07-19T01:17:21.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 2 · Registro sanitario CO; cierra el mapa regulatorio de los 6 mercados grandes",
+      "Name": "INVIMA (Colombia)",
+      "Reliability": "Alta",
+      "Topics": "regulatorio CO, approvals, all therapeutic areas",
+      "Type": "Regulatorio/Payer",
+      "URL": "https://www.invima.gov.co"
+    },
+    "id": "rec3BvE9vvMpuCVyU"
+  },
+  {
+    "createdTime": "2026-07-18T21:13:17.000Z",
+    "fields": {
+      "Freshness_Note": "Literatura peer-reviewed vía MCP",
+      "Name": "PubMed",
+      "Reliability": "Alta",
+      "Topics": "all therapeutic areas",
+      "Type": "Científica",
+      "URL": "https://pubmed.ncbi.nlm.nih.gov"
+    },
+    "id": "rec4AubQstd1qpIPW"
+  },
+  {
+    "createdTime": "2026-10-03T01:11:24.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 3. Revisada por pares. Ítems 2026 confirmados (proyecciones NHE 2025-34). En Scanner: STRUCTURAL.",
+      "Name": "Health Affairs",
+      "Reliability": "Alta",
+      "Topics": "benchmark EE.UU., gasto nacional en salud, política sanitaria",
+      "Type": "Científica",
+      "URL": "https://www.healthaffairs.org"
+    },
+    "id": "rec6ayDPiLWgml6vr"
+  },
+  {
+    "createdTime": "2026-07-19T01:17:21.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 1 · Estadísticas de mortalidad y causas de muerte MX; triangulación nacional",
+      "Name": "INEGI (México)",
+      "Reliability": "Media",
+      "Topics": "MX, mortalidad, all therapeutic areas",
+      "Type": "Epidemiología",
+      "URL": "https://www.inegi.org.mx"
+    },
+    "id": "rec6yO0JuiF4InBed"
+  },
+  {
+    "createdTime": "2026-10-03T01:11:24.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 1. Publicación diaria (visto 2026-10-02). En Scanner: STRUCTURAL.",
+      "Name": "UNICEF",
+      "Reliability": "Alta",
+      "Topics": "salud infantil y materna, vacunación, nutrición",
+      "Type": "Autoridad/Policy",
+      "URL": "https://www.unicef.org"
+    },
+    "id": "rec7fMCRbJrI30qW3"
+  },
+  {
+    "createdTime": "2026-07-18T23:05:14.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 4 · Guías y posicionamientos regionales sobre GLP-1; quotes de sus autoridades en prensa/congresos",
+      "Name": "ALAD (Asociación Latinoamericana de Diabetes)",
+      "Reliability": "Media",
+      "Topics": "diabetes, guías, LATAM, voces",
+      "Type": "Voces/Prensa",
+      "URL": "https://www.revistaalad.com"
+    },
+    "id": "rec8ztkqB9s8G7lrF"
+  },
+  {
+    "createdTime": "2026-07-19T01:17:21.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 1 · INDEPENDIENTE (IHME/U. Washington; financian Gates Foundation y Bloomberg Philanthropies — filantrópicos, no fabricantes; se declaran igual). CICLO VIGENTE = GBD 2023, Lancet 2025;406(10513):1873-1922, DOI 10.1016/S0140-6736(25)01637-X: 204 países + 660 unidades subnacionales, serie 1990-2023, con intervalos de incertidumbre. Herramienta de triangulación transversal contra fuentes industry-funded. Son estimaciones MODELADAS: etiquetar 'estimate' y publicar el IC; donde haya encuesta nacional medida, la encuesta manda. Ficha en Engine_Reference_Library recJ1D9D7DhPjTdls",
+      "Name": "IHME / Global Burden of Disease (GBD)",
+      "Reliability": "Alta",
+      "Topics": "burden, DALYs, all therapeutic areas",
+      "Type": "Epidemiología",
+      "URL": "https://vizhub.healthdata.org/gbd-results/"
+    },
+    "id": "rec9Vv3mle5hGlTMp"
+  },
+  {
+    "createdTime": "2026-10-03T01:11:24.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 3. Open access revisado por pares. Último visto 2026-07. En Scanner: STRUCTURAL.",
+      "Name": "PLOS Global Public Health",
+      "Reliability": "Media",
+      "Topics": "salud pública global, LATAM, equidad",
+      "Type": "Científica",
+      "URL": "https://journals.plos.org/globalpublichealth/"
+    },
+    "id": "rec9gM5RNg4AY4cMF"
+  },
+  {
+    "createdTime": "2026-07-18T23:05:14.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 4 · Directrizes BR sobre GLP-1/obesidad; quotes de presidencia en prensa. Citar en portugués",
+      "Name": "SBD (Sociedade Brasileira de Diabetes)",
+      "Reliability": "Media",
+      "Topics": "diabetes, guías BR, voces",
+      "Type": "Voces/Prensa",
+      "URL": "https://diabetes.org.br"
+    },
+    "id": "recBfVnCSBpPOaF2d"
+  },
+  {
+    "createdTime": "2026-10-03T01:11:24.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 1. Organismo multilateral. Activo (último visto 2026-09-28). En Scanner: REG, MONEY, STRUCTURAL.",
+      "Name": "PAHO / OPS — noticias, Directing Council y Fondo Rotatorio",
+      "Reliability": "Alta",
+      "Topics": "LATAM, gobernanza regional, Fondo Rotatorio, vacunas, eliminación de enfermedades, financiamiento PAHO",
+      "Type": "Autoridad/Policy",
+      "URL": "https://www.paho.org/en/news"
+    },
+    "id": "recD1v30FJ5QlCJWJ"
+  },
+  {
+    "createdTime": "2026-07-18T21:13:17.000Z",
+    "fields": {
+      "Freshness_Note": "Vigilancia BR para triangular IDF",
+      "Name": "VIGITEL (Brasil)",
+      "Reliability": "Alta",
+      "Topics": "chronic disease BR",
+      "Type": "Encuesta nacional",
+      "URL": "https://www.gov.br/saude"
+    },
+    "id": "recE5ckO7hrq6OloC"
+  },
+  {
+    "createdTime": "2026-07-19T01:24:15.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 1+4 · Spine cardiovascular: WHO fact sheets/GBD para carga; SIAC (Sociedad Interamericana de Cardiología) para guías y voces regionales",
+      "Name": "WHO CVD + SIAC (cardiovascular)",
+      "Reliability": "Media",
+      "Topics": "cardiovascular, hipertensión, voces LATAM",
+      "Type": "Epidemiología",
+      "URL": "https://www.who.int/health-topics/cardiovascular-diseases"
+    },
+    "id": "recFbCIhkXGucMwqG"
+  },
+  {
+    "createdTime": "2026-08-28T23:38:06.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 1 · INDEPENDIENTE (dos multilaterales, sin sponsor comercial). Última edición: 2023, la 2ª y última de la serie (la 1ª es 2020); al 28/08/2026 no hay 3ª. Serie armonizada de 33 países LATAM: gasto per cápita, %PIB, %bolsillo, médicos/camas/altas. OJO VENDIMIA: las cifras de gasto son de 2019 — usar como arquitectura de columna comparativa, no como cifra fresca; para gasto actualizado ir a WHO GHED (2023). Ficha completa en Engine_Reference_Library recNCTqcikt8OqGBP",
+      "Name": "OECD / Banco Mundial — Health at a Glance: Latin America and the Caribbean",
+      "Reliability": "Alta",
+      "Topics": "gasto salud, out-of-pocket, recursos y utilización, LATAM, all therapeutic areas",
+      "Type": "Autoridad/Policy",
+      "URL": "https://www.oecd.org/en/publications/2023/04/health-at-a-glance-latin-america-and-the-caribbean-2023_7ba284d7.html"
+    },
+    "id": "recGCbckeUR3tkZMs"
+  },
+  {
+    "createdTime": "2026-07-19T01:17:21.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 1 · Gasto en salud, camas, médicos, outcomes comparados — MX/CL/CO/CR son miembros; benchmark alta-renta vs región",
+      "Name": "OECD Health Statistics",
+      "Reliability": "Alta",
+      "Topics": "gasto salud, benchmark, all therapeutic areas",
+      "Type": "Autoridad/Policy",
+      "URL": "https://www.oecd.org/en/data/datasets/oecd-health-statistics.html"
+    },
+    "id": "recGu6sM9ll5hLot0"
+  },
+  {
+    "createdTime": "2026-10-03T01:11:24.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 6 — radar. Ingresos por suscripción, publicidad y contenido patrocinado (ej. Gates); no publica lista de financiadores. En Scanner: STRUCTURAL.",
+      "Name": "Devex",
+      "Reliability": "Media",
+      "Topics": "ayuda al desarrollo, financiamiento de salud global, USAID/EE.UU.",
+      "Type": "Voces/Prensa",
+      "URL": "https://www.devex.com"
+    },
+    "id": "recJFN19Wteyu7iLY"
+  },
+  {
+    "createdTime": "2026-07-18T23:05:14.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 2 · Aprobaciones AR; lag vs FDA para tabla comparativa regulatoria",
+      "Name": "ANMAT (Argentina)",
+      "Reliability": "Media",
+      "Topics": "regulatorio AR, approvals, all therapeutic areas",
+      "Type": "Regulatorio/Payer",
+      "URL": "https://www.argentina.gob.ar/anmat"
+    },
+    "id": "recJujveGLJtUy5PQ"
+  },
+  {
+    "createdTime": "2026-09-22T21:08:34.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 1 · Revisiones país y country notes 2025 (Perú, cuentas de salud de Brasil, notas de CL/CO/CR/MX). Comparar cada país contra la OCDE, nunca contra un promedio regional. PDFs bloqueados por robots.txt para verificación automática: releer manualmente antes de cachear. Fichas: recRe1AhwGOYSiUjK, rec9aq83zim2RPdk5, recSAtyOMAEtaIkwE. Alta 22/09/2026",
+      "Name": "OECD Reviews of Health Systems + Health at a Glance country notes (LATAM)",
+      "Reliability": "Alta",
+      "Topics": "BR, MX, CO, CL, CR, PE — gasto, cobertura, calidad; benchmark contra promedio OCDE",
+      "Type": "Autoridad/Policy",
+      "URL": "https://www.oecd.org/en/topics/health.html"
+    },
+    "id": "recKuH6cUxTMzDU7d"
+  },
+  {
+    "createdTime": "2026-07-18T21:13:17.000Z",
+    "fields": {
+      "Freshness_Note": "Acceso a medicamentos LATAM; Patient W.A.I.T.",
+      "Name": "FIFARMA",
+      "Reliability": "Alta",
+      "Topics": "access, LATAM pharma",
+      "Type": "Industria",
+      "URL": "https://fifarma.org/publicaciones/"
+    },
+    "id": "recLZFgNcXtbuF44Z"
+  },
+  {
+    "createdTime": "2026-07-18T21:13:17.000Z",
+    "fields": {
+      "Freshness_Note": "Encuesta nacional MX para triangular IDF",
+      "Name": "ENSANUT (México)",
+      "Reliability": "Alta",
+      "Topics": "diabetes, obesity, health MX",
+      "Type": "Encuesta nacional",
+      "URL": "https://ensanut.insp.mx"
+    },
+    "id": "recLmClx3WAI6AIDp"
+  },
+  {
+    "createdTime": "2026-10-03T01:11:24.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 2-3. Fundación privada (endowment Harkness, 1918); no publica fondos pharma (no verificado más allá de la página About). Activo 2026-09-29. En Scanner: STRUCTURAL.",
+      "Name": "The Commonwealth Fund",
+      "Reliability": "Alta",
+      "Topics": "benchmark EE.UU., comparación internacional de sistemas de salud",
+      "Type": "Autoridad/Policy",
+      "URL": "https://www.commonwealthfund.org"
+    },
+    "id": "recLotZkM4nyqtlMX"
+  },
+  {
+    "createdTime": "2026-07-19T01:17:21.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 1 · Mortalidad, hospitalizaciones y gasto del SUS; el dato primario BR que triangula estimados internacionales. Citar en portugués",
+      "Name": "DATASUS (Brasil)",
+      "Reliability": "Alta",
+      "Topics": "BR, mortalidad, hospitalizaciones, all therapeutic areas",
+      "Type": "Epidemiología",
+      "URL": "https://datasus.saude.gov.br"
+    },
+    "id": "recNGKFomWIQMs3Dv"
+  },
+  {
+    "createdTime": "2026-07-18T21:13:17.000Z",
+    "fields": {
+      "Freshness_Note": "Targets de cobertura, citas de Tedros",
+      "Name": "WHO / Global Diabetes Compact",
+      "Reliability": "Alta",
+      "Topics": "diabetes, NCDs, policy",
+      "Type": "Autoridad/Policy",
+      "URL": "https://www.who.int"
+    },
+    "id": "recO0ZPOTlqmyiGuv"
+  },
+  {
+    "createdTime": "2026-10-03T01:11:24.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 6 — radar. Financiadores 2024: Gates, Hewlett, Founders Pledge, Bloomberg, UE, Open Philanthropy, Sida, Ford, Wellcome, FCDO. Sin pharma en la lista 2024. En Scanner: STRUCTURAL.",
+      "Name": "Center for Global Development (CGD)",
+      "Reliability": "Media",
+      "Topics": "política de salud global, financiamiento, ayuda",
+      "Type": "Voces/Prensa",
+      "URL": "https://www.cgdev.org"
+    },
+    "id": "recOBzDJJUzgcSQMX"
+  },
+  {
+    "createdTime": "2026-07-18T23:05:14.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 2 · Evaluaciones e incorporación al SUS de GLP-1 y otras terapias; el caso payer más citable de LATAM. Citar en portugués",
+      "Name": "CONITEC (Brasil)",
+      "Reliability": "Alta",
+      "Topics": "reembolso, HTA, SUS, all therapeutic areas",
+      "Type": "Regulatorio/Payer",
+      "URL": "https://www.gov.br/conitec"
+    },
+    "id": "recOclZXej31lrZcZ"
+  },
+  {
+    "createdTime": "2026-07-19T01:17:21.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 2-3 · Regulador de planes privados BR: cobertura obligatoria (rol ANS), beneficiarios, gasto — la mitad privada del money trail brasileño. Citar en portugués",
+      "Name": "ANS (Brasil — saúde suplementar)",
+      "Reliability": "Alta",
+      "Topics": "BR, planes privados, cobertura, all therapeutic areas",
+      "Type": "Regulatorio/Payer",
+      "URL": "https://www.gov.br/ans"
+    },
+    "id": "recOo1didFuxoKrr0"
+  },
+  {
+    "createdTime": "2026-10-03T01:11:24.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 1-2. Incluye documents.worldbank.org. Último item de salud LAC visto 2026-06. En Scanner: MONEY, STRUCTURAL.",
+      "Name": "Banco Mundial — salud LAC (noticias, resultados, documentos)",
+      "Reliability": "Alta",
+      "Topics": "financiamiento sanitario, préstamos de salud, atención primaria, LATAM",
+      "Type": "Autoridad/Policy",
+      "URL": "https://www.worldbank.org/en/topic/health"
+    },
+    "id": "recP1UkszKriR5PLP"
+  },
+  {
+    "createdTime": "2026-10-03T01:11:24.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 6 — radar. Sitio financiado por Bloomberg Philanthropies; el CFR (matriz) tiene miembros corporativos pharma: Merck, Bayer, Royalty Pharma, Pfizer. En Scanner: STRUCTURAL.",
+      "Name": "Think Global Health (CFR)",
+      "Reliability": "Media",
+      "Topics": "política sanitaria global, WHO, financiamiento",
+      "Type": "Voces/Prensa",
+      "URL": "https://www.thinkglobalhealth.org"
+    },
+    "id": "recQ6IkRDrTrpF48P"
+  },
+  {
+    "createdTime": "2026-07-19T01:17:21.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 2 · Agencia HTA colombiana; par de CONITEC para comparar decisiones de cobertura entre países",
+      "Name": "IETS (Colombia)",
+      "Reliability": "Media",
+      "Topics": "HTA, reembolso CO, all therapeutic areas",
+      "Type": "Regulatorio/Payer",
+      "URL": "https://www.iets.org.co"
+    },
+    "id": "recQF0V9jVc6eaqV0"
+  },
+  {
+    "createdTime": "2026-10-03T01:11:24.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 2. Alianza público-privada (financiadores incluyen gobiernos y fundaciones; industria participa en el board). VaccinesWork activo 2026-10-02. En Scanner: STRUCTURAL.",
+      "Name": "Gavi, the Vaccine Alliance",
+      "Reliability": "Alta",
+      "Topics": "vacunas, financiamiento, compra de vacunas",
+      "Type": "Autoridad/Policy",
+      "URL": "https://www.gavi.org"
+    },
+    "id": "recQY7lqR3PWGnImz"
+  },
+  {
+    "createdTime": "2026-07-19T01:17:21.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 1 · Gasto, workforce y políticas de salud mental por país; spine del tema salud mental, reusable en cualquier reporte que toque el área",
+      "Name": "WHO Mental Health Atlas",
+      "Reliability": "Alta",
+      "Topics": "mental health, gasto, workforce, policy",
+      "Type": "Epidemiología",
+      "URL": "https://www.who.int/publications/i/item/9789240036703"
+    },
+    "id": "recRNlptvLaJGcF48"
+  },
+  {
+    "createdTime": "2026-07-19T01:17:21.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 5 · Carga, treatment gap, evidencia de intervenciones; corroboración científica del área mental",
+      "Name": "The Lancet Psychiatry / Lancet Commission on Global Mental Health",
+      "Reliability": "Media",
+      "Topics": "mental health, treatment gap, evidence",
+      "Type": "Científica",
+      "URL": "https://www.thelancet.com/journals/lanpsy/home"
+    },
+    "id": "recRUMb7W05ePHXJn"
+  },
+  {
+    "createdTime": "2026-07-18T23:05:14.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 3 · Mounjaro/Zepbound, expansión internacional, pricing; transcripts = quotes de ejecutivos (Tier 4)",
+      "Name": "Eli Lilly IR (10-K + earnings calls)",
+      "Reliability": "Alta",
+      "Topics": "GLP-1, tirzepatida, market, revenue",
+      "Type": "Comercial/Mercado",
+      "URL": "https://investor.lilly.com"
+    },
+    "id": "recS4MKyUpJSoiTxw"
+  },
+  {
+    "createdTime": "2026-07-18T21:13:17.000Z",
+    "fields": {
+      "Freshness_Note": "Contexto comercial; uso global de medicamentos",
+      "Name": "IQVIA Institute",
+      "Reliability": "Alta",
+      "Topics": "medicines use, market, GLP-1, oncology",
+      "Type": "Comercial/Mercado",
+      "URL": "https://www.iqvia.com/insights/the-iqvia-institute"
+    },
+    "id": "recTsDBAyEuX3zhOO"
+  },
+  {
+    "createdTime": "2026-07-19T01:17:21.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 3-4 · Cámara de la industria farma BR: datos de mercado, posicionamientos citables. Citar en portugués",
+      "Name": "Interfarma (Brasil)",
+      "Reliability": "Media",
+      "Topics": "BR, mercado farma, industria",
+      "Type": "Industria",
+      "URL": "https://www.interfarma.org.br"
+    },
+    "id": "recUCJcwPDqIKTmuM"
+  },
+  {
+    "createdTime": "2026-07-19T01:24:15.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 1+3 · INDEPENDIENTE. Coberturas por país (WUENIC) + el Fondo Rotatorio, que publica PRECIOS de compra regional — money trail único de LATAM. Lista vigente: Vaccine Prices 2026, publicada 08/07/2026 (paho.org/en/documents/vaccine-prices-revolving-fund-2026); existe la 2025 para variación interanual por dosis. Son precios negociados por compra conjunta, no precio de mercado libre: declararlo. Ficha en Engine_Reference_Library rec7u14mIiz2SQw5P",
+      "Name": "WHO/UNICEF WUENIC + PAHO Revolving Fund (vacunas)",
+      "Reliability": "Media",
+      "Topics": "vacunas, cobertura, precios, LATAM",
+      "Type": "Epidemiología",
+      "URL": "https://immunizationdata.who.int"
+    },
+    "id": "recUr0CWQ7Ua7GO92"
+  },
+  {
+    "createdTime": "2026-10-03T01:11:24.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 1-2. Activo 2026-09-30. En Scanner: STRUCTURAL.",
+      "Name": "The Global Fund",
+      "Reliability": "Alta",
+      "Topics": "VIH, TB, malaria, financiamiento multilateral, lenacapavir",
+      "Type": "Autoridad/Policy",
+      "URL": "https://www.theglobalfund.org"
+    },
+    "id": "recUypvc0XzBKvCAk"
+  },
+  {
+    "createdTime": "2026-07-19T01:17:21.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 4 · Prensa pharma/biotech de calidad; quotes de ejecutivos e investigadores con nombre y fecha. Sesgo US — contexto de industria, no data LATAM",
+      "Name": "STAT News",
+      "Reliability": "Media",
+      "Topics": "pharma, biotech, prensa, all therapeutic areas",
+      "Type": "Voces/Prensa",
+      "URL": "https://www.statnews.com"
+    },
+    "id": "recVMd0b9tL53HyKW"
+  },
+  {
+    "createdTime": "2026-10-03T01:11:24.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 2. Institución pública de investigación del Ministério da Saúde. Activo 2026. En Scanner: STRUCTURAL.",
+      "Name": "Fiocruz (Brasil)",
+      "Reliability": "Alta",
+      "Topics": "BR, epidemiología, vacunas, enfermedades infecciosas, política sanitaria",
+      "Type": "Científica",
+      "URL": "https://agencia.fiocruz.br"
+    },
+    "id": "recVpthaorqJa5V0g"
+  },
+  {
+    "createdTime": "2026-07-18T23:05:14.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 2 · Fechas de aprobación de semaglutida (Wegovy) y tirzepatida (Mounjaro); registro sanitario BR. Citar en portugués",
+      "Name": "ANVISA (Brasil)",
+      "Reliability": "Alta",
+      "Topics": "regulatorio BR, approvals, all therapeutic areas",
+      "Type": "Regulatorio/Payer",
+      "URL": "https://www.gov.br/anvisa"
+    },
+    "id": "recW1GLWRV7FDqEih"
+  },
+  {
+    "createdTime": "2026-07-19T01:17:21.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 1 pero REDISTRIBUIDOR, no emisor · Las series de gasto en salud y out-of-pocket del Banco Mundial vienen de WHO GHED. Desde 28/08/2026 se cita GHED como emisor (Engine_Sources recdCO66faLfdxKI0, dato 2023); DataBank queda como conveniencia de acceso y para indicadores macro no sanitarios (PIB, población, ingreso). Regla: si el organismo publica la planilla, se lee la planilla, no el compilador",
+      "Name": "World Bank DataBank (salud)",
+      "Reliability": "Alta",
+      "Topics": "gasto salud, out-of-pocket, equity, all therapeutic areas",
+      "Type": "Autoridad/Policy",
+      "URL": "https://databank.worldbank.org"
+    },
+    "id": "recY32sKDnVR6IrM8"
+  },
+  {
+    "createdTime": "2026-07-18T23:05:14.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 1 · Prevalencia de obesidad adulta por país — la base del mercado GLP-1; triangula con NCD-RisC",
+      "Name": "WHO Global Health Observatory (obesidad)",
+      "Reliability": "Alta",
+      "Topics": "obesity, prevalence, NCDs, all therapeutic areas",
+      "Type": "Epidemiología",
+      "URL": "https://www.who.int/data/gho"
+    },
+    "id": "recYjlvud6lLY2gzG"
+  },
+  {
+    "createdTime": "2026-08-28T23:38:06.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 1 · INDEPENDIENTE (agencia de cáncer de la OMS). CICLO VIGENTE = GLOBOCAN 2024, publicado 08/07/2026 (Sung H et al., CA Cancer J Clin 2026;76(4):e70090, DOI 10.3322/caac.70090): 34 cánceres, 186 países, estimaciones 2024, proyección a 2050. NO usar el ciclo 2022 como vigente y NUNCA escribir 'GLOBOCAN' sin año: las dos series circulan a la vez. Spine oncológico independiente que sustituye al esqueleto industry-funded. Fichas en Engine_Reference_Library: recrP1EUFqzaAjRPV (2024 vigente) y reckzO47b6yuSmPs2 (2022 superado)",
+      "Name": "IARC / Global Cancer Observatory — GLOBOCAN",
+      "Reliability": "Alta",
+      "Topics": "oncología, incidencia, mortalidad, proyecciones 2050, LATAM",
+      "Type": "Epidemiología",
+      "URL": "https://gco.iarc.who.int/"
+    },
+    "id": "recaCtfwQ8pdSDeFj"
+  },
+  {
+    "createdTime": "2026-10-03T01:11:24.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 3. Revisada por pares. Activo 2026-10-02. En Scanner: STRUCTURAL.",
+      "Name": "The BMJ",
+      "Reliability": "Alta",
+      "Topics": "all therapeutic areas, política sanitaria, evidencia",
+      "Type": "Científica",
+      "URL": "https://www.bmj.com"
+    },
+    "id": "recaGHrt0ZAATohBu"
+  },
+  {
+    "createdTime": "2026-07-18T21:13:17.000Z",
+    "fields": {
+      "Freshness_Note": "Peer-reviewed; corroboración; quotes de autores",
+      "Name": "The Lancet / NCD-RisC",
+      "Reliability": "Alta",
+      "Topics": "all therapeutic areas",
+      "Type": "Científica",
+      "URL": "https://www.thelancet.com"
+    },
+    "id": "recasGjXxP5DlkZDG"
+  },
+  {
+    "createdTime": "2026-10-03T01:11:24.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 1. Benchmark EE.UU. FluView semana 37 2026. En Scanner: STRUCTURAL.",
+      "Name": "CDC (EE.UU.)",
+      "Reliability": "Alta",
+      "Topics": "benchmark EE.UU., vigilancia, MMWR, infecciosas, crónicas",
+      "Type": "Epidemiología",
+      "URL": "https://www.cdc.gov"
+    },
+    "id": "recb0Mjxjp9NrujXg"
+  },
+  {
+    "createdTime": "2026-07-18T21:13:17.000Z",
+    "fields": {
+      "Freshness_Note": "Conteos reales de trials por país/sponsor; vía MCP",
+      "Name": "ClinicalTrials.gov",
+      "Reliability": "Alta",
+      "Topics": "all therapeutic areas",
+      "Type": "Comercial/Mercado",
+      "URL": "https://clinicaltrials.gov"
+    },
+    "id": "recbXXeSYJ3HWqQVQ"
+  },
+  {
+    "createdTime": "2026-08-28T23:38:06.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 1 · INDEPENDIENTE (oficina regional OMS). Plataforma viva hia.paho.org, edición 'Health in the Americas 2022'; fichas país refrescadas 2024-2025, ~50 países y territorios. Cada indicador trae su año y su organismo nacional emisor — sirve de mapa para subir la escalera a la fuente primaria. Vendimias heterogéneas 2021-2024: se cita el año de la celda, nunca el de la ficha. El propio PAHO advierte que sus valores interagenciales difieren de los más recientes del país. Ficha completa en Engine_Reference_Library recPxyVzMBSJosH0o",
+      "Name": "PAHO / OPS — Health in the Americas (fichas país)",
+      "Reliability": "Alta",
+      "Topics": "contexto país, mortalidad materna e infantil, esperanza de vida, TB, VIH, tabaco, LATAM",
+      "Type": "Autoridad/Policy",
+      "URL": "https://hia.paho.org/en/country-profiles"
+    },
+    "id": "recbZu7Fse2Fw0ke9"
+  },
+  {
+    "createdTime": "2026-07-19T01:26:01.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 5 · Literatura peer-reviewed vía ScienceDirect (Elsevier) — incluye Lancet D&E y journals hermanos; búsqueda de reviews y estudios por tema. Mucho contenido es paywalled: usar abstracts + cruzar con PubMed/Consensus para texto completo; citar siempre el paper original con DOI",
+      "Name": "ScienceDirect / The Lancet Diabetes & Endocrinology",
+      "Reliability": "Media",
+      "Topics": "all therapeutic areas, reviews, endocrinología",
+      "Type": "Científica",
+      "URL": "https://www.sciencedirect.com/journal/the-lancet-diabetes-and-endocrinology"
+    },
+    "id": "reccc98SICF7SjMEJ"
+  },
+  {
+    "createdTime": "2026-08-28T23:38:06.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 1 · INDEPENDIENTE y EMISOR PRIMARIO del gasto de bolsillo. Base viva, 192 países, serie desde 2000; última actualización dic-2025 con dato 2023. REEMPLAZA a World Bank DataBank como fuente citable: el Banco Mundial redistribuye GHED, no lo produce — se lee la planilla, no el compilador. Armonizado bajo SHA 2011: OOPS/CHE, CHE/PIB, GGHE-D, per cápita USD y PPP. Ficha completa en Engine_Reference_Library recqsrIcSX9DO9KAg",
+      "Name": "WHO Global Health Expenditure Database (GHED)",
+      "Reliability": "Alta",
+      "Topics": "gasto salud, out-of-pocket, gasto público, equity, money trail, all therapeutic areas",
+      "Type": "Autoridad/Policy",
+      "URL": "https://apps.who.int/nha/database/"
+    },
+    "id": "recdCO66faLfdxKI0"
+  },
+  {
+    "createdTime": "2026-07-19T01:24:15.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 1+3 · Spine salud digital: políticas/implementaciones por país (WHO); inversión en digital health (Rock Health, sesgo US — contexto)",
+      "Name": "WHO Digital Health Atlas + Rock Health (salud digital)",
+      "Reliability": "Media",
+      "Topics": "digital health, telemedicina, inversión",
+      "Type": "Comercial/Mercado",
+      "URL": "https://digitalhealthatlas.org"
+    },
+    "id": "receMzVfsKfvmEumQ"
+  },
+  {
+    "createdTime": "2026-07-19T01:14:57.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 3-4 · Prensa especializada: reportes y artículos sobre payers, pharma, digital health; quotes de ejecutivos, earnings coverage, M&A. Útil para money trail y voces; sesgo US — usar para contexto global/industria, no como fuente de data LATAM",
+      "Name": "Fierce Healthcare / Fierce Pharma",
+      "Reliability": "Media",
+      "Topics": "pharma, payers, digital health, industria, prensa",
+      "Type": "Voces/Prensa",
+      "URL": "https://www.fiercehealthcare.com"
+    },
+    "id": "recemn20EsDH78y2j"
+  },
+  {
+    "createdTime": "2026-10-03T01:11:24.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 2. Organismo público; emisor de ENSANUT. Activo 2026-09-29. En Scanner: STRUCTURAL.",
+      "Name": "INSP — Instituto Nacional de Salud Pública (México)",
+      "Reliability": "Alta",
+      "Topics": "MX, salud pública, ENSANUT, epidemiología",
+      "Type": "Científica",
+      "URL": "https://insp.mx"
+    },
+    "id": "recenAUqNHAM5sM0i"
+  },
+  {
+    "createdTime": "2026-07-19T01:24:15.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 1 · Spine demencia: prevalencia, costo global, capítulos LATAM (ADI regional)",
+      "Name": "Alzheimer's Disease International — World Alzheimer Report",
+      "Reliability": "Media",
+      "Topics": "alzheimer, demencia, aging",
+      "Type": "Epidemiología",
+      "URL": "https://www.alzint.org/resource/world-alzheimer-report/"
+    },
+    "id": "receuFD2YHDdP1jJq"
+  },
+  {
+    "createdTime": "2026-07-18T21:13:17.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 1 en cobertura, NO independiente · 11th ed. 2025 (estimaciones 2024). FINANCIADORES DECLARADOS: Sanofi, Novo Nordisk, MSD (Lancet Diabetes Endocrinol 2025;14(2):149-156, PMID 41412135) — van SIEMPRE en la tabla del reporte. Modelo construido con 246 estudios 2005-2024 + extrapolación: vendimia real 2005-2024, no 2024. Ver Engine_Decisions recA7ZY4ph9avhXE6 (monodependencia), recRtYfkNWwlW0Prs (Teufel et al. NO es control independiente) y recQppD48563IwBLR (North America & Caribbean es ~71% EE.UU./Canadá). Corroborar contra NCD-RisC, GBD 2023 y encuestas nacionales. Ficha en Engine_Reference_Library recnXYDyyP45X1rbt",
+      "Name": "IDF Diabetes Atlas",
+      "Reliability": "Alta",
+      "Topics": "diabetes, obesity, metabolic",
+      "Type": "Epidemiología",
+      "URL": "https://diabetesatlas.org"
+    },
+    "id": "recgZd7EzarkKaTJM"
+  },
+  {
+    "createdTime": "2026-07-19T01:17:39.000Z",
+    "fields": {
+      "Freshness_Note": "Benchmark editorial · ANTES de cada reporte, chequear si Economist Impact / EIU ya cubrió el tema: vara de calidad, cantera de estructura/módulos y diferenciación del ángulo HS (LATAM + money trail). Dónde mirar: hub de salud insights.economistenterprise.com/health-dividend (videos, reportes, artículos) y proyectos como insights.economistenterprise.com/projects/US-health-in-focus/whitepaper; showcases LinkedIn: /showcase/economist-enterprise-insights/ y /showcase/economist-enterprise-eiu/ (permiten descargar reportes); fallback impact.economist.com y eiu.com. NO citar como fuente de datos: usar sus fuentes primarias",
+      "Name": "Economist Impact / Economist Enterprise (reportes de salud)",
+      "Reliability": "Alta",
+      "Topics": "benchmark, all therapeutic areas, referencia editorial",
+      "Type": "Voces/Prensa",
+      "URL": "https://insights.economistenterprise.com/health-dividend"
+    },
+    "id": "recjBbkfVvapgWIiN"
+  },
+  {
+    "createdTime": "2026-07-19T01:24:15.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 1 · Spine VIH e infecciosas: data por país (UNAIDS AIDSinfo); iniciativa de eliminación PAHO para el marco regional",
+      "Name": "UNAIDS + PAHO Elimination Initiative (VIH/infecciosas)",
+      "Reliability": "Media",
+      "Topics": "HIV, infecciosas, eliminación, LATAM",
+      "Type": "Epidemiología",
+      "URL": "https://aidsinfo.unaids.org"
+    },
+    "id": "recl6eCEjQwMSmssM"
+  },
+  {
+    "createdTime": "2026-07-18T23:05:14.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 5 · Obesidad/acceso/equidad con foco LATAM; corroboración regional de IDF/NCD-RisC",
+      "Name": "The Lancet Regional Health – Americas",
+      "Reliability": "Media",
+      "Topics": "LATAM, access, equity, all therapeutic areas",
+      "Type": "Científica",
+      "URL": "https://www.thelancet.com/journals/lanam/home"
+    },
+    "id": "reclwCmSo2UR5Ub84"
+  },
+  {
+    "createdTime": "2026-07-18T23:05:14.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 2 · Aprobaciones MX; lag vs FDA para tabla comparativa regulatoria",
+      "Name": "COFEPRIS (México)",
+      "Reliability": "Alta",
+      "Topics": "regulatorio MX, approvals, all therapeutic areas",
+      "Type": "Regulatorio/Payer",
+      "URL": "https://www.gob.mx/cofepris"
+    },
+    "id": "recm1A0frDjqz8VUS"
+  },
+  {
+    "createdTime": "2026-07-18T23:05:14.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 3-4 · Precios GLP-1 por mercado LATAM vs EE.UU., mercado gris/compounding, escasez; quotes de prensa con nombre y fecha",
+      "Name": "Reuters / Bloomberg Línea (salud)",
+      "Reliability": "Alta",
+      "Topics": "pricing, LATAM, prensa, all therapeutic areas",
+      "Type": "Voces/Prensa",
+      "URL": "https://www.reuters.com/business/healthcare-pharmaceuticals/"
+    },
+    "id": "recmGC7cGUKsN0hXK"
+  },
+  {
+    "createdTime": "2026-07-19T01:17:21.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 2 · Qué medicamentos entran a cobertura pública MX; evaluaciones de tecnología sanitaria",
+      "Name": "CENETEC / Compendio Nacional de Insumos para la Salud (México)",
+      "Reliability": "Media",
+      "Topics": "cobertura MX, HTA, all therapeutic areas",
+      "Type": "Regulatorio/Payer",
+      "URL": "https://www.gob.mx/salud/cenetec"
+    },
+    "id": "recmcXrxwMtOB8rNg"
+  },
+  {
+    "createdTime": "2026-07-19T01:24:15.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 1 · Spine del tema obesidad: prevalencia y proyecciones por país, costo económico; el IDF de la obesidad",
+      "Name": "World Obesity Federation — World Obesity Atlas",
+      "Reliability": "Alta",
+      "Topics": "obesity, prevalence, projections",
+      "Type": "Epidemiología",
+      "URL": "https://www.worldobesity.org/resources/resource-library"
+    },
+    "id": "recmvo8fVMttBUkxE"
+  },
+  {
+    "createdTime": "2026-10-03T01:11:24.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 6 — radar, nunca fuente citada. Financiadores 2024-25 incluyen IFPMA (asociación de la industria farmacéutica), Wellcome, AHF, State of Geneva, CeHDI. Declarar si se cita. En Scanner: REG, STRUCTURAL.",
+      "Name": "Health Policy Watch",
+      "Reliability": "Media",
+      "Topics": "gobernanza sanitaria global, WHO, PAHO, financiamiento multilateral",
+      "Type": "Voces/Prensa",
+      "URL": "https://healthpolicy-watch.news"
+    },
+    "id": "recmz0EK9hnIcQbQu"
+  },
+  {
+    "createdTime": "2026-09-22T21:08:34.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 1-2 · Multilateral independiente. Notas técnicas y proyecciones propias; varios papers los firman autores financiados por el BID (declararlo). Muchas cifras de gasto vienen de OCDE/GHED: citar la primaria. Fichas en Engine_Reference_Library (recfaBOHb4VpNPxlp, recktl1EO3IEBc7T7, recb6TdU2u2q60742). Alta 22/09/2026",
+      "Name": "BID / IDB — División de Salud, Nutrición y Población",
+      "Reliability": "Alta",
+      "Topics": "eficiencia del gasto, hospitales, envejecimiento y cuidados, proyecciones de gasto, LATAM",
+      "Type": "Autoridad/Policy",
+      "URL": "https://publications.iadb.org"
+    },
+    "id": "recrucNvc8N0Kl9JM"
+  },
+  {
+    "createdTime": "2026-07-18T23:05:14.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 2 · Registro sanitario CL; completa la tabla de lag regulatorio",
+      "Name": "ISP (Chile)",
+      "Reliability": "Media",
+      "Topics": "regulatorio CL, approvals, all therapeutic areas",
+      "Type": "Regulatorio/Payer",
+      "URL": "https://www.ispch.cl"
+    },
+    "id": "rectjy9NVmu3XNfcZ"
+  },
+  {
+    "createdTime": "2026-09-22T20:36:37.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 6 — radar, nunca fuente de datos. Honor roll 2025: Roche (US$250-500K), Pfizer (100-250K), Merck (50-100K), Bayer y Organon (10-25K); también DoD, Dept. of State, Emb. EAU, Rockefeller. Declarar financiador si se cita. En Scanner: STRUCTURAL (desde 02-10-2026).",
+      "Name": "Atlantic Council (Adrienne Arsht Latin America Center)",
+      "Reliability": "Media",
+      "Topics": "policy LATAM, geopolítica, supply chain farma, nearshoring, voces",
+      "Type": "Voces/Prensa",
+      "URL": "https://www.atlanticcouncil.org"
+    },
+    "id": "rectynji7GNDht9ND"
+  },
+  {
+    "createdTime": "2026-07-19T01:17:21.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 4 · Guías y posicionamientos; quotes de autoridades psiquiátricas LATAM en congresos y prensa",
+      "Name": "APAL + WPA (psiquiatría regional/global)",
+      "Reliability": "Media",
+      "Topics": "mental health, guías, voces LATAM",
+      "Type": "Voces/Prensa",
+      "URL": "https://apalweb.org"
+    },
+    "id": "recuLU2wzd4PjOkbG"
+  },
+  {
+    "createdTime": "2026-07-18T21:13:17.000Z",
+    "fields": {
+      "Freshness_Note": "Repositorio + quotes del Director (Barbosa)",
+      "Name": "PAHO / IRIS",
+      "Reliability": "Alta",
+      "Topics": "all health, LATAM",
+      "Type": "Autoridad/Policy",
+      "URL": "https://iris.paho.org"
+    },
+    "id": "recx2NrpZfX3mQsBx"
+  },
+  {
+    "createdTime": "2026-07-18T23:05:14.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 5 · Trials pivotales: SELECT 2023 (semaglutida outcomes CV) fundamenta el giro cardiometabólico",
+      "Name": "NEJM (SELECT, SURMOUNT, SUSTAIN)",
+      "Reliability": "Alta",
+      "Topics": "trials pivotales, all therapeutic areas",
+      "Type": "Científica",
+      "URL": "https://www.nejm.org"
+    },
+    "id": "recx8oZXi9ZAWAs0q"
+  },
+  {
+    "createdTime": "2026-07-19T01:24:15.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 1 · Spine enfermedades raras: nomenclatura, prevalencias, medicamentos huérfanos",
+      "Name": "Orphanet (enfermedades raras)",
+      "Reliability": "Media",
+      "Topics": "enfermedades raras, huérfanos",
+      "Type": "Epidemiología",
+      "URL": "https://www.orpha.net"
+    },
+    "id": "recxXNI8GM0zGIbjM"
+  },
+  {
+    "createdTime": "2026-10-03T01:11:24.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 2. Financiador: endowment + fundaciones (Arnold Ventures, Gates, RWJF, CHCF, AARP); declara no aceptar fondos corporativos ni federales. Sin pharma. En Scanner: USA, STRUCTURAL.",
+      "Name": "KFF",
+      "Reliability": "Alta",
+      "Topics": "benchmark EE.UU., Medicaid, Medicare, cobertura, gasto",
+      "Type": "Autoridad/Policy",
+      "URL": "https://www.kff.org"
+    },
+    "id": "reczW3Y6mVA1LP7Gh"
+  }
+]

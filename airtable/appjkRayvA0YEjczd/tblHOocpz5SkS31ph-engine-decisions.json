@@ -1,0 +1,575 @@
+[
+  {
+    "createdTime": "2026-08-11T02:36:15.000Z",
+    "fields": {
+      "Date": "2026-08-11",
+      "Decision": "IQVIA sale del reporte: no se actualiza, se elimina",
+      "Evidence source": "IQVIA Institute, The Global Use of Medicines 2025: Outlook to 2029, enero 2025 — no verificable desde el entorno de producción. Reemplazado por Engine_Data_Points: costo-mensual-semaglutida-1mg-pct-salario-minimo|*|2026 y gasto-bolsillo-pct|*|2023.",
+      "Reason": "La edición 2025 (Outlook to 2029) existe, pero es un informe propietario cuyas cifras no se pudieron verificar contra una fuente primaria accesible desde el contenedor. Antes que citar de memoria una cifra de una edición que no se pudo leer, se elimina el párrafo entero. El money trail de la v3 se reconstruyó con datos verificables y ya cacheados: el índice propio de costo mensual de semaglutida 1 mg como % del salario mínimo en 7 mercados, el gasto de bolsillo armonizado de WHO GHED 2023, y la canasta GES de Chile. Regla: una cifra de mercado sin fuente primaria legible no entra, aunque el emisor sea conocido.",
+      "Report": "Diabetes LATAM v3",
+      "Status": "Vigente",
+      "Type": "Fuente descartada",
+      "Vector": "Vigencia",
+      "What": "La serie de mercado de IQVIA (Global Use of Medicines 2023: US$431bn en 2022 → >US$650bn en 2027), única cifra de tamaño de mercado de la v2, en p.12."
+    },
+    "id": "rec1eDjj7Kp2NhJaK"
+  },
+  {
+    "createdTime": "2026-07-29T16:10:18.000Z",
+    "fields": {
+      "Date": "2026-07-29",
+      "Decision": "Colombia 16,2% sin diagnosticar no es un benchmark",
+      "Evidence source": "Teufel F, et al. Undiagnosed Diabetes. Diabetes Care 2026;49(3):490-496. DOI 10.2337/dc25-2583 (PMID 41604596). — Asociación Colombiana de Endocrinología, Diabetes y Metabolismo, comunicación julio 2026, https://endocrino.org.co/ — Cuenta de Alto Costo (Colombia), corte 31/08/2025, preliminar: 2.597.719 casos diagnosticados, https://cuentadealtocosto.org/ — Fichas país IDF Diabetes Atlas, https://diabetesatlas.org/data-by-location/country/colombia/",
+      "Reason": "No es el más bajo de la región: es el más bajo de los 215 países y territorios del mundo, por debajo de Japón, Alemania, Corea, Canadá y los nórdicos. Cuando un país de ingreso medio encabeza un ranking mundial de detección por encima de todos los sistemas de alto ingreso, la hipótesis primaria es artefacto de medición, no excelencia. La estimación IDF para Colombia descansa en estudios de 2009, 2010 y 2020, y la Asociación Colombiana de Endocrinología estimó en 2026 que cerca de la mitad de los colombianos con diabetes no lo sabe. No existe evaluación publicada que aísle el efecto del aseguramiento colombiano sobre la detección.",
+      "Report": "Diabetes LATAM v2",
+      "Status": "Vigente",
+      "Type": "Tesis refutada",
+      "Vector": "Generalización geográfica",
+      "What": "El reporte de diabetes v2 presentó el 16,2% de no diagnosticados de Colombia como 'la proporción más baja de los seis mercados más grandes de la región' y como 'benchmark replicable' atribuible al diseño del sistema de aseguramiento."
+    },
+    "id": "rec2Bsj76m9rKTFBQ"
+  },
+  {
+    "createdTime": "2026-07-29T16:10:18.000Z",
+    "fields": {
+      "Date": "2026-07-29",
+      "Decision": "828m (18+) y 445m sin tratar (30+) no comparten denominador",
+      "Evidence source": "NCD Risk Factor Collaboration. Lancet 2024;404(10467):2077-2093. DOI 10.1016/S0140-6736(24)02317-1.",
+      "Reason": "Los 828m son adultos 18+; los 445m sin tratamiento son adultos 30+ (59% de 754m). El reporte fusiona dos denominadores. 445/828 = 53,7%, así que 'más de la mitad' sobrevive por coincidencia aritmética. Reformulación: 'more than half of those aged 30 and over were not receiving treatment (445m of 754m, 59%)'.",
+      "Report": "Diabetes LATAM v2",
+      "Status": "Vigente",
+      "Type": "Trampa metodológica",
+      "Vector": "Denominador",
+      "What": "'adults with diabetes worldwide above 800 million in 2022 — four times the 1990 total, more than half of them untreated' (p.03, v2)."
+    },
+    "id": "rec4tGLfEyBQmNOge"
+  },
+  {
+    "createdTime": "2026-08-09T03:20:26.000Z",
+    "fields": {
+      "Date": "2026-08-09",
+      "Decision": "El meta-análisis de Diabetes Care 2025 no incluyó a ningún paciente sin diabetes",
+      "Reason": "El título del paper es 'in Individuals With Type 2 Diabetes' y su criterio de inclusión exige ensayos en personas con DM2. La población de SELECT —sin diabetes— no está adentro. Además la ausencia de heterogeneidad es por VÍA DE ADMINISTRACIÓN, no por dosis, y el propio paper declara como limitación que un meta-análisis a nivel de ensayo impide análisis de subgrupos. La contra-tesis era más débil de lo que el brief le concedía: el reporte se auto-infligía una objeción que la fuente no soporta. REGLA: verificar la contra-tesis con el mismo rigor que la tesis.",
+      "Report": "GLP-1 LATAM v1",
+      "Status": "Vigente",
+      "Type": "Reformulación aplicada",
+      "Vector": "Generalización geográfica",
+      "What": "El brief usaba Lee MMY, Sattar N et al., Diabetes Care 2025;48(5):846-859 (10 ensayos, n=71.351, MACE HR 0,86, sin heterogeneidad oral vs subcutánea) como contra-tesis: 'el beneficio sería de clase y no de dosis, así que 1 mg barato ya entregaría casi todo el efecto'."
+    },
+    "id": "rec68o83ACcIyC6bc"
+  },
+  {
+    "createdTime": "2026-08-09T03:20:26.000Z",
+    "fields": {
+      "Date": "2026-08-09",
+      "Decision": "Los 6 ensayos CV del reporte están financiados por el fabricante del producto probado",
+      "Reason": "SELECT, SOUL y FLOW: financiados por Novo Nordisk. SURPASS-CVOT, SUMMIT y SURMOUNT-MMO: por Eli Lilly. 6 de 6, con empleados del patrocinador entre los autores de cada uno (SELECT lista siete de Novo Nordisk Søborg; SURPASS-CVOT cinco de Lilly Indianapolis). No existe replicación independiente de ninguno. El reporte declaraba el financiador de las sociedades, del piloto Real-Bari, del índice de Economist Enterprise y de cada voz, pero no el de los ensayos que sostienen su caso clínico. REGLA: todo ensayo pivotal lleva columna de financiador y etiqueta de independencia degradada.",
+      "Report": "GLP-1 LATAM v1",
+      "Status": "Vigente",
+      "Type": "Fuente degradada",
+      "Vector": "Conflicto de interés / monodependencia",
+      "What": "SELECT, SOUL, FLOW, SURPASS-CVOT, SUMMIT y SURMOUNT-MMO se citaban bajo la etiqueta de independencia 'Peer-reviewed and public registry · primary', el mismo grado que reguladores y agencias estadísticas."
+    },
+    "id": "rec6GSRukb9yigBOk"
+  },
+  {
+    "createdTime": "2026-07-29T16:10:18.000Z",
+    "fields": {
+      "Date": "2026-07-28",
+      "Decision": "Conflicto de atribución: Orozco Villegas vs Silva Gómez",
+      "Evidence source": "Detectado por el agente de voces, 2026-07-28.",
+      "Reason": "No se puede citar sin saber quién lo dijo, y la diferencia importa: una es independiente y la otra es industria, lo que cambia la declaración de conflicto exigida por el estándar de citación. Congelada hasta resolver la fuente original.",
+      "Report": "Diabetes LATAM v2 (research)",
+      "Status": "Revisar",
+      "Type": "Cita descartada",
+      "Vector": "Verificación de cita",
+      "What": "Texto idéntico acreditado en distintos medios a la Dra Liliana Orozco Villegas (clínica independiente) y a Silva Gómez (ejecutiva de Sanofi)."
+    },
+    "id": "rec6KJv9Yt3u2FSWW"
+  },
+  {
+    "createdTime": "2026-08-11T01:31:51.000Z",
+    "fields": {
+      "Date": "2026-08-11",
+      "Decision": "Los conteos de ensayos de oncologia estaban contaminados por homonimos y ademas doble-contados",
+      "Evidence source": "ClinicalTrials.gov (NIH/NLM), API v2, consultado 2026-08-11. Query canonica archivada: query.cond=cancer; filter.overallStatus=RECRUITING; studyType=INTERVENTIONAL; filter.advanced=AREA[LocationCountry]<Pais>. Union: AREA[LocationCountry](Brazil OR Mexico OR Argentina OR Chile OR Peru OR Colombia) = 399.",
+      "Reason": "Dos errores independientes, ambos confirmados el 2026-08-11 contra ClinicalTrials.gov API v2. PRIMERO, contaminacion por homonimo geografico - exactamente el patron ya registrado para diabetes v2 en el registro 'Conteos de ClinicalTrials.gov: contaminacion por New Mexico, USA'. Comparando la busqueda libre por texto de localizacion contra el filtro por campo AREA[LocationCountry]: Mexico 230 vs 123 (107 falsos positivos por 'New Mexico, USA'); Peru 113 vs 37 (76 falsos positivos por localidades llamadas Peru en EE.UU. - verificados NCT05987241 MODERN/NCI, NCT03851445 LUNGMAP/SWOG, NCT05554406 MYELOMATCH, los tres estudios estadounidenses sin ningun sitio peruano); Colombia 52 vs 51 (1 falso positivo, NCT05335928, sitio en Columbia, EE.UU.); Chile 124 vs 124 (limpio). Peru es el peor caso: el conteo publicado (129) triplicaba el real (37), y la afirmacion de p.10 de que Peru tenia una base de investigacion comparable a la de Chile era artefacto puro. SEGUNDO, doble conteo: el total de '1.101' era la SUMA de los seis conteos nacionales, pero un ensayo multipais aparece en varios paises a la vez. NCT06170788 (TroFuse-007, MSD) tiene sitios en los seis mercados y se contaba seis veces. Los ensayos DISTINTOS con al menos un sitio en los seis mercados son 399; las participaciones pais-ensayo son 803. Publicar 803 como 'ensayos' seria repetir el error con otro numero. TERCERO, cambia el ranking: con conteos limpios Mexico ya no es la segunda base de investigacion de la region (queda cuarto, detras de Argentina 156 y Chile 124), asi que la nota de p.07 'second-deepest trial pipeline in the region' tambien era falsa. REGLA REAFIRMADA: todo conteo de registro lleva fecha de acceso, query archivada, filtro por campo de pais (nunca busqueda libre de localizacion) y, si se agregan paises, se declara si el numero son ensayos unicos o participaciones.",
+      "Report": "Oncologia LATAM v2",
+      "Status": "Vigente",
+      "Type": "Trampa metodológica",
+      "Vector": "Comparabilidad metodológica",
+      "What": "Conteos de ensayos de cancer reclutando publicados en la v1 (portada, p.06 a p.11): Brasil 343, Mexico 258, Argentina 178, Chile 130, Peru 129, Colombia 63, y un total de '1.101 ensayos reclutando en los seis mercados', rotulados 'actual, registry' sin fecha de acceso ni query archivada."
+    },
+    "id": "rec7CcGAGoeYYQ2Yp"
+  },
+  {
+    "createdTime": "2026-07-29T16:10:18.000Z",
+    "fields": {
+      "Date": "2026-07-29",
+      "Decision": "Monodependencia de IDF, con financiamiento no declarado",
+      "Evidence source": "Genitsaridi I, Salpea P, Salim A, et al. 11th edition of the IDF Diabetes Atlas. Lancet Diabetes Endocrinol 2025;14(2):149-156. DOI 10.1016/S2213-8587(25)00299-2 (PMID 41412135). Funding: Sanofi, Novo Nordisk, MSD.",
+      "Reason": "Muy por encima del umbral de ~70% de monodependencia. El paper metodológico de la 11ª edición declara financiamiento de Sanofi, Novo Nordisk y MSD — tres de los cinco fabricantes perfilados en la p.15 del propio reporte — y el reporte etiquetó a IDF como 'Non-profit · industry-funded · primary' sin nombrar nunca a los financiadores. Viola la regla que el propio reporte declara en p.17. NCD-RisC (financiado por UK MRC, UKRI y US CDC) y las encuestas nacionales son la primaria pública disponible y fueron relegadas a corroboración decorativa. Además la 11ª edición se construyó con 246 estudios de 2005-2024 y extrapolación en países sin datos propios: la regla de ≤2 años se cumple en el sello de la fuente y se incumple en el dato.",
+      "Report": "Diabetes LATAM v2",
+      "Status": "Vigente",
+      "Type": "Fuente degradada",
+      "Vector": "Conflicto de interés / monodependencia",
+      "What": "Prácticamente todas las cifras epidemiológicas del reporte (prevalencia, casos, no diagnosticados, gasto, mortalidad, proyecciones 2050, tabla de 14 mercados) vienen de IDF."
+    },
+    "id": "recA7ZY4ph9avhXE6"
+  },
+  {
+    "createdTime": "2026-08-11T01:31:51.000Z",
+    "fields": {
+      "Date": "2026-08-11",
+      "Decision": "Frases de HealthSignals entrecomilladas como si fueran citas de terceros",
+      "Evidence source": "Auditoria interna del HTML maestro claude/report-template-oncologia.html, 2026-08-11. Cita real de Bray verificada verbatim contra UICC/IARC (1 de febrero de 2024): 'These projections serve as a warning. The heaviest burden is borne by regions least enabled to deal with the increase in cancer cases. There is a critical need to invest now in workforce and infrastructure to absorb this surge.' https://www.uicc.org/news-and-updates/news/globocan-2022-latest-global-cancer-data-shows-rising-incidence-and-stark",
+      "Reason": "Ninguna de las dos es una cita: son juicios editoriales de HealthSignals. Puestas entre comillas y maquetadas con el mismo estilo de pull-quote que la cita real de Freddie Bray (p.12), el lector no tiene forma de distinguir una frase de una fuente de una frase de la casa. El riesgo no es de estilo sino de atribucion: es el mismo mecanismo por el que un lector puede terminar citando a HealthSignals como si estuviera citando a la IARC. Correccion: se quitan las comillas y ambas se rotulan explicitamente como 'HealthSignals view'. Ademas se cubrio el hueco real que este defecto tapaba - el reporte tenia una sola voz atribuida (Bray, IARC, global) y ninguna regional. Se incorporo a Mauricio Maza (OPS) verificado verbatim, cacheado en Engine_Voices. REGLA: el formato de pull-quote con comillas queda reservado para citas verificadas de terceros; el juicio de la casa va sin comillas y rotulado.",
+      "Report": "Oncologia LATAM v2",
+      "Status": "Vigente",
+      "Type": "Cita descartada",
+      "Vector": "Verificación de cita",
+      "What": "Dos pull-quotes con comillas y sin atribucion: 'The binding constraint on cancer outcomes in the region is no longer knowledge - it is access.' (nota del editor, p.02) y 'In this region, value is decided less by the next molecule than by who puts molecular diagnosis within reach of the public patient.' (p.13)."
+    },
+    "id": "recAK7sKLuV2E7RxO"
+  },
+  {
+    "createdTime": "2026-08-11T02:36:15.000Z",
+    "fields": {
+      "Date": "2026-08-11",
+      "Decision": "No existe cascada nacional medida para Argentina, Colombia, Chile ni Perú",
+      "Evidence source": "Búsqueda de HealthSignals en PubMed al 11/08/2026; NCD Risk Factor Collaboration, Lancet 2024;404(10467):2077-2093 (mide cobertura de tratamiento, no control); únicas cascadas halladas: Ensanut Continua 2021-2024 (México) DOI 10.21149/17286 y Tonaco LAB et al., Rev Saude Publica 2023;57:75 DOI 10.11606/s1518-8787.2023057005167 (Brasil, datos PNS 2014/2015).",
+      "Reason": "Escalera corrida completa y agotada para los cuatro países: (1) organismos emisores nacionales — INDEC y Ministerio de Salud de Argentina, ICBF/MinSalud de Colombia, MINSAL de Chile, INEI de Perú; (2) armonizadores multilaterales — PAHO, WHO GHO, NCD-RisC (que publica cobertura de tratamiento pero no control glucémico); (3) literatura revisada por pares indexada en PubMed al 11/08/2026. Ninguna fuente publica los cuatro pasos sobre una misma muestra nacional. Se declara 'data unavailable' en el reporte, en p.04, p.10 y p.17, sin sustituir por proxy. La ausencia se publicó como hallazgo editorial: una región que mide detección y no control seguirá escribiendo política de detección. NO REINTENTAR sin una encuesta nacional nueva con componente bioquímico.",
+      "Report": "Diabetes LATAM v3",
+      "Status": "Vigente",
+      "Type": "Dato descartado",
+      "Vector": "Vigencia",
+      "What": "Se buscaba, para los seis mercados mayores, la cascada completa medida en una sola muestra nacional: prevalencia total, diagnosticada, en tratamiento y con HbA1c<7%. Es el indicador central de la tesis nueva de la v3."
+    },
+    "id": "recBIikN4FIMUeolP"
+  },
+  {
+    "createdTime": "2026-07-29T16:10:18.000Z",
+    "fields": {
+      "Date": "2026-07-29",
+      "Decision": "IQVIA Global Use of Medicines 2023 está dos ediciones atrasado",
+      "Evidence source": "IQVIA Institute, The Global Use of Medicines 2025: Outlook to 2029, enero 2025. https://www.iqvia.com/insights/the-iqvia-institute/reports-and-publications/reports/the-global-use-of-medicines-2025-outlook-to-2029",
+      "Reason": "Existen las ediciones 2024 y 2025 (Outlook to 2029). Dos ediciones de atraso en la única serie de mercado del reporte, en un capítulo cuyo argumento es que el mercado se redibuja en tiempo real, y en violación de la regla de ≤2 años.",
+      "Report": "Diabetes LATAM v2",
+      "Status": "Vigente",
+      "Type": "Fuente degradada",
+      "Vector": "Vigencia",
+      "What": "Cita a IQVIA, The Global Use of Medicines 2023 (US$431bn en 2022 → >US$650bn en 2027) en p.12."
+    },
+    "id": "recEO3eh9u32Eif4N"
+  },
+  {
+    "createdTime": "2026-07-29T16:10:18.000Z",
+    "fields": {
+      "Date": "2026-07-29",
+      "Decision": "Conteos de ClinicalTrials.gov: contaminación por 'New Mexico, USA'",
+      "Evidence source": "ClinicalTrials.gov (NIH/NLM), API v2, consultado 2026-07-29.",
+      "Reason": "Reejecutados el 29/07/2026 dan Brasil 37, México 20, Argentina 19, Chile 6, Colombia 3, Perú 0. Ninguna cifra grande reproduce. Peor: el conteo de México está inflado por coincidencia de cadena con 'New Mexico, USA' — falsos positivos NCT06115265, NCT02915198, NCT06445946, NCT06579950 y NCT05958342 (este último ni siquiera es de diabetes: trauma y hemorragia). El conteo de Colombia incluye NCT06476015, que es observacional, contra la propia nota al pie del reporte. REGLA PERMANENTE: todo conteo de registro lleva fecha de acceso, query archivada y revisión manual de falsos positivos por homónimo geográfico.",
+      "Report": "Diabetes LATAM v2",
+      "Status": "Vigente",
+      "Type": "Trampa metodológica",
+      "Vector": "Vigencia",
+      "What": "Conteos de ensayos reclutando por país (p.12, v2): Brasil 38, México 23, Argentina 23, Chile 8, Colombia 3, Perú 0, rotulados 'actual'."
+    },
+    "id": "recJ1df1G1tqaUCx6"
+  },
+  {
+    "createdTime": "2026-08-09T03:20:26.000Z",
+    "fields": {
+      "Date": "2026-08-09",
+      "Decision": "US$150 vs US$274 se invierte a 47,2% vs 21,8% en salarios mínimos",
+      "Reason": "El propio reporte declara que la asequibilidad se mide en salarios mínimos para evitar distorsión cambiaria. En esa unidad: R$764,64/R$1.621 = 47,2% contra US$274/US$1.256,67 = 21,8%. La oferta brasileña es 2,16 veces más cara. Además son tres instrumentos distintos: propuesta de compra pública, maximum fair price estatutario y acuerdo bilateral MFN. Se publican las dos lecturas.",
+      "Report": "GLP-1 LATAM v1",
+      "Status": "Vigente",
+      "Type": "Trampa metodológica",
+      "Vector": "Denominador",
+      "What": "La oferta de Novo a CONITEC (R$764,64 ≈ US$150) se presentaba como prueba de que 'los precios latinoamericanos no son caros porque la industria cobre más', contra los US$274 negociados por Medicare."
+    },
+    "id": "recK2a1Fd92F4JYhe"
+  },
+  {
+    "createdTime": "2026-07-29T16:10:18.000Z",
+    "fields": {
+      "Date": "2026-07-29",
+      "Decision": "Las cuatro citas de diabetes v2 son reales y verbatim — no refutadas",
+      "Evidence source": "Comunicado IDF 07/04/2025; WHO 13/11/2024; PAHO, PDF de intervención 15/07/2025; EurekAlert release 1064525, 13/11/2024.",
+      "Reason": "Resultado negativo, registrado a propósito: el agente adversarial verificó las cuatro contra la fuente emisora. Ninguna inventada, ninguna mal atribuida, ninguna mal transcrita. Única observación: la de Barbosa se trunca antes de 'perhaps the worst economic disaster in health', que es la parte más fuerte. La aritmética interna del reporte también cierra, y el cero de Perú es real.",
+      "Report": "Diabetes LATAM v2",
+      "Status": "Vigente",
+      "Type": "Reformulación aplicada",
+      "Vector": "Verificación de cita",
+      "What": "Citas de Peter Schwarz (IDF), Tedros Adhanom Ghebreyesus (WHO), Jarbas Barbosa (PAHO) y Majid Ezzati (Imperial College)."
+    },
+    "id": "recKZIzT3XTChJF7T"
+  },
+  {
+    "createdTime": "2026-07-29T16:10:18.000Z",
+    "fields": {
+      "Date": "2026-07-29",
+      "Decision": "AMAZE 2: 74 sitios globales, pero solo 8 latinoamericanos reclutando",
+      "Evidence source": "ClinicalTrials.gov, NCT07533175, consultado 2026-07-29. https://clinicaltrials.gov/study/NCT07533175",
+      "Reason": "El ensayo es real y verificado (NCT07533175, Fase 3, RECRUITING, n=630, 74 localizaciones). Pero de esos 74 solo 8 latinoamericanos están efectivamente reclutando (Argentina 4, Brasil 4); los 6 sitios de México figuran NOT_YET_RECRUITING y no hay sitios en Chile, Colombia ni Perú. El numerador correcto para un argumento regional es 8, no 74.",
+      "Report": "Diabetes LATAM v2",
+      "Status": "Vigente",
+      "Type": "Reformulación aplicada",
+      "Vector": "Denominador",
+      "What": "El reporte usó los 74 sitios de AMAZE 2 (Novo Nordisk) como evidencia de apuesta industrial en América Latina."
+    },
+    "id": "recKybVbqrDrvYFxN"
+  },
+  {
+    "createdTime": "2026-08-09T03:20:26.000Z",
+    "fields": {
+      "Date": "2026-08-09",
+      "Decision": "El PDF 'Encuesta Nacional de Salud 2023' de Chile no es del MINSAL ni mide obesidad",
+      "Reason": "Es la Décimo Cuarta Encuesta sobre el Sistema de Salud Chileno, encargada por el Instituto de Salud Pública de la Universidad Andrés Bello (privada, sigla ISP que se confunde con el regulador) y ejecutada por Ipsos, job 23-027617-01. Campo 12/07 al 07/08/2023, n=1.400, solo Metropolitana, Biobío y Valparaíso, 18-85 años. Mide PERCEPCIÓN del sistema de salud: afiliación Fonasa/Isapre, crisis de las Isapres, índice de calidad. Cero mediciones antropométricas, cero laboratorio, cero prevalencia. La ENS vigente de Chile sigue siendo la 2016-17 del MINSAL. Trampa de identidad institucional.",
+      "Report": "GLP-1 LATAM (research)",
+      "Status": "Vigente",
+      "Type": "Dato descartado",
+      "Vector": "Vigencia",
+      "What": "Circula un PDF titulado 'ENCUESTA NACIONAL DE SALUD 2023 — Informe General' alojado en ispandresbello.cl, que aparece en búsquedas como si fuera la ENS chilena actualizada."
+    },
+    "id": "recLdF0n8Fi5kQUJK"
+  },
+  {
+    "createdTime": "2026-11-09T01:57:41.000Z",
+    "fields": {
+      "Date": "2026-11-08",
+      "Decision": "Cascada p.04: Brasil pintado en azul (= modelado) siendo dato medido",
+      "Evidence source": "HealthSignals, Diabetes in Latin America 2026, p.02 (convención de color) y p.04 (cascada). Tonaco LAB, et al. Rev Saúde Pública 2023;57:75.",
+      "Reason": "Viola la regla 'color solo con significado': el lector lee la serie de Brasil como modelada. En la edición web se corrigió (Brasil en verde claro con borde, México verde sólido). No pude confirmar si la v2 corregida publicada (2026-10-02, PDF en /wp-content/uploads/2026/10/) mantiene el azul: la miniatura del PDF sugiere que sí, sin certeza. Acción: verificar en la v2 y, si sigue, corregir y re-subir el PDF.",
+      "Report": "Diabetes LATAM 2026",
+      "Status": "Revisar",
+      "Type": "Trampa metodológica",
+      "Vector": "Comparabilidad metodológica",
+      "What": "En claude/reporte-01-diabetes-final.html, chart 'The care cascade' (p.04), la serie de Brasil va en azul #1B6CA8. La p.02 declara: verde = medido en encuesta nacional, azul = estimación modelada. El dato de Brasil (PNS 2014/2015, Tonaco 2023) es medido."
+    },
+    "id": "recNMsq3dOvheQKJO"
+  },
+  {
+    "createdTime": "2026-07-29T16:10:18.000Z",
+    "fields": {
+      "Date": "2026-07-29",
+      "Decision": "El problema de México es control glucémico, no cobertura de tratamiento",
+      "Evidence source": "NCD Risk Factor Collaboration. Lancet 2024;404(10467):2077-2093. DOI 10.1016/S0140-6736(24)02317-1 (PMID 39549716). — Ensanut Continua 2021-2024, DOI 10.21149/17286.",
+      "Reason": "Dos fuentes independientes lo contradicen. NCD-RisC ubica a México entre los mejores de América Latina en cobertura de tratamiento (≥55%, junto con Costa Rica y Chile) y entre los países con mayor mejora mundial desde 1990. ENSANUT: 90,9% de los diagnosticados está en tratamiento, pero solo 33,0% alcanza HbA1c<7%. Además el reporte no usó ninguna serie de cobertura: dedujo cobertura de tratamiento a partir de una cifra de GASTO.",
+      "Report": "Diabetes LATAM v2",
+      "Status": "Vigente",
+      "Type": "Dato descartado",
+      "Vector": "Denominador",
+      "What": "'México US$1.438 refleja tanto costos unitarios menores como, más preocupante, menor cobertura de tratamiento' (p.06, v2)."
+    },
+    "id": "recPprE5f0l7ia6Tt"
+  },
+  {
+    "createdTime": "2026-07-29T16:10:18.000Z",
+    "fields": {
+      "Date": "2026-07-29",
+      "Decision": "La barra 'latinoamericana' de p.04 es ~71% EE.UU. y Canadá",
+      "Evidence source": "IDF Diabetes Atlas, 11th ed. 2025, páginas regionales North America & Caribbean (56,2m) y South & Central America (35,4m). https://diabetesatlas.org/regions/",
+      "Reason": "North America & Caribbean = 56,2m e incluye Canadá, EE.UU., México y 22 países del Caribe. México aporta 13,6m: ~40m de la barra resaltada como latinoamericana son estadounidenses y canadienses. El total latinoamericano real cruzando ambas regiones IDF es ~49m, no ~92m. La nota al pie no corrige la lectura del gráfico, que es donde vive el argumento. Regla asociada: nunca comparar un país contra un promedio regional — el promedio comprime la dispersión y garantiza que el país 'alcance' a la región sin que eso signifique nada.",
+      "Report": "Diabetes LATAM v2",
+      "Status": "Vigente",
+      "Type": "Trampa metodológica",
+      "Vector": "Generalización geográfica",
+      "What": "Gráfico de p.04 que resalta 'las dos regiones IDF que cubren América Latina', mostrando North America & Caribbean con ~56 millones."
+    },
+    "id": "recQppD48563IwBLR"
+  },
+  {
+    "createdTime": "2026-08-11T02:46:09.000Z",
+    "fields": {
+      "Date": "2026-08-11",
+      "Decision": "Ningun precio de mas de 2 anios entra al reporte, ni etiquetado como benchmark fechado",
+      "Evidence source": "Instruccion editorial de Fernando Pafumi, 2026-08-11. Dato retirado: Moye-Holz D, Vogler S. Appl Health Econ Health Policy 2021;20(1):67-77. DOI 10.1007/s40258-021-00670-4 (PMID 34228312), precios de 2017.",
+      "Reason": "RECHAZADO POR FER, regla textual: 'no puedo tener precios de 2017, los informes o precios deben ser de no mas de 2 anios'. La declaracion de vendimia NO rescata un precio viejo: un precio de 2017 en un reporte de 2026 son nueve anios y falla la regla dura de datos <=2-3 anios aunque este etiquetado. Queda como precedente general del motor: la etiqueta de vendimia sirve para dar contexto a un dato que YA pasa la regla de recencia, no para hacer publicable uno que no la pasa. Lo que habia fallado no era la existencia del dato sino la RUTA: el adjunto de CMED en Engine_Price_Files no se puede descargar desde el contenedor (403 en el proxy) y gov.br tampoco responde por curl. La ruta que si funciona, tomada de la corrida paralela de GLP-1: reconstruir el techo regulado cruzando compiladores brasilenos independientes que republican las bandas de CMED, y citar a CMED como emisor con la lista y su fecha. Resultado: el money trail se rehizo con precios de junio de 2026 (ver el registro siguiente en este log y los 7 datapoints nuevos). El bloque de 2017 se retiro por completo del HTML: p.05, p.07 (la frase sobre Mexico como el mercado menos asequible), p.13 (la implicacion de precios para pharma), p.16 (fuentes, categoria Actual y declared limits).",
+      "Report": "Oncologia LATAM v2",
+      "Status": "Vigente",
+      "Type": "Dato descartado",
+      "Vector": "Vigencia",
+      "What": "El money trail de la p.05 se habia resuelto con Moye-Holz & Vogler (Appl Health Econ Health Policy 2021, DOI 10.1007/s40258-021-00670-4): 19 oncologicos originadores, 16 paises, mediana de 10,53 dias de salario minimo por DDD en LATAM contra 2,04 en la Europa de ingreso mas alto. Se publicaba con la vendimia declarada (precios de 2017) y una caja de advertencia en la pagina."
+    },
+    "id": "recRGYZv4pK9rvxWJ"
+  },
+  {
+    "createdTime": "2026-07-29T16:10:18.000Z",
+    "fields": {
+      "Date": "2026-07-29",
+      "Decision": "'Roche Phase 3 obesity programme spans 128 sites' — no reproduce",
+      "Evidence source": "ClinicalTrials.gov, consultado 2026-07-29: NCT07351058, NCT07351045.",
+      "Reason": "No reproduce contra ningún registro: NCT07351058 tiene 163 localizaciones, NCT07351045 tiene 164, más un estudio de 12 sitios en China. Ninguna combinación da 128. No se pudo confirmar el origen. Se retira hasta tener fuente.",
+      "Report": "Diabetes LATAM v2",
+      "Status": "Vigente",
+      "Type": "Dato descartado",
+      "Vector": "Vigencia",
+      "What": "Cifra de 128 sitios del programa Fase 3 de obesidad de Roche (p.12, v2)."
+    },
+    "id": "recRdUvmzFUxfitOr"
+  },
+  {
+    "createdTime": "2026-08-11T02:36:15.000Z",
+    "fields": {
+      "Date": "2026-08-11",
+      "Decision": "Teufel et al. NO es una verificación independiente del IDF Atlas",
+      "Evidence source": "Teufel F, Orgutsova K, Genitsaridi I, et al. Global, Regional, and National Estimates of Undiagnosed Diabetes in Adults: Findings From the 2025 IDF Diabetes Atlas. Diabetes Care 2026;49(3):490-496. DOI 10.2337/dc25-2583 (PMID 41604596) — afiliaciones verificadas en PubMed el 11/08/2026.",
+      "Reason": "No corrobora nada: es el análisis de no diagnosticados DEL PROPIO Atlas 2025, y tres de sus autores (Genitsaridi, Salpea y la afiliación de Orgutsova al circuito IDF) son personal de la International Diabetes Federation en Bruselas. Citarlo junto al Atlas como si fueran dos fuentes duplica el conteo del mismo emisor y falsea el test de monodependencia. En la v3 se cita por su nombre, se declara la coautoría IDF en el bloque de independencia de p.17 y en el pie del gráfico de p.06, y la corroboración real se hace contra NCD-RisC y las encuestas nacionales. REGLA PERMANENTE: antes de contar una fuente como independiente, revisar las afiliaciones de los autores, no solo el nombre de la revista.",
+      "Report": "Diabetes LATAM v3",
+      "Status": "Vigente",
+      "Type": "Fuente degradada",
+      "Vector": "Conflicto de interés / monodependencia",
+      "What": "Teufel F, et al. Diabetes Care 2026;49(3):490-496 fue tratado en el research como una fuente peer-reviewed capaz de corroborar las cifras de no diagnosticados del IDF Atlas."
+    },
+    "id": "recRtYfkNWwlW0Prs"
+  },
+  {
+    "createdTime": "2026-08-10T20:14:31.000Z",
+    "fields": {
+      "Date": "2026-08-11",
+      "Decision": "Tirzepatida Brasil: RESUELTO — el observado R$2.699,00 es la caja de 4 plumas y no viola el techo (R$3.854,43); R$1.927,21 es la caja de 2 plumas",
+      "Evidence source": "Eli Lilly, Programa Lilly Melhor Para Você, página de Mounjaro, consultada el 11/08/2026 — https://www.lillymelhorparavoce.com.br/medicamentos-participantes/mounjaro (precios por dosis, e-commerce y lojas físicas, caja de 4 canetas autoinjetoras, descuento exclusivo para pacientes inscriptos). — CMED (Câmara de Regulação do Mercado de Medicamentos), Lista de preços de medicamentos, archivo del 21/07/2026, columnas PF y PMC por banda de ICMS — https://www.gov.br/anvisa/pt-br/assuntos/medicamentos/cmed/precos (descarga del adjunto bloqueada por el proxy, HTTP 403 en CONNECT; bandas corroboradas por cuatro compiladores independientes). — Veja Saúde, 'Tabela de preços das canetas emagrecedoras em 2026', 29/04/2026 y 'Promoções das canetas emagrecedoras em 2026', 22/06/2026; ND Mais 30/04/2026; Folha Vitória 02/05/2026; Saúde em Dia 20/05/2026. — Reporte: HealthSignals, GLP-1 in Latin America, edición 03, p.12 (Tabla 6).",
+      "Reason": "RESUELTO EL 11/08/2026. No hay violación: las dos cifras describen presentaciones distintas y nunca fueron comparables.\n\nESCALERA CORRIDA. Peldaño 1 (fuente primaria): el adjunto xlsx de CMED en Engine_Price_Files (recTffjg7ApGP5shO, 12,4 MB) sigue sin poder descargarse desde el contenedor — el proxy de egreso responde 403 al CONNECT contra v5.airtableusercontent.com, igual que en la corrida de oncología. Peldaño 1 por otra puerta: la página del propio fabricante. Peldaño 6 sólo para localizar el dato original: cuatro compiladores brasileños independientes (Veja Saúde 29/04/2026, ND Mais 30/04/2026, Folha Vitória 02/05/2026, Saúde em Dia 20/05/2026) publican la MISMA banda CMED de Mounjaro y coinciden al centavo, lo que confirma que leen la lista y no se copian una cifra suelta.\n\nHALLAZGO 1 — la CMED fija el techo de Mounjaro por NÚMERO DE PLUMAS, no por concentración. Banda completa por alícuota de ICMS: caja de 2 canetas R$1.580,31 a R$2.052,35; caja de 4 canetas R$3.160,64 a R$4.104,72, idéntico para las seis concentraciones (5, 10, 15, 20, 25 y 30 mg/ml). El R$1.927,21 cacheado cae dentro de la banda de 2 plumas; el R$3.854,43 cae dentro de la de 4 y es exactamente su doble. Confirmado: 'simple' = 2 plumas, 'doble pack' = 4 plumas.\n\nHALLAZGO 2 — la tirzepatida es semanal, así que un mes son 4 plumas. El precio observado de R$2.699,00 corresponde a la caja de 4 canetas de 10 mg, verificado contra la página del Programa Lilly Melhor Para Você (https://www.lillymelhorparavoce.com.br/medicamentos-participantes/mounjaro): 2,5 mg R$1.422,52 / 5 mg R$1.779,43 / 7,5 mg R$2.299,00 / 10 mg R$2.699,00 / 12,5 mg R$3.199,00 / 15 mg R$3.499,00 en e-commerce, cada caja con 4 canetas autoinjetoras. Por lo tanto el término comparable es R$3.854,43 y el observado es el 70% de su propio techo. La comparación que disparó la alarma cruzaba media mensualidad regulada contra una mensualidad completa observada.\n\nHALLAZGO 3, no buscado y más incisivo — R$2.699,00 NO es precio abierto de góndola: es precio de programa del fabricante, exclusivo para pacientes inscriptos con receta, y sólo en e-commerce; en lojas físicas la misma caja es R$2.799,00. Es exactamente la trampa ya registrada para Chile ('los precios de comparadores chilenos mezclan fidelización con precio abierto'), esta vez en Brasil y sin detectar en la v1. Regla reafirmada y extendida a Brasil: todo precio de GLP-1 declara si es abierto o de programa, y se enumera la góndola completa antes de publicar 'el precio de X'.\n\nACCIONES APLICADAS. Cache: recVc9rCaGzlGVpLP re-rotulado a 2 plumas y su Key pasa a pmc-cmed-tirzepatida-mounjaro-2-plumas|brasil|2026; nuevo registro pmc-cmed-tirzepatida-mounjaro-4-plumas|brasil|2026 = R$3.854,43; nuevo registro con el precio de lojas físicas R$2.799,00; nuevo registro con el techo como % del salario mínimo (237,8%); recP44bIzCxXKhY7U re-rotulado como caja de 4 plumas y precio de programa, con la URL del programa como Source_URL. HTML: la celda de tirzepatida de Brasil en la Tabla 6 (p.12) declara ahora presentación, canal y techo de la misma presentación. Ninguna cifra se retiró y ningún hueco se declaró.\n\nREGLA PERMANENTE QUE SALE DE ACÁ: antes de declarar que un precio observado viola un techo regulado, verificar que ambos describan la misma UNIDAD DE VENTA (número de plumas, comprimidos o mililitros), no sólo la misma molécula y dosis. En Brasil la CMED tarifa por presentación; 'la misma presentación' incluye el tamaño del envase.",
+      "Report": "GLP-1 LATAM v1",
+      "Status": "Vigente",
+      "Type": "Reformulación aplicada",
+      "Vector": "Comparabilidad metodológica",
+      "What": "Dos cifras cacheadas de Engine_Data_Points que no pueden ser ambas correctas para la misma presentación: (1) precio observado minorista de tirzepatida 10 mg/mes en Brasil = R$2.699,00 (Key precio-observado-tirzepatida-10mg-mes|brasil|2026, publicado en p.12, Tabla 6 del reporte); (2) techo regulado CMED de tirzepatida, PMC banda ICMS 18%, presentación simple — MOUNJARO = R$1.927,21 (Key pmc-cmed-tirzepatida-mounjaro|brasil|2026, lista CMED del 21/07/2026). Un precio observado no puede superar el techo CMED de la misma presentación: R$2.699,00 lo supera en 40%."
+    },
+    "id": "recRxcevrTysVCkTU"
+  },
+  {
+    "createdTime": "2026-08-09T03:20:26.000Z",
+    "fields": {
+      "Date": "2026-08-09",
+      "Decision": "Ataques que NO rompieron el reporte — archivo de defensa GLP-1 v1",
+      "Reason": "Los seis salarios mínimos verificados uno por uno y los 34 porcentajes de las tablas 1 y 6 recalculados: todos correctos al decimal. Los US$349 de NovoCare confirmados para Ozempic 1 mg y Wegovy 1 / 1,7 / 2,4 mg — el premium estadounidense de 1,00x sobrevive. El salario mínimo federal de US$7,25 es el denominador MÁS hostil para EE.UU., así que la comparación sobrevive a fortiori; ajustando el precio brasileño por ICMS 18% sigue en 3,3x. SELECT, SURPASS-CVOT y los tres conteos de sitios reproducidos exactos contra fuente primaria. Novo H1 2026 exacto. Las tres condiciones de caída del brief: ninguna se cumple — no existe evidencia de MACE a dosis de diabetes en no diabéticos (lo más cercano es OASIS 4, que no mide MACE), ningún genérico brasileño tiene la indicación SELECT ni 2,4 mg, y Wegovy 2,4 mg no bajó del Ozempic pre-patente. Cero comparaciones contra promedio regional en todo el texto.",
+      "Report": "GLP-1 LATAM v1",
+      "Status": "Vigente",
+      "Type": "Reformulación aplicada",
+      "Vector": "Verificación de cita",
+      "What": "Dieciocho intentos de refutación del Gate B que fallaron. Se archivan para que la edición siguiente no los vuelva a levantar."
+    },
+    "id": "recSlOdPYYMpzj1IE"
+  },
+  {
+    "createdTime": "2026-08-11T02:36:15.000Z",
+    "fields": {
+      "Date": "2026-08-11",
+      "Decision": "Los 5 falsos positivos de 'New Mexico' reproducen; AMAZE 2 pasó de 8 a 13 sitios reclutando",
+      "Evidence source": "ClinicalTrials.gov (NIH/NLM), API v2, condition=diabetes, status=RECRUITING, study_type=INTERVENTIONAL, consultado 2026-08-11; NCT07533175 recuento de localizaciones por país y estado, misma fecha.",
+      "Reason": "Reproduce casi todo y confirma la regla permanente. Brasil 37 y Argentina 19 dan idéntico. México da 20 crudos y los CINCO falsos positivos identificados en julio siguen presentes uno por uno (NCT06115265 University of New Mexico; NCT02915198 VA-IMPACT con 40 sitios VA; NCT06445946 DECIDE de Ohio State; NCT06579950 Cool Roofs; NCT05958342 CAVALIER, que es trauma y hemorragia, no diabetes): conteo depurado 15. Colombia da 2 al filtrar por INTERVENTIONAL, lo que excluye automáticamente el observacional NCT06476015. Chile 6, Perú 0 — el cero de Perú se confirma por tercera vez. CAMBIO A REGISTRAR: en AMAZE 2 (NCT07533175) los sitios latinoamericanos reclutando pasaron de 8 (29/07) a 13 (11/08), porque 5 de los 6 sitios mexicanos cambiaron de NOT_YET_RECRUITING a RECRUITING. El total de 74 localizaciones y los 14 sitios latinoamericanos (Argentina 4, Brasil 4, México 6) no cambiaron. Confirma que todo conteo de registro caduca en semanas y debe llevar fecha de acceso impresa.",
+      "Report": "Diabetes LATAM v3",
+      "Status": "Vigente",
+      "Type": "Reformulación aplicada",
+      "Vector": "Vigencia",
+      "What": "Re-ejecución propia de los conteos de ClinicalTrials.gov el 11/08/2026 para validar la auditoría del 29/07/2026 antes de publicar."
+    },
+    "id": "recUdV6DOtPK8TJjW"
+  },
+  {
+    "createdTime": "2026-07-29T16:10:18.000Z",
+    "fields": {
+      "Date": "2026-07-29",
+      "Decision": "México 41,3% sin diagnosticar — usar 31,8% medido",
+      "Evidence source": "Ensanut Continua 2021-2024, Salud Pública de México. DOI 10.21149/17286 (PMID 41698129).",
+      "Reason": "ENSANUT Continua 2021-2024 mide prevalencia 17,0%, diagnosticada 11,6%, no diagnosticada 5,4% — es decir 31,8% de los casos totales, no 41,3%. El propio reporte v2 imprimía en p.06 las cifras de ENSANUT 2022 (18,3/12,6/5,8 = 31,7%) presentadas como corroboración cuando en realidad refutaban su titular de p.02. La explicación que dio el reporte ('crude self-report versus age-standardised modelling') es además incorrecta: el componente no diagnosticado de ENSANUT es medición bioquímica, no autorreporte, y la estandarización por edad no puede explicar 9,5 puntos en un ratio interno de la misma población.",
+      "Report": "Diabetes LATAM v2",
+      "Status": "Vigente",
+      "Type": "Dato descartado",
+      "Vector": "Comparabilidad metodológica",
+      "What": "41,3% de no diagnosticados en México (IDF Diabetes Atlas, modelado)."
+    },
+    "id": "recVPW68jz8CHIQ2b"
+  },
+  {
+    "createdTime": "2026-08-11T01:31:51.000Z",
+    "fields": {
+      "Date": "2026-08-11",
+      "Decision": "Los conteos de estudios por compania no son defendibles: la tabla de p.14 pasa a cualitativa",
+      "Evidence source": "ClinicalTrials.gov (NIH/NLM), API v2 via MCP, consultado 2026-08-11: search_by_sponsor(sponsor_name='AstraZeneca', condition='cancer') devuelve total 1.722 y como primer item NCT02734160, patrocinado por Eli Lilly and Company. search_by_sponsor(sponsor_name='Novartis', condition='cancer') devuelve 1.789.",
+      "Reason": "El descargo describia el problema pero lo publicaba igual. Al reejecutar por MCP el 2026-08-11 los totales reproducen casi exactos (Novartis 1.789, AstraZeneca 1.722), lo que confirma el origen pero no la validez: la primera fila devuelta por la consulta de AstraZeneca es NCT02734160, cuyo patrocinador es Eli Lilly and Company. La busqueda por nombre de patrocinador esta mezclando patrocinador con colaborador, de modo que el numero no mide lo que el titulo de la columna dice que mide. Un ranking cuya celda superior incluye ensayos de un competidor no es un ranking. Ademas el conteo es de todos los anos y todos los estados, asi que premia historia acumulada, no actividad presente, mientras la pagina lo presenta como proxy de intencion comercial actual. Se retira la columna numerica y la tabla se publica cualitativa, con los mismos actores y sus marcas insignia, declarando que el orden no es un ranking cuantitativo. Preferible una tabla honesta sin numeros que un ranking con un numero que no resiste su propia nota al pie.",
+      "Report": "Oncologia LATAM v2",
+      "Status": "Vigente",
+      "Type": "Dato descartado",
+      "Vector": "Comparabilidad metodológica",
+      "What": "Tabla 'Global leaders in cancer research' de p.14 con conteos de estudios registrados de cancer: Novartis ~1.790, AstraZeneca ~1.720, Pfizer ~1.455, Roche ~1.110, publicados con el descargo 'counts vary with sponsor-name matching and role'."
+    },
+    "id": "recVtQvVaDFKbTCsh"
+  },
+  {
+    "createdTime": "2026-08-11T01:31:51.000Z",
+    "fields": {
+      "Date": "2026-08-11",
+      "Decision": "GLOBOCAN 2022 quedo superado: el ciclo 2024 se publico el 8/7/2026",
+      "Evidence source": "Sung H, Filho AM, Laversanne M, Ferlay J, Siegel RL, Soerjomataram I, Jemal A, Bray F. Global cancer statistics 2024: GLOBOCAN estimates of incidence and mortality worldwide for 34 cancers in 186 countries. CA Cancer J Clin. Publicado en linea el 8 de julio de 2026; DOI 10.3322/caac.70090 (PMID 42417444). Comunicado IARC: https://www.iarc.who.int/news-events/global-cancer-statistics-2024-globocan-estimates-of-incidence-and-mortality-worldwide-for-34-cancers-in-186-countries/ Fichas pais del Global Cancer Observatory consultadas el 2026-08-11.",
+      "Reason": "La defensa era valida cuando se escribio y dejo de serlo. El 8 de julio de 2026 IARC y la American Cancer Society publicaron GLOBOCAN 2024 en CA: A Cancer Journal for Clinicians (DOI 10.3322/caac.70090), con 34 tipos de cancer en 186 paises. Verificado el 2026-08-11: las fichas pais del Global Cancer Observatory de Brasil, Mexico, Argentina, Colombia, Chile, Peru, EE.UU. y la ficha regional de America Latina y el Caribe ya llevan el sello 'GLOBOCAN 2024 - July, 2026'. Publicar cifras de 2022 en 2026 rompe la regla de datos de <=2-3 anos, y ademas la frase 'el ciclo mas reciente es 2022' habria pasado de ser una defensa legitima a ser una afirmacion falsa. El reporte v2 se re-baso completo sobre GLOBOCAN 2024 (44 registros nuevos en Engine_Data_Points). CAMBIOS DE NARRATIVA que produjo el re-baseo, no solo de decimales: (1) el ratio M:I mas alto de los seis ya NO es Argentina (51,3%) sino CHILE (52,6%) - el titular de p.08 'Argentina: the region's highest lethality' era falso bajo el ciclo vigente; (2) Colombia mejora de 48,2% a 45,5% y pasa a ser el segundo mejor de los seis, no un caso promedio; (3) la proyeccion global cambia de 'de 20m en 2022 a 35m en 2050, +77%' a 'de 20,6m en 2024 a 34,4m en 2050, +67%'; (4) el cancer mas frecuente de la region pasa a ser mama (218.121) por delante de prostata (215.448). ADVERTENCIA OPERATIVA: el mirror de fichas PDF sirve copias cacheadas del ciclo anterior; hay que confirmar el sello de ciclo en cada ficha antes de leerla, y no mezclar nunca ciclos en una misma columna comparativa.",
+      "Report": "Oncologia LATAM v2",
+      "Status": "Vigente",
+      "Type": "Fuente degradada",
+      "Vector": "Vigencia",
+      "What": "Toda la base epidemiologica del reporte de oncologia v1 (incidencia, mortalidad, ratio M:I de los seis mercados, total regional de 1,55m, proyeccion global de 20m a 35m con +77%) venia de GLOBOCAN 2022, defendido en metodologia con la frase 'GLOBOCAN's latest cycle is 2022'."
+    },
+    "id": "recYI5xXLLNNkWrBM"
+  },
+  {
+    "createdTime": "2026-08-09T03:20:26.000Z",
+    "fields": {
+      "Date": "2026-08-09",
+      "Decision": "Los precios de comparadores chilenos mezclan fidelización con precio abierto",
+      "Reason": "BuscaFarma marca con asterisco los precios de Farmacias Ahumada y declara que corresponden a programas de fidelidad ('Ahumada Contigo') que requieren inscripción y pueden ser de primera compra o promedio de ciclo. El CLP 286.641 de Salcobrand es además 'precio por unidad de medida', no precio de caja. El precio abierto real es el 'precio normal' de cada cadena: CLP 307.990 a 325.699 — una brecha de 30-40% contra el de fidelización. REGLA: en Chile declarar siempre si el precio es abierto o de programa.",
+      "Report": "GLP-1 LATAM (research)",
+      "Status": "Vigente",
+      "Type": "Dato descartado",
+      "Vector": "Comparabilidad metodológica",
+      "What": "El rango de Ozempic 1 mg en Chile de CLP 249.600 a 286.641, tomado de comparadores de farmacia."
+    },
+    "id": "recafB3jWGjEPkzZo"
+  },
+  {
+    "createdTime": "2026-07-29T16:10:18.000Z",
+    "fields": {
+      "Date": "2026-07-28",
+      "Decision": "Citas de la campaña 'Razones de Peso' (Cuevas / Alonso, Chile)",
+      "Evidence source": "Detectado por el agente de voces, 2026-07-28. Requiere contraste contra la publicación original de ACTION-IO antes de cualquier uso.",
+      "Reason": "Esas cifras son globales del estudio ACTION-IO, no chilenas; las cifras chilenas publicadas son distintas (70%, cuatro años). Publicar las citas tal cual replicaría el error de la fuente. La campaña además está patrocinada por Novo Nordisk, sin declarar en las notas de prensa.",
+      "Report": "Diabetes LATAM v2 (research)",
+      "Status": "Vigente",
+      "Type": "Cita descartada",
+      "Vector": "Verificación de cita",
+      "What": "Declaraciones de Ada Cuevas y Rodrigo Alonso en la campaña de octubre de 2025, con cifras 81%/30%, 51%/21% y 'seis años' presentadas como chilenas."
+    },
+    "id": "recayiFqKXyLLRnta"
+  },
+  {
+    "createdTime": "2026-08-10T17:42:55.000Z",
+    "fields": {
+      "Date": "2026-08-09",
+      "Decision": "El techo CMED del genérico brasileño es idéntico al del originador",
+      "Reason": "Leído del archivo primario de CMED del 21/07/2026 (12,4 MB, 30.287 filas, extraído y descomprimido con el navegador el 09/08/2026): Ozivy 1,34 mg/ml 3 ml tiene PMC 18% de R$1.314,37, EXACTAMENTE el mismo techo que Ozempic en la misma presentación. La CMED no le fijó un precio máximo más bajo al entrante. Los R$464,80 observados en góndola son el 35% de su propio techo: es un descuento de cadena de farmacias, no una decisión del regulador. El argumento correcto es 'la competencia movió el mostrador, no el reglamento'. También confirmado: Wegovy 3,2 mg/ml PMC 18% R$2.532,31 y Ozempic R$1.314,37 (el reporte publicaba 1.314,38, un centavo de más, corregido).",
+      "Report": "GLP-1 LATAM v1",
+      "Status": "Vigente",
+      "Type": "Reformulación aplicada",
+      "Vector": "Causalidad",
+      "What": "El reporte leía la caída de precio en Brasil como si la hubiera producido la entrada de competencia en el precio regulado."
+    },
+    "id": "recfTHbuBnJZ4da8x"
+  },
+  {
+    "createdTime": "2026-08-10T17:41:17.000Z",
+    "fields": {
+      "Date": "2026-08-09",
+      "Decision": "SISMED Colombia: las cuatro puertas públicas están cerradas",
+      "Reason": "Cuatro vías probadas el 09/08/2026, todas cerradas, con evidencia:\n1) sispro.gov.co/catalogos/Pages/reporte-de-informacion.aspx — responde 200 pero es un VISOR DE OBLIGACIONES DE REPORTE, no un repositorio. Además SharePoint entrega el contenido dentro del __VIEWSTATE en base64: no hay ningún .xlsx en el código fuente.\n2) web.sispro.gov.co/WebPublico/Consultas/ConsultarPreciosDeMedicamentosSISMED.aspx — HTTP 404.\n3) minsalud.gov.co/salud/MT/Paginas/sismed.aspx — HTTP 404, redirige a PageNotFoundError.\n4) datos.gov.co, dataset 'Consulta pública de Precios de Medicamentos' (id 3he6-m866, API Socrata, 20 columnas con valorminimo/valormaximo/valorpromedio/unidades por ATC). ES el dataset correcto y tiene API limpia, PERO max(fechacorte) = 2019/06/01. La serie termina en junio de 2019, siete años antes del reporte, y no cubre semaglutida ni tirzepatida en el período relevante.\n\nCONCLUSIÓN: los datos vigentes de SISMED viven en los cubos de la Bodega de Datos de SISPRO, que exigen inicio de sesión. Sin credenciales no hay captura automatizable. Para el reporte GLP-1 v1 Colombia quedó con precios de góndola de una sola cadena, declarado como límite.\n\nREGLA: no volver a intentar las cuatro vías de arriba. La única que puede abrirse es la Bodega de Datos con usuario.",
+      "Report": "GLP-1 LATAM v1 (infraestructura)",
+      "Status": "Vigente",
+      "Type": "Dato descartado",
+      "Vector": "Vigencia",
+      "What": "Intento de automatizar la captura de precios reportados de SISMED (Colombia) para Engine_Price_Files."
+    },
+    "id": "rechZ54yShex6oAoc"
+  },
+  {
+    "createdTime": "2026-07-29T16:10:18.000Z",
+    "fields": {
+      "Date": "2026-07-28",
+      "Decision": "Acceso a GLP-1 <1% en Colombia (Yepes Cortés) — sin confirmar",
+      "Evidence source": "Detectado por el agente de voces, 2026-07-28.",
+      "Reason": "Proviene de una transcripción automática de audio, no de un texto publicado. No se cita hasta confirmar contra el audio original o una fuente escrita.",
+      "Report": "Diabetes LATAM v2 (research)",
+      "Status": "Revisar",
+      "Type": "Dato descartado",
+      "Vector": "Verificación de cita",
+      "What": "Cifra de menos del 1% de acceso a GLP-1 en Colombia atribuida a Yepes Cortés."
+    },
+    "id": "reclAJ46chFhKCikx"
+  },
+  {
+    "createdTime": "2026-08-11T01:31:51.000Z",
+    "fields": {
+      "Date": "2026-08-11",
+      "Decision": "SUPERADA — Money trail de oncologia con el estudio de 16 paises (precios 2017)",
+      "Evidence source": "Moye-Holz D, Vogler S. Comparison of Prices and Affordability of Cancer Medicines in 16 Countries in Europe and Latin America. Appl Health Econ Health Policy 2021;20(1):67-77. DOI 10.1007/s40258-021-00670-4 (PMID 34228312). - WHO Global Health Expenditure Database via Banco Mundial, indicador SH.XPD.OOPC.CH.ZS, serie 2023. - CMED, lista de precios del 21/07/2026, Engine_Price_Files recTffjg7ApGP5shO (descarga bloqueada por el proxy, HTTP 403 en CONNECT).",
+      "Reason": "Escalera de escalamiento corrida completa el 2026-08-11. Peldano 1 (fuente primaria del emisor): se intento abrir el archivo de la lista CMED del 21/07/2026 ya capturado en Engine_Price_Files (recTffjg7ApGP5shO, 12,4 MB) para leer techos regulados de un oncologico trazador; la descarga del adjunto de Airtable falla con 403 en el proxy del contenedor, igual que el acceso directo a clinicaltrials.gov por curl. NO es que el dato no exista: es que esta ruta no es automatizable desde este contenedor. Peldano 2 (multilateral armonizado): la OPS publica contexto de acceso y opera el Fondo Estrategico, pero no publica una serie de precios de oncologicos por pais comparable. Peldano 3 (literatura revisada por pares): AQUI SE RESOLVIO. Moye-Holz D, Vogler S, Appl Health Econ Health Policy 2021;20(1):67-77, DOI 10.1007/s40258-021-00670-4 - 19 oncologicos originadores, 5 paises de LATAM (Brasil, Chile, Colombia, Mexico, Peru) y 11 europeos, precios en US$ PPP por DDD y asequibilidad en dias de salario minimo. Es el estudio de 16 paises que la v1 ya citaba SIN sus numeros. Cifras publicadas ahora: mediana de 10,53 dias de salario minimo por DDD en LATAM contra 2,04 en la Europa de ingreso mas alto y 6,79 en la de ingreso mas bajo; todos los precios de la Europa de ingreso mas alto por debajo de US$300 PPP/DDD mientras que en LATAM el rango va de menos de US$50 a mas de US$500 PPP/DDD - la dispersion es la que sostiene la palabra 'variables'. LIMITE DECLARADO EN LA PAGINA: los precios son de 2017. Recencia de la publicacion (2021) distinta de recencia del dato (2017). Se publica con la vendimia a la vista y no como cifra corriente. SEGUNDA PATA DEL MONEY TRAIL, esta si fresca y armonizada: gasto de bolsillo como % del gasto sanitario corriente, WHO GHED 2023 via Banco Mundial (SH.XPD.OOPC.CH.ZS), REUSADO del cache sin volver a buscar - Mexico 41,24%, Chile 34,59%, Peru 26,98%, Brasil 26,23%, Argentina 24,47%, Colombia 14,63%, con EE.UU. 10,93% como comparador nombrado. PENDIENTE para la edicion siguiente: abrir el archivo CMED por una via que el proxy permita y fijar el techo regulado de un oncologico trazador brasileno.",
+      "Report": "Oncologia LATAM v2",
+      "Status": "Superada",
+      "Type": "Reformulación aplicada",
+      "Vector": "Vigencia",
+      "What": "La p.05 de la v1 afirmaba que los precios de oncologia de precision en America Latina son mas altos y mas variables que en la Europa de altos ingresos, sin una sola cifra: violaba la regla dura de money trail obligatorio."
+    },
+    "id": "reclen68SvbVR47X0"
+  },
+  {
+    "createdTime": "2026-08-09T03:20:26.000Z",
+    "fields": {
+      "Date": "2026-08-09",
+      "Decision": "El premium de cardioprotección brasileño es 78% salto de marca, no de dosis",
+      "Reason": "En los otros cinco mercados los dos términos son productos del mismo fabricante; en Brasil el numerador es el originador (Wegovy R$1.749) y el denominador un entrante (Ozivy R$464,80). Descomposición exacta: 3,763 = 1,331 (dosis) x 2,828 (marca). En escala log el salto de marca pesa ln(2,828)/ln(3,763) = 78,4%. Like-for-like dentro del originador a techos CMED: 2.532,31/1.314,38 = 1,93x, entre Argentina y Colombia. REGLA PERMANENTE: un índice propio que cruza emisores distintos en una celda y el mismo emisor en las otras no es comparable; se construye like-for-like o se publican ambas versiones.",
+      "Report": "GLP-1 LATAM v1",
+      "Status": "Vigente",
+      "Type": "Trampa metodológica",
+      "Vector": "Comparabilidad metodológica",
+      "What": "El índice propio 'cardioprotection premium' publicaba Brasil en 3,8x como el más ancho de la muestra."
+    },
+    "id": "recmGJK9qPLufXqMy"
+  },
+  {
+    "createdTime": "2026-08-11T02:36:15.000Z",
+    "fields": {
+      "Date": "2026-08-11",
+      "Decision": "Contra-tesis Colombia: el registro nacional APOYA la cifra baja, y se publicó",
+      "Evidence source": "Cuenta de Alto Costo (Colombia), corte 31/08/2025, preliminar, https://cuentadealtocosto.org/ — Asociación Colombiana de Endocrinología, Diabetes y Metabolismo, julio 2026 — Teufel F, et al. Diabetes Care 2026;49(3):490-496.",
+      "Reason": "Sí la hay, y es el dato incómodo de la v3. La Cuenta de Alto Costo registró 2.597.719 casos diagnosticados al 31/08/2025; contra los 3,0m estimados por IDF, eso implica un no diagnosticado cercano al 13% — MÁS BAJO que el 16,2% modelado. O sea: dos de tres fuentes apoyan la cifra baja, y solo la Asociación Colombiana de Endocrinología dice ~50%. La v3 publica las tres en una tabla en p.11 en vez de esconder la que incomoda. Lo que se refuta NO es el número sino su interpretación: no existe evaluación publicada que aisle el efecto del aseguramiento colombiano sobre la detección, y ser el mínimo de 215 países sigue siendo señal de artefacto. Una cifra puede ser correcta y no ser un benchmark. La cifra derivada del registro hereda el denominador del IDF y se declara como implicación aritmética, no como estadística colombiana publicada.",
+      "Report": "Diabetes LATAM v3",
+      "Status": "Vigente",
+      "Type": "Reformulación aplicada",
+      "Vector": "Comparabilidad metodológica",
+      "What": "Verificación de la contra-tesis del 16,2% de Colombia con la misma energía que la tesis: ¿hay evidencia de que la cifra baja sea correcta?"
+    },
+    "id": "recpNllyTBqxUzJxS"
+  },
+  {
+    "createdTime": "2026-09-22T20:45:21.000Z",
+    "fields": {
+      "Date": "2026-09-22",
+      "Decision": "Editar el Publisher por API: vías muertas, usar el canvas",
+      "Evidence source": "Sesión 22/09/2026, cambio atlanticcouncil.org en módulo 70",
+      "Reason": "(1) El blueprint del Publisher pesa ~164k chars: scenarios_get se trunca en el contexto y scenarios_update exige mandar el blueprint completo; reconstruirlo a mano rompe producción. (2) La API web de Make rechaza fetch desde la página con 401 IM023 (CSRF) y la herramienta bloquea el acceso a cookies. Además la zona correcta es us2.make.com, no eu1. Vía que funciona: editar el módulo en el canvas por UI y verificar con scenarios_get guardado a archivo + grep (isActive, lastEdit, valor nuevo).",
+      "Status": "Vigente",
+      "Type": "Trampa metodológica",
+      "What": "(1) Make MCP scenarios_update sobre 5133643 para un cambio chico. (2) fetch a /api/v2/scenarios/{id}/blueprint desde la sesión del browser."
+    },
+    "id": "recqD6V4J7vwbbpZn"
+  },
+  {
+    "createdTime": "2026-08-10T17:42:55.000Z",
+    "fields": {
+      "Date": "2026-08-09",
+      "Decision": "POVIZTRA: segunda marca de semaglutida en Brasil, ausente de todo el research",
+      "Reason": "Aparece en la lista CMED del 21/07/2026 como producto BIOLÓGICO de semaglutida, con cinco concentraciones (0,68 / 1,34 / 1,34 / 2,27 / 3,2 mg/ml) y precios PMC 18% IDÉNTICOS a Wegovy en las cinco: 1.314,37 / 1.314,37 / 1.314,37 / 1.968,81 / 2.532,31. Es decir, es la línea completa de Wegovy bajo otra marca. NO se publicó en la edición 1 porque no se pudo verificar quién lo comercializa ni con qué indicación. PENDIENTE para la edición siguiente: identificar titular e indicación. Si lleva la indicación cardiovascular sería el segundo producto de América Latina en tenerla y cambiaría la cifra de tapa '1 de 6'.",
+      "Report": "GLP-1 LATAM v1",
+      "Status": "Revisar",
+      "Type": "Dato descartado",
+      "Vector": "Verificación de cita",
+      "What": "El research de 12 agentes no detectó ningún producto llamado POVIZTRA en el mercado brasileño."
+    },
+    "id": "recse5ujgIUd8ITES"
+  },
+  {
+    "createdTime": "2026-08-11T02:46:09.000Z",
+    "fields": {
+      "Date": "2026-08-11",
+      "Decision": "Los techos CMED de oncologicos se reconstruyen por cruce de compiladores, y el techo es PF, no PMC",
+      "Evidence source": "CMED (Camara de Regulacao do Mercado de Medicamentos, Anvisa), Lista de Precos de Medicamentos, lista de junio de 2026 — https://www.gov.br/anvisa/pt-br/assuntos/medicamentos/cmed/precos. Corroboracion: nota tecnica e-NatJus/PJe (pembrolizumabe, MSD Keytruda, 100mg/4ml, fuente 'CMED ICMS RN 18%', PF 20.417,23 / PMVG 16.021,40 / PMC vacio) y nota tecnica NatJus TJDFT (tabla CMED 16/04/2024, PF 20.134,00). Salario minimo Brasil 2026 R$ 1.621, reusado de Engine_Data_Points y verificado en el Gate B de GLP-1 v1 (recSlOdPYYMpzj1IE).",
+      "Reason": "HALLAZGO QUE CAMBIA EL DENOMINADOR: para ambos farmacos la CMED NO publica Preco Maximo ao Consumidor. Son de uso restrito hospitalar, asi que el techo regulado es el Preco de Fabrica (PF), el maximo que un fabricante puede cobrarle a un hospital, clinica o distribuidor. NO existe precio de gondola para comparar, y publicar el PF como si fuera precio al publico seria el mismo error de presentacion que ya nos costo el episodio de tirzepatida en GLP-1. Cifras publicadas, lista CMED de junio de 2026, banda ICMS 18% (Sao Paulo): pembrolizumab 100 mg/4 mL R$ 20.616,76 por frasco; dosis estandar de monoterapia 200 mg cada 3 semanas = 2 frascos = R$ 41.233,52 por ciclo = 25,4 salarios minimos mensuales; trastuzumab 440 mg R$ 17.465,18 por frasco = 10,8 salarios minimos. PMVG de pembrolizumab R$ 16.021,40, 21,5% por debajo del PF: el Estado paga menos que el techo del canal privado. CORROBORACION (metodo de cruce): nota tecnica e-NatJus/PJe del Poder Judicial declara PF R$ 20.417,23 con la celda de PMC VACIA, y nota tecnica NatJus del TJDFT declara PF R$ 20.134,00 sobre la lista del 16/04/2024. Tres fuentes que citan CMED, en banda, con distinto anio de lista, y dos de ellas confirmando de forma independiente la ausencia de PMC. UNIDAD ELEGIDA: salarios minimos mensuales de Brasil (R$ 1.621, reusado del cache de GLP-1 v1), porque es la unidad que ya usa el motor para asequibilidad y evita la distorsion cambiaria. DENOMINADORES DECLARADOS EN LA PAGINA: techo, no precio pagado; solo farmaco, sin infusion ni hospital ni el test de biomarcador; trastuzumab por FRASCO y nunca por ciclo porque se dosifica por peso. NO SE PUBLICO comparacion con biosimilares de trastuzumab: los unicos precios encontrados (Trazimera R$ 6.055,78, Ontruzant R$ 8.511,73, Kanjinti R$ 13.636,93 contra Herceptin R$ 16.730,37, Brasindice ed. 1042) vienen de un posteo de LinkedIn de 2024 en banda PF 0%, o sea otra vendimia y otra banda que la serie publicada: mezclarlos habria roto la regla de serie armonizada unica. Queda pendiente con fuente propia. TAMPOCO se publico un segundo mercado: el observatorio de DIGEMID Peru es una aplicacion de consulta que no expone los datos por fetch, el archivo mensual de Engine_Price_Files no se puede descargar, y ademas pembrolizumab y trastuzumab son hospitalarios, fuera del retail de farmacias que ese observatorio releva. Brasil queda como unico mercado con techo regulado publicable, y eso se declara en los limits: Chile y Peru no regulan precios de oncologicos y Mexico solo el canal publico, asi que no existe serie regional armonizada y no se invento ninguna.",
+      "Report": "Oncologia LATAM v2",
+      "Status": "Vigente",
+      "Type": "Reformulación aplicada",
+      "Vector": "Comparabilidad metodológica",
+      "What": "Reemplazo del money trail de la p.05 por precios regulados vigentes de dos farmacos trazadores con biomarcador asociado, elegidos porque son exactamente la tesis del reporte: pembrolizumab (gatillado por PD-L1/MSI) y trastuzumab (gatillado por HER2)."
+    },
+    "id": "rectXZIDzxb12fbqU"
+  }
+]

@@ -1,0 +1,2160 @@
+[
+  {
+    "createdTime": "2026-09-20T19:01:39.000Z",
+    "fields": {
+      "Region": "Brasil",
+      "Source": "Pharma Innovation (BR)",
+      "Status": "To analyze",
+      "Type": "Medio LatAm",
+      "URL": "https://pharmainnovation.com.br/",
+      "Why relevant": "Noticias de industria farma y varejo BR."
+    },
+    "id": "rec0f3RvzhzZ6lSGF"
+  },
+  {
+    "createdTime": "2026-09-20T21:28:13.000Z",
+    "fields": {
+      "Region": "Argentina",
+      "Source": "CILFA",
+      "Status": "To analyze",
+      "Type": "Asociación/Gremio",
+      "Why relevant": "Cámara de laboratorios nacionales; interlocutor de industria local."
+    },
+    "id": "rec0u8v60blTqVA2W"
+  },
+  {
+    "createdTime": "2026-09-20T19:01:39.000Z",
+    "fields": {
+      "Region": "Brasil",
+      "Source": "Cenário das Doenças Raras (Casa Hunter)",
+      "Status": "To analyze",
+      "Type": "Evento/Congreso",
+      "URL": "https://www.casahunter.org.br/cenario-das-doencas-raras",
+      "Why relevant": "Evento anual de enfermedades raras con industria y reguladores."
+    },
+    "id": "rec11lmLPkSElQYdt"
+  },
+  {
+    "createdTime": "2026-09-20T21:28:43.000Z",
+    "fields": {
+      "Notes": "PENDIENTE: el listado de afiliados (proyectos.andi.com.co/cif) esta bloqueado por robots.txt y fuera del allowlist de red; las tarifas 2025 estan en imagen, no en texto. Requiere apertura manual. Conflicto de fuentes sobre director ejecutivo de la Camara (Ana Maria Vesga vs Alejandro Botero Valencia) — el sitio oficial dice Botero.",
+      "Region": "Colombia",
+      "Source": "Foro Farmacéutico ANDI",
+      "Status": "To analyze",
+      "Type": "Evento/Congreso",
+      "Why relevant": "Parcialmente analizado. 31o Foro de la Salud: jun 2025, Cartagena, +1.500 asistentes. Sponsors con nombre solo de la edicion 2023 (29o Foro)."
+    },
+    "id": "rec1TpJTaTBe8TYnJ"
+  },
+  {
+    "createdTime": "2026-09-20T19:01:39.000Z",
+    "fields": {
+      "Region": "Brasil",
+      "Source": "PFARMA",
+      "Status": "To analyze",
+      "Type": "Medio LatAm",
+      "URL": "https://pfarma.com.br/",
+      "Why relevant": "Portal del sector farmacéutico BR; eventos y market access."
+    },
+    "id": "rec1luR1P4vlvGVj5"
+  },
+  {
+    "createdTime": "2026-09-20T17:58:52.000Z",
+    "fields": {
+      "Region": "LatAm regional",
+      "Source": "HLTH Latin America Summit",
+      "Status": "To analyze",
+      "Type": "Evento/Congreso",
+      "URL": "https://hlth.com/events/usa/agenda/latin-america-heath-innovation-summit",
+      "Why relevant": "Los sponsors del summit son compradores probados de visibilidad en salud LatAm."
+    },
+    "id": "rec2Pg54vM5wQCVJE"
+  },
+  {
+    "createdTime": "2026-09-20T18:31:24.000Z",
+    "fields": {
+      "Notes": "URL a verificar; es medio de salud, no pharma-B2B puro.",
+      "Region": "LatAm regional",
+      "Source": "Consenso Salud",
+      "Status": "To analyze",
+      "Type": "Medio LatAm",
+      "URL": "https://consensosalud.com.ar",
+      "Why relevant": "Argentina/regional — plataforma de información en salud; fue partner de la delegación LATAM del HLTH Latin America Summit (medio afín, prospecto matizado)."
+    },
+    "id": "rec2kLkaDYAmR2T5e"
+  },
+  {
+    "createdTime": "2026-09-20T21:29:46.000Z",
+    "fields": {
+      "Notes": "verificar cartera health",
+      "Region": "LatAm regional",
+      "Source": "Shift Latam (agencia)",
+      "Status": "To analyze",
+      "Type": "Agencia",
+      "Why relevant": "Agencia regional con foco health/pharma."
+    },
+    "id": "rec37KnOLKruCtROf"
+  },
+  {
+    "createdTime": "2026-09-20T18:53:02.000Z",
+    "fields": {
+      "Notes": "URL a verificar.",
+      "Region": "LatAm regional",
+      "Source": "ALAFARPE",
+      "Status": "To analyze",
+      "Type": "Asociación/Gremio",
+      "Why relevant": "Perú — Asociación Nacional de Laboratorios Farmacéuticos (federada FIFARMA); labs con operación Perú. Verificar URL (alafarpe.org.pe)."
+    },
+    "id": "rec3PMJz3rZesofPu"
+  },
+  {
+    "createdTime": "2026-09-20T21:28:13.000Z",
+    "fields": {
+      "Notes": "verificar URL",
+      "Region": "Argentina",
+      "Source": "Revista Dosis",
+      "Status": "To analyze",
+      "Type": "Medio LatAm",
+      "URL": "https://www.dosis.com.ar",
+      "Why relevant": "Medio farmacéutico argentino de referencia, industria y farmacia."
+    },
+    "id": "rec3UDhVRb76GjjHg"
+  },
+  {
+    "createdTime": "2026-09-20T19:01:39.000Z",
+    "fields": {
+      "Region": "Brasil",
+      "Source": "Futuro da Saúde",
+      "Status": "To analyze",
+      "Type": "Medio LatAm",
+      "URL": "https://futurodasaude.com.br/",
+      "Why relevant": "Periodismo de referencia en políticas y sistema de salud BR."
+    },
+    "id": "rec42ykRuXzKWB4UQ"
+  },
+  {
+    "createdTime": "2026-09-20T21:29:07.000Z",
+    "fields": {
+      "Notes": "verificar sigla",
+      "Region": "Chile",
+      "Source": "FENPOF (pacientes)",
+      "Status": "To analyze",
+      "Type": "Asociación/Gremio",
+      "Why relevant": "Federación de pacientes; aliado editorial."
+    },
+    "id": "rec4KQNha8ce02lJN"
+  },
+  {
+    "createdTime": "2026-09-20T21:29:46.000Z",
+    "fields": {
+      "Region": "Venezuela",
+      "Source": "CIFAR Venezuela",
+      "Status": "To analyze",
+      "Type": "Asociación/Gremio",
+      "Why relevant": "Cámara de la industria farmacéutica venezolana."
+    },
+    "id": "rec4Z5RS5RXnzqHUM"
+  },
+  {
+    "createdTime": "2026-09-20T17:58:52.000Z",
+    "fields": {
+      "Region": "México",
+      "Source": "PharmaSocial (PFH)",
+      "Status": "To analyze",
+      "Type": "Agencia",
+      "URL": "https://www.pharmasocial.mx",
+      "Why relevant": "Agencia de marketing farmacéutico y de salud México."
+    },
+    "id": "rec5yLYpGrcEgvkGz"
+  },
+  {
+    "createdTime": "2026-09-20T21:28:43.000Z",
+    "fields": {
+      "Region": "Colombia",
+      "Source": "ASINFAR",
+      "Status": "To analyze",
+      "Type": "Asociación/Gremio",
+      "Why relevant": "Asoc. de industrias farmacéuticas nacionales (genéricos)."
+    },
+    "id": "rec6NOvmFxyMIaB2e"
+  },
+  {
+    "createdTime": "2026-09-20T19:00:49.000Z",
+    "fields": {
+      "Region": "México",
+      "Source": "ANAFARMEX",
+      "Status": "To analyze",
+      "Type": "Asociación/Gremio",
+      "URL": "https://www.anafarmex.com.mx/",
+      "Why relevant": "Asociación nacional de farmacias (retail) MX."
+    },
+    "id": "rec6RBhMlMZZvA2lb"
+  },
+  {
+    "createdTime": "2026-09-20T21:28:43.000Z",
+    "fields": {
+      "Notes": "verificar nombre exacto",
+      "Region": "Colombia",
+      "Source": "Marketing Farmacéutico C& (agencia)",
+      "Status": "To analyze",
+      "Type": "Agencia",
+      "Why relevant": "Agencia especializada en marketing farma en CO."
+    },
+    "id": "rec77Syim1UNy46ZG"
+  },
+  {
+    "createdTime": "2026-09-20T19:01:39.000Z",
+    "fields": {
+      "Region": "Brasil",
+      "Source": "Abrale",
+      "Status": "To analyze",
+      "Type": "Asociación/Gremio",
+      "URL": "https://abrale.org.br/",
+      "Why relevant": "Pacientes cáncer/sangre; lidera Todos Juntos Contra o Câncer."
+    },
+    "id": "rec7UlipXKZVyEXwR"
+  },
+  {
+    "createdTime": "2026-09-20T21:29:07.000Z",
+    "fields": {
+      "Notes": "verificar sigla",
+      "Region": "Chile",
+      "Source": "SOCHICAR (oncología)",
+      "Status": "To analyze",
+      "Type": "Evento/Congreso",
+      "Why relevant": "Sociedad chilena de cancérología; congreso con sponsors pharma."
+    },
+    "id": "rec7iuZow5oD7oLIa"
+  },
+  {
+    "createdTime": "2026-09-20T17:58:52.000Z",
+    "fields": {
+      "Notes": "Solo 2 anunciantes directos confirmados: Eli Lilly (banner 300x250, campana Host City CDMX via Edelman; el creativo ya no renderiza, campana rotada) y una escuela de marketing (no relevante). El stack programatico no tiene SSPs endemicos de salud. Rinde poco como fuente de prospectos.",
+      "Region": "México",
+      "Source": "Saludiario",
+      "Status": "Analyzed",
+      "Type": "Medio LatAm",
+      "URL": "https://saludiario.com",
+      "Why relevant": "Editor: Grupo Merca2.0 (mismo grupo que Merca2.0 e InformaBTL). Vende banner display directo (creativos alojados en ruta propia /ads/) + programatica via AdPushup. Newsletter propio. NO publica media kit ni tarifario: /anunciate/ es solo un formulario."
+    },
+    "id": "rec7y6xNfRvYP6GUF"
+  },
+  {
+    "createdTime": "2026-09-20T19:01:39.000Z",
+    "fields": {
+      "Region": "Brasil",
+      "Source": "ABIMO",
+      "Status": "To analyze",
+      "Type": "Asociación/Gremio",
+      "URL": "https://abimo.org.br/",
+      "Why relevant": "Fabricantes brasileños de dispositivos médicos."
+    },
+    "id": "rec88ThMBtJEnLft5"
+  },
+  {
+    "createdTime": "2026-09-20T17:58:52.000Z",
+    "fields": {
+      "Region": "Brasil",
+      "Source": "Panorama Farmacêutico",
+      "Status": "To analyze",
+      "Type": "Medio LatAm",
+      "URL": "https://panoramafarmaceutico.com.br",
+      "Why relevant": "Noticias y negocios pharma Brasil; publicidad y advertoriales."
+    },
+    "id": "rec8P0V8AV6uzd0Jw"
+  },
+  {
+    "createdTime": "2026-09-20T21:28:13.000Z",
+    "fields": {
+      "Region": "Argentina",
+      "Source": "COOPERALA",
+      "Status": "To analyze",
+      "Type": "Asociación/Gremio",
+      "Why relevant": "Cámara de laboratorios argentinos."
+    },
+    "id": "rec93a0z7HTy14XWz"
+  },
+  {
+    "createdTime": "2026-09-20T18:53:02.000Z",
+    "fields": {
+      "Region": "LatAm regional",
+      "Source": "PRLab (LatAm)",
+      "Status": "To analyze",
+      "Type": "Agencia",
+      "URL": "https://prlab.co/regions/latam/",
+      "Why relevant": "Agencia de relaciones públicas con operación LatAm; canal a marcas incl. salud."
+    },
+    "id": "rec96IoRSKCS6KVve"
+  },
+  {
+    "createdTime": "2026-09-20T21:29:46.000Z",
+    "fields": {
+      "Region": "Centroamérica",
+      "Source": "FEDEFARMA (Centroamérica)",
+      "Status": "To analyze",
+      "Type": "Asociación/Gremio",
+      "Why relevant": "Federación centroamericana y del Caribe de la industria farma; interlocutor regional."
+    },
+    "id": "rec9FnVKKkK6tq7n9"
+  },
+  {
+    "createdTime": "2026-09-20T18:53:02.000Z",
+    "fields": {
+      "Notes": "URL a verificar.",
+      "Region": "LatAm regional",
+      "Source": "CAEME",
+      "Status": "To analyze",
+      "Type": "Asociación/Gremio",
+      "Why relevant": "Argentina — Cámara Argentina de Especialidades Medicinales (labs de investigación, federada FIFARMA). Verificar URL (caeme.org.ar)."
+    },
+    "id": "rec9Si1Usf78X2CYM"
+  },
+  {
+    "createdTime": "2026-09-20T17:58:52.000Z",
+    "fields": {
+      "Notes": "Transicion de liderazgo con tension reportada en prensa abr-ago 2026 (presidente Guy Jean Savoir Garcia desde abr 2026; director general Rafael Gual saliendo, sucesor sin confirmar). Reduce previsibilidad en el corto plazo. Contacto operativo de la Convencion: coordinacion general (email institucional, no personal).",
+      "Region": "México",
+      "Source": "CANIFARMA",
+      "Status": "Analyzed",
+      "Type": "Asociación/Gremio",
+      "URL": "https://www.canifarma.org.mx",
+      "Why relevant": "P2 — 180+ empresas afiliadas y la Convencion Nacional (mayor concentracion de labs en Mexico), pero proceso de venta opaco: no publica sponsors ni precios."
+    },
+    "id": "rec9T13lLUp03p95t"
+  },
+  {
+    "createdTime": "2026-09-20T21:29:07.000Z",
+    "fields": {
+      "Region": "Chile",
+      "Source": "ExpoSalud",
+      "Status": "To analyze",
+      "Type": "Evento/Congreso",
+      "Why relevant": "Feria de salud/dispositivos."
+    },
+    "id": "rec9fjDih5ONCDibO"
+  },
+  {
+    "createdTime": "2026-09-20T19:01:39.000Z",
+    "fields": {
+      "Region": "Brasil",
+      "Source": "KACHI",
+      "Status": "To analyze",
+      "Type": "Agencia",
+      "URL": "https://www.kachi.com.br/",
+      "Why relevant": "Marketing farmacéutico y comunicación científica BR."
+    },
+    "id": "recAHSJFLHOSbp9UL"
+  },
+  {
+    "createdTime": "2026-09-20T21:28:43.000Z",
+    "fields": {
+      "Region": "Colombia",
+      "Source": "Pacientes Colombia",
+      "Status": "To analyze",
+      "Type": "Asociación/Gremio",
+      "Why relevant": "Coalición de organizaciones de pacientes; aliado editorial."
+    },
+    "id": "recALqU4kXeOjKJkE"
+  },
+  {
+    "createdTime": "2026-09-20T21:28:13.000Z",
+    "fields": {
+      "Region": "Argentina",
+      "Source": "SAAFH (farmacia hospitalaria)",
+      "Status": "To analyze",
+      "Type": "Evento/Congreso",
+      "Why relevant": "Farmacia hospitalaria; jornadas con sponsors de acceso."
+    },
+    "id": "recAOW57rdDFktEJw"
+  },
+  {
+    "createdTime": "2026-09-20T19:00:49.000Z",
+    "fields": {
+      "Region": "México",
+      "Source": "HC Healthcom",
+      "Status": "To analyze",
+      "Type": "Agencia",
+      "URL": "https://www.hc-healthcom.com/",
+      "Why relevant": "Agencia de comunicación healthcare MX."
+    },
+    "id": "recAaEiNl8llKdmK4"
+  },
+  {
+    "createdTime": "2026-09-20T17:58:52.000Z",
+    "fields": {
+      "Region": "Brasil",
+      "Source": "propmark",
+      "Status": "To analyze",
+      "Type": "Medio LatAm",
+      "URL": "https://propmark.com.br",
+      "Why relevant": "Medio del mercado publicitario Brasil: útil para ver qué labs/agencias pautan y en qué."
+    },
+    "id": "recAgwtbFXLfTaChV"
+  },
+  {
+    "createdTime": "2026-09-20T21:28:13.000Z",
+    "fields": {
+      "Region": "Argentina",
+      "Source": "CADIEM",
+      "Status": "To analyze",
+      "Type": "Asociación/Gremio",
+      "Why relevant": "Cámara de dispositivos/equipamiento médico."
+    },
+    "id": "recAxlP5xCsFKGguv"
+  },
+  {
+    "createdTime": "2026-09-20T21:29:20.000Z",
+    "fields": {
+      "Region": "Perú",
+      "Source": "TecnoSalud (feria)",
+      "Status": "To analyze",
+      "Type": "Evento/Congreso",
+      "Why relevant": "Feria de tecnología y equipamiento médico."
+    },
+    "id": "recBcp3eNvokyVHmI"
+  },
+  {
+    "createdTime": "2026-09-20T19:01:39.000Z",
+    "fields": {
+      "Region": "Brasil",
+      "Source": "Saúde Digital News",
+      "Status": "To analyze",
+      "Type": "Medio LatAm",
+      "URL": "https://saudedigitalnews.com.br/",
+      "Why relevant": "Salud digital y análisis del sector farma BR."
+    },
+    "id": "recC3lrHDa1wTeU02"
+  },
+  {
+    "createdTime": "2026-09-20T21:29:20.000Z",
+    "fields": {
+      "Region": "Perú",
+      "Source": "CQFP (congreso)",
+      "Status": "To analyze",
+      "Type": "Evento/Congreso",
+      "Why relevant": "Colegio Químico Farmacéutico del Perú; congreso profesional."
+    },
+    "id": "recCM8U7a7ljT390I"
+  },
+  {
+    "createdTime": "2026-09-20T21:29:20.000Z",
+    "fields": {
+      "Notes": "verificar sigla",
+      "Region": "Perú",
+      "Source": "ALDIMED",
+      "Status": "To analyze",
+      "Type": "Asociación/Gremio",
+      "Why relevant": "Asoc. de dispositivos médicos / laboratorios."
+    },
+    "id": "recCZmno9tQoh2pei"
+  },
+  {
+    "createdTime": "2026-09-20T19:00:49.000Z",
+    "fields": {
+      "Region": "México",
+      "Source": "Expo FAC (Farmacias y Cuidado Personal)",
+      "Status": "To analyze",
+      "Type": "Evento/Congreso",
+      "URL": "https://www.expofac.mx/",
+      "Why relevant": "Feria de retail farmacéutico; sponsors de labs/consumo."
+    },
+    "id": "recCbbXVUqY9hvCCX"
+  },
+  {
+    "createdTime": "2026-09-20T17:58:52.000Z",
+    "fields": {
+      "Region": "Brasil",
+      "Source": "Revista da Farmácia",
+      "Status": "To analyze",
+      "Type": "Medio LatAm",
+      "URL": "https://revistadafarmacia.com.br",
+      "Why relevant": "Mercado farma Brasil."
+    },
+    "id": "recCbyD5Pb0lAtorl"
+  },
+  {
+    "createdTime": "2026-09-20T22:45:40.000Z",
+    "fields": {
+      "Notes": "7 anunciantes confirmados: IQVIA (podcast), Samsung Biologics (2 native articles), Wolters Kluwer Health (webinar), OptimizeRx, CMI Media Group, PharmaForceIQ, BranchLab. Confirmado que sus anunciantes son DISTINTOS de los de Fierce Healthcare: aca son CDMO, CRO, data y martech farma; alla era health IT para pagadores. ads.txt: stack 100% programatico (incluye Doceree y DeepIntent, redes endemicas de salud) = display no atribuible.",
+      "Region": "US/Global",
+      "Source": "Fierce Pharma",
+      "Status": "Analyzed",
+      "Type": "Medio US",
+      "URL": "https://www.fiercepharma.com",
+      "Why relevant": "Questex, hermana de Fierce Healthcare. Vende webinars, whitepapers, podcasts, video, articulos nativos, 3 newsletters y eventos propios (Fierce Pharma Week, Fierce JPM Week, Fierce 50 Awards). Declara 1,8M de pageviews al mes y 214.000 contactos en base. Sin tarifario publico."
+    },
+    "id": "recCdYCrc5vIUJF9F"
+  },
+  {
+    "createdTime": "2026-09-20T17:58:52.000Z",
+    "fields": {
+      "Region": "LatAm regional",
+      "Source": "Loft Media LATAM",
+      "Status": "To analyze",
+      "Type": "Agencia",
+      "URL": "https://loftmedialatam.com",
+      "Why relevant": "Agencia de healthcare marketing LatAm: canal para llegar a labs y fuente de leads (representa cuentas pharma)."
+    },
+    "id": "recCn3UVUzY7fPO7y"
+  },
+  {
+    "createdTime": "2026-09-20T19:00:49.000Z",
+    "fields": {
+      "Region": "México",
+      "Source": "Pharmaceutical Technology en Español",
+      "Status": "To analyze",
+      "Type": "Medio LatAm",
+      "URL": "https://www.pharmatechespanol.com.mx/",
+      "Why relevant": "Publicación técnica B2B de manufactura/proveeduría farma."
+    },
+    "id": "recCp9GYGpL0FrdBT"
+  },
+  {
+    "createdTime": "2026-09-20T21:29:20.000Z",
+    "fields": {
+      "Region": "Perú",
+      "Source": "Esperantra (pacientes)",
+      "Status": "To analyze",
+      "Type": "Asociación/Gremio",
+      "Why relevant": "ONG de pacientes oncológicos; aliado editorial acceso/oncología."
+    },
+    "id": "recDUa5grl0W3QoB1"
+  },
+  {
+    "createdTime": "2026-09-20T19:01:39.000Z",
+    "fields": {
+      "Region": "Brasil",
+      "Source": "Medicina S/A",
+      "Status": "To analyze",
+      "Type": "Medio LatAm",
+      "URL": "https://medicinasa.com.br/",
+      "Why relevant": "Portal de negocios de salud/pharma, alto tráfico B2B."
+    },
+    "id": "recDYUnYM7BSlPoTL"
+  },
+  {
+    "createdTime": "2026-09-20T21:28:13.000Z",
+    "fields": {
+      "Notes": "verificar cartera health",
+      "Region": "Argentina",
+      "Source": "Decir Comunicación (agencia)",
+      "Status": "To analyze",
+      "Type": "Agencia",
+      "Why relevant": "Agencia de comunicación con foco salud."
+    },
+    "id": "recDuvj43RWqptB8P"
+  },
+  {
+    "createdTime": "2026-09-20T21:29:07.000Z",
+    "fields": {
+      "Region": "Chile",
+      "Source": "ACHAP",
+      "Status": "To analyze",
+      "Type": "Asociación/Gremio",
+      "Why relevant": "Asoc. chilena de agencias de publicidad; mapa de agencias."
+    },
+    "id": "recESpRD7H2yoO0OT"
+  },
+  {
+    "createdTime": "2026-09-20T18:53:02.000Z",
+    "fields": {
+      "Region": "LatAm regional",
+      "Source": "ALAD (Congreso Latinoamericano de Diabetes)",
+      "Status": "To analyze",
+      "Type": "Evento/Congreso",
+      "URL": "https://aladlatam.org/",
+      "Why relevant": "Congreso de diabetes de la Asociación Latinoamericana de Diabetes; sponsors de GLP-1/metabólico (Lilly, Novo Nordisk, Boehringer)."
+    },
+    "id": "recF2WN4naXDdbwpb"
+  },
+  {
+    "createdTime": "2026-09-20T21:28:43.000Z",
+    "fields": {
+      "Region": "Colombia",
+      "Source": "ACEMI",
+      "Status": "To analyze",
+      "Type": "Asociación/Gremio",
+      "Why relevant": "Asoc. de EPS (aseguradoras); pagadores clave del sistema."
+    },
+    "id": "recF9VuY43PHf0FqT"
+  },
+  {
+    "createdTime": "2026-09-20T21:29:07.000Z",
+    "fields": {
+      "Region": "Chile",
+      "Source": "APIS",
+      "Status": "To analyze",
+      "Type": "Asociación/Gremio",
+      "Why relevant": "Asoc. de proveedores de la industria de la salud (dispositivos)."
+    },
+    "id": "recG7DPTT5d18tXUq"
+  },
+  {
+    "createdTime": "2026-09-20T19:01:39.000Z",
+    "fields": {
+      "Region": "Brasil",
+      "Source": "SBOC (Oncologia Clínica BR)",
+      "Status": "To analyze",
+      "Type": "Evento/Congreso",
+      "URL": "https://sboc.org.br/",
+      "Why relevant": "Gran congreso oncológico con patrocinio de industria."
+    },
+    "id": "recG8522mIySVWol1"
+  },
+  {
+    "createdTime": "2026-09-20T17:58:52.000Z",
+    "fields": {
+      "Region": "Brasil",
+      "Source": "Guia da Farmácia",
+      "Status": "To analyze",
+      "Type": "Medio LatAm",
+      "URL": "https://guiadafarmacia.com.br",
+      "Why relevant": "Retail/farmacia Brasil; ya corre retail media pharma (sponsor visto: Groovinads)."
+    },
+    "id": "recGKhFizLOFvkQe1"
+  },
+  {
+    "createdTime": "2026-09-20T21:29:07.000Z",
+    "fields": {
+      "Region": "Chile",
+      "Source": "ASILFA",
+      "Status": "To analyze",
+      "Type": "Asociación/Gremio",
+      "Why relevant": "Asoc. de laboratorios nacionales (genéricos)."
+    },
+    "id": "recGk1OJhXR491f86"
+  },
+  {
+    "createdTime": "2026-09-20T21:29:07.000Z",
+    "fields": {
+      "Region": "Chile",
+      "Source": "DF Salud (Diario Financiero)",
+      "Status": "To analyze",
+      "Type": "Medio LatAm",
+      "Why relevant": "Sección salud del principal medio económico chileno; audiencia decisora."
+    },
+    "id": "recGqmuMqR14La3f6"
+  },
+  {
+    "createdTime": "2026-09-20T21:29:07.000Z",
+    "fields": {
+      "Region": "Chile",
+      "Source": "Savalnet",
+      "Status": "To analyze",
+      "Type": "Medio LatAm",
+      "Why relevant": "Red médica/editorial de laboratorio Saval; gran audiencia médica."
+    },
+    "id": "recHAb1zgaqedrUq3"
+  },
+  {
+    "createdTime": "2026-09-20T21:28:43.000Z",
+    "fields": {
+      "Region": "Colombia",
+      "Source": "FECOER (enf. raras)",
+      "Status": "To analyze",
+      "Type": "Asociación/Gremio",
+      "Why relevant": "Federación colombiana de enfermedades raras; partner raras."
+    },
+    "id": "recHGvAV4Ktcl1yhB"
+  },
+  {
+    "createdTime": "2026-09-20T21:28:43.000Z",
+    "fields": {
+      "Region": "Colombia",
+      "Source": "Gestarsalud",
+      "Status": "To analyze",
+      "Type": "Asociación/Gremio",
+      "Why relevant": "Asoc. de EPS del régimen subsidiado; pagadores."
+    },
+    "id": "recI2snoS9Wyv0wyd"
+  },
+  {
+    "createdTime": "2026-09-20T21:29:46.000Z",
+    "fields": {
+      "Notes": "verificar sigla",
+      "Region": "LatAm regional",
+      "Source": "ULAPA (regional)",
+      "Status": "To analyze",
+      "Type": "Asociación/Gremio",
+      "Why relevant": "Unión latinoamericana de asociaciones de pacientes; aliado editorial regional."
+    },
+    "id": "recI74ggsTi0gBPwY"
+  },
+  {
+    "createdTime": "2026-09-20T21:29:07.000Z",
+    "fields": {
+      "Region": "Chile",
+      "Source": "CIF Chile",
+      "Status": "To analyze",
+      "Type": "Asociación/Gremio",
+      "Why relevant": "Cámara de innovación farmacéutica (multinacionales)."
+    },
+    "id": "recIfbxslXh9mrrUg"
+  },
+  {
+    "createdTime": "2026-09-20T21:29:46.000Z",
+    "fields": {
+      "Region": "Rep. Dominicana",
+      "Source": "ARAPF (Rep. Dominicana)",
+      "Status": "To analyze",
+      "Type": "Asociación/Gremio",
+      "Why relevant": "Asoc. de representantes de productos farmacéuticos RD."
+    },
+    "id": "recIrCfsURnaBWgFP"
+  },
+  {
+    "createdTime": "2026-09-20T17:58:52.000Z",
+    "fields": {
+      "Region": "LatAm regional",
+      "Source": "IPG Mediabrands LatAm",
+      "Status": "To analyze",
+      "Type": "Agencia",
+      "URL": "https://www.linkedin.com/company/ipgmblatam",
+      "Why relevant": "Holding de agencias de medios: compra pauta para grandes anunciantes (incl. pharma) en LatAm. Canal de escala."
+    },
+    "id": "recK0UK2rQ28ARtA0"
+  },
+  {
+    "createdTime": "2026-09-20T17:58:52.000Z",
+    "fields": {
+      "Region": "LatAm regional",
+      "Source": "Publimedical",
+      "Status": "To analyze",
+      "Type": "Agencia",
+      "URL": "https://publimedical.com",
+      "Why relevant": "Agencia de marketing médico; cartera de clientes = anunciantes potenciales."
+    },
+    "id": "recKYD9ueGMLzMcf4"
+  },
+  {
+    "createdTime": "2026-09-20T18:31:24.000Z",
+    "fields": {
+      "Region": "LatAm regional",
+      "Source": "GaBI Online",
+      "Status": "To analyze",
+      "Type": "Medio LatAm",
+      "URL": "https://gabionline.net/es",
+      "Why relevant": "Regional — medio especializado en genéricos y biosimilares con cobertura LatAm; sponsors del segmento biosimilares (encaja con Sartorius/Sandoz)."
+    },
+    "id": "recKcPXGSAT7ncb94"
+  },
+  {
+    "createdTime": "2026-09-20T21:28:43.000Z",
+    "fields": {
+      "Region": "Colombia",
+      "Source": "Congreso Nacional de Salud",
+      "Status": "To analyze",
+      "Type": "Evento/Congreso",
+      "Why relevant": "Congreso de política y sistema de salud; audiencia de acceso."
+    },
+    "id": "recLFRCN9dhY1Bxcf"
+  },
+  {
+    "createdTime": "2026-09-20T21:29:46.000Z",
+    "fields": {
+      "Region": "Uruguay",
+      "Source": "Expofarma Uruguay",
+      "Status": "To analyze",
+      "Type": "Evento/Congreso",
+      "Why relevant": "Exposición/congreso farmacéutico uruguayo."
+    },
+    "id": "recLHLKqioWcSZCWS"
+  },
+  {
+    "createdTime": "2026-09-20T19:01:39.000Z",
+    "fields": {
+      "Region": "LatAm regional",
+      "Source": "Access Fórum Latam (Sindusfarma)",
+      "Status": "To analyze",
+      "Type": "Evento/Congreso",
+      "URL": "https://sindusfarma.org.br/",
+      "Why relevant": "Cumbre de market access LatAm; sponsors 2026 Amgen, MSD, Lilly, Boehringer, Sandoz."
+    },
+    "id": "recLYa4vo1VSB7EHr"
+  },
+  {
+    "createdTime": "2026-09-20T17:58:52.000Z",
+    "fields": {
+      "Notes": "Consejo Directivo 2026-2028: Sanofi, J&J, Vertex, BMS, Novartis, Novo Nordisk, Pfizer, Roche, Biomarin, Boehringer, Lilly, Teva, UCB. Vertex y Biomarin son nombres nuevos para nuestra base (raras/genetica). Conflicto sin resolver: presidente ejecutivo (Renato Porto vs Elizabeth de Carvalhaes) — verificar antes de outreach nominal.",
+      "Region": "Brasil",
+      "Source": "Interfarma",
+      "Status": "Analyzed",
+      "Type": "Asociación/Gremio",
+      "URL": "https://www.interfarma.org.br/en/",
+      "Why relevant": "P3 — NO vende sponsorship. Eventos internos financiados por cuotas de asociados. Valor = directorio de 13+ labs miembro (ya todos en nuestra base)."
+    },
+    "id": "recLYyh2gTEn8irMG"
+  },
+  {
+    "createdTime": "2026-09-20T21:29:07.000Z",
+    "fields": {
+      "Notes": "verificar cartera health",
+      "Region": "Chile",
+      "Source": "Backer HealthCare (agencia)",
+      "Status": "To analyze",
+      "Type": "Agencia",
+      "Why relevant": "Agencia especializada en healthcare."
+    },
+    "id": "recMVDoc7p3SC0wgh"
+  },
+  {
+    "createdTime": "2026-09-20T21:29:46.000Z",
+    "fields": {
+      "Region": "Centroamérica",
+      "Source": "Congreso Farmacéutico CR",
+      "Status": "To analyze",
+      "Type": "Evento/Congreso",
+      "Why relevant": "Congreso farmacéutico Costa Rica; hub centroamericano."
+    },
+    "id": "recMxyOZjkbWNbYIU"
+  },
+  {
+    "createdTime": "2026-09-20T21:29:46.000Z",
+    "fields": {
+      "Region": "Bolivia",
+      "Source": "CIFABOL Bolivia",
+      "Status": "To analyze",
+      "Type": "Asociación/Gremio",
+      "Why relevant": "Cámara de la industria farmacéutica boliviana."
+    },
+    "id": "recNWl0rVtu5R4CJH"
+  },
+  {
+    "createdTime": "2026-09-20T17:58:52.000Z",
+    "fields": {
+      "Notes": "Brand Studio: Cytiva, Genentech, J&J, Gilead, Kite, Evidation, Medidata, Shire/Takeda. Summit 2025 por tier: Merck (Presenting), Biogen, Genmab, ViiV, Medidata (Premium), MD Anderson (Wunderkinds), Chan Zuckerberg, Klick, Zeno (Supporting). Los tiers nombrados publicamente son un modelo replicable. ads.txt sin SSPs endemicos: el display no es atribuible, el negocio esta en el contenido directo.",
+      "Region": "US/Global",
+      "Source": "STAT News",
+      "Status": "Analyzed",
+      "Type": "Medio US",
+      "URL": "https://www.statnews.com/advertising-media-kit/",
+      "Why relevant": "Boston Globe Media. Vende Brand Studio (contenido nativo co-branded), sponsorship de newsletter (Morning Rounds, 196k+ suscriptores), podcasts, webinars, e-books de generacion de leads, y paquetes por tier de sus eventos (STAT Summit, Breakthrough Summit). Media kit publico pero SIN precios."
+    },
+    "id": "recNnnIwn4PqmAGZe"
+  },
+  {
+    "createdTime": "2026-09-20T18:53:02.000Z",
+    "fields": {
+      "Notes": "URL a verificar.",
+      "Region": "Brasil",
+      "Source": "ABIMED",
+      "Status": "To analyze",
+      "Type": "Asociación/Gremio",
+      "Why relevant": "Brasil — asociación de la industria de dispositivos médicos y diagnóstico; universo de medtech (complementa a los labs). Verificar URL (abimed.org.br)."
+    },
+    "id": "recOcyrW71ABGsIf3"
+  },
+  {
+    "createdTime": "2026-09-20T19:00:49.000Z",
+    "fields": {
+      "Region": "México",
+      "Source": "Innuo",
+      "Status": "To analyze",
+      "Type": "Agencia",
+      "URL": "https://www.innuo.com/",
+      "Why relevant": "Agencia de comunicación healthcare con operación MX."
+    },
+    "id": "recP6Ir5ZVUZrMw9x"
+  },
+  {
+    "createdTime": "2026-09-20T19:01:39.000Z",
+    "fields": {
+      "Region": "Brasil",
+      "Source": "Instituto Oncoguia",
+      "Status": "To analyze",
+      "Type": "Asociación/Gremio",
+      "URL": "https://www.oncoguia.org.br/",
+      "Why relevant": "Pacientes oncológicos BR (advocacy de acceso)."
+    },
+    "id": "recP7sVx38BwuGIiu"
+  },
+  {
+    "createdTime": "2026-09-20T19:01:39.000Z",
+    "fields": {
+      "Region": "Brasil",
+      "Source": "PróGenéricos",
+      "Status": "To analyze",
+      "Type": "Asociación/Gremio",
+      "URL": "https://progenericos.org.br/",
+      "Why relevant": "Representa genéricos y biosimilares BR (Conexão Biossimilares)."
+    },
+    "id": "recPLvk7zotnftySS"
+  },
+  {
+    "createdTime": "2026-09-20T19:00:49.000Z",
+    "fields": {
+      "Region": "México",
+      "Source": "Federación Mexicana de Diabetes",
+      "Status": "To analyze",
+      "Type": "Asociación/Gremio",
+      "URL": "https://fmdiabetes.org/",
+      "Why relevant": "Principal red de pacientes con diabetes MX."
+    },
+    "id": "recPUq2SWw8wI8efC"
+  },
+  {
+    "createdTime": "2026-09-20T17:58:52.000Z",
+    "fields": {
+      "Notes": "Analizado 20/09 (mantengo Status 'Contacto red Fer'). Junta: Constanza Losada (Chair, BMS), Sinan Atlig (co-chair, Pfizer). Directora ejecutiva: Yaneth Giha. Miembros nombrados en home: AbbVie, Merck, Pfizer, Novartis, J&J, Lilly, Gilead, Boehringer, Chiesi. ANGULO FUERTE: el W.A.I.T. Indicator es exactamente el formato que vendemos — entrar como el equivalente editorial independiente.",
+      "Region": "LatAm regional",
+      "Source": "FIFARMA",
+      "Status": "Contacto (red Fer)",
+      "Type": "Asociación/Gremio",
+      "URL": "https://fifarma.org/en/",
+      "Why relevant": "P2 como entidad (no vende sponsorship), P1 como directorio de decisores. Produce el Patient W.A.I.T. Indicator 2026 con IQVIA = prueba de que compran storytelling data-driven de acceso."
+    },
+    "id": "recPbw3r4r3SzefsH"
+  },
+  {
+    "createdTime": "2026-09-20T19:01:39.000Z",
+    "fields": {
+      "Region": "Brasil",
+      "Source": "Visana Comunicação",
+      "Status": "To analyze",
+      "Type": "Agencia",
+      "URL": "https://visanacomunicacao.com.br/",
+      "Why relevant": "Comunicación de sociedades médicas y grandes congresos."
+    },
+    "id": "recPrnpRoYe4X6eld"
+  },
+  {
+    "createdTime": "2026-09-20T21:28:13.000Z",
+    "fields": {
+      "Region": "Argentina",
+      "Source": "COFA (congreso farmacéutico)",
+      "Status": "To analyze",
+      "Type": "Evento/Congreso",
+      "Why relevant": "Confederación Farmacéutica Argentina; congreso de farmacia."
+    },
+    "id": "recQ6dcJhCsbOOQzD"
+  },
+  {
+    "createdTime": "2026-09-20T18:53:02.000Z",
+    "fields": {
+      "Region": "Brasil",
+      "Source": "Sindusfarma",
+      "Status": "To analyze",
+      "Type": "Asociación/Gremio",
+      "URL": "https://sindusfarma.org.br/",
+      "Why relevant": "Sindicato de la industria farmacéutica de São Paulo; gran gremio BR, organiza eventos y foros de acceso (co-organiza Access Forum LATAM)."
+    },
+    "id": "recQVJRSkjzEPKT89"
+  },
+  {
+    "createdTime": "2026-09-20T21:28:13.000Z",
+    "fields": {
+      "Region": "Argentina",
+      "Source": "LALCEC",
+      "Status": "To analyze",
+      "Type": "Asociación/Gremio",
+      "Why relevant": "Liga argentina de lucha contra el cáncer; ONG con partners pharma oncología."
+    },
+    "id": "recQbVOWyJ3FKuMKf"
+  },
+  {
+    "createdTime": "2026-09-20T19:01:39.000Z",
+    "fields": {
+      "Region": "Brasil",
+      "Source": "Grupo FarmaBrasil",
+      "Status": "To analyze",
+      "Type": "Asociación/Gremio",
+      "URL": "https://grupofarmabrasil.com.br/",
+      "Why relevant": "Labs de capital nacional y de investigación BR."
+    },
+    "id": "recQnYXPq2gPOY7dF"
+  },
+  {
+    "createdTime": "2026-09-20T19:00:49.000Z",
+    "fields": {
+      "Notes": "Verificar landing MX.",
+      "Region": "México",
+      "Source": "Edelman México (Health)",
+      "Status": "To analyze",
+      "Type": "Agencia",
+      "URL": "https://www.edelman.com/",
+      "Why relevant": "Práctica global Health con oficina MX."
+    },
+    "id": "recQuxFoov9Euv7wF"
+  },
+  {
+    "createdTime": "2026-09-20T19:01:39.000Z",
+    "fields": {
+      "Region": "Brasil",
+      "Source": "ISPOR Brasil (Congresso)",
+      "Status": "To analyze",
+      "Type": "Evento/Congreso",
+      "URL": "https://ispor.org.br/",
+      "Why relevant": "Principal congreso de farmacoeconomía/HTA de BR."
+    },
+    "id": "recQvxFrUVA3vsFwM"
+  },
+  {
+    "createdTime": "2026-09-20T21:29:07.000Z",
+    "fields": {
+      "Notes": "verificar URL",
+      "Region": "Chile",
+      "Source": "FarmaHoy",
+      "Status": "To analyze",
+      "Type": "Medio LatAm",
+      "Why relevant": "Medio de industria farmacéutica chilena."
+    },
+    "id": "recRMM1xJuPoeyVVC"
+  },
+  {
+    "createdTime": "2026-09-20T21:28:43.000Z",
+    "fields": {
+      "Region": "Colombia",
+      "Source": "MEDITECH (feria)",
+      "Status": "To analyze",
+      "Type": "Evento/Congreso",
+      "Why relevant": "Feria de tecnología y dispositivos médicos en Bogotá."
+    },
+    "id": "recRQLicZ6dLqWmil"
+  },
+  {
+    "createdTime": "2026-09-20T21:28:13.000Z",
+    "fields": {
+      "Notes": "verificar cartera health",
+      "Region": "Argentina",
+      "Source": "Anejo (agencia)",
+      "Status": "To analyze",
+      "Type": "Agencia",
+      "Why relevant": "Agencia con cuentas health/pharma en AR."
+    },
+    "id": "recRt32eh90GXjIaC"
+  },
+  {
+    "createdTime": "2026-09-20T21:28:43.000Z",
+    "fields": {
+      "Region": "Colombia",
+      "Source": "Cámara Dispositivos ANDI",
+      "Status": "To analyze",
+      "Type": "Asociación/Gremio",
+      "Why relevant": "Cámara de dispositivos médicos (ANDI)."
+    },
+    "id": "recSAPEt1xMPQUcKW"
+  },
+  {
+    "createdTime": "2026-09-20T19:01:39.000Z",
+    "fields": {
+      "Region": "Brasil",
+      "Source": "Fórum Brasileiro de Farmacoeconomia e Inovação em Saúde",
+      "Status": "To analyze",
+      "Type": "Evento/Congreso",
+      "URL": "https://farmacoeconomia.com.br/",
+      "Why relevant": "Foro anual de farmacoeconomía y acceso BR."
+    },
+    "id": "recSnhejg2u6rEJtg"
+  },
+  {
+    "createdTime": "2026-09-20T21:29:20.000Z",
+    "fields": {
+      "Notes": "verificar URL",
+      "Region": "Perú",
+      "Source": "Diario Médico Perú",
+      "Status": "To analyze",
+      "Type": "Medio LatAm",
+      "Why relevant": "Medio médico/salud peruano."
+    },
+    "id": "recT4IWMIUJnYvk0T"
+  },
+  {
+    "createdTime": "2026-09-20T17:58:52.000Z",
+    "fields": {
+      "Notes": "Quienes pautan son AGENCIAS (Inizio Engage, Publicis Health, TERRITORY, Axion, GENESIS Biomed), no labs: son canal hacia el lab. Inizio Engage compra webinars sobre POLITICA SANITARIA = nuestro terreno. Foco Espana/Iberoamerica; pmfarma.es redirige a .com y la edicion .com.mx no resolvio. Nicho US-Hispanic sin cubrir.",
+      "Region": "México",
+      "Source": "PMFarma",
+      "Status": "Analyzed",
+      "Type": "Medio LatAm",
+      "URL": "https://www.pmfarma.com/tarifas/",
+      "Why relevant": "TARIFARIO PUBLICO Y DETALLADO, el mas util de todos: noticia EUR 100, articulo 200-500, entrevista en video 1.200, Tribuna 4.200/ano, banners web 350-600/ano, banners revista 400-2.000, planes de contenido 290-2.000/ano, webinars patrocinados 950-1.800, directorio premium 290-1.500."
+    },
+    "id": "recTeFqgCC7btFAdr"
+  },
+  {
+    "createdTime": "2026-09-20T19:01:39.000Z",
+    "fields": {
+      "Region": "Brasil",
+      "Source": "Hospitalar",
+      "Status": "To analyze",
+      "Type": "Evento/Congreso",
+      "URL": "https://www.hospitalar.com/",
+      "Why relevant": "Mayor feria de salud de LatAm; 8 congresos, patrocinio masivo."
+    },
+    "id": "recU1YlZ8CATQQB6q"
+  },
+  {
+    "createdTime": "2026-09-20T21:28:13.000Z",
+    "fields": {
+      "Region": "Argentina",
+      "Source": "FEFARA",
+      "Status": "To analyze",
+      "Type": "Asociación/Gremio",
+      "Why relevant": "Federación farmacéutica; red de farmacias del interior."
+    },
+    "id": "recU7QssLQeIMTk4f"
+  },
+  {
+    "createdTime": "2026-09-20T18:31:24.000Z",
+    "fields": {
+      "Notes": "Es data provider, no publisher editorial puro.",
+      "Region": "LatAm regional",
+      "Source": "Global Health Intelligence",
+      "Status": "To analyze",
+      "Type": "Medio LatAm",
+      "URL": "https://globalhealthintelligence.com",
+      "Why relevant": "Regional — data/insights de mercados emergentes de salud LatAm. Más proveedor de datos que medio; útil como referencia competitiva y por sus clientes."
+    },
+    "id": "recUtQirTEkZ0AhGV"
+  },
+  {
+    "createdTime": "2026-09-20T21:29:07.000Z",
+    "fields": {
+      "Notes": "verificar URL",
+      "Region": "Chile",
+      "Source": "Políticas Farmacéuticas",
+      "Status": "To analyze",
+      "Type": "Medio LatAm",
+      "Why relevant": "Portal de política farmacéutica y acceso."
+    },
+    "id": "recUyTMuvxeDQncw8"
+  },
+  {
+    "createdTime": "2026-09-20T17:58:52.000Z",
+    "fields": {
+      "Region": "LatAm regional",
+      "Source": "AI & Digital Pharma Summit LATAM",
+      "Status": "To analyze",
+      "Type": "Evento/Congreso",
+      "URL": "https://iafarmalatam.com",
+      "Why relevant": "Evento de IA/digital pharma LatAm; sponsors = health IT y pharma con foco regional."
+    },
+    "id": "recVljKoyN3hCJ90L"
+  },
+  {
+    "createdTime": "2026-09-20T21:28:13.000Z",
+    "fields": {
+      "Region": "Argentina",
+      "Source": "AAOC (Asoc. Argentina Oncología Clínica)",
+      "Status": "To analyze",
+      "Type": "Evento/Congreso",
+      "Why relevant": "Congreso oncológico; audiencia médica especializada, sponsors pharma."
+    },
+    "id": "recVtxiNDdtxszI9O"
+  },
+  {
+    "createdTime": "2026-09-20T21:29:07.000Z",
+    "fields": {
+      "Region": "Chile",
+      "Source": "ISPOR Chile (capítulo)",
+      "Status": "To analyze",
+      "Type": "Evento/Congreso",
+      "Why relevant": "Capítulo local de HEOR/farmacoeconomía; audiencia de acceso."
+    },
+    "id": "recWQ4YKdCRM2a29O"
+  },
+  {
+    "createdTime": "2026-09-20T19:00:49.000Z",
+    "fields": {
+      "Notes": "Solo se confirmaron cuotas de inscripcion con descuento por pronto pago. Fechas y sede de la edicion XXXV (2026) no verificadas.",
+      "Region": "México",
+      "Source": "Convención Nacional CANIFARMA",
+      "Status": "Analyzed",
+      "Type": "Evento/Congreso",
+      "URL": "https://eventoscanifarma.com/",
+      "Why relevant": "Evento insignia de CANIFARMA. XXXIV edicion: 24-27 sep 2025, Huatulco. No publica patrocinadores ni tarifario."
+    },
+    "id": "recX3ZObkGw2mSfgC"
+  },
+  {
+    "createdTime": "2026-09-20T21:29:46.000Z",
+    "fields": {
+      "Region": "Uruguay",
+      "Source": "Farmanuario Uruguay",
+      "Status": "To analyze",
+      "Type": "Medio LatAm",
+      "Why relevant": "Vademecum/medio farmacéutico uruguayo; referencia de industria."
+    },
+    "id": "recXA5Kuo0CIy7chP"
+  },
+  {
+    "createdTime": "2026-09-20T17:58:52.000Z",
+    "fields": {
+      "Region": "Brasil",
+      "Source": "Pharma Meeting Brazil",
+      "Status": "To analyze",
+      "Type": "Evento/Congreso",
+      "URL": "https://pharmameetingbrazil.com",
+      "Why relevant": "Gran encuentro de la industria farmacéutica en Brasil; patrocinadores locales."
+    },
+    "id": "recXEcXI75idb4dhK"
+  },
+  {
+    "createdTime": "2026-09-20T17:58:52.000Z",
+    "fields": {
+      "Notes": "NO publica lista de anunciantes ni sponsors (sin logos ni 'brought to you by'). Unico confirmado: Intelnova (healthtech colombiana, expositor). Banners de home cargaron vacios. Para mapear los compradores de los tiers Diamante/Speaker haria falta el media kit privado. Sin tarifario publico de banners/newsletter.",
+      "Region": "Colombia",
+      "Source": "Consultorsalud",
+      "Status": "Analyzed",
+      "Type": "Medio LatAm",
+      "URL": "https://congreso.consultorsalud.com/sponsor/",
+      "Why relevant": "Monetiza casi todo via su Congreso Nacional de Salud (organiza 1000Sillas). PRECIOS PUBLICOS DEL CONGRESO: Sponsor Speaker COP 12.840.000 + IVA; Sponsor Diamante COP 70.500.000 + IVA; stand desde COP 5.350.000 + IVA. Newsletter semanal ~35.000 suscriptores."
+    },
+    "id": "recXLRewZ9hN6jnkM"
+  },
+  {
+    "createdTime": "2026-09-20T21:29:46.000Z",
+    "fields": {
+      "Region": "LatAm regional",
+      "Source": "ATREVIA (agencia)",
+      "Status": "To analyze",
+      "Type": "Agencia",
+      "Why relevant": "Consultora de comunicación con práctica healthcare en LatAm."
+    },
+    "id": "recXSkcDY5ednFeAt"
+  },
+  {
+    "createdTime": "2026-09-20T19:01:39.000Z",
+    "fields": {
+      "Region": "Brasil",
+      "Source": "Saúde Business",
+      "Status": "To analyze",
+      "Type": "Medio LatAm",
+      "URL": "https://www.saudebusiness.com/",
+      "Why relevant": "Insights para ejecutivos de salud; organiza Saúde Business Fórum."
+    },
+    "id": "recXURYJgu5jTpjlY"
+  },
+  {
+    "createdTime": "2026-09-20T21:28:13.000Z",
+    "fields": {
+      "Region": "Argentina",
+      "Source": "FADEPOF (enf. poco frecuentes)",
+      "Status": "To analyze",
+      "Type": "Asociación/Gremio",
+      "Why relevant": "Federación de pacientes con enfermedades poco frecuentes; aliado editorial raras."
+    },
+    "id": "recXv4y2N6Xh3s8Hh"
+  },
+  {
+    "createdTime": "2026-09-20T17:58:52.000Z",
+    "fields": {
+      "Region": "México",
+      "Source": "Merca2.0",
+      "Status": "To analyze",
+      "Type": "Medio LatAm",
+      "URL": "https://www.merca20.com/tag/marketing-farmaceutico",
+      "Why relevant": "Medio de marketing México con sección de marketing farmacéutico; anunciantes y agencias."
+    },
+    "id": "recYlVbsN5gNgZs5w"
+  },
+  {
+    "createdTime": "2026-09-20T17:58:52.000Z",
+    "fields": {
+      "Region": "LatAm regional",
+      "Source": "pharmaphorum (LatAm)",
+      "Status": "To analyze",
+      "Type": "Medio LatAm",
+      "URL": "https://pharmaphorum.com/tag/latin-america",
+      "Why relevant": "Cobertura LatAm de un medio pharma global; sponsors internacionales con foco regional."
+    },
+    "id": "recZK4ukcPJdqVzOL"
+  },
+  {
+    "createdTime": "2026-09-20T19:00:49.000Z",
+    "fields": {
+      "Region": "México",
+      "Source": "BioPress International",
+      "Status": "To analyze",
+      "Type": "Agencia",
+      "URL": "https://bio-press.com/",
+      "Why relevant": "Agencia de comunicación médico-farmacéutica y contenidos."
+    },
+    "id": "recZWOcwFktDI96GC"
+  },
+  {
+    "createdTime": "2026-09-20T21:29:46.000Z",
+    "fields": {
+      "Region": "Ecuador",
+      "Source": "Edición Médica Ecuador",
+      "Status": "To analyze",
+      "Type": "Medio LatAm",
+      "Why relevant": "Medio médico/salud (red Edición Médica en varios países)."
+    },
+    "id": "recZZRffjcQh3uarw"
+  },
+  {
+    "createdTime": "2026-09-20T17:58:52.000Z",
+    "fields": {
+      "Notes": "20 anunciantes confirmados via /library/ y /spons/: Thermo Fisher, IQVIA, Cardinal Health, MilliporeSigma, FUJIFILM Biotech, Premier Research, WCG, Solvias, Almac, Covaris, Tive, Salesforce, Cognizant, Bio-Rad, Pearson, Woven Health, LifeLabs, Pacteon, Catalent, Quest. Es la fuente mas productiva de la cola. Quedan ~9 articulos /spons/ sin abrir. FORMATO A COPIAR: el 'Trendline' (hub tematico patrocinado) y el 'Playbook'.",
+      "Region": "US/Global",
+      "Source": "BioPharma Dive",
+      "Status": "Analyzed",
+      "Type": "Medio US",
+      "URL": "https://www.biopharmadive.com/library/",
+      "Why relevant": "Industry Dive (grupo Informa). EL CATALOGO DE FORMATOS MAS RICO de todos los analizados: articulos nativos, infografias, whitepapers, Playbooks, Trendlines (agregadores tematicos patrocinados), webinars on-demand, podcasts, reportes de encuesta, ads de newsletter (206k suscriptores). Media kit detras de formulario."
+    },
+    "id": "recZf5dRkHSFmhkjs"
+  },
+  {
+    "createdTime": "2026-09-20T19:00:49.000Z",
+    "fields": {
+      "Region": "México",
+      "Source": "AMELAF",
+      "Status": "To analyze",
+      "Type": "Asociación/Gremio",
+      "URL": "https://amelaf.org.mx/",
+      "Why relevant": "Labs farmacéuticos nacionales/genéricos 'Hecho en México'."
+    },
+    "id": "recZoMb3ShI195N7Y"
+  },
+  {
+    "createdTime": "2026-09-20T21:29:46.000Z",
+    "fields": {
+      "Region": "Ecuador",
+      "Source": "ALFE Ecuador",
+      "Status": "To analyze",
+      "Type": "Asociación/Gremio",
+      "Why relevant": "Asoc. de laboratorios farmacéuticos ecuatorianos."
+    },
+    "id": "reca9ULnI4TzIbGLQ"
+  },
+  {
+    "createdTime": "2026-09-20T19:01:39.000Z",
+    "fields": {
+      "Region": "Brasil",
+      "Source": "Casa Hunter",
+      "Status": "To analyze",
+      "Type": "Asociación/Gremio",
+      "URL": "https://www.casahunter.org.br/",
+      "Why relevant": "Pacientes de enfermedades raras BR."
+    },
+    "id": "recarz8Fimf86HS9F"
+  },
+  {
+    "createdTime": "2026-09-20T17:58:52.000Z",
+    "fields": {
+      "Region": "LatAm regional",
+      "Source": "ACCESS LATAM '26 (The Access Forum)",
+      "Status": "To analyze",
+      "Type": "Evento/Congreso",
+      "URL": "https://theaccessforum.org/forums/latam-2026",
+      "Why relevant": "Foro de market access LatAm: audiencia y sponsors exactamente del target editorial de HealthSignals."
+    },
+    "id": "recawf9PChJldyh9y"
+  },
+  {
+    "createdTime": "2026-09-20T21:28:43.000Z",
+    "fields": {
+      "Region": "Colombia",
+      "Source": "ACHO (oncología)",
+      "Status": "To analyze",
+      "Type": "Evento/Congreso",
+      "Why relevant": "Asoc. Colombiana de Hematología y Oncología; congreso con sponsors pharma."
+    },
+    "id": "recayCqEjf1i2IIvj"
+  },
+  {
+    "createdTime": "2026-09-20T19:01:39.000Z",
+    "fields": {
+      "Region": "Brasil",
+      "Source": "SBC (Cardiologia BR)",
+      "Status": "To analyze",
+      "Type": "Evento/Congreso",
+      "URL": "https://www.cardiol.br/",
+      "Why relevant": "Uno de los mayores congresos médicos con patrocinio pharma."
+    },
+    "id": "recb48kSiY7IoGUS1"
+  },
+  {
+    "createdTime": "2026-09-20T21:46:43.000Z",
+    "fields": {
+      "Notes": "VERIFICADO 20/09 por mi en /partner-prospectus/. OJO: los paquetes anuales cubren foros US y EU; LATAM figura como foro aparte sin precio publicado — negociable. HALLAZGO CLAVE: quienes pagan son CONSULTORAS/CRO (EVERSANA, ICON, Lumanity, Trinity, Global Market Access Solutions, Marksman, Value Analytics Labs, AVEE, PX3AXS), NO los labs. Los labs (Novartis, UCB, EMS) van de speakers. Todas cargadas en Advertisers.",
+      "Region": "Brasil",
+      "Source": "ACCESS LATAM '26 (ACCESS Forum LLC)",
+      "Status": "Analyzed",
+      "Type": "Evento/Congreso",
+      "URL": "https://theaccessforum.org/forums/latam-2026/",
+      "Why relevant": "P1 — UNICO foro comercial de market access activo en LatAm (Brasilia, Edificio ION). Operado por ACCESS Forum LLC (Tampa, FL). PRECIOS PUBLICOS VERIFICADOS: Bronze USD 12.500/ano, Silver 25.000, Gold 37.500, Platinum 50.000 (compromiso 2 anos). Puntuales: Luncheon 12.000, Reception 10.000, Track 8.000 por foro."
+    },
+    "id": "recb8l48Co9zpqVFV"
+  },
+  {
+    "createdTime": "2026-09-20T19:01:39.000Z",
+    "fields": {
+      "Region": "Brasil",
+      "Source": "LLYC Brasil",
+      "Status": "To analyze",
+      "Type": "Agencia",
+      "URL": "https://llyc.global/",
+      "Why relevant": "PR y public affairs de salud; Health & Advocacy Summit BR."
+    },
+    "id": "recbJBq2dvgJ05RfF"
+  },
+  {
+    "createdTime": "2026-09-20T19:00:49.000Z",
+    "fields": {
+      "Region": "México",
+      "Source": "LaSalud.mx",
+      "Status": "To analyze",
+      "Type": "Medio LatAm",
+      "URL": "https://lasalud.mx/",
+      "Why relevant": "Grupo líder de noticias salud/farma MX (portal + revistas)."
+    },
+    "id": "recbR9lljdVjoHXp4"
+  },
+  {
+    "createdTime": "2026-09-20T21:28:13.000Z",
+    "fields": {
+      "Notes": "verificar cartera health",
+      "Region": "Argentina",
+      "Source": "Relevant (agencia)",
+      "Status": "To analyze",
+      "Type": "Agencia",
+      "Why relevant": "Agencia de comunicación/PR con clientes salud."
+    },
+    "id": "recbiSm0wZ63f2PE3"
+  },
+  {
+    "createdTime": "2026-09-20T18:53:02.000Z",
+    "fields": {
+      "Notes": "URL a verificar.",
+      "Region": "Brasil",
+      "Source": "Abrafarma",
+      "Status": "To analyze",
+      "Type": "Asociación/Gremio",
+      "Why relevant": "Brasil — asociación de las grandes redes de farmacias; organiza Abrafarma Future Trends. Universo retail/farmacia. Verificar URL."
+    },
+    "id": "recbjkaOy36UNl6tQ"
+  },
+  {
+    "createdTime": "2026-09-20T21:28:13.000Z",
+    "fields": {
+      "Region": "Argentina",
+      "Source": "Jornadas AES (economía de la salud)",
+      "Status": "To analyze",
+      "Type": "Evento/Congreso",
+      "Why relevant": "Asoc. de Economía de la Salud; audiencia de acceso/HEOR."
+    },
+    "id": "reccFUuKccloyz7SD"
+  },
+  {
+    "createdTime": "2026-09-20T19:00:49.000Z",
+    "fields": {
+      "Region": "México",
+      "Source": "AMLCC (Lucha Contra el Cáncer)",
+      "Status": "To analyze",
+      "Type": "Asociación/Gremio",
+      "URL": "https://amlcc.org/",
+      "Why relevant": "Asociación de pacientes referente en oncología MX."
+    },
+    "id": "reccLNsv6HrtmCqFN"
+  },
+  {
+    "createdTime": "2026-09-20T17:58:52.000Z",
+    "fields": {
+      "Notes": "13 anunciantes identificados, cargados en Advertisers. Formatos que compran: ficha proveedor destacado, contenido patrocinado, video corporativo, banner directo. El display fuera del modulo home es programatico (solo Google Ad Manager en ads.txt, sin redes endemicas) = no atribuible. El media kit PDF da 404.",
+      "Region": "LatAm regional",
+      "Source": "El Hospital",
+      "Status": "Analyzed",
+      "Type": "Medio LatAm",
+      "URL": "https://www.elhospital.com/marketing",
+      "Why relevant": "Editor: Axioma B2B. TARIFARIO PUBLICO (autoservicio): Plan 360 Bronce-Platino USD 3.000-7.200/ano (banners newsletter, video, Meta Ads, clasificados, email a 1.500-3.000 contactos). Plan Digital Bronce-Oro USD 1.000-2.000/ano (ficha 'proveedor destacado' + leads). PRIMER BENCHMARK DE PRECIO DE MEDIOS LATAM."
+    },
+    "id": "recdpAtFz4x0Ng5cj"
+  },
+  {
+    "createdTime": "2026-09-20T21:28:43.000Z",
+    "fields": {
+      "Region": "Colombia",
+      "Source": "LLYC Colombia (agencia)",
+      "Status": "To analyze",
+      "Type": "Agencia",
+      "Why relevant": "Consultora de comunicación con práctica health en la región."
+    },
+    "id": "receGdDPyoXuOnl93"
+  },
+  {
+    "createdTime": "2026-09-20T19:01:39.000Z",
+    "fields": {
+      "Region": "Brasil",
+      "Source": "Agência Health (BR)",
+      "Status": "To analyze",
+      "Type": "Agencia",
+      "URL": "https://www.agenciahealth.com.br/",
+      "Why relevant": "Marketing médico y contenido en salud BR."
+    },
+    "id": "recfirW0yjftnDoeG"
+  },
+  {
+    "createdTime": "2026-09-20T17:58:52.000Z",
+    "fields": {
+      "Notes": "HALLAZGO CLAVE: no hay NINGUN disclosure de que las entrevistas sean pagas o editoriales; la ambiguedad es la norma de la categoria. Ahi tiene HS una oportunidad de diferenciarse siendo transparente. Mexico tiene reporte anual dedicado; Brasil, Colombia y Argentina solo entran en el regional. El Legal Handbook por pais es una linea de ingreso barata y replicable (research ya hecho, empaquetado como producto). Los ejecutivos entrevistados en el reporte Mexico 2025 nos dieron los contactos nominales que faltaban.",
+      "Region": "LatAm regional",
+      "Source": "PharmaBoardroom",
+      "Status": "Analyzed",
+      "Type": "Medio LatAm",
+      "URL": "https://pharmaboardroom.com/mediakit/",
+      "Why relevant": "EL COMPETIDOR MAS PARECIDO A LO QUE HS QUIERE SER. Editor legal: Focus Reports Ltd (UK). Monetiza con (1) reportes de pais 'Healthcare & Life Sciences Review' hechos de entrevistas a ejecutivos, (2) venta directa de 'Pharma Legal Handbook' por pais via Shopify, (3) AdSense. Sin tarifario publico; el media kit 2026 solo se obtiene por contacto. Reclama 26.000 decisores, sin auditar."
+    },
+    "id": "recg4oxHTuBcvN4iV"
+  },
+  {
+    "createdTime": "2026-09-20T19:01:39.000Z",
+    "fields": {
+      "Region": "Brasil",
+      "Source": "Febrafar",
+      "Status": "To analyze",
+      "Type": "Asociación/Gremio",
+      "URL": "https://febrafar.com.br/",
+      "Why relevant": "Redes asociativistas de farmacias BR."
+    },
+    "id": "recg8gS8kaoj0uRwF"
+  },
+  {
+    "createdTime": "2026-09-20T17:58:52.000Z",
+    "fields": {
+      "Region": "Brasil",
+      "Source": "Intelligenzia",
+      "Status": "To analyze",
+      "Type": "Agencia",
+      "URL": "https://intelligenzia.com.br",
+      "Why relevant": "Agencia de marketing digital para la industria farmacéutica en Brasil."
+    },
+    "id": "recgF7ajJTd72vtZN"
+  },
+  {
+    "createdTime": "2026-09-20T21:29:46.000Z",
+    "fields": {
+      "Notes": "Error de clasificacion en la carga anterior. Su seccion 'Eventos' son avisos de empleo, no conferencias. No vende patrocinio de evento.",
+      "Region": "LatAm regional",
+      "Source": "Top Market Access (foro regional)",
+      "Status": "Skip",
+      "Type": "Evento/Congreso",
+      "Why relevant": "DESCARTADO: no es un foro ni un evento. Es un portal editorial de suscripcion en Espana (operado por Filling the Gap), enfocado en mercado iberico, no LatAm."
+    },
+    "id": "recgFqzf1X8wutBzn"
+  },
+  {
+    "createdTime": "2026-09-20T21:29:46.000Z",
+    "fields": {
+      "Notes": "verificar URL",
+      "Region": "Rep. Dominicana",
+      "Source": "Diario de Salud (Rep. Dominicana)",
+      "Status": "To analyze",
+      "Type": "Medio LatAm",
+      "Why relevant": "Medio de salud dominicano; puerta al Caribe."
+    },
+    "id": "recgju4R8TiwlKtPv"
+  },
+  {
+    "createdTime": "2026-09-20T18:53:02.000Z",
+    "fields": {
+      "Notes": "Unico capitulo ISPOR que publica sponsors nominales. Adium es hallazgo nuevo: lab REGIONAL latinoamericano, cargado en Advertisers. Prospectus de precios no publicado (seccion 'en desarrollo').",
+      "Region": "Colombia",
+      "Source": "ISPOR Colombia (Congreso)",
+      "Status": "Analyzed",
+      "Type": "Evento/Congreso",
+      "URL": "https://www.isporcolombia.org/congreso/",
+      "Why relevant": "Sponsors CONFIRMADOS con nombre: J&J Innovative Medicine, Bayer, Adium, Eli Lilly. IX Congreso: Medellin, 20-21 ago 2026."
+    },
+    "id": "rech5dz3PuU7zqytS"
+  },
+  {
+    "createdTime": "2026-09-20T19:00:49.000Z",
+    "fields": {
+      "Region": "México",
+      "Source": "Código F",
+      "Status": "To analyze",
+      "Type": "Medio LatAm",
+      "URL": "https://codigof.mx/",
+      "Why relevant": "Portal especializado en industria farmacéutica MX."
+    },
+    "id": "rechMBOJd02LQAGTA"
+  },
+  {
+    "createdTime": "2026-09-20T19:01:39.000Z",
+    "fields": {
+      "Region": "Brasil",
+      "Source": "Tugarê Group",
+      "Status": "To analyze",
+      "Type": "Agencia",
+      "URL": "https://tugare.com.br/",
+      "Why relevant": "Agencia healthcare BR, +200 lanzamientos con grandes labs."
+    },
+    "id": "rechNm6jSU3d3CgT3"
+  },
+  {
+    "createdTime": "2026-09-20T17:58:52.000Z",
+    "fields": {
+      "Region": "US/Global",
+      "Source": "Fierce Healthcare (Questex)",
+      "Status": "Analyzed",
+      "Type": "Medio US",
+      "URL": "https://www.fiercehealthcare.com",
+      "Why relevant": "Ya analizado: 13 anunciantes cargados en Advertisers."
+    },
+    "id": "reciEuf7S8SUwghyG"
+  },
+  {
+    "createdTime": "2026-09-20T19:00:49.000Z",
+    "fields": {
+      "Notes": "Hallazgo: NO existe congreso ISPOR LatAm regional activo. Ultima edicion regional fue Sao Paulo 2017 (y Punta Cana 2019). Desde 2020 ISPOR global lo reemplazo por webinars. Los congresos vivos son de capitulos nacionales (Colombia el mas activo). Decisor via industria: Silvana Lay, Industry Committee Chair (MSD Peru).",
+      "Region": "LatAm regional",
+      "Source": "ISPOR Latin America Consortium",
+      "Status": "Analyzed",
+      "Type": "Evento/Congreso",
+      "URL": "https://www.ispor.org/member-groups/global-groups/consortia/latin-america-consortium",
+      "Why relevant": "P3 como canal de venta: es sociedad cientifica sin fines de lucro, NO vende inventario. Valor = los labs que patrocinan sus capitulos nacionales."
+    },
+    "id": "reciOf4wnNH6V0ZkW"
+  },
+  {
+    "createdTime": "2026-09-20T17:58:52.000Z",
+    "fields": {
+      "Notes": "Eventos: Semana de la Innovacion (anual, 10a ed. jul 2025) y Cumbre de Investigacion Clinica. Dato vendible: sus miembros invierten ~USD 200M/ano en investigacion clinica en Mexico, con potencial declarado a USD 2.000M. Presidente 2025-26: Jorge Luis Caridad (J&J Mexico). ATENCION: director ejecutivo en disputa entre fuentes (Rubin / Ordaz / Quevedo) — verificar antes de outreach nominal. /asociados/ da 403.",
+      "Region": "México",
+      "Source": "AMIIF",
+      "Status": "Analyzed",
+      "Type": "Asociación/Gremio",
+      "URL": "https://amiif.org/asociados/",
+      "Why relevant": "P2 — no vende sponsorship abierto, pero tiene biblioteca editorial propia (informes sociales, raras) = encaja con formato reporte co-branded. +60 labs miembro."
+    },
+    "id": "reciW5Kvj2fBmfxa6"
+  },
+  {
+    "createdTime": "2026-09-20T21:29:46.000Z",
+    "fields": {
+      "Notes": "verificar sigla",
+      "Region": "Ecuador",
+      "Source": "IFI Ecuador",
+      "Status": "To analyze",
+      "Type": "Asociación/Gremio",
+      "Why relevant": "Cámara de la industria farmacéutica ecuatoriana."
+    },
+    "id": "recj1B2k1bHLWecZi"
+  },
+  {
+    "createdTime": "2026-09-20T17:58:52.000Z",
+    "fields": {
+      "Region": "Brasil",
+      "Source": "Biosimilars LatAm - Brazil 2026",
+      "Status": "To analyze",
+      "Type": "Evento/Congreso",
+      "URL": "https://jackleckerman.com/events/biosimilars-latam-brazil-2026",
+      "Why relevant": "Congreso de biosimilares LatAm; sponsors de pharma y biosimilares."
+    },
+    "id": "recjHnnx15GpA3OxE"
+  },
+  {
+    "createdTime": "2026-09-20T19:00:49.000Z",
+    "fields": {
+      "Region": "México",
+      "Source": "AMID",
+      "Status": "To analyze",
+      "Type": "Asociación/Gremio",
+      "URL": "https://amid.org.mx/",
+      "Why relevant": "Industrias innovadoras de dispositivos médicos MX."
+    },
+    "id": "recjk9YhQXla3pGcN"
+  },
+  {
+    "createdTime": "2026-09-20T17:58:52.000Z",
+    "fields": {
+      "Notes": "Sponsors confirmados: Parexel, ZS, Natera, Samsung Biologics, Guardant Health (webinars). Clientes listados en Studio: Amgen, Syneos Health, J&J Innovation, y ademas Sartorius, Catalent, Aldevron, Allogene, ICON, Lonza, Medidata, PhRMA, PPD, PwC, RBC, Signant Health (sin formato especificado). ads.txt da 404 en ambos dominios: no se pudo auditar el stack programatico. IDEA APLICABLE: el limite de 50 sponsored posts al ano como mecanismo de escasez y precio.",
+      "Region": "US/Global",
+      "Source": "Endpoints News",
+      "Status": "Analyzed",
+      "Type": "Medio US",
+      "URL": "https://endpoints.studio/products",
+      "Why relevant": "Propiedad del Financial Times (mayoria desde abril 2023). Vende: newsletter ads, display directo, Featured Sponsored Post (maximo 50 al ano = escasez deliberada), Pharma Sponsored Post, Client Webinars, eventos propios (Endpoints 11, European Biopharma Summit, Women in Biopharma), encuestas 'Endpoints Signal' y podcast con exclusividad de categoria por 1 mes. Sin tarifario publico."
+    },
+    "id": "recjlrmBdzdKOzJcz"
+  },
+  {
+    "createdTime": "2026-09-20T21:28:13.000Z",
+    "fields": {
+      "Notes": "verificar sigla",
+      "Region": "Argentina",
+      "Source": "CAEHFA",
+      "Status": "To analyze",
+      "Type": "Asociación/Gremio",
+      "Why relevant": "Cámara de especialidades hospitalarias/farma."
+    },
+    "id": "reck8Kk0XY2lKNWKa"
+  },
+  {
+    "createdTime": "2026-09-20T18:53:02.000Z",
+    "fields": {
+      "Notes": "URL a verificar.",
+      "Region": "Brasil",
+      "Source": "BIO Convention Brasil 2026 (Abifina/Abracro/Sindusfarma)",
+      "Status": "To analyze",
+      "Type": "Evento/Congreso",
+      "Why relevant": "Convención de biotecnología e insumos farmacéuticos Brasil, co-organizada por gremios; expositores/patrocinadores. Verificar URL del evento."
+    },
+    "id": "reckcJMmn8Ryq34Df"
+  },
+  {
+    "createdTime": "2026-09-20T21:28:13.000Z",
+    "fields": {
+      "Region": "Argentina",
+      "Source": "ExpoMEDICAL",
+      "Status": "To analyze",
+      "Type": "Evento/Congreso",
+      "Why relevant": "Feria de equipamiento y tecnología médica (dispositivos)."
+    },
+    "id": "reckee7StsEm0MBHH"
+  },
+  {
+    "createdTime": "2026-09-20T19:00:49.000Z",
+    "fields": {
+      "Region": "México",
+      "Source": "México Industry",
+      "Status": "To analyze",
+      "Type": "Medio LatAm",
+      "URL": "https://mexicoindustry.com/",
+      "Why relevant": "Medio industrial B2B, clúster farma 'hecho en México'."
+    },
+    "id": "reclArUR1iYDT62MC"
+  },
+  {
+    "createdTime": "2026-09-20T21:28:13.000Z",
+    "fields": {
+      "Region": "Argentina",
+      "Source": "CADIME",
+      "Status": "To analyze",
+      "Type": "Asociación/Gremio",
+      "Why relevant": "Cámara de diagnóstico e insumos médicos."
+    },
+    "id": "reclRhuuY9C9kM0P4"
+  },
+  {
+    "createdTime": "2026-09-20T18:31:24.000Z",
+    "fields": {
+      "Region": "México",
+      "Source": "Pharma News México",
+      "Status": "To analyze",
+      "Type": "Medio LatAm",
+      "URL": "https://www.pharmanews.com.mx",
+      "Why relevant": "México — actualización en tecnología farmacéutica; media partner de ExpoFarma. Anunciantes = proveedores/labs."
+    },
+    "id": "reclWdAP02d09J9ps"
+  },
+  {
+    "createdTime": "2026-09-20T19:00:49.000Z",
+    "fields": {
+      "Region": "México",
+      "Source": "ANADIM",
+      "Status": "To analyze",
+      "Type": "Asociación/Gremio",
+      "URL": "https://www.anadim.mx/",
+      "Why relevant": "Distribuidores de medicinas (mayoreo farmacéutico) MX."
+    },
+    "id": "recm4A10Lk2AxErEP"
+  },
+  {
+    "createdTime": "2026-09-20T21:28:13.000Z",
+    "fields": {
+      "Region": "Argentina",
+      "Source": "EXPOFYBI",
+      "Status": "To analyze",
+      "Type": "Evento/Congreso",
+      "Why relevant": "Exposición de proveedores de la industria farma (SAFYBI)."
+    },
+    "id": "recmeL2JiINUZoqIg"
+  },
+  {
+    "createdTime": "2026-09-20T18:53:02.000Z",
+    "fields": {
+      "Notes": "VERIFICADO 20/09 por mi, no solo por agente. Miembros farma: AbbVie, Abbott, Amgen, Ascendis, Astellas, AstraZeneca, Boehringer, BioNTech, BMS, Lilly, Roche, GSK, J&J, Madrigal, Merck & Co, Merck KGaA, Novartis, Pfizer, Sanofi Genzyme. Devices: Boston Scientific, Edwards, Intuitive, Medtronic. Foro LatAm 2026: San Jose CR 12-14 abr; 2027 Lima 12-13 abr. En comite organizador LatAm 2024 estuvieron MSD y Sanofi. Precio del componente LatAm NO publicado.",
+      "Region": "LatAm regional",
+      "Source": "HTAi Latin America Policy Forum",
+      "Status": "Analyzed",
+      "Type": "Evento/Congreso",
+      "URL": "https://htai.org/engage-with-us/policy-forums/global-policy-forum/",
+      "Why relevant": "P1 — LA MEJOR fuente verificada. 23 miembros corporativos for-profit pagan USD 35.750/ano (32.000 forum + 3.750 organizacional) por acceso a policy influence en HTA. Lista publica y nominal."
+    },
+    "id": "recmhaPsC6bl5IOZ7"
+  },
+  {
+    "createdTime": "2026-09-20T18:53:02.000Z",
+    "fields": {
+      "Region": "LatAm regional",
+      "Source": "SIAC (Congreso Interamericano de Cardiología)",
+      "Status": "To analyze",
+      "Type": "Evento/Congreso",
+      "URL": "https://siacardio.com/congresos/",
+      "Why relevant": "Congreso de cardiología interamericano; sponsors cardio-metabólicos (AstraZeneca, Boehringer, Bayer, Novartis)."
+    },
+    "id": "recn5EfbdrFzZr98c"
+  },
+  {
+    "createdTime": "2026-09-20T17:58:52.000Z",
+    "fields": {
+      "Region": "LatAm regional",
+      "Source": "Bubblegum Healthcare",
+      "Status": "To analyze",
+      "Type": "Agencia",
+      "URL": "https://bubblegum.agency",
+      "Why relevant": "Agencia creativa healthcare; puerta a marcas pharma."
+    },
+    "id": "recnNT3N09LfuKgWk"
+  },
+  {
+    "createdTime": "2026-09-20T18:53:02.000Z",
+    "fields": {
+      "Region": "México",
+      "Source": "ANAFAM",
+      "Status": "To analyze",
+      "Type": "Asociación/Gremio",
+      "URL": "https://anafam.org.mx/",
+      "Why relevant": "Asociación Nacional de Fabricantes de Medicamentos México (labs nacionales/genéricos); universo de labs distinto al de AMIIF (innovadores)."
+    },
+    "id": "reco2G2Of2jgds3QH"
+  },
+  {
+    "createdTime": "2026-09-20T18:53:02.000Z",
+    "fields": {
+      "Region": "Brasil",
+      "Source": "Fórum Brasileiro de Assistência Farmacêutica e Farmacoeconomia",
+      "Status": "To analyze",
+      "Type": "Evento/Congreso",
+      "URL": "https://assistenciafarmaceutica.com.br/",
+      "Why relevant": "Foro de farmacoeconomía y acceso a medicamentos Brasil; audiencia de acceso/política."
+    },
+    "id": "reco2lt6Aj9gFPd4n"
+  },
+  {
+    "createdTime": "2026-09-20T18:53:02.000Z",
+    "fields": {
+      "Region": "LatAm regional",
+      "Source": "SAC (Sociedad Argentina de Cardiología) — Congresos",
+      "Status": "To analyze",
+      "Type": "Evento/Congreso",
+      "URL": "https://www.sac.org.ar/",
+      "Why relevant": "Argentina — congresos y simposios de cardiología (incl. cardio-oncología); sponsors cardio."
+    },
+    "id": "recp7EexiCJMPbC35"
+  },
+  {
+    "createdTime": "2026-09-20T18:53:02.000Z",
+    "fields": {
+      "Notes": "Red; identificar la agencia miembro por país.",
+      "Region": "LatAm regional",
+      "Source": "Worldcom PR Group",
+      "Status": "To analyze",
+      "Type": "Agencia",
+      "Why relevant": "Red global de agencias de PR con miembros en LatAm (incl. healthcare); canal indirecto a anunciantes. Verificar miembro LatAm por país."
+    },
+    "id": "recpKo1oZZpPKqPRI"
+  },
+  {
+    "createdTime": "2026-09-20T17:58:52.000Z",
+    "fields": {
+      "Region": "LatAm regional",
+      "Source": "Bepharma 2026",
+      "Status": "To analyze",
+      "Type": "Evento/Congreso",
+      "URL": "https://bepharma.org",
+      "Why relevant": "Evento B2B mundial de la industria farmacéutica; participantes y patrocinadores."
+    },
+    "id": "recpSTZ7s5RWZqVa4"
+  },
+  {
+    "createdTime": "2026-09-20T19:00:49.000Z",
+    "fields": {
+      "Region": "México",
+      "Source": "Expo Med / Hospitalar México",
+      "Status": "To analyze",
+      "Type": "Evento/Congreso",
+      "URL": "https://www.expomed.com.mx/",
+      "Why relevant": "Mayor feria de dispositivos médicos y salud MX + summit."
+    },
+    "id": "recpTQhFga9o3idvP"
+  },
+  {
+    "createdTime": "2026-09-20T18:31:24.000Z",
+    "fields": {
+      "Region": "LatAm regional",
+      "Source": "Gestión (sección Industria Farmacéutica)",
+      "Status": "To analyze",
+      "Type": "Medio LatAm",
+      "URL": "https://gestion.pe/noticias/industria-farmaceutica",
+      "Why relevant": "Perú — diario económico con cobertura de la industria farmacéutica; diario general, no B2B pharma puro. Menor prioridad."
+    },
+    "id": "recpUTIDxHl9vEOUK"
+  },
+  {
+    "createdTime": "2026-09-20T19:01:39.000Z",
+    "fields": {
+      "Region": "Brasil",
+      "Source": "Conteúdo Comunicação",
+      "Status": "To analyze",
+      "Type": "Agencia",
+      "URL": "https://conteudocomunicacao.com.br/",
+      "Why relevant": "Assessoria de imprensa farma (PróGenéricos, Novartis)."
+    },
+    "id": "recqAhlS01MuShRTp"
+  },
+  {
+    "createdTime": "2026-09-20T19:01:39.000Z",
+    "fields": {
+      "Notes": "Verificar dominio.",
+      "Region": "Brasil",
+      "Source": "Setor Saúde",
+      "Status": "To analyze",
+      "Type": "Medio LatAm",
+      "URL": "https://setorsaude.com.br/",
+      "Why relevant": "Portal B2B de gestión y negocios en salud BR."
+    },
+    "id": "recqCzyQOpwzBcOKP"
+  },
+  {
+    "createdTime": "2026-09-20T21:29:07.000Z",
+    "fields": {
+      "Region": "Chile",
+      "Source": "Foro ALIFAR",
+      "Status": "To analyze",
+      "Type": "Evento/Congreso",
+      "Why relevant": "Foro regional de laboratorios latinoamericanos (sede rotativa)."
+    },
+    "id": "recqHpnCQROx6QhX7"
+  },
+  {
+    "createdTime": "2026-09-20T21:29:20.000Z",
+    "fields": {
+      "Notes": "verificar cartera health",
+      "Region": "Perú",
+      "Source": "Healthy Media (agencia)",
+      "Status": "To analyze",
+      "Type": "Agencia",
+      "Why relevant": "Agencia de marketing health en PE."
+    },
+    "id": "recqZS6mHzogmibiZ"
+  },
+  {
+    "createdTime": "2026-09-20T21:29:46.000Z",
+    "fields": {
+      "Region": "Uruguay",
+      "Source": "CEFA Uruguay",
+      "Status": "To analyze",
+      "Type": "Asociación/Gremio",
+      "Why relevant": "Cámara de especialidades farmacéuticas de Uruguay."
+    },
+    "id": "recrgtVDEYQs2Adm5"
+  },
+  {
+    "createdTime": "2026-09-20T18:31:24.000Z",
+    "fields": {
+      "Region": "LatAm regional",
+      "Source": "Pharmabaires",
+      "Status": "To analyze",
+      "Type": "Medio LatAm",
+      "URL": "https://www.pharmabaires.com",
+      "Why relevant": "Argentina — noticias de la industria farmacéutica."
+    },
+    "id": "recsVO18H0amandEl"
+  },
+  {
+    "createdTime": "2026-09-20T17:58:52.000Z",
+    "fields": {
+      "Region": "México",
+      "Source": "MEDADX / Medical Marketing Tech",
+      "Status": "To analyze",
+      "Type": "Agencia",
+      "URL": "https://medicalmarketing.tech",
+      "Why relevant": "Agencia de marketing médico (Tijuana), foco México y cross-border US-Hispanic."
+    },
+    "id": "recsfg5UmtFo0bBLL"
+  },
+  {
+    "createdTime": "2026-09-20T21:28:43.000Z",
+    "fields": {
+      "Region": "Colombia",
+      "Source": "Cámara Farmacéutica ANDI",
+      "Status": "To analyze",
+      "Type": "Asociación/Gremio",
+      "Why relevant": "Cámara de laboratorios multinacionales (ANDI); interlocutor clave."
+    },
+    "id": "rectHkFonMGbpBD51"
+  },
+  {
+    "createdTime": "2026-09-20T17:58:52.000Z",
+    "fields": {
+      "Region": "México",
+      "Source": "ExpoFarma 2026",
+      "Status": "To analyze",
+      "Type": "Evento/Congreso",
+      "URL": "https://www.expofarma.mx",
+      "Why relevant": "Expo farmacéutica México; expositores/patrocinadores = anunciantes potenciales."
+    },
+    "id": "rectXsutScERkSpsz"
+  },
+  {
+    "createdTime": "2026-09-20T18:53:02.000Z",
+    "fields": {
+      "Notes": "URL a verificar.",
+      "Region": "Colombia",
+      "Source": "AFIDRO",
+      "Status": "To analyze",
+      "Type": "Asociación/Gremio",
+      "Why relevant": "Colombia — asociación de laboratorios de investigación (federada FIFARMA); labs con operación Colombia. Verificar URL (afidro.org)."
+    },
+    "id": "rectqVB8TNiNBGneB"
+  },
+  {
+    "createdTime": "2026-09-20T21:29:20.000Z",
+    "fields": {
+      "Region": "Perú",
+      "Source": "Salud con Lupa",
+      "Status": "To analyze",
+      "Type": "Medio LatAm",
+      "Why relevant": "Medio de periodismo de salud regional (investigación); alta credibilidad."
+    },
+    "id": "recuVQg6uC33fKq20"
+  },
+  {
+    "createdTime": "2026-09-20T18:53:02.000Z",
+    "fields": {
+      "Region": "LatAm regional",
+      "Source": "SLAGO (Simposio LatAm de Gastroenterología Oncológica)",
+      "Status": "To analyze",
+      "Type": "Evento/Congreso",
+      "URL": "https://www.slago.com/",
+      "Why relevant": "Congreso oncológico regional; sponsors de pharma oncológica."
+    },
+    "id": "recuaGqKwMsR1ydLz"
+  },
+  {
+    "createdTime": "2026-09-20T21:28:43.000Z",
+    "fields": {
+      "Notes": "verificar URL",
+      "Region": "Colombia",
+      "Source": "El Pulso (periódico salud)",
+      "Status": "To analyze",
+      "Type": "Medio LatAm",
+      "URL": "https://www.periodicoelpulso.com",
+      "Why relevant": "Medio de salud colombiano de referencia (sector salud, industria)."
+    },
+    "id": "recvrU57IZpAc9RpC"
+  },
+  {
+    "createdTime": "2026-09-20T19:01:39.000Z",
+    "fields": {
+      "Region": "Brasil",
+      "Source": "PharmaTech Conference Brasil",
+      "Status": "To analyze",
+      "Type": "Evento/Congreso",
+      "URL": "https://www.pharmatechconference.com.br/",
+      "Why relevant": "Encuentro de ejecutivos sobre marketing farma/IA."
+    },
+    "id": "recwSo1d41eQAQbvY"
+  },
+  {
+    "createdTime": "2026-09-20T18:53:02.000Z",
+    "fields": {
+      "Region": "México",
+      "Source": "APC Publicidad",
+      "Status": "To analyze",
+      "Type": "Agencia",
+      "URL": "https://www.apcpublicidad.com/",
+      "Why relevant": "Agencia healthcare y marketing farmacéutico México y LatAm; canal a labs."
+    },
+    "id": "recwYfBKUngrzwhaq"
+  },
+  {
+    "createdTime": "2026-09-20T18:53:02.000Z",
+    "fields": {
+      "Region": "Brasil",
+      "Source": "Abradilan Conexão Farma 2026",
+      "Status": "To analyze",
+      "Type": "Evento/Congreso",
+      "URL": "https://abradilan.com.br/conexao-farma-2026/",
+      "Why relevant": "Evento de distribución farmacéutica Brasil; industria y proveedores (canal retail/distribución)."
+    },
+    "id": "recwhI6CzxT5t4vqu"
+  },
+  {
+    "createdTime": "2026-09-20T17:58:52.000Z",
+    "fields": {
+      "Region": "LatAm regional",
+      "Source": "Latin Pharma",
+      "Status": "To analyze",
+      "Type": "Evento/Congreso",
+      "URL": "https://latin-pharma.org",
+      "Why relevant": "Plataforma/evento de negocios pharma LatAm."
+    },
+    "id": "recxJIajOtAhv2o9y"
+  },
+  {
+    "createdTime": "2026-09-20T19:01:39.000Z",
+    "fields": {
+      "Region": "Brasil",
+      "Source": "Acessa (ex-ABIMIP)",
+      "Status": "To analyze",
+      "Type": "Asociación/Gremio",
+      "URL": "https://acessa.org.br/",
+      "Why relevant": "Industria de autocuidado/MIP (OTC) BR."
+    },
+    "id": "recxdBwcS2VpL96El"
+  },
+  {
+    "createdTime": "2026-09-20T21:29:07.000Z",
+    "fields": {
+      "Notes": "verificar cartera health",
+      "Region": "Chile",
+      "Source": "KLGroup (agencia)",
+      "Status": "To analyze",
+      "Type": "Agencia",
+      "Why relevant": "Agencia con cuentas health en CL."
+    },
+    "id": "recxtQbhM68KJV9GS"
+  },
+  {
+    "createdTime": "2026-09-20T18:31:24.000Z",
+    "fields": {
+      "Region": "LatAm regional",
+      "Source": "Pharmabiz",
+      "Status": "To analyze",
+      "Type": "Medio LatAm",
+      "URL": "https://www.pharmabiz.net",
+      "Why relevant": "Argentina — medio B2B de la industria farmacéutica (ministerio, retail, negocios). Anunciantes = labs y proveedores locales."
+    },
+    "id": "recyEhIK02eISAXRh"
+  },
+  {
+    "createdTime": "2026-09-20T21:29:20.000Z",
+    "fields": {
+      "Region": "Perú",
+      "Source": "ADIFAN",
+      "Status": "To analyze",
+      "Type": "Asociación/Gremio",
+      "Why relevant": "Asoc. de industrias farmacéuticas nacionales."
+    },
+    "id": "recyF5uzszLZWXcyL"
+  },
+  {
+    "createdTime": "2026-09-20T21:28:13.000Z",
+    "fields": {
+      "Region": "Argentina",
+      "Source": "SAFYBI (congreso)",
+      "Status": "To analyze",
+      "Type": "Evento/Congreso",
+      "Why relevant": "Asociación Farmacéuticos y Bioquímicos de la Industria; congreso técnico anual."
+    },
+    "id": "recymwDl0hVYdIbbo"
+  },
+  {
+    "createdTime": "2026-09-20T18:31:24.000Z",
+    "fields": {
+      "Region": "LatAm regional",
+      "Source": "AméricaEconomía (Salud)",
+      "Status": "To analyze",
+      "Type": "Medio LatAm",
+      "URL": "https://www.americaeconomia.com",
+      "Why relevant": "Regional — medio de negocios LatAm con sección de salud/m-health; audiencia de decisores, anunciantes corporativos incl. pharma/health tech."
+    },
+    "id": "reczsMhbiDUYFQryF"
+  }
+]

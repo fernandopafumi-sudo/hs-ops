@@ -1,0 +1,540 @@
+[
+  {
+    "createdTime": "2026-09-04T21:09:48.000Z",
+    "fields": {
+      "Area": "Otro",
+      "Change": "Docs: cifras falsas fuera del kit, templates, benchmark, orchestrator, digest, costos",
+      "Date": "2026-09-04",
+      "Details": "Media kit v2: fuera runs daily, every send, five slots, first three; lock de 6 meses para todos; bajada dice LATAM + USA con 6 mercados en reportes; roundtable desde el 3er partner. 200-emails: sin 1000+ ni desglose demográfico ni 52 guaranteed; open rate con fórmula correcta; close rate sin dato histórico. Benchmark: 117->58, v1->v2, 95%->87%, sin el 100% de audiencia. Founding-members: marcado SUPERSEDED. Report Radar: el email de permiso declara registro, patrocinio y uso comercial de datos; nota sobre CC BY-NC. Orchestrator: estado conocido al 04-09 y modelo Founding Partners. Weekly digest: sponsors=[], marcado propuesta no implementada. Costos fusionados en costos-y-piso-de-precio-v2 (borrados los dos viejos). hsmotorpanel: punteros a docs superseded corregidos. lusha migrado al proyecto principal (con credenciales: rotarlas). NO tocado por ser decisión de oferta: cadencia GOLD, display, social.",
+      "Status": "Deployed"
+    },
+    "id": "rec02P4Fw1mfw8FTH"
+  },
+  {
+    "createdTime": "2026-08-29T20:08:21.000Z",
+    "fields": {
+      "Area": "Otro",
+      "Change": "Consolidación documental: Doc Index y Decisions creadas, 130 docs indexados",
+      "Date": "2026-08-29",
+      "Details": "Se crearon dos tablas en la base madre: Doc Index (tblJ8yijCjMxQCfwD) y Decisions (tbl1Yq6i5AZ13RgwJ). Se indexaron los 130 docs de los 9 proyectos de claude.ai de HealthSignals, más las 3 bases de Airtable, 10 scenarios de Make y 2 Google Sheets. Criterio aplicado: gana lo más reciente; el doc viejo queda Superseded y apunta al nuevo en Superseded_By. 19 decisiones de negocio cargadas en Decisions.",
+      "Status": "Deployed"
+    },
+    "id": "rec27yTETw4VUnJKZ"
+  },
+  {
+    "createdTime": "2026-09-28T17:31:33.000Z",
+    "fields": {
+      "Area": "Otro",
+      "Change": "Brief Production 6234307, Brief Email Send 6234915 y Approve queue rows 6245964 editados",
+      "Date": "2026-09-26",
+      "Details": "Detectado por hs-orchestrator-brief: lastEdit 26-09 en los tres. Activos, on-demand, dlq 0 (errors acumulados 3/3/1, históricos). Contenido del cambio no auditado; completar por Fernando.",
+      "Status": "Deployed"
+    },
+    "id": "rec2U3h3Ysy5DHpWB"
+  },
+  {
+    "createdTime": "2026-09-22T20:45:07.000Z",
+    "fields": {
+      "Area": "Otro",
+      "Change": "Engine_Sources: alta de Atlantic Council (tier 4, voces)",
+      "Date": "2026-09-22",
+      "Details": "Registro rectynji7GNDht9ND. Auditoría de cobertura del 22/09: WHO, PAHO y Banco Mundial ya estaban en Engine_Sources (54 fuentes) y en Engine_Reference_Library (GHED, Health in the Americas, Vaccine Prices 2026, Health at a Glance LAC 2023, GLOBOCAN). Atlantic Council no estaba. Los productos de WHO en UNGA 2026 (semana 18/09) no están indexados en la biblioteca.",
+      "Status": "Deployed"
+    },
+    "id": "rec3JG5h7DxTJmP1T"
+  },
+  {
+    "createdTime": "2026-09-23T04:36:52.000Z",
+    "fields": {
+      "Area": "Publisher (5133643)",
+      "Change": "Publisher 5133643: capa de presentación (kicker+tags arriba, Why this is relevant abajo)",
+      "Date": "2026-09-23",
+      "Details": "Deploy por import-blueprint en Chrome. Prompt módulo 3 suma 3 campos (subcategory, stakeholder_tags, why_relevant_html), md5 77f166fc. Dos módulos SetVariable nuevos: 500 header_html (kicker CATEGORÍA·SUBCATEGORÍA·FECHA·REGIÓN + tags con emojis) y 501 footer_html (Why this is relevant). Mapeos content de 17 y 56 actualizados. Motor v15.4 intacto. v1 usó why_relevant como array de objetos y el footer renderó JSON crudo; corregido en v2 con why_relevant_html pre-armado. Validado en drafts WP 35978 (v1, footer roto, descartar) y 35984 (v2, correcto). isActive, on-demand. Rollback: publisher_5133643_ROLLBACK_2026-09-22.json",
+      "Status": "Deployed"
+    },
+    "id": "rec8s0XX7sShizuca"
+  },
+  {
+    "createdTime": "2026-09-28T17:31:33.000Z",
+    "fields": {
+      "Area": "Scanner Geo (5096381)",
+      "Change": "Scanner 5096381, Thematic Scanner 6070111 y Sheet Ops 6202822 editados",
+      "Date": "2026-09-27",
+      "Details": "Detectado por hs-orchestrator-brief: lastEdit 27-09 en los tres scenarios. Siguen activos, on-demand, dlq 0, errors 0. Contenido del cambio no auditado; completar por Fernando.",
+      "Status": "Deployed"
+    },
+    "id": "recAbS7XjN2J1Hf3b"
+  },
+  {
+    "createdTime": "2026-10-24T13:19:31.000Z",
+    "fields": {
+      "Area": "Make",
+      "Change": "Scanner 5096381: nueva rama SCAN-LANCET-AM (Lancet Regional Health Americas)",
+      "Date": "2026-10-24",
+      "Details": "Rama 13 del router (módulos 240-247). Exa neural, includeDomains thelancet.com, 8 resultados, ventana 30d. Filtro: no duplicado + URL contiene /lanam/. Prompt Claude orientado a health systems & disease burden. Region fija LATAM, Batch SCAN-LANCET-AM. Total del scanner 136 -> 144 resultados. Rollback: blueprint previo = snapshot del 24-10 (lastEdit 2026-10-17T23:48). Sin smoke test: primera corrida real lunes 26-10 07:00.",
+      "Status": "Deployed"
+    },
+    "id": "recE6vQEu4oJL9oud"
+  },
+  {
+    "createdTime": "2026-10-03T00:48:18.000Z",
+    "fields": {
+      "Area": "Otro",
+      "Change": "Reporte Diabetes: corrección p.08 + PDF nuevo (media 36407) + links de /reports/",
+      "Date": "2026-10-02",
+      "Details": "Cita destacada p.08: 'Two in three of them are not controlled by it' (implicaba control entre tratados; Ensanut mide control sobre diagnosticados) -> 'Yet only one in three of the diagnosed is controlled.' + nota fechada 'Corrected 2 October 2026...'. Detectado por revisión adversarial del post 1 de LinkedIn. Render: orig vs corregido con mismas fuentes (Source Serif 4 + Libre Franklin embebidas), solo difiere la p.08, 17 páginas, overflow 0. PDF nuevo: media 36407, /wp-content/uploads/2026/10/diabetes-latam-2026-the-control-gap.pdf (965441 bytes). Página /reports/ 3864: los 2 links 2026/09 -> 2026/10 en _elementor_data y content.raw por REST (4 caracteres cambiados). Front aún sirve el link viejo por la caché de elementos de Elementor (TTL 24 h); NO se usó 'Clear Files & Data' por el riesgo del bug CSS V4. El PDF viejo (2026/09) sigue accesible. Rollback: revertir 2026/10->2026/09 en la 3864. HTML corregido guardado en la carpeta local Healthsignals.",
+      "Status": "Deployed"
+    },
+    "id": "recHk1kNlckRA0Xl7"
+  },
+  {
+    "createdTime": "2026-10-02T19:26:01.000Z",
+    "fields": {
+      "Area": "Otro",
+      "Change": "Imagen social del Brief: media 36401 + snippet WPCode 36402 (og:image solo en /newsletter/)",
+      "Date": "2026-10-02",
+      "Details": "Imagen 1200x627 (diseño A editorial, aprobado por Fernando) subida como media 36401. Snippet WPCode 36402 'HS — OG image /newsletter/ (Brief) v1.0' (PHP, frontend only, activo, autorizado por Fernando 02-10): hook wpseo_add_opengraph_images agrega la 36401 solo en la página 4050. Verificado: /newsletter/ og:image = hs-brief-social-1200x627-1.png (una sola), home y About sin cambios, sin errores. LinkedIn Post Inspector re-scrapeado (con y sin UTM). Nota: se asignó y quitó la 36401 como imagen destacada de la 4050 (el tema la mostraba en el cuerpo); featured_media quedó en 0. Rollback: desactivar 36402. También: LinkedIn de Fernando con Destacado → /newsletter/?utm_source=linkedin&utm_medium=profile&utm_campaign=featured; tabla nueva Airtable 'LinkedIn Groups' (15 grupos).",
+      "Status": "Deployed"
+    },
+    "id": "recKAH7xsYr4JL3S4"
+  },
+  {
+    "createdTime": "2026-09-04T21:09:48.000Z",
+    "fields": {
+      "Area": "Otro",
+      "Change": "Airtable: Sucriptor prospects deduplicada 1.213 -> 961, basura y vacíos fuera",
+      "Date": "2026-09-04",
+      "Details": "Dedup por LinkedIn URL normalizada conservando el createdTime más antiguo: 250 grupos (248 dobles, 2 triples), 252 filas borradas, 961 finales. 0 duplicados por email entre las que quedan. Backup completo en Google Drive en 3 partes: 14vm8heSy5gRW-KHnDf4Y6vU89e4ZUzXP, 1Wo6KClx4bUEKDJpuDW5nTUlrO12a4jnM, 1lUEZOtzyBzUTMFZ14fam23Xkh7ZaM0hu. Borradas las 2 filas basura (Articles y CRM Prospects) y las 8 Signals vacías. Region asignada a 3 artículos. Engine_Report_Topics GLP-1 -> Drafted. Descripciones corregidas en Articles, Newsletter Subscribers, Engine_Price_Files y Signals. NO tocado: Engine_Data_Points (80 auto-citadas, 7 sin URL) porque Data_Type no tiene opción de procedencia; hace falta crear una (p.ej. HS calculation).",
+      "Status": "Deployed"
+    },
+    "id": "recLGmRNhYdunzA44"
+  },
+  {
+    "createdTime": "2026-09-22T20:45:07.000Z",
+    "fields": {
+      "Area": "Otro",
+      "Change": "Airtable: workspace pasa de Free a Team mensual; editor@ bajado a Solo lectura",
+      "Date": "2026-09-22",
+      "Details": "Causa: base appjkRayvA0YEjczd con 2.037 registros contra límite Free de 1.000/base; la API rechazaba creates con 422. Upgrade a Team mensual (límite 50.000/base, 100.000 llamadas API/mes). Cuenta dueña: fernandopafumi@gmail.com. editor@healthsignals.news (antes Creador en la base) bajado a Solo lectura el 22/09 para dejar 1 asiento pago ($24/mes en vez de $48). Token PAT 'Make - HealthSignals' (pataulmkdxqzHdTcv) es de la cuenta gmail. RIESGO ABIERTO: si la conexión Airtable de Make (9132003, 13 scenarios) usa un token de editor@, fallará por permisos en la próxima corrida; fix = pegar un PAT de la cuenta gmail en esa conexión. Pendiente: confirmar en Facturación que Usuarios de pago = 1.",
+      "Status": "Deployed"
+    },
+    "id": "recPDLWBpnvXnhym4"
+  },
+  {
+    "createdTime": "2026-08-29T20:08:21.000Z",
+    "fields": {
+      "Area": "Otro",
+      "Change": "Credenciales en texto plano en un doc del proyecto GROWTH",
+      "Date": "2026-08-29",
+      "Details": "claude/lusha-airtable-pipeline-setup.md tiene una sección Credenciales (No compartir) con claves de API en texto plano. Por eso NO se migró al proyecto principal. Sacar las claves y rotarlas antes de mover el doc.",
+      "Status": "Pendiente"
+    },
+    "id": "recPdsVqBBChQOTiL"
+  },
+  {
+    "createdTime": "2026-08-27T16:37:54.000Z",
+    "fields": {
+      "Area": "Scanner Geo (5096381)",
+      "Change": "Ventana de busqueda dinamica (14 dias)",
+      "Date": "2026-08-27",
+      "Details": "startPublishedDate paso de fecha fija 2026-07-23 a formatDate(addDays(now;-14)) en los 5 modulos Exa (MX, BR, Cono Sur, Andina, USA). Cada corrida busca solo los ultimos 14 dias.",
+      "Status": "Deployed"
+    },
+    "id": "recRX2yRdqEo3fNWK"
+  },
+  {
+    "createdTime": "2026-09-04T21:09:48.000Z",
+    "fields": {
+      "Area": "Otro",
+      "Change": "Scenarios de prospección: conexiones, campos, borrados, carpetas",
+      "Date": "2026-09-04",
+      "Details": "5453337 Outreach A: conexión asignada al módulo Claude. 5891229 Extract Prospects: Company_Notes->Notes, filtro NOT({Prospects_Extracted}), modelo claude-sonnet-4-6, mapper de Claude corregido (leía 3.text, ahora 3.result); PENDIENTE: sus módulos Airtable son API v1 y ninguna conexión del team es compatible -> hay que migrarlos a v3 para que corra; el valor Source=Article Auto-Extract no existe como opción; el prompt usa un campo Summary que Articles no tiene. 5886398 WP->Airtable: conexión + 2.item->2.value + feeder 1.data + mapper v3; queda INACTIVO hasta tener dedup por WP_Post_ID. Borrados: 5890536 (feeder vacío), 5882407 (test de X con tweet fijo), hook 2655594 (sin scenario). Desactivado 5890673 (base inexistente). Carpetas: 5891229 -> GROWTH; 5890585, 5890673, 5886398 -> ARCHIVE. Snapshots en /tmp/snapshots del contenedor (efímeros).",
+      "Status": "Deployed"
+    },
+    "id": "recSPaybyy5ccMb6H"
+  },
+  {
+    "createdTime": "2026-08-29T21:19:13.000Z",
+    "fields": {
+      "Area": "Otro",
+      "Change": "Media kit corregido: 117 artículos era doble conteo, van 58",
+      "Date": "2026-08-29",
+      "Details": "RESUELTO 04-sep. Origen del error: los counts de las 5 categorías de WordPress (12+37+21+28+19) suman 117 exacto y cada artículo lleva dos categorías, así que se contaron asignaciones, no artículos. La portada dice ahora 58 briefings con desglose 37 LATAM / 19 USA, y la nota al pie cita posts publicados al 29-ago en vez del índice de categorías. Segundo arreglo: la celda de mercados decía cobertura general con Perú incluido, y no hay artículos con foco Perú; ahora dice mercados auditados en los special reports, que es lo verificable. Verificado contra el reporte GLP-1: Brasil 74 menciones, Argentina 37, Colombia 36, Chile 35, México 28, Perú 25, Ecuador 0. Todo en media-kit-founding-partners-v2.html; la v1 se borró tras verificar la v2 byte a byte.",
+      "Status": "Deployed"
+    },
+    "id": "recSa3e1csjhy1M5B"
+  },
+  {
+    "createdTime": "2026-08-29T20:08:21.000Z",
+    "fields": {
+      "Area": "Otro",
+      "Change": "19 docs vivos migrados al proyecto orchestrator/CEO",
+      "Date": "2026-08-29",
+      "Details": "Copiados desde report writer HS (8), Content Creator (7), GROWTH (3) y CFO (1). 124.822 caracteres; el knowledge del proyecto queda en ~560 KB de 2 MB. Los entregables pesados (reportes HTML, templates, destilados de research, specs de SPA y litigios) NO se migraron: quedan en sus proyectos, indexados en Doc Index.",
+      "Status": "Deployed"
+    },
+    "id": "recSyGMUAnFK4PhvR"
+  },
+  {
+    "createdTime": "2026-08-27T16:37:54.000Z",
+    "fields": {
+      "Area": "Editorial Queue",
+      "Change": "Dedup por signal_hash en ambos scanners",
+      "Date": "2026-08-27",
+      "Details": "Cada scanner lee los signal_hash existentes de la cola (hasta 500), los agrega en un texto y filtra cada resultado de Exa antes de llamar a Claude: URL ya vista = descartada gratis. Validado en thematic (2da corrida: 63 ops vs 100, cero repetidas). Geo con mismo patron, pendiente de validar en proxima corrida natural.",
+      "Status": "Deployed"
+    },
+    "id": "recT4GSvUS08EZsTl"
+  },
+  {
+    "createdTime": "2026-08-29T21:19:13.000Z",
+    "fields": {
+      "Area": "Otro",
+      "Change": "Fila basura en la tabla Articles",
+      "Date": "2026-08-29",
+      "Details": "El registro recwCMt0mKUldRr3S se titula PUBLISHER ADJUSTMENTS - P0/P1 Required (Make 5133643): es el nombre de un documento, no un artículo. Sin WP_Post_ID ni fecha. No se borró por no destruir datos sin pedido; borrarlo a mano.",
+      "Status": "Pendiente"
+    },
+    "id": "recTiaCCAXUgagEa3"
+  },
+  {
+    "createdTime": "2026-08-27T16:37:54.000Z",
+    "fields": {
+      "Area": "Thematic Scanner (6070111)",
+      "Change": "Thematic Scanner creado",
+      "Date": "2026-08-27",
+      "Details": "Scenario nuevo on-demand: lee Topic Registry (active=yes) -> Exa por tema (14 dias) -> Claude clasifica -> Editorial Queue con tag SCAN-{tema}. Smoke test OK (~27 seniales primera corrida).",
+      "Status": "Deployed"
+    },
+    "id": "recUKK8HGK2Xobr4Z"
+  },
+  {
+    "createdTime": "2026-09-30T17:47:42.000Z",
+    "fields": {
+      "Area": "Publisher (5133643)",
+      "Change": "Publisher 5133643: módulo 701 cta_html → slot hs-brief-cta-slot con fallback",
+      "Date": "2026-09-30",
+      "Details": "Import de blueprint vía Chrome 17:17 UTC sobre la edición de Fernando de 17:02 (precheck 820-853 + filtro módulo 500, preservados). Solo cambió el 701 (verificado por API: 131 módulos, prompt md5 b105279701f325d5a4bd67a41f523314, activo, on-demand). Rollback: publisher_5133643_ROLLBACK_2026-09-30_b.json (sesión efímera).",
+      "Status": "Deployed"
+    },
+    "id": "recWsPxjUdEifsfcT"
+  },
+  {
+    "createdTime": "2026-09-26T21:14:30.000Z",
+    "fields": {
+      "Area": "Otro",
+      "Change": "Página /media-partner-terms/ publicada (noindex) + PDF términos v1 + slot solo en artículos",
+      "Date": "2026-09-26",
+      "Details": "Página 35995 publicada con OK de Fernando, tras revisión adversarial (8 fixes: sin 'confirm by email' porque Brevo está en opt-in simple; mención en el Brief sin prometer cadencia; banner 'subject to clause 4'; tope USD 1.000 no aplica a la indemnidad; foro Miami-Dade; deadline explícito; aviso de privacidad con proveedores y retención 36 meses; 'copy' en vez de 'PDF copy'). Yoast noindex verificado ('noindex, follow'), formulario Jetpack con antispam. PDF de términos v1 guardado en docs/monetization/HealthSignals-Media-Partnership-Terms-v1.pdf (carpeta local de Fernando). Ad 35997: CSS cambiado a body.single-post.logged-in para que el slot no aparezca en páginas (Advanced Ads free no tiene condiciones de visualización por tipo de contenido); verificado renderizando el artículo como visitante: display none. Link de suscripción por evento: /newsletter/?utm_source=<evento>&utm_medium=partner&utm_campaign=media-partner-2026 (GA activo). Edge cache: el nodo de Miami ya sirve las versiones nuevas; otro nodo seguía sirviendo el About viejo con corrections@ (se renueva solo).",
+      "Status": "Deployed"
+    },
+    "id": "recYNqiKA4M4BetfS"
+  },
+  {
+    "createdTime": "2026-09-30T17:47:42.000Z",
+    "fields": {
+      "Area": "Otro",
+      "Change": "Brief CTA 2 pasos: snippet WPCode 36354 v1.7 + Make 6459598/6460310 + Brevo DOI",
+      "Date": "2026-09-30",
+      "Details": "Formulario de suscripción al Brief en 2 pasos (email → perfil) en todas las notas y en la home. Snippet WPCode 36354 v1.7 (Run Everywhere), envío POST /?hsb_submit=1 → Make 6459598 (Airtable Newsletter Subscribers + Brevo doble opt-in, plantilla 13, lista 5). Make 6460310 sincroniza Pending→Active cada 6 h. Conexión Brevo en Make 11417335. Casillas negras viejas de Brevo ocultas por CSS (Home 4350dbf, plantilla 4234 a618e24). Probado de punta a punta con confirmación real. Backup del snippet: claude/backup-snippet-wpcode-36354-brief-cta-v1.7-2026-09-30.php.txt. Doc: claude/brief-cta-suscripcion-2-pasos-2026-09-30.md",
+      "Status": "Deployed"
+    },
+    "id": "recZDJUZAJkO78zKQ"
+  },
+  {
+    "createdTime": "2026-09-26T18:54:27.000Z",
+    "fields": {
+      "Area": "Otro",
+      "Change": "Conexion Airtable de Make 9132003: escritura verificada tras bajar editor@ a Solo lectura",
+      "Date": "2026-09-26",
+      "Details": "Test de escritura real con la conexion 9132003 (usada por 13 scenarios) desde un scenario temporal 6414257, borrado despues. Este registro lo escribio esa conexion: si existe, el token tiene permiso de escritura sobre la base appjkRayvA0YEjczd y el riesgo abierto del 22-09 queda cerrado.",
+      "Status": "Deployed"
+    },
+    "id": "recZnJgrnR6O47mff"
+  },
+  {
+    "createdTime": "2026-09-04T21:09:48.000Z",
+    "fields": {
+      "Area": "Otro",
+      "Change": "Publisher 5133643: publica directo, guard anti-bucle, descripción real",
+      "Date": "2026-09-04",
+      "Details": "Snapshot previo en claude/backup-publisher-prod-2026-09-04.json (262 KB). Módulo 17 createPost: status draft -> publish (autorizado por Fer, supersede la decisión del 7-ago). Módulo 90: agrega Status=processing a la fila apenas entra, así un corte a mitad del flujo (p.ej. QA de imagen) no la deja en approved y no vuelve a entrar en bucle. Descripción reemplazada por lo que hace de verdad. Smoke run OK (2 ops, 1,2 s). NO hubo test de publicación real: la Editorial Queue tiene 0 filas approved (36 draft, 7 published). Los módulos 116/120/201/202 NO necesitan conexión: simpleTextPrompt corre con créditos de IA de Make; el hallazgo previo era falso. dlqCount sigue en 3: solo se resuelve desde la UI de Make (Incomplete executions).",
+      "Status": "Deployed"
+    },
+    "id": "reca3O3O8ftFQzYw7"
+  },
+  {
+    "createdTime": "2026-08-29T19:16:46.000Z",
+    "fields": {
+      "Area": "Otro",
+      "Change": "Media kit Founding Partners v2 — construido y verificado",
+      "Date": "2026-08-29",
+      "Details": "Media kit Founding Partners v2 (5 páginas, PDF vía Playwright, CSS del reporte GLP-1). Tiers del plan Founding Members v1: PLATINUM $8.000/mes (1), GOLD $5.000 (2), SILVER $2.500, BRONZE $1.000; lock 6 meses +25%. Posicionamiento sin métricas de audiencia (sección 'Why we publish no audience numbers'). Cross-verificado: WordPress API 117 artículos exacto; Engine_Reports reveló serie de 3 reportes (Diabetes, Oncología de precisión, GLP-1) — el kit v1 subvendía con 1, corregido en v2; CRM Prospects sin conflictos (25 targets, cero deals previos). Canónico en KB: claude/media-kit-founding-partners-v1.html. NO sale hasta cerrar: revisión humana GLP-1 (US$100) y corrección de templates '1000+ subscribers' del plan 200-emails.",
+      "Status": "Deployed"
+    },
+    "id": "recau0zCQuw5IN22o"
+  },
+  {
+    "createdTime": "2026-09-22T20:45:07.000Z",
+    "fields": {
+      "Area": "Publisher (5133643)",
+      "Change": "Publisher: atlanticcouncil.org agregado a la whitelist de Exa (módulo 70)",
+      "Date": "2026-09-22",
+      "Details": "Included Domain 35 = atlanticcouncil.org en el Exa neural search (módulo 70). who.int, paho.org y worldbank.org ya estaban. Aplicado por UI (canvas) vía Chrome porque el blueprint (~164k chars) excede el output del MCP y scenarios_update reemplaza el blueprint entero. Verificado con scenarios_get: dominio presente, isActive=true, lastEdit 2026-09-22T20:38:27Z. Módulo 220 (feed institucional) no tiene whitelist, no se tocó.",
+      "Status": "Deployed"
+    },
+    "id": "recd06cMBxlfJD5J1"
+  },
+  {
+    "createdTime": "2026-11-09T01:57:42.000Z",
+    "fields": {
+      "Area": "Otro",
+      "Change": "Landing /reports/diabetes-control-gap/ al estándar de presentación",
+      "Date": "2026-11-08",
+      "Details": "WordPress page 36505 (hija de 3864). Imagen estática de tapa → gota SVG animada en loop (CSS, sin JS). Main findings con tipo y año; el hallazgo incómodo (2 de 6 mercados miden la cascada) pasa al final. Nuevo Exhibit 1 (cascada México/Brasil) responsive, dibujo al hacer scroll vía CSS scroll-driven dentro de @supports. Formulario [hs_brief_cta source=\"report_diabetes\"] sin cambios. Probado antes en borrador 36911 (ya en papelera). Verificado contra lo servido: desktop y marco de 390 px, barras a escala, sin desborde, formulario presente. Rollback: revisión 36507 (2026-10-21). Copia: claude/landing-diabetes-control-gap-2026-11-08.html.",
+      "Status": "Deployed"
+    },
+    "id": "receLyJx8bEFLwbku"
+  },
+  {
+    "createdTime": "2026-09-22T21:10:20.000Z",
+    "fields": {
+      "Area": "Publisher (5133643)",
+      "Change": "Biblioteca: 27 fichas nuevas (WHO + fuentes regionales) y 3 fuentes; iadb.org al Publisher",
+      "Date": "2026-09-22",
+      "Details": "Engine_Reference_Library: 3 fichas WHO (Global status report on cancer 2026 recLXrLgzn5tnFvc1; GPMB 2026 rec05TsyJenrkh1lX; ética en investigación con IA recL7O2JpvLrrwMwj) + 24 fichas regionales: OPS 8, OCDE 3, CEPAL 3, Atlantic Council 2, Banco Mundial 5, BID 3. Proceso: 3 agentes de research en paralelo + 1 agente adversarial que verificó URL y una cifra por ficha. Correcciones aplicadas por el control: México HFSRA gasto público 2019 = ~2,7% del PIB (no 3,2%); retiradas cifras de 'Who Cares?' (BID) y US$185.000M (BID proyecciones) por no encontrarse en la fuente; retirado financiador Millicom/CMI del brief de Atlantic Council y GIZ del informe CEPAL Chile por no verificarse. OCDE (Perú, Brasil, country notes 2025) con cifras de una sola verificación (robots.txt). Engine_Sources: altas BID (recrucNvc8N0Kl9JM), CEPAL (rec0itABvCQWJQotA), OECD LATAM (recKuH6cUxTMzDU7d). Publisher módulo 70: iadb.org agregado como Included Domain 36; verificado con scenarios_get (lastEdit 2026-09-22T21:09:58Z, isActive=true). Discrepancias abiertas registradas en cada ficha: gasto público en salud LAC (3,7% / 4,3% OPS 2023; 4,8% / 4,5% CEPAL 2021) y producción regional de vacunas (23% vs 26%, OPS 2025). Seguimiento: 63.º Consejo Directivo OPS (28-9 a 2-10-2026) y Health in the Americas 2026; Declaración Política ONU sobre pandemias (25-9-2026).",
+      "Status": "Deployed"
+    },
+    "id": "recemNz6NzaXRIJbW"
+  },
+  {
+    "createdTime": "2026-09-04T21:09:48.000Z",
+    "fields": {
+      "Area": "Editorial Queue",
+      "Change": "3 artículos en draft en WordPress que la hoja marca published",
+      "Date": "2026-09-04",
+      "Details": "Producción perdida por el bug de draft: p=35401 (Argentina ludopatía, 04-sep 18:38), p=35390 (Ecuador importación de medicinas, 04-sep 17:18), p=35265 (Brasil HIV PrEP, 29-ago). Existen como borrador en WP. Requieren lectura de Fer y publicación manual; no se publicaron automáticamente.",
+      "Status": "Pendiente"
+    },
+    "id": "reci6IyLO8ecgTwz4"
+  },
+  {
+    "createdTime": "2026-09-04T21:09:48.000Z",
+    "fields": {
+      "Area": "Scanner Geo (5096381)",
+      "Change": "Price Feeds a prueba de 404, X OAuth reactivado, Social Publisher sincero",
+      "Date": "2026-09-04",
+      "Details": "5893513: módulo 6 (DIGEMID Perú) handleErrors true + handler Resume; un 404 ya no aborta la corrida mensual. Sigue agendado 2026-09-05 10:00 UTC. Ruta Colombia sin cambio: el singleSelect Status no tiene opción de requiere verificación (Capturado/Parseado/Sin cambios/Falló). 5882000 X OAuth: movido de ARCHIVE a CONTENT y activado; hook 2666530 vivo. 5167429 Social Publisher: el handler de error de X ahora escribe Current Step = distribuido solo LinkedIn, en vez de dejar distribuido. 5096381: descripción corregida, ya no afirma un Economist Article Index que no existe.",
+      "Status": "Deployed"
+    },
+    "id": "reck1bUaNd8O0j4Hu"
+  },
+  {
+    "createdTime": "2026-09-26T20:57:52.000Z",
+    "fields": {
+      "Area": "Otro",
+      "Change": "Espacio de banner 'Media partner' en artículos (Advanced Ads) + página de términos en borrador",
+      "Date": "2026-09-26",
+      "Details": "Advanced Ads: placement 35998 'Media partner — before content (articles)' (tipo post_top) con el ad 35997 'TEST — Media partner slot (solo admin)', tipo Plain Text. El ad usa <picture>: 728x90 en pantallas >767px y 300x250 abajo; etiqueta 'MEDIA PARTNER'; link rel=sponsored. Visible SOLO para usuarios logueados por CSS (body.logged-in); verificado: visitantes sin sesión no tienen la clase y el bloque queda oculto. Se muestra debajo de la imagen destacada y antes del kicker. Para un banner real: editar el ad 35997 (cambiar imágenes, link y alt, sacar la regla CSS de solo-admin) y usar la fecha de expiración del ad para que se apague solo. Página de términos: 35995 /media-partner-terms/, borrador, falta noindex en Yoast al publicar.",
+      "Status": "Deployed"
+    },
+    "id": "reckiPcPaGoZS7gwV"
+  },
+  {
+    "createdTime": "2026-11-08T23:50:56.000Z",
+    "fields": {
+      "Change": "Invitaciones al Brief: /join/ pasa de auto-redirect a botón de confirmación (anti-scanner) + 15 altas falsas revertidas",
+      "Date": "2026-11-08",
+      "Details": "Problema: la página /join/ (WP 36838) redirigía por JS al webhook Make 3008026 (scenario 6854895) al cargar. Los scanners de seguridad de los mails corporativos la abrían y daban de alta solos: 15 altas entre 14 y 67 s después del envío (Clarín, NYT, AP, Bayer, Amgen, Ogilvy x2, Norstella x2, El Espectador, BioBioChile x2, El Cronista, Gestión, JHU). También recibieron el mail de bienvenida (template 15).\nFix: /join/ ahora muestra un botón 'Confirm my subscription' (form POST al mismo webhook con t oculto); sin redirección automática. Probado 08-11: carga sin redirigir, POST con token de prueba rec9UJBc8nn8sVeN4 → 302 a /welcome-to-the-brief/; versión anónima sin caché viejo. Rollback: contenido anterior guardado en la sesión (auto-redirect JS).\nLimpieza: 15 contactos sacados de Brevo lista 5 (23 → 8) con scenario ad-hoc 6956830 (corrido y borrado); Newsletter Subscribers → Pending con Consent Text INVALIDADO; Subscribe Invites → Sent con nota (un clic real los vuelve a suscribir).\nPendiente opcional: que el scenario 6854895 rechace GET (solo POST).",
+      "Status": "Done"
+    },
+    "id": "reckm1mitTqK7YD1o"
+  },
+  {
+    "createdTime": "2026-09-30T23:05:58.000Z",
+    "fields": {
+      "Area": "Otro",
+      "Change": "Sitio: ajustes de formato, buscador, /newsletter/ y header/footer responsive vía WPCode (30-09)",
+      "Date": "2026-09-30",
+      "Details": "Todo en WPCode + CSS adicional del Customizer; nada guardado en Elementor (bug CSS V4). Cada snippet se revierte desactivándolo.\n\nSNIPPETS NUEVOS:\n- 36377 Footer fixes (JS): RSS→/feed/, LinkedIn _blank, 'Read our policy'→/ai-disclosure/, sin 'Cookie preferences', marca HealthSignals. Selector footer = data-elementor-type=\"cmsmasters_footer\" (NO 'footer').\n- 36379 Páginas institucionales (HTML): estilo Media Kit en Privacy 35422, Terms 35434, Use of AI 35416, Editorial Standards 3845, About 11, Contact 89, Reports 3864, Newsletter 4050. Solo formato. Compensa CSS roto de Elementor en Privacy (scopeado a revisión 35626).\n- 36380 Relevanssi en la grilla de resultados del tema (PHP): widget 3f76b620 usa Relevanssi, orden por relevancia; mapeo ES/PT→EN (brasil→brazil, semaglutida, vacuna, etc.); recuadro 'No articles match' sin resultados; título/input muestran el término tipeado.\n- 36384 Lupa del buscador en mobile (JS): mueve widget 5fc1ae9 al lado del hamburger f1e0e05 en <768px.\n- 36385 Assets del Brief CTA en /newsletter/ (PHP): carga hsb_css()/hsb_js() solo en página 4050. >>> AVISO para quien edite el snippet 36354 (Brief CTA): /newsletter/ usa [hs_brief_cta] y depende de 36385; si hsb_needed() pasa a incluir la 4050, 36385 no duplica (chequea hsb_needed). Si se renombran hsb_css/hsb_js, actualizar 36385.\n- 36386 Header/Footer responsive (HTML): header 4216 en tablet 768-1024 (fecha en una línea, logo 150px, menú sin pisar logo, submenús hacia la izquierda), menús del footer como lista ≤1024, link de política subrayado, logo del footer → home, barra inferior alineada, 'across Latin America and the United States'.\n- 36389 Títulos SEO (PHP): quita marca duplicada en title/og; limpia 'Home/No breadcrumbs' de descripciones; Contact 'HealthSignal'→'HealthSignals'.\n\nOTROS:\n- Plugin Relevanssi (free) instalado e indexado (solo posts, con categorías, tags y excerpt; AND con fallback OR).\n- Página 4050 (/newsletter/): iframe viejo de Brevo reemplazado por [hs_brief_cta]; H1 'The HealthSignals Brief' agregado; párrafo duplicado 'Free. No spam...' eliminado.\n- CSS adicional (Customizer): categorías mobile (hueco imagen-título), artículo mobile (aire y kicker 12px), tags del pie más chicos, bajada 23/22px, cuerpo 16px desktop, H2 azul #0B3D91 y primer párrafo 400, home oculta grid a654e1e.\n\nPENDIENTES (sesión larga): (1) pasar textos del footer al template Elementor (requiere resolver bug V4); (2) estructura de artículos en el Publisher 5133643 (H2, tabla, Why this is relevant) — Fer pidió no tocarlo hasta nuevo aviso.",
+      "Status": "Deployed"
+    },
+    "id": "reckqjtupNynqjX7a"
+  },
+  {
+    "createdTime": "2026-08-27T16:37:54.000Z",
+    "fields": {
+      "Area": "Topic Registry",
+      "Change": "Topic Registry: 18 temas con rotacion automatica",
+      "Date": "2026-08-27",
+      "Details": "Pestania nueva en el spreadsheet de la Editorial Queue. 16 temas (GLP-1/obesidad, longevidad, salud mental, oncologia, vacunas, biosimilares, digital health/IA, enf. raras, ensayos clinicos, manufactura/nearshoring, salud de la mujer, terapias genicas, payers privados, AMR, cardiometabolico, VIH/hepatitis) + 2 rutas de empresas siempre activas (global: Novo/Roche/Novartis/AZ/Sanofi; LATAM: Hypera/Ache/Genomma/Bago/Insud/Eurofarma/EMS). Columna active con formula que rota 8 temas por dia calendario. Tema nuevo = fila nueva, sin tocar Make. Cada tema mapea a una categoria de WordPress.",
+      "Status": "Deployed"
+    },
+    "id": "recmIK0akDi3MtcdM"
+  },
+  {
+    "createdTime": "2026-09-28T17:31:33.000Z",
+    "fields": {
+      "Area": "Publisher (5133643)",
+      "Change": "Publisher 5133643: ediciones del 28-09 + corridas OK",
+      "Date": "2026-09-28",
+      "Details": "Detectado por hs-orchestrator-brief. Modificaciones de Fernando el 28-09 a las 00:06, 15:44 y 16:39 UTC. Corridas: 10 OK la noche del 26→27-09 (~120 ops c/u) y 2 OK el 28-09 (15:53 y 16:03 UTC). dlq 0. Contenido del cambio no auditado (blueprint no leído); completar por Fernando. Modo draft sigue como decisión vigente.",
+      "Status": "Deployed"
+    },
+    "id": "recmVuQW0jwTqqHfA"
+  },
+  {
+    "createdTime": "2026-08-29T19:16:46.000Z",
+    "fields": {
+      "Area": "Otro",
+      "Change": "Decisión pendiente: cadencia de reportes en tier GOLD",
+      "Date": "2026-08-29",
+      "Details": "GOLD incluye 1 reporte co-branded por mes = 12 ciclos completos del motor/año por $60K; margen en riesgo. Recomendación: GOLD pasa a 1 reporte por trimestre, el mensual queda exclusivo de PLATINUM. El kit v2 aún dice 'per month'. Espera decisión de Fer antes de que el kit salga.",
+      "Status": "Pendiente"
+    },
+    "id": "recmXC7eDW5bj7TW9"
+  },
+  {
+    "createdTime": "2026-08-27T16:37:54.000Z",
+    "fields": {
+      "Area": "Scanner Geo (5096381)",
+      "Change": "Fuentes ampliadas por pais",
+      "Date": "2026-08-27",
+      "Details": "MX: +El Financiero, +Reforma (infobae movido a Cono Sur). BR: +Estadao, +O Globo, +JOTA, +Futuro da Saude. Cono Sur: +infobae, +El Pais UY, +El Observador, +ABC Paraguay (query incluye Paraguay). Andina: +Primicias EC, +El Comercio EC, +La Prensa Panama, +MINSA Panama (query incluye Panama). USA: +STAT News. Dominios corporativos se mantienen.",
+      "Status": "Deployed"
+    },
+    "id": "recmeO5z1fI3SJAKH"
+  },
+  {
+    "createdTime": "2026-09-28T17:31:33.000Z",
+    "fields": {
+      "Area": "Otro",
+      "Change": "Nuevo scenario 6427153 'HS Brief — Render from reviewed content'",
+      "Date": "2026-09-28",
+      "Details": "Detectado por hs-orchestrator-brief (auditoría Make 28-09). Creado y arrancado por Fernando el 28-09 04:23 UTC, carpeta CONTENT, on-demand, activo, dlq 0. 8 corridas el 28-09, todas OK (6 ops c/u, última 17:21 UTC). En iteración (modificado 15:56 UTC). Pieza del pipeline del Brief: renderiza el newsletter desde contenido ya revisado. Detalle funcional a completar por Fernando.",
+      "Status": "Deployed"
+    },
+    "id": "reco8o7jT0R1RM2I4"
+  },
+  {
+    "createdTime": "2026-10-03T01:11:39.000Z",
+    "fields": {
+      "Area": "Scanner Geo (5096381)",
+      "Change": "Scanner: rama SCAN-STRUCTURAL + schedule diario 07:00 + fuentes multilaterales",
+      "Date": "2026-10-02",
+      "Details": "Motivo: el Scanner era on-demand y no corría desde 26-09; se perdió el 63er Directing Council de PAHO (28-09). Objetivo editorial: ~30% de lo publicado sobre temas estructurales (carga de enfermedad, financiamiento, capacidad del sistema) con impacto LATAM/EE.UU.\nCambios: (1) scheduling on-demand -> daily 07:00 (America/New_York, nextExec 11:00 UTC). (2) Rama nueva SCAN-STRUCTURAL (módulos 230-237), 30 resultados, 29 dominios: paho.org, iris.paho.org, who.int, worldbank.org, documents.worldbank.org, undp.org, iadb.org, publications.iadb.org, cepal.org, oecd.org, unicef.org, unaids.org, gavi.org, theglobalfund.org, healthdata.org, thelancet.com, bmj.com, journals.plos.org, fiocruz.br, insp.mx, cdc.gov, kff.org, healthaffairs.org, commonwealthfund.org, healthpolicy-watch.news, thinkglobalhealth.org, devex.com, cgdev.org, atlanticcouncil.org. Prompt pide implicancia concreta para un país LATAM o EE.UU. (3) REG-LATAM: + iris.paho.org, healthpolicy-watch.news. (4) MONEY-LATAM: 4 -> 8 resultados, + iadb.org, worldbank.org. (5) Categoría nueva 'health systems & disease burden' en el extractor de las 12 ramas. Total resultados por corrida 102 -> 136.\nRollback: blueprint previo guardado en el Project como claude/scanner-5096381-blueprint-pre-2026-10-02.json (11 ramas, 102 resultados); volver a scheduling on-demand.\nPendiente: smoke test; medir mix estructural en Editorial Queue a 2-3 semanas para calibrar el 35-40% de entrada.",
+      "Status": "Deployed"
+    },
+    "id": "recocq3szdGxPntsn"
+  },
+  {
+    "createdTime": "2026-09-28T17:31:33.000Z",
+    "fields": {
+      "Area": "Otro",
+      "Change": "4 scenarios temporales de portadas/featured image (marcados 'borrar')",
+      "Date": "2026-09-27",
+      "Details": "Detectado por hs-orchestrator-brief. Creados 27-28/09, inactivos y sin carpeta: 6426906 'HS FIX featured 36018 (borrar)', 6424186 'HS FIX portada lenacapavir (borrar)', 6424598 'HS TEST landmark guard (borrar)', 6414510 'HS TEST - portadas A/B (borrar)' (errors 3). Pendiente: borrar o mover a ARCHIVE con OK de Fernando.",
+      "Status": "Pendiente"
+    },
+    "id": "recp9dSXwUwgpyjth"
+  },
+  {
+    "createdTime": "2026-10-03T22:06:12.000Z",
+    "fields": {
+      "Area": "Scanner Geo (5096381)",
+      "Change": "Scanner 5096381: schedule diario 07:00 -> semanal lunes 07:00",
+      "Date": "2026-10-03",
+      "Details": "Pedido de Fernando 03-10. Solo se cambió el parámetro scheduling (weekly, days [1], time 07:00) y la descripción; blueprint intacto (12 ramas, 136 resultados). Verificado: isActive true, dlq 0, nextExec 2026-10-05T11:00Z = lunes 7:00 Miami. Sigue pudiendo correrse a mano. Rollback: scheduling daily 07:00 o on-demand.",
+      "Status": "Deployed"
+    },
+    "id": "recpOvBurjroZDnn3"
+  },
+  {
+    "createdTime": "2026-09-30T17:47:42.000Z",
+    "fields": {
+      "Area": "Otro",
+      "Change": "Brevo: plantilla 5 sin dirección personal; privacidad 35422 cláusulas 2.1 y 5.1",
+      "Date": "2026-09-30",
+      "Details": "Plantilla Brevo 5 (Brief Download - Diabetes): dirección de Brickell reemplazada por iPostal (407 Lincoln Rd, Suite 6H, PMB 1683, Miami Beach, FL 33139). Página de privacidad 35422: 2.1 (datos del newsletter ampliados) y 5.1 (Brevo almacena en la UE) actualizadas vía REST en _elementor_data sin abrir Elementor; el front se refresca al vencer la caché de elementos (24 h).",
+      "Status": "Deployed"
+    },
+    "id": "recrWWyS5CdLOlTOx"
+  },
+  {
+    "createdTime": "2026-08-29T19:21:43.000Z",
+    "fields": {
+      "Area": "Otro",
+      "Change": "Nueva tabla Advisory Board Candidates + carga inicial de 56 registros",
+      "Date": "2026-08-11",
+      "Details": "Se creo la tabla Advisory Board Candidates (tblnhQ2mDHloxECAT) en la base HealthSignals para trackear el pipeline del Editorial Advisory Board.\n\nPOR QUE TABLA NUEVA Y NO CRM PROSPECTS: CRM Prospects alimenta los scenarios HS Outreach A (draft generator) y B (sender). Un advisor cargado ahi puede terminar recibiendo un pitch de sponsorship, que es exactamente lo que no debe pasar. Separacion deliberada.\n\nCARGA: 55 registros. 29 ejecutivos retirados y ex-funcionarios, 8 clinicos/KOL, 8 media y data, 10 vetados o solo-fuente. Cada uno con Source_URL (regla heredada de Press & PR Contacts: sin Source_URL no es un dato).\n\nCAMPOS CLAVE: Board_Seat (los 7 asientos por funcion), Priority (Ronda 1/2/3, No contactar, Solo fuente), Ease (probabilidad de aceptar), Conflict_Flag + Conflict_Notes (gate de independencia editorial), Verification (Verificado / parcial / no verificado), Gender (para trackear la regla de minimo 3 mujeres de 7).\n\nVISTAS SUGERIDAS A ARMAR EN AIRTABLE: (1) filtrar Priority = Ronda 1 para la lista de outreach inmediata; (2) filtrar Status = Verificar antes de contactar para los 7 datos fragiles pendientes; (3) agrupar por Board_Seat para ver que asientos quedan vacios.\n\nDATO CRITICO CARGADO: Carissa Etienne figura como Descartado porque fallecio en diciembre de 2023 y sigue circulando en listados viejos de asesores de salud regional.\n\nDiseno del board (7 asientos, que pedir y que ofrecer, reglas de conflicto de interes) en el doc del proyecto claude/advisory-board-diseno-y-candidatos-v1.md.",
+      "Status": "Deployed"
+    },
+    "id": "rectOXjtSPjcf6qy8"
+  },
+  {
+    "createdTime": "2026-08-29T19:12:06.000Z",
+    "fields": {
+      "Area": "Otro",
+      "Change": "Newsletter: outreach en pausa, esperando website listo",
+      "Date": "2026-08-29",
+      "Details": "Fer decide NO aprobar contactos de 'Sucriptor prospects' todavía. Motivo: quiere que el website esté terminado (rediseño en curso con Brave) antes de arrancar cualquier outreach o activar el formulario de registro real. Estado verificado 29/08: Newsletter Subscribers = 0, Sucriptor prospects = 1213 (100% Stage New / Approval Pending Review, sin cambios desde 08/08). Reactivar cuando el sitio esté aprobado por Fer.",
+      "Status": "Pendiente"
+    },
+    "id": "recuAzQHoaOgMsscb"
+  },
+  {
+    "createdTime": "2026-08-29T21:19:13.000Z",
+    "fields": {
+      "Area": "Otro",
+      "Change": "Tabla Articles cargada desde WordPress: 63 artículos + 1 fila basura",
+      "Date": "2026-08-29",
+      "Details": "CORREGIDO 04-sep: dije 65 y son 64 filas (63 artículos reales más la fila basura preexistente). 58 publicados y 5 borradores. Leídos vía MCP de WordPress del sitio 254274942. Region derivada de las categorías: LatAm Focus -> LATAM, US Healthcare -> USA, ninguna -> Global; los conteos 37 y 19 coinciden exacto con WordPress. Los 11 borradores del Weekly Digest no se cargaron: son newsletter. PENDIENTE: 3 artículos de la carga vieja del 9-ago (recEYFpb8879CT58n, recYgpu7SpqvekTAN, recdNpkJ4tqJ5N3c5) quedaron sin Region.",
+      "Status": "Deployed"
+    },
+    "id": "recvA4YGH82lylVBc"
+  },
+  {
+    "createdTime": "2026-08-29T19:16:46.000Z",
+    "fields": {
+      "Area": "Otro",
+      "Change": "Pricing sponsorships validado vs mercado + rate card Economist 2026",
+      "Date": "2026-08-29",
+      "Details": "Benchmark: por CPM indefendible (sin audiencia), por costo de contenido barato. Economist 2026 (PDF oficial de Fer): página Americas 1 semana $62.800 > 1 año entero de GOLD ($60.000); worldwide $171.000; sin edición LATAM dedicada — ese hueco es el negocio de HS. Talking point solo hablado, nunca impreso en el kit. Dato de Fer (no verificado): ~20.000 subs LATAM de la revista, ~1.500 healthcare → ~$42/decisor/semana en la página Americas. Rate card indexado en Engine_Reference_Library (recRPOhw8M4rtMvUD). Análisis completo en KB: claude/media-kit-pricing-benchmark-2026-08-29.md.",
+      "Status": "Deployed"
+    },
+    "id": "recwLXF79XwpAP5dF"
+  },
+  {
+    "createdTime": "2026-08-29T20:08:21.000Z",
+    "fields": {
+      "Area": "Otro",
+      "Change": "Base HS Report Engine confirmada obsoleta",
+      "Date": "2026-08-29",
+      "Details": "Auditoría de los 19 scenarios del team 2174293: ninguno referencia appG0Q8m3GR3hssck. Es un duplicado de las tablas Engine_* de la base madre, sin los campos nuevos. Falta que Fer la borre o renombre a mano (no hay API para eso). Ojo: el doc motor-reportes-spec.md todavía la nombra como base del motor.",
+      "Status": "Pendiente"
+    },
+    "id": "recwOCioyE8gc0Bbs"
+  },
+  {
+    "createdTime": "2026-08-29T20:08:21.000Z",
+    "fields": {
+      "Area": "Otro",
+      "Change": "El Publisher marca published en la planilla pero deja el post en draft",
+      "Date": "2026-08-29",
+      "Details": "ACTUALIZADO 04-sep con el blueprint leído. El módulo 17 del Publisher 5133643 crea el post con status draft literal, y ningún módulo posterior lo pasa a publish: el 56 (updatePost) no toca status. Inmediatamente después el módulo 18 escribe Status published y Current Step done en la Editorial Queue. Como el dedup del propio scenario filtra por P=published, esa fila nunca se reintenta: el artículo queda invisible en el sitio y contabilizado como publicado. Esto explica por qué hay 5 borradores viejos con permalink sin resolver y por qué el total sigue en 58 desde el 7-ago. Arreglo: poner status publish en el módulo 17, o agregar status al mapper del 56 antes del 18.",
+      "Status": "Pendiente"
+    },
+    "id": "recwVr0Tv1SnqSGYz"
+  },
+  {
+    "createdTime": "2026-09-26T19:11:43.000Z",
+    "fields": {
+      "Area": "Otro",
+      "Change": "Sitio: fuera 'Ad Specifications & Inventory' del media kit y corrections@ → editorial@ en media kit, About y Editorial Standards",
+      "Date": "2026-09-26",
+      "Details": "Por Elementor en el navegador de la app, con OK explícito de Fernando (26-09). Media kit 35499: borrado contenedor f0ed929 ('Ad Specifications & Inventory', decía 'third-party tags accepted' y contradecía la regla de creativo alojado); widget HTML b7d2e4f8 corrections@ → editorial@ (2). About 11: widgets c52846e y a7c3e91, 4 reemplazos. Editorial Standards 3845: widget 0a55ac9, 2 reemplazos. Verificado en las 3 páginas publicadas sin caché: 0 corrections@ y 0 'Ad Specifications'; se mantiene 'We do not accept third-party ad tags'. Rollback: revisiones de Elementor.",
+      "Status": "Deployed"
+    },
+    "id": "reczw5kRWkwZBJ0x2"
+  }
+]

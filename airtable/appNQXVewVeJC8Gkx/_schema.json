@@ -1,0 +1,995 @@
+[
+  {
+    "description": "Base maestra de anunciantes detectados en medios competidores, con fit LatAm, contacto y qué ofrecerles como founding partners de HealthSignals. La llena la skill competitor-ad-intel.",
+    "fields": [
+      {
+        "id": "fldwgcgcmu3Yxdafp",
+        "name": "Account",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fld06iDssGvCR4KmN",
+        "name": "Source",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selEx90ykEso6wC3J",
+              "name": "Fierce Healthcare"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selCY81UTq9PTqvsy",
+              "name": "Endpoints News"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selA0wgPHG18pNAKq",
+              "name": "STAT"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selFTt6qGyJHdmPEJ",
+              "name": "BioPharma Dive"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selYeqdM4ZVsSe4a4",
+              "name": "PharmaBoardroom"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selL7fuOqGgLj81d9",
+              "name": "El Hospital"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selH7dwnSoAovL5Us",
+              "name": "Consultorsalud"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selIJ7RhwDUrPl64h",
+              "name": "PMFarma"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selhOv8z5AAR7WLVT",
+              "name": "Saludiario"
+            },
+            {
+              "color": "blueLight2",
+              "id": "selDc9ElYGGXTzeEb",
+              "name": "ACCESS Forum (US 24)"
+            },
+            {
+              "color": "cyanLight2",
+              "id": "selHBMW06BicBUEi1",
+              "name": "ACCESS Forum (US 26)"
+            },
+            {
+              "color": "tealLight2",
+              "id": "selu3UO1VlIpuuW5f",
+              "name": "ISPOR Colombia (IX Congreso)"
+            },
+            {
+              "color": "blueLight2",
+              "id": "selj4N1Winjl6LUV0",
+              "name": "Barrido labs regionales LatAm"
+            },
+            {
+              "color": "cyanLight2",
+              "id": "selwqDNPCGNGA09qh",
+              "name": "ISPOR Colombia + barrido labs regionales"
+            },
+            {
+              "color": "blueLight2",
+              "id": "selrZUowkCKghVya4",
+              "name": "Consultorsalud (Congreso Nacional de Salud)"
+            },
+            {
+              "color": "blueLight2",
+              "id": "sel6MVBmebek4GxNa",
+              "name": "Fierce Pharma + BioPharma Dive"
+            },
+            {
+              "color": "cyanLight2",
+              "id": "selLZhH5qDFUUYFT8",
+              "name": "Endpoints News + Fierce Pharma"
+            },
+            {
+              "color": "tealLight2",
+              "id": "selJQgq79e8Fo5xzP",
+              "name": "STAT News (Brand Studio)"
+            },
+            {
+              "color": "greenLight2",
+              "id": "selfD9nLV2GubNFoM",
+              "name": "STAT News"
+            },
+            {
+              "color": "yellowLight2",
+              "id": "selQauxpFSbJaQiJc",
+              "name": "STAT News (Summit 2025)"
+            },
+            {
+              "color": "orangeLight2",
+              "id": "selu0FRbvD4nTkRaF",
+              "name": "Fierce Pharma"
+            },
+            {
+              "color": "blueLight2",
+              "id": "selFcknJmG6qWlJlq",
+              "name": "BioPharma Dive + Endpoints News"
+            },
+            {
+              "color": "cyanLight2",
+              "id": "selqHlvTLBwGbLxvE",
+              "name": "El Hospital (Guia de Proveedores ed. 81-1)"
+            },
+            {
+              "color": "blueLight2",
+              "id": "selCFx2HNK5WLZfIL",
+              "name": "El Hospital (aviso display ED 81-1, p.2)"
+            },
+            {
+              "color": "cyanLight2",
+              "id": "seleq8jurlnNALPvo",
+              "name": "El Hospital (aviso display ED 81-1, p.5)"
+            },
+            {
+              "color": "tealLight2",
+              "id": "selc2Fs9y68nTBzYf",
+              "name": "El Hospital (aviso display ED 81-1, p.17)"
+            },
+            {
+              "color": "blueLight2",
+              "id": "selg9UVcEpHIBfM8e",
+              "name": "Ranking consultoras healthcare (infografia 08/10)"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldYzUb8TwxCswY0Y",
+        "name": "Category",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fld6dctUA6onPQFri",
+        "name": "Format bought",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldE0JPtLminnP0V8",
+        "name": "LatAm fit",
+        "options": {
+          "choices": [
+            {
+              "color": "greenBright",
+              "id": "sel8uQPhBXGO9mqXV",
+              "name": "Alto"
+            },
+            {
+              "color": "tealBright",
+              "id": "selHcgk72pvbLMUg7",
+              "name": "Medio-Alto"
+            },
+            {
+              "color": "yellowBright",
+              "id": "selnupmBAkxPNNli4",
+              "name": "Medio"
+            },
+            {
+              "color": "grayBright",
+              "id": "selYSD6ZYULap6ZXw",
+              "name": "Bajo"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldiAofKgPlvWcAIa",
+        "name": "Production",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selqpOi3mQKrhZrRz",
+              "name": "In-house"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selNu9SHK68Z4o7JA",
+              "name": "Founder-led"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selgPwPFYo1SwXVgC",
+              "name": "Agencia"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selwadu5uAOiknnbC",
+              "name": "Mixto"
+            },
+            {
+              "color": "blueLight2",
+              "id": "seleIAQsU3SR9zXok",
+              "name": "In-house (marketing propio)"
+            },
+            {
+              "color": "cyanLight2",
+              "id": "selxL3OFjE1ztepwt",
+              "name": "No verificado"
+            },
+            {
+              "color": "blueLight2",
+              "id": "seluv5dauAODSPove",
+              "name": "In-house (canal editorial propio)"
+            },
+            {
+              "color": "cyanLight2",
+              "id": "selc5thgWXB5hrdEY",
+              "name": "In-house + verificacion de terceros"
+            },
+            {
+              "color": "tealLight2",
+              "id": "sel1YQ1Xg0lV2vXvQ",
+              "name": "In-house + IR"
+            },
+            {
+              "color": "greenLight2",
+              "id": "sel4MXmoiVxXKRSMI",
+              "name": "In-house + auditoria de terceros"
+            },
+            {
+              "color": "yellowLight2",
+              "id": "selVWKaddyFNHwBtD",
+              "name": "In-house + agencia (Africa)"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldcWPQUSgjupQMiY",
+        "name": "Target contact",
+        "type": "multilineText"
+      },
+      {
+        "id": "fldoa2SJ76dV4YFJh",
+        "name": "What to offer",
+        "type": "multilineText"
+      },
+      {
+        "id": "fldk6cm7BVckpYZ67",
+        "name": "Priority",
+        "options": {
+          "choices": [
+            {
+              "color": "greenBright",
+              "id": "selMSYVNAfX7ODG8l",
+              "name": "P1"
+            },
+            {
+              "color": "yellowBright",
+              "id": "seliYSzxDNYGhNtAe",
+              "name": "P2"
+            },
+            {
+              "color": "grayBright",
+              "id": "selmleQ2l9bLkdzVk",
+              "name": "P3"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldVoaclglxjFI42B",
+        "name": "Confidence",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selAfVaiXAe1HfU3o",
+              "name": "Alta"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selMzWH5CC32OwlRK",
+              "name": "Media"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel13LWziUz4JkbR2",
+              "name": "Baja"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selMSXpzCDXZQhocU",
+              "name": "N/D"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldaA2SB8r92CUDLY",
+        "name": "Outreach status",
+        "options": {
+          "choices": [
+            {
+              "color": "grayBright",
+              "id": "sel3omAiyyb1SwDZi",
+              "name": "Not started"
+            },
+            {
+              "color": "blueBright",
+              "id": "selw9xB4U2ZN0ZHXT",
+              "name": "Researching"
+            },
+            {
+              "color": "yellowBright",
+              "id": "sel3xR7UzW3EzLXu8",
+              "name": "Contacted"
+            },
+            {
+              "color": "orangeBright",
+              "id": "selGzNX1QGiRgg5Px",
+              "name": "In talks"
+            },
+            {
+              "color": "greenBright",
+              "id": "selQDJ9r4bc6tfoeL",
+              "name": "Won"
+            },
+            {
+              "color": "redBright",
+              "id": "sel9W9QqhpntW4xnf",
+              "name": "Parked"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldRsJLWkyXfTrRDJ",
+        "name": "Sources",
+        "type": "multilineText"
+      },
+      {
+        "id": "fldnOLzQuytWt04re",
+        "name": "Date added",
+        "options": {
+          "dateFormat": {
+            "format": "YYYY-MM-DD",
+            "name": "iso"
+          }
+        },
+        "type": "date"
+      },
+      {
+        "description": "Qué ofrecerle segun lo que YA compra. Es el campo que decide el pitch del motor de contacto.",
+        "id": "fldRZtnWhjSsKIn5J",
+        "name": "Oferta HS",
+        "options": {
+          "choices": [
+            {
+              "color": "greenBright",
+              "id": "sel3RsIbYJT0lNKpi",
+              "name": "Co-autoria de indice (ya produce reportes propios)"
+            },
+            {
+              "color": "blueBright",
+              "id": "selbMskQz1mqwFbSH",
+              "name": "Articulo / entrevista / webinar (ya compra contenido en medios)"
+            },
+            {
+              "color": "purpleBright",
+              "id": "selR6oCk9ijoxoKE7",
+              "name": "Categoria o posicion (ya patrocina congresos)"
+            },
+            {
+              "color": "yellowBright",
+              "id": "seleripCzRaY5epko",
+              "name": "Esperar a tener lista (compra acceso a audiencia)"
+            },
+            {
+              "color": "redBright",
+              "id": "selUGPQTSZb0mE1Pw",
+              "name": "No vender (competidor en thought leadership)"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "description": "Nombre y cargo de la persona real. Se completa a mano, uno por uno. Sin esto no hay outreach posible.",
+        "id": "fldlhwrSlGn0QWNgr",
+        "name": "Contacto nominal",
+        "type": "singleLineText"
+      },
+      {
+        "description": "Email corporativo verificado del contacto nominal. Vacio = no contactable.",
+        "id": "fldym4eUPJIxNAgVv",
+        "name": "Email verificado",
+        "type": "email"
+      }
+    ],
+    "id": "tblOC691FJUKq7F6M",
+    "name": "Advertisers",
+    "primaryFieldId": "fldwgcgcmu3Yxdafp",
+    "views": [
+      {
+        "id": "viwX837uyWh1V22hS",
+        "name": "Grid view",
+        "type": "grid"
+      }
+    ]
+  },
+  {
+    "description": "Catálogo de fuentes de founding sponsors para HealthSignals: medios (US y LatAm), eventos/congresos, agencias y asociaciones. El agente competitor-ad-intel corre sobre estas fuentes y vuelca anunciantes a la tabla Advertisers.",
+    "fields": [
+      {
+        "id": "fldoQFcs5vi20LkcR",
+        "name": "Source",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldnueYwlPNqfPoiG",
+        "name": "Type",
+        "options": {
+          "choices": [
+            {
+              "color": "blueLight2",
+              "id": "selFzSaqbSqlOzGB8",
+              "name": "Medio US"
+            },
+            {
+              "color": "greenBright",
+              "id": "selk0qimX9cWS9BRu",
+              "name": "Medio LatAm"
+            },
+            {
+              "color": "purpleBright",
+              "id": "sel6Xeqk9yYZOZetd",
+              "name": "Evento/Congreso"
+            },
+            {
+              "color": "orangeBright",
+              "id": "selQDGJTWbhoWPLwS",
+              "name": "Agencia"
+            },
+            {
+              "color": "cyanBright",
+              "id": "selDOCIZloe9nv509",
+              "name": "Asociación/Gremio"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldTfO7l7TS10zadI",
+        "name": "Region",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "sel2FFPDQdqy5pY0H",
+              "name": "Brasil"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel9SDrZG0UPBWiy2",
+              "name": "México"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selvhJrZJKDszQbCy",
+              "name": "Colombia"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selWbdwtH6xc7xrS9",
+              "name": "LatAm regional"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel9cTSBmekVYlwiz",
+              "name": "US/Global"
+            },
+            {
+              "color": "blueLight2",
+              "id": "sel0ntQEdX0hmGpQ2",
+              "name": "Argentina"
+            },
+            {
+              "color": "blueLight2",
+              "id": "selcIsE0QN4xrCXdO",
+              "name": "Chile"
+            },
+            {
+              "color": "blueLight2",
+              "id": "selyfbv4sSR5q806X",
+              "name": "Perú"
+            },
+            {
+              "color": "blueLight2",
+              "id": "sel6Suzf54oODAqD7",
+              "name": "Ecuador"
+            },
+            {
+              "color": "cyanLight2",
+              "id": "selvbb9PjIJnqVffu",
+              "name": "Uruguay"
+            },
+            {
+              "color": "tealLight2",
+              "id": "selTFuPBdIUB9uYCX",
+              "name": "Rep. Dominicana"
+            },
+            {
+              "color": "greenLight2",
+              "id": "selHUQOyr6r9il28O",
+              "name": "Centroamérica"
+            },
+            {
+              "color": "yellowLight2",
+              "id": "selD9KUw5SyNeqD8M",
+              "name": "Venezuela"
+            },
+            {
+              "color": "orangeLight2",
+              "id": "selBhWH2d7dcYNaOL",
+              "name": "Bolivia"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldmJW5XpQPmuX6Zd",
+        "name": "URL",
+        "type": "url"
+      },
+      {
+        "id": "fldtOX8FYjvu23rpl",
+        "name": "Why relevant",
+        "type": "multilineText"
+      },
+      {
+        "id": "fldIfBGUtUAitrsK5",
+        "name": "Status",
+        "options": {
+          "choices": [
+            {
+              "color": "yellowBright",
+              "id": "selICKtp83GMzOciv",
+              "name": "To analyze"
+            },
+            {
+              "color": "greenBright",
+              "id": "sel185PXZOK7sjxej",
+              "name": "Analyzed"
+            },
+            {
+              "color": "tealBright",
+              "id": "selNd7cmdX0HV7dkR",
+              "name": "Contacto (red Fer)"
+            },
+            {
+              "color": "grayBright",
+              "id": "selKyjSGzTY6NysZ4",
+              "name": "Skip"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldenmXHbUYG1dCfm",
+        "name": "Notes",
+        "type": "multilineText"
+      }
+    ],
+    "id": "tblt8Ok7Yv2dGtjHQ",
+    "name": "Sources",
+    "primaryFieldId": "fldoQFcs5vi20LkcR",
+    "views": [
+      {
+        "id": "viwXd8WmRimjKEfLY",
+        "name": "Grid view",
+        "type": "grid"
+      }
+    ]
+  },
+  {
+    "description": "Socios de distribución y docentes que comparten el informe gated con su base (HS nunca recibe listas). Creada 21-10-2026. La lee y alimenta la tarea semanal \"HS socios de distribución\".",
+    "fields": [
+      {
+        "id": "fld1IjE0C6B7VfXaV",
+        "name": "Organization",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldLZBF8x0EBozAlO",
+        "name": "Type",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selaQBtNuAj8Zle3p",
+              "name": "Socio"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selfBCdbaG1DJX5N0",
+              "name": "Docente"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldt4wpk6R1i3pvlg",
+        "name": "Country",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "sel3kBqgllTpbbrmv",
+              "name": "Brazil"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selYeSh2UW5POdKSY",
+              "name": "Mexico"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selvJXTClLAdZlJRI",
+              "name": "Colombia"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selcuYeoG6rcTN0g4",
+              "name": "Argentina"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selTQafx1xJAXoSVK",
+              "name": "Chile"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel3bfsQnSqWLmD6D",
+              "name": "Peru"
+            },
+            {
+              "color": "grayLight2",
+              "id": "seleHyYAdYcjW718G",
+              "name": "United States"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selByyqtkdKk4PYBk",
+              "name": "Regional"
+            },
+            {
+              "color": "grayLight2",
+              "id": "seldoQ2UfYbAmDJr8",
+              "name": "Other"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldebpqxAdSLh9Q4n",
+        "name": "Contact",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldW912yMgP2PBU8R",
+        "name": "Role",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldyrs28svpohZPJV",
+        "name": "Email",
+        "type": "email"
+      },
+      {
+        "id": "fld3o4uXz9irJHyii",
+        "name": "Channel",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selEyftQzSbI6oCp7",
+              "name": "Email"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selrFXlDfSu9YbzrL",
+              "name": "LinkedIn"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selrsQIihkFnHk2VV",
+              "name": "Contact form"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldChgm19BNNnBZu7",
+        "name": "Language",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "seljVykiT9bR7dFNe",
+              "name": "ES"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selI0dh60Hkhi09vP",
+              "name": "PT"
+            },
+            {
+              "color": "grayLight2",
+              "id": "seltZtfEtpNzySLHl",
+              "name": "EN"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldkrEWc0BKyjALJb",
+        "name": "Status",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selMTkLnXtZky2cHv",
+              "name": "To contact"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel5JyBf7GSpgFFN8",
+              "name": "Drafted"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selYX8wN2N8DOuzEn",
+              "name": "Sent"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sellbrroH5YYuktHx",
+              "name": "Follow-up sent"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selIuhKEbekFuYKZ0",
+              "name": "Replied"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selDfJS7yycnEdTy7",
+              "name": "Agreed"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selm995uusShXIwvm",
+              "name": "Shared"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selOeRIdiCFC6BSMD",
+              "name": "Declined"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selduDBsDj26aJeV3",
+              "name": "No reply"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldH0R4wAZ1HJfUnW",
+        "name": "Batch",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldHBAPu6C0Cs1eAW",
+        "name": "Sent date",
+        "options": {
+          "dateFormat": {
+            "format": "YYYY-MM-DD",
+            "name": "iso"
+          }
+        },
+        "type": "date"
+      },
+      {
+        "id": "fldlg65ytRxJD1MKa",
+        "name": "Follow-up date",
+        "options": {
+          "dateFormat": {
+            "format": "YYYY-MM-DD",
+            "name": "iso"
+          }
+        },
+        "type": "date"
+      },
+      {
+        "id": "fldXaxdN2mfnNqabf",
+        "name": "Gmail draft id",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldvcrjRhS8ch9NgO",
+        "name": "Audience estimate",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldXG7J05DEz4NIJE",
+        "name": "Source URL",
+        "type": "url"
+      },
+      {
+        "id": "fldgTPrFWKfwODsGA",
+        "name": "Notes",
+        "type": "multilineText"
+      }
+    ],
+    "id": "tblDbKEpkBDvBmNZL",
+    "name": "Distribution Partners",
+    "primaryFieldId": "fld1IjE0C6B7VfXaV",
+    "views": [
+      {
+        "id": "viwe4YePRTqRBYd5b",
+        "name": "Grid view",
+        "type": "grid"
+      }
+    ]
+  },
+  {
+    "description": "Una fila por canal por corrida de la tarea HS bandeja diaria (desde 22-10-2026). La escribe la tarea programada; no editar a mano.",
+    "fields": [
+      {
+        "description": "AAAA-MM-DD|manana-o-tarde|canal (clave única: si ya existe, no duplicar)",
+        "id": "fldnl0ckS1ijnqXd8",
+        "name": "Run_Key",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldvatunRQTUsjU2x",
+        "name": "Date",
+        "options": {
+          "dateFormat": {
+            "format": "YYYY-MM-DD",
+            "name": "iso"
+          }
+        },
+        "type": "date"
+      },
+      {
+        "id": "fldTtu2lhAqKbKf7p",
+        "name": "Run",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selD3F0auTwSMM5Sd",
+              "name": "manana"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel3fWIQXopKtc63b",
+              "name": "tarde"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldEVDSIwH8S8ZZb4",
+        "name": "Channel",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selXssORlLK0ihh3G",
+              "name": "voices"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel3LuQnD8DJgxEd5",
+              "name": "prensa"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selxXQ1UlMwtxO7na",
+              "name": "socios"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel2v0QXZlz7W37JV",
+              "name": "grupos"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selytKSTYlxucfEUY",
+              "name": "comentarios"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selP4eablsDyCly7T",
+              "name": "sponsors"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldKgSiaU7Y8BuYrb",
+        "name": "Status",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selGZiCeu5VhtAWwA",
+              "name": "ok"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selOfHAfXUL7wPCj9",
+              "name": "sin novedades"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selu65LppGIvLm6iM",
+              "name": "error"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldM7AdHHXdwk4sNa",
+        "name": "Items_Pending",
+        "options": {
+          "precision": 0
+        },
+        "type": "number"
+      },
+      {
+        "id": "fldHawGCyRBbaZE7e",
+        "name": "Notes",
+        "type": "multilineText"
+      }
+    ],
+    "id": "tblujZkGtmQ1McBcB",
+    "name": "Ops Runs",
+    "primaryFieldId": "fldnl0ckS1ijnqXd8",
+    "views": [
+      {
+        "id": "viwW5xv5ORkW80PSe",
+        "name": "Grid view",
+        "type": "grid"
+      }
+    ]
+  }
+]

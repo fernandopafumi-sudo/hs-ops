@@ -1,0 +1,112 @@
+[
+  {
+    "createdTime": "2026-09-05T10:00:23.000Z",
+    "fields": {
+      "Captured at": "2026-09-05T04:00:00.000Z",
+      "Country": "Peru",
+      "File": [
+        {
+          "filename": "DIGEMID_FT_202606.zip",
+          "id": "attyjBJQABTCCh1X1",
+          "size": 2271054,
+          "type": "application/x-zip-compressed"
+        }
+      ],
+      "File URL": "https://www.digemid.minsa.gob.pe/Archivos/Indicadores/TendenciaCentral/FT_202606.zip",
+      "Notes": "Media, mediana y moda de precios reportados por farmacias, por mes. Patron de URL fijo FT_AAAAMM.zip verificado el 09/08/2026 con navegador; la serie va con unos 3 meses de rezago, por eso el scenario pide now menos 3 meses. La pagina HTML esta detras de Cloudflare pero el archivo estatico no.",
+      "Page URL": "https://www.digemid.minsa.gob.pe/webDigemid/reportes/2025/indicador-de-precios-de-productos-farmaceuticos/",
+      "Publisher": "DIGEMID / MINSA",
+      "Source": "Indicador de Precios de Productos Farmaceuticos",
+      "Status": "Capturado"
+    },
+    "id": "rec5AqRQZwjvg2XMK"
+  },
+  {
+    "createdTime": "2026-08-09T04:59:12.000Z",
+    "fields": {
+      "Captured at": "2026-08-09T04:00:00.000Z",
+      "Country": "Brasil",
+      "File": [
+        {
+          "filename": "CMED_lista_precos_2026-08-09.xlsx",
+          "id": "att6FUkW25S7l5Bde",
+          "size": 12409497,
+          "type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        }
+      ],
+      "File URL": "https://www.gov.br/anvisa/pt-br/assuntos/medicamentos/cmed/precos/arquivos/xls_conformidade_site_20260721_164341114.xlsx",
+      "Notes": "Preco maximo ao consumidor por apresentacao y faixa de ICMS. Buscar semaglutida, tirzepatida y liraglutida. El nombre del archivo lleva la fecha de publicacion de la lista.",
+      "Page URL": "https://www.gov.br/anvisa/pt-br/assuntos/medicamentos/cmed/precos",
+      "Publisher": "CMED / ANVISA",
+      "Source": "CMED — lista de precos maximos ao consumidor",
+      "Status": "Capturado"
+    },
+    "id": "recTffjg7ApGP5shO"
+  },
+  {
+    "createdTime": "2026-11-05T11:00:13.000Z",
+    "fields": {
+      "Captured at": "2026-11-05T05:00:00.000Z",
+      "Country": "Peru",
+      "File": [
+        {
+          "filename": "DIGEMID_FT_202608.zip",
+          "id": "attGv3kwsU2tYo6sR",
+          "size": 2315940,
+          "type": "application/x-zip-compressed"
+        }
+      ],
+      "File URL": "https://www.digemid.minsa.gob.pe/Archivos/Indicadores/TendenciaCentral/FT_202608.zip",
+      "Notes": "Media, mediana y moda de precios reportados por farmacias, por mes. Patron de URL fijo FT_AAAAMM.zip verificado el 09/08/2026 con navegador; la serie va con unos 3 meses de rezago, por eso el scenario pide now menos 3 meses. La pagina HTML esta detras de Cloudflare pero el archivo estatico no.",
+      "Page URL": "https://www.digemid.minsa.gob.pe/webDigemid/reportes/2025/indicador-de-precios-de-productos-farmaceuticos/",
+      "Publisher": "DIGEMID / MINSA",
+      "Source": "Indicador de Precios de Productos Farmaceuticos",
+      "Status": "Capturado"
+    },
+    "id": "recaZvYmIIZWz7Jls"
+  },
+  {
+    "createdTime": "2026-10-05T10:00:04.000Z",
+    "fields": {
+      "Captured at": "2026-10-05T04:00:00.000Z",
+      "Country": "Peru",
+      "File": [
+        {
+          "filename": "DIGEMID_FT_202607.zip",
+          "id": "attcDtdPr4oNLobCN",
+          "size": 2290580,
+          "type": "application/x-zip-compressed"
+        }
+      ],
+      "File URL": "https://www.digemid.minsa.gob.pe/Archivos/Indicadores/TendenciaCentral/FT_202607.zip",
+      "Notes": "Media, mediana y moda de precios reportados por farmacias, por mes. Patron de URL fijo FT_AAAAMM.zip verificado el 09/08/2026 con navegador; la serie va con unos 3 meses de rezago, por eso el scenario pide now menos 3 meses. La pagina HTML esta detras de Cloudflare pero el archivo estatico no.",
+      "Page URL": "https://www.digemid.minsa.gob.pe/webDigemid/reportes/2025/indicador-de-precios-de-productos-farmaceuticos/",
+      "Publisher": "DIGEMID / MINSA",
+      "Source": "Indicador de Precios de Productos Farmaceuticos",
+      "Status": "Capturado"
+    },
+    "id": "recfq6Nirw4CHryhB"
+  },
+  {
+    "createdTime": "2026-08-09T17:43:03.000Z",
+    "fields": {
+      "Captured at": "2026-08-09T04:00:00.000Z",
+      "Country": "Peru",
+      "File": [
+        {
+          "filename": "DIGEMID_FT_202605.zip",
+          "id": "attj8LD8CcVSiuj3G",
+          "size": 2264192,
+          "type": "application/x-zip-compressed"
+        }
+      ],
+      "File URL": "https://www.digemid.minsa.gob.pe/Archivos/Indicadores/TendenciaCentral/FT_202605.zip",
+      "Notes": "Media, mediana y moda de precios reportados por farmacias, por mes. Patron de URL fijo FT_AAAAMM.zip verificado el 09/08/2026 con navegador; la serie va con unos 3 meses de rezago, por eso el scenario pide now menos 3 meses. La pagina HTML esta detras de Cloudflare pero el archivo estatico no.",
+      "Page URL": "https://www.digemid.minsa.gob.pe/webDigemid/reportes/2025/indicador-de-precios-de-productos-farmaceuticos/",
+      "Publisher": "DIGEMID / MINSA",
+      "Source": "Indicador de Precios de Productos Farmaceuticos",
+      "Status": "Capturado"
+    },
+    "id": "recmvWza2yvDzeGrw"
+  }
+]

@@ -1,0 +1,819 @@
+[
+  {
+    "createdTime": "2026-08-29T21:12:15.000Z",
+    "fields": {
+      "Published_At": "2026-05-21T00:01:26.000Z",
+      "Region": "USA",
+      "Slug": "the-algorithm-audit-hhs-moves-to-regulate-ai-in-coverage-decisions",
+      "Status": "published",
+      "Title": "The Algorithm Audit: HHS Moves to Regulate AI in Coverage Decisions",
+      "WP_Post_ID": 3583,
+      "WP_URL": "https://healthsignals.news/the-algorithm-audit-hhs-moves-to-regulate-ai-in-coverage-decisions/"
+    },
+    "id": "rec0C30ehZzPbYs5E"
+  },
+  {
+    "createdTime": "2026-08-29T21:12:46.000Z",
+    "fields": {
+      "Published_At": "2026-08-25T11:25:43.000Z",
+      "Region": "LATAM",
+      "Slug": "donanemab-mexico-first-alzheimers-therapy",
+      "Status": "draft",
+      "Title": "Mexico switches on its first Alzheimer's therapy. It reaches 30 patients.",
+      "WP_Post_ID": 4095,
+      "WP_URL": "https://healthsignals.news/?p=4095"
+    },
+    "id": "rec3BIqXU5s7LsjRY"
+  },
+  {
+    "createdTime": "2026-08-29T21:12:15.000Z",
+    "fields": {
+      "Published_At": "2026-05-21T16:01:12.000Z",
+      "Region": "LATAM",
+      "Slug": "anvisa-holds-the-line-on-ype-what-a-r130m-suspension-means-for-brazils-gmp-baseline",
+      "Status": "published",
+      "Title": "Anvisa Holds the Line on Ypê: What a R$130M Suspension Means for Brazil's GMP Baseline",
+      "WP_Post_ID": 3666,
+      "WP_URL": "https://healthsignals.news/anvisa-holds-the-line-on-ype-what-a-r130m-suspension-means-for-brazils-gmp-baseline/"
+    },
+    "id": "rec3QwTEGBh7WSdba"
+  },
+  {
+    "createdTime": "2026-08-29T21:12:15.000Z",
+    "fields": {
+      "Published_At": "2026-05-20T23:55:51.000Z",
+      "Region": "LATAM",
+      "Slug": "mercosur-clears-the-compliance-maze-argentinas-domisanitario-reset-opens-a-260m-consumer-market",
+      "Status": "published",
+      "Title": "Mercosur Clears the Compliance Maze: Argentina's Domisanitario Reset Opens a 260M-Consumer Market",
+      "WP_Post_ID": 3575,
+      "WP_URL": "https://healthsignals.news/mercosur-clears-the-compliance-maze-argentinas-domisanitario-reset-opens-a-260m-consumer-market/"
+    },
+    "id": "rec439bhlZB7hA9gh"
+  },
+  {
+    "createdTime": "2026-08-29T21:12:15.000Z",
+    "fields": {
+      "Published_At": "2026-05-20T18:15:44.000Z",
+      "Region": "USA",
+      "Slug": "ai-in-prior-authorization-u-s-regulators-tighten-oversight-of-algorithmic-coverage-decisions",
+      "Status": "published",
+      "Title": "AI in Prior Authorization: U.S. Regulators Tighten Oversight of Algorithmic Coverage Decisions",
+      "WP_Post_ID": 3531,
+      "WP_URL": "https://healthsignals.news/ai-in-prior-authorization-u-s-regulators-tighten-oversight-of-algorithmic-coverage-decisions/"
+    },
+    "id": "rec5bddccTujJ8zF9"
+  },
+  {
+    "createdTime": "2026-08-29T21:12:15.000Z",
+    "fields": {
+      "Published_At": "2026-05-24T17:19:47.000Z",
+      "Region": "LATAM",
+      "Slug": "mendoza-adds-sma-to-newborn-screen-opening-an-early-intervention-window-before-motor-loss-sets-in",
+      "Status": "published",
+      "Title": "Mendoza Adds SMA to Newborn Screen, Opening an Early-Intervention Window Before Motor Loss Sets In",
+      "WP_Post_ID": 3812,
+      "WP_URL": "https://healthsignals.news/mendoza-adds-sma-to-newborn-screen-opening-an-early-intervention-window-before-motor-loss-sets-in/"
+    },
+    "id": "rec5yk2GAYpqFEqCa"
+  },
+  {
+    "createdTime": "2026-08-29T21:12:46.000Z",
+    "fields": {
+      "Published_At": "2026-05-26T21:49:47.000Z",
+      "Region": "LATAM",
+      "Slug": "eurofarma-wins-generic-approval-for-dapagliflozin-metformin-combo-triggering-mandatory-price-cut-under-brazilian-law",
+      "Status": "published",
+      "Title": "Eurofarma Wins Generic Approval for Dapagliflozin-Metformin Combo, Triggering Mandatory Price Cut Under Brazilian Law",
+      "WP_Post_ID": 3925,
+      "WP_URL": "https://healthsignals.news/eurofarma-wins-generic-approval-for-dapagliflozin-metformin-combo-triggering-mandatory-price-cut-under-brazilian-law/"
+    },
+    "id": "rec69IvKc3SxceEOR"
+  },
+  {
+    "createdTime": "2026-08-29T21:12:15.000Z",
+    "fields": {
+      "Published_At": "2026-05-24T17:45:44.000Z",
+      "Region": "LATAM",
+      "Slug": "brazil-codifies-cancer-drug-access-and-localizes-pembrolizumab-manufacturing-under-new-law",
+      "Status": "published",
+      "Title": "Brazil Codifies Cancer-Drug Access and Localizes Pembrolizumab Manufacturing Under New Law",
+      "WP_Post_ID": 3815,
+      "WP_URL": "https://healthsignals.news/brazil-codifies-cancer-drug-access-and-localizes-pembrolizumab-manufacturing-under-new-law/"
+    },
+    "id": "rec7sbA9jJTXQEARi"
+  },
+  {
+    "createdTime": "2026-08-29T21:12:46.000Z",
+    "fields": {
+      "Published_At": "2026-05-26T21:34:51.000Z",
+      "Region": "LATAM",
+      "Slug": "brazil-mandates-parpi-coverage-for-brca-prostate-cancer-setting-precision-oncology-precedent",
+      "Status": "published",
+      "Title": "Brazil Mandates PARPi Coverage for BRCA+ Prostate Cancer, Setting Precision Oncology Precedent",
+      "WP_Post_ID": 3910,
+      "WP_URL": "https://healthsignals.news/brazil-mandates-parpi-coverage-for-brca-prostate-cancer-setting-precision-oncology-precedent/"
+    },
+    "id": "rec9IubwECjMo4l8e"
+  },
+  {
+    "createdTime": "2026-08-29T21:12:15.000Z",
+    "fields": {
+      "Published_At": "2026-05-23T15:36:25.000Z",
+      "Region": "USA",
+      "Slug": "340b-under-siege-hospitals-sue-cvs-over-250m-in-alleged-diverted-drug-discounts",
+      "Status": "published",
+      "Title": "340B Under Siege: Hospitals Sue CVS Over $250M in Alleged Diverted Drug Discounts",
+      "WP_Post_ID": 3750,
+      "WP_URL": "https://healthsignals.news/340b-under-siege-hospitals-sue-cvs-over-250m-in-alleged-diverted-drug-discounts/"
+    },
+    "id": "recAC8njOHCGaWPpp"
+  },
+  {
+    "createdTime": "2026-08-29T21:12:46.000Z",
+    "fields": {
+      "Published_At": "2026-07-30T14:01:47.000Z",
+      "Region": "LATAM",
+      "Slug": "anvisa-clears-five-semaglutide-pens-as-generic-race-heats-up",
+      "Status": "draft",
+      "Title": "Anvisa Clears Five Semaglutide Pens as Generic Race Heats Up",
+      "WP_Post_ID": 4098,
+      "WP_URL": "https://healthsignals.news/?p=4098"
+    },
+    "id": "recCa4U8DWpm2dwRI"
+  },
+  {
+    "createdTime": "2026-08-09T00:21:38.000Z",
+    "fields": {
+      "Published_At": "2026-06-11T12:42:46.000Z",
+      "Region": "USA",
+      "Slug": "cvs-caremark-adds-lillys-foundayo-and-zepbound-erasing-novos-edge",
+      "Status": "published",
+      "Title": "CVS Caremark adds Lilly's Foundayo and Zepbound, erasing Novo's edge",
+      "WP_Post_ID": 4034,
+      "WP_URL": "https://healthsignals.news/cvs-caremark-adds-lillys-foundayo-and-zepbound-erasing-novos-edge/"
+    },
+    "id": "recEYFpb8879CT58n"
+  },
+  {
+    "createdTime": "2026-08-29T21:12:15.000Z",
+    "fields": {
+      "Published_At": "2026-05-10T06:16:32.000Z",
+      "Region": "USA",
+      "Slug": "one-big-beautiful-bill-would-leave-16-million-americans-uninsured-by-2034-medicaid-faces-its-largest-cut-in-history",
+      "Status": "published",
+      "Title": "One Big Beautiful Bill would leave 16 million Americans uninsured by 2034 — Medicaid faces its largest cut in history",
+      "WP_Post_ID": 3354,
+      "WP_URL": "https://healthsignals.news/one-big-beautiful-bill-would-leave-16-million-americans-uninsured-by-2034-medicaid-faces-its-largest-cut-in-history/"
+    },
+    "id": "recEmq16AU3BmzKAv"
+  },
+  {
+    "createdTime": "2026-08-29T21:12:15.000Z",
+    "fields": {
+      "Published_At": "2026-05-20T18:37:18.000Z",
+      "Region": "Global",
+      "Slug": "americas-ai-health-boom-hits-a-regulatory-maze",
+      "Status": "published",
+      "Title": "America's AI Health Boom Hits a Regulatory Maze",
+      "WP_Post_ID": 3537,
+      "WP_URL": "https://healthsignals.news/americas-ai-health-boom-hits-a-regulatory-maze/"
+    },
+    "id": "recFB7xl2yf6QWC10"
+  },
+  {
+    "createdTime": "2026-08-29T21:12:15.000Z",
+    "fields": {
+      "Published_At": "2026-05-17T20:36:49.000Z",
+      "Region": "LATAM",
+      "Slug": "mexico-imss-bienestar-consolidation-supply-chain",
+      "Status": "published",
+      "Title": "Mexico's IMSS-Bienestar Consolidation Faces Supply-Chain Fractures as States Resist Federal Drug Procurement",
+      "WP_Post_ID": 3433,
+      "WP_URL": "https://healthsignals.news/mexico-imss-bienestar-consolidation-supply-chain/"
+    },
+    "id": "recFnxEm06p919Qtt"
+  },
+  {
+    "createdTime": "2026-08-29T21:12:46.000Z",
+    "fields": {
+      "Published_At": "2026-05-26T12:21:32.000Z",
+      "Region": "Global",
+      "Slug": "who-declares-pheic-over-bundibugyo-ebola-outbreak-no-approved-vaccines-or-therapeutics-exist",
+      "Status": "published",
+      "Title": "WHO Declares PHEIC Over Bundibugyo Ebola Outbreak; No Approved Vaccines or Therapeutics Exist",
+      "WP_Post_ID": 3876,
+      "WP_URL": "https://healthsignals.news/who-declares-pheic-over-bundibugyo-ebola-outbreak-no-approved-vaccines-or-therapeutics-exist/"
+    },
+    "id": "recHdM9P0os7aDVis"
+  },
+  {
+    "createdTime": "2026-08-29T21:12:15.000Z",
+    "fields": {
+      "Published_At": "2026-05-07T19:21:57.000Z",
+      "Region": "LATAM",
+      "Slug": "ecuador-diabetes-law-insurer-rejection-ban-latam",
+      "Status": "published",
+      "Title": "Ecuador bans insurers from rejecting diabetic patients outright — a regional first that could redraw chronic disease coverage across Latin America",
+      "WP_Post_ID": 111,
+      "WP_URL": "https://healthsignals.news/ecuador-diabetes-law-insurer-rejection-ban-latam/"
+    },
+    "id": "recHoKjdzzMY9dczn"
+  },
+  {
+    "createdTime": "2026-08-29T21:12:15.000Z",
+    "fields": {
+      "Published_At": "2026-05-18T18:08:44.000Z",
+      "Region": "LATAM",
+      "Slug": "brazil-conitec-hta-fast-track-rare-diseases",
+      "Status": "published",
+      "Title": "Brazil's CONITEC Expands HTA Fast-Track for Rare Diseases, but Access Gaps Persist",
+      "WP_Post_ID": 3432,
+      "WP_URL": "https://healthsignals.news/brazil-conitec-hta-fast-track-rare-diseases/"
+    },
+    "id": "recIHFlmSmnMA0QY6"
+  },
+  {
+    "createdTime": "2026-08-29T21:12:46.000Z",
+    "fields": {
+      "Published_At": "2026-08-29T14:55:35.000Z",
+      "Region": "LATAM",
+      "Status": "draft",
+      "Title": "Brazil Signs HIV PrEP Deals, Excluding Lenacapavir",
+      "WP_Post_ID": 35265,
+      "WP_URL": "https://healthsignals.news/?p=35265"
+    },
+    "id": "recIo7Rms4kd6nxsA"
+  },
+  {
+    "createdTime": "2026-08-29T21:12:15.000Z",
+    "fields": {
+      "Published_At": "2026-05-21T00:24:37.000Z",
+      "Region": "USA",
+      "Slug": "payer-ais-scaling-problem-why-pilot-success-isnt-translating-to-enterprise-results",
+      "Status": "published",
+      "Title": "Payer AI's Scaling Problem: Why Pilot Success Isn't Translating to Enterprise Results",
+      "WP_Post_ID": 3598,
+      "WP_URL": "https://healthsignals.news/payer-ais-scaling-problem-why-pilot-success-isnt-translating-to-enterprise-results/"
+    },
+    "id": "recKoSdFKUdTWCN4V"
+  },
+  {
+    "createdTime": "2026-08-29T21:12:46.000Z",
+    "fields": {
+      "Published_At": "2026-05-27T17:25:28.000Z",
+      "Region": "USA",
+      "Slug": "tennessee-bans-pbm-pharmacy-ownership-putting-cvs-and-optum-on-divestiture-clock",
+      "Status": "published",
+      "Title": "Tennessee Bans PBM-Pharmacy Ownership, Putting CVS and Optum on Divestiture Clock",
+      "WP_Post_ID": 3949,
+      "WP_URL": "https://healthsignals.news/tennessee-bans-pbm-pharmacy-ownership-putting-cvs-and-optum-on-divestiture-clock/"
+    },
+    "id": "recLI0z68B8NC8avG"
+  },
+  {
+    "createdTime": "2026-08-29T21:12:15.000Z",
+    "fields": {
+      "Published_At": "2026-05-14T17:17:00.000Z",
+      "Region": "LATAM",
+      "Slug": "glp-1-drugs-race-to-100b-mexicos-14-million-diabetics-watch-from-the-sidelines",
+      "Status": "published",
+      "Title": "GLP-1 Drugs Race to $100B — Mexico’s 14 Million Diabetics Watch From the Sidelines",
+      "WP_Post_ID": 3378,
+      "WP_URL": "https://healthsignals.news/glp-1-drugs-race-to-100b-mexicos-14-million-diabetics-watch-from-the-sidelines/"
+    },
+    "id": "recLUGirWCP3xxGD3"
+  },
+  {
+    "createdTime": "2026-08-29T21:12:46.000Z",
+    "fields": {
+      "Published_At": "2026-05-26T12:19:47.000Z",
+      "Region": "USA",
+      "Slug": "qualtrics-acquires-press-ganey-for-6-75b-targeting-ai-driven-patient-experience-analytics",
+      "Status": "published",
+      "Title": "Qualtrics Acquires Press Ganey for $6.75B, Targeting AI-Driven Patient Experience Analytics",
+      "WP_Post_ID": 3873,
+      "WP_URL": "https://healthsignals.news/qualtrics-acquires-press-ganey-for-6-75b-targeting-ai-driven-patient-experience-analytics/"
+    },
+    "id": "recMrNDroINNKvGiv"
+  },
+  {
+    "createdTime": "2026-08-29T21:12:15.000Z",
+    "fields": {
+      "Published_At": "2026-05-23T15:34:10.000Z",
+      "Region": "LATAM",
+      "Slug": "novo-nordisk-brings-weekly-growth-hormone-to-brazil-challenging-daily-injection-incumbents",
+      "Status": "published",
+      "Title": "Novo Nordisk Brings Weekly Growth Hormone to Brazil, Challenging Daily-Injection Incumbents",
+      "WP_Post_ID": 3747,
+      "WP_URL": "https://healthsignals.news/novo-nordisk-brings-weekly-growth-hormone-to-brazil-challenging-daily-injection-incumbents/"
+    },
+    "id": "recPDdimElSKN6G8H"
+  },
+  {
+    "createdTime": "2026-08-29T21:12:46.000Z",
+    "fields": {
+      "Published_At": "2026-07-30T14:03:48.000Z",
+      "Region": "LATAM",
+      "Slug": "colombias-passus-ips-warns-of-service-suspension-over-eps-debts",
+      "Status": "draft",
+      "Title": "Colombia's PASSUS IPS Warns of Service Suspension Over EPS Debts",
+      "WP_Post_ID": 4101,
+      "WP_URL": "https://healthsignals.news/?p=4101"
+    },
+    "id": "recPdA3c8PGGGG4Yg"
+  },
+  {
+    "createdTime": "2026-08-29T21:12:15.000Z",
+    "fields": {
+      "Published_At": "2026-05-23T21:06:54.000Z",
+      "Region": "LATAM",
+      "Slug": "brazil-opens-cannabis-api-export-channel-as-anvisa-modernizes-pharmacopoeia-standards",
+      "Status": "published",
+      "Title": "Brazil Opens Cannabis API Export Channel as ANVISA Modernizes Pharmacopoeia Standards",
+      "WP_Post_ID": 3782,
+      "WP_URL": "https://healthsignals.news/brazil-opens-cannabis-api-export-channel-as-anvisa-modernizes-pharmacopoeia-standards/"
+    },
+    "id": "recRDmHASQhY4lE78"
+  },
+  {
+    "createdTime": "2026-08-29T21:12:15.000Z",
+    "fields": {
+      "Published_At": "2026-05-20T23:18:19.000Z",
+      "Region": "LATAM",
+      "Slug": "argentinas-disability-payment-crisis-a-72-hour-court-order-that-rewrites-payer-accountability",
+      "Status": "published",
+      "Title": "Argentina's Disability Payment Crisis: A 72-Hour Court Order That Rewrites Payer Accountability",
+      "WP_Post_ID": 3558,
+      "WP_URL": "https://healthsignals.news/argentinas-disability-payment-crisis-a-72-hour-court-order-that-rewrites-payer-accountability/"
+    },
+    "id": "recREk6qqWtoaRVWs"
+  },
+  {
+    "createdTime": "2026-08-29T21:12:15.000Z",
+    "fields": {
+      "Published_At": "2026-05-19T19:37:05.000Z",
+      "Region": "USA",
+      "Slug": "cms-draws-a-diagnostic-line-on-alzheimers-drugs-and-240000-patients-fall-outside-it",
+      "Status": "published",
+      "Title": "CMS Draws a Diagnostic Line on Alzheimer's Drugs — and 240,000 Patients Fall Outside It",
+      "WP_Post_ID": 3521,
+      "WP_URL": "https://healthsignals.news/cms-draws-a-diagnostic-line-on-alzheimers-drugs-and-240000-patients-fall-outside-it/"
+    },
+    "id": "recTjMIRn5bqqEDzj"
+  },
+  {
+    "createdTime": "2026-08-29T21:12:15.000Z",
+    "fields": {
+      "Published_At": "2026-05-04T19:33:09.000Z",
+      "Region": "USA",
+      "Slug": "fda-fast-tracks-psychedelic-drugs-psilocybin-methylone-2026",
+      "Status": "published",
+      "Title": "FDA Fast-Tracks Three Psychedelic Drugs — 1-2 Month Review vs. Standard 12 Months",
+      "WP_Post_ID": 90,
+      "WP_URL": "https://healthsignals.news/fda-fast-tracks-psychedelic-drugs-psilocybin-methylone-2026/"
+    },
+    "id": "recTnVJKsfASnaK2s"
+  },
+  {
+    "createdTime": "2026-08-29T21:12:15.000Z",
+    "fields": {
+      "Published_At": "2026-05-20T21:30:54.000Z",
+      "Region": "USA",
+      "Slug": "the-regulatory-fork-in-the-road-how-think-tank-blueprints-are-shaping-ais-clinical-future",
+      "Status": "published",
+      "Title": "The Regulatory Fork in the Road: How Think Tank Blueprints Are Shaping AI's Clinical Future",
+      "WP_Post_ID": 3543,
+      "WP_URL": "https://healthsignals.news/the-regulatory-fork-in-the-road-how-think-tank-blueprints-are-shaping-ais-clinical-future/"
+    },
+    "id": "recUAwmfiNxtCN7ZT"
+  },
+  {
+    "createdTime": "2026-08-29T21:12:15.000Z",
+    "fields": {
+      "Published_At": "2026-05-21T15:30:08.000Z",
+      "Region": "LATAM",
+      "Slug": "argentina-rewrites-import-math-anmats-fee-shift-could-redraw-latam-supply-chains",
+      "Status": "published",
+      "Title": "Argentina Rewrites Import Math: ANMAT's Fee Shift Could Redraw LATAM Supply Chains",
+      "WP_Post_ID": 3650,
+      "WP_URL": "https://healthsignals.news/argentina-rewrites-import-math-anmats-fee-shift-could-redraw-latam-supply-chains/"
+    },
+    "id": "recUNYER9xTJeFR8o"
+  },
+  {
+    "createdTime": "2026-08-29T21:12:15.000Z",
+    "fields": {
+      "Published_At": "2026-05-19T18:12:04.000Z",
+      "Region": "LATAM",
+      "Slug": "brazil-healthcare-policy-ans-reinforces-oncology-authorization-mandates-amid-payer-compliance-pressure",
+      "Status": "published",
+      "Title": "Brazil Healthcare Policy: ANS Reinforces Oncology Authorization Mandates Amid Payer Compliance Pressure",
+      "WP_Post_ID": 3509,
+      "WP_URL": "https://healthsignals.news/brazil-healthcare-policy-ans-reinforces-oncology-authorization-mandates-amid-payer-compliance-pressure/"
+    },
+    "id": "recVQYYT9XBNHbS98"
+  },
+  {
+    "createdTime": "2026-08-29T21:12:15.000Z",
+    "fields": {
+      "Published_At": "2026-05-25T12:01:24.000Z",
+      "Region": "USA",
+      "Slug": "medtronic-bids-650m-for-spr-therapeutics-adding-non-implant-pain-option-to-neuromod-portfolio",
+      "Status": "published",
+      "Title": "Medtronic Bids $650M for SPR Therapeutics, Adding Non-Implant Pain Option to Neuromod Portfolio",
+      "WP_Post_ID": 3843,
+      "WP_URL": "https://healthsignals.news/medtronic-bids-650m-for-spr-therapeutics-adding-non-implant-pain-option-to-neuromod-portfolio/"
+    },
+    "id": "recWUhWmuFlnJshMD"
+  },
+  {
+    "createdTime": "2026-08-29T21:12:15.000Z",
+    "fields": {
+      "Published_At": "2026-05-24T17:51:04.000Z",
+      "Region": "USA",
+      "Slug": "sutter-health-and-allina-health-agree-to-merge-creating-an-18000-physician-nonprofit-system",
+      "Status": "published",
+      "Title": "Sutter Health and Allina Health Agree to Merge, Creating an 18,000-Physician Nonprofit System",
+      "WP_Post_ID": 3818,
+      "WP_URL": "https://healthsignals.news/sutter-health-and-allina-health-agree-to-merge-creating-an-18000-physician-nonprofit-system/"
+    },
+    "id": "recXhHWjet1nXA6Ai"
+  },
+  {
+    "createdTime": "2026-08-29T21:12:15.000Z",
+    "fields": {
+      "Published_At": "2026-05-21T15:42:05.000Z",
+      "Region": "LATAM",
+      "Slug": "argentina-cuts-5b-pesos-from-cancer-budget-while-guaranteeing-drug-supply-a-promise-under-pressure",
+      "Status": "published",
+      "Title": "Argentina Cuts $5B Pesos From Cancer Budget While Guaranteeing Drug Supply — A Promise Under Pressure",
+      "WP_Post_ID": 3654,
+      "WP_URL": "https://healthsignals.news/argentina-cuts-5b-pesos-from-cancer-budget-while-guaranteeing-drug-supply-a-promise-under-pressure/"
+    },
+    "id": "recYKfCySrxyXlbsD"
+  },
+  {
+    "createdTime": "2026-08-09T00:21:38.000Z",
+    "fields": {
+      "Published_At": "2026-08-07T17:43:36.000Z",
+      "Region": "LATAM",
+      "Slug": "anvisa-clears-datroway-for-egfr-mutated-lung-cancer",
+      "Status": "published",
+      "Title": "Anvisa Clears Datroway for EGFR-Mutated Lung Cancer",
+      "WP_Post_ID": 34782,
+      "WP_URL": "https://healthsignals.news/anvisa-clears-datroway-for-egfr-mutated-lung-cancer/"
+    },
+    "id": "recYgpu7SpqvekTAN"
+  },
+  {
+    "createdTime": "2026-08-29T21:12:15.000Z",
+    "fields": {
+      "Published_At": "2026-05-19T19:30:18.000Z",
+      "Region": "LATAM",
+      "Slug": "brazil-forces-insurers-to-cover-400k-cell-therapies-and-the-bill-is-coming-due",
+      "Status": "published",
+      "Title": "Brazil Forces Insurers to Cover $400K Cell Therapies — and the Bill Is Coming Due",
+      "WP_Post_ID": 3519,
+      "WP_URL": "https://healthsignals.news/brazil-forces-insurers-to-cover-400k-cell-therapies-and-the-bill-is-coming-due/"
+    },
+    "id": "recZO50yiwqFfZ0j8"
+  },
+  {
+    "createdTime": "2026-08-29T21:12:15.000Z",
+    "fields": {
+      "Published_At": "2026-05-24T14:07:28.000Z",
+      "Region": "USA",
+      "Slug": "fda-clears-first-protac-drug-for-breast-cancer-validating-a-new-therapeutic-mechanism",
+      "Status": "published",
+      "Title": "FDA Clears First PROTAC Drug for Breast Cancer, Validating a New Therapeutic Mechanism",
+      "WP_Post_ID": 3803,
+      "WP_URL": "https://healthsignals.news/fda-clears-first-protac-drug-for-breast-cancer-validating-a-new-therapeutic-mechanism/"
+    },
+    "id": "recc9NbMKhagPNKe1"
+  },
+  {
+    "createdTime": "2026-08-29T21:12:15.000Z",
+    "fields": {
+      "Published_At": "2026-05-22T18:18:45.000Z",
+      "Region": "LATAM",
+      "Slug": "brazil-rewrites-its-pharma-quality-rulebook-what-the-8th-farmacopeia-means-for-market-entry",
+      "Status": "published",
+      "Title": "Brazil Rewrites Its Pharma Quality Rulebook — What the 8th Farmacopeia Means for Market Entry",
+      "WP_Post_ID": 3715,
+      "WP_URL": "https://healthsignals.news/brazil-rewrites-its-pharma-quality-rulebook-what-the-8th-farmacopeia-means-for-market-entry/"
+    },
+    "id": "reccDrPYAmaxlHgX5"
+  },
+  {
+    "createdTime": "2026-08-09T00:21:38.000Z",
+    "fields": {
+      "Published_At": "2026-06-21T13:25:40.000Z",
+      "Region": "USA",
+      "Slug": "two-oral-glp-1-trials-clear-phase-2b-crowding-the-pipeline",
+      "Status": "published",
+      "Title": "Two Oral GLP-1 Trials Clear Phase 2b, Crowding the Pipeline",
+      "WP_Post_ID": 4055,
+      "WP_URL": "https://healthsignals.news/two-oral-glp-1-trials-clear-phase-2b-crowding-the-pipeline/"
+    },
+    "id": "recdNpkJ4tqJ5N3c5"
+  },
+  {
+    "createdTime": "2026-08-29T21:12:15.000Z",
+    "fields": {
+      "Published_At": "2026-05-21T16:39:52.000Z",
+      "Region": "LATAM",
+      "Slug": "argentinas-billing-transparency-deadline-slips-but-the-mandate-holds",
+      "Status": "published",
+      "Title": "Argentina's Billing Transparency Deadline Slips — But the Mandate Holds",
+      "WP_Post_ID": 3672,
+      "WP_URL": "https://healthsignals.news/argentinas-billing-transparency-deadline-slips-but-the-mandate-holds/"
+    },
+    "id": "recebFMYyLoQuKUuZ"
+  },
+  {
+    "createdTime": "2026-08-29T21:12:15.000Z",
+    "fields": {
+      "Published_At": "2026-05-21T16:55:15.000Z",
+      "Region": "LATAM",
+      "Slug": "argentina-bets-on-single-dose-rsv-shield-displacing-palivizumab-across-public-sector",
+      "Status": "published",
+      "Title": "Argentina Bets on Single-Dose RSV Shield, Displacing Palivizumab Across Public Sector",
+      "WP_Post_ID": 3675,
+      "WP_URL": "https://healthsignals.news/argentina-bets-on-single-dose-rsv-shield-displacing-palivizumab-across-public-sector/"
+    },
+    "id": "recekvZaQJ2pq2Zo2"
+  },
+  {
+    "createdTime": "2026-08-29T21:12:15.000Z",
+    "fields": {
+      "Published_At": "2026-05-07T19:22:49.000Z",
+      "Region": "LATAM",
+      "Slug": "mexico-cofepris-reforma-farmaceutica-exclusividad-datos-patentes",
+      "Status": "published",
+      "Title": "Mexico rewrites pharmaceutical regulation: 5-year data exclusivity for new molecules and supplementary patents reshape the generic and biosimilar market",
+      "WP_Post_ID": 112,
+      "WP_URL": "https://healthsignals.news/mexico-cofepris-reforma-farmaceutica-exclusividad-datos-patentes/"
+    },
+    "id": "receyufbCOPvh7o3u"
+  },
+  {
+    "createdTime": "2026-08-29T21:12:15.000Z",
+    "fields": {
+      "Published_At": "2026-05-25T11:34:17.000Z",
+      "Region": "LATAM",
+      "Slug": "anvisa-clears-acoramidis-for-attr-cm-making-brazil-the-sixth-market-for-near-complete-ttr-stabilization",
+      "Status": "published",
+      "Title": "ANVISA Clears Acoramidis for ATTR-CM, Making Brazil the Sixth Market for Near-Complete TTR Stabilization",
+      "WP_Post_ID": 3828,
+      "WP_URL": "https://healthsignals.news/anvisa-clears-acoramidis-for-attr-cm-making-brazil-the-sixth-market-for-near-complete-ttr-stabilization/"
+    },
+    "id": "recffADVq0TpcfHB4"
+  },
+  {
+    "createdTime": "2026-08-29T21:12:15.000Z",
+    "fields": {
+      "Published_At": "2026-05-25T11:53:21.000Z",
+      "Region": "USA",
+      "Slug": "quorum-healths-nonprofit-pivot-sets-a-new-playbook-for-pe-owned-rural-hospital-exits",
+      "Status": "published",
+      "Title": "Quorum Health's Nonprofit Pivot Sets a New Playbook for PE-Owned Rural Hospital Exits",
+      "WP_Post_ID": 3831,
+      "WP_URL": "https://healthsignals.news/quorum-healths-nonprofit-pivot-sets-a-new-playbook-for-pe-owned-rural-hospital-exits/"
+    },
+    "id": "rechGgSjL2XPKiFFW"
+  },
+  {
+    "createdTime": "2026-08-29T21:12:15.000Z",
+    "fields": {
+      "Published_At": "2026-05-10T06:18:42.000Z",
+      "Region": "LATAM",
+      "Slug": "isa-saude-closes-30m-series-b-ifc-backs-brazils-hospital-at-home-leader-in-latams-largest-health-raise-of-early-2026",
+      "Status": "published",
+      "Title": "ISA Saúde closes $30M Series B — IFC backs Brazil’s hospital-at-home leader in LatAm’s largest health raise of early 2026",
+      "WP_Post_ID": 3356,
+      "WP_URL": "https://healthsignals.news/isa-saude-closes-30m-series-b-ifc-backs-brazils-hospital-at-home-leader-in-latams-largest-health-raise-of-early-2026/"
+    },
+    "id": "rechftTaUm8IbG5jI"
+  },
+  {
+    "createdTime": "2026-08-29T21:12:15.000Z",
+    "fields": {
+      "Published_At": "2026-05-18T18:08:44.000Z",
+      "Region": "LATAM",
+      "Slug": "brazil-ans-gene-therapy-coverage-framework",
+      "Status": "published",
+      "Title": "Brazil's ANS Proposes New Framework for Health Plan Coverage of Gene Therapies",
+      "WP_Post_ID": 3436,
+      "WP_URL": "https://healthsignals.news/brazil-ans-gene-therapy-coverage-framework/"
+    },
+    "id": "recjR3c47knRxgwqE"
+  },
+  {
+    "createdTime": "2026-08-29T21:12:15.000Z",
+    "fields": {
+      "Published_At": "2026-05-23T13:45:54.000Z",
+      "Region": "LATAM",
+      "Slug": "brazil-clears-serplulimab-for-sclc-handing-abbott-a-narrow-first-mover-window",
+      "Status": "published",
+      "Title": "Brazil Clears Serplulimab for SCLC, Handing Abbott a Narrow First-Mover Window",
+      "WP_Post_ID": 3727,
+      "WP_URL": "https://healthsignals.news/brazil-clears-serplulimab-for-sclc-handing-abbott-a-narrow-first-mover-window/"
+    },
+    "id": "recjzVVoKf7TEpWFJ"
+  },
+  {
+    "createdTime": "2026-08-29T21:12:15.000Z",
+    "fields": {
+      "Published_At": "2026-05-19T19:48:00.000Z",
+      "Region": "LATAM",
+      "Slug": "colombias-high-court-forces-biosimilar-parity-on-oncology-and-rewrites-the-rules-for-insurers",
+      "Status": "published",
+      "Title": "Colombia's High Court Forces Biosimilar Parity on Oncology — and Rewrites the Rules for Insurers",
+      "WP_Post_ID": 3523,
+      "WP_URL": "https://healthsignals.news/colombias-high-court-forces-biosimilar-parity-on-oncology-and-rewrites-the-rules-for-insurers/"
+    },
+    "id": "recltaWu6ZvZk0hmV"
+  },
+  {
+    "createdTime": "2026-08-29T21:12:15.000Z",
+    "fields": {
+      "Published_At": "2026-05-14T17:16:00.000Z",
+      "Region": "LATAM",
+      "Slug": "lillys-foundayo-cuts-diabetes-mortality-57-mexico-argentina-and-brazil-lead-landmark-phase-3-trial",
+      "Status": "published",
+      "Title": "Lilly's Foundayo Cuts Diabetes Mortality 57% — Mexico, Argentina and Brazil Lead Landmark Phase 3 Trial",
+      "WP_Post_ID": 3377,
+      "WP_URL": "https://healthsignals.news/lillys-foundayo-cuts-diabetes-mortality-57-mexico-argentina-and-brazil-lead-landmark-phase-3-trial/"
+    },
+    "id": "recm6JHmHGmz5c7TH"
+  },
+  {
+    "createdTime": "2026-08-29T21:12:15.000Z",
+    "fields": {
+      "Published_At": "2026-05-24T17:58:00.000Z",
+      "Region": "LATAM",
+      "Slug": "fiocruz-and-brazils-environment-ministry-launch-first-native-plant-urinary-drug-under-bioeconomy-mandate",
+      "Status": "published",
+      "Title": "Fiocruz and Brazil's Environment Ministry Launch First Native-Plant Urinary Drug Under Bioeconomy Mandate",
+      "WP_Post_ID": 3821,
+      "WP_URL": "https://healthsignals.news/fiocruz-and-brazils-environment-ministry-launch-first-native-plant-urinary-drug-under-bioeconomy-mandate/"
+    },
+    "id": "recmH4vEeK20Qpkft"
+  },
+  {
+    "createdTime": "2026-08-29T21:12:15.000Z",
+    "fields": {
+      "Published_At": "2026-05-24T18:02:24.000Z",
+      "Region": "USA",
+      "Slug": "biogen-posts-2-5b-q1-revenue-as-leqembi-persistence-data-and-spinraza-approval-reframe-post-aduhelm-narrative",
+      "Status": "published",
+      "Title": "Biogen Posts $2.5B Q1 Revenue as LEQEMBI Persistence Data and SPINRAZA Approval Reframe Post-Aduhelm Narrative",
+      "WP_Post_ID": 3824,
+      "WP_URL": "https://healthsignals.news/biogen-posts-2-5b-q1-revenue-as-leqembi-persistence-data-and-spinraza-approval-reframe-post-aduhelm-narrative/"
+    },
+    "id": "recmHQriafyDbI0QY"
+  },
+  {
+    "createdTime": "2026-08-29T21:12:15.000Z",
+    "fields": {
+      "Published_At": "2026-05-20T22:23:47.000Z",
+      "Region": "LATAM",
+      "Slug": "colombias-6-hiv-drug-sets-a-regional-precedent-that-pharma-cannot-ignore",
+      "Status": "published",
+      "Title": "Colombia's $6 HIV Drug Sets a Regional Precedent That Pharma Cannot Ignore",
+      "WP_Post_ID": 3546,
+      "WP_URL": "https://healthsignals.news/colombias-6-hiv-drug-sets-a-regional-precedent-that-pharma-cannot-ignore/"
+    },
+    "id": "recmjK7ZnX0IS1h3z"
+  },
+  {
+    "createdTime": "2026-08-29T21:12:15.000Z",
+    "fields": {
+      "Published_At": "2026-05-21T00:13:21.000Z",
+      "Region": "LATAM",
+      "Slug": "chiles-154m-oncology-rescue-a-stress-test-for-mixed-care-models",
+      "Status": "published",
+      "Title": "Chile's $154M Oncology Rescue: A Stress Test for Mixed-Care Models",
+      "WP_Post_ID": 3596,
+      "WP_URL": "https://healthsignals.news/chiles-154m-oncology-rescue-a-stress-test-for-mixed-care-models/"
+    },
+    "id": "recoURMYkjzehpOCr"
+  },
+  {
+    "createdTime": "2026-08-29T21:12:15.000Z",
+    "fields": {
+      "Published_At": "2026-05-10T06:17:35.000Z",
+      "Region": "LATAM",
+      "Slug": "brazils-sus-reaches-5-7-million-teleconsults-in-2929-municipalities-new-april-2026-dashboard-signals-digital-health-at-scale",
+      "Status": "published",
+      "Title": "Brazil’s SUS reaches 5.7 million teleconsults in 2,929 municipalities — new April 2026 dashboard signals digital health at scale",
+      "WP_Post_ID": 3355,
+      "WP_URL": "https://healthsignals.news/brazils-sus-reaches-5-7-million-teleconsults-in-2929-municipalities-new-april-2026-dashboard-signals-digital-health-at-scale/"
+    },
+    "id": "recpOXZaTCXY7oBr4"
+  },
+  {
+    "createdTime": "2026-08-29T21:12:46.000Z",
+    "fields": {
+      "Published_At": "2026-08-25T11:24:53.000Z",
+      "Region": "LATAM",
+      "Status": "draft",
+      "Title": "Argentina Switches Ten Rx Drugs to OTC, Cutting Insurance Cover",
+      "WP_Post_ID": 34785,
+      "WP_URL": "https://healthsignals.news/?p=34785"
+    },
+    "id": "recpyRkE6cj78Zaum"
+  },
+  {
+    "createdTime": "2026-08-29T21:12:15.000Z",
+    "fields": {
+      "Published_At": "2026-05-21T00:49:32.000Z",
+      "Region": "USA",
+      "Slug": "cmss-2027-api-mandate-health-plans-have-18-months-to-rewire-prior-authorization-or-lose-medicare-access",
+      "Status": "published",
+      "Title": "CMS's 2027 API Mandate: Health Plans Have 18 Months to Rewire Prior Authorization or Lose Medicare Access",
+      "WP_Post_ID": 3607,
+      "WP_URL": "https://healthsignals.news/cmss-2027-api-mandate-health-plans-have-18-months-to-rewire-prior-authorization-or-lose-medicare-access/"
+    },
+    "id": "recrD7WgG4zkQSlnw"
+  },
+  {
+    "createdTime": "2026-08-29T21:12:15.000Z",
+    "fields": {
+      "Published_At": "2026-05-20T23:33:09.000Z",
+      "Region": "LATAM",
+      "Slug": "brazils-biomarker-mandate-ans-forces-precision-oncology-into-private-coverage",
+      "Status": "published",
+      "Title": "Brazil's Biomarker Mandate: ANS Forces Precision Oncology Into Private Coverage",
+      "WP_Post_ID": 3561,
+      "WP_URL": "https://healthsignals.news/brazils-biomarker-mandate-ans-forces-precision-oncology-into-private-coverage/"
+    },
+    "id": "recu2tWhTZevb1ptS"
+  },
+  {
+    "createdTime": "2026-08-29T21:12:15.000Z",
+    "fields": {
+      "Published_At": "2026-05-24T14:27:01.000Z",
+      "Region": "LATAM",
+      "Slug": "brazils-ans-expands-mandatory-coverage-to-parp-inhibitors-and-atopic-dermatitis-biologic",
+      "Status": "published",
+      "Title": "Brazil's ANS Expands Mandatory Coverage to PARP Inhibitors and Atopic Dermatitis Biologic",
+      "WP_Post_ID": 3806,
+      "WP_URL": "https://healthsignals.news/brazils-ans-expands-mandatory-coverage-to-parp-inhibitors-and-atopic-dermatitis-biologic/"
+    },
+    "id": "recwXJfAw1Vq55jYl"
+  },
+  {
+    "createdTime": "2026-08-29T21:12:15.000Z",
+    "fields": {
+      "Published_At": "2026-05-18T18:08:44.000Z",
+      "Region": "LATAM",
+      "Slug": "brazil-ans-mandatory-car-t-coverage-private-plans",
+      "Status": "published",
+      "Title": "Brazil's ANS Proposes Mandatory Coverage for CAR-T Therapy: A Landmark Shift for Private Health Plans",
+      "WP_Post_ID": 3435,
+      "WP_URL": "https://healthsignals.news/brazil-ans-mandatory-car-t-coverage-private-plans/"
+    },
+    "id": "recwbkbhbP3hu0wwq"
+  },
+  {
+    "createdTime": "2026-08-29T21:12:15.000Z",
+    "fields": {
+      "Published_At": "2026-05-23T19:44:46.000Z",
+      "Region": "LATAM",
+      "Slug": "brazil-sets-national-accreditation-standard-for-digital-health-and-telemedicine",
+      "Status": "published",
+      "Title": "Brazil Sets National Accreditation Standard for Digital Health and Telemedicine",
+      "WP_Post_ID": 3771,
+      "WP_URL": "https://healthsignals.news/brazil-sets-national-accreditation-standard-for-digital-health-and-telemedicine/"
+    },
+    "id": "recx8TFMYoW4g0Fv4"
+  },
+  {
+    "createdTime": "2026-08-29T21:12:15.000Z",
+    "fields": {
+      "Published_At": "2026-05-21T16:09:41.000Z",
+      "Region": "LATAM",
+      "Slug": "brazils-health-premium-squeeze-9-9-rises-expose-the-limits-of-collective-plan-affordability",
+      "Status": "published",
+      "Title": "Brazil's Health Premium Squeeze: 9.9% Rises Expose the Limits of Collective Plan Affordability",
+      "WP_Post_ID": 3669,
+      "WP_URL": "https://healthsignals.news/brazils-health-premium-squeeze-9-9-rises-expose-the-limits-of-collective-plan-affordability/"
+    },
+    "id": "reczXuftkBIpGwL5a"
+  },
+  {
+    "createdTime": "2026-08-29T21:12:15.000Z",
+    "fields": {
+      "Published_At": "2026-05-14T12:57:12.000Z",
+      "Region": "USA",
+      "Slug": "fda-clears-bayesian-health-ai-for-sepsis-detection-18-mortality-reduction-in-icu",
+      "Status": "published",
+      "Title": "FDA Clears Bayesian Health AI for Sepsis Detection — 18% Mortality Reduction in ICU",
+      "WP_Post_ID": 3376,
+      "WP_URL": "https://healthsignals.news/fda-clears-bayesian-health-ai-for-sepsis-detection-18-mortality-reduction-in-icu/"
+    },
+    "id": "reczygnx787NDaIQq"
+  }
+]

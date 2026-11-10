@@ -1,0 +1,51 @@
+[
+  {
+    "createdTime": "2026-07-18T21:33:11.000Z",
+    "fields": {
+      "Edition": "Precision Oncology in LATAM — The precision gap",
+      "Learnings": "Reporte #2, primer output del motor. GLOBOCAN 2022 como spine (analogo al IDF). Métrica clave nueva: mortality-to-incidence ratio (calculada), reemplaza al 'undiagnosed' del reporte de diabetes. 16 pags. Fuentes: GLOBOCAN, ClinicalTrials, ecancer/ASCO (acceso), IARC (quote Bray). Learning: para temas sin data de gasto/proyeccion por pais, usar M:I ratio y proyeccion global como sustitutos honestos. GLOBOCAN factsheet PDFs usan codigo sin cero inicial (76-brazil no 076).",
+      "Status": "Draft",
+      "Topic": "Oncología de precisión"
+    },
+    "id": "rec4OQV6UjhRbp1cw"
+  },
+  {
+    "createdTime": "2026-08-09T03:19:38.000Z",
+    "fields": {
+      "Edition": "Cheap for sugar, dear for hearts — GLP-1 and cardiometabolic risk in Latin America",
+      "Fuente HTML": "Project claude.ai > claude/reporte-03-glp1-latam.html (21 pp, ALL_FIT, gates A y B pasados)",
+      "Learnings": "Reporte #3, 21 pp. Primer ciclo que corre los dos gates de punta a punta y el primero con research multi-pasa (5 agentes temáticos + 7 por país incluido EE.UU. como benchmark, ~2,1M tokens de subagente).\n\nTESIS: en LATAM el cuello de botella del GLP-1 nunca fue la patente sino la etiqueta y el pagador — 5 mecanismos distintos de bloqueo en 6 mercados, sociedades científicas adelante de reguladores y reguladores adelante de pagadores. 1 de 6 mercados tiene indicación CV aprobada (Brasil, 02/02/2026); 0 de 6 reembolsan para obesidad.\n\nMÉTRICA CENTRAL: premium de cardioprotección (index-own) = costo mensual dosis 2,4 mg / dosis 1 mg. Brasil 3,8x cruzado entre fabricantes y 1,93x like-for-like; EE.UU. 1,00x.\n\nRECETA USADA: F2 columnas+slope · portada CONCEPTUAL (dos etiquetas de precio a escala, cubo de azúcar vs corazón — desvío del rising-arrow asignado, pedido por Fer) · spotlights L2 agrupados por tipo de barrera · lente policy-and-payer (desvío del innovation-pipeline asignado: el research produjo money trail y regulatorio, no pipeline) · módulos timeline + voices + market-share + payer table + litigation.\n\nGATE B: SOBREVIVE DEGRADADA. 16 hallazgos, 5 bloqueantes, todos aplicados: (F1) el premium brasileño es 78% salto de marca y no de dosis — se publican ambos ratios; (F2) la comparación US$150 vs US$274 se invierte en salarios (47,2% vs 21,8%) — se publican las dos lecturas; (F3) 'Argentina precios más altos de la región' era falso contra las tablas propias, corregido a 'precios de originador'; (F6) 6 de 6 ensayos financiados por el fabricante, sin declarar — se agregó columna Funder y se degradó la etiqueta de independencia; (F9) todo el bloque de pagadores de EE.UU. sin fuente — atribuido a KFF. 18 intentos de refutación fallidos archivados.\n\nLEARNINGS PARA EL PRÓXIMO CICLO:\n1. Escribir primero y medir después NO funciona: la v1 sobrepasaba 200-770px por página en 18 de 19 páginas. Medir overflow por sección con JS en Chromium ANTES de dar por cerrado el HTML, y presupuestar ~950px de alto útil por página.\n2. El contenedor no tiene red para fonts.googleapis.com ni bancos de imágenes. Fotografía cayó del reporte. Fallback que funciona: apt-get install fonts-inter fonts-noto-core y agregar los fallbacks en cada font-family. Entregar SIEMPRE el HTML junto al PDF para que se renderice con las fuentes reales.\n3. Un índice propio que cruza fabricantes distintos en una celda y el mismo fabricante en las otras NO es comparable. Construir índices like-for-like o publicar ambas versiones desde el brief, no después del QA.\n4. La pasada 2 por país con matriz común es lo que hace publicable un panorama regional. Sin ella el reporte compara 2 países bien mirados contra 4 citados de paso.\n5. Cuando el reporte se auto-impone una contra-tesis, verificar la contra-tesis con el mismo rigor que la tesis: el meta-análisis que usábamos como objeción no incluyó a un solo paciente sin diabetes.\n\nCOSTO: research ~2,1M tokens de subagente + QA adversarial. Human review pendiente: US$100.",
+      "Published_Date": "2026-08-09",
+      "Status": "Draft",
+      "Topic": "GLP-1 cardiometabólico LATAM"
+    },
+    "id": "recJ25uiCLaVPpoy1"
+  },
+  {
+    "createdTime": "2026-08-10T17:50:22.000Z",
+    "fields": {
+      "Edition": "Diabetes in Latin America — The control gap (final)",
+      "Fuente HTML": "Local: Documents\\Claude\\Projects\\Healthsignals\\reporte-01-diabetes-final-v2-corregido-2026-10-02.html (original: claude/reporte-01-diabetes-final.html en report writer HS)",
+      "Learnings": "VERSIÓN FINAL LISTA PARA PUBLICAR (aprobada por Fer). claude/reporte-01-diabetes-final.html — conjunto tapa + reporte, 17 pp, overflow 0.\n\nTAPA (aprobada): tipográfica bold 'SPECIAL REPORT / DIABETES IN LATIN AMERICA / 2026' (verde de marca) + gota de sangre como gauge rotulado (rojo = 78/100 NO bajo control, los que se pierden; punta clara = 22/100 bajo control) + título 'The control gap.' + footer sin 'Prototype edition'. Arte 100% original (sin stock/copyright). Misma imagen = tile de /reports/.\n\nPUBLICACIÓN: este PDF va con LINK DIRECTO (es el gancho); los próximos reportes irán con SUSCRIPCIÓN. Assets listos (diabetes-latam-2026-the-control-gap.pdf + hs-diabetes-cover-tile.png) y bloque HTML del tile entregados. Subida de binarios a Media Library = manual (wp-admin) porque la MCP pide base64 inline y no es fiable desde el contenedor. /reports/ es página Elementor (page 3864); editar la card a mano (o probar por API en borrador). PDF_Link vivo = URL de Media una vez subido (pendiente).\n\nProceso: GATE D tapa formalizado (proceso-tapa-reporte.md, Claude Design, aprende de tapas previas); publicación en P4. 2ª corrida adversarial (tesis 1 SOBREVIVE DEGRADADA), auditoría de fuentes, reuse 25/96.",
+      "PDF_Link": "https://healthsignals.news/wp-content/uploads/2026/10/diabetes-latam-2026-the-control-gap.pdf",
+      "Published_Date": "2026-09-14",
+      "Sponsor": "HealthSignals",
+      "Status": "Published",
+      "Topic": "Diabetes LATAM"
+    },
+    "id": "recqKf6EHqh5B6Bjj"
+  },
+  {
+    "createdTime": "2026-08-11T02:36:55.000Z",
+    "fields": {
+      "Datapoints_new": 71,
+      "Datapoints_reused": 25,
+      "Edition": "Diabetes in Latin America — v3 (The control gap)",
+      "Fuente HTML": "claude/reporte-01-diabetes-v3.html",
+      "Learnings": "REESCRITURA COMPLETA tras la caída de la tesis central en el QA adversarial del 29/07/2026. Brief salteado por autorización de Fer, asumiendo las reformulaciones ya redactadas en Engine_Decisions.\n\nTESIS NUEVA: el problema de América Latina no es la detección sino el CONTROL. En los dos únicos mercados que miden la cascada completa, unos 22 de cada 100 con diabetes alcanzan HbA1c<7% (México 22,5 vía Ensanut Continua 2021-24; Brasil 22,5 vía PNS 2014/2015). México medica al 90,9% de sus diagnosticados y controla al 33,0%: el embudo se rompe DESPUÉS del tratamiento, no antes.\n\nQUÉ SE CORRIGIÓ\n1. Colombia 16,2% deja de ser benchmark: es el mínimo de 215 países (Teufel, Diabetes Care 2026). Tratado como artefacto de medición.\n2. México 41,3% modelado → 31,8% medido (Ensanut). Se declara la discrepancia de 9,5 puntos y se refuta la explicación de la v2 (autorreporte vs estandarización): el componente no diagnosticado de Ensanut es bioquímico.\n3. Denominadores separados: 828m (18+), 754m (30+), 589m (20-79). Nunca se dividen entre sí.\n4. Barra 'latinoamericana' de p.04 eliminada (era ~71% EE.UU./Canadá). Total LATAM real ~49m, no ~92m.\n5. Monodependencia IDF rota: financiadores (Sanofi, Novo Nordisk, MSD) al pie de CADA gráfico que usa el Atlas; corroboración contra NCD-RisC (UK MRC/UKRI/US CDC) y encuestas nacionales.\n6. IQVIA eliminado. Money trail nuevo: índice propio de semaglutida 1 mg como % del salario mínimo (7 mercados, misma molécula, misma dosis, mismo mes) + gasto de bolsillo WHO GHED 2023.\n7. Roche 128 sitios retirado. AMAZE 2 publicado como 74 sitios globales / 14 latinoamericanos / 13 reclutando.\n8. Conteos de ensayos re-ejecutados 11/08/2026, depurados de los 5 falsos positivos 'New Mexico': BR 37, AR 19, MX 15, CL 6, CO 2, PE 0.\n9. Las 4 citas de la v2 se conservan verbatim, sin tocar.\n\nAPRENDIZAJES OPERATIVOS\n- Un dato peer-reviewed puede no ser independiente: Teufel et al. tiene tres autores del IDF. Revisar afiliaciones, no solo la revista.\n- La contra-tesis se verificó y GANÓ parcialmente: el registro CAC colombiano apoya la cifra baja (~13%). Se publicó igual, en tabla de tres respuestas en p.11. Lo refutado fue la interpretación, no el número.\n- Simetría respetada: la cascada existe solo en 2 de 6 mercados, así que NO se armó tabla comparativa regional; la ausencia se publicó como hallazgo.\n- Brasil publicado con vintage declarado (2014/2015) tras agotar la escalera: recencia de publicación ≠ recencia del dato.\n- MAQUETADO: 17 páginas, ALL_FIT verificado con script inyectado vía chromium --dump-dom. Requirió ~8 iteraciones. Palancas que más rindieron, en orden: padding de .page 18/16mm → 15/12mm, body 10,2→9,9pt con line-height 1,5→1,44, compresión vertical de los SVG al 80% (solo coordenadas y, las x que codifican datos intactas), y recién después recortes de prosa. Medir antes de escribir la página 17 hubiera ahorrado la mitad del trabajo.\n- Fallbacks de fuente indispensables: en el contenedor no resuelve Google Fonts, el PDF sale con Inter y Noto Serif.\n\nReuse rate 25/96 = 26%. Bajo porque el cache era mayoritariamente GLP-1 y oncología; el gasto de bolsillo armonizado WHO GHED 2023 (7 mercados) y el índice de precio de semaglutida (7 mercados) se reusaron enteros y sostienen todo el money trail.",
+      "Published_Date": "2026-08-11",
+      "Topic": "Diabetes LATAM"
+    },
+    "id": "recwQZcwXacFAyFP3"
+  }
+]

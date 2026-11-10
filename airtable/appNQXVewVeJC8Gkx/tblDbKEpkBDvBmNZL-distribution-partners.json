@@ -1,0 +1,610 @@
+[
+  {
+    "createdTime": "2026-10-21T22:15:24.000Z",
+    "fields": {
+      "Audience estimate": "1.000-2.000 en LinkedIn (estimación)",
+      "Batch": "Reserva (reemplazada por T1 diabetes, 21-10)",
+      "Channel": "LinkedIn",
+      "Contact": "Andrea Alcaraz (vigencia sin verificar)",
+      "Country": "Argentina",
+      "Language": "ES",
+      "Notes": "Confirmar presidencia actual antes del DM.",
+      "Organization": "ISPOR Capítulo Argentina (SAFIR)",
+      "Role": "Presidenta según comisión 2021",
+      "Source URL": "https://linkedin.com/in/ispor-argentina",
+      "Status": "To contact",
+      "Type": "Socio"
+    },
+    "id": "rec0CdMkljcGEC0hD"
+  },
+  {
+    "createdTime": "2026-11-02T14:15:23.000Z",
+    "fields": {
+      "Audience estimate": "Sin número publicado (estimación pendiente); 24 sociedades filiales estatales según boletín oct-2025",
+      "Batch": "T3-2026-11-02",
+      "Channel": "Email",
+      "Contact": "Dr. José Alberto Díaz Quiñonez",
+      "Country": "Mexico",
+      "Email": "smsp@smsp.org.mx",
+      "Gmail draft id": "r4135591871400073118",
+      "Language": "ES",
+      "Notes": "2026-11-02: revisión adversarial: título real del informe",
+      "Organization": "SMSP (Sociedad Mexicana de Salud Pública)",
+      "Role": "Presidente 2025-2026",
+      "Source URL": "https://www.smsp.org.mx/consejo-directivo.html ; https://smsp.org.mx/",
+      "Status": "Drafted",
+      "Type": "Socio"
+    },
+    "id": "rec1iL2wvvcPa9Dxg"
+  },
+  {
+    "createdTime": "2026-10-21T22:15:24.000Z",
+    "fields": {
+      "Audience estimate": "30-60 alumnos (estimación)",
+      "Batch": "Reserva (reemplazada por T1 diabetes, 21-10)",
+      "Channel": "LinkedIn",
+      "Contact": "Hortensia Reyes Morales",
+      "Country": "Mexico",
+      "Language": "ES",
+      "Notes": "El email publicado del CISS es de otra persona (francisco.molina@insp.mx): buscar la coordinación de la maestría o ir por LinkedIn.",
+      "Organization": "INSP — Maestría en Ciencias en Economía de la Salud (CISS)",
+      "Role": "Directora del CISS",
+      "Source URL": "https://insp.mx/centros/sistemas-de-salud/",
+      "Status": "To contact",
+      "Type": "Docente"
+    },
+    "id": "rec2Bpwh6uuXQagHt"
+  },
+  {
+    "createdTime": "2026-11-09T13:55:06.000Z",
+    "fields": {
+      "Audience estimate": "Sin número verificado hoy (estimación); nota 21-10 citaba red de 400.000+, mayormente comunidad y familias, no B2B",
+      "Batch": "T4-2026-11-09",
+      "Channel": "Email",
+      "Contact": "Cliff Despres",
+      "Country": "United States",
+      "Email": "despres@uthscsa.edu",
+      "Gmail draft id": "r-628290777919260205",
+      "Language": "EN",
+      "Notes": "2026-11-09 (lunes, paso 4): email leído en la página oficial del equipo. Fit medio (salud latina, audiencia comunitaria). Borrador en Gmail creado; pendiente revisión adversarial (orquestador) antes de Drafted/Batch.",
+      "Organization": "Salud America! (UT Health San Antonio, Institute for Health Promotion Research)",
+      "Role": "Communications Manager",
+      "Source URL": "https://www.salud-america.org/our-team/",
+      "Status": "Drafted",
+      "Type": "Socio"
+    },
+    "id": "rec2RbbSEMY15Z8yL"
+  },
+  {
+    "createdTime": "2026-10-21T23:57:30.000Z",
+    "fields": {
+      "Batch": "Espera: caso media partner congresos abierto hasta ~9-11",
+      "Channel": "Email",
+      "Contact": "Guillermo González Gálvez",
+      "Country": "Mexico",
+      "Email": "contacto@endocrinologia.org.mx",
+      "Language": "ES",
+      "Notes": "No escribir hasta cerrar el caso de congresos; después ofrecer el informe dentro del mismo hilo. smne.org.mx redirige a otro sitio.",
+      "Organization": "SMNE (Sociedad Mexicana de Nutrición y Endocrinología)",
+      "Role": "Presidente (2026)",
+      "Source URL": "https://endocrinologia.org.mx",
+      "Status": "To contact",
+      "Type": "Socio"
+    },
+    "id": "rec34HZ7mu8N069vw"
+  },
+  {
+    "createdTime": "2026-10-26T12:59:25.000Z",
+    "fields": {
+      "Audience estimate": "Sin número publicado (estimación pendiente)",
+      "Channel": "Email",
+      "Contact": "Dr. Gilbert Burgos",
+      "Country": "United States",
+      "Email": "nhma@nhmamd.org",
+      "Language": "EN",
+      "Notes": "2026-10-26 (lunes 26-10, paso 4): email general nhma@ publicado en la página oficial de contacto. Alternativa publicada: aturcios@nhmamd.org (Media/Press Inquiries). Título de A. Turcios sin verificar. Pendiente: revisión adversarial y borrador en Gmail de editor@.",
+      "Organization": "NHMA (National Hispanic Medical Association)",
+      "Role": "President (3-year term from 2026-05-13, per nhmamd.org/president)",
+      "Source URL": "https://www.nhmamd.org/contact-us",
+      "Status": "To contact",
+      "Type": "Socio"
+    },
+    "id": "rec4IJv2Jw65cfwOX"
+  },
+  {
+    "createdTime": "2026-11-09T13:55:06.000Z",
+    "fields": {
+      "Audience estimate": "Sin número publicado (estimación pendiente)",
+      "Batch": "T4-2026-11-09",
+      "Channel": "Email",
+      "Contact": "Kathryn McCollister",
+      "Country": "United States",
+      "Email": "kmccolli@miami.edu",
+      "Gmail draft id": "r-1156995683961755469",
+      "Language": "EN",
+      "Notes": "2026-11-09 (lunes, paso 4): email leído en la página oficial de la división (ofuscado en entidades; decodificado). Dedupe: distinto de UMIA (instituto). Borrador en Gmail creado; pendiente revisión adversarial (orquestador) antes de Drafted/Batch.",
+      "Organization": "University of Miami Miller School of Medicine — Department of Public Health Sciences",
+      "Role": "Professor and Health Economist, Dept. of Public Health Sciences (nota de junio 2025 la nombra Interim Chair; vigencia sin verificar, no citar cargo)",
+      "Source URL": "https://www.publichealth.med.miami.edu/divisions/health-services-research-and-policy/faculty/index.html ; https://www.publichealth.med.miami.edu/news/news-releases/2025/dr-kathryn-mccollister-appointed-interim-chair-of-the-department-of-public-health-sciences/index.html",
+      "Status": "Drafted",
+      "Type": "Docente"
+    },
+    "id": "rec6DwOcmRrBiNhfZ"
+  },
+  {
+    "createdTime": "2026-10-21T22:15:24.000Z",
+    "fields": {
+      "Audience estimate": "3.000-10.000 (estimación)",
+      "Batch": "Reserva (reemplazada por T1 diabetes, 21-10)",
+      "Channel": "Email",
+      "Contact": "Augusto Galán Sarmiento",
+      "Country": "Colombia",
+      "Email": "comunicaciones@asivamosensalud.org",
+      "Gmail draft id": "r7560526239445383343",
+      "Language": "ES",
+      "Organization": "Así Vamos en Salud",
+      "Role": "Director",
+      "Source URL": "https://asivamosensalud.org/quienes-somos/equipo-de-trabajo",
+      "Status": "To contact",
+      "Type": "Socio"
+    },
+    "id": "rec8NXIeCtyUi1thm"
+  },
+  {
+    "createdTime": "2026-10-21T23:57:30.000Z",
+    "fields": {
+      "Batch": "T1-diabetes-2026-10-21",
+      "Channel": "Email",
+      "Contact": "José Luis Torres",
+      "Country": "Colombia",
+      "Email": "secretario@endocrino.org.co",
+      "Follow-up date": "2026-10-28",
+      "Gmail draft id": "r1594542876998494215",
+      "Language": "ES",
+      "Notes": "Alternativa: noticias@endocrino.org.co. 2026-10-29: borrador de seguimiento único creado (r1594542876998494215), espera OK de Fer. Status sigue Sent hasta que se envíe.",
+      "Organization": "ACE (Asociación Colombiana de Endocrinología, Diabetes y Metabolismo)",
+      "Role": "Presidente (2025-2027)",
+      "Sent date": "2026-10-21",
+      "Status": "Sent",
+      "Type": "Socio"
+    },
+    "id": "recA5GQJvzzuC6LzG"
+  },
+  {
+    "createdTime": "2026-10-21T22:15:24.000Z",
+    "fields": {
+      "Audience estimate": "300-1.000 (estimación)",
+      "Batch": "T2-diabetes-2026-10-28",
+      "Channel": "Email",
+      "Contact": "Pedro Jiménez Aranda",
+      "Country": "Mexico",
+      "Email": "contacto@ispormexico.com",
+      "Follow-up date": "2026-11-04",
+      "Gmail draft id": "r-8410198051772603646",
+      "Language": "ES",
+      "Organization": "ISPOR Mexico Chapter",
+      "Role": "Presidente (2026-2027)",
+      "Sent date": "2026-10-28",
+      "Source URL": "https://es.linkedin.com/posts/ispor-mexico-chapter-b904ba280_ispormexico-heor-hta-activity-7508696308908441600-08Lv",
+      "Status": "Sent",
+      "Type": "Socio"
+    },
+    "id": "recAVPe2B8yiD52Em"
+  },
+  {
+    "createdTime": "2026-10-21T22:15:24.000Z",
+    "fields": {
+      "Audience estimate": "5.000-15.000 (estimación)",
+      "Batch": "T2-diabetes-2026-10-28",
+      "Channel": "Email",
+      "Contact": "Héctor Valle Mesto",
+      "Country": "Mexico",
+      "Email": "hvalle@funsalud.org.mx",
+      "Follow-up date": "2026-11-04",
+      "Gmail draft id": "r-5091094119489847694",
+      "Language": "ES",
+      "Notes": "Email de directorio 2019: si rebota, reenviar a contacto@funsalud.org.mx. Verificar si la Sepúlveda del Consejo es la de Voices T1.",
+      "Organization": "FUNSALUD (Fundación Mexicana para la Salud)",
+      "Role": "Presidente ejecutivo",
+      "Sent date": "2026-10-28",
+      "Source URL": "https://funsalud.org.mx/funsalud/directorio/",
+      "Status": "Sent",
+      "Type": "Socio"
+    },
+    "id": "recBghbrkRqozaCJ2"
+  },
+  {
+    "createdTime": "2026-10-21T22:15:24.000Z",
+    "fields": {
+      "Audience estimate": "500-1.000 (estimación)",
+      "Batch": "T2-diabetes-2026-10-28",
+      "Channel": "Email",
+      "Contact": "Wilson Follador",
+      "Country": "Brazil",
+      "Email": "secretaria@ispor.org.br",
+      "Follow-up date": "2026-11-04",
+      "Gmail draft id": "r-3257382774656270164",
+      "Language": "PT",
+      "Notes": "Presidente socio de consultora (Sano-Efiko): solo canal, no cliente.",
+      "Organization": "ISPOR Capítulo Brasil",
+      "Role": "Presidente (2024-2026)",
+      "Sent date": "2026-10-28",
+      "Source URL": "https://ispor.org.br/home/ispor-capitulo-brasil/diretoria-ispor-capitulo-brasil/",
+      "Status": "Sent",
+      "Type": "Socio"
+    },
+    "id": "recCBDJE9duU0qSy0"
+  },
+  {
+    "createdTime": "2026-10-21T22:15:24.000Z",
+    "fields": {
+      "Audience estimate": "40-80 alumnos (estimación)",
+      "Batch": "T2-diabetes-2026-10-28",
+      "Channel": "Email",
+      "Contact": "Arturo Schweiger",
+      "Country": "Argentina",
+      "Email": "informes@isalud.edu.ar",
+      "Follow-up date": "2026-11-04",
+      "Gmail draft id": "r-3794185111838178709",
+      "Language": "ES",
+      "Notes": "Casilla general del posgrado: complementar con DM de Fer.",
+      "Organization": "ISALUD — Maestría en Economía y Gestión de la Salud",
+      "Role": "Director",
+      "Sent date": "2026-10-28",
+      "Source URL": "https://ftp.isalud.edu.ar/news/posgrado_economia/",
+      "Status": "Sent",
+      "Type": "Docente"
+    },
+    "id": "recHKBoT4BuXDJjzy"
+  },
+  {
+    "createdTime": "2026-10-21T22:15:24.000Z",
+    "fields": {
+      "Audience estimate": "30-60 alumnos por año (estimación)",
+      "Batch": "Reserva (reemplazada por T1 diabetes, 21-10)",
+      "Channel": "LinkedIn",
+      "Contact": "Jairo Humberto Restrepo Zea",
+      "Country": "Colombia",
+      "Language": "ES",
+      "Organization": "Universidad de Antioquia — Maestría en Economía de la Salud",
+      "Role": "Coordinador académico",
+      "Source URL": "https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/estudiar-facultad/posgrados/maestria-economia-salud/Contenido/asMenuLateral/planta-docente",
+      "Status": "To contact",
+      "Type": "Docente"
+    },
+    "id": "recHxLQp6aGaxprL6"
+  },
+  {
+    "createdTime": "2026-10-21T22:15:24.000Z",
+    "fields": {
+      "Audience estimate": "4.149 seguidores LinkedIn (fuente)",
+      "Batch": "Suplente",
+      "Channel": "LinkedIn",
+      "Country": "Argentina",
+      "Language": "ES",
+      "Organization": "AES Argentina (Asociación de Economía de la Salud)",
+      "Status": "To contact",
+      "Type": "Socio"
+    },
+    "id": "recNl7eKFvqZRiqTj"
+  },
+  {
+    "createdTime": "2026-10-21T23:57:30.000Z",
+    "fields": {
+      "Batch": "T1-diabetes-2026-10-21",
+      "Channel": "Email",
+      "Contact": "Carla Musso",
+      "Country": "Argentina",
+      "Email": "sad@diabetes.org.ar",
+      "Follow-up date": "2026-10-28",
+      "Gmail draft id": "r-199097337211238575",
+      "Language": "ES",
+      "Notes": "Socios Cooperadores corporativos. Alternativa: info@diabetes.org.ar. 2026-10-29: borrador de seguimiento único creado (r-199097337211238575), espera OK de Fer. Status sigue Sent hasta que se envíe.",
+      "Organization": "SAD (Sociedad Argentina de Diabetes)",
+      "Role": "Presidenta",
+      "Sent date": "2026-10-21",
+      "Status": "Sent",
+      "Type": "Socio"
+    },
+    "id": "recQ4YnM00EwCPNql"
+  },
+  {
+    "createdTime": "2026-10-21T22:15:24.000Z",
+    "fields": {
+      "Audience estimate": "1.200+ graduados (fuente)",
+      "Batch": "T2-diabetes-2026-10-28",
+      "Channel": "Email",
+      "Contact": "Paulina Pino Zuñiga",
+      "Country": "Chile",
+      "Email": "ppino@uchile.cl",
+      "Follow-up date": "2026-11-04",
+      "Gmail draft id": "r1754484845259333615",
+      "Language": "ES",
+      "Organization": "Universidad de Chile — Magíster en Salud Pública",
+      "Role": "Coordinadora",
+      "Sent date": "2026-10-28",
+      "Source URL": "https://medicina.uchile.cl/postgrados/50751/salud-publica",
+      "Status": "Sent",
+      "Type": "Docente"
+    },
+    "id": "recS0uHzGz1Q5h6RM"
+  },
+  {
+    "createdTime": "2026-11-02T14:15:23.000Z",
+    "fields": {
+      "Audience estimate": "Sin número publicado (estimación pendiente)",
+      "Channel": "Email",
+      "Contact": "Maria de Lourdes Despradel",
+      "Country": "United States",
+      "Email": "mdespradel@as-coa.org",
+      "Language": "EN",
+      "Notes": "2026-11-02: adversarial NO ENVIAR: Despradel no figura en staff actual (as-coa.org/about/staff); as-coamiami@ no publicado; posibles contactos Guillermo Zubillaga / Ragnhild Melzi, canal a confirmar",
+      "Organization": "AS/COA Healthcare Series (Americas Society / Council of the Americas)",
+      "Role": "Contacto del Healthcare Series según informe oficial 2022 (cargo actual sin verificar en página oficial)",
+      "Source URL": "https://www.as-coa.org/sites/default/files/2023-02/2022%20Activities%20Report%20Healthcare_COA.pdf ; https://www.as-coa.org/engage",
+      "Status": "To contact",
+      "Type": "Socio"
+    },
+    "id": "recSEJl8MCDqJi30Q"
+  },
+  {
+    "createdTime": "2026-10-21T22:15:24.000Z",
+    "fields": {
+      "Audience estimate": "2.000-3.000 (estimación)",
+      "Batch": "T2-diabetes-2026-10-28",
+      "Channel": "Email",
+      "Contact": "Juan Guillermo Barrientos Gómez",
+      "Country": "Colombia",
+      "Email": "comunicaciones@isporcolombia.org",
+      "Follow-up date": "2026-11-04",
+      "Gmail draft id": "r3427968004218103284",
+      "Language": "ES",
+      "Notes": "Rosselli (Voices T1) lo presidió en 2017: no mezclar pedidos.",
+      "Organization": "ISPOR Colombia",
+      "Role": "Presidente",
+      "Sent date": "2026-10-28",
+      "Source URL": "https://www.isporcolombia.org/nosotros/",
+      "Status": "Sent",
+      "Type": "Socio"
+    },
+    "id": "recSn1KZPvG5aZnxU"
+  },
+  {
+    "createdTime": "2026-10-26T12:59:25.000Z",
+    "fields": {
+      "Audience estimate": "35 vacantes por cohorte (fuente); egresados: sin dato",
+      "Channel": "LinkedIn",
+      "Contact": "Mag. Julio Mayca Pérez",
+      "Country": "Peru",
+      "Language": "ES",
+      "Notes": "2026-10-26 (lunes 26-10, paso 4): folleto oficial 2026 sin email ni teléfono; solo cuenta posgradocayetano y portal postula.upch.edu.pe. Canal: LinkedIn/formulario del posgrado. Es maestría de gestión, no de economía de la salud: fit medio.",
+      "Organization": "Universidad Peruana Cayetano Heredia — Maestría en Gerencia en Salud",
+      "Role": "Coordinador del programa",
+      "Source URL": "https://posgrado.cayetano.edu.pe/wp-content/uploads/sites/13/2026/01/BR_GERENCIA-EN-SALUD.pdf",
+      "Status": "To contact",
+      "Type": "Docente"
+    },
+    "id": "recUqqgGAy0Ba6C4o"
+  },
+  {
+    "createdTime": "2026-11-02T14:15:23.000Z",
+    "fields": {
+      "Audience estimate": "Sin número publicado (estimación pendiente)",
+      "Batch": "T3-2026-11-02",
+      "Channel": "Email",
+      "Contact": "Dr. Lillian Manzor",
+      "Country": "United States",
+      "Email": "lmanzor@miami.edu",
+      "Gmail draft id": "r3394244228630353954",
+      "Language": "EN",
+      "Notes": "2026-11-02: revisión adversarial: título real del informe. Manzor figura como interim director (news.miami.edu 28-04-2025); no citar cargo.",
+      "Organization": "UMIA (University of Miami Institute for Advanced Study of the Americas)",
+      "Role": "Director, UMIA",
+      "Source URL": "https://mia.as.miami.edu/about-us/the-team/index.html ; https://mia.as.miami.edu/initiatives/index.html",
+      "Status": "Drafted",
+      "Type": "Socio"
+    },
+    "id": "recZ194yCjqKiSo0x"
+  },
+  {
+    "createdTime": "2026-10-21T23:57:30.000Z",
+    "fields": {
+      "Batch": "T1-diabetes-2026-10-21",
+      "Channel": "Email",
+      "Contact": "Edgar Mora Brito",
+      "Country": "Regional",
+      "Email": "comunicaciones@aladlatam.org",
+      "Follow-up date": "2026-10-28",
+      "Gmail draft id": "r1738216037611562622",
+      "Language": "ES",
+      "Notes": "Sitio real aladlatam.org (el viejo alad-americalatina.org es un sitio de apuestas). Novo Nordisk visible en materiales 2026. 2026-10-29: borrador de seguimiento único creado (r1738216037611562622), espera OK de Fer. Status sigue Sent hasta que se envíe.",
+      "Organization": "ALAD (Asociación Latinoamericana de Diabetes)",
+      "Role": "Presidente (2026-2028)",
+      "Sent date": "2026-10-21",
+      "Source URL": "https://aladlatam.org",
+      "Status": "Sent",
+      "Type": "Socio"
+    },
+    "id": "recZIWivJz27CH98V"
+  },
+  {
+    "createdTime": "2026-10-21T22:15:24.000Z",
+    "fields": {
+      "Audience estimate": "300-800 (estimación)",
+      "Batch": "T2-diabetes-2026-10-28",
+      "Channel": "Email",
+      "Contact": "Erika Santos de Aragão",
+      "Country": "Brazil",
+      "Email": "brasilabres@gmail.com",
+      "Follow-up date": "2026-11-04",
+      "Gmail draft id": "r-2100853533419127815",
+      "Language": "PT",
+      "Notes": "2026-10-28: REBOTE en contato@abresbrasil.org.br (dominio sin MX). Reenviado a brasilabres@gmail.com (dirección publicada en su página de contacto) con OK de Fer.",
+      "Organization": "ABrES (Associação Brasileira de Economia da Saúde)",
+      "Role": "Presidenta",
+      "Sent date": "2026-10-28",
+      "Source URL": "https://abresbrasil.org.br/equipe/",
+      "Status": "Sent",
+      "Type": "Socio"
+    },
+    "id": "recbmIY4TggfhMJhw"
+  },
+  {
+    "createdTime": "2026-10-21T22:15:24.000Z",
+    "fields": {
+      "Audience estimate": "10 vacantes por cohorte (fuente); egresados 100-150 (estimación)",
+      "Batch": "Reserva (reemplazada por T1 diabetes, 21-10)",
+      "Channel": "Email",
+      "Contact": "Katia Marie Simões e Senna",
+      "Country": "Brazil",
+      "Email": "mestradoats@inc.saude.gov.br",
+      "Gmail draft id": "r1381302902704780614",
+      "Language": "PT",
+      "Organization": "INC — Mestrado Profissional em ATS",
+      "Role": "Coordenadora",
+      "Source URL": "https://fundacor.org.br/cursos/mestrado/mestrado-profissional-em-avaliacao-de-tecnologias-em-saude-ats/",
+      "Status": "To contact",
+      "Type": "Docente"
+    },
+    "id": "recdKpcfAeX3fIfLt"
+  },
+  {
+    "createdTime": "2026-11-02T14:15:23.000Z",
+    "fields": {
+      "Audience estimate": "Sin número publicado (estimación pendiente)",
+      "Batch": "T3-2026-11-02",
+      "Channel": "Email",
+      "Contact": "Dra. Carol Andrea Bernal Castro",
+      "Country": "Colombia",
+      "Email": "info@saludpublicacolombia.org",
+      "Gmail draft id": "r5991623025721191324",
+      "Language": "ES",
+      "Notes": "2026-11-02: revisión adversarial: título real del informe",
+      "Organization": "Asociación Colombiana de Salud Pública",
+      "Role": "Presidenta",
+      "Source URL": "https://www.saludpublicacolombia.org/junta-directiva/ ; https://www.saludpublicacolombia.org/",
+      "Status": "Drafted",
+      "Type": "Socio"
+    },
+    "id": "recjMu2zV16F2ENoa"
+  },
+  {
+    "createdTime": "2026-10-21T22:15:24.000Z",
+    "fields": {
+      "Audience estimate": "5.000-20.000 (estimación)",
+      "Batch": "T2-diabetes-2026-10-28",
+      "Channel": "Email",
+      "Contact": "Rebeca Freitas",
+      "Country": "Brazil",
+      "Email": "rebeca.freitas@ieps.org.br",
+      "Follow-up date": "2026-11-04",
+      "Gmail draft id": "r-333118984269281108",
+      "Language": "PT",
+      "Organization": "IEPS (Instituto de Estudos para Políticas de Saúde)",
+      "Role": "Directora de Relaciones Institucionales",
+      "Sent date": "2026-10-28",
+      "Source URL": "https://ieps.org.br/institucional/",
+      "Status": "Sent",
+      "Type": "Socio"
+    },
+    "id": "reclJgP2M0QfKdxJP"
+  },
+  {
+    "createdTime": "2026-10-21T22:15:24.000Z",
+    "fields": {
+      "Audience estimate": "3.841 seguidores LinkedIn (fuente)",
+      "Batch": "Reserva (reemplazada por T1 diabetes, 21-10)",
+      "Channel": "LinkedIn",
+      "Contact": "Daniela Paredes",
+      "Country": "Chile",
+      "Language": "ES",
+      "Organization": "ISPOR Chile",
+      "Role": "Presidenta",
+      "Source URL": "https://linkedin.com/company/ispor-chile",
+      "Status": "To contact",
+      "Type": "Socio"
+    },
+    "id": "recnyxCpS8hUTJCcn"
+  },
+  {
+    "createdTime": "2026-10-21T22:15:24.000Z",
+    "fields": {
+      "Audience estimate": "5.000-20.000 (estimación)",
+      "Batch": "T2 (después de publicar Voices Pichon-Riviere)",
+      "Channel": "Email",
+      "Contact": "Elizabeth Maier",
+      "Country": "Argentina",
+      "Email": "emaier@iecs.org.ar",
+      "Language": "ES",
+      "Notes": "Retenido: no pedir nada a la institución de un entrevistado de Voices antes de publicar su entrevista. 2026-10-29: C1 en espera (draft r1221016680315286907 sin enviar) — revisión adversarial: choca con el pedido de Silvina Lizzi del 21-10 ('preferimos no involucrar a nuestra red de contactos institucionales en esta difusión'); además 'IECS figura como aliado de difusión' es falso: la landing no acredita aliados. Decide Fer.",
+      "Organization": "IECS (Instituto de Efectividad Clínica y Sanitaria)",
+      "Role": "Comunicación y Marketing",
+      "Source URL": "https://iecs.org.ar/comunicacion-y-marketing/",
+      "Status": "To contact",
+      "Type": "Socio"
+    },
+    "id": "recpgEphIzsAD0igJ"
+  },
+  {
+    "createdTime": "2026-11-02T14:15:23.000Z",
+    "fields": {
+      "Audience estimate": "Sin número publicado (estimación pendiente)",
+      "Batch": "T3-2026-11-02",
+      "Channel": "Email",
+      "Contact": "Fabián Norambuena Contreras",
+      "Country": "Chile",
+      "Email": "contacto@idegys.cl",
+      "Gmail draft id": "r-6401462952087804004",
+      "Language": "ES",
+      "Notes": "2026-11-02: revisión adversarial: título real del informe",
+      "Organization": "Idegys (Instituto de Economía Gestión y Salud)",
+      "Role": "Presidente",
+      "Source URL": "https://www.idegys.cl/consejo_gobernanza.html ; https://idegys.cl/idegys.html",
+      "Status": "Drafted",
+      "Type": "Socio"
+    },
+    "id": "recplQOfophcX48ib"
+  },
+  {
+    "createdTime": "2026-10-21T23:57:30.000Z",
+    "fields": {
+      "Audience estimate": "1.187 miembros según IDF (posiblemente bajo)",
+      "Batch": "T1-diabetes-2026-10-21",
+      "Channel": "Email",
+      "Contact": "João Eduardo Nunes Salles",
+      "Country": "Brazil",
+      "Email": "assistente@diabetes.org.br",
+      "Follow-up date": "2026-10-28",
+      "Gmail draft id": "r-1014465647737774345",
+      "Language": "PT",
+      "Notes": "Vende partnerships a la industria. El email de prensa publicado es de una agencia externa. 2026-10-29: borrador de seguimiento único creado (r-1014465647737774345), espera OK de Fer. Status sigue Sent hasta que se envíe.",
+      "Organization": "SBD (Sociedade Brasileira de Diabetes)",
+      "Role": "Presidente (2026-2027)",
+      "Sent date": "2026-10-21",
+      "Status": "Sent",
+      "Type": "Socio"
+    },
+    "id": "recsa08lak05603vX"
+  },
+  {
+    "createdTime": "2026-10-21T23:57:30.000Z",
+    "fields": {
+      "Audience estimate": "231 miembros según IDF (posiblemente bajo)",
+      "Batch": "T1-diabetes-2026-10-21",
+      "Channel": "Email",
+      "Contact": "Claudia Campusano",
+      "Country": "Chile",
+      "Email": "secretaria.presidencia@soched.cl",
+      "Follow-up date": "2026-10-28",
+      "Gmail draft id": "r-2273088839647867944",
+      "Language": "ES",
+      "Notes": "Alternativa: periodista@soched.cl. 2026-10-29: borrador de seguimiento único creado (r-2273088839647867944) a secretaria.presidencia@soched.cl, espera OK de Fer. Status sigue Sent. (Corrección: la nota anterior sobre dirección sin punto era un error mío; el original salió con punto.)",
+      "Organization": "SOCHED (Sociedad Chilena de Endocrinología y Diabetes)",
+      "Role": "Presidenta (mandato termina nov-2026)",
+      "Sent date": "2026-10-21",
+      "Status": "Sent",
+      "Type": "Socio"
+    },
+    "id": "recw3dfdUKKgZJGVD"
+  }
+]

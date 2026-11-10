@@ -1,0 +1,53 @@
+[
+  {
+    "createdTime": "2026-07-18T21:13:46.000Z",
+    "fields": {
+      "Angle": "Angulo nuevo sobre el segmento obesidad/cardiometabolico: como los datos de outcomes cardiovasculares de semaglutida y tirzepatida estan redefiniendo guias clinicas, presion sobre sistemas de cobertura y dinamica competitiva en una region con prevalencia de obesidad superior al 25% en varios paises",
+      "Priority": "Alta",
+      "Proposed_By": "Claude",
+      "Rationale": "Los resultados de SELECT y SURMOUNT-MMO publicados en 2024-2025 convirtieron a los GLP-1 en el debate mas caliente de cardiologia y endocrinologia. LATAM enfrenta el doble desafio de alta carga de enfermedad y bajo acceso por precio; varios paises ya discuten incorporacion a canastas publicas en 2026",
+      "Sponsor_Fit": "Atractivo para Novo Nordisk y Eli Lilly como sponsors primarios, pero tambien para aseguradoras y operadoras de salud evaluando cobertura, companias de dispositivos cardiacos ante posible desplazamiento terapeutico, y actores de salud digital en adherencia",
+      "Status": "Drafted",
+      "Topic": "La revolucion GLP-1 mas alla del peso: impacto cardiometabolico y reordenamiento del mercado LATAM"
+    },
+    "id": "recABahgy3dGN849Z"
+  },
+  {
+    "createdTime": "2026-10-03T00:57:16.000Z",
+    "fields": {
+      "Angle": "El 63er Directing Council (28-sep-2026) unificó los mecanismos de cooperación técnica en un solo Regional Revolving Fund, en paralelo a un recorte presupuestario del 19% y a la deuda de EE.UU. (>US$134M, sin pagar desde 2024, con intención de cortar todo para 2027). Pregunta: qué pasa con los precios y el abastecimiento de vacunas y medicamentos que negocia el fondo, qué países dependen más de él y qué proveedores pierden o ganan volumen.",
+      "Priority": "Alta",
+      "Proposed_By": "Fer",
+      "Rationale": "Política regional con money trail directo a la industria. Detectado manualmente desde Health Policy Watch (30-sep-2026), el Scanner no lo levantó. Fuente disparadora: https://healthpolicy-watch.news/pahos-annual-meeting-opens-amid-political-tension-and-calls-for-stronger-regional-cooperation/ — las cifras de la nota no están verificadas: ir a la fuente primaria (documentos del Directing Council en IRIS PAHO).",
+      "Status": "Approved",
+      "Topic": "PAHO Revolving Fund: compra conjunta regional con PAHO desfinanciada"
+    },
+    "id": "recjTKZorMX6fWy3T"
+  },
+  {
+    "createdTime": "2026-07-18T21:13:46.000Z",
+    "fields": {
+      "Angle": "Analisis del gap entre carga de enfermedad (depresion, ansiedad, esquizofrenia) y tasas de tratamiento farmacologico en la region; foco en barreras de acceso, estigma, escasez de psiquiatras, y el rol emergente de telepsiquiatria y nuevas moleculas (esketamina, psilocibina en ensayos, antagonistas NMDA)",
+      "Priority": "Media",
+      "Proposed_By": "Claude",
+      "Rationale": "La OPS estima que mas del 75% de personas con trastornos mentales en LATAM no reciben tratamiento. Post-pandemia la demanda escalo pero la infraestructura no. En 2026 varios paises discuten reformas de salud mental y el pipeline de nuevas moleculas en depresion resistente esta generando interes regulatorio regional",
+      "Sponsor_Fit": "Relevante para Janssen (esketamina), Lundbeck, AbbVie y generico-liders en psiquiatria; tambien para plataformas digitales de salud mental, fondos de inversion en healthtech y organismos multilaterales (BID, OPS) que buscan amplificar advocacy basado en evidencia",
+      "Status": "Proposed",
+      "Topic": "Salud mental en LATAM: el deficit de tratamiento como crisis de salud publica y oportunidad farmaceutica no resuelta"
+    },
+    "id": "recmaRbP5A7MrttOs"
+  },
+  {
+    "createdTime": "2026-07-18T21:13:46.000Z",
+    "fields": {
+      "Angle": "Mapeo del ecosistema de biomarcadores y pruebas genomicas disponibles en la region versus la cobertura real de terapias dirigidas en sistemas publicos y privados; casos de Brasil, Mexico, Colombia y Argentina como ejes comparativos",
+      "Priority": "Alta",
+      "Proposed_By": "Claude",
+      "Rationale": "El mercado oncologico LATAM supera USD 8B y crece a doble digito. En 2025-2026 se han aprobado multiples ADCs y terapias CAR-T en mercados de referencia, pero la velocidad de incorporacion local es muy desigual. La tension entre diagnostico avanzado y acceso efectivo es el debate central en oncologia regional hoy",
+      "Sponsor_Fit": "Ideal para laboratorios con portfolio en oncologia de precision (Roche, AstraZeneca, Pfizer Oncology, Novartis), companias de diagnostico molecular (Foundation Medicine, Guardant, Illumina) y fondos de acceso o sociedades de oncologia buscando visibilidad ante tomadores de decision",
+      "Status": "Drafted",
+      "Topic": "Oncologia de precision en LATAM: la brecha entre el diagnostico molecular y el acceso al tratamiento"
+    },
+    "id": "recxYu8xK4KthTkBf"
+  }
+]

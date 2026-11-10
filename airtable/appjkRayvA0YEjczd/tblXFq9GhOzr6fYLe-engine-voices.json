@@ -1,0 +1,154 @@
+[
+  {
+    "createdTime": "2026-07-29T16:08:39.000Z",
+    "fields": {
+      "Country": "Colombia",
+      "Institution": "Federación Diabetológica Colombiana",
+      "Language": "ES",
+      "Notes": "La ficha colombiana más sólida del lote según el agente: desabastecimiento de insulina. Gana relevancia después del QA adversarial, porque contradice el retrato de Colombia como sistema modelo. RE-EXTRAER verbatim y URL antes de citar.",
+      "Speaker": "Dra Eleonora Vizcaíno Pabón",
+      "Topics": [
+        "Diabetes",
+        "Acceso",
+        "Precio y reembolso"
+      ],
+      "Verification": "Pendiente de confirmar"
+    },
+    "id": "rec1fesTAKq30H7Il"
+  },
+  {
+    "createdTime": "2026-08-11T01:29:10.000Z",
+    "fields": {
+      "Conflict of interest": "Sin conflicto declarado. OPS es organismo multilateral publico; la cita aparece en su propio comunicado, no en prensa secundaria. La OPS opera el Fondo Estrategico de compra conjunta de medicamentos oncologicos, lo que le da interes institucional en el argumento de acceso: se declara.",
+      "Country": "Regional",
+      "Date": "2025-02-03",
+      "Institution": "Organizacion Panamericana de la Salud (OPS/PAHO)",
+      "Language": "EN",
+      "Notes": "Verificada verbatim contra la fuente emisora (comunicado OPS del 3 de febrero de 2025, vispera del Dia Mundial contra el Cancer) el 2026-08-11. Contexto exacto: la frase cierra el parrafo sobre cancer infantil, donde la OPS informa que en paises de alto ingreso mas del 80% de los ninos con cancer se cura y en muchos paises de ingreso bajo y medio la tasa de curacion ronda el 20%. Al citarla fuera de ese parrafo hay que conservar que Maza habla de la brecha de supervivencia infantil. En el mismo comunicado, el director de la OPS Jarbas Barbosa dice: 'We must work toward a future where no one is without the cancer care they need to survive.' Primera voz regional de oncologia del cache: Engine_Voices no tenia ninguna aplicable a oncologia LATAM antes de este ciclo.",
+      "Outlet": "PAHO/OPS, comunicado oficial de prensa (fuente emisora)",
+      "Quote": "The gap in survival rates is largely due to limited access to affordable, quality-assured medicines.",
+      "Quote EN": "The gap in survival rates is largely due to limited access to affordable, quality-assured medicines.",
+      "Role": "Asesor Regional de Cancer",
+      "Speaker": "Dr Mauricio Maza",
+      "Topics": [
+        "Oncología",
+        "Acceso",
+        "Equidad",
+        "Precio y reembolso"
+      ],
+      "URL": "https://www.paho.org/en/news/3-2-2025-paho-calls-latin-american-and-caribbean-countries-improve-access-essential-cancer",
+      "Used in": "Oncología v2 · p.13",
+      "Verification": "Verbatim verificada"
+    },
+    "id": "rec3sBuVTJ0CIF12w"
+  },
+  {
+    "createdTime": "2026-07-29T16:08:39.000Z",
+    "fields": {
+      "Country": "Colombia",
+      "Language": "ES",
+      "Notes": "Doble condición (clínica + paciente) que la hace inusualmente citable. Ficha incluye el argumento del burnout del paciente y la frase '¿cuánto vale tu pierna?'. ALERTA: hay un conflicto de atribución detectado — texto idéntico aparece acreditado en distintos medios a Orozco (independiente) y a Silva Gómez (ejecutiva de Sanofi). No publicar hasta resolver cuál es la fuente original.",
+      "Role": "Médica y paciente con diabetes tipo 1 desde los 8 años",
+      "Speaker": "Dra Liliana Orozco Villegas",
+      "Topics": [
+        "Diabetes",
+        "Acceso",
+        "Equidad"
+      ],
+      "Verification": "Conflicto de atribución"
+    },
+    "id": "recg6w63OyHgYda2m"
+  },
+  {
+    "createdTime": "2026-07-29T16:08:39.000Z",
+    "fields": {
+      "Country": "Brasil",
+      "Institution": "Sociedade Brasileira de Diabetes (SBD)",
+      "Language": "PT",
+      "Notes": "Cita con cifra adentro: la desigualdad intra-país en la región más rica de Brasil. Antes de publicar, verificar el denominador (¿% del total nacional de amputaciones, o tasa por población?) — el fraseo permite ambas lecturas. Falta cargar URL y fecha.",
+      "Quote": "42% das amputações no Brasil ocorrem na região Sudeste.",
+      "Quote EN": "42% of amputations in Brazil occur in the Southeast region.",
+      "Speaker": "Dra Bianca de Almeida-Pititto",
+      "Topics": [
+        "Diabetes",
+        "Equidad",
+        "Acceso"
+      ],
+      "Verification": "Verbatim verificada"
+    },
+    "id": "rechxuKz3ZSPubij2"
+  },
+  {
+    "createdTime": "2026-07-29T16:08:39.000Z",
+    "fields": {
+      "Country": "Brasil",
+      "Institution": "Sociedade Brasileira de Diabetes (SBD)",
+      "Language": "PT",
+      "Notes": "Autocrítica del gremio médico, dicha por el presidente de la sociedad científica. Sirve para romper la simetría 'sistema malo / clínicos buenos'. Falta cargar URL y fecha exacta del medio.",
+      "Quote": "O médico aprendeu, na faculdade, que a educação do paciente pode ser feita via ameaça.",
+      "Quote EN": "Doctors learned, at medical school, that patient education can be delivered by threat.",
+      "Role": "Presidente",
+      "Speaker": "Dr João Eduardo Nunes Salles",
+      "Topics": [
+        "Diabetes",
+        "Atención primaria"
+      ],
+      "Verification": "Verbatim verificada"
+    },
+    "id": "recrRvv29nSE3EgjR"
+  },
+  {
+    "createdTime": "2026-07-29T16:08:39.000Z",
+    "fields": {
+      "Country": "Nicaragua",
+      "Date": "2025-11-24",
+      "Language": "ES",
+      "Notes": "La voz más fuerte del lote: paciente, no funcionario. Resume el argumento de equidad en nueve palabras. Candidata a pull-quote o photo-quote.",
+      "Outlet": "Divergentes",
+      "Quote": "Uno no se muere de diabetes, se muere por ser pobre.",
+      "Quote EN": "You don't die of diabetes, you die of being poor.",
+      "Role": "Paciente con diabetes",
+      "Speaker": "Doña Luisa Emilia",
+      "Topics": [
+        "Diabetes",
+        "Acceso",
+        "Equidad"
+      ],
+      "Verification": "Verbatim verificada"
+    },
+    "id": "recu2u0NPc5UpZOE2"
+  },
+  {
+    "createdTime": "2026-07-29T16:08:39.000Z",
+    "fields": {
+      "Country": "México",
+      "Language": "ES",
+      "Notes": "Ficha del agente de voces: sostiene que México está 'a años luz' de Argentina, Colombia, Chile y Brasil en acceso a tecnología de diabetes pediátrica. Tengo el fragmento, no la frase completa verbatim ni la URL. RE-EXTRAER del transcript del agente antes de citar. No publicar reconstruido.",
+      "Speaker": "Dr Víctor García Olmos",
+      "Topics": [
+        "Diabetes",
+        "Tecnología y dispositivos",
+        "Acceso"
+      ],
+      "Verification": "Pendiente de confirmar"
+    },
+    "id": "recvN8FZjH1CZPDW3"
+  },
+  {
+    "createdTime": "2026-07-29T16:08:39.000Z",
+    "fields": {
+      "Country": "Argentina",
+      "Institution": "CUI.D.AR",
+      "Language": "ES",
+      "Notes": "Ficha del agente de voces: el amparo judicial como la línea divisoria real del acceso en Argentina — quien litiga recibe, quien no, no. Ángulo fuerte y poco cubierto. Tengo la sustancia, no la frase verbatim ni la URL. RE-EXTRAER antes de citar.",
+      "Speaker": "Liliana Tieri",
+      "Topics": [
+        "Diabetes",
+        "Acceso",
+        "Regulatorio"
+      ],
+      "Verification": "Pendiente de confirmar"
+    },
+    "id": "recyY6WGCYGvUPuz1"
+  }
+]

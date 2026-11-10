@@ -1,0 +1,526 @@
+[
+  {
+    "description": "Un registro por número quincenal de The HealthSignals Brief. Lo crea el scenario de Make al armar cada issue.",
+    "fields": [
+      {
+        "description": "Ej. Issue 01",
+        "id": "fldyC5DVctaA6FtN0",
+        "name": "Issue",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fld1vhZCfjtCcErkh",
+        "name": "Status",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selZFapRRr8WMRbeL",
+              "name": "Draft"
+            },
+            {
+              "color": "yellowLight2",
+              "id": "selrHoy7zJ8BShRVC",
+              "name": "In review"
+            },
+            {
+              "color": "blueLight2",
+              "id": "sellUr14rIhY9GQ8J",
+              "name": "Approved"
+            },
+            {
+              "color": "greenLight2",
+              "id": "selQAk6kZG25UQXWd",
+              "name": "Sent"
+            },
+            {
+              "color": "blueLight2",
+              "id": "selR87BsvcHOcTszv",
+              "name": "Brevo draft"
+            },
+            {
+              "color": "blueLight2",
+              "id": "selesmtdB4W3aSzi6",
+              "name": "Scheduled"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldndV4y1qgxbLjXr",
+        "name": "Period_Start",
+        "options": {
+          "dateFormat": {
+            "format": "YYYY-MM-DD",
+            "name": "iso"
+          }
+        },
+        "type": "date"
+      },
+      {
+        "id": "fldhhQYGPdR3ZD3x4",
+        "name": "Period_End",
+        "options": {
+          "dateFormat": {
+            "format": "YYYY-MM-DD",
+            "name": "iso"
+          }
+        },
+        "type": "date"
+      },
+      {
+        "id": "fldEPd1NIVO9RUx5s",
+        "name": "Send_Date",
+        "options": {
+          "dateFormat": {
+            "format": "YYYY-MM-DD",
+            "name": "iso"
+          }
+        },
+        "type": "date"
+      },
+      {
+        "id": "fldCWymHYJcIRP5H5",
+        "name": "PDF_URL",
+        "type": "url"
+      },
+      {
+        "id": "fldRPlc8aMZ0rNk0P",
+        "name": "Sponsor_Header",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fld6jrGAxLV7w87zS",
+        "name": "Article_Count",
+        "options": {
+          "precision": 0
+        },
+        "type": "number"
+      },
+      {
+        "id": "fldEqocRian646Dqh",
+        "name": "Countries_Covered",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldxLggSnMqfovNh1",
+        "name": "Reports_Covered",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldWK7VLBRMjwF4uQ",
+        "name": "Opens",
+        "options": {
+          "precision": 0
+        },
+        "type": "number"
+      },
+      {
+        "id": "fldylLI0IQSimS6MN",
+        "name": "Downloads",
+        "options": {
+          "precision": 0
+        },
+        "type": "number"
+      },
+      {
+        "id": "fldCRWii6JgRmlvfr",
+        "name": "Notes",
+        "type": "multilineText"
+      },
+      {
+        "id": "fld89tg0bULu318rC",
+        "name": "Brief_Articles",
+        "options": {
+          "inverseLinkFieldId": "fldNKaNJ2ZPGe6vuV",
+          "isReversed": false,
+          "linkedTableId": "tbl7GPslYevIIcBTG",
+          "prefersSingleRecordLink": false
+        },
+        "type": "multipleRecordLinks"
+      }
+    ],
+    "id": "tblxxMvi8Xx2UAcDv",
+    "name": "Issues",
+    "primaryFieldId": "fldyC5DVctaA6FtN0",
+    "views": [
+      {
+        "id": "viwiVZkIh0TXZ06Sr",
+        "name": "Grid view",
+        "type": "grid"
+      }
+    ]
+  },
+  {
+    "description": "Artículos incluidos en cada issue. Trae Category y Country (que la tabla Articles vieja no tiene). Lo carga el scenario desde la REST de WordPress por ventana de 15 días.",
+    "fields": [
+      {
+        "id": "fldf2RCQryNmER3pZ",
+        "name": "Title",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldqazIpz6P2Vnmxp",
+        "name": "WP_URL",
+        "type": "url"
+      },
+      {
+        "id": "fldyIUp2IPnF9NICL",
+        "name": "Category",
+        "options": {
+          "choices": [
+            {
+              "color": "tealLight2",
+              "id": "selmdQ4gFVAfg8OGz",
+              "name": "LatAm Focus"
+            },
+            {
+              "color": "blueLight2",
+              "id": "selyFkycLXk61OJsO",
+              "name": "Policy & Markets"
+            },
+            {
+              "color": "greenLight2",
+              "id": "selE6vrUz3YKUUSGw",
+              "name": "Pharma"
+            },
+            {
+              "color": "purpleLight2",
+              "id": "selIrWKj1qTveXdPR",
+              "name": "US Healthcare"
+            },
+            {
+              "color": "orangeLight2",
+              "id": "selxzXrTy7dvicKIV",
+              "name": "HealthTech"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldEju5FEjXXmZK5Q",
+        "name": "Country",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "sel6OUnVTehZfROEk",
+              "name": "Brazil"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selq0vN8UKzDUAZXE",
+              "name": "Mexico"
+            },
+            {
+              "color": "grayLight2",
+              "id": "seleU63sj0e8wgkDT",
+              "name": "Argentina"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selUaLzqhdTWuTfb8",
+              "name": "Colombia"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selgENye81xmvO6FQ",
+              "name": "Chile"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selLo61NFIX3B00Bc",
+              "name": "Peru"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selF9yTx2pkq8ipi3",
+              "name": "Ecuador"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selyqyibrVTnCTgNf",
+              "name": "United States"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selpCclKSMuJkIv1m",
+              "name": "Global"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldvytEXMdwGVqOwy",
+        "name": "Published_At",
+        "options": {
+          "dateFormat": {
+            "format": "YYYY-MM-DD",
+            "name": "iso"
+          },
+          "timeFormat": {
+            "format": "HH:mm",
+            "name": "24hour"
+          },
+          "timeZone": "America/New_York"
+        },
+        "type": "dateTime"
+      },
+      {
+        "id": "fldjS4WyLNqqZeedD",
+        "name": "Takeaway",
+        "type": "multilineText"
+      },
+      {
+        "id": "fldeuLBooVn3EOhZp",
+        "name": "WP_Post_ID",
+        "options": {
+          "precision": 0
+        },
+        "type": "number"
+      },
+      {
+        "id": "fldNKaNJ2ZPGe6vuV",
+        "name": "Issue",
+        "options": {
+          "inverseLinkFieldId": "fld89tg0bULu318rC",
+          "isReversed": false,
+          "linkedTableId": "tblxxMvi8Xx2UAcDv",
+          "prefersSingleRecordLink": false
+        },
+        "type": "multipleRecordLinks"
+      }
+    ],
+    "id": "tbl7GPslYevIIcBTG",
+    "name": "Brief_Articles",
+    "primaryFieldId": "fldf2RCQryNmER3pZ",
+    "views": [
+      {
+        "id": "viwVwnZUX9rtHAqkE",
+        "name": "Grid view",
+        "type": "grid"
+      }
+    ]
+  },
+  {
+    "description": "Tracker mensual: dispositivos novedosos FDA (PMA originales + De Novo) y su estado en Brasil (ANVISA) y Colombia (INVIMA). Lo carga el scenario de Make \"HS MedTech Tracker\". Revisar antes de usar en el Brief: nunca publicar \"no registrado\", decir \"no encontrado en el registro público a la fecha\".",
+    "fields": [
+      {
+        "id": "fldHn3bf8yjYjcvVi",
+        "name": "Device",
+        "type": "singleLineText"
+      },
+      {
+        "description": "FDA_ID|Run_Month|Row_Type, para deduplicar",
+        "id": "fldCqSWAWEKmyVERs",
+        "name": "Key",
+        "type": "singleLineText"
+      },
+      {
+        "description": "Mes analizado, AAAA-MM",
+        "id": "fldncfqQ9i5PhtKJc",
+        "name": "Run_Month",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldWxfRP6RdYG0laz",
+        "name": "Row_Type",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selNcmIzxPIZkOEOO",
+              "name": "Nuevo FDA"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel8pvyOs9IfO58ne",
+              "name": "Llegó a Brasil"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldsni6Ru6tqESb1l",
+        "name": "FDA_ID",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldx4PABbwl3kWuTn",
+        "name": "Pathway",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "sel3UAlgUdVBQJ6pr",
+              "name": "PMA"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selzKENRlHGn5NImf",
+              "name": "De Novo"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldkyc0h2pbAy5f70",
+        "name": "Applicant",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldth1Vj0C9mFEHdf",
+        "name": "FDA_Decision_Date",
+        "options": {
+          "dateFormat": {
+            "format": "YYYY-MM-DD",
+            "name": "iso"
+          }
+        },
+        "type": "date"
+      },
+      {
+        "id": "fldR12szdjBl1knGK",
+        "name": "Specialty",
+        "type": "singleLineText"
+      },
+      {
+        "description": "Token de marca usado para buscar",
+        "id": "fldMeTOaar5sMYBUV",
+        "name": "Brand_Key",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldjdXLfWqqIWXiKG",
+        "name": "BR_Status",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selgJdhIm2gOC6hwW",
+              "name": "Encontrado"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selL59DkQq5oG96h2",
+              "name": "Revisar"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel4lrtyRHPHl7cGW",
+              "name": "No encontrado"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldhV9yRpRfbiasgC",
+        "name": "BR_Reg_Number",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldUeEI033x2DexHC",
+        "name": "BR_Reg_Date",
+        "options": {
+          "dateFormat": {
+            "format": "YYYY-MM-DD",
+            "name": "iso"
+          }
+        },
+        "type": "date"
+      },
+      {
+        "id": "fldorQKYOEVTp4hRG",
+        "name": "Lag_BR_Months",
+        "options": {
+          "precision": 1
+        },
+        "type": "number"
+      },
+      {
+        "id": "fldLYuzamAiRDdEs1",
+        "name": "BR_Evidence",
+        "type": "multilineText"
+      },
+      {
+        "id": "fldERhheEsIx0OOHU",
+        "name": "CO_Status",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "sel8qC4ReZaQ23tLG",
+              "name": "Vigente"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selSgC63Ajdc52I8c",
+              "name": "En trámite"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selaYcObZip8Xzgq0",
+              "name": "Revisar"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selgpFlmyu1qu416H",
+              "name": "No encontrado"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldtRVhrwU7TmjQmm",
+        "name": "CO_Evidence",
+        "type": "multilineText"
+      },
+      {
+        "id": "fldbnmpOkUfaEe1yO",
+        "name": "Review",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selT6XLhUmeU8u817",
+              "name": "Pendiente"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selhWJxrS2VCcUpjt",
+              "name": "Verificado"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selxxT1Z73O8e8Beb",
+              "name": "Descartado"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fld6PRxJRr3WNgkJF",
+        "name": "Notes",
+        "type": "multilineText"
+      }
+    ],
+    "id": "tbl3bNPIvzfaPwHGm",
+    "name": "MedTech_Tracker",
+    "primaryFieldId": "fldHn3bf8yjYjcvVi",
+    "views": [
+      {
+        "id": "viwOJkxEC5E0EsTxp",
+        "name": "Grid view",
+        "type": "grid"
+      }
+    ]
+  }
+]

@@ -1,0 +1,6317 @@
+[
+  {
+    "description": "Editorial Queue — output del Scanner 5096381. Cada fila es una señal lista para revisión editorial. Estado 04-09-2026: el Scanner 5096381 escribe en la hoja Editorial Queue de Google Sheets, no en esta tabla. Esta tabla está vacía y sin proceso que la alimente.",
+    "fields": [
+      {
+        "description": "Titular comercial, max 90 chars",
+        "id": "fldMZpFkGvVrXvUYq",
+        "name": "Headline",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldxCFnmXlfFOyYxk",
+        "name": "Status",
+        "options": {
+          "choices": [
+            {
+              "color": "yellowLight2",
+              "id": "selNQ3LY6ebHgW4Uc",
+              "name": "pending"
+            },
+            {
+              "color": "blueLight2",
+              "id": "selk1OEVttJFFVVlf",
+              "name": "in_review"
+            },
+            {
+              "color": "greenLight2",
+              "id": "selzaI5Snj0wsrDGc",
+              "name": "approved"
+            },
+            {
+              "color": "redLight2",
+              "id": "sel6OB1hvzcql93FI",
+              "name": "rejected"
+            },
+            {
+              "color": "purpleLight2",
+              "id": "selRAN0Z9dyGJF4SI",
+              "name": "published"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldcDzLlNmOIxAul5",
+        "name": "Region",
+        "options": {
+          "choices": [
+            {
+              "color": "orangeLight2",
+              "id": "selZQOVKZQsKWUtsx",
+              "name": "LATAM"
+            },
+            {
+              "color": "blueLight2",
+              "id": "selo8Y9OgFl68YtDS",
+              "name": "USA"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel4nWom9QVezhGGm",
+              "name": "Global"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldBQuCCETzNh0XIr",
+        "name": "Country",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selTDIkk8rT4cWwxX",
+              "name": "Brazil"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selajbIe6hsOb5QCA",
+              "name": "Mexico"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selME7Q63BR8wsQQy",
+              "name": "Argentina"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selD8M1aiLynacL8W",
+              "name": "Colombia"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selWqTEiEIZWz0RcD",
+              "name": "Chile"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selZc1lPEMVc4TXiQ",
+              "name": "Peru"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selTc8QYPBFcgfagX",
+              "name": "USA"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selNpSwRX0sGCKaIS",
+              "name": "Global"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldIxmQ9Nj7J9NXpc",
+        "name": "Category",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "seloCjCCo4cbyAJUc",
+              "name": "market access"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selq6rdHKr3aL21HT",
+              "name": "M&A"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel3cWdec3c1Bdokv",
+              "name": "clinical catalyst"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel9S84hIbxJCrqee",
+              "name": "digital health"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selRtX06r3UW8Zjpr",
+              "name": "regulatory"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel7kYUMK5RglUiaS",
+              "name": "payer"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selskGGM9lizwLSe2",
+              "name": "pharma strategy"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel73kVZunJumopUG",
+              "name": "medtech"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selNmXMxCH4lgOLqG",
+              "name": "litigation"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selILb2MPb3EvNu0U",
+              "name": "breaking"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "description": "Nombre canónico corto",
+        "id": "fldnPGuo3zR5iEdJl",
+        "name": "Institution_Company",
+        "type": "singleLineText"
+      },
+      {
+        "description": "Señal comercial/estratégica, max 120 chars",
+        "id": "fldZTi3eYRTpf4neI",
+        "name": "Angle",
+        "type": "multilineText"
+      },
+      {
+        "description": "Oportunidad para audiencia pharma/medtech, max 150 chars",
+        "id": "fldwyNeADapI2cbZD",
+        "name": "Why_It_Matters",
+        "type": "multilineText"
+      },
+      {
+        "description": "Impacto en pacientes, max 100 chars",
+        "id": "fldJWVkgS8KQhAkEo",
+        "name": "Patients_Impact",
+        "type": "multilineText"
+      },
+      {
+        "description": "Impacto en industria, max 100 chars",
+        "id": "fldaoHBkXPYS2LBQd",
+        "name": "Industry_Impact",
+        "type": "multilineText"
+      },
+      {
+        "id": "fldEIphcn91AW8II1",
+        "name": "Litigation_Risk",
+        "options": {
+          "choices": [
+            {
+              "color": "greenLight2",
+              "id": "sel77V1clJtTcPGrU",
+              "name": "low"
+            },
+            {
+              "color": "yellowLight2",
+              "id": "selmZ33m0jpcYxf4M",
+              "name": "medium"
+            },
+            {
+              "color": "redLight2",
+              "id": "selzlmdXBIEoWqunw",
+              "name": "high"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldhPWlo3KpbOQ0vX",
+        "name": "Priority",
+        "options": {
+          "choices": [
+            {
+              "color": "redLight2",
+              "id": "selxgN5PnCqcDGdIB",
+              "name": "high"
+            },
+            {
+              "color": "yellowLight2",
+              "id": "sel7T0dqGuHfPaipS",
+              "name": "medium"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selx2b4QSqC70MZB8",
+              "name": "low"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldLXfNHRmNCSfBIb",
+        "name": "Source_1",
+        "type": "url"
+      },
+      {
+        "id": "fldpuMvK7hp3m0R0q",
+        "name": "Source_2",
+        "type": "url"
+      },
+      {
+        "description": "país_entidad_tema — para dedup",
+        "id": "fld7ol4MagxIhiJex",
+        "name": "Signal_Hash",
+        "type": "singleLineText"
+      },
+      {
+        "description": "Identifica el run del Scanner",
+        "id": "fldUzb3Vn57aVRLMd",
+        "name": "Batch_ID",
+        "type": "singleLineText"
+      },
+      {
+        "description": "Notas internas del editor",
+        "id": "fldawfX7NVzFeWynq",
+        "name": "Editorial_Notes",
+        "type": "multilineText"
+      },
+      {
+        "description": "URL del artículo WP cuando se publica",
+        "id": "flda2STxFx1C2uT2B",
+        "name": "Published_URL",
+        "type": "url"
+      },
+      {
+        "id": "fldh0JOtfbe65BdVD",
+        "name": "Created_Date",
+        "options": {
+          "dateFormat": {
+            "format": "YYYY-MM-DD",
+            "name": "iso"
+          },
+          "timeFormat": {
+            "format": "HH:mm",
+            "name": "24hour"
+          },
+          "timeZone": "America/Argentina/Buenos_Aires"
+        },
+        "type": "dateTime"
+      },
+      {
+        "id": "fldw6YX7eVWpN0DHU",
+        "name": "Articles",
+        "options": {
+          "inverseLinkFieldId": "fld5tzOMKF0NAkTum",
+          "isReversed": false,
+          "linkedTableId": "tblq2AXF9qdHtTnHF",
+          "prefersSingleRecordLink": false
+        },
+        "type": "multipleRecordLinks"
+      },
+      {
+        "id": "fld3FJoUGg4FkBwTG",
+        "name": "LI_Queued",
+        "options": {
+          "color": "blueBright",
+          "icon": "check"
+        },
+        "type": "checkbox"
+      },
+      {
+        "id": "fldrn40DzvOzYNLM0",
+        "name": "LinkedIn Queue",
+        "options": {
+          "inverseLinkFieldId": "fldFtPAhS56j3x8il",
+          "isReversed": false,
+          "linkedTableId": "tbliGiN7TL82pGCCV",
+          "prefersSingleRecordLink": false
+        },
+        "type": "multipleRecordLinks"
+      }
+    ],
+    "id": "tblDMUY7twbwj0LEH",
+    "name": "Signals",
+    "primaryFieldId": "fldMZpFkGvVrXvUYq",
+    "views": [
+      {
+        "id": "viwYz2myZV0dKFiQp",
+        "name": "Grid view",
+        "type": "grid"
+      }
+    ]
+  },
+  {
+    "description": "Espejo de los posts de WordPress (healthsignals.news, sitio 254274942). Carga inicial manual del 29-08-2026 desde la API. El sync automático (scenario 5886398) está inactivo hasta tener dedup por WP_Post_ID. Region se deriva de las categorías: LatAm Focus → LATAM, US Healthcare → USA, ninguna → Global.",
+    "fields": [
+      {
+        "id": "fldSag7M96Tb2ulVF",
+        "name": "Title",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldseLlgoP0nn2mHL",
+        "name": "Status",
+        "options": {
+          "choices": [
+            {
+              "color": "yellowLight2",
+              "id": "sel7FgT08DIi6H8HM",
+              "name": "draft"
+            },
+            {
+              "color": "greenLight2",
+              "id": "selpVvV6Kx1A5XBsu",
+              "name": "published"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldnYmuKFet1bA09W",
+        "name": "Region",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "sel0aDiUbm5Bop1t2",
+              "name": "LATAM"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel08nJa4A9beQdpK",
+              "name": "USA"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel8SZN1Rcaf7OQar",
+              "name": "Global"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldyN0OMnrCiMhYKH",
+        "name": "Slug",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldFZbjJlaGZOoWAC",
+        "name": "WP_Post_ID",
+        "options": {
+          "precision": 0
+        },
+        "type": "number"
+      },
+      {
+        "id": "fldLrCXSczmzaBtzx",
+        "name": "WP_URL",
+        "type": "url"
+      },
+      {
+        "id": "fld74E62kKQOpVyKx",
+        "name": "Published_At",
+        "options": {
+          "dateFormat": {
+            "format": "YYYY-MM-DD",
+            "name": "iso"
+          },
+          "timeFormat": {
+            "format": "HH:mm",
+            "name": "24hour"
+          },
+          "timeZone": "America/Argentina/Buenos_Aires"
+        },
+        "type": "dateTime"
+      },
+      {
+        "description": "Señales usadas como fuente del artículo",
+        "id": "fld5tzOMKF0NAkTum",
+        "name": "Signals_Used",
+        "options": {
+          "inverseLinkFieldId": "fldw6YX7eVWpN0DHU",
+          "isReversed": false,
+          "linkedTableId": "tblDMUY7twbwj0LEH",
+          "prefersSingleRecordLink": false
+        },
+        "type": "multipleRecordLinks"
+      },
+      {
+        "id": "fldawxS1djjXYfzvt",
+        "name": "Prospects_Extracted",
+        "options": {
+          "color": "greenBright",
+          "icon": "check"
+        },
+        "type": "checkbox"
+      }
+    ],
+    "id": "tblq2AXF9qdHtTnHF",
+    "name": "Articles",
+    "primaryFieldId": "fldSag7M96Tb2ulVF",
+    "views": [
+      {
+        "id": "viwdrFlnBFLmqZIGk",
+        "name": "Grid view",
+        "type": "grid"
+      }
+    ]
+  },
+  {
+    "description": "Suscriptores del newsletter. Sin sync automático a la fecha (04-09-2026): no existe scenario de Make que escriba acá. Cargar a mano o construir el sync Jetpack/Brevo → Airtable.",
+    "fields": [
+      {
+        "id": "fldh4AlZeYEJLC1uB",
+        "name": "Email",
+        "type": "email"
+      },
+      {
+        "id": "fldpqqzzvnsDJjm7Z",
+        "name": "Name",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldWRPWWVGjvC6ZyL",
+        "name": "Subscribe Date",
+        "options": {
+          "dateFormat": {
+            "format": "YYYY-MM-DD",
+            "name": "iso"
+          }
+        },
+        "type": "date"
+      },
+      {
+        "id": "fldHqpSlfMS5fEWwZ",
+        "name": "Source",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selg0O7cm7qYoUE4A",
+              "name": "Website"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selrjmyewHCd052Gf",
+              "name": "Import"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selgfJfrxX9e8xoPr",
+              "name": "Manual"
+            },
+            {
+              "color": "blueLight2",
+              "id": "sela4q40WUk8elX9u",
+              "name": "Invite"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldVAOxbvTEBFpWmu",
+        "name": "Status",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selpNyQTu1n7L6zHZ",
+              "name": "Active"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selQur5HsvYxTpgA9",
+              "name": "Unsubscribed"
+            },
+            {
+              "color": "grayLight2",
+              "id": "seljCkvzI3dHiCTrb",
+              "name": "Pending"
+            },
+            {
+              "color": "blueLight2",
+              "id": "selOgcwdaGGMmx56E",
+              "name": "Requested"
+            },
+            {
+              "color": "blueLight2",
+              "id": "seldxiNlFzrcyBNIg",
+              "name": "Approved"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldBznMxn3vSRrUQL",
+        "name": "Synced At",
+        "options": {
+          "dateFormat": {
+            "format": "YYYY-MM-DD",
+            "name": "iso"
+          },
+          "timeFormat": {
+            "format": "HH:mm",
+            "name": "24hour"
+          },
+          "timeZone": "America/New_York"
+        },
+        "type": "dateTime"
+      },
+      {
+        "id": "fldrBc6UhBU3ZLWFA",
+        "name": "Last Name",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldce8COEc9gbK1cz",
+        "name": "Company",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldkn313GhDx1JQLI",
+        "name": "Job Title",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldEE2imDGKtuOf9I",
+        "name": "Country",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selRXHn8NDrRD8R9J",
+              "name": "Argentina"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selzNm2l4ARB7gc9e",
+              "name": "Brazil"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel3LbfZBZrV1xref",
+              "name": "Chile"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selRAIAVc8jP8gBg0",
+              "name": "Colombia"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selapY372nhWBAiH0",
+              "name": "Mexico"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selQ1kh6BEfQAvSLC",
+              "name": "Peru"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selmHHoa2qxCv9SGZ",
+              "name": "United States"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel4ccD24pQSublWQ",
+              "name": "Other"
+            },
+            {
+              "color": "blueLight2",
+              "id": "selT5WTWgBbqfRDph",
+              "name": "EE.UU."
+            },
+            {
+              "color": "blueLight2",
+              "id": "selPxlixjmRLrB0xl",
+              "name": "Global (US HQ)"
+            },
+            {
+              "color": "blueLight2",
+              "id": "selrxt9LOHjy8z7EH",
+              "name": "Latin America"
+            },
+            {
+              "color": "blueLight2",
+              "id": "selukKWv067YGzYBx",
+              "name": "Global (Alemania HQ)"
+            },
+            {
+              "color": "blueLight2",
+              "id": "seliDOTeKpZAFGJ5f",
+              "name": "Brasil"
+            },
+            {
+              "color": "blueLight2",
+              "id": "seljXINncLG2MwINc",
+              "name": "Perú"
+            },
+            {
+              "color": "blueLight2",
+              "id": "selBPN9phL7aEC1jI",
+              "name": "Argentina / Chile"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "description": "partial = dejó solo el email (paso 1); complete = completó el paso 2",
+        "id": "fldB7nOemSuYmV9Op",
+        "name": "Signup Stage",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selZ8lK4iRBXH5sjJ",
+              "name": "partial"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selH3gdqh5wXX8XDl",
+              "name": "complete"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "description": "Ubicación del formulario, ej. article_mid_cta",
+        "id": "fldL1KfjazGfc8K7I",
+        "name": "CTA Source",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldtf8dERaw4xb5j5",
+        "name": "Post URL",
+        "type": "url"
+      },
+      {
+        "id": "flduKNFJdwwQmOMGW",
+        "name": "Post Category",
+        "type": "singleLineText"
+      },
+      {
+        "description": "Momento en que aceptó el aviso de privacidad en el paso 1",
+        "id": "fldcqCRDIkxQvnIuc",
+        "name": "Consent At",
+        "options": {
+          "dateFormat": {
+            "format": "YYYY-MM-DD",
+            "name": "iso"
+          },
+          "timeFormat": {
+            "format": "HH:mm",
+            "name": "24hour"
+          },
+          "timeZone": "America/New_York"
+        },
+        "type": "dateTime"
+      },
+      {
+        "description": "Texto exacto (con versión) que el suscriptor aceptó en el paso 1",
+        "id": "fldSZ07Z9vb6UhZP7",
+        "name": "Consent Text",
+        "type": "singleLineText"
+      },
+      {
+        "description": "Opción C (21-10-2026): Corporate = alta directa; Webmail = solicitud revisada por Fer",
+        "id": "fldq1KO8gPi7LFfMi",
+        "name": "Access",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selb416UDZKUzTmRS",
+              "name": "Corporate"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel73q9l8kyNeVwY1",
+              "name": "Webmail"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "description": "Perfil de LinkedIn opcional (solo solicitudes webmail)",
+        "id": "fldvcs9RHhp9FjP2C",
+        "name": "LinkedIn",
+        "type": "url"
+      }
+    ],
+    "id": "tble1o8yKXjqOCwam",
+    "name": "Newsletter Subscribers",
+    "primaryFieldId": "fldh4AlZeYEJLC1uB",
+    "views": [
+      {
+        "id": "viwnuUnl1Ot8LM7FU",
+        "name": "Grid view",
+        "type": "grid"
+      }
+    ]
+  },
+  {
+    "description": "Pipeline B2B de HealthSignals. Una fila por contacto. El campo Approval es el gate humano que controla Fer: nada se contacta sin Approved.",
+    "fields": [
+      {
+        "description": "Nombre completo del contacto",
+        "id": "fldxBD670lnLpYrLD",
+        "name": "Name",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fld59v0caVayISnqc",
+        "name": "Company",
+        "type": "singleLineText"
+      },
+      {
+        "description": "Cargo/rol",
+        "id": "fldQJBSZifoxWU0Tn",
+        "name": "Title",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldgucbTdN3swkcSi",
+        "name": "Email",
+        "type": "email"
+      },
+      {
+        "id": "fldiC11z9y6mEAPRj",
+        "name": "LinkedIn_URL",
+        "type": "url"
+      },
+      {
+        "id": "fldUicPvIwknwEnQ5",
+        "name": "Segment",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selzCzKEYpzGLpTZr",
+              "name": "Pharma"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selHUTy5chCJHjG5z",
+              "name": "Medtech"
+            },
+            {
+              "color": "grayLight2",
+              "id": "seloToNtcJhOtCQxp",
+              "name": "Payer/Insurer"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selyykpSIoxYWdv2g",
+              "name": "Provider/Hospital"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selnWcRURPzDY6Kda",
+              "name": "Consultancy"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selcT4xCToq5GLoYZ",
+              "name": "Investor/PE-VC"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selYrH5SOeRwWZQqJ",
+              "name": "Regulator/Policy"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selv50ryk6mP1pWbm",
+              "name": "Other"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldioMG3XgXLlgUo9",
+        "name": "Region",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selSGBmxAOhgvpd8S",
+              "name": "LATAM"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selTzSsox24nLkTP9",
+              "name": "USA"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selqCUp4xtKVabi7I",
+              "name": "Global"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldBYXT4HQz6W3WLQ",
+        "name": "Country",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selQ69jt0XNf8c9LY",
+              "name": "Brazil"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel9b39FryO3Qx12C",
+              "name": "Mexico"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selD9ra3zT6la4hYI",
+              "name": "Argentina"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel3Z2sDVGBO8IPwJ",
+              "name": "Colombia"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selNDxtMZSGfTb7Sd",
+              "name": "Chile"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel6DswiHx7kOjNmm",
+              "name": "Peru"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selimuXPf7KuJLAg7",
+              "name": "USA"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selXqmp6So6Y19nu6",
+              "name": "Other"
+            },
+            {
+              "color": "blueLight2",
+              "id": "selQQpC2bsacEa5y0",
+              "name": "MX"
+            },
+            {
+              "color": "blueLight2",
+              "id": "selLo5Wvsl8HU5tu0",
+              "name": "United States"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldYhz18Zc55VjeBr",
+        "name": "ICP_Fit",
+        "options": {
+          "choices": [
+            {
+              "color": "greenBright",
+              "id": "selJgcBV3GHjyMqgs",
+              "name": "A"
+            },
+            {
+              "color": "yellowBright",
+              "id": "selh5S8qmro9cDaDF",
+              "name": "B"
+            },
+            {
+              "color": "grayBright",
+              "id": "sell9qYcWEGg8SG5n",
+              "name": "C"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldLiF7syfOwSfjzD",
+        "name": "Stage",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selaG760piuGhcDJe",
+              "name": "New"
+            },
+            {
+              "color": "blueLight2",
+              "id": "selg4eCIiJUxRHqF3",
+              "name": "Researching"
+            },
+            {
+              "color": "cyanLight2",
+              "id": "selFobqj0DKl5ClxU",
+              "name": "Contacted"
+            },
+            {
+              "color": "tealLight2",
+              "id": "selxWeFPTNsJJXvEO",
+              "name": "Engaged"
+            },
+            {
+              "color": "yellowLight2",
+              "id": "selPNzz5NQbPM5ZLM",
+              "name": "Meeting"
+            },
+            {
+              "color": "orangeLight2",
+              "id": "selfco10hshdwP5Hy",
+              "name": "Proposal Sent"
+            },
+            {
+              "color": "greenBright",
+              "id": "selgfITS6ZGvMi5np",
+              "name": "Won"
+            },
+            {
+              "color": "redLight2",
+              "id": "sel348QGiIK5z0CkU",
+              "name": "Lost"
+            },
+            {
+              "color": "purpleLight2",
+              "id": "selqSsHuuHxNq4wwJ",
+              "name": "Nurture"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldLdTVGWDwv4r3b0",
+        "name": "Approval",
+        "options": {
+          "choices": [
+            {
+              "color": "yellowBright",
+              "id": "selybdyAwtamHV4PY",
+              "name": "Pending Review"
+            },
+            {
+              "color": "greenBright",
+              "id": "selYhq7h8YP4P8aD0",
+              "name": "Approved"
+            },
+            {
+              "color": "redBright",
+              "id": "selQcYJDWyZ9X5XoP",
+              "name": "Hold"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldwdLiTfQMktrVgW",
+        "name": "Offer_Interest",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selLxDkwThV4bXOMs",
+              "name": "Charter Subscription"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selUtyxj6TNuimK6u",
+              "name": "Custom Report"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selwsTZQOmvPZv2s4",
+              "name": "Retainer Intelligence"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel0skGAtn1uIDu5J",
+              "name": "Data Feed/License"
+            },
+            {
+              "color": "blueLight2",
+              "id": "selFVbSIA4SUlMGTV",
+              "name": "Category-Exclusive"
+            },
+            {
+              "color": "cyanLight2",
+              "id": "selxE6whfNf5rA1mY",
+              "name": "Sponsored Report"
+            },
+            {
+              "color": "tealLight2",
+              "id": "seliFT0ScXCySNLwq",
+              "name": "Newsletter Sponsorship"
+            },
+            {
+              "color": "blueLight2",
+              "id": "selcJ506GREM87pd1",
+              "name": "Founding Partner"
+            }
+          ]
+        },
+        "type": "multipleSelects"
+      },
+      {
+        "id": "fld4FgQaXttVYeBs6",
+        "name": "Source",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selWDVzyePjp4bzJ5",
+              "name": "Manual"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selbXx53vVg9bZQNs",
+              "name": "LinkedIn"
+            },
+            {
+              "color": "grayLight2",
+              "id": "seld8fBPoqSGXNO0F",
+              "name": "Event"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selDEKwFhd6vzZP4v",
+              "name": "Referral"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selKR6V3a4HnoaWp2",
+              "name": "Scraper"
+            },
+            {
+              "color": "grayLight2",
+              "id": "seltBgEYFvuGGVoNm",
+              "name": "Inbound"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldAyl22W4rkYDJaQ",
+        "name": "Source_URL",
+        "type": "url"
+      },
+      {
+        "id": "fldFYW09Qsng71BVF",
+        "name": "Sequence_Step",
+        "options": {
+          "precision": 0
+        },
+        "type": "number"
+      },
+      {
+        "id": "fldc0hOWWY4lc4Cqw",
+        "name": "Next_Action",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldOD7amsFiyvooxQ",
+        "name": "Next_Action_Date",
+        "options": {
+          "dateFormat": {
+            "format": "YYYY-MM-DD",
+            "name": "iso"
+          }
+        },
+        "type": "date"
+      },
+      {
+        "id": "fldcCPOhUTE0gePVH",
+        "name": "Last_Contacted",
+        "options": {
+          "dateFormat": {
+            "format": "YYYY-MM-DD",
+            "name": "iso"
+          }
+        },
+        "type": "date"
+      },
+      {
+        "id": "fldzi4yf30nFXcicT",
+        "name": "Opt_Out",
+        "options": {
+          "color": "redBright",
+          "icon": "xCheckbox"
+        },
+        "type": "checkbox"
+      },
+      {
+        "id": "fld52goHf5eTMDDTG",
+        "name": "Notes",
+        "type": "multilineText"
+      },
+      {
+        "id": "fldBawjkzEZyQTRV6",
+        "name": "Created",
+        "options": {
+          "dateFormat": {
+            "format": "YYYY-MM-DD",
+            "name": "iso"
+          },
+          "timeFormat": {
+            "format": "HH:mm",
+            "name": "24hour"
+          },
+          "timeZone": "America/New_York"
+        },
+        "type": "dateTime"
+      },
+      {
+        "id": "fldrfqf0yTG3lilMM",
+        "name": "Outreach Log",
+        "options": {
+          "inverseLinkFieldId": "fldqzYiPcrDw6WLaQ",
+          "isReversed": false,
+          "linkedTableId": "tbltaI1bftnXdfzME",
+          "prefersSingleRecordLink": false
+        },
+        "type": "multipleRecordLinks"
+      },
+      {
+        "description": "First name of contact (for personalization)",
+        "id": "fld6cV3aKoLh25ISn",
+        "name": "First_Name",
+        "type": "singleLineText"
+      },
+      {
+        "description": "Last name of contact",
+        "id": "fldT3klUuQ4qh3ZCS",
+        "name": "Last_Name",
+        "type": "singleLineText"
+      },
+      {
+        "description": "Channel for outreach",
+        "id": "fldaqBk9GE9LNx9Cb",
+        "name": "Preferred_Channel",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "sel6q8PJ7R6AluogV",
+              "name": "Email"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selLjvQFCfKpNJuKk",
+              "name": "LinkedIn DM"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selOVDClSDWA0DD7R",
+              "name": "Phone"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldyIUhU889YMfrlk",
+        "name": "Deals",
+        "options": {
+          "inverseLinkFieldId": "fldhrwniecCBpdC7D",
+          "isReversed": false,
+          "linkedTableId": "tblYarTZzp99EHLVW",
+          "prefersSingleRecordLink": false
+        },
+        "type": "multipleRecordLinks"
+      },
+      {
+        "id": "fldUHysjZ5q7Yjkl5",
+        "name": "Invoices",
+        "options": {
+          "inverseLinkFieldId": "fldsDU7QdurQqLlmi",
+          "isReversed": false,
+          "linkedTableId": "tblRpzWdHUgHIFk8R",
+          "prefersSingleRecordLink": false
+        },
+        "type": "multipleRecordLinks"
+      }
+    ],
+    "id": "tblalG4gDQFhUYC0D",
+    "name": "CRM Prospects",
+    "primaryFieldId": "fldxBD670lnLpYrLD",
+    "views": [
+      {
+        "id": "viwwPtVDe8oykAx5D",
+        "name": "Grid view",
+        "type": "grid"
+      }
+    ]
+  },
+  {
+    "description": "Un registro por toque (email, LinkedIn, llamada). Linkeado a CRM Prospects. Lo escribe el scenario de Make y/o manual.",
+    "fields": [
+      {
+        "description": "Resumen corto del toque",
+        "id": "fldYT1hAz8q3arXku",
+        "name": "Summary",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldqzYiPcrDw6WLaQ",
+        "name": "Prospect",
+        "options": {
+          "inverseLinkFieldId": "fldrfqf0yTG3lilMM",
+          "isReversed": false,
+          "linkedTableId": "tblalG4gDQFhUYC0D",
+          "prefersSingleRecordLink": false
+        },
+        "type": "multipleRecordLinks"
+      },
+      {
+        "id": "fldzPIzAnGSygVfJL",
+        "name": "Channel",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selwdEAWAvYtLrzMi",
+              "name": "Email"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selNtPsQZa2Nv8qus",
+              "name": "LinkedIn"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selbhtgyw7QdEuONn",
+              "name": "Call"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sele6lI6MARAdxoAC",
+              "name": "Meeting"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldy0eQ4HzMNhN9Xx",
+        "name": "Direction",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selyWPYHdg11ov6ZV",
+              "name": "Outbound"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selzk1OgXs5m4IeYK",
+              "name": "Inbound"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldSFGKCHXFovLqPS",
+        "name": "Status",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selU4geZdYXdh96jp",
+              "name": "Draft"
+            },
+            {
+              "color": "yellowBright",
+              "id": "selb3mDdkMqYtNuzA",
+              "name": "Approved to Send"
+            },
+            {
+              "color": "blueBright",
+              "id": "sel0LD54r8vCfTxcn",
+              "name": "Sent"
+            },
+            {
+              "color": "greenBright",
+              "id": "selehU88S2la1tDSw",
+              "name": "Replied"
+            },
+            {
+              "color": "orangeBright",
+              "id": "selKjeczqPt5TaJlg",
+              "name": "Bounced"
+            },
+            {
+              "color": "redBright",
+              "id": "selJwO92aYzPASyXa",
+              "name": "Failed"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldulF2NdH41yW90h",
+        "name": "Sequence_Step",
+        "options": {
+          "precision": 0
+        },
+        "type": "number"
+      },
+      {
+        "id": "fldY399ZZ9fMtcnyn",
+        "name": "Subject",
+        "type": "singleLineText"
+      },
+      {
+        "id": "flddpekUV8EaXOSHq",
+        "name": "Body",
+        "type": "multilineText"
+      },
+      {
+        "id": "fldOC3b05Ywm3hLEP",
+        "name": "Sent_At",
+        "options": {
+          "dateFormat": {
+            "format": "YYYY-MM-DD",
+            "name": "iso"
+          },
+          "timeFormat": {
+            "format": "HH:mm",
+            "name": "24hour"
+          },
+          "timeZone": "America/New_York"
+        },
+        "type": "dateTime"
+      },
+      {
+        "id": "fldVt7VEsUrIRfZEM",
+        "name": "Make_Run_ID",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldvYvzOvNT9rDJ3r",
+        "name": "To_Email",
+        "type": "email"
+      }
+    ],
+    "id": "tbltaI1bftnXdfzME",
+    "name": "Outreach Log",
+    "primaryFieldId": "fldYT1hAz8q3arXku",
+    "views": [
+      {
+        "id": "viwEjyy42E9rnNUM9",
+        "name": "Grid view",
+        "type": "grid"
+      }
+    ]
+  },
+  {
+    "description": "Posts de LinkedIn generados desde Signals para el perfil de Fer. Draft -> Approved -> Posted. Motor de audiencia Fase 1.",
+    "fields": [
+      {
+        "description": "Primera linea / gancho del post",
+        "id": "fldm4uOByHxHd9Lba",
+        "name": "Hook",
+        "type": "singleLineText"
+      },
+      {
+        "description": "Texto completo del post (nativo, sin link en el cuerpo)",
+        "id": "fldKq900o9coriZg0",
+        "name": "Post_Text",
+        "type": "multilineText"
+      },
+      {
+        "id": "fldcJNwZwuMLD6C71",
+        "name": "Status",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selR7n0s1ssnbZ9PZ",
+              "name": "Draft"
+            },
+            {
+              "color": "yellowBright",
+              "id": "selqdL4N2H871OeA5",
+              "name": "Approved to Post"
+            },
+            {
+              "color": "greenBright",
+              "id": "sel7RmYx6Td0EQLpu",
+              "name": "Posted"
+            },
+            {
+              "color": "redLight2",
+              "id": "selsr93nlYsrhC3qj",
+              "name": "Skip"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldgZzZWbZ8sqGy1z",
+        "name": "Target",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selQTbW5QiO6ymEqR",
+              "name": "Personal"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selDkiEfNbJ3bZsmr",
+              "name": "Company Page"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldFtPAhS56j3x8il",
+        "name": "Signal",
+        "options": {
+          "inverseLinkFieldId": "fldrn40DzvOzYNLM0",
+          "isReversed": false,
+          "linkedTableId": "tblDMUY7twbwj0LEH",
+          "prefersSingleRecordLink": false
+        },
+        "type": "multipleRecordLinks"
+      },
+      {
+        "id": "fldH7rUTwqJpHI8rq",
+        "name": "Posted_At",
+        "options": {
+          "dateFormat": {
+            "format": "YYYY-MM-DD",
+            "name": "iso"
+          },
+          "timeFormat": {
+            "format": "HH:mm",
+            "name": "24hour"
+          },
+          "timeZone": "America/New_York"
+        },
+        "type": "dateTime"
+      },
+      {
+        "id": "fldA6e4nnWTt1cCoR",
+        "name": "LinkedIn_URL",
+        "type": "url"
+      },
+      {
+        "id": "fldjmt18cmAQb9EtO",
+        "name": "Created",
+        "options": {
+          "dateFormat": {
+            "format": "YYYY-MM-DD",
+            "name": "iso"
+          },
+          "timeFormat": {
+            "format": "HH:mm",
+            "name": "24hour"
+          },
+          "timeZone": "America/New_York"
+        },
+        "type": "dateTime"
+      },
+      {
+        "id": "fldMSYfd6PIt4sHK2",
+        "name": "WP_Post_ID",
+        "options": {
+          "precision": 0
+        },
+        "type": "number"
+      }
+    ],
+    "id": "tbliGiN7TL82pGCCV",
+    "name": "LinkedIn Queue",
+    "primaryFieldId": "fldm4uOByHxHd9Lba",
+    "views": [
+      {
+        "id": "viwnAJjN3eQeGuOAn",
+        "name": "Grid view",
+        "type": "grid"
+      }
+    ]
+  },
+  {
+    "description": "Motor de reportes: registro vivo de fuentes por tema.",
+    "fields": [
+      {
+        "id": "fldM8YhzNAiBzoj2R",
+        "name": "Name",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldeqKz48aF5wXOdg",
+        "name": "URL",
+        "type": "url"
+      },
+      {
+        "id": "fldN3OHrab9XvCR98",
+        "name": "Type",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selnFsApkopLN8xqO",
+              "name": "Epidemiología"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selj0EN7DnxtOEyJd",
+              "name": "Comercial/Mercado"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel592E9GSfO0hMcP",
+              "name": "Científica"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selwvotAen9qbnuhQ",
+              "name": "Autoridad/Policy"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selMZudc2YChHOq0F",
+              "name": "Industria"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selYwrLbM7q0f8s0J",
+              "name": "Encuesta nacional"
+            },
+            {
+              "color": "blueLight2",
+              "id": "sel04JpO2bhxHSasc",
+              "name": "Regulatorio/Payer"
+            },
+            {
+              "color": "cyanLight2",
+              "id": "selagFfeW04bR0hKc",
+              "name": "Voces/Prensa"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldJJplFJVwJl0Ui6",
+        "name": "Topics",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldDsuhES2zMYKxVP",
+        "name": "Reliability",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "sel0Z6rU9M4Q7cH2o",
+              "name": "Alta"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel58okTa0Qen9LpS",
+              "name": "Media"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldDqqQIQ3GLbw1lh",
+        "name": "Freshness_Note",
+        "type": "singleLineText"
+      }
+    ],
+    "id": "tbl78a0kRuuOOUKLE",
+    "name": "Engine_Sources",
+    "primaryFieldId": "fldM8YhzNAiBzoj2R",
+    "views": [
+      {
+        "id": "viwV4yCFI2Pjc4O4q",
+        "name": "Grid view",
+        "type": "grid"
+      }
+    ]
+  },
+  {
+    "description": "Motor de reportes: cache de cifras verificadas. Se consulta antes de buscar afuera.",
+    "fields": [
+      {
+        "id": "fld9VfMXvtcAZhdfx",
+        "name": "Metric",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldgkOYaXF4WfJKH2",
+        "name": "Topic",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldrItu6e86Cly71N",
+        "name": "Geography",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldP6JKwSDIJGIiFz",
+        "name": "Value",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldbpjymgJVLLj7Zb",
+        "name": "Year",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldwrl1RjXQ5vaSmf",
+        "name": "Data_Type",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selpWjibYdrppQHky",
+              "name": "Estimate"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selsnmKh1eMWyiSSn",
+              "name": "Projection"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selBHtTG7wjolfr3m",
+              "name": "Actual"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldqxWPjddIgjpRQ5",
+        "name": "Source_Name",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldYMPMvcjoYlLkyv",
+        "name": "Source_URL",
+        "type": "url"
+      },
+      {
+        "id": "fldRLSZCGL9L4UbKg",
+        "name": "Verified_Date",
+        "options": {
+          "dateFormat": {
+            "format": "YYYY-MM-DD",
+            "name": "iso"
+          }
+        },
+        "type": "date"
+      },
+      {
+        "id": "fldkho6LWBjs4bOBS",
+        "name": "Used_In",
+        "type": "singleLineText"
+      },
+      {
+        "description": "Clave canónica de dedup y búsqueda: metrica-slug|geografia|año, en minúsculas y sin acentos. Ej. gasto-bolsillo-pct|brasil|2023. Es lo primero que se consulta en Research: si la Key existe y el año está dentro de la ventana, la cifra se reusa y NO se sale a buscar.",
+        "id": "fld5rjg7wbgpHMIWZ",
+        "name": "Key",
+        "type": "singleLineText"
+      }
+    ],
+    "id": "tbls2i3RhFeicHjls",
+    "name": "Engine_Data_Points",
+    "primaryFieldId": "fld9VfMXvtcAZhdfx",
+    "views": [
+      {
+        "id": "viwbv9yL6b9qsDeMi",
+        "name": "Grid view",
+        "type": "grid"
+      }
+    ]
+  },
+  {
+    "description": "Motor de reportes: pipeline de temas. El Proposer escribe, Fer aprueba.",
+    "fields": [
+      {
+        "id": "fldYjbqTiBk3CtGRu",
+        "name": "Topic",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldIeCUmRyL9QnNVI",
+        "name": "Angle",
+        "type": "multilineText"
+      },
+      {
+        "id": "fldinvSlXtfSoUaEz",
+        "name": "Rationale",
+        "type": "multilineText"
+      },
+      {
+        "id": "fldpngKj7uvtaceaN",
+        "name": "Status",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "sele4PuEqHo0OWy5R",
+              "name": "Proposed"
+            },
+            {
+              "color": "grayLight2",
+              "id": "seliuWb7nYW0xFmKo",
+              "name": "Approved"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selQbfkD9Cs7JFzEl",
+              "name": "Researching"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selF1ddot7itTH1am",
+              "name": "Drafted"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel7yRUrfd5AQOSgV",
+              "name": "Published"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selvz1lD0ov6MgQxo",
+              "name": "Rejected"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldVWERCzZ0eTXE2j",
+        "name": "Priority",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selX7kfLvTbRiytER",
+              "name": "Alta"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selPEWn6RLkqLJVdJ",
+              "name": "Media"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selfRAvDOEfqStuPC",
+              "name": "Baja"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fld0axUYeONMDHiaE",
+        "name": "Proposed_By",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selpnSvOPLBnZ9Adg",
+              "name": "Scanner"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selqHJxXT6kqshU4L",
+              "name": "Claude"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selIgUHLxgS87dmAd",
+              "name": "Fer"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldxraTXvBsGid9dO",
+        "name": "Sponsor_Fit",
+        "type": "multilineText"
+      }
+    ],
+    "id": "tblzZPvN5MofHncKH",
+    "name": "Engine_Report_Topics",
+    "primaryFieldId": "fldYjbqTiBk3CtGRu",
+    "views": [
+      {
+        "id": "viwmgM321TAe2AiMr",
+        "name": "Grid view",
+        "type": "grid"
+      }
+    ]
+  },
+  {
+    "description": "Motor de reportes: ediciones publicadas + learnings que alimentan al Proposer.",
+    "fields": [
+      {
+        "id": "fldtb6OsIEJOjpTkN",
+        "name": "Edition",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldjJQxZp2u5oT9DZ",
+        "name": "Topic",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fld3gMmMPZ43JPyyh",
+        "name": "Status",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selLt3wFoHIKcLUxV",
+              "name": "Draft"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel5uDPv6aoDFlwJQ",
+              "name": "Approved"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selSKgoznVzWF4XT2",
+              "name": "Published"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldAEx4JcC9a4Jmhc",
+        "name": "PDF_Link",
+        "type": "url"
+      },
+      {
+        "id": "fldmYSLdyblG583xg",
+        "name": "Published_Date",
+        "options": {
+          "dateFormat": {
+            "format": "YYYY-MM-DD",
+            "name": "iso"
+          }
+        },
+        "type": "date"
+      },
+      {
+        "id": "fldtsGarjmWWvqBN7",
+        "name": "Learnings",
+        "type": "multilineText"
+      },
+      {
+        "id": "fld82FUpz3ArLfSmF",
+        "name": "Sponsor",
+        "type": "singleLineText"
+      },
+      {
+        "description": "PDF y HTML de la edición. Arrastrar los archivos acá.",
+        "id": "fldzrFlmLvnixBQTP",
+        "name": "Archivos",
+        "options": {
+          "isReversed": false
+        },
+        "type": "multipleAttachments"
+      },
+      {
+        "description": "Ruta del HTML maestro en el Project de claude.ai, que es la copia que persiste entre sesiones",
+        "id": "flddQQ9XjVMHLg42y",
+        "name": "Fuente HTML",
+        "type": "singleLineText"
+      },
+      {
+        "description": "Cifras que salieron de Engine_Data_Points sin volver a buscar afuera. Se declara al cerrar Research.",
+        "id": "fldCZqV1m2QwDYRF4",
+        "name": "Datapoints_reused",
+        "options": {
+          "precision": 0
+        },
+        "type": "number"
+      },
+      {
+        "description": "Cifras nuevas levantadas y cacheadas en esta edición. Reuse rate = reused / (reused + new).",
+        "id": "fldTLimOiBdhmJmVd",
+        "name": "Datapoints_new",
+        "options": {
+          "precision": 0
+        },
+        "type": "number"
+      }
+    ],
+    "id": "tblvHU8Ow3TFAIADG",
+    "name": "Engine_Reports",
+    "primaryFieldId": "fldtb6OsIEJOjpTkN",
+    "views": [
+      {
+        "id": "viwKYbuHmaRc8qUpe",
+        "name": "Grid view",
+        "type": "grid"
+      }
+    ]
+  },
+  {
+    "description": "Biblioteca de referencia del motor de reportes HealthSignals: informes externos indexados, con su nivel de independencia y uso permitido (dato vs benchmark estructural).",
+    "fields": [
+      {
+        "id": "fldUcaa2vPypwDM0T",
+        "name": "Title",
+        "type": "singleLineText"
+      },
+      {
+        "description": "Quien lo publico (Economist Impact, FIFARMA, IQVIA, EIU...)",
+        "id": "fld0vDzdTJARaFGzg",
+        "name": "Publisher",
+        "type": "singleLineText"
+      },
+      {
+        "description": "Quien lo financio, si aplica (Eli Lilly, MedTech Europe...)",
+        "id": "fldkK7agwglKkmGw7",
+        "name": "Sponsor",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldK1DaACAhdlmu5k",
+        "name": "Year",
+        "options": {
+          "precision": 0
+        },
+        "type": "number"
+      },
+      {
+        "id": "fldGpcjj7zij5O7hm",
+        "name": "Type",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selLST1xej64S2HwA",
+              "name": "Index"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel2muGooWa7jeyjK",
+              "name": "White paper"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel0SWffooEfBfgEE",
+              "name": "Report"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selRz4dwdxwXO5zWw",
+              "name": "Executive summary"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selfvY5ki4Y8U2A8Y",
+              "name": "Methodology note"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selvU1tjgYnLLtS0m",
+              "name": "Data workbook"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selSfPBuozhhsBZB2",
+              "name": "Country profiles"
+            },
+            {
+              "color": "grayLight2",
+              "id": "seloHkxfsAtiMTAf9",
+              "name": "Webinar deck"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selgCyY9Noe6Yc1Ho",
+              "name": "Press release"
+            },
+            {
+              "color": "blueLight2",
+              "id": "seloQ439AO3lw0TbT",
+              "name": "Documento de proceso"
+            },
+            {
+              "color": "blueLight2",
+              "id": "selTkoZO2IbNiKFjr",
+              "name": "Rate card"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldRdWLBVCwaqH0wS",
+        "name": "Topic",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selGDRbshJbUS754O",
+              "name": "Obesity"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel58yj6NJ2rQs0sM",
+              "name": "Diabetes"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selyvxUtPCbYe7wLE",
+              "name": "Oncology"
+            },
+            {
+              "color": "grayLight2",
+              "id": "seltDvf4OIDGdMJl2",
+              "name": "Mental health"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selPaBTICD4YUk1dO",
+              "name": "Vaccines"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selYURKpIZpw4TQfZ",
+              "name": "Clinical research"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selQS0sWJiu8Wmgrj",
+              "name": "Health financing"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selJLSnOSgeJs2Bl9",
+              "name": "Regulatory"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selrFCFR6hIVSu4Eu",
+              "name": "Health equity"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selj2HGVuBr90kuPr",
+              "name": "Market access"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selTaOTfAvr7gB4N2",
+              "name": "Competitiveness"
+            }
+          ]
+        },
+        "type": "multipleSelects"
+      },
+      {
+        "description": "Paises/region cubiertos",
+        "id": "fldj5cq9j1GZesakN",
+        "name": "Countries",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldENy8VlN9Aur4sH",
+        "name": "Language",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selFxWjkfPijDoQSe",
+              "name": "EN"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selALDtXK21QjfiVa",
+              "name": "ES"
+            },
+            {
+              "color": "grayLight2",
+              "id": "seljRyBHXdkGcD7bd",
+              "name": "PT"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selxblm22q5dg3wD9",
+              "name": "Multi"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldIxJd67MODcfLrG",
+        "name": "Source_URL",
+        "type": "url"
+      },
+      {
+        "description": "Ruta del archivo en el workspace",
+        "id": "fldxTYcrzkejQ1ah1",
+        "name": "Local_path",
+        "type": "singleLineText"
+      },
+      {
+        "description": "Clave para saber si la cifra es citable como fuente neutral",
+        "id": "fldX9GjLUpmNBT2Dm",
+        "name": "Independence",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selEmEG2jAUKsk30U",
+              "name": "Independent"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel0vCLhOhzxGCdz7",
+              "name": "Industry-funded"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel6eyAoy0hokSgNQ",
+              "name": "Industry association"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selu04lICwMlWI1k9",
+              "name": "Unknown"
+            },
+            {
+              "color": "blueLight2",
+              "id": "selG7DysBIJsVGwL4",
+              "name": "Primary source"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "description": "Economist Impact/EIU = Structural benchmark (nunca citar como fuente de datos); FIFARMA/IQVIA = Data source con cautela",
+        "id": "fldxhJyULRmctmkHj",
+        "name": "Use_as",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selUYP7un4PaPxHOJ",
+              "name": "Data source"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selJVAR7fiqTKfz9z",
+              "name": "Structural benchmark"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selUlS83yUhdJvDmj",
+              "name": "Both"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "description": "Que tecnica editorial o dato aprovechar",
+        "id": "fldM5Yj0zyZNyz2wr",
+        "name": "What_to_copy",
+        "type": "multilineText"
+      },
+      {
+        "id": "fldSHsPUCNG9HC0eI",
+        "name": "Status",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selKigmg2251zR1YH",
+              "name": "Indexed"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selczh7LB28jSYhTy",
+              "name": "To distil"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selbG6MfuFysZczSL",
+              "name": "Distilled"
+            },
+            {
+              "color": "blueLight2",
+              "id": "selfDwhbfWJjVFeTs",
+              "name": "Duplicado"
+            },
+            {
+              "color": "blueLight2",
+              "id": "sel7JND36CjeqQzuQ",
+              "name": "Superado"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fld1x1KExrza8GTwF",
+        "name": "Notes",
+        "type": "multilineText"
+      },
+      {
+        "description": "Año del DATO SUBYACENTE, no el de publicación. Un reporte de 2025 construido con encuestas de 2017 tiene Data_Vintage 2017. Es el campo que decide si la cifra es citable. Recencia de la publicación ≠ recencia del dato.",
+        "id": "fldUZdejzXjh1QFMB",
+        "name": "Data_Vintage",
+        "options": {
+          "precision": 0
+        },
+        "type": "number"
+      },
+      {
+        "description": "Geografías cubiertas, filtrable. Reemplaza al campo Countries de texto libre, que no se podía filtrar. Marcar LATAM regional solo cuando el reporte trata la región como unidad; si desagrega por país, marcar los países.",
+        "id": "fld7hCXz4HTh4EShT",
+        "name": "Geographies",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selB7a9brYw8znGGb",
+              "name": "Brasil"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel7C6r4dfLvhVWbV",
+              "name": "México"
+            },
+            {
+              "color": "grayLight2",
+              "id": "seltuOdZSNDgtRDLk",
+              "name": "Argentina"
+            },
+            {
+              "color": "grayLight2",
+              "id": "seleslbXQ0WBZxXS3",
+              "name": "Colombia"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selIJN3QaqayP3kZU",
+              "name": "Chile"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selalLMu06QvTR0Mp",
+              "name": "Perú"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selTqJmGxxzuQDms8",
+              "name": "LATAM regional"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selVMoHTHldvJFvL7",
+              "name": "Estados Unidos"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selC3IEbxLq3eFQgK",
+              "name": "Europa"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selRAepko4jIqieaP",
+              "name": "Global"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selsKrEh31QSa8GV9",
+              "name": "Otros LATAM"
+            }
+          ]
+        },
+        "type": "multipleSelects"
+      },
+      {
+        "description": "Semáforo de vida útil de la fuente en la biblioteca. Mide contra Data_Vintage si existe, si no contra Year. Corte en más de 4 años (decisión de Fer, 29/08/2026). OJO: son dos ventanas distintas. Esta mide si vale la pena conservar y consultar la fuente. La ventana de PUBLICACIÓN sigue siendo ≤2-3 años, y para precios ≤2 años: que una fuente figure Vigente acá no la habilita a entrar en un reporte, hay que mirar la vendimia del dato puntual. Los benchmarks estructurales no expiran porque se usan por su arquitectura editorial, no por sus cifras.",
+        "id": "fldsPBkRHkb74GPEK",
+        "name": "Vigencia",
+        "options": {
+          "formula": "IF({fldxhJyULRmctmkHj}=\"Structural benchmark\", \"Benchmark estructural - no expira\", IF(AND({fldUZdejzXjh1QFMB}=BLANK(), {fldK1DaACAhdlmu5k}=BLANK()), \"SIN FECHA - no citable\", IF(YEAR(TODAY()) - IF({fldUZdejzXjh1QFMB}, {fldUZdejzXjh1QFMB}, {fldK1DaACAhdlmu5k}) > 4, \"VENCIDO para datos\", \"Vigente para datos\")))",
+          "isValid": true,
+          "referencedFieldIds": [
+            "fldxhJyULRmctmkHj",
+            "fldUZdejzXjh1QFMB",
+            "fldK1DaACAhdlmu5k"
+          ],
+          "result": {
+            "type": "singleLineText"
+          }
+        },
+        "type": "formula"
+      }
+    ],
+    "id": "tblSE9sbZOwIgK939",
+    "name": "Engine_Reference_Library",
+    "primaryFieldId": "fldUcaa2vPypwDM0T",
+    "views": [
+      {
+        "id": "viwbFfsMwidzRkTb5",
+        "name": "Grid view",
+        "type": "grid"
+      }
+    ]
+  },
+  {
+    "description": "Cache transversal de voces citables. Toda cita verificada verbatim contra la fuente emisora entra acá y sirve para cualquier reporte, no solo para el que la originó. Ver claude/estandar-citacion-fuentes.md.",
+    "fields": [
+      {
+        "id": "fldRJu2XUpdKTYcT0",
+        "name": "Speaker",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldic3mjDzQwtSFS3",
+        "name": "Quote",
+        "type": "multilineText"
+      },
+      {
+        "description": "Traducción al inglés para uso en reporte. La verificación siempre es contra el original.",
+        "id": "fldqhhv3U5QSrXmZn",
+        "name": "Quote EN",
+        "type": "multilineText"
+      },
+      {
+        "id": "fldFxlTsMdKQ31BMW",
+        "name": "Role",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldEyTKE6uiMEPNv7",
+        "name": "Institution",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldn6oxDQLM3wmocB",
+        "name": "Country",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selDM3N05KbTjikfv",
+              "name": "Argentina"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selulqYv4eufBznTP",
+              "name": "Brasil"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selq4npzWtNpIvkLI",
+              "name": "Chile"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selUXD6ncbdDfqmuY",
+              "name": "Colombia"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selAwzpfkXaDsvVLq",
+              "name": "México"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selFPHAx8gwCKdL22",
+              "name": "Perú"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selWOBc63qGcMpuES",
+              "name": "Nicaragua"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel7Iepi9LmQWZvbO",
+              "name": "Regional"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sele51IUdmfUczWzn",
+              "name": "Global"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fld7OgGrtV06SdIwH",
+        "name": "Language",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selavdScosKw95kvu",
+              "name": "ES"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selBfoCY0aWDa7BSu",
+              "name": "PT"
+            },
+            {
+              "color": "grayLight2",
+              "id": "seliaVAjLSkESAhHo",
+              "name": "EN"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldkOfgnfsFyn4Z9z",
+        "name": "Outlet",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fld0RZA5sckcvapzK",
+        "name": "URL",
+        "type": "url"
+      },
+      {
+        "id": "fldNYfCNUhSdoxAkG",
+        "name": "Date",
+        "options": {
+          "dateFormat": {
+            "format": "YYYY-MM-DD",
+            "name": "iso"
+          }
+        },
+        "type": "date"
+      },
+      {
+        "id": "fldMOyoX69pVXbnQw",
+        "name": "Topics",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "sel6l4YpQaftLy5nw",
+              "name": "Diabetes"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selynktr9hAFVykgN",
+              "name": "Obesidad"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selJwpDlAxunVwCqq",
+              "name": "Oncología"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selwdEwtGQDBPDFMZ",
+              "name": "Salud mental"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selAKO84B3e1oasC3",
+              "name": "Acceso"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selTn0PceeLhYJGrp",
+              "name": "Precio y reembolso"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel0FOzLWm1vyHRqI",
+              "name": "Regulatorio"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selvgFiwhOwQDO4DA",
+              "name": "Atención primaria"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selR8d072cb9B5Nz1",
+              "name": "Tecnología y dispositivos"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sels1Qcgp5WbaHB9g",
+              "name": "Equidad"
+            }
+          ]
+        },
+        "type": "multipleSelects"
+      },
+      {
+        "id": "fld5HTR04FM7Hdvlp",
+        "name": "Verification",
+        "options": {
+          "choices": [
+            {
+              "color": "greenBright",
+              "id": "selCDJmlr1vxBPDZH",
+              "name": "Verbatim verificada"
+            },
+            {
+              "color": "yellowBright",
+              "id": "selXGPYJiej2g5YGi",
+              "name": "Pendiente de confirmar"
+            },
+            {
+              "color": "orangeBright",
+              "id": "selBW8rmG8QIaoVZM",
+              "name": "Conflicto de atribución"
+            },
+            {
+              "color": "redBright",
+              "id": "selTw9AUuBfmjiEqp",
+              "name": "Descartada"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "description": "Financiador, patrocinio de campaña, vínculo con industria. Se declara en el reporte.",
+        "id": "fldhd1gQG1W9fmljW",
+        "name": "Conflict of interest",
+        "type": "multilineText"
+      },
+      {
+        "id": "fldbqM626fXNsrjpn",
+        "name": "Notes",
+        "type": "multilineText"
+      },
+      {
+        "id": "fldqKC9TGcZTq7fFH",
+        "name": "Used in",
+        "type": "singleLineText"
+      }
+    ],
+    "id": "tblXFq9GhOzr6fYLe",
+    "name": "Engine_Voices",
+    "primaryFieldId": "fldRJu2XUpdKTYcT0",
+    "views": [
+      {
+        "id": "viw0N7sZJxaB4CFPo",
+        "name": "Grid view",
+        "type": "grid"
+      }
+    ]
+  },
+  {
+    "description": "Log de descartes y refutaciones. Todo dato, cita o tesis que se descartó, y por qué. Sirve para no volver a proponer lo mismo en el reporte siguiente. Se consulta en P1 (Research) antes de aceptar una cifra.",
+    "fields": [
+      {
+        "id": "fldeIKvHDP1gf4h4X",
+        "name": "Decision",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldGCnP5VygRxbZgT",
+        "name": "Type",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selSTPUW6gQw79Krx",
+              "name": "Dato descartado"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selRdLw2qIcXzduOt",
+              "name": "Cita descartada"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selfL3nCStfl3JDlC",
+              "name": "Tesis refutada"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selcLqfvQzOe0he9l",
+              "name": "Fuente degradada"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selX0WcUV9o4VP7w8",
+              "name": "Reformulación aplicada"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selJ0QqyQYEc48zL1",
+              "name": "Trampa metodológica"
+            },
+            {
+              "color": "blueLight2",
+              "id": "selJ6NnhCLKC5Xu7x",
+              "name": "Fuente descartada"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "description": "Qué se descartó, textual.",
+        "id": "fldDUs3oEqMHkkAqX",
+        "name": "What",
+        "type": "multilineText"
+      },
+      {
+        "description": "Por qué. Con la evidencia contraria.",
+        "id": "fld3JB7wWdA6ZIE0K",
+        "name": "Reason",
+        "type": "multilineText"
+      },
+      {
+        "description": "Cita completa: autor, revista/organismo, año, DOI o URL.",
+        "id": "fldyFfMZKz4lmBdYP",
+        "name": "Evidence source",
+        "type": "multilineText"
+      },
+      {
+        "id": "fldh2LEuDpW9veh6Z",
+        "name": "Vector",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selPYLyW1os6NszoV",
+              "name": "Denominador"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selCCrHZFSzkYi8O9",
+              "name": "Causalidad"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selPiy7Y7kWxxYw1m",
+              "name": "Vigencia"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selV1ZHVjeyYvoSJc",
+              "name": "Generalización geográfica"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sely6XaLcfGjt5Ykt",
+              "name": "Comparabilidad metodológica"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selwlk5HNSYX7kbyy",
+              "name": "Conflicto de interés / monodependencia"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selQWFfqw0mbWVnzK",
+              "name": "Verificación de cita"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fld2SEj23otZXDJR4",
+        "name": "Report",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fld4stsm6OHLNX9Lq",
+        "name": "Date",
+        "options": {
+          "dateFormat": {
+            "format": "YYYY-MM-DD",
+            "name": "iso"
+          }
+        },
+        "type": "date"
+      },
+      {
+        "id": "fldUzK3WB6F2dqoph",
+        "name": "Status",
+        "options": {
+          "choices": [
+            {
+              "color": "greenBright",
+              "id": "selMKxlaefphFGmwj",
+              "name": "Vigente"
+            },
+            {
+              "color": "yellowBright",
+              "id": "selzObLXD5DQyh5sz",
+              "name": "Revisar"
+            },
+            {
+              "color": "grayBright",
+              "id": "selxNb0n6w6m9Qal5",
+              "name": "Superada"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      }
+    ],
+    "id": "tblHOocpz5SkS31ph",
+    "name": "Engine_Decisions",
+    "primaryFieldId": "fldeIKvHDP1gf4h4X",
+    "views": [
+      {
+        "id": "viwjbomRVz0hG0Mt9",
+        "name": "Grid view",
+        "type": "grid"
+      }
+    ]
+  },
+  {
+    "description": "Contactos de LinkedIn para convertir en primeros suscriptores de HealthSignals",
+    "fields": [
+      {
+        "description": "Nombre completo del contacto",
+        "id": "fld7fRcEjJnYSL122",
+        "name": "Name",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldaxcRIqH0jOJ2fw",
+        "name": "First Name",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldzMdRIhqCAe5JaY",
+        "name": "Last Name",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldiOFz4WkfSRUmpH",
+        "name": "Company",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldynfqp80Dkvzggj",
+        "name": "Title",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldEEKQT8E7X42mZY",
+        "name": "LinkedIn URL",
+        "type": "url"
+      },
+      {
+        "id": "fldy997S4tV9qjXWg",
+        "name": "Segment",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selU0I4dTlVNK3e68",
+              "name": "Pharma/Biotech"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selKLcreqOTGdQaQF",
+              "name": "Government/Policy"
+            },
+            {
+              "color": "grayLight2",
+              "id": "seluKadzDuJBwhXsW",
+              "name": "Research/Academic"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selGzc6ZoP7K9RRM0",
+              "name": "Provider/Payer"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selZ3Sfk5kuqITNss",
+              "name": "Healthcare Professional"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selbdAhq1kc3TO85k",
+              "name": "Market Access/Economics"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selwpuBAJAbvBf2p6",
+              "name": "Pharma - Regulatory/Medical"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selTIroTQOkjUyPlb",
+              "name": "Medtech/Devices"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldoUNuMBkeerCcKo",
+        "name": "Region",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selDfImfKFYPUNIEQ",
+              "name": "Global"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selWWvbtTFycjUeFE",
+              "name": "LATAM"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selfH7fqRPz1oukAh",
+              "name": "USA"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selwImnAi3j3k3fZm",
+              "name": "Brazil"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selB9qUKmog05B9bL",
+              "name": "Argentina"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selawLv86310Xq0x5",
+              "name": "Chile"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selJUlyQgn28xARsQ",
+              "name": "Colombia"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selsmwl0I3PteY8iM",
+              "name": "Mexico"
+            },
+            {
+              "color": "grayLight2",
+              "id": "seliip2hmylhBE9zm",
+              "name": "Peru"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldSoMgSoL9nf42nz",
+        "name": "Source",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selPeywAdjKepzl94",
+              "name": "LinkedIn Personal Contacts"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldjjUIK7wOPciEjW",
+        "name": "Preferred Channel",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selnMapi1O2ClEo2T",
+              "name": "LinkedIn DM"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selFwwyAWul3QGTlq",
+              "name": "Email"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fld1rsh3U8B5TrFR4",
+        "name": "Stage",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selq4CMcssTe48T7C",
+              "name": "New"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldMPSNDfSLA5wSSv",
+        "name": "Approval Status",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "sellfIszyHCNtUvl3",
+              "name": "Pending Review"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldlOj3NCCKbIOSGC",
+        "name": "Email",
+        "type": "email"
+      }
+    ],
+    "id": "tblfCpzJLRixXNy7G",
+    "name": "Sucriptor prospects",
+    "primaryFieldId": "fld7fRcEjJnYSL122",
+    "views": [
+      {
+        "id": "viwppkCT3RLkWV7IO",
+        "name": "Grid view",
+        "type": "grid"
+      }
+    ]
+  },
+  {
+    "fields": [
+      {
+        "id": "fld7ihGKGMmM3voXB",
+        "name": "Name",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldhrwniecCBpdC7D",
+        "name": "Prospect",
+        "options": {
+          "inverseLinkFieldId": "fldyIUhU889YMfrlk",
+          "isReversed": false,
+          "linkedTableId": "tblalG4gDQFhUYC0D",
+          "prefersSingleRecordLink": false
+        },
+        "type": "multipleRecordLinks"
+      },
+      {
+        "id": "fldiTqmI6trGm7UQd",
+        "name": "Value",
+        "options": {
+          "precision": 2,
+          "symbol": "$"
+        },
+        "type": "currency"
+      },
+      {
+        "id": "fldGnc8sqejTSbLYu",
+        "name": "Stage",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selUy46ELSj7L4H9Z",
+              "name": "Qualification"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel7PzVxemkoYubl5",
+              "name": "Proposal"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selFs6CDPgxdFs16Q",
+              "name": "Negotiation"
+            },
+            {
+              "color": "grayLight2",
+              "id": "seldlSA6CN8WWr15w",
+              "name": "Closed Won"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selPOxjFqMVPg7B2Q",
+              "name": "Closed Lost"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldGhneoGN3Eeetwp",
+        "name": "Expected_Close_Date",
+        "options": {
+          "dateFormat": {
+            "format": "YYYY-MM-DD",
+            "name": "iso"
+          }
+        },
+        "type": "date"
+      },
+      {
+        "description": "Vigentes (plan v1, 19-10): Special Report A (anchor) = sponsor único del reporte (un sponsor por reporte, fijo), Market Access Briefing B, Partner content C, Section / Founding partner D. NO USAR (obsoletas, tiers de agosto): Founding Member Sponsorship (6mo), PLATINUM, GOLD, SILVER, BRONZE, Charter Subscription, Custom Report. Borrarlas a mano en Airtable (la API no permite editar opciones).",
+        "id": "fldFGO9o5wm8rDmWd",
+        "name": "Product",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selOa2WAhKqhKERBq",
+              "name": "Founding Member Sponsorship (6mo)"
+            },
+            {
+              "color": "grayLight2",
+              "id": "seleYXEdM48znCOGD",
+              "name": "PLATINUM Sponsorship ($8K)"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selZrdbnbnIilREmW",
+              "name": "GOLD Sponsorship ($5K)"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selsNktCJEfC4dZFj",
+              "name": "SILVER Sponsorship ($2.5K)"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selXm8dd7gcpiEDb0",
+              "name": "BRONZE Sponsorship ($1K)"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selg65xsUTGU84vtd",
+              "name": "Custom Report"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selhmTvax88fCyFiV",
+              "name": "Charter Subscription"
+            },
+            {
+              "color": "blueLight2",
+              "id": "selRQM03AvjRrHPCg",
+              "name": "Special Report A (anchor)"
+            },
+            {
+              "color": "cyanLight2",
+              "id": "selpVdvlyoA7hHLam",
+              "name": "Market Access Briefing B"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldwAqw1aaOrwLdBV",
+        "name": "Notes",
+        "type": "multilineText"
+      },
+      {
+        "id": "fldbZFqNOOoVlmviG",
+        "name": "Created_Date",
+        "options": {
+          "dateFormat": {
+            "format": "YYYY-MM-DD",
+            "name": "iso"
+          }
+        },
+        "type": "date"
+      },
+      {
+        "id": "fldgLNueV6GQdKam4",
+        "name": "Last_Updated",
+        "options": {
+          "dateFormat": {
+            "format": "YYYY-MM-DD",
+            "name": "iso"
+          }
+        },
+        "type": "date"
+      },
+      {
+        "id": "fldfwhIOkbxfTWWvJ",
+        "name": "Invoices",
+        "options": {
+          "inverseLinkFieldId": "fldhu9WQ5jUXId1Jv",
+          "isReversed": false,
+          "linkedTableId": "tblRpzWdHUgHIFk8R",
+          "prefersSingleRecordLink": false
+        },
+        "type": "multipleRecordLinks"
+      },
+      {
+        "description": "Empresa u organización compradora",
+        "id": "fldrGyBlmljB3qpO6",
+        "name": "Account",
+        "type": "singleLineText"
+      },
+      {
+        "description": "Próxima acción concreta. Todo deal abierto tiene una.",
+        "id": "fldm0Ibhd5Gxv6Oec",
+        "name": "Next_Step",
+        "type": "singleLineText"
+      },
+      {
+        "id": "flds5037salIdCUDI",
+        "name": "Next_Step_Date",
+        "options": {
+          "dateFormat": {
+            "format": "YYYY-MM-DD",
+            "name": "iso"
+          }
+        },
+        "type": "date"
+      },
+      {
+        "description": "Guía por etapa: Qualification 10%, Proposal 30%, Negotiation 60%, LOI 75%, Closed Won 100%",
+        "id": "fldF2xvGwIj967qWS",
+        "name": "Probability",
+        "options": {
+          "precision": 0
+        },
+        "type": "percent"
+      },
+      {
+        "id": "fldioNPteweBLlWFQ",
+        "name": "Channel",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selVBj1MhMoOcKDXB",
+              "name": "Direct"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selLvWI1Q1HL7cE59",
+              "name": "Agency (vendor of record)"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selbhFhAtv1rzobcL",
+              "name": "Referral"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "description": "Alta de proveedor en el cliente (W-9, banco, anticorrupción)",
+        "id": "fldOjTIsogZEbdSSm",
+        "name": "Vendor_Onboarding",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selkcCcaAWJukp5BF",
+              "name": "Not started"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selV92Yps3Y6e2n2r",
+              "name": "Kit sent"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selMA6UsS6FogFMZp",
+              "name": "Approved vendor"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "description": "Value × Probability, para cobertura del pipeline",
+        "id": "fldxjgntMlIP7QG18",
+        "name": "Weighted_Value",
+        "options": {
+          "formula": "{fldiTqmI6trGm7UQd} * {fldF2xvGwIj967qWS}",
+          "isValid": true,
+          "referencedFieldIds": [
+            "fldiTqmI6trGm7UQd",
+            "fldF2xvGwIj967qWS"
+          ],
+          "result": {
+            "options": {
+              "precision": 0
+            },
+            "type": "number"
+          }
+        },
+        "type": "formula"
+      },
+      {
+        "description": "Más de 21 = alerta en la revisión de los lunes",
+        "id": "fldfGPy84B2IyMYV8",
+        "name": "Days_Since_Update",
+        "options": {
+          "formula": "IF({fldgLNueV6GQdKam4}, DATETIME_DIFF(TODAY(), {fldgLNueV6GQdKam4}, 'days'))",
+          "isValid": true,
+          "referencedFieldIds": [
+            "fldgLNueV6GQdKam4"
+          ],
+          "result": {
+            "options": {
+              "precision": 0
+            },
+            "type": "number"
+          }
+        },
+        "type": "formula"
+      }
+    ],
+    "id": "tblYarTZzp99EHLVW",
+    "name": "Deals",
+    "primaryFieldId": "fld7ihGKGMmM3voXB",
+    "views": [
+      {
+        "id": "viw9Pgojy0Mh67rgS",
+        "name": "Grid view",
+        "type": "grid"
+      }
+    ]
+  },
+  {
+    "fields": [
+      {
+        "id": "fld3akg6JyoWU9uXU",
+        "name": "Invoice_Number",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldhu9WQ5jUXId1Jv",
+        "name": "Deal",
+        "options": {
+          "inverseLinkFieldId": "fldfwhIOkbxfTWWvJ",
+          "isReversed": false,
+          "linkedTableId": "tblYarTZzp99EHLVW",
+          "prefersSingleRecordLink": false
+        },
+        "type": "multipleRecordLinks"
+      },
+      {
+        "id": "fldsDU7QdurQqLlmi",
+        "name": "Prospect",
+        "options": {
+          "inverseLinkFieldId": "fldUHysjZ5q7Yjkl5",
+          "isReversed": false,
+          "linkedTableId": "tblalG4gDQFhUYC0D",
+          "prefersSingleRecordLink": false
+        },
+        "type": "multipleRecordLinks"
+      },
+      {
+        "id": "fldnmOpdLLH8Lp7Ce",
+        "name": "Amount",
+        "options": {
+          "precision": 2,
+          "symbol": "$"
+        },
+        "type": "currency"
+      },
+      {
+        "id": "fldXiaTefJ6rmQf8Z",
+        "name": "Status",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selQl8CFVIhZsZ9r7",
+              "name": "Draft"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selPwWpuW8ZvcLnxq",
+              "name": "Sent"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selIpqmZwlXT0rxIu",
+              "name": "Paid"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selxnS4pQdmH7iMU9",
+              "name": "Overdue"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel5RbjheTOEOJVmS",
+              "name": "Cancelled"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldzH0L7QCPoswTWp",
+        "name": "Issue_Date",
+        "options": {
+          "dateFormat": {
+            "format": "YYYY-MM-DD",
+            "name": "iso"
+          }
+        },
+        "type": "date"
+      },
+      {
+        "id": "fldyQ6XMXvDW1kXMi",
+        "name": "Due_Date",
+        "options": {
+          "dateFormat": {
+            "format": "YYYY-MM-DD",
+            "name": "iso"
+          }
+        },
+        "type": "date"
+      },
+      {
+        "id": "fldkCvMtpVyF8W04G",
+        "name": "Paid_Date",
+        "options": {
+          "dateFormat": {
+            "format": "YYYY-MM-DD",
+            "name": "iso"
+          }
+        },
+        "type": "date"
+      },
+      {
+        "id": "fldzPttvjpOiXAK6C",
+        "name": "Payment_Method",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "seluiLMxq9o1NVvi5",
+              "name": "Bank Transfer"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selgWgM4L7ICdefBR",
+              "name": "Credit Card"
+            },
+            {
+              "color": "grayLight2",
+              "id": "seloJTFybNQMbw55R",
+              "name": "PayPal"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selqbyOvPM2liFi2F",
+              "name": "Check"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldcAta8zLSzEaPDc",
+        "name": "Notes",
+        "type": "multilineText"
+      },
+      {
+        "id": "fldDBZ1oj7GSLMfLb",
+        "name": "Invoice_URL",
+        "type": "url"
+      }
+    ],
+    "id": "tblRpzWdHUgHIFk8R",
+    "name": "Invoices",
+    "primaryFieldId": "fld3akg6JyoWU9uXU",
+    "views": [
+      {
+        "id": "viwZ7Zu6YhLZaINJ8",
+        "name": "Grid view",
+        "type": "grid"
+      }
+    ]
+  },
+  {
+    "description": "Motor de reportes: captura periódica de las listas oficiales de precios de medicamentos que el contenedor no puede descargar (planillas de CMED Brasil, DIGEMID Perú y SISMED Colombia). Lo escribe el scenario de Make \"HS Price Feeds\"; Airtable descarga el archivo al campo File. Alimenta Engine_Data_Points. Estado 04-09-2026: solo CMED (Brasil) y DIGEMID (Perú) capturan; la fuente de SISMED (Colombia) no está identificada y su ruta queda en revisión.",
+    "fields": [
+      {
+        "description": "Nombre corto de la fuente, ej. CMED — lista de preços",
+        "id": "fld8hEbQMwpg6aJsu",
+        "name": "Source",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldlJt0DTUdCv7rCB",
+        "name": "Country",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selOqnckfhm4MZfTl",
+              "name": "Brasil"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selw6hurh5jXnfYy7",
+              "name": "Perú"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel7V5bo1yfHDYdHw",
+              "name": "Colombia"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel7JDuXBZN7pBWqb",
+              "name": "México"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel2aTAU5xMlZ7ZGY",
+              "name": "Chile"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selBh2KFVyzWv3Wcy",
+              "name": "Argentina"
+            },
+            {
+              "color": "blueLight2",
+              "id": "selAo8EPHGop5JLlS",
+              "name": "Peru"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "description": "Organismo emisor",
+        "id": "fldt7owHzReMPWZU4",
+        "name": "Publisher",
+        "type": "singleLineText"
+      },
+      {
+        "description": "URL directa del archivo resuelta por el scenario",
+        "id": "fldOPkcej3Zl6TOCW",
+        "name": "File URL",
+        "type": "url"
+      },
+      {
+        "description": "Airtable descarga el archivo desde File URL",
+        "id": "fldE8DHX0jLJBSQsX",
+        "name": "File",
+        "options": {
+          "isReversed": false
+        },
+        "type": "multipleAttachments"
+      },
+      {
+        "description": "Página desde la que se resolvió el link",
+        "id": "fldx4YUy6hJ3chHXs",
+        "name": "Page URL",
+        "type": "url"
+      },
+      {
+        "id": "fldcOnQ6ScUC50y4e",
+        "name": "Captured at",
+        "options": {
+          "dateFormat": {
+            "format": "YYYY-MM-DD",
+            "name": "iso"
+          },
+          "timeFormat": {
+            "format": "HH:mm",
+            "name": "24hour"
+          },
+          "timeZone": "America/New_York"
+        },
+        "type": "dateTime"
+      },
+      {
+        "id": "fldLlFlaGY4Nm6jAm",
+        "name": "Status",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selWx9A97uqSxYzZX",
+              "name": "Capturado"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selc2UnYxCziZQTgD",
+              "name": "Parseado"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selXwL7tcv8QSYGIe",
+              "name": "Sin cambios"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selj4ZpM0exVgwo71",
+              "name": "Falló"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldaCqzDMy4y59brO",
+        "name": "Notes",
+        "type": "multilineText"
+      }
+    ],
+    "id": "tblVVQzK1OmhLzaXQ",
+    "name": "Engine_Price_Files",
+    "primaryFieldId": "fld8hEbQMwpg6aJsu",
+    "views": [
+      {
+        "id": "viwDGCCkIGmhAfBQw",
+        "name": "Grid view",
+        "type": "grid"
+      }
+    ]
+  },
+  {
+    "description": "Contactos de prensa especializada, media offices de pharma y agencias PR salud. Cargado 2026-08-11 por research verificado: cada registro lleva Source_URL donde el dato figura publicado. Regla: sin Source_URL no es un dato.",
+    "fields": [
+      {
+        "id": "fldi4c6chRhRkyQXN",
+        "name": "Organization",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fld36dcxyGaldunzp",
+        "name": "Name",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldtulzmcgnaFZtAx",
+        "name": "Role",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fld0HUVYyY9OrgUDj",
+        "name": "Type",
+        "options": {
+          "choices": [
+            {
+              "color": "blueBright",
+              "id": "sel3l6BGcL3qtLiu7",
+              "name": "Prensa especializada"
+            },
+            {
+              "color": "tealBright",
+              "id": "selZnYH99yEJK2Ms6",
+              "name": "Pharma media office"
+            },
+            {
+              "color": "purpleBright",
+              "id": "selJFyNSYlaI6Dhuf",
+              "name": "Agencia PR"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldYso9kOU0mRW8It",
+        "name": "Email",
+        "type": "email"
+      },
+      {
+        "id": "fldl87j3mgyngSQRI",
+        "name": "Contact_URL",
+        "type": "url"
+      },
+      {
+        "id": "fldI1lwuhECxdYQ6X",
+        "name": "Country",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldXMNyeustuzIRFa",
+        "name": "Source_URL",
+        "type": "url"
+      },
+      {
+        "id": "fldBOQDleY88DCLDA",
+        "name": "Notes",
+        "type": "multilineText"
+      },
+      {
+        "id": "fldk5oRdclzfklp16",
+        "name": "Status",
+        "options": {
+          "choices": [
+            {
+              "color": "grayBright",
+              "id": "selcgXcnyHgjlZP6O",
+              "name": "New"
+            },
+            {
+              "color": "yellowBright",
+              "id": "selMSTLmZGO82HUlf",
+              "name": "Contacted"
+            },
+            {
+              "color": "greenBright",
+              "id": "selwUSCwCmO6iViiK",
+              "name": "Responded"
+            },
+            {
+              "color": "redBright",
+              "id": "selFABfbYZKVFpWkA",
+              "name": "Not relevant"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldM5qb2j9hYeE7AL",
+        "name": "Beat",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selWvcO0v8fP02uDo",
+              "name": "Regulatorio"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selUBnyS6BsZEHGLk",
+              "name": "Acceso/precios"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selNn67k0fpqew27E",
+              "name": "Compras públicas"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel3WERUNcFoNbCSL",
+              "name": "Industria/deals"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selBmxB2go00Epjkb",
+              "name": "Salud pública"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel0j732WbO4wJbT0",
+              "name": "Política sanitaria"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selTLPQYtf8yElPF2",
+              "name": "LatAm"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldCUVPeEV1EWYS8b",
+        "name": "Idioma",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selz0Mf6Tz0lrAnx8",
+              "name": "ES"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selLdU6tQVGxXRgma",
+              "name": "PT"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selIE5Vf99vBnr0rW",
+              "name": "EN"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "description": "Nota firmada más reciente sobre salud/pharma, verificada",
+        "id": "fldBrr9uQ8oZKyaCS",
+        "name": "Última nota firmada",
+        "type": "url"
+      },
+      {
+        "id": "fldNWegXXix044ytK",
+        "name": "Fecha última nota",
+        "options": {
+          "dateFormat": {
+            "format": "YYYY-MM-DD",
+            "name": "iso"
+          }
+        },
+        "type": "date"
+      },
+      {
+        "description": "Tildado solo si el email está publicado en fuente propia del medio/periodista (URL en Source). Nunca emails por patrón.",
+        "id": "fld6tV1oXMgsEIOtH",
+        "name": "Email verificado",
+        "options": {
+          "color": "greenBright",
+          "icon": "check"
+        },
+        "type": "checkbox"
+      }
+    ],
+    "id": "tblCz9trAX2uC0hcI",
+    "name": "Press & PR Contacts",
+    "primaryFieldId": "fldi4c6chRhRkyQXN",
+    "views": [
+      {
+        "id": "viwDVhQOqUuyiZTgD",
+        "name": "Grid view",
+        "type": "grid"
+      }
+    ]
+  },
+  {
+    "description": "Registro de cambios de infraestructura (Make, Sheets, fuentes). Un registro por cambio. Lo escribe Claude al cerrar cada sesión de trabajo sobre el sistema.",
+    "fields": [
+      {
+        "id": "fldtWqXepxvswcOUY",
+        "name": "Change",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fld56N33Pr2mtqa6M",
+        "name": "Date",
+        "options": {
+          "dateFormat": {
+            "format": "YYYY-MM-DD",
+            "name": "iso"
+          }
+        },
+        "type": "date"
+      },
+      {
+        "id": "fldq9JOjvaS5txmk3",
+        "name": "Area",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selU5noQ13KaZfUSV",
+              "name": "Scanner Geo (5096381)"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selPabPwJVqQG8Vxd",
+              "name": "Thematic Scanner (6070111)"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selOg4Gq53PUQSM5r",
+              "name": "Topic Registry"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel8I1GNWtBtu2TT2",
+              "name": "Publisher (5133643)"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selL3ZnMDfs6mKf1e",
+              "name": "Editorial Queue"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel01HHr6I7Gdkjpj",
+              "name": "Otro"
+            },
+            {
+              "color": "blueLight2",
+              "id": "sellPHJb5sdnJeHEl",
+              "name": "Make"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldHo5zs3zhcjzvV6",
+        "name": "Details",
+        "type": "multilineText"
+      },
+      {
+        "id": "fldsF3oZtJYLg95Sr",
+        "name": "Status",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selIg2N3twQ7JHCEf",
+              "name": "Deployed"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selrUhCOyMJ3gb9MA",
+              "name": "Pendiente"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selLeLas4ln1gSu1C",
+              "name": "Revertido"
+            },
+            {
+              "color": "blueLight2",
+              "id": "selF9c45PpollnCpN",
+              "name": "Done"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      }
+    ],
+    "id": "tblppe3OyrnkfKh9J",
+    "name": "System Changelog",
+    "primaryFieldId": "fldtWqXepxvswcOUY",
+    "views": [
+      {
+        "id": "viwUkABEmb8BBWk4F",
+        "name": "Grid view",
+        "type": "grid"
+      }
+    ]
+  },
+  {
+    "description": "Pipeline del Editorial Advisory Board de HealthSignals. Research verificado al 11-ago-2026. Regla heredada de Press & PR Contacts: sin Source_URL no es un dato. Los cargos de LinkedIn son autodeclarados — confirmar en la llamada. Diseño del board (7 asientos, composición por función, reglas de COI) en el doc del proyecto claude/advisory-board-diseno-y-candidatos-v1.md. NO mezclar con CRM Prospects: esa tabla alimenta los scenarios de outreach comercial y un advisor no debe recibir un pitch de sponsorship.",
+    "fields": [
+      {
+        "id": "fld9YjO2x88RpI3ZN",
+        "name": "Name",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldtfShMrFahZCBf2",
+        "name": "Board_Seat",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "seljCBHXyheBYEHAN",
+              "name": "Industria"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selNZCY32pLEA45in",
+              "name": "Regulatorio"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selg6ygsXX14RFvVw",
+              "name": "Acceso / HTA"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selDuj7BI02gnxlMr",
+              "name": "Clinico / KOL"
+            },
+            {
+              "color": "grayLight2",
+              "id": "seln30HlatwbbvXrT",
+              "name": "Media / Estandares"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel6xg9fPCW5K1Nmh",
+              "name": "Mercado grande"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selCtJJNipu0EXisC",
+              "name": "NGO"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel48IOumUekGYNbl",
+              "name": "Data comercial"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selHzF1nRLgIIss2h",
+              "name": "No aplica - vetado"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldnqeNswjveeGqHQ",
+        "name": "Priority",
+        "options": {
+          "choices": [
+            {
+              "color": "greenBright",
+              "id": "selxDgRRmEeIKqoNS",
+              "name": "Ronda 1"
+            },
+            {
+              "color": "yellowBright",
+              "id": "selvlX2ClQujrO7WC",
+              "name": "Ronda 2"
+            },
+            {
+              "color": "blueLight1",
+              "id": "selS44CVEb7vaSg8G",
+              "name": "Ronda 3"
+            },
+            {
+              "color": "redBright",
+              "id": "selWqy9iKm14MPyZY",
+              "name": "No contactar"
+            },
+            {
+              "color": "grayBright",
+              "id": "selynpANurukL79TE",
+              "name": "Solo fuente"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fld8QkRw3u4Wekaqa",
+        "name": "Status",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight1",
+              "id": "seloqZfIpXV8g6LIf",
+              "name": "Not contacted"
+            },
+            {
+              "color": "orangeBright",
+              "id": "selm6iQGvwHnfxLOS",
+              "name": "Verificar antes de contactar"
+            },
+            {
+              "color": "blueBright",
+              "id": "selWHJ16Fp6F6wQ3y",
+              "name": "Contacted"
+            },
+            {
+              "color": "cyanBright",
+              "id": "selEsrVOFehbuhk3D",
+              "name": "Responded"
+            },
+            {
+              "color": "purpleBright",
+              "id": "sel4aSJvXWlpkpi1F",
+              "name": "In conversation"
+            },
+            {
+              "color": "greenBright",
+              "id": "selXmE50yIliVWfTy",
+              "name": "Accepted"
+            },
+            {
+              "color": "redLight1",
+              "id": "selmPXQqk8FdFdFDw",
+              "name": "Declined"
+            },
+            {
+              "color": "grayBright",
+              "id": "sel00UhDETp1DWqiH",
+              "name": "Descartado"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldlcP5Pv4qsRxBUB",
+        "name": "Ease",
+        "options": {
+          "choices": [
+            {
+              "color": "greenBright",
+              "id": "seldJ6MtsCxoWihPv",
+              "name": "Muy alta"
+            },
+            {
+              "color": "greenLight1",
+              "id": "selyUx9rieg1XTkzG",
+              "name": "Alta"
+            },
+            {
+              "color": "yellowBright",
+              "id": "selqZmNEE430tjM3p",
+              "name": "Media"
+            },
+            {
+              "color": "orangeBright",
+              "id": "selCMzpdGL4yxmZIK",
+              "name": "Baja"
+            },
+            {
+              "color": "redBright",
+              "id": "selADjrUMAHeFJICH",
+              "name": "No reclutable"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldN22Gs0qml8PA9F",
+        "name": "Current_Role",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldRSyDpe8wLdVhoN",
+        "name": "Current_Org",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldZRprI1RmbFfHrC",
+        "name": "Prior_Role_Key",
+        "type": "multilineText"
+      },
+      {
+        "id": "fldM9MEkhqRxHFbcv",
+        "name": "Country",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selKe5XHW0Nc9JHFt",
+              "name": "Brasil"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selKOxFw1Q9Frlwb9",
+              "name": "Mexico"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selWNQ0R1lPj1gTPM",
+              "name": "Argentina"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selDkE0FccKrzQlDY",
+              "name": "Colombia"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selJhWQYjjbgop7T3",
+              "name": "Chile"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selE9WYDWtP0VpEiT",
+              "name": "Peru"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selip7dglzEAKc4MS",
+              "name": "Venezuela"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel9KBhwnWj2AmAvC",
+              "name": "Puerto Rico"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selH3AblGtjEpa8LU",
+              "name": "USA"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selTUBZMtLCv6rYXK",
+              "name": "Regional / Multilateral"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel9tkw64j95iOwtD",
+              "name": "Otro"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldQ6OCJoVIi63MHH",
+        "name": "Based_In",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldfsSSVTe9HqbaNx",
+        "name": "Why_Fit",
+        "type": "multilineText"
+      },
+      {
+        "id": "fldfz2YHeJsxMu2oC",
+        "name": "Conflict_Flag",
+        "options": {
+          "choices": [
+            {
+              "color": "greenBright",
+              "id": "sel6NxcXyJ3bQeeo2",
+              "name": "Ninguno"
+            },
+            {
+              "color": "yellowBright",
+              "id": "selVrmplvjj8KRKoZ",
+              "name": "Declarar"
+            },
+            {
+              "color": "orangeBright",
+              "id": "selWrwztkk7oji8z7",
+              "name": "Alto"
+            },
+            {
+              "color": "redBright",
+              "id": "selygzOLGy2izS1lp",
+              "name": "Vetado"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldALqIohmbxtnicP",
+        "name": "Conflict_Notes",
+        "type": "multilineText"
+      },
+      {
+        "id": "fld3Lep6TQZX8pMLN",
+        "name": "Verification",
+        "options": {
+          "choices": [
+            {
+              "color": "greenBright",
+              "id": "selfOXvskmweGOa4o",
+              "name": "Verificado"
+            },
+            {
+              "color": "yellowBright",
+              "id": "selVaJ7iYbHkJB2GF",
+              "name": "Verificacion parcial"
+            },
+            {
+              "color": "redBright",
+              "id": "sel0BlVDeZTS6fICS",
+              "name": "No verificado"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldp3z0uPo4fCoFOT",
+        "name": "Source_URL",
+        "type": "url"
+      },
+      {
+        "id": "fldIDO4Sqoe0xtd3r",
+        "name": "Gender",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selYnd8n5j3gTx1uH",
+              "name": "F"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selGHVQwuWLiQZnBn",
+              "name": "M"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fld9hsBWGlSubdmfU",
+        "name": "Next_Action",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldKp3AXFMJj5QL6m",
+        "name": "Next_Action_Date",
+        "options": {
+          "dateFormat": {
+            "format": "YYYY-MM-DD",
+            "name": "iso"
+          }
+        },
+        "type": "date"
+      },
+      {
+        "id": "fldYjNiew2vIRhRGq",
+        "name": "Notes",
+        "type": "multilineText"
+      },
+      {
+        "id": "fldVacreqwJSpI66W",
+        "name": "Added",
+        "options": {
+          "dateFormat": {
+            "format": "YYYY-MM-DD",
+            "name": "iso"
+          }
+        },
+        "type": "date"
+      }
+    ],
+    "id": "tblnhQ2mDHloxECAT",
+    "name": "Advisory Board Candidates",
+    "primaryFieldId": "fld9YjO2x88RpI3ZN",
+    "views": [
+      {
+        "id": "viwMwDNqutzcz1aaz",
+        "name": "Grid view",
+        "type": "grid"
+      }
+    ]
+  },
+  {
+    "description": "Curaduría de reportes flagship de pharma/salud 2025-2026. Fer aprueba cuáles se publican en el repositorio.",
+    "fields": [
+      {
+        "id": "fldSdJ5L3Xy51UxUq",
+        "name": "Reporte",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldmo0cn7ZbpivIDa",
+        "name": "Organización",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fld94vYK9BIzJgxkt",
+        "name": "Año",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selbo7fhNw27RTuoS",
+              "name": "2024"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selNpG9ZlMMAJwowF",
+              "name": "2025"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selx392AJVK3G8XlN",
+              "name": "2026"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel8FL1afHgIYeO09",
+              "name": "2025-2026"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldr3jFA0S2n32xIm",
+        "name": "Categoría",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "sel6oNSJh0ohVT5s8",
+              "name": "Oncología"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selmr7JJ3sXiLWTSZ",
+              "name": "Diabetes"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel5MOpC3zGJrFYsn",
+              "name": "Obesidad"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selQn0ucknTW22DOy",
+              "name": "Cardiovascular"
+            },
+            {
+              "color": "grayLight2",
+              "id": "self5Q2bYoUMIC0P9",
+              "name": "Salud mental"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selGEGCOdL3mj1LeI",
+              "name": "Enfermedades raras"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selkWdBNDMoQj579L",
+              "name": "Salud de la mujer"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selslVd8mADrCU9Qj",
+              "name": "Vacunas"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selZ16SgalIwLaFnE",
+              "name": "Enf. infecciosas"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel4ceBi1M0YKAHln",
+              "name": "Materno-infantil"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selTeFQthemKNVw6h",
+              "name": "Nutrición"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selgX5lspSvRmgTMu",
+              "name": "NCDs / Carga de enfermedad"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selIlNv1AhAkwu86D",
+              "name": "Resistencia antimicrobiana"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selrFiTwZuRQrSmaU",
+              "name": "Determinantes sociales"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selP1hkslurBJEVdF",
+              "name": "Policy / Sistemas de salud"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selOJFk65qaxRWnGV",
+              "name": "Cobertura universal"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel7UA0w6qaWzpZkS",
+              "name": "Financiamiento salud"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selHs3IyDgRDa9IoW",
+              "name": "Market access / Pricing"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selGi02AZWx0i8Mux",
+              "name": "Regulación"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel1c3vkPfEak5dLz",
+              "name": "Acceso a medicamentos"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selysjMiBisRYki2I",
+              "name": "Mercado / Industria pharma"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selnZF7sZTN1xHfJc",
+              "name": "I+D / Pipeline"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selLAeL8Y7CHN3VXy",
+              "name": "M&A / Deals"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selIuQbrjsJOJDuRg",
+              "name": "Biosimilares / Genéricos"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel67fTXuh3vsVAuJ",
+              "name": "Medtech"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selmwbEwjOxVc2KAx",
+              "name": "Salud digital / IA"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selNmgXW099k3Im0t",
+              "name": "Ciberseguridad"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldAZk6kndvlHyBjp",
+        "name": "Geografía",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selLdGhKsC3ngDPw7",
+              "name": "LATAM"
+            },
+            {
+              "color": "grayLight2",
+              "id": "seldY7QBFFuohcVA2",
+              "name": "Global"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selwgo6muuGhBUawi",
+              "name": "Global (con datos LATAM)"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selyuKV5k70JE7zOA",
+              "name": "Américas"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selv4v0fXhDrAZxZC",
+              "name": "Brasil"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selpPutcLffuEJgRW",
+              "name": "México"
+            },
+            {
+              "color": "grayLight2",
+              "id": "seldb1tbRHuh3PrME",
+              "name": "Colombia"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selJbgEdfGDEygoaY",
+              "name": "Argentina"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selhQQeO5UgXz5D6Y",
+              "name": "Europa"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selxA1JjCgf6xQXpZ",
+              "name": "OCDE"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel2gz2HAHpJbOeod",
+              "name": "EE.UU."
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldMbndbiteUnxHW0",
+        "name": "URL",
+        "type": "url"
+      },
+      {
+        "id": "fldLZBXJmFjIuwdzG",
+        "name": "Acceso",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selyhXWscl7R7es1x",
+              "name": "Libre"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selR8YpxsywHTYEDk",
+              "name": "Registro"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel4Re6i6fPy7ifHu",
+              "name": "Pago"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fld1qYmLZq6NxdAYF",
+        "name": "Permiso",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "sel5dKYmv4PA9KDfo",
+              "name": "No requiere"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selAkMPma5hBoTwhC",
+              "name": "Pedir"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldR46BlVsSXA5vpw",
+        "name": "Aprobación",
+        "options": {
+          "choices": [
+            {
+              "color": "yellowLight1",
+              "id": "sel1hkz4WnOyo8NkI",
+              "name": "Pendiente"
+            },
+            {
+              "color": "greenLight1",
+              "id": "selRDXx37tYdDDHpy",
+              "name": "Aprobado"
+            },
+            {
+              "color": "redLight1",
+              "id": "selyvFm8qYuS9PH6w",
+              "name": "Rechazado"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldHklgeLNm1lctkG",
+        "name": "Notas",
+        "type": "multilineText"
+      }
+    ],
+    "id": "tblZENrv7p4S2i0I0",
+    "name": "Report Radar",
+    "primaryFieldId": "fldSdJ5L3Xy51UxUq",
+    "views": [
+      {
+        "id": "viwTxBz1dNOXG7PX1",
+        "name": "Grid view",
+        "type": "grid"
+      }
+    ]
+  },
+  {
+    "description": "Índice maestro de dónde vive cada documento, decisión, blueprint y asset de HealthSignals. Una fila por doc. Regla de conflicto: gana lo más reciente — si dos docs cubren lo mismo, el viejo queda Superseded y apunta al nuevo en Superseded_By. Antes de escribir un doc nuevo, buscar acá si ya existe.",
+    "fields": [
+      {
+        "description": "Nombre del doc o asset",
+        "id": "fldDaYq8mvCJwOiuY",
+        "name": "Title",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldWVSVOdjB11MDBu",
+        "name": "Lives_In",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selntOfwHDF8H2W1W",
+              "name": "Project claude.ai"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selx1kEu4ScmrcH5I",
+              "name": "Google Drive"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selTVizdCoY0fDPpE",
+              "name": "Airtable"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selFD2ejzZ6XobOhY",
+              "name": "Make"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selhKBFBdVykXIIyk",
+              "name": "WordPress"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selcFS3Cr5ZMb9k8v",
+              "name": "Gmail"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel9BocDCZFgdNRsI",
+              "name": "Otro"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "description": "Ruta en el project, URL de Drive, ID de scenario o tabla",
+        "id": "fldyVJNVnYCko3jCg",
+        "name": "Path_or_URL",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fld0rlUcUPXzR0JxZ",
+        "name": "Status",
+        "options": {
+          "choices": [
+            {
+              "color": "greenLight1",
+              "id": "selITE5en6gGmptiB",
+              "name": "Vigente"
+            },
+            {
+              "color": "yellowLight1",
+              "id": "selhLAe8xb5ZwekQe",
+              "name": "Superseded"
+            },
+            {
+              "color": "grayLight1",
+              "id": "selFLyPP7aDaK4JK8",
+              "name": "Archivado"
+            },
+            {
+              "color": "redLight1",
+              "id": "selK5dqbAwwJRYwnx",
+              "name": "Revisar"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "description": "Título del doc más reciente que lo reemplaza. Vacío si es vigente.",
+        "id": "fldUMvfim0bB9gCKk",
+        "name": "Superseded_By",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldLpYTKkgZNXD644",
+        "name": "Area",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selxe6hCV7WVb5K24",
+              "name": "Editorial"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selgnFwMZMqOqjZ8H",
+              "name": "Motor de reportes"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel2r3krENWKaVVYK",
+              "name": "Comercial / Sponsors"
+            },
+            {
+              "color": "grayLight2",
+              "id": "seleOkhFxGB9TyKrG",
+              "name": "CRM / Outreach"
+            },
+            {
+              "color": "grayLight2",
+              "id": "seljR6E3NMwNtTu2S",
+              "name": "Infraestructura / Make"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selPRDM8QRMD3cEq5",
+              "name": "Airtable / Data"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selw6YBUqRjes03Pm",
+              "name": "Estrategia"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selSruVJbcXjwug68",
+              "name": "Finanzas"
+            },
+            {
+              "color": "grayLight2",
+              "id": "seloOUUNAeWu7qskt",
+              "name": "Marca / Diseño"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldWKrJTctWkbdT8l",
+        "name": "Doc_Date",
+        "options": {
+          "dateFormat": {
+            "format": "YYYY-MM-DD",
+            "name": "iso"
+          }
+        },
+        "type": "date"
+      },
+      {
+        "description": "Una línea: qué resuelve este doc y cuándo consultarlo",
+        "id": "fld2tBsaZ69fNYQkP",
+        "name": "What_It_Is",
+        "type": "multilineText"
+      },
+      {
+        "description": "De qué proyecto de claude.ai vino, si se migró",
+        "id": "fldCswy1BLQsatO7w",
+        "name": "Source_Project",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldoKCH4oXxpUoiBs",
+        "name": "Indexed_At",
+        "options": {
+          "dateFormat": {
+            "format": "YYYY-MM-DD",
+            "name": "iso"
+          }
+        },
+        "type": "date"
+      }
+    ],
+    "id": "tblJ8yijCjMxQCfwD",
+    "name": "Doc Index",
+    "primaryFieldId": "fldDaYq8mvCJwOiuY",
+    "views": [
+      {
+        "id": "viwC8HQQ0IgHRxETQ",
+        "name": "Grid view",
+        "type": "grid"
+      }
+    ]
+  },
+  {
+    "description": "Log de decisiones de negocio, producto y estrategia de HealthSignals. Distinto de System Changelog (infra desplegada) y de Engine_Decisions (descartes de datos y citas dentro de un reporte). Regla: gana lo más reciente — una decisión revertida se marca Superseded y se apunta a la nueva. Se consulta antes de re-discutir algo.",
+    "fields": [
+      {
+        "description": "La decisión en una línea, en modo afirmativo",
+        "id": "fldaa1VbWd6TzJdJv",
+        "name": "Decision",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldcWgPXlTUW9UyJ0",
+        "name": "Date",
+        "options": {
+          "dateFormat": {
+            "format": "YYYY-MM-DD",
+            "name": "iso"
+          }
+        },
+        "type": "date"
+      },
+      {
+        "id": "fldiFMqbfff9hxevc",
+        "name": "Area",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "seluhrWajk1uc1PyZ",
+              "name": "Editorial"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selelP0JNAp2ponNO",
+              "name": "Motor de reportes"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selAc8L1dtVU5LBlu",
+              "name": "Comercial / Sponsors"
+            },
+            {
+              "color": "grayLight2",
+              "id": "seleARVpNi5GTFcm2",
+              "name": "CRM / Outreach"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selEhN5Kvzo0XdArR",
+              "name": "Infraestructura / Make"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selNEprd7MEdK0Fjq",
+              "name": "Airtable / Data"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selkCimfrdCKQXA7X",
+              "name": "Estrategia"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selvBlrGheNysiNDK",
+              "name": "Finanzas"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selSBn3TZpMrI4c0T",
+              "name": "Marca / Diseño"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selFqN7IOlT6pNptN",
+              "name": "Producto / Web"
+            },
+            {
+              "color": "blueLight2",
+              "id": "sel368mDCVKpm5Hxb",
+              "name": "Product"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "description": "Qué problema disparó la decisión",
+        "id": "fldbsHb0ZeP1rehmd",
+        "name": "Context",
+        "type": "multilineText"
+      },
+      {
+        "description": "Qué otras opciones se evaluaron y se descartaron",
+        "id": "fldVa0vpVHNynoki3",
+        "name": "Alternatives",
+        "type": "multilineText"
+      },
+      {
+        "description": "Por qué se eligió esto",
+        "id": "fld6JFt1ycTXAk7xX",
+        "name": "Rationale",
+        "type": "multilineText"
+      },
+      {
+        "id": "fldiZKqixMaSuSUBW",
+        "name": "Reversible",
+        "options": {
+          "choices": [
+            {
+              "color": "greenLight1",
+              "id": "selHMvWUQsf6ldC6D",
+              "name": "Sí — barata de revertir"
+            },
+            {
+              "color": "yellowLight1",
+              "id": "sel47M2n7dHcVGESO",
+              "name": "Media"
+            },
+            {
+              "color": "redLight1",
+              "id": "sel6vQYTGzvPzqbNd",
+              "name": "No — costosa"
+            },
+            {
+              "color": "blueLight2",
+              "id": "sel13Qn9dYMwlkmKh",
+              "name": "Yes"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldLS6BboYzj6TEMz",
+        "name": "Status",
+        "options": {
+          "choices": [
+            {
+              "color": "greenLight1",
+              "id": "selapcfRuLc9ImOBe",
+              "name": "Vigente"
+            },
+            {
+              "color": "yellowLight1",
+              "id": "selCGZMGSZNYbBlbp",
+              "name": "Superseded"
+            },
+            {
+              "color": "blueLight1",
+              "id": "selaM4VRJmmpugrgY",
+              "name": "Pendiente"
+            },
+            {
+              "color": "grayLight1",
+              "id": "selsLDypHxdwUUqYL",
+              "name": "Revertida"
+            },
+            {
+              "color": "blueLight2",
+              "id": "selx2vQ20rI0UkCPC",
+              "name": "Active"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "description": "Decisión posterior que la reemplaza",
+        "id": "fldEDpepvhlEwsnIp",
+        "name": "Superseded_By",
+        "type": "singleLineText"
+      },
+      {
+        "description": "Doc del project o URL donde está el detalle",
+        "id": "fldhe43HvuvZV98Cn",
+        "name": "Doc_Link",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldqDpEGd0Zjs1KAn",
+        "name": "Decided_By",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selNjJA31NbbUiyyX",
+              "name": "Fer"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selaX49gH6g8vwCJa",
+              "name": "Claude (propuesta aprobada)"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selGJRAs8QagKgdip",
+              "name": "Default sin discutir"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      }
+    ],
+    "id": "tbl1Yq6i5AZ13RgwJ",
+    "name": "Decisions",
+    "primaryFieldId": "fldaa1VbWd6TzJdJv",
+    "views": [
+      {
+        "id": "viwK5PLIPIVcKge7T",
+        "name": "Grid view",
+        "type": "grid"
+      }
+    ]
+  },
+  {
+    "description": "Una fila por borrador de WordPress revisado por el gate de pre-publicación (2 rondas adversariales). La tarea programada diaria usa esta tabla para saber qué borradores ya revisó.",
+    "fields": [
+      {
+        "id": "fldHyAPJTyylgQZk6",
+        "name": "Post ID",
+        "options": {
+          "precision": 0
+        },
+        "type": "number"
+      },
+      {
+        "id": "fldRJvArMRyYhQVZt",
+        "name": "Title",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldHKUeuDrs6j69Ec",
+        "name": "Country",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldanbWm0Z4RdP3Bq",
+        "name": "Verdict",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selErRrmHFc9iLcBH",
+              "name": "Ready to publish"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selOjPei8E5rKvjQb",
+              "name": "Hold"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selvZU4BlNsEaSr5h",
+              "name": "Needs rewrite"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel2bbRNcp34H37a9",
+              "name": "Published"
+            },
+            {
+              "color": "blueLight2",
+              "id": "selmJUNwsSFEj9CWM",
+              "name": "PUBLISH AFTER EDIT"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldVmuBeQELVt8wMq",
+        "name": "Reviewed At",
+        "options": {
+          "dateFormat": {
+            "format": "YYYY-MM-DD",
+            "name": "iso"
+          },
+          "timeFormat": {
+            "format": "HH:mm",
+            "name": "24hour"
+          },
+          "timeZone": "America/New_York"
+        },
+        "type": "dateTime"
+      },
+      {
+        "id": "flduZPk1NstMZMsX4",
+        "name": "Changes",
+        "type": "multilineText"
+      },
+      {
+        "id": "fldClQZULgJUYNrMt",
+        "name": "Unverified",
+        "type": "multilineText"
+      }
+    ],
+    "id": "tblndyc4IFf88k2Zv",
+    "name": "Prepublish Gate Log",
+    "primaryFieldId": "fldHyAPJTyylgQZk6",
+    "views": [
+      {
+        "id": "viwjM57xo7FEYaukm",
+        "name": "Grid view",
+        "type": "grid"
+      }
+    ]
+  },
+  {
+    "description": "Programa Voices (entrevistas escritas). Una fila por entrevistado. La fuente del email se registra solo acá, nunca en el mail. NO mezclar con CRM Prospects: a un entrevistado no se le ofrece sponsorship. Reglas en el skill hs-voices-questionnaire y en Make data store HS Voices Rules.",
+    "fields": [
+      {
+        "id": "fldU7iOTTlDui6ZUV",
+        "name": "Name",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldGj84muT7pQAjmK",
+        "name": "Stage",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "sellUFHmY30e85VAp",
+              "name": "Draft"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selpjr7cCMDDai2tU",
+              "name": "Scheduled"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel0Bleq9bfVQEp1i",
+              "name": "Sent"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selIESfx9C9TyUW7Y",
+              "name": "Replied"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selNgtu4wuEjq59uO",
+              "name": "Accepted"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selHXZuGnJzG74psx",
+              "name": "Answers received"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selZhVVpphCXx38So",
+              "name": "Published"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selEW9DCwFIoIUfWI",
+              "name": "Declined"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selpx7vpN4lSn2tOb",
+              "name": "No answer"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fld5aA5HIvMwh1JNz",
+        "name": "Country",
+        "type": "singleLineText"
+      },
+      {
+        "id": "flda7aB7jCL1fVSaf",
+        "name": "Institution",
+        "type": "singleLineText"
+      },
+      {
+        "description": "Tratamiento exacto usado en el mail",
+        "id": "flddiXlOu1seMLKxW",
+        "name": "Greeting",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fld7GxAk1MBXG8R6v",
+        "name": "Language",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "sellQmumQWjDFjEWi",
+              "name": "es"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel0haMF1XBRrgrIw",
+              "name": "pt"
+            },
+            {
+              "color": "grayLight2",
+              "id": "seldLQ7g3UX5fuFCD",
+              "name": "en"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "description": "Asunto del mail",
+        "id": "fldgbAerHga5Z4Hfa",
+        "name": "Topic",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldSdvs5SBqEUmoLX",
+        "name": "To_Email",
+        "type": "email"
+      },
+      {
+        "description": "De dónde salió el email. Nunca se menciona en el mail.",
+        "id": "fldqTqlTfqM6TSMPk",
+        "name": "Email_Source",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldrlHddmYn2OQNsM",
+        "name": "Email_Status",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selTMCBvtXIVwWZxA",
+              "name": "Verified"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selOyFW2dVG2cmHyU",
+              "name": "Catch-all"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selb8KLDykVssW6WA",
+              "name": "Unconfirmed"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selkvD5nXa7Fpjgri",
+              "name": "Via intermediary"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldF8P8f8jCKey1Dy",
+        "name": "Send_At",
+        "options": {
+          "dateFormat": {
+            "format": "YYYY-MM-DD",
+            "name": "iso"
+          },
+          "timeFormat": {
+            "format": "HH:mm",
+            "name": "24hour"
+          },
+          "timeZone": "America/New_York"
+        },
+        "type": "dateTime"
+      },
+      {
+        "description": "Hora local del destinatario al recibir",
+        "id": "fldhiQHML6h3pibFJ",
+        "name": "Local_Time",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fld7XooRjXLOgjwgB",
+        "name": "Deadline",
+        "options": {
+          "dateFormat": {
+            "format": "YYYY-MM-DD",
+            "name": "iso"
+          }
+        },
+        "type": "date"
+      },
+      {
+        "id": "fldKMMAhwyCtWzEEV",
+        "name": "Gmail_Thread_ID",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldOB2uAocPK9SiX4",
+        "name": "Gmail_Draft_ID",
+        "type": "singleLineText"
+      },
+      {
+        "description": "Día 4: recordatorio corto",
+        "id": "fld4qqrOTE2Y9kADM",
+        "name": "Followup_1",
+        "options": {
+          "dateFormat": {
+            "format": "YYYY-MM-DD",
+            "name": "iso"
+          }
+        },
+        "type": "date"
+      },
+      {
+        "description": "Día 10: ángulo nuevo",
+        "id": "fldUiYknTgfllQRkB",
+        "name": "Followup_2",
+        "options": {
+          "dateFormat": {
+            "format": "YYYY-MM-DD",
+            "name": "iso"
+          }
+        },
+        "type": "date"
+      },
+      {
+        "description": "Día 18: cierre cordial",
+        "id": "fldVCMzFq7e49Zfsc",
+        "name": "Followup_3",
+        "options": {
+          "dateFormat": {
+            "format": "YYYY-MM-DD",
+            "name": "iso"
+          }
+        },
+        "type": "date"
+      },
+      {
+        "id": "fld6JFcYlLBJKsc7m",
+        "name": "Touches",
+        "options": {
+          "precision": 0
+        },
+        "type": "number"
+      },
+      {
+        "id": "fldEJTzwbSiPrMbhM",
+        "name": "LinkedIn_Connected",
+        "options": {
+          "color": "greenBright",
+          "icon": "check"
+        },
+        "type": "checkbox"
+      },
+      {
+        "id": "fldmEoJLlP9d52gMJ",
+        "name": "LinkedIn_URL",
+        "type": "url"
+      },
+      {
+        "id": "fldU3QcSbkQm33jef",
+        "name": "Reply_Summary",
+        "type": "multilineText"
+      },
+      {
+        "id": "fldmF0Z8obqA89SKz",
+        "name": "Decline_Reason",
+        "type": "singleLineText"
+      },
+      {
+        "description": "Premisas con fuente floja u otros riesgos",
+        "id": "fldwpPOEJM8Jk84M7",
+        "name": "Data_Flags",
+        "type": "multilineText"
+      },
+      {
+        "id": "fldrGtjrKytwFETxh",
+        "name": "Notes",
+        "type": "multilineText"
+      },
+      {
+        "description": "ID en Google Drive (carpeta HS Voices — cuestionarios, 1ZsTGBDQ2qchjG4TVbgFWn9swMi-9t1gv) del Word enviado; la tarea de seguimiento lo descarga para adjuntarlo en el toque 1.",
+        "id": "fldc7ZyzuOYcgTYHG",
+        "name": "Docx_Drive_ID",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldq1aR2HYfeHrQTr",
+        "name": "Batch",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selip3vZmVbIlUl9x",
+              "name": "T1 oct-2026"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel6HsHuLIYYZR4bZ",
+              "name": "T2 nov-2026"
+            },
+            {
+              "color": "blueLight2",
+              "id": "selQA41UcAcplqVSk",
+              "name": "T3 oct-2026"
+            },
+            {
+              "color": "cyanLight2",
+              "id": "selwTHm359KVGerzW",
+              "name": "T4 nov-2026"
+            },
+            {
+              "color": "blueLight2",
+              "id": "sel6TkelqeZipVtBb",
+              "name": "T5 oct-2026"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "description": "Fecha en que se envió la invitación de conexión en LinkedIn (skill hs-voices-linkedin).",
+        "id": "fldwhwlav3o5ahnmg",
+        "name": "LinkedIn_Invite",
+        "options": {
+          "dateFormat": {
+            "format": "YYYY-MM-DD",
+            "name": "iso"
+          }
+        },
+        "type": "date"
+      },
+      {
+        "description": "Día aprobado por Fer para la invitación de LinkedIn (plan mensual). Si tiene fecha y LinkedIn_Invite está vacío, ya está en un plan aprobado: no volver a proponer.",
+        "id": "fldHnp6PGq68iwvEL",
+        "name": "LinkedIn_Planned",
+        "options": {
+          "dateFormat": {
+            "format": "YYYY-MM-DD",
+            "name": "iso"
+          }
+        },
+        "type": "date"
+      },
+      {
+        "description": "Fecha en que el entrevistado aprobó la versión final (respuesta a R7). Sin este campo no se publica (bloqueo del gate, R8).",
+        "id": "fldBwQ968TLnawAIb",
+        "name": "Interviewee_OK",
+        "options": {
+          "dateFormat": {
+            "format": "YYYY-MM-DD",
+            "name": "iso"
+          }
+        },
+        "type": "date"
+      },
+      {
+        "description": "Message ID de Gmail del mail donde el entrevistado aprueba, y si autorizó ofrecer citas o su contacto a prensa (Press_OK sí/no).",
+        "id": "fldLyHBn7CSrCP98R",
+        "name": "Interviewee_OK_Ref",
+        "type": "singleLineText"
+      }
+    ],
+    "id": "tblCnK5agV3rVKGnl",
+    "name": "Voices Pipeline",
+    "primaryFieldId": "fldU7iOTTlDui6ZUV",
+    "views": [
+      {
+        "id": "viwcPwWRBuq2Qk3PU",
+        "name": "Grid view",
+        "type": "grid"
+      }
+    ]
+  },
+  {
+    "description": "Grupos de LinkedIn para distribución del Brief y posts de dato (perfil de Fernando). Rotación: 1 grupo/día, no repetir antes de 10 días, publicar solo con OK de Fernando.",
+    "fields": [
+      {
+        "id": "fldSs3tB34QWMZXd5",
+        "name": "Group",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fld47DM2fofR9Ekf2",
+        "name": "URL",
+        "type": "url"
+      },
+      {
+        "id": "fldMgPlLhhqunNSqh",
+        "name": "Region",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selEIaeCZ6IUqqgLV",
+              "name": "LatAm"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selLUbV7bzdEvGj8c",
+              "name": "Brasil"
+            },
+            {
+              "color": "grayLight2",
+              "id": "seloPt6oENVifzkQn",
+              "name": "Argentina"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selwpRBmqIJLB0bA2",
+              "name": "México"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selkLAI2cClHlxxa2",
+              "name": "Global"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldqYeZEcUCerlT6e",
+        "name": "Language",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "sel0nRghmqbfThFFv",
+              "name": "EN"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selSsBDcepJWXNSSY",
+              "name": "ES"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selkOrn3hOeHnCkZO",
+              "name": "PT"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selxcjn4yrM3dp9WG",
+              "name": "Mixto"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldwBL5gDc1K1F5iP",
+        "name": "Members",
+        "options": {
+          "precision": 0
+        },
+        "type": "number"
+      },
+      {
+        "id": "fldnzjK1I7zMKBxGa",
+        "name": "Status",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selBYegMLCOCMmLXy",
+              "name": "Member"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selm3GsdKrbcNKFto",
+              "name": "Pending"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel6Nwdhb4GKQ9a81",
+              "name": "Excluded"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldPJERO3RvsqFd4K",
+        "name": "Links allowed",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selKm0Tljrjqr6jMS",
+              "name": "Por verificar"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selSDh7PSra7yY28r",
+              "name": "Sí"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selbaG2F6EJyWreEE",
+              "name": "No (link en comentario)"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel64rqRYhud46Gl8",
+              "name": "Prohíbe autopromoción"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldTytdyhLM93m8Jr",
+        "name": "Last posted",
+        "options": {
+          "dateFormat": {
+            "format": "YYYY-MM-DD",
+            "name": "iso"
+          }
+        },
+        "type": "date"
+      },
+      {
+        "id": "fldIvyCo9rRd2Q2Ij",
+        "name": "Notes",
+        "type": "multilineText"
+      }
+    ],
+    "id": "tblbnnE0R2XCPF7Zy",
+    "name": "LinkedIn Groups",
+    "primaryFieldId": "fldSs3tB34QWMZXd5",
+    "views": [
+      {
+        "id": "viwAe38AmbEBJ0veA",
+        "name": "Grid view",
+        "type": "grid"
+      }
+    ]
+  },
+  {
+    "description": "Una fila por comentario propuesto por la tarea \"HS comentarios redes\" (skill hs-social-comments). Sirve para no repetir posts, respetar topes por cuenta y aprender qué funciona (métricas a 48 h y patrones de comentarios de terceros).",
+    "fields": [
+      {
+        "id": "fldQx3NLpSOYoTZhK",
+        "name": "Comment",
+        "type": "multilineText"
+      },
+      {
+        "id": "fld609OcFwPxekbW4",
+        "name": "Date",
+        "options": {
+          "dateFormat": {
+            "format": "YYYY-MM-DD",
+            "name": "iso"
+          }
+        },
+        "type": "date"
+      },
+      {
+        "description": "Cuenta comentada, ej. PAHO, FDA, ANVISA, Economist Impact",
+        "id": "fldVEmaLOlclnwMH2",
+        "name": "Account",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldhqkG3178mfGLy8",
+        "name": "Network",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selcE4FPNXLSbKzQR",
+              "name": "LinkedIn"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel4DKWP1oR03gtrd",
+              "name": "X"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldJtuFWBLHjpGeJQ",
+        "name": "Post URL",
+        "type": "url"
+      },
+      {
+        "id": "fldzoBIQcPcYQJ88m",
+        "name": "Post Summary",
+        "type": "singleLineText"
+      },
+      {
+        "description": "Link con UTM incluido en el comentario",
+        "id": "fld7DIZupvato5Rlr",
+        "name": "HS Link",
+        "type": "url"
+      },
+      {
+        "id": "fldI8zItidMY0OsdL",
+        "name": "Status",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selXJ0OjTsQtypH3S",
+              "name": "Proposed"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selGEqEJDJekYVxEd",
+              "name": "Approved"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selUfNM0n2Thk9RTO",
+              "name": "Published"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selc7GyceTDrKEaD5",
+              "name": "Rejected"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selXcfxj0SeD0T2PN",
+              "name": "Failed"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fld8q6qFaPY4DJW8X",
+        "name": "Comment URL",
+        "type": "url"
+      },
+      {
+        "id": "fldUDpnrSb8E2dRJH",
+        "name": "Reactions 48h",
+        "options": {
+          "precision": 0
+        },
+        "type": "number"
+      },
+      {
+        "id": "fldatPf3vzVRySW13",
+        "name": "Replies 48h",
+        "options": {
+          "precision": 0
+        },
+        "type": "number"
+      },
+      {
+        "description": "Quién respondió y qué dijo (resumen). Si responde alguien relevante (prospecto, KOL, funcionario), marcarlo.",
+        "id": "fldCjMR8xOUMPnVCV",
+        "name": "Reply Notes",
+        "type": "multilineText"
+      },
+      {
+        "id": "fldUJezVIeQ2ycp3W",
+        "name": "Comment Style",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selYUYbw1h0dFYM6M",
+              "name": "Dato"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selOGgRZrTJTKbqWn",
+              "name": "Pregunta"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selfTPehTNDYNurav",
+              "name": "Angulo acceso"
+            },
+            {
+              "color": "grayLight2",
+              "id": "seljCFXzzEQL6IEwo",
+              "name": "Angulo LatAm"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sellA39cdk95ImosM",
+              "name": "Estudio citado"
+            }
+          ]
+        },
+        "type": "multipleSelects"
+      },
+      {
+        "description": "Qué tenían en común los comentarios de terceros con más reacciones en ese post (formato, largo, tono, si citaban estudios).",
+        "id": "fldzRRhwSKKZSlQVC",
+        "name": "Top Third-Party Notes",
+        "type": "multilineText"
+      },
+      {
+        "description": "Cambios que pidió Fer antes de aprobar; son la señal más directa de aprendizaje.",
+        "id": "fldfwxo1fHq4LaGmk",
+        "name": "Fer Edits",
+        "type": "multilineText"
+      }
+    ],
+    "id": "tbldimgCwn30enF2q",
+    "name": "Social Comments",
+    "primaryFieldId": "fldQx3NLpSOYoTZhK",
+    "views": [
+      {
+        "id": "viwvf3Z6yEzmWfEwo",
+        "name": "Grid view",
+        "type": "grid"
+      }
+    ]
+  },
+  {
+    "description": "Estudios y reportes que aparecen linkeados en posts o comentarios de terceros durante la tarea \"HS comentarios redes\". Insumo para notas y reportes; nada se cita sin abrir y leer la fuente.",
+    "fields": [
+      {
+        "id": "fldNKXPyTRTyhPKoM",
+        "name": "Title",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldRLrqBuTDjxqM5b",
+        "name": "URL",
+        "type": "url"
+      },
+      {
+        "description": "DOI, PMID o ID del organismo, si existe",
+        "id": "fldZNQQirhyTFmvrX",
+        "name": "DOI or ID",
+        "type": "singleLineText"
+      },
+      {
+        "description": "Revista u organismo emisor",
+        "id": "fldkD6LwxXpzk7dEh",
+        "name": "Publisher",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldHlWuMHMpnpS07h",
+        "name": "Year",
+        "options": {
+          "precision": 0
+        },
+        "type": "number"
+      },
+      {
+        "description": "Post o comentario donde apareció",
+        "id": "fld241Ckze0t415WR",
+        "name": "Found Via",
+        "type": "url"
+      },
+      {
+        "description": "Quién lo compartió (nombre y cargo, si es público)",
+        "id": "fldoZgTjCFKQwOXVy",
+        "name": "Shared By",
+        "type": "singleLineText"
+      },
+      {
+        "description": "Hallazgo principal en palabras propias, leído en la fuente",
+        "id": "fldwSmdmXZanujsLw",
+        "name": "Key Finding",
+        "type": "multilineText"
+      },
+      {
+        "description": "Ángulo para audiencia pharma/acceso LatAm",
+        "id": "fld9y2TWiJf3RkSov",
+        "name": "Why It Matters",
+        "type": "multilineText"
+      },
+      {
+        "id": "fld9QSyVqYOm1hy5S",
+        "name": "Status",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selFBoPNMwzPQ7Twp",
+              "name": "New"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel7j4Mf086zrNGeg",
+              "name": "Verified"
+            },
+            {
+              "color": "grayLight2",
+              "id": "seluDCm0B350JT772",
+              "name": "Pitched to Fer"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selQAMU6fIVToEc9o",
+              "name": "Used in article"
+            },
+            {
+              "color": "grayLight2",
+              "id": "seljSPmpTIuZ3GxCl",
+              "name": "Discarded"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldthCRGtme8O9xsj",
+        "name": "Date Found",
+        "options": {
+          "dateFormat": {
+            "format": "YYYY-MM-DD",
+            "name": "iso"
+          }
+        },
+        "type": "date"
+      }
+    ],
+    "id": "tblNFc9U0lvnslzfg",
+    "name": "Social Study Leads",
+    "primaryFieldId": "fldNKXPyTRTyhPKoM",
+    "views": [
+      {
+        "id": "viwXSHn76KFRFQEDZ",
+        "name": "Grid view",
+        "type": "grid"
+      }
+    ]
+  },
+  {
+    "description": "Personas detectadas por la tarea \"HS comentarios redes\" en posts, comentarios y programas de eventos (ej. World Health Summit). Bandeja de entrada: Fer decide si pasan a CRM Prospects (comercial), Voices Pipeline (entrevista) o se descartan. Solo datos profesionales públicos; email solo si figura en una fuente institucional con Source_URL.",
+    "fields": [
+      {
+        "id": "fldoOv8B9mvwJ7ZI5",
+        "name": "Name",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fld2AwFQMq19iNptE",
+        "name": "Role",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldQivSNFmrRleyjQ",
+        "name": "Organization",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fld8blGMWPzpC66m4",
+        "name": "Country",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldRYERf4pq9Qu4jM",
+        "name": "Lead Type",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selVGhdU8blrF3sJl",
+              "name": "Prospecto comercial"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selkZ1X6dZXpGSOQ4",
+              "name": "Voices (entrevista)"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selpYzFrzAbQiao2a",
+              "name": "Advisory / KOL"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "description": "Por qué vale: qué dijo o presentó, y el fit con HealthSignals",
+        "id": "fldJtPlQfViAG1FGf",
+        "name": "Why",
+        "type": "multilineText"
+      },
+      {
+        "description": "Post, comentario o página del programa donde apareció",
+        "id": "flduO7Dy2xUp1mrv4",
+        "name": "Found Via",
+        "type": "url"
+      },
+      {
+        "description": "Perfil público profesional (LinkedIn, X o página institucional)",
+        "id": "fldzJP7OweUhEL8S5",
+        "name": "Profile URL",
+        "type": "url"
+      },
+      {
+        "description": "Solo si figura publicado en una fuente institucional",
+        "id": "fldvlIn5KDDyM1z6V",
+        "name": "Email",
+        "type": "email"
+      },
+      {
+        "id": "fldTVayslJTIGNj98",
+        "name": "Email Source URL",
+        "type": "url"
+      },
+      {
+        "id": "fld00qCE8Zh2S4iJQ",
+        "name": "Status",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selfPBugQtxZF7pNL",
+              "name": "New"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel9pnJSk1kQC53iv",
+              "name": "To CRM"
+            },
+            {
+              "color": "grayLight2",
+              "id": "seldxbKlzw5hurUnW",
+              "name": "To Voices"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selzJdMzvuc6mYfV9",
+              "name": "Discarded"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldEq31EEIA6RYXzo",
+        "name": "Date Found",
+        "options": {
+          "dateFormat": {
+            "format": "YYYY-MM-DD",
+            "name": "iso"
+          }
+        },
+        "type": "date"
+      }
+    ],
+    "id": "tbln2w5KV6zbyOB5r",
+    "name": "Social People Leads",
+    "primaryFieldId": "fldoOv8B9mvwJ7ZI5",
+    "views": [
+      {
+        "id": "viw4nAJev7ZcQejz5",
+        "name": "Grid view",
+        "type": "grid"
+      }
+    ]
+  },
+  {
+    "description": "Invitaciones personales a suscribirse al Brief (campaña nov-2026, desde editor@). El link del botón lleva ?t=<record ID>; el webhook Make \"HS Invite 1-click subscribe\" busca el registro, da de alta en Brevo lista 5, registra el clic y redirige a la página de bienvenida. Una fila por destinatario.",
+    "fields": [
+      {
+        "id": "fld46JRKWU5UqH2UC",
+        "name": "Email",
+        "type": "email"
+      },
+      {
+        "id": "fld1xVuTgV0Xltbef",
+        "name": "Name",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldkfRVUsjXn6K2l1",
+        "name": "First_Name",
+        "type": "singleLineText"
+      },
+      {
+        "id": "flduQcJhkkhrdfG9z",
+        "name": "Segment",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "seliPHdPaYGmoG9dd",
+              "name": "voices"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selbAXlyisCaRv8ZI",
+              "name": "voices-referral"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selZMKkIKdidFCapa",
+              "name": "linkedin"
+            },
+            {
+              "color": "grayLight2",
+              "id": "seln27F1xVEVpWk4F",
+              "name": "press"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selVpLWGic0O1oj1Z",
+              "name": "crm"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selJOPseLImtW275Z",
+              "name": "events"
+            },
+            {
+              "color": "grayLight2",
+              "id": "seljqK3lkEnvmeo2a",
+              "name": "generic"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selaoh4bjYWsvou2o",
+              "name": "test"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldPYU7m7cxUl6cdt",
+        "name": "Language",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selSLgKdX1QWCxeLE",
+              "name": "es"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selGOZ1twNilkPx6x",
+              "name": "pt"
+            },
+            {
+              "color": "grayLight2",
+              "id": "seljf6DNYpepPees1",
+              "name": "en"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fld06xkI9UfwG11z5",
+        "name": "Country",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fld0kcuZSoJbqNdXa",
+        "name": "Organization",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldZQqBzsLZM01bxA",
+        "name": "Status",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selnFE5f4Lr0N4Fsu",
+              "name": "Queued"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selkFnmwSL92GrQSh",
+              "name": "Sent"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selzxcj7S3Xx1zBuQ",
+              "name": "Reminded"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selVovbwK7xe5cdcX",
+              "name": "Subscribed"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selD2M64WQrAtyNtT",
+              "name": "Declined"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selUy24J1pqOtPLSi",
+              "name": "Bounced"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel2yjRWkDFqmzBzi",
+              "name": "Excluded"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldPmeoCUsPgU9nAL",
+        "name": "Sent_At",
+        "options": {
+          "dateFormat": {
+            "format": "YYYY-MM-DD",
+            "name": "iso"
+          },
+          "timeFormat": {
+            "format": "HH:mm",
+            "name": "24hour"
+          },
+          "timeZone": "America/New_York"
+        },
+        "type": "dateTime"
+      },
+      {
+        "id": "fld25YFCG3MZWLN4V",
+        "name": "Clicked_At",
+        "options": {
+          "dateFormat": {
+            "format": "YYYY-MM-DD",
+            "name": "iso"
+          },
+          "timeFormat": {
+            "format": "HH:mm",
+            "name": "24hour"
+          },
+          "timeZone": "America/New_York"
+        },
+        "type": "dateTime"
+      },
+      {
+        "id": "fld7Ei3Ghf0S1PINC",
+        "name": "Gmail_Message_ID",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldaoZG6ca8NQbNdF",
+        "name": "Notes",
+        "type": "multilineText"
+      }
+    ],
+    "id": "tblkavHlNJYZOQgx4",
+    "name": "Subscribe Invites",
+    "primaryFieldId": "fld46JRKWU5UqH2UC",
+    "views": [
+      {
+        "id": "viwTnPBIOgeG5pbVO",
+        "name": "Grid view",
+        "type": "grid"
+      }
+    ]
+  }
+]

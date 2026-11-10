@@ -1,0 +1,2486 @@
+[
+  {
+    "createdTime": "2026-08-29T20:01:58.000Z",
+    "fields": {
+      "Area": "Motor de reportes",
+      "Doc_Date": "2026-07-18",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/MOTOR-panel-de-control.md",
+      "Source_Project": "HEALTHSIGNALS. GROWTH & MONETIZATION",
+      "Status": "Superseded",
+      "Superseded_By": "Panel de control del motor de reportes (v7)",
+      "Title": "Motor de Reportes — panel de control (versión julio)",
+      "What_It_Is": "Puerta de entrada al motor: comando, activos, flujo de 5 pasos y 10 reglas editoriales. El panel v7 del 29-ago es la versión vigente."
+    },
+    "id": "rec09oCDN5a5fnmBq"
+  },
+  {
+    "createdTime": "2026-08-29T19:41:20.000Z",
+    "fields": {
+      "Area": "CRM / Outreach",
+      "Doc_Date": "2026-08-08",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/200-emails-weekly-outreach-plan-v1.md",
+      "Source_Project": "HEALSTHSIGNALS orchestrator/CEO",
+      "Status": "Vigente",
+      "Title": "Plan de outreach de 200 emails/semana",
+      "What_It_Is": "Segmentación por tier, 6 templates y calendario. Corregido 04-09: sin cifras de audiencia ni garantías de colocación. Precondiciones: SPF/DKIM/DMARC, dominio calentado, lista deduplicada."
+    },
+    "id": "rec0YdZWUP8vvoLGV"
+  },
+  {
+    "createdTime": "2026-08-29T20:07:27.000Z",
+    "fields": {
+      "Area": "Infraestructura / Make",
+      "Doc_Date": "2026-06-21",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Make",
+      "Path_or_URL": "5453897 — carpeta HS Social Media 247199",
+      "Status": "Revisar",
+      "Title": "HS LinkedIn Draft Engine (Make 5453897)",
+      "What_It_Is": "ROTO e inactivo (isinvalid). Escribía en la tabla LinkedIn Queue. El motor de audiencia de LinkedIn está parado por esto."
+    },
+    "id": "rec0lgQFH8y0Bl1Wp"
+  },
+  {
+    "createdTime": "2026-08-29T20:07:27.000Z",
+    "fields": {
+      "Area": "Airtable / Data",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Airtable",
+      "Path_or_URL": "appt29nQE0MtlMk9I",
+      "Status": "Revisar",
+      "Title": "Base Airtable HealthSignals_8K_Pipeline",
+      "What_It_Is": "Pipeline SEC 8-K: Companies, 8K_Filings, Story_Pipeline. Alimentada por los módulos 70/71/72 del Scanner. No figura en ninguna auditoría de bases previa."
+    },
+    "id": "rec0rwLtHCM3eFF1z"
+  },
+  {
+    "createdTime": "2026-08-29T20:01:58.000Z",
+    "fields": {
+      "Area": "Motor de reportes",
+      "Doc_Date": "2026-08-11",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/reporte-01-diabetes-v3.html",
+      "Source_Project": "report writer HS",
+      "Status": "Vigente",
+      "Title": "Reporte 01 — Diabetes en América Latina (v3)",
+      "What_It_Is": "Edición publicada de 17 páginas, última versión corregida. Entregable de 104 KB: se queda en report writer HS."
+    },
+    "id": "rec1QzK4ixfRXboHd"
+  },
+  {
+    "createdTime": "2026-08-29T20:01:58.000Z",
+    "fields": {
+      "Area": "Motor de reportes",
+      "Doc_Date": "2026-08-11",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/reporte-02-oncologia-v2.html",
+      "Source_Project": "report writer HS",
+      "Status": "Vigente",
+      "Title": "Reporte 02 — Oncología de precisión LATAM (v2)",
+      "What_It_Is": "Edición publicada de 16 páginas, última versión corregida. Entregable de 80 KB: se queda en report writer HS, no se migra."
+    },
+    "id": "rec1a6HaoOqmrdvHl"
+  },
+  {
+    "createdTime": "2026-08-29T20:04:26.000Z",
+    "fields": {
+      "Area": "Infraestructura / Make",
+      "Doc_Date": "2026-07-30",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/scanner-spa-phase2a-make-implementation.md",
+      "Source_Project": "Healthsignals. Content Creator",
+      "Status": "Vigente",
+      "Title": "SPA Fase 2A — guía de implementación en Make",
+      "What_It_Is": "Configuración módulo por módulo (100-107) de la cadena Chrome / trade outlets / RSS. Consultar al construirla."
+    },
+    "id": "rec1gTfJBXpMkqif9"
+  },
+  {
+    "createdTime": "2026-08-29T19:41:20.000Z",
+    "fields": {
+      "Area": "Infraestructura / Make",
+      "Doc_Date": "2026-08-08",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/make-extract-prospects-from-articles-blueprint.md",
+      "Source_Project": "HEALSTHSIGNALS orchestrator/CEO",
+      "Status": "Superseded",
+      "Superseded_By": "Estado del scenario Extract Prospects",
+      "Title": "Blueprint Extract Prospects from Articles",
+      "What_It_Is": "Diseño módulo por módulo del flujo artículos → Claude extrae empresas → CRM Prospects con dedup. Útil solo como referencia de campos y prompt."
+    },
+    "id": "rec1vtzF9aeve9pcS"
+  },
+  {
+    "createdTime": "2026-08-29T20:04:26.000Z",
+    "fields": {
+      "Area": "Editorial",
+      "Doc_Date": "2026-07-28",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/press_release_lane_protocol.md",
+      "Source_Project": "Content Creator → copiado a orchestrator/CEO el 29-08",
+      "Status": "Vigente",
+      "Title": "Protocolo del carril de gacetillas y fuentes verificadas",
+      "What_It_Is": "Compuertas extra para source_type = press_release y la lista verificada de newsrooms pharma/medtech global y LATAM. Es la lista de fuentes del Scanner."
+    },
+    "id": "rec2UD4jlCXpm87VC"
+  },
+  {
+    "createdTime": "2026-08-29T20:01:58.000Z",
+    "fields": {
+      "Area": "Infraestructura / Make",
+      "Doc_Date": "2026-08-08",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/workflow-motor-status-2026-08.md",
+      "Source_Project": "report writer HS",
+      "Status": "Archivado",
+      "Superseded_By": "Panel de control del motor de reportes (v7)",
+      "Title": "Estado del workflow del motor (8-ago)",
+      "What_It_Is": "Foto de los 3 scenarios del motor (5885203/5885207/render) al 8-ago con costos y tests pendientes. Valor histórico."
+    },
+    "id": "rec2mZrEga1a38yhm"
+  },
+  {
+    "createdTime": "2026-08-29T20:01:58.000Z",
+    "fields": {
+      "Area": "Marca / Diseño",
+      "Doc_Date": "2026-07-18",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/report-template-diabetes-latam.html",
+      "Source_Project": "HEALTHSIGNALS. GROWTH & MONETIZATION",
+      "Status": "Superseded",
+      "Superseded_By": "Template maestro de reportes (base diabetes)",
+      "Title": "Reporte plantilla — diabetes LATAM (versión corta)",
+      "What_It_Is": "Variante de 86 KB del template maestro de diabetes (89 KB en report writer HS). Usar el maestro."
+    },
+    "id": "rec2uyjqtQABfTyQT"
+  },
+  {
+    "createdTime": "2026-08-29T20:07:27.000Z",
+    "fields": {
+      "Area": "Motor de reportes",
+      "Doc_Date": "2026-08-29",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "019f7730-137e-74ca-80f8-cb04334a6214",
+      "Status": "Vigente",
+      "Title": "Proyecto claude.ai — report writer HS",
+      "What_It_Is": "Se conserva como archivo de reportes: 31 docs, 1,1 MB. Guarda los 3 reportes publicados, los 2 templates HTML y los destilados de research. Sus 8 procesos vivos ya se migraron."
+    },
+    "id": "rec3OydEszp993BCC"
+  },
+  {
+    "createdTime": "2026-08-29T19:41:20.000Z",
+    "fields": {
+      "Area": "Airtable / Data",
+      "Doc_Date": "2026-08-08",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/linkedin_contacts_961_for_airtable_import.json",
+      "Source_Project": "HEALSTHSIGNALS orchestrator/CEO",
+      "Status": "Archivado",
+      "Title": "Payload de importación de 961 contactos LinkedIn",
+      "What_It_Is": "Archivo de datos con los 961 contactos y los field IDs de Airtable mapeados. Import de una sola vez, ya consumido; se conserva como respaldo de la carga."
+    },
+    "id": "rec3TYgomejm2IIv8"
+  },
+  {
+    "createdTime": "2026-08-29T20:07:27.000Z",
+    "fields": {
+      "Area": "Infraestructura / Make",
+      "Doc_Date": "2026-08-27",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Make",
+      "Path_or_URL": "6070111 — carpeta CONTENT 247198",
+      "Status": "Vigente",
+      "Title": "Scanner temático (Make 6070111)",
+      "What_It_Is": "Activo, on-demand. Lee el Topic Registry y genera señales con tag SCAN-{tema}. Escribe al mismo Google Sheet."
+    },
+    "id": "rec3TrE8QLv8g4WzQ"
+  },
+  {
+    "createdTime": "2026-08-29T20:04:26.000Z",
+    "fields": {
+      "Area": "Infraestructura / Make",
+      "Doc_Date": "2026-08-04",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/publisher-5133643-adjustments-2026-08-04.md",
+      "Source_Project": "Healthsignals. Content Creator",
+      "Status": "Superseded",
+      "Superseded_By": "Publisher P1 — deployment completado",
+      "Title": "Ajustes P0/P1 requeridos en el Publisher",
+      "What_It_Is": "Origen del pedido de gate humano (status draft) y del fix de alt/caption. Ese P0 sigue sin confirmarse contra el blueprint real."
+    },
+    "id": "rec3X7vPmY86pR8FL"
+  },
+  {
+    "createdTime": "2026-08-29T19:41:20.000Z",
+    "fields": {
+      "Area": "Editorial",
+      "Doc_Date": "2026-08-10",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/healthsignals-writing-style-guide.md",
+      "Source_Project": "HEALSTHSIGNALS orchestrator/CEO",
+      "Status": "Superseded",
+      "Superseded_By": "Skill de review editorial v3 (consolidado)",
+      "Title": "Guía de estilo de escritura",
+      "What_It_Is": "Guía de redacción basada en el Economist: claridad, estructura por tipo de nota, glosario de jerga, tono y checklist previo. Su contenido vive ahora en references/house-style.md de la v3."
+    },
+    "id": "rec3zXmizuWqpHjcI"
+  },
+  {
+    "createdTime": "2026-08-29T20:01:58.000Z",
+    "fields": {
+      "Area": "Marca / Diseño",
+      "Doc_Date": "2026-07-18",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/playbook-variacion-reportes.md",
+      "Source_Project": "HEALTHSIGNALS. GROWTH & MONETIZATION",
+      "Status": "Superseded",
+      "Superseded_By": "Playbook de variación de reportes",
+      "Title": "Playbook de variación de reportes (copia corta)",
+      "What_It_Is": "Copia de 6 KB del mismo playbook que en report writer HS tiene 13,5 KB. Usar la versión larga."
+    },
+    "id": "rec4b6vASqLWKP3B3"
+  },
+  {
+    "createdTime": "2026-08-29T19:41:20.000Z",
+    "fields": {
+      "Area": "CRM / Outreach",
+      "Doc_Date": "2026-08-08",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/crm_contacts_import_guide.md",
+      "Source_Project": "HEALSTHSIGNALS orchestrator/CEO",
+      "Status": "Superseded",
+      "Superseded_By": "Tabla Sucriptor prospects (961 contactos)",
+      "Title": "Guía de importación de los 961 contactos",
+      "What_It_Is": "Dos vías de importación (Airtable directo o Make) más una tercera segmentación de los mismos 961 contactos. Trámite ya cumplido."
+    },
+    "id": "rec5cdiY8fTNd95NL"
+  },
+  {
+    "createdTime": "2026-08-29T20:04:26.000Z",
+    "fields": {
+      "Area": "Infraestructura / Make",
+      "Doc_Date": "2026-07-30",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/litigation-brasil-mvp-implementation.md",
+      "Source_Project": "Healthsignals. Content Creator",
+      "Status": "Vigente",
+      "Title": "Litigios Brasil — roadmap de implementación",
+      "What_It_Is": "Arquitectura y estado de autenticación de las APIs judiciales brasileñas (DJE RSS libre, STF). Base técnica del módulo."
+    },
+    "id": "rec5hyTtruiZij78q"
+  },
+  {
+    "createdTime": "2026-08-29T20:04:26.000Z",
+    "fields": {
+      "Area": "Editorial",
+      "Doc_Date": "2026-07-28",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/hs_publishing_checklist.md",
+      "Source_Project": "Content Creator → copiado a orchestrator/CEO el 29-08",
+      "Status": "Vigente",
+      "Title": "Estándar de publicación — tags y SEO",
+      "What_It_Is": "Estándar de tags, Yoast y campos fijos de cada post. Es el par editorial del doc de cableado del Publisher."
+    },
+    "id": "rec6K4kL5cSibudRv"
+  },
+  {
+    "createdTime": "2026-08-29T20:04:26.000Z",
+    "fields": {
+      "Area": "Finanzas",
+      "Doc_Date": "2026-07-29",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/hs-production-cost-model.md",
+      "Source_Project": "Content Creator → copiado a orchestrator/CEO el 29-08",
+      "Status": "Archivado",
+      "Superseded_By": "Costos y piso de precio v2",
+      "Title": "Modelo de costo de producción",
+      "What_It_Is": "BORRADO del proyecto el 04-09: fusionado en costos-y-piso-de-precio-v2.md."
+    },
+    "id": "rec6dnTvXmrqF0hHc"
+  },
+  {
+    "createdTime": "2026-08-29T20:07:27.000Z",
+    "fields": {
+      "Area": "Airtable / Data",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Airtable",
+      "Path_or_URL": "appG0Q8m3GR3hssck",
+      "Status": "Archivado",
+      "Superseded_By": "Base Airtable HealthSignals (base madre)",
+      "Title": "Base Airtable HS Report Engine (obsoleta)",
+      "What_It_Is": "Duplicado fósil: Sources, Data_Points, Report_Topics, Reports, sin los campos nuevos (Key, Data_Vintage, Vigencia). Auditoría 29-ago: ningún scenario de Make la usa. Borrable."
+    },
+    "id": "rec771CAsMaUF488m"
+  },
+  {
+    "createdTime": "2026-08-29T20:04:26.000Z",
+    "fields": {
+      "Area": "Infraestructura / Make",
+      "Doc_Date": "2026-07-30",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/scanner-spa-phase2a-executive-summary.md",
+      "Source_Project": "Healthsignals. Content Creator",
+      "Status": "Vigente",
+      "Title": "SPA Fase 2A — resumen ejecutivo",
+      "What_It_Is": "Plan de automatización Chrome y cadena de fallback para dominios que Exa no puede leer. Entrada al set de 3 docs de SPA."
+    },
+    "id": "rec7cWhyniPoo8I8t"
+  },
+  {
+    "createdTime": "2026-08-29T20:04:26.000Z",
+    "fields": {
+      "Area": "Infraestructura / Make",
+      "Doc_Date": "2026-07-30",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/healthsignal-make-integration-plan.md",
+      "Source_Project": "Healthsignals. Content Creator",
+      "Status": "Superseded",
+      "Superseded_By": "Spec canónica de las tres compuertas editoriales",
+      "Title": "Plan de integración Fase 2B en el Publisher",
+      "What_It_Is": "Propuesta de agregar validación de tesis editorial al Publisher; absorbida por la spec de gates y luego por el guardrail v3."
+    },
+    "id": "rec7hWtJcU9Ba9NJh"
+  },
+  {
+    "createdTime": "2026-08-29T20:04:26.000Z",
+    "fields": {
+      "Area": "Estrategia",
+      "Doc_Date": "2026-07-30",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/sec-8k-integration-analysis.md",
+      "Source_Project": "Healthsignals. Content Creator",
+      "Status": "Superseded",
+      "Superseded_By": "Spec del módulo SEC 8-K para el Scanner",
+      "Title": "Análisis comparativo de fuentes SEC 8-K",
+      "What_It_Is": "Comparativa Exa vs SEC EDGAR vs Seeking Alpha; la decisión que produjo ya está en la spec posterior."
+    },
+    "id": "rec7r0PDnw8T2YsTu"
+  },
+  {
+    "createdTime": "2026-08-29T19:41:20.000Z",
+    "fields": {
+      "Area": "Editorial",
+      "Doc_Date": "2026-08-10",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/healthsignals-editorial-review-skill-v3.md",
+      "Source_Project": "HEALSTHSIGNALS orchestrator/CEO",
+      "Status": "Vigente",
+      "Title": "Skill de review editorial v3 (consolidado)",
+      "What_It_Is": "Versión final del skill: regla anti-invención con cita y localizador, consistencia interna, re-derivación aritmética por script, render integrity y scoring rebalanceado. Incluye house style."
+    },
+    "id": "rec89wbGomxSYG3cc"
+  },
+  {
+    "createdTime": "2026-08-29T19:41:20.000Z",
+    "fields": {
+      "Area": "Comercial / Sponsors",
+      "Doc_Date": "2026-08-08",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/founding-members-sponsorship-plan-v1.md",
+      "Source_Project": "HEALSTHSIGNALS orchestrator/CEO",
+      "Status": "Superseded",
+      "Superseded_By": "Media Kit Founding Partners (5 páginas, HTML)",
+      "Title": "Plan Founding Members v1",
+      "What_It_Is": "Origen de los 4 tiers y de los entregables mensuales por tier, con escenarios de revenue y timeline de 14 días. Los tiers pasaron sin cambios al media kit, que es la pieza vigente."
+    },
+    "id": "rec8QZwKJRq3ofLl5"
+  },
+  {
+    "createdTime": "2026-08-29T20:04:26.000Z",
+    "fields": {
+      "Area": "Editorial",
+      "Doc_Date": "2026-08-06",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/economist-make-integration-status-2026-08-06.md",
+      "Source_Project": "Healthsignals. Content Creator",
+      "Status": "Archivado",
+      "Superseded_By": "Índice Economist listo para uso operativo",
+      "Title": "Estado de integración Economist (6 ago)",
+      "What_It_Is": "Foto intermedia del mismo wiring, cerrada por docs posteriores del mismo día."
+    },
+    "id": "rec8dlg5ZDfwK7dko"
+  },
+  {
+    "createdTime": "2026-08-29T20:01:58.000Z",
+    "fields": {
+      "Area": "Marca / Diseño",
+      "Doc_Date": "2026-07-17",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/briefing-website-design-PT.md",
+      "Source_Project": "GROWTH & MONETIZATION → copiado a orchestrator/CEO el 29-08",
+      "Status": "Vigente",
+      "Title": "Briefing de diseño del sitio web",
+      "What_It_Is": "Requisitos del sitio: captación de suscriptores, zonas de anuncio, hubs temáticos y página anuncie. Único briefing de web y el sitio está en regeneración."
+    },
+    "id": "rec8h85l7UkcO7C2i"
+  },
+  {
+    "createdTime": "2026-08-29T20:04:26.000Z",
+    "fields": {
+      "Area": "Editorial",
+      "Doc_Date": "2026-08-06",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/ECONOMIST-INTEGRATION-HANDOFF.md",
+      "Source_Project": "Healthsignals. Content Creator",
+      "Status": "Superseded",
+      "Superseded_By": "Índice Economist listo para uso operativo",
+      "Title": "Handoff de integración del índice Economist",
+      "What_It_Is": "Handoff de sesión con los pasos de wiring pendientes; ya resueltos por el doc READY de esa misma noche."
+    },
+    "id": "rec8t1BcNdnoi6uf5"
+  },
+  {
+    "createdTime": "2026-10-18T21:48:35.000Z",
+    "fields": {
+      "Area": "Motor de reportes",
+      "Doc_Date": "2026-10-18",
+      "Indexed_At": "2026-10-18",
+      "Lives_In": "Google Drive",
+      "Path_or_URL": "HS Engine Context (canónico)/proceso-research-multipasa.md",
+      "Source_Project": "Drive · carpeta 1rw_wsQ2XmWSp_LtEmANalGPdoMTaXOg5",
+      "Status": "Vigente",
+      "Title": "P1 — Research multipasa (Drive canónico)",
+      "What_It_Is": "Copia de la versión 09-18 del report writer."
+    },
+    "id": "rec8tw1dnyURy8ZRz"
+  },
+  {
+    "createdTime": "2026-08-29T20:01:58.000Z",
+    "fields": {
+      "Area": "Airtable / Data",
+      "Doc_Date": "2026-07-28",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/destilado-economist-3-estudios.md",
+      "Source_Project": "report writer HS",
+      "Status": "Vigente",
+      "Title": "Destilado — 3 estudios Economist Impact / EIU",
+      "What_It_Is": "Estructura editorial, metodología de índice, datos LATAM y citas verbatim de tres estudios, con regla de uso al inicio."
+    },
+    "id": "rec9Ipx3TtLPDEt5r"
+  },
+  {
+    "createdTime": "2026-08-29T20:04:26.000Z",
+    "fields": {
+      "Area": "Infraestructura / Make",
+      "Doc_Date": "2026-08-05",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/publisher-5133643-p1-deployment-final.md",
+      "Source_Project": "Healthsignals. Content Creator",
+      "Status": "Vigente",
+      "Title": "Publisher P1 — deployment completado",
+      "What_It_Is": "Cierre de la serie P1: blueprint de 37 módulos desplegado y verificado. Log ya cumplido."
+    },
+    "id": "recAJfFBg351fgmnS"
+  },
+  {
+    "createdTime": "2026-08-29T20:04:26.000Z",
+    "fields": {
+      "Area": "Infraestructura / Make",
+      "Doc_Date": "2026-07-30",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/litigation-module-design-v1.md",
+      "Source_Project": "Healthsignals. Content Creator",
+      "Status": "Superseded",
+      "Superseded_By": "Litigios Brasil — roadmap de implementación",
+      "Title": "Diseño v1 del módulo de litigios",
+      "What_It_Is": "Diseño conceptual con fuentes LATAM más amplias; el MVP posterior lo acotó a Brasil."
+    },
+    "id": "recAPjMzqaSJpMBN2"
+  },
+  {
+    "createdTime": "2026-08-29T19:41:20.000Z",
+    "fields": {
+      "Area": "Airtable / Data",
+      "Doc_Date": "2026-08-08",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/base-audit-2026-08-08.md",
+      "Source_Project": "HEALSTHSIGNALS orchestrator/CEO",
+      "Status": "Superseded",
+      "Superseded_By": "Estado del sync WordPress → Airtable",
+      "Title": "Auditoría de la base Airtable (11 tablas)",
+      "What_It_Is": "Inventario de las 11 tablas con IDs, propósito y campos faltantes; diagnostica Articles desincronizada y CRM sin personas. Los faltantes que lista se resolvieron el 9-ago."
+    },
+    "id": "recAvKRINxOcVNTcl"
+  },
+  {
+    "createdTime": "2026-08-29T20:04:26.000Z",
+    "fields": {
+      "Area": "Infraestructura / Make",
+      "Doc_Date": "2026-07-30",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/litigation-brasil-risk-scoring-reference.md",
+      "Source_Project": "Healthsignals. Content Creator",
+      "Status": "Vigente",
+      "Title": "Litigios Brasil — fórmula de risk scoring",
+      "What_It_Is": "Rúbrica de puntaje (company 0,40 / case 0,35 / market impact 0,25) con ejemplos. Único lugar donde vive esa fórmula."
+    },
+    "id": "recDDJIzbBuAoocqd"
+  },
+  {
+    "createdTime": "2026-08-29T19:41:20.000Z",
+    "fields": {
+      "Area": "Infraestructura / Make",
+      "Doc_Date": "2026-08-08",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/wordpress-airtable-sync-scenario.md",
+      "Source_Project": "HEALSTHSIGNALS orchestrator/CEO",
+      "Status": "Superseded",
+      "Superseded_By": "Estado del sync WordPress → Airtable",
+      "Title": "Sync WordPress → Airtable (versión 1)",
+      "What_It_Is": "Primer diseño del sync horario y lista de campos que faltaban en Articles (Summary, Country, Category, Article_Image, Modified_At). Reemplazado dos veces el mismo día."
+    },
+    "id": "recDb88mYnSuz4nSg"
+  },
+  {
+    "createdTime": "2026-08-29T19:41:20.000Z",
+    "fields": {
+      "Area": "Estrategia",
+      "Doc_Date": "2026-08-07",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/integracion-sistema-v1.md",
+      "Source_Project": "HEALSTHSIGNALS orchestrator/CEO",
+      "Status": "Superseded",
+      "Superseded_By": "Estado del proyecto (7 de agosto)",
+      "Title": "Integración de los 8 proyectos y taxonomía",
+      "What_It_Is": "Aporta lo que nadie repitió: contratos de datos por proyecto y mapeos Signal→categoría WP y Signal→segmento comprador. Su recomendación de modelo de negocio quedó descartada."
+    },
+    "id": "recDqAYllyOTflnyR"
+  },
+  {
+    "createdTime": "2026-08-29T20:07:27.000Z",
+    "fields": {
+      "Area": "Infraestructura / Make",
+      "Doc_Date": "2026-08-08",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Make",
+      "Path_or_URL": "5890536, 5890585, 5890673 — sin carpeta",
+      "Status": "Revisar",
+      "Title": "HS LinkedIn Contacts Bulk Load (Make 5890536 / 5890585 / 5890673)",
+      "What_It_Is": "Tres scenarios solapados que escriben todos a CRM Prospects. 5890536 está activo y no hace nada (feeder vacío). 5890673 lee una base que no aparece en la cuenta."
+    },
+    "id": "recE3JUAPF0nhmdtd"
+  },
+  {
+    "createdTime": "2026-08-29T19:41:20.000Z",
+    "fields": {
+      "Area": "Infraestructura / Make",
+      "Doc_Date": "2026-08-08",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/sponsors-scenario-status.md",
+      "Source_Project": "HEALSTHSIGNALS orchestrator/CEO",
+      "Status": "Vigente",
+      "Title": "Estado del scenario Extract Prospects",
+      "What_It_Is": "Último estado del scenario 5891229: creado y activado pero fallando por conexión de Airtable, con los pasos exactos de reparación en la UI de Make."
+    },
+    "id": "recEaJGu46P0YFbP5"
+  },
+  {
+    "createdTime": "2026-08-29T20:07:27.000Z",
+    "fields": {
+      "Area": "Estrategia",
+      "Doc_Date": "2026-08-29",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "019e36b3 / 019dff56 / 019dff53 / 019dff4a",
+      "Status": "Archivado",
+      "Title": "Proyectos claude.ai vacíos — MAKE, CUSTOMER SUCCESS, DATA ANALYTICS, CFO",
+      "What_It_Is": "Cero docs los tres primeros; CFO tenía uno solo, ya migrado. Solo contienen instrucciones de rol. Se pueden borrar sin pérdida."
+    },
+    "id": "recEqzo0yn1iTuGtw"
+  },
+  {
+    "createdTime": "2026-08-29T19:41:20.000Z",
+    "fields": {
+      "Area": "Airtable / Data",
+      "Doc_Date": "2026-08-09",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/sync-status-2026-08-09.md",
+      "Source_Project": "HEALSTHSIGNALS orchestrator/CEO",
+      "Status": "Vigente",
+      "Title": "Estado del sync WordPress → Airtable",
+      "What_It_Is": "Último estado de esa serie: tablas Deals e Invoices creadas con sus campos, campo Prospects_Extracted agregado, 3 artículos cargados y 3 bloqueadores abiertos al 9-ago."
+    },
+    "id": "recFPSaBszkZqPdgS"
+  },
+  {
+    "createdTime": "2026-08-29T19:41:20.000Z",
+    "fields": {
+      "Area": "Editorial",
+      "Doc_Date": "2026-08-11",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/hs-editorial-guardrail-make.md",
+      "Source_Project": "HEALSTHSIGNALS orchestrator/CEO",
+      "Status": "Vigente",
+      "Title": "Guardrail editorial v3 para módulos Claude de Make",
+      "What_It_Is": "Bloque de reglas de estilo pegable al final del prompt del módulo que escribe prosa, más el registro de deploy del addendum v15.5 en el Publisher 5133643."
+    },
+    "id": "recFf4Jx5ikr5jmnp"
+  },
+  {
+    "createdTime": "2026-08-29T20:01:58.000Z",
+    "fields": {
+      "Area": "Airtable / Data",
+      "Doc_Date": "2026-07-28",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/destilado-latam-lote2.md",
+      "Source_Project": "report writer HS",
+      "Status": "Vigente",
+      "Title": "Destilado LATAM — lote 2 (WAIT, carga socioeconómica, OHE)",
+      "What_It_Is": "Cuatro fuentes LATAM destiladas: WAIT 2024, carga de enfermedad en 8 países, salud como inversión y valor de vacunación."
+    },
+    "id": "recFmVh8NiPGSmuMG"
+  },
+  {
+    "createdTime": "2026-08-29T20:04:26.000Z",
+    "fields": {
+      "Area": "Infraestructura / Make",
+      "Doc_Date": "2026-07-30",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/wave1-domain-audit.md",
+      "Source_Project": "Healthsignals. Content Creator",
+      "Status": "Superseded",
+      "Superseded_By": "Spec de automatización Wave 2 — clasificación de dominios",
+      "Title": "Auditoría de dominios Wave 1",
+      "What_It_Is": "Inventario de los 59 dominios de los módulos 14 y 41 con clasificación SPA; reclasificado 7 minutos después en Wave 2."
+    },
+    "id": "recFml0FerAj4PIwi"
+  },
+  {
+    "createdTime": "2026-08-29T20:01:58.000Z",
+    "fields": {
+      "Area": "Editorial",
+      "Doc_Date": "2026-07-29",
+      "Indexed_At": "2026-10-18",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/proceso-brief-editorial.md",
+      "Source_Project": "report writer HS (copia de trabajo) · copia 29-08 en orchestrator/CEO obsoleta · canónico en Drive desde 18-10",
+      "Status": "Superseded",
+      "Superseded_By": "P2 — Brief editorial (GATE A) (Drive canónico)",
+      "Title": "P2 — Brief editorial obligatorio (GATE A)",
+      "What_It_Is": "Los 10 campos que debe tener el brief antes de escribir, con ejemplo trabajado. Sin brief aprobado no arranca la escritura."
+    },
+    "id": "recFqaAXhM4vsg2R2"
+  },
+  {
+    "createdTime": "2026-08-29T20:04:26.000Z",
+    "fields": {
+      "Area": "Infraestructura / Make",
+      "Doc_Date": "2026-07-30",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/wave2-module72-deployment-complete.md",
+      "Source_Project": "Healthsignals. Content Creator",
+      "Status": "Vigente",
+      "Title": "Wave 2 — módulo 72 desplegado",
+      "What_It_Is": "Cierre de la serie Wave 2: clasificador Claude de señales M&A en producción con su configuración exacta."
+    },
+    "id": "recGJuxpZ7sKrfTBx"
+  },
+  {
+    "createdTime": "2026-08-29T20:04:26.000Z",
+    "fields": {
+      "Area": "Infraestructura / Make",
+      "Doc_Date": "2026-07-30",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/wave2-deployment-status.md",
+      "Source_Project": "Healthsignals. Content Creator",
+      "Status": "Archivado",
+      "Superseded_By": "Wave 2 — módulo 72 desplegado",
+      "Title": "Wave 2 — deploy bloqueado por API",
+      "What_It_Is": "Intento programático fallido por disponibilidad de módulos. Útil como antecedente técnico de qué no se puede hacer por API."
+    },
+    "id": "recGYivCTbnX0bh3D"
+  },
+  {
+    "createdTime": "2026-08-29T19:41:20.000Z",
+    "fields": {
+      "Area": "Infraestructura / Make",
+      "Doc_Date": "2026-08-08",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/make-folders-reorganizacion-2026-08-08.md",
+      "Source_Project": "HEALSTHSIGNALS orchestrator/CEO",
+      "Status": "Vigente",
+      "Title": "Reorganización de carpetas en Make",
+      "What_It_Is": "Mapa de las 4 carpetas con sus IDs (CONTENT 247198, GROWTH 268063, OPS/FINANCE 268064, ARCHIVE 268065). El reparto de scenarios que lista quedó desactualizado."
+    },
+    "id": "recGzP4UwPZYMLeHq"
+  },
+  {
+    "createdTime": "2026-08-29T20:04:26.000Z",
+    "fields": {
+      "Area": "Editorial",
+      "Doc_Date": "2026-08-06",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/economist-make-integration-deployment.md",
+      "Source_Project": "Healthsignals. Content Creator",
+      "Status": "Archivado",
+      "Superseded_By": "Índice Economist listo para uso operativo",
+      "Title": "Deployment de integración Economist",
+      "What_It_Is": "Primer doc de la serie de deployment del índice; superado por los cinco posteriores de la misma noche."
+    },
+    "id": "recHPEWBUOtSuxcpF"
+  },
+  {
+    "createdTime": "2026-08-29T20:04:26.000Z",
+    "fields": {
+      "Area": "Infraestructura / Make",
+      "Doc_Date": "2026-07-30",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/litigation-brasil-mvp-status.md",
+      "Source_Project": "Healthsignals. Content Creator",
+      "Status": "Revisar",
+      "Title": "Litigios Brasil MVP — estado de implementación",
+      "What_It_Is": "Último doc de la serie de litigios: fijaba deploy para el 31-jul en módulos 80-84 y no hay evidencia de que haya ocurrido."
+    },
+    "id": "recIMdPcdEhFRsyPO"
+  },
+  {
+    "createdTime": "2026-08-29T19:41:20.000Z",
+    "fields": {
+      "Area": "Comercial / Sponsors",
+      "Doc_Date": "2026-08-08",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/pausers-sponsorship-target-list-v1.md",
+      "Source_Project": "HEALSTHSIGNALS orchestrator/CEO",
+      "Status": "Vigente",
+      "Title": "Lista de targets de sponsorship (100+ empresas)",
+      "What_It_Is": "Universo de targets por tier: agencias PR globales y regionales, pharma multinacional y local, medtech, payers, PE/VC y asociaciones, con rol de contacto sugerido."
+    },
+    "id": "recIiBLme64u3w00g"
+  },
+  {
+    "createdTime": "2026-08-29T19:41:20.000Z",
+    "fields": {
+      "Area": "Editorial",
+      "Doc_Date": "2026-08-10",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/healthsignals-editorial-review-skill-v2.md",
+      "Source_Project": "HEALSTHSIGNALS orchestrator/CEO",
+      "Status": "Superseded",
+      "Superseded_By": "Skill de review editorial v3 (consolidado)",
+      "Title": "Skill de review editorial v2",
+      "What_It_Is": "Checklist de revisión previa: estructura, terminología, tono, datos y AP style con score 0-100. Revisa de memoria, sin re-cálculo ni chequeos de render; la v3 nació de sus fallas."
+    },
+    "id": "recJT9T1yUbgzPbwS"
+  },
+  {
+    "createdTime": "2026-08-29T20:01:58.000Z",
+    "fields": {
+      "Area": "Comercial / Sponsors",
+      "Doc_Date": "2026-07-17",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/report-radar-curaduria-permisos.md",
+      "Source_Project": "GROWTH & MONETIZATION → copiado a orchestrator/CEO el 29-08",
+      "Status": "Vigente",
+      "Title": "Report Radar — repositorio gated y permisos",
+      "What_It_Is": "Reportes de terceros por nivel de permiso, con templates de pedido en EN y ES. Producto de captación de leads listo, sin equivalente. Alimenta la tabla Report Radar."
+    },
+    "id": "recJXxDBnK7EvuKb9"
+  },
+  {
+    "createdTime": "2026-08-29T20:04:26.000Z",
+    "fields": {
+      "Area": "Infraestructura / Make",
+      "Doc_Date": "2026-07-30",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/scanner-wave1-implementation.md",
+      "Source_Project": "Healthsignals. Content Creator",
+      "Status": "Archivado",
+      "Superseded_By": "Wave 1 — log final de ejecución",
+      "Title": "Wave 1 — log de aplicación de cambios",
+      "What_It_Is": "Registro en vivo mientras se aplicaban los cambios; el doc final lo reemplaza."
+    },
+    "id": "recJddHcWkS9w4i8h"
+  },
+  {
+    "createdTime": "2026-10-18T21:48:35.000Z",
+    "fields": {
+      "Area": "Motor de reportes",
+      "Doc_Date": "2026-10-18",
+      "Indexed_At": "2026-10-18",
+      "Lives_In": "Google Drive",
+      "Path_or_URL": "HS Engine Context (canónico)/hsmotorpanel.md · 1V1tOLMmzilORSbEl10jgnsaziuRBGMhH",
+      "Source_Project": "Drive · carpeta 1rw_wsQ2XmWSp_LtEmANalGPdoMTaXOg5",
+      "Status": "Vigente",
+      "Title": "Panel de control del motor de reportes (Drive canónico)",
+      "What_It_Is": "Entrada única del motor. Copia verbatim de claude/hsmotorpanel.md del report writer al 18-10."
+    },
+    "id": "recK2tL7VOmmiYwAI"
+  },
+  {
+    "createdTime": "2026-08-29T19:41:20.000Z",
+    "fields": {
+      "Area": "Infraestructura / Make",
+      "Doc_Date": "2026-08-08",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/make-wordpress-airtable-sync-blueprint.md",
+      "Source_Project": "HEALSTHSIGNALS orchestrator/CEO",
+      "Status": "Superseded",
+      "Superseded_By": "Estado del sync WordPress → Airtable",
+      "Title": "Blueprint sync WordPress → Airtable (versión 2)",
+      "What_It_Is": "Blueprint horario con imagen destacada, create-or-update por WP_Post_ID y error handlers, más el mapeo de campos WordPress → Airtable. Nunca llegó a ser el scenario final."
+    },
+    "id": "recK5JAcRwGQzM40b"
+  },
+  {
+    "createdTime": "2026-08-29T19:41:20.000Z",
+    "fields": {
+      "Area": "Finanzas",
+      "Doc_Date": "2026-08-08",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/ops-finance-folder-plan.md",
+      "Source_Project": "HEALSTHSIGNALS orchestrator/CEO",
+      "Status": "Vigente",
+      "Title": "Plan de la carpeta OPS/FINANCE",
+      "What_It_Is": "Especifica los dos scenarios que cierran el loop de cobranza —Deal Tracker e Invoice Generator, ninguno construido— con prompt de invoice. Su esquema de Deals quedó viejo."
+    },
+    "id": "recKGS50yIno6SYQE"
+  },
+  {
+    "createdTime": "2026-08-29T20:04:26.000Z",
+    "fields": {
+      "Area": "Infraestructura / Make",
+      "Doc_Date": "2026-07-30",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/wave1-execution-final.md",
+      "Source_Project": "Healthsignals. Content Creator",
+      "Status": "Vigente",
+      "Title": "Wave 1 — log final de ejecución",
+      "What_It_Is": "Cierre de la serie Wave 1 con los cambios aplicados a módulos 14, 41 y 53 y su impacto de cobertura."
+    },
+    "id": "recKQAHjUdvwimkTX"
+  },
+  {
+    "createdTime": "2026-08-29T19:41:20.000Z",
+    "fields": {
+      "Area": "Infraestructura / Make",
+      "Doc_Date": "2026-08-08",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/naming-consistency-make.md",
+      "Source_Project": "HEALSTHSIGNALS orchestrator/CEO",
+      "Status": "Vigente",
+      "Title": "Convención de nombres de scenarios en Make",
+      "What_It_Is": "Regla de naming [Prefijo]: [Acción] [Sufijo] y los 3 renombres propuestos para Outreach A/B y Prospect Search. Los renombres nunca se aplicaron."
+    },
+    "id": "recKWoXfSubfcjeLG"
+  },
+  {
+    "createdTime": "2026-08-29T20:01:58.000Z",
+    "fields": {
+      "Area": "Marca / Diseño",
+      "Doc_Date": "2026-07-18",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/report-template-oncologia.html",
+      "Source_Project": "report writer HS",
+      "Status": "Vigente",
+      "Title": "Template de reportes #2 (base oncología)",
+      "What_It_Is": "Segundo template con otra portada y otras métricas, para rotar diseño entre ediciones. Copia idéntica en GROWTH (report-template-oncologia-latam.html)."
+    },
+    "id": "recLJOxKMYbh4gcBl"
+  },
+  {
+    "createdTime": "2026-08-29T20:01:58.000Z",
+    "fields": {
+      "Area": "Editorial",
+      "Doc_Date": "2026-07-18",
+      "Indexed_At": "2026-10-18",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/estandar-editorial-nivel2.md",
+      "Source_Project": "report writer HS (copia de trabajo) · copia 29-08 en orchestrator/CEO obsoleta · canónico en Drive desde 18-10",
+      "Status": "Superseded",
+      "Superseded_By": "Estándar editorial nivel 2 (Drive canónico)",
+      "Title": "Estándar editorial nivel 2 (7 exigencias)",
+      "What_It_Is": "Las 7 exigencias de editor exigente, técnicas a copiar de Economist Impact y tiers de fuentes. Complementa al skill v3, no lo reemplaza."
+    },
+    "id": "recLSuWQmL84Ut9Ne"
+  },
+  {
+    "createdTime": "2026-08-29T20:01:58.000Z",
+    "fields": {
+      "Area": "Motor de reportes",
+      "Doc_Date": "2026-08-08",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/hs-report-publisher-spec.md",
+      "Source_Project": "report writer HS",
+      "Status": "Superseded",
+      "Superseded_By": "Panel de control del motor de reportes (v7)",
+      "Title": "Spec del Report Publisher (v1.0)",
+      "What_It_Is": "Spec de implementación en Make del ciclo de reportes; misma base Airtable pero flujo y activos redefinidos por el panel del 29-ago."
+    },
+    "id": "recLpt7mlmQue1hrj"
+  },
+  {
+    "createdTime": "2026-08-29T20:04:26.000Z",
+    "fields": {
+      "Area": "Estrategia",
+      "Doc_Date": "2026-07-29",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "healthsignal_architecture_v2.md",
+      "Source_Project": "Healthsignals. Content Creator",
+      "Status": "Superseded",
+      "Superseded_By": "Estado del proyecto (7 de agosto)",
+      "Title": "Arquitectura del sistema v2.0",
+      "What_It_Is": "Arquitectura por capas y fases con foco en ahorro de tokens; el diagrama vigente del sistema está en el proyecto principal."
+    },
+    "id": "recM4VuQXxP8zf88T"
+  },
+  {
+    "createdTime": "2026-08-29T20:01:58.000Z",
+    "fields": {
+      "Area": "Comercial / Sponsors",
+      "Doc_Date": "2026-07-17",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/pack-comercial-frente1.md",
+      "Source_Project": "HEALTHSIGNALS. GROWTH & MONETIZATION",
+      "Status": "Superseded",
+      "Superseded_By": "Pricing, benchmark y argumento de venta del media kit",
+      "Title": "Pack comercial Frente 1 (v2)",
+      "What_It_Is": "Pricing por fases según tamaño de audiencia y copy de media kit. El media kit y el benchmark del 29-ago lo reemplazan."
+    },
+    "id": "recMATjbW2enxcNPW"
+  },
+  {
+    "createdTime": "2026-08-29T19:41:20.000Z",
+    "fields": {
+      "Area": "Estrategia",
+      "Doc_Date": "2026-07-29",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/ceo-orchestrator-instrucciones-v2.md",
+      "Source_Project": "HEALSTHSIGNALS orchestrator/CEO",
+      "Status": "Vigente",
+      "Title": "Instrucciones del CEO Orchestrator v2",
+      "What_It_Is": "Contrato operativo del rol: State Check obligatorio de 5 lecturas, semáforo de modos por dato, comandos y notas de cómo leer Airtable. Su sección estado conocido está vieja."
+    },
+    "id": "recMfoyI2WMdvn0of"
+  },
+  {
+    "createdTime": "2026-08-29T20:01:58.000Z",
+    "fields": {
+      "Area": "Finanzas",
+      "Doc_Date": "2026-07-29",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "HEALTHSIGNALS/COGS_baseline.md",
+      "Source_Project": "HEALTHSIGNALS CFO → copiado a orchestrator/CEO el 29-08",
+      "Status": "Archivado",
+      "Superseded_By": "Costos y piso de precio v2",
+      "Title": "COGS y precio mínimo de venta",
+      "What_It_Is": "BORRADO del proyecto el 04-09: fusionado en costos-y-piso-de-precio-v2.md, que aclara que el COGS de 100 excluye tokens, QA, diseño y horas."
+    },
+    "id": "recMl85WGukVg3rL4"
+  },
+  {
+    "createdTime": "2026-10-18T21:48:35.000Z",
+    "fields": {
+      "Area": "Motor de reportes",
+      "Doc_Date": "2026-10-18",
+      "Indexed_At": "2026-10-18",
+      "Lives_In": "Google Drive",
+      "Path_or_URL": "HS Engine Context (canónico)/proceso-brief-editorial.md",
+      "Source_Project": "Drive · carpeta 1rw_wsQ2XmWSp_LtEmANalGPdoMTaXOg5",
+      "Status": "Vigente",
+      "Title": "P2 — Brief editorial (GATE A) (Drive canónico)",
+      "What_It_Is": "Copia de la versión 09-18 del report writer."
+    },
+    "id": "recNQa9kGc51wzuSz"
+  },
+  {
+    "createdTime": "2026-10-18T21:48:35.000Z",
+    "fields": {
+      "Area": "Motor de reportes",
+      "Doc_Date": "2026-10-18",
+      "Indexed_At": "2026-10-18",
+      "Lives_In": "Google Drive",
+      "Path_or_URL": "HS Engine Context (canónico)/proceso-qa-adversarial.md · 1LC848Qw-9fX4khb0J-nk7Q3-s1qTDGpW",
+      "Source_Project": "Drive · carpeta 1rw_wsQ2XmWSp_LtEmANalGPdoMTaXOg5",
+      "Status": "Vigente",
+      "Title": "P3 — QA adversarial (GATE B) (Drive canónico)",
+      "What_It_Is": "Copia verbatim del report writer al 18-10."
+    },
+    "id": "recO8vSGwOyn345ef"
+  },
+  {
+    "createdTime": "2026-08-29T20:01:58.000Z",
+    "fields": {
+      "Area": "Airtable / Data",
+      "Doc_Date": "2026-07-28",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/destilado-obesity-index-us-report.md",
+      "Source_Project": "report writer HS",
+      "Status": "Vigente",
+      "Title": "Destilado — Obesity Index, edición Estados Unidos",
+      "What_It_Is": "Destilado por capas del reporte estatal de EE.UU. sobre obesidad. Se consulta al armar comparaciones fuera de LATAM."
+    },
+    "id": "recOV0YLNnCOg2eAu"
+  },
+  {
+    "createdTime": "2026-08-29T19:41:20.000Z",
+    "fields": {
+      "Area": "Estrategia",
+      "Doc_Date": "2026-08-28",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/replicabilidad-motor-otro-vertical-v1.md",
+      "Source_Project": "HEALSTHSIGNALS orchestrator/CEO",
+      "Status": "Vigente",
+      "Title": "Replicar el motor en otro vertical",
+      "What_It_Is": "Qué se reusa y qué no si se abre un vertical 2 (candidato: energía LatAm), con regla de activación: no abrirlo hasta tener revenue recurrente. Decisión: no activo hoy."
+    },
+    "id": "recOlclcvzn6KXv85"
+  },
+  {
+    "createdTime": "2026-08-29T20:04:26.000Z",
+    "fields": {
+      "Area": "Infraestructura / Make",
+      "Doc_Date": "2026-08-04",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/publisher-5133643-p1-deployment-status.md",
+      "Source_Project": "Healthsignals. Content Creator",
+      "Status": "Archivado",
+      "Superseded_By": "Publisher P1 — deployment completado",
+      "Title": "Publisher P1 — estado de deployment (4 ago)",
+      "What_It_Is": "Foto con el blueprint preparado pero sin aplicar; superada al día siguiente."
+    },
+    "id": "recPCbgm1HMBWhqXo"
+  },
+  {
+    "createdTime": "2026-08-29T20:04:26.000Z",
+    "fields": {
+      "Area": "Infraestructura / Make",
+      "Doc_Date": "2026-07-30",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/scanner-e2e-test-2026-07-30.md",
+      "Source_Project": "Healthsignals. Content Creator",
+      "Status": "Archivado",
+      "Superseded_By": "Scanner 5096381 v3 — split regional y enriquecimiento",
+      "Title": "Test end-to-end del Scanner (30 jul)",
+      "What_It_Is": "Corrida E2E (3,7s vs 47 min en serie). Evidencia puntual de que la arquitectura paralela funciona."
+    },
+    "id": "recPUo1b3fIgDQF5b"
+  },
+  {
+    "createdTime": "2026-08-29T20:04:26.000Z",
+    "fields": {
+      "Area": "Editorial",
+      "Doc_Date": "2026-08-05",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/economist-health-articles-latam-usa-2024-2026",
+      "Source_Project": "Healthsignals. Content Creator",
+      "Status": "Superseded",
+      "Superseded_By": "Índice Economist salud y pharma 2024-2026 (69 artículos)",
+      "Title": "Índice Economist LATAM+USA (versión previa)",
+      "What_It_Is": "Versión anterior del mismo índice, 19 horas más vieja y con menos cobertura."
+    },
+    "id": "recPnCcvi5rnYwbkV"
+  },
+  {
+    "createdTime": "2026-08-29T20:01:58.000Z",
+    "fields": {
+      "Area": "Marca / Diseño",
+      "Doc_Date": "2026-07-28",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/report-template-diabetes.html",
+      "Source_Project": "report writer HS",
+      "Status": "Vigente",
+      "Title": "Template maestro de reportes (base diabetes)",
+      "What_It_Is": "Template de diseño, CSS y gráficos base de TODOS los reportes; su bloque style se copia verbatim y nunca se sobrescribe. Activo pesado (89 KB)."
+    },
+    "id": "recQ4vWNGC97U1Qkv"
+  },
+  {
+    "createdTime": "2026-10-18T21:48:35.000Z",
+    "fields": {
+      "Area": "Comercial / Sponsors",
+      "Doc_Date": "2026-10-18",
+      "Indexed_At": "2026-10-18",
+      "Lives_In": "Google Drive",
+      "Path_or_URL": "HS Engine Context (canónico)/playbook-comercial-oferta-precios.md · 1Zcb8jXuSvxpTgbdm-UU7yPZBg1onf5mo",
+      "Source_Project": "Drive · carpeta 1rw_wsQ2XmWSp_LtEmANalGPdoMTaXOg5",
+      "Status": "Vigente",
+      "Title": "Playbook comercial — oferta, eventos y rate cards (CONFIDENCIAL)",
+      "What_It_Is": "Precios de eventos custom EI, brand storytelling, clubs, rate card 2026, términos de suscripción EIU, benchmark Fierce, 10 recomendaciones. Pendiente: 2 pptx >10MB sin leer. Confidencial."
+    },
+    "id": "recQbK7H9xy3HUJu5"
+  },
+  {
+    "createdTime": "2026-08-29T20:07:27.000Z",
+    "fields": {
+      "Area": "Comercial / Sponsors",
+      "Doc_Date": "2026-08-29",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "019dff34-451a-7167-b923-f96fbbf10178",
+      "Status": "Archivado",
+      "Title": "Proyecto claude.ai — GROWTH & MONETIZATION",
+      "What_It_Is": "12 docs, 218 KB, casi todos duplicados de report writer HS. Sus 3 docs vivos ya se migraron. Queda pendiente lusha-airtable-pipeline-setup por las credenciales."
+    },
+    "id": "recQgXnOUsqG1jkrE"
+  },
+  {
+    "createdTime": "2026-08-29T20:04:26.000Z",
+    "fields": {
+      "Area": "Editorial",
+      "Doc_Date": "2026-07-29",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/healthsignal-editorial-qa-integration.md",
+      "Source_Project": "Healthsignals. Content Creator",
+      "Status": "Superseded",
+      "Superseded_By": "Skill de review editorial v3 (consolidado)",
+      "Title": "Plan de integración del skill de QA editorial",
+      "What_It_Is": "Primera versión del skill de QA con sus 3 evals de prueba; la v3 es dos versiones posterior."
+    },
+    "id": "recRJWzOXwyRwqwoi"
+  },
+  {
+    "createdTime": "2026-08-29T20:04:26.000Z",
+    "fields": {
+      "Area": "Infraestructura / Make",
+      "Doc_Date": "2026-07-30",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/scanner-8k-module-specification.md",
+      "Source_Project": "Healthsignals. Content Creator",
+      "Status": "Vigente",
+      "Title": "Spec del módulo SEC 8-K para el Scanner",
+      "What_It_Is": "Diseño del pipeline EDGAR (jerarquía de señales, items 1.01 pharma) que hoy corre como módulos 70/71/72."
+    },
+    "id": "recRPHJasBDwFl1k5"
+  },
+  {
+    "createdTime": "2026-08-29T20:01:58.000Z",
+    "fields": {
+      "Area": "Editorial",
+      "Doc_Date": "2026-08-08",
+      "Indexed_At": "2026-10-18",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/qa-checklist-fuentes-cifras.md",
+      "Source_Project": "report writer HS (copia de trabajo) · copia 29-08 en orchestrator/CEO obsoleta · canónico en Drive desde 18-10",
+      "Status": "Superseded",
+      "Superseded_By": "Checklist QA de fuentes y cifras (Drive canónico)",
+      "Title": "Checklist QA de fuentes y cifras",
+      "What_It_Is": "Checklist mecánico de atribución, tipo de dato, escenarios y consistencia interna. Se corre antes de renderizar cualquier reporte a PDF."
+    },
+    "id": "recRiXGOuqPr0K5jn"
+  },
+  {
+    "createdTime": "2026-08-29T20:07:27.000Z",
+    "fields": {
+      "Area": "Infraestructura / Make",
+      "Doc_Date": "2026-08-09",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Make",
+      "Path_or_URL": "5886398 — sin carpeta",
+      "Status": "Revisar",
+      "Title": "HS WordPress to Airtable Sync (Make 5886398)",
+      "What_It_Is": "ROTO e inactivo (isinvalid). Falló sus 3 ejecuciones con 0 operaciones. Era el único que llenaba la tabla Articles: por eso Articles está vacía."
+    },
+    "id": "recRtG3cFvhhQKOEP"
+  },
+  {
+    "createdTime": "2026-08-29T19:41:20.000Z",
+    "fields": {
+      "Area": "Editorial",
+      "Doc_Date": "2026-08-07",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/motor-editorial-diseno-v1.md",
+      "Source_Project": "HEALSTHSIGNALS orchestrator/CEO",
+      "Status": "Superseded",
+      "Superseded_By": "Estado del proyecto (7 de agosto)",
+      "Title": "Diseño del motor editorial v1",
+      "What_It_Is": "Autodeclarado parcialmente obsoleto. Conserva valor por el porqué de separar writer y editor y por los tests de filtro y editor adversarial contra artículos reales."
+    },
+    "id": "recSljt8wR0g2AcPz"
+  },
+  {
+    "createdTime": "2026-08-29T20:04:26.000Z",
+    "fields": {
+      "Area": "Editorial",
+      "Doc_Date": "2026-08-06",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/economist-integration-final-5min.md",
+      "Source_Project": "Healthsignals. Content Creator",
+      "Status": "Superseded",
+      "Superseded_By": "Índice Economist listo para uso operativo",
+      "Title": "Integración Economist — últimos 5 minutos",
+      "What_It_Is": "Instructivo de los 5 minutos finales en Make. Conservar solo por los IDs de Google Sheet que trae y el ganador no."
+    },
+    "id": "recSpBE5vAKJp9GY2"
+  },
+  {
+    "createdTime": "2026-08-29T19:41:20.000Z",
+    "fields": {
+      "Area": "Marca / Diseño",
+      "Doc_Date": "2026-08-07",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/featured-image-template-v1.html",
+      "Source_Project": "HEALSTHSIGNALS orchestrator/CEO",
+      "Status": "Vigente",
+      "Title": "Template de imagen destacada",
+      "What_It_Is": "Plantilla HTML 600×315 con placeholders {{category}}, {{source}}, {{title}}, {{date}}, logo SVG y paleta clara automática para dos categorías. La usa el Publisher."
+    },
+    "id": "recSrzZqwY1tZu9sp"
+  },
+  {
+    "createdTime": "2026-08-29T20:07:27.000Z",
+    "fields": {
+      "Area": "Airtable / Data",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Airtable",
+      "Path_or_URL": "appjkRayvA0YEjczd",
+      "Status": "Vigente",
+      "Title": "Base Airtable HealthSignals (base madre)",
+      "What_It_Is": "Única base operativa. 23 tablas: Signals, Articles, CRM Prospects, Outreach Log, Deals, Invoices, Engine_*, System Changelog, Doc Index, Decisions. 11 scenarios de Make escriben acá."
+    },
+    "id": "recTX7HIe2N4LLbfB"
+  },
+  {
+    "createdTime": "2026-08-29T19:41:20.000Z",
+    "fields": {
+      "Area": "Airtable / Data",
+      "Doc_Date": "2026-08-08",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/subscriber-prospects-table-setup.md",
+      "Source_Project": "HEALSTHSIGNALS orchestrator/CEO",
+      "Status": "Vigente",
+      "Title": "Tabla Sucriptor prospects (961 contactos)",
+      "What_It_Is": "Referencia de campos con field IDs de tblfCpzJLRixXNy7G y destino final de los 961 contactos de LinkedIn. Consultar para cualquier automatización que lea o escriba ahí."
+    },
+    "id": "recTxMJERaxEbxyfo"
+  },
+  {
+    "createdTime": "2026-08-29T19:41:20.000Z",
+    "fields": {
+      "Area": "Infraestructura / Make",
+      "Doc_Date": "2026-08-08",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/weekly-digest-make-setup.md",
+      "Source_Project": "HEALSTHSIGNALS orchestrator/CEO",
+      "Status": "Archivado",
+      "Title": "Setup del Weekly Digest por email",
+      "What_It_Is": "Propuesta NO implementada (el digest real es el scenario 5454484). Neutralizado el 04-09: sponsors=[], coming-next y volumen parametrizados. No implementar sin dirección postal para CAN-SPAM."
+    },
+    "id": "recU9hrevgtjwRNtK"
+  },
+  {
+    "createdTime": "2026-08-29T20:07:27.000Z",
+    "fields": {
+      "Area": "Airtable / Data",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Google Drive",
+      "Path_or_URL": "1QVHcmWXcjABJmE6EJLOEmE3KsdPkW2L28TVTUGraZcI",
+      "Status": "Revisar",
+      "Title": "Google Sheet — HealthSignal Operating Tracker",
+      "What_It_Is": "Siete pestañas (Articles, Leads, Sponsors, Outreach, Packages, Invoices, Tasks) que duplican tablas que ya existen en Airtable. Decidir cuál manda."
+    },
+    "id": "recUGKvuAFmmzmo4I"
+  },
+  {
+    "createdTime": "2026-08-29T20:04:26.000Z",
+    "fields": {
+      "Area": "Infraestructura / Make",
+      "Doc_Date": "2026-07-30",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/wave1-execution-log.md",
+      "Source_Project": "Healthsignals. Content Creator",
+      "Status": "Archivado",
+      "Superseded_By": "Wave 1 — log final de ejecución",
+      "Title": "Wave 1 — log de ejecución (aprobación)",
+      "What_It_Is": "Cadena de aprobación y plan de rollback previos a Wave 1; ya ejecutado."
+    },
+    "id": "recV5hYxXW0EAi68x"
+  },
+  {
+    "createdTime": "2026-08-29T19:41:20.000Z",
+    "fields": {
+      "Area": "Infraestructura / Make",
+      "Doc_Date": "2026-08-27",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/thematic-scanner-topic-registry-2026-08-27.md",
+      "Source_Project": "HEALSTHSIGNALS orchestrator/CEO",
+      "Status": "Vigente",
+      "Title": "Scanner temático, Topic Registry y dedup",
+      "What_It_Is": "Estado operativo de los dos scanners (5096381 y 6070111), registry de 18 temas con rotación por fórmula y dedup por signal_hash. Consultar antes de correr o tocar scanners."
+    },
+    "id": "recV9MLrlrhDhbc6S"
+  },
+  {
+    "createdTime": "2026-08-29T20:01:58.000Z",
+    "fields": {
+      "Area": "Editorial",
+      "Doc_Date": "2026-07-29",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/criterios-article-writer.md",
+      "Source_Project": "report writer HS",
+      "Status": "Superseded",
+      "Superseded_By": "Guardrail editorial v3 para módulos Claude de Make",
+      "Title": "Bloque de instrucciones para el writer de artículos",
+      "What_It_Is": "Prompt con flujo de 4 pasos y 2 gates para artículos de 800-2.500 palabras. Rescatable: solo la sección del flujo, que el guardrail no cubre."
+    },
+    "id": "recVIePnnq7wEmF6g"
+  },
+  {
+    "createdTime": "2026-10-18T21:48:35.000Z",
+    "fields": {
+      "Area": "Motor de reportes",
+      "Doc_Date": "2026-10-18",
+      "Indexed_At": "2026-10-18",
+      "Lives_In": "Google Drive",
+      "Path_or_URL": "HS Engine Context (canónico)/playbook-variacion-reportes.md · 1s4l3u4iWqNX18ZBoLLeAbg87RR1ssLO0",
+      "Source_Project": "Drive · carpeta 1rw_wsQ2XmWSp_LtEmANalGPdoMTaXOg5",
+      "Status": "Vigente",
+      "Title": "Playbook de variación de reportes (Drive canónico)",
+      "What_It_Is": "Copia verbatim del report writer al 18-10."
+    },
+    "id": "recVPQF77acFxW6FS"
+  },
+  {
+    "createdTime": "2026-08-29T20:01:58.000Z",
+    "fields": {
+      "Area": "CRM / Outreach",
+      "Doc_Date": "2026-08-29",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/lusha-airtable-pipeline-setup.md",
+      "Source_Project": "GROWTH & MONETIZATION → copiado a orchestrator/CEO el 04-09",
+      "Status": "Vigente",
+      "Title": "Pipeline Lusha → Airtable CRM",
+      "What_It_Is": "Vía vigente para cargar prospectos de Lusha al CRM. Contiene credenciales de API en texto plano: rotarlas."
+    },
+    "id": "recVww66n9vbMKbcX"
+  },
+  {
+    "createdTime": "2026-08-29T20:01:58.000Z",
+    "fields": {
+      "Area": "Estrategia",
+      "Doc_Date": "2026-07-17",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/plan-captacion-venta-monetizacion.md",
+      "Source_Project": "HEALTHSIGNALS. GROWTH & MONETIZATION",
+      "Status": "Superseded",
+      "Superseded_By": "Plan Founding Members v1",
+      "Title": "Plan de captación, venta y monetización",
+      "What_It_Is": "Tesis de CAC y estrategia de dos tracks (founding sponsors / motor de escala). Reemplazado por los planes del 8-ago."
+    },
+    "id": "recW2dVVOSuQ9x6DZ"
+  },
+  {
+    "createdTime": "2026-08-29T20:04:26.000Z",
+    "fields": {
+      "Area": "Editorial",
+      "Doc_Date": "2026-08-05",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/economist-health-articles-index",
+      "Source_Project": "Healthsignals. Content Creator",
+      "Status": "Superseded",
+      "Superseded_By": "Índice Economist salud y pharma 2024-2026 (69 artículos)",
+      "Title": "Índice Economist (primera versión)",
+      "What_It_Is": "Primer borrador del índice, organizado por temas de acceso y precios. Reemplazado dos veces el mismo día."
+    },
+    "id": "recW4ZrcGmbCCreQT"
+  },
+  {
+    "createdTime": "2026-10-18T21:48:35.000Z",
+    "fields": {
+      "Area": "Motor de reportes",
+      "Doc_Date": "2026-10-18",
+      "Indexed_At": "2026-10-18",
+      "Lives_In": "Google Drive",
+      "Path_or_URL": "HS Engine Context (canónico)/proceso-tapa-reporte.md · 1FjUkeLmSbHzCHoBVrt0HxDX9tCjiFjZR",
+      "Source_Project": "Drive · carpeta 1rw_wsQ2XmWSp_LtEmANalGPdoMTaXOg5",
+      "Status": "Vigente",
+      "Title": "Proceso de tapa de reporte (Drive canónico)",
+      "What_It_Is": "Copia verbatim del report writer al 18-10."
+    },
+    "id": "recWc9Ezlqq0XTmuH"
+  },
+  {
+    "createdTime": "2026-08-29T20:04:26.000Z",
+    "fields": {
+      "Area": "Infraestructura / Make",
+      "Doc_Date": "2026-08-04",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/make-p1-changes-quickref.md",
+      "Source_Project": "Healthsignals. Content Creator",
+      "Status": "Archivado",
+      "Superseded_By": "Publisher P1 — deployment completado",
+      "Title": "Quick reference de cambios P1 en Make",
+      "What_It_Is": "Instrucciones copy-paste para editar módulos 16/17/18 a mano. Los cambios ya se aplicaron."
+    },
+    "id": "recXAA0qQibJGWCLu"
+  },
+  {
+    "createdTime": "2026-08-29T20:01:58.000Z",
+    "fields": {
+      "Area": "Motor de reportes",
+      "Doc_Date": "2026-08-29",
+      "Indexed_At": "2026-10-18",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/hsmotorpanel.md",
+      "Source_Project": "report writer HS (copia de trabajo) · copia 29-08 en orchestrator/CEO obsoleta · canónico en Drive desde 18-10",
+      "Status": "Superseded",
+      "Superseded_By": "Panel de control del motor de reportes (Drive canónico)",
+      "Title": "Panel de control del motor de reportes (v7)",
+      "What_It_Is": "Punto de entrada único del motor: comando, activos, base appjkRayvA0YEjczd, flujo de 5 pasos con 3 gates. Se lee al arrancar cualquier ciclo de reporte."
+    },
+    "id": "recXNoL4ARqjG7IYl"
+  },
+  {
+    "createdTime": "2026-08-29T20:04:26.000Z",
+    "fields": {
+      "Area": "Infraestructura / Make",
+      "Doc_Date": "2026-08-06",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/PRE-EXECUTION-CHECKLIST.md",
+      "Source_Project": "Healthsignals. Content Creator",
+      "Status": "Revisar",
+      "Title": "Checklist previo a correr Scanner y Publisher",
+      "What_It_Is": "3 pasos obligatorios antes de ejecutar (poblar Sheet, agregar módulos Claude). Los pasos 2 y 3 parecen ya cumplidos: verificar antes de usarlo."
+    },
+    "id": "recXX7jGkaSqwSrMk"
+  },
+  {
+    "createdTime": "2026-08-29T20:04:26.000Z",
+    "fields": {
+      "Area": "Infraestructura / Make",
+      "Doc_Date": "2026-07-30",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/wave2-deployment-ready.md",
+      "Source_Project": "Healthsignals. Content Creator",
+      "Status": "Superseded",
+      "Superseded_By": "Wave 2 — módulo 72 desplegado",
+      "Title": "Wave 2 — blueprint listo para desplegar",
+      "What_It_Is": "Describe las tres cadenas (SEC 8-K 70→71→72) antes del deploy; el detalle vivo quedó en los docs posteriores."
+    },
+    "id": "recXgVjS2yfT3C01b"
+  },
+  {
+    "createdTime": "2026-08-29T20:01:58.000Z",
+    "fields": {
+      "Area": "Marca / Diseño",
+      "Doc_Date": "2026-07-18",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/referencia-economist-impact-mental-health.md",
+      "Source_Project": "report writer HS",
+      "Status": "Vigente",
+      "Title": "Referencia de diseño — Economist Impact mental health 2024",
+      "What_It_Is": "Análisis de portada, metáfora visual, módulos reutilizables y qué no copiar. Insumo puntual del playbook de variación."
+    },
+    "id": "recXhslGAiGKWnYJ4"
+  },
+  {
+    "createdTime": "2026-08-29T20:04:26.000Z",
+    "fields": {
+      "Area": "Infraestructura / Make",
+      "Doc_Date": "2026-07-30",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/litigation-brasil-deployment-guide.md",
+      "Source_Project": "Healthsignals. Content Creator",
+      "Status": "Vigente",
+      "Title": "Litigios Brasil — guía de deployment y testing",
+      "What_It_Is": "Pasos concretos para desplegar el módulo de litigios (tabla Airtable, parser DJE RSS). Consultar si se retoma el módulo."
+    },
+    "id": "recZ1D6UbtyJx4DRn"
+  },
+  {
+    "createdTime": "2026-08-29T20:01:58.000Z",
+    "fields": {
+      "Area": "Motor de reportes",
+      "Doc_Date": "2026-08-11",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/reporte-03-glp1-latam.html",
+      "Source_Project": "report writer HS",
+      "Status": "Vigente",
+      "Title": "Reporte 03 — GLP-1 cardiometabólico LATAM",
+      "What_It_Is": "Edición de 21 páginas. Es el reporte que distribuye la spec Brevo (spec-relatorio-glp1-dev-brevo). Entregable de 141 KB, no se migra."
+    },
+    "id": "recaqx64sIxQ62arc"
+  },
+  {
+    "createdTime": "2026-08-29T20:07:27.000Z",
+    "fields": {
+      "Area": "Motor de reportes",
+      "Doc_Date": "2026-08-09",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Make",
+      "Path_or_URL": "5893513 — carpeta report writer 268067",
+      "Status": "Vigente",
+      "Title": "HS Price Feeds — listas oficiales de precios (Make 5893513)",
+      "What_It_Is": "Activo, corre el 5 de cada mes 06:00. Escribe en Engine_Price_Files. Sus rutas de Perú y Colombia no escriben nada: el filtro de link resuelto las corta."
+    },
+    "id": "recar0afFsKJ2Nzpd"
+  },
+  {
+    "createdTime": "2026-08-29T20:01:58.000Z",
+    "fields": {
+      "Area": "Motor de reportes",
+      "Doc_Date": "2026-07-18",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/motor-reportes-spec.md",
+      "Source_Project": "report writer HS (copia en GROWTH)",
+      "Status": "Superseded",
+      "Superseded_By": "Panel de control del motor de reportes (v7)",
+      "Title": "Spec original del motor de reportes",
+      "What_It_Is": "OJO: apunta a la base vieja appG0Q8m3GR3hssck con tablas sin prefijo Engine_. El panel vigente lo lista como referencia técnica y ese puntero está mal."
+    },
+    "id": "recbETQD1v8GTJqrx"
+  },
+  {
+    "createdTime": "2026-08-29T20:01:58.000Z",
+    "fields": {
+      "Area": "Airtable / Data",
+      "Doc_Date": "2026-07-28",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/obesity-index-global-score-table.csv",
+      "Source_Project": "report writer HS",
+      "Status": "Vigente",
+      "Title": "Tabla de scores del Obesity Index — global",
+      "What_It_Is": "Matriz de indicadores, pesos y scores de 20 países (incluye Brasil y México). Archivo de datos crudo para gráficos."
+    },
+    "id": "recbMX5c5ud5Dow3B"
+  },
+  {
+    "createdTime": "2026-08-29T20:01:58.000Z",
+    "fields": {
+      "Area": "Motor de reportes",
+      "Doc_Date": "2026-08-09",
+      "Indexed_At": "2026-10-18",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/proceso-research-multipasa.md",
+      "Source_Project": "report writer HS (copia de trabajo) · copia 29-08 en orchestrator/CEO obsoleta · canónico en Drive desde 18-10",
+      "Status": "Superseded",
+      "Superseded_By": "P1 — Research multipasa (Drive canónico)",
+      "Title": "P1 — Research multipasa (gate previo al brief)",
+      "What_It_Is": "Obliga tres pasadas de research priorizando simetría entre países sobre profundidad. Se aplica antes de escribir cualquier reporte."
+    },
+    "id": "recbecJJ6mobd5l8f"
+  },
+  {
+    "createdTime": "2026-08-29T19:41:20.000Z",
+    "fields": {
+      "Area": "Infraestructura / Make",
+      "Doc_Date": "2026-08-08",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/make_scenario_setup_instructions.md",
+      "Source_Project": "HEALSTHSIGNALS orchestrator/CEO",
+      "Status": "Superseded",
+      "Superseded_By": "Tabla Sucriptor prospects (961 contactos)",
+      "Title": "Instrucciones de carga vía scenario 5890536",
+      "What_It_Is": "Cómo pegar el JSON de 961 contactos en el BasicFeeder y agregar bulkCreateRecords apuntando a CRM Prospects. La carga ya se ejecutó y en otra tabla."
+    },
+    "id": "reccWqUCh3ZaiNz6R"
+  },
+  {
+    "createdTime": "2026-08-29T19:41:20.000Z",
+    "fields": {
+      "Area": "CRM / Outreach",
+      "Doc_Date": "2026-08-08",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/contact-import-status-2026-08-08.md",
+      "Source_Project": "HEALSTHSIGNALS orchestrator/CEO",
+      "Status": "Superseded",
+      "Superseded_By": "Tabla Sucriptor prospects (961 contactos)",
+      "Title": "Estado de preparación de los 961 contactos",
+      "What_It_Is": "Reporte previo a la carga con distribución por segmento y región, y destino declarado en CRM Prospects. La carga terminó en otra tabla y con otra segmentación."
+    },
+    "id": "reccbOdWYUryqyxiC"
+  },
+  {
+    "createdTime": "2026-10-18T21:48:35.000Z",
+    "fields": {
+      "Area": "Editorial",
+      "Doc_Date": "2026-10-18",
+      "Indexed_At": "2026-10-18",
+      "Lives_In": "Google Drive",
+      "Path_or_URL": "HS Engine Context (canónico)/estandar-editorial-nivel2.md",
+      "Source_Project": "Drive · carpeta 1rw_wsQ2XmWSp_LtEmANalGPdoMTaXOg5",
+      "Status": "Vigente",
+      "Title": "Estándar editorial nivel 2 (Drive canónico)",
+      "What_It_Is": "Copia de la versión 09-18 del report writer. Aplica a reportes y artículos."
+    },
+    "id": "recd9v7I5uDG8RqpL"
+  },
+  {
+    "createdTime": "2026-10-18T21:48:35.000Z",
+    "fields": {
+      "Area": "Motor de reportes",
+      "Doc_Date": "2026-10-18",
+      "Indexed_At": "2026-10-18",
+      "Lives_In": "Google Drive",
+      "Path_or_URL": "HS Engine Context (canónico)/proceso-cierre-reporte.md · 1VIIasENbEt6yeN4ltaQV6H0PUIpERPdK",
+      "Source_Project": "Drive · carpeta 1rw_wsQ2XmWSp_LtEmANalGPdoMTaXOg5",
+      "Status": "Vigente",
+      "Title": "Proceso de cierre de reporte (Drive canónico)",
+      "What_It_Is": "Copia verbatim del report writer al 18-10."
+    },
+    "id": "recdCZQrlGpV7mOZH"
+  },
+  {
+    "createdTime": "2026-08-29T20:04:26.000Z",
+    "fields": {
+      "Area": "Infraestructura / Make",
+      "Doc_Date": "2026-07-30",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/wave2-deployment-completed.md",
+      "Source_Project": "Healthsignals. Content Creator",
+      "Status": "Archivado",
+      "Superseded_By": "Wave 2 — módulo 72 desplegado",
+      "Title": "Wave 2 — deployment parcial completado",
+      "What_It_Is": "Foto de las 15:21 con 4 de 5 módulos vivos; cerrada 4 minutos después."
+    },
+    "id": "recdIMCKUcFjuECN7"
+  },
+  {
+    "createdTime": "2026-08-29T20:01:58.000Z",
+    "fields": {
+      "Area": "Airtable / Data",
+      "Doc_Date": "2026-07-28",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/catalogo-ei-latam-reports.md",
+      "Source_Project": "report writer HS",
+      "Status": "Vigente",
+      "Title": "Catálogo de reportes Economist Impact LATAM",
+      "What_It_Is": "Índice de 12 reportes patrocinados usados solo como cantera estructural y editorial; prohibido citarlos como fuente de datos."
+    },
+    "id": "recddPnI1HTLGQqFU"
+  },
+  {
+    "createdTime": "2026-08-29T19:41:20.000Z",
+    "fields": {
+      "Area": "Infraestructura / Make",
+      "Doc_Date": "2026-08-07",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/backup-publisher-prod-v2.json",
+      "Source_Project": "HEALSTHSIGNALS orchestrator/CEO",
+      "Status": "Vigente",
+      "Title": "Backup del blueprint del Article Publisher",
+      "What_It_Is": "Punto de restauración del PROD Article Publisher v2 (5133643) tal como quedó el 7-ago. Es anterior al addendum v15.5 desplegado el 10-ago."
+    },
+    "id": "recdiUftyLTAeKM8w"
+  },
+  {
+    "createdTime": "2026-08-29T19:41:20.000Z",
+    "fields": {
+      "Area": "Infraestructura / Make",
+      "Doc_Date": "2026-08-08",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/make-sync-wordpress-to-airtable-blueprint.md",
+      "Source_Project": "HEALSTHSIGNALS orchestrator/CEO",
+      "Status": "Superseded",
+      "Superseded_By": "Estado del sync WordPress → Airtable",
+      "Title": "Blueprint sync WordPress → Airtable (versión 3)",
+      "What_It_Is": "Diseño de 5 módulos que además crea Deals e Invoices vía API de Airtable, con dedup por slug. Sirve solo como referencia de esquema de esas tablas."
+    },
+    "id": "recdlNfXrJACZJeDX"
+  },
+  {
+    "createdTime": "2026-08-29T20:04:26.000Z",
+    "fields": {
+      "Area": "Infraestructura / Make",
+      "Doc_Date": "2026-07-30",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/litigation-brasil-dedup-algorithm.md",
+      "Source_Project": "Healthsignals. Content Creator",
+      "Status": "Vigente",
+      "Title": "Litigios Brasil — algoritmo de dedup de 6 niveles",
+      "What_It_Is": "Lógica de match entre causas (apelaciones, class actions, enforcement) con ejemplos. Necesaria si se despliega el módulo."
+    },
+    "id": "receAGl3V7OzhMjbY"
+  },
+  {
+    "createdTime": "2026-08-29T20:07:27.000Z",
+    "fields": {
+      "Area": "Infraestructura / Make",
+      "Doc_Date": "2026-08-29",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "019dcfb0-8549-753b-b9e6-0b526ba8355d",
+      "Status": "Archivado",
+      "Title": "Proyecto claude.ai — Content Creator",
+      "What_It_Is": "47 docs, 470 KB. Guarda las specs pesadas de SPA Chrome, litigios Brasil y SEC 8-K. Sus 7 docs vivos ya se migraron; el resto son logs de deployment cumplidos."
+    },
+    "id": "recf9JPLesw5QQxzn"
+  },
+  {
+    "createdTime": "2026-08-29T20:04:26.000Z",
+    "fields": {
+      "Area": "Infraestructura / Make",
+      "Doc_Date": "2026-08-05",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/publisher-5133643-p1-deployment-ready.md",
+      "Source_Project": "Healthsignals. Content Creator",
+      "Status": "Archivado",
+      "Superseded_By": "Publisher P1 — deployment completado",
+      "Title": "Publisher P1 — listo para desplegar",
+      "What_It_Is": "Foto previa al deploy P1; la ejecución quedó documentada en el doc final."
+    },
+    "id": "recgJxx3sjASBQRIL"
+  },
+  {
+    "createdTime": "2026-08-29T20:04:26.000Z",
+    "fields": {
+      "Area": "Airtable / Data",
+      "Doc_Date": "2026-07-30",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/wave2-infrastructure-ids.md",
+      "Source_Project": "Content Creator → copiado a orchestrator/CEO el 29-08",
+      "Status": "Vigente",
+      "Title": "IDs de infraestructura Wave 2 (data store y base 8-K)",
+      "What_It_Is": "IDs del data store sec_ticker_cache y de la base HealthSignals_8K_Pipeline (Companies, 8K_Filings, Story_Pipeline). No figura en ninguna auditoría de bases."
+    },
+    "id": "recgxnRi6ooMFeEMk"
+  },
+  {
+    "createdTime": "2026-08-29T20:01:58.000Z",
+    "fields": {
+      "Area": "Infraestructura / Make",
+      "Doc_Date": "2026-08-04",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/blueprint-scenario-prospect-search.md",
+      "Source_Project": "HEALTHSIGNALS. GROWTH & MONETIZATION",
+      "Status": "Superseded",
+      "Superseded_By": "Scenario 5843912 — HS Prospect Search LinkedIn LATAM",
+      "Title": "Blueprint del scenario Prospect Search",
+      "What_It_Is": "Blueprint JSON y errores comunes de la versión previa, 1h40 más vieja que el doc de deployment."
+    },
+    "id": "rech3N3GsoBZcK9CV"
+  },
+  {
+    "createdTime": "2026-08-29T20:04:26.000Z",
+    "fields": {
+      "Area": "Editorial",
+      "Doc_Date": "2026-08-06",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/ECONOMIST-INDEX-MEMORIA-OPERACIONAL.md",
+      "Source_Project": "Healthsignals. Content Creator",
+      "Status": "Superseded",
+      "Superseded_By": "Índice Economist listo para uso operativo",
+      "Title": "Memoria operacional del índice Economist (19 URLs)",
+      "What_It_Is": "Listado de las 19 URLs cargadas al Sheet de dedup. Rescatar los IDs de Google Sheet antes de archivar: el ganador no los trae."
+    },
+    "id": "reciDghDBKIcvFqXJ"
+  },
+  {
+    "createdTime": "2026-08-29T20:04:26.000Z",
+    "fields": {
+      "Area": "Editorial",
+      "Doc_Date": "2026-07-17",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/headlines_hs_vs_fierce.md",
+      "Source_Project": "Healthsignals. Content Creator",
+      "Status": "Archivado",
+      "Superseded_By": "Guía de estilo de escritura",
+      "Title": "Comparación de titulares HS vs Fierce Healthcare",
+      "What_It_Is": "Análisis puntual de una muestra de titulares; su conclusión de estilo ya vive en la guía de escritura y en el skill v3."
+    },
+    "id": "reciqDvLUBgQddwx7"
+  },
+  {
+    "createdTime": "2026-08-29T20:07:27.000Z",
+    "fields": {
+      "Area": "Motor de reportes",
+      "Doc_Date": "2026-07-18",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Make",
+      "Path_or_URL": "5699954 — carpeta report writer 268067",
+      "Status": "Vigente",
+      "Title": "HS Report Proposer (Make 5699954)",
+      "What_It_Is": "Activo, on-demand. Claude propone 3 temas de reporte y los escribe en Engine_Report_Topics de la base madre (verificado 29-ago)."
+    },
+    "id": "recitP6uhEENXWOB5"
+  },
+  {
+    "createdTime": "2026-08-29T20:01:58.000Z",
+    "fields": {
+      "Area": "Editorial",
+      "Doc_Date": "2026-07-29",
+      "Indexed_At": "2026-10-18",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/proceso-qa-adversarial.md",
+      "Source_Project": "report writer HS (copia de trabajo) · copia 29-08 en orchestrator/CEO obsoleta · canónico en Drive desde 18-10",
+      "Status": "Superseded",
+      "Superseded_By": "P3 — QA adversarial (GATE B) (Drive canónico)",
+      "Title": "P3 — QA adversarial (GATE B)",
+      "What_It_Is": "Gate obligatorio entre escritura y render: seis vectores de ataque contra el HTML terminado, con prompt del agente y formato de veredicto."
+    },
+    "id": "recitq45goVIkQdVE"
+  },
+  {
+    "createdTime": "2026-08-29T20:01:58.000Z",
+    "fields": {
+      "Area": "Airtable / Data",
+      "Doc_Date": "2026-07-28",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/destilado-obesity-index-report.md",
+      "Source_Project": "report writer HS",
+      "Status": "Vigente",
+      "Title": "Destilado — An epidemic of inaction (índice global)",
+      "What_It_Is": "Destilado principal del índice de respuesta a la obesidad, con cifras citables separadas del output propietario del índice."
+    },
+    "id": "recj3nr0KACreUliQ"
+  },
+  {
+    "createdTime": "2026-08-29T20:01:58.000Z",
+    "fields": {
+      "Area": "Editorial",
+      "Doc_Date": "2026-07-29",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/manual-editorial-articulos.md",
+      "Source_Project": "report writer HS",
+      "Status": "Superseded",
+      "Superseded_By": "Skill de review editorial v3 (consolidado)",
+      "Title": "Manual editorial de artículos de revista",
+      "What_It_Is": "Manual en español de selección de temas, brief, datos, citación y QA de artículos. Cubierto por el skill v3."
+    },
+    "id": "reck3Ab3V5qZqVPqf"
+  },
+  {
+    "createdTime": "2026-08-29T20:04:26.000Z",
+    "fields": {
+      "Area": "Editorial",
+      "Doc_Date": "2026-08-06",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/ECONOMIST-INDEX-READY.md",
+      "Source_Project": "Content Creator → copiado a orchestrator/CEO el 29-08",
+      "Status": "Vigente",
+      "Title": "Índice Economist listo para uso operativo",
+      "What_It_Is": "Ganador de la serie Economist: resumen operativo del índice de 69 artículos usado para dedup en Scanner y validación de fuentes en Publisher."
+    },
+    "id": "reckQmYzg1jPzIfFr"
+  },
+  {
+    "createdTime": "2026-08-29T20:07:27.000Z",
+    "fields": {
+      "Area": "Editorial",
+      "Doc_Date": "2026-08-27",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Google Drive",
+      "Path_or_URL": "Sheet 1J8ca4Pv... — pestañas Editorial Queue y Topic Registry",
+      "Status": "Vigente",
+      "Title": "Google Sheet — Editorial Queue + Topic Registry",
+      "What_It_Is": "Donde escriben los dos scanners y de donde lee el Publisher. El Topic Registry son 18 temas con rotación automática por fórmula: agregar un tema = agregar una fila."
+    },
+    "id": "reckoFGFPjKH33axc"
+  },
+  {
+    "createdTime": "2026-08-29T20:01:58.000Z",
+    "fields": {
+      "Area": "Marca / Diseño",
+      "Doc_Date": "2026-07-18",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/report-template-oncologia-latam.html",
+      "Source_Project": "HEALTHSIGNALS. GROWTH & MONETIZATION",
+      "Status": "Superseded",
+      "Superseded_By": "Template de reportes #2 (base oncología)",
+      "Title": "Reporte plantilla — oncología LATAM (copia)",
+      "What_It_Is": "Copia byte a byte (66 KB) del template de oncología que vive en report writer HS. Duplicado, no mantener las dos."
+    },
+    "id": "reclgYPeICzvrT6lR"
+  },
+  {
+    "createdTime": "2026-08-29T20:01:58.000Z",
+    "fields": {
+      "Area": "Airtable / Data",
+      "Doc_Date": "2026-07-28",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/fuente-cuevas-chile-obesity-2024.md",
+      "Source_Project": "report writer HS",
+      "Status": "Vigente",
+      "Title": "Ficha de fuente — Cuevas et al. 2024 (ACTION-IO Chile)",
+      "What_It_Is": "Fuente primaria chilena con cifras citables, limitaciones y relación con el Obesity Response Index. Material de biblioteca."
+    },
+    "id": "reclupPCUhL9MWnUj"
+  },
+  {
+    "createdTime": "2026-08-29T20:07:27.000Z",
+    "fields": {
+      "Area": "Infraestructura / Make",
+      "Doc_Date": "2026-08-29",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Make",
+      "Path_or_URL": "5133643 — carpeta CONTENT 247198",
+      "Status": "Vigente",
+      "Title": "PROD Article Publisher v2 (Make 5133643)",
+      "What_It_Is": "Activo. Contiene el prompt EDITORIAL ENGINE v15.4 + addendum v15.5. Verificado 29-ago: NO escribe en Airtable, aunque la tabla Articles se describe como su output."
+    },
+    "id": "recmDRWJz2Ucg5v4I"
+  },
+  {
+    "createdTime": "2026-08-29T19:41:20.000Z",
+    "fields": {
+      "Area": "Comercial / Sponsors",
+      "Doc_Date": "2026-08-29",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/media-kit-founding-partners-v2.html",
+      "Source_Project": "HEALSTHSIGNALS orchestrator/CEO",
+      "Status": "Vigente",
+      "Title": "Media Kit Founding Partners v2 (5 páginas, HTML)",
+      "What_It_Is": "Pieza comercial canónica. v2 del 29-ago corrige la portada: 58 briefings (37 LATAM, 19 USA) en vez de 117, que era la suma de asignaciones de categoría. 6 assets vendibles, 4 tiers con lock de 6 meses, sin métricas de audiencia."
+    },
+    "id": "recmL5oQM92a9ZC7h"
+  },
+  {
+    "createdTime": "2026-08-29T20:04:26.000Z",
+    "fields": {
+      "Area": "Infraestructura / Make",
+      "Doc_Date": "2026-08-29",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/publisher_tags_seo_wiring.md",
+      "Source_Project": "Content Creator → copiado a orchestrator/CEO el 29-08",
+      "Status": "Vigente",
+      "Title": "Publisher 5133643 — cableado de tags, categorías y SEO",
+      "What_It_Is": "Mapeo actual de tags, categorías y Yoast en el Publisher, más historial de regresiones. Doc más nuevo que existe sobre el Publisher: leer antes de tocar ese blueprint."
+    },
+    "id": "recnVbu0xGZYCGeg8"
+  },
+  {
+    "createdTime": "2026-08-29T20:07:27.000Z",
+    "fields": {
+      "Area": "Infraestructura / Make",
+      "Doc_Date": "2026-08-29",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Make",
+      "Path_or_URL": "5096381 — carpeta CONTENT 247198",
+      "Status": "Vigente",
+      "Title": "Scanner geográfico (Make 5096381)",
+      "What_It_Is": "Activo, on-demand. Router de 6 ramas por país, ventana de 14 días, dedup por signal_hash. Escribe al Google Sheet Editorial Queue, no a Airtable."
+    },
+    "id": "recnXUoqT20ccfniy"
+  },
+  {
+    "createdTime": "2026-08-29T20:01:58.000Z",
+    "fields": {
+      "Area": "Airtable / Data",
+      "Doc_Date": "2026-07-28",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/destilado-latam-fifarma.md",
+      "Source_Project": "report writer HS",
+      "Status": "Vigente",
+      "Title": "Destilado LATAM — FIFARMA y afines",
+      "What_It_Is": "Investigación clínica, reliance regulatorio y contribución de la industria en LATAM. El destilado más pesado del set (113 KB)."
+    },
+    "id": "recnmH9uodDde6p4q"
+  },
+  {
+    "createdTime": "2026-10-18T21:48:35.000Z",
+    "fields": {
+      "Area": "Editorial",
+      "Doc_Date": "2026-10-18",
+      "Indexed_At": "2026-10-18",
+      "Lives_In": "Google Drive",
+      "Path_or_URL": "HS Engine Context (canónico)/qa-checklist-fuentes-cifras.md",
+      "Source_Project": "Drive · carpeta 1rw_wsQ2XmWSp_LtEmANalGPdoMTaXOg5",
+      "Status": "Vigente",
+      "Title": "Checklist QA de fuentes y cifras (Drive canónico)",
+      "What_It_Is": "Copia de la versión 09-18 del report writer."
+    },
+    "id": "recnt3BPXsIM4mp33"
+  },
+  {
+    "createdTime": "2026-10-18T21:48:35.000Z",
+    "fields": {
+      "Area": "Editorial",
+      "Doc_Date": "2026-10-18",
+      "Indexed_At": "2026-10-18",
+      "Lives_In": "Google Drive",
+      "Path_or_URL": "HS Engine Context (canónico)/estandar-citacion-fuentes.md",
+      "Source_Project": "Drive · carpeta 1rw_wsQ2XmWSp_LtEmANalGPdoMTaXOg5",
+      "Status": "Vigente",
+      "Title": "Estándar de citación y atribución (Drive canónico)",
+      "What_It_Is": "Copia de la versión 09-18 del report writer."
+    },
+    "id": "recoFfx1bQZWV9sry"
+  },
+  {
+    "createdTime": "2026-08-29T20:04:26.000Z",
+    "fields": {
+      "Area": "Editorial",
+      "Doc_Date": "2026-08-06",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/economist-health-articles-comprehensive-2024-2026",
+      "Source_Project": "Healthsignals. Content Creator",
+      "Status": "Vigente",
+      "Title": "Índice Economist salud y pharma 2024-2026 (69 artículos)",
+      "What_It_Is": "Índice completo USA+LATAM que alimenta el dedup editorial. Entregable de datos, se consulta en origen."
+    },
+    "id": "recpibzn92BGbPBNm"
+  },
+  {
+    "createdTime": "2026-08-29T19:41:20.000Z",
+    "fields": {
+      "Area": "Infraestructura / Make",
+      "Doc_Date": "2026-08-08",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/make-sync-scenario-config.md",
+      "Source_Project": "HEALSTHSIGNALS orchestrator/CEO",
+      "Status": "Superseded",
+      "Superseded_By": "Estado del sync WordPress → Airtable",
+      "Title": "Guía de configuración del scenario de sync",
+      "What_It_Is": "Pasos para completar el scenario que crea Deals e Invoices y sincroniza los 58 artículos. Esas tablas ya se crearon por otra vía el 9-ago."
+    },
+    "id": "recpp02HUkqLYbp4w"
+  },
+  {
+    "createdTime": "2026-08-29T20:04:26.000Z",
+    "fields": {
+      "Area": "Infraestructura / Make",
+      "Doc_Date": "2026-07-30",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/scanner-spa-phase2a-specification.md",
+      "Source_Project": "Healthsignals. Content Creator",
+      "Status": "Vigente",
+      "Title": "SPA Fase 2A — especificación completa",
+      "What_It_Is": "Spec de 45 KB de la automatización Chrome del Scanner. Entregable pesado, se consulta en origen."
+    },
+    "id": "recrIw0uZR8gsSdaB"
+  },
+  {
+    "createdTime": "2026-08-29T19:41:20.000Z",
+    "fields": {
+      "Area": "Motor de reportes",
+      "Doc_Date": "2026-08-11",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/spec-relatorio-glp1-dev-brevo.md",
+      "Source_Project": "HEALSTHSIGNALS orchestrator/CEO",
+      "Status": "Vigente",
+      "Title": "Spec de distribución del reporte GLP-1",
+      "What_It_Is": "Spec para el dev: landing /glp1 con OG image, formulario de un campo, Brevo con doble opt-in y flujo de 3 emails, PDF con URL al pie. Incluye definition of done."
+    },
+    "id": "recrLns8Uj92avLso"
+  },
+  {
+    "createdTime": "2026-08-29T19:41:20.000Z",
+    "fields": {
+      "Area": "Comercial / Sponsors",
+      "Doc_Date": "2026-08-29",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/media-kit-pricing-benchmark-2026-08-29.md",
+      "Source_Project": "HEALSTHSIGNALS orchestrator/CEO",
+      "Status": "Vigente",
+      "Title": "Pricing, benchmark y argumento de venta del media kit",
+      "What_It_Is": "Tiers confirmados (8/5/2,5/1K USD), benchmark vs Economist y newsletters B2B, guion de anclaje para llamadas y 3 pendientes antes de que el kit salga."
+    },
+    "id": "recrlXkhwixVQBKog"
+  },
+  {
+    "createdTime": "2026-08-29T19:41:20.000Z",
+    "fields": {
+      "Area": "Estrategia",
+      "Doc_Date": "2026-08-07",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/estado-proyecto-2026-08-07.md",
+      "Source_Project": "HEALSTHSIGNALS orchestrator/CEO",
+      "Status": "Vigente",
+      "Title": "Estado del proyecto (7 de agosto)",
+      "What_It_Is": "Única foto completa del sistema: arquitectura punta a punta, estado por componente, diagnóstico comercial, IDs de referencia y la regla de snapshot antes de tocar Make."
+    },
+    "id": "recrmvXVtmKXOo15B"
+  },
+  {
+    "createdTime": "2026-08-29T20:04:26.000Z",
+    "fields": {
+      "Area": "Infraestructura / Make",
+      "Doc_Date": "2026-07-30",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/wave2-automation-module-spec.md",
+      "Source_Project": "Healthsignals. Content Creator",
+      "Status": "Vigente",
+      "Title": "Spec de automatización Wave 2 — clasificación de dominios",
+      "What_It_Is": "Clasificación de dominios por riesgo SPA/JS (pharma, medtech IR, payers, LATAM). Define qué necesita browser y qué no."
+    },
+    "id": "recsSX0fBkVWjZ7JE"
+  },
+  {
+    "createdTime": "2026-10-18T21:48:35.000Z",
+    "fields": {
+      "Area": "Infraestructura / Make",
+      "Doc_Date": "2026-10-18",
+      "Indexed_At": "2026-10-18",
+      "Lives_In": "Google Drive",
+      "Path_or_URL": "HS Engine Context (canónico)/README.md · 1CY2dCnqgIexs6_VgxE4WY-bs__0a3S_o",
+      "Source_Project": "Drive · carpeta 1rw_wsQ2XmWSp_LtEmANalGPdoMTaXOg5",
+      "Status": "Vigente",
+      "Title": "README / bootstrap de la carpeta canónica",
+      "What_It_Is": "Qué lee cada agente antes de cada ciclo; regla 'gana Drive'; quién escribe."
+    },
+    "id": "recsr0SC3pls1tpRr"
+  },
+  {
+    "createdTime": "2026-08-29T20:07:27.000Z",
+    "fields": {
+      "Area": "Infraestructura / Make",
+      "Doc_Date": "2026-08-07",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Make",
+      "Path_or_URL": "5843912 — carpeta GROWTH 268063",
+      "Status": "Revisar",
+      "Title": "HS Prospect Search LinkedIn LATAM (Make 5843912)",
+      "What_It_Is": "Activo con webhook y 22 errores sobre 27 ejecuciones — el peor ratio del team. Escribe a CRM Prospects."
+    },
+    "id": "rectJVr6xjBDaoTIM"
+  },
+  {
+    "createdTime": "2026-08-29T19:41:20.000Z",
+    "fields": {
+      "Area": "Airtable / Data",
+      "Doc_Date": "2026-08-08",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/make-scenarios-airtable-audit-2026-08-08.md",
+      "Source_Project": "HEALSTHSIGNALS orchestrator/CEO",
+      "Status": "Archivado",
+      "Title": "Auditoría de scenarios Make ↔ Airtable (8 ago)",
+      "What_It_Is": "Foto del 8-ago que verifica base y tabla de 3 scenarios y deja 3 sin verificar. El inventario ya no coincide con los scenarios en uso (aparece 5886398, faltan 6070111 y los 5890xxx)."
+    },
+    "id": "rectbcoEswLtV5chr"
+  },
+  {
+    "createdTime": "2026-10-18T21:48:35.000Z",
+    "fields": {
+      "Area": "Editorial",
+      "Doc_Date": "2026-10-18",
+      "Indexed_At": "2026-10-18",
+      "Lives_In": "Google Drive",
+      "Path_or_URL": "HS Engine Context (canónico)/lecciones-economist.md · 1NnazGxGZQ8KgyiYLUOzmoWsDGUtVA79Q",
+      "Source_Project": "Drive · carpeta 1rw_wsQ2XmWSp_LtEmANalGPdoMTaXOg5",
+      "Status": "Vigente",
+      "Title": "Lecciones Economist/EIU para HealthSignals",
+      "What_It_Is": "Manual de oficio destilado de ~95 archivos de la carrera EIU de Fer (Baptist tips, Handbook, 8 reportes EI). Voz, artículo corto, reporte, atribución, titulares, qué NO copiar de EI, checklist 10 puntos. No es fuente de datos. Lectura del report writer y del Publisher."
+    },
+    "id": "recugMmwQVvM7RrdZ"
+  },
+  {
+    "createdTime": "2026-08-29T19:41:20.000Z",
+    "fields": {
+      "Area": "Estrategia",
+      "Doc_Date": "2026-08-11",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/advisory-board-diseno-y-candidatos-v1.md",
+      "Source_Project": "HEALSTHSIGNALS orchestrator/CEO",
+      "Status": "Vigente",
+      "Title": "Advisory Board: diseño y candidatos verificados",
+      "What_It_Is": "Board de 7 asientos, reglas de conflicto de interés, shortlist y ~40 candidatos verificados al 11-ago con vetados y datos a chequear. Outreach no iniciado, tema pausado."
+    },
+    "id": "recvIIN4omRgxx3fH"
+  },
+  {
+    "createdTime": "2026-08-29T20:07:27.000Z",
+    "fields": {
+      "Area": "Infraestructura / Make",
+      "Doc_Date": "2026-08-08",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Make",
+      "Path_or_URL": "5891229 — carpeta SPONSORS 268191",
+      "Status": "Revisar",
+      "Title": "Extract Prospects from Published Articles (Make 5891229)",
+      "What_It_Is": "Activo pero sus módulos Airtable no tienen conexión asignada y usan API v1. Además lee de la tabla Articles, que nadie llena. 1 ejecución, 1 error."
+    },
+    "id": "recvPYBdDxJkS5sjn"
+  },
+  {
+    "createdTime": "2026-08-29T20:04:26.000Z",
+    "fields": {
+      "Area": "Infraestructura / Make",
+      "Doc_Date": "2026-07-30",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/scanner-v3-regional-enrichment.md",
+      "Source_Project": "Content Creator → copiado a orchestrator/CEO el 29-08",
+      "Status": "Vigente",
+      "Title": "Scanner 5096381 v3 — split regional y enriquecimiento",
+      "What_It_Is": "Topología real del Scanner: router de 6 ramas (MX, BR, AR, CO, USA, global) con IDs de módulo. Único doc que la describe."
+    },
+    "id": "recvTXKjRZI19Rszy"
+  },
+  {
+    "createdTime": "2026-08-29T20:01:58.000Z",
+    "fields": {
+      "Area": "Infraestructura / Make",
+      "Doc_Date": "2026-08-08",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/scenarios-research-writer-qa-render-english.md",
+      "Source_Project": "report writer HS",
+      "Status": "Revisar",
+      "Title": "Blueprints de los 3 scenarios del motor (inglés)",
+      "What_It_Is": "Única fuente de los blueprints Research/Writer+QA/Render. El panel vigente ya no los menciona y la auditoría de Make no los encontró: verificar si existen."
+    },
+    "id": "recvg52A7BW669dgm"
+  },
+  {
+    "createdTime": "2026-08-29T20:04:26.000Z",
+    "fields": {
+      "Area": "Editorial",
+      "Doc_Date": "2026-07-30",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/editorial-gates-spec-and-gateB-module.md",
+      "Source_Project": "Healthsignals. Content Creator",
+      "Status": "Revisar",
+      "Title": "Spec canónica de las tres compuertas editoriales",
+      "What_It_Is": "Contrato de 3 gates (selección en Scanner, validación de tesis, QA). Su gate de 6 preguntas para el Scanner no aparece en ningún doc más nuevo: leer antes de archivar."
+    },
+    "id": "recvrpXXUN864DoOy"
+  },
+  {
+    "createdTime": "2026-08-29T20:01:58.000Z",
+    "fields": {
+      "Area": "Editorial",
+      "Doc_Date": "2026-07-28",
+      "Indexed_At": "2026-10-18",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/estandar-citacion-fuentes.md",
+      "Source_Project": "report writer HS (copia de trabajo) · copia 29-08 en orchestrator/CEO obsoleta · canónico en Drive desde 18-10",
+      "Status": "Superseded",
+      "Superseded_By": "Estándar de citación y atribución (Drive canónico)",
+      "Title": "Estándar de citación y atribución",
+      "What_It_Is": "Reglas mínimas de cita, familias de publicación y semáforo de independencia de fuentes. Lo referencia la tabla Engine_Voices."
+    },
+    "id": "recxEdmaQH9W5PQmV"
+  },
+  {
+    "createdTime": "2026-08-29T20:01:58.000Z",
+    "fields": {
+      "Area": "Airtable / Data",
+      "Doc_Date": "2026-07-28",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/obesity-index-us-score-table.csv",
+      "Source_Project": "report writer HS",
+      "Status": "Vigente",
+      "Title": "Tabla de scores del Obesity Index — estados de EE.UU.",
+      "What_It_Is": "Matriz de indicadores, pesos y scores por estado. Archivo de datos crudo para gráficos y comparaciones."
+    },
+    "id": "recxgMsUA2FLwIBBK"
+  },
+  {
+    "createdTime": "2026-08-29T20:01:58.000Z",
+    "fields": {
+      "Area": "Airtable / Data",
+      "Doc_Date": "2026-07-28",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/destilado-obesity-index-global-ADDENDUM.md",
+      "Source_Project": "report writer HS",
+      "Status": "Vigente",
+      "Title": "Addendum — destilado Obesity Index global",
+      "What_It_Is": "Key findings y country profiles del índice global de obesidad, separados en tres capas de citabilidad."
+    },
+    "id": "recy462LD7D034nBc"
+  },
+  {
+    "createdTime": "2026-08-29T20:01:58.000Z",
+    "fields": {
+      "Area": "Airtable / Data",
+      "Doc_Date": "2026-07-28",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/fuente-obesity-response-index.md",
+      "Source_Project": "report writer HS",
+      "Status": "Vigente",
+      "Title": "Ficha de referencia — Global Obesity Response Index",
+      "What_It_Is": "Arquitectura del índice, ranking global, scores por pilar y lectura LATAM, con advertencia de uso. Referencia para construir índices propios."
+    },
+    "id": "recySakKnLhqNbB2P"
+  },
+  {
+    "createdTime": "2026-08-29T19:41:20.000Z",
+    "fields": {
+      "Area": "CRM / Outreach",
+      "Doc_Date": "2026-08-11",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/press-pr-contacts-load-2026-08-11.md",
+      "Source_Project": "HEALSTHSIGNALS orchestrator/CEO",
+      "Status": "Vigente",
+      "Title": "Carga de contactos de prensa y agencias PR",
+      "What_It_Is": "Bitácora de las 4 pasadas que dejaron Press & PR Contacts en 152 registros (78 con email verificado), con método de verificación y pendientes de navegador."
+    },
+    "id": "recynbmgaDVAwVYG6"
+  },
+  {
+    "createdTime": "2026-08-29T19:41:20.000Z",
+    "fields": {
+      "Area": "Infraestructura / Make",
+      "Doc_Date": "2026-08-08",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/sponsors-setup-checklist.md",
+      "Source_Project": "HEALSTHSIGNALS orchestrator/CEO",
+      "Status": "Superseded",
+      "Superseded_By": "Estado del scenario Extract Prospects",
+      "Title": "Checklist de setup de la carpeta SPONSORS",
+      "What_It_Is": "Precondiciones en Airtable, cómo correr el scenario, qué registros esperar en CRM Prospects y troubleshooting. Escrito antes de saber que el scenario fallaba."
+    },
+    "id": "recyowqRTfVtrEKh4"
+  },
+  {
+    "createdTime": "2026-10-18T21:48:35.000Z",
+    "fields": {
+      "Area": "Estrategia",
+      "Doc_Date": "2026-10-18",
+      "Indexed_At": "2026-10-18",
+      "Lives_In": "Google Drive",
+      "Path_or_URL": "HS Engine Context (canónico)/STATE.md · 1YnaGR1WpWyz_-z6-Dj75D6Pf81IehM9a",
+      "Source_Project": "Drive · carpeta 1rw_wsQ2XmWSp_LtEmANalGPdoMTaXOg5",
+      "Status": "Vigente",
+      "Title": "STATE compartido del motor (Drive canónico)",
+      "What_It_Is": "Estado, IDs, pendientes y riesgos del motor. Lo leen orchestrator, report writer y Publisher. Copia de trabajo en Project report writer: claude/STATE.md. Si difiere, gana Drive."
+    },
+    "id": "recysg9S31P68UiWL"
+  },
+  {
+    "createdTime": "2026-08-29T20:01:58.000Z",
+    "fields": {
+      "Area": "Marca / Diseño",
+      "Doc_Date": "2026-07-18",
+      "Indexed_At": "2026-10-18",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/playbook-variacion-reportes.md",
+      "Source_Project": "report writer HS (copia de trabajo) · copia 29-08 en orchestrator/CEO obsoleta · canónico en Drive desde 18-10",
+      "Status": "Superseded",
+      "Superseded_By": "Playbook de variación de reportes (Drive canónico)",
+      "Title": "Playbook de variación de reportes",
+      "What_It_Is": "Qué es constante (marca) y qué rota por edición, matriz de rotación y librería de gráficos. Hay una copia más corta en GROWTH: esta es la completa."
+    },
+    "id": "reczQh0iBwN6YWb59"
+  },
+  {
+    "createdTime": "2026-08-29T20:01:58.000Z",
+    "fields": {
+      "Area": "Infraestructura / Make",
+      "Doc_Date": "2026-08-04",
+      "Indexed_At": "2026-08-29",
+      "Lives_In": "Project claude.ai",
+      "Path_or_URL": "claude/scenario-hs-prospect-search-deployment.md",
+      "Source_Project": "GROWTH & MONETIZATION → copiado a orchestrator/CEO el 29-08",
+      "Status": "Vigente",
+      "Title": "Scenario 5843912 — HS Prospect Search LinkedIn LATAM",
+      "What_It_Is": "Configuración del webhook de prospectos (webhook → iterator → Airtable) y cómo dispararlo. El scenario está activo con 22 errores sobre 27 corridas."
+    },
+    "id": "reczRZZEt0l2eofFb"
+  },
+  {
+    "createdTime": "2026-10-18T21:48:35.000Z",
+    "fields": {
+      "Area": "Comercial / Sponsors",
+      "Doc_Date": "2026-10-18",
+      "Indexed_At": "2026-10-18",
+      "Lives_In": "Google Drive",
+      "Path_or_URL": "HS Engine Context (canónico)/playbook-comercial-propuestas.md · 1ra9TBm8sde5AZghe0Az5Bu6lLBi4gJK4",
+      "Source_Project": "Drive · carpeta 1rw_wsQ2XmWSp_LtEmANalGPdoMTaXOg5",
+      "Status": "Vigente",
+      "Title": "Playbook comercial — propuestas y pricing de proyectos (CONFIDENCIAL)",
+      "What_It_Is": "Anatomía de propuestas EI, rangos de precio por formato, lógica de márgenes, mecánica de independencia, 11 recomendaciones HS. Contiene precios internos EI: no citar en contenido ni compartir fuera de HS."
+    },
+    "id": "reczbKXobrHsM8yrA"
+  }
+]

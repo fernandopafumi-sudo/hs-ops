@@ -1,0 +1,1016 @@
+[
+  {
+    "createdTime": "2026-11-09T14:04:48.000Z",
+    "fields": {
+      "Channel": "prensa",
+      "Date": "2026-11-09",
+      "Items_Pending": 1,
+      "Notes": "Recordatorio F. Soto (CIPER) espera OK recordatorios Chile desde 03-11",
+      "Run": "manana",
+      "Run_Key": "2026-11-09|manana|prensa",
+      "Status": "sin novedades"
+    },
+    "id": "rec1QMsGnJGeBwtCo"
+  },
+  {
+    "createdTime": "2026-10-29T13:01:27.000Z",
+    "fields": {
+      "Channel": "voices",
+      "Date": "2026-10-29",
+      "Items_Pending": 0,
+      "Notes": "Solo auditoría: 8 programados sin problemas. Canuto acepta, Gómez Dantés aprueba con coma; su hilo está en papelera.",
+      "Run": "manana",
+      "Run_Key": "2026-10-29|manana|voices",
+      "Status": "ok"
+    },
+    "id": "rec2uu40rcN6QdCp6"
+  },
+  {
+    "createdTime": "2026-11-03T13:55:36.000Z",
+    "fields": {
+      "Channel": "prensa",
+      "Date": "2026-11-03",
+      "Items_Pending": 1,
+      "Notes": "Sin respuestas nuevas. Borrador recordatorio Soto (CIPER) r-1935413355205779378, espera 'OK recordatorios Chile'.",
+      "Run": "manana",
+      "Run_Key": "2026-11-03|manana|prensa",
+      "Status": "ok"
+    },
+    "id": "rec30P3VHy4pnstGd"
+  },
+  {
+    "createdTime": "2026-11-09T14:04:48.000Z",
+    "fields": {
+      "Channel": "voices",
+      "Date": "2026-11-09",
+      "Items_Pending": 3,
+      "Notes": "ALERTA Cabrera toque 3 fecha 10/11 distinta de Notes; Ruales respondió (Replied); borradores V1 García toque 1 y V2 Ruales",
+      "Run": "manana",
+      "Run_Key": "2026-11-09|manana|voices",
+      "Status": "ok"
+    },
+    "id": "rec4dSbzle2MjGcZA"
+  },
+  {
+    "createdTime": "2026-11-05T13:54:33.000Z",
+    "fields": {
+      "Channel": "comentarios",
+      "Date": "2026-11-05",
+      "Items_Pending": 4,
+      "Notes": "Sin navegador (corrida en nube): 0 nuevos, 4 Proposed esperando (2 vencen 06-11)",
+      "Run": "manana",
+      "Run_Key": "2026-11-05|manana|comentarios",
+      "Status": "sin novedades"
+    },
+    "id": "rec4oOGBku8ExYlWU"
+  },
+  {
+    "createdTime": "2026-11-04T13:56:16.000Z",
+    "fields": {
+      "Channel": "grupos",
+      "Date": "2026-11-04",
+      "Items_Pending": 0,
+      "Notes": "Pharmaceutical Industry, nivel A, Prati-Donaduzzi, brief_issue02; espera listo/no",
+      "Run": "manana",
+      "Run_Key": "2026-11-04|manana|grupos",
+      "Status": "ok"
+    },
+    "id": "rec4zOb4NBOQtfXcX"
+  },
+  {
+    "createdTime": "2026-10-29T13:01:27.000Z",
+    "fields": {
+      "Channel": "comentarios",
+      "Date": "2026-10-29",
+      "Items_Pending": 2,
+      "Notes": "Sin navegador. 2 Proposed (PAHO recYRFKiB5yN8JzhX, FIFARMA recEaXlUu4byeI3Xl) con adversarial; 2 Approved en cola.",
+      "Run": "manana",
+      "Run_Key": "2026-10-29|manana|comentarios",
+      "Status": "ok"
+    },
+    "id": "rec5YFyyvb3isFUL5"
+  },
+  {
+    "createdTime": "2026-11-05T18:49:50.000Z",
+    "fields": {
+      "Channel": "comentarios",
+      "Date": "2026-11-05",
+      "Items_Pending": 4,
+      "Notes": "Paso B: 0 Approved en cola, 0 Proposed >3 días, 0 Published 2-7 días para métricas. 4 Proposed vivas (PAHO recMpAtAZPVdBLb0G y FDA recP3OxoNQiXJM6l9 vencen 06-11). Mañana corrió sin redactar (sin navegador). Sin email.",
+      "Run": "tarde",
+      "Run_Key": "2026-11-05|tarde|comentarios",
+      "Status": "sin novedades"
+    },
+    "id": "rec5ZCcr0QrpIgvZM"
+  },
+  {
+    "createdTime": "2026-11-02T18:49:00.000Z",
+    "fields": {
+      "Channel": "comentarios",
+      "Date": "2026-11-02",
+      "Items_Pending": 4,
+      "Notes": "Paso B: sin redacción nueva (mañana cargó 2 Proposed). 0 Approved en cola. 4 Proposed (ANMAT y ISPOR 30-10, PAHO y FDA 02-11) dentro de plazo; ANMAT/ISPOR vencen mañana. Sin Published 2-7 días para métricas. Sin email.",
+      "Run": "tarde",
+      "Run_Key": "2026-11-02|tarde|comentarios",
+      "Status": "sin novedades"
+    },
+    "id": "rec7IhtBok3vDVicI"
+  },
+  {
+    "createdTime": "2026-10-23T12:57:53.000Z",
+    "fields": {
+      "Channel": "grupos",
+      "Date": "2026-10-23",
+      "Items_Pending": 5,
+      "Notes": "Pharmaceutical Industry (recB3nupjPLU4mrQa), nivel A, Colombia enfermedades raras, Brief issue02. Last posted anterior 2026-10-13. 4 posts anteriores sin confirmar.",
+      "Run": "manana",
+      "Run_Key": "2026-10-23|manana|grupos",
+      "Status": "ok"
+    },
+    "id": "recA8XNydkJ0o2jRW"
+  },
+  {
+    "createdTime": "2026-10-23T12:57:53.000Z",
+    "fields": {
+      "Channel": "sponsors",
+      "Date": "2026-10-23",
+      "Items_Pending": 0,
+      "Notes": "Browser pane no disponible (corrida en la nube, sin puente a la PC). No corrió.",
+      "Run": "manana",
+      "Run_Key": "2026-10-23|manana|sponsors",
+      "Status": "error"
+    },
+    "id": "recAGhA5t6dTgpX9w"
+  },
+  {
+    "createdTime": "2026-10-27T13:03:26.000Z",
+    "fields": {
+      "Channel": "comentarios",
+      "Date": "2026-10-27",
+      "Items_Pending": 2,
+      "Notes": "Sin navegador. 1 Proposed (ANVISA recplIXW2wY42reMF, revisión opus aplicada) + 1 persona (Pulgarín, Invima). ANMAT expirado. Métricas 48h no cargadas.",
+      "Run": "manana",
+      "Run_Key": "2026-10-27|manana|comentarios",
+      "Status": "ok"
+    },
+    "id": "recAhMfDssJs4RAtp"
+  },
+  {
+    "createdTime": "2026-10-29T13:01:27.000Z",
+    "fields": {
+      "Channel": "grupos",
+      "Date": "2026-10-29",
+      "Items_Pending": 1,
+      "Notes": "Salud e Investigación Clínica en LatAm, nivel A, salud mental México (36488).",
+      "Run": "manana",
+      "Run_Key": "2026-10-29|manana|grupos",
+      "Status": "ok"
+    },
+    "id": "recBZIC73rb5wsFlJ"
+  },
+  {
+    "createdTime": "2026-10-27T17:48:52.000Z",
+    "fields": {
+      "Channel": "comentarios",
+      "Date": "2026-10-27",
+      "Items_Pending": 1,
+      "Notes": "Cola vacía (0 Approved). 1 Proposed de hoy (ANVISA) sigue esperando OK; ninguno vencido. Métricas 48h sin cargar: corrida en la nube sin navegador.",
+      "Run": "tarde",
+      "Run_Key": "2026-10-27|tarde|comentarios",
+      "Status": "sin novedades"
+    },
+    "id": "recBqvVO0ZFZbbdrG"
+  },
+  {
+    "createdTime": "2026-10-26T13:03:31.000Z",
+    "fields": {
+      "Channel": "comentarios",
+      "Date": "2026-10-26",
+      "Items_Pending": 2,
+      "Notes": "Sin navegador. 2 Proposed del 22-10 a Rejected (expirado). ANMAT reczgPbU5bPNuHpI0 sigue Proposed. Borrador PAHO tabaco: NO PUBLICAR (adversarial: post no ubicado, fuera de ventana). 1 persona: Rafael Valdez recWUMUKAVpq7TGCo.",
+      "Run": "manana",
+      "Run_Key": "2026-10-26|manana|comentarios",
+      "Status": "ok"
+    },
+    "id": "recDUAWcm3cypTOBl"
+  },
+  {
+    "createdTime": "2026-10-23T12:57:53.000Z",
+    "fields": {
+      "Channel": "comentarios",
+      "Date": "2026-10-23",
+      "Items_Pending": 4,
+      "Notes": "Sin navegador. 1 Proposed nuevo ANMAT reczgPbU5bPNuHpI0 (adversarial opus por el principal) + 2 Proposed del 22-10. 1 persona New: Luis Fontana recuPL9Gw1152pnx4. Cola 0. Métricas 48h no cargadas.",
+      "Run": "manana",
+      "Run_Key": "2026-10-23|manana|comentarios",
+      "Status": "ok"
+    },
+    "id": "recFjl5WqG8Vi5NnX"
+  },
+  {
+    "createdTime": "2026-10-29T13:01:27.000Z",
+    "fields": {
+      "Channel": "prensa",
+      "Date": "2026-10-29",
+      "Items_Pending": 0,
+      "Notes": "Sin respuestas ni rebotes; recordatorios del 28-10 enviados.",
+      "Run": "manana",
+      "Run_Key": "2026-10-29|manana|prensa",
+      "Status": "sin novedades"
+    },
+    "id": "recGfwWMBqIuU5mVC"
+  },
+  {
+    "createdTime": "2026-11-04T13:56:16.000Z",
+    "fields": {
+      "Channel": "prensa",
+      "Date": "2026-11-04",
+      "Items_Pending": 1,
+      "Notes": "Sin respuestas nuevas; recordatorio Soto (CIPER) espera OK recordatorios Chile; detectó CC a Gmail personal en envíos 20-10 a 01-11 (R2)",
+      "Run": "manana",
+      "Run_Key": "2026-11-04|manana|prensa",
+      "Status": "ok"
+    },
+    "id": "recGzyK9McG0sq53S"
+  },
+  {
+    "createdTime": "2026-11-05T13:54:33.000Z",
+    "fields": {
+      "Channel": "prensa",
+      "Date": "2026-11-05",
+      "Items_Pending": 1,
+      "Notes": "Recordatorio Soto (CIPER) en borrador desde 03-11, espera OK recordatorios Chile",
+      "Run": "manana",
+      "Run_Key": "2026-11-05|manana|prensa",
+      "Status": "sin novedades"
+    },
+    "id": "recHI3KRdQhdy39kw"
+  },
+  {
+    "createdTime": "2026-11-02T14:27:06.000Z",
+    "fields": {
+      "Channel": "comentarios",
+      "Date": "2026-11-02",
+      "Items_Pending": 7,
+      "Notes": "Sin navegador: 2 Proposed nuevos (PAHO recMpAtAZPVdBLb0G, FDA recP3OxoNQiXJM6l9) tras adversarial; 2 Approved del 28-10 expirados en cola; 2 Proposed 29-10 expirados; 3 personas nuevas; métricas no medidas.",
+      "Run": "manana",
+      "Run_Key": "2026-11-02|manana|comentarios",
+      "Status": "ok"
+    },
+    "id": "recJdRrdjjL4rTSmx"
+  },
+  {
+    "createdTime": "2026-11-04T13:56:16.000Z",
+    "fields": {
+      "Channel": "voices",
+      "Date": "2026-11-04",
+      "Items_Pending": 8,
+      "Notes": "5 programados sin problemas; Galán/García salen hoy con flag re-verificar sin confirmar; Méndez/Maceira/Vianna a Sent; Sepúlveda respondió; 5 borradores de toques + 3 decisiones esperando OK",
+      "Run": "manana",
+      "Run_Key": "2026-11-04|manana|voices",
+      "Status": "ok"
+    },
+    "id": "recK0M5vnHBLaI7vu"
+  },
+  {
+    "createdTime": "2026-11-02T14:27:06.000Z",
+    "fields": {
+      "Channel": "voices",
+      "Date": "2026-11-02",
+      "Items_Pending": 8,
+      "Notes": "8 programados sin alertas; Gómez Dantés a Published; 5 borradores VOI-1..5 (Vecino-Ortiz, Cid, Ruales, McClellan, Cabrera) + 3 decisiones (Vecina Neto, Rocha, Ruales toque 2).",
+      "Run": "manana",
+      "Run_Key": "2026-11-02|manana|voices",
+      "Status": "ok"
+    },
+    "id": "recMYj6FpQMRBaeC9"
+  },
+  {
+    "createdTime": "2026-10-22T17:56:40.000Z",
+    "fields": {
+      "Channel": "comentarios",
+      "Date": "2026-10-22",
+      "Items_Pending": 5,
+      "Notes": "Ciclo completo en la tarde (la mañana no corrió). Sin navegador: 2 Proposed (ISP recDVh6wuiUaCaqd6, WHO reco2qotvs2g9T64k) redactados desde webs oficiales, revisión adversarial opus hecha por el principal (subagente sin Agent tool). 3 personas New. Métricas 48h no cargadas (sin navegador).",
+      "Run": "tarde",
+      "Run_Key": "2026-10-22|tarde|comentarios",
+      "Status": "ok"
+    },
+    "id": "recN0O3tXCBlvm2gx"
+  },
+  {
+    "createdTime": "2026-10-28T17:49:28.000Z",
+    "fields": {
+      "Channel": "comentarios",
+      "Date": "2026-10-28",
+      "Items_Pending": 2,
+      "Notes": "Cola: 2 Approved (ANVISA recplIXW2wY42reMF, COFEPRIS X recbqh7BeAtVYPshU) sin publicar: corrida en la nube sin navegador. Ninguno expirado (posts del 26-10). 0 Proposed vencidos. Métricas 48h sin cargar (sin navegador).",
+      "Run": "tarde",
+      "Run_Key": "2026-10-28|tarde|comentarios",
+      "Status": "sin novedades"
+    },
+    "id": "recNCHKo2qt4v3ACw"
+  },
+  {
+    "createdTime": "2026-11-06T18:50:29.000Z",
+    "fields": {
+      "Channel": "comentarios",
+      "Date": "2026-11-06",
+      "Items_Pending": 5,
+      "Notes": "Tarde: 0 Approved en cola; PAHO 03-11 (rec0JPLipGXXx1oK7) expirada a Rejected; 5 Proposed esperando OK (WHO 04-11 vence en la corrida del lunes); sin Published con métricas pendientes.",
+      "Run": "tarde",
+      "Run_Key": "2026-11-06|tarde|comentarios",
+      "Status": "sin novedades"
+    },
+    "id": "recNsz26nPQcE9kXg"
+  },
+  {
+    "createdTime": "2026-11-09T14:04:48.000Z",
+    "fields": {
+      "Channel": "comentarios",
+      "Date": "2026-11-09",
+      "Items_Pending": 5,
+      "Notes": "Sin navegador; 1 Proposed nuevo (AFIDRO recydo1xeippdgLUX); COFEPRIS NO PUBLICAR; 4 Proposed del 06-11 vencen mañana; +2 personas, +2 estudios",
+      "Run": "manana",
+      "Run_Key": "2026-11-09|manana|comentarios",
+      "Status": "ok"
+    },
+    "id": "recOdhz0WRTsVCtlD"
+  },
+  {
+    "createdTime": "2026-10-26T13:03:31.000Z",
+    "fields": {
+      "Channel": "socios",
+      "Date": "2026-10-26",
+      "Items_Pending": 0,
+      "Notes": "Gmail en cuenta equivocada. 2 nuevas en To contact (NHMA rec4IJv2Jw65cfwOX, UPCH recUqqgGAy0Ba6C4o), textos revisados por adversarial, sin borrador Gmail. 2 de 5 cargadas. IECS desde 30-10.",
+      "Run": "manana",
+      "Run_Key": "2026-10-26|manana|socios",
+      "Status": "error"
+    },
+    "id": "recPA66sk8C2p8NdL"
+  },
+  {
+    "createdTime": "2026-11-03T18:48:26.000Z",
+    "fields": {
+      "Channel": "comentarios",
+      "Date": "2026-11-03",
+      "Items_Pending": 3,
+      "Notes": "Tarde: 0 Approved en cola, 0 Proposed >3 días, 0 Published en ventana 2-7 días para métricas. Siguen 3 Proposed (2 del 02-11, 1 de hoy).",
+      "Run": "tarde",
+      "Run_Key": "2026-11-03|tarde|comentarios",
+      "Status": "sin novedades"
+    },
+    "id": "recPhn20nxJoH1xrE"
+  },
+  {
+    "createdTime": "2026-10-27T13:03:26.000Z",
+    "fields": {
+      "Channel": "prensa",
+      "Date": "2026-10-27",
+      "Items_Pending": 12,
+      "Notes": "9 recordatorios nuevos en borrador (AR 3, BR 5, CL 1) + 3 de Chile desde 22-10; sin respuestas ni rebotes.",
+      "Run": "manana",
+      "Run_Key": "2026-10-27|manana|prensa",
+      "Status": "ok"
+    },
+    "id": "recPtSn3sgWGRInxt"
+  },
+  {
+    "createdTime": "2026-11-05T13:54:33.000Z",
+    "fields": {
+      "Channel": "grupos",
+      "Date": "2026-11-05",
+      "Items_Pending": 1,
+      "Notes": "Market Research, nivel A, Costa Rica GLP-1, Brief issue02. Last posted anterior 2026-10-26",
+      "Run": "manana",
+      "Run_Key": "2026-11-05|manana|grupos",
+      "Status": "ok"
+    },
+    "id": "recSIDIVbtQjlPmel"
+  },
+  {
+    "createdTime": "2026-10-30T13:03:05.000Z",
+    "fields": {
+      "Channel": "prensa",
+      "Date": "2026-10-30",
+      "Items_Pending": 0,
+      "Notes": "sin respuestas; piloto Chile 0/5; recordatorios ya enviados 28-10",
+      "Run": "manana",
+      "Run_Key": "2026-10-30|manana|prensa",
+      "Status": "sin novedades"
+    },
+    "id": "recSPrev9294YCTTK"
+  },
+  {
+    "createdTime": "2026-11-06T13:59:12.000Z",
+    "fields": {
+      "Channel": "sponsors",
+      "Date": "2026-11-06",
+      "Items_Pending": 0,
+      "Notes": "Corrida en la nube sin Browser pane / sesión LinkedIn; no se pudo ejecutar",
+      "Run": "manana",
+      "Run_Key": "2026-11-06|manana|sponsors",
+      "Status": "error"
+    },
+    "id": "recTZQpsjwv0H4YOm"
+  },
+  {
+    "createdTime": "2026-11-02T14:27:06.000Z",
+    "fields": {
+      "Channel": "prensa",
+      "Date": "2026-11-02",
+      "Items_Pending": 0,
+      "Notes": "Sin respuestas/rebotes/inscripciones. Alerta R2: mails viejos de editor@ con CC a Fer en Sent (otros canales).",
+      "Run": "manana",
+      "Run_Key": "2026-11-02|manana|prensa",
+      "Status": "sin novedades"
+    },
+    "id": "recTehvd2OpiZJEfQ"
+  },
+  {
+    "createdTime": "2026-10-27T13:03:26.000Z",
+    "fields": {
+      "Channel": "grupos",
+      "Date": "2026-10-27",
+      "Items_Pending": 0,
+      "Notes": "Ningún grupo elegible (regla 10 días; TPMG trabado, Medtech sin nota). Salud e Inv. Clínica disponible 29-10.",
+      "Run": "manana",
+      "Run_Key": "2026-10-27|manana|grupos",
+      "Status": "sin novedades"
+    },
+    "id": "recThpZir8yG2oWq0"
+  },
+  {
+    "createdTime": "2026-10-23T17:48:28.000Z",
+    "fields": {
+      "Channel": "comentarios",
+      "Date": "2026-10-23",
+      "Items_Pending": 3,
+      "Notes": "Cola Approved 0. Proposed vigentes 3 (2 del 22-10, 1 del 23-10), ninguno >3 días. Métricas 48h de 4 publicados del 21-10 sin cargar: corrida en la nube sin navegador.",
+      "Run": "tarde",
+      "Run_Key": "2026-10-23|tarde|comentarios",
+      "Status": "sin novedades"
+    },
+    "id": "recV70ieqPIXEQCdj"
+  },
+  {
+    "createdTime": "2026-10-23T12:57:53.000Z",
+    "fields": {
+      "Channel": "prensa",
+      "Date": "2026-10-23",
+      "Items_Pending": 1,
+      "Notes": "Sin acceso a editor@ (respuestas/rebotes sin verificar). Airtable sin cambios. Esperan OK recordatorios Chile (borradores 22-10).",
+      "Run": "manana",
+      "Run_Key": "2026-10-23|manana|prensa",
+      "Status": "error"
+    },
+    "id": "recVLwnJ1uGDAEnA7"
+  },
+  {
+    "createdTime": "2026-11-02T14:27:06.000Z",
+    "fields": {
+      "Channel": "sponsors",
+      "Date": "2026-11-02",
+      "Items_Pending": 0,
+      "Notes": "Corrida en la nube sin Browser pane ni sesión de LinkedIn: no se pudo ejecutar.",
+      "Run": "manana",
+      "Run_Key": "2026-11-02|manana|sponsors",
+      "Status": "error"
+    },
+    "id": "recW3DKCRMpQfl9Ay"
+  },
+  {
+    "createdTime": "2026-10-29T13:01:27.000Z",
+    "fields": {
+      "Channel": "socios",
+      "Date": "2026-10-29",
+      "Items_Pending": 5,
+      "Notes": "5 seguimientos T1 en borrador. IECS C1 retenido (adversarial: NO ENVIAR). Frase 'crédito como aliado' en 14 enviados.",
+      "Run": "manana",
+      "Run_Key": "2026-10-29|manana|socios",
+      "Status": "ok"
+    },
+    "id": "recWLzn56gDvS1sQp"
+  },
+  {
+    "createdTime": "2026-11-05T13:54:33.000Z",
+    "fields": {
+      "Channel": "sponsors",
+      "Date": "2026-11-05",
+      "Items_Pending": 0,
+      "Notes": "Browser pane no disponible: corrida en la nube sin acceso a la PC de Fer",
+      "Run": "manana",
+      "Run_Key": "2026-11-05|manana|sponsors",
+      "Status": "error"
+    },
+    "id": "recX7ep1cbuHx9ibJ"
+  },
+  {
+    "createdTime": "2026-10-30T13:03:05.000Z",
+    "fields": {
+      "Channel": "sponsors",
+      "Date": "2026-10-30",
+      "Items_Pending": 0,
+      "Notes": "Browser pane no disponible (corrida en la nube); no corrió",
+      "Run": "manana",
+      "Run_Key": "2026-10-30|manana|sponsors",
+      "Status": "error"
+    },
+    "id": "recXa5RI5UUj6Q3Nl"
+  },
+  {
+    "createdTime": "2026-10-29T13:01:27.000Z",
+    "fields": {
+      "Channel": "sponsors",
+      "Date": "2026-10-29",
+      "Items_Pending": 0,
+      "Notes": "Corrida en la nube sin navegador del desktop: no se pudo abrir LinkedIn.",
+      "Run": "manana",
+      "Run_Key": "2026-10-29|manana|sponsors",
+      "Status": "error"
+    },
+    "id": "recXkhAWRxZmkct9O"
+  },
+  {
+    "createdTime": "2026-10-27T13:03:26.000Z",
+    "fields": {
+      "Channel": "sponsors",
+      "Date": "2026-10-27",
+      "Items_Pending": 0,
+      "Notes": "Corrida en la nube sin Browser pane ni PC de Fer: no se pudo revisar LinkedIn.",
+      "Run": "manana",
+      "Run_Key": "2026-10-27|manana|sponsors",
+      "Status": "error"
+    },
+    "id": "recXlcdqENbExJnra"
+  },
+  {
+    "createdTime": "2026-11-06T13:59:12.000Z",
+    "fields": {
+      "Channel": "prensa",
+      "Date": "2026-11-06",
+      "Items_Pending": 1,
+      "Notes": "4 respuestas a invitación Brief 05-11 (Lawrence, Hartmann, Vargas, Piratininga); recordatorio CIPER >48h",
+      "Run": "manana",
+      "Run_Key": "2026-11-06|manana|prensa",
+      "Status": "ok"
+    },
+    "id": "recYilkcTvEnte3XH"
+  },
+  {
+    "createdTime": "2026-10-27T13:03:26.000Z",
+    "fields": {
+      "Channel": "voices",
+      "Date": "2026-10-27",
+      "Items_Pending": 2,
+      "Notes": "Solo paso 0: 12 programados, 9 alertas (McClellan sin Word sale 28/10; 8 T2/T4 con CC a Fer). Vecina Neto salió hoy con CC y rebotó. Mail ALERTA enviado.",
+      "Run": "manana",
+      "Run_Key": "2026-10-27|manana|voices",
+      "Status": "ok"
+    },
+    "id": "recYpUIbgi4sqjVbo"
+  },
+  {
+    "createdTime": "2026-11-09T14:04:48.000Z",
+    "fields": {
+      "Channel": "sponsors",
+      "Date": "2026-11-09",
+      "Items_Pending": 0,
+      "Notes": "Corrida en la nube sin Browser pane de la app de escritorio: no se pudo abrir LinkedIn",
+      "Run": "manana",
+      "Run_Key": "2026-11-09|manana|sponsors",
+      "Status": "error"
+    },
+    "id": "recZ4PGipHDBYdsWE"
+  },
+  {
+    "createdTime": "2026-10-30T13:03:05.000Z",
+    "fields": {
+      "Channel": "voices",
+      "Date": "2026-10-30",
+      "Items_Pending": 4,
+      "Notes": "8 programados sin problemas; toque 1 Ruales y Vecino-Ortiz creados sin Word (Drive no encuentra Docx_Drive_ID); 10 filas actualizadas",
+      "Run": "manana",
+      "Run_Key": "2026-10-30|manana|voices",
+      "Status": "ok"
+    },
+    "id": "recZ54ukUCQzb2N4E"
+  },
+  {
+    "createdTime": "2026-11-03T13:55:36.000Z",
+    "fields": {
+      "Channel": "grupos",
+      "Date": "2026-11-03",
+      "Items_Pending": 1,
+      "Notes": "Life Science Network (recIiYemdjwBjXm3L), nivel B, Panamá SINPREM. Last posted previo 2026-10-22.",
+      "Run": "manana",
+      "Run_Key": "2026-11-03|manana|grupos",
+      "Status": "ok"
+    },
+    "id": "recaAzgeI6EKh4pTU"
+  },
+  {
+    "createdTime": "2026-10-26T13:03:31.000Z",
+    "fields": {
+      "Channel": "voices",
+      "Date": "2026-10-26",
+      "Items_Pending": 0,
+      "Notes": "Gmail MCP conectado a valentinapafumi@gmail.com, no a editor@. Sin auditoría de programados ni hilos. Pendientes: toque 1 Cid (27/10) y Fernández Galeano (28/10) sin borrador; Vecina Neto sale 27/10 12:15 UTC sin auditar.",
+      "Run": "manana",
+      "Run_Key": "2026-10-26|manana|voices",
+      "Status": "error"
+    },
+    "id": "receOU7787cx9ZMwk"
+  },
+  {
+    "createdTime": "2026-11-03T13:55:36.000Z",
+    "fields": {
+      "Channel": "voices",
+      "Date": "2026-11-03",
+      "Items_Pending": 0,
+      "Notes": "Solo paso 0: 6 programados revisados, sin alertas. Flags: Méndez sale hoy sin verificación Birmex/IEPS confirmada; P. García cifra sarampión sin actualizar. Maceira y Vianna enviados, siguen Scheduled en Airtable.",
+      "Run": "manana",
+      "Run_Key": "2026-11-03|manana|voices",
+      "Status": "ok"
+    },
+    "id": "receU84OesGlh9s9z"
+  },
+  {
+    "createdTime": "2026-10-28T13:15:21.000Z",
+    "fields": {
+      "Channel": "comentarios",
+      "Date": "2026-10-28",
+      "Items_Pending": 2,
+      "Notes": "sin navegador; 1 Proposed nuevo COFEPRIS X (recbqh7BeAtVYPshU) + ANVISA 27-10",
+      "Run": "manana",
+      "Run_Key": "2026-10-28|manana|comentarios",
+      "Status": "ok"
+    },
+    "id": "recels3j3JDpi8w3r"
+  },
+  {
+    "createdTime": "2026-11-02T14:27:06.000Z",
+    "fields": {
+      "Channel": "socios",
+      "Date": "2026-11-02",
+      "Items_Pending": 12,
+      "Notes": "T3-2026-11-02: 4 Drafted tras adversarial (UMIA, SMSP, ACSP, Idegys); AS/COA NO ENVIAR. Pendientes: seguimientos T1 (5), IECS, reserva (2). 0 altas report_diabetes.",
+      "Run": "manana",
+      "Run_Key": "2026-11-02|manana|socios",
+      "Status": "ok"
+    },
+    "id": "recerR9EYMJsTghpy"
+  },
+  {
+    "createdTime": "2026-10-30T13:03:05.000Z",
+    "fields": {
+      "Channel": "grupos",
+      "Date": "2026-10-30",
+      "Items_Pending": 0,
+      "Notes": "ningún grupo elegible (regla 10 días; TPMG bloqueado; sin nota medtech nueva); post 29-10 sin confirmar",
+      "Run": "manana",
+      "Run_Key": "2026-10-30|manana|grupos",
+      "Status": "sin novedades"
+    },
+    "id": "recfndlaKbOLrGnYl"
+  },
+  {
+    "createdTime": "2026-11-05T13:54:33.000Z",
+    "fields": {
+      "Channel": "socios",
+      "Date": "2026-11-05",
+      "Items_Pending": 18,
+      "Notes": "8 seguimientos T2 en borrador (rev. adversarial ok, 2 corregidos): r1381153545465677834, r-8500382336529832868, r5043968919473471444, r-3241323996065248117, r3290903514201844505, r7085694159129488743, r-9222351418980087409, r5906273400571096168. Pendientes T1 (5), T3 (4), IECS. 0 altas report_diabetes",
+      "Run": "manana",
+      "Run_Key": "2026-11-05|manana|socios",
+      "Status": "ok"
+    },
+    "id": "recfnjyRlfdI06Nds"
+  },
+  {
+    "createdTime": "2026-11-06T13:59:12.000Z",
+    "fields": {
+      "Channel": "voices",
+      "Date": "2026-11-06",
+      "Items_Pending": 8,
+      "Notes": "2 programados OK; Galán y Méndez aceptaron; borrador Vianna t1; 5 borradores >48h",
+      "Run": "manana",
+      "Run_Key": "2026-11-06|manana|voices",
+      "Status": "ok"
+    },
+    "id": "recg5B0Ig0r7pwvI1"
+  },
+  {
+    "createdTime": "2026-10-28T13:15:21.000Z",
+    "fields": {
+      "Channel": "prensa",
+      "Date": "2026-10-28",
+      "Items_Pending": 12,
+      "Notes": "12 recordatorios en borrador esperando OK (Chile 3 >48h)",
+      "Run": "manana",
+      "Run_Key": "2026-10-28|manana|prensa",
+      "Status": "sin novedades"
+    },
+    "id": "recgP8K8TEGbNOqse"
+  },
+  {
+    "createdTime": "2026-11-04T18:48:12.000Z",
+    "fields": {
+      "Channel": "comentarios",
+      "Date": "2026-11-04",
+      "Items_Pending": 4,
+      "Notes": "Sin filas Approved; 4 Proposed vivas (ninguna >3 días); sin Published para métricas; sin navegador (nube)",
+      "Run": "tarde",
+      "Run_Key": "2026-11-04|tarde|comentarios",
+      "Status": "sin novedades"
+    },
+    "id": "recga7dR5jU8TUW8A"
+  },
+  {
+    "createdTime": "2026-11-06T13:59:12.000Z",
+    "fields": {
+      "Channel": "comentarios",
+      "Date": "2026-11-06",
+      "Items_Pending": 9,
+      "Notes": "Sin navegador. 4 Proposed nuevos tras adversarial opus (Anvisa, PAHO, CMS, WHO) + 2 previos; 2 expirados; 3 personas, 3 estudios",
+      "Run": "manana",
+      "Run_Key": "2026-11-06|manana|comentarios",
+      "Status": "ok"
+    },
+    "id": "recgsaM9itUJnV3Pp"
+  },
+  {
+    "createdTime": "2026-11-05T13:54:33.000Z",
+    "fields": {
+      "Channel": "voices",
+      "Date": "2026-11-05",
+      "Items_Pending": 0,
+      "Notes": "Solo paso 0 (jueves): 2 programados (Levy 17-11, Llorca 19-11) sin problemas",
+      "Run": "manana",
+      "Run_Key": "2026-11-05|manana|voices",
+      "Status": "sin novedades"
+    },
+    "id": "recgzYnzpxoeGUxJF"
+  },
+  {
+    "createdTime": "2026-10-30T13:03:05.000Z",
+    "fields": {
+      "Channel": "comentarios",
+      "Date": "2026-10-30",
+      "Items_Pending": 4,
+      "Notes": "sin navegador; 2 nuevos Proposed (ANMAT recp5qeUiqf6eQ5m0, ISPOR recsebkEWBtOdSJB2) tras revisión adversarial; 2 Proposed previos; 2 Approved en cola",
+      "Run": "manana",
+      "Run_Key": "2026-10-30|manana|comentarios",
+      "Status": "ok"
+    },
+    "id": "rech1U5pu8wLfqOOF"
+  },
+  {
+    "createdTime": "2026-10-29T17:50:06.000Z",
+    "fields": {
+      "Channel": "comentarios",
+      "Date": "2026-10-29",
+      "Items_Pending": 4,
+      "Notes": "Paso B: sin redacción nueva (mañana ya cargó 2 Proposed). 2 Approved en cola (ANVISA LI, COFEPRIS X; posts del 26-10, vencen >31-10) sin publicar: corrida en la nube sin navegador. Sin Proposed >3 días; sin Published 2-7 días para métricas.",
+      "Run": "tarde",
+      "Run_Key": "2026-10-29|tarde|comentarios",
+      "Status": "sin novedades"
+    },
+    "id": "rechxn29Sv7jXRckD"
+  },
+  {
+    "createdTime": "2026-11-09T14:04:48.000Z",
+    "fields": {
+      "Channel": "socios",
+      "Date": "2026-11-09",
+      "Items_Pending": 2,
+      "Notes": "T4 EE.UU. (Salud America!, UM DPHS) Drafted tras adversarial; 13 seguimientos T1/T2 programados hoy sin OK registrado; paso 4 solo 2/5",
+      "Run": "manana",
+      "Run_Key": "2026-11-09|manana|socios",
+      "Status": "ok"
+    },
+    "id": "recjDWvtBnig0LAEi"
+  },
+  {
+    "createdTime": "2026-10-26T13:03:31.000Z",
+    "fields": {
+      "Channel": "grupos",
+      "Date": "2026-10-26",
+      "Items_Pending": 1,
+      "Notes": "Market Research (rec4tvEnKoos7Iypz), nivel A, Brasil SUS 9 de 23 oncológicos, Brief issue02. Last posted anterior 2026-10-14. Posts anteriores sin confirmar.",
+      "Run": "manana",
+      "Run_Key": "2026-10-26|manana|grupos",
+      "Status": "ok"
+    },
+    "id": "reckjs42ruZwIvkRl"
+  },
+  {
+    "createdTime": "2026-10-23T12:57:53.000Z",
+    "fields": {
+      "Channel": "voices",
+      "Date": "2026-10-23",
+      "Items_Pending": 6,
+      "Notes": "Gmail conectado como fernandopafumi@gmail.com, no editor@: sin auditoría de programados (0 revisados), sin lectura de hilos ni borradores. Toque 1 Cid (27-10) pendiente de crear. Vecina Neto sale 27-10 sin auditar.",
+      "Run": "manana",
+      "Run_Key": "2026-10-23|manana|voices",
+      "Status": "error"
+    },
+    "id": "recknuYduy3tv1w7H"
+  },
+  {
+    "createdTime": "2026-10-26T13:03:31.000Z",
+    "fields": {
+      "Channel": "prensa",
+      "Date": "2026-10-26",
+      "Items_Pending": 1,
+      "Notes": "Gmail en cuenta equivocada (valentinapafumi@). Solo Airtable leído: sin inscripciones reales. Recordatorios Chile esperan OK desde 22-10. AR/BR/Mathieu sin verificar.",
+      "Run": "manana",
+      "Run_Key": "2026-10-26|manana|prensa",
+      "Status": "error"
+    },
+    "id": "reclCSbsdlrCx4oqc"
+  },
+  {
+    "createdTime": "2026-11-04T13:56:16.000Z",
+    "fields": {
+      "Channel": "comentarios",
+      "Date": "2026-11-04",
+      "Items_Pending": 4,
+      "Notes": "Sin navegador (nube): sin publicar ni métricas. 1 nuevo Proposed (WHO recAVKtFxvXhNsq1I, revisión adversarial opus aplicada); 3 Proposed previas vivas",
+      "Run": "manana",
+      "Run_Key": "2026-11-04|manana|comentarios",
+      "Status": "ok"
+    },
+    "id": "reclzRgfrLs3G01vZ"
+  },
+  {
+    "createdTime": "2026-10-28T13:15:21.000Z",
+    "fields": {
+      "Channel": "voices",
+      "Date": "2026-10-28",
+      "Items_Pending": 11,
+      "Notes": "8 programados con CC a Fer (alerta msg 1a182a235d999146); borrador Cid; Ruales sin borrador (Drive entra como gmail personal)",
+      "Run": "manana",
+      "Run_Key": "2026-10-28|manana|voices",
+      "Status": "ok"
+    },
+    "id": "recmRUaFR5bgNfriW"
+  },
+  {
+    "createdTime": "2026-10-26T17:48:46.000Z",
+    "fields": {
+      "Channel": "comentarios",
+      "Date": "2026-10-26",
+      "Items_Pending": 1,
+      "Notes": "Cola Approved 0. Proposed vigente: ANMAT reczgPbU5bPNuHpI0 (23-10, expira mañana si no se aprueba). Métricas 48h de los 4 publicados del 21-10 sin cargar: corrida en la nube sin navegador.",
+      "Run": "tarde",
+      "Run_Key": "2026-10-26|tarde|comentarios",
+      "Status": "sin novedades"
+    },
+    "id": "recnhzQtIpQGg9v4x"
+  },
+  {
+    "createdTime": "2026-11-06T13:59:12.000Z",
+    "fields": {
+      "Channel": "grupos",
+      "Date": "2026-11-06",
+      "Items_Pending": 0,
+      "Notes": "Sin grupo elegible (regla 10 días; TPMG espera Lucy; Medtech sin nota)",
+      "Run": "manana",
+      "Run_Key": "2026-11-06|manana|grupos",
+      "Status": "sin novedades"
+    },
+    "id": "recnjDwKJsmvdWoFl"
+  },
+  {
+    "createdTime": "2026-10-28T13:15:21.000Z",
+    "fields": {
+      "Channel": "sponsors",
+      "Date": "2026-10-28",
+      "Items_Pending": 0,
+      "Notes": "corrida en la nube sin Browser pane de la PC de Fer; no se ejecutó",
+      "Run": "manana",
+      "Run_Key": "2026-10-28|manana|sponsors",
+      "Status": "error"
+    },
+    "id": "recp6ab3oXhzfcavj"
+  },
+  {
+    "createdTime": "2026-11-04T13:56:16.000Z",
+    "fields": {
+      "Channel": "sponsors",
+      "Date": "2026-11-04",
+      "Items_Pending": 0,
+      "Notes": "Browser pane no disponible: corrida en la nube sin PC conectada",
+      "Run": "manana",
+      "Run_Key": "2026-11-04|manana|sponsors",
+      "Status": "error"
+    },
+    "id": "recpmIvRVADIhh3fq"
+  },
+  {
+    "createdTime": "2026-10-30T17:48:24.000Z",
+    "fields": {
+      "Channel": "comentarios",
+      "Date": "2026-10-30",
+      "Items_Pending": 6,
+      "Notes": "Corrida en la nube sin navegador (sin PC de Fer conectada): 2 Approved quedan en cola sin publicar (COFEPRIS X 28-10, ANVISA LinkedIn 27-10). 4 Proposed (29 y 30-10) dentro de plazo, ninguno vencido. Sin métricas pendientes (no hay Published de 2-7 días). Sin email.",
+      "Run": "tarde",
+      "Run_Key": "2026-10-30|tarde|comentarios",
+      "Status": "error"
+    },
+    "id": "recpqkwUTz7ZOXP1P"
+  },
+  {
+    "createdTime": "2026-11-03T13:55:36.000Z",
+    "fields": {
+      "Channel": "sponsors",
+      "Date": "2026-11-03",
+      "Items_Pending": 0,
+      "Notes": "No corrió: corrida en la nube sin acceso al Browser pane del escritorio (LinkedIn).",
+      "Run": "manana",
+      "Run_Key": "2026-11-03|manana|sponsors",
+      "Status": "error"
+    },
+    "id": "recqICi3NefDAFccx"
+  },
+  {
+    "createdTime": "2026-11-09T18:48:21.000Z",
+    "fields": {
+      "Channel": "comentarios",
+      "Date": "2026-11-09",
+      "Items_Pending": 1,
+      "Notes": "Cola vacía (0 Approved); 4 Proposed del 06-11 (CMS, WHO, PAHO, Anvisa) pasados a Rejected por vencimiento; sin métricas pendientes (ningún Published de 2-7 días); queda AFIDRO Proposed. Sin navegador en la nube.",
+      "Run": "tarde",
+      "Run_Key": "2026-11-09|tarde|comentarios",
+      "Status": "sin novedades"
+    },
+    "id": "recqQ16d1aPMPkgCj"
+  },
+  {
+    "createdTime": "2026-11-03T13:55:36.000Z",
+    "fields": {
+      "Channel": "comentarios",
+      "Date": "2026-11-03",
+      "Items_Pending": 9,
+      "Notes": "Sin navegador. 3 Proposed (recMpAtAZPVdBLb0G, recP3OxoNQiXJM6l9, rec0JPLipGXXx1oK7 nuevo con adversarial opus). 2 Rejected por vencimiento. 6 personas detectadas sin cargar. Subagente sin Agent tool: adversarial lo corrió el principal.",
+      "Run": "manana",
+      "Run_Key": "2026-11-03|manana|comentarios",
+      "Status": "ok"
+    },
+    "id": "recr66Eo3HWos3Whe"
+  },
+  {
+    "createdTime": "2026-11-02T14:27:06.000Z",
+    "fields": {
+      "Channel": "grupos",
+      "Date": "2026-11-02",
+      "Items_Pending": 1,
+      "Notes": "Global Health Economics Network, nivel A, Medicare GLOBE, brief_issue02. Last posted previo 2026-10-21.",
+      "Run": "manana",
+      "Run_Key": "2026-11-02|manana|grupos",
+      "Status": "ok"
+    },
+    "id": "rectDPhBKCisys7ns"
+  },
+  {
+    "createdTime": "2026-11-09T14:04:48.000Z",
+    "fields": {
+      "Channel": "grupos",
+      "Date": "2026-11-09",
+      "Items_Pending": 1,
+      "Notes": "Salud e Investigacion Clinica en LatAm, nivel A, nota OPS neurológicos, brief_issue02",
+      "Run": "manana",
+      "Run_Key": "2026-11-09|manana|grupos",
+      "Status": "ok"
+    },
+    "id": "recv2zquXfh3t6m0O"
+  },
+  {
+    "createdTime": "2026-10-28T13:15:21.000Z",
+    "fields": {
+      "Channel": "grupos",
+      "Date": "2026-10-28",
+      "Items_Pending": 0,
+      "Notes": "sin grupo elegible; 6 posts sin confirmar listo/no",
+      "Run": "manana",
+      "Run_Key": "2026-10-28|manana|grupos",
+      "Status": "sin novedades"
+    },
+    "id": "recvShC31n9MChs8t"
+  },
+  {
+    "createdTime": "2026-10-26T13:03:31.000Z",
+    "fields": {
+      "Channel": "sponsors",
+      "Date": "2026-10-26",
+      "Items_Pending": 0,
+      "Notes": "Browser pane no disponible (corrida en la nube, sin puente a la PC). No corrió.",
+      "Run": "manana",
+      "Run_Key": "2026-10-26|manana|sponsors",
+      "Status": "error"
+    },
+    "id": "recz1GESwQsh3yaIa"
+  }
+]

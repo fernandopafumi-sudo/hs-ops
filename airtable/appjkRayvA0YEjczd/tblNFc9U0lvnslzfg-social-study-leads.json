@@ -1,0 +1,168 @@
+[
+  {
+    "createdTime": "2026-10-17T18:46:26.000Z",
+    "fields": {
+      "DOI or ID": "10.1016/j.jval.2026.05.012",
+      "Date Found": "2026-10-17",
+      "Found Via": "https://x.com/ISPORorg/status/2110724957369929806",
+      "Key Finding": "Comentario de McElwee, Willke, Earnshaw, Garrison y Pizzi: HEOR debe pasar de evaluar productos a informar diseño de política, entrega de servicios y financiamiento; señalan que la evidencia llega tarde o no es usable en el momento de decidir, y piden atención a capacidad local en países de ingresos bajos y medios. Leído en la nota de prensa de ISPOR, no el paper completo.",
+      "Publisher": "Value in Health (ISPOR)",
+      "Shared By": "ISPOR (cuenta oficial)",
+      "Status": "New",
+      "Title": "Toward a vision for health economics and outcomes research: from technology appraisal to health policy science",
+      "URL": "https://www.ispor.org/heor-resources/news-top/news/view/2026/10/15/new-research-and-policy-priorities-chart-a-broader-role-for-heor",
+      "Why It Matters": "Gancho para nota sobre cómo CONITEC (Brasil), IETS (Colombia) y CENETEC (México) usan evaluación económica en cobertura, y el trade-off asequibilidad hoy vs innovación que plantean los autores.",
+      "Year": 2026
+    },
+    "id": "rec3YpZWtdtVNLnIS"
+  },
+  {
+    "createdTime": "2026-10-21T15:56:21.000Z",
+    "fields": {
+      "Date Found": "2026-10-21",
+      "Found Via": "https://www.linkedin.com/feed/update/urn:li:activity:7518658399585107968/",
+      "Key Finding": "Encuesta a 850 neurólogos en 6 países europeos y EE.UU.: brecha entre lo que miden los médicos y lo que reportan pacientes con EM (fatiga, etc.); costo anual por persona estimado de ~US$57.000 (Reino Unido) a ~US$146.000 (EE.UU.); 72% de neurólogos pide medición más integral. No incluye América Latina. Leído hoy (página web del reporte, no PDF completo).",
+      "Publisher": "Economist Enterprise (The Health Dividend), con apoyo de Sanofi",
+      "Shared By": "Economist Enterprise - Insights (cuenta oficial)",
+      "Status": "Verified",
+      "Title": "Measuring what matters: the wider economic effects of multiple sclerosis",
+      "URL": "https://insights.economistenterprise.com/health-society/measuring-what-matters-the-wider-economic-effects-of-multiple-sclerosis",
+      "Why It Matters": "Gancho posible: carga económica de EM y medición de discapacidad aplicada a LatAm, donde el reporte no tiene datos.",
+      "Year": 2026
+    },
+    "id": "rec9uzuV0cfZgK3ql"
+  },
+  {
+    "createdTime": "2026-10-22T17:56:35.000Z",
+    "fields": {
+      "DOI or ID": "ISBN 9789240125018",
+      "Date Found": "2026-10-22",
+      "Found Via": "https://www.who.int/news/item/20-10-2026-who-report-examines-inequalities-in-noncommunicable-diseases-and-their-risk-factors",
+      "Key Finding": "Cobertura de diagnóstico y tratamiento de hipertensión mayor en población urbana que rural (encuestas STEPS, 22 países de ingresos bajos y medios); menor tamizaje de cáncer cervical en mujeres más pobres o con menos educación; la falta de datos desagregados limita medir desigualdades.",
+      "Publisher": "World Health Organization",
+      "Shared By": "WHO (nota de prensa)",
+      "Status": "Verified",
+      "Title": "State of inequality: noncommunicable diseases and their risk factors",
+      "URL": "https://www.who.int/publications/i/item/9789240125018",
+      "Why It Matters": "Conecta con el informe Diabetes Control Gap (medición de la cascada de atención en LatAm); posible nota sobre datos de desigualdad en ENT en la región.",
+      "Year": 2026
+    },
+    "id": "recIzbsJUpAoFilgo"
+  },
+  {
+    "createdTime": "2026-11-06T13:52:56.000Z",
+    "fields": {
+      "DOI or ID": "Sin DOI (documento PAHO/WHO, publicado 4-11-2026)",
+      "Date Found": "2026-11-06",
+      "Found Via": "https://www.paho.org/en/documents/access-antihypertensive-medicines-addressing-bottlenecks-across-supply-chain",
+      "Key Finding": "Lei hoy la ficha del documento en paho.org (no abri el PDF): examina barreras de acceso en seis fases de la cadena farmaceutica (sistemas regulatorios, seleccion y priorizacion, precios y reembolso, compras y cadena de suministro, prescripcion, dispensacion) y propone opciones de politica: supervision regulatoria, alinear listas de medicamentos esenciales con guias de tratamiento, financiamiento y compras, evitar desabastecimientos, prescripcion y dispensacion estandarizadas. Sin cifras en la ficha.",
+      "Publisher": "PAHO/WHO (sobre el Global report on hypertension 2025)",
+      "Shared By": "PAHO (pagina de documentos; corrida sin navegador, no es un post)",
+      "Status": "Verified",
+      "Title": "Access to antihypertensive medicines: addressing bottlenecks across the supply chain",
+      "URL": "https://www.paho.org/en/documents/access-antihypertensive-medicines-addressing-bottlenecks-across-supply-chain",
+      "Why It Matters": "Gancho de nota: hipertension y acceso en LatAm, ligado a la nota HS sobre la lista esencial de Remediar (Argentina, Res. 1447/2026). Abrir el PDF para extraer cifras y casos regionales antes de escribir.",
+      "Year": 2026
+    },
+    "id": "recYEzb55uCpI5atE"
+  },
+  {
+    "createdTime": "2026-11-06T13:52:56.000Z",
+    "fields": {
+      "DOI or ID": "Sin DOI (documento WHO en paho.org, publicado 4-11-2026)",
+      "Date Found": "2026-11-06",
+      "Found Via": "https://www.paho.org/en/documents/closing-childhood-cancer-survival-gap-through-sustainable-access-medicines-market-shaping",
+      "Key Finding": "Lei hoy la ficha del documento en paho.org (no abri el PDF): primera estrategia de WHO de market shaping para medicamentos oncologicos pediatricos; diez intervenciones 2026-2030 (estabilizar oferta y consolidar demanda a corto plazo, visibilidad y sostenibilidad del mercado desde 2027, innovacion desde 2029); prioridades: oferta de calidad asegurada y compras agrupadas, vias regulatorias aceleradas, pronostico de demanda y transparencia de mercado, financiamiento sostenible, brechas de I+D. Sin cifras en la ficha.",
+      "Publisher": "WHO / Global Platform for Access to Childhood Cancer Medicines",
+      "Shared By": "PAHO (pagina de documentos; corrida sin navegador, no es un post)",
+      "Status": "Verified",
+      "Title": "Closing the childhood cancer survival gap through sustainable access to medicines: market shaping strategy 2026-2030",
+      "URL": "https://www.paho.org/en/documents/closing-childhood-cancer-survival-gap-through-sustainable-access-medicines-market-shaping",
+      "Why It Matters": "Gancho de nota: compras agrupadas y Fondos Rotatorios de OPS aplicados a oncologia pediatrica en LatAm. Abrir el PDF para ver si menciona la region.",
+      "Year": 2026
+    },
+    "id": "recaGrfPcgIE10jMJ"
+  },
+  {
+    "createdTime": "2026-11-06T13:52:56.000Z",
+    "fields": {
+      "DOI or ID": "ISPOR Europe 2026, poster HPR136 (Value in Health 29(12S))",
+      "Date Found": "2026-11-06",
+      "Found Via": "https://www.ispor.org/heor-resources/presentations-database/presentation-cti/ispor-europe-2026/poster-session-3-4/five-years-of-the-fifarma-w-a-i-t-indicator-a-longitudinal-analysis-of-oncology-and-orphan-drug-access-in-latin-america-2022-2026",
+      "Key Finding": "Resumen del poster (lo lei hoy en la pagina de ISPOR, no el poster completo): 5 ediciones (2022-2026) del indicador W.A.I.T. de FIFARMA, medicamentos oncologicos y huerfanos aprobados por FDA o EMA en 10 paises de LatAm. El abstract dice que el tiempo promedio a la disponibilidad (autorizacion global a reembolso publico o acceso amplio en el sector publico) subio a 68 meses, sin mejora estadisticamente significativa desde 2022; que la reliance regulatoria acelera la aprobacion local pero la brecha se corre al reembolso, y que HTA y 'gridlocks' de precios ya explican mas del 50% del tiempo en muchos paises. Los autores piden pasar a vias especializadas (fondos huerfanos, acuerdos de riesgo compartido). Ojo: fuente con vinculo con la industria (FIFARMA) y el abstract tiene una frase mal redactada ('has remained steadily risen').",
+      "Publisher": "ISPOR Europe 2026 (Guarin, Lay Ma, Rodriguez, Courtney; FIFARMA / IQVIA)",
+      "Shared By": "ISPOR (base de presentaciones; corrida sin navegador, no es un post)",
+      "Status": "Verified",
+      "Title": "Five years of the FIFARMA W.A.I.T. Indicator: a longitudinal analysis of oncology and orphan drug access in Latin America (2022-2026)",
+      "URL": "https://www.ispor.org/heor-resources/presentations-database/presentation-cti/ispor-europe-2026/poster-session-3-4/five-years-of-the-fifarma-w-a-i-t-indicator-a-longitudinal-analysis-of-oncology-and-orphan-drug-access-in-latin-america-2022-2026",
+      "Why It Matters": "Gancho de nota: el cuello de botella paso de registro a reembolso (HTA y precios). Conecta con notas HS sobre Conitec, CCSS Costa Rica y reliance de ISP/Invima/Cofepris. Presentan en ISPOR Europe, Viena, 8-11-11-2026. Pedir el poster completo antes de citar cifras.",
+      "Year": 2026
+    },
+    "id": "recgWedMpq0yM2oN3"
+  },
+  {
+    "createdTime": "2026-10-17T18:02:57.000Z",
+    "fields": {
+      "DOI or ID": "10.1002/cpt.70478",
+      "Date Found": "2026-10-17",
+      "Found Via": "https://www.linkedin.com/feed/update/urn:li:activity:7516889482801856513/",
+      "Key Finding": "24.711 reportes de eventos adversos de los 72 biosimilares aprobados por FDA hasta 31-08-2025: el sufijo de cuatro letras aparece en 12,7%, el nombre comercial en 98,2% y el fabricante en 82%. El sufijo es único identificador en 1,7% (413), casi todos enviados directo a FDA y de centros de Veteranos y farmacias de especialidad. Los autores concluyen que la convención tuvo implementación limitada y que otros identificadores alcanzan.",
+      "Publisher": "Clinical Pharmacology & Therapeutics (autores FDA: Stojanovic, Wolf, Ricci, Muñoz)",
+      "Shared By": "FDA (página oficial)",
+      "Status": "Verified",
+      "Title": "Analysis of Suffix Use for Biosimilar Product Identification in Postmarketing Adverse Event Reporting",
+      "URL": "https://ascpt.onlinelibrary.wiley.com/doi/10.1002/cpt.70478",
+      "Why It Matters": "FDA misma abre la puerta a revisar la regla de nombres de biosimilares, que difiere de otros reguladores. Ángulo nota: cómo identifican biosimilares ANVISA, COFEPRIS, INVIMA y ANMAT en farmacovigilancia y qué implica para fabricantes con dossiers en EE.UU. y LatAm.",
+      "Year": 2026
+    },
+    "id": "recgaqmJ0ED1Dq57T"
+  },
+  {
+    "createdTime": "2026-11-09T13:57:06.000Z",
+    "fields": {
+      "Date Found": "2026-11-09",
+      "Found Via": "https://globalforum.diaglobal.org/issue/november-2026/el-futuro-regulatorio-conectado-en-america-latina-datos-innovacion-reliance-y-acceso-para-pacientes/",
+      "Key Finding": "Leí solo extractos de búsqueda, no el artículo completo: cita una evaluación regional del reliance en registros nuevos en 10 países (Argentina, Brasil, Chile, Colombia, Costa Rica, Rep. Dominicana, Ecuador, México, Panamá, Perú) que halló que todas las agencias tienen base legal para el reliance pero solo la mitad tiene procedimientos operativos estándar (SOP); desafíos: evaluar 'sameness' y la resistencia interna. No identifiqué quién hizo esa evaluación.",
+      "Publisher": "DIA Global Forum (Encuentro Anual DIA América Latina 2026, Ciudad de México)",
+      "Shared By": "DIA (artículo; corrida sin navegador, no es un post)",
+      "Status": "New",
+      "Title": "El Futuro Regulatorio Conectado en América Latina: Datos, Innovación, Reliance y Acceso para Pacientes (DIA Global Forum, noviembre 2026)",
+      "URL": "https://globalforum.diaglobal.org/issue/november-2026/el-futuro-regulatorio-conectado-en-america-latina-datos-innovacion-reliance-y-acceso-para-pacientes/",
+      "Why It Matters": "Gancho para nota sobre reliance en la práctica en LatAm (base legal vs. SOP), con las notas HS de Cofepris-ANVISA e ISP. Abrir el artículo y ubicar la evaluación original antes de citar.",
+      "Year": 2026
+    },
+    "id": "rechHv9llXMJIyVUb"
+  },
+  {
+    "createdTime": "2026-10-29T12:56:16.000Z",
+    "fields": {
+      "Date Found": "2026-10-29",
+      "Found Via": "https://www.paho.org/en/news/28-10-2026-americas-face-growing-need-long-term-care-populations-age",
+      "Key Finding": "Según el comunicado PAHO 28-10: 88% de países encuestados incluye cuidados de largo plazo en legislación/políticas/planes (61% en 2020); solo 15 de 35 Estados Miembros tienen sistema formal con financiamiento público; solo 7 de 27 reconocen legalmente a cuidadores informales; el cuidado informal puede representar 0,8% a 4,9% del PIB anual. Leí la ficha del documento en paho.org (publicado 10-3-2026) y el comunicado; el PDF/IRIS no abrió (error), no leí el brief completo.",
+      "Publisher": "PAHO/WHO con BID (IDB)",
+      "Shared By": "PAHO (comunicado 28-10-2026; corrida sin navegador)",
+      "Status": "New",
+      "Title": "Governance and Financing of Long-Term Care (Policy Brief 3, PAHO-IDB)",
+      "URL": "https://www.paho.org/en/documents/long-term-care-governance-and-financing-policy-brief-3",
+      "Why It Matters": "Gancho de nota: financiamiento de cuidados de largo plazo y envejecimiento en LatAm (ejemplo Uruguay, Sistema Nacional Integrado de Cuidados); diálogo PAHO-BID 29-10.",
+      "Year": 2026
+    },
+    "id": "recuMGP8eU6cl0ZIp"
+  },
+  {
+    "createdTime": "2026-11-09T13:57:06.000Z",
+    "fields": {
+      "Date Found": "2026-11-09",
+      "Found Via": "https://events.iadb.org/calendar/event/32089",
+      "Key Finding": "Leí hoy la ficha en publications.iadb.org (no el PDF): comparativo de salud y desempeño de sistemas en 33 países de ALC; dos desafíos, calidad de la atención y desigualdades en salud y acceso; dice que pocos países tienen herramientas para traducir estrategias y regulaciones de calidad en mejor atención, que los grupos en desventaja enfrentan más barreras, menor protección financiera y peores resultados, y que los sistemas deben pasar de ampliar cobertura a mejorar desempeño (envejecimiento, enfermedades crónicas). Sin cifras en la ficha.",
+      "Publisher": "BID / OCDE (Bauhoff, Goyeneche, Savedoff)",
+      "Shared By": "BID (página de publicaciones; corrida sin navegador, no es un post)",
+      "Status": "Verified",
+      "Title": "Panorama de la salud: América Latina y el Caribe 2026",
+      "URL": "https://publications.iadb.org/es/panorama-de-la-salud-america-latina-y-el-caribe-2026",
+      "Why It Matters": "Marco para notas sobre desempeño, protección financiera y enfermedades crónicas en LatAm; el BID tiene webinar 11-11 sobre reducir desperdicio y mejorar calidad (Choosing Wisely). Abrir el PDF para sacar cifras antes de citar.",
+      "Year": 2026
+    },
+    "id": "recvgpORtFUtDxUGC"
+  }
+]
