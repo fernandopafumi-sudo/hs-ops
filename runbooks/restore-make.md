@@ -10,7 +10,7 @@ Cuándo: un escenario se rompió por una edición, se borró, o quedó inválido
 
 ## Si el escenario fue borrado
 1. Recuperar el JSON del historial: `git log --diff-filter=D --name-only -- make/scenarios/` y `git show <commit>^:make/scenarios/<archivo>`.
-2. Crear uno nuevo con `scenarios_create` (team 2174293) usando `blueprint` y `scheduling`. **Tiene otro ID.**
+2. Crear uno nuevo con `scenarios_create` (team 2174293, mismo `folderId`) usando `blueprint` y `scheduling`. **Tiene otro ID.** Si el JSON trae `interface`, cargarla con `scenarios_set-interface`: sin eso la herramienta MCP pierde sus parámetros.
 3. Reponer secretos redactados (Bitwarden).
 4. Actualizar todo lo que citaba el ID viejo: ver `runbooks/scheduled-tasks.md` (prompts de tareas), skills (`hs-*`, `make-scenario-deploy`), notas de Airtable, otros escenarios que lo llamen. El nombre de la herramienta MCP cambia (`s<ID>_...`).
 5. Si tenía webhook, el hook nuevo tiene otra URL: actualizarla donde se use (sitio, formularios, apps OAuth).
@@ -21,4 +21,4 @@ Escenario de prueba: 6234149 (Brief Render Test, on-demand, sin dependencias). B
 
 | Fecha | Escenario | Tiempo | Notas |
 |---|---|---|---|
-| | | | |
+| 2026-11-11 | 6828787 (copia, sin borrar el original) | ~1 min | Recreado con `scenarios_create` desde el JSON: blueprint idéntico, conexiones y data store vinculados, `isinvalid=false`. Encontrado: el backup no guardaba la `interface` (inputs de las herramientas MCP); agregada al export. Copia borrada. |

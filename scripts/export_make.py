@@ -137,6 +137,11 @@ def main():
             "scheduling": s.get("scheduling") or bp.get("scheduling"),
             "blueprint": bp.get("blueprint"),
         }
+        try:  # inputs de los escenarios que se usan como herramienta (MCP); el blueprint no los trae
+            itf = get(f"/scenarios/{sid}/interface")
+            doc["interface"] = itf.get("interface", itf)
+        except NotFound:
+            pass
         dump(scen_dir / f"{sid}-{slug(s.get('name') or '')}.json", redact(doc, f"scenario {sid}"))
         index.append({"id": sid, "name": s.get("name"), "isActive": s.get("isActive")})
     dump(OUT / "scenarios.index.json", index)
