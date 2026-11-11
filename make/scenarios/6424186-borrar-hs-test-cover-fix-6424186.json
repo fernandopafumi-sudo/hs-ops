@@ -467,6 +467,10 @@
   },
   "folderId": null,
   "id": 6424186,
+  "interface": {
+    "input": [],
+    "output": []
+  },
   "isActive": false,
   "name": "[BORRAR] HS test cover fix 6424186",
   "scheduling": {

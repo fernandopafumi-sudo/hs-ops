@@ -137,6 +137,10 @@
   },
   "folderId": 247198,
   "id": 6233803,
+  "interface": {
+    "input": [],
+    "output": []
+  },
   "isActive": true,
   "name": "HS Brief — Composer (WIP)",
   "scheduling": {

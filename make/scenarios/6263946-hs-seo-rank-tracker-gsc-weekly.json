@@ -64,6 +64,10 @@
   },
   "folderId": null,
   "id": 6263946,
+  "interface": {
+    "input": [],
+    "output": []
+  },
   "isActive": true,
   "name": "HS — SEO Rank Tracker (GSC weekly)",
   "scheduling": {

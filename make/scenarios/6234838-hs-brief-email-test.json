@@ -80,6 +80,10 @@
   },
   "folderId": 247198,
   "id": 6234838,
+  "interface": {
+    "input": [],
+    "output": []
+  },
   "isActive": true,
   "name": "HS Brief — Email Test",
   "scheduling": {

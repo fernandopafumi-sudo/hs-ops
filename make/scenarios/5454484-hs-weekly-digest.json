@@ -156,6 +156,10 @@
   },
   "folderId": 247198,
   "id": 5454484,
+  "interface": {
+    "input": [],
+    "output": []
+  },
   "isActive": false,
   "name": "HS Weekly Digest",
   "scheduling": {

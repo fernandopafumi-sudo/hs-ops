@@ -235,6 +235,27 @@
   },
   "folderId": null,
   "id": 6313594,
+  "interface": {
+    "input": [
+      {
+        "name": "posts",
+        "spec": [
+          {
+            "name": "id",
+            "required": true,
+            "type": "number"
+          },
+          {
+            "name": "title",
+            "required": true,
+            "type": "text"
+          }
+        ],
+        "type": "array"
+      }
+    ],
+    "output": []
+  },
   "isActive": true,
   "name": "HS — Featured image por post ID",
   "scheduling": {

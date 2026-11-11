@@ -416,6 +416,10 @@
   },
   "folderId": 247198,
   "id": 6459598,
+  "interface": {
+    "input": [],
+    "output": []
+  },
   "isActive": true,
   "name": "HS Brief Subscribers",
   "scheduling": {

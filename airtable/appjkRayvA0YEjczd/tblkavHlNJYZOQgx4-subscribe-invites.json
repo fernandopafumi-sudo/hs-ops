@@ -353,17 +353,18 @@
   {
     "createdTime": "2026-11-01T01:32:43.000Z",
     "fields": {
+      "Clicked_At": "2026-11-11T18:53:28.000Z",
       "Country": "Chile",
       "Email": "heribertogarcia@udd.cl",
       "First_Name": "Heriberto",
       "Gmail_Message_ID": "1a1a7c9e4df2388d",
       "Language": "es",
       "Name": "Heriberto García Escorza",
-      "Notes": "Source: Voices Pipeline (Stage=Published)\n2026-11-04: invitación enviada",
+      "Notes": "Source: Voices Pipeline (Stage=Published)\n2026-11-04: invitación enviada\n2026-11-11: recordatorio enviado",
       "Organization": "Universidad del Desarrollo (ex ANAMED/ISP)",
       "Segment": "voices",
       "Sent_At": "2026-11-04T18:20:00.000Z",
-      "Status": "Sent"
+      "Status": "Subscribed"
     },
     "id": "rec3oGFGQyELnx9fO"
   },
@@ -452,11 +453,11 @@
       "Gmail_Message_ID": "1a1a7cd09927923d",
       "Language": "en",
       "Name": "Jeremy Schubert, DSL, MBA, MPH",
-      "Notes": "Source: Sucriptor prospects (LinkedIn)\n2026-11-04: invitación enviada",
+      "Notes": "Source: Sucriptor prospects (LinkedIn)\n2026-11-04: invitación enviada\n2026-11-11: recordatorio enviado",
       "Organization": "Pathnostics - A Diagnostics Solutions Company",
       "Segment": "linkedin",
       "Sent_At": "2026-11-04T18:27:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "rec5BniggY1itFqnO"
   },
@@ -486,7 +487,7 @@
       "Gmail_Message_ID": "1a1a7cd314ce217c",
       "Language": "pt",
       "Name": "Guilherme Soria Bastos Filho",
-      "Notes": "Source: Sucriptor prospects (LinkedIn)\n2026-11-04: invitación enviada",
+      "Notes": "Source: Sucriptor prospects (LinkedIn)\n2026-11-04: invitación enviada\n2026-11-11: recordatorio NO enviado (envío bloqueado por el filtro de permisos de la tarea automática); sigue Sent",
       "Organization": "Fundacao Getulio Vargas",
       "Segment": "linkedin",
       "Sent_At": "2026-11-04T18:27:00.000Z",
@@ -535,11 +536,11 @@
       "Gmail_Message_ID": "1a1a7cd5930b9fef",
       "Language": "es",
       "Name": "Johanna Ballesteros",
-      "Notes": "Source: Sucriptor prospects (LinkedIn)\n2026-11-04: invitación enviada",
+      "Notes": "Source: Sucriptor prospects (LinkedIn)\n2026-11-04: invitación enviada\n2026-11-11: recordatorio enviado",
       "Organization": "MSD LATAM",
       "Segment": "linkedin",
       "Sent_At": "2026-11-04T18:27:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "rec68H35A9RCmMS68"
   },
@@ -579,11 +580,11 @@
       "Gmail_Message_ID": "1a1a7ca3114a04a2",
       "Language": "es",
       "Name": "Diego Rosselli",
-      "Notes": "Source: Voices Pipeline (Stage=Accepted)\n2026-11-04: invitación enviada",
+      "Notes": "Source: Voices Pipeline (Stage=Accepted)\n2026-11-04: invitación enviada\n2026-11-11: recordatorio enviado",
       "Organization": "Ex Pontificia Universidad Javeriana (retirado de la academia, mayo 2025)",
       "Segment": "voices",
       "Sent_At": "2026-11-04T18:21:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "rec6Bl2icT558dhZl"
   },
@@ -596,11 +597,11 @@
       "Gmail_Message_ID": "1a1a7d214ce2e990",
       "Language": "en",
       "Name": "John Carroll",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-04: invitación enviada",
+      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-04: invitación enviada\n2026-11-11: recordatorio enviado",
       "Organization": "Endpoints News",
       "Segment": "press",
       "Sent_At": "2026-11-04T18:39:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "rec6RHXr5pVd6twol"
   },
@@ -640,7 +641,7 @@
       "Gmail_Message_ID": "1a1a7cda9d2c51d0",
       "Language": "pt",
       "Name": "Carlson Andrade",
-      "Notes": "Source: Sucriptor prospects (LinkedIn)\n2026-11-04: invitación enviada",
+      "Notes": "Source: Sucriptor prospects (LinkedIn)\n2026-11-04: invitación enviada\n2026-11-11: recordatorio NO enviado (envío bloqueado por el filtro de permisos de la tarea automática); sigue Sent",
       "Organization": "Organon Brasil",
       "Segment": "linkedin",
       "Sent_At": "2026-11-04T18:29:00.000Z",
@@ -672,11 +673,11 @@
       "Gmail_Message_ID": "1a1a7d239d5e57b7",
       "Language": "en",
       "Name": "Meredith Levy",
-      "Notes": "Source: Press & PR Contacts (Agencia PR)\n2026-11-04: invitación enviada",
+      "Notes": "Source: Press & PR Contacts (Agencia PR)\n2026-11-04: invitación enviada\n2026-11-11: recordatorio enviado",
       "Organization": "Havas Health & You (global)",
       "Segment": "press",
       "Sent_At": "2026-11-04T18:39:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "rec6kn46N1jykKai5"
   },
@@ -706,11 +707,11 @@
       "Gmail_Message_ID": "1a1a7cbe71687b23",
       "Language": "en",
       "Name": "Victor Arroyo",
-      "Notes": "Source: Sucriptor prospects (LinkedIn)\n2026-11-04: invitación enviada",
+      "Notes": "Source: Sucriptor prospects (LinkedIn)\n2026-11-04: invitación enviada\n2026-11-11: recordatorio enviado",
       "Organization": "Vandarum",
       "Segment": "linkedin",
       "Sent_At": "2026-11-04T18:25:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "rec71LEwGhOOqEMGj"
   },
@@ -753,11 +754,11 @@
       "Gmail_Message_ID": "1a1a7cdcb6adcdee",
       "Language": "es",
       "Name": "Diana Milena Díaz",
-      "Notes": "Source: Sucriptor prospects (LinkedIn)\n2026-11-04: invitación enviada",
+      "Notes": "Source: Sucriptor prospects (LinkedIn)\n2026-11-04: invitación enviada\n2026-11-11: recordatorio enviado",
       "Organization": "Johnson & Johnson",
       "Segment": "linkedin",
       "Sent_At": "2026-11-04T18:29:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "rec7ZV1b7uaoVjsFi"
   },

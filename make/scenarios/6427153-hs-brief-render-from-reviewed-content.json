@@ -158,6 +158,44 @@
   },
   "folderId": 247198,
   "id": 6427153,
+  "interface": {
+    "input": [
+      {
+        "name": "issue",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "name": "article_count",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "multiline": true,
+        "name": "dyn_p1",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "multiline": true,
+        "name": "dyn_review",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "multiline": true,
+        "name": "dyn_radar",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "name": "record_id",
+        "required": true,
+        "type": "text"
+      }
+    ],
+    "output": []
+  },
   "isActive": true,
   "name": "HS Brief — Render from reviewed content",
   "scheduling": {

@@ -97,6 +97,10 @@
   },
   "folderId": 268063,
   "id": 5843912,
+  "interface": {
+    "input": [],
+    "output": []
+  },
   "isActive": false,
   "name": "HS Prospect Search - LinkedIn LATAM",
   "scheduling": {

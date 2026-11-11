@@ -296,6 +296,10 @@
   },
   "folderId": 268067,
   "id": 6488206,
+  "interface": {
+    "input": [],
+    "output": []
+  },
   "isActive": true,
   "name": "HS MedTech Tracker — FDA → Brasil/Colombia (mensual)",
   "scheduling": {

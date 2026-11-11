@@ -673,6 +673,10 @@
   },
   "folderId": 247198,
   "id": 6735926,
+  "interface": {
+    "input": [],
+    "output": []
+  },
   "isActive": true,
   "name": "HS - Cover for manual post (ad-hoc)",
   "scheduling": {

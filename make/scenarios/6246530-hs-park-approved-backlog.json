@@ -90,6 +90,10 @@
   },
   "folderId": 247198,
   "id": 6246530,
+  "interface": {
+    "input": [],
+    "output": []
+  },
   "isActive": true,
   "name": "HS - Park approved backlog",
   "scheduling": {

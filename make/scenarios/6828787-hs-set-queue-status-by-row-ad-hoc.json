@@ -63,6 +63,10 @@
   },
   "folderId": 247198,
   "id": 6828787,
+  "interface": {
+    "input": [],
+    "output": []
+  },
   "isActive": true,
   "name": "HS - Set queue status by row (ad-hoc)",
   "scheduling": {

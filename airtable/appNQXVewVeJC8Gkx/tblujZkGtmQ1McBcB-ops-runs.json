@@ -611,6 +611,19 @@
     "id": "recXlcdqENbExJnra"
   },
   {
+    "createdTime": "2026-11-11T18:53:33.000Z",
+    "fields": {
+      "Channel": "comentarios",
+      "Date": "2026-11-11",
+      "Items_Pending": 5,
+      "Notes": "Tarde: 0 Approved en cola, 5 Proposed esperando OK (2 de hoy, 2 del 10-11, AFIDRO recydo1xeippdgLUX del 09-11 vence 12-11). Sin Published 04-09/11 para métricas. Sin cambios en Social Comments.",
+      "Run": "tarde",
+      "Run_Key": "2026-11-11|tarde|comentarios",
+      "Status": "sin novedades"
+    },
+    "id": "recYGPbYrd0xmMVXb"
+  },
+  {
     "createdTime": "2026-11-06T13:59:12.000Z",
     "fields": {
       "Channel": "prensa",

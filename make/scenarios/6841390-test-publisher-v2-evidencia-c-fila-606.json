@@ -5340,6 +5340,10 @@
   },
   "folderId": 247198,
   "id": 6841390,
+  "interface": {
+    "input": [],
+    "output": []
+  },
   "isActive": true,
   "name": "TEST Publisher v2 - Evidencia C (fila 606)",
   "scheduling": {

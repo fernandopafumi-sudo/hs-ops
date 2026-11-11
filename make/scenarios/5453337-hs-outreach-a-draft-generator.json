@@ -126,6 +126,10 @@
   },
   "folderId": 268063,
   "id": 5453337,
+  "interface": {
+    "input": [],
+    "output": []
+  },
   "isActive": true,
   "name": "HS Outreach A - Draft Generator",
   "scheduling": {

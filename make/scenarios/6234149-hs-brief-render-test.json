@@ -117,6 +117,10 @@
   },
   "folderId": 247198,
   "id": 6234149,
+  "interface": {
+    "input": [],
+    "output": []
+  },
   "isActive": true,
   "name": "HS Brief — Render Test",
   "scheduling": {

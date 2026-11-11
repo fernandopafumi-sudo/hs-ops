@@ -80,6 +80,10 @@
   },
   "folderId": 268063,
   "id": 5891229,
+  "interface": {
+    "input": [],
+    "output": []
+  },
   "isActive": false,
   "name": "Extract Prospects from Published Articles",
   "scheduling": {

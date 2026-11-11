@@ -30,6 +30,15 @@
   },
   "folderId": 268065,
   "id": 5890585,
+  "interface": {
+    "input": [
+      {
+        "name": "contacts",
+        "type": "array"
+      }
+    ],
+    "output": []
+  },
   "isActive": true,
   "name": "HS LinkedIn CRM Loader — Execute Now",
   "scheduling": {

@@ -183,6 +183,10 @@
   },
   "folderId": null,
   "id": 6414510,
+  "interface": {
+    "input": [],
+    "output": []
+  },
   "isActive": false,
   "name": "[BORRAR] HS test 6414510",
   "scheduling": {

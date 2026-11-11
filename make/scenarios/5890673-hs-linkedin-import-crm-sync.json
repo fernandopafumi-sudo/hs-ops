@@ -35,6 +35,10 @@
   },
   "folderId": 268065,
   "id": 5890673,
+  "interface": {
+    "input": [],
+    "output": []
+  },
   "isActive": false,
   "name": "HS LinkedIn Import → CRM Sync",
   "scheduling": {

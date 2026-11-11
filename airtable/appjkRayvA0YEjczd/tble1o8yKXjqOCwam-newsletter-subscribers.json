@@ -36,6 +36,21 @@
     "id": "rec5U47BsQWHKHrak"
   },
   {
+    "createdTime": "2026-11-11T18:53:28.000Z",
+    "fields": {
+      "CTA Source": "invite-voices",
+      "Consent At": "2026-11-11T18:53:28.000Z",
+      "Consent Text": "Clicked Subscribe in personal invitation email from editor@healthsignals.news (invite-2026-11 v1)",
+      "Country": "Chile",
+      "Email": "heribertogarcia@udd.cl",
+      "Name": "Heriberto García Escorza",
+      "Source": "Invite",
+      "Status": "Active",
+      "Subscribe Date": "2026-11-11"
+    },
+    "id": "rec9O1hkjQOL0ec9V"
+  },
+  {
     "createdTime": "2026-11-04T18:28:57.000Z",
     "fields": {
       "CTA Source": "invite-press",

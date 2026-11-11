@@ -167,6 +167,10 @@
   },
   "folderId": 247198,
   "id": 6726530,
+  "interface": {
+    "input": [],
+    "output": []
+  },
   "isActive": true,
   "name": "HS Brief Approvals (webmail aprobados por Fer)",
   "scheduling": {

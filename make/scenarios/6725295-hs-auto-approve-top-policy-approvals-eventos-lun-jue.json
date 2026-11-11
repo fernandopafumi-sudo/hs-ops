@@ -194,6 +194,10 @@
   },
   "folderId": 247198,
   "id": 6725295,
+  "interface": {
+    "input": [],
+    "output": []
+  },
   "isActive": true,
   "name": "HS - Auto-approve top policy/approvals/eventos (lun+jue)",
   "scheduling": {

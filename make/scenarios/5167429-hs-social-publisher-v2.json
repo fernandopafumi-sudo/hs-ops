@@ -559,6 +559,10 @@
   },
   "folderId": 247198,
   "id": 5167429,
+  "interface": {
+    "input": [],
+    "output": []
+  },
   "isActive": false,
   "name": "HS Social Publisher v2",
   "scheduling": {

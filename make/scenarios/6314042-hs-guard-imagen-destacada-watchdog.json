@@ -346,6 +346,10 @@
   },
   "folderId": null,
   "id": 6314042,
+  "interface": {
+    "input": [],
+    "output": []
+  },
   "isActive": true,
   "name": "HS — Guard imagen destacada (watchdog)",
   "scheduling": {

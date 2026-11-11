@@ -100,6 +100,10 @@
   },
   "folderId": 247198,
   "id": 6543177,
+  "interface": {
+    "input": [],
+    "output": []
+  },
   "isActive": true,
   "name": "HS - Auto-approve 1 high draft/day",
   "scheduling": {

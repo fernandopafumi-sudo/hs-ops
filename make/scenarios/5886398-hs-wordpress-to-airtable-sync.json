@@ -102,6 +102,10 @@
   },
   "folderId": 268065,
   "id": 5886398,
+  "interface": {
+    "input": [],
+    "output": []
+  },
   "isActive": false,
   "name": "HS WordPress to Airtable Sync",
   "scheduling": {

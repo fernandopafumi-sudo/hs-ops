@@ -105,6 +105,10 @@
   },
   "folderId": null,
   "id": 5841829,
+  "interface": {
+    "input": [],
+    "output": []
+  },
   "isActive": false,
   "name": "LB — Group Post Reminder (620 Spend A Buck)",
   "scheduling": {

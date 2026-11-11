@@ -196,6 +196,10 @@
   },
   "folderId": 268065,
   "id": 5453897,
+  "interface": {
+    "input": [],
+    "output": []
+  },
   "isActive": false,
   "name": "HS LinkedIn Draft Engine",
   "scheduling": {

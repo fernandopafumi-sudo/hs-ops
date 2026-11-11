@@ -67,6 +67,10 @@
   },
   "folderId": 268067,
   "id": 5699954,
+  "interface": {
+    "input": [],
+    "output": []
+  },
   "isActive": true,
   "name": "HS Report — Proposer",
   "scheduling": {

@@ -488,6 +488,10 @@
   },
   "folderId": 268067,
   "id": 5893513,
+  "interface": {
+    "input": [],
+    "output": []
+  },
   "isActive": true,
   "name": "HS Price Feeds — listas oficiales de precios",
   "scheduling": {

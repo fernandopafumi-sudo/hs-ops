@@ -6017,6 +6017,10 @@
   },
   "folderId": 247198,
   "id": 5133643,
+  "interface": {
+    "input": [],
+    "output": []
+  },
   "isActive": true,
   "name": "PROD Article Publisher v2",
   "scheduling": {

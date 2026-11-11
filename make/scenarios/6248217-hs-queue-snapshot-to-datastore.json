@@ -107,6 +107,10 @@
   },
   "folderId": 247198,
   "id": 6248217,
+  "interface": {
+    "input": [],
+    "output": []
+  },
   "isActive": true,
   "name": "HS - Queue snapshot to datastore",
   "scheduling": {

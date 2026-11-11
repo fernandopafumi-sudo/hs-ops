@@ -59,6 +59,10 @@
   },
   "folderId": 247198,
   "id": 6245964,
+  "interface": {
+    "input": [],
+    "output": []
+  },
   "isActive": true,
   "name": "HS - Approve queue rows (ad-hoc)",
   "scheduling": {

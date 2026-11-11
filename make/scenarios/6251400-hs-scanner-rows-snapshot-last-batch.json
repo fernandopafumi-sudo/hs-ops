@@ -106,6 +106,10 @@
   },
   "folderId": 247198,
   "id": 6251400,
+  "interface": {
+    "input": [],
+    "output": []
+  },
   "isActive": true,
   "name": "HS - Scanner rows snapshot (last batch)",
   "scheduling": {

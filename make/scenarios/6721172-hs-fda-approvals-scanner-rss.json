@@ -310,6 +310,10 @@
   },
   "folderId": 247198,
   "id": 6721172,
+  "interface": {
+    "input": [],
+    "output": []
+  },
   "isActive": true,
   "name": "HS - FDA Approvals Scanner (RSS)",
   "scheduling": {
