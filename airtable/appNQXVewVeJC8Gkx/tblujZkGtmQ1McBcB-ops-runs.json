@@ -143,6 +143,19 @@
     "id": "recAGhA5t6dTgpX9w"
   },
   {
+    "createdTime": "2026-11-11T14:01:38.000Z",
+    "fields": {
+      "Channel": "sponsors",
+      "Date": "2026-11-11",
+      "Items_Pending": 25,
+      "Notes": "Sponsors 11-11 candidatos (esperan \"dale sponsors\"; además siguen pendientes los 14 del 10-11):\nCarlos Pella | https://linkedin.com/in/carlospella\nAdriana Mendez | https://linkedin.com/in/adriana-mendez-2067a242\nPradeep kumar Nayak | https://linkedin.com/in/pradeepnayak6\nHernan Pfeifer | https://linkedin.com/in/hernan-pfeifer-269890114\nMariano Rozada | https://linkedin.com/in/mariano-rozada-generalmanager-vp-ceo-pharma-cpg-commercialvp\nJavier Mestre | https://linkedin.com/in/javier-mestre-28110b60\nMarieli Alfonzo | https://linkedin.com/in/marieli-alfonzo-she-her-4221195a\nIsrael Iparraguirre | https://linkedin.com/in/israel-iparraguirre\nMario Nacinovich | https://linkedin.com/in/nacinovich\nMarco Godoy | https://linkedin.com/in/marco-godoy-b95aaa13\nOscar H Berrio | https://linkedin.com/in/oscar-h-berrio\nInvitaciones confirmadas por Fer: 0. Aceptaciones: n/d. Pendientes estimadas: 0. Corridas seguidas con propuesta sin OK: 1 (10-11).",
+      "Run": "manana",
+      "Run_Key": "2026-11-11|manana|sponsors",
+      "Status": "ok"
+    },
+    "id": "recASEkQOEJ9zf87Z"
+  },
+  {
     "createdTime": "2026-10-27T13:03:26.000Z",
     "fields": {
       "Channel": "comentarios",
@@ -195,6 +208,19 @@
     "id": "recDUAWcm3cypTOBl"
   },
   {
+    "createdTime": "2026-11-10T18:48:19.000Z",
+    "fields": {
+      "Channel": "comentarios",
+      "Date": "2026-11-10",
+      "Items_Pending": 3,
+      "Notes": "Tarde: cola Approved 0; ningún Proposed >3 días (3 vigentes: AFIDRO 09-11, FDA y Anvisa 10-11); sin Published de 2-7 días para métricas. Sin email. Corrida hecha por el principal.",
+      "Run": "tarde",
+      "Run_Key": "2026-11-10|tarde|comentarios",
+      "Status": "sin novedades"
+    },
+    "id": "recEEjAuVWY88cySe"
+  },
+  {
     "createdTime": "2026-10-23T12:57:53.000Z",
     "fields": {
       "Channel": "comentarios",
@@ -245,6 +271,19 @@
       "Status": "sin novedades"
     },
     "id": "recHI3KRdQhdy39kw"
+  },
+  {
+    "createdTime": "2026-11-11T14:01:38.000Z",
+    "fields": {
+      "Channel": "grupos",
+      "Date": "2026-11-11",
+      "Items_Pending": 0,
+      "Notes": "Ningún grupo Member cumple 10 días; Medtech sin nota medtech. Próximo: GHEN 12-11",
+      "Run": "manana",
+      "Run_Key": "2026-11-11|manana|grupos",
+      "Status": "sin novedades"
+    },
+    "id": "recIEEZuNT2z6VEAq"
   },
   {
     "createdTime": "2026-11-02T14:27:06.000Z",
@@ -401,6 +440,19 @@
       "Status": "sin novedades"
     },
     "id": "recSPrev9294YCTTK"
+  },
+  {
+    "createdTime": "2026-11-11T14:01:38.000Z",
+    "fields": {
+      "Channel": "comentarios",
+      "Date": "2026-11-11",
+      "Items_Pending": 7,
+      "Notes": "2 Proposed nuevos (FDA Sunharbo recWAcZWymwwMDqFj, PAHO menopausia recCaEmTtVCmslfoY) tras revisión adversarial del principal; 3 Proposed previos; 2 personas Voices (Young, Cuba)",
+      "Run": "manana",
+      "Run_Key": "2026-11-11|manana|comentarios",
+      "Status": "ok"
+    },
+    "id": "recSiHGVBV6reFhln"
   },
   {
     "createdTime": "2026-11-06T13:59:12.000Z",
@@ -819,6 +871,19 @@
     "id": "recjDWvtBnig0LAEi"
   },
   {
+    "createdTime": "2026-11-11T14:01:38.000Z",
+    "fields": {
+      "Channel": "prensa",
+      "Date": "2026-11-11",
+      "Items_Pending": 1,
+      "Notes": "Sin respuestas; recordatorios Stang/Sigal esperan OK Argentina; alerta: recordatorio Soto salió 10-11 sin OK registrado",
+      "Run": "manana",
+      "Run_Key": "2026-11-11|manana|prensa",
+      "Status": "ok"
+    },
+    "id": "recjJHQ2PaToqGt4J"
+  },
+  {
     "createdTime": "2026-10-26T13:03:31.000Z",
     "fields": {
       "Channel": "grupos",
@@ -1077,5 +1142,18 @@
       "Status": "error"
     },
     "id": "recz1GESwQsh3yaIa"
+  },
+  {
+    "createdTime": "2026-11-11T14:01:38.000Z",
+    "fields": {
+      "Channel": "voices",
+      "Date": "2026-11-11",
+      "Items_Pending": 7,
+      "Notes": "17 programados sin alertas; Sepúlveda respondió R7 (OK no cargado, decide Fer); borradores toque 1 Socal y Maceira; García toque 1 sin programar",
+      "Run": "manana",
+      "Run_Key": "2026-11-11|manana|voices",
+      "Status": "ok"
+    },
+    "id": "recz6UcG97b6lK1zu"
   }
 ]

@@ -65,6 +65,26 @@
     "id": "recAVKtFxvXhNsq1I"
   },
   {
+    "createdTime": "2026-11-11T14:00:43.000Z",
+    "fields": {
+      "Account": "PAHO",
+      "Comment": "Only 10 of 33 countries and territories in Latin America and the Caribbean (30.3%) had at least one identified, current national guideline on menopause management, per PAHO's regional analysis. The release also notes that having guidelines does not guarantee implementation: translating them into care requires trained health workers, care and referral pathways, and access to treatments, with primary health care playing a central role. For health systems, which would be the more telling next indicator: guideline adoption, or whether those treatments and trained teams are actually available at the point of care?\nhttps://healthsignals.news/?utm_source=linkedin&utm_medium=comment&utm_campaign=paho #HealthSignals",
+      "Comment Style": [
+        "Dato",
+        "Pregunta",
+        "Angulo acceso"
+      ],
+      "Date": "2026-11-11",
+      "Fer Edits": "post de LinkedIn a ubicar al publicar (corrida sin navegador; fuente = comunicado PAHO; si el post de PAHO está en español, traducir). revisión adversarial (opus, 11-11): acceso a tratamientos y equipos capacitados son 'condiciones necesarias' según la fuente, no 'gaps'; agregado ámbito ALC. Sin nota HS relacionada: link a la home. Fit comercial bajo.",
+      "HS Link": "https://healthsignals.news/",
+      "Network": "LinkedIn",
+      "Post Summary": "OPS pide fortalecer la atención de la menopausia: solo 10 de 33 países/territorios de ALC con guía nacional vigente (10-11)",
+      "Post URL": "https://www.paho.org/en/news/10-11-2026-paho-calls-stronger-menopause-care-promote-healthy-aging-americas",
+      "Status": "Proposed"
+    },
+    "id": "recCaEmTtVCmslfoY"
+  },
+  {
     "createdTime": "2026-10-22T17:56:29.000Z",
     "fields": {
       "Account": "ISP Chile",
@@ -382,6 +402,27 @@
       "Status": "Rejected"
     },
     "id": "recW5hjYOWgehTAGj"
+  },
+  {
+    "createdTime": "2026-11-11T14:00:43.000Z",
+    "fields": {
+      "Account": "FDA",
+      "Comment": "FDA approved Sunharbo (asundexian) on November 9, the first factor XIa inhibitor approved in the U.S., for use with antiplatelet therapy in adults after a recent mild-to-moderate non-cardioembolic ischemic stroke or high-risk transient ischemic attack (TIA). In OCEANIC-STROKE (12,327 adults) it reduced the risk of ischemic stroke by 26% versus placebo over a median 14.2 months; overall major bleeding was similar, but higher in patients over 75 and in the first 90 days, and it is not approved for stroke prevention in atrial fibrillation. For Latin American payers, what evidence would matter most before adding a new class on top of the antiplatelet regimens already in use?\nhttps://healthsignals.news/paho-study-470-million-in-the-americas-live-with-a-neurological-disorder/?utm_source=linkedin&utm_medium=comment&utm_campaign=fda #HealthSignals",
+      "Comment Style": [
+        "Dato",
+        "Pregunta",
+        "Estudio citado",
+        "Angulo LatAm"
+      ],
+      "Date": "2026-11-11",
+      "Fer Edits": "post de LinkedIn a ubicar al publicar (corrida sin navegador; fuente = comunicado FDA). revisión adversarial (opus, 11-11): 'first ... approved in the U.S.' (China NMPA lo aprobó el 26-10); agregado 'mild-to-moderate'; 'not approved for AF' en vez de 'excludes'; pregunta reformulada (se suma a la antiagregación, no la reemplaza); link a nota PAHO trastornos neurológicos. Sería el 3er comentario FDA de la semana (tope).",
+      "HS Link": "https://healthsignals.news/paho-study-470-million-in-the-americas-live-with-a-neurological-disorder/",
+      "Network": "LinkedIn",
+      "Post Summary": "FDA aprueba Sunharbo (asundexian, Bayer), primer inhibidor del factor XIa en EE.UU., prevención de ACV tras ACV/TIA (09-11)",
+      "Post URL": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-factor-xla-inhibitor-help-prevent-stroke-certain-adults-high-risk",
+      "Status": "Proposed"
+    },
+    "id": "recWAcZWymwwMDqFj"
   },
   {
     "createdTime": "2026-10-17T18:02:50.000Z",

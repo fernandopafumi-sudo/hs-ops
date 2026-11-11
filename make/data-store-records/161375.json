@@ -221,17 +221,6 @@
   },
   {
     "data": {
-      "notes": "- sin fallos de acceso, aprobaciones ni bloqueos\n- aviso: REPORT-20261009-0659 y REPORT-20261001-0658 siguen 'iniciada, sin terminar' (corridas viejas caidas, ya reportadas)\n- run_id 20261012-0659\n- borradores vistos 12 (mismos que ayer); excluidos 5 (Weekly 36411, 36146, 35939, 35772; post 36041); skipped backlog 7 sin cambios (wp_modified igual); pendientes para manana 0\n- 0 borradores pendientes, no se reviso ninguno\n- limpieza: nada que borrar (carpeta de Drive vacia; sin REPORT ni registros de mas de 30 dias)\nPara aplicar y publicar, decile a Claude en un chat: aplicar gate <ID>. La sesión que aplique relee el post, rechaza si su modified es distinto del wp_modified del archivo, aplica los reemplazos con código, verifica el diff y publica solo con OK de Fer.",
-      "run_id": "20261012-0659",
-      "state": "passed",
-      "title": "REPORT",
-      "updated_at": "2026-10-12T06:59:47-04:00",
-      "wp_modified": null
-    },
-    "key": "REPORT-20261012-0659"
-  },
-  {
-    "data": {
       "notes": "- sin fallos de acceso, aprobaciones ni bloqueos\n- aviso: REPORT-20261009-0659 y REPORT-20261001-0658 siguen 'iniciada, sin terminar' (corridas viejas caidas, ya reportadas)\n- run_id 20261012-1341\n- borradores vistos 12 (mismos que en la corrida de 06:59); excluidos 5 (Weekly 36411, 36146, 35939, 35772; post 36041); skipped backlog 7 sin cambios (wp_modified igual); sin locks in_review; pendientes para manana 0\n- 0 borradores pendientes, no se reviso ninguno\n- limpieza: nada que borrar (carpeta de Drive vacia; sin REPORT ni registros de mas de 30 dias)\nPara aplicar y publicar, decile a Claude en un chat: aplicar gate <ID>. La sesión que aplique relee el post, rechaza si su modified es distinto del wp_modified del archivo, aplica los reemplazos con código, verifica el diff y publica solo con OK de Fer.",
       "run_id": "20261012-1341",
       "state": "passed",
@@ -542,5 +531,16 @@
       "wp_modified": null
     },
     "key": "REPORT-20261110-0658"
+  },
+  {
+    "data": {
+      "notes": "- STATE.md leido OK, sin choques con el prompt\n- sin fallos de acceso, aprobaciones ni bloqueos; ningun post en tercer fallo\n- run_id 20261111-0659\n- 0 borradores pendientes\n- vistos 8 drafts (36924, 36920, 36905, 36900, 36896, 36891, 36886, 36868), excluidos 0, skipped backlog nuevos 0, pendientes para manana 0\n- los 8 ya tienen veredicto con el mismo wp_modified: needs_edit 36924, 36920, 36905, 36896, 36891, 36886; hold 36900; skipped 36868 (decision de Fer 02-11). Nadie los edito desde el gate.\n- registros sueltos de posts que ya no estan en draft: 36600, 36636, 36615 (pending) y 36647, 36644, 36640 (failed); quedan hasta cumplir 30 dias\n- limpieza: borrado REPORT-20261012-0659 (>30 dias); Drive sin archivos para mandar a la papelera (8 archivos, todos de drafts vigentes)\n- postura: nada nuevo para publicar hoy; la cola de needs_edit sigue esperando edicion de Fer\nPara aplicar y publicar, decile a Claude en un chat: aplicar gate <ID>. La sesion que aplique relee el post, rechaza si su modified es distinto del wp_modified del archivo, aplica los reemplazos con codigo, verifica el diff y publica solo con OK de Fer.",
+      "run_id": "20261111-0659",
+      "state": "passed",
+      "title": "REPORT",
+      "updated_at": "2026-11-11T06:59:56-05:00",
+      "wp_modified": null
+    },
+    "key": "REPORT-20261111-0659"
   }
 ]

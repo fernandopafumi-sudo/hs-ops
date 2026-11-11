@@ -12,8 +12,8 @@
     "id": 148747,
     "maxSize": "1048576",
     "name": "HS Event Dedup",
-    "records": 472,
-    "size": "108052"
+    "records": 473,
+    "size": "108229"
   },
   {
     "datastructureId": null,
@@ -21,7 +21,7 @@
     "maxSize": "1048576",
     "name": "HS gate state (capa 2)",
     "records": 51,
-    "size": "70043"
+    "size": "70401"
   },
   {
     "datastructureId": null,
