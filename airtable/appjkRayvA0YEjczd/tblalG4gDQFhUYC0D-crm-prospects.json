@@ -321,13 +321,13 @@
       "Country": "Brazil",
       "Email": "gisele@gvcomunicacao.com",
       "Name": "Congresso SBOC 2026 (prensa: Gisele Vitória)",
-      "Next_Action": "CERRADO 28-10: sin respuesta a 3 contactos (28-09, 07-10, 21-10; archivos vencían 27-oct). No volver a escribir para 2026.",
+      "Next_Action": "Cerrado 11-11: sin respuesta (email + seguimiento 21-10); evento 5-7 nov ya pasó. Reintentar para SBOC 2027 con 3 meses de anticipación.",
       "Next_Action_Date": "2026-09-28",
       "Notes": "Media partner (canal de audiencia, sin pago). Congreso 5-7 nov 2026, Rio. Si firman: banner 29 oct-7 nov, archivos antes del 22 oct. Si no responden antes del 5 oct, se deja pasar. Link: https://healthsignals.news/newsletter/?utm_source=sboc-2026&utm_medium=partner&utm_campaign=media-partner-2026",
       "Region": "LATAM",
       "Segment": "Other",
       "Source": "Event",
-      "Stage": "Researching"
+      "Stage": "Lost"
     },
     "id": "rec2DHWzSljpKgOMf"
   },
@@ -1064,6 +1064,25 @@
       "Stage": "New"
     },
     "id": "rec5J5aXsIAtrVjrA"
+  },
+  {
+    "createdTime": "2026-11-12T00:17:56.000Z",
+    "fields": {
+      "Approval": "Pending Review",
+      "Company": "Boston Scientific",
+      "Country": "Chile",
+      "ICP_Fit": "A",
+      "Name": "Boston Scientific — marketing Chile/LatAm (contacto a buscar)",
+      "Next_Action": "Buscar en Apollo (web) responsable de marketing/comunicaciones LatAm o Chile",
+      "Notes": "Expositor ExpoSalud 2026 (stand 2-05). Multinacional de dispositivos médicos con presupuesto de marketing regional. Gancho: HealthSignals fue media partner de ExpoSalud 2026.",
+      "Preferred_Channel": "Email",
+      "Region": "LATAM",
+      "Segment": "Medtech",
+      "Source": "Event",
+      "Source_URL": "https://www.expo-salud.cl/listado-expositores-2026/",
+      "Stage": "New"
+    },
+    "id": "rec5JlMojVGTf2kmQ"
   },
   {
     "createdTime": "2026-10-17T19:42:21.000Z",
@@ -3611,6 +3630,25 @@
     "id": "recFlOjklx0yUF2t2"
   },
   {
+    "createdTime": "2026-11-12T00:17:56.000Z",
+    "fields": {
+      "Approval": "Pending Review",
+      "Company": "Salcobrand",
+      "Country": "Chile",
+      "ICP_Fit": "B",
+      "Name": "Salcobrand — marketing (contacto a buscar)",
+      "Next_Action": "Buscar en Apollo (web) gerente de marketing o asuntos corporativos",
+      "Notes": "Expositor ExpoSalud 2026 (stand 2-82). Cadena de farmacias de Chile (segmento retail farmacéutico; no hay opción 'Pharmacy' en Segment). Gancho: HealthSignals fue media partner de ExpoSalud 2026.",
+      "Preferred_Channel": "Email",
+      "Region": "LATAM",
+      "Segment": "Provider/Hospital",
+      "Source": "Event",
+      "Source_URL": "https://www.expo-salud.cl/listado-expositores-2026/",
+      "Stage": "New"
+    },
+    "id": "recFm90gExr54LYx1"
+  },
+  {
     "createdTime": "2026-10-18T13:39:41.000Z",
     "fields": {
       "Approval": "Pending Review",
@@ -4825,6 +4863,25 @@
     "id": "recKtLUOhzkWcx3Xp"
   },
   {
+    "createdTime": "2026-11-12T00:17:56.000Z",
+    "fields": {
+      "Approval": "Pending Review",
+      "Company": "Piel Sana IGC Laboratorio",
+      "Country": "Colombia",
+      "ICP_Fit": "C",
+      "Name": "Piel Sana IGC Laboratorio — marketing (contacto a buscar)",
+      "Next_Action": "Buscar en Apollo (web) responsable de marketing o expansión regional",
+      "Notes": "Expositor ExpoSalud 2026 (stand 2-76). Laboratorio colombiano de tratamiento de heridas de difícil cierre, en expansión a Chile. Gancho: media partner ExpoSalud 2026.",
+      "Preferred_Channel": "Email",
+      "Region": "LATAM",
+      "Segment": "Medtech",
+      "Source": "Event",
+      "Source_URL": "https://www.expo-salud.cl/listado-expositores-2026/",
+      "Stage": "New"
+    },
+    "id": "recL0y9HNSXcwlntf"
+  },
+  {
     "createdTime": "2026-10-18T17:45:10.000Z",
     "fields": {
       "Approval": "Pending Review",
@@ -5438,11 +5495,12 @@
       "Country": "Mexico",
       "Email": "contactosocios@smeo.org.mx",
       "Name": "44° Congreso Nacional de Oncología SMeO",
-      "Next_Action": "CERRADO 28-10: sin respuesta al seguimiento del 21-10 (archivos vencían 26-oct). No volver a escribir para 2026.",
+      "Next_Action": "Cerrado 11-11: sin respuesta (email 15-10 + seguimiento 21-10); congreso 4-7 nov ya pasó.",
       "Next_Action_Date": "2026-10-15",
       "Notes": "Email enviado 15-10 (contacto de socios, no de prensa). Evento 4-7 nov, Expo Guadalajara. Banner 28-oct a 7-nov; archivos pedidos para 23-oct (plazo corto).",
       "Region": "LATAM",
-      "Source": "Event"
+      "Source": "Event",
+      "Stage": "Lost"
     },
     "id": "recNqbcAlTU9fnsqI"
   },
@@ -6085,6 +6143,25 @@
       "Title": "Partner & Managing Director Portugal and Brasil"
     },
     "id": "recQZCpvhKCifmQTk"
+  },
+  {
+    "createdTime": "2026-11-12T00:17:56.000Z",
+    "fields": {
+      "Approval": "Pending Review",
+      "Company": "KOTRA Santiago (Korea Trade-Investment Promotion Agency)",
+      "Country": "Chile",
+      "ICP_Fit": "B",
+      "Name": "KOTRA Santiago — pabellón Korea (contacto a buscar)",
+      "Next_Action": "Buscar contacto de la oficina KOTRA Santiago (web oficial) y responsable del sector salud",
+      "Notes": "Expositor ExpoSalud 2026 (stand PY-28): pabellón de empresas coreanas de salud presentado por KOTRA Santiago. Las agencias de promoción compran visibilidad para sus empresas; posible paquete multi-empresa. Gancho: media partner ExpoSalud 2026.",
+      "Preferred_Channel": "Email",
+      "Region": "LATAM",
+      "Segment": "Other",
+      "Source": "Event",
+      "Source_URL": "https://www.expo-salud.cl/listado-expositores-2026/",
+      "Stage": "New"
+    },
+    "id": "recQhrDX0b4H5UEge"
   },
   {
     "createdTime": "2026-10-21T23:45:37.000Z",
@@ -7330,6 +7407,33 @@
     "id": "recWrQtBaBpZmIVl9"
   },
   {
+    "createdTime": "2026-11-11T23:30:21.000Z",
+    "fields": {
+      "Approval": "Hold",
+      "Company": "Informa Markets Brasil (Hospitalar)",
+      "Country": "Brazil",
+      "Deals": [
+        "recUf7l23rZTdw2MG"
+      ],
+      "Email": "luciana.perdomo@informa.com",
+      "First_Name": "Luciana",
+      "Last_Contacted": "2026-11-08",
+      "Last_Name": "Perdomo",
+      "Name": "Luciana Perdomo",
+      "Next_Action": "Seguimiento corto en portugués por Hospitalar 2027 (18-21 may, SP Expo).",
+      "Next_Action_Date": "2026-11-16",
+      "Notes": "CONTACTO DE PRENSA DE EVENTO. Email publicado en la página de prensa de Hospitalar. Recibió la propuesta de paquete Informa del 08-11 (en inglés); sin respuesta al 11-11. Hospitalar tiene sección 'Mídia Oficial'.",
+      "Preferred_Channel": "Email",
+      "Region": "LATAM",
+      "Segment": "Other",
+      "Source": "Event",
+      "Source_URL": "https://www.hospitalar.com/en/press/",
+      "Stage": "Contacted",
+      "Title": "Prensa, Hospitalar"
+    },
+    "id": "recWuXeBUEpQxkoo3"
+  },
+  {
     "createdTime": "2026-10-17T22:31:08.000Z",
     "fields": {
       "Approval": "Pending Review",
@@ -7524,6 +7628,31 @@
     "id": "recXdk0BUW6xXSuDg"
   },
   {
+    "createdTime": "2026-11-11T23:30:21.000Z",
+    "fields": {
+      "Approval": "Hold",
+      "Company": "Informa Markets (CPHI Americas)",
+      "Country": "USA",
+      "Deals": [
+        "recFtCIEtcVTgYJ5j"
+      ],
+      "Email": "matthew.ramirez@informa.com",
+      "First_Name": "Matthew",
+      "Last_Contacted": "2026-11-08",
+      "Last_Name": "Ramirez",
+      "Name": "Matthew Ramirez",
+      "Notes": "CONTACTO DE PRENSA DE EVENTO. Email publicado en la página de prensa de CPHI Americas (nombre inferido del email). Gestiona acreditaciones de prensa y pedidos de entrevista. Recibió la propuesta de paquete del 08-11; no respondió directo (contestó Kate Scott). Usar para acreditación de prensa en CPHI Americas 2027.",
+      "Preferred_Channel": "Email",
+      "Region": "USA",
+      "Segment": "Other",
+      "Source": "Event",
+      "Source_URL": "https://www.cphi.com/americas/press/",
+      "Stage": "Contacted",
+      "Title": "Prensa / media, CPHI Americas"
+    },
+    "id": "recXeGw2P34xvbqJT"
+  },
+  {
     "createdTime": "2026-10-17T19:27:59.000Z",
     "fields": {
       "Approval": "Pending Review",
@@ -7678,6 +7807,25 @@
       "Stage": "New"
     },
     "id": "recYHWE8Dux4GHbTd"
+  },
+  {
+    "createdTime": "2026-11-12T00:17:56.000Z",
+    "fields": {
+      "Approval": "Pending Review",
+      "Company": "Bacsa Health S.A.",
+      "Country": "Chile",
+      "ICP_Fit": "B",
+      "Name": "Bacsa Health — marketing (contacto a buscar)",
+      "Next_Action": "Buscar en Apollo (web) gerente comercial o de marketing",
+      "Notes": "Expositor ExpoSalud 2026 (stand 2-70). Braquiterapia para cáncer de próstata; nicho oncológico alineado con cobertura HS. País no indicado en el listado (se asume Chile). Gancho: media partner ExpoSalud 2026.",
+      "Preferred_Channel": "Email",
+      "Region": "LATAM",
+      "Segment": "Medtech",
+      "Source": "Event",
+      "Source_URL": "https://www.expo-salud.cl/listado-expositores-2026/",
+      "Stage": "New"
+    },
+    "id": "recYO7QQp3yiatOpW"
   },
   {
     "createdTime": "2026-10-17T22:34:40.000Z",
@@ -8403,6 +8551,30 @@
       "Title": "President of Asia Cluster"
     },
     "id": "recbECM2HbGenlpxX"
+  },
+  {
+    "createdTime": "2026-11-11T23:30:21.000Z",
+    "fields": {
+      "Approval": "Hold",
+      "Company": "FISA S.A. / GL Events Chile",
+      "Country": "Chile",
+      "Deals": [
+        "rechr1vmHPdatqISf"
+      ],
+      "Email": "vgarcia@fisa.cl",
+      "First_Name": "Víctor",
+      "Last_Name": "García Canales",
+      "Name": "Víctor García Canales",
+      "Notes": "CONTACTO DE ALIANZAS (no outreach comercial automático). Firmó por FISA S.A. (RUT 96.955.780-0) el convenio de media partner ExpoSalud 2026 el 30-10-2026. Contacto operativo: Camilo Encina. Útil para escalar o para convenios futuros con FISA / GL events.",
+      "Preferred_Channel": "Email",
+      "Region": "LATAM",
+      "Segment": "Other",
+      "Source": "Event",
+      "Source_URL": "https://www.fisa.cl/",
+      "Stage": "Won",
+      "Title": "Representante legal; firmante del convenio ExpoSalud 2026"
+    },
+    "id": "recbHzklFR8m9ghtv"
   },
   {
     "createdTime": "2026-10-17T18:13:32.000Z",
@@ -9376,6 +9548,25 @@
     "id": "receapsMJzN4aRvAq"
   },
   {
+    "createdTime": "2026-11-12T00:17:56.000Z",
+    "fields": {
+      "Approval": "Pending Review",
+      "Company": "Ri.Mos. SRL",
+      "Country": "Other",
+      "ICP_Fit": "C",
+      "Name": "Ri.Mos. SRL — export/marketing (contacto a buscar)",
+      "Next_Action": "Buscar en Apollo (web) export manager LatAm",
+      "Notes": "Expositor ExpoSalud 2026 (stand 2-18). Fabricante italiano de dispositivos médicos entrando a LatAm. País: Italia. Gancho: media partner ExpoSalud 2026.",
+      "Preferred_Channel": "Email",
+      "Region": "Global",
+      "Segment": "Medtech",
+      "Source": "Event",
+      "Source_URL": "https://www.expo-salud.cl/listado-expositores-2026/",
+      "Stage": "New"
+    },
+    "id": "recegNviQli8vQSRo"
+  },
+  {
     "createdTime": "2026-10-17T19:36:20.000Z",
     "fields": {
       "Approval": "Pending Review",
@@ -10130,6 +10321,34 @@
     "id": "rechoPeUmvDA4LHP8"
   },
   {
+    "createdTime": "2026-11-11T23:30:21.000Z",
+    "fields": {
+      "Approval": "Hold",
+      "Company": "Informa Markets (WHX Miami, CPHI Americas)",
+      "Country": "USA",
+      "Deals": [
+        "recFtCIEtcVTgYJ5j",
+        "rec4AjJRQkuwbalIH"
+      ],
+      "Email": "kathryn.scott@informa.com",
+      "First_Name": "Kate",
+      "Last_Contacted": "2026-11-11",
+      "Last_Name": "Scott",
+      "Name": "Kate Scott",
+      "Next_Action": "Esperar contrato CPHI corregido; al firmar, proponer WHX Miami 2027 con el mismo esquema.",
+      "Next_Action_Date": "2026-11-16",
+      "Notes": "CONTACTO DE ALIANZAS (no outreach comercial automático). Decisora: maneja WHX Miami (ex FIME, 16-18 jun 2027) y CPHI Americas (25-26 may 2027, Miami Beach).\n- 08-11: propuesta de paquete a Matthew Ramirez y Luciana Perdomo; respondió Kate.\n- 10-11: Kate manda acuerdo de canje CPHI Americas (HealthSignals.docx) a partnerships@.\n- 11-11: Fer acepta y pide 4 ajustes antes de firmar (fecha de firma, dirección 407 Lincoln Rd, fechas de entrega: banner 27-04 a 26-05-2027, Brief último número pre-evento, 3 posts LinkedIn; sin facturas cruzadas).\nHilo Gmail editor@: 'Barter for CPHI Americas'.",
+      "Preferred_Channel": "Email",
+      "Region": "USA",
+      "Segment": "Other",
+      "Source": "Event",
+      "Source_URL": "https://www.cphi.com/americas/",
+      "Stage": "Engaged",
+      "Title": "Vice President, Events | Healthcare | South Florida Ventures"
+    },
+    "id": "rechtC5oF9ZxvrAGD"
+  },
+  {
     "createdTime": "2026-10-18T17:41:24.000Z",
     "fields": {
       "Approval": "Pending Review",
@@ -10563,11 +10782,12 @@
       "Country": "Brazil",
       "Email": "congresso@unidas.org.br",
       "Name": "29º Congresso Internacional UNIDAS",
-      "Next_Action": "CERRADO 16-10: Michele confirmó que no hay transmisión y que las entrevistas son solo presenciales. Retomar para el 30º Congreso (2027) con más antelación.",
+      "Next_Action": "Cerrado: rechazó el canje el 16-10 (Michele Scarasati, michele@unidas.org.br; no hacen alianzas con esas contrapartidas). Evento solo presencial; entrevistas solo en sitio.",
       "Next_Action_Date": "2026-10-15",
       "Notes": "Email enviado 15-10 (PT). 16-10: RECHAZADO por Michele Scarasati (Coordenadora Institucional, michele@unidas.org.br, cc rose@ e institucional@): 'a UNIDAS não realiza parceria com as contrapartidas propostas'. Evento 28-30 out, Recife Expo Center.",
       "Region": "LATAM",
-      "Source": "Event"
+      "Source": "Event",
+      "Stage": "Lost"
     },
     "id": "recju4TYPV9DOl0rl"
   },
@@ -11600,11 +11820,12 @@
       "Country": "Brazil",
       "Email": "medicinadaobesidade@gmail.com",
       "Name": "Congresso SBEMO 2026 (Medicina da Obesidade)",
-      "Next_Action": "Seguimiento 17-10 por WhatsApp (+55 48) 99135 7951",
+      "Next_Action": "Cerrado 11-11: sin respuesta al email del 15-10; no se hizo seguimiento.",
       "Next_Action_Date": "2026-10-15",
       "Notes": "Email enviado 15-10 (PT). Evento 29-31 out, São Paulo (fecha de fuente secundaria). Banner 22-31 out; archivos pedidos para 20-oct.",
       "Region": "LATAM",
-      "Source": "Event"
+      "Source": "Event",
+      "Stage": "Lost"
     },
     "id": "recpJT22kTEM27oyk"
   },
@@ -12242,15 +12463,27 @@
   {
     "createdTime": "2026-10-15T10:32:30.000Z",
     "fields": {
-      "Company": "FISA / GL Events",
+      "Approval": "Hold",
+      "Company": "FISA / GL Events Chile (ExpoSalud)",
       "Country": "Chile",
-      "Email": "info@expo-salud.cl",
-      "Name": "ExpoSalud 2026",
-      "Next_Action": "FIRMADO 30-10 (convenio FISA S.A., firmado por Víctor García y Fernando Pafumi; PDF enviado a Camilo el 30-10 en el hilo 'Propuesta de mediapartners'). Banner ACTIVO desde 30-10 (ad 35997 'ExpoSalud 2026 — Media partner', placement 35998, media 36619 728x90 y 36623 300x250, link compra-tu-ticket con UTM de FISA), vence 13-11 06:00 ET. Pendiente nuestro: mención en Brief Issue 03 antes del 12-11. Pendiente FISA: 50 códigos de cortesía, logo en sitio, post en redes, acceso prensa, logo en pantallas. Revistero: avisado que somos 100% digitales (ofrecida tarjeta QR). Recordatorios en calendario 3-11, 4-11, 13-11. Detalle: doc del proyecto claude/exposalud-2026-media-partner.md.",
-      "Next_Action_Date": "2026-10-15",
-      "Notes": "ACEPTADO 26-10 por Camilo Encina (Periodista FISA, cencina@fisa.cl, +56 9 8725 7649) en términos reducidos: banner HS 3-12 nov + mención en Brief; ellos logo en medios aliados + post en redes. Fer respondió 26-10 con logo 400x200, texto, link UTM y sugerencia de post (entrevista García Escorza). Evento 10-12 nov, Espacio Riesco.",
+      "Deals": [
+        "rechr1vmHPdatqISf"
+      ],
+      "Email": "cencina@fisa.cl",
+      "First_Name": "Camilo",
+      "Last_Contacted": "2026-11-08",
+      "Last_Name": "Encina",
+      "Name": "Camilo Encina",
+      "Next_Action": "13-11: confirmar banner apagado, mail de cierre y pedir post en redes post-feria. Luego: renovar media partner ExpoSalud 2027.",
+      "Next_Action_Date": "2026-11-13",
+      "Notes": "CONTACTO DE ALIANZAS (no outreach comercial automático; por eso Approval=Hold).\nTel. +56 9 8725 7649. Oficina: Av. Nueva Costanera 4040, zócalo, Vitacura, Santiago. Info general feria: info@expo-salud.cl, +56 2 2530 7000.\nFISA organiza también otras ferias (ej. Expo Corma): canal para futuros media partners en Chile.\n\nHISTORIAL ExpoSalud 2026 (10-12 nov, Espacio Riesco):\n- 15-10 primer email; 26-10 acepta en términos reducidos; 30-10 convenio FIRMADO (FISA S.A. – HealthSignals LLC).\n- HS cumplió: banner 3-12 nov (verificado en vivo 11-11) + mención en Brief Issue 03 (03-11, 0 clics).\n- FISA: logo en expo-salud.cl CONFIRMADO por Fer 11-11 (no aparece en el texto que lee el fetch: va en imagen); cortesías llegaron tarde (11-11), Fer decidió no usarlas; post en redes PENDIENTE; revistero no aplica.\n- Aprendizaje: cumplen tarde lo que no tiene fecha en el contrato. Próximo convenio: fecha límite por entregable.\nDetalle: doc del proyecto claude/exposalud-2026-media-partner.md. Hilo Gmail editor@: 'Propuesta de mediapartners'.",
+      "Preferred_Channel": "Email",
       "Region": "LATAM",
-      "Source": "Event"
+      "Segment": "Other",
+      "Source": "Event",
+      "Source_URL": "https://www.expo-salud.cl/",
+      "Stage": "Won",
+      "Title": "Periodista, comunicaciones ExpoSalud"
     },
     "id": "recs4ntHi8HRmhALX"
   },
@@ -13047,6 +13280,25 @@
       "Stage": "New"
     },
     "id": "recwEpAFR4iZHShGt"
+  },
+  {
+    "createdTime": "2026-11-12T00:17:56.000Z",
+    "fields": {
+      "Approval": "Pending Review",
+      "Company": "Difem Laboratorios",
+      "Country": "Chile",
+      "ICP_Fit": "B",
+      "Name": "Difem Laboratorios — marketing (contacto a buscar)",
+      "Next_Action": "Buscar en Apollo (web) gerente de marketing o asuntos corporativos",
+      "Notes": "Expositor ExpoSalud 2026 (stand PY-27). Laboratorio farmacéutico chileno. Gancho: HealthSignals fue media partner de ExpoSalud 2026.",
+      "Preferred_Channel": "Email",
+      "Region": "LATAM",
+      "Segment": "Pharma",
+      "Source": "Event",
+      "Source_URL": "https://www.expo-salud.cl/listado-expositores-2026/",
+      "Stage": "New"
+    },
+    "id": "recwGK5q14nbfjNmH"
   },
   {
     "createdTime": "2026-10-17T18:13:32.000Z",

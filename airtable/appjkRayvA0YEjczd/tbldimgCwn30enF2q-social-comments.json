@@ -21,6 +21,26 @@
     "id": "rec0JPLipGXXx1oK7"
   },
   {
+    "createdTime": "2026-11-12T13:56:59.000Z",
+    "fields": {
+      "Account": "PAHO",
+      "Comment": "Participating countries are expected to save 30% to 70% on molecular human papillomavirus (HPV) tests under these first-ever regional access agreements through PAHO's Regional Revolving Funds. With 16 countries and territories having introduced HPV testing, and coverage limited by the high cost of the tests, what will matter most for ministries scaling up: reinvesting the savings, or laboratory and sample-collection capacity? We covered how the same mechanism is being used for long-acting injectable prevention of human immunodeficiency virus:\nhttps://healthsignals.news/brazil-lenacapavir-cabotegravir-hiv-prevention-price/?utm_source=linkedin&utm_medium=comment&utm_campaign=paho #HealthSignals",
+      "Comment Style": [
+        "Dato",
+        "Pregunta",
+        "Angulo acceso"
+      ],
+      "Date": "2026-11-12",
+      "Fer Edits": "post de LinkedIn a ubicar al publicar (corrida sin navegador; Post URL = nota web PAHO). Alternativa a la fila PAHO menopausia (recCaEmTtVCmslfoY? ver Proposed del 11-11): máx. 1 por cuenta por día. revisión adversarial (opus, 12-11): saqué el encuadre 'no publica precios / transparencia' (se leía como crítica a PAHO); 'PAHO expects' -> 'participating countries are expected'; 'in screening' no está en la fuente; HPV/HIV expandidas.",
+      "HS Link": "https://healthsignals.news/brazil-lenacapavir-cabotegravir-hiv-prevention-price/",
+      "Network": "LinkedIn",
+      "Post Summary": "OPS cierra los primeros acuerdos regionales de acceso a pruebas moleculares de VPH vía Fondos Rotatorios; ahorro esperado 30-70%",
+      "Post URL": "https://www.paho.org/en/news/11-11-2026-paho-secures-first-ever-region-wide-access-agreements-hpv-testing-across-latin",
+      "Status": "Proposed"
+    },
+    "id": "rec1UO1ivU5qgK8Qy"
+  },
+  {
     "createdTime": "2026-10-17T18:02:50.000Z",
     "fields": {
       "Account": "FIFARMA",
@@ -115,12 +135,12 @@
         "Angulo acceso"
       ],
       "Date": "2026-11-10",
-      "Fer Edits": "post de LinkedIn a ubicar al publicar (corrida sin navegador; fuente = comunicado oficial gov.br/anvisa). revisión adversarial (opus, 10-11): SUS condicionado ('se houver incorporação') porque la semaglutida no está incorporada. Ojo: el subtítulo del comunicado dice 'obesidade' pero el cuerpo dice DM2; seguimos el cuerpo.",
+      "Fer Edits": "post de LinkedIn a ubicar al publicar (corrida sin navegador; fuente = comunicado oficial gov.br/anvisa). revisión adversarial (opus, 10-11): SUS condicionado ('se houver incorporação') porque la semaglutida no está incorporada. Ojo: el subtítulo del comunicado dice 'obesidade' pero el cuerpo dice DM2; seguimos el cuerpo.\n2026-11-12: aprobado por Fer en el chat (ok comentarios 1 2 3 4), sin cambios.",
       "HS Link": "https://healthsignals.news/anvisa-clears-five-semaglutide-pens-as-generic-race-heats-up/",
       "Network": "LinkedIn",
       "Post Summary": "Anvisa (10-11): registra genérico de semaglutida y similar Loryvia (DM2), 22 canetas GLP-1 registradas en 2026",
       "Post URL": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-registra-duas-novas-canetas-de-semaglutida",
-      "Status": "Proposed"
+      "Status": "Approved"
     },
     "id": "recELkeqP1Cl3no2J"
   },
@@ -303,12 +323,12 @@
         "Angulo LatAm"
       ],
       "Date": "2026-11-10",
-      "Fer Edits": "post de LinkedIn a ubicar al publicar (corrida sin navegador; fuente = comunicado oficial FDA). revisión adversarial (opus, 10-11): la advertencia es de clase, pregunta reformulada (no criterio farmacoeconómico entre moléculas); 'FDA is requiring' en vez de 'Communication requires'; agregado '15 probable events'; CCSS 'provide' no 'cover'. Chequear antes de publicar que la CCSS no anunció su decisión.",
+      "Fer Edits": "post de LinkedIn a ubicar al publicar (corrida sin navegador; fuente = comunicado oficial FDA). revisión adversarial (opus, 10-11): la advertencia es de clase, pregunta reformulada (no criterio farmacoeconómico entre moléculas); 'FDA is requiring' en vez de 'Communication requires'; agregado '15 probable events'; CCSS 'provide' no 'cover'. Chequear antes de publicar que la CCSS no anunció su decisión.\n2026-11-12: aprobado por Fer en el chat (ok comentarios 1 2 3 4), sin cambios. Chequeo CCSS 12-11: búsqueda web sin anuncio de decisión; nota HS del 02-11 dice que la CCSS no definió molécula.",
       "HS Link": "https://healthsignals.news/costa-rica-ccss-glp-1-coverage-diabetes-obesity/",
       "Network": "LinkedIn",
       "Post Summary": "FDA DSC (09-11): todos los GLP-1 RA agregan riesgo potencial de NAION en Warnings and Precautions; 6.4 vs 3.8/100k PY",
       "Post URL": "https://www.fda.gov/drugs/drug-safety-communications/fda-requires-safety-labeling-changes-glucagon-peptide-1-receptor-agonists-glp-1-ras-due-potential",
-      "Status": "Proposed"
+      "Status": "Approved"
     },
     "id": "recQfkOWblm6fISIP"
   },
@@ -415,12 +435,12 @@
         "Angulo LatAm"
       ],
       "Date": "2026-11-11",
-      "Fer Edits": "post de LinkedIn a ubicar al publicar (corrida sin navegador; fuente = comunicado FDA). revisión adversarial (opus, 11-11): 'first ... approved in the U.S.' (China NMPA lo aprobó el 26-10); agregado 'mild-to-moderate'; 'not approved for AF' en vez de 'excludes'; pregunta reformulada (se suma a la antiagregación, no la reemplaza); link a nota PAHO trastornos neurológicos. Sería el 3er comentario FDA de la semana (tope).",
+      "Fer Edits": "post de LinkedIn a ubicar al publicar (corrida sin navegador; fuente = comunicado FDA). revisión adversarial (opus, 11-11): 'first ... approved in the U.S.' (China NMPA lo aprobó el 26-10); agregado 'mild-to-moderate'; 'not approved for AF' en vez de 'excludes'; pregunta reformulada (se suma a la antiagregación, no la reemplaza); link a nota PAHO trastornos neurológicos. Sería el 3er comentario FDA de la semana (tope).\n2026-11-12: aprobado por Fer en el chat (ok comentarios 1 2 3 4), sin cambios. Publicar en un día distinto al de FDA NAION (máx. 1 por cuenta por día).",
       "HS Link": "https://healthsignals.news/paho-study-470-million-in-the-americas-live-with-a-neurological-disorder/",
       "Network": "LinkedIn",
       "Post Summary": "FDA aprueba Sunharbo (asundexian, Bayer), primer inhibidor del factor XIa en EE.UU., prevención de ACV tras ACV/TIA (09-11)",
       "Post URL": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-factor-xla-inhibitor-help-prevent-stroke-certain-adults-high-risk",
-      "Status": "Proposed"
+      "Status": "Approved"
     },
     "id": "recWAcZWymwwMDqFj"
   },
@@ -732,12 +752,12 @@
         "Angulo acceso"
       ],
       "Date": "2026-11-09",
-      "Fer Edits": "post de LinkedIn a ubicar al publicar (corrida sin navegador; fuente = comunicado oficial). revisión adversarial (opus, 09-11): nombre y origen correctos de la línea de crédito (Res. 2445 MinSalud, recursos ADRES); pregunta anclada en el objetivo declarado por AFIDRO en vez de insinuar que los fondos no llegan.",
+      "Fer Edits": "post de LinkedIn a ubicar al publicar (corrida sin navegador; fuente = comunicado oficial). revisión adversarial (opus, 09-11): nombre y origen correctos de la línea de crédito (Res. 2445 MinSalud, recursos ADRES); pregunta anclada en el objetivo declarado por AFIDRO en vez de insinuar que los fondos no llegan.\n2026-11-12: descartado por Fer en el chat ('afidro descartar'); post del 06-11 ya superaba 5 días.",
       "HS Link": "https://healthsignals.news/adres-credit-line-lets-colombias-eps-clear-drug-and-procedure-debts/",
       "Network": "LinkedIn",
       "Post Summary": "AFIDRO (06-11): 9 alternativas de financiación para la salud, potencial estimado >$5 billones (estimación, no recaudo)",
       "Post URL": "https://afidro.org/2026/11/06/afidro-plantea-9-alternativas-de-financiacion-para-la-salud-con-un-potencial-estimado-superior-a-los-5-billones/",
-      "Status": "Proposed"
+      "Status": "Rejected"
     },
     "id": "recydo1xeippdgLUX"
   },

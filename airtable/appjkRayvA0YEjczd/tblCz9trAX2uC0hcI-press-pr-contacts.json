@@ -278,11 +278,11 @@
     "fields": {
       "Contact_URL": "https://www.bayer.com/en/media/media-contacts",
       "Country": "México",
-      "Email": "Media-requests-mexico@bayer.com",
-      "Notes": "Inbox oficial de prensa México en la página global.",
+      "Email": "relaciones.publicas@bayer.com",
+      "Notes": "Bayer México. 11-11-2026: Media-requests-mexico@bayer.com REBOTÓ (dirección inexistente). Reemplazada por relaciones.publicas@bayer.com, publicada en la página oficial de contacto de Bayer México. Pedido de inclusión en lista de medios pendiente de reenviar.",
       "Organization": "Bayer",
       "Role": "Media inquiries Mexico",
-      "Source_URL": "https://www.bayer.com/en/media/media-contacts",
+      "Source_URL": "https://www.bayer.com/es-mx/m%C3%A9xico/contacto",
       "Status": "New",
       "Type": "Pharma media office"
     },
@@ -2584,6 +2584,19 @@
     "id": "recQHdbb6huPjAxUR"
   },
   {
+    "createdTime": "2026-11-12T01:30:19.000Z",
+    "fields": {
+      "Country": "Colombia",
+      "Email": "diana@seisgradosc.mx",
+      "Name": "Diana Vargas",
+      "Notes": "Tel +57 310 8075477; alternativa vanessa@seisgradosc.mx (mismo comunicado, jun-2025). Contacto interno BMS: Alonso Zepeda, alonso.zepeda@bms.com. 11-11-2026: andrea@seisgradosc.mx (Andrea Bohórquez, comunicado mar-2025) REBOTÓ (550 5.4.1, buzón inexistente). Pedido de inclusión en lista de medios pendiente de reenviar.",
+      "Organization": "Bristol Myers Squibb Colombia (agencia Seis Grados)",
+      "Role": "Contacto de prensa en Colombia (agencia)",
+      "Source_URL": "https://www.bms.com/co/media/press-release-listing/202205231.html"
+    },
+    "id": "recQP7VG9p1gM1oNj"
+  },
+  {
     "createdTime": "2026-08-11T14:36:45.000Z",
     "fields": {
       "Contact_URL": "https://fleishmanhillard.com/office/fleishmanhillard-mexico-city/",
@@ -3070,7 +3083,7 @@
       "Fecha última nota": "2026-10-05",
       "Idioma": "ES",
       "Name": "Silvia Stang",
-      "Notes": "Prepagas, DNU 70, SSS, clínicas y PAMI. X @silviastang.\n2026-10-22: primer contacto, pitch Voices Pichon-Riviere (msg 1a163aa497736f8d).\n2026-11-10: Fer aprobó un único recordatorio; borrador creado en Gmail (respuesta en el mismo hilo), pendiente de envío. Si no responde al 17-11, cerrar.",
+      "Notes": "Prepagas, DNU 70, SSS, clínicas y PAMI. X @silviastang.\n2026-10-22: primer contacto, pitch Voices Pichon-Riviere (msg 1a163aa497736f8d).\n2026-11-10: Fer aprobó un único recordatorio; borrador creado en Gmail (respuesta en el mismo hilo), pendiente de envío. Si no responde al 17-11, cerrar.\n2026-11-12: Fer canceló el recordatorio en el chat ('olvidá los recordatorios de Argentina'); borrador r2367293846310530129 borrado. No se manda recordatorio.",
       "Organization": "La Nación (Argentina)",
       "Role": "Editora de Economía",
       "Source_URL": "https://www.lanacion.com.ar/autor/silvia-stang-183/",
@@ -3988,7 +4001,7 @@
       "Fecha última nota": "2026-10-02",
       "Idioma": "ES",
       "Name": "Pablo Sigal",
-      "Notes": "El que más sigue el tema en Clarín: ANEFiTS, alto precio, prepagas, GLP-1. Email al pie de la nota.\n2026-10-17: primer contacto enviado (tanda Argentina, nota ANMAT Trifarma/Ugal).\n2026-10-22: pitch Voices Pichon-Riviere enviado (msg 1a163a93554473b7).\n2026-11-10: Fer aprobó un único recordatorio; borrador creado en Gmail (respuesta en el mismo hilo), pendiente de envío. Si no responde al 17-11, cerrar.",
+      "Notes": "El que más sigue el tema en Clarín: ANEFiTS, alto precio, prepagas, GLP-1. Email al pie de la nota.\n2026-10-17: primer contacto enviado (tanda Argentina, nota ANMAT Trifarma/Ugal).\n2026-10-22: pitch Voices Pichon-Riviere enviado (msg 1a163a93554473b7).\n2026-11-10: Fer aprobó un único recordatorio; borrador creado en Gmail (respuesta en el mismo hilo), pendiente de envío. Si no responde al 17-11, cerrar.\n2026-11-12: Fer canceló el recordatorio en el chat ('olvidá los recordatorios de Argentina'); borrador r-962634394897030367 borrado. No se manda recordatorio.",
       "Organization": "Clarín",
       "Role": "Editor jefe, Sociedad",
       "Source_URL": "https://www.clarin.com/sociedad/va-salir-confirman-avance-cambio-cobertura-medicamentos-fuerte-impacto_0_RCGLtjNfvu.html",
@@ -5131,7 +5144,7 @@
       "Fecha última nota": "2026-09-29",
       "Idioma": "ES",
       "Name": "Francisca Soto",
-      "Notes": "17-10-2026: email publicado verbatim en página de autor CIPER. Investigación (presupuesto, programas sociales); salud ocasional, nota listas de espera 29-09-2026.\n2026-10-19: primer contacto enviado (mail difusión Voices García Escorza, asunto 'Ex jefe de ANAMED propone separar la agencia del ISP (entrevista)').\n2026-11-03: recordatorio en borrador (hilo del 19-10; vencía el 26-10).\n2026-11-10: recordatorio enviado (visto en Gmail enviados, hilo del 19-10, 14:29 UTC; sin OK registrado en esta tarea, ver alerta).",
+      "Notes": "17-10-2026: email publicado verbatim en página de autor CIPER. Investigación (presupuesto, programas sociales); salud ocasional, nota listas de espera 29-09-2026.\n2026-10-19: primer contacto enviado (mail difusión Voices García Escorza, asunto 'Ex jefe de ANAMED propone separar la agencia del ISP (entrevista)').\n2026-11-03: recordatorio en borrador (hilo del 19-10; vencía el 26-10).\n2026-11-10: recordatorio enviado (visto en Gmail enviados, hilo del 19-10, 14:29 UTC; sin OK registrado en esta tarea, ver alerta).\n2026-11-12: Fer dijo en el chat que no lo recuerda pero que seguramente lo mandó él. Alerta cerrada. Recordatorio único ya usado: no volver a escribirle por este tema.",
       "Organization": "CIPER Chile",
       "Role": "Periodista",
       "Source_URL": "https://www.ciperchile.cl/author/francisca-soto/",

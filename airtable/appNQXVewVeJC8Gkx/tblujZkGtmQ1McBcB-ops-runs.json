@@ -117,6 +117,19 @@
     "id": "rec7IhtBok3vDVicI"
   },
   {
+    "createdTime": "2026-11-12T13:57:45.000Z",
+    "fields": {
+      "Channel": "voices",
+      "Date": "2026-11-12",
+      "Items_Pending": 0,
+      "Notes": "Jueves: solo paso 0. Programados: 9 revisados, sin problemas (Levy 17-11, Llorca 19-11, 7 pedidos prensa BR). Sin invitaciones LinkedIn hoy.",
+      "Run": "manana",
+      "Run_Key": "2026-11-12|manana|voices",
+      "Status": "sin novedades"
+    },
+    "id": "rec9w7nfnL3o8ggbI"
+  },
+  {
     "createdTime": "2026-10-23T12:57:53.000Z",
     "fields": {
       "Channel": "grupos",
@@ -128,6 +141,19 @@
       "Status": "ok"
     },
     "id": "recA8XNydkJ0o2jRW"
+  },
+  {
+    "createdTime": "2026-11-12T13:57:45.000Z",
+    "fields": {
+      "Channel": "sponsors",
+      "Date": "2026-11-12",
+      "Items_Pending": 3,
+      "Notes": "Candidatos 12-11 (6):\nNicola Romanello | https://cl.linkedin.com/in/nicolaromanello\nEmanuel Lima Abud | https://cl.linkedin.com/in/emanuellimaabud\nPatricio Jaureguiberry | https://cl.linkedin.com/in/patriciojau\nNatalia Pereira | https://co.linkedin.com/in/nataliapereiravelez\nDiego Albuixech | https://cl.linkedin.com/in/diego-albuixech-910a791\nJohanna Ballesteros | https://co.linkedin.com/in/johannaballesteros\nInvitaciones confirmadas por Fer: 0. Aceptaciones: n/d. Pendientes estimadas: 0. Corridas seguidas con propuesta sin OK: 3 (10-11, 11-11, 12-11). Pereira/Albuixech/Ballesteros: URL no abierto.",
+      "Run": "manana",
+      "Run_Key": "2026-11-12|manana|sponsors",
+      "Status": "ok"
+    },
+    "id": "recAEQK6YfPaN87Po"
   },
   {
     "createdTime": "2026-10-23T12:57:53.000Z",
@@ -455,6 +481,19 @@
     "id": "recSiHGVBV6reFhln"
   },
   {
+    "createdTime": "2026-11-12T13:57:45.000Z",
+    "fields": {
+      "Channel": "socios",
+      "Date": "2026-11-12",
+      "Items_Pending": 1,
+      "Notes": "T4 (Despres, McCollister) con revisión adversarial aplicada, espera OK tanda T4 desde 09-11. 4 pasaron a Sent, 12 Follow-up sent registrados. Rebotes ALAD e Idegys -> DMs a mano. Altas report_diabetes 0.",
+      "Run": "manana",
+      "Run_Key": "2026-11-12|manana|socios",
+      "Status": "ok"
+    },
+    "id": "recTHqeAN6zH5LsuW"
+  },
+  {
     "createdTime": "2026-11-06T13:59:12.000Z",
     "fields": {
       "Channel": "sponsors",
@@ -689,6 +728,19 @@
     "id": "recaAzgeI6EKh4pTU"
   },
   {
+    "createdTime": "2026-11-12T13:57:45.000Z",
+    "fields": {
+      "Channel": "prensa",
+      "Date": "2026-11-12",
+      "Items_Pending": 0,
+      "Notes": "Sin respuestas, rebotes ni bajas. Pregunta a Fer por LinkedIn Canales/Mathieu.",
+      "Run": "manana",
+      "Run_Key": "2026-11-12|manana|prensa",
+      "Status": "sin novedades"
+    },
+    "id": "recchDdXArTIT7JX8"
+  },
+  {
     "createdTime": "2026-10-26T13:03:31.000Z",
     "fields": {
       "Channel": "voices",
@@ -791,6 +843,19 @@
       "Status": "sin novedades"
     },
     "id": "recgP8K8TEGbNOqse"
+  },
+  {
+    "createdTime": "2026-11-12T13:57:45.000Z",
+    "fields": {
+      "Channel": "grupos",
+      "Date": "2026-11-12",
+      "Items_Pending": 1,
+      "Notes": "Global Health Economics Network, nivel A, nota DOL/PBM (02-11), brief_issue02. Sitio sin notas nuevas desde 02-11.",
+      "Run": "manana",
+      "Run_Key": "2026-11-12|manana|grupos",
+      "Status": "ok"
+    },
+    "id": "recgPNks8BXfVX2jI"
   },
   {
     "createdTime": "2026-11-04T18:48:12.000Z",
@@ -934,6 +999,19 @@
       "Status": "error"
     },
     "id": "reclCSbsdlrCx4oqc"
+  },
+  {
+    "createdTime": "2026-11-12T13:57:45.000Z",
+    "fields": {
+      "Channel": "comentarios",
+      "Date": "2026-11-12",
+      "Items_Pending": 2,
+      "Notes": "Cola: 3 Approved para publicar a mano (Anvisa, FDA NAION, FDA Sunharbo). Proposed: PAHO menopausia (11-11) y PAHO HPV (rec1UO1ivU5qgK8Qy, revisión adversarial por el principal: subagente sin Agent). Duneton descartado (deja Unitaid). Exa caído, CMS no cargó.",
+      "Run": "manana",
+      "Run_Key": "2026-11-12|manana|comentarios",
+      "Status": "ok"
+    },
+    "id": "reclT2zoBPhUBMl4A"
   },
   {
     "createdTime": "2026-11-10T13:57:12.000Z",

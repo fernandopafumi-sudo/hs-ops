@@ -177,11 +177,11 @@
   },
   {
     "data": {
-      "notes": "hold: r1 HOLD (Valor con paywall: acuerdo, precios CMED y 6 citas sin verificar), sin r2. 15 hallazgos, incl. lede (fecha=publicacion, indicacion nivo+ipi mas estrecha) y nombre Bristol Myers Squibb. Drive 1XQp5OEFPl_v5jkV6gOIEobArKxGHnCgG",
-      "run_id": "20261106-0658",
-      "state": "hold",
+      "notes": "editado despues del gate",
+      "run_id": "20261112-0658",
+      "state": "pending",
       "title": "BMS signs first oncology risk-sharing deal in Brazil with A.C. Camargo",
-      "updated_at": "2026-11-06T07:05:17-05:00",
+      "updated_at": "2026-11-12T06:58:57-05:00",
       "wp_modified": "2026-11-06T06:49:09"
     },
     "key": "36900"
@@ -221,23 +221,47 @@
   },
   {
     "data": {
-      "notes": "- sin fallos de acceso, aprobaciones ni bloqueos\n- aviso: REPORT-20261009-0659 y REPORT-20261001-0658 siguen 'iniciada, sin terminar' (corridas viejas caidas, ya reportadas)\n- run_id 20261012-1341\n- borradores vistos 12 (mismos que en la corrida de 06:59); excluidos 5 (Weekly 36411, 36146, 35939, 35772; post 36041); skipped backlog 7 sin cambios (wp_modified igual); sin locks in_review; pendientes para manana 0\n- 0 borradores pendientes, no se reviso ninguno\n- limpieza: nada que borrar (carpeta de Drive vacia; sin REPORT ni registros de mas de 30 dias)\nPara aplicar y publicar, decile a Claude en un chat: aplicar gate <ID>. La sesión que aplique relee el post, rechaza si su modified es distinto del wp_modified del archivo, aplica los reemplazos con código, verifica el diff y publica solo con OK de Fer.",
-      "run_id": "20261012-1341",
-      "state": "passed",
-      "title": "REPORT",
-      "updated_at": "2026-10-12T13:41:28-04:00"
+      "notes": null,
+      "run_id": "20261112-0658",
+      "state": "pending",
+      "title": "Jaime Sepulveda Amor: Money is a necessary but not a sufficient condition",
+      "updated_at": "2026-11-12T06:58:57-05:00",
+      "wp_modified": "2026-11-11T18:27:18"
     },
-    "key": "REPORT-20261012-1341"
+    "key": "36926"
   },
   {
     "data": {
-      "notes": "- sin fallos de acceso, aprobaciones ni bloqueos\n- aviso: REPORT-20261009-0659 y REPORT-20261001-0658 siguen 'iniciada, sin terminar' (corridas viejas caidas, ya reportadas)\n- run_id 20261013-0658\n- borradores vistos 13; excluidos 5 (Weekly 36411, 36146, 35939, 35772; post 36041); skipped backlog 7 sin cambios; revisados 1 (nuevo); pendientes para manana 0\n- 36441 Colombia's Consejo de Estado Orders New Drug Policy Framework: needs_edit\n  - 8 correcciones de hecho (mas de 5, y 2 caen en el lead); titulo sin tocar; todas aplicables con 1 coincidencia, diff OK; sin ronda 2\n  - lead: es un fallo de 2da instancia (17-09) que confirma, con modificaciones, el del Tribunal Administrativo de Cundinamarca del 12-12-2024\n  - lead y Regulators: INVIMA no es 'required participant'; esta en el nucleo de la mesa con MinSalud (que la preside) y la CNPMDM\n  - recuadro: se borra 'the most recent regulatory action before the court order' (la Circular 23 salio el 16-07-2026)\n  - timeline: nombre de la CNPMDM inventado -> el oficial; Circular 18 = metodologia de control directo (no 'supply'); Auto 140/2019 = seguimiento de la orden 24 de la T-760 (sobrecostos de medicamentos)\n  - borrado: 'whether INVIMA's participation is advisory or decision-making' (What to Watch) y la frase del recuadro\n  - sin verificar: cita entre comillas de la Ley 1751, 'next scheduled review', Decreto 433 como 'prerequisite' (silencio positivo a 180 dias), produccion local no operacionalizada, fecha del kicker 12-10 (el fallo es del 17-09)\n  - postura: no publicar tal cual; publicable tras aplicar los 8 y sumar 3 URLs a hs-sources. Lo ideal es correr la ronda 2 despues de aplicar\n  - Drive: https://drive.google.com/file/d/1xs84QNj_8634ZbguXaebAyyCbmMvt-D0/view\n- limpieza: nada que borrar (Drive solo tiene el archivo vigente; sin REPORT ni registros de mas de 30 dias)\nPara aplicar y publicar, decile a Claude en un chat: aplicar gate <ID>. La sesión que aplique relee el post, rechaza si su modified es distinto del wp_modified del archivo, aplica los reemplazos con código, verifica el diff y publica solo con OK de Fer.",
-      "run_id": "20261013-0658",
+      "notes": "passed: 2 corr de hecho (r1 fallo 25-sep, se anuncio 26-sep; r2 'Nearly two of every three', sin re-verificar). Ojo: comunicado 309 solo via pubt.io. Drive 1RW5Qd53zCT3wSzFYGXe78rqFh2gdsCg-",
+      "run_id": "20261112-0658",
       "state": "passed",
-      "title": "REPORT",
-      "updated_at": "2026-10-13T07:06:19-04:00"
+      "title": "Mexico's third consolidated tender awards 673 codes, leaving a fourth round to close 2027-2028 supply",
+      "updated_at": "2026-11-12T07:08:04-05:00",
+      "wp_modified": "2026-11-11T20:10:32"
     },
-    "key": "REPORT-20261013-0658"
+    "key": "36929"
+  },
+  {
+    "data": {
+      "notes": "needs_edit: 1 corr de hecho en el lede (licitaciones de febrero son previstas, sin fecha confirmada), sin r2. Drive 1H63_57PcddMHk7JMVhnnsoLpGqSL3cV9",
+      "run_id": "20261112-0658",
+      "state": "needs_edit",
+      "title": "Panama's SINPREM approves its statute; Minsa and CSS to table reference-price lists in January",
+      "updated_at": "2026-11-12T07:08:04-05:00",
+      "wp_modified": "2026-11-11T20:11:01"
+    },
+    "key": "36930"
+  },
+  {
+    "data": {
+      "notes": "passed: 2 corr de hecho (r1 plumas de peso 0.68/2.27/3.2 mg/mL, no 'lower-concentration'; r2 'mainly' en distribucion, sin re-verificar). Drive 1Ifd6Hp4IeIq3lBBStPSmz30-idO477QT",
+      "run_id": "20261112-0658",
+      "state": "passed",
+      "title": "Novo Nordisk launches Wegovy tablets in Mexico as public formulary updates semaglutide entry",
+      "updated_at": "2026-11-12T07:08:04-05:00",
+      "wp_modified": "2026-11-11T20:11:44"
+    },
+    "key": "36931"
   },
   {
     "data": {
@@ -542,5 +566,16 @@
       "wp_modified": null
     },
     "key": "REPORT-20261111-0659"
+  },
+  {
+    "data": {
+      "notes": "- sin fallos de acceso, aprobaciones pedidas ni bloqueos; ningun post en tercer fallo\n- run_id 20261112-0658\n- borradores vistos 12; excluidos 0; skipped backlog 0 nuevos (36868 sigue skipped por Fer); sin cambios 7 (36924, 36920, 36905, 36896, 36891, 36886, 36868)\n- nuevos/reabiertos: 36931, 36930, 36929, 36926 nuevos; 36900 editado despues del gate (hold viejo) -> pending, su archivo viejo de Drive a la papelera\n- pendientes para manana: 2 (36900 BMS/A.C.Camargo, 36926 Sepulveda Amor)\n- aviso: los registros 36600, 36615 y 36636 siguen en pending pero ya no son borradores; se borran solos a los 30 dias\n- 36931 Wegovy tablets Mexico: passed, 2 corr de hecho. r1: \"three lower-concentration pens\" -> \"three pens for weight management (0.68, 2.27 and 3.2 mg/mL)\" (2 de 3 son mas concentradas que la de diabetes, N+/DOF). r2 (sin re-verificar): \"Distribution will run through\" -> \"run mainly through\" (Expansion). Nada borrado. Sin verificar: firma 30-10 de Clark Peralta (solo N+), La Jornada como fuente de iptacopan/tucatinib, \"ninguna institucion anuncio compras\". Postura: publicar tras aplicar. Drive https://drive.google.com/file/d/1Ifd6Hp4IeIq3lBBStPSmz30-idO477QT/view\n- 36930 SINPREM Panama: needs_edit, 1 corr de hecho en el lede: \"which begin in February\" -> \"which are expected to begin in February\" (Istmo Hoy: previstas, sin fecha confirmada). Sin r2. Sin verificar: comunicado CSS no abrio (fecha 9-nov y cita de Young solo via Istmo Hoy). Postura: publicar despues de corregir el lede y pasarlo por el gate de nuevo. Drive https://drive.google.com/file/d/1H63_57PcddMHk7JMVhnnsoLpGqSL3cV9/view\n- 36929 Mexico 3a licitacion consolidada: passed, 2 corr de hecho. r1: \"concluded on September 26 with\" -> \"was reported concluded on September 26, with\" (fallo 25-sep segun El CEO; la cita es parafrasis). r2 (sin re-verificar): \"Two of every three\" -> \"Nearly two of every three\" (Consultor Salud). Nada borrado. Sin verificar: comunicado 309 solo via pubt.io y su fecha 3-nov es dudosa (la prensa lo publico el 29-oct); datos de Mexico Business News (1,196 claves, ~160 proveedores); \"3 de agosto\"; \"mRNA\" del contrato Liomont. Postura: publicar tras aplicar, idealmente con el link de gob.mx en lugar de pubt.io si aparece. Drive https://drive.google.com/file/d/1RW5Qd53zCT3wSzFYGXe78rqFh2gdsCg-/view\n- limpieza: borre REPORT-20261012-1341 y REPORT-20261013-0658 (mas de 30 dias); en Drive solo a la papelera el archivo viejo de 36900\n- Para aplicar y publicar, decile a Claude en un chat: aplicar gate <ID>. La sesión que aplique relee el post, rechaza si su modified es distinto del wp_modified del archivo, aplica los reemplazos con código, verifica el diff y publica solo con OK de Fer.",
+      "run_id": "20261112-0658",
+      "state": null,
+      "title": "REPORT",
+      "updated_at": "2026-11-12T07:08:04-05:00",
+      "wp_modified": null
+    },
+    "key": "REPORT-20261112-0658"
   }
 ]

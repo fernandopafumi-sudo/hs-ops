@@ -5,7 +5,7 @@
       "Account": "AstraZeneca",
       "Channel": "Direct",
       "Created_Date": "2026-10-19",
-      "Days_Since_Update": 23,
+      "Days_Since_Update": 24,
       "Expected_Close_Date": "2027-03-31",
       "Last_Updated": "2026-10-19",
       "Name": "AstraZeneca — anchor reporte cardio-metabólico 2027",
@@ -25,12 +25,34 @@
     "id": "rec0k7uoIlJoo9BYm"
   },
   {
+    "createdTime": "2026-11-11T23:30:44.000Z",
+    "fields": {
+      "Account": "Informa Markets",
+      "Channel": "Direct",
+      "Created_Date": "2026-11-08",
+      "Days_Since_Update": 1,
+      "Last_Updated": "2026-11-11",
+      "Name": "WHX Miami 2027 — media partner (canje)",
+      "Next_Step": "Proponerlo a Kate Scott al firmar CPHI",
+      "Next_Step_Date": "2026-11-16",
+      "Notes": "Evento 16-18 jun 2027, Miami Beach. Incluido en la propuesta de paquete del 08-11; Kate maneja WHX Miami pero el acuerdo que mandó es solo CPHI.",
+      "Probability": 0.1,
+      "Prospect": [
+        "rechtC5oF9ZxvrAGD"
+      ],
+      "Stage": "Qualification",
+      "Value": 0,
+      "Weighted_Value": 0
+    },
+    "id": "rec4AjJRQkuwbalIH"
+  },
+  {
     "createdTime": "2026-10-19T14:11:38.000Z",
     "fields": {
       "Account": "Eli Lilly",
       "Channel": "Direct",
       "Created_Date": "2026-10-19",
-      "Days_Since_Update": 23,
+      "Days_Since_Update": 24,
       "Expected_Close_Date": "2027-03-31",
       "Last_Updated": "2026-10-19",
       "Name": "Eli Lilly — anchor reporte cardio-metabólico 2027",
@@ -55,7 +77,7 @@
       "Account": "City Cancer Challenge (C/Can)",
       "Channel": "Direct",
       "Created_Date": "2026-10-19",
-      "Days_Since_Update": 23,
+      "Days_Since_Update": 24,
       "Last_Updated": "2026-10-19",
       "Name": "City Cancer Challenge — explorar partner o briefing",
       "Next_Step": "Fer carga qué salió de la charla con Isabel Mestres; definir si es comprador o socio de contenido",
@@ -73,12 +95,35 @@
     "id": "rec7mxJWkl4YjoowB"
   },
   {
+    "createdTime": "2026-11-11T23:30:44.000Z",
+    "fields": {
+      "Account": "Informa Markets",
+      "Channel": "Direct",
+      "Created_Date": "2026-11-08",
+      "Days_Since_Update": 0,
+      "Last_Updated": "2026-11-12",
+      "Name": "CPHI Americas 2027 — media partner (canje)",
+      "Next_Step": "Fer firma y manda el contrato v2 (borrador de respuesta en Gmail); Kate contrafirma con fecha 2026",
+      "Next_Step_Date": "2026-11-13",
+      "Notes": "Canje sin dinero. Evento 25-26 may 2027, Miami Beach Convention Center. Contrato: Informa Princeton LLC – HealthSignals LLC, ley NY.\n10-11 Kate Scott manda acuerdo; 11-11 Fer pide 4 ajustes; 12-11 Kate manda v2: dirección corregida, nuestras fechas cargadas (banner, Brief y 3 posts LinkedIn 27-04 a 26-05-2027; cobertura 'ongoing'), confirma por mail que no se intercambian facturas (la cláusula 2 igual las menciona). Pendiente: su fecha dice 11/12/27 (pedir 2026 al contrafirmar) y fechas de los servicios de Informa vacías.\nInforma da (valor lista USD 10.000, canje USD 3.300): logo en web, guía y app; pantallas; distribución post-show; 2 pases de prensa; 3 pases de cortesía; mención en redes; logo en email a asistentes.\nOjo inventario: Hospitalar (18-21 may) y CPHI comparten ventana; un solo slot de banner.",
+      "Probability": 0.6,
+      "Prospect": [
+        "rechtC5oF9ZxvrAGD",
+        "recXeGw2P34xvbqJT"
+      ],
+      "Stage": "Negotiation",
+      "Value": 0,
+      "Weighted_Value": 0
+    },
+    "id": "recFtCIEtcVTgYJ5j"
+  },
+  {
     "createdTime": "2026-10-21T16:55:37.000Z",
     "fields": {
       "Account": "Merck KGaA",
       "Channel": "Direct",
       "Created_Date": "2026-10-21",
-      "Days_Since_Update": 21,
+      "Days_Since_Update": 22,
       "Last_Updated": "2026-10-21",
       "Name": "Merck KGaA — artículo o serie de artículos (sarcomas / tumores raros)",
       "Next_Step": "01-11: verificado en Gmail — la propuesta escrita YA se mandó (26-10, con PDF+docx de ejemplo) y Diana la reenvió a Juliana Restrepo (su jefa, a cargo de Ogsiveo) pidiendo reunión. Fernando ofreció llamada de 30' el 28 o 29-10; no hubo respuesta, esas fechas ya pasaron. Dejé borrador de seguimiento listo en Gmail (hilo 'HealthSignals: Seguimiento.') para revisar y mandar. Próximo paso: Fer aprueba y envía el seguimiento; si no responden en ~5 días más, segundo follow-up.",
@@ -95,12 +140,34 @@
     "id": "recSWuVIavTnWG9C7"
   },
   {
+    "createdTime": "2026-11-11T23:30:44.000Z",
+    "fields": {
+      "Account": "Informa Markets Brasil",
+      "Channel": "Direct",
+      "Created_Date": "2026-11-08",
+      "Days_Since_Update": 1,
+      "Last_Updated": "2026-11-11",
+      "Name": "Hospitalar 2027 — media partner (canje)",
+      "Next_Step": "Seguimiento en portugués a Luciana Perdomo",
+      "Next_Step_Date": "2026-11-16",
+      "Notes": "Evento 18-21 may 2027, SP Expo, São Paulo. Propuesta del 08-11 sin respuesta al 11-11.",
+      "Probability": 0.1,
+      "Prospect": [
+        "recWuXeBUEpQxkoo3"
+      ],
+      "Stage": "Qualification",
+      "Value": 0,
+      "Weighted_Value": 0
+    },
+    "id": "recUf7l23rZTdw2MG"
+  },
+  {
     "createdTime": "2026-10-19T14:11:38.000Z",
     "fields": {
       "Account": "Empleador sin verificar (ex Viatris)",
       "Channel": "Referral",
       "Created_Date": "2026-10-19",
-      "Days_Since_Update": 23,
+      "Days_Since_Update": 24,
       "Last_Updated": "2026-10-19",
       "Name": "Antonio Arce — confirmar empleador",
       "Next_Step": "Verificar en Sales Navigator dónde trabaja hoy; si está en un lab, ofrecer B o partner de A",
@@ -115,5 +182,29 @@
       "Weighted_Value": 0
     },
     "id": "receY2bx9ygtvmd7m"
+  },
+  {
+    "createdTime": "2026-11-11T23:30:44.000Z",
+    "fields": {
+      "Account": "FISA S.A. / GL Events Chile",
+      "Channel": "Direct",
+      "Created_Date": "2026-10-15",
+      "Days_Since_Update": 1,
+      "Expected_Close_Date": "2026-10-30",
+      "Last_Updated": "2026-11-11",
+      "Name": "ExpoSalud 2026 — media partner (canje)",
+      "Next_Step": "Confirmar banner apagado, mail de cierre a Camilo, pedir post post-feria",
+      "Next_Step_Date": "2026-11-13",
+      "Notes": "Canje sin dinero. Convenio firmado 30-10-2026 (FISA S.A. RUT 96.955.780-0 – HealthSignals LLC; ley y tribunales de Chile).\nHS da: banner 3-12 nov + mención en Brief. CUMPLIDO (verificado 11-11).\nFISA da: logo en sitio y pantallas, acceso prensa, cortesías, post en redes. Logo no verificado; cortesías tarde y descartadas; post pendiente.\nRenovación natural: ExpoSalud 2027, con fecha límite por entregable en el convenio.\nDetalle: claude/exposalud-2026-media-partner.md",
+      "Probability": 1,
+      "Prospect": [
+        "recs4ntHi8HRmhALX",
+        "recbHzklFR8m9ghtv"
+      ],
+      "Stage": "Closed Won",
+      "Value": 0,
+      "Weighted_Value": 0
+    },
+    "id": "rechr1vmHPdatqISf"
   }
 ]
