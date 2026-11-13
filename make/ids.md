@@ -8,7 +8,7 @@ Regenerar con `python3 scripts/gen_ids.py` después de cada backup. Las referenc
 |---|---|---|---|---|---|---|---|
 | 5096381 | HealthSignals- Intelligence Scanner | ON | weekly:07:00 | 148747 HS Event Dedup |  |  | anthropic-claude, builtin, datastore, exa-ai, google-sheets, json, util |
 | 5133643 | PROD Article Publisher v2 | ON | daily:06:40 |  |  |  | airtable, anthropic-claude, builtin, exa-ai, google-sheets, http, json, openai-gpt-3, util, wordpress |
-| 5167429 | HS Social Publisher v2 | off | indefinitely:10800 | 128118 X OAuth - HealthSignals |  | 5882000 | datastore, google-sheets, http, linkedin, regexp, util |
+| 5167429 | HS Social Publisher v2 | ON | indefinitely:1800 | 128118 X OAuth - HealthSignals |  | 5882000 | datastore, google-sheets, http, linkedin, regexp, util |
 | 5453337 | HS Outreach A - Draft Generator | ON | on-demand |  |  |  | airtable, anthropic-claude, util |
 | 5453401 | HS Outreach B - Sender | ON | on-demand |  |  |  | airtable, resend |
 | 5453897 | HS LinkedIn Draft Engine | off | indefinitely:86400 |  |  |  | airtable, anthropic-claude, builtin, http, util |
@@ -37,7 +37,7 @@ Regenerar con `python3 scripts/gen_ids.py` después de cada backup. Las referenc
 | 6251400 | HS - Scanner rows snapshot (last batch) | ON | on-demand | 148918 HS Queue Snapshot |  |  | builtin, datastore, google-sheets |
 | 6263946 | HS — SEO Rank Tracker (GSC weekly) | ON | weekly:08:00 |  |  |  | google-search-console, google-sheets |
 | 6313594 | HS — Featured image por post ID | ON | on-demand |  |  |  | anthropic-claude, builtin, json, openai-gpt-3, util, wordpress |
-| 6314042 | HS — Guard imagen destacada (watchdog) | ON | indefinitely:10800 |  |  |  | anthropic-claude, builtin, http, json, openai-gpt-3, util, wordpress |
+| 6314042 | HS — Guard imagen destacada (watchdog) | ON | indefinitely:3600 | 200868 HS cover watchdog attempts |  | 6735926 | anthropic-claude, builtin, datastore, google-sheets, http, json, openai-gpt-3, resend, util, wordpress |
 | 6414510 | [BORRAR] HS test 6414510 | off | on-demand |  |  |  | anthropic-claude, builtin, google-drive, json, openai-gpt-3, util |
 | 6424186 | [BORRAR] HS test cover fix 6424186 | off | on-demand |  |  |  | anthropic-claude, builtin, google-drive, google-sheets, http, json, openai-gpt-3, util, wordpress |
 | 6424598 | [BORRAR] HS test 6424598 | off | on-demand |  |  |  | google-drive, util |
@@ -74,6 +74,7 @@ Regenerar con `python3 scripts/gen_ids.py` después de cada backup. Las referenc
 | 162492 | HS Voices Rules | ningún escenario (verificar tareas de Claude) |
 | 164495 | HS LinkedIn shared posts | 6508650 |
 | 187494 | HS row lookup (ad-hoc) | 6828787 |
+| 200868 | HS cover watchdog attempts | 6314042 |
 
 ## Conexiones → escenarios
 
@@ -82,16 +83,16 @@ Regenerar con `python3 scripts/gen_ids.py` después de cada backup. Las referenc
 | 8455399 | My Google Restricted connection | 0:  |
 | 8921729 | My WordPress connection | 10: 5133643, 5454484, 6234149, 6234307, 6313594, 6314042, 6424186, 6427153, 6735926, 6841390 |
 | 8921875 | My LinkedIn connection | 0:  |
-| 8922808 | My Anthropic Claude connection | 7: 5133643, 5453337, 5699954, 5891229, 6313594, 6314042, 6841390 |
+| 8922808 | My Anthropic Claude connection | 6: 5133643, 5453337, 5699954, 5891229, 6313594, 6841390 |
 | 8923111 | My Anthropic Claude connection | 6: 5096381, 6070111, 6233803, 6234307, 6721172, 6724293 |
-| 8923977 | My Google connection | 21: 5096381, 5133643, 5167429, 6070111, 6202822, 6245658, 6245964, 6246530, 6248217, 6251333, 6251400, 6263946, 6424186, 6508650, 6543177, 6721172, 6724293, 6725295, 6735926, 6828787, 6841390 |
+| 8923977 | My Google connection | 22: 5096381, 5133643, 5167429, 6070111, 6202822, 6245658, 6245964, 6246530, 6248217, 6251333, 6251400, 6263946, 6314042, 6424186, 6508650, 6543177, 6721172, 6724293, 6725295, 6735926, 6828787, 6841390 |
 | 8943313 | My OpenAI connection | 7: 5133643, 6313594, 6314042, 6414510, 6424186, 6735926, 6841390 |
 | 8944176 | My OpenAI connection | 0:  |
 | 8981470 | My Todoist connection | 0:  |
 | 8984010 | My Exa connection | 5: 5096381, 5133643, 6070111, 6724293, 6841390 |
 | 9040242 | LinkedIn - HealthSignals Company Page | 2: 5167429, 6508650 |
 | 9132003 | My Airtable Token or Key connection | 22: 5133643, 5453337, 5453401, 5453897, 5699954, 5841829, 5843912, 5886398, 5890673, 5893513, 6233803, 6234149, 6234307, 6234915, 6427153, 6459598, 6460310, 6488206, 6674701, 6726530, 6841390, 6854895 |
-| 9533217 | Resend HealthSignals | 4: 5453401, 5841829, 6461147, 6674701 |
+| 9533217 | Resend HealthSignals | 5: 5453401, 5841829, 6314042, 6461147, 6674701 |
 | 11075018 | Fernando's Google Search Console connection | 1: 6263946 |
 | 11340939 | Google Drive editor@ (full) | 4: 6414510, 6424186, 6424598, 6426906 |
 | 11417335 | Fernando's Brevo connection | 5: 6459598, 6460310, 6726530, 6854895, 6856433 |

@@ -2,47 +2,42 @@
   "blueprint": {
     "flow": [
       {
-        "id": 1,
+        "id": 900,
         "mapper": {
-          "authPass": "",
-          "authUser": "",
-          "bodyType": "",
-          "ca": "",
-          "followAllRedirects": true,
-          "followRedirect": true,
-          "gzip": true,
-          "headers": [],
-          "method": "get",
-          "parseResponse": true,
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache"
+            }
+          ],
+          "method": "GET",
           "qs": [
             {
-              "name": "per_page",
-              "value": "10"
+              "key": "status",
+              "value": "publish,future"
             },
             {
-              "name": "status",
-              "value": "publish"
+              "key": "per_page",
+              "value": "20"
             },
             {
-              "name": "_fields",
-              "value": "id,title,featured_media"
-            },
-            {
-              "name": "orderby",
+              "key": "orderby",
               "value": "date"
             },
             {
-              "name": "order",
+              "key": "order",
               "value": "desc"
+            },
+            {
+              "key": "context",
+              "value": "edit"
+            },
+            {
+              "key": "_fields",
+              "value": "id,status,date,featured_media"
             }
           ],
-          "rejectUnauthorized": true,
-          "serializeUrl": false,
-          "shareCookies": false,
-          "timeout": "",
-          "url": "https://healthsignals.news/wp-json/wp/v2/posts",
-          "useMtls": false,
-          "useQuerystring": false
+          "url": "posts"
         },
         "metadata": {
           "designer": {
@@ -50,17 +45,52 @@
             "y": 0
           }
         },
-        "module": "http:ActionSendData",
+        "module": "wordpress:makeApiCall",
+        "onerror": [
+          {
+            "id": 910,
+            "mapper": {
+              "from": "HealthSignals Alertas <editor@healthsignals.news>",
+              "sendEmailAs": "text",
+              "subject": "ERROR watchdog: la API de WordPress no respondio al listar posts (watchdog de portadas)",
+              "text": "El watchdog de portadas (6314042) no pudo listar los posts publish+future en esta corrida.\n\nError: {{ifempty(900.error.message; \"sin detalle\")}}\n\nNo se reviso ningun post en esta hora; el watchdog vuelve a intentar en la proxima. Si este mail se repite varias horas seguidas, revisar la conexion de WordPress en Make (8921729) o el estado del sitio.",
+              "to": [
+                "editor@healthsignals.news"
+              ]
+            },
+            "metadata": {
+              "designer": {
+                "x": 0,
+                "y": 300
+              }
+            },
+            "module": "resend:sendAnEmail",
+            "parameters": {
+              "__IMTCONN__": 9533217
+            },
+            "version": 1
+          },
+          {
+            "id": 920,
+            "metadata": {
+              "designer": {
+                "x": 150,
+                "y": 300
+              }
+            },
+            "module": "builtin:Ignore",
+            "version": 1
+          }
+        ],
         "parameters": {
-          "handleErrors": false,
-          "useNewZLibDeCompress": true
+          "__IMTCONN__": 8921729
         },
         "version": 3
       },
       {
-        "id": 2,
+        "id": 901,
         "mapper": {
-          "array": "{{1.data}}"
+          "array": "{{900.body}}"
         },
         "metadata": {
           "designer": {
@@ -73,49 +103,32 @@
         "version": 1
       },
       {
-        "id": 11,
-        "mapper": {
-          "name": "target",
-          "scope": "roundtrip",
-          "value": "{{ifempty(2.value.id; 2.id)}}|{{ifempty(2.value.featured_media; 2.featured_media)}}|{{ifempty(2.value.title.rendered; 2.title.rendered)}}"
-        },
-        "metadata": {
-          "designer": {
-            "x": 450,
-            "y": 0
-          }
-        },
-        "module": "util:SetVariable2",
-        "parameters": {},
-        "version": 1
-      },
-      {
         "filter": {
           "conditions": [
             [
               {
-                "a": "{{get(split(11.target; \"|\"); 2)}}",
+                "a": "{{901.featured_media}}",
                 "b": "0",
                 "o": "text:equal"
               }
             ],
             [
               {
-                "a": "{{get(split(11.target; \"|\"); 2)}}",
+                "a": "{{901.featured_media}}",
                 "b": "14",
                 "o": "text:equal"
               }
             ],
             [
               {
-                "a": "{{get(split(11.target; \"|\"); 2)}}",
+                "a": "{{901.featured_media}}",
                 "b": "15",
                 "o": "text:equal"
               }
             ],
             [
               {
-                "a": "{{get(split(11.target; \"|\"); 2)}}",
+                "a": "{{901.featured_media}}",
                 "b": "46",
                 "o": "text:equal"
               }
@@ -123,32 +136,26 @@
           ],
           "name": "sin imagen propia o placeholder"
         },
-        "id": 3,
+        "id": 902,
         "mapper": {
-          "container": {},
-          "max_tokens": 900,
-          "messages": [
+          "headers": [
             {
-              "content": [
-                {
-                  "text": "You are the art director for HealthSignals, a B2B pharma and healthcare intelligence publication covering Latin America and the US. Editorial reference: The Economist, EIU, Bloomberg Intelligence.\n\nProduce ONE cover illustration prompt for this article.\n\nARTICLE HEADLINE: {{get(split(11.target; \"|\"); 3)}}\n\nHOUSE STYLE - non-negotiable\n- Flat editorial illustration. Geometric shapes, flat fills, no gradients, no shadows, no texture, no 3D, no photorealism.\n- No text, numbers, letters, logos, wordmarks or signage anywhere in the image, in any language.\n- No real or identifiable people. Human presence only as flat silhouettes at environmental scale, without facial features, never the focal point, never in white coats as the subject.\n- Landscape 1536x1024, single scene, generous negative space, subject readable at 300px wide because this runs as a thumbnail.\n\nPALETTE - pick ONE row that fits the subject and write the literal colour names into the prompt. Never name the letter alone.\nA - warm cream / off-white background, deep teal, coral-terracotta, amber golden yellow.\nB - deep navy background, warm gold, white, soft powder blue.\nC - pale sage-mint background, forest green, burnt sienna, cream.\nD - soft warm grey background, deep burgundy-wine, teal, ivory.\nE - light golden-yellow background, deep navy, coral, white.\nName the background colour first, then where each accent colour goes.\n\nBANNED as dominant element: molecular rings, hexagons, benzene, DNA helices, microscopes, test tubes, beakers, petri dishes, pills or syringes floating decoratively, stethoscopes, lightbulbs, gears, rising arrows, glowing brains, handshakes, scientists in lab coats, doctors holding tablets, dotted world maps.\n\nCHOOSE THE ANGLE that the headline supports best: the mechanism (how the thing works: pipeline, gate, flow, stages), the actors (regulator as a formal gate or institutional facade, company as a document node or supply segment, payer as a data grid, hospital as a building silhouette - distinguished by shape and accent colour, never by logo or name), or the stakes (geographic overlay, population scale, access gap, before-and-after asymmetry).\n\nOUTPUT - valid JSON only, no markdown fence, no commentary:\n{\"alt_base\":\"\",\"prompt\":\"\"}\n- alt_base: one sentence describing what the illustration shows, for screen readers. Describe the picture. Never repeat the headline and never state a statistic.\n- prompt: 60 to 110 words, self-contained, restating the house style constraints (flat, no text, no logos, no identifiable people) inside the prompt itself.",
-                  "type": "text"
-                }
-              ],
-              "inputType": "multiple",
-              "role": "user"
+              "key": "Cache-Control",
+              "value": "no-cache"
             }
           ],
-          "metadata": {},
-          "model": "claude-sonnet-4-6",
-          "outputFormat": {
-            "type": "text"
-          },
-          "temperature": 0.4,
-          "thinking": {
-            "type": "disabled"
-          },
-          "tool_choice": {}
+          "method": "GET",
+          "qs": [
+            {
+              "key": "context",
+              "value": "edit"
+            },
+            {
+              "key": "_fields",
+              "value": "id,status,date,featured_media,title,excerpt"
+            }
+          ],
+          "url": "posts/{{901.id}}"
         },
         "metadata": {
           "designer": {
@@ -156,18 +163,60 @@
             "y": 0
           }
         },
-        "module": "anthropic-claude:createAMessage",
+        "module": "wordpress:makeApiCall",
+        "onerror": [
+          {
+            "id": 911,
+            "mapper": {
+              "from": "HealthSignals Alertas <editor@healthsignals.news>",
+              "sendEmailAs": "text",
+              "subject": "ERROR watchdog: no pude leer el post {{901.id}} (sin portada)",
+              "text": "El post {{901.id}} figura sin imagen destacada pero la API de WordPress fallo al leerlo.\n\nError: {{ifempty(902.error.message; \"sin detalle\")}}\n\nEse post se salto en esta corrida; los demas siguieron. El watchdog reintenta en la proxima hora.\n\nEditar: https://healthsignals.news/wp-admin/post.php?post={{901.id}}&action=edit",
+              "to": [
+                "editor@healthsignals.news"
+              ]
+            },
+            "metadata": {
+              "designer": {
+                "x": 600,
+                "y": 300
+              }
+            },
+            "module": "resend:sendAnEmail",
+            "parameters": {
+              "__IMTCONN__": 9533217
+            },
+            "version": 1
+          },
+          {
+            "id": 929,
+            "metadata": {
+              "designer": {
+                "x": 750,
+                "y": 300
+              }
+            },
+            "module": "builtin:Ignore",
+            "version": 1
+          }
+        ],
         "parameters": {
-          "__IMTCONN__": 8922808
+          "__IMTCONN__": 8921729
         },
-        "version": 1
+        "version": 3
       },
       {
-        "id": 4,
+        "id": 903,
         "mapper": {
-          "name": "clean_art_json",
-          "scope": "roundtrip",
-          "value": "{{trim(replace(replace(3.content[1].text; \"```json\"; \"\"); \"```\"; \"\"))}}"
+          "filter": [
+            [
+              {
+                "a": "key",
+                "b": "{{902.body.id}}",
+                "o": "text:equal"
+              }
+            ]
+          ]
         },
         "metadata": {
           "designer": {
@@ -175,171 +224,1486 @@
             "y": 0
           }
         },
-        "module": "util:SetVariable2",
-        "parameters": {},
-        "version": 1
-      },
-      {
-        "id": 5,
-        "mapper": {
-          "json": "{{4.clean_art_json}}"
-        },
-        "metadata": {
-          "designer": {
-            "x": 1200,
-            "y": 0
-          }
-        },
-        "module": "json:ParseJSON",
-        "parameters": {},
-        "version": 1
-      },
-      {
-        "id": 6,
-        "mapper": {
-          "model": "gpt-image-2",
-          "n": 1,
-          "output_compression": 85,
-          "output_format": "jpeg",
-          "prompt": "{{5.prompt}} STRICT CONSTRAINTS: flat vector editorial illustration, flat fills only, no gradients, no shadows, no photorealism. No text, letters, numbers, logos, emblems or signage anywhere. No identifiable faces, no facial features on any figure. Landscape composition with generous negative space.",
-          "quality": "medium",
-          "size": "1536x1024"
-        },
-        "metadata": {
-          "designer": {
-            "x": 1500,
-            "y": 0
-          }
-        },
-        "module": "openai-gpt-3:GenerateImage",
-        "parameters": {
-          "__IMTCONN__": 8943313
-        },
-        "version": 1
-      },
-      {
-        "id": 7,
-        "mapper": {
-          "array": "{{6.data}}"
-        },
-        "metadata": {
-          "designer": {
-            "x": 1800,
-            "y": 0
-          }
-        },
-        "module": "builtin:BasicFeeder",
-        "parameters": {},
-        "version": 1
-      },
-      {
-        "id": 8,
-        "mapper": {
-          "images": [
-            {
-              "imageFileData": "{{7.fileData}}",
-              "imageUploadType": "imageFile"
-            }
-          ],
-          "max_tokens": 200,
-          "model": "gpt-5.6-luna",
-          "prompt": "You are the pre-publication check for the cover illustration of a healthcare news article. The illustration is AI-generated and flat editorial by design. Do not reject it for being stylised.\n\nREJECT if any of these is true:\n1. Readable text, letters, numbers or symbols that read as words, anywhere in the image, including on documents, screens, buildings or signage.\n2. A logo, wordmark, emblem, flag or coat of arms of a real organisation.\n3. A photorealistic or identifiable human face, or any rendering that could be mistaken for a photograph.\n4. A chart, graph, dashboard or table with legible values a reader could take as data from the article.\n5. Deformed anatomy on any human figure.\n6. The dominant element is a molecular ring, DNA helix, microscope, test tube, floating pills or a stethoscope.\n\nAPPROVE otherwise, including: abstract document shapes with no readable text, faceless flat silhouettes, stylised building blocks, maps without labels, grids without numbers.\n\nReply with exactly one word: APPROVE or REJECT."
-        },
-        "metadata": {
-          "designer": {
-            "x": 2100,
-            "y": 0
-          }
-        },
-        "module": "openai-gpt-3:analyzeImages",
+        "module": "datastore:SearchRecord",
         "onerror": [
           {
-            "id": 80,
-            "mapper": {
-              "result": "REJECT"
-            },
+            "id": 931,
             "metadata": {
               "designer": {
-                "x": 2100,
+                "x": 900,
                 "y": 300
               }
             },
-            "module": "builtin:Resume",
-            "parameters": {},
+            "module": "builtin:Ignore",
             "version": 1
           }
         ],
         "parameters": {
-          "__IMTCONN__": 8943313
+          "continueWhenNoRes": true,
+          "datastore": 200868,
+          "limit": 1
         },
         "version": 1
       },
       {
-        "filter": {
-          "conditions": [
-            [
-              {
-                "a": "{{trim(8.result)}}",
-                "b": "APPROVE",
-                "o": "text:equal"
-              }
-            ]
-          ],
-          "name": "aprobada por QA"
-        },
-        "id": 9,
-        "mapper": {
-          "altText": "{{5.alt_base}}",
-          "caption": "{{5.alt_base}} · Illustration generated with AI for HealthSignals.",
-          "data": "{{7.fileData}}",
-          "fileName": "hs-guard-{{get(split(11.target; \"|\"); 1)}}-{{formatDate(now; \"YYYYMMDD-HHmmss\")}}.jpeg",
-          "title": "Cover image - {{get(split(11.target; \"|\"); 3)}}"
-        },
+        "id": 904,
         "metadata": {
           "designer": {
-            "x": 2400,
+            "x": 1050,
             "y": 0
           }
         },
-        "module": "wordpress:createMediaItem",
-        "parameters": {
-          "__IMTCONN__": 8921729
-        },
-        "version": 3
-      },
-      {
-        "filter": {
-          "conditions": [
-            [
+        "module": "builtin:BasicRouter",
+        "routes": [
+          {
+            "flow": [
               {
-                "a": "{{9.ID}}",
-                "o": "exist"
+                "filter": {
+                  "conditions": [
+                    [
+                      {
+                        "a": "{{902.body.featured_media}}",
+                        "b": "0",
+                        "o": "text:equal"
+                      },
+                      {
+                        "a": "{{ifempty(903.data.attempts; 0)}}",
+                        "b": "2",
+                        "o": "number:less"
+                      }
+                    ],
+                    [
+                      {
+                        "a": "{{902.body.featured_media}}",
+                        "b": "14",
+                        "o": "text:equal"
+                      },
+                      {
+                        "a": "{{ifempty(903.data.attempts; 0)}}",
+                        "b": "2",
+                        "o": "number:less"
+                      }
+                    ],
+                    [
+                      {
+                        "a": "{{902.body.featured_media}}",
+                        "b": "15",
+                        "o": "text:equal"
+                      },
+                      {
+                        "a": "{{ifempty(903.data.attempts; 0)}}",
+                        "b": "2",
+                        "o": "number:less"
+                      }
+                    ],
+                    [
+                      {
+                        "a": "{{902.body.featured_media}}",
+                        "b": "46",
+                        "o": "text:equal"
+                      },
+                      {
+                        "a": "{{ifempty(903.data.attempts; 0)}}",
+                        "b": "2",
+                        "o": "number:less"
+                      }
+                    ]
+                  ],
+                  "name": "sin portada y menos de 2 intentos"
+                },
+                "id": 905,
+                "mapper": {
+                  "data": {
+                    "attempts": "{{ifempty(903.data.attempts; 0) + 1}}",
+                    "last": "{{now}}",
+                    "notified": "",
+                    "status": "{{902.body.status}}",
+                    "title": "{{902.body.title.raw}}"
+                  },
+                  "key": "{{902.body.id}}",
+                  "overwrite": true
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 1200,
+                    "y": -150
+                  }
+                },
+                "module": "datastore:AddRecord",
+                "onerror": [
+                  {
+                    "id": 921,
+                    "metadata": {
+                      "designer": {
+                        "x": 1200,
+                        "y": 150
+                      }
+                    },
+                    "module": "builtin:Ignore",
+                    "version": 1
+                  }
+                ],
+                "parameters": {
+                  "datastore": 200868
+                },
+                "version": 1
+              },
+              {
+                "id": 906,
+                "mapper": {
+                  "from": "HealthSignals Alertas <editor@healthsignals.news>",
+                  "sendEmailAs": "text",
+                  "subject": "ALERTA portada: post {{902.body.id}} sin imagen destacada ({{902.body.status}}) - intento {{ifempty(903.data.attempts; 0) + 1}} de 2",
+                  "text": "El post {{902.body.id}} \"{{902.body.title.raw}}\" esta en estado {{902.body.status}} (fecha {{902.body.date}}) y no tiene imagen destacada (featured_media = {{902.body.featured_media}}).\n\nEl watchdog esta generando la portada automaticamente (intento {{ifempty(903.data.attempts; 0) + 1}} de 2) con la misma cadena del scenario 6735926 (art director + editor adversarial + rotacion de plantilla + gpt-image-2 + QA + overlay Netlify).\n\nSi en ~10 minutos no llega el mail 'OK portada', el intento fallo (QA rechazo las dos imagenes, Netlify caido o error de WordPress). El watchdog reintenta 1 vez en la proxima hora; despues manda un mail final y no vuelve a gastar.\n\nEditar: https://healthsignals.news/wp-admin/post.php?post={{902.body.id}}&action=edit\n\nScenario de Make: 'HS — Guard imagen destacada (watchdog)' (6314042).",
+                  "to": [
+                    "editor@healthsignals.news"
+                  ]
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 1350,
+                    "y": -150
+                  }
+                },
+                "module": "resend:sendAnEmail",
+                "onerror": [
+                  {
+                    "id": 922,
+                    "mapper": {
+                      "id": ""
+                    },
+                    "metadata": {
+                      "designer": {
+                        "x": 1350,
+                        "y": 150
+                      }
+                    },
+                    "module": "builtin:Resume",
+                    "version": 1
+                  }
+                ],
+                "parameters": {
+                  "__IMTCONN__": 9533217
+                },
+                "version": 1
+              },
+              {
+                "id": 942,
+                "mapper": {
+                  "scope": "roundtrip",
+                  "variables": [
+                    {
+                      "name": "title",
+                      "value": "{{902.body.title.raw}}"
+                    },
+                    {
+                      "name": "excerpt",
+                      "value": "{{trim(ifempty(902.body.excerpt.raw; substring(replace(replace(replace(replace(replace(replace(stripHTML(902.body.excerpt.rendered); \"&#8217;\"; \"'\"); \"&#8216;\"; \"'\"); \"&#8220;\"; \"'\"); \"&#8221;\"; \"'\"); \"&#038;\"; \"&\"); \"&amp;\"; \"&\"); 0; 700)))}}"
+                    }
+                  ]
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 1500,
+                    "y": -150
+                  }
+                },
+                "module": "util:SetVariables",
+                "version": 1
+              },
+              {
+                "id": 201,
+                "mapper": {
+                  "max_tokens": 250,
+                  "model": "claude-haiku-4-5",
+                  "textPrompt": "Extract company/regulator names and the main country from this healthcare article.\n\nTitle: {{942.title}}\nArticle excerpt: {{942.excerpt}}\n\nRules:\n- If article mentions a SPECIFIC pharma company (Pfizer, Eli Lilly, Novartis, etc) OR regulatory body (FDA, ANVISA, COFEPRIS, etc), list them.\n- country: the single country the article is mainly about, in English (e.g. Mexico, Brazil, United States, Panama). If it is about several countries or the whole region, use \"Regional\".\n- Output JSON: {\"entities\": [\"Company1\", \"Company2\"], \"type\": \"pharma|regulator|mixed\", \"has_entities\": true/false, \"country\": \"Mexico\"}\n- If no specific entities, output: {\"entities\": [], \"type\": \"none\", \"has_entities\": false, \"country\": \"...\"}\nOUTPUT ONLY VALID JSON."
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 1650,
+                    "y": -150
+                  },
+                  "restore": {
+                    "expect": {
+                      "model": {
+                        "label": "Claude Haiku 4.5The quickest option, perfect for simple questions and instant, straightforward answers"
+                      }
+                    }
+                  }
+                },
+                "module": "anthropic-claude:simpleTextPrompt",
+                "onerror": [
+                  {
+                    "id": 420,
+                    "mapper": {
+                      "model": "",
+                      "result": "",
+                      "usage": {
+                        "input_tokens": "",
+                        "output_tokens": ""
+                      }
+                    },
+                    "metadata": {
+                      "designer": {
+                        "x": 1650,
+                        "y": 150
+                      },
+                      "restore": {}
+                    },
+                    "module": "builtin:Resume",
+                    "parameters": {},
+                    "version": 1
+                  }
+                ],
+                "parameters": {},
+                "version": 1
+              },
+              {
+                "id": 204,
+                "mapper": {
+                  "name": "clean_entities_json",
+                  "scope": "roundtrip",
+                  "value": "{{trim(replace(replace(201.result; \"```json\"; \"\"); \"```\"; \"\"))}}"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 1800,
+                    "y": -150
+                  }
+                },
+                "module": "util:SetVariable2",
+                "parameters": {},
+                "version": 1
+              },
+              {
+                "id": 205,
+                "mapper": {
+                  "json": "{{ifempty(204.clean_entities_json; \"{}\")}}"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 1950,
+                    "y": -150
+                  }
+                },
+                "module": "json:ParseJSON",
+                "onerror": [
+                  {
+                    "id": 422,
+                    "mapper": {},
+                    "metadata": {
+                      "designer": {
+                        "x": 1950,
+                        "y": 150
+                      },
+                      "restore": {}
+                    },
+                    "module": "builtin:Resume",
+                    "parameters": {},
+                    "version": 1
+                  }
+                ],
+                "parameters": {},
+                "version": 1
+              },
+              {
+                "id": 1,
+                "mapper": {
+                  "scope": "roundtrip",
+                  "variables": [
+                    {
+                      "name": "post_id",
+                      "value": "{{902.body.id}}"
+                    },
+                    {
+                      "name": "category",
+                      "value": ""
+                    },
+                    {
+                      "name": "country",
+                      "value": "{{if(205.country = \"Regional\"; \"\"; 205.country)}}"
+                    },
+                    {
+                      "name": "institution",
+                      "value": "{{join(205.entities; \", \")}}"
+                    }
+                  ]
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 2100,
+                    "y": -150
+                  }
+                },
+                "module": "util:SetVariables",
+                "version": 1
+              },
+              {
+                "id": 290,
+                "mapper": {
+                  "dateTimeRenderOption": "FORMATTED_STRING",
+                  "from": "drive",
+                  "includesHeaders": true,
+                  "limit": "8",
+                  "orderBy": "__ROW_NUMBER__",
+                  "sheetId": "Image Prompts",
+                  "sortOrder": "desc",
+                  "spreadsheetId": "1J8ca4Pvp3HTSdHqq9-TZ1H-nF6_fM5R3Jm1bf9bAU8A",
+                  "tableFirstRow": "A1:CZ1",
+                  "valueRenderOption": "FORMATTED_VALUE"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 2250,
+                    "y": -150
+                  }
+                },
+                "module": "google-sheets:filterRows",
+                "parameters": {
+                  "__IMTCONN__": 8923977
+                },
+                "version": 2
+              },
+              {
+                "id": 291,
+                "mapper": {
+                  "value": "{{290.`5`}} | {{290.`7`}}"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 2400,
+                    "y": -150
+                  }
+                },
+                "module": "util:TextAggregator",
+                "parameters": {
+                  "feeder": 290,
+                  "otherRowSeparator": "\n- ",
+                  "rowSeparator": "other"
+                },
+                "version": 1
+              },
+              {
+                "id": 264,
+                "mapper": {
+                  "scope": "roundtrip",
+                  "variables": [
+                    {
+                      "name": "k1",
+                      "value": "#{{replace(replace(replace(replace(replace(replace(upper(trim(last(split(ifempty(get(split(ifempty(291.text; \"\"); newline); 1); \"\"); \"|\")))); \"/[ÁÀÂÄ]/g\"; \"A\"); \"/[ÉÈÊË]/g\"; \"E\"); \"/[ÍÌÎÏ]/g\"; \"I\"); \"/[ÓÒÔÖ]/g\"; \"O\"); \"/[ÚÙÛÜ]/g\"; \"U\"); \"/[^A-Z]+/g\"; \"#\")}}#"
+                    },
+                    {
+                      "name": "k2",
+                      "value": "#{{replace(replace(replace(replace(replace(replace(upper(trim(last(split(ifempty(get(split(ifempty(291.text; \"\"); newline); 2); \"\"); \"|\")))); \"/[ÁÀÂÄ]/g\"; \"A\"); \"/[ÉÈÊË]/g\"; \"E\"); \"/[ÍÌÎÏ]/g\"; \"I\"); \"/[ÓÒÔÖ]/g\"; \"O\"); \"/[ÚÙÛÜ]/g\"; \"U\"); \"/[^A-Z]+/g\"; \"#\")}}#"
+                    },
+                    {
+                      "name": "cpat",
+                      "value": "#{{replace(replace(replace(replace(replace(replace(upper(trim(ifempty(1.country; \"\"))); \"/[ÁÀÂÄ]/g\"; \"A\"); \"/[ÉÈÊË]/g\"; \"E\"); \"/[ÍÌÎÏ]/g\"; \"I\"); \"/[ÓÒÔÖ]/g\"; \"O\"); \"/[ÚÙÛÜ]/g\"; \"U\"); \"/[^A-Z]+/g\"; \"#\")}}#"
+                    },
+                    {
+                      "name": "capat",
+                      "value": "{{if(upper(trim(ifempty(1.country; \"\"))) = \"UNITED STATES\"; \"#US#\"; \"#~#\")}}"
+                    },
+                    {
+                      "name": "recent_tpl",
+                      "value": "{{substring(trim(replace(ifempty(get(split(ifempty(291.text; \"\"); newline); 1); \"\"); \"/^[-\\s]+/\"; \"\")); 0; 3)}}, {{substring(trim(replace(ifempty(get(split(ifempty(291.text; \"\"); newline); 2); \"\"); \"/^[-\\s]+/\"; \"\")); 0; 3)}}, {{substring(trim(replace(ifempty(get(split(ifempty(291.text; \"\"); newline); 3); \"\"); \"/^[-\\s]+/\"; \"\")); 0; 3)}}"
+                    }
+                  ]
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 2550,
+                    "y": -150
+                  }
+                },
+                "module": "util:SetVariables",
+                "version": 1
+              },
+              {
+                "id": 263,
+                "mapper": {
+                  "name": "lm_off",
+                  "scope": "roundtrip",
+                  "value": "{{if(trim(ifempty(1.country; \"\")) = \"\"; \"0\"; if(contains(264.k1; 264.cpat); \"1\"; if(contains(264.k2; 264.cpat); \"1\"; if(contains(264.k1; 264.capat); \"1\"; if(contains(264.k2; 264.capat); \"1\"; \"0\")))))}}"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 2700,
+                    "y": -150
+                  }
+                },
+                "module": "util:SetVariable2",
+                "parameters": {},
+                "version": 1
+              },
+              {
+                "id": 202,
+                "mapper": {
+                  "max_tokens": 2500,
+                  "model": "claude-sonnet-4-6",
+                  "textPrompt": "You are the art director of HealthSignals, a B2B pharma and health-policy intelligence publication covering Latin America and the US (reference: The Economist, EIU, Bloomberg Intelligence). The publication is neutral intelligence, not opinion: covers explain, they never mock, celebrate or judge.\n\nARTICLE\nTitle: {{942.title}}\nExcerpt: {{942.excerpt}}\nCategory: {{1.category}}\nCountry: {{1.country}}\nInstitution / company: {{1.institution}}\nCanonical facts (the ONLY numbers you may use): (use only figures stated in the excerpt)\nProtagonist types used on the most recent covers (avoid repeating the last one when the article allows): NUMBER, COMPARISON\n\nA cover has two layers. (1) An illustration generated by an image model, which contains NO text at all. (2) A typographic overlay rendered later by code in the font Archivo. You design both.\n\nSTEP 1 - TENSION. In one sentence, state the specific tension of this article (a gap, a reversal, a scale mismatch, a flow that starts or stops, a before/after, a race). Not the topic: the tension.\n\nSTEP 2 - PROTAGONIST OF THE OVERLAY. Choose exactly one type, the one that adds the most information the TITLE DOES NOT ALREADY SAY:\n- ACTOR: who acts and where (use when the news is what a company or institution does).\n- NUMBER: one magnitude (use when the news is a size).\n- COMPARISON: two figures side by side (use when the news is a gap).\n- MECHANISM: the rule or lever that changes things (use when the news is a regulation or decision).\nHard rules: FIRST list to yourself every content word and figure in the title; neither candidate's main or sub may contain any of them or any form of them (an automatic check rejects the candidate and the cover then ships with no protagonist). Singular, plural and verb forms count as the same word (award/awards/awarded, code/codes); for example, if the title says 'statute', 'Minsa' or 'CSS', none of those may appear in main or sub. If the title already carries one figure of a comparison, the overlay shows only the OTHER figure with its label (e.g. title has 143%, overlay '341% inflation'). For company deals, launches or results, the overlay names what only the excerpt adds: the asset, its mechanism or the rival it is positioned against (e.g. 'vs Dupixent'), never the buyer, the target or the price already in the title. Build the candidates from what only the excerpt says: a figure, a place, a mechanism or an entity absent from the title. Use neutral, descriptive language only: never judging or dramatic words such as override, crackdown, victory, defeat, blow, win, loses, slams, battle, war, crisis; never repeat words or figures from the title (the kicker may name the country and entity); never use dates, years, months or weekdays anywhere in the overlay; numbers only verbatim from the canonical facts or the excerpt, with their unit; keep the qualifier that comes with a figure in the excerpt (about, nearly, close to, over, more than, up to, almost) in the overlay; never compute, subtract, complement, round, convert or combine figures (never turn 'about 90% of codes covered' into '10% missing' or '90% vs 10%'); a COMPARISON needs both figures stated verbatim in the excerpt; never invent context, rivals or motives that are not in the excerpt; in litigation, investigations or disputes the kicker names the jurisdiction or court, not the accused party; if the article concerns deaths or patient harm, prefer MECHANISM and keep the image sober.\n\nSTEP 3 - SCENE FROM THE LIBRARY. Pick exactly ONE scene template below, the one whose action matches the tension of Step 1, and adapt it to this article's sector with concrete objects. Do not invent a scene outside the library. The picture must show an ACTION a reader understands at a glance, and it must be impossible to read backwards (a drop must not look like a rise, a price must not look like a share of people). If the picture cannot encode the number honestly, do not try: the number lives only in the overlay. Most recent covers on the site, newest first (template | kicker):\n- {{291.text}}\nFORBIDDEN TEMPLATES for this cover (used in the last three covers): {{264.recent_tpl}}. Do not choose any of them, even if one would fit better; pick the best remaining template. If the same country appears in the kicker of EITHER of the last two covers, do not draw its landmark this time; let the scene carry the story. {{if(263.lm_off = \"1\"; \"LANDMARK FORBIDDEN FOR THIS COVER: the same country appears in one of the last two kickers, so draw no landmark, monument, column, dome or famous building at all.\"; \"\")}}\nT01 FLOW_HALTED (suspension, strike, shortage, stoppage): a conveyor or line of care carrying plain items stops at a closed barrier; items pile up before it, the track after it is empty; tiny silhouettes wait at the pile.\nT02 FLOW_REDIRECTED (compulsory licence, reassignment, generic entry, rerouting): a pipe carrying plain units meets a new valve that diverts the stream into a second outlet.\nT03 SWITCH_ON (rule enters into force, mandate, ban): a large lever flipped; a line on the ground becomes active and everything already standing on it is now inside a closed frame or fence.\nT04 ABSORPTION (acquisition, merger, licensing deal): a smaller distinct piece is lowered by a crane or slotted into a larger structure that has a matching gap.\nT05 GATE_OPENED (approval, registration, launch): a barrier lifts and a single item or a short line passes into an open, wider space.\nT06 PRICE_DROP (price cut, copay reduction, discount): before on the left, after on the right: a tall stack of plain discs next to a very small stack, a downward curved arrow between them; for ratios above 5 the right side is one single disc. Prices and costs are always objects (discs, price tags, invoices), never people.\nT07 SHORT_BRIDGE (funding gap, tariff vs inflation, budget shortfall): a bridge or plank extends from one cliff and covers only the stated fraction of the chasm to the other cliff (fraction = smaller figure / larger figure); tiny silhouettes stand at the edge.\nT08 BOTTLENECK (backlog, delays, access queue): a wide funnel narrowing to a small opening with a long queue of silhouettes before it and few after.\nT09 SHIELD (prevention, vaccine, PrEP, protection): a large umbrella or canopy over a group of silhouettes while plain drops fall around it and none fall underneath.\nT10 SHELF_FILLED (formulary additions, coverage expansion, new indications): a long shelf where several new plain boxes slide into previously empty slots.\nT11 SUPPLY_CHAIN (manufacturing, exports, plant, logistics): a cutaway factory to ship to warehouse chain, one link highlighted in orange where the change happens.\nT12 RACE (competition, first-to-market, rival launches): two parallel tracks with vehicles or runners at clearly different positions; nobody wins or loses in the picture.\nT13 SPLIT_PATH (policy fork, ruling pending, two options): a road splitting in two, a single figure at the junction, both branches plain.\nT14 NETWORK_FRAMED (AI, data, digital health governance): a grid of connected nodes with a rectangular frame being lowered around it or already closing on it.\nT15 CROWD_SUBSET (prevalence, burden, coverage share): a crowd of identical silhouettes with a clearly highlighted subset only when the share is at most 1 in 5 and stated in the excerpt.\nBar charts are allowed only if no template fits, and then each bar must be visually tied to its meaning by an object on it (a price tag, a coin, a box). Composition rules: no element may touch the edges; no seals, stamps, badges, crests or books with any insignia; no white coats, no doctors' uniforms, no generic columned buildings; banned as dominant elements: molecular rings, DNA helices, microscopes, test tubes, floating pills, capsules or syringes, stethoscopes, lightbulbs, gears, rising arrows, handshakes, lab coats, scales of justice, gavels, puppets, dice, padlocks, hourglasses, puzzle pieces, chess pieces, dominoes, icebergs, dumbbells. Never depict patients' bodies, injury or death, flags, national emblems, maps with borders, logos, religious or party symbols. Never ask for an exact count above 6 objects; say 'a row of many'.\n\nSTYLE. Default: flat vector editorial illustration, few large simple shapes, crisp edges, no gradients, no texture, no photorealism. House palette: warm cream ground, deep teal, burnt orange, dark ink for details. Add at most ONE country accent colour from this table, on no more than 15 percent of the picture, never as a drawn flag: Argentina / Uruguay = pale sky blue and sun gold; Brazil = green and warm yellow; Mexico = deep green and muted red; Colombia / Ecuador = warm yellow, deep blue, touch of red; Chile = muted red and deep blue; Peru = muted red; United States = navy and muted red; regional or global = no accent. Human figures only as tiny faceless silhouettes for scale. COUNTRY LANDMARK. When the article is about one country's public system (a regulator, ministry, payer, court, law or public health programme), include that country's landmark from this list as a recognisable flat silhouette in the background or middle ground, drawn in the house palette, never as the protagonist and never touching the reserved zone: Argentina = the Obelisco of Buenos Aires; Mexico = the Angel of Independence column in Mexico City; Brazil = the twin towers and domes of the National Congress in Brasilia; Colombia = the clock tower gate of Cartagena; Chile = the Andes behind the Santiago skyline; Peru = the terraces of Machu Picchu; Panama = the locks of the Panama Canal; United States = the dome of the US Capitol; Uruguay, Ecuador, Paraguay, Bolivia, Costa Rica, Dominican Republic and any other country = no landmark (a small flag chip is added later by code, never draw a flag). For purely corporate news (a company deal, launch or result) and for regional or global articles, no landmark; the kicker already carries the country. The landmark is drawn in one single flat tone and occupies at most a quarter of the image width. A geographic cue is welcome when natural (a mountain range, a coastline) but never a map.\n\nCOMPOSITION. Landscape 1536x1024. Reserve one calm, empty zone for the overlay and state it: upper-left (x 60-640, y 150-470), upper-right (x 900-1480, y 150-470) or left-third (x 60-560, y 150-860). All subjects between y=180 and y=860 and away from the reserved zone.\n\nOUTPUT - valid JSON only, no markdown fence, no commentary. Give TWO overlay candidates with DIFFERENT protagonist types where possible; code will publish the first one that passes an automatic check against the title, so the second must be a genuine alternative.\n{\"tension\":\"\",\"template\":\"T01..T15 id and name\",\"zone\":\"upper-left|upper-right|left-third\",\"kicker\":\"COUNTRY · ENTITY · AREA in capitals, max 45 characters\",\"overlay_candidates\":[{\"protagonist_type\":\"ACTOR|NUMBER|COMPARISON|MECHANISM\",\"main\":\"max 28 characters (e.g. '6.6M', '13.2 vs 6.7 months', 'Grupo Insud')\",\"sub\":\"one line, max 70 characters, no title words\",\"source_fact\":\"exact excerpt quote the numbers come from, or empty\"},{\"protagonist_type\":\"\",\"main\":\"\",\"sub\":\"\",\"source_fact\":\"\"}],\"image_prompt\":\"130-170 words, self-contained, literal colour names (no hex codes), restating: flat style, all surfaces blank and unmarked, no text, letters, numbers, logos, flags, maps or signage, no faces, the reserved empty zone, and subjects between y=180 and y=860\",\"alt_text\":\"one neutral sentence describing the picture, no statistics, not the headline\"}\n"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 2850,
+                    "y": -150
+                  }
+                },
+                "module": "anthropic-claude:simpleTextPrompt",
+                "onerror": [
+                  {
+                    "id": 271,
+                    "mapper": {},
+                    "metadata": {
+                      "designer": {
+                        "x": 2850,
+                        "y": 150
+                      }
+                    },
+                    "module": "builtin:Resume",
+                    "version": 1
+                  }
+                ],
+                "parameters": {},
+                "version": 1
+              },
+              {
+                "id": 213,
+                "mapper": {
+                  "name": "clean_ad",
+                  "scope": "roundtrip",
+                  "value": "{{replace(trim(replace(replace(replace(replace(202.result; \"```json\"; \"\"); \"```\"; \"\"); \"/^[^{]*/\"; \"\"); \"/}[^}]*$/\"; \"}\")); \"/\\}\\s*,\\s*(?=.editor_notes)/\"; \",\")}}"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 3000,
+                    "y": -150
+                  }
+                },
+                "module": "util:SetVariable2",
+                "parameters": {},
+                "version": 1
+              },
+              {
+                "id": 216,
+                "mapper": {
+                  "json": "{{ifempty(213.clean_ad; \"{}\")}}"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 3150,
+                    "y": -150
+                  }
+                },
+                "module": "json:ParseJSON",
+                "onerror": [
+                  {
+                    "id": 279,
+                    "mapper": {},
+                    "metadata": {
+                      "designer": {
+                        "x": 3150,
+                        "y": 150
+                      }
+                    },
+                    "module": "builtin:Resume",
+                    "version": 1
+                  }
+                ],
+                "parameters": {},
+                "version": 1
+              },
+              {
+                "id": 260,
+                "mapper": {
+                  "max_tokens": 4000,
+                  "model": "claude-sonnet-4-6",
+                  "textPrompt": "You are the adversarial picture editor of HealthSignals. You receive an article and an art director's cover proposal (JSON). Your job is to find what is wrong and return a corrected proposal. Be strict.\n\nARTICLE\nTitle: {{942.title}}\nExcerpt: {{942.excerpt}}\n\nRECENT COVERS, newest first (template | kicker)\n- {{291.text}}\n\nPROPOSAL\n{{213.clean_ad}}\n\nCHECK, in order, and fix every failure:\n0. Template rotation. FORBIDDEN TEMPLATES for this cover (used in the last three covers): {{264.recent_tpl}}. If the proposal's template id is in that list, replace it with the best-fitting other template from T01-T15 and rewrite image_prompt and alt_text for the new scene. Never return a forbidden template.\n1. In each overlay candidate, 'main' and 'sub' must not repeat any word (other than articles and prepositions) or any figure that appears in the title. The kicker may name country and entity. First list every content word and figure of the title, then compare word by word. Singular, plural and verb forms count as the same word (award/awards/awarded, code/codes). Example: if the title contains 'statute', 'Minsa' or 'CSS', a candidate containing any of them fails. Rewrite a failing candidate using information only the excerpt has.\n2. No dates, years, months or weekdays anywhere in the overlay. No judging or dramatic words (override, crackdown, victory, defeat, blow, win, loses, slams, battle, war, crisis).\n3. Every number in the overlay must appear verbatim in the excerpt, with its unit. 'source_fact' must be an exact quote from the excerpt. Remove anything that is not. No derived or calculated figures: no subtraction, complement (100 minus x), difference, ratio, sum, rounding or currency conversion; '10%' derived from 'about 90%' is forbidden, and so is '90% vs 10%'. Keep the qualifier exactly as in the excerpt: 'about 90%' stays 'about 90%' (never plain '90%'), and the same for nearly, close to, over, more than, up to, almost. A COMPARISON needs both figures verbatim in the excerpt; otherwise change it to NUMBER or MECHANISM.\n4. The 'tension' and the image may not introduce rivals, motives, outcomes or facts that are not in the excerpt.\n5. No element may touch the top or bottom edge (keep 140 px cream margin). No seals, stamps, badges, books or coins carrying emblems, icons or insignia; no white coats. The image concept must be specific to this article's sector and tension. Reject generic corporate buildings, generic bar charts, giant hands, pills or capsules, lab equipment, and empty scenes; replace them with a sharper concept a reader understands at a glance.\n6. For a COMPARISON, the image prompt must state the exact ratio (larger figure divided by smaller, one decimal) and the image must show it. If the ratio is above 5, replace any pair of bars with a quantity contrast (many objects against one, a long queue against a short one). The prompt may not ask for an exact count above 6 objects. If the title already contains one figure of a comparison, the overlay must show only the other figure with its label.\n6b. The proposal must use exactly one template from the art director's library (T01-T15) and adapt it faithfully; a scene outside the library, a scene that could be read backwards (a drop looking like a rise, a price looking like a share of people; prices and costs must be drawn as objects such as discs, price tags or invoices, never as people) or one that reads as a different everyday object must be replaced by the right template.\n6c. The landmark appears only when the story is about the country's public system (regulator, ministry, payer, court, law, programme), never for purely corporate news; one flat tone, at most a quarter of the width. At most one country accent colour, on no more than 15 percent of the picture.\n7. Neutral tone: nothing that mocks, celebrates or judges; in disputes name the jurisdiction, not the accused party.\n8. Country landmark: apply 6c exactly, except that when the same country appears in the kicker of EITHER of the last two recent covers (one is enough) the landmark must be left out this time. {{if(263.lm_off = \"1\"; \"LANDMARK FORBIDDEN FOR THIS COVER: the same country appears in one of the last two kickers, so draw no landmark, monument, column, dome or famous building at all.\"; \"\")}} Company deals, launches and results get NO landmark even if the company is in a landmark country; remove it if present. For a public-system story in Argentina, Mexico, Brazil, Colombia, Chile, Peru, Panama or the United States, the landmark (Obelisco of Buenos Aires; Angel of Independence column; National Congress in Brasilia; Cartagena clock tower gate; Andes behind Santiago; Machu Picchu terraces; Panama Canal locks; US Capitol dome) is a flat background silhouette; any other country: no landmark, never a drawn flag.\n9. The image prompt keeps: flat style, all surfaces blank and unmarked, no text/letters/numbers/logos/flags/maps/signage, no faces, the reserved empty zone, subjects between y=180 and y=860, literal colour names only.\n10. Final self-check before answering: re-read both overlay candidates against the title (rule 1) and the excerpt (rule 3) one last time, and the template against the forbidden list (rule 0).\n\nOUTPUT - valid JSON only, same schema as the proposal (keep two overlay_candidates), plus a field \"editor_notes\" placed INSIDE the same object, before its final closing brace: at most 5 notes, each under 20 words (empty list if none). Output the JSON object only, starting with { and ending with }, nothing before or after."
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 3300,
+                    "y": -150
+                  }
+                },
+                "module": "anthropic-claude:simpleTextPrompt",
+                "onerror": [
+                  {
+                    "id": 272,
+                    "mapper": {},
+                    "metadata": {
+                      "designer": {
+                        "x": 3300,
+                        "y": 150
+                      }
+                    },
+                    "module": "builtin:Resume",
+                    "version": 1
+                  }
+                ],
+                "parameters": {},
+                "version": 1
+              },
+              {
+                "id": 261,
+                "mapper": {
+                  "name": "clean_cover_json",
+                  "scope": "roundtrip",
+                  "value": "{{replace(trim(replace(replace(replace(replace(260.result; \"```json\"; \"\"); \"```\"; \"\"); \"/^[^{]*/\"; \"\"); \"/}[^}]*$/\"; \"}\")); \"/\\}\\s*,\\s*(?=.editor_notes)/\"; \",\")}}"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 3450,
+                    "y": -150
+                  }
+                },
+                "module": "util:SetVariable2",
+                "parameters": {},
+                "version": 1
+              },
+              {
+                "id": 214,
+                "mapper": {
+                  "json": "{{261.clean_cover_json}}"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 3600,
+                    "y": -150
+                  }
+                },
+                "module": "json:ParseJSON",
+                "onerror": [
+                  {
+                    "id": 273,
+                    "mapper": {},
+                    "metadata": {
+                      "designer": {
+                        "x": 3600,
+                        "y": 150
+                      }
+                    },
+                    "module": "builtin:Resume",
+                    "version": 1
+                  }
+                ],
+                "parameters": {},
+                "version": 1
+              },
+              {
+                "id": 265,
+                "mapper": {
+                  "name": "tpl_repeat",
+                  "scope": "roundtrip",
+                  "value": "{{if(length(trim(ifempty(214.template; \"\"))) < 3; \"0\"; if(contains(264.recent_tpl; substring(trim(214.template); 0; 3)); \"1\"; \"0\"))}}"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 3750,
+                    "y": -150
+                  }
+                },
+                "module": "util:SetVariable2",
+                "parameters": {},
+                "version": 1
+              },
+              {
+                "id": 270,
+                "mapper": {
+                  "name": "fix_prompt",
+                  "scope": "roundtrip",
+                  "value": "You are the template-rotation fixer of HealthSignals covers. The cover proposal below uses template {{214.template}}, which was already used in one of the last three covers (FORBIDDEN: {{264.recent_tpl}}). Choose the best-fitting OTHER template from the library below for the tension stated in the proposal, then rewrite only 'template', 'image_prompt' and 'alt_text' for the new scene. Keep 'tension', 'zone', 'kicker', 'overlay_candidates' and 'editor_notes' exactly as they are.\nImage prompt rules: 130-170 words, self-contained, literal colour names (warm cream, deep teal, burnt orange, dark ink, plus at most one country accent colour on no more than 15 percent of the picture), flat vector editorial style, all surfaces blank and unmarked, no text, letters, numbers, logos, flags, maps or signage, no faces, the reserved zone named in 'zone' stays empty, all subjects between y=180 and y=860, no element touching the edges, never ask for an exact count above 6 objects. Banned as dominant elements: pills, capsules, syringes, lab equipment, gears, lightbulbs, handshakes, scales of justice, gavels, padlocks. {{if(263.lm_off = \"1\"; \"Draw no landmark, monument or building.\"; \"Keep a landmark only if the original proposal had one, as a flat background silhouette.\")}}\n\nLIBRARY\nT01 FLOW_HALTED (suspension, strike, shortage, stoppage): a conveyor or line of care carrying plain items stops at a closed barrier; items pile up before it, the track after it is empty; tiny silhouettes wait at the pile.\nT02 FLOW_REDIRECTED (compulsory licence, reassignment, generic entry, rerouting): a pipe carrying plain units meets a new valve that diverts the stream into a second outlet.\nT03 SWITCH_ON (rule enters into force, mandate, ban): a large lever flipped; a line on the ground becomes active and everything already standing on it is now inside a closed frame or fence.\nT04 ABSORPTION (acquisition, merger, licensing deal): a smaller distinct piece is lowered by a crane or slotted into a larger structure that has a matching gap.\nT05 GATE_OPENED (approval, registration, launch): a barrier lifts and a single item or a short line passes into an open, wider space.\nT06 PRICE_DROP (price cut, copay reduction, discount): before on the left, after on the right: a tall stack of plain discs next to a very small stack, a downward curved arrow between them; for ratios above 5 the right side is one single disc. Prices and costs are always objects (discs, price tags, invoices), never people.\nT07 SHORT_BRIDGE (funding gap, tariff vs inflation, budget shortfall): a bridge or plank extends from one cliff and covers only the stated fraction of the chasm to the other cliff (fraction = smaller figure / larger figure); tiny silhouettes stand at the edge.\nT08 BOTTLENECK (backlog, delays, access queue): a wide funnel narrowing to a small opening with a long queue of silhouettes before it and few after.\nT09 SHIELD (prevention, vaccine, PrEP, protection): a large umbrella or canopy over a group of silhouettes while plain drops fall around it and none fall underneath.\nT10 SHELF_FILLED (formulary additions, coverage expansion, new indications): a long shelf where several new plain boxes slide into previously empty slots.\nT11 SUPPLY_CHAIN (manufacturing, exports, plant, logistics): a cutaway factory to ship to warehouse chain, one link highlighted in orange where the change happens.\nT12 RACE (competition, first-to-market, rival launches): two parallel tracks with vehicles or runners at clearly different positions; nobody wins or loses in the picture.\nT13 SPLIT_PATH (policy fork, ruling pending, two options): a road splitting in two, a single figure at the junction, both branches plain.\nT14 NETWORK_FRAMED (AI, data, digital health governance): a grid of connected nodes with a rectangular frame being lowered around it or already closing on it.\nT15 CROWD_SUBSET (prevalence, burden, coverage share): a crowd of identical silhouettes with a clearly highlighted subset only when the share is at most 1 in 5 and stated in the excerpt.\n\nARTICLE\nTitle: {{942.title}}\nExcerpt: {{942.excerpt}}\n\nPROPOSAL\n{{261.clean_cover_json}}\n\nOUTPUT: the full corrected JSON object only, same schema, starting with { and ending with }, nothing before or after."
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 3900,
+                    "y": -150
+                  }
+                },
+                "module": "util:SetVariable2",
+                "parameters": {},
+                "version": 1
+              },
+              {
+                "id": 266,
+                "mapper": {
+                  "max_tokens": 3000,
+                  "model": "claude-sonnet-4-6",
+                  "textPrompt": "{{if(265.tpl_repeat = \"1\"; 270.fix_prompt; \"Reply with exactly the word KEEP.\")}}"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 4050,
+                    "y": -150
+                  }
+                },
+                "module": "anthropic-claude:simpleTextPrompt",
+                "onerror": [
+                  {
+                    "id": 277,
+                    "mapper": {
+                      "result": ""
+                    },
+                    "metadata": {
+                      "designer": {
+                        "x": 4050,
+                        "y": 150
+                      }
+                    },
+                    "module": "builtin:Resume",
+                    "version": 1
+                  }
+                ],
+                "parameters": {},
+                "version": 1
+              },
+              {
+                "id": 267,
+                "mapper": {
+                  "name": "final_json",
+                  "scope": "roundtrip",
+                  "value": "{{if(265.tpl_repeat = \"1\"; if(contains(ifempty(266.result; \"\"); \"image_prompt\"); replace(trim(replace(replace(replace(replace(266.result; \"```json\"; \"\"); \"```\"; \"\"); \"/^[^{]*/\"; \"\"); \"/}[^}]*$/\"; \"}\")); \"/\\}\\s*,\\s*(?=.editor_notes)/\"; \",\"); 261.clean_cover_json); 261.clean_cover_json)}}"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 4200,
+                    "y": -150
+                  }
+                },
+                "module": "util:SetVariable2",
+                "parameters": {},
+                "version": 1
+              },
+              {
+                "id": 268,
+                "mapper": {
+                  "json": "{{267.final_json}}"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 4350,
+                    "y": -150
+                  }
+                },
+                "module": "json:ParseJSON",
+                "onerror": [
+                  {
+                    "id": 278,
+                    "mapper": {},
+                    "metadata": {
+                      "designer": {
+                        "x": 4350,
+                        "y": 150
+                      }
+                    },
+                    "module": "builtin:Resume",
+                    "version": 1
+                  }
+                ],
+                "parameters": {},
+                "version": 1
+              },
+              {
+                "id": 269,
+                "mapper": {
+                  "scope": "roundtrip",
+                  "variables": [
+                    {
+                      "name": "image_prompt",
+                      "value": "{{ifempty(268.image_prompt; ifempty(214.image_prompt; 216.image_prompt))}}"
+                    },
+                    {
+                      "name": "alt_text",
+                      "value": "{{ifempty(268.alt_text; ifempty(214.alt_text; 216.alt_text))}}"
+                    },
+                    {
+                      "name": "template",
+                      "value": "{{ifempty(268.template; ifempty(214.template; 216.template))}}"
+                    },
+                    {
+                      "name": "kicker",
+                      "value": "{{ifempty(268.kicker; ifempty(214.kicker; 216.kicker))}}"
+                    },
+                    {
+                      "name": "editor_ok",
+                      "value": "{{if(length(ifempty(214.image_prompt; \"\")) > 0; \"ok\"; \"FALLO (JSON invalido): se uso la propuesta del art director sin revision adversarial\")}}"
+                    },
+                    {
+                      "name": "proposal",
+                      "value": "{{if(length(ifempty(268.image_prompt; \"\")) > 0; 267.final_json; if(length(ifempty(214.image_prompt; \"\")) > 0; 261.clean_cover_json; 213.clean_ad))}}"
+                    }
+                  ]
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 4500,
+                    "y": -150
+                  }
+                },
+                "module": "util:SetVariables",
+                "version": 1
+              },
+              {
+                "filter": {
+                  "conditions": [
+                    [
+                      {
+                        "a": "{{269.image_prompt}}",
+                        "o": "exist"
+                      }
+                    ]
+                  ],
+                  "name": "hay prompt"
+                },
+                "id": 206,
+                "mapper": {
+                  "model": "gpt-image-2",
+                  "n": 2,
+                  "output_compression": 90,
+                  "output_format": "jpeg",
+                  "prompt": "{{if(263.lm_off = \"1\"; trim(replace(269.image_prompt; \"/[^.]*([Oo]belisco|[Oo]belisk|Angel of Independence|[Nn]ational [Cc]ongress|Bras[ií]lia|Cartagena|Santiago|Andes|Machu Picchu|Panama Canal|Capitol|[Ll]andmark)[^.]*[.]?/g\"; \"\")); 269.image_prompt)}}{{if(263.lm_off = \"1\"; \" No buildings, monuments or landmarks of any kind.\"; \"\")}} STYLE LOCK (overrides anything above): flat vector editorial illustration for a business-magazine cover. Plain warm cream background with no floor band, ground plane or sky block reaching any edge of the image; the scene floats on the cream. Colour set strictly limited to warm cream, deep teal, burnt orange and dark ink, plus at most one accent colour on no more than 15 percent of the picture. Uniform clean shapes, no gradients, no texture, no shadows, no photorealism. Human figures are identical simple faceless silhouettes. Keep at least 160 pixels of empty cream on every edge and leave the whole upper-left quarter empty. No frame, border or background panel around the picture. Absolutely no text, letters, numbers, logos, flags or signage anywhere.",
+                  "quality": "high",
+                  "size": "1536x1024"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 4650,
+                    "y": -150
+                  }
+                },
+                "module": "openai-gpt-3:GenerateImage",
+                "onerror": [
+                  {
+                    "id": 207,
+                    "mapper": {},
+                    "metadata": {
+                      "designer": {
+                        "x": 4650,
+                        "y": 150
+                      }
+                    },
+                    "module": "builtin:Resume",
+                    "version": 1
+                  }
+                ],
+                "parameters": {
+                  "__IMTCONN__": 8943313
+                },
+                "version": 1
+              },
+              {
+                "id": 210,
+                "mapper": {
+                  "array": "{{206.data}}"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 4800,
+                    "y": -150
+                  }
+                },
+                "module": "builtin:BasicFeeder",
+                "parameters": {},
+                "version": 1
+              },
+              {
+                "id": 280,
+                "mapper": {
+                  "name": "cover_done"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 4950,
+                    "y": -150
+                  }
+                },
+                "module": "util:GetVariable2",
+                "parameters": {},
+                "version": 1
+              },
+              {
+                "filter": {
+                  "conditions": [
+                    [
+                      {
+                        "a": "{{ifempty(280.cover_done; \"none\")}}",
+                        "b": "{{902.body.id}}",
+                        "o": "text:notequal"
+                      }
+                    ]
+                  ],
+                  "name": "todavia no hay imagen subida para este post"
+                },
+                "id": 208,
+                "mapper": {
+                  "images": [
+                    {
+                      "imageFileData": "{{210.fileData}}",
+                      "imageUploadType": "imageFile"
+                    }
+                  ],
+                  "model": "gpt-5.6-luna",
+                  "prompt": "You are the pre-publication check for the cover illustration of a healthcare news article. The illustration is AI-generated and flat editorial by design; typography is added later by code, so the picture itself must carry none. Do not reject it for being stylised.\n\nArticle title: {{942.title}}\n\nREJECT if any of these is true:\n1. Readable text, letters, numbers or symbols that read as words anywhere in the image.\n2. A drawn flag, logo, wordmark, emblem, seal, crest or coat of arms.\n3. A photorealistic or identifiable human face, or a rendering that could pass for a photograph.\n4. A frame, border or coloured panel drawn around the whole picture.\n5. The main subject is cut off by the edge of the frame.\n6. Deformed anatomy on a human figure, or a patient's body, injury or death.\n7. The picture could be read as the opposite of the title (a drop drawn as a rise, a stop drawn as growth).\n{{if(263.lm_off = \"1\"; \"8. A recognisable monument, landmark column, dome or famous building.\"; \"\")}}\n\nAPPROVE otherwise. Reply with exactly one word: APPROVE or REJECT."
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 5100,
+                    "y": -150
+                  }
+                },
+                "module": "openai-gpt-3:analyzeImages",
+                "onerror": [
+                  {
+                    "id": 209,
+                    "mapper": {
+                      "result": "REJECT"
+                    },
+                    "metadata": {
+                      "designer": {
+                        "x": 5100,
+                        "y": 150
+                      }
+                    },
+                    "module": "builtin:Resume",
+                    "version": 1
+                  }
+                ],
+                "parameters": {
+                  "__IMTCONN__": 8943313
+                },
+                "version": 1
+              },
+              {
+                "filter": {
+                  "conditions": [
+                    [
+                      {
+                        "a": "{{trim(208.result)}}",
+                        "b": "APPROVE",
+                        "o": "text:equal"
+                      }
+                    ]
+                  ],
+                  "name": "aprobada por QA"
+                },
+                "id": 262,
+                "mapper": {
+                  "bodyType": "multipart_form_data",
+                  "followAllRedirects": true,
+                  "followRedirect": true,
+                  "formDataFields": [
+                    {
+                      "data": "{{210.fileData}}",
+                      "fieldType": "file",
+                      "fileName": "cover.jpg",
+                      "key": "image"
+                    },
+                    {
+                      "fieldType": "text",
+                      "key": "title",
+                      "value": "{{942.title}}"
+                    },
+                    {
+                      "fieldType": "text",
+                      "key": "excerpt",
+                      "value": "{{942.excerpt}}"
+                    },
+                    {
+                      "fieldType": "text",
+                      "key": "country",
+                      "value": "{{1.country}}"
+                    },
+                    {
+                      "fieldType": "text",
+                      "key": "proposal",
+                      "value": "{{269.proposal}}"
+                    }
+                  ],
+                  "gzip": true,
+                  "headers": [
+                    {
+                      "name": "x-cover-key",
+                      "value": "hsc_SCvLx0u7SqB60ZTp6GU2XmYxtHTj9ztm"
+                    }
+                  ],
+                  "method": "post",
+                  "parseResponse": false,
+                  "rejectUnauthorized": true,
+                  "serializeUrl": false,
+                  "shareCookies": false,
+                  "timeout": 120,
+                  "url": "https://lustrous-lebkuchen-b5da5f.netlify.app/cover",
+                  "useMtls": false,
+                  "useQuerystring": false
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 5250,
+                    "y": -150
+                  }
+                },
+                "module": "http:ActionSendData",
+                "onerror": [
+                  {
+                    "id": 274,
+                    "metadata": {
+                      "designer": {
+                        "x": 5250,
+                        "y": 150
+                      }
+                    },
+                    "module": "builtin:Ignore",
+                    "version": 1
+                  }
+                ],
+                "parameters": {
+                  "handleErrors": true
+                },
+                "version": 3
+              },
+              {
+                "filter": {
+                  "conditions": [
+                    [
+                      {
+                        "a": "{{262.statusCode}}",
+                        "b": "200",
+                        "o": "number:equal"
+                      }
+                    ]
+                  ],
+                  "name": "render ok"
+                },
+                "id": 211,
+                "mapper": {
+                  "altText": "{{269.alt_text}}",
+                  "caption": "{{269.alt_text}} · Illustration generated with AI for HealthSignals.",
+                  "data": "{{262.data}}",
+                  "fileName": "hs-cover-{{902.body.id}}-{{formatDate(now; \"YYYYMMDD-HHmmss\")}}.jpeg",
+                  "title": "{{942.title}}"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 5400,
+                    "y": -150
+                  }
+                },
+                "module": "wordpress:createMediaItem",
+                "onerror": [
+                  {
+                    "id": 275,
+                    "metadata": {
+                      "designer": {
+                        "x": 5400,
+                        "y": 150
+                      }
+                    },
+                    "module": "builtin:Ignore",
+                    "version": 1
+                  }
+                ],
+                "parameters": {
+                  "__IMTCONN__": 8921729
+                },
+                "version": 3
+              },
+              {
+                "id": 281,
+                "mapper": {
+                  "name": "cover_done",
+                  "scope": "roundtrip",
+                  "value": "{{902.body.id}}"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 5550,
+                    "y": -150
+                  }
+                },
+                "module": "util:SetVariable2",
+                "parameters": {},
+                "version": 1
+              },
+              {
+                "id": 212,
+                "mapper": {
+                  "ID": "{{211.ID}}"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 5700,
+                    "y": -150
+                  }
+                },
+                "module": "builtin:BasicAggregator",
+                "parameters": {
+                  "feeder": 210
+                },
+                "version": 1
+              },
+              {
+                "filter": {
+                  "conditions": [
+                    [
+                      {
+                        "a": "{{length(212.array)}}",
+                        "b": "0",
+                        "o": "number:greater"
+                      }
+                    ]
+                  ],
+                  "name": "hay imagen nueva"
+                },
+                "id": 955,
+                "mapper": {
+                  "headers": [
+                    {
+                      "key": "Cache-Control",
+                      "value": "no-cache"
+                    }
+                  ],
+                  "method": "GET",
+                  "qs": [
+                    {
+                      "key": "context",
+                      "value": "edit"
+                    },
+                    {
+                      "key": "_fields",
+                      "value": "id,status,featured_media"
+                    }
+                  ],
+                  "url": "posts/{{902.body.id}}"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 5850,
+                    "y": -150
+                  }
+                },
+                "module": "wordpress:makeApiCall",
+                "onerror": [
+                  {
+                    "id": 912,
+                    "mapper": {
+                      "from": "HealthSignals Alertas <editor@healthsignals.news>",
+                      "sendEmailAs": "text",
+                      "subject": "ERROR watchdog: no pude releer el post {{902.body.id}} antes de asignar la portada (media {{first(map(212.array; \"ID\"))}} subida, sin asignar)",
+                      "text": "La API de WordPress fallo al releer el post {{902.body.id}} \"{{902.body.title.raw}}\" justo antes de asignar la portada.\n\nError: {{ifempty(955.error.message; \"sin detalle\")}}\n\nLa imagen YA esta subida a la biblioteca de medios (media ID {{first(map(212.array; \"ID\"))}}) pero NO se asigno. Asignala a mano o espera: el watchdog reintenta en la proxima hora si el post sigue sin portada (puede generar otra imagen).\n\nEditar: https://healthsignals.news/wp-admin/post.php?post={{902.body.id}}&action=edit",
+                      "to": [
+                        "editor@healthsignals.news"
+                      ]
+                    },
+                    "metadata": {
+                      "designer": {
+                        "x": 5850,
+                        "y": 150
+                      }
+                    },
+                    "module": "resend:sendAnEmail",
+                    "parameters": {
+                      "__IMTCONN__": 9533217
+                    },
+                    "version": 1
+                  },
+                  {
+                    "id": 923,
+                    "metadata": {
+                      "designer": {
+                        "x": 6000,
+                        "y": 150
+                      }
+                    },
+                    "module": "builtin:Ignore",
+                    "version": 1
+                  }
+                ],
+                "parameters": {
+                  "__IMTCONN__": 8921729
+                },
+                "version": 3
+              },
+              {
+                "filter": {
+                  "conditions": [
+                    [
+                      {
+                        "a": "{{955.body.featured_media}}",
+                        "b": "0",
+                        "o": "text:equal"
+                      }
+                    ],
+                    [
+                      {
+                        "a": "{{955.body.featured_media}}",
+                        "b": "14",
+                        "o": "text:equal"
+                      }
+                    ],
+                    [
+                      {
+                        "a": "{{955.body.featured_media}}",
+                        "b": "15",
+                        "o": "text:equal"
+                      }
+                    ],
+                    [
+                      {
+                        "a": "{{955.body.featured_media}}",
+                        "b": "46",
+                        "o": "text:equal"
+                      }
+                    ]
+                  ],
+                  "name": "sigue sin portada (no pisar una cover puesta mientras tanto)"
+                },
+                "id": 56,
+                "mapper": {
+                  "featuredMedia": "{{first(map(212.array; \"ID\"))}}",
+                  "id": "{{902.body.id}}",
+                  "type": "posts"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 6000,
+                    "y": -150
+                  }
+                },
+                "module": "wordpress:updatePost",
+                "onerror": [
+                  {
+                    "id": 914,
+                    "mapper": {
+                      "from": "HealthSignals Alertas <editor@healthsignals.news>",
+                      "sendEmailAs": "text",
+                      "subject": "ERROR watchdog: fallo la asignacion de portada al post {{902.body.id}} (media {{first(map(212.array; \"ID\"))}})",
+                      "text": "WordPress devolvio error al asignar la imagen destacada del post {{902.body.id}} \"{{902.body.title.raw}}\" ({{902.body.status}}).\n\nError: {{ifempty(56.error.message; \"sin detalle\")}}\n\nLa imagen esta subida (media ID {{first(map(212.array; \"ID\"))}}) pero el post sigue sin portada. Asignala a mano desde WordPress; si no, el watchdog reintenta en la proxima hora (maximo 2 intentos por post).\n\nEditar: https://healthsignals.news/wp-admin/post.php?post={{902.body.id}}&action=edit",
+                      "to": [
+                        "editor@healthsignals.news"
+                      ]
+                    },
+                    "metadata": {
+                      "designer": {
+                        "x": 6000,
+                        "y": 150
+                      }
+                    },
+                    "module": "resend:sendAnEmail",
+                    "parameters": {
+                      "__IMTCONN__": 9533217
+                    },
+                    "version": 1
+                  },
+                  {
+                    "id": 924,
+                    "metadata": {
+                      "designer": {
+                        "x": 6150,
+                        "y": 150
+                      }
+                    },
+                    "module": "builtin:Ignore",
+                    "version": 1
+                  }
+                ],
+                "parameters": {
+                  "__IMTCONN__": 8921729
+                },
+                "version": 3
+              },
+              {
+                "id": 913,
+                "mapper": {
+                  "data": {
+                    "attempts": "0",
+                    "last": "{{now}}",
+                    "notified": "",
+                    "status": "ok",
+                    "title": "{{902.body.title.raw}}"
+                  },
+                  "key": "{{902.body.id}}",
+                  "overwrite": true
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 6150,
+                    "y": -150
+                  }
+                },
+                "module": "datastore:AddRecord",
+                "onerror": [
+                  {
+                    "id": 925,
+                    "mapper": {},
+                    "metadata": {
+                      "designer": {
+                        "x": 6150,
+                        "y": 150
+                      }
+                    },
+                    "module": "builtin:Resume",
+                    "version": 1
+                  }
+                ],
+                "parameters": {
+                  "datastore": 200868
+                },
+                "version": 1
+              },
+              {
+                "id": 203,
+                "mapper": {
+                  "from": "drive",
+                  "includesHeaders": true,
+                  "insertDataOption": "INSERT_ROWS",
+                  "insertUnformatted": false,
+                  "mode": "select",
+                  "sheetId": "Image Prompts",
+                  "spreadsheetId": "1J8ca4Pvp3HTSdHqq9-TZ1H-nF6_fM5R3Jm1bf9bAU8A",
+                  "useColumnHeaders": true,
+                  "valueInputOption": "USER_ENTERED",
+                  "values": {
+                    "Article ID": "WP {{902.body.id}}",
+                    "Article Title": "{{942.title}}",
+                    "Category": "",
+                    "Date Generated": "{{now}}",
+                    "Entities": "{{join(205.entities; \", \")}}",
+                    "Image Prompt": "{{269.proposal}}",
+                    "Status": "{{269.kicker}}",
+                    "Type": "{{269.template}}"
+                  }
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 6300,
+                    "y": -150
+                  }
+                },
+                "module": "google-sheets:addRow",
+                "onerror": [
+                  {
+                    "id": 276,
+                    "mapper": {},
+                    "metadata": {
+                      "designer": {
+                        "x": 6300,
+                        "y": 150
+                      }
+                    },
+                    "module": "builtin:Resume",
+                    "version": 1
+                  }
+                ],
+                "parameters": {
+                  "__IMTCONN__": 8923977
+                },
+                "version": 2
+              },
+              {
+                "id": 907,
+                "mapper": {
+                  "from": "HealthSignals Alertas <editor@healthsignals.news>",
+                  "sendEmailAs": "text",
+                  "subject": "OK portada: post {{902.body.id}} ya tiene imagen destacada (media {{first(map(212.array; \"ID\"))}})",
+                  "text": "El watchdog asigno la portada al post {{902.body.id}} \"{{902.body.title.raw}}\" ({{902.body.status}}).\n\nMedia ID: {{first(map(212.array; \"ID\"))}}\nPlantilla: {{269.template}}\nKicker: {{269.kicker}}\nRotacion de plantilla: {{if(contains(264.recent_tpl; substring(trim(269.template); 0; 3)); \"NO CUMPLIDA (plantilla usada en las ultimas 3 portadas)\"; \"ok\")}}\nEditor adversarial: {{269.editor_ok}}\nLandmark permitido: {{if(263.lm_off = \"1\"; \"no (pais repetido en las 2 ultimas)\"; \"si\")}}\n\nRevisala a ojo antes de que salga (o ya salio): https://healthsignals.news/?p={{902.body.id}}\nEditar: https://healthsignals.news/wp-admin/post.php?post={{902.body.id}}&action=edit\n\nScenario de Make: 'HS — Guard imagen destacada (watchdog)' (6314042).",
+                  "to": [
+                    "editor@healthsignals.news"
+                  ]
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 6450,
+                    "y": -150
+                  }
+                },
+                "module": "resend:sendAnEmail",
+                "onerror": [
+                  {
+                    "id": 926,
+                    "metadata": {
+                      "designer": {
+                        "x": 6450,
+                        "y": 150
+                      }
+                    },
+                    "module": "builtin:Ignore",
+                    "version": 1
+                  }
+                ],
+                "parameters": {
+                  "__IMTCONN__": 9533217
+                },
+                "version": 1
               }
             ]
-          ],
-          "name": "hay media nueva"
-        },
-        "id": 10,
-        "mapper": {
-          "featuredMedia": "{{9.ID}}",
-          "id": "{{get(split(11.target; \"|\"); 1)}}",
-          "type": "posts"
-        },
-        "metadata": {
-          "designer": {
-            "x": 2700,
-            "y": 0
+          },
+          {
+            "flow": [
+              {
+                "filter": {
+                  "conditions": [
+                    [
+                      {
+                        "a": "{{902.body.featured_media}}",
+                        "b": "0",
+                        "o": "text:equal"
+                      },
+                      {
+                        "a": "{{ifempty(903.data.attempts; 0)}}",
+                        "b": "2",
+                        "o": "number:greaterorequal"
+                      },
+                      {
+                        "a": "{{ifempty(903.data.notified; \"\")}}",
+                        "b": "1",
+                        "o": "text:notequal"
+                      }
+                    ],
+                    [
+                      {
+                        "a": "{{902.body.featured_media}}",
+                        "b": "14",
+                        "o": "text:equal"
+                      },
+                      {
+                        "a": "{{ifempty(903.data.attempts; 0)}}",
+                        "b": "2",
+                        "o": "number:greaterorequal"
+                      },
+                      {
+                        "a": "{{ifempty(903.data.notified; \"\")}}",
+                        "b": "1",
+                        "o": "text:notequal"
+                      }
+                    ],
+                    [
+                      {
+                        "a": "{{902.body.featured_media}}",
+                        "b": "15",
+                        "o": "text:equal"
+                      },
+                      {
+                        "a": "{{ifempty(903.data.attempts; 0)}}",
+                        "b": "2",
+                        "o": "number:greaterorequal"
+                      },
+                      {
+                        "a": "{{ifempty(903.data.notified; \"\")}}",
+                        "b": "1",
+                        "o": "text:notequal"
+                      }
+                    ],
+                    [
+                      {
+                        "a": "{{902.body.featured_media}}",
+                        "b": "46",
+                        "o": "text:equal"
+                      },
+                      {
+                        "a": "{{ifempty(903.data.attempts; 0)}}",
+                        "b": "2",
+                        "o": "number:greaterorequal"
+                      },
+                      {
+                        "a": "{{ifempty(903.data.notified; \"\")}}",
+                        "b": "1",
+                        "o": "text:notequal"
+                      }
+                    ]
+                  ],
+                  "name": "sin portada, 2+ intentos y todavia no avisado (aviso final, una sola vez)"
+                },
+                "id": 908,
+                "mapper": {
+                  "data": {
+                    "attempts": "{{ifempty(903.data.attempts; 2)}}",
+                    "last": "{{now}}",
+                    "notified": "1",
+                    "status": "{{902.body.status}}",
+                    "title": "{{902.body.title.raw}}"
+                  },
+                  "key": "{{902.body.id}}",
+                  "overwrite": true
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 1200,
+                    "y": 450
+                  }
+                },
+                "module": "datastore:AddRecord",
+                "onerror": [
+                  {
+                    "id": 927,
+                    "metadata": {
+                      "designer": {
+                        "x": 1200,
+                        "y": 750
+                      }
+                    },
+                    "module": "builtin:Ignore",
+                    "version": 1
+                  }
+                ],
+                "parameters": {
+                  "datastore": 200868
+                },
+                "version": 1
+              },
+              {
+                "id": 909,
+                "mapper": {
+                  "from": "HealthSignals Alertas <editor@healthsignals.news>",
+                  "sendEmailAs": "text",
+                  "subject": "ACCION MANUAL: post {{902.body.id}} sigue sin portada despues de 2 intentos automaticos",
+                  "text": "El post {{902.body.id}} \"{{902.body.title.raw}}\" ({{902.body.status}}, fecha {{902.body.date}}) sigue sin imagen destacada despues de 2 intentos del watchdog.\n\nEl watchdog NO vuelve a intentar con este post ni vuelve a avisar (para no gastar en bucle). Opciones:\n1) Correr a mano el scenario 6735926 'HS - Cover for manual post (ad-hoc)' con este post_id.\n2) Subir una imagen y asignarla desde WordPress.\n3) Para que el watchdog reintente: borrar la clave {{902.body.id}} del data store 'HS cover watchdog attempts' (200868).\n\nEditar: https://healthsignals.news/wp-admin/post.php?post={{902.body.id}}&action=edit",
+                  "to": [
+                    "editor@healthsignals.news"
+                  ]
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 1350,
+                    "y": 450
+                  }
+                },
+                "module": "resend:sendAnEmail",
+                "onerror": [
+                  {
+                    "id": 928,
+                    "metadata": {
+                      "designer": {
+                        "x": 1350,
+                        "y": 750
+                      }
+                    },
+                    "module": "builtin:Ignore",
+                    "version": 1
+                  }
+                ],
+                "parameters": {
+                  "__IMTCONN__": 9533217
+                },
+                "version": 1
+              }
+            ]
           }
-        },
-        "module": "wordpress:updatePost",
-        "parameters": {
-          "__IMTCONN__": 8921729
-        },
-        "version": 3
+        ],
+        "version": 1
       }
     ],
     "metadata": {
       "instant": false,
+      "scenario": {
+        "autoCommit": true,
+        "autoCommitTriggerLast": true,
+        "confidential": false,
+        "dataloss": false,
+        "dlq": false,
+        "maxErrors": 3,
+        "roundtrips": 1,
+        "sequential": true
+      },
       "version": 1
     },
     "name": "HS — Guard imagen destacada (watchdog)"
@@ -353,7 +1717,7 @@
   "isActive": true,
   "name": "HS — Guard imagen destacada (watchdog)",
   "scheduling": {
-    "interval": 10800,
+    "interval": 3600,
     "type": "indefinitely"
   }
 }

@@ -221,6 +221,21 @@
     "id": "rec38vGAsbMf8h6t2"
   },
   {
+    "createdTime": "2026-11-13T00:43:13.000Z",
+    "fields": {
+      "Country": "Brasil",
+      "Email": "jessie.costa@inpresspni.com.br",
+      "Idioma": "PT",
+      "Name": "Jéssie Ellen Costa Neves",
+      "Notes": "Tel +55 11 99330-5735. Fuente: respuesta por correo a editor@ el 12-11-2026 (sin URL pública). Sumó HealthSignals al mailing de Roche Brasil; Roche tiene voceros: mandar preguntas por escrito cuando haya pauta. Invitación al Brief en cola (Subscribe Invites).",
+      "Organization": "InPress PNI (Roche Brasil)",
+      "Role": "Consultora de Comunicação Sênior",
+      "Status": "Responded",
+      "Type": "Agencia PR"
+    },
+    "id": "rec3i8xsRPPQ0xNuu"
+  },
+  {
     "createdTime": "2026-10-15T11:09:32.000Z",
     "fields": {
       "Beat": "Acceso/precios",
@@ -3352,6 +3367,20 @@
     "id": "recZg6m4IiZFqcyZt"
   },
   {
+    "createdTime": "2026-11-13T00:43:13.000Z",
+    "fields": {
+      "Country": "Brasil",
+      "Email": "fabiana.delgado@bursonglobal.com",
+      "Idioma": "PT",
+      "Name": "Fabiana Delgado",
+      "Notes": "Fuente: pedido de inclusión en lista de prensa enviado 12-11-2026 (sin URL pública). Respuesta automática: de vacaciones hasta 30-11-2026; alternativos ana.sniesko@bursonglobal.com y bruna.quintanilha@bursonglobal.com. Invitación al Brief en cola, enviar después del 30-11.",
+      "Organization": "Burson (Novartis Brasil)",
+      "Status": "Contacted",
+      "Type": "Agencia PR"
+    },
+    "id": "recZlHK2gdrP7MfuI"
+  },
+  {
     "createdTime": "2026-10-15T11:18:57.000Z",
     "fields": {
       "Beat": "Acceso/precios",
@@ -3481,6 +3510,20 @@
       "Type": "Pharma media office"
     },
     "id": "recbRQmEkomGP1dO6"
+  },
+  {
+    "createdTime": "2026-11-13T00:43:13.000Z",
+    "fields": {
+      "Country": "EE.UU.",
+      "Email": "jakopyan@amgen.com",
+      "Idioma": "EN",
+      "Name": "Akopyan",
+      "Notes": "Fuente: correo enviado 12-11-2026 sobre la cobertura de DeLLphi-305 (tarlatamab + durvalumab), pidiendo inclusión en la media list y un vocero para acceso en LatAm. Nombre de pila no confirmado (Ms. Akopyan). Invitación al Brief en cola.",
+      "Organization": "Amgen",
+      "Status": "Contacted",
+      "Type": "Pharma media office"
+    },
+    "id": "recbiA03n9SSZZ5a2"
   },
   {
     "createdTime": "2026-08-11T15:30:26.000Z",
@@ -4575,6 +4618,23 @@
       "Última nota firmada": "https://www.jornada.com.mx/2026/10/10/politica/003n1pol"
     },
     "id": "reco13MialNXSpgQi"
+  },
+  {
+    "createdTime": "2026-11-12T20:25:45.000Z",
+    "fields": {
+      "Beat": "Regulatorio",
+      "Country": "México",
+      "Email": "elsa.arguelles@omc.com",
+      "Idioma": "ES",
+      "Name": "Elsa Argüelles",
+      "Notes": "11-nov-2026: Fer pidió (1) inclusión en lista de comunicados de Sanofi México → press@healthsignals.news y (2) vocero de acceso/precios/políticas públicas para análisis COFEPRIS, preguntas por escrito.\n11-nov (19:24 CDMX): Elsa respondió. SÍ a la lista de distribución. Vocero: lo revisan con el cliente (Sanofi), sin compromiso. Preguntó fecha estimada de lanzamiento.\n11-nov: Fer respondió que ya publicamos (sitio activo, Brief quincenal desde octubre) y agregó nota sobre su trabajo previo con Sanofi desde The Economist.\nEn copia (Omnicom): Paola Maldonado, Silvana Blancas, Lorelay VonAllworden, Juliana Pineda.\nMóvil firma: 55 6787 5109.\nEmail no tildado como verificado: viene de correspondencia directa, no de fuente publicada.\nPendiente: respuesta sobre vocero. Si no hay novedad, follow-up corto el 19-11-2026. Confirmar que lleguen comunicados de Sanofi a press@.",
+      "Organization": "Porter Novelli México (PN Mexico, Omnicom) — cuenta Sanofi México",
+      "Role": "Account Manager",
+      "Source_URL": "https://mail.google.com/mail/?authuser=editor@healthsignals.news#all/thread-f:1880522732830153011",
+      "Status": "Responded",
+      "Type": "Agencia PR"
+    },
+    "id": "recoFRyLYo10x2dl8"
   },
   {
     "createdTime": "2026-08-11T02:56:07.000Z",

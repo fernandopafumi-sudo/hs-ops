@@ -192,6 +192,38 @@
     "teamId": 2174293
   },
   {
+    "id": 579790,
+    "name": "HS cover watchdog attempts",
+    "spec": [
+      {
+        "label": "attempts",
+        "name": "attempts",
+        "type": "number"
+      },
+      {
+        "label": "last",
+        "name": "last",
+        "type": "text"
+      },
+      {
+        "label": "title",
+        "name": "title",
+        "type": "text"
+      },
+      {
+        "label": "status",
+        "name": "status",
+        "type": "text"
+      },
+      {
+        "label": "notified",
+        "name": "notified",
+        "type": "text"
+      }
+    ],
+    "teamId": 2174293
+  },
+  {
     "id": 494253,
     "name": "HS Event Dedup",
     "spec": [
@@ -509,170 +541,6 @@
     "teamId": 2174293
   },
   {
-    "id": 376139,
-    "name": "My data structure",
-    "spec": [
-      {
-        "help": "",
-        "label": "Signals",
-        "name": "signals",
-        "required": false,
-        "spec": {
-          "required": false,
-          "spec": [
-            {
-              "default": null,
-              "help": "",
-              "label": null,
-              "multiline": false,
-              "name": "headline",
-              "required": false,
-              "type": "text"
-            },
-            {
-              "default": null,
-              "help": "",
-              "label": null,
-              "multiline": false,
-              "name": "category",
-              "required": false,
-              "type": "text"
-            },
-            {
-              "default": null,
-              "help": "",
-              "label": null,
-              "multiline": false,
-              "name": "region",
-              "required": false,
-              "type": "text"
-            },
-            {
-              "default": null,
-              "help": "",
-              "label": null,
-              "multiline": false,
-              "name": "country",
-              "required": false,
-              "type": "text"
-            },
-            {
-              "default": null,
-              "help": "",
-              "label": null,
-              "multiline": false,
-              "name": "institution_company",
-              "required": false,
-              "type": "text"
-            },
-            {
-              "default": null,
-              "help": "",
-              "label": null,
-              "multiline": false,
-              "name": "angle",
-              "required": false,
-              "type": "text"
-            },
-            {
-              "default": null,
-              "help": "",
-              "label": null,
-              "multiline": false,
-              "name": "why_it_matters",
-              "required": false,
-              "type": "text"
-            },
-            {
-              "default": null,
-              "help": "",
-              "label": null,
-              "multiline": false,
-              "name": "patients_impact",
-              "required": false,
-              "type": "text"
-            },
-            {
-              "default": null,
-              "help": "",
-              "label": null,
-              "multiline": false,
-              "name": "industry_impact",
-              "required": false,
-              "type": "text"
-            },
-            {
-              "default": null,
-              "help": "",
-              "label": null,
-              "multiline": false,
-              "name": "litigation_risk",
-              "required": false,
-              "type": "text"
-            },
-            {
-              "default": null,
-              "help": "",
-              "label": null,
-              "multiline": false,
-              "name": "source_1",
-              "required": false,
-              "type": "text"
-            },
-            {
-              "default": null,
-              "help": "",
-              "label": null,
-              "multiline": false,
-              "name": "source_2",
-              "required": false,
-              "type": "text"
-            },
-            {
-              "default": null,
-              "help": "",
-              "label": null,
-              "multiline": false,
-              "name": "priority",
-              "required": false,
-              "type": "text"
-            },
-            {
-              "default": null,
-              "help": "",
-              "label": null,
-              "multiline": false,
-              "name": "status",
-              "required": false,
-              "type": "text"
-            },
-            {
-              "default": null,
-              "help": "",
-              "label": null,
-              "multiline": false,
-              "name": "current_step",
-              "required": false,
-              "type": "text"
-            },
-            {
-              "default": null,
-              "help": "",
-              "label": null,
-              "multiline": false,
-              "name": "signal_hash",
-              "required": false,
-              "type": "text"
-            }
-          ],
-          "type": "collection"
-        },
-        "type": "array"
-      }
-    ],
-    "teamId": 2174293
-  },
-  {
     "id": 375976,
     "name": "My data structure",
     "spec": [
@@ -947,6 +815,170 @@
         "name": "status",
         "required": false,
         "type": "text"
+      }
+    ],
+    "teamId": 2174293
+  },
+  {
+    "id": 376139,
+    "name": "My data structure",
+    "spec": [
+      {
+        "help": "",
+        "label": "Signals",
+        "name": "signals",
+        "required": false,
+        "spec": {
+          "required": false,
+          "spec": [
+            {
+              "default": null,
+              "help": "",
+              "label": null,
+              "multiline": false,
+              "name": "headline",
+              "required": false,
+              "type": "text"
+            },
+            {
+              "default": null,
+              "help": "",
+              "label": null,
+              "multiline": false,
+              "name": "category",
+              "required": false,
+              "type": "text"
+            },
+            {
+              "default": null,
+              "help": "",
+              "label": null,
+              "multiline": false,
+              "name": "region",
+              "required": false,
+              "type": "text"
+            },
+            {
+              "default": null,
+              "help": "",
+              "label": null,
+              "multiline": false,
+              "name": "country",
+              "required": false,
+              "type": "text"
+            },
+            {
+              "default": null,
+              "help": "",
+              "label": null,
+              "multiline": false,
+              "name": "institution_company",
+              "required": false,
+              "type": "text"
+            },
+            {
+              "default": null,
+              "help": "",
+              "label": null,
+              "multiline": false,
+              "name": "angle",
+              "required": false,
+              "type": "text"
+            },
+            {
+              "default": null,
+              "help": "",
+              "label": null,
+              "multiline": false,
+              "name": "why_it_matters",
+              "required": false,
+              "type": "text"
+            },
+            {
+              "default": null,
+              "help": "",
+              "label": null,
+              "multiline": false,
+              "name": "patients_impact",
+              "required": false,
+              "type": "text"
+            },
+            {
+              "default": null,
+              "help": "",
+              "label": null,
+              "multiline": false,
+              "name": "industry_impact",
+              "required": false,
+              "type": "text"
+            },
+            {
+              "default": null,
+              "help": "",
+              "label": null,
+              "multiline": false,
+              "name": "litigation_risk",
+              "required": false,
+              "type": "text"
+            },
+            {
+              "default": null,
+              "help": "",
+              "label": null,
+              "multiline": false,
+              "name": "source_1",
+              "required": false,
+              "type": "text"
+            },
+            {
+              "default": null,
+              "help": "",
+              "label": null,
+              "multiline": false,
+              "name": "source_2",
+              "required": false,
+              "type": "text"
+            },
+            {
+              "default": null,
+              "help": "",
+              "label": null,
+              "multiline": false,
+              "name": "priority",
+              "required": false,
+              "type": "text"
+            },
+            {
+              "default": null,
+              "help": "",
+              "label": null,
+              "multiline": false,
+              "name": "status",
+              "required": false,
+              "type": "text"
+            },
+            {
+              "default": null,
+              "help": "",
+              "label": null,
+              "multiline": false,
+              "name": "current_step",
+              "required": false,
+              "type": "text"
+            },
+            {
+              "default": null,
+              "help": "",
+              "label": null,
+              "multiline": false,
+              "name": "signal_hash",
+              "required": false,
+              "type": "text"
+            }
+          ],
+          "type": "collection"
+        },
+        "type": "array"
       }
     ],
     "teamId": 2174293

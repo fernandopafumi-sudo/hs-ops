@@ -9,11 +9,19 @@
   },
   {
     "datastructureId": null,
+    "id": 200868,
+    "maxSize": "1048576",
+    "name": "HS cover watchdog attempts",
+    "records": 2,
+    "size": "593"
+  },
+  {
+    "datastructureId": null,
     "id": 148747,
     "maxSize": "1048576",
     "name": "HS Event Dedup",
-    "records": 519,
-    "size": "118539"
+    "records": 520,
+    "size": "118701"
   },
   {
     "datastructureId": null,
@@ -21,7 +29,7 @@
     "maxSize": "1048576",
     "name": "HS gate state (capa 2)",
     "records": 54,
-    "size": "71424"
+    "size": "72890"
   },
   {
     "datastructureId": null,
@@ -37,7 +45,7 @@
     "maxSize": "1048576",
     "name": "HS LinkedIn shared posts",
     "records": 1,
-    "size": "225"
+    "size": "231"
   },
   {
     "datastructureId": null,

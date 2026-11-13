@@ -442,6 +442,19 @@
     "id": "recPtSn3sgWGRInxt"
   },
   {
+    "createdTime": "2026-11-12T18:48:45.000Z",
+    "fields": {
+      "Channel": "comentarios",
+      "Date": "2026-11-12",
+      "Items_Pending": 5,
+      "Notes": "Tarde (corrido por el principal, sin subagente): 3 Approved en cola entregados a Fer para publicar a mano (hoy Anvisa + FDA NAION; FDA Sunharbo el 13-11, ambos FDA vencen 14-11). 2 Proposed (PAHO menopausia, PAHO HPV), ninguno vencido. Sin métricas pendientes (último Published 21-10). Mail corto a editor@ enviado.",
+      "Run": "tarde",
+      "Run_Key": "2026-11-12|tarde|comentarios",
+      "Status": "ok"
+    },
+    "id": "recQgOHQCSdWxd0Sa"
+  },
+  {
     "createdTime": "2026-11-05T13:54:33.000Z",
     "fields": {
       "Channel": "grupos",

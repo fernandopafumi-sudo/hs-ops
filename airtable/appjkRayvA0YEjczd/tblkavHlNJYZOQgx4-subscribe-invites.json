@@ -182,6 +182,21 @@
     "id": "rec2OFrVHRACGQ1ez"
   },
   {
+    "createdTime": "2026-11-13T00:38:21.000Z",
+    "fields": {
+      "Country": "Brazil",
+      "Email": "kariane.davison@diabetes.org.br",
+      "First_Name": "Kariane",
+      "Language": "pt",
+      "Name": "Kariane Davison",
+      "Notes": "Source: respuesta SBD sobre reporte de diabetes (12-11-2026); cargado a pedido de Fer 2026-11-12",
+      "Organization": "Sociedade Brasileira de Diabetes",
+      "Segment": "generic",
+      "Status": "Queued"
+    },
+    "id": "rec2QHM8cSEhWbTKA"
+  },
+  {
     "createdTime": "2026-11-01T01:25:25.000Z",
     "fields": {
       "Country": "Other",
@@ -1291,11 +1306,11 @@
       "Gmail_Message_ID": "1a1a7ca5b6c3f1d5",
       "Language": "es",
       "Name": "Silvina Lizzi",
-      "Notes": "contact for Pichon-Riviere interview; all follow-ups go to her\n2026-11-04: invitación enviada",
+      "Notes": "contact for Pichon-Riviere interview; all follow-ups go to her\n2026-11-04: invitación enviada\n2026-11-12: recordatorio enviado",
       "Organization": "IECS",
       "Segment": "voices",
       "Sent_At": "2026-11-04T18:21:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "recCuBqWvfMmo4mMJ"
   },
@@ -2661,11 +2676,11 @@
       "Gmail_Message_ID": "1a1a7ca8269864a1",
       "Language": "es",
       "Name": "Jaime Sepúlveda Amor",
-      "Notes": "Source: Voices Pipeline (Stage=Accepted)\n2026-11-04: invitación enviada",
+      "Notes": "Source: Voices Pipeline (Stage=Accepted)\n2026-11-04: invitación enviada\n2026-11-12: recordatorio enviado",
       "Organization": "UCSF",
       "Segment": "voices",
       "Sent_At": "2026-11-04T18:21:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "recQzt2QET6o5uILm"
   },
@@ -2710,11 +2725,11 @@
       "Gmail_Message_ID": "1a1acf14f2725b79",
       "Language": "pt",
       "Name": "Mateus Vargas",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada\n2026-11-05: respondió 'Pedi para assinar'. Su alta quedó trabada en paso 1 (Newsletter Subscribers recmPn5zlJe1agmV5, partial/Pending); NO está en Brevo al 08/11. Firma: tel +55 61 99214-8561.",
+      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada\n2026-11-05: respondió 'Pedi para assinar'. Su alta quedó trabada en paso 1 (Newsletter Subscribers recmPn5zlJe1agmV5, partial/Pending); NO está en Brevo al 08/11. Firma: tel +55 61 99214-8561.\n2026-11-12: respondido en el hilo con su link de un clic (caso b: dijo 'Pedi para assinar' sin hacer clic); cuenta como su único recordatorio",
       "Organization": "Folha de S.Paulo",
       "Segment": "press",
       "Sent_At": "2026-11-05T18:21:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "recREpQ83ycfmudjb"
   },
@@ -3020,11 +3035,11 @@
       "Gmail_Message_ID": "1a1a7caabe7e23c1",
       "Language": "pt",
       "Name": "Vânia Cristina Canuto Santos",
-      "Notes": "Source: Voices Pipeline (Stage=Accepted)\n2026-11-04: invitación enviada",
+      "Notes": "Source: Voices Pipeline (Stage=Accepted)\n2026-11-04: invitación enviada\n2026-11-12: recordatorio enviado",
       "Organization": "OPAS (Departamento IMT, Washington); ex CMED (2002-2009) y ex directora DGITIS/Conitec (2018-2022)",
       "Segment": "voices",
       "Sent_At": "2026-11-04T18:21:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "recUTFQ7krPXk8z7l"
   },
@@ -3095,7 +3110,7 @@
       "Gmail_Message_ID": "1a1acf877b49a77c",
       "Language": "es",
       "Name": "Irene Hartmann",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada\n2026-11-06: respondió positivo ('Buenísimo, Fernando. Un gusto!') desde Ihartmann@agea.com.ar. No hizo clic; no está en Brevo al 08/11. Firma: tel +54 9 11 5920 8040.",
+      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada\n2026-11-06: respondió positivo ('Buenísimo, Fernando. Un gusto!') desde Ihartmann@agea.com.ar. No hizo clic; no está en Brevo al 08/11. Firma: tel +54 9 11 5920 8040.\n2026-11-12: sin recordatorio automático: Fer ya le respondió en persona el 09-11 en el hilo",
       "Organization": "Clarín",
       "Segment": "press",
       "Sent_At": "2026-11-05T18:28:00.000Z",
@@ -3126,6 +3141,21 @@
     "id": "recVHTzSZrZNhvPAv"
   },
   {
+    "createdTime": "2026-11-13T00:38:21.000Z",
+    "fields": {
+      "Country": "EE.UU.",
+      "Email": "Kathryn.Scott@informa.com",
+      "First_Name": "Kate",
+      "Language": "en",
+      "Name": "Kate Scott",
+      "Notes": "Source: barter CPHI Americas 2027 (firmado 12-11-2026); cargado a pedido de Fer 2026-11-12",
+      "Organization": "Informa (CPHI Americas / WHX Miami)",
+      "Segment": "events",
+      "Status": "Queued"
+    },
+    "id": "recVbMa8PSKh40FK3"
+  },
+  {
     "createdTime": "2026-11-01T01:20:33.000Z",
     "fields": {
       "Country": "México",
@@ -3147,7 +3177,7 @@
       "Gmail_Message_ID": "1a1acf1d016fca8d",
       "Language": "pt",
       "Name": "Paulo Piratininga",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada\n2026-11-05: respondió; copió a la editora Adriana Bruno (adriana@panoramafarmaceutico.com.br) y a Leandro Luize (leandro@scritta.com.br). Leandro se suscribió 06/11 (Active). Paulo propone compartir contenidos.",
+      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada\n2026-11-05: respondió; copió a la editora Adriana Bruno (adriana@panoramafarmaceutico.com.br) y a Leandro Luize (leandro@scritta.com.br). Leandro se suscribió 06/11 (Active). Paulo propone compartir contenidos.\n2026-11-12: sin recordatorio automático: Fer ya le respondió en persona el 09-11 en el hilo",
       "Organization": "Panorama Farmacêutico",
       "Segment": "press",
       "Sent_At": "2026-11-05T18:21:00.000Z",
@@ -3598,11 +3628,11 @@
       "Gmail_Message_ID": "1a1a7cb4ac85e700",
       "Language": "es",
       "Name": "Carolina Velasco Ortúzar",
-      "Notes": "Source: gmail-2026-11-01; Voices Pipeline (Stage=Draft); replied to editor@ 21-10\n2026-11-04: invitación enviada",
+      "Notes": "Source: gmail-2026-11-01; Voices Pipeline (Stage=Draft); replied to editor@ 21-10\n2026-11-04: invitación enviada\n2026-11-12: recordatorio enviado",
       "Organization": "Libertad y Desarrollo (LyD)",
       "Segment": "voices",
       "Sent_At": "2026-11-04T18:23:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "recZvYrKcdRXWHw2G"
   },
@@ -3904,6 +3934,21 @@
     "id": "reccKIWIZuFrTnXUh"
   },
   {
+    "createdTime": "2026-11-13T00:38:21.000Z",
+    "fields": {
+      "Country": "Brazil",
+      "Email": "jessie.costa@inpresspni.com.br",
+      "First_Name": "Jéssie",
+      "Language": "pt",
+      "Name": "Jéssie Ellen Costa Neves",
+      "Notes": "Source: respuesta a pedido de mailing de prensa Roche (12-11-2026); cargado a pedido de Fer 2026-11-12",
+      "Organization": "InPress PNI (Roche Brasil)",
+      "Segment": "press",
+      "Status": "Queued"
+    },
+    "id": "reccToJvQ53ZDUiwu"
+  },
+  {
     "createdTime": "2026-11-09T02:08:37.000Z",
     "fields": {
       "Country": "LATAM",
@@ -3933,6 +3978,20 @@
       "Status": "Sent"
     },
     "id": "recciVCAGZ5girS2o"
+  },
+  {
+    "createdTime": "2026-11-13T00:38:21.000Z",
+    "fields": {
+      "Country": "EE.UU.",
+      "Email": "jakopyan@amgen.com",
+      "Language": "en",
+      "Name": "Akopyan (Amgen)",
+      "Notes": "Source: mail DeLLphi-305 a Amgen media (12-11-2026); sin nombre de pila confirmado: saludar 'Dear Ms. Akopyan'; cargado a pedido de Fer 2026-11-12",
+      "Organization": "Amgen",
+      "Segment": "press",
+      "Status": "Queued"
+    },
+    "id": "reccjkyglucoIQMdy"
   },
   {
     "createdTime": "2026-11-01T01:18:07.000Z",
@@ -4007,7 +4066,7 @@
       "Gmail_Message_ID": "1a1a7caf9ec1332e",
       "Language": "es",
       "Name": "Octavio Gómez Dantés",
-      "Notes": "Source: Voices Pipeline (Stage=Answers received)\n2026-11-04: invitación enviada",
+      "Notes": "Source: Voices Pipeline (Stage=Answers received)\n2026-11-04: invitación enviada\n2026-11-12: recordatorio NO enviado (envío bloqueado por el filtro de permisos de la tarea automática); sigue Sent",
       "Organization": "INSP (Centro de Investigación en Sistemas de Salud); ex director general de Evaluación del Desempeño, SSA (administración 2000-2006)",
       "Segment": "voices",
       "Sent_At": "2026-11-04T18:23:00.000Z",
@@ -4786,6 +4845,21 @@
     "id": "reclfZ8smbEQ6bmHe"
   },
   {
+    "createdTime": "2026-11-13T00:38:21.000Z",
+    "fields": {
+      "Country": "Brazil",
+      "Email": "fabiana.delgado@bursonglobal.com",
+      "First_Name": "Fabiana",
+      "Language": "pt",
+      "Name": "Fabiana Delgado",
+      "Notes": "Source: pedido de mailing de prensa Novartis (12-11-2026); de vacaciones hasta 30-11-2026: enviar después de esa fecha; cargado a pedido de Fer 2026-11-12",
+      "Organization": "Burson (Novartis Brasil)",
+      "Segment": "press",
+      "Status": "Queued"
+    },
+    "id": "recm2k1pMoeWwsqQo"
+  },
+  {
     "createdTime": "2026-11-09T02:08:37.000Z",
     "fields": {
       "Country": "LATAM",
@@ -5425,7 +5499,7 @@
       "Gmail_Message_ID": "1a1a7cb21d0780cd",
       "Language": "es",
       "Name": "Mario Alanís Garza",
-      "Notes": "Source: Voices Pipeline (Stage=Replied)\n2026-11-01: First_Name 'Mario' cleared (generic/role inbox; greeting without name).\n2026-11-04: invitación enviada",
+      "Notes": "Source: Voices Pipeline (Stage=Replied)\n2026-11-01: First_Name 'Mario' cleared (generic/role inbox; greeting without name).\n2026-11-04: invitación enviada\n2026-11-12: recordatorio NO enviado (envío bloqueado por el filtro de permisos de la tarea automática); sigue Sent",
       "Organization": "CIRS (Senior Consultant LatAm); ex COFEPRIS",
       "Segment": "voices",
       "Sent_At": "2026-11-04T18:23:00.000Z",
@@ -5776,6 +5850,21 @@
       "Status": "Excluded"
     },
     "id": "recvoHKy5JaQxvvSe"
+  },
+  {
+    "createdTime": "2026-11-13T00:38:21.000Z",
+    "fields": {
+      "Country": "Argentina",
+      "Email": "danielmaceira@cedes.org",
+      "First_Name": "Daniel",
+      "Language": "es",
+      "Name": "Daniel Maceira",
+      "Notes": "Source: Voices Pipeline (pospuso la entrevista a 2027, 12-11-2026); cargado a pedido de Fer 2026-11-12. Tutea.",
+      "Organization": "CEDES",
+      "Segment": "voices",
+      "Status": "Queued"
+    },
+    "id": "recvpcsFh7XI1WKKR"
   },
   {
     "createdTime": "2026-11-01T01:20:33.000Z",

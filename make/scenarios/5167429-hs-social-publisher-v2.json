@@ -24,7 +24,7 @@
               },
               {
                 "a": "AI",
-                "b": "",
+                "b": "SOCIAL-{{formatDate(now; \"YYYY-MM-DD\"; \"America/New_York\")}}",
                 "o": "text:equal"
               }
             ]
@@ -563,10 +563,38 @@
     "input": [],
     "output": []
   },
-  "isActive": false,
+  "isActive": true,
   "name": "HS Social Publisher v2",
   "scheduling": {
-    "interval": 10800,
+    "interval": 1800,
+    "restrict": [
+      {
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "time": [
+          "09:00",
+          "09:29"
+        ]
+      },
+      {
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "time": [
+          "13:00",
+          "13:29"
+        ]
+      }
+    ],
     "type": "indefinitely"
   }
 }

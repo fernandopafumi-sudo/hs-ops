@@ -144,34 +144,34 @@
   },
   {
     "data": {
-      "notes": "needs_edit: r1 10 corr de hecho (>5), una en el lede (TGH dice North America, no US), sin r2. Clave: 'third rollback' falso (ya fue Canada nov-2025) x2 + Revolving Fund sin fuente; HHS si apelo (29-04, STAT); ACIP no se reunio a sep; borrar 'proximate driver'. Diff OK. Drive 12nX73ijHqGPciUtQ4_foL8wd-oKQ82gJ",
-      "run_id": "20261103-0659",
-      "state": "needs_edit",
+      "notes": "passed: 4 corr de hecho r1 (kicker fecha; 'stayed HHS decisions'->schedule revision no apelada; 2x 'third time in seven years'->measles-free nov-2025 Canada) + r2 atribucion Medical Daily + 2 URLs hs-sources. Ojo CHD motion sin verificar. Drive 1SUwurStTVp_G17iiyyEeNxMhVGZowW4Q",
+      "run_id": "20261113-0658",
+      "state": "passed",
       "title": "Measles Cases in 2026 Surpass Full-Year 2025 as US Exemptions Hit Record",
-      "updated_at": "2026-11-03T07:07:42-05:00",
-      "wp_modified": "2026-11-03T06:50:43"
+      "updated_at": "2026-11-13T07:10:31-05:00",
+      "wp_modified": "2026-11-12T21:52:22"
     },
     "key": "36886"
   },
   {
     "data": {
-      "notes": "needs_edit: r1 13 corr de hecho (>5), corrige titulo y lede (TGH: 'lowest since 2012' es el nivel de 2025), sin r2. Dieleman es associate professor; borra 3 frases del parrafo 'deeper asymmetry' sin fuente; 54.1% no es OECD. Diff OK. Drive 1AE3vIbQrjQWi5sUx71Zq9yjRf1VdRYBE",
-      "run_id": "20261104-0658",
-      "state": "needs_edit",
+      "notes": "gate manual 12-11: r1 aplicada + r2 (78) + correcciones r2 aplicadas (FY2027: House 8.88B y CR al 11-12, 'largest shortfalls', KFF, OECD como primaria, 642 vs 1,559 calculado, fuente tabla). Sigue draft, espera OK.",
+      "run_id": "manual-20261112",
+      "state": "passed",
       "title": "IHME: Global Health Funding Falls 5% in 2026, Hitting 14-Year Low",
-      "updated_at": "2026-11-04T07:07:19-05:00",
-      "wp_modified": "2026-11-04T06:52:42"
+      "updated_at": "2026-11-12T21:40:00-05:00",
+      "wp_modified": "2026-11-12T21:32:52"
     },
     "key": "36891"
   },
   {
     "data": {
-      "notes": "needs_edit: r1 13 corr de hecho (>5), sin r2. Clave: evaluacion es del 8-10 (no 9-10) x3; paises de los encuentros son Argentina, Peru, Uruguay (no Brasil, Colombia, Chile); cita Barbosa sin '(MMR)'; kicker LATIN AMERICA->AMERICAS; borra 5 frases sin fuente (incl. 'primary procurement channel' x2, deja frase sin verbo). Diff OK. Drive 1EQm1wCI0C2wIYBgnS37LBns7nGiUF1BY",
-      "run_id": "20261105-0659",
-      "state": "needs_edit",
+      "notes": "gate manual 12-11: r1 aplicada + r2 (85) + correcciones r2 aplicadas (riesgo 'very high', 4.8x vs 4.6x publicado, 22 anos, Argentina/Peru/Uruguay, 7-08 call, supply). Kicker AMERICAS confirmado. Sigue draft, espera OK.",
+      "run_id": "manual-20261112",
+      "state": "passed",
       "title": "PAHO flags very high measles risk ahead of South America gatherings",
-      "updated_at": "2026-11-05T07:05:49-05:00",
-      "wp_modified": "2026-11-05T06:57:18"
+      "updated_at": "2026-11-12T21:40:00-05:00",
+      "wp_modified": "2026-11-12T21:32:04"
     },
     "key": "36896"
   },
@@ -188,12 +188,12 @@
   },
   {
     "data": {
-      "notes": "needs_edit: r1 13 corr de hecho (>5), corrige titulo ('Safe' > evidencia observacional) y lede (superlativo sin fuente), sin r2. Clave: Maven marzo no mayo; cargo de Arbel; '29 companies' sin 'remaining'; TRIAL->STUDY. 18 reemplazos aplicables (1 coincidencia c/u). Drive 1P3z02SI86iVRkUS2ZExHMa4T36ZLC5TW",
-      "run_id": "20261108-0658",
-      "state": "needs_edit",
+      "notes": "gate manual 12-11: r1 aplicada + r2 (87) + correcciones r2 aplicadas (kicker ISRAEL, titulo 45-59, HMO, Maven marzo/mayo, boxed warning endometrio, cita Arbel no prevencion CV, FDA 'or before 60'). Sigue draft, espera OK.",
+      "run_id": "manual-20261112",
+      "state": "passed",
       "title": "Clalit 12-Year Data Show Hormone Therapy Safe for Cardiovascular Outcomes",
-      "updated_at": "2026-11-08T07:05:05-05:00",
-      "wp_modified": "2026-11-08T06:51:12"
+      "updated_at": "2026-11-12T21:40:00-05:00",
+      "wp_modified": "2026-11-12T21:33:41"
     },
     "key": "36905"
   },
@@ -210,34 +210,34 @@
   },
   {
     "data": {
-      "notes": "needs_edit: r1 6 corr de hecho (>5), sin r2, ninguna en titulo ni lede. Clave: 59% no sale de 8.5/19.2 (~56%) ni es 'a cuatro anos' (2 lugares); metadesc 'heart failure' -> composite con hospitalizacion; borrar 'geographic concentration'; 2 atribuciones falsas al AHA sobre guias. Diff OK. Drive 18wHr_Bcq6FqyMZrk84mTmDYq-40UTCyv",
-      "run_id": "20261110-0658",
-      "state": "needs_edit",
+      "notes": "gate manual 12-11: r1 aplicada + r2 (74) + correcciones r2 aplicadas (59% = HR 0.41, LEAP-Block, NEJM peer-reviewed, limitaciones y mortalidad, lede con resultado, titulo expandido, sources TCTMD/Healio/PubMed). Sigue draft, espera OK.",
+      "run_id": "manual-20261112",
+      "state": "passed",
       "title": "OptimPacing trial backs left bundle branch pacing over standard RVP",
-      "updated_at": "2026-11-10T07:02:47-05:00",
-      "wp_modified": "2026-11-10T06:48:16"
+      "updated_at": "2026-11-12T21:40:00-05:00",
+      "wp_modified": "2026-11-12T21:35:27"
     },
     "key": "36924"
   },
   {
     "data": {
-      "notes": null,
-      "run_id": "20261112-0658",
-      "state": "pending",
+      "notes": "needs_edit: 2 corr de hecho en la bio/lede (cargo 'director general of epidemiology' al liderar PVU; UCSF = Epidemiology & Biostatistics), sin r2. Sin fuente: 20,375 casos al 26-oct y 3.4bn pesos abr-2024. Drive 1xPUne-oKiJtcFmkRKXvITEZAWSd3Nwu1",
+      "run_id": "20261113-0658",
+      "state": "needs_edit",
       "title": "Jaime Sepulveda Amor: Money is a necessary but not a sufficient condition",
-      "updated_at": "2026-11-12T06:58:57-05:00",
-      "wp_modified": "2026-11-11T18:27:18"
+      "updated_at": "2026-11-13T07:10:31-05:00",
+      "wp_modified": "2026-11-12T19:46:44"
     },
     "key": "36926"
   },
   {
     "data": {
-      "notes": "passed: 2 corr de hecho (r1 fallo 25-sep, se anuncio 26-sep; r2 'Nearly two of every three', sin re-verificar). Ojo: comunicado 309 solo via pubt.io. Drive 1RW5Qd53zCT3wSzFYGXe78rqFh2gdsCg-",
-      "run_id": "20261112-0658",
+      "notes": "gate manual 12-11: r1 aplicada + r2 (82) + correcciones r2 aplicadas (contradiccion 92.3% vs ~90%, atribucion El CEO, 'Two of every three', metadesc). Comunicado 309 solo via pubt.io. Sigue draft, espera OK para publicar.",
+      "run_id": "manual-20261112",
       "state": "passed",
       "title": "Mexico's third consolidated tender awards 673 codes, leaving a fourth round to close 2027-2028 supply",
-      "updated_at": "2026-11-12T07:08:04-05:00",
-      "wp_modified": "2026-11-11T20:10:32"
+      "updated_at": "2026-11-12T21:40:00-05:00",
+      "wp_modified": "2026-11-12T21:29:03"
     },
     "key": "36929"
   },
@@ -262,16 +262,6 @@
       "wp_modified": "2026-11-11T20:11:44"
     },
     "key": "36931"
-  },
-  {
-    "data": {
-      "notes": "- sin fallos de acceso, aprobaciones ni bloqueos\n- aviso: REPORT-20261009-0659 y REPORT-20261001-0658 siguen 'iniciada, sin terminar' (corridas viejas caidas, ya reportadas)\n- run_id 20261014-0659\n- borradores vistos 13 (mismos que ayer); excluidos 5 (Weekly 36411, 36146, 35939, 35772; post 36041); skipped backlog 7 sin cambios (wp_modified igual); 36441 sigue needs_edit sin edicion (wp_modified 2026-10-12T15:13:57 igual); sin locks in_review; pendientes para manana 0\n- 0 borradores pendientes, no se reviso ninguno\n- limpieza: nada que borrar (Drive solo tiene 36441-2026-10-12T15:13:57-hallazgos.md, vigente; sin REPORT ni registros de mas de 30 dias)\nPara aplicar y publicar, decile a Claude en un chat: aplicar gate <ID>. La sesión que aplique relee el post, rechaza si su modified es distinto del wp_modified del archivo, aplica los reemplazos con código, verifica el diff y publica solo con OK de Fer.",
-      "run_id": "20261014-0659",
-      "state": "passed",
-      "title": "REPORT",
-      "updated_at": "2026-10-14T06:59:41-04:00"
-    },
-    "key": "REPORT-20261014-0659"
   },
   {
     "data": {
@@ -577,5 +567,16 @@
       "wp_modified": null
     },
     "key": "REPORT-20261112-0658"
+  },
+  {
+    "data": {
+      "notes": "- Fallos/bloqueos: ninguno. Primer upload a Drive rechazado por ':' en la ruta local (resuelto con copia). Re-chequeo de concurrencia hecho con posts.list (modified sin cambios), no posts.get.\n- run_id 20261113-0658\n- Borradores vistos 3; excluidos 0; skipped 1 (36868, decision de Fer, sin cambios); revisados 2; pendientes para manana 0.\n- Registros 36600, 36615, 36636, 36900 siguen en pending pero ya no son draft: se limpian a los 30 dias.\n- 36886 \"Measles Cases in 2026 Surpass Full-Year 2025 as US Exemptions Hit Record\": passed. 4 corr de hecho (r1): fecha del kicker NOV 3->13 (poner la de publicacion); \"the stayed HHS decisions remain...\" -> la revision del calendario de enero sigue suspendida y no se apelo; 2x \"third time in seven years\" en What to Watch y Regulators -> perdida del estatus en nov-2025 por Canada. Ademas: CSTE, borrado \"(0.6 ÷ 3.6)\", atribucion a TGH en el cuerpo, quitado \"according to Medical Daily\" (ronda 2, sin re-verificar) y 2 URLs agregadas a hs-sources. Omitidos 2 hallazgos debiles (STAT/Medical Daily r1). Sin verificar: mocion de Children's Health Defense (STAT dice que pidio intervenir), \"WHO September data\", PA 5 muertes, \"record\" del titulo solo TGH, comision PAHO termina hoy. Postura: publicar tras aplicar, revisando la frase de CHD. Drive https://drive.google.com/file/d/1SUwurStTVp_G17iiyyEeNxMhVGZowW4Q/view\n- 36926 \"Jaime Sepulveda Amor: Money is a necessary but not a sufficient condition\" (VOICES): needs_edit, sin ronda 2. 2 corr de hecho en la bio (lede): sacar \"as director general of epidemiology\" (fuente secundaria, confirmar con el) y UCSF \"epidemiology and biostatistics\". Rechazado un reemplazo sobre el Servicio Universal (sin respaldo). Sin fuente: 20,375 casos/50 muertes al 26-oct (ultimo con fuente 20,229 al 6-oct), 3.4bn pesos abr-2024, \"from 1985\"; \"meets Nov 10-13\" pasar a pasado. Para consultar con el: PVU 1990 vs decreto ene-1991, \">6,000 muertes <5 anos\" vs 5,899 totales SSA, 94% vs 95%. Postura: no publicar hasta resolver bio y fuentes; hay margen (calendario 25-11). Drive https://drive.google.com/file/d/1xPUne-oKiJtcFmkRKXvITEZAWSd3Nwu1/view\n- Limpieza: 9 archivos viejos de Drive a la papelera (posts ya no draft + version vieja de 36886); borrado REPORT-20261014-0659.\nPara aplicar y publicar, decile a Claude en un chat: aplicar gate <ID>. La sesión que aplique relee el post, rechaza si su modified es distinto del wp_modified del archivo, aplica los reemplazos con código, verifica el diff y publica solo con OK de Fer.",
+      "run_id": "20261113-0658",
+      "state": "done",
+      "title": "REPORT",
+      "updated_at": "2026-11-13T07:12:00-05:00",
+      "wp_modified": null
+    },
+    "key": "REPORT-20261113-0658"
   }
 ]

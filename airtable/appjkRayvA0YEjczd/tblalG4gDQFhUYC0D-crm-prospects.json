@@ -332,6 +332,26 @@
     "id": "rec2DHWzSljpKgOMf"
   },
   {
+    "createdTime": "2026-11-13T00:43:14.000Z",
+    "fields": {
+      "Approval": "Hold",
+      "Company": "Informa (CPHI Americas / WHX Miami)",
+      "Country": "USA",
+      "Email": "Kathryn.Scott@informa.com",
+      "First_Name": "Kate",
+      "Last_Name": "Scott",
+      "Name": "Kate Scott",
+      "Notes": "Socio de eventos, no prospecto de sponsorship: Approval=Hold para que ninguna secuencia automática le escriba. Barter CPHI Americas 2027 firmado 12-11-2026 (US$3.300 por lado, sin facturas). Oportunidad abierta: mismo intercambio para WHX Miami 2027 (16-18 jun). Hilo Gmail 1a1c6bd5415a5f20.",
+      "Preferred_Channel": "Email",
+      "Region": "USA",
+      "Segment": "Other",
+      "Source": "Inbound",
+      "Stage": "Won",
+      "Title": "VP Events, Healthcare, South Florida Ventures"
+    },
+    "id": "rec2K7gR9qtS1oyFU"
+  },
+  {
     "createdTime": "2026-10-17T19:40:07.000Z",
     "fields": {
       "Approval": "Pending Review",
@@ -1246,6 +1266,25 @@
       "Title": "Value Proposition Manager"
     },
     "id": "rec5p5UCatkPc7zWk"
+  },
+  {
+    "createdTime": "2026-11-13T00:43:14.000Z",
+    "fields": {
+      "Approval": "Hold",
+      "Company": "Sociedade Brasileira de Diabetes (SBD)",
+      "Country": "Brazil",
+      "Email": "kariane.davison@diabetes.org.br",
+      "First_Name": "Kariane",
+      "Last_Name": "Davison",
+      "Name": "Kariane Davison",
+      "Notes": "Socio de difusión (asociación médica), no prospecto comercial: Approval=Hold, no mandar pitch de sponsorship. Tel +55 11 3842-4931. 12-11-2026: lleva a la Diretoria la oferta del reporte Diabetes in Latin America 2026 para asociados; se le envió el link. Hilo Gmail 1a160e4ef3f3a53f.",
+      "Preferred_Channel": "Email",
+      "Region": "LATAM",
+      "Segment": "Other",
+      "Source": "Manual",
+      "Stage": "Engaged"
+    },
+    "id": "rec5plMVTadIVX3k3"
   },
   {
     "createdTime": "2026-10-17T19:36:20.000Z",
@@ -12474,7 +12513,7 @@
       "Last_Contacted": "2026-11-08",
       "Last_Name": "Encina",
       "Name": "Camilo Encina",
-      "Next_Action": "13-11: confirmar banner apagado, mail de cierre y pedir post en redes post-feria. Luego: renovar media partner ExpoSalud 2027.",
+      "Next_Action": "13-11: confirmar banner apagado, mail de cierre y pedir post en redes post-feria. Luego: renovar media partner ExpoSalud 2027.\n13-11: banner verificado apagado en home y nota sin caché; la URL canónica de la nota Gómez Dantes todavía servía versión cacheada con el banner (15:25 UTC) → purgar caché de página.",
       "Next_Action_Date": "2026-11-13",
       "Notes": "CONTACTO DE ALIANZAS (no outreach comercial automático; por eso Approval=Hold).\nTel. +56 9 8725 7649. Oficina: Av. Nueva Costanera 4040, zócalo, Vitacura, Santiago. Info general feria: info@expo-salud.cl, +56 2 2530 7000.\nFISA organiza también otras ferias (ej. Expo Corma): canal para futuros media partners en Chile.\n\nHISTORIAL ExpoSalud 2026 (10-12 nov, Espacio Riesco):\n- 15-10 primer email; 26-10 acepta en términos reducidos; 30-10 convenio FIRMADO (FISA S.A. – HealthSignals LLC).\n- HS cumplió: banner 3-12 nov (verificado en vivo 11-11) + mención en Brief Issue 03 (03-11, 0 clics).\n- FISA: logo en expo-salud.cl CONFIRMADO por Fer 11-11 (no aparece en el texto que lee el fetch: va en imagen); cortesías llegaron tarde (11-11), Fer decidió no usarlas; post en redes PENDIENTE; revistero no aplica.\n- Aprendizaje: cumplen tarde lo que no tiene fecha en el contrato. Próximo convenio: fecha límite por entregable.\nDetalle: doc del proyecto claude/exposalud-2026-media-partner.md. Hilo Gmail editor@: 'Propuesta de mediapartners'.",
       "Preferred_Channel": "Email",
