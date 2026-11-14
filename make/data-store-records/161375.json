@@ -265,16 +265,6 @@
   },
   {
     "data": {
-      "notes": "- sin fallos de acceso, aprobaciones ni bloqueos\n- aviso: REPORT-20261009-0659 y REPORT-20261001-0658 siguen 'iniciada, sin terminar' (corridas viejas caidas, ya reportadas)\n- run_id 20261015-0658\n- borradores vistos 13 (mismos que ayer); excluidos 5 (Weekly 36411, 36146, 35939, 35772; post 36041); skipped backlog 7 sin cambios (wp_modified igual); 36441 sigue needs_edit sin edicion (wp_modified 2026-10-12T15:13:57 igual); sin locks in_review; pendientes para manana 0\n- 0 borradores pendientes, no se reviso ninguno\n- limpieza: nada que borrar (Drive solo tiene 36441-2026-10-12T15:13:57-hallazgos.md, vigente; sin REPORT ni registros de mas de 30 dias)\nPara aplicar y publicar, decile a Claude en un chat: aplicar gate <ID>. La sesión que aplique relee el post, rechaza si su modified es distinto del wp_modified del archivo, aplica los reemplazos con código, verifica el diff y publica solo con OK de Fer.",
-      "run_id": "20261015-0658",
-      "state": "passed",
-      "title": "REPORT",
-      "updated_at": "2026-10-15T06:58:40-04:00"
-    },
-    "key": "REPORT-20261015-0658"
-  },
-  {
-    "data": {
       "notes": "- sin fallos de acceso, aprobaciones ni bloqueos\n- aviso: REPORT-20261009-0659 y REPORT-20261001-0658 siguen 'iniciada, sin terminar' (corridas viejas caidas, ya reportadas)\n- run_id 20261016-0658\n- borradores vistos 14; excluidos 5 (Weekly 36411, 36146, 35939, 35772; post 36041); skipped backlog 7 sin cambios; 36441 sigue needs_edit sin edicion; revisados 1 (nuevo); pendientes para manana 0\n- 36447 Heriberto Garcia Escorza: 'Registration is not a financial process' (VOICES, CL): hold\n  - r1 PUBLISH AFTER EDIT, r2 HOLD; 4 correcciones de hecho, todas aplicables con 1 coincidencia, diff OK; titulo y dek sin tocar; se agrega hs-sources (14 URLs)\n  - pregunta 1: el procedimiento de reliance 2025 es solo para biologicos -> '...abroad when registering biological medicines'\n  - pregunta ASILFA: 543/695 dias los dio la diputada Macarena Santelices en un seminario coorganizado por ASILFA (ronda 2, sin re-verificar)\n  - contexto: 'cuts its fund by 14%' -> 'by about 14% in real terms' (nominal da -12%) (ronda 2, sin re-verificar)\n  - nota del editor: 'six largest Latin American markets' -> 'economies' (ronda 2, sin re-verificar)\n  - borrado: nada\n  - motivo del hold: bio sin fuente ('acting director' del ISP, la WHO dice 'appointed'; ANAMED hasta 2024; cargo en la UDD). Conflicto r1/r2 sobre 'since 2021' de Ricarte Soto (r2: ultimas patologias en 2019, pausa desde 2021) y el +4,7% de salud (r1 lo verifica en pauta.cl, r2 no)\n  - sin verificar: 'pharmacy retail data' y ProlMed como asociacion de productores locales (el paper dice 'ProlMed AG'); IMS 2018; en respuestas: nirsevimab 2023 en 6 meses, IMDRF 2023, regla de biosimilares, nitrosaminas y 'toxicity is chronic'. Meta description vacia\n  - postura: no publicar; confirmar la bio con el entrevistado y resolver 'since 2021' antes de aplicar los 4\n  - Drive: https://drive.google.com/file/d/1S_9UKDsfbptM64MUGigzqPefNvgROmQm/view\n- limpieza: nada que borrar (Drive tiene 36441 y 36447, vigentes; sin REPORT ni registros de mas de 30 dias)\nPara aplicar y publicar, decile a Claude en un chat: aplicar gate <ID>. La sesión que aplique relee el post, rechaza si su modified es distinto del wp_modified del archivo, aplica los reemplazos con código, verifica el diff y publica solo con OK de Fer.",
       "run_id": "20261016-0658",
       "state": "passed",
@@ -578,5 +568,16 @@
       "wp_modified": null
     },
     "key": "REPORT-20261113-0658"
+  },
+  {
+    "data": {
+      "notes": "- Sin fallos de acceso, aprobaciones ni bloqueos. Sin posts en tercer fallo.\n- run_id 20261114-0704\n- 0 borradores pendientes. Vistos 3, excluidos 0, skipped backlog 0, pendientes para mañana 0.\n- 36886 Measles: passed (13-11), sin cambios. 36926 Sepulveda: needs_edit (13-11), sin cambios. 36868 Rusfertide: skipped por Fer, sin cambios.\n- Limpieza: borrado REPORT-20261015-0658 (>30 dias). Drive: 3 archivos vigentes, nada a la papelera.\n- Para aplicar y publicar, decile a Claude en un chat: aplicar gate <ID>. La sesión que aplique relee el post, rechaza si su modified es distinto del wp_modified del archivo, aplica los reemplazos con código, verifica el diff y publica solo con OK de Fer.",
+      "run_id": "20261114-0704",
+      "state": "done",
+      "title": "REPORT",
+      "updated_at": "2026-11-14T07:04:47-05:00",
+      "wp_modified": null
+    },
+    "key": "REPORT-20261114-0704"
   }
 ]

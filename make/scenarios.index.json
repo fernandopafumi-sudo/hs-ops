@@ -156,7 +156,7 @@
   },
   {
     "id": 6314042,
-    "isActive": true,
+    "isActive": false,
     "name": "HS — Guard imagen destacada (watchdog)"
   },
   {
@@ -263,5 +263,10 @@
     "id": 6856433,
     "isActive": false,
     "name": "HS — Brevo: quitar internos de lista 5 (ad hoc)"
+  },
+  {
+    "id": 7028872,
+    "isActive": true,
+    "name": "HS - Social: sync SOCIAL- tags al dedup de v3"
   }
 ]

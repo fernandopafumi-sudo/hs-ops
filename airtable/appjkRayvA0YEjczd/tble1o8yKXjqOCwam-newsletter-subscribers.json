@@ -1,5 +1,20 @@
 [
   {
+    "createdTime": "2026-11-13T19:09:38.000Z",
+    "fields": {
+      "CTA Source": "invite-voices",
+      "Consent At": "2026-11-13T19:09:38.000Z",
+      "Consent Text": "Clicked Subscribe in personal invitation email from editor@healthsignals.news (invite-2026-11 v1)",
+      "Country": "México / EE.UU.",
+      "Email": "Jaime.Sepulveda@ucsf.edu",
+      "Name": "Jaime Sepúlveda Amor",
+      "Source": "Invite",
+      "Status": "Active",
+      "Subscribe Date": "2026-11-13"
+    },
+    "id": "rec110rvtz4zgwMK0"
+  },
+  {
     "createdTime": "2026-11-06T13:05:10.000Z",
     "fields": {
       "Access": "Corporate",
@@ -49,6 +64,27 @@
       "Subscribe Date": "2026-11-11"
     },
     "id": "rec9O1hkjQOL0ec9V"
+  },
+  {
+    "createdTime": "2026-11-13T18:30:44.000Z",
+    "fields": {
+      "Access": "Webmail",
+      "CTA Source": "newsletter_page",
+      "Company": "Takeda Phatmaceuticals",
+      "Consent At": "2026-11-13T18:32:01.000Z",
+      "Consent Text": "v2 2026-10-21 | By subscribing you agree to receive The HealthSignals Brief by email and accept our Privacy Policy.",
+      "Country": "United States",
+      "Email": "diegs.cortina@gmail.com",
+      "Job Title": "Global Value and Access Lead Solid tumors",
+      "Last Name": "Cortina de la Fuente",
+      "Name": "Diego",
+      "Post URL": "https://healthsignals.news/newsletter/",
+      "Signup Stage": "complete",
+      "Source": "Website",
+      "Status": "Requested",
+      "Subscribe Date": "2026-11-13"
+    },
+    "id": "recBZLpGR1clCVYXK"
   },
   {
     "createdTime": "2026-11-04T18:28:57.000Z",
@@ -220,6 +256,49 @@
       "Subscribe Date": "2026-11-05"
     },
     "id": "recY0x7VqkrridNFi"
+  },
+  {
+    "createdTime": "2026-11-13T20:29:36.000Z",
+    "fields": {
+      "Access": "Webmail",
+      "CTA Source": "newsletter_page",
+      "Company": "Healthcare Professional",
+      "Consent At": "2026-11-13T20:31:42.000Z",
+      "Consent Text": "v2 2026-10-21 | By subscribing you agree to receive The HealthSignals Brief by email and accept our Privacy Policy.",
+      "Country": "Colombia",
+      "Email": "jairo.bello@hotmail.com",
+      "Job Title": "Expert in public health",
+      "Last Name": "Bello",
+      "LinkedIn": "https://www.linkedin.com/in/jairobellocastillo",
+      "Name": "Jairo",
+      "Post URL": "https://healthsignals.news/newsletter/",
+      "Signup Stage": "complete",
+      "Source": "Website",
+      "Status": "Requested",
+      "Subscribe Date": "2026-11-13"
+    },
+    "id": "recYskJdUls9RqdgP"
+  },
+  {
+    "createdTime": "2026-11-13T20:31:56.000Z",
+    "fields": {
+      "Access": "Corporate",
+      "CTA Source": "newsletter_page",
+      "Company": "Laboratorio Copahue SA",
+      "Consent At": "2026-11-13T20:32:55.000Z",
+      "Consent Text": "v2 2026-10-21 | By subscribing you agree to receive The HealthSignals Brief by email and accept our Privacy Policy.",
+      "Country": "Argentina",
+      "Email": "edgardo.rodriguez@labcopahue.com",
+      "Job Title": "Executive advisor",
+      "Last Name": "Rodriguez",
+      "Name": "Edgardo",
+      "Post URL": "https://healthsignals.news/newsletter/",
+      "Signup Stage": "complete",
+      "Source": "Website",
+      "Status": "Active",
+      "Subscribe Date": "2026-11-13"
+    },
+    "id": "recZs1bN9PaU9tK4l"
   },
   {
     "createdTime": "2026-11-05T18:39:01.000Z",

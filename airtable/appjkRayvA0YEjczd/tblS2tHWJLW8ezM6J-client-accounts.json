@@ -1,0 +1,198 @@
+[
+  {
+    "createdTime": "2026-11-13T19:00:21.000Z",
+    "fields": {
+      "Account": "BMS Brasil",
+      "Active": true,
+      "Agency": "Ágora",
+      "Agency Group": "Ágora (independiente)",
+      "CC": "raquel.reis@agora.site\njulia.ramires@agora.site",
+      "Client": "Bristol Myers Squibb",
+      "Contacts": [
+        "recuyRBKggfqIXocs",
+        "recRu7DU9kSFsfhc0",
+        "recZFGt69yOPQNA8M"
+      ],
+      "Geography": "Brasil",
+      "Gmail Thread ID": "1a18f5731902670d",
+      "Hold Until": "2026-11-19",
+      "Keywords": "Bristol Myers Squibb\nBMS\nBristol-Myers\nOpdivo\nnivolumab\nYervoy\nipilimumab\nCamzyos\nmavacamten\nCobenfy\nZeposia\nReblozyl\nBreyanzi\nAbecma\nEliquis",
+      "Language": "PT",
+      "Last Sent": "2026-11-13",
+      "Notes": "13-11 se les mandó la nota BMS–A.C.Camargo. 3 preguntas abiertas con plazo 18-11 (Christiano Silva, Rafael Ielpo). Hold hasta que respondan.",
+      "To": "lucas.soares@agora.site"
+    },
+    "id": "recDqTHTXUHbR7K4w"
+  },
+  {
+    "createdTime": "2026-11-13T19:00:21.000Z",
+    "fields": {
+      "Account": "Novo Nordisk Brasil",
+      "Active": true,
+      "Agency": "Oficina",
+      "Agency Group": "Oficina (independiente)",
+      "CC": "imprensa.novonordisk@oficina.ci",
+      "Client": "Novo Nordisk",
+      "Contacts": [
+        "reciS13DVNeTdOpP8"
+      ],
+      "Exclusions": "Notas de presión de genéricos sobre semaglutida, aprobaciones de copias o biosímiles de semaglutida, rechazos de Conitec.",
+      "Geography": "Brasil (y notas LatAm de Novo, como secundaria)",
+      "Gmail Thread ID": "1a18f40429f7d301",
+      "Hold Until": "2026-11-23",
+      "Keywords": "Novo Nordisk\nWegovy\nOzempic\nRybelsus\nsemaglutide\nsemaglutida\nsemaglutida oral\nSaxenda\nliraglutide\nCagriSema\nAlhemo\nconcizumab",
+      "Language": "PT",
+      "Notes": "03-11: ya estamos en el mailing; ofrecieron vocero de acceso/políticas públicas. Borrador manual para el lunes 16-11 (Conitec GLP-1 + Wegovy México).",
+      "To": "bruna.guimaraes@oficina.ci"
+    },
+    "id": "recIZhCWSApoF7jn1"
+  },
+  {
+    "createdTime": "2026-11-13T19:00:21.000Z",
+    "fields": {
+      "Account": "BMS Argentina",
+      "Active": true,
+      "Agency": "Ketchum Argentina",
+      "Agency Group": "Omnicom",
+      "CC": "mariana.stornini@bms.com",
+      "Client": "Bristol Myers Squibb",
+      "Contacts": [
+        "rec3cZZ4itRmmTuqa",
+        "recCYVCP8eqG421R9"
+      ],
+      "Exclusions": "Notas sobre competidores de BMS en sus áreas (p. ej. cáncer de pulmón de AstraZeneca, Amgen, MSD) aunque sean del mismo tema.",
+      "Geography": "Argentina (y notas regionales LatAm de BMS)",
+      "Gmail Thread ID": "1a1d4f76650e09c2",
+      "Hold Until": "2026-11-23",
+      "Keywords": "Bristol Myers Squibb\nBMS\nOpdivo\nnivolumab\nYervoy\nipilimumab\nCamzyos\nZeposia\nReblozyl\nBreyanzi\nEliquis",
+      "Language": "ES",
+      "Notes": "Borrador manual para el lunes 16-11 (BMS–A.C.Camargo), antes del Día del Cáncer de Pulmón. Hold para que el proceso no se cruce.",
+      "To": "milagros.orcoyen@ketchum.com.ar"
+    },
+    "id": "recNf25axQjosXbPO"
+  },
+  {
+    "createdTime": "2026-11-13T19:00:21.000Z",
+    "fields": {
+      "Account": "Sanofi México",
+      "Active": true,
+      "Agency": "Porter Novelli México",
+      "Agency Group": "Omnicom",
+      "CC": "paola.maldonado@omc.com\nsilvana.blancas@omc.com\nlorelay.vonallworden@omc.com\njuliana.pineda@omc.com",
+      "Client": "Sanofi",
+      "Contacts": [
+        "recoFRyLYo10x2dl8",
+        "recNGK0FcfWJuD3tt",
+        "recHBbP6MsGAEiFdW",
+        "reckOTQHEOaCuZ3be",
+        "recRGAVIMDVFifGOF"
+      ],
+      "Geography": "México",
+      "Gmail Thread ID": "1a18f5764a635933",
+      "Hold Until": "2026-12-01",
+      "Keywords": "Sanofi\nOpella\nDupixent\ndupilumab\nBeyfortus\nnirsevimab\nToujeo\nLantus\nSarclisa\nAltuviiio\nTzield",
+      "Language": "ES",
+      "Notes": "Vocero de acceso/COFEPRIS pendiente. Fer mandó 2 mails el 12-11 sin respuesta; borrador manual de follow-up para el 24-11 (nota gasto de bolsillo México).",
+      "To": "elsa.arguelles@omc.com"
+    },
+    "id": "recSpelmQ8Pvt7XHg"
+  },
+  {
+    "createdTime": "2026-11-13T19:00:21.000Z",
+    "fields": {
+      "Account": "Roche Brasil",
+      "Active": true,
+      "Agency": "InPress PNI (In Press Porter Novelli)",
+      "Agency Group": "Omnicom",
+      "Client": "Roche",
+      "Contacts": [
+        "rec3i8xsRPPQ0xNuu"
+      ],
+      "Exclusions": "Retiro de Elevidys; biosimilares de emicizumab; cualquier nota de suspensión o rechazo regulatorio de Roche.",
+      "Geography": "Brasil",
+      "Gmail Thread ID": "1a18f5671b10d0b1",
+      "Keywords": "Roche\nGenentech\nProdutos Roche\nHemlibra\nemicizumab\nTecentriq\natezolizumab\nOcrevus\nVabysmo\nXofluza\nPolivy\nColumvi\nLunsumio",
+      "Language": "PT",
+      "Notes": "Jéssie nos sumó al mailing el 12-11; Roche tiene voceros, preguntas por escrito cuando haya pauta.",
+      "To": "jessie.costa@inpresspni.com.br"
+    },
+    "id": "recV5UgCfPwsuMjKj"
+  },
+  {
+    "createdTime": "2026-11-13T19:00:21.000Z",
+    "fields": {
+      "Account": "Novartis Brasil",
+      "Active": true,
+      "Agency": "Burson",
+      "Agency Group": "WPP / Burson (incluye JeffreyGroup)",
+      "Client": "Novartis",
+      "Contacts": [
+        "recZlHK2gdrP7MfuI"
+      ],
+      "Geography": "Brasil",
+      "Gmail Thread ID": "1a18f568c4305fae",
+      "Hold Until": "2026-12-01",
+      "Keywords": "Novartis\nSandoz (solo si la nota es sobre Novartis)\nFabhalta\niptacopan\nKisqali\nribociclib\nEntresto\nLeqvio\ninclisiran\nCosentyx\nPluvicto\nScemblix\nKesimpta\nZolgensma",
+      "Language": "PT",
+      "Notes": "Pedido de inclusión enviado 12-11; Fabiana de vacaciones hasta 30-11. Al volver: nota de iptacopan (Brazil adds Novartis' iptacopan to SUS).",
+      "To": "fabiana.delgado@bursonglobal.com"
+    },
+    "id": "recWMOlU1Iac0zJwl"
+  },
+  {
+    "createdTime": "2026-11-13T19:00:21.000Z",
+    "fields": {
+      "Account": "GSK Brasil",
+      "Active": true,
+      "Agency": "Burson",
+      "Agency Group": "WPP / Burson (incluye JeffreyGroup)",
+      "Client": "GSK",
+      "Geography": "Brasil",
+      "Gmail Thread ID": "1a18f56dc0fefa33",
+      "Hold Until": "2026-11-20",
+      "Keywords": "GSK\nGlaxoSmithKline\nViiV\nHibsago\nbepirovirsen\nShingrix\nArexvy\nNucala\nmepolizumab\nJemperli\nBlenrep\nTrelegy\nApretude\ncabotegravir",
+      "Language": "PT",
+      "Notes": "Pedido de inclusión enviado 12-11 a la casilla genérica de la cuenta; sin respuesta al 13-11.",
+      "To": "gskbrasil@bursonglobal.com"
+    },
+    "id": "recjcP16PqjxAzVzS"
+  },
+  {
+    "createdTime": "2026-11-13T19:00:21.000Z",
+    "fields": {
+      "Account": "BMS Colombia",
+      "Agency": "Seis Grados",
+      "Client": "Bristol Myers Squibb",
+      "Contacts": [
+        "recQP7VG9p1gM1oNj"
+      ],
+      "Geography": "Colombia",
+      "Keywords": "Bristol Myers Squibb\nBMS\nOpdivo\nnivolumab\nYervoy\nEliquis",
+      "Language": "ES",
+      "Notes": "INACTIVA: email sin verificar (sale de un comunicado de 2022; andrea@ del mismo dominio rebotó el 11-11). Verificar por teléfono (+57 310 8075477) o con Alonso Zepeda (BMS) antes de activar.",
+      "To": "diana@seisgradosc.mx"
+    },
+    "id": "recnfmte1IYPb91HA"
+  },
+  {
+    "createdTime": "2026-11-13T19:00:21.000Z",
+    "fields": {
+      "Account": "AstraZeneca LatAm",
+      "Active": true,
+      "Agency": "JeffreyGroup",
+      "Agency Group": "WPP / Burson (incluye JeffreyGroup)",
+      "Client": "AstraZeneca",
+      "Contacts": [
+        "recPt9AAQxBwG7igM"
+      ],
+      "Exclusions": "Notas donde un producto de AstraZeneca sale de una lista o cobertura (p. ej. Brasil saca ravulizumab del SUS); notas de competidores que le ganan a AZ.",
+      "Geography": "LatAm regional (y notas globales relevantes para LatAm)",
+      "Hold Until": "2026-11-25",
+      "Keywords": "AstraZeneca\nAlexion\nTagrisso\nosimertinib\nImfinzi\ndurvalumab\nImjudo\nEnhertu\nDatroway\nCalquence\nLynparza\nFarxiga\nForxiga\ndapagliflozin\nSoliris\nUltomiris\nravulizumab\nsavolitinib\nBreztri\nFasenra",
+      "Language": "ES",
+      "Notes": "Cliente regional confirmado en jeffreygroup.com/clients (caso 2023). Email de Natalia construido por patrón; el 05-11 recibió la invitación al Brief (hilo 1a1acf7b1f2fd9cb) sin rebote ni respuesta. Borrador manual para el 18-11 (SAFFRON). Ricardo Blanco (AZ) y Luís Joly (JeffreyGroup Brasil) recibieron recordatorio del Brief el 13-11: no saturar.",
+      "To": "natalia.montoya@jeffreygroup.com"
+    },
+    "id": "recrzx6w0dsCiKwnL"
+  }
+]

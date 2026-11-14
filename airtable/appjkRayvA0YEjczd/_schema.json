@@ -660,6 +660,11 @@
               "color": "blueLight2",
               "id": "selBPN9phL7aEC1jI",
               "name": "Argentina / Chile"
+            },
+            {
+              "color": "blueLight2",
+              "id": "selFuXbO4T5wvMdBI",
+              "name": "México / EE.UU."
             }
           ]
         },
@@ -3012,6 +3017,18 @@
         "id": "fldlOj3NCCKbIOSGC",
         "name": "Email",
         "type": "email"
+      },
+      {
+        "description": "Fecha en que este contacto entró en una tanda semanal de invitación a seguir la página HealthSignals en LinkedIn (tarea en la nube 'HS crecimiento seguidores'). Si tiene fecha, no se vuelve a proponer.",
+        "id": "fldYNYVjsQpcLH3D4",
+        "name": "Page_Invite",
+        "options": {
+          "dateFormat": {
+            "format": "YYYY-MM-DD",
+            "name": "iso"
+          }
+        },
+        "type": "date"
       }
     ],
     "id": "tblfCpzJLRixXNy7G",
@@ -3810,6 +3827,28 @@
           "icon": "check"
         },
         "type": "checkbox"
+      },
+      {
+        "id": "fld09w0Efy1Nf6llG",
+        "name": "Client Accounts",
+        "options": {
+          "inverseLinkFieldId": "fldOzHmz5JNuPmghf",
+          "isReversed": false,
+          "linkedTableId": "tblS2tHWJLW8ezM6J",
+          "prefersSingleRecordLink": false
+        },
+        "type": "multipleRecordLinks"
+      },
+      {
+        "id": "fldYImCytFHgCds7d",
+        "name": "Agency Sends",
+        "options": {
+          "inverseLinkFieldId": "fldSD8R5MPPn0UefP",
+          "isReversed": false,
+          "linkedTableId": "tblNIyCBDoVCz2U8g",
+          "prefersSingleRecordLink": false
+        },
+        "type": "multipleRecordLinks"
       }
     ],
     "id": "tblCz9trAX2uC0hcI",
@@ -5516,6 +5555,93 @@
         "id": "fldLyHBn7CSrCP98R",
         "name": "Interviewee_OK_Ref",
         "type": "singleLineText"
+      },
+      {
+        "description": "ID del post de Voices en WordPress (sitio 254274942). Lo usa la tarea 'HS Voices difusión'.",
+        "id": "fldyx5pHOfH27yzZz",
+        "name": "WP_Post_ID",
+        "options": {
+          "precision": 0
+        },
+        "type": "number"
+      },
+      {
+        "description": "Estado de la difusión de la nota (tarea en la nube 'HS Voices difusión', skill hs-promotion).",
+        "id": "fldqqw86rmITQ7qPC",
+        "name": "Promo_Stage",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "seljVBri6orAfDo8D",
+              "name": "Kit pendiente"
+            },
+            {
+              "color": "grayLight2",
+              "id": "seln9KT2qSfp6bHUT",
+              "name": "Kit listo"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sellfB2HINsRyOZiy",
+              "name": "D0 hecho"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel1ibrh0sjgkXzAc",
+              "name": "D1 hecho"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selQRHIKMsYTo23N4",
+              "name": "D3 hecho"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selNHPWa0AhJkrPRK",
+              "name": "D7 hecho"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selizt49spyTEwrI3",
+              "name": "Cerrado"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selzHykZfmPdyxBg9",
+              "name": "Frenado"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "description": "Fer tilda cuando aprueba el kit de difusión completo ('ok todo'). Con esto tildado, la tarea envía cada canal en su día sin volver a preguntar. Destildar frena todo.",
+        "id": "fldZTWnYL4p8THbkq",
+        "name": "Promo_OK",
+        "options": {
+          "color": "greenBright",
+          "icon": "check"
+        },
+        "type": "checkbox"
+      },
+      {
+        "description": "Día 0 de la difusión: primer día hábil (L-V) en o después de la publicación.",
+        "id": "fldihGQYBcQCo8AtQ",
+        "name": "Promo_D0",
+        "options": {
+          "dateFormat": {
+            "format": "YYYY-MM-DD",
+            "name": "iso"
+          }
+        },
+        "type": "date"
+      },
+      {
+        "description": "Ruta del kit en el Project (claude/kit-difusion-<apellido>-<fecha>.md) y mapa de borradores de Gmail por día: 'D0: r-xxx, r-yyy | D1: ...'. Lo escribe la tarea.",
+        "id": "fldHPySPjZPYFME3t",
+        "name": "Promo_Kit",
+        "type": "multilineText"
       }
     ],
     "id": "tblCnK5agV3rVKGnl",
@@ -6309,6 +6435,288 @@
     "views": [
       {
         "id": "viwTnPBIOgeG5pbVO",
+        "name": "Grid view",
+        "type": "grid"
+      }
+    ]
+  },
+  {
+    "description": "Cuentas pharma/medtech con agencia de PR conocida. Lo usa la tarea programada \"HS notas a agencias\" para mandar automáticamente cada nota publicada donde el cliente es protagonista. Fer mantiene esta tabla: un cliente que no esté acá (o que no tenga Active tildado) nunca recibe nada.",
+    "fields": [
+      {
+        "description": "Cliente + país, ej. BMS Brasil",
+        "id": "fldiYgMWcrAKyhcSz",
+        "name": "Account",
+        "type": "singleLineText"
+      },
+      {
+        "description": "Nombre canónico de la compañía",
+        "id": "fldunk1qwVd69PEnD",
+        "name": "Client",
+        "type": "singleLineText"
+      },
+      {
+        "description": "Nombres, alias y productos que identifican al cliente en una nota (uno por línea)",
+        "id": "fldXG3cfZ9FT3n9qW",
+        "name": "Keywords",
+        "type": "multilineText"
+      },
+      {
+        "description": "País o región que cubre la cuenta (Brasil, Argentina, México, LatAm regional...)",
+        "id": "fldp76JKgK9ySQvaX",
+        "name": "Geography",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldfM0zCcCkuKh6iz",
+        "name": "Agency",
+        "type": "singleLineText"
+      },
+      {
+        "description": "Holding o grupo (ej. WPP/Burson incluye JeffreyGroup). Se usa para el tope por grupo.",
+        "id": "fldpeLmzSkSIBD5wc",
+        "name": "Agency Group",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldOzHmz5JNuPmghf",
+        "name": "Contacts",
+        "options": {
+          "inverseLinkFieldId": "fld09w0Efy1Nf6llG",
+          "isReversed": false,
+          "linkedTableId": "tblCz9trAX2uC0hcI",
+          "prefersSingleRecordLink": false
+        },
+        "type": "multipleRecordLinks"
+      },
+      {
+        "description": "Emails destinatarios (uno por línea). Si está vacío, usar los de Contacts.",
+        "id": "flduNcb0LznJuDy7z",
+        "name": "To",
+        "type": "multilineText"
+      },
+      {
+        "id": "fldzIcjmgnFAYAbHc",
+        "name": "CC",
+        "type": "multilineText"
+      },
+      {
+        "id": "fldkw8qS4TYTm2Fb5",
+        "name": "Language",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selq5btAydhIkCqIm",
+              "name": "ES"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selmPAi9zMG782ZLo",
+              "name": "PT"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selieuCmPB8ZKL6qU",
+              "name": "EN"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldhZ0iMf6fGHDhgD",
+        "name": "Active",
+        "options": {
+          "color": "greenBright",
+          "icon": "check"
+        },
+        "type": "checkbox"
+      },
+      {
+        "description": "No mandar nada antes de esta fecha (vacaciones, preguntas pendientes, etc.)",
+        "id": "fld6P1mSWd0EksHW9",
+        "name": "Hold Until",
+        "options": {
+          "dateFormat": {
+            "format": "YYYY-MM-DD",
+            "name": "iso"
+          }
+        },
+        "type": "date"
+      },
+      {
+        "description": "Temas o competidores que nunca mandar a esta cuenta",
+        "id": "fld5OOw3HhFACXuE1",
+        "name": "Exclusions",
+        "type": "multilineText"
+      },
+      {
+        "description": "Hilo previo donde responder, si existe",
+        "id": "fldLweYYah91bYVYj",
+        "name": "Gmail Thread ID",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldfKFf68jaK52jGm",
+        "name": "Last Sent",
+        "options": {
+          "dateFormat": {
+            "format": "YYYY-MM-DD",
+            "name": "iso"
+          }
+        },
+        "type": "date"
+      },
+      {
+        "id": "fldAs3DzLHj3B4sHT",
+        "name": "Notes",
+        "type": "multilineText"
+      },
+      {
+        "id": "fldyioYVFB5mvoKRq",
+        "name": "Agency Sends",
+        "options": {
+          "inverseLinkFieldId": "fldeF4MV8EUdDq9nL",
+          "isReversed": false,
+          "linkedTableId": "tblNIyCBDoVCz2U8g",
+          "prefersSingleRecordLink": false
+        },
+        "type": "multipleRecordLinks"
+      }
+    ],
+    "id": "tblS2tHWJLW8ezM6J",
+    "name": "Client Accounts",
+    "primaryFieldId": "fldiYgMWcrAKyhcSz",
+    "views": [
+      {
+        "id": "viwR2AmxuIQEBvspm",
+        "name": "Grid view",
+        "type": "grid"
+      }
+    ]
+  },
+  {
+    "description": "Log de la tarea \"HS notas a agencias\": una fila por nota evaluada para una cuenta (enviada u omitida y por qué). Sirve para no repetir envíos y aplicar los topes por contacto y por grupo.",
+    "fields": [
+      {
+        "id": "fld4AENtFA2LTI3tM",
+        "name": "Summary",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldUWq6M18na0Y05X",
+        "name": "Article URL",
+        "type": "url"
+      },
+      {
+        "id": "fldbKzADfjzog3apO",
+        "name": "WP Post ID",
+        "options": {
+          "precision": 0
+        },
+        "type": "number"
+      },
+      {
+        "description": "Contactos de Press & PR Contacts a los que se mandó",
+        "id": "fldSD8R5MPPn0UefP",
+        "name": "Contacts",
+        "options": {
+          "inverseLinkFieldId": "fldYImCytFHgCds7d",
+          "isReversed": false,
+          "linkedTableId": "tblCz9trAX2uC0hcI",
+          "prefersSingleRecordLink": false
+        },
+        "type": "multipleRecordLinks"
+      },
+      {
+        "id": "fldvUtY8G2gARaonc",
+        "name": "Account Name",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldKGI4217VSSMlSY",
+        "name": "Agency Group",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldLgi8yKiegGVIrA",
+        "name": "To",
+        "type": "multilineText"
+      },
+      {
+        "id": "fldtbraCeaxtlnvGJ",
+        "name": "Status",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selQcchmI45ySEKpp",
+              "name": "Sent"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selrCYzPzrCswZQaK",
+              "name": "Skipped"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selSEMuv1DvhHHlMH",
+              "name": "Flagged for Fer"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selZWCpalSNsipT9n",
+              "name": "Error"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldbutVleI5zFRpFI",
+        "name": "Reason",
+        "type": "multilineText"
+      },
+      {
+        "id": "fldHba94qZ9agbdoc",
+        "name": "Sent At",
+        "options": {
+          "dateFormat": {
+            "format": "YYYY-MM-DD",
+            "name": "iso"
+          },
+          "timeFormat": {
+            "format": "HH:mm",
+            "name": "24hour"
+          },
+          "timeZone": "America/New_York"
+        },
+        "type": "dateTime"
+      },
+      {
+        "id": "fldQD8IU57PoHlDnL",
+        "name": "Gmail Message ID",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldeF4MV8EUdDq9nL",
+        "name": "Client Account",
+        "options": {
+          "inverseLinkFieldId": "fldyioYVFB5mvoKRq",
+          "isReversed": false,
+          "linkedTableId": "tblS2tHWJLW8ezM6J",
+          "prefersSingleRecordLink": false
+        },
+        "type": "multipleRecordLinks"
+      }
+    ],
+    "id": "tblNIyCBDoVCz2U8g",
+    "name": "Agency Sends",
+    "primaryFieldId": "fld4AENtFA2LTI3tM",
+    "views": [
+      {
+        "id": "viwBGfERTZMgy4ojQ",
         "name": "Grid view",
         "type": "grid"
       }

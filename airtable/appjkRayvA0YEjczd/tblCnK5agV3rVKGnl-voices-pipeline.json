@@ -41,16 +41,21 @@
       "Gmail_Thread_ID": "1a0fd587f276f471",
       "Greeting": "Estimado Dr. Galán:",
       "Institution": "Así Vamos en Salud; ex ministro de Salud",
+      "Interviewee_OK": "2026-11-14",
+      "Interviewee_OK_Ref": "msg 1a1d77dee4d75dca (2026-11-14 00:38 UTC) · «No tengo observaciones de mi parte y estoy de acuerdo con el texto» · versión aprobada: claude/voices-galan-aprobada-r7-2026-11-09.md (cuerpo del R7, msg 1a1c1acb984556f0)",
       "Language": "es",
       "Local_Time": "mié 4/11 09:20 Bogotá",
       "Name": "Augusto Galán Sarmiento",
       "Notes": "Divulgar aliados de Así Vamos en Salud (EPS Sura, Compensar, Keralty, Roche, Sanofi, J&J, Boston Scientific). Afinidad con la ministra Vesga (ambos ex ACEMI). CC agalan@bakertillycolombia.com (CV 2022). Si rebota: coordinacion@asivamosensalud.org como intermediario.\n2026-11-06: invitación SALIÓ 04/11 14:20 UTC (msg 1a1a6ee57823c307, CC agalan@bakertillycolombia.com, sin CC a Fer). ACEPTA 04/11 16:00 UTC (msg 1a1a74a48f893d1d). Acuse A enviado 08/11 16:51 UTC.\n2026-11-08: RESPUESTAS recibidas 08/11 21:09 UTC (msg 1a1bcfef193f376d): Word Drive 1aJe99ikp0CjUwlmDJdTymfGzk6gJcMRv (6/6 respondidas, en español), foto DSC_0029.JPG Drive 1UdQ49INJiWvpNQ1hXWmg8EzYJKCNHnVs (1806x1785, sin crédito), reseña en el Word. Publicación propuesta: semana del 16/11.\n2026-11-09: acuse B + R3b SALIÓ 09/11 01:20 UTC (msg 1a1bde452e7e89ed, sin CC). RESPONDIÓ 09/11 14:11 UTC (msg 1a1c0a629289ae88): (1) 28% inasistencia: 'fuente de reporte son EPS e IPS'; (2) vínculos: aliados AVS = fundaciones, universidades, EPS e IPS, industria; agregar Boston Scientific, Medtronic y Vela (actuarios); NO es propietario ni fundador de AVS (director general hace 11 años, AVS tiene 24); a título personal: miembro independiente de la Junta Directiva de EPS Sura -> DIVULGAR; (3) foto: 'archivo personal'.\n2026-11-09: borrador v6 en inglés tras R4 (fact-check) + panel R6 completo (traducción, defensor, adversarial, copy chief, contexto local) + R6b. Project: claude/voices-galan-borrador-v6-2026-11-09.md (respuestas ES: claude/voices-galan-respuestas-es-2026-11-09.md). Titular: 'Pharmaceutical policy must evolve from price to value' (de R5). R7 en BORRADOR r-4308302502648866797 (reply a 1a1c0a629289ae88, sin CC), pendiente OK de Fer. Pendientes de verificar antes de publicar: cita El País 2024 de P6 (no encontrada). Ojo contexto: editorial AVS 9/10 'La ruta que comienza' apoyó liquidación ordenada y giro directo de ADRES (tensión con R2/R5, no contradicción).\n2026-11-09: R7 SALIÓ 18:58 UTC (msg 1a1c1acb984556f0).\n2026-11-13: sin respuesta a R7. Recordatorio amable ENVIADO 13/11 15:20 UTC con OK de Fer del 12/11 (msg 1a1d57ea540e8de7, solo galanau@gmail.com, sin CC). Calendario: publicar antes del Brief del 17/11 si aprueba; si no, pasa más adelante.",
+      "Promo_D0": "2026-11-16",
+      "Promo_Stage": "Kit pendiente",
       "Reply_Summary": "04/11 16:00 UTC (msg 1a1a74a48f893d1d): acepta. 09/11 14:11 UTC: respondió R3b. 09/11: R7 ENVIADO con OK de Fer (msg 1a1c1acb984556f0, sin CC), versión v6 (Project claude/voices-galan-borrador-v6-2026-11-09.md). Plazo de revisión: 16/11 (+5 días hábiles); sin respuesta, un recordatorio y decide Fer.",
       "Send_At": "2026-11-04T14:20:00.000Z",
       "Stage": "Answers received",
       "To_Email": "galanau@gmail.com",
       "Topic": "Entrevista para HealthSignals: aseguramiento en salud en Colombia",
-      "Touches": 1
+      "Touches": 1,
+      "WP_Post_ID": 37002
     },
     "id": "rec84WRhsD2arnITg"
   },

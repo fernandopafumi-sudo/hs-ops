@@ -247,6 +247,19 @@
     "id": "recEEjAuVWY88cySe"
   },
   {
+    "createdTime": "2026-11-13T18:50:00.000Z",
+    "fields": {
+      "Channel": "comentarios",
+      "Date": "2026-11-13",
+      "Items_Pending": 2,
+      "Notes": "Mañana del 13-11 no corrió (sin filas en Ops Runs ni en Social Comments). Sin redacción nueva: cola trabada (3 Approved sin publicar, vencen 14-15/11; 2 Proposed PAHO). in:scheduled vacío. Mail bandeja 1a1d63e8a34443c9.",
+      "Run": "tarde",
+      "Run_Key": "2026-11-13|tarde|comentarios",
+      "Status": "ok"
+    },
+    "id": "recESsx2cdzt80yof"
+  },
+  {
     "createdTime": "2026-10-23T12:57:53.000Z",
     "fields": {
       "Channel": "comentarios",

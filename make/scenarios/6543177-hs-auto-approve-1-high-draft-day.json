@@ -2,6 +2,62 @@
   "blueprint": {
     "flow": [
       {
+        "id": 10,
+        "mapper": {
+          "dateTimeRenderOption": "FORMATTED_STRING",
+          "filter": [
+            [
+              {
+                "a": "P",
+                "b": "draft",
+                "o": "text:notequal"
+              },
+              {
+                "a": "AO",
+                "o": "exist"
+              }
+            ]
+          ],
+          "from": "drive",
+          "includesHeaders": true,
+          "limit": "2000",
+          "sheetId": "Editorial Queue",
+          "spreadsheetId": "1J8ca4Pvp3HTSdHqq9-TZ1H-nF6_fM5R3Jm1bf9bAU8A",
+          "tableFirstRow": "A1:CZ1",
+          "valueRenderOption": "FORMATTED_VALUE"
+        },
+        "metadata": {
+          "designer": {
+            "x": -600,
+            "y": 0
+          }
+        },
+        "module": "google-sheets:filterRows",
+        "parameters": {
+          "__IMTCONN__": 8923977
+        },
+        "version": 2
+      },
+      {
+        "id": 11,
+        "mapper": {
+          "value": "{{10.`40`}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": -300,
+            "y": 0
+          }
+        },
+        "module": "util:TextAggregator",
+        "parameters": {
+          "feeder": 10,
+          "otherRowSeparator": "|",
+          "rowSeparator": "other"
+        },
+        "version": 1
+      },
+      {
         "id": 1,
         "mapper": {
           "dateTimeRenderOption": "FORMATTED_STRING",
@@ -31,7 +87,7 @@
           ],
           "from": "drive",
           "includesHeaders": true,
-          "limit": "1",
+          "limit": "15",
           "orderBy": "B",
           "sheetId": "Editorial Queue",
           "sortOrder": "desc",
@@ -56,32 +112,72 @@
           "conditions": [
             [
               {
+                "a": "|{{11.text}}|",
+                "b": "|{{1.`40`}}|",
+                "o": "text:notcontain"
+              },
+              {
                 "a": "{{1.`__ROW_NUMBER__`}}",
                 "o": "exist"
               }
             ]
           ],
-          "name": "fila valida"
+          "name": "no duplicada (signal_hash no visto)"
+        },
+        "id": 12,
+        "mapper": {
+          "value": "{{1.`__ROW_NUMBER__`}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 300,
+            "y": 0
+          }
+        },
+        "module": "util:TextAggregator",
+        "parameters": {
+          "feeder": 1,
+          "otherRowSeparator": ",",
+          "rowSeparator": "other"
+        },
+        "version": 1
+      },
+      {
+        "filter": {
+          "conditions": [
+            [
+              {
+                "a": "{{12.text}}",
+                "o": "exist"
+              },
+              {
+                "a": "{{12.text}}",
+                "b": "",
+                "o": "text:notequal"
+              }
+            ]
+          ],
+          "name": "hay candidata"
         },
         "id": 2,
         "mapper": {
           "from": "drive",
           "includesHeaders": true,
           "mode": "select",
-          "rowNumber": "{{1.`__ROW_NUMBER__`}}",
+          "rowNumber": "{{first(split(12.text; \",\"))}}",
           "sheetId": "Editorial Queue",
           "spreadsheetId": "1J8ca4Pvp3HTSdHqq9-TZ1H-nF6_fM5R3Jm1bf9bAU8A",
           "useColumnHeaders": true,
           "valueInputOption": "USER_ENTERED",
           "values": {
             "Approved By": "Fer (auto 1/dia high, desde 18-10)",
-            "Current Step": "approved auto {{formatDate(now; \"YYYY-MM-DD\")}} (1/dia high)",
+            "Current Step": "approved auto {{formatDate(now; \"YYYY-MM-DD\")}} (1/dia high, dedup)",
             "Status": "approved"
           }
         },
         "metadata": {
           "designer": {
-            "x": 300,
+            "x": 600,
             "y": 0
           }
         },

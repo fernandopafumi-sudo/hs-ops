@@ -1,0 +1,158 @@
+{
+  "blueprint": {
+    "flow": [
+      {
+        "id": 1,
+        "mapper": {
+          "key": "shared",
+          "returnWrapped": false
+        },
+        "metadata": {
+          "designer": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        "module": "datastore:GetRecord",
+        "parameters": {
+          "datastore": 164495
+        },
+        "version": 1
+      },
+      {
+        "id": 2,
+        "mapper": {
+          "dateTimeRenderOption": "FORMATTED_STRING",
+          "filter": [
+            [
+              {
+                "a": "AI",
+                "b": "SOCIAL-",
+                "o": "text:contain"
+              },
+              {
+                "a": "W",
+                "o": "exist"
+              }
+            ]
+          ],
+          "from": "drive",
+          "includesHeaders": true,
+          "limit": "100",
+          "sheetId": "Editorial Queue",
+          "spreadsheetId": "1J8ca4Pvp3HTSdHqq9-TZ1H-nF6_fM5R3Jm1bf9bAU8A",
+          "tableFirstRow": "A1:CZ1",
+          "valueRenderOption": "FORMATTED_VALUE"
+        },
+        "metadata": {
+          "designer": {
+            "x": 300,
+            "y": 0
+          }
+        },
+        "module": "google-sheets:filterRows",
+        "parameters": {
+          "__IMTCONN__": 8923977
+        },
+        "version": 2
+      },
+      {
+        "filter": {
+          "conditions": [
+            [
+              {
+                "a": ",{{1.ids}},",
+                "b": ",{{2.`22`}},",
+                "o": "text:notcontain"
+              },
+              {
+                "a": "{{2.`22`}}",
+                "o": "exist"
+              }
+            ]
+          ],
+          "name": "WP ID no esta en el dedup de v3"
+        },
+        "id": 3,
+        "mapper": {
+          "value": "{{2.`22`}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 600,
+            "y": 0
+          }
+        },
+        "module": "util:TextAggregator",
+        "parameters": {
+          "feeder": 2,
+          "otherRowSeparator": ",",
+          "rowSeparator": "other"
+        },
+        "version": 1
+      },
+      {
+        "filter": {
+          "conditions": [
+            [
+              {
+                "a": "{{3.text}}",
+                "o": "exist"
+              },
+              {
+                "a": "{{3.text}}",
+                "b": "",
+                "o": "text:notequal"
+              }
+            ]
+          ],
+          "name": "hay IDs nuevos"
+        },
+        "id": 4,
+        "mapper": {
+          "data": {
+            "ids": "{{1.ids}},{{3.text}}",
+            "note": "sync SOCIAL- {{now}}: +{{3.text}}"
+          },
+          "key": "shared",
+          "overwrite": true
+        },
+        "metadata": {
+          "designer": {
+            "x": 900,
+            "y": 0
+          }
+        },
+        "module": "datastore:AddRecord",
+        "parameters": {
+          "datastore": 164495
+        },
+        "version": 1
+      }
+    ],
+    "metadata": {
+      "instant": false,
+      "version": 1
+    },
+    "name": "HS - Social: sync SOCIAL- tags al dedup de v3"
+  },
+  "folderId": 247198,
+  "id": 7028872,
+  "interface": {
+    "input": [],
+    "output": []
+  },
+  "isActive": true,
+  "name": "HS - Social: sync SOCIAL- tags al dedup de v3",
+  "scheduling": {
+    "days": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "time": "08:25",
+    "type": "weekly"
+  }
+}

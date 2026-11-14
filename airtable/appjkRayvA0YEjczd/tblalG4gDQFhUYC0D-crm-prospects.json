@@ -3411,6 +3411,19 @@
     "id": "recEAvUGkd8QSFx2H"
   },
   {
+    "createdTime": "2026-11-14T14:36:07.000Z",
+    "fields": {
+      "Approval": "Pending Review",
+      "Company": "ACHC (Asociación Colombiana de Hospitales y Clínicas)",
+      "Country": "Colombia",
+      "Email": "dirgeneral1@achc.org.co",
+      "Name": "Juan Carlos Giraldo Valencia",
+      "Source_URL": "https://achc.org.co/contacto/",
+      "Title": "Director General"
+    },
+    "id": "recEMe21XZCDJfZ7o"
+  },
+  {
     "createdTime": "2026-10-18T18:02:31.000Z",
     "fields": {
       "Approval": "Pending Review",
@@ -5446,6 +5459,20 @@
       "Stage": "Engaged"
     },
     "id": "recNYI4ojf3SfafKT"
+  },
+  {
+    "createdTime": "2026-11-14T14:36:07.000Z",
+    "fields": {
+      "Approval": "Pending Review",
+      "Company": "ASINFAR (Asociación de Industrias Farmacéuticas en Colombia)",
+      "Country": "Colombia",
+      "Email": "comunicaciones@asinfar.com.co",
+      "Name": "Sonia Perilla Santamaría",
+      "Notes": "2026-11-14: misma casilla que la fila 'ASINFAR (institucional)'; mandar un solo mail a esa dirección.",
+      "Source_URL": "https://www.asinfar.org/post/sonia-perilla-santamar%C3%ADa-nueva-coordinadora-de-comunicaciones-y-prensa-de-asinfar",
+      "Title": "Coordinadora de Comunicaciones y Prensa"
+    },
+    "id": "recNZpGy6DLFoCopL"
   },
   {
     "createdTime": "2026-11-08T23:38:17.000Z",
@@ -9195,12 +9222,12 @@
       "Country": "USA",
       "Email": "harold.hamana@knight-pawn.com",
       "First_Name": "Harold",
-      "Last_Contacted": "2026-10-28",
+      "Last_Contacted": "2026-11-12",
       "Last_Name": "Hamana",
       "Name": "Harold Hamana",
-      "Next_Action": "Follow-up: feedback del equipo de salud, precio Founding Partner, OK para compartir el Brief con J&J/GSK",
-      "Next_Action_Date": "2026-11-09",
-      "Notes": "Canal/intermediario (no comprador directo). Firma: T 305.527.8560, 951 Brickell Ave, Suite 3411, Miami FL 33131; knight-pawn.com.\n2026-10-22: Fer le mandó one-pager Founding Partner (5 asientos, uno por sección; Policy & Markets como fit de market access) desde su Gmail personal.\n2026-10-26: respondió: lo compartió con su equipo de salud (feedback a fin de semana); lo comentó como teaser con J&J y GSK; pide permiso para compartirles el Brief de ejemplo; busca cómo aterrizar un cliente anchor; pregunta qué precio tiene Founding Partner.\n2026-10-28: Fer respondió desde editor@ ('quedo atento la semana que viene') y ofreció armarle una página de Founding Partner con ejemplos del Brief y Voices. Sin respuesta al 08/11. Precio de FP pendiente de definir/enviar. Approval en Pending Review para que ningún scenario lo contacte automáticamente: lo maneja Fer.",
+      "Next_Action": "Ver si Harold movió la oferta low-cost de fin de año con Bayer/J&J; si no, reactivar en enero para Q1 2027",
+      "Next_Action_Date": "2026-11-30",
+      "Notes": "Canal/intermediario (no comprador directo). Firma: T 305.527.8560, 951 Brickell Ave, Suite 3411, Miami FL 33131; knight-pawn.com.\n2026-10-22: Fer le mandó one-pager Founding Partner (5 asientos, uno por sección; Policy & Markets como fit de market access) desde su Gmail personal.\n2026-10-26: respondió: lo compartió con su equipo de salud (feedback a fin de semana); lo comentó como teaser con J&J y GSK; pide permiso para compartirles el Brief de ejemplo; busca cómo aterrizar un cliente anchor; pregunta qué precio tiene Founding Partner.\n2026-10-26: Fer le dio referencia de precio (asiento completo ~USD 32,000/año, versiones menores) y OK para compartir el Brief. Harold: lo presenta como proyecto editorial de HS y como capability de K&P, caso por caso.\n2026-10-28: Fer respondió desde editor@ ('quedo atento la semana que viene') y ofreció armarle una página de Founding Partner con ejemplos del Brief y Voices.\n2026-11-11: Fer hizo follow-up preguntando por J&J.\n2026-11-12: Harold: de los candidatos conversados, solo Bayer y J&J parecen opciones, ambos para Q1 2027; seguirán intentando pero todo apunta al año próximo. Fer respondió proponiendo ofrecerles algo a muy bajo precio con presupuesto sobrante de fin de año.\nApproval en Pending Review para que ningún scenario lo contacte automáticamente: lo maneja Fer.",
       "Offer_Interest": [
         "Founding Partner"
       ],
@@ -9587,6 +9614,19 @@
     "id": "receapsMJzN4aRvAq"
   },
   {
+    "createdTime": "2026-11-14T14:36:07.000Z",
+    "fields": {
+      "Approval": "Pending Review",
+      "Company": "ACEMI (Asociación Colombiana de Empresas de Medicina Integral)",
+      "Country": "Colombia",
+      "Email": "info@acemi.org.co",
+      "Name": "ACEMI (institucional)",
+      "Notes": "2026-11-14: gremio de EPS del régimen contributivo; email en pie de página del sitio. Difusión Voices, sin pitch.",
+      "Source_URL": "https://www.acemi.org.co/"
+    },
+    "id": "recednNcBSBfG9kVu"
+  },
+  {
     "createdTime": "2026-11-12T00:17:56.000Z",
     "fields": {
       "Approval": "Pending Review",
@@ -9743,6 +9783,19 @@
       "Title": "Profesora adjunta; Coordinación académica curso Asuntos Regulatorios en el Sector Farmacéutico"
     },
     "id": "recfF3EdVosqZoKtn"
+  },
+  {
+    "createdTime": "2026-11-14T14:36:07.000Z",
+    "fields": {
+      "Approval": "Pending Review",
+      "Company": "ACHC (Asociación Colombiana de Hospitales y Clínicas)",
+      "Country": "Colombia",
+      "Email": "comunicaciones@achc.org.co",
+      "Name": "Ayde Cristancho",
+      "Source_URL": "https://achc.org.co/contacto/",
+      "Title": "Comunicaciones"
+    },
+    "id": "recfFSzpVgslhy8Ak"
   },
   {
     "createdTime": "2026-06-21T17:21:49.000Z",
@@ -10102,6 +10155,18 @@
       "Title": "Regulatory Affairs Manager"
     },
     "id": "rech7qKGCbnxdOpc4"
+  },
+  {
+    "createdTime": "2026-11-14T14:36:07.000Z",
+    "fields": {
+      "Approval": "Pending Review",
+      "Company": "Fedesalud",
+      "Country": "Colombia",
+      "Email": "fedesalud@fedesalud.org",
+      "Name": "Fedesalud (institucional)",
+      "Source_URL": "https://fedesalud.org/acerca-de-fedesalud/"
+    },
+    "id": "rechGsFMu6AMYO2Gr"
   },
   {
     "createdTime": "2026-10-17T19:42:21.000Z",
@@ -11148,6 +11213,19 @@
       "Title": "Communications, Public Affairs & Patient Advocacy"
     },
     "id": "reclXivR7dVrQ6vNc"
+  },
+  {
+    "createdTime": "2026-11-14T14:36:07.000Z",
+    "fields": {
+      "Approval": "Pending Review",
+      "Company": "Gestarsalud",
+      "Country": "Colombia",
+      "Email": "contacto@gestarsalud.com",
+      "Name": "Gestarsalud (institucional)",
+      "Notes": "2026-11-14: gremio de EPS del régimen subsidiado. Difusión Voices, sin pitch.",
+      "Source_URL": "https://gestarsalud.com/comunicaciones/"
+    },
+    "id": "reclZhoHwHQQWMoQp"
   },
   {
     "createdTime": "2026-10-18T13:36:37.000Z",

@@ -61,7 +61,7 @@
       "Fecha última nota": "2026-10-07",
       "Idioma": "ES",
       "Name": "Diana K. Rodríguez T.",
-      "Notes": "Muy activa: UPC 2027, ADRES, entrevista a Afidro (innovación, Invima). X @Diana_rodrit. Email: re-verificar en página de autor.",
+      "Notes": "2026-11-14: diatri@eltiempo.com NO aparece publicado en ninguna fuente; no usar hasta verificar.",
       "Organization": "Portafolio",
       "Role": "Periodista (salud, agro, comercio exterior)",
       "Source_URL": "https://www.portafolio.co/autor/diana-k-rodriguez-t",
@@ -221,8 +221,29 @@
     "id": "rec38vGAsbMf8h6t2"
   },
   {
+    "createdTime": "2026-11-13T18:00:17.000Z",
+    "fields": {
+      "Client Accounts": [
+        "recNf25axQjosXbPO"
+      ],
+      "Country": "Argentina",
+      "Email": "milagros.orcoyen@ketchum.com.ar",
+      "Idioma": "ES",
+      "Name": "Milagros Orcoyen",
+      "Notes": "Móvil +54 9 11 5814 6338. 10-11-2026: Fer le pidió inclusión en el mailing de BMS Argentina y ofreció vocero (hilo 1a18f580b86ef693); 11-11: aceptó la lista, sin respuesta sobre vocero. 13-11: mandó a press@ el comunicado BMS Día Mundial del Cáncer de Pulmón (vocera Yanina Verdier; hilo 1a1d4f76650e09c2). Borrador de respuesta para el 16-11 (nota BMS–A.C.Camargo + vocero).",
+      "Organization": "Ketchum Argentina (BMS Argentina)",
+      "Role": "Analista de Cuentas",
+      "Status": "Responded",
+      "Type": "Agencia PR"
+    },
+    "id": "rec3cZZ4itRmmTuqa"
+  },
+  {
     "createdTime": "2026-11-13T00:43:13.000Z",
     "fields": {
+      "Client Accounts": [
+        "recV5UgCfPwsuMjKj"
+      ],
       "Country": "Brasil",
       "Email": "jessie.costa@inpresspni.com.br",
       "Idioma": "PT",
@@ -316,6 +337,21 @@
       "Type": "Prensa especializada"
     },
     "id": "rec4HbGaheQ31Pnrs"
+  },
+  {
+    "createdTime": "2026-11-13T21:34:17.000Z",
+    "fields": {
+      "Country": "Brasil",
+      "Email": "ana.sniesko@bursonglobal.com",
+      "Idioma": "PT",
+      "Name": "Ana Sniesko",
+      "Notes": "Fuente: respuesta automática de Fabiana Delgado (12-11-2026) que la da como contacto alternativo mientras está de vacaciones hasta el 30-11. Sin contacto directo.",
+      "Organization": "Burson (Novartis Brasil)",
+      "Role": "Equipo cuenta Novartis Brasil (cargo no confirmado)",
+      "Status": "New",
+      "Type": "Agencia PR"
+    },
+    "id": "rec4fcguUhQBO9PGn"
   },
   {
     "createdTime": "2026-10-15T11:18:57.000Z",
@@ -494,15 +530,45 @@
     "fields": {
       "Contact_URL": "https://kreab.com/bogota/",
       "Country": "Colombia",
+      "Email": "acastro@kreab.com",
+      "Email verificado": true,
       "Name": "Alfonso Castro Cid",
       "Notes": "Sin email publicado; formulario global. Public affairs con salud.",
       "Organization": "Kreab Colombia",
       "Role": "Managing Partner",
-      "Source_URL": "https://kreab.com/bogota/",
+      "Source_URL": "https://kreab.com/bogota/contacto/",
       "Status": "New",
       "Type": "Agencia PR"
     },
     "id": "rec6IblLmR8xAsGva"
+  },
+  {
+    "createdTime": "2026-11-14T14:35:32.000Z",
+    "fields": {
+      "Country": "Colombia",
+      "Email": "diario@larepublica.com.co",
+      "Email verificado": true,
+      "Organization": "La República (Colombia)",
+      "Role": "Casilla genérica de redacción",
+      "Source_URL": "https://td.larepublica.co/epaper/xml_epaper/LA_REPUBLICA/18_03_2026/pla_1247_LR/pdf_pags/1247.pdf",
+      "Type": "Prensa especializada"
+    },
+    "id": "rec6PNjg4Uz3w8faf"
+  },
+  {
+    "createdTime": "2026-11-14T14:35:32.000Z",
+    "fields": {
+      "Country": "Colombia",
+      "Email": "framir@portafolio.co",
+      "Email verificado": true,
+      "Name": "Francisco Miranda Hamburger",
+      "Notes": "2026-11-14: email en staff de la revista Portafolio (may-2025).",
+      "Organization": "Portafolio",
+      "Role": "Director",
+      "Source_URL": "https://pre.portafolio.co/files/2026/02/18/PORTAFOLIO_REVISTA-69-20250522.pdf",
+      "Type": "Prensa especializada"
+    },
+    "id": "rec6PoHcwQwrDVTw1"
   },
   {
     "createdTime": "2026-10-15T11:09:32.000Z",
@@ -545,10 +611,11 @@
       "Contact_URL": "https://consultorsalud.com/contacto/",
       "Country": "Colombia",
       "Email": "info@consultorsalud.com",
+      "Email verificado": true,
       "Notes": "Email resuelto por navegador 2026-08-11. Tel/WhatsApp: +57 317 644-1947.",
       "Organization": "CONSULTORSALUD",
       "Role": "Contacto general / Redacción",
-      "Source_URL": "https://consultorsalud.com/contacto/",
+      "Source_URL": "https://consultorsalud.com/politica-de-privacidad/",
       "Status": "New",
       "Type": "Prensa especializada"
     },
@@ -584,7 +651,7 @@
       "Fecha última nota": "2026-09-09",
       "Idioma": "ES",
       "Name": "Valentina Matiz Bernal",
-      "Notes": "Co-firma con Silva Numa (precio pembrolizumab). Re-verificar firma.",
+      "Notes": "2026-11-14: su página de autor la ubica en la Unidad de video (moda, cultura, DD.HH.), no en salud; no incluir en difusiones de salud.",
       "Organization": "El Espectador",
       "Role": "Periodista, Salud",
       "Source_URL": "https://www.elespectador.com/salud/el-caso-de-este-medicamento-y-su-precio-deja-varias-lecciones-para-el-sistema-de-salud/",
@@ -693,6 +760,19 @@
       "Type": "Prensa especializada"
     },
     "id": "rec8h7E5I5h8PRsoC"
+  },
+  {
+    "createdTime": "2026-11-14T14:35:32.000Z",
+    "fields": {
+      "Country": "Colombia",
+      "Email": "elpulso@sanvicentefundacion.com",
+      "Email verificado": true,
+      "Organization": "El Pulso (periódico de salud, Medellín)",
+      "Role": "Casilla genérica",
+      "Source_URL": "https://periodicoelpulso.com.co/324-septiembre-2025/colaboradores.php",
+      "Type": "Prensa especializada"
+    },
+    "id": "rec8tHgPtcRxWlx4j"
   },
   {
     "createdTime": "2026-10-15T11:09:32.000Z",
@@ -891,7 +971,7 @@
       "Fecha última nota": "2026-08-05",
       "Idioma": "ES",
       "Name": "Santiago Amaya Barrantes",
-      "Notes": "Análisis de fondo sobre UPC, EPS intervenidas y reforma. Hoy hace más fact-checking.",
+      "Notes": "2026-11-14: es del Detector de Mentiras; cubre salud solo ocasionalmente; sin email publicado.",
       "Organization": "La Silla Vacía",
       "Role": "Periodista (Silla Nacional)",
       "Source_URL": "https://www.lasillavacia.com/author/santiago-amaya-barrantes/",
@@ -1205,6 +1285,24 @@
     "id": "recCXaaiZzLYjENTt"
   },
   {
+    "createdTime": "2026-11-13T18:00:17.000Z",
+    "fields": {
+      "Client Accounts": [
+        "recNf25axQjosXbPO"
+      ],
+      "Country": "Argentina",
+      "Email": "mariana.stornini@bms.com",
+      "Idioma": "ES",
+      "Name": "Mariana Stornini",
+      "Notes": "Fuente: bloque 'Contactos de prensa' del comunicado de Ketchum recibido en press@ el 13-11-2026 (hilo 1a1d4f76650e09c2). Sin contacto directo todavía.",
+      "Organization": "Bristol Myers Squibb Argentina",
+      "Role": "Contacto de prensa BMS (Argentina)",
+      "Status": "New",
+      "Type": "Pharma media office"
+    },
+    "id": "recCYVCP8eqG421R9"
+  },
+  {
     "createdTime": "2026-08-11T14:35:32.000Z",
     "fields": {
       "Contact_URL": "https://www.abbott.com/corpnewsroom/utilities/media-contacts.html",
@@ -1339,6 +1437,19 @@
     "id": "recDVQw8CAxszb969"
   },
   {
+    "createdTime": "2026-11-14T14:35:32.000Z",
+    "fields": {
+      "Country": "Colombia",
+      "Email": "salud@eltiempo.com",
+      "Email verificado": true,
+      "Organization": "El Tiempo — Unidad de Salud",
+      "Role": "Casilla genérica de la sección Salud",
+      "Source_URL": "https://www.eltiempo.com/salud/cafe-en-el-tiempo-que-quieren-los-colombianos-del-sistema-de-salud-675436",
+      "Type": "Prensa especializada"
+    },
+    "id": "recDfUfDZAJyugkwL"
+  },
+  {
     "createdTime": "2026-08-11T14:35:32.000Z",
     "fields": {
       "Contact_URL": "https://www.sanofi.com/en/media-room/contact",
@@ -1399,6 +1510,19 @@
       "Type": "Prensa especializada"
     },
     "id": "recEJ9sk4g9Vj5v0A"
+  },
+  {
+    "createdTime": "2026-11-14T14:35:32.000Z",
+    "fields": {
+      "Country": "Colombia",
+      "Email": "contacto@bluradio.com",
+      "Email verificado": true,
+      "Organization": "Blu Radio",
+      "Role": "Casilla genérica",
+      "Source_URL": "https://www.bluradio.com/contacto",
+      "Type": "Prensa especializada"
+    },
+    "id": "recEJapTR3ebIN83j"
   },
   {
     "createdTime": "2026-08-11T14:35:32.000Z",
@@ -1568,6 +1692,19 @@
       "Última nota firmada": "https://www.eluniversal.com.mx/cartera/gobierno-debe-110-mil-mdp-a-las-farmaceuticas-empresarios-piden-cancha-pareja/"
     },
     "id": "recFxHkXrFmH47LWi"
+  },
+  {
+    "createdTime": "2026-11-14T14:35:32.000Z",
+    "fields": {
+      "Country": "Colombia",
+      "Email": "info@actualisalud.com",
+      "Email verificado": true,
+      "Organization": "Actualisalud",
+      "Role": "Casilla genérica (portal sectorial de salud)",
+      "Source_URL": "https://actualisalud.com/desea-publicar-informacion-en-la-web-de-actualisalud/",
+      "Type": "Prensa especializada"
+    },
+    "id": "recG0Ngirj5E3S4Pt"
   },
   {
     "createdTime": "2026-10-15T11:18:57.000Z",
@@ -1779,6 +1916,25 @@
     "id": "recH0kn1eUlA2wqT5"
   },
   {
+    "createdTime": "2026-11-13T21:30:42.000Z",
+    "fields": {
+      "Client Accounts": [
+        "recSpelmQ8Pvt7XHg"
+      ],
+      "Country": "México",
+      "Email": "silvana.blancas@omc.com",
+      "Idioma": "ES",
+      "Name": "Silvana Blancas",
+      "Notes": "Fuente: en copia de Elsa Argüelles en el hilo Sanofi México (11 y 13-11-2026). Sin contacto directo. Email de correspondencia, no publicado.",
+      "Organization": "Porter Novelli México (PN Mexico, Omnicom) — cuenta Sanofi México",
+      "Role": "Equipo cuenta Sanofi México (cargo no confirmado)",
+      "Source_URL": "https://mail.google.com/mail/?authuser=editor@healthsignals.news#all/thread-f:1880522732830153011",
+      "Status": "New",
+      "Type": "Agencia PR"
+    },
+    "id": "recHBbP6MsGAEiFdW"
+  },
+  {
     "createdTime": "2026-10-15T11:13:46.000Z",
     "fields": {
       "Beat": "Política sanitaria",
@@ -1887,13 +2043,14 @@
       "Contact_URL": "https://www.elespectador.com/salud/colombia-ha-pagado-mas-de-cop-2-billones-por-este-medicamento-podra-cambiar-la-historia-del-pembrolizumab/",
       "Country": "Colombia",
       "Email": "ssilva@elespectador.com",
+      "Email verificado": true,
       "Fecha última nota": "2026-08-30",
       "Idioma": "ES",
       "Name": "Sergio Silva Numa",
       "Notes": "Exclusiva COP 2,3 billones de pagos de farmacéuticas y serie sobre precio del pembrolizumab. Dos agentes discrepan sobre su firma reciente: re-verificar. X @SergioSilva03.",
       "Organization": "El Espectador",
       "Role": "Editor de ciencia, salud y ambiente",
-      "Source_URL": "https://www.elespectador.com/salud/colombia-ha-pagado-mas-de-cop-2-billones-por-este-medicamento-podra-cambiar-la-historia-del-pembrolizumab/",
+      "Source_URL": "https://www.elespectador.com/autores/sergio-silva-numa/",
       "Status": "New",
       "Type": "Prensa especializada",
       "Última nota firmada": "https://www.elespectador.com/salud/farmaceuticas-entregaron-cop-23-billones-a-actores-de-la-salud-en-colombia-se-abre-un-nuevo-debate/"
@@ -2062,6 +2219,21 @@
     "id": "recJYeMyWjSgpBVmL"
   },
   {
+    "createdTime": "2026-11-14T14:36:06.000Z",
+    "fields": {
+      "Country": "Colombia",
+      "Email": "juliana.denarvaez@llyc.global",
+      "Email verificado": true,
+      "Name": "Juliana de Narváez",
+      "Notes": "2026-11-14: email de un comunicado de 2024 reproducido por tercero; puede estar desactualizado.",
+      "Organization": "LLYC Colombia",
+      "Role": "Contacto de prensa",
+      "Source_URL": "https://colombiafintech.co/2024/09/27/llyc-liderazgo-e-innovacion-en-el-mercadeo-y-los-asuntos-corporativos/",
+      "Type": "Agencia PR"
+    },
+    "id": "recJnlwMI6itOydQN"
+  },
+  {
     "createdTime": "2026-10-15T11:09:32.000Z",
     "fields": {
       "Beat": "Regulatorio",
@@ -2145,6 +2317,21 @@
       "Última nota firmada": "https://www.wsj.com/health/pharma/trump-administration-finalizes-plan-to-lower-drug-prices-in-medicare-5bf6227f"
     },
     "id": "recKudbzBmF1XwwRX"
+  },
+  {
+    "createdTime": "2026-11-13T21:34:17.000Z",
+    "fields": {
+      "Country": "Brasil",
+      "Email": "bruna.quintanilha@bursonglobal.com",
+      "Idioma": "PT",
+      "Name": "Bruna Quintanilha",
+      "Notes": "Fuente: respuesta automática de Fabiana Delgado (12-11-2026) que la da como contacto alternativo mientras está de vacaciones hasta el 30-11. Sin contacto directo.",
+      "Organization": "Burson (Novartis Brasil)",
+      "Role": "Equipo cuenta Novartis Brasil (cargo no confirmado)",
+      "Status": "New",
+      "Type": "Agencia PR"
+    },
+    "id": "recL1C7JJPqHoIguG"
   },
   {
     "createdTime": "2026-08-11T15:30:26.000Z",
@@ -2239,13 +2426,15 @@
       "Beat": "Industria/deals",
       "Contact_URL": "https://www.larepublica.co/empresas/las-eps-que-tienen-los-valores-negativos-en-su-patrimonio-4486018",
       "Country": "Colombia",
+      "Email": "isalazar@larepublica.com.co",
+      "Email verificado": true,
       "Fecha última nota": "2026-09-21",
       "Idioma": "ES",
       "Name": "Isabella Salazar Gaitán",
       "Notes": "Finanzas y patrimonio de EPS.",
       "Organization": "La República (Colombia)",
       "Role": "Mesa de Generación de Contenidos",
-      "Source_URL": "https://www.larepublica.co/empresas/las-eps-que-tienen-los-valores-negativos-en-su-patrimonio-4486018",
+      "Source_URL": "https://td.larepublica.co/epaper/xml_epaper/LA_REPUBLICA/13_08_2026/pla_1247_LR/pdf_pags/1247.pdf",
       "Status": "New",
       "Type": "Prensa especializada",
       "Última nota firmada": "https://www.larepublica.co/empresas/las-eps-que-tienen-los-valores-negativos-en-su-patrimonio-4486018"
@@ -2358,6 +2547,25 @@
       "Última nota firmada": "https://www.pharmabiz.net/el-versus-de-los-medicamentos-y-el-ipc/"
     },
     "id": "recNBETggg9ooven5"
+  },
+  {
+    "createdTime": "2026-11-13T21:30:42.000Z",
+    "fields": {
+      "Client Accounts": [
+        "recSpelmQ8Pvt7XHg"
+      ],
+      "Country": "México",
+      "Email": "paola.maldonado@omc.com",
+      "Idioma": "ES",
+      "Name": "Paola Maldonado",
+      "Notes": "Fuente: en copia de Elsa Argüelles en el hilo Sanofi México (11 y 13-11-2026). Sin contacto directo. Email de correspondencia, no publicado.",
+      "Organization": "Porter Novelli México (PN Mexico, Omnicom) — cuenta Sanofi México",
+      "Role": "Equipo cuenta Sanofi México (cargo no confirmado)",
+      "Source_URL": "https://mail.google.com/mail/?authuser=editor@healthsignals.news#all/thread-f:1880522732830153011",
+      "Status": "New",
+      "Type": "Agencia PR"
+    },
+    "id": "recNGK0FcfWJuD3tt"
   },
   {
     "createdTime": "2026-10-15T11:09:32.000Z",
@@ -2536,6 +2744,9 @@
   {
     "createdTime": "2026-08-11T15:16:53.000Z",
     "fields": {
+      "Client Accounts": [
+        "recrzx6w0dsCiKwnL"
+      ],
       "Contact_URL": "https://www.jeffreygroup.com/contact",
       "Country": "EE.UU. (hub LATAM)",
       "Email": "natalia.montoya@jeffreygroup.com",
@@ -2599,8 +2810,24 @@
     "id": "recQHdbb6huPjAxUR"
   },
   {
+    "createdTime": "2026-11-14T14:36:06.000Z",
+    "fields": {
+      "Country": "Colombia",
+      "Email": "contacto@masmedia.com.co",
+      "Email verificado": true,
+      "Organization": "Más Media Comunicaciones",
+      "Role": "Casilla genérica (agencia de RR.PP., Bogotá)",
+      "Source_URL": "https://www.masmedia.news/",
+      "Type": "Agencia PR"
+    },
+    "id": "recQKFIVwtGGqyRjH"
+  },
+  {
     "createdTime": "2026-11-12T01:30:19.000Z",
     "fields": {
+      "Client Accounts": [
+        "recnfmte1IYPb91HA"
+      ],
       "Country": "Colombia",
       "Email": "diana@seisgradosc.mx",
       "Name": "Diana Vargas",
@@ -2662,13 +2889,15 @@
       "Beat": "Política sanitaria",
       "Contact_URL": "https://www.elespectador.com/salud/corte-le-puso-tarea-a-minsalud-la-upc/",
       "Country": "Colombia",
+      "Email": "lmurillo@elespectador.com",
+      "Email verificado": true,
       "Fecha última nota": "2026-09-30",
       "Idioma": "ES",
       "Name": "Laura Valentina Murillo Hernández",
       "Notes": "Co-firma con Quiceno (UPC 2027). Más ciencia y salud general.",
       "Organization": "El Espectador",
       "Role": "Periodista, Salud",
-      "Source_URL": "https://www.elespectador.com/salud/corte-le-puso-tarea-a-minsalud-la-upc/",
+      "Source_URL": "https://www.elespectador.com/autores/lmurilloelespectador-com/",
       "Status": "New",
       "Type": "Prensa especializada",
       "Última nota firmada": "https://www.elespectador.com/salud/corte-le-puso-tarea-a-minsalud-la-upc/"
@@ -2693,6 +2922,43 @@
       "Última nota firmada": "https://www.emol.com/noticias/Nacional/2026/10/09/1213712/ministros-por-presupuesto-2027.html"
     },
     "id": "recR5KFvjyNPCG0W2"
+  },
+  {
+    "createdTime": "2026-11-13T21:30:42.000Z",
+    "fields": {
+      "Client Accounts": [
+        "recSpelmQ8Pvt7XHg"
+      ],
+      "Country": "México",
+      "Email": "juliana.pineda@omc.com",
+      "Idioma": "ES",
+      "Name": "Juliana Pineda",
+      "Notes": "Fuente: en copia de Elsa Argüelles en el hilo Sanofi México (11 y 13-11-2026). Sin contacto directo. Email de correspondencia, no publicado.",
+      "Organization": "Porter Novelli México (PN Mexico, Omnicom) — cuenta Sanofi México",
+      "Role": "Equipo cuenta Sanofi México (cargo no confirmado)",
+      "Source_URL": "https://mail.google.com/mail/?authuser=editor@healthsignals.news#all/thread-f:1880522732830153011",
+      "Status": "New",
+      "Type": "Agencia PR"
+    },
+    "id": "recRGAVIMDVFifGOF"
+  },
+  {
+    "createdTime": "2026-11-13T18:00:17.000Z",
+    "fields": {
+      "Client Accounts": [
+        "recDqTHTXUHbR7K4w"
+      ],
+      "Country": "Brasil",
+      "Email": "raquel.reis@agora.site",
+      "Idioma": "PT",
+      "Name": "Raquel Reis",
+      "Notes": "Fuente: respuesta por correo a editor@ el 11-11-2026 (sin URL pública). Sumó HealthSignals al mailing de BMS; la agencia atiende otros clientes de salud. Hilo Gmail 1a18f5731902670d.",
+      "Organization": "Ágora (BMS Brasil)",
+      "Role": "Gerente de comunicação, contas de saúde",
+      "Status": "Responded",
+      "Type": "Agencia PR"
+    },
+    "id": "recRu7DU9kSFsfhc0"
   },
   {
     "createdTime": "2026-08-11T15:30:26.000Z",
@@ -2975,6 +3241,7 @@
       "Contact_URL": "https://www.ogilvy.com/contact",
       "Country": "Colombia",
       "Email": "fabio.quiroga@ogilvy.com",
+      "Email verificado": true,
       "Name": "Fabio Quiroga",
       "Notes": "Verificado directamente 2026-08-11.",
       "Organization": "Ogilvy Colombia",
@@ -3013,13 +3280,14 @@
       "Contact_URL": "https://www.eltiempo.com/autor/edwin-caicedo",
       "Country": "Colombia",
       "Email": "edwcai@eltiempo.com",
+      "Email verificado": true,
       "Fecha última nota": "2026-10-11",
       "Idioma": "ES",
       "Name": "Edwin Caicedo",
       "Notes": "El reportero de salud más activo de El Tiempo: entrevista a la ministra Vesga (05-10), política farmacéutica (30-09), EPS. X @CaicedoUcros. Email: re-verificar en página de autor.",
       "Organization": "El Tiempo",
       "Role": "Periodista de medioambiente y salud",
-      "Source_URL": "https://www.eltiempo.com/autor/edwin-caicedo",
+      "Source_URL": "https://muckrack.com/edwin-caicedo",
       "Status": "New",
       "Type": "Prensa especializada",
       "Última nota firmada": "https://www.eltiempo.com/salud/capitales-del-pais-alertan-por-crisis-en-la-red-de-salud-y-presentan-ruta-al-gobierno-para-enfrentarla-15-estan-en-riesgo-critico-y-16-en-riesgo-alto-3592630"
@@ -3305,6 +3573,24 @@
     "id": "recYwKrry1t93fKvY"
   },
   {
+    "createdTime": "2026-11-13T18:00:17.000Z",
+    "fields": {
+      "Client Accounts": [
+        "recDqTHTXUHbR7K4w"
+      ],
+      "Country": "Brasil",
+      "Email": "julia.ramires@agora.site",
+      "Idioma": "PT",
+      "Name": "Julia Ramires",
+      "Notes": "Fuente: en copia del hilo 1a18f5731902670d (11-11-2026). Raquel Reis le pidió sumar a Fernando al mailing. Cargo no confirmado.",
+      "Organization": "Ágora (BMS Brasil)",
+      "Role": "Mailing de prensa",
+      "Status": "Responded",
+      "Type": "Agencia PR"
+    },
+    "id": "recZFGt69yOPQNA8M"
+  },
+  {
     "createdTime": "2026-08-11T02:56:07.000Z",
     "fields": {
       "Contact_URL": "https://panoramafarmaceutico.com.br/contato/",
@@ -3369,6 +3655,9 @@
   {
     "createdTime": "2026-11-13T00:43:13.000Z",
     "fields": {
+      "Client Accounts": [
+        "recWMOlU1Iac0zJwl"
+      ],
       "Country": "Brasil",
       "Email": "fabiana.delgado@bursonglobal.com",
       "Idioma": "PT",
@@ -4232,6 +4521,9 @@
     "createdTime": "2026-11-08T23:37:14.000Z",
     "fields": {
       "Beat": "Acceso/precios",
+      "Client Accounts": [
+        "recIZhCWSApoF7jn1"
+      ],
       "Contact_URL": "http://www.oficina.ci",
       "Country": "Brasil",
       "Email": "bruna.guimaraes@oficina.ci",
@@ -4313,6 +4605,19 @@
     "id": "recivgT0wCoXJHWv5"
   },
   {
+    "createdTime": "2026-11-14T14:36:06.000Z",
+    "fields": {
+      "Country": "Colombia",
+      "Email": "sayhello@agora.site",
+      "Email verificado": true,
+      "Organization": "Ágora (oficina Bogotá)",
+      "Role": "Casilla genérica",
+      "Source_URL": "https://agora.site/acerca-de/",
+      "Type": "Agencia PR"
+    },
+    "id": "recj09XaWbdB8XZLc"
+  },
+  {
     "createdTime": "2026-08-11T14:36:45.000Z",
     "fields": {
       "Contact_URL": "https://www.bursonglobal.com/contact",
@@ -4358,6 +4663,19 @@
     "id": "recjkTq8d4pGBrG5L"
   },
   {
+    "createdTime": "2026-11-14T14:35:32.000Z",
+    "fields": {
+      "Country": "Colombia",
+      "Email": "contactenos@pulzo.com",
+      "Email verificado": true,
+      "Organization": "Pulzo",
+      "Role": "Casilla genérica",
+      "Source_URL": "https://www.pulzo.com/contacto",
+      "Type": "Prensa especializada"
+    },
+    "id": "recjvwtsgxKFqcsJm"
+  },
+  {
     "createdTime": "2026-10-15T11:09:32.000Z",
     "fields": {
       "Beat": "Salud pública",
@@ -4375,6 +4693,25 @@
       "Última nota firmada": "https://www.eluniversal.com.mx/nacion/desabasto-alcanza-a-la-sedena-solo-surte-56-de-las-recetas/"
     },
     "id": "reckDM6OjKBtAYrG3"
+  },
+  {
+    "createdTime": "2026-11-13T21:30:42.000Z",
+    "fields": {
+      "Client Accounts": [
+        "recSpelmQ8Pvt7XHg"
+      ],
+      "Country": "México",
+      "Email": "lorelay.vonallworden@omc.com",
+      "Idioma": "ES",
+      "Name": "Lorelay VonAllworden",
+      "Notes": "Fuente: en copia de Elsa Argüelles en el hilo Sanofi México (11 y 13-11-2026). Sin contacto directo. Email de correspondencia, no publicado.",
+      "Organization": "Porter Novelli México (PN Mexico, Omnicom) — cuenta Sanofi México",
+      "Role": "Equipo cuenta Sanofi México (cargo no confirmado)",
+      "Source_URL": "https://mail.google.com/mail/?authuser=editor@healthsignals.news#all/thread-f:1880522732830153011",
+      "Status": "New",
+      "Type": "Agencia PR"
+    },
+    "id": "reckOTQHEOaCuZ3be"
   },
   {
     "createdTime": "2026-10-15T11:13:46.000Z",
@@ -4623,11 +4960,14 @@
     "createdTime": "2026-11-12T20:25:45.000Z",
     "fields": {
       "Beat": "Regulatorio",
+      "Client Accounts": [
+        "recSpelmQ8Pvt7XHg"
+      ],
       "Country": "México",
       "Email": "elsa.arguelles@omc.com",
       "Idioma": "ES",
       "Name": "Elsa Argüelles",
-      "Notes": "11-nov-2026: Fer pidió (1) inclusión en lista de comunicados de Sanofi México → press@healthsignals.news y (2) vocero de acceso/precios/políticas públicas para análisis COFEPRIS, preguntas por escrito.\n11-nov (19:24 CDMX): Elsa respondió. SÍ a la lista de distribución. Vocero: lo revisan con el cliente (Sanofi), sin compromiso. Preguntó fecha estimada de lanzamiento.\n11-nov: Fer respondió que ya publicamos (sitio activo, Brief quincenal desde octubre) y agregó nota sobre su trabajo previo con Sanofi desde The Economist.\nEn copia (Omnicom): Paola Maldonado, Silvana Blancas, Lorelay VonAllworden, Juliana Pineda.\nMóvil firma: 55 6787 5109.\nEmail no tildado como verificado: viene de correspondencia directa, no de fuente publicada.\nPendiente: respuesta sobre vocero. Si no hay novedad, follow-up corto el 19-11-2026. Confirmar que lleguen comunicados de Sanofi a press@.",
+      "Notes": "11-nov-2026: Fer pidió (1) inclusión en lista de comunicados de Sanofi México → press@healthsignals.news y (2) vocero de acceso/precios/políticas públicas para análisis COFEPRIS, preguntas por escrito.\n11-nov (19:24 CDMX): Elsa respondió. SÍ a la lista de distribución. Vocero: lo revisan con el cliente (Sanofi), sin compromiso. Preguntó fecha estimada de lanzamiento.\n11-nov: Fer respondió que ya publicamos (sitio activo, Brief quincenal desde octubre) y agregó nota sobre su trabajo previo con Sanofi desde The Economist.\n13-nov (19:22 UTC): Elsa respondió a la nota Economist/Sanofi: 'Muchas gracias por esta info, Fernando. Lo consideramos.' Sigue sin definición sobre vocero.\nEn copia (Omnicom): Paola Maldonado, Silvana Blancas, Lorelay VonAllworden, Juliana Pineda (cargados como contactos aparte 13-11).\nMóvil firma: 55 6787 5109.\nEmail no tildado como verificado: viene de correspondencia directa, no de fuente publicada.\nPendiente: respuesta sobre vocero. Si no hay novedad, follow-up corto el 19-11-2026. Confirmar que lleguen comunicados de Sanofi a press@.",
       "Organization": "Porter Novelli México (PN Mexico, Omnicom) — cuenta Sanofi México",
       "Role": "Account Manager",
       "Source_URL": "https://mail.google.com/mail/?authuser=editor@healthsignals.news#all/thread-f:1880522732830153011",
@@ -4795,6 +5135,20 @@
     "id": "recqxlJElOT9dP0ZT"
   },
   {
+    "createdTime": "2026-11-14T14:35:32.000Z",
+    "fields": {
+      "Country": "Colombia",
+      "Email": "andrea.ochoa@sanvicentefundacion.com",
+      "Email verificado": true,
+      "Name": "Andrea Ochoa Restrepo",
+      "Organization": "El Pulso (periódico de salud, Medellín)",
+      "Role": "Editora Ejecutiva",
+      "Source_URL": "http://periodicoelpulso.com.co/335-agosto-2026/colaboradores.php",
+      "Type": "Prensa especializada"
+    },
+    "id": "recrNHEzL8hkVPQQK"
+  },
+  {
     "createdTime": "2026-08-11T14:49:17.000Z",
     "fields": {
       "Contact_URL": "https://forbes.com.mx/directorio/",
@@ -4827,6 +5181,20 @@
       "Última nota firmada": "https://www.eltiempo.com/economia/un-solo-medicamento-le-costo-al-sistema-de-salud-casi-1-billon-en-2025-y-era-importado-3587505"
     },
     "id": "recs0rC5nRsMNmSjg"
+  },
+  {
+    "createdTime": "2026-11-14T14:35:32.000Z",
+    "fields": {
+      "Country": "Colombia",
+      "Email": "cesgir@eltiempo.com",
+      "Email verificado": true,
+      "Name": "César Giraldo Briceño",
+      "Organization": "Portafolio",
+      "Role": "Subeditor",
+      "Source_URL": "https://pre.portafolio.co/files/2026/02/18/PORTAFOLIO_REVISTA-69-20250522.pdf",
+      "Type": "Prensa especializada"
+    },
+    "id": "recsA3xq9RcSYTlv8"
   },
   {
     "createdTime": "2026-08-11T14:35:32.000Z",
@@ -5092,6 +5460,24 @@
       "Type": "Agencia PR"
     },
     "id": "recuqskbMqszkOcNw"
+  },
+  {
+    "createdTime": "2026-11-13T18:00:17.000Z",
+    "fields": {
+      "Client Accounts": [
+        "recDqTHTXUHbR7K4w"
+      ],
+      "Country": "Brasil",
+      "Email": "lucas.soares@agora.site",
+      "Idioma": "PT",
+      "Name": "Lucas Soares",
+      "Notes": "Fuente: correo a editor@ 11-11-2026 (sin URL pública). Ofreció voceros BMS y A.C.Camargo. 12-11: Fer mandó 3 preguntas sobre el acuerdo de riesgo compartido BMS–A.C.Camargo para Christiano Silva y Rafael Ielpo, plazo 18-11-2026. 13-11: Lucas confirma que lo están verificando. 13-11: Fer le compartió la nota publicada. 13-11 (19:16 UTC): Lucas agradeció la publicación y reconfirmó que mandan las respuestas de BMS y A.C.Camargo 'o quanto antes'. Hilo Gmail 1a18f5731902670d.",
+      "Organization": "Ágora (BMS Brasil)",
+      "Role": "Cuenta BMS (cargo no confirmado)",
+      "Status": "Responded",
+      "Type": "Agencia PR"
+    },
+    "id": "recuyRBKggfqIXocs"
   },
   {
     "createdTime": "2026-10-15T11:13:46.000Z",
@@ -5476,18 +5862,33 @@
     "id": "reczkPJfBmuqtUQbK"
   },
   {
+    "createdTime": "2026-11-14T14:35:32.000Z",
+    "fields": {
+      "Country": "Colombia",
+      "Email": "info@valoraanalitik.com",
+      "Email verificado": true,
+      "Organization": "Valora Analitik",
+      "Role": "Casilla genérica",
+      "Source_URL": "https://www.valoraanalitik.com/contacto/",
+      "Type": "Prensa especializada"
+    },
+    "id": "reczkwF4T0ERB9oyo"
+  },
+  {
     "createdTime": "2026-10-15T11:13:46.000Z",
     "fields": {
       "Beat": "Acceso/precios",
       "Contact_URL": "https://www.larepublica.co/economia/plan-de-choque-en-salud-ha-cubierto-31-2-de-unidades-de-medicamentos-pendientes-4498515",
       "Country": "Colombia",
+      "Email": "sibanez@larepublica.com.co",
+      "Email verificado": true,
       "Fecha última nota": "2026-10-07",
       "Idioma": "ES",
       "Name": "Sara Ibañez Pita",
       "Notes": "Entrega de medicamentos en el plan de choque.",
       "Organization": "La República (Colombia)",
       "Role": "Mesa de Generación de Contenidos (Economía)",
-      "Source_URL": "https://www.larepublica.co/economia/plan-de-choque-en-salud-ha-cubierto-31-2-de-unidades-de-medicamentos-pendientes-4498515",
+      "Source_URL": "https://td.larepublica.co/epaper/xml_epaper/LA_REPUBLICA/18_03_2026/pla_1247_LR/pdf_pags/1247.pdf",
       "Status": "New",
       "Type": "Prensa especializada",
       "Última nota firmada": "https://www.larepublica.co/economia/plan-de-choque-en-salud-ha-cubierto-31-2-de-unidades-de-medicamentos-pendientes-4498515"

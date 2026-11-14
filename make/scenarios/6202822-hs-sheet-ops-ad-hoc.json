@@ -2,22 +2,95 @@
   "blueprint": {
     "flow": [
       {
-        "id": 1,
+        "id": 10,
         "mapper": {
           "dateTimeRenderOption": "FORMATTED_STRING",
           "filter": [
             [
               {
-                "a": "T",
-                "b": "smoke test v2",
-                "o": "text:contain"
+                "a": "P",
+                "b": "draft",
+                "o": "text:notequal"
+              },
+              {
+                "a": "AO",
+                "o": "exist"
               }
             ]
           ],
           "from": "drive",
           "includesHeaders": true,
-          "limit": "10",
+          "limit": "2000",
           "sheetId": "Editorial Queue",
+          "spreadsheetId": "1J8ca4Pvp3HTSdHqq9-TZ1H-nF6_fM5R3Jm1bf9bAU8A",
+          "tableFirstRow": "A1:CZ1",
+          "valueRenderOption": "FORMATTED_VALUE"
+        },
+        "metadata": {
+          "designer": {
+            "x": -600,
+            "y": 0
+          }
+        },
+        "module": "google-sheets:filterRows",
+        "parameters": {
+          "__IMTCONN__": 8923977
+        },
+        "version": 2
+      },
+      {
+        "id": 11,
+        "mapper": {
+          "value": "{{10.`40`}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": -300,
+            "y": 0
+          }
+        },
+        "module": "util:TextAggregator",
+        "parameters": {
+          "feeder": 10,
+          "otherRowSeparator": "|",
+          "rowSeparator": "other"
+        },
+        "version": 1
+      },
+      {
+        "id": 1,
+        "mapper": {
+          "dateTimeRenderOption": "FORMATTED_STRING",
+          "fieldType": "string",
+          "filter": [
+            [
+              {
+                "a": "P",
+                "b": "draft",
+                "o": "text:equal"
+              },
+              {
+                "a": "O",
+                "b": "high",
+                "o": "text:equal"
+              },
+              {
+                "a": "C",
+                "b": "EX-99",
+                "o": "text:notcontain"
+              },
+              {
+                "a": "W",
+                "o": "notexist"
+              }
+            ]
+          ],
+          "from": "drive",
+          "includesHeaders": true,
+          "limit": "15",
+          "orderBy": "B",
+          "sheetId": "Editorial Queue",
+          "sortOrder": "desc",
           "spreadsheetId": "1J8ca4Pvp3HTSdHqq9-TZ1H-nF6_fM5R3Jm1bf9bAU8A",
           "tableFirstRow": "A1:CZ1",
           "valueRenderOption": "FORMATTED_VALUE"
@@ -35,14 +108,49 @@
         "version": 2
       },
       {
-        "id": 2,
+        "filter": {
+          "conditions": [
+            [
+              {
+                "a": "|{{11.text}}|",
+                "b": "|{{1.`40`}}|",
+                "o": "text:notcontain"
+              },
+              {
+                "a": "{{1.`__ROW_NUMBER__`}}",
+                "o": "exist"
+              }
+            ]
+          ],
+          "name": "no duplicada (signal_hash no visto)"
+        },
+        "id": 12,
         "mapper": {
-          "key": "SMOKE2 row{{1.`__ROW_NUMBER__`}} | {{1.`15`}} | WP {{1.`22`}} | {{substring(1.`16`; 0; 1200)}}",
-          "overwrite": true
+          "value": "{{1.`__ROW_NUMBER__`}}"
         },
         "metadata": {
           "designer": {
             "x": 300,
+            "y": 0
+          }
+        },
+        "module": "util:TextAggregator",
+        "parameters": {
+          "feeder": 1,
+          "otherRowSeparator": ",",
+          "rowSeparator": "other"
+        },
+        "version": 1
+      },
+      {
+        "id": 2,
+        "mapper": {
+          "key": "AUTOAPPROVE-TEST rows={{12.text}} | hashes_len={{length(11.text)}}",
+          "overwrite": true
+        },
+        "metadata": {
+          "designer": {
+            "x": 600,
             "y": 0
           }
         },
@@ -54,20 +162,7 @@
       }
     ],
     "metadata": {
-      "designer": {
-        "orphans": []
-      },
       "instant": false,
-      "scenario": {
-        "autoCommit": true,
-        "autoCommitTriggerLast": true,
-        "confidential": false,
-        "dataloss": false,
-        "dlq": false,
-        "maxErrors": 3,
-        "roundtrips": 1,
-        "sequential": false
-      },
       "version": 1
     },
     "name": "HS - Sheet Ops (ad-hoc)"

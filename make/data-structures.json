@@ -219,6 +219,11 @@
         "label": "notified",
         "name": "notified",
         "type": "text"
+      },
+      {
+        "label": "media",
+        "name": "media",
+        "type": "text"
       }
     ],
     "teamId": 2174293

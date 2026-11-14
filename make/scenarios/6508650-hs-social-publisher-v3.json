@@ -42,7 +42,7 @@
           "serializeUrl": false,
           "shareCookies": false,
           "timeout": "",
-          "url": "https://healthsignals.news/wp-json/wp/v2/posts?status=publish&per_page=15&orderby=date&order=desc&after={{formatDate(addDays(now; -10); \"YYYY-MM-DDTHH:mm:ss\")}}&_fields=id,date",
+          "url": "https://healthsignals.news/wp-json/wp/v2/posts?status=publish&per_page=15&orderby=date&order=desc&after={{formatDate(addDays(now; -10); \"YYYY-MM-DDTHH:mm:ss\")}}&_fields=id,date,jetpack_featured_media_url",
           "useMtls": false,
           "useQuerystring": false
         },
@@ -82,10 +82,19 @@
                 "a": ",{{30.ids}},",
                 "b": ",{{32.id}},",
                 "o": "text:notcontain"
+              },
+              {
+                "a": "{{32.jetpack_featured_media_url}}",
+                "o": "exist"
+              },
+              {
+                "a": "{{32.jetpack_featured_media_url}}",
+                "b": "",
+                "o": "text:notequal"
               }
             ]
           ],
-          "name": "no compartido aun"
+          "name": "no compartido aun y con portada"
         },
         "id": 33,
         "mapper": {

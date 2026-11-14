@@ -1194,6 +1194,14 @@
   {
     "data": {
       "batch": "SCAN-EVENTS",
+      "headline": "Anvisa proíbe loção e determina recolhimento de insumos para medicamentos emagrecedores - Estadão",
+      "seen_at": "2026-11-14T12:24:42.735Z"
+    },
+    "key": "evt~130b1ca3a8c5d2da7af7c5b0ca73e075"
+  },
+  {
+    "data": {
+      "batch": "SCAN-EVENTS",
       "headline": "Late-breaking trials challenge conventional treatments to cardiovascular disease | Scientific Sessions",
       "seen_at": "2026-11-09T12:23:10.041Z"
     },
@@ -1206,6 +1214,14 @@
       "seen_at": "2026-11-06T12:23:37.608Z"
     },
     "key": "evt~1965850027b043021a67e4591ca1e2f3"
+  },
+  {
+    "data": {
+      "batch": "SCAN-EVENTS",
+      "headline": "ACOG Releases Guidance on GLP-1 Use in Pregnancy and Lactation | Pregnancy | JAMA | JAMA Network",
+      "seen_at": "2026-11-14T12:24:57.333Z"
+    },
+    "key": "evt~1c738a6f1109f9ffcaa3c78fa1351a71"
   },
   {
     "data": {
@@ -1242,10 +1258,26 @@
   {
     "data": {
       "batch": "SCAN-EVENTS",
+      "headline": "Latest innovations designed to optimize arrhythmia care | Scientific Sessions",
+      "seen_at": "2026-11-14T12:23:17.774Z"
+    },
+    "key": "evt~2de34664dcbdd4e7edd85f9fa0f56573"
+  },
+  {
+    "data": {
+      "batch": "SCAN-EVENTS",
       "headline": "DeLLphi-305 Data Support Frontline Maintenance Tarlatamab Plus Durvalumab as a New SOC in ES-SCLC",
       "seen_at": "2026-10-25T11:23:18.238Z"
     },
     "key": "evt~3079482b951797e3a774e4b03be1b2f2"
+  },
+  {
+    "data": {
+      "batch": "SCAN-EVENTS",
+      "headline": "Trump administration delays enforcement of Medicaid work requirements for six months | Fierce Healthcare",
+      "seen_at": "2026-11-14T12:25:40.590Z"
+    },
+    "key": "evt~32d8cb50eec592be98cc170acb3dda80"
   },
   {
     "data": {
@@ -1338,6 +1370,14 @@
   {
     "data": {
       "batch": "SCAN-EVENTS",
+      "headline": "Updated Guidance Released for Type 2 Diabetes Care | Diabetes | JAMA | JAMA Network",
+      "seen_at": "2026-11-14T12:25:27.041Z"
+    },
+    "key": "evt~654bdd2ec69af5851457586f4d7a1b31"
+  },
+  {
+    "data": {
+      "batch": "SCAN-EVENTS",
       "headline": "ESMO Congress: Lung Cancer | ESMO Congress  | OncLive",
       "seen_at": "2026-10-31T11:23:11.975Z"
     },
@@ -1394,6 +1434,14 @@
   {
     "data": {
       "batch": "SCAN-EVENTS",
+      "headline": "Potential changes in the cardiometabolic risk reduction landscape | Scientific Sessions",
+      "seen_at": "2026-11-14T12:23:23.251Z"
+    },
+    "key": "evt~7ac1d1cb8108f23380876fdc99609f5b"
+  },
+  {
+    "data": {
+      "batch": "SCAN-EVENTS",
       "headline": "Bayer's Nubeqa scores phase 3 win in high-risk prostate cancer | Fierce Pharma",
       "seen_at": "2026-10-25T11:24:00.350Z"
     },
@@ -1434,10 +1482,26 @@
   {
     "data": {
       "batch": "SCAN-EVENTS",
+      "headline": "Body Mass Index Peak-Rebound Patterns and Inhibitory Control Among Young Children | Pediatrics | JAMA Network Open | JAMA Network",
+      "seen_at": "2026-11-14T12:25:17.214Z"
+    },
+    "key": "evt~8c0e37788382152738605a5f3e5141f9"
+  },
+  {
+    "data": {
+      "batch": "SCAN-EVENTS",
       "headline": "Discontinuing statins generally safe for older adults without heart disease | American Heart Association",
       "seen_at": "2026-11-08T12:23:53.626Z"
     },
     "key": "evt~8dd888ee86980d7cf0d4d45b0af77f9e"
+  },
+  {
+    "data": {
+      "batch": "SCAN-EVENTS",
+      "headline": "Late-breaking trials showcase AI’s potential as a cardiovascular disease screening and diagnostic tool | Scientific Sessions",
+      "seen_at": "2026-11-14T12:23:11.618Z"
+    },
+    "key": "evt~9097667a43fe60aa6a9dbcb32901838a"
   },
   {
     "data": {
@@ -1566,6 +1630,14 @@
       "seen_at": "2026-11-08T12:24:16.596Z"
     },
     "key": "evt~ddb9fc3b5a47082fbfd0b376b8acc4e1"
+  },
+  {
+    "data": {
+      "batch": "SCAN-EVENTS",
+      "headline": "Una senadora de Estados Unidos exigió a OpenAI explicar por qué ChatGPT convenció a una mujer de dejar su medicina - Infobae",
+      "seen_at": "2026-11-14T12:26:07.092Z"
+    },
+    "key": "evt~e305a020500c6ef27faaca34e777da37"
   },
   {
     "data": {
