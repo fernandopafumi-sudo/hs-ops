@@ -4,11 +4,27 @@
       {
         "id": 1,
         "mapper": {
-          "destinationSpreadsheetId": "1J8ca4Pvp3HTSdHqq9-TZ1H-nF6_fM5R3Jm1bf9bAU8A",
-          "newSheetName": "Archivo 2026-10-31",
-          "select": "map",
-          "sheetId": "1265602243",
-          "spreadsheetId": "1J8ca4Pvp3HTSdHqq9-TZ1H-nF6_fM5R3Jm1bf9bAU8A"
+          "dateTimeRenderOption": "FORMATTED_STRING",
+          "filter": [
+            [
+              {
+                "a": "P",
+                "b": "published",
+                "o": "text:equal"
+              },
+              {
+                "a": "AO",
+                "o": "notexist"
+              }
+            ]
+          ],
+          "from": "drive",
+          "includesHeaders": true,
+          "limit": "30",
+          "sheetId": "Editorial Queue",
+          "spreadsheetId": "1J8ca4Pvp3HTSdHqq9-TZ1H-nF6_fM5R3Jm1bf9bAU8A",
+          "tableFirstRow": "A1:CZ1",
+          "valueRenderOption": "FORMATTED_VALUE"
         },
         "metadata": {
           "designer": {
@@ -16,31 +32,25 @@
             "y": 0
           }
         },
-        "module": "google-sheets:copyASheet",
+        "module": "google-sheets:filterRows",
         "parameters": {
           "__IMTCONN__": 8923977
         },
         "version": 2
       },
       {
-        "id": 4,
+        "id": 2,
         "mapper": {
-          "data": {
-            "category": "",
-            "country": "",
-            "error": "",
-            "headline": "",
-            "li_post_len": "0",
-            "linkedin_url": "",
-            "post_id": "",
-            "priority": "",
-            "row": "",
-            "status": "",
-            "step": "copied: {{1.title}} | rows {{1.gridProperties.rowCount}} | sheetId {{1.sheetId}}",
-            "wp_url": ""
-          },
-          "key": "APPROVED",
-          "overwrite": true
+          "from": "drive",
+          "includesHeaders": true,
+          "mode": "map",
+          "rowNumber": "{{1.`__ROW_NUMBER__`}}",
+          "sheetId": "Editorial Queue",
+          "spreadsheetId": "1J8ca4Pvp3HTSdHqq9-TZ1H-nF6_fM5R3Jm1bf9bAU8A",
+          "valueInputOption": "USER_ENTERED",
+          "values": {
+            "40": "manual-row-{{1.`__ROW_NUMBER__`}}"
+          }
         },
         "metadata": {
           "designer": {
@@ -48,11 +58,11 @@
             "y": 0
           }
         },
-        "module": "datastore:AddRecord",
+        "module": "google-sheets:updateRow",
         "parameters": {
-          "datastore": 187494
+          "__IMTCONN__": 8923977
         },
-        "version": 1
+        "version": 2
       }
     ],
     "metadata": {

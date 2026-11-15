@@ -55,7 +55,7 @@ Regenerar con `python3 scripts/gen_ids.py` después de cada backup. Las referenc
 | 6725295 | HS - Auto-approve top policy/approvals/eventos (lun+jue) | ON | weekly:06:20 |  |  |  | google-sheets, util |
 | 6726530 | HS Brief Approvals (webmail aprobados por Fer) | ON | indefinitely:21600 |  |  |  | airtable, builtin, sendinblue |
 | 6735926 | HS - Cover for manual post (ad-hoc) | ON | on-demand | 200868 HS cover watchdog attempts |  |  | anthropic-claude, builtin, datastore, google-sheets, http, json, openai-gpt-3, resend, util, wordpress |
-| 6828787 | HS - Set queue status by row (ad-hoc) | ON | on-demand | 187494 HS row lookup (ad-hoc) |  |  | datastore, google-sheets |
+| 6828787 | HS - Set queue status by row (ad-hoc) | ON | on-demand |  |  |  | google-sheets |
 | 6841390 | TEST Publisher v2 - Evidencia C (fila 606) | ON | on-demand |  |  |  | airtable, anthropic-claude, builtin, exa-ai, google-sheets, http, json, openai-gpt-3, util, wordpress |
 | 6854895 | HS Invite 1-click subscribe (Brief) | ON | immediately |  | 3008026 |  | airtable, builtin, gateway, sendinblue, util |
 | 6856433 | HS — Brevo: quitar internos de lista 5 (ad hoc) | off | on-demand |  |  |  | sendinblue |
@@ -74,7 +74,7 @@ Regenerar con `python3 scripts/gen_ids.py` después de cada backup. Las referenc
 | 161375 | HS gate state (capa 2) | 6461147 |
 | 162492 | HS Voices Rules | ningún escenario (verificar tareas de Claude) |
 | 164495 | HS LinkedIn shared posts | 6508650, 7028872 |
-| 187494 | HS row lookup (ad-hoc) | 6828787 |
+| 187494 | HS row lookup (ad-hoc) | ningún escenario (verificar tareas de Claude) |
 | 200868 | HS cover watchdog attempts | 6314042, 6735926 |
 
 ## Conexiones → escenarios

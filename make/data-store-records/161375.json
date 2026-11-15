@@ -12,17 +12,6 @@
   },
   {
     "data": {
-      "notes": "hold: r1 PUBLISH AFTER EDIT (1 corr: reliance ISP solo biologicos), r2 HOLD (3 corr: 543/695 de dip. Santelices no ASILFA, 14% real, 'economies'; bio sin fuente: acting director, ANAMED hasta 2024, UDD). 4 corr de hecho, diff OK. Drive 1S_9UKDsfbptM64MUGigzqPefNvgROmQm",
-      "run_id": "20261016-0658",
-      "state": "hold",
-      "title": "Heriberto García Escorza: \"Registration is not a financial process\"",
-      "updated_at": "2026-10-16T07:11:23-04:00",
-      "wp_modified": "2026-10-15T16:45:11"
-    },
-    "key": "36447"
-  },
-  {
-    "data": {
       "notes": "needs_edit: r1 2 corr de hecho, una en la bio (INAHTA 2010-2014, no 2011); borrar grant BID $800k sin fuente. Metadesc: expandir IECS. Falta hs-sources (8 URLs). Sin r2. Diff OK. Drive 1yBsl3_H66BZj3FXPYs2lyPjhO7GHcCEi",
       "run_id": "20261018-0658",
       "state": "needs_edit",
@@ -265,13 +254,58 @@
   },
   {
     "data": {
-      "notes": "- sin fallos de acceso, aprobaciones ni bloqueos\n- aviso: REPORT-20261009-0659 y REPORT-20261001-0658 siguen 'iniciada, sin terminar' (corridas viejas caidas, ya reportadas)\n- run_id 20261016-0658\n- borradores vistos 14; excluidos 5 (Weekly 36411, 36146, 35939, 35772; post 36041); skipped backlog 7 sin cambios; 36441 sigue needs_edit sin edicion; revisados 1 (nuevo); pendientes para manana 0\n- 36447 Heriberto Garcia Escorza: 'Registration is not a financial process' (VOICES, CL): hold\n  - r1 PUBLISH AFTER EDIT, r2 HOLD; 4 correcciones de hecho, todas aplicables con 1 coincidencia, diff OK; titulo y dek sin tocar; se agrega hs-sources (14 URLs)\n  - pregunta 1: el procedimiento de reliance 2025 es solo para biologicos -> '...abroad when registering biological medicines'\n  - pregunta ASILFA: 543/695 dias los dio la diputada Macarena Santelices en un seminario coorganizado por ASILFA (ronda 2, sin re-verificar)\n  - contexto: 'cuts its fund by 14%' -> 'by about 14% in real terms' (nominal da -12%) (ronda 2, sin re-verificar)\n  - nota del editor: 'six largest Latin American markets' -> 'economies' (ronda 2, sin re-verificar)\n  - borrado: nada\n  - motivo del hold: bio sin fuente ('acting director' del ISP, la WHO dice 'appointed'; ANAMED hasta 2024; cargo en la UDD). Conflicto r1/r2 sobre 'since 2021' de Ricarte Soto (r2: ultimas patologias en 2019, pausa desde 2021) y el +4,7% de salud (r1 lo verifica en pauta.cl, r2 no)\n  - sin verificar: 'pharmacy retail data' y ProlMed como asociacion de productores locales (el paper dice 'ProlMed AG'); IMS 2018; en respuestas: nirsevimab 2023 en 6 meses, IMDRF 2023, regla de biosimilares, nitrosaminas y 'toxicity is chronic'. Meta description vacia\n  - postura: no publicar; confirmar la bio con el entrevistado y resolver 'since 2021' antes de aplicar los 4\n  - Drive: https://drive.google.com/file/d/1S_9UKDsfbptM64MUGigzqPefNvgROmQm/view\n- limpieza: nada que borrar (Drive tiene 36441 y 36447, vigentes; sin REPORT ni registros de mas de 30 dias)\nPara aplicar y publicar, decile a Claude en un chat: aplicar gate <ID>. La sesión que aplique relee el post, rechaza si su modified es distinto del wp_modified del archivo, aplica los reemplazos con código, verifica el diff y publica solo con OK de Fer.",
-      "run_id": "20261016-0658",
+      "notes": "passed: 2 corr de hecho (r1 cita Vesga completa 'alternatives or solutions'; r2 sin re-verificar: borrar 'case by case... Superintendency deciding', alternativa sumar Portafolio) + fuente Vanguardia. Ojo bio: ACEMI sin confirmar en ninguna ronda. Drive 1hDxx0TwyS0bEvEx2mnzL0S7G8Sl2c50Y",
+      "run_id": "20261114-1523",
       "state": "passed",
-      "title": "REPORT",
-      "updated_at": "2026-10-16T07:11:23-04:00"
+      "title": "Augusto Galán Sarmiento: “Pharmaceutical policy must evolve from price to value”",
+      "updated_at": "2026-11-14T15:34:45-05:00",
+      "wp_modified": "2026-11-14T09:13:50"
     },
-    "key": "REPORT-20261016-0658"
+    "key": "37002"
+  },
+  {
+    "data": {
+      "notes": "needs_edit: r1 12 corr de hecho (>5), una en el lede (Bristol Myers sin guion), sin r2. Falta Amgen en la lista; juez Walker 29-12-2025; $537M es anual y de Healthcare Dive; demanda AbbVie impugna definicion de paciente; MFP es solo Medicare. Cita PhRMA sin confirmar. Drive 1vA07Gn0fcEOECt7NZQZghqH-Yk66Ue-2",
+      "run_id": "20261114-1523",
+      "state": "needs_edit",
+      "title": "AbbVie, BMS, Boehringer Ingelheim Move to Join 340B Rebate Fight",
+      "updated_at": "2026-11-14T15:34:45-05:00",
+      "wp_modified": "2026-11-14T14:05:07"
+    },
+    "key": "37007"
+  },
+  {
+    "data": {
+      "notes": "needs_edit: r1 15 corr de hecho (>5), sin r2. Cuerpo y tabla usan cifras KFF de la regla PROPUESTA (final: DSH -5.2, for-profit +6.8, 500+ -4.8, teaching -3.9); IPO phase-out ya finalizado (ano 2 de 3); cita AHA mal. Drive 1V3s-ZuzOAxeXCkAods6DGdq2j6mLPdBC",
+      "run_id": "20261114-1511",
+      "state": "needs_edit",
+      "title": "CMS Cuts 340B Drug Payments, Expands Site-Neutral Rules in 2027",
+      "updated_at": "2026-11-14T15:23:01-05:00",
+      "wp_modified": "2026-11-14T14:28:08"
+    },
+    "key": "37012"
+  },
+  {
+    "data": {
+      "notes": "needs_edit: r1 10 corr de hecho (>5), una en el lede (superlativo 'not previously seen', Similares ~10k). Cita de Castanon unida mal; MXN 8,300M era todo FASA; consultas gratis solo Ahorro; CNA sin confirmar. Drive 1K33F8vMcVUPHY0I2qV95-ORliy8TeHEQ",
+      "run_id": "20261114-1511",
+      "state": "needs_edit",
+      "title": "Farmacias del Ahorro agrees to acquire Benavides, topping 3,000 stores",
+      "updated_at": "2026-11-14T15:23:01-05:00",
+      "wp_modified": "2026-11-14T14:56:25"
+    },
+    "key": "37017"
+  },
+  {
+    "data": {
+      "notes": "needs_edit: r1 11 corr de hecho (>5), sin r2. Clave: kicker US+EUROPE; CDC 38M->40.1M (2023); Wegovy HD $399 es de abr-2026 (borrar); WHO ya sumo GLP-1 a la EML en sep-2025; timeline desordenado. Drive 1ZsMJTwKbSGHWgSAALiBC-F9dLZJZ158L",
+      "run_id": "20261114-1511",
+      "state": "needs_edit",
+      "title": "ADA and EASD Push Earlier GLP-1 and SGLT2 Use in Type 2 Diabetes",
+      "updated_at": "2026-11-14T15:23:01-05:00",
+      "wp_modified": "2026-11-14T15:10:42"
+    },
+    "key": "37022"
   },
   {
     "data": {
@@ -579,5 +613,34 @@
       "wp_modified": null
     },
     "key": "REPORT-20261114-0704"
+  },
+  {
+    "data": {
+      "notes": "Sin fallos de acceso, aprobaciones ni bloqueos; ningun post en 3er fallo.\n- run_id 20261114-1511 (corrida extra de la tarde, tras los borradores nuevos del Publisher)\n- Borradores: 8 vistos, 0 excluidos, 3 ya cerrados sin cambios (36886 passed, 36926 needs_edit, 36868 skipped), 5 nuevos a pending. Revisados 3; quedan 2 pending para manana: 37007 (340B rebate) y 37002 (Voices Galan).\n- 37022 ADA/EASD GLP-1/SGLT2: needs_edit, 11 corr de hecho, sin r2. Kicker deberia sumar EUROPE; CDC 38M -> 40.1M (2023); borrar Wegovy HD $399 (es de abr-2026, no del Fierce nov-2025); $349 aplica a todas las dosis de Wegovy; WHO ya sumo GLP-1 a la EML en sep-2025 (el texto lo da como pendiente y dice que la propuso la OMS); timeline fuera de orden. Sin verificar: CMS guide no es doc Medicare; requisito metformina sin fuente. No publicar asi. Drive 1ZsMJTwKbSGHWgSAALiBC-F9dLZJZ158L\n- 37017 Ahorro compra Benavides: needs_edit, 10 corr de hecho, una en el lede (borrar superlativo 'not previously seen': Similares ~10k, Guadalajara ~2.9k). Cita de Castanon pega 2 frases; MXN 8,300M de 2014 era por todo FASA (incl. Ahumada); consultas gratis solo en Ahorro; 'now reaches' -> 'would reach'. Sin verificar: nombre CNA (fuentes dicen 'aprobaciones regulatorias'), US$638M, sede Monterrey. No publicar asi. Drive 1K33F8vMcVUPHY0I2qV95-ORliy8TeHEQ\n- 37012 CMS 340B/site-neutral 2027: needs_edit, 15 corr de hecho. Cuerpo y tabla usan las cifras KFF de la regla propuesta (final: DSH -5.2%, for-profit +6.8%, 500+ camas -4.8%, teaching -3.9%); phase-out de la lista inpatient-only ya finalizado (ano 2 de 3), no 'proposing'; cita AHA mal; site-neutral solo off-campus excepted; link CMS es del comunicado de la propuesta. Sin verificar: $4.35B vs $4.65B, 2da mitad cita Oz. No publicar asi. Drive 1V3s-ZuzOAxeXCkAods6DGdq2j6mLPdBC\n- Limpieza: nada para borrar (Drive y data store al dia).\nPara aplicar y publicar, decile a Claude en un chat: aplicar gate <ID>. La sesion que aplique relee el post, rechaza si su modified es distinto del wp_modified del archivo, aplica los reemplazos con codigo, verifica el diff y publica solo con OK de Fer.",
+      "run_id": "20261114-1511",
+      "state": "passed",
+      "title": "REPORT",
+      "updated_at": "2026-11-14T15:23:30-05:00"
+    },
+    "key": "REPORT-20261114-1511"
+  },
+  {
+    "data": {
+      "notes": "Sin fallos de acceso, aprobaciones ni bloqueos; ningun post en 3er fallo.\n- run_id 20261114-1523 (corrida extra pedida por Fer para los borradores nuevos; la de las 15:11 ya habia revisado 37022, 37017 y 37012)\n- Borradores: 8 vistos, 0 excluidos, 0 skipped nuevos, 6 ya cerrados sin cambios, 2 pending revisados, 0 pendientes para manana.\n- 37002 Voices Galan Sarmiento: passed, 2 corr de hecho. r1: completar la cita de Vesga ('should be the last of our alternatives or solutions'). r2 (sin re-verificar): borrar 'case by case, with the National Health Superintendency deciding...' (alternativa: dejarlo y sumar Portafolio 10-09, que lo respalda). Fuente nueva: Vanguardia (3 billones de las plenarias). Ojo: ninguna ronda confirmo que haya presidido ACEMI (si ACESI); tampoco 'since 2015' ni la junta de EPS Sura. Postura: publicable tras aplicar, confirmando la bio con el entrevistado. Drive 1hDxx0TwyS0bEvEx2mnzL0S7G8Sl2c50Y\n- 37007 AbbVie/BMS/BI 340B: needs_edit, 12 corr de hecho, una en el lede (Bristol Myers sin guion, 7 apariciones). Falta Amgen entre los 10 fabricantes; juez Lance Walker 29-12-2025; $537M es anual y de Healthcare Dive; demanda de AbbVie impugna la definicion de paciente; MFP afecta solo Medicare; 'compliance cost concerns' no es de los fabricantes. Sin verificar: cita de PhRMA 'As the record shows...', titulo del link Fierce. Contexto: audiencia oral 18-11 en Portland. No publicar asi. Drive 1vA07Gn0fcEOECt7NZQZghqH-Yk66Ue-2\n- Limpieza: nada para borrar.\nPara aplicar y publicar, decile a Claude en un chat: aplicar gate <ID>. La sesion que aplique relee el post, rechaza si su modified es distinto del wp_modified del archivo, aplica los reemplazos con codigo, verifica el diff y publica solo con OK de Fer.",
+      "run_id": "20261114-1523",
+      "title": "REPORT",
+      "updated_at": "2026-11-14T15:35:00-05:00"
+    },
+    "key": "REPORT-20261114-1523"
+  },
+  {
+    "data": {
+      "notes": "- sin fallos de acceso, aprobaciones pedidas, bloqueos ni posts en tercer fallo\n- run_id 20261115-0658\n- 0 borradores pendientes\n- borradores vistos 8; excluidos 0; skipped backlog 0 (36868 sigue skipped por decision de Fer 02-11); pendientes para manana 0\n- los otros 7 borradores no cambiaron desde el gate (mismo wp_modified): 37022, 37017, 37012, 37007 y 36926 siguen needs_edit; 37002 y 36886 siguen passed\n- revisados hoy: ninguno\n- limpieza: borrados del data store REPORT-20261016-0658 y 36447 (publicado, >30 dias); Drive sin archivos viejos que tirar\n- aviso: registros pending/failed de 36600, 36615, 36636, 36640, 36644, 36647 y 36900 son de posts que ya no estan en draft; se borran solos al cumplir 30 dias\nPara aplicar y publicar, decile a Claude en un chat: aplicar gate <ID>. La sesión que aplique relee el post, rechaza si su modified es distinto del wp_modified del archivo, aplica los reemplazos con código, verifica el diff y publica solo con OK de Fer.",
+      "run_id": "20261115-0658",
+      "state": "passed",
+      "title": "REPORT",
+      "updated_at": "2026-11-15T06:59:30-05:00"
+    },
+    "key": "REPORT-20261115-0658"
   }
 ]

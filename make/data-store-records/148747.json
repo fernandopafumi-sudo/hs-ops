@@ -26,6 +26,14 @@
   {
     "data": {
       "batch": "SCAN-USA",
+      "headline": "Drugmakers seek to intervene in lawsuit challenging 340B pilot | Healthcare Dive",
+      "seen_at": "2026-11-14T16:51:25.121Z"
+    },
+    "key": "abbvie~litigation~2026-11-14"
+  },
+  {
+    "data": {
+      "batch": "SCAN-USA",
       "headline": "As Skyrizi and Rinvoq dominate AbbVie's Q3, analysts ask what's next | Fierce Pharma",
       "seen_at": "2026-11-09T12:03:25.223Z"
     },
@@ -321,6 +329,14 @@
   },
   {
     "data": {
+      "batch": "SCAN-ANDINA",
+      "headline": "Audifarma desembolsó primeros $140.000 millones para saldar pasivos con proveedores",
+      "seen_at": "2026-11-14T16:51:08.870Z"
+    },
+    "key": "audifarma~health systems & disease burden~2026-11-14"
+  },
+  {
+    "data": {
       "batch": "SCAN-LATAM-CORP",
       "headline": "Auna incrementará en 50% su capacidad hospitalaria en Lima | ECONOMIA | GESTIÓN",
       "seen_at": "2026-11-05T12:01:07.461Z"
@@ -402,6 +418,14 @@
   {
     "data": {
       "batch": "SCAN-DEALS",
+      "headline": "BioMarin Enters Into Exclusive Worldwide License Agreement With GC Biopharma and Hanmi Pharm for Investigational Next-Generation Enzyme Replacement Therapy, Adding a Second Potential Treatment for Fabry Disease",
+      "seen_at": "2026-11-14T16:51:41.879Z"
+    },
+    "key": "biomarin pharmaceutical~m&a~2026-11-14"
+  },
+  {
+    "data": {
+      "batch": "SCAN-DEALS",
       "headline": "BioMarin inks up to $475M deal to challenge Fabry ERT incumbents",
       "seen_at": "2026-11-05T12:00:41.813Z"
     },
@@ -474,10 +498,26 @@
   {
     "data": {
       "batch": "SCAN-BR",
+      "headline": "Blau soma receita recorde no 3º trimestre, mas lucro cai 33% | Empresas | Valor Econômico",
+      "seen_at": "2026-11-14T16:50:56.195Z"
+    },
+    "key": "blau farmacêutica~m&a~2026-11-14"
+  },
+  {
+    "data": {
+      "batch": "SCAN-BR",
       "headline": "Blau já discute parcerias para fornecer biossimilar do Keytruda ao SUS | Empresas | Valor Econômico",
       "seen_at": "2026-11-12T12:00:42.746Z"
     },
     "key": "blau farmacêutica~market access~2026-11-12"
+  },
+  {
+    "data": {
+      "batch": "SCAN-LATAM-CORP",
+      "headline": "Blau supera R$ 500 milhões em receita no 3T26",
+      "seen_at": "2026-11-14T16:52:09.770Z"
+    },
+    "key": "blau farmacêutica~market access~2026-11-14"
   },
   {
     "data": {
@@ -665,6 +705,14 @@
   },
   {
     "data": {
+      "batch": "SCAN-USA",
+      "headline": "Medicare will cut billions from 340B, expand site-neutral payments in 2027 | Healthcare Dive",
+      "seen_at": "2026-11-14T16:51:21.031Z"
+    },
+    "key": "centers for medicare and medicaid services~payer systems~2026-11-14"
+  },
+  {
+    "data": {
       "batch": "SCAN-STRUCTURAL",
       "headline": "La brecha de financiamiento para la biodiversidad en América Latina y el Caribe | CEPAL",
       "seen_at": "2026-11-09T12:08:14.513Z"
@@ -734,6 +782,14 @@
       "seen_at": "2026-10-21T15:50:47.277Z"
     },
     "key": "cms~payer systems~2026-10-21"
+  },
+  {
+    "data": {
+      "batch": "SCAN-USA",
+      "headline": "Medicare Outpatient Final Rule Expands Surgical Options, Lowers Out-of-Pocket Costs for 340B Drugs | CMS",
+      "seen_at": "2026-11-14T16:51:16.488Z"
+    },
+    "key": "cms~payer systems~2026-11-14"
   },
   {
     "data": {
@@ -1202,6 +1258,14 @@
   {
     "data": {
       "batch": "SCAN-EVENTS",
+      "headline": "Cardiometabolic Disorders News",
+      "seen_at": "2026-11-15T12:24:23.876Z"
+    },
+    "key": "evt~18c38471c09cbfd7e1c4aeb961817bbb"
+  },
+  {
+    "data": {
+      "batch": "SCAN-EVENTS",
       "headline": "Late-breaking trials challenge conventional treatments to cardiovascular disease | Scientific Sessions",
       "seen_at": "2026-11-09T12:23:10.041Z"
     },
@@ -1378,6 +1442,14 @@
   {
     "data": {
       "batch": "SCAN-EVENTS",
+      "headline": "Continued obesity treatment linked to long-term weight loss",
+      "seen_at": "2026-11-15T12:24:03.015Z"
+    },
+    "key": "evt~6b3cba9377a5f9359d44a92fdba9b211"
+  },
+  {
+    "data": {
+      "batch": "SCAN-EVENTS",
       "headline": "ESMO Congress: Lung Cancer | ESMO Congress  | OncLive",
       "seen_at": "2026-10-31T11:23:11.975Z"
     },
@@ -1390,6 +1462,14 @@
       "seen_at": "2026-11-07T12:23:15.193Z"
     },
     "key": "evt~6e75900c59371e53422f9a31cd2674d4"
+  },
+  {
+    "data": {
+      "batch": "SCAN-EVENTS",
+      "headline": "El Departamento de Trabajo de Estados Unidos advirtió que los seguros de salud listan médicos en sus redes que en la práctica no están disponibles - Infobae",
+      "seen_at": "2026-11-15T12:25:01.763Z"
+    },
+    "key": "evt~6f4d17cdb771e956f777af7843498c60"
   },
   {
     "data": {
@@ -1526,6 +1606,14 @@
       "seen_at": "2026-11-10T12:23:09.340Z"
     },
     "key": "evt~a0d3bd9d382ffbe45215f5aa73494ce0"
+  },
+  {
+    "data": {
+      "batch": "SCAN-EVENTS",
+      "headline": "US Stands To Lose Measles Elimination Status As Multiple States Face The Worst Outbreaks In Nearly Three Decades - Health Policy Watch",
+      "seen_at": "2026-11-15T12:25:15.469Z"
+    },
+    "key": "evt~a1d7b3dae05a3a9740258f3273075397"
   },
   {
     "data": {
@@ -1697,6 +1785,14 @@
   },
   {
     "data": {
+      "batch": "SCAN-EVENTS",
+      "headline": "Insurance coverage, cost pivotal factors for continued GLP-1 use",
+      "seen_at": "2026-11-15T12:24:09.729Z"
+    },
+    "key": "evt~fec121634a34336e8116bd1706092bcd"
+  },
+  {
+    "data": {
       "batch": "SCAN-DEALS",
       "headline": "Exicure, Inc. Announces Agreement to Sell GPC-100 Program",
       "seen_at": "2026-11-12T12:02:34.293Z"
@@ -1734,6 +1830,14 @@
       "seen_at": "2026-10-12T11:03:32.327Z"
     },
     "key": "farmacias ahumada~drug pricing~2026-10-12"
+  },
+  {
+    "data": {
+      "batch": "SCAN-MX",
+      "headline": "Farmacias Benavides anuncia un acuerdo definitivo para ser adquirida por Farmacias del Ahorro  – El Financiero",
+      "seen_at": "2026-11-14T16:50:48.171Z"
+    },
+    "key": "farmacias benavides~m&a~2026-11-14"
   },
   {
     "data": {
@@ -2177,6 +2281,14 @@
   },
   {
     "data": {
+      "batch": "SCAN-USA",
+      "headline": "5 big questions as the 340B rebate pilot nears launch",
+      "seen_at": "2026-11-14T16:51:29.381Z"
+    },
+    "key": "hrsa~drug pricing~2026-11-14"
+  },
+  {
+    "data": {
       "batch": "SCAN-LATAM-CORP",
       "headline": "Caneta emagrecedora compensa queda dos antigripais no balanço da Hypera do 3º tri | Exame",
       "seen_at": "2026-11-12T12:03:40.909Z"
@@ -2505,6 +2617,14 @@
   },
   {
     "data": {
+      "batch": "SCAN-CONOSUR",
+      "headline": "Laboratorios Bagó ratifica su compromiso con los pacientes con Parkinson e incrementa su producción para dar respuesta a la creciente demanda | Laboratorios Bagó",
+      "seen_at": "2026-11-14T16:51:00.387Z"
+    },
+    "key": "laboratorios bagó~manufacturing~2026-11-14"
+  },
+  {
+    "data": {
       "batch": "SCAN-ANDINA",
       "headline": "Elifarma, L’Oréal, Vistony y Rebeca Escribens presentan nuevas marcas al Indecopi | ECONOMIA | GESTIÓN",
       "seen_at": "2026-11-09T12:02:46.484Z"
@@ -2641,6 +2761,14 @@
   },
   {
     "data": {
+      "batch": "SCAN-MX",
+      "headline": "México busca recuperar terreno en la industria farmacéutica y reducir su dependencia de importaciones - Infobae",
+      "seen_at": "2026-11-14T16:50:52.095Z"
+    },
+    "key": "mexican government~manufacturing~2026-11-14"
+  },
+  {
+    "data": {
       "batch": "SCAN-USA",
       "headline": "MVST Shareholder Alert: September 21, 2026 Lead Plaintiff Deadline in Microvast Holdings, Inc. Securities Class Action - Contact SueWallSt",
       "seen_at": "2026-10-21T15:51:45.909Z"
@@ -2734,6 +2862,14 @@
       "seen_at": "2026-11-01T22:07:15.071Z"
     },
     "key": "ministério da saúde~pharma regulation~2026-11-01"
+  },
+  {
+    "data": {
+      "batch": "SCAN-REG-LATAM",
+      "headline": "Panamá unifica al sector salud con nueve políticas nacionales para orientar inversiones y mejorar los servicios hasta 2035 | MINSA",
+      "seen_at": "2026-11-14T16:52:21.472Z"
+    },
+    "key": "minsa~health systems & disease burden~2026-11-14"
   },
   {
     "data": {
@@ -2841,6 +2977,14 @@
   },
   {
     "data": {
+      "batch": "SCAN-DEALS",
+      "headline": "Novo submits sickle cell drug; Flagship, Gates Foundation deepen ties | BioPharma Dive",
+      "seen_at": "2026-11-14T16:51:38.171Z"
+    },
+    "key": "novo nordisk~clinical catalyst~2026-11-14"
+  },
+  {
+    "data": {
       "batch": "SCAN-CONOSUR",
       "headline": "Casi US$100 millones por año: el gasto de los chilenos para adelgazar y el boom de Ozempic - La Tercera",
       "seen_at": "2026-09-26T22:59:36.710Z"
@@ -2902,6 +3046,14 @@
       "seen_at": "2026-11-09T12:07:19.811Z"
     },
     "key": "oecd, inter-american development bank, the world bank~health systems & disease burden~2026-11-09"
+  },
+  {
+    "data": {
+      "batch": "SCAN-STRUCTURAL",
+      "headline": "Perspectivas económicas de América Latina 2026: hacia una mejor integración en una economía global cambiante. Resumen",
+      "seen_at": "2026-11-14T16:53:03.683Z"
+    },
+    "key": "oecd-eclac-caf~health systems & disease burden~2026-11-14"
   },
   {
     "data": {
@@ -2982,6 +3134,14 @@
       "seen_at": "2026-11-12T12:04:19.316Z"
     },
     "key": "oecd~health systems & disease burden~2026-11-12"
+  },
+  {
+    "data": {
+      "batch": "SCAN-STRUCTURAL",
+      "headline": "Full Report: Panorama da Saúde: América Latina e Caribe 2026",
+      "seen_at": "2026-11-14T16:52:34.940Z"
+    },
+    "key": "oecd~health systems & disease burden~2026-11-14"
   },
   {
     "data": {
@@ -3097,6 +3257,14 @@
   },
   {
     "data": {
+      "batch": "SCAN-STRUCTURAL",
+      "headline": "Regional Update, Influenza and Other Respiratory Viruses. Epidemiological Week 43 (6 November 2026) - PAHO/WHO | Pan American Health Organization",
+      "seen_at": "2026-11-14T16:52:43.574Z"
+    },
+    "key": "paho/who~health systems & disease burden~2026-11-14"
+  },
+  {
+    "data": {
       "batch": "SCAN-REG-LATAM",
       "headline": "Acceso a medicamentos antihipertensivos: cómo abordar los cuellos de botella en la cadena de suministro (en inglés) - OPS/OMS | Organización Panamericana de la Salud",
       "seen_at": "2026-11-05T12:01:11.670Z"
@@ -3134,6 +3302,14 @@
       "seen_at": "2026-11-09T12:06:29.444Z"
     },
     "key": "paho/who~public health~2026-11-09"
+  },
+  {
+    "data": {
+      "batch": "SCAN-REG-LATAM",
+      "headline": "Países de América Latina fortalecen la vacunación, el tamizaje y el acceso a tecnologías para alcanzar la eliminación del cáncer cervicouterino - OPS/OMS | Organización Panamericana de la Salud",
+      "seen_at": "2026-11-14T16:52:17.317Z"
+    },
+    "key": "paho/who~public health~2026-11-14"
   },
   {
     "data": {
@@ -3289,6 +3465,14 @@
   },
   {
     "data": {
+      "batch": "SCAN-STRUCTURAL",
+      "headline": "News Releases - PAHO/WHO | Pan American Health Organization",
+      "seen_at": "2026-11-14T16:52:51.936Z"
+    },
+    "key": "pan american health organization~health systems & disease burden~2026-11-14"
+  },
+  {
+    "data": {
       "batch": "SCAN-REG-LATAM",
       "headline": "Los Estados Miembros de la OPS aprueban el fortalecimiento de los Fondos Rotatorios Regionales para ampliar el acceso a tecnologías de salud - OPS/OMS | Organización Panamericana de la Salud",
       "seen_at": "2026-10-03T11:04:50.319Z"
@@ -3326,6 +3510,14 @@
       "seen_at": "2026-10-29T11:01:04.555Z"
     },
     "key": "pan american health organization~public health~2026-10-29"
+  },
+  {
+    "data": {
+      "batch": "SCAN-MONEY-LATAM",
+      "headline": "Países de América Latina fortalecen la vacunación, el tamizaje y el acceso a tecnologías para alcanzar la eliminación del cáncer cervicouterino - OPS/OMS | Organización Panamericana de la Salud",
+      "seen_at": "2026-11-14T16:52:30.509Z"
+    },
+    "key": "pan american health organization~public health~2026-11-14"
   },
   {
     "data": {
@@ -3553,6 +3745,14 @@
   },
   {
     "data": {
+      "batch": "SCAN-DEALS",
+      "headline": "Sanofi mulls ‘moonshot’ M&A targets to survive Dupixent cliff",
+      "seen_at": "2026-11-14T16:51:46.170Z"
+    },
+    "key": "sanofi~m&a~2026-11-14"
+  },
+  {
+    "data": {
       "batch": "SCAN-LATAM-CORP",
       "headline": "Scipher Medicine and Grupo Amarey Announce First PrismRA®",
       "seen_at": "2026-11-09T12:06:00.922Z"
@@ -3681,6 +3881,14 @@
   },
   {
     "data": {
+      "batch": "SCAN-CONOSUR",
+      "headline": "Sudmédica busca un socio corporativo para construir diez hospitales privados en Chile y Latinoamérica - La Tercera",
+      "seen_at": "2026-11-14T16:51:04.256Z"
+    },
+    "key": "sudmédica~health systems & disease burden~2026-11-14"
+  },
+  {
+    "data": {
       "batch": "SCAN-JUDICIAL",
       "headline": "Reserva financeira não exclui justiça gratuita à pessoa com câncer",
       "seen_at": "2026-10-03T11:02:33.196Z"
@@ -3726,6 +3934,14 @@
       "seen_at": "2026-11-09T12:05:27.597Z"
     },
     "key": "tecnológico de monterrey~health systems & disease burden~2026-11-09"
+  },
+  {
+    "data": {
+      "batch": "SCAN-DEALS-LATAM",
+      "headline": "CDMX destina 4,000 millones de pesos para investigación médica",
+      "seen_at": "2026-11-14T16:51:59.952Z"
+    },
+    "key": "tecnológico de monterrey~health systems & disease burden~2026-11-14"
   },
   {
     "data": {
@@ -3946,6 +4162,14 @@
   {
     "data": {
       "batch": "SCAN-USA",
+      "headline": "Lower cost, heavier lift: The reality of home infusion",
+      "seen_at": "2026-11-14T16:51:33.741Z"
+    },
+    "key": "uva health~health systems & disease burden~2026-11-14"
+  },
+  {
+    "data": {
+      "batch": "SCAN-USA",
       "headline": "UWM Holdings Corporation (UWMC) Investors: October 13, 2026 Lead Plaintiff Deadline in Class Action Lawsuit",
       "seen_at": "2026-10-21T15:50:52.640Z"
     },
@@ -3982,6 +4206,14 @@
       "seen_at": "2026-11-12T12:01:15.229Z"
     },
     "key": "vaxthera~manufacturing~2026-11-12"
+  },
+  {
+    "data": {
+      "batch": "SCAN-ANDINA",
+      "headline": "VaxThera establece alianzas internacionales para impulsar la fabricación de vacunas en Colombia - Semana",
+      "seen_at": "2026-11-14T16:51:12.511Z"
+    },
+    "key": "vaxthera~manufacturing~2026-11-14"
   },
   {
     "data": {
