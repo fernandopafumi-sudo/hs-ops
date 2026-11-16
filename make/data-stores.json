@@ -20,8 +20,8 @@
     "id": 148747,
     "maxSize": "1048576",
     "name": "HS Event Dedup",
-    "records": 558,
-    "size": "127566"
+    "records": 576,
+    "size": "131530"
   },
   {
     "datastructureId": null,
@@ -29,7 +29,7 @@
     "maxSize": "1048576",
     "name": "HS gate state (capa 2)",
     "records": 60,
-    "size": "77690"
+    "size": "77899"
   },
   {
     "datastructureId": null,
@@ -45,7 +45,7 @@
     "maxSize": "1048576",
     "name": "HS LinkedIn shared posts",
     "records": 1,
-    "size": "301"
+    "size": "285"
   },
   {
     "datastructureId": null,

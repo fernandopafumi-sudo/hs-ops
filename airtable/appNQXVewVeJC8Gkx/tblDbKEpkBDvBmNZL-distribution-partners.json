@@ -66,13 +66,15 @@
       "Contact": "Cliff Despres",
       "Country": "United States",
       "Email": "despres@uthscsa.edu",
+      "Follow-up date": "2026-11-19",
       "Gmail draft id": "r-628290777919260205",
       "Language": "EN",
-      "Notes": "2026-11-09 (lunes, paso 4): email leído en la página oficial del equipo. Fit medio (salud latina, audiencia comunitaria). Borrador en Gmail creado; pendiente revisión adversarial (orquestador) antes de Drafted/Batch.\n2026-11-12: revisión adversarial (opus) hecha y aplicada al borrador: saqué oferta del PDF y frase 'no mailing list'; 'maps the gap' -> 'on diabetes control'; asunto nuevo. Cargo confirmado (communications director, salud-america.org). Espera 'OK tanda T4'.",
+      "Notes": "2026-11-09 (lunes, paso 4): email leído en la página oficial del equipo. Fit medio (salud latina, audiencia comunitaria). Borrador en Gmail creado; pendiente revisión adversarial (orquestador) antes de Drafted/Batch.\n2026-11-12: revisión adversarial (opus) hecha y aplicada al borrador: saqué oferta del PDF y frase 'no mailing list'; 'maps the gap' -> 'on diabetes control'; asunto nuevo. Cargo confirmado (communications director, salud-america.org). Espera 'OK tanda T4'.\n2026-11-16: enviado el 2026-11-12 19:25 UTC (verificado en in:sent, asunto 'A free report on diabetes control in Latin America'), sin respuesta ni rebote al 16-11.",
       "Organization": "Salud America! (UT Health San Antonio, Institute for Health Promotion Research)",
       "Role": "Communications Manager",
+      "Sent date": "2026-11-12",
       "Source URL": "https://www.salud-america.org/our-team/",
-      "Status": "Drafted",
+      "Status": "Sent",
       "Type": "Socio"
     },
     "id": "rec2RbbSEMY15Z8yL"
@@ -122,13 +124,15 @@
       "Contact": "Kathryn McCollister",
       "Country": "United States",
       "Email": "kmccolli@miami.edu",
+      "Follow-up date": "2026-11-19",
       "Gmail draft id": "r-1156995683961755469",
       "Language": "EN",
-      "Notes": "2026-11-09 (lunes, paso 4): email leído en la página oficial de la división (ofuscado en entidades; decodificado). Dedupe: distinto de UMIA (instituto). Borrador en Gmail creado; pendiente revisión adversarial (orquestador) antes de Drafted/Batch.\n2026-11-12: revisión adversarial (opus) hecha y aplicada al borrador: saqué oferta del PDF y frase 'no mailing list'; 'Professor' -> 'Dr.' (es Chair del Department of Public Health Sciences, med.miami.edu); asunto nuevo. Espera 'OK tanda T4'.",
+      "Notes": "2026-11-09 (lunes, paso 4): email leído en la página oficial de la división (ofuscado en entidades; decodificado). Dedupe: distinto de UMIA (instituto). Borrador en Gmail creado; pendiente de revisión adversarial (orquestador) antes de Drafted/Batch.\n2026-11-12: revisión adversarial (opus) hecha y aplicada al borrador: saqué oferta del PDF y frase 'no mailing list'; 'Professor' -> 'Dr.' (es Chair del Department of Public Health Sciences, med.miami.edu); asunto nuevo. Espera 'OK tanda T4'.\n2026-11-16: enviado el 2026-11-12 19:25 UTC (verificado en in:sent, asunto 'A free report on diabetes control and out-of-pocket costs in Latin America'), sin respuesta ni rebote al 16-11.",
       "Organization": "University of Miami Miller School of Medicine — Department of Public Health Sciences",
       "Role": "Professor and Health Economist, Dept. of Public Health Sciences (nota de junio 2025 la nombra Interim Chair; vigencia sin verificar, no citar cargo)",
+      "Sent date": "2026-11-12",
       "Source URL": "https://www.publichealth.med.miami.edu/divisions/health-services-research-and-policy/faculty/index.html ; https://www.publichealth.med.miami.edu/news/news-releases/2025/dr-kathryn-mccollister-appointed-interim-chair-of-the-department-of-public-health-sciences/index.html",
-      "Status": "Drafted",
+      "Status": "Sent",
       "Type": "Docente"
     },
     "id": "rec6DwOcmRrBiNhfZ"
@@ -151,6 +155,27 @@
       "Type": "Socio"
     },
     "id": "rec8NXIeCtyUi1thm"
+  },
+  {
+    "createdTime": "2026-11-16T13:53:16.000Z",
+    "fields": {
+      "Audience estimate": "Sin número publicado (estimación pendiente); red de asociaciones de diabetes",
+      "Batch": "T5-2026-11-16",
+      "Channel": "Email",
+      "Contact": "Ruth Vélez Braunschweiger",
+      "Country": "Mexico",
+      "Email": "fmd@fmdiabetes.org",
+      "Follow-up date": "2026-11-23",
+      "Language": "ES",
+      "Notes": "2026-11-16 (lunes, paso 4): email general de la página oficial. 2026-11-16 13:56 UTC: SALIÓ SIN OK DE FER (incidente de borradores), msg 1a1e4a50ed84056f. Revisión adversarial posterior: NO ENVIAR (audiencia de pacientes, informe en inglés, formulario exige email corporativo). No hacer seguimiento salvo que Fer lo decida.",
+      "Organization": "Federación Mexicana de Diabetes, A.C.",
+      "Role": "Presidenta del Consejo Directivo (consejo 2024-2026 según la página; vigencia sin verificar)",
+      "Sent date": "2026-11-16",
+      "Source URL": "https://fmdiabetes.org/consejo/ ; https://fmdiabetes.org/contact-us/",
+      "Status": "Sent",
+      "Type": "Socio"
+    },
+    "id": "rec8bRjPHvK1GC0aM"
   },
   {
     "createdTime": "2026-10-21T23:57:30.000Z",
@@ -239,6 +264,40 @@
     "id": "recCBDJE9duU0qSy0"
   },
   {
+    "createdTime": "2026-11-16T13:53:16.000Z",
+    "fields": {
+      "Audience estimate": "627 seguidores en LinkedIn (fuente: perfil del capítulo)",
+      "Channel": "LinkedIn",
+      "Contact": "Directiva 2026 (Rosina Hinojosa y Raúl Timaná-Ruíz figuran en el post de la nueva directiva)",
+      "Country": "Peru",
+      "Language": "ES",
+      "Notes": "2026-11-16 (lunes, paso 4): sin email en página oficial (el PDF de ispor.org con gmail personales es antiguo y no se usa). DM de Fer desde su perfil personal al perfil del capítulo; confirmar quién preside antes. Sin borrador Gmail.",
+      "Organization": "ISPOR Perú (Capítulo Peruano)",
+      "Role": "Presidencia sin verificar; Raúl Timaná-Ruíz, vicepresidente (post LinkedIn 04-09-2026)",
+      "Source URL": "https://linkedin.com/in/ispor-per%C3%BA-476357100 ; https://es.linkedin.com/posts/ra%C3%BAl-timan%C3%A1-ruiz-35a642106_ispor-isporper%C3%BA-econom%C3%ADadelasalud-activity-7501611477100023808-DO8u",
+      "Status": "To contact",
+      "Type": "Socio"
+    },
+    "id": "recCM1VVoTt3ZtGIW"
+  },
+  {
+    "createdTime": "2026-11-16T13:53:16.000Z",
+    "fields": {
+      "Audience estimate": "Sin número publicado (estimación pendiente)",
+      "Channel": "Contact form",
+      "Contact": "Guadalupe Verdejo Pivet",
+      "Country": "Chile",
+      "Language": "ES",
+      "Notes": "2026-11-16 (lunes, paso 4): la página oficial de contacto solo ofrece formulario, sin email. Sin borrador Gmail: Fer o el principal pega el texto en el formulario. Verificar presidencia vigente (elecciones previstas nov-2026).",
+      "Organization": "SOCHISAL (Sociedad Chilena de Salud Pública)",
+      "Role": "Presidenta (directorio 2024-2026; mandato vence nov-2026, vigencia sin verificar)",
+      "Source URL": "https://sochisal.cl/organizacion/ ; https://sochisal.cl/contacto/",
+      "Status": "To contact",
+      "Type": "Socio"
+    },
+    "id": "recD4upYwRgfC3TpJ"
+  },
+  {
     "createdTime": "2026-10-21T22:15:24.000Z",
     "fields": {
       "Audience estimate": "40-80 alumnos (estimación)",
@@ -276,6 +335,27 @@
       "Type": "Docente"
     },
     "id": "recHxLQp6aGaxprL6"
+  },
+  {
+    "createdTime": "2026-11-16T13:53:16.000Z",
+    "fields": {
+      "Audience estimate": "Sin número publicado (estimación pendiente)",
+      "Batch": "T5-2026-11-16",
+      "Channel": "Email",
+      "Contact": "Ártemis Caldeira Brant",
+      "Country": "Brazil",
+      "Email": "artemis@abrasco.org.br",
+      "Follow-up date": "2026-11-23",
+      "Language": "PT",
+      "Notes": "2026-11-16 (lunes, paso 4): email leído en la página oficial Sala de Imprensa (abrasco.org.br). Alternativa publicada: comunica@abrasco.org.br. 2026-11-16 13:56 UTC: SALIÓ SIN OK DE FER (incidente: vaciado de borradores de editor@, causa desconocida), msg 1a1e4a5137ba01c1. Revisión adversarial posterior: ENVIAR (ok).",
+      "Organization": "Abrasco (Associação Brasileira de Saúde Coletiva)",
+      "Role": "Gerente de Comunicação, Relacionamento e Marketing",
+      "Sent date": "2026-11-16",
+      "Source URL": "https://abrasco.org.br/sala-de-imprensa/ ; https://abrasco.org.br/contato/",
+      "Status": "Sent",
+      "Type": "Socio"
+    },
+    "id": "recLlgASwbDrH7Ost"
   },
   {
     "createdTime": "2026-10-21T22:15:24.000Z",
@@ -476,6 +556,27 @@
       "Type": "Docente"
     },
     "id": "recdKpcfAeX3fIfLt"
+  },
+  {
+    "createdTime": "2026-11-16T13:53:16.000Z",
+    "fields": {
+      "Audience estimate": "Sin número publicado (estimación pendiente)",
+      "Batch": "T5-2026-11-16",
+      "Channel": "Email",
+      "Contact": "Marcela Gaitán",
+      "Country": "United States",
+      "Email": "info@healthyamericas.org",
+      "Follow-up date": "2026-11-23",
+      "Language": "EN",
+      "Notes": "2026-11-16 (lunes, paso 4): cuota EE.UU.; info@ es el único email publicado. 2026-11-16 13:56 UTC: SALIÓ SIN OK DE FER (incidente de borradores), msg 1a1e4a50b9a3bde4, con el texto original (link incluido, pedía uso propio). Revisión adversarial posterior: ENVIAR CON CAMBIOS, prioridad baja (fit LatAm vs hispanos EE.UU. débil).",
+      "Organization": "National Alliance for Hispanic Health",
+      "Role": "Managing Director for External Relations",
+      "Sent date": "2026-11-16",
+      "Source URL": "https://www.healthyamericas.org/key-staff ; https://www.healthyamericas.org/contact",
+      "Status": "Sent",
+      "Type": "Socio"
+    },
+    "id": "recg7jQxwRLDOHAPc"
   },
   {
     "createdTime": "2026-11-02T14:15:23.000Z",

@@ -1258,6 +1258,153 @@
           "prefersSingleRecordLink": false
         },
         "type": "multipleRecordLinks"
+      },
+      {
+        "description": "ID de persona en Apollo. Clave de dedup antes de enriquecer (carga nov-2026).",
+        "id": "fldtIECiN5HSaKxId",
+        "name": "Apollo_ID",
+        "type": "singleLineText"
+      },
+      {
+        "description": "Función del contacto (carga nov-2026).",
+        "id": "fldlC8GKqC9AwzTIv",
+        "name": "Function",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "sel3uL8ik13FtkYLk",
+              "name": "Market Access"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selwlETTdCFMRADp6",
+              "name": "Public & Government Affairs"
+            },
+            {
+              "color": "grayLight2",
+              "id": "seljsrqiCB3XC3pgg",
+              "name": "Corporate Communications"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selCUWXh8tfpKUVCN",
+              "name": "Policy"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel6ISVk0qxaNn1HG",
+              "name": "Advertising & Marketing"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selcPWE5UxlPLCBtW",
+              "name": "PR & Media"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selh71a3Wkxa2T1LP",
+              "name": "Other"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldtE7Rovkn67sPaR",
+        "name": "Seniority",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "sel1rTXWgz0Pk1cA9",
+              "name": "C-level"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selEQUkN72keRYmHu",
+              "name": "VP"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selQZqc0dR862kXGQ",
+              "name": "Head"
+            },
+            {
+              "color": "grayLight2",
+              "id": "seloEdfAasMAZmrPx",
+              "name": "Director"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel5mQKDc5S6hFVCQ",
+              "name": "Manager"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "description": "Idioma para cualquier contacto. El scenario Outreach A (5453337) hoy redacta siempre en español: ajustarlo antes de usarlo con EN/PT.",
+        "id": "fldQVwXXThqd5SneX",
+        "name": "Language",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selHq8nJIaAI71yoW",
+              "name": "Spanish"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel0TAS6OHV5iWtz8",
+              "name": "Portuguese"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selqmdZWh3jHgOZbQ",
+              "name": "English"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "description": "Base legal del tratamiento (LGPD Brasil y similares). La fuente del dato va en Source/Notes y la fecha en Collected_At.",
+        "id": "fldDoJIlDxcLWCVZ3",
+        "name": "Legal_Basis",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selBsaJIb7ap7LdhP",
+              "name": "Legitimate interest (B2B)"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selG2kNKEe2U4fhed",
+              "name": "Consent"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selsonVEM1UTnApwh",
+              "name": "Existing relationship"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "description": "Fecha en que se obtuvo el dato del contacto.",
+        "id": "flduFlHJSp3e7TuWo",
+        "name": "Collected_At",
+        "options": {
+          "dateFormat": {
+            "format": "YYYY-MM-DD",
+            "name": "iso"
+          }
+        },
+        "type": "date"
       }
     ],
     "id": "tblalG4gDQFhUYC0D",

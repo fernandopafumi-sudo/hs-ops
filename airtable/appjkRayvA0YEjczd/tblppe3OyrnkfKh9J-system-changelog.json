@@ -187,6 +187,17 @@
     "id": "recT4GSvUS08EZsTl"
   },
   {
+    "createdTime": "2026-11-16T18:30:01.000Z",
+    "fields": {
+      "Area": "Otro",
+      "Change": "Invitaciones Brief 2026-11-16: 25 invitaciones, 15 recordatorios",
+      "Date": "2026-11-16",
+      "Details": "Cap: 40 (15 recordatorios + 25 invitaciones), tope normal; bounce rate 5/175 = 2,9% (<5%), sin quejas de spam.\nPrimer envío desde el 05-11: las corridas 11 a 13-11 quedaron bloqueadas (filtro de permisos / re-auth de Gmail). Hoy los envíos funcionaron.\nRecordatorios (15, en hilo): incluye los 4 'NO confirmado' del 13-11 (verificado en Enviados que no habían salido) y los 4 bloqueados del 11/12-11. Se excluyeron Irene Hartmann y Paulo Piratininga (Fer ya les respondió en persona).\nInvitaciones (25): voices 1, press 13, crm 6, linkedin 5. ES 11, PT 6, EN 8.\nCRM: solo se invitó a quien tiene contacto previo verificable en editor@ (Gisele/SBOC, Silvana/FIFARMA, Paulina Pino, Macarena Correa/LyD, Héctor Valle, Rebeca Freitas). Diferidos sin nota nueva: ~91 CRM sin contacto previo en Gmail (la línea 'estuvimos en contacto' sería falsa), Merck KGaA (Diana Tellez, Juliana Restrepo: deal activo) y Harold Hamana (conversación comercial abierta). Se respetaron diferidos previos: comercio.com.pe, endpointsnews.com, Fabiana Delgado (hasta 30-11), 2 CRM ya marcados.\nHousekeeping: sin rebotes nuevos de invitaciones (los 6 rebotes de hoy son de la difusión Galán/Voices, no de esta tabla); sin respuestas nuevas a hilos de invitación. Subscribed: 5 (2,9% de 175 enviados).\nQueued restante: 232 (crm 97, generic 89, linkedin 39, events 4, press 3). Enviables sin decisión de Fer: ~132 → ~6 corridas más.",
+      "Status": "Done"
+    },
+    "id": "recTcWPw1k4Qr2reV"
+  },
+  {
     "createdTime": "2026-08-29T21:19:13.000Z",
     "fields": {
       "Area": "Otro",

@@ -51,6 +51,27 @@
     "id": "rec5U47BsQWHKHrak"
   },
   {
+    "createdTime": "2026-11-16T17:34:30.000Z",
+    "fields": {
+      "Access": "Corporate",
+      "CTA Source": "newsletter_page",
+      "Company": "La República",
+      "Consent At": "2026-11-16T17:34:40.000Z",
+      "Consent Text": "v2 2026-10-21 | By subscribing you agree to receive The HealthSignals Brief by email and accept our Privacy Policy.",
+      "Country": "Colombia",
+      "Email": "sibanez@larepublica.com.co",
+      "Job Title": "Periodista",
+      "Last Name": "Ibañez",
+      "Name": "Sara",
+      "Post URL": "https://healthsignals.news/newsletter/",
+      "Signup Stage": "complete",
+      "Source": "Website",
+      "Status": "Active",
+      "Subscribe Date": "2026-11-16"
+    },
+    "id": "rec8V6lYOGRa9bcyk"
+  },
+  {
     "createdTime": "2026-11-11T18:53:28.000Z",
     "fields": {
       "CTA Source": "invite-voices",
@@ -81,7 +102,7 @@
       "Post URL": "https://healthsignals.news/newsletter/",
       "Signup Stage": "complete",
       "Source": "Website",
-      "Status": "Requested",
+      "Status": "Active",
       "Subscribe Date": "2026-11-13"
     },
     "id": "recBZLpGR1clCVYXK"
@@ -207,6 +228,21 @@
     "id": "recSWeqLswD1CkF6M"
   },
   {
+    "createdTime": "2026-11-16T19:34:04.000Z",
+    "fields": {
+      "CTA Source": "invite-press",
+      "Consent At": "2026-11-16T19:34:04.000Z",
+      "Consent Text": "Clicked Subscribe in personal invitation email from editor@healthsignals.news (invite-2026-11 v1)",
+      "Country": "Brazil",
+      "Email": "jessie.costa@inpresspni.com.br",
+      "Name": "Jéssie Ellen Costa Neves",
+      "Source": "Invite",
+      "Status": "Active",
+      "Subscribe Date": "2026-11-16"
+    },
+    "id": "recSf4EPVyDMXmUkO"
+  },
+  {
     "createdTime": "2026-10-31T19:53:50.000Z",
     "fields": {
       "Access": "Webmail",
@@ -274,7 +310,7 @@
       "Post URL": "https://healthsignals.news/newsletter/",
       "Signup Stage": "complete",
       "Source": "Website",
-      "Status": "Requested",
+      "Status": "Active",
       "Subscribe Date": "2026-11-13"
     },
     "id": "recYskJdUls9RqdgP"
@@ -314,6 +350,28 @@
       "Subscribe Date": "2026-11-05"
     },
     "id": "recad42pOXGfOVsdc"
+  },
+  {
+    "createdTime": "2026-11-16T19:37:41.000Z",
+    "fields": {
+      "Access": "Webmail",
+      "CTA Source": "article_mid_cta",
+      "Company": "National Institute of Public Health",
+      "Consent At": "2026-11-16T19:38:38.000Z",
+      "Consent Text": "v2 2026-10-21 | By subscribing you agree to receive The HealthSignals Brief by email and accept our Privacy Policy.",
+      "Country": "Mexico",
+      "Email": "ocogomez@yahoo.com",
+      "Job Title": "Dr",
+      "Last Name": "Gomez",
+      "Name": "Octavio",
+      "Post Category": "Digital Health",
+      "Post URL": "https://healthsignals.news/in-mexico-patients-pay-almost-as-much-as-the-state-for-health-care/",
+      "Signup Stage": "complete",
+      "Source": "Website",
+      "Status": "Requested",
+      "Subscribe Date": "2026-11-16"
+    },
+    "id": "recbZnsAJq85DRVTz"
   },
   {
     "createdTime": "2026-11-05T18:24:31.000Z",
@@ -591,7 +649,7 @@
       "Post URL": "https://healthsignals.news/",
       "Signup Stage": "complete",
       "Source": "Website",
-      "Status": "Requested",
+      "Status": "Active",
       "Subscribe Date": "2026-11-09"
     },
     "id": "recxbzcBRuPXUa9wh"

@@ -36,11 +36,11 @@
       "Gmail_Message_ID": "1a1acf5b9d2daf1a",
       "Language": "en",
       "Name": "Brian Burlingame",
-      "Notes": "Source: Press & PR Contacts (Agencia PR)\n2026-11-05: invitación enviada",
+      "Notes": "Source: Press & PR Contacts (Agencia PR)\n2026-11-05: invitación enviada\n2026-11-16: recordatorio enviado",
       "Organization": "JeffreyGroup (HQ Miami)",
       "Segment": "press",
       "Sent_At": "2026-11-05T18:25:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "rec0udCF0YnKtx9Fu"
   },
@@ -110,12 +110,14 @@
       "Country": "Global",
       "Email": "maria.merinova@eversana.com",
       "First_Name": "Maria",
+      "Gmail_Message_ID": "1a1e59dfb85e43aa",
       "Language": "en",
       "Name": "Maria Merinova",
-      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08",
+      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-16: invitación enviada",
       "Organization": "EVERSANA",
       "Segment": "linkedin",
-      "Status": "Queued"
+      "Sent_At": "2026-11-16T18:26:00.000Z",
+      "Status": "Sent"
     },
     "id": "rec1Uvy027Hn6avPF"
   },
@@ -142,11 +144,11 @@
       "Gmail_Message_ID": "1a1acf5da24e1f3a",
       "Language": "en",
       "Name": "Michelle Marchante",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada",
+      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada\n2026-11-16: recordatorio enviado",
       "Organization": "Miami Herald",
       "Segment": "press",
       "Sent_At": "2026-11-05T18:25:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "rec1k95puwf6szITw"
   },
@@ -342,12 +344,14 @@
       "Country": "Global",
       "Email": "indranil.x.bagchi@gsk.com",
       "First_Name": "Indranil",
+      "Gmail_Message_ID": "1a1e59dfcc2654bc",
       "Language": "en",
       "Name": "Indranil Bagchi",
-      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08",
+      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-16: invitación enviada",
       "Organization": "GSK",
       "Segment": "linkedin",
-      "Status": "Queued"
+      "Sent_At": "2026-11-16T18:26:00.000Z",
+      "Status": "Sent"
     },
     "id": "rec3dSZ0U9xtIN4ps"
   },
@@ -502,11 +506,11 @@
       "Gmail_Message_ID": "1a1a7cd314ce217c",
       "Language": "pt",
       "Name": "Guilherme Soria Bastos Filho",
-      "Notes": "Source: Sucriptor prospects (LinkedIn)\n2026-11-04: invitación enviada\n2026-11-11: recordatorio NO enviado (envío bloqueado por el filtro de permisos de la tarea automática); sigue Sent",
+      "Notes": "Source: Sucriptor prospects (LinkedIn)\n2026-11-04: invitación enviada\n2026-11-11: recordatorio NO enviado (envío bloqueado por el filtro de permisos de la tarea automática); sigue Sent\n2026-11-16: recordatorio enviado",
       "Organization": "Fundacao Getulio Vargas",
       "Segment": "linkedin",
       "Sent_At": "2026-11-04T18:27:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "rec5V2fAj83akZZxo"
   },
@@ -656,11 +660,11 @@
       "Gmail_Message_ID": "1a1a7cda9d2c51d0",
       "Language": "pt",
       "Name": "Carlson Andrade",
-      "Notes": "Source: Sucriptor prospects (LinkedIn)\n2026-11-04: invitación enviada\n2026-11-11: recordatorio NO enviado (envío bloqueado por el filtro de permisos de la tarea automática); sigue Sent",
+      "Notes": "Source: Sucriptor prospects (LinkedIn)\n2026-11-04: invitación enviada\n2026-11-11: recordatorio NO enviado (envío bloqueado por el filtro de permisos de la tarea automática); sigue Sent\n2026-11-16: recordatorio enviado",
       "Organization": "Organon Brasil",
       "Segment": "linkedin",
       "Sent_At": "2026-11-04T18:29:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "rec6XbAEzHHlumjDJ"
   },
@@ -820,11 +824,11 @@
       "Gmail_Message_ID": "1a1acf6254bdf223",
       "Language": "pt",
       "Name": "Sérgio Ripardo",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada",
+      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada\n2026-11-16: recordatorio enviado",
       "Organization": "Bloomberg Línea Brasil",
       "Segment": "press",
       "Sent_At": "2026-11-05T18:25:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "rec8HWor0Fr2DHpCD"
   },
@@ -848,12 +852,14 @@
       "Country": "USA",
       "Email": "pablo.marotta@bauschhealth.com",
       "First_Name": "Pablo",
+      "Gmail_Message_ID": "1a1e59dffccba459",
       "Language": "en",
       "Name": "Pablo Marotta",
-      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08",
+      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-16: invitación enviada",
       "Organization": "Bausch Health Companies Inc.",
       "Segment": "linkedin",
-      "Status": "Queued"
+      "Sent_At": "2026-11-16T18:26:00.000Z",
+      "Status": "Sent"
     },
     "id": "rec8MpkyIlk8SJtiX"
   },
@@ -907,12 +913,14 @@
       "Country": "LATAM",
       "Email": "olgagil@movement-health.org",
       "First_Name": "Olga",
+      "Gmail_Message_ID": "1a1e59e02d53b6fc",
       "Language": "es",
       "Name": "Olga Gil",
-      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08",
+      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-16: invitación enviada",
       "Organization": "Movement Health",
       "Segment": "linkedin",
-      "Status": "Queued"
+      "Sent_At": "2026-11-16T18:26:00.000Z",
+      "Status": "Sent"
     },
     "id": "rec8hD7lcqFrifMM6"
   },
@@ -925,11 +933,11 @@
       "Gmail_Message_ID": "1a1acf64da48563f",
       "Language": "es",
       "Name": "Francisco Olivera",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada",
+      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada\n2026-11-16: recordatorio enviado",
       "Organization": "La Nación (Argentina)",
       "Segment": "press",
       "Sent_At": "2026-11-05T18:25:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "rec90Osg9S9Ww7IjS"
   },
@@ -952,12 +960,14 @@
       "Country": "LATAM",
       "Email": "emmanuel.burckel@sanofi.com",
       "First_Name": "Emmanuel",
+      "Gmail_Message_ID": "1a1e59e04d97c8bb",
       "Language": "en",
       "Name": "Emmanuel Burckel",
-      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08",
+      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-16: invitación enviada",
       "Organization": "Sanofi Pasteur",
       "Segment": "linkedin",
-      "Status": "Queued"
+      "Sent_At": "2026-11-16T18:26:00.000Z",
+      "Status": "Sent"
     },
     "id": "rec96EFXdRE0PKrEF"
   },
@@ -1336,11 +1346,11 @@
       "Gmail_Message_ID": "1a1acf66e159e5ba",
       "Language": "en",
       "Name": "Rachel Cohrs Zhang",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada",
+      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada\n2026-11-16: recordatorio enviado",
       "Organization": "Bloomberg News",
       "Segment": "press",
       "Sent_At": "2026-11-05T18:25:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "recDl36bWgMBshHCa"
   },
@@ -1353,11 +1363,11 @@
       "Gmail_Message_ID": "1a1acf695f6c042c",
       "Language": "es",
       "Name": "Pablo Fernández Blanco",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada",
+      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada\n2026-11-16: recordatorio enviado",
       "Organization": "La Nación (Argentina)",
       "Segment": "press",
       "Sent_At": "2026-11-05T18:25:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "recDrvLScOeAUi77h"
   },
@@ -1398,12 +1408,14 @@
       "Country": "Brazil",
       "Email": "gisele@gvcomunicacao.com",
       "First_Name": "Gisele",
+      "Gmail_Message_ID": "1a1e59d01925d11e",
       "Language": "pt",
       "Name": "Congresso SBOC 2026 (prensa: Gisele Vitória)",
-      "Notes": "Source: CRM Prospects (Approval=Approved)",
+      "Notes": "Source: CRM Prospects (Approval=Approved)\n2026-11-16: invitación enviada (contacto previo verificado en Gmail: hilo SBOC)",
       "Organization": "SBOC (Sociedade Brasileira de Oncologia Clínica) / GV Comunicação",
       "Segment": "crm",
-      "Status": "Queued"
+      "Sent_At": "2026-11-16T18:26:00.000Z",
+      "Status": "Sent"
     },
     "id": "recELBbhl3FvF7nO4"
   },
@@ -1772,12 +1784,14 @@
       "Country": "Chile",
       "Email": "ppino@uchile.cl",
       "First_Name": "Paulina",
+      "Gmail_Message_ID": "1a1e59d078acc4cc",
       "Language": "es",
       "Name": "Paulina Pino",
-      "Notes": "Source: gmail-2026-11-01; Diabetes Control Gap report offer 28-10",
+      "Notes": "Source: gmail-2026-11-01; Diabetes Control Gap report offer 28-10\n2026-11-16: invitación enviada (contacto previo verificado en Gmail: oferta 28-10 y seguimiento 09-11)",
       "Organization": "Universidad de Chile",
       "Segment": "crm",
-      "Status": "Queued"
+      "Sent_At": "2026-11-16T18:26:00.000Z",
+      "Status": "Sent"
     },
     "id": "recHYP7AW3yzp5KYw"
   },
@@ -2231,12 +2245,14 @@
       "Country": "Global (US HQ)",
       "Email": "catherine.langel@abbvie.com",
       "First_Name": "Catherine",
+      "Gmail_Message_ID": "1a1e59ad8c4fed47",
       "Language": "en",
       "Name": "Catherine Langel",
-      "Notes": "Source: Press & PR Contacts (Pharma media office)",
+      "Notes": "Source: Press & PR Contacts (Pharma media office)\n2026-11-16: invitación enviada",
       "Organization": "AbbVie",
       "Segment": "press",
-      "Status": "Queued"
+      "Sent_At": "2026-11-16T18:26:00.000Z",
+      "Status": "Sent"
     },
     "id": "recLqNeGa7RvzUUU8"
   },
@@ -2323,12 +2339,14 @@
       "Country": "Chile",
       "Email": "cristianneira@eldesconcierto.cl",
       "First_Name": "Cristian",
+      "Gmail_Message_ID": "1a1e59adc2053d92",
       "Language": "es",
       "Name": "Cristian Neira",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)",
+      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-16: invitación enviada",
       "Organization": "El Desconcierto",
       "Segment": "press",
-      "Status": "Queued"
+      "Sent_At": "2026-11-16T18:26:00.000Z",
+      "Status": "Sent"
     },
     "id": "recNFKLUDwNb4e5LD"
   },
@@ -2790,12 +2808,14 @@
       "Country": "Brasil",
       "Email": "vitoria.nascimento@valor.com.br",
       "First_Name": "Vitória",
+      "Gmail_Message_ID": "1a1e59adf4755a41",
       "Language": "pt",
       "Name": "Vitória Nascimento",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)",
+      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-16: invitación enviada",
       "Organization": "Valor Econômico",
       "Segment": "press",
-      "Status": "Queued"
+      "Sent_At": "2026-11-16T18:26:00.000Z",
+      "Status": "Sent"
     },
     "id": "recSF0cdvipZ2HMma"
   },
@@ -3191,11 +3211,13 @@
     "fields": {
       "Country": "Chile",
       "Email": "mcorrea@lyd.org",
+      "Gmail_Message_ID": "1a1e59d08ff635f7",
       "Language": "es",
-      "Notes": "Source: gmail-2026-11-01; CC'd by Carolina Velasco in LyD thread; name unknown",
+      "Notes": "Source: gmail-2026-11-01; CC'd by Carolina Velasco in LyD thread; name unknown\n2026-11-16: invitación enviada (contacto previo verificado en Gmail: hilo LyD)",
       "Organization": "Libertad y Desarrollo (LyD)",
       "Segment": "crm",
-      "Status": "Queued"
+      "Sent_At": "2026-11-16T18:26:00.000Z",
+      "Status": "Sent"
     },
     "id": "recVt239zNbqfmk8K"
   },
@@ -3465,12 +3487,14 @@
       "Country": "Brasil",
       "Email": "Luciana.NovaesMagalhaes@thomsonreuters.com",
       "First_Name": "Luciana",
+      "Gmail_Message_ID": "1a1e59ae27dd6fb1",
       "Language": "pt",
       "Name": "Luciana Novaes Magalhaes",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)",
+      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-16: invitación enviada",
       "Organization": "Reuters",
       "Segment": "press",
-      "Status": "Queued"
+      "Sent_At": "2026-11-16T18:26:00.000Z",
+      "Status": "Sent"
     },
     "id": "recYvYa9jhUdpvvRb"
   },
@@ -3937,15 +3961,18 @@
   {
     "createdTime": "2026-11-13T00:38:21.000Z",
     "fields": {
+      "Clicked_At": "2026-11-16T19:34:04.000Z",
       "Country": "Brazil",
       "Email": "jessie.costa@inpresspni.com.br",
       "First_Name": "Jéssie",
+      "Gmail_Message_ID": "1a1e59bffe25ab7a",
       "Language": "pt",
       "Name": "Jéssie Ellen Costa Neves",
-      "Notes": "Source: respuesta a pedido de mailing de prensa Roche (12-11-2026); cargado a pedido de Fer 2026-11-12",
+      "Notes": "Source: respuesta a pedido de mailing de prensa Roche (12-11-2026); cargado a pedido de Fer 2026-11-12\n2026-11-16: invitación enviada",
       "Organization": "InPress PNI (Roche Brasil)",
       "Segment": "press",
-      "Status": "Queued"
+      "Sent_At": "2026-11-16T18:26:00.000Z",
+      "Status": "Subscribed"
     },
     "id": "reccToJvQ53ZDUiwu"
   },
@@ -3985,12 +4012,14 @@
     "fields": {
       "Country": "EE.UU.",
       "Email": "jakopyan@amgen.com",
+      "Gmail_Message_ID": "1a1e59cfeb1068d0",
       "Language": "en",
       "Name": "Akopyan (Amgen)",
-      "Notes": "Source: mail DeLLphi-305 a Amgen media (12-11-2026); sin nombre de pila confirmado: saludar 'Dear Ms. Akopyan'; cargado a pedido de Fer 2026-11-12",
+      "Notes": "Source: mail DeLLphi-305 a Amgen media (12-11-2026); sin nombre de pila confirmado: saludar 'Dear Ms. Akopyan'; cargado a pedido de Fer 2026-11-12\n2026-11-16: invitación enviada (se usó saludo genérico de plantilla \"Hello,\")",
       "Organization": "Amgen",
       "Segment": "press",
-      "Status": "Queued"
+      "Sent_At": "2026-11-16T18:26:00.000Z",
+      "Status": "Sent"
     },
     "id": "reccjkyglucoIQMdy"
   },
@@ -4067,11 +4096,11 @@
       "Gmail_Message_ID": "1a1a7caf9ec1332e",
       "Language": "es",
       "Name": "Octavio Gómez Dantés",
-      "Notes": "Source: Voices Pipeline (Stage=Answers received)\n2026-11-04: invitación enviada\n2026-11-12: recordatorio NO enviado (envío bloqueado por el filtro de permisos de la tarea automática); sigue Sent",
+      "Notes": "Source: Voices Pipeline (Stage=Answers received)\n2026-11-04: invitación enviada\n2026-11-12: recordatorio NO enviado (envío bloqueado por el filtro de permisos de la tarea automática); sigue Sent\n2026-11-16: recordatorio enviado",
       "Organization": "INSP (Centro de Investigación en Sistemas de Salud); ex director general de Evaluación del Desempeño, SSA (administración 2000-2006)",
       "Segment": "voices",
       "Sent_At": "2026-11-04T18:23:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "recddL82dddqNyxFy"
   },
@@ -4226,12 +4255,14 @@
       "Country": "EE.UU.",
       "Email": "christina.jewett@nytimes.com",
       "First_Name": "Christina",
+      "Gmail_Message_ID": "1a1e59ae774fa16c",
       "Language": "en",
       "Name": "Christina Jewett",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)",
+      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-16: invitación enviada",
       "Organization": "The New York Times",
       "Segment": "press",
-      "Status": "Queued"
+      "Sent_At": "2026-11-16T18:26:00.000Z",
+      "Status": "Sent"
     },
     "id": "recfjz0WAe0eLoLpP"
   },
@@ -4454,12 +4485,14 @@
       "Country": "Chile",
       "Email": "matiasrojas@eldesconcierto.cl",
       "First_Name": "Matías",
+      "Gmail_Message_ID": "1a1e59bfaebd114f",
       "Language": "es",
       "Name": "Matías Rojas",
-      "Notes": "Source: gmail-2026-11-01; pitch Voices García Escorza 19-10",
+      "Notes": "Source: gmail-2026-11-01; pitch Voices García Escorza 19-10\n2026-11-16: invitación enviada",
       "Organization": "El Desconcierto (editor jefe)",
       "Segment": "press",
-      "Status": "Queued"
+      "Sent_At": "2026-11-16T18:26:00.000Z",
+      "Status": "Sent"
     },
     "id": "reciCT78lKnrRlQ5q"
   },
@@ -4606,12 +4639,14 @@
       "Country": "México",
       "Email": "hvalle@funsalud.org.mx",
       "First_Name": "Héctor",
+      "Gmail_Message_ID": "1a1e59d0afcb48a2",
       "Language": "es",
       "Name": "Héctor Valle Mesto",
-      "Notes": "Source: gmail-2026-11-01; Diabetes Control Gap report offer 28-10",
+      "Notes": "Source: gmail-2026-11-01; Diabetes Control Gap report offer 28-10\n2026-11-16: invitación enviada (contacto previo verificado en Gmail: oferta 28-10 y seguimiento 09-11)",
       "Organization": "FUNSALUD",
       "Segment": "crm",
-      "Status": "Queued"
+      "Sent_At": "2026-11-16T18:26:00.000Z",
+      "Status": "Sent"
     },
     "id": "recjAvzzhNaFe3uGh"
   },
@@ -4823,12 +4858,14 @@
       "Country": "Brasil",
       "Email": "camila.mazzotto@abril.com.br",
       "First_Name": "Camila",
+      "Gmail_Message_ID": "1a1e59ae85ab370c",
       "Language": "pt",
       "Name": "Camila Mazzotto",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)",
+      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-16: invitación enviada",
       "Organization": "Veja",
       "Segment": "press",
-      "Status": "Queued"
+      "Sent_At": "2026-11-16T18:26:00.000Z",
+      "Status": "Sent"
     },
     "id": "reclRmfLRaoSzjKZF"
   },
@@ -5191,12 +5228,14 @@
       "Country": "Brasil",
       "Email": "rebeca.freitas@ieps.org.br",
       "First_Name": "Rebeca",
+      "Gmail_Message_ID": "1a1e59df8e711bf7",
       "Language": "pt",
       "Name": "Rebeca Freitas",
-      "Notes": "Source: gmail-2026-11-01; Diabetes Control Gap report offer 28-10",
+      "Notes": "Source: gmail-2026-11-01; Diabetes Control Gap report offer 28-10\n2026-11-16: invitación enviada (contacto previo verificado en Gmail: oferta 28-10 y seguimiento 09-11)",
       "Organization": "IEPS",
       "Segment": "crm",
-      "Status": "Queued"
+      "Sent_At": "2026-11-16T18:26:00.000Z",
+      "Status": "Sent"
     },
     "id": "recog9lYvdVZarjIY"
   },
@@ -5209,11 +5248,11 @@
       "Gmail_Message_ID": "1a1acf4d06bf7965",
       "Language": "es",
       "Name": "Jorge Solórzano Torres",
-      "Notes": "Source: Press & PR Contacts (Pharma media office)\n2026-11-05: invitación enviada\n2026-11-13: recordatorio NO confirmado (Gmail pidió re-autenticar en el envío); sigue Sent, verificar en Enviados antes de reintentar",
+      "Notes": "Source: Press & PR Contacts (Pharma media office)\n2026-11-05: invitación enviada\n2026-11-13: recordatorio NO confirmado (Gmail pidió re-autenticar en el envío); sigue Sent, verificar en Enviados antes de reintentar\n2026-11-16: verificado sin recordatorio previo en Enviados; recordatorio enviado",
       "Organization": "Abbott",
       "Segment": "press",
       "Sent_At": "2026-11-05T18:25:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "recopfog0pQ78QLID"
   },
@@ -5394,11 +5433,11 @@
       "Gmail_Message_ID": "1a1acf51bcc9b058",
       "Language": "en",
       "Name": "Antonis Papasolomontos",
-      "Notes": "Source: Press & PR Contacts (Pharma media office)\n2026-11-05: invitación enviada\n2026-11-13: recordatorio NO confirmado (Gmail pidió re-autenticar en el envío); sigue Sent, verificar en Enviados antes de reintentar",
+      "Notes": "Source: Press & PR Contacts (Pharma media office)\n2026-11-05: invitación enviada\n2026-11-13: recordatorio NO confirmado (Gmail pidió re-autenticar en el envío); sigue Sent, verificar en Enviados antes de reintentar\n2026-11-16: verificado sin recordatorio previo en Enviados; recordatorio enviado",
       "Organization": "AbbVie",
       "Segment": "press",
       "Sent_At": "2026-11-05T18:25:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "recqWj8jqaHN84Tpc"
   },
@@ -5470,11 +5509,11 @@
       "Gmail_Message_ID": "1a1acf53a95c532c",
       "Language": "en",
       "Name": "Rachel Roubein",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada\n2026-11-13: recordatorio NO confirmado (Gmail pidió re-autenticar en el envío); sigue Sent, verificar en Enviados antes de reintentar",
+      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada\n2026-11-13: recordatorio NO confirmado (Gmail pidió re-autenticar en el envío); sigue Sent, verificar en Enviados antes de reintentar\n2026-11-16: verificado sin recordatorio previo en Enviados; recordatorio enviado",
       "Organization": "The Washington Post",
       "Segment": "press",
       "Sent_At": "2026-11-05T18:25:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "recrXkmS7OUmPuZqm"
   },
@@ -5500,11 +5539,11 @@
       "Gmail_Message_ID": "1a1a7cb21d0780cd",
       "Language": "es",
       "Name": "Mario Alanís Garza",
-      "Notes": "Source: Voices Pipeline (Stage=Replied)\n2026-11-01: First_Name 'Mario' cleared (generic/role inbox; greeting without name).\n2026-11-04: invitación enviada\n2026-11-12: recordatorio NO enviado (envío bloqueado por el filtro de permisos de la tarea automática); sigue Sent",
+      "Notes": "Source: Voices Pipeline (Stage=Replied)\n2026-11-01: First_Name 'Mario' cleared (generic/role inbox; greeting without name).\n2026-11-04: invitación enviada\n2026-11-12: recordatorio NO enviado (envío bloqueado por el filtro de permisos de la tarea automática); sigue Sent\n2026-11-16: recordatorio enviado",
       "Organization": "CIRS (Senior Consultant LatAm); ex COFEPRIS",
       "Segment": "voices",
       "Sent_At": "2026-11-04T18:23:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "recragF0KRLJacmCE"
   },
@@ -5514,12 +5553,14 @@
       "Country": "Global",
       "Email": "laura.romby@sanofi.com",
       "First_Name": "Laura",
+      "Gmail_Message_ID": "1a1e59bf0d586fce",
       "Language": "en",
       "Name": "Laura Romby",
-      "Notes": "Source: Press & PR Contacts (Pharma media office)",
+      "Notes": "Source: Press & PR Contacts (Pharma media office)\n2026-11-16: invitación enviada",
       "Organization": "Sanofi",
       "Segment": "press",
-      "Status": "Queued"
+      "Sent_At": "2026-11-16T18:26:00.000Z",
+      "Status": "Sent"
     },
     "id": "recrxSaqVTXWZ7vcg"
   },
@@ -5858,12 +5899,14 @@
       "Country": "Argentina",
       "Email": "danielmaceira@cedes.org",
       "First_Name": "Daniel",
+      "Gmail_Message_ID": "1a1e59ad6b3a3de5",
       "Language": "es",
       "Name": "Daniel Maceira",
-      "Notes": "Source: Voices Pipeline (pospuso la entrevista a 2027, 12-11-2026); cargado a pedido de Fer 2026-11-12. Tutea.",
+      "Notes": "Source: Voices Pipeline (pospuso la entrevista a 2027, 12-11-2026); cargado a pedido de Fer 2026-11-12. Tutea.\n2026-11-16: invitación enviada",
       "Organization": "CEDES",
       "Segment": "voices",
-      "Status": "Queued"
+      "Sent_At": "2026-11-16T18:26:00.000Z",
+      "Status": "Sent"
     },
     "id": "recvpcsFh7XI1WKKR"
   },
@@ -5936,11 +5979,11 @@
       "Gmail_Message_ID": "1a1acf575699b418",
       "Language": "es",
       "Name": "Esteban Salazar Herrada",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada\n2026-11-13: recordatorio NO confirmado (Gmail pidió re-autenticar en el envío); sigue Sent, verificar en Enviados antes de reintentar",
+      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada\n2026-11-13: recordatorio NO confirmado (Gmail pidió re-autenticar en el envío); sigue Sent, verificar en Enviados antes de reintentar\n2026-11-16: verificado sin recordatorio previo en Enviados; recordatorio enviado",
       "Organization": "Infobae Perú",
       "Segment": "press",
       "Sent_At": "2026-11-05T18:25:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "recwhA5MRGuoERGgC"
   },
@@ -6044,11 +6087,11 @@
       "Gmail_Message_ID": "1a1acf597346bedc",
       "Language": "en",
       "Name": "Nyah Phengsitthy",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada",
+      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada\n2026-11-16: recordatorio enviado",
       "Organization": "Bloomberg Law",
       "Segment": "press",
       "Sent_At": "2026-11-05T18:25:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "recxhcZFakvWMANVJ"
   },
@@ -6058,12 +6101,14 @@
       "Country": "Chile",
       "Email": "ginostock@eldesconcierto.cl",
       "First_Name": "Gino",
+      "Gmail_Message_ID": "1a1e59bfd636301a",
       "Language": "es",
       "Name": "Gino Stock",
-      "Notes": "Source: gmail-2026-11-01; replied to editor@ 19-10 (redirected to editor-in-chief)",
+      "Notes": "Source: gmail-2026-11-01; replied to editor@ 19-10 (redirected to editor-in-chief)\n2026-11-16: invitación enviada",
       "Organization": "El Desconcierto",
       "Segment": "press",
-      "Status": "Queued"
+      "Sent_At": "2026-11-16T18:26:00.000Z",
+      "Status": "Sent"
     },
     "id": "recxkFUxyS1QyIpk1"
   },
@@ -6088,12 +6133,14 @@
       "Country": "Chile",
       "Email": "franciscasoto@ciperchile.cl",
       "First_Name": "Francisca",
+      "Gmail_Message_ID": "1a1e59bf5a5c9511",
       "Language": "es",
       "Name": "Francisca Soto",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)",
+      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-16: invitación enviada",
       "Organization": "CIPER Chile",
       "Segment": "press",
-      "Status": "Queued"
+      "Sent_At": "2026-11-16T18:26:00.000Z",
+      "Status": "Sent"
     },
     "id": "recxte4pvD8wzJHTl"
   },
@@ -6133,12 +6180,14 @@
     "fields": {
       "Email": "Silvanalay@fifarma.org",
       "First_Name": "Silvana",
+      "Gmail_Message_ID": "1a1e59d03f40c720",
       "Language": "es",
       "Name": "Silvana Lay",
-      "Notes": "Source: CRM Prospects (Approval=Approved)",
+      "Notes": "Source: CRM Prospects (Approval=Approved)\n2026-11-16: invitación enviada (contacto previo verificado en Gmail: mail 19-10)",
       "Organization": "FIFARMA",
       "Segment": "crm",
-      "Status": "Queued"
+      "Sent_At": "2026-11-16T18:26:00.000Z",
+      "Status": "Sent"
     },
     "id": "recyWyBN1tVAmwMxZ"
   },
@@ -6249,11 +6298,13 @@
     "fields": {
       "Country": "Chile",
       "Email": "cleighton@elmostrador.cl",
+      "Gmail_Message_ID": "1a1e59bf73b361a9",
       "Language": "es",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)",
+      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-16: invitación enviada",
       "Organization": "El Mostrador",
       "Segment": "press",
-      "Status": "Queued"
+      "Sent_At": "2026-11-16T18:26:00.000Z",
+      "Status": "Sent"
     },
     "id": "recz4rbPXfExUeI7I"
   },

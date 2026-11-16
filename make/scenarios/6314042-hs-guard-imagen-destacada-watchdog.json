@@ -3227,7 +3227,7 @@
     "input": [],
     "output": []
   },
-  "isActive": false,
+  "isActive": true,
   "name": "HS — Guard imagen destacada (watchdog)",
   "scheduling": {
     "interval": 3600,

@@ -309,17 +309,6 @@
   },
   {
     "data": {
-      "notes": "- sin fallos de acceso, aprobaciones ni bloqueos\n- aviso: REPORT-20261009-0659 y REPORT-20261001-0658 siguen 'iniciada, sin terminar' (corridas viejas caidas, ya reportadas)\n- run_id 20261017-0658\n- borradores vistos 14 (mismos que ayer); excluidos 5 (Weekly 36411, 36146, 35939, 35772; post 36041); skipped backlog 7 sin cambios (wp_modified igual); 36441 sigue needs_edit y 36447 sigue hold, ambos sin edicion (wp_modified igual); sin locks in_review; pendientes para manana 0\n- 0 borradores pendientes, no se reviso ninguno\n- limpieza: nada que borrar (Drive tiene 36441 y 36447, vigentes; sin REPORT ni registros de mas de 30 dias)\nPara aplicar y publicar, decile a Claude en un chat: aplicar gate <ID>. La sesión que aplique relee el post, rechaza si su modified es distinto del wp_modified del archivo, aplica los reemplazos con código, verifica el diff y publica solo con OK de Fer.",
-      "run_id": "20261017-0658",
-      "state": "passed",
-      "title": "REPORT",
-      "updated_at": "2026-10-17T06:58:53-04:00",
-      "wp_modified": null
-    },
-    "key": "REPORT-20261017-0658"
-  },
-  {
-    "data": {
       "notes": "- sin fallos de acceso, aprobaciones ni bloqueos\n- aviso: 36447 (Garcia Escorza, estaba en hold) ahora esta programado (future, modified 17-10 15:15); el gate no lo re-reviso. REPORT-20261009-0659 y -20261001-0658 siguen 'sin terminar' (ya reportadas)\n- run_id 20261018-0658\n- borradores vistos 15; excluidos 5 (Weekly 36411, 36146, 35939, 35772; post 36041); skipped backlog 7 sin cambios; 36441 sigue passed (aplicado con Fer 17-10, sin edicion); revisados 2 (nuevos); pendientes para manana 0\n- 36488 Mexico's Mental Health Budget Gap: needs_edit\n  - 12 correcciones de hecho (r1, sin r2); titulo y lead sin tocar; todas con 1 coincidencia, diff OK\n  - los ~5M son prevalencia nacional, no caseload de IMSS (metadesc e Industry)\n  - el 77.9% es de PAHO, no del Atlas 2024 (x2); en metadesc 'above 77.9%'\n  - suicidio: 'up 17% since 2000' (no 2000-2021)\n  - jovenes: ansiedad, conducta y desarrollo (no solo ansiedad)\n  - '2.1% across multiple budget cycles' sin sustento -> reescrito con el ~3% de CD60/9\n  - borrado: rango 0.2% Bolivia / 8.6% Suriname (sin fuente) y 'within that range'\n  - sin verificar: kicker 17-10 sobre nota Infobae del 20-05; 60% ansiedad digital; 42% (Atlas no leido); celda Mexico vacia en la tabla\n  - postura: no publicar tal cual; publicable tras aplicar los 13 y resolver la fecha\n  - Drive: https://drive.google.com/file/d/1RKvJXmrzvVbiZhev-W7ecAZusdlgm6c2/view\n- 36460 Andres Pichon-Riviere (VOICES, AR): needs_edit\n  - 2 correcciones de hecho; una en la bio: INAHTA 2010-2014 (no 2011)\n  - borrado: grant BID de $800.000 (sin fuente)\n  - metadesc: expandir IECS; se agrega hs-sources (8 URLs)\n  - sin verificar: co-direccion del centro OPS/OMS, 'principal researcher' CONICET, cita de abril 2025, 'still not operating', FSR/recaudacion, objecion CILFA, RedARETS 2012\n  - postura: publicable tras aplicar los 2 y hs-sources\n  - Drive: https://drive.google.com/file/d/1yBsl3_H66BZj3FXPYs2lyPjhO7GHcCEi/view\n- limpieza: a la papelera 36447-2026-10-15T16:45:11-hallazgos.md; nada mas\nPara aplicar y publicar, decile a Claude en un chat: aplicar gate <ID>. La sesión que aplique relee el post, rechaza si su modified es distinto del wp_modified del archivo, aplica los reemplazos con código, verifica el diff y publica solo con OK de Fer.",
       "run_id": "20261018-0658",
       "state": "passed",
@@ -642,5 +631,16 @@
       "updated_at": "2026-11-15T06:59:30-05:00"
     },
     "key": "REPORT-20261115-0658"
+  },
+  {
+    "data": {
+      "notes": "Sin fallos de acceso, sin aprobaciones pedidas, sin bloqueos, ningun post en tercer fallo.\n- run_id 20261116-0658. 0 borradores pendientes.\n- Borradores vistos 6, excluidos 0, skipped backlog nuevos 0, pendientes para manana 0.\n- Sin cambios desde el ultimo gate (mismo wp_modified): 37022, 37017, 37012, 37007 (needs_edit 14-11), 36926 Sepulveda (needs_edit 13-11), 36868 Rusfertide (skipped por Fer).\n- Ojo: el ultimo borrador nuevo es del 14-11 15:10; el 15 y el 16-11 el Publisher no dejo ninguno (posible vuelta del falso duplicado del modulo 100).\n- Limpieza: borrado REPORT-20261017-0658 (>30 dias); a la papelera de Drive los hallazgos de 37002 y 36886 (ya no estan en draft). Registros 36600/36615/36636 quedan en pending pero sus posts ya no son draft (se limpian al pasar 30 dias).\n- Data store 161375: 61 registros, lectura completa.\nPara aplicar y publicar, decile a Claude en un chat: aplicar gate <ID>. La sesion que aplique relee el post, rechaza si su modified es distinto del wp_modified del archivo, aplica los reemplazos con codigo, verifica el diff y publica solo con OK de Fer.",
+      "run_id": "20261116-0658",
+      "state": "skipped",
+      "title": "REPORT",
+      "updated_at": "2026-11-16T07:01:00-05:00",
+      "wp_modified": null
+    },
+    "key": "REPORT-20261116-0658"
   }
 ]

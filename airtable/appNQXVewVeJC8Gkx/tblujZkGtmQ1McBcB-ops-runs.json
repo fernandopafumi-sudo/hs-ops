@@ -117,6 +117,19 @@
     "id": "rec7IhtBok3vDVicI"
   },
   {
+    "createdTime": "2026-11-16T14:01:10.000Z",
+    "fields": {
+      "Channel": "sponsors",
+      "Date": "2026-11-16",
+      "Items_Pending": 13,
+      "Notes": "Invitaciones confirmadas por Fer: 0. Aceptaciones: n/d. Pendientes estimadas: 0. Corridas seguidas con propuesta sin OK: 4 (10-11, 11-11, 12-11, 16-11).\nCandidatos 16-11 (nombre | URL):\n1. Silvana Kurkdjian (BMS AR/CL) | https://linkedin.com/in/silvana-kurkdjian-5664b32a\n2. Cristiane Coelho (Glenmark BR) | https://linkedin.com/in/cristiane-coelho-72b63615\n3. Cristiano Kok (Mundipharma BR) | https://linkedin.com/in/cristianokok\n4. Alessa Costa (Astellas MX) | https://linkedin.com/in/alessa-costa-514044a\n5. Bertha Mancilla (Pint Pharma MX) | https://linkedin.com/in/berthamancilla\n6. Rodrigo Ruiz Mingramm (Stendhal MX) | https://linkedin.com/in/rrmingramm\n7. Alejandro Sánchez Ingénito (Eurofarma AR) | https://linkedin.com/in/alejandro-s%C3%A1nchez-ing%C3%A9nito-7730b2a\n8. Leonardo J. (Ferring BR, apellido sin confirmar) | https://linkedin.com/in/leonardojorge\n9. Yugo Eduardo Takahashi (Theramex) | https://linkedin.com/in/yugo-eduardo-takahashi-6a968129\n10. Francisco Hernandez (Medtronic LatAm) | https://linkedin.com/in/francisco-hernandez-865615a\n11. Rafael Gamez (Olympus LatAm) | https://linkedin.com/in/rafael-gamez-45363418\n12. Carmen Alonso (Zimmer Biomet LatAm) | https://linkedin.com/in/carmen-alonso-13a0531a\n13. Diego Amaya (Eitan Medical) | https://linkedin.com/in/diego-amaya-47671612",
+      "Run": "manana",
+      "Run_Key": "2026-11-16|manana|sponsors",
+      "Status": "ok"
+    },
+    "id": "rec7jETlc2IJVXJng"
+  },
+  {
     "createdTime": "2026-11-12T13:57:45.000Z",
     "fields": {
       "Channel": "voices",
@@ -245,6 +258,19 @@
       "Status": "sin novedades"
     },
     "id": "recEEjAuVWY88cySe"
+  },
+  {
+    "createdTime": "2026-11-16T14:01:10.000Z",
+    "fields": {
+      "Channel": "prensa",
+      "Date": "2026-11-16",
+      "Items_Pending": 0,
+      "Notes": "Sin respuestas nuevas. Borradores de agencias (Orcoyen, Bruna, Elsa, Natalia Montoya) salieron sin OK 13:56 UTC en el vaciado de borradores.",
+      "Run": "manana",
+      "Run_Key": "2026-11-16|manana|prensa",
+      "Status": "sin novedades"
+    },
+    "id": "recEKWtfUifv213mq"
   },
   {
     "createdTime": "2026-11-13T18:50:00.000Z",
@@ -507,6 +533,19 @@
     "id": "recSiHGVBV6reFhln"
   },
   {
+    "createdTime": "2026-11-16T14:01:10.000Z",
+    "fields": {
+      "Channel": "socios",
+      "Date": "2026-11-16",
+      "Items_Pending": 2,
+      "Notes": "5 nuevas (Abrasco, FMD, NAHH, ISPOR Perú, SOCHISAL). Los 3 borradores salieron sin OK 13:56 UTC antes de la revisión adversarial (FMD = NO ENVIAR). Batch T5-2026-11-16. Altas report_diabetes 0.",
+      "Run": "manana",
+      "Run_Key": "2026-11-16|manana|socios",
+      "Status": "ok"
+    },
+    "id": "recT2c9A8W8eSDu4y"
+  },
+  {
     "createdTime": "2026-11-12T13:57:45.000Z",
     "fields": {
       "Channel": "socios",
@@ -715,6 +754,19 @@
     "id": "recYpUIbgi4sqjVbo"
   },
   {
+    "createdTime": "2026-11-16T14:01:10.000Z",
+    "fields": {
+      "Channel": "voices",
+      "Date": "2026-11-16",
+      "Items_Pending": 5,
+      "Notes": "ALERTA: Levy y Llorca (programados en pausa) salieron 13:51 UTC; los 5 borradores de toques creados hoy (Cid, Rocha, Vianna, Socal, García) salieron sin OK 13:56 UTC en el vaciado de borradores. Decisiones pendientes: McClellan, Levy, Galán Published, Vecino-Ortiz.",
+      "Run": "manana",
+      "Run_Key": "2026-11-16|manana|voices",
+      "Status": "ok"
+    },
+    "id": "recYs7V4QGXmUM7MI"
+  },
+  {
     "createdTime": "2026-11-09T14:04:48.000Z",
     "fields": {
       "Channel": "sponsors",
@@ -869,6 +921,19 @@
       "Status": "sin novedades"
     },
     "id": "recgP8K8TEGbNOqse"
+  },
+  {
+    "createdTime": "2026-11-16T14:01:10.000Z",
+    "fields": {
+      "Channel": "comentarios",
+      "Date": "2026-11-16",
+      "Items_Pending": 7,
+      "Notes": "4 Proposed (PAHO, Interfarma, AFIDRO, FDA) tras revisión adversarial; 3 personas nuevas; 3 Approved del 12-11 expiraron en cola; 2 Proposed expirados. Sin Published desde 21-10.",
+      "Run": "manana",
+      "Run_Key": "2026-11-16|manana|comentarios",
+      "Status": "ok"
+    },
+    "id": "recgP8b63oyrM3wMc"
   },
   {
     "createdTime": "2026-11-12T13:57:45.000Z",
@@ -1118,6 +1183,19 @@
     "id": "recp6ab3oXhzfcavj"
   },
   {
+    "createdTime": "2026-11-16T18:49:06.000Z",
+    "fields": {
+      "Channel": "comentarios",
+      "Date": "2026-11-16",
+      "Items_Pending": 4,
+      "Notes": "Paso A: 0 Approved en cola, 0 Proposed vencidos (los 4 Proposed son de hoy: PAHO, Interfarma, AFIDRO, FDA). Métricas: ningún Published en ventana 2-7 días (último Published 21-10). Sin email. Ejecutado por el principal, sin subagente.",
+      "Run": "tarde",
+      "Run_Key": "2026-11-16|tarde|comentarios",
+      "Status": "sin novedades"
+    },
+    "id": "recpFhnAz7LPKQmmA"
+  },
+  {
     "createdTime": "2026-11-04T13:56:16.000Z",
     "fields": {
       "Channel": "sponsors",
@@ -1181,6 +1259,19 @@
       "Status": "ok"
     },
     "id": "recr66Eo3HWos3Whe"
+  },
+  {
+    "createdTime": "2026-11-16T14:01:10.000Z",
+    "fields": {
+      "Channel": "grupos",
+      "Date": "2026-11-16",
+      "Items_Pending": 7,
+      "Notes": "Life Science Network, nivel B, BMS–A.C.Camargo riesgo compartido. Last posted anterior 2026-11-03. 6 posts previos sin confirmar.",
+      "Run": "manana",
+      "Run_Key": "2026-11-16|manana|grupos",
+      "Status": "ok"
+    },
+    "id": "recsLPkLxpkzwImQA"
   },
   {
     "createdTime": "2026-11-02T14:27:06.000Z",

@@ -384,11 +384,11 @@
       "Fecha última nota": "2026-09-22",
       "Idioma": "ES",
       "Name": "María C. Suárez",
-      "Notes": "Multa SIC por sobreprecios en 47 medicamentos; retos de salud del nuevo gobierno. Ex W Radio y Semana.",
+      "Notes": "Multa SIC por sobreprecios en 47 medicamentos; retos de salud del nuevo gobierno. Ex W Radio y Semana.\n2026-11-16: REBOTE (550, dirección no encontrada) al mandar Voices Galán. No reenviar a msuarez@bloomberglinea.com; buscar otro email.",
       "Organization": "Bloomberg Línea Colombia",
       "Role": "Periodista",
       "Source_URL": "https://www.bloomberglinea.com/author/maria-c-suarez/",
-      "Status": "New",
+      "Status": "Not relevant",
       "Type": "Prensa especializada",
       "Última nota firmada": "https://www.bloomberglinea.com/latinoamerica/colombia/sic-confirma-multa-de-cop4614-millones-por-sobreprecios-en-47-medicamentos-cuales-costaron-hasta-7001-mas/"
     },
@@ -562,10 +562,11 @@
       "Email": "framir@portafolio.co",
       "Email verificado": true,
       "Name": "Francisco Miranda Hamburger",
-      "Notes": "2026-11-14: email en staff de la revista Portafolio (may-2025).",
+      "Notes": "2026-11-14: email en staff de la revista Portafolio (may-2025).\n2026-11-16: REBOTE (mensaje bloqueado por el servidor, Gmail DSN) al mandar Voices Galán. No reenviar a framir@portafolio.co; buscar otro email.",
       "Organization": "Portafolio",
       "Role": "Director",
       "Source_URL": "https://pre.portafolio.co/files/2026/02/18/PORTAFOLIO_REVISTA-69-20250522.pdf",
+      "Status": "Not relevant",
       "Type": "Prensa especializada"
     },
     "id": "rec6PoHcwQwrDVTw1"
@@ -767,9 +768,11 @@
       "Country": "Colombia",
       "Email": "elpulso@sanvicentefundacion.com",
       "Email verificado": true,
+      "Notes": "2026-11-16: REBOTE (550, dirección no encontrada) al mandar Voices Galán. No reenviar a esta casilla genérica; usar andrea.ochoa@sanvicentefundacion.com (no rebotó).",
       "Organization": "El Pulso (periódico de salud, Medellín)",
       "Role": "Casilla genérica",
       "Source_URL": "https://periodicoelpulso.com.co/324-septiembre-2025/colaboradores.php",
+      "Status": "Not relevant",
       "Type": "Prensa especializada"
     },
     "id": "rec8tHgPtcRxWlx4j"

@@ -31,14 +31,44 @@
         "Angulo acceso"
       ],
       "Date": "2026-11-12",
-      "Fer Edits": "post de LinkedIn a ubicar al publicar (corrida sin navegador; Post URL = nota web PAHO). Alternativa a la fila PAHO menopausia (recCaEmTtVCmslfoY? ver Proposed del 11-11): máx. 1 por cuenta por día. revisión adversarial (opus, 12-11): saqué el encuadre 'no publica precios / transparencia' (se leía como crítica a PAHO); 'PAHO expects' -> 'participating countries are expected'; 'in screening' no está en la fuente; HPV/HIV expandidas.",
+      "Fer Edits": "post de LinkedIn a ubicar al publicar (corrida sin navegador; Post URL = nota web PAHO). Alternativa a la fila PAHO menopausia (recCaEmTtVCmslfoY? ver Proposed del 11-11): máx. 1 por cuenta por día. revisión adversarial (opus, 12-11): saqué el encuadre 'no publica precios / transparencia' (se leía como crítica a PAHO); 'PAHO expects' -> 'participating countries are expected'; 'in screening' no está en la fuente; HPV/HIV expandidas.\n2026-11-16: expirado sin aprobar (>3 días en Proposed).",
       "HS Link": "https://healthsignals.news/brazil-lenacapavir-cabotegravir-hiv-prevention-price/",
       "Network": "LinkedIn",
       "Post Summary": "OPS cierra los primeros acuerdos regionales de acceso a pruebas moleculares de VPH vía Fondos Rotatorios; ahorro esperado 30-70%",
       "Post URL": "https://www.paho.org/en/news/11-11-2026-paho-secures-first-ever-region-wide-access-agreements-hpv-testing-across-latin",
-      "Status": "Proposed"
+      "Status": "Rejected"
     },
     "id": "rec1UO1ivU5qgK8Qy"
+  },
+  {
+    "createdTime": "2026-11-16T14:00:15.000Z",
+    "fields": {
+      "Account": "FDA",
+      "Comment": "FDA approved Gazyva (obinutuzumab) on November 13 for adults with primary membranous nephropathy at risk of disease progression, the first drug approved in the US specifically for the disease. In the open-label MAJESTY trial (142 adults), complete remission of proteinuria at week 104 was 36% with Gazyva versus 6% with tacrolimus. Brazil's Agência Nacional de Vigilância Sanitária (Anvisa) had already announced a new Gazyva indication for adults with the disease on November 5. Beyond remission at two years, what would Latin American payers need to see before covering it: long-term kidney function data or local real-world outcomes?\nhttps://healthsignals.news/category/therapy-areas/rare-genetic-diseases/?utm_source=linkedin&utm_medium=comment&utm_campaign=fda #HealthSignals",
+      "Date": "2026-11-16",
+      "Fer Edits": "Post de LinkedIn a ubicar al publicar; fit comercial bajo. revisión adversarial (opus, 16-11): fecha FDA 13-11 agregada; Anvisa 'a new indication' (no idéntica) y anterior; link a categoría enfermedades raras (existencia confirmada solo por índice Exa).",
+      "HS Link": "https://healthsignals.news/category/therapy-areas/rare-genetic-diseases/",
+      "Network": "LinkedIn",
+      "Post Summary": "FDA aprueba Gazyva para nefropatía membranosa primaria (13-11)",
+      "Post URL": "https://www.fda.gov/drugs/news-events-human-drugs/fda-approves-first-drug-treat-adults-primary-membranous-nephropathy",
+      "Status": "Proposed"
+    },
+    "id": "rec36qPfJoWC2LkNM"
+  },
+  {
+    "createdTime": "2026-11-16T14:00:15.000Z",
+    "fields": {
+      "Account": "PAHO",
+      "Comment": "Of the 18 countries at the Pan American Health Organization (PAHO) meeting in Panama City on cervical cancer elimination, 13 already use human papillomavirus (HPV) testing in national screening and can now buy the tests at a preferential price through the PAHO Revolving Fund. Price is one gate; the sessions also covered quality control for HPV laboratories and follow-up of women. Toward WHO's target of screening 70% of women with a high-performance test, what will set the pace in your country: test procurement, lab capacity or follow-up care? We covered how PAHO's Regional Revolving Funds also figure in access to long-acting HIV prevention:\nhttps://healthsignals.news/brazil-lenacapavir-cabotegravir-hiv-prevention-price/?utm_source=linkedin&utm_medium=comment&utm_campaign=paho #HealthSignals",
+      "Date": "2026-11-16",
+      "Fer Edits": "Post de LinkedIn a ubicar al publicar (fuente = nota web PAHO). revisión adversarial (opus, 16-11): PAHO expandido; 'same pooled-procurement mechanism' reemplazado por 'Regional Revolving Funds also figure in'; meta 70% atribuida a WHO.",
+      "HS Link": "https://healthsignals.news/brazil-lenacapavir-cabotegravir-hiv-prevention-price/",
+      "Network": "LinkedIn",
+      "Post Summary": "Reunión PAHO Panamá 11-13/11: 13 de 18 países con prueba VPH; compra vía Fondo Rotatorio",
+      "Post URL": "https://www.paho.org/en/news/13-11-2026-latin-american-countries-strengthen-vaccination-screening-and-access-technologies",
+      "Status": "Proposed"
+    },
+    "id": "rec4HUfqmJgGVqVaz"
   },
   {
     "createdTime": "2026-10-17T18:02:50.000Z",
@@ -95,12 +125,12 @@
         "Angulo acceso"
       ],
       "Date": "2026-11-11",
-      "Fer Edits": "post de LinkedIn a ubicar al publicar (corrida sin navegador; fuente = comunicado PAHO; si el post de PAHO está en español, traducir). revisión adversarial (opus, 11-11): acceso a tratamientos y equipos capacitados son 'condiciones necesarias' según la fuente, no 'gaps'; agregado ámbito ALC. Sin nota HS relacionada: link a la home. Fit comercial bajo.",
+      "Fer Edits": "post de LinkedIn a ubicar al publicar (corrida sin navegador; fuente = comunicado PAHO; si el post de PAHO está en español, traducir). revisión adversarial (opus, 11-11): acceso a tratamientos y equipos capacitados son 'condiciones necesarias' según la fuente, no 'gaps'; agregado ámbito ALC. Sin nota HS relacionada: link a la home. Fit comercial bajo.\n2026-11-16: expirado sin aprobar (>3 días en Proposed).",
       "HS Link": "https://healthsignals.news/",
       "Network": "LinkedIn",
       "Post Summary": "OPS pide fortalecer la atención de la menopausia: solo 10 de 33 países/territorios de ALC con guía nacional vigente (10-11)",
       "Post URL": "https://www.paho.org/en/news/10-11-2026-paho-calls-stronger-menopause-care-promote-healthy-aging-americas",
-      "Status": "Proposed"
+      "Status": "Rejected"
     },
     "id": "recCaEmTtVCmslfoY"
   },
@@ -135,12 +165,12 @@
         "Angulo acceso"
       ],
       "Date": "2026-11-10",
-      "Fer Edits": "post de LinkedIn a ubicar al publicar (corrida sin navegador; fuente = comunicado oficial gov.br/anvisa). revisión adversarial (opus, 10-11): SUS condicionado ('se houver incorporação') porque la semaglutida no está incorporada. Ojo: el subtítulo del comunicado dice 'obesidade' pero el cuerpo dice DM2; seguimos el cuerpo.\n2026-11-12: aprobado por Fer en el chat (ok comentarios 1 2 3 4), sin cambios.",
+      "Fer Edits": "post de LinkedIn a ubicar al publicar (corrida sin navegador; fuente = comunicado oficial gov.br/anvisa). revisión adversarial (opus, 10-11): SUS condicionado ('se houver incorporação') porque la semaglutida no está incorporada. Ojo: el subtítulo del comunicado dice 'obesidade' pero el cuerpo dice DM2; seguimos el cuerpo.\n2026-11-12: aprobado por Fer en el chat (ok comentarios 1 2 3 4), sin cambios.\n2026-11-16: expirado en cola (comunicado Anvisa del 10-11, >5 días sin publicarse).",
       "HS Link": "https://healthsignals.news/anvisa-clears-five-semaglutide-pens-as-generic-race-heats-up/",
       "Network": "LinkedIn",
       "Post Summary": "Anvisa (10-11): registra genérico de semaglutida y similar Loryvia (DM2), 22 canetas GLP-1 registradas en 2026",
       "Post URL": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-registra-duas-novas-canetas-de-semaglutida",
-      "Status": "Approved"
+      "Status": "Rejected"
     },
     "id": "recELkeqP1Cl3no2J"
   },
@@ -188,6 +218,21 @@
       "Top Third-Party Notes": "Post de 1h con 14 reacciones, 2 reposts y sin comentarios de terceros al leerlo."
     },
     "id": "recFlZQCOuAEXfyAw"
+  },
+  {
+    "createdTime": "2026-11-16T14:00:15.000Z",
+    "fields": {
+      "Account": "AFIDRO",
+      "Comment": "La Asociación de Laboratorios Farmacéuticos de Investigación y Desarrollo (AFIDRO) propone, para el Plan Nacional de Desarrollo 2026-2030, revisar con criterios técnicos la metodología de cálculo de la UPC (Unidad de Pago por Capitación) y asegurar la financiación y el pago oportuno de los presupuestos máximos. Otra pieza de la discusión es cómo se paga lo que entra al sistema: en entrevista con HealthSignals, Augusto Galán Sarmiento, director general de Así Vamos en Salud y exministro de Salud, plantea pasar del pago por precio unitario al pago por resultados, con esquemas tripartitos entre aseguradoras, operadores farmacéuticos e industria. ¿Qué indicador de resultado serviría para un primer acuerdo de ese tipo en Colombia?\nhttps://healthsignals.news/augusto-galan-sarmiento-pharmaceutical-policy-must-evolve-from-price-to-value/?utm_source=linkedin&utm_medium=comment&utm_campaign=afidro #HealthSignals",
+      "Date": "2026-11-16",
+      "Fer Edits": "Post de LinkedIn a ubicar al publicar. Riesgo político medio (balance de gobierno). revisión adversarial (opus, 16-11): Galán 'director general' y exministro; 'operadores farmacéuticos'; se aclara que es entrevista HS; AFIDRO expandido.",
+      "HS Link": "https://healthsignals.news/augusto-galan-sarmiento-pharmaceutical-policy-must-evolve-from-price-to-value/",
+      "Network": "LinkedIn",
+      "Post Summary": "Balance AFIDRO 100 días de gobierno; propuestas UPC y presupuestos máximos para el PND",
+      "Post URL": "https://afidro.org/2026/11/15/afidro-destaca-avances-en-salud-durante-los-primeros-100-dias-de-gobierno-y-llama-a-consolidar-soluciones-que-garanticen-la-continuidad-de-la-atencion/",
+      "Status": "Proposed"
+    },
+    "id": "recGuAVjdNMGQNByD"
   },
   {
     "createdTime": "2026-10-21T15:56:16.000Z",
@@ -323,12 +368,12 @@
         "Angulo LatAm"
       ],
       "Date": "2026-11-10",
-      "Fer Edits": "post de LinkedIn a ubicar al publicar (corrida sin navegador; fuente = comunicado oficial FDA). revisión adversarial (opus, 10-11): la advertencia es de clase, pregunta reformulada (no criterio farmacoeconómico entre moléculas); 'FDA is requiring' en vez de 'Communication requires'; agregado '15 probable events'; CCSS 'provide' no 'cover'. Chequear antes de publicar que la CCSS no anunció su decisión.\n2026-11-12: aprobado por Fer en el chat (ok comentarios 1 2 3 4), sin cambios. Chequeo CCSS 12-11: búsqueda web sin anuncio de decisión; nota HS del 02-11 dice que la CCSS no definió molécula.",
+      "Fer Edits": "post de LinkedIn a ubicar al publicar (corrida sin navegador; fuente = comunicado oficial FDA). revisión adversarial (opus, 10-11): la advertencia es de clase, pregunta reformulada (no criterio farmacoeconómico entre moléculas); 'FDA is requiring' en vez de 'Communication requires'; agregado '15 probable events'; CCSS 'provide' no 'cover'. Chequear antes de publicar que la CCSS no anunció su decisión.\n2026-11-12: aprobado por Fer en el chat (ok comentarios 1 2 3 4), sin cambios. Chequeo CCSS 12-11: búsqueda web sin anuncio de decisión; nota HS del 02-11 dice que la CCSS no definió molécula.\n2026-11-16: expirado en cola (comunicado FDA del 09-11, >5 días sin publicarse).",
       "HS Link": "https://healthsignals.news/costa-rica-ccss-glp-1-coverage-diabetes-obesity/",
       "Network": "LinkedIn",
       "Post Summary": "FDA DSC (09-11): todos los GLP-1 RA agregan riesgo potencial de NAION en Warnings and Precautions; 6.4 vs 3.8/100k PY",
       "Post URL": "https://www.fda.gov/drugs/drug-safety-communications/fda-requires-safety-labeling-changes-glucagon-peptide-1-receptor-agonists-glp-1-ras-due-potential",
-      "Status": "Approved"
+      "Status": "Rejected"
     },
     "id": "recQfkOWblm6fISIP"
   },
@@ -435,12 +480,12 @@
         "Angulo LatAm"
       ],
       "Date": "2026-11-11",
-      "Fer Edits": "post de LinkedIn a ubicar al publicar (corrida sin navegador; fuente = comunicado FDA). revisión adversarial (opus, 11-11): 'first ... approved in the U.S.' (China NMPA lo aprobó el 26-10); agregado 'mild-to-moderate'; 'not approved for AF' en vez de 'excludes'; pregunta reformulada (se suma a la antiagregación, no la reemplaza); link a nota PAHO trastornos neurológicos. Sería el 3er comentario FDA de la semana (tope).\n2026-11-12: aprobado por Fer en el chat (ok comentarios 1 2 3 4), sin cambios. Publicar en un día distinto al de FDA NAION (máx. 1 por cuenta por día).",
+      "Fer Edits": "post de LinkedIn a ubicar al publicar (corrida sin navegador; fuente = comunicado FDA). revisión adversarial (opus, 11-11): 'first ... approved in the U.S.' (China NMPA lo aprobó el 26-10); agregado 'mild-to-moderate'; 'not approved for AF' en vez de 'excludes'; pregunta reformulada (se suma a la antiagregación, no la reemplaza); link a nota PAHO trastornos neurológicos. Sería el 3er comentario FDA de la semana (tope).\n2026-11-12: aprobado por Fer en el chat (ok comentarios 1 2 3 4), sin cambios. Publicar en un día distinto al de FDA NAION (máx. 1 por cuenta por día).\n2026-11-16: expirado en cola (comunicado FDA del 09-11, >5 días sin publicarse).",
       "HS Link": "https://healthsignals.news/paho-study-470-million-in-the-americas-live-with-a-neurological-disorder/",
       "Network": "LinkedIn",
       "Post Summary": "FDA aprueba Sunharbo (asundexian, Bayer), primer inhibidor del factor XIa en EE.UU., prevención de ACV tras ACV/TIA (09-11)",
       "Post URL": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-factor-xla-inhibitor-help-prevent-stroke-certain-adults-high-risk",
-      "Status": "Approved"
+      "Status": "Rejected"
     },
     "id": "recWAcZWymwwMDqFj"
   },
@@ -650,6 +695,21 @@
       "Status": "Rejected"
     },
     "id": "recplIXW2wY42reMF"
+  },
+  {
+    "createdTime": "2026-11-16T14:00:15.000Z",
+    "fields": {
+      "Account": "Interfarma",
+      "Comment": "No Rio Health Forum, Renato Porto, presidente-executivo da Interfarma, apontou que cerca de 57% dos medicamentos objeto de judicialização já teriam sido incorporados ao Sistema Único de Saúde (SUS), mas enfrentam dificuldades para chegar efetivamente à população. Numa etapa anterior da cadeia, o registro sanitário, vimos algo parecido com as canetas de semaglutida: a aprovação na Agência Nacional de Vigilância Sanitária (Anvisa) não equivale a prateleira abastecida. Entre a incorporação e a entrega ao paciente (protocolo clínico, compra, distribuição), que etapa teria mais a ganhar com um prazo acompanhado publicamente?\nhttps://healthsignals.news/anvisa-clears-five-semaglutide-pens-as-generic-race-heats-up/?utm_source=linkedin&utm_medium=comment&utm_campaign=interfarma #HealthSignals",
+      "Date": "2026-11-16",
+      "Fer Edits": "Post de LinkedIn a ubicar al publicar. revisión adversarial (opus, 16-11): la analogía registro Anvisa = incorporación SUS era engañosa; ahora se presenta como etapa anterior de la cadena; molécula nombrada; Anvisa expandida.",
+      "HS Link": "https://healthsignals.news/anvisa-clears-five-semaglutide-pens-as-generic-race-heats-up/",
+      "Network": "LinkedIn",
+      "Post Summary": "Interfarma en Rio Health Forum: ~57% de judicializados ya incorporados al SUS",
+      "Post URL": "https://www.interfarma.org.br/acesso-inovacao-e-pesquisa-clinica-marcam-participacao-da-interfarma-no-rio-health-forum-2026/",
+      "Status": "Proposed"
+    },
+    "id": "recqJ43PgimITavET"
   },
   {
     "createdTime": "2026-10-30T13:02:27.000Z",

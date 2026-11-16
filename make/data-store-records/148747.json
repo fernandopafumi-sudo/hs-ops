@@ -249,6 +249,14 @@
   },
   {
     "data": {
+      "batch": "SCAN-CONOSUR",
+      "headline": "Qué cambia con la nueva normativa de ANMAT para medicamentos bioequivalentes - Infobae",
+      "seen_at": "2026-11-16T12:01:19.381Z"
+    },
+    "key": "anmat~pharma regulation~2026-11-16"
+  },
+  {
+    "data": {
       "batch": "SCAN-REG-LATAM",
       "headline": "Anvisa seleciona projetos de novos medicamentos para iniciativa de aconselhamento regulatório",
       "seen_at": "2026-09-26T23:03:29.004Z"
@@ -729,6 +737,14 @@
   },
   {
     "data": {
+      "batch": "SCAN-STRUCTURAL",
+      "headline": "La CEPAL y el BID publican el primer estudio regional sobre la brecha de financiamiento para la biodiversidad en América Latina y el Caribe | CEPAL",
+      "seen_at": "2026-11-16T12:03:11.155Z"
+    },
+    "key": "cepal~health systems & disease burden~2026-11-16"
+  },
+  {
+    "data": {
       "batch": "SCAN-BR",
       "headline": "Cimed investe R$ 80 mi em nova marca de beleza sul-coreana - 12/10/2026 - Negócios - C-Level",
       "seen_at": "2026-10-12T11:00:31.292Z"
@@ -742,6 +758,14 @@
       "seen_at": "2026-10-12T11:00:39.907Z"
     },
     "key": "cimed~market access~2026-10-12"
+  },
+  {
+    "data": {
+      "batch": "SCAN-DEALS-LATAM",
+      "headline": "Startup Clara recauda US$105 millones para llegar a más mercados",
+      "seen_at": "2026-11-16T12:01:49.097Z"
+    },
+    "key": "clara~digital health~2026-11-16"
   },
   {
     "data": {
@@ -774,6 +798,14 @@
       "seen_at": "2026-11-12T12:01:32.422Z"
     },
     "key": "cms~drug pricing~2026-11-12"
+  },
+  {
+    "data": {
+      "batch": "SCAN-USA",
+      "headline": "CMS locks in Medicare drug price negotiations for the long haul",
+      "seen_at": "2026-11-16T12:01:27.629Z"
+    },
+    "key": "cms~drug pricing~2026-11-16"
   },
   {
     "data": {
@@ -1290,6 +1322,14 @@
   {
     "data": {
       "batch": "SCAN-EVENTS",
+      "headline": "HLTH26: Apple kicks off 200K-person health AI study",
+      "seen_at": "2026-11-16T12:24:48.410Z"
+    },
+    "key": "evt~205cb33a2c33a83bc387a7faeda863bd"
+  },
+  {
+    "data": {
+      "batch": "SCAN-EVENTS",
       "headline": "DASL-HiCaP: Darolutamide Plus ADT and Radiation Therapy Improves MFS in Very High-Risk Localized Prostate Cancer",
       "seen_at": "2026-10-25T11:23:39.581Z"
     },
@@ -1390,6 +1430,14 @@
       "seen_at": "2026-10-28T11:23:12.927Z"
     },
     "key": "evt~5160c3956cd1280d2c006b26559a8a2f"
+  },
+  {
+    "data": {
+      "batch": "SCAN-EVENTS",
+      "headline": "GLP-1 receptor antagonist reduces post-bariatric hypoglycemia",
+      "seen_at": "2026-11-16T12:24:10.141Z"
+    },
+    "key": "evt~588f29695c2e9ddf0a82c0f5847f7644"
   },
   {
     "data": {
@@ -1538,6 +1586,14 @@
   {
     "data": {
       "batch": "SCAN-EVENTS",
+      "headline": "HLTH 2026: Complete coverage from Fierce Healthcare | Fierce Healthcare",
+      "seen_at": "2026-11-16T12:25:01.746Z"
+    },
+    "key": "evt~7dc992d4e7f98db16efcdbc327468475"
+  },
+  {
+    "data": {
+      "batch": "SCAN-EVENTS",
       "headline": "ESMO Congress: GU Cancers | ESMO Congress  | OncLive",
       "seen_at": "2026-10-27T11:23:18.268Z"
     },
@@ -1642,6 +1698,14 @@
   {
     "data": {
       "batch": "SCAN-EVENTS",
+      "headline": "GLP-1s cost-effective in US Military Health System",
+      "seen_at": "2026-11-16T12:24:03.890Z"
+    },
+    "key": "evt~c33a293efdb2b367b135a97532d7bbd7"
+  },
+  {
+    "data": {
+      "batch": "SCAN-EVENTS",
       "headline": "Olezarsen for Managing Severe Hypertriglyceridemia and Pancreatitis Risk",
       "seen_at": "2026-11-06T12:24:02.051Z"
     },
@@ -1718,6 +1782,14 @@
       "seen_at": "2026-11-08T12:24:16.596Z"
     },
     "key": "evt~ddb9fc3b5a47082fbfd0b376b8acc4e1"
+  },
+  {
+    "data": {
+      "batch": "SCAN-EVENTS",
+      "headline": "HLTH26: Noom's next move in metabolic health: A wearable",
+      "seen_at": "2026-11-16T12:24:54.524Z"
+    },
+    "key": "evt~dfb5bee2d8c67d2b64142f1f4d25d803"
   },
   {
     "data": {
@@ -1841,6 +1913,22 @@
   },
   {
     "data": {
+      "batch": "SCAN-MX",
+      "headline": "Farmacias Benavides anuncia un acuerdo definitivo para ser adquirida por Farmacias del Ahorro",
+      "seen_at": "2026-11-16T12:01:11.150Z"
+    },
+    "key": "farmacias benavides~m&a~2026-11-16"
+  },
+  {
+    "data": {
+      "batch": "SCAN-MX",
+      "headline": "Ni con Farmacias Benavides alcanza al Dr. Simi; Farmacias del Ahorro podrá llegar a poco más de 3,000 tiendas",
+      "seen_at": "2026-11-16T12:01:06.578Z"
+    },
+    "key": "farmacias del ahorro~m&a~2026-11-16"
+  },
+  {
+    "data": {
       "batch": "SCAN-FDA",
       "headline": "FDA Issues Final Guidance on Prescription Drug Apps and Software",
       "seen_at": "2026-10-21T16:10:51.825Z"
@@ -1942,6 +2030,14 @@
       "seen_at": "2026-11-12T12:01:08.143Z"
     },
     "key": "fonasa~ai healthcare~2026-11-12"
+  },
+  {
+    "data": {
+      "batch": "SCAN-JUDICIAL",
+      "headline": "El riesgo de morir por cáncer de mama - La Tercera",
+      "seen_at": "2026-11-16T12:01:37.053Z"
+    },
+    "key": "fonasa~market access~2026-11-16"
   },
   {
     "data": {
@@ -2126,6 +2222,14 @@
       "seen_at": "2026-10-21T15:55:32.196Z"
     },
     "key": "gobierno de la ciudad de mexico~public health~2026-10-21"
+  },
+  {
+    "data": {
+      "batch": "SCAN-MX",
+      "headline": "Sheinbaum anuncia ahorro de casi 70,000 millones de pesos en compra de medicamentos",
+      "seen_at": "2026-11-16T12:01:15.115Z"
+    },
+    "key": "gobierno de mexico~drug pricing~2026-11-16"
   },
   {
     "data": {
@@ -2561,6 +2665,14 @@
   },
   {
     "data": {
+      "batch": "SCAN-DEALS-LATAM",
+      "headline": "Itaú compra la startup brasileña de IA NeoSpace por US$580 millones para personalizar sus servicios",
+      "seen_at": "2026-11-16T12:01:56.539Z"
+    },
+    "key": "itaú unibanco~m&a~2026-11-16"
+  },
+  {
+    "data": {
       "batch": "SCAN-USA",
       "headline": "J&J to hospitals: Submit claims data or lose 340B pricing",
       "seen_at": "2026-09-12T15:30:23.553Z"
@@ -2630,6 +2742,14 @@
       "seen_at": "2026-11-09T12:02:46.484Z"
     },
     "key": "laboratorios elifarma~market access~2026-11-09"
+  },
+  {
+    "data": {
+      "batch": "SCAN-ANDINA",
+      "headline": "Laboratorios Siegfried Colombia: una apuesta por la innovación y la producción local con visión latina  - Semana",
+      "seen_at": "2026-11-16T12:01:23.327Z"
+    },
+    "key": "laboratorios siegfried~manufacturing~2026-11-16"
   },
   {
     "data": {
@@ -3145,6 +3265,14 @@
   },
   {
     "data": {
+      "batch": "SCAN-STRUCTURAL",
+      "headline": "Financiamento dos cuidados de saúde pelo governo e pelos planos de seguro de saúde obrigatórios: Panorama da Saúde: América Latina e Caribe 2026",
+      "seen_at": "2026-11-16T12:02:25.141Z"
+    },
+    "key": "oecd~health systems & disease burden~2026-11-16"
+  },
+  {
+    "data": {
       "batch": "SCAN-MX",
       "headline": "OncoBayes avanza con OB-001 para abordar la resistencia a ADC y la penetración cerebral de TKI",
       "seen_at": "2026-10-07T13:02:37.613Z"
@@ -3470,6 +3598,14 @@
       "seen_at": "2026-11-14T16:52:51.936Z"
     },
     "key": "pan american health organization~health systems & disease burden~2026-11-14"
+  },
+  {
+    "data": {
+      "batch": "SCAN-STRUCTURAL",
+      "headline": "Countries in the Americas Advance a Roadmap to Strengthen Diagnosis and Care for People with Dementia - PAHO/WHO | Pan American Health Organization",
+      "seen_at": "2026-11-16T12:02:33.684Z"
+    },
+    "key": "pan american health organization~health systems & disease burden~2026-11-16"
   },
   {
     "data": {
@@ -4454,6 +4590,14 @@
       "seen_at": "2026-11-09T12:05:18.551Z"
     },
     "key": "zylox-tonbridge medical technology~m&a~2026-11-09"
+  },
+  {
+    "data": {
+      "batch": "SCAN-DEALS-LATAM",
+      "headline": "Zylox-Tonbridge and GL Capital Announce Strategic Investment in LifeTech Scientific to Build a Leading Vascular and Structural Heart Intervention Platform",
+      "seen_at": "2026-11-16T12:01:53.020Z"
+    },
+    "key": "zylox-tonbridge medical technology~m&a~2026-11-16"
   },
   {
     "data": {

@@ -37,7 +37,7 @@ Regenerar con `python3 scripts/gen_ids.py` después de cada backup. Las referenc
 | 6251400 | HS - Scanner rows snapshot (last batch) | ON | on-demand | 148918 HS Queue Snapshot |  |  | builtin, datastore, google-sheets |
 | 6263946 | HS — SEO Rank Tracker (GSC weekly) | ON | weekly:08:00 |  |  |  | google-search-console, google-sheets |
 | 6313594 | HS — Featured image por post ID | ON | on-demand |  |  |  | anthropic-claude, builtin, json, openai-gpt-3, util, wordpress |
-| 6314042 | HS — Guard imagen destacada (watchdog) | off | indefinitely:3600 | 200868 HS cover watchdog attempts |  | 6735926 | anthropic-claude, builtin, datastore, google-sheets, http, json, openai-gpt-3, resend, util, wordpress |
+| 6314042 | HS — Guard imagen destacada (watchdog) | ON | indefinitely:3600 | 200868 HS cover watchdog attempts |  | 6735926 | anthropic-claude, builtin, datastore, google-sheets, http, json, openai-gpt-3, resend, util, wordpress |
 | 6414510 | [BORRAR] HS test 6414510 | off | on-demand |  |  |  | anthropic-claude, builtin, google-drive, json, openai-gpt-3, util |
 | 6424186 | [BORRAR] HS test cover fix 6424186 | off | on-demand |  |  |  | anthropic-claude, builtin, google-drive, google-sheets, http, json, openai-gpt-3, util, wordpress |
 | 6424598 | [BORRAR] HS test 6424598 | off | on-demand |  |  |  | google-drive, util |

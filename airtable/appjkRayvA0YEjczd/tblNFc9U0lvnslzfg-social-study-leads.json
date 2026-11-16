@@ -134,6 +134,23 @@
     "id": "rechHv9llXMJIyVUb"
   },
   {
+    "createdTime": "2026-11-16T13:54:42.000Z",
+    "fields": {
+      "DOI or ID": "10.1016/j.lana.2026.101685",
+      "Date Found": "2026-11-16",
+      "Found Via": "https://www.paho.org/en/news/13-11-2026-latin-american-countries-strengthen-vaccination-screening-and-access-technologies",
+      "Key Finding": "Leí hoy la nota de IARC (no el paper completo): estudio en nueve países de América Latina, publicado online el 13-11-2026, que estima el riesgo de precancer y cáncer cervical combinando prueba de VPH, citología y colposcopia, para orientar estrategias de tamizaje y manejo más a medida en países de ingresos bajos y medios. El comunicado de PAHO del 11-11 cita ESTAMPA: la prueba de VPH detectó casi todos los casos de lesión precancerosa y cáncer invasivo y la citología menos de la mitad.",
+      "Publisher": "The Lancet Regional Health - Americas (IARC y socios; Valls, Jerónimo, Venegas, Celis, González, Sosa et al.)",
+      "Shared By": "IARC (nota de prensa 16-11-2026); contexto: PAHO (comunicados 11 y 13-11)",
+      "Status": "Verified",
+      "Title": "Estimating cervical precancer and cancer risk based on HPV testing, cervical cytology and colposcopic impression: results from the ESTAMPA multicentric study in Latin America",
+      "URL": "https://www.iarc.who.int/news-events/new-study-provides-evidence-to-improve-cervical-precancer-detection-and-management-in-latin-america-results-from-the-estampa-multicentre-study-in-latin-america/",
+      "Why It Matters": "Gancho de nota para el 17-11 (Día Mundial de Eliminación del Cáncer Cervicouterino): acuerdos regionales de pruebas de VPH vía Fondo Rotatorio de la OPS (30-70% de ahorro esperado) + evidencia ESTAMPA sobre cómo triar a las mujeres con prueba positiva. Abrir el paper (DOI) antes de citar cifras.",
+      "Year": 2026
+    },
+    "id": "recseESSvWMi8cYSM"
+  },
+  {
     "createdTime": "2026-10-29T12:56:16.000Z",
     "fields": {
       "Date Found": "2026-10-29",

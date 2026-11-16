@@ -1,5 +1,231 @@
 [
   {
+    "createdTime": "2026-11-16T15:15:06.000Z",
+    "fields": {
+      "Body": "Campaña voices-galan | Segmento B | Texto B | utm_source=prensa | DSN mensaje bloqueado por el servidor destino",
+      "Channel": "Email",
+      "Direction": "Outbound",
+      "Make_Run_ID": "scheduled-voices-galan-2026-11-16",
+      "Sent_At": "2026-11-16T15:10:31.000Z",
+      "Sequence_Step": 1,
+      "Status": "Bounced",
+      "Subject": "Entrevista con Augusto Galán Sarmiento sobre el aseguramiento en salud en Colombia",
+      "Summary": "voices-galan | B prensa | Francisco Miranda Hamburger (Portafolio) | REBOTÓ",
+      "To_Email": "framir@portafolio.co"
+    },
+    "id": "rec05liE8e6WsfdhC"
+  },
+  {
+    "createdTime": "2026-11-16T15:15:06.000Z",
+    "fields": {
+      "Body": "Campaña voices-galan | Segmento D | Texto D | utm_source=industria",
+      "Channel": "Email",
+      "Direction": "Outbound",
+      "Make_Run_ID": "scheduled-voices-galan-2026-11-16",
+      "Prospect": [
+        "recj1DUfpT7dRpQ4b"
+      ],
+      "Sent_At": "2026-11-16T15:11:47.000Z",
+      "Sequence_Step": 1,
+      "Status": "Sent",
+      "Subject": "Entrevista con Augusto Galán Sarmiento sobre el aseguramiento en salud en Colombia",
+      "Summary": "voices-galan | D industria | Ricardo Salazar Arias (AbbVie)",
+      "To_Email": "ricardo.salazar@abbvie.com"
+    },
+    "id": "rec0HmXyqALqhctPD"
+  },
+  {
+    "createdTime": "2026-11-16T15:15:06.000Z",
+    "fields": {
+      "Body": "Campaña voices-galan | Segmento B | Texto B | utm_source=prensa",
+      "Channel": "Email",
+      "Direction": "Outbound",
+      "Make_Run_ID": "scheduled-voices-galan-2026-11-16",
+      "Sent_At": "2026-11-16T15:10:33.000Z",
+      "Sequence_Step": 1,
+      "Status": "Sent",
+      "Subject": "Entrevista con Augusto Galán Sarmiento sobre el aseguramiento en salud en Colombia",
+      "Summary": "voices-galan | B prensa | Isabella Salazar Gaitán (La República)",
+      "To_Email": "isalazar@larepublica.com.co"
+    },
+    "id": "rec0TSlheBDTHop0D"
+  },
+  {
+    "createdTime": "2026-11-16T15:15:06.000Z",
+    "fields": {
+      "Body": "Campaña voices-galan | Segmento C | Texto C | utm_source=agencias",
+      "Channel": "Email",
+      "Direction": "Outbound",
+      "Make_Run_ID": "scheduled-voices-galan-2026-11-16",
+      "Sent_At": "2026-11-16T15:10:57.000Z",
+      "Sequence_Step": 1,
+      "Status": "Sent",
+      "Subject": "Entrevista con Augusto Galán Sarmiento sobre el aseguramiento en salud en Colombia",
+      "Summary": "voices-galan | C agencias | Más Media Comunicaciones",
+      "To_Email": "contacto@masmedia.com.co"
+    },
+    "id": "rec3CUTrr2OtolaN1"
+  },
+  {
+    "createdTime": "2026-11-16T15:15:06.000Z",
+    "fields": {
+      "Body": "Campaña voices-galan | Segmento D | Texto D | utm_source=industria",
+      "Channel": "Email",
+      "Direction": "Outbound",
+      "Make_Run_ID": "scheduled-voices-galan-2026-11-16",
+      "Prospect": [
+        "recCdOUgcyXVc5QzG"
+      ],
+      "Sent_At": "2026-11-16T15:11:45.000Z",
+      "Sequence_Step": 1,
+      "Status": "Sent",
+      "Subject": "Entrevista con Augusto Galán Sarmiento sobre el aseguramiento en salud en Colombia",
+      "Summary": "voices-galan | D industria | Andrés Felipe Toro Sosa (Roche)",
+      "To_Email": "andres.toro@roche.com"
+    },
+    "id": "rec8pBdXji4Ib17Rn"
+  },
+  {
+    "createdTime": "2026-11-16T15:15:06.000Z",
+    "fields": {
+      "Body": "Campaña voices-galan | Segmento D | Texto D | utm_source=industria",
+      "Channel": "Email",
+      "Direction": "Outbound",
+      "Make_Run_ID": "scheduled-voices-galan-2026-11-16",
+      "Prospect": [
+        "recj248CmnrAP5Yw8"
+      ],
+      "Sent_At": "2026-11-16T15:11:55.000Z",
+      "Sequence_Step": 1,
+      "Status": "Sent",
+      "Subject": "Entrevista con Augusto Galán Sarmiento sobre el aseguramiento en salud en Colombia",
+      "Summary": "voices-galan | D industria | Ignacio Gaitán Villegas (AFIDRO)",
+      "To_Email": "igaitan@afidro.org"
+    },
+    "id": "rec9jdgEbGjUzLEPB"
+  },
+  {
+    "createdTime": "2026-11-16T15:15:06.000Z",
+    "fields": {
+      "Body": "Campaña voices-galan | Segmento C | Texto C | utm_source=agencias",
+      "Channel": "Email",
+      "Direction": "Outbound",
+      "Make_Run_ID": "scheduled-voices-galan-2026-11-16",
+      "Sent_At": "2026-11-16T15:10:55.000Z",
+      "Sequence_Step": 1,
+      "Status": "Sent",
+      "Subject": "Entrevista con Augusto Galán Sarmiento sobre el aseguramiento en salud en Colombia",
+      "Summary": "voices-galan | C agencias | Fabio Quiroga (Ogilvy Colombia)",
+      "To_Email": "fabio.quiroga@ogilvy.com"
+    },
+    "id": "recAB38JfZxncxyjv"
+  },
+  {
+    "createdTime": "2026-11-16T15:15:06.000Z",
+    "fields": {
+      "Body": "Campaña voices-galan | Segmento B | Texto B | utm_source=prensa",
+      "Channel": "Email",
+      "Direction": "Outbound",
+      "Make_Run_ID": "scheduled-voices-galan-2026-11-16",
+      "Sent_At": "2026-11-16T15:10:38.000Z",
+      "Sequence_Step": 1,
+      "Status": "Sent",
+      "Subject": "Entrevista con Augusto Galán Sarmiento sobre el aseguramiento en salud en Colombia",
+      "Summary": "voices-galan | B prensa | Actualisalud",
+      "To_Email": "info@actualisalud.com"
+    },
+    "id": "recEWRgddZDmdGmZL"
+  },
+  {
+    "createdTime": "2026-11-16T15:15:06.000Z",
+    "fields": {
+      "Body": "Campaña voices-galan | Segmento B | Texto B | utm_source=prensa",
+      "Channel": "Email",
+      "Direction": "Outbound",
+      "Make_Run_ID": "scheduled-voices-galan-2026-11-16",
+      "Sent_At": "2026-11-16T15:10:31.000Z",
+      "Sequence_Step": 1,
+      "Status": "Sent",
+      "Subject": "Entrevista con Augusto Galán Sarmiento sobre el aseguramiento en salud en Colombia",
+      "Summary": "voices-galan | B prensa | Laura Valentina Murillo (El Espectador)",
+      "To_Email": "lmurillo@elespectador.com"
+    },
+    "id": "recEXhxaoU8h0Kx4J"
+  },
+  {
+    "createdTime": "2026-11-16T15:15:06.000Z",
+    "fields": {
+      "Body": "Campaña voices-galan | Segmento D | Texto D | utm_source=industria",
+      "Channel": "Email",
+      "Direction": "Outbound",
+      "Make_Run_ID": "scheduled-voices-galan-2026-11-16",
+      "Prospect": [
+        "reclJYiFzDda6THOj"
+      ],
+      "Sent_At": "2026-11-16T15:11:53.000Z",
+      "Sequence_Step": 1,
+      "Status": "Sent",
+      "Subject": "Entrevista con Augusto Galán Sarmiento sobre el aseguramiento en salud en Colombia",
+      "Summary": "voices-galan | D industria | Diana Carolina Diaz (Eli Lilly)",
+      "To_Email": "diana.diaz@lilly.com"
+    },
+    "id": "recGUdfiyXxj6L7t8"
+  },
+  {
+    "createdTime": "2026-11-16T15:15:06.000Z",
+    "fields": {
+      "Body": "Campaña voices-galan | Segmento D | Texto D | utm_source=industria",
+      "Channel": "Email",
+      "Direction": "Outbound",
+      "Make_Run_ID": "scheduled-voices-galan-2026-11-16",
+      "Prospect": [
+        "recA5uM9Xi9rxYXw5"
+      ],
+      "Sent_At": "2026-11-16T15:11:56.000Z",
+      "Sequence_Step": 1,
+      "Status": "Sent",
+      "Subject": "Entrevista con Augusto Galán Sarmiento sobre el aseguramiento en salud en Colombia",
+      "Summary": "voices-galan | D industria | Carlos Francisco Fernández (ASINFAR)",
+      "To_Email": "presidencia@asinfar.com.co"
+    },
+    "id": "recHB15BEVqzgm0v9"
+  },
+  {
+    "createdTime": "2026-11-16T15:15:06.000Z",
+    "fields": {
+      "Body": "Campaña voices-galan | Segmento B | Texto B | utm_source=prensa",
+      "Channel": "Email",
+      "Direction": "Outbound",
+      "Make_Run_ID": "scheduled-voices-galan-2026-11-16",
+      "Sent_At": "2026-11-16T15:10:36.000Z",
+      "Sequence_Step": 1,
+      "Status": "Sent",
+      "Subject": "Entrevista con Augusto Galán Sarmiento sobre el aseguramiento en salud en Colombia",
+      "Summary": "voices-galan | B prensa | CONSULTORSALUD",
+      "To_Email": "info@consultorsalud.com"
+    },
+    "id": "recHGi0Sje5igmTif"
+  },
+  {
+    "createdTime": "2026-11-16T15:15:06.000Z",
+    "fields": {
+      "Body": "Campaña voices-galan | Segmento D | Texto D | utm_source=industria",
+      "Channel": "Email",
+      "Direction": "Outbound",
+      "Make_Run_ID": "scheduled-voices-galan-2026-11-16",
+      "Prospect": [
+        "rec5XxXT9SbiE2Vuv"
+      ],
+      "Sent_At": "2026-11-16T15:11:54.000Z",
+      "Sequence_Step": 1,
+      "Status": "Bounced",
+      "Subject": "Entrevista con Augusto Galán Sarmiento sobre el aseguramiento en salud en Colombia",
+      "Summary": "voices-galan | D industria | Andrea Cataño (Baxter) | REBOTÓ",
+      "To_Email": "andrea_catano@baxter.com"
+    },
+    "id": "recNFdI9Kl9Gx3Ru7"
+  },
+  {
     "createdTime": "2026-06-21T17:41:40.000Z",
     "fields": {
       "Body": "Estimado equipo de DNA Capital,  El deal flow en healthtech latinoamericano está moviéndose más rápido que la capacidad de muchos fondos de filtrar señal de ruido: valuaciones comprimidas en Brasil están creando ventanas de entrada que en 2021 habrían sido imposibles, pero el contexto regulatorio y de reembolso sigue siendo el diferenciador que decide qué activos sobreviven al scale-up.  En HealthSignals cubrimos ese ángulo editorial con foco en inversores institucionales: tendencias de M&A, movimientos de competidores y riesgos sectoriales antes de que lleguen al consenso.  Si tiene sentido, puedo enviarle un brief sectorial sin costo o coordinar una llamada de 15 minutos con uno de sus Partners o Principals.  Si prefiere no recibir más contacto, responda 'baja' y no escribo más.  Fernando Pafumi - Editor, HealthSignals",
@@ -17,5 +243,438 @@
       "To_Email": "fernandopafumi@gmail.com"
     },
     "id": "recPkcfOLCxpGeoCy"
+  },
+  {
+    "createdTime": "2026-11-16T15:15:06.000Z",
+    "fields": {
+      "Body": "Campaña voices-galan | Segmento B | Texto B | utm_source=prensa",
+      "Channel": "Email",
+      "Direction": "Outbound",
+      "Make_Run_ID": "scheduled-voices-galan-2026-11-16",
+      "Sent_At": "2026-11-16T15:10:28.000Z",
+      "Sequence_Step": 1,
+      "Status": "Sent",
+      "Subject": "Entrevista con Augusto Galán Sarmiento sobre el aseguramiento en salud en Colombia",
+      "Summary": "voices-galan | B prensa | Daniel Guerrero (Bloomberg Línea)",
+      "To_Email": "dguerrero@bloomberglinea.com"
+    },
+    "id": "recRrjLnnz0eyLA94"
+  },
+  {
+    "createdTime": "2026-11-16T15:15:06.000Z",
+    "fields": {
+      "Body": "Campaña voices-galan | Segmento C | Texto C | utm_source=agencias",
+      "Channel": "Email",
+      "Direction": "Outbound",
+      "Make_Run_ID": "scheduled-voices-galan-2026-11-16",
+      "Sent_At": "2026-11-16T15:10:57.000Z",
+      "Sequence_Step": 1,
+      "Status": "Sent",
+      "Subject": "Entrevista con Augusto Galán Sarmiento sobre el aseguramiento en salud en Colombia",
+      "Summary": "voices-galan | C agencias | Ágora (Bogotá)",
+      "To_Email": "sayhello@agora.site"
+    },
+    "id": "recSoLx3VcmMvQiof"
+  },
+  {
+    "createdTime": "2026-11-16T15:15:06.000Z",
+    "fields": {
+      "Body": "Campaña voices-galan | Segmento D | Texto D | utm_source=industria",
+      "Channel": "Email",
+      "Direction": "Outbound",
+      "Make_Run_ID": "scheduled-voices-galan-2026-11-16",
+      "Prospect": [
+        "recKBmrGnyUhfbdtp"
+      ],
+      "Sent_At": "2026-11-16T15:11:46.000Z",
+      "Sequence_Step": 1,
+      "Status": "Sent",
+      "Subject": "Entrevista con Augusto Galán Sarmiento sobre el aseguramiento en salud en Colombia",
+      "Summary": "voices-galan | D industria | Adrianella Betancourt (Pfizer)",
+      "To_Email": "adrianella.betancourt@pfizer.com"
+    },
+    "id": "recTctrzGMzd8xMCZ"
+  },
+  {
+    "createdTime": "2026-11-16T15:15:06.000Z",
+    "fields": {
+      "Body": "Campaña voices-galan | Segmento B | Texto B | utm_source=prensa | DSN 550 dirección no encontrada",
+      "Channel": "Email",
+      "Direction": "Outbound",
+      "Make_Run_ID": "scheduled-voices-galan-2026-11-16",
+      "Sent_At": "2026-11-16T15:10:28.000Z",
+      "Sequence_Step": 1,
+      "Status": "Bounced",
+      "Subject": "Entrevista con Augusto Galán Sarmiento sobre el aseguramiento en salud en Colombia",
+      "Summary": "voices-galan | B prensa | María C. Suárez (Bloomberg Línea) | REBOTÓ",
+      "To_Email": "msuarez@bloomberglinea.com"
+    },
+    "id": "recUjtWB4uejLZjzr"
+  },
+  {
+    "createdTime": "2026-11-16T15:15:06.000Z",
+    "fields": {
+      "Body": "Campaña voices-galan | Segmento B | Texto B | utm_source=prensa",
+      "Channel": "Email",
+      "Direction": "Outbound",
+      "Make_Run_ID": "scheduled-voices-galan-2026-11-16",
+      "Sent_At": "2026-11-16T15:10:33.000Z",
+      "Sequence_Step": 1,
+      "Status": "Sent",
+      "Subject": "Entrevista con Augusto Galán Sarmiento sobre el aseguramiento en salud en Colombia",
+      "Summary": "voices-galan | B prensa | Sara Ibañez Pita (La República)",
+      "To_Email": "sibanez@larepublica.com.co"
+    },
+    "id": "recW7oYyD5dAHns87"
+  },
+  {
+    "createdTime": "2026-11-16T15:15:06.000Z",
+    "fields": {
+      "Body": "Campaña voices-galan | Segmento D | Texto D | utm_source=industria",
+      "Channel": "Email",
+      "Direction": "Outbound",
+      "Make_Run_ID": "scheduled-voices-galan-2026-11-16",
+      "Prospect": [
+        "recBleNjJ2sVE3YdP"
+      ],
+      "Sent_At": "2026-11-16T15:11:45.000Z",
+      "Sequence_Step": 1,
+      "Status": "Sent",
+      "Subject": "Entrevista con Augusto Galán Sarmiento sobre el aseguramiento en salud en Colombia",
+      "Summary": "voices-galan | D industria | Carolina Vásquez (Pfizer)",
+      "To_Email": "carolina.vasquez@pfizer.com"
+    },
+    "id": "recaHUgvk6QvUbGuK"
+  },
+  {
+    "createdTime": "2026-11-16T15:15:06.000Z",
+    "fields": {
+      "Body": "Campaña voices-galan | Segmento D | Texto D | utm_source=industria",
+      "Channel": "Email",
+      "Direction": "Outbound",
+      "Make_Run_ID": "scheduled-voices-galan-2026-11-16",
+      "Prospect": [
+        "rechDVvqkCvZSe9Ql"
+      ],
+      "Sent_At": "2026-11-16T15:11:52.000Z",
+      "Sequence_Step": 1,
+      "Status": "Sent",
+      "Subject": "Entrevista con Augusto Galán Sarmiento sobre el aseguramiento en salud en Colombia",
+      "Summary": "voices-galan | D industria | Carlos Mora (Astellas)",
+      "To_Email": "carlos.mora@astellas.com"
+    },
+    "id": "recbg5Uv3kUQMZFoR"
+  },
+  {
+    "createdTime": "2026-11-16T15:15:06.000Z",
+    "fields": {
+      "Body": "Campaña voices-galan | Segmento B | Texto B | utm_source=prensa",
+      "Channel": "Email",
+      "Direction": "Outbound",
+      "Make_Run_ID": "scheduled-voices-galan-2026-11-16",
+      "Sent_At": "2026-11-16T15:10:39.000Z",
+      "Sequence_Step": 1,
+      "Status": "Sent",
+      "Subject": "Entrevista con Augusto Galán Sarmiento sobre el aseguramiento en salud en Colombia",
+      "Summary": "voices-galan | B prensa | Valora Analitik",
+      "To_Email": "info@valoraanalitik.com"
+    },
+    "id": "reccs7XXewAvJx16C"
+  },
+  {
+    "createdTime": "2026-11-16T15:15:06.000Z",
+    "fields": {
+      "Body": "Campaña voices-galan | Segmento D | Texto D | utm_source=industria",
+      "Channel": "Email",
+      "Direction": "Outbound",
+      "Make_Run_ID": "scheduled-voices-galan-2026-11-16",
+      "Prospect": [
+        "rec0tb0ZLmRsxlnm5"
+      ],
+      "Sent_At": "2026-11-16T15:11:44.000Z",
+      "Sequence_Step": 1,
+      "Status": "Sent",
+      "Subject": "Entrevista con Augusto Galán Sarmiento sobre el aseguramiento en salud en Colombia",
+      "Summary": "voices-galan | D industria | Camilo Tamayo (AstraZeneca)",
+      "To_Email": "camilo.tamayo@astrazeneca.com"
+    },
+    "id": "recfajfXEOgSOZP12"
+  },
+  {
+    "createdTime": "2026-11-16T15:15:06.000Z",
+    "fields": {
+      "Body": "Campaña voices-galan | Segmento D | Texto D | utm_source=industria",
+      "Channel": "Email",
+      "Direction": "Outbound",
+      "Make_Run_ID": "scheduled-voices-galan-2026-11-16",
+      "Prospect": [
+        "rec5p3ZxquXacF080"
+      ],
+      "Sent_At": "2026-11-16T15:11:54.000Z",
+      "Sequence_Step": 1,
+      "Status": "Sent",
+      "Subject": "Entrevista con Augusto Galán Sarmiento sobre el aseguramiento en salud en Colombia",
+      "Summary": "voices-galan | D industria | Aurelio Mejía (AFIDRO)",
+      "To_Email": "amejia@afidro.org"
+    },
+    "id": "rech1QZ5DI9jhoYNX"
+  },
+  {
+    "createdTime": "2026-11-16T15:15:06.000Z",
+    "fields": {
+      "Body": "Campaña voices-galan | Segmento D | Texto D | utm_source=industria",
+      "Channel": "Email",
+      "Direction": "Outbound",
+      "Make_Run_ID": "scheduled-voices-galan-2026-11-16",
+      "Prospect": [
+        "recf0QO8yWilqLvCU"
+      ],
+      "Sent_At": "2026-11-16T15:11:51.000Z",
+      "Sequence_Step": 1,
+      "Status": "Sent",
+      "Subject": "Entrevista con Augusto Galán Sarmiento sobre el aseguramiento en salud en Colombia",
+      "Summary": "voices-galan | D industria | Germán Fernández (Bayer)",
+      "To_Email": "german.fernandez@bayer.com"
+    },
+    "id": "rechpbKxlqqqEAUsk"
+  },
+  {
+    "createdTime": "2026-11-16T15:15:06.000Z",
+    "fields": {
+      "Body": "Campaña voices-galan | Segmento B | Texto B | utm_source=prensa",
+      "Channel": "Email",
+      "Direction": "Outbound",
+      "Make_Run_ID": "scheduled-voices-galan-2026-11-16",
+      "Sent_At": "2026-11-16T15:10:32.000Z",
+      "Sequence_Step": 1,
+      "Status": "Sent",
+      "Subject": "Entrevista con Augusto Galán Sarmiento sobre el aseguramiento en salud en Colombia",
+      "Summary": "voices-galan | B prensa | César Giraldo Briceño (Portafolio)",
+      "To_Email": "cesgir@eltiempo.com"
+    },
+    "id": "rechtmIjkc7O8PX1c"
+  },
+  {
+    "createdTime": "2026-11-16T15:15:06.000Z",
+    "fields": {
+      "Body": "Campaña voices-galan | Segmento D | Texto D | utm_source=industria",
+      "Channel": "Email",
+      "Direction": "Outbound",
+      "Make_Run_ID": "scheduled-voices-galan-2026-11-16",
+      "Prospect": [
+        "recdVlaFYUeLcQDWb"
+      ],
+      "Sent_At": "2026-11-16T15:11:47.000Z",
+      "Sequence_Step": 1,
+      "Status": "Sent",
+      "Subject": "Entrevista con Augusto Galán Sarmiento sobre el aseguramiento en salud en Colombia",
+      "Summary": "voices-galan | D industria | David Quitián Reyes (Roche)",
+      "To_Email": "david.quitian_reyes@roche.com"
+    },
+    "id": "reckK5o3XOhJHusmu"
+  },
+  {
+    "createdTime": "2026-11-16T15:15:06.000Z",
+    "fields": {
+      "Body": "Campaña voices-galan | Segmento A (respuesta en hilo 1a0fd587f276f471, msg 1a1e4e8176a01025) | Texto A del kit | utm_source=entrevistado | hora aprox.",
+      "Channel": "Email",
+      "Direction": "Outbound",
+      "Make_Run_ID": "scheduled-voices-galan-2026-11-16",
+      "Sent_At": "2026-11-16T15:10:20.000Z",
+      "Sequence_Step": 1,
+      "Status": "Sent",
+      "Subject": "Re: Entrevista para HealthSignals: aseguramiento en salud en Colombia",
+      "Summary": "voices-galan | A entrevistado | Augusto Galán Sarmiento",
+      "To_Email": "galanau@gmail.com"
+    },
+    "id": "reckvOX5mYtq8ZiIb"
+  },
+  {
+    "createdTime": "2026-11-16T15:15:06.000Z",
+    "fields": {
+      "Body": "Campaña voices-galan | Segmento D | Texto D | utm_source=industria",
+      "Channel": "Email",
+      "Direction": "Outbound",
+      "Make_Run_ID": "scheduled-voices-galan-2026-11-16",
+      "Prospect": [
+        "rece4pF5VgDzEtV7E"
+      ],
+      "Sent_At": "2026-11-16T15:11:51.000Z",
+      "Sequence_Step": 1,
+      "Status": "Sent",
+      "Subject": "Entrevista con Augusto Galán Sarmiento sobre el aseguramiento en salud en Colombia",
+      "Summary": "voices-galan | D industria | Allan Felipe Aldana (AstraZeneca)",
+      "To_Email": "allan.aldana@astrazeneca.com"
+    },
+    "id": "reclJVuLJRmXOZ3XS"
+  },
+  {
+    "createdTime": "2026-11-16T15:15:06.000Z",
+    "fields": {
+      "Body": "Campaña voices-galan | Segmento B | Texto B | utm_source=prensa",
+      "Channel": "Email",
+      "Direction": "Outbound",
+      "Make_Run_ID": "scheduled-voices-galan-2026-11-16",
+      "Sent_At": "2026-11-16T15:10:34.000Z",
+      "Sequence_Step": 1,
+      "Status": "Sent",
+      "Subject": "Entrevista con Augusto Galán Sarmiento sobre el aseguramiento en salud en Colombia",
+      "Summary": "voices-galan | B prensa | La República (redacción)",
+      "To_Email": "diario@larepublica.com.co"
+    },
+    "id": "recnSduBltLjI9y3G"
+  },
+  {
+    "createdTime": "2026-11-16T15:15:06.000Z",
+    "fields": {
+      "Body": "Campaña voices-galan | Segmento C | Texto C | utm_source=agencias",
+      "Channel": "Email",
+      "Direction": "Outbound",
+      "Make_Run_ID": "scheduled-voices-galan-2026-11-16",
+      "Sent_At": "2026-11-16T15:10:56.000Z",
+      "Sequence_Step": 1,
+      "Status": "Sent",
+      "Subject": "Entrevista con Augusto Galán Sarmiento sobre el aseguramiento en salud en Colombia",
+      "Summary": "voices-galan | C agencias | Juliana de Narváez (LLYC Colombia)",
+      "To_Email": "juliana.denarvaez@llyc.global"
+    },
+    "id": "recoPGoI6WvNPbFz4"
+  },
+  {
+    "createdTime": "2026-11-16T15:15:06.000Z",
+    "fields": {
+      "Body": "Campaña voices-galan | Segmento B | Texto B | utm_source=prensa",
+      "Channel": "Email",
+      "Direction": "Outbound",
+      "Make_Run_ID": "scheduled-voices-galan-2026-11-16",
+      "Sent_At": "2026-11-16T15:10:30.000Z",
+      "Sequence_Step": 1,
+      "Status": "Sent",
+      "Subject": "Entrevista con Augusto Galán Sarmiento sobre el aseguramiento en salud en Colombia",
+      "Summary": "voices-galan | B prensa | Sergio Silva Numa (El Espectador)",
+      "To_Email": "ssilva@elespectador.com"
+    },
+    "id": "recosE8sKkO2asmRQ"
+  },
+  {
+    "createdTime": "2026-11-16T15:15:06.000Z",
+    "fields": {
+      "Body": "Campaña voices-galan | Segmento D | Texto D | utm_source=industria",
+      "Channel": "Email",
+      "Direction": "Outbound",
+      "Make_Run_ID": "scheduled-voices-galan-2026-11-16",
+      "Prospect": [
+        "recsFrFzKS2quMgH0"
+      ],
+      "Sent_At": "2026-11-16T15:11:49.000Z",
+      "Sequence_Step": 1,
+      "Status": "Sent",
+      "Subject": "Entrevista con Augusto Galán Sarmiento sobre el aseguramiento en salud en Colombia",
+      "Summary": "voices-galan | D industria | Sergio Londoño (Sanofi)",
+      "To_Email": "sergio.londono@sanofi.com"
+    },
+    "id": "rectRjEfIOOP4vLYm"
+  },
+  {
+    "createdTime": "2026-11-16T15:15:06.000Z",
+    "fields": {
+      "Body": "Campaña voices-galan | Segmento D | Texto D | utm_source=industria",
+      "Channel": "Email",
+      "Direction": "Outbound",
+      "Make_Run_ID": "scheduled-voices-galan-2026-11-16",
+      "Prospect": [
+        "rec7Mr3dKSpGMw055"
+      ],
+      "Sent_At": "2026-11-16T15:11:50.000Z",
+      "Sequence_Step": 1,
+      "Status": "Sent",
+      "Subject": "Entrevista con Augusto Galán Sarmiento sobre el aseguramiento en salud en Colombia",
+      "Summary": "voices-galan | D industria | Juan Sebastián Estrada Escobar (Pfizer)",
+      "To_Email": "juansebastian.estrada@pfizer.com"
+    },
+    "id": "recugYJksvX1UQb2i"
+  },
+  {
+    "createdTime": "2026-11-16T15:15:06.000Z",
+    "fields": {
+      "Body": "Campaña voices-galan | Segmento D | Texto D | utm_source=industria",
+      "Channel": "Email",
+      "Direction": "Outbound",
+      "Make_Run_ID": "scheduled-voices-galan-2026-11-16",
+      "Prospect": [
+        "reco5DAqShzKBCWTo"
+      ],
+      "Sent_At": "2026-11-16T15:11:48.000Z",
+      "Sequence_Step": 1,
+      "Status": "Sent",
+      "Subject": "Entrevista con Augusto Galán Sarmiento sobre el aseguramiento en salud en Colombia",
+      "Summary": "voices-galan | D industria | Felice Leonardi (Amgen)",
+      "To_Email": "fleonard@amgen.com"
+    },
+    "id": "recuta53dQsj7VOOZ"
+  },
+  {
+    "createdTime": "2026-11-16T15:15:06.000Z",
+    "fields": {
+      "Body": "Campaña voices-galan | Segmento B | Texto B | utm_source=prensa | DSN 550 dirección no encontrada",
+      "Channel": "Email",
+      "Direction": "Outbound",
+      "Make_Run_ID": "scheduled-voices-galan-2026-11-16",
+      "Sent_At": "2026-11-16T15:10:37.000Z",
+      "Sequence_Step": 1,
+      "Status": "Bounced",
+      "Subject": "Entrevista con Augusto Galán Sarmiento sobre el aseguramiento en salud en Colombia",
+      "Summary": "voices-galan | B prensa | El Pulso (redacción) | REBOTÓ",
+      "To_Email": "elpulso@sanvicentefundacion.com"
+    },
+    "id": "recxpCGhezkxn5Xti"
+  },
+  {
+    "createdTime": "2026-11-16T15:15:06.000Z",
+    "fields": {
+      "Body": "Campaña voices-galan | Segmento B | Texto B | utm_source=prensa",
+      "Channel": "Email",
+      "Direction": "Outbound",
+      "Make_Run_ID": "scheduled-voices-galan-2026-11-16",
+      "Sent_At": "2026-11-16T15:10:35.000Z",
+      "Sequence_Step": 1,
+      "Status": "Sent",
+      "Subject": "Entrevista con Augusto Galán Sarmiento sobre el aseguramiento en salud en Colombia",
+      "Summary": "voices-galan | B prensa | El Tiempo, Unidad de Salud",
+      "To_Email": "salud@eltiempo.com"
+    },
+    "id": "recxv8SoIZYvV1iy7"
+  },
+  {
+    "createdTime": "2026-11-16T15:15:06.000Z",
+    "fields": {
+      "Body": "Campaña voices-galan | Segmento B | Texto B | utm_source=prensa",
+      "Channel": "Email",
+      "Direction": "Outbound",
+      "Make_Run_ID": "scheduled-voices-galan-2026-11-16",
+      "Sent_At": "2026-11-16T15:10:36.000Z",
+      "Sequence_Step": 1,
+      "Status": "Sent",
+      "Subject": "Entrevista con Augusto Galán Sarmiento sobre el aseguramiento en salud en Colombia",
+      "Summary": "voices-galan | B prensa | Andrea Ochoa Restrepo (El Pulso)",
+      "To_Email": "andrea.ochoa@sanvicentefundacion.com"
+    },
+    "id": "recyoHA2PBX9fvRgf"
+  },
+  {
+    "createdTime": "2026-11-16T15:15:06.000Z",
+    "fields": {
+      "Body": "Campaña voices-galan | Segmento B | Texto B | utm_source=prensa",
+      "Channel": "Email",
+      "Direction": "Outbound",
+      "Make_Run_ID": "scheduled-voices-galan-2026-11-16",
+      "Sent_At": "2026-11-16T15:10:29.000Z",
+      "Sequence_Step": 1,
+      "Status": "Sent",
+      "Subject": "Entrevista con Augusto Galán Sarmiento sobre el aseguramiento en salud en Colombia",
+      "Summary": "voices-galan | B prensa | Juan Diego Quiceno Mesa (El Espectador)",
+      "To_Email": "jquiceno@elespectador.com"
+    },
+    "id": "recyvhEtcIKTbfvvl"
   }
 ]

@@ -61,7 +61,7 @@
   {
     "createdTime": "2026-10-18T18:00:19.000Z",
     "fields": {
-      "Approval": "Pending Review",
+      "Approval": "Approved",
       "Company": "Merck Sharp & Dohme (LA) LLC",
       "Email": "karina.basterrica@merck.com",
       "First_Name": "Karina",
@@ -77,6 +77,32 @@
       "Title": "public policy and co"
     },
     "id": "rec0tNi1IAR8P89mG"
+  },
+  {
+    "createdTime": "2026-11-16T13:15:09.000Z",
+    "fields": {
+      "Apollo_ID": "67c31cc7ce1df9000140aa29",
+      "Approval": "Approved",
+      "Collected_At": "2026-11-16",
+      "Company": "AstraZeneca",
+      "Country": "Colombia",
+      "Email": "camilo.tamayo@astrazeneca.com",
+      "First_Name": "Camilo",
+      "Language": "Spanish",
+      "Last_Name": "Tamayo",
+      "Legal_Basis": "Legitimate interest (B2B)",
+      "LinkedIn_URL": "https://www.linkedin.com/in/camilo-tamayo-64373699",
+      "Name": "Camilo Tamayo",
+      "Notes": "Origen: lista Market Access Colombia #47 (investigación pública 14-11-2026, LinkedIn). Email: Apollo people match 16-11-2026, status verified.\nVoices Galán enviada 16-11-2026",
+      "Outreach Log": [
+        "recfajfXEOgSOZP12"
+      ],
+      "Region": "LATAM",
+      "Source": "Manual",
+      "Stage": "New",
+      "Title": "HEOR Lead Andean Cluster"
+    },
+    "id": "rec0tb0ZLmRsxlnm5"
   },
   {
     "createdTime": "2026-10-17T19:27:59.000Z",
@@ -1192,19 +1218,26 @@
   {
     "createdTime": "2026-10-18T17:45:10.000Z",
     "fields": {
-      "Approval": "Pending Review",
+      "Apollo_ID": "54a4e8917468692abf01f96c",
+      "Approval": "Hold",
+      "Collected_At": "2026-11-16",
       "Company": "Baxter International Inc.",
+      "Email": "andrea_catano@baxter.com",
       "First_Name": "Andrea",
       "ICP_Fit": "B",
       "Last_Name": "Cataño",
+      "Legal_Basis": "Legitimate interest (B2B)",
       "LinkedIn_URL": "https://www.linkedin.com/in/andrea-catano",
       "Name": "Andrea Cataño",
-      "Notes": "Conexión de LinkedIn de Fer (export propio, conectado 26 Sep 2020). Origen: barrido 18-10-2026. Verificar cargo actual antes de contactar.",
+      "Notes": "Origen: lista Market Access Colombia #43 (LinkedIn, 14-11-2026). Email: Apollo people match 16-11-2026, status verified.\nVoices Galán enviada 16-11-2026\n2026-11-16: REBOTE (mensaje bloqueado, Gmail DSN). Apollo email validation 16-11-2026 = no confirmado. Approval pasado a Hold: no reenviar a andrea_catano@baxter.com; buscar otro email.",
+      "Outreach Log": [
+        "recNFdI9Kl9Gx3Ru7"
+      ],
       "Preferred_Channel": "LinkedIn DM",
       "Segment": "Medtech",
       "Source": "LinkedIn",
       "Stage": "New",
-      "Title": "Directora de Asuntos de Gobierno y Responsabilidad Corporativa, LATAM  "
+      "Title": "Directora de Asuntos de Gobierno y Responsabilidad Corporativa, Latam"
     },
     "id": "rec5XxXT9SbiE2Vuv"
   },
@@ -1247,6 +1280,32 @@
       "Title": "Director Ejecutivo"
     },
     "id": "rec5kcA4DfyP5ACsf"
+  },
+  {
+    "createdTime": "2026-11-16T13:15:09.000Z",
+    "fields": {
+      "Apollo_ID": "6438927f5110230001a04839",
+      "Approval": "Approved",
+      "Collected_At": "2026-11-16",
+      "Company": "AFIDRO",
+      "Country": "Colombia",
+      "Email": "amejia@afidro.org",
+      "First_Name": "Aurelio",
+      "Language": "Spanish",
+      "Last_Name": "Mejía",
+      "Legal_Basis": "Legitimate interest (B2B)",
+      "LinkedIn_URL": "https://www.linkedin.com/in/aureliomejiamejia",
+      "Name": "Aurelio Mejía",
+      "Notes": "Origen: lista Market Access Colombia #27 (investigación pública 14-11-2026, LinkedIn). Email: Apollo people match 16-11-2026, status verified.\nVoices Galán enviada 16-11-2026",
+      "Outreach Log": [
+        "rech1QZ5DI9jhoYNX"
+      ],
+      "Region": "LATAM",
+      "Source": "Manual",
+      "Stage": "New",
+      "Title": "Director Asuntos Públicos y Legales"
+    },
+    "id": "rec5p3ZxquXacF080"
   },
   {
     "createdTime": "2026-10-18T17:41:24.000Z",
@@ -1385,6 +1444,28 @@
       "Title": "Chief Executive Officer"
     },
     "id": "rec6AqTrPeqWE7eCu"
+  },
+  {
+    "createdTime": "2026-11-16T13:13:34.000Z",
+    "fields": {
+      "Approval": "Pending Review",
+      "Collected_At": "2026-11-13",
+      "Company": "Takeda Pharmaceuticals",
+      "Country": "United States",
+      "Email": "diegs.cortina@gmail.com",
+      "First_Name": "Diego",
+      "Function": "Market Access",
+      "ICP_Fit": "A",
+      "Last_Name": "Cortina de la Fuente",
+      "Name": "Diego Cortina de la Fuente",
+      "Notes": "Inbound 13-11: se suscribió al Brief desde /newsletter/ con webmail; Fer aprobó el alta el 16-11 (Newsletter Subscribers recBZLpGR1clCVYXK). Cargo y empresa autodeclarados en el form, sin verificar. Email personal: no usar para pitch comercial sin contexto; primer toque ideal = temático (oncología sólidos / acceso).",
+      "Region": "Global",
+      "Segment": "Pharma",
+      "Source": "Inbound",
+      "Stage": "New",
+      "Title": "Global Value and Access Lead, Solid Tumors"
+    },
+    "id": "rec6GcJ0aRVTGhItl"
   },
   {
     "createdTime": "2026-10-17T18:22:53.000Z",
@@ -1707,14 +1788,21 @@
   {
     "createdTime": "2026-10-17T19:27:59.000Z",
     "fields": {
-      "Approval": "Pending Review",
+      "Apollo_ID": "68df64c8ff78020001ddd021",
+      "Approval": "Approved",
+      "Collected_At": "2026-11-16",
       "Company": "Pfizer",
       "Country": "Colombia",
+      "Email": "juansebastian.estrada@pfizer.com",
       "First_Name": "Juan Sebastián",
       "Last_Name": "Estrada Escobar",
+      "Legal_Basis": "Legitimate interest (B2B)",
       "LinkedIn_URL": "https://www.linkedin.com/in/juan-sebasti%C3%A1n-estrada-escobar/",
       "Name": "Juan Sebastián Estrada Escobar",
-      "Notes": "Difusión Voices 17-10-2026 (lista regional). Confianza: alta. Perfil LinkedIn (snapshot sep-2026), en el rol desde dic-2025. Cargo autodeclarado.",
+      "Notes": "Origen: lista Market Access Colombia #32 (LinkedIn, 14-11-2026). Email: Apollo people match 16-11-2026, status verified.\nVoices Galán enviada 16-11-2026",
+      "Outreach Log": [
+        "recugYJksvX1UQb2i"
+      ],
       "Preferred_Channel": "LinkedIn DM",
       "Region": "LATAM",
       "Segment": "Pharma",
@@ -1905,7 +1993,7 @@
   {
     "createdTime": "2026-10-18T18:00:19.000Z",
     "fields": {
-      "Approval": "Pending Review",
+      "Approval": "Approved",
       "Company": "Abbvie Latam",
       "Email": "flavio.devoto@abbvie.com",
       "First_Name": "Flavio",
@@ -2492,14 +2580,17 @@
   {
     "createdTime": "2026-10-17T19:32:30.000Z",
     "fields": {
-      "Approval": "Pending Review",
+      "Approval": "Approved",
       "Company": "ASINFAR (Asociación de Industrias Farmacéuticas en Colombia)",
       "Country": "Colombia",
       "Email": "presidencia@asinfar.com.co",
       "First_Name": "Carlos Francisco",
       "Last_Name": "Fernández",
       "Name": "Carlos Francisco Fernández",
-      "Notes": "Difusión Voices 17-10-2026 (lista regional). Confianza: alta. Email verbatim junto a su nombre en alifar.org/wp/asociados/; cargo confirmado por El Tiempo 04-05-2026. LinkedIn no encontrado.",
+      "Notes": "Difusión Voices 17-10-2026 (lista regional). Confianza: alta. Email verbatim junto a su nombre en alifar.org/wp/asociados/; cargo confirmado por El Tiempo 04-05-2026. LinkedIn no encontrado.\nVoices Galán enviada 16-11-2026",
+      "Outreach Log": [
+        "recHB15BEVqzgm0v9"
+      ],
       "Preferred_Channel": "Email",
       "Region": "LATAM",
       "Segment": "Pharma",
@@ -2748,6 +2839,32 @@
       "Title": "Diputado; Integrante, Comisión de Salud de la Cámara"
     },
     "id": "recBkDEmJuTA2Jtos"
+  },
+  {
+    "createdTime": "2026-11-16T13:15:09.000Z",
+    "fields": {
+      "Apollo_ID": "5f4b812085021e0001207f72",
+      "Approval": "Approved",
+      "Collected_At": "2026-11-16",
+      "Company": "Pfizer",
+      "Country": "Colombia",
+      "Email": "carolina.vasquez@pfizer.com",
+      "First_Name": "Carolina",
+      "Language": "Spanish",
+      "Last_Name": "Vásquez",
+      "Legal_Basis": "Legitimate interest (B2B)",
+      "LinkedIn_URL": "https://www.linkedin.com/in/carolina-vasquez-12bb5944",
+      "Name": "Carolina Vásquez",
+      "Notes": "Origen: lista Market Access Colombia #19 (investigación pública 14-11-2026, LinkedIn). Email: Apollo people match 16-11-2026, status verified.\nVoices Galán enviada 16-11-2026",
+      "Outreach Log": [
+        "recaHUgvk6QvUbGuK"
+      ],
+      "Region": "LATAM",
+      "Source": "Manual",
+      "Stage": "New",
+      "Title": "Commercial and Access Lead - Pfizer Northern Latin America"
+    },
+    "id": "recBleNjJ2sVE3YdP"
   },
   {
     "createdTime": "2026-10-21T23:46:54.000Z",
@@ -3006,6 +3123,32 @@
     "id": "recCcy1KqIXmBbg90"
   },
   {
+    "createdTime": "2026-11-16T13:15:09.000Z",
+    "fields": {
+      "Apollo_ID": "67c76ca3d33c180001ac8432",
+      "Approval": "Approved",
+      "Collected_At": "2026-11-16",
+      "Company": "Roche",
+      "Country": "Colombia",
+      "Email": "andres.toro@roche.com",
+      "First_Name": "Andrés",
+      "Language": "Spanish",
+      "Last_Name": "Felipe Toro Sosa",
+      "Legal_Basis": "Legitimate interest (B2B)",
+      "LinkedIn_URL": "https://www.linkedin.com/in/andr%C3%A9s-felipe-toro-sosa-",
+      "Name": "Andrés Felipe Toro Sosa",
+      "Notes": "Origen: lista Market Access Colombia #16 (investigación pública 14-11-2026, LinkedIn). Email: Apollo people match 16-11-2026, status verified.\nVoices Galán enviada 16-11-2026",
+      "Outreach Log": [
+        "rec8pBdXji4Ib17Rn"
+      ],
+      "Region": "LATAM",
+      "Source": "Manual",
+      "Stage": "New",
+      "Title": "Market Access & PHC Lead"
+    },
+    "id": "recCdOUgcyXVc5QzG"
+  },
+  {
     "createdTime": "2026-10-18T17:41:24.000Z",
     "fields": {
       "Approval": "Pending Review",
@@ -3180,14 +3323,18 @@
   {
     "createdTime": "2026-10-18T17:41:24.000Z",
     "fields": {
+      "Apollo_ID": "60c4741c07ca1e0001d9cec3",
       "Approval": "Pending Review",
+      "Collected_At": "2026-11-16",
       "Company": "Novo Nordisk",
+      "Email": "seun@novonordisk.com",
       "First_Name": "Saul",
       "ICP_Fit": "B",
       "Last_Name": "Cardozo",
+      "Legal_Basis": "Legitimate interest (B2B)",
       "LinkedIn_URL": "https://www.linkedin.com/in/saulcardozo",
       "Name": "Saul Cardozo",
-      "Notes": "Conexión de LinkedIn de Fer (export propio, conectado 03 May 2022). Origen: barrido 18-10-2026. Verificar cargo actual antes de contactar.",
+      "Notes": "Origen: lista Market Access Colombia #35 (LinkedIn, 14-11-2026). Email: Apollo people match 16-11-2026, status verified. OJO: 'seun' no coincide con 'Cardozo': verificar antes de mandar. Fila duplicada con recX5fvgGYtLenDMX (no mergeada).",
       "Preferred_Channel": "LinkedIn DM",
       "Segment": "Pharma",
       "Source": "LinkedIn",
@@ -4739,6 +4886,32 @@
     "id": "recK9MZRL5o9WGlyf"
   },
   {
+    "createdTime": "2026-11-16T13:15:09.000Z",
+    "fields": {
+      "Apollo_ID": "690bc5ab2aae840001260133",
+      "Approval": "Approved",
+      "Collected_At": "2026-11-16",
+      "Company": "Pfizer",
+      "Country": "Colombia",
+      "Email": "adrianella.betancourt@pfizer.com",
+      "First_Name": "Adrianella",
+      "Language": "Spanish",
+      "Last_Name": "Betancourt",
+      "Legal_Basis": "Legitimate interest (B2B)",
+      "LinkedIn_URL": "https://www.linkedin.com/in/adrianella-betancourt-46a32a15",
+      "Name": "Adrianella Betancourt",
+      "Notes": "Origen: lista Market Access Colombia #20 (investigación pública 14-11-2026, LinkedIn). Email: Apollo people match 16-11-2026, status verified.\nVoices Galán enviada 16-11-2026",
+      "Outreach Log": [
+        "recTctrzGMzd8xMCZ"
+      ],
+      "Region": "LATAM",
+      "Source": "Manual",
+      "Stage": "New",
+      "Title": "Emerging Markets Specialty Care & Latam Access Team Lead"
+    },
+    "id": "recKBmrGnyUhfbdtp"
+  },
+  {
     "createdTime": "2026-10-17T19:42:21.000Z",
     "fields": {
       "Approval": "Pending Review",
@@ -4779,7 +4952,7 @@
   {
     "createdTime": "2026-10-18T13:36:37.000Z",
     "fields": {
-      "Approval": "Pending Review",
+      "Approval": "Approved",
       "Company": "Johnson & Johnson Innovative Medicine",
       "Country": "Colombia",
       "Email": "mbustos1@its.jnj.com",
@@ -5765,6 +5938,29 @@
     "id": "recP2qtYbHKUc1whc"
   },
   {
+    "createdTime": "2026-11-16T13:15:09.000Z",
+    "fields": {
+      "Apollo_ID": "63d123b4018a870001e449dc",
+      "Approval": "Pending Review",
+      "Collected_At": "2026-11-16",
+      "Company": "Medtronic",
+      "Country": "Colombia",
+      "Email": "lilia.e.castrillon@medtronic.com",
+      "First_Name": "Lilia",
+      "Language": "Spanish",
+      "Last_Name": "Doria",
+      "Legal_Basis": "Legitimate interest (B2B)",
+      "LinkedIn_URL": "https://www.linkedin.com/in/lilia-doria-healthcare",
+      "Name": "Lilia Doria",
+      "Notes": "Origen: lista Market Access Colombia #24 (investigación pública 14-11-2026, LinkedIn). Email: Apollo people match 16-11-2026, status verified. OJO: el email dice 'castrillon', no coincide con 'Doria' (puede ser apellido de casada): verificar antes de mandar.",
+      "Region": "LATAM",
+      "Source": "Manual",
+      "Stage": "New",
+      "Title": "Principal Market Access, Government & Health Economics"
+    },
+    "id": "recP3YXmD84kgiwPv"
+  },
+  {
     "createdTime": "2026-10-17T19:32:30.000Z",
     "fields": {
       "Approval": "Pending Review",
@@ -6407,7 +6603,7 @@
   {
     "createdTime": "2026-10-18T18:00:19.000Z",
     "fields": {
-      "Approval": "Pending Review",
+      "Approval": "Approved",
       "Company": "Bayer Argentina",
       "Email": "guadalupe.roel@bayer.com",
       "First_Name": "Maria Guadalupe",
@@ -9099,6 +9295,22 @@
     "id": "reccqqNuMt7AkFda9"
   },
   {
+    "createdTime": "2026-11-16T18:25:26.000Z",
+    "fields": {
+      "Company": "GCI Health",
+      "Email": "Jess.Vanner@gcihealth.com",
+      "First_Name": "Jess",
+      "Last_Contacted": "2026-11-16",
+      "Last_Name": "Vanner",
+      "Name": "Jess Vanner",
+      "Next_Action": "Esperar respuesta al mail de reconexión; follow-up si no contesta",
+      "Next_Action_Date": "2026-11-23",
+      "Notes": "Contacto LinkedIn 1er grado (charla previa época Economist: ella propuso reunión y pidió coordinar por su mail de GCI). 16-11-2026: mail de reconexión desde editor@ proponiendo intro call por oportunidades de media con GCI. Gmail msg 1a1e59b0ced34bf8.",
+      "Title": "EVP, Paid Media Lead"
+    },
+    "id": "recct4hkYwKTTmjxT"
+  },
+  {
     "createdTime": "2026-10-17T19:38:10.000Z",
     "fields": {
       "Approval": "Pending Review",
@@ -9262,6 +9474,32 @@
     "id": "recdSKVXOVvgOesOz"
   },
   {
+    "createdTime": "2026-11-16T13:15:09.000Z",
+    "fields": {
+      "Apollo_ID": "5e8c62cdb193760001e29892",
+      "Approval": "Approved",
+      "Collected_At": "2026-11-16",
+      "Company": "Roche",
+      "Country": "Colombia",
+      "Email": "david.quitian_reyes@roche.com",
+      "First_Name": "David",
+      "Language": "Spanish",
+      "Last_Name": "Quitián Reyes",
+      "Legal_Basis": "Legitimate interest (B2B)",
+      "LinkedIn_URL": "https://www.linkedin.com/in/david-quiti%C3%A1n-reyes-a913b9156",
+      "Name": "David Quitián Reyes",
+      "Notes": "Origen: lista Market Access Colombia #17 (investigación pública 14-11-2026, LinkedIn). Email: Apollo people match 16-11-2026, status verified.\nVoices Galán enviada 16-11-2026",
+      "Outreach Log": [
+        "reckK5o3XOhJHusmu"
+      ],
+      "Region": "LATAM",
+      "Source": "Manual",
+      "Stage": "New",
+      "Title": "Pricing and Reimbursement Lead"
+    },
+    "id": "recdVlaFYUeLcQDWb"
+  },
+  {
     "createdTime": "2026-10-18T18:00:19.000Z",
     "fields": {
       "Approval": "Pending Review",
@@ -9416,6 +9654,32 @@
       "Title": "Commercial Director"
     },
     "id": "rece4E1qzrg1V1p4I"
+  },
+  {
+    "createdTime": "2026-11-16T13:15:09.000Z",
+    "fields": {
+      "Apollo_ID": "67c63015b6b98600019d9ee9",
+      "Approval": "Approved",
+      "Collected_At": "2026-11-16",
+      "Company": "AstraZeneca",
+      "Country": "Colombia",
+      "Email": "allan.aldana@astrazeneca.com",
+      "First_Name": "Allan",
+      "Language": "Spanish",
+      "Last_Name": "Felipe Aldana",
+      "Legal_Basis": "Legitimate interest (B2B)",
+      "LinkedIn_URL": "https://www.linkedin.com/in/allan-felipe-aldana",
+      "Name": "Allan Felipe Aldana",
+      "Notes": "Origen: lista Market Access Colombia #30 (investigación pública 14-11-2026, LinkedIn). Email: Apollo people match 16-11-2026, status verified.\nVoices Galán enviada 16-11-2026",
+      "Outreach Log": [
+        "reclJVuLJRmXOZ3XS"
+      ],
+      "Region": "LATAM",
+      "Source": "Manual",
+      "Stage": "New",
+      "Title": "Government Affairs & Communications Head"
+    },
+    "id": "rece4pF5VgDzEtV7E"
   },
   {
     "createdTime": "2026-10-17T22:34:40.000Z",
@@ -9667,14 +9931,21 @@
   {
     "createdTime": "2026-10-17T19:27:59.000Z",
     "fields": {
-      "Approval": "Pending Review",
+      "Apollo_ID": "62eaaa682d775d000195c7f5",
+      "Approval": "Approved",
+      "Collected_At": "2026-11-16",
       "Company": "Bayer",
       "Country": "Other",
+      "Email": "german.fernandez@bayer.com",
       "First_Name": "Germán",
       "Last_Name": "Fernández",
+      "Legal_Basis": "Legitimate interest (B2B)",
       "LinkedIn_URL": "https://www.linkedin.com/in/germ%C3%A1n-fern%C3%A1ndez-4a303b2/",
       "Name": "Germán Fernández",
-      "Notes": "Difusión Voices 17-10-2026 (lista regional). Confianza: media. Perfil LinkedIn (snapshot sep-2026). Alcance subregional (Guatemala a Perú).",
+      "Notes": "Origen: lista Market Access Colombia #31 (LinkedIn, 14-11-2026). Email: Apollo people match 16-11-2026, status verified.\nVoices Galán enviada 16-11-2026",
+      "Outreach Log": [
+        "rechpbKxlqqqEAUsk"
+      ],
       "Preferred_Channel": "LinkedIn DM",
       "Region": "LATAM",
       "Segment": "Pharma",
@@ -10155,6 +10426,32 @@
       "Title": "Regulatory Affairs Manager"
     },
     "id": "rech7qKGCbnxdOpc4"
+  },
+  {
+    "createdTime": "2026-11-16T13:15:09.000Z",
+    "fields": {
+      "Apollo_ID": "5c499ef0a3ae617378b6ed22",
+      "Approval": "Approved",
+      "Collected_At": "2026-11-16",
+      "Company": "Astellas",
+      "Country": "Colombia",
+      "Email": "carlos.mora@astellas.com",
+      "First_Name": "Carlos",
+      "Language": "Spanish",
+      "Last_Name": "Mora",
+      "Legal_Basis": "Legitimate interest (B2B)",
+      "LinkedIn_URL": "https://www.linkedin.com/in/carlos-mora-90089b2b",
+      "Name": "Carlos Mora",
+      "Notes": "Origen: lista Market Access Colombia #40 (investigación pública 14-11-2026, LinkedIn). Email: Apollo people match 16-11-2026, status verified.\nVoices Galán enviada 16-11-2026",
+      "Outreach Log": [
+        "recbg5Uv3kUQMZFoR"
+      ],
+      "Region": "LATAM",
+      "Source": "Manual",
+      "Stage": "New",
+      "Title": "Head Government Affairs, Patient Partnership & Communications"
+    },
+    "id": "rechDVvqkCvZSe9Ql"
   },
   {
     "createdTime": "2026-11-14T14:36:07.000Z",
@@ -10723,23 +11020,55 @@
     "id": "reciwYptTcYYi6Si8"
   },
   {
+    "createdTime": "2026-11-16T13:15:09.000Z",
+    "fields": {
+      "Apollo_ID": "67dd51a63f401c00012fb299",
+      "Approval": "Approved",
+      "Collected_At": "2026-11-16",
+      "Company": "AbbVie",
+      "Country": "Colombia",
+      "Email": "ricardo.salazar@abbvie.com",
+      "First_Name": "Ricardo",
+      "Language": "Spanish",
+      "Last_Name": "Emilio Salazar Arias",
+      "Legal_Basis": "Legitimate interest (B2B)",
+      "LinkedIn_URL": "https://www.linkedin.com/in/ricardo-emilio-salazar-arias-md-phd-msc-ma-mba-a49a3021",
+      "Name": "Ricardo Emilio Salazar Arias",
+      "Notes": "Origen: lista Market Access Colombia #1 (investigación pública 14-11-2026, LinkedIn). Email: Apollo people match 16-11-2026, status verified.\nVoices Galán enviada 16-11-2026",
+      "Outreach Log": [
+        "rec0HmXyqALqhctPD"
+      ],
+      "Region": "LATAM",
+      "Source": "Manual",
+      "Stage": "New",
+      "Title": "Market Access & Sales Management Director - Cluster North Latam"
+    },
+    "id": "recj1DUfpT7dRpQ4b"
+  },
+  {
     "createdTime": "2026-10-17T19:32:30.000Z",
     "fields": {
-      "Approval": "Pending Review",
+      "Approval": "Approved",
+      "Collected_At": "2026-11-16",
       "Company": "AFIDRO (Asociación de Laboratorios Farmacéuticos de Investigación y Desarrollo)",
       "Country": "Colombia",
+      "Email": "igaitan@afidro.org",
       "First_Name": "Ignacio",
       "Last_Name": "Gaitán Villegas",
+      "Legal_Basis": "Legitimate interest (B2B)",
       "LinkedIn_URL": "https://www.linkedin.com/in/ignacio-gait%C3%A1n-villegas/",
       "Name": "Ignacio Gaitán Villegas",
-      "Notes": "Difusión Voices 17-10-2026 (lista regional). Confianza: alta. afidro.org/nosotros + comunicado mar-2026; en el cargo desde ene-2025. Sin email personal publicado (ver AFIDRO institucional).",
+      "Notes": "Origen: lista Market Access Colombia #26 (prensa 17-09-2026). Email: Apollo people match 16-11-2026, status verified.\nVoices Galán enviada 16-11-2026",
+      "Outreach Log": [
+        "rec9jdgEbGjUzLEPB"
+      ],
       "Preferred_Channel": "LinkedIn DM",
       "Region": "LATAM",
       "Segment": "Pharma",
       "Source": "Manual",
       "Source_URL": "https://afidro.org/nosotros/",
       "Stage": "New",
-      "Title": "Presidente Ejecutivo"
+      "Title": "Presidente ejecutivo"
     },
     "id": "recj248CmnrAP5Yw8"
   },
@@ -11135,18 +11464,25 @@
   {
     "createdTime": "2026-10-21T23:57:02.000Z",
     "fields": {
-      "Approval": "Pending Review",
+      "Apollo_ID": "6933bf37ea766700013fc600",
+      "Approval": "Approved",
+      "Collected_At": "2026-11-16",
       "Company": "Eli Lilly and Company",
+      "Email": "diana.diaz@lilly.com",
       "ICP_Fit": "B",
+      "Legal_Basis": "Legitimate interest (B2B)",
       "LinkedIn_URL": "https://www.linkedin.com/in/ACwAABQZsS8BXyxiWNtTOekB1aOR2ZddVuLnhRY",
       "Name": "Diana Carolina Diaz",
-      "Notes": "Lilly es deal abierto: coordinar. 1er grado. Verificado SN 21-10-2026.",
+      "Notes": "Origen: lista Market Access Colombia #34 (LinkedIn, 14-11-2026). Email: Apollo people match 16-11-2026, status verified.\nVoices Galán enviada 16-11-2026",
+      "Outreach Log": [
+        "recGUdfiyXxj6L7t8"
+      ],
       "Preferred_Channel": "LinkedIn DM",
       "Region": "LATAM",
       "Segment": "Pharma",
       "Source": "LinkedIn",
       "Stage": "New",
-      "Title": "Corporate Affairs Lead Colombia"
+      "Title": "Corporate Affairs Lead"
     },
     "id": "reclJYiFzDda6THOj"
   },
@@ -11444,7 +11780,7 @@
   {
     "createdTime": "2026-10-17T19:32:30.000Z",
     "fields": {
-      "Approval": "Pending Review",
+      "Approval": "Approved",
       "Company": "ASCIF (Colombia)",
       "Country": "Colombia",
       "Email": "directorejecutivo@ascif.co",
@@ -11715,6 +12051,32 @@
       "Title": "Directora de Comunicaciones"
     },
     "id": "reco4406ZeXcpazt3"
+  },
+  {
+    "createdTime": "2026-11-16T13:15:09.000Z",
+    "fields": {
+      "Apollo_ID": "54ec4860746869444c866c76",
+      "Approval": "Approved",
+      "Collected_At": "2026-11-16",
+      "Company": "Amgen",
+      "Country": "Colombia",
+      "Email": "fleonard@amgen.com",
+      "First_Name": "Felice",
+      "Language": "Spanish",
+      "Last_Name": "Leonardi",
+      "Legal_Basis": "Legitimate interest (B2B)",
+      "LinkedIn_URL": "https://www.linkedin.com/in/felice-leonardi-10666133",
+      "Name": "Felice Leonardi",
+      "Notes": "Origen: lista Market Access Colombia #10 (investigación pública 14-11-2026, LinkedIn). Email: Apollo people match 16-11-2026, status verified.\nVoices Galán enviada 16-11-2026",
+      "Outreach Log": [
+        "recuta53dQsj7VOOZ"
+      ],
+      "Region": "LATAM",
+      "Source": "Manual",
+      "Stage": "New",
+      "Title": "Head of Value & Access (interim)"
+    },
+    "id": "reco5DAqShzKBCWTo"
   },
   {
     "createdTime": "2026-10-21T23:45:37.000Z",
@@ -12405,7 +12767,7 @@
   {
     "createdTime": "2026-10-18T18:00:19.000Z",
     "fields": {
-      "Approval": "Pending Review",
+      "Approval": "Approved",
       "Company": "Abbvie Latam",
       "Email": "daniel.campos@abbvie.com",
       "First_Name": "Daniel Messias",
@@ -12644,6 +13006,32 @@
       "Title": "Strategic Sourcing Specialist, Marketing LATAM (2025)"
     },
     "id": "recs8f8b9r932jWLd"
+  },
+  {
+    "createdTime": "2026-11-16T13:15:09.000Z",
+    "fields": {
+      "Apollo_ID": "54ec475874686943113ab975",
+      "Approval": "Approved",
+      "Collected_At": "2026-11-16",
+      "Company": "Sanofi",
+      "Country": "Colombia",
+      "Email": "sergio.londono@sanofi.com",
+      "First_Name": "Sergio",
+      "Language": "Spanish",
+      "Last_Name": "Londoño",
+      "Legal_Basis": "Legitimate interest (B2B)",
+      "LinkedIn_URL": "https://www.linkedin.com/in/londonosergio",
+      "Name": "Sergio Londoño",
+      "Notes": "Origen: lista Market Access Colombia #49 (investigación pública 14-11-2026, LinkedIn). Email: Apollo people match 16-11-2026, status verified.\nVoices Galán enviada 16-11-2026",
+      "Outreach Log": [
+        "rectRjEfIOOP4vLYm"
+      ],
+      "Region": "LATAM",
+      "Source": "Manual",
+      "Stage": "New",
+      "Title": "HEOR Lead Latam"
+    },
+    "id": "recsFrFzKS2quMgH0"
   },
   {
     "createdTime": "2026-10-21T23:45:37.000Z",
@@ -13724,6 +14112,29 @@
     "id": "recy9UWxqc9Go8SbA"
   },
   {
+    "createdTime": "2026-11-16T13:15:09.000Z",
+    "fields": {
+      "Apollo_ID": "54a1fca37468693a7e812203",
+      "Approval": "Pending Review",
+      "Collected_At": "2026-11-16",
+      "Company": "Novartis",
+      "Country": "Colombia",
+      "Email": "julian.arcos@novartis.com",
+      "First_Name": "Julián",
+      "Language": "Spanish",
+      "Last_Name": "Arcos Argoty",
+      "Legal_Basis": "Legitimate interest (B2B)",
+      "LinkedIn_URL": "https://www.linkedin.com/in/julian-arcos-argoty-69115b29",
+      "Name": "Julián Arcos Argoty",
+      "Notes": "Origen: lista Market Access Colombia #44 (investigación pública 14-11-2026, LinkedIn). Email: Apollo people match 16-11-2026, status verified. Cargo en Apollo difiere del de la lista (HEOR Manager): verificar.",
+      "Region": "LATAM",
+      "Source": "Manual",
+      "Stage": "New",
+      "Title": "Access Strategy Manager - STA (Short Term Assignment)"
+    },
+    "id": "recyCJbzwqEPnSBn1"
+  },
+  {
     "createdTime": "2026-10-17T22:31:08.000Z",
     "fields": {
       "Approval": "Pending Review",
@@ -13921,7 +14332,7 @@
   {
     "createdTime": "2026-10-18T13:36:37.000Z",
     "fields": {
-      "Approval": "Pending Review",
+      "Approval": "Approved",
       "Company": "Merck Group",
       "Country": "Brazil",
       "Email": "clovis.brito@merckgroup.com",
