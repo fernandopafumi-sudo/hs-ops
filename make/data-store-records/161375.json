@@ -1,39 +1,6 @@
 [
   {
     "data": {
-      "notes": "aplicado con Fer 17-10: 8 reemplazos r1 + 15 r2 (sin re-verificar) + excerpt/metadesc. Sigue draft, espera OK para publicar. Pendiente: fecha kicker 12-10. Drive 11L4hSWscKtQ3TzzApq8PvXZ23nNTAV4f",
-      "run_id": "manual-20261017",
-      "state": "passed",
-      "title": "Colombia's Consejo de Estado Orders New Drug Policy Framework",
-      "updated_at": "2026-10-17T13:35:00-04:00",
-      "wp_modified": "2026-10-17T13:34:50"
-    },
-    "key": "36441"
-  },
-  {
-    "data": {
-      "notes": "needs_edit: r1 2 corr de hecho, una en la bio (INAHTA 2010-2014, no 2011); borrar grant BID $800k sin fuente. Metadesc: expandir IECS. Falta hs-sources (8 URLs). Sin r2. Diff OK. Drive 1yBsl3_H66BZj3FXPYs2lyPjhO7GHcCEi",
-      "run_id": "20261018-0658",
-      "state": "needs_edit",
-      "title": "Andrés Pichon-Riviere: Argentina's courts are deciding drug coverage \"case by case\"",
-      "updated_at": "2026-10-18T07:07:42-04:00",
-      "wp_modified": "2026-10-17T21:05:24"
-    },
-    "key": "36460"
-  },
-  {
-    "data": {
-      "notes": "needs_edit: r1 12 corr de hecho (>5), sin r2. Clave: 5M no es caseload IMSS; 77.9% no es del Atlas 2024; rango Bolivia 0.2%/Suriname 8.6% sin fuente (borrar); '2.1% multiple budget cycles' sin sustento. Kicker 17-10 sobre nota Infobae de mayo. Diff OK. Drive 1RKvJXmrzvVbiZhev-W7ecAZusdlgm6c2",
-      "run_id": "20261018-0658",
-      "state": "needs_edit",
-      "title": "Mexico's Mental Health Budget Gap Leaves Millions Without Care",
-      "updated_at": "2026-10-18T07:07:42-04:00",
-      "wp_modified": "2026-10-17T20:52:42"
-    },
-    "key": "36488"
-  },
-  {
-    "data": {
       "notes": "intento 3 (definitivo). Error: Drive create_file 'Requested entity was not found' (carpeta 1ZpyZ). Resultado (seria passed, 4 corr hecho, diff OK): r1 'The Moderna–Liomont partnership was signed under Plan Mexico'->'Moderna described the February MOU as aligned with Plan Mexico'. r2 (sin re-verificar) sacar 'mRNA ' en 3 lugares: 'contract for mRNA COVID-19 vaccine worth', 'Liomont for mRNA COVID-19 vaccine, running', 'award for mRNA COVID-19 vaccine, worth'. Ver REPORT-20261027-0659.",
       "run_id": "20261027-0659",
       "state": "failed",
@@ -287,35 +254,25 @@
   },
   {
     "data": {
-      "notes": "needs_edit: r1 10 corr de hecho (>5), una en el lede (superlativo 'not previously seen', Similares ~10k). Cita de Castanon unida mal; MXN 8,300M era todo FASA; consultas gratis solo Ahorro; CNA sin confirmar. Drive 1K33F8vMcVUPHY0I2qV95-ORliy8TeHEQ",
-      "run_id": "20261114-1511",
+      "notes": "needs_edit (re-gate tras edicion 16-11): r1 8 corr de hecho (>5), una en el lede (acuerdo 12-11 segun BMV, no 13-11), sin r2. Clave: 96.56% de acciones; 'ambas cadenas comparten' es solo Ahorro; Castanon chairman; Gonzalez CEO; Similares ~9k (borrar 'no replicable'). Drive 1Bp6m9AT6wx-SVDU1XHzwwYtpzTjXp-6g",
+      "run_id": "20261117-0659",
       "state": "needs_edit",
       "title": "Farmacias del Ahorro agrees to acquire Benavides, topping 3,000 stores",
-      "updated_at": "2026-11-14T15:23:01-05:00",
-      "wp_modified": "2026-11-14T14:56:25"
+      "updated_at": "2026-11-17T07:10:37-05:00",
+      "wp_modified": "2026-11-16T10:16:05"
     },
     "key": "37017"
   },
   {
     "data": {
-      "notes": "needs_edit: r1 11 corr de hecho (>5), sin r2. Clave: kicker US+EUROPE; CDC 38M->40.1M (2023); Wegovy HD $399 es de abr-2026 (borrar); WHO ya sumo GLP-1 a la EML en sep-2025; timeline desordenado. Drive 1ZsMJTwKbSGHWgSAALiBC-F9dLZJZ158L",
-      "run_id": "20261114-1511",
+      "notes": "needs_edit (re-gate tras edicion 16-11): 12 corr de hecho (4 r1 + 8 r2 sin re-verificar) > 5. Clave: WHO EML sep-2025 suma dulaglutide/liraglutide; 'CDC-funded'->CDC; 'screening' no esta en fuentes (x4); 40.1M es toda diabetes; timeline fuera de orden (manual). Drive 1-k6JOtG-isqhUCQNIcF1pos4dBVsAmGy",
+      "run_id": "20261117-0659",
       "state": "needs_edit",
       "title": "ADA and EASD Push Earlier GLP-1 and SGLT2 Use in Type 2 Diabetes",
-      "updated_at": "2026-11-14T15:23:01-05:00",
-      "wp_modified": "2026-11-14T15:10:42"
+      "updated_at": "2026-11-17T07:10:37-05:00",
+      "wp_modified": "2026-11-16T10:16:44"
     },
     "key": "37022"
-  },
-  {
-    "data": {
-      "notes": "- sin fallos de acceso, aprobaciones ni bloqueos\n- aviso: 36447 (Garcia Escorza, estaba en hold) ahora esta programado (future, modified 17-10 15:15); el gate no lo re-reviso. REPORT-20261009-0659 y -20261001-0658 siguen 'sin terminar' (ya reportadas)\n- run_id 20261018-0658\n- borradores vistos 15; excluidos 5 (Weekly 36411, 36146, 35939, 35772; post 36041); skipped backlog 7 sin cambios; 36441 sigue passed (aplicado con Fer 17-10, sin edicion); revisados 2 (nuevos); pendientes para manana 0\n- 36488 Mexico's Mental Health Budget Gap: needs_edit\n  - 12 correcciones de hecho (r1, sin r2); titulo y lead sin tocar; todas con 1 coincidencia, diff OK\n  - los ~5M son prevalencia nacional, no caseload de IMSS (metadesc e Industry)\n  - el 77.9% es de PAHO, no del Atlas 2024 (x2); en metadesc 'above 77.9%'\n  - suicidio: 'up 17% since 2000' (no 2000-2021)\n  - jovenes: ansiedad, conducta y desarrollo (no solo ansiedad)\n  - '2.1% across multiple budget cycles' sin sustento -> reescrito con el ~3% de CD60/9\n  - borrado: rango 0.2% Bolivia / 8.6% Suriname (sin fuente) y 'within that range'\n  - sin verificar: kicker 17-10 sobre nota Infobae del 20-05; 60% ansiedad digital; 42% (Atlas no leido); celda Mexico vacia en la tabla\n  - postura: no publicar tal cual; publicable tras aplicar los 13 y resolver la fecha\n  - Drive: https://drive.google.com/file/d/1RKvJXmrzvVbiZhev-W7ecAZusdlgm6c2/view\n- 36460 Andres Pichon-Riviere (VOICES, AR): needs_edit\n  - 2 correcciones de hecho; una en la bio: INAHTA 2010-2014 (no 2011)\n  - borrado: grant BID de $800.000 (sin fuente)\n  - metadesc: expandir IECS; se agrega hs-sources (8 URLs)\n  - sin verificar: co-direccion del centro OPS/OMS, 'principal researcher' CONICET, cita de abril 2025, 'still not operating', FSR/recaudacion, objecion CILFA, RedARETS 2012\n  - postura: publicable tras aplicar los 2 y hs-sources\n  - Drive: https://drive.google.com/file/d/1yBsl3_H66BZj3FXPYs2lyPjhO7GHcCEi/view\n- limpieza: a la papelera 36447-2026-10-15T16:45:11-hallazgos.md; nada mas\nPara aplicar y publicar, decile a Claude en un chat: aplicar gate <ID>. La sesión que aplique relee el post, rechaza si su modified es distinto del wp_modified del archivo, aplica los reemplazos con código, verifica el diff y publica solo con OK de Fer.",
-      "run_id": "20261018-0658",
-      "state": "passed",
-      "title": "REPORT",
-      "updated_at": "2026-10-18T07:08:30-04:00"
-    },
-    "key": "REPORT-20261018-0658"
   },
   {
     "data": {
@@ -642,5 +599,15 @@
       "wp_modified": null
     },
     "key": "REPORT-20261116-0658"
+  },
+  {
+    "data": {
+      "notes": "- Sin fallos de acceso, sin aprobaciones pedidas, sin bloqueos, ningun post en tercer fallo.\n- run_id 20261117-0659. Borradores vistos 6, excluidos 0, skipped backlog nuevos 0, pendientes para manana 0.\n- 37022 y 37017 volvieron a pending: editados el 16-11 (tarea que aplico las correcciones del gate del 14-11). Se re-revisaron. Sus hallazgos viejos de Drive fueron a la papelera.\n- 37022 'ADA and EASD Push Earlier GLP-1 and SGLT2 Use...': needs_edit, 12 corr de hecho (4 r1 + 8 r2 sin re-verificar). r1: WHO EML sep-2025 incluye semaglutide, dulaglutide, liraglutide y tirzepatide (x2); 'CDC-funded' -> CDC study; timeline ADA 'SGLT2 inhibitors and GLP-1-based therapies'. r2 (sin re-verificar): 'screening' no esta en ADA/JAMA -> monitoring and treating (x4); 'multi-system condition' -> comprehensive condition management; 24h framework sin 'physical activity'; 40.1M es toda diabetes, no T2D; excerpt 'potentially expanding'. Sin cita, decidir a mano: clausula DSMES/CDC y 'Many formularies... metformin'. Manual: timeline fuera de orden (ACP may-2024 antes de WHO oct-2024). Postura: no publicar hasta aplicar; nucleo verificado. Drive https://drive.google.com/file/d/1-k6JOtG-isqhUCQNIcF1pos4dBVsAmGy/view\n- 37017 'Farmacias del Ahorro agrees to acquire Benavides...': needs_edit, 8 corr de hecho r1, una en el lede (acuerdo fechado 12-11 segun aviso BMV; anuncio 13-11), sin r2. Principales: 96.56% de las acciones; modelo de consultas gratis es solo de Ahorro; Castanon chairman; Gonzalez CEO; borrar 'modelo adoptado por rivales'; Similares ~9.000 farmacias (x2, reemplaza 'no replicable'); LexLatin -> El Dinamo; CNA citado por BMV. Sin verificar: US$638M 2014, 'Monterrey-based', Guadalajara/San Pablo. Postura: no publicar hasta aplicar. Drive https://drive.google.com/file/d/1Bp6m9AT6wx-SVDU1XHzwwYtpzTjXp-6g/view\n- Sin cambios: 37012, 37007 (needs_edit 14-11), 36926 Sepulveda (needs_edit 13-11), 36868 (skipped por Fer).\n- Limpieza: borrados REPORT-20261018-0658, 36441, 36460, 36488 (>30 dias, ya no draft).\nPara aplicar y publicar, decile a Claude en un chat: aplicar gate <ID>. La sesion que aplique relee el post, rechaza si su modified es distinto del wp_modified del archivo, aplica los reemplazos con codigo, verifica el diff y publica solo con OK de Fer.",
+      "run_id": "20261117-0659",
+      "state": "passed",
+      "title": "REPORT",
+      "updated_at": "2026-11-17T07:11:30-05:00"
+    },
+    "key": "REPORT-20261117-0659"
   }
 ]

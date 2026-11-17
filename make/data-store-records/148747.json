@@ -1410,6 +1410,14 @@
   {
     "data": {
       "batch": "SCAN-EVENTS",
+      "headline": "CVS white paper aims to pressure drugmakers to lower GLP-1 prices | Healthcare Dive",
+      "seen_at": "2026-11-17T12:25:15.042Z"
+    },
+    "key": "evt~3fe226011f889c837311dcbd970ccdc4"
+  },
+  {
+    "data": {
+      "batch": "SCAN-EVENTS",
       "headline": "ESMO News",
       "seen_at": "2026-10-24T11:23:21.694Z"
     },
@@ -1426,6 +1434,22 @@
   {
     "data": {
       "batch": "SCAN-EVENTS",
+      "headline": "Glucagon-Like Peptide-1 Utilization Following Withdrawal of Medicaid Coverage for Weight Loss",
+      "seen_at": "2026-11-17T12:24:04.665Z"
+    },
+    "key": "evt~47e37ed5715d81feb7321e9d8c6f55ee"
+  },
+  {
+    "data": {
+      "batch": "SCAN-EVENTS",
+      "headline": "Wegovy leads to ‘substantial’ BMI decrease for children",
+      "seen_at": "2026-11-17T12:24:15.544Z"
+    },
+    "key": "evt~4b1bc9ea87d3f51eda49c9fabfc1be59"
+  },
+  {
+    "data": {
+      "batch": "SCAN-EVENTS",
       "headline": "From RAS rivalry to leaked readouts, ESMO brought the data drama",
       "seen_at": "2026-10-28T11:23:12.927Z"
     },
@@ -1434,10 +1458,26 @@
   {
     "data": {
       "batch": "SCAN-EVENTS",
+      "headline": "HLTH26: Suki launches agentic operating system",
+      "seen_at": "2026-11-17T12:25:23.223Z"
+    },
+    "key": "evt~54816ef609c4d4f295e0bd8c1dd51a42"
+  },
+  {
+    "data": {
+      "batch": "SCAN-EVENTS",
       "headline": "GLP-1 receptor antagonist reduces post-bariatric hypoglycemia",
       "seen_at": "2026-11-16T12:24:10.141Z"
     },
     "key": "evt~588f29695c2e9ddf0a82c0f5847f7644"
+  },
+  {
+    "data": {
+      "batch": "SCAN-EVENTS",
+      "headline": "Tirzepatide in Adolescents With Obesity",
+      "seen_at": "2026-11-17T12:24:34.958Z"
+    },
+    "key": "evt~592e2ee491d6b975e7ce80a242781ea3"
   },
   {
     "data": {
@@ -1546,6 +1586,14 @@
   {
     "data": {
       "batch": "SCAN-EVENTS",
+      "headline": "HLTH26: Calibrate, Withings study looks at GLP-1 wraparound care",
+      "seen_at": "2026-11-17T12:24:53.299Z"
+    },
+    "key": "evt~754f9d4f792e34682f7fd3941c2c85e1"
+  },
+  {
+    "data": {
+      "batch": "SCAN-EVENTS",
       "headline": "Lp(a) HORIZON trial: Lp(a) fell by 78%, but cardiovascular outcomes unexpectedly neutral | American Heart Association",
       "seen_at": "2026-11-08T12:23:19.182Z"
     },
@@ -1602,6 +1650,14 @@
   {
     "data": {
       "batch": "SCAN-EVENTS",
+      "headline": "HLTH 2026 Daily Tracker: HHS' Chris Klomp on the leap from startups to Medicare | Fierce Healthcare",
+      "seen_at": "2026-11-17T12:25:09.294Z"
+    },
+    "key": "evt~822dfe3ea498b27d3640ce6f61d7962d"
+  },
+  {
+    "data": {
+      "batch": "SCAN-EVENTS",
       "headline": "ESMO: BMS’ Massacesi hails PD-L1xVEGF data as ‘very promising’",
       "seen_at": "2026-10-26T11:23:31.880Z"
     },
@@ -1638,6 +1694,14 @@
       "seen_at": "2026-11-14T12:23:11.618Z"
     },
     "key": "evt~9097667a43fe60aa6a9dbcb32901838a"
+  },
+  {
+    "data": {
+      "batch": "SCAN-EVENTS",
+      "headline": "HLTH26: Viz.ai, Wolters Kluwer partner on platform integration",
+      "seen_at": "2026-11-17T12:25:39.301Z"
+    },
+    "key": "evt~92cb4fa0fcb9697b7a0c16b26a8e3a42"
   },
   {
     "data": {
@@ -1698,6 +1762,14 @@
   {
     "data": {
       "batch": "SCAN-EVENTS",
+      "headline": "Tirzepatide in Adolescents With Obesity: The SURMOUNT-ADOLESCENTS Randomized Clinical Trial | Obesity | JAMA | JAMA Network",
+      "seen_at": "2026-11-17T12:24:21.615Z"
+    },
+    "key": "evt~c2622ca1ecce9e3c41790f0a1ff114c0"
+  },
+  {
+    "data": {
+      "batch": "SCAN-EVENTS",
       "headline": "GLP-1s cost-effective in US Military Health System",
       "seen_at": "2026-11-16T12:24:03.890Z"
     },
@@ -1746,6 +1818,22 @@
   {
     "data": {
       "batch": "SCAN-EVENTS",
+      "headline": "Pediatric Obesity Pharmacotherapy: From Therapeutic Scarcity to Therapeutic Choice | Obesity | JAMA | JAMA Network",
+      "seen_at": "2026-11-17T12:24:28.123Z"
+    },
+    "key": "evt~ca6a27f52f9828b244575dc8686efca1"
+  },
+  {
+    "data": {
+      "batch": "SCAN-EVENTS",
+      "headline": "HLTH26: OpenAI advances computer-use agents in healthcare",
+      "seen_at": "2026-11-17T12:24:41.765Z"
+    },
+    "key": "evt~cb96c1ff30581d3690702516b0dc86d6"
+  },
+  {
+    "data": {
+      "batch": "SCAN-EVENTS",
       "headline": "SAFFRON Data Reveal New Global SOC in EGFR+ NSCLC With MET Overexpression and/or Amplification After Osimertinib",
       "seen_at": "2026-10-26T11:23:11.045Z"
     },
@@ -1758,6 +1846,14 @@
       "seen_at": "2026-10-25T11:23:31.485Z"
     },
     "key": "evt~d947b655a55c36ab822c39c8318746c3"
+  },
+  {
+    "data": {
+      "batch": "SCAN-EVENTS",
+      "headline": "Tirzepatide confers ‘robust’ weight loss for teens with obesity",
+      "seen_at": "2026-11-17T12:24:09.943Z"
+    },
+    "key": "evt~d95a9035ac7c68f650cb8ce1a658246e"
   },
   {
     "data": {

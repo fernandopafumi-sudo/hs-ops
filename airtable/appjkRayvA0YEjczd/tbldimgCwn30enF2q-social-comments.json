@@ -597,6 +597,21 @@
     "id": "reclPv24xSNtSRRHf"
   },
   {
+    "createdTime": "2026-11-17T13:53:45.000Z",
+    "fields": {
+      "Account": "INVIMA",
+      "Comment": "El Instituto Nacional de Vigilancia de Medicamentos y Alimentos (Invima) coordinará en 2027-2028 la Red de Puntos Focales de Farmacovigilancia de las Américas, designación que la Organización Panamericana de la Salud (OPS) oficializó en la reunión virtual del 10 de noviembre. Entre las líneas de trabajo propuestas figuran la vigilancia de la seguridad de las vacunas, la detección y evaluación de señales y la gestión de riesgos. ¿Qué información de seguridad compartida en la red sería más útil también para quienes planifican el acceso y las compras de medicamentos y vacunas?\nhttps://healthsignals.news/?utm_source=linkedin&utm_medium=comment&utm_campaign=invima #HealthSignals",
+      "Date": "2026-11-17",
+      "Fer Edits": "Post de LinkedIn a ubicar al publicar (fuente: nota web oficial 13-11). revisión adversarial (opus, 17-11): Invima expandido; 'líneas de trabajo propuestas' y 'detección y evaluación de señales' como en la fuente; pregunta reformulada.",
+      "HS Link": "https://healthsignals.news/",
+      "Network": "LinkedIn",
+      "Post Summary": "Invima coordinará la Red de Puntos Focales de Farmacovigilancia de las Américas 2027-2028 (OPS, 10-11)",
+      "Post URL": "https://www.invima.gov.co/blog/sala-de-prensa-13/el-invima-coordinara-la-red-de-puntos-focales-de-farmacovigilancia-de-las-americas-en-2027-2028-681",
+      "Status": "Proposed"
+    },
+    "id": "recmSj48ciCUPcAwz"
+  },
+  {
     "createdTime": "2026-11-06T13:58:29.000Z",
     "fields": {
       "Account": "PAHO",
@@ -774,6 +789,21 @@
       "Status": "Published"
     },
     "id": "recus9eAXceHSYHfV"
+  },
+  {
+    "createdTime": "2026-11-17T13:53:45.000Z",
+    "fields": {
+      "Account": "WHO",
+      "Comment": "WHO's new essential package of diagnostic tests for bacterial and fungal infections and antimicrobial resistance (AMR) maps rapid, microscopy, culture-based, serological and molecular tests to the tiers of the health system, from primary care to tertiary hospitals. It notes that major gaps in access persist, especially in low- and middle-income countries. In Latin America, where would early investment add the most value: rapid tests in primary care, or hospital microbiology and susceptibility testing?\nhttps://healthsignals.news/?utm_source=linkedin&utm_medium=comment&utm_campaign=who #HealthSignals",
+      "Date": "2026-11-17",
+      "Fer Edits": "Post de LinkedIn a ubicar al publicar (fuente: toolkit WHO B09666, 16-11). revisión adversarial (opus, 17-11): 'each tier' -> 'the tiers' como en la fuente; una sola pregunta (se quitó la de quién paga).",
+      "HS Link": "https://healthsignals.news/",
+      "Network": "LinkedIn",
+      "Post Summary": "WHO publica paquete esencial de pruebas diagnósticas para infecciones bacterianas/fúngicas y AMR (16-11)",
+      "Post URL": "https://www.who.int/publications/i/item/B09666",
+      "Status": "Proposed"
+    },
+    "id": "recy2pn91yDuRg55z"
   },
   {
     "createdTime": "2026-10-17T18:02:50.000Z",

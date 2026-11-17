@@ -39,6 +39,19 @@
     "id": "rec30P3VHy4pnstGd"
   },
   {
+    "createdTime": "2026-11-17T13:54:21.000Z",
+    "fields": {
+      "Channel": "prensa",
+      "Date": "2026-11-17",
+      "Items_Pending": 0,
+      "Notes": "Sin respuestas, rebotes ni bajas nuevas. Pregunta abierta a Fer: LinkedIn Canales y Baeza.",
+      "Run": "manana",
+      "Run_Key": "2026-11-17|manana|prensa",
+      "Status": "sin novedades"
+    },
+    "id": "rec3s5wKBU5Zn661h"
+  },
+  {
     "createdTime": "2026-11-09T14:04:48.000Z",
     "fields": {
       "Channel": "voices",
@@ -286,6 +299,19 @@
     "id": "recESsx2cdzt80yof"
   },
   {
+    "createdTime": "2026-11-17T13:54:21.000Z",
+    "fields": {
+      "Channel": "voices",
+      "Date": "2026-11-17",
+      "Items_Pending": 1,
+      "Notes": "Solo paso 0: 0 programados, sin alertas. Sin invitaciones LinkedIn hoy. Pendiente decisión Levy (Sent sin OK, CC iadb rebotó) / Llorca (rebote NXDOMAIN).",
+      "Run": "manana",
+      "Run_Key": "2026-11-17|manana|voices",
+      "Status": "ok"
+    },
+    "id": "recEa9oGNcobWgls0"
+  },
+  {
     "createdTime": "2026-10-23T12:57:53.000Z",
     "fields": {
       "Channel": "comentarios",
@@ -362,6 +388,19 @@
       "Status": "ok"
     },
     "id": "recJdRrdjjL4rTSmx"
+  },
+  {
+    "createdTime": "2026-11-17T13:54:21.000Z",
+    "fields": {
+      "Channel": "comentarios",
+      "Date": "2026-11-17",
+      "Items_Pending": 6,
+      "Notes": "2 Proposed nuevas (Invima recmSj48ciCUPcAwz, WHO recy2pn91yDuRg55z) tras adversarial opus lanzada por el principal (subagente sin Agent). 4 Proposed del 16-11 esperando. Cola Approved 0. Búsqueda web pobre.",
+      "Run": "manana",
+      "Run_Key": "2026-11-17|manana|comentarios",
+      "Status": "ok"
+    },
+    "id": "recJz8AJaQ27BWtwq"
   },
   {
     "createdTime": "2026-11-04T13:56:16.000Z",
@@ -871,6 +910,19 @@
     "id": "recerR9EYMJsTghpy"
   },
   {
+    "createdTime": "2026-11-17T13:54:21.000Z",
+    "fields": {
+      "Channel": "grupos",
+      "Date": "2026-11-17",
+      "Items_Pending": 1,
+      "Notes": "Pharmaceutical Industry (nivel A), Wegovy tabletas México, brief_issue02. Last posted anterior 2026-11-04 (recB3nupjPLU4mrQa).",
+      "Run": "manana",
+      "Run_Key": "2026-11-17|manana|grupos",
+      "Status": "ok"
+    },
+    "id": "recf167NSwjCG7tXZ"
+  },
+  {
     "createdTime": "2026-10-30T13:03:05.000Z",
     "fields": {
       "Channel": "grupos",
@@ -1168,6 +1220,19 @@
       "Status": "sin novedades"
     },
     "id": "recnjDwKJsmvdWoFl"
+  },
+  {
+    "createdTime": "2026-11-17T13:54:21.000Z",
+    "fields": {
+      "Channel": "sponsors",
+      "Date": "2026-11-17",
+      "Items_Pending": 12,
+      "Notes": "Invitaciones confirmadas por Fer: 0. Aceptaciones: n/d. Pendientes estimadas: 0. Corridas seguidas con propuesta sin OK: 5 (10-11, 11-11, 12-11, 16-11, 17-11). Acumulado sin OK: 44 anteriores + 12 hoy = 56.\nCandidatos 17-11 (nombre | URL):\nH1 María José Sánchez García (AbbVie CO) | https://linkedin.com/in/mariajosesanchezgarciavargas\nH2 Edward Cordero (Menarini CO) | https://linkedin.com/in/edwardcorderorico\nH3 Martin Javier M. (Aspen Labs LATAM CO, apellido sin confirmar) | https://linkedin.com/in/martinjaviermartinezlozano\nH4 Patricio Carrion Vela (Boehringer Ingelheim EC) | https://linkedin.com/in/patricio-carrion-vela-9332b148\nH5 Vanessa Vertiz (Merck CA&Caribe PA) | https://linkedin.com/in/vanessa-vertiz-79597012\nH6 Carlos De la Riva (Eli Lilly CO) | https://linkedin.com/in/carlos-de-la-riva-43791536a\nH7 Carlos Andres Manrique Jimenez (Blau CO) | https://linkedin.com/in/carlosandresmanrique\nH8 Fernanda Rizzardi Oliveira Gentil (Glenmark BR) | https://linkedin.com/in/fernanda-rizzardi-oliveira-gentil\nH9 Liliana Paola Benavides Restrepo (Novo Nordisk CL) | https://linkedin.com/in/liliana-paola-benavides-restrepo-07aab62b\nH10 Santiago Costa (Roche AR) | https://linkedin.com/in/santiagocosta87\nH11 Christian Ximena Rodriguez (Teva MX) | https://linkedin.com/in/christian-ximena-rodriguez-3a343b42\nH12 Jimena Marín (Pint Pharma LATAM) | https://linkedin.com/in/lidajimenamarin",
+      "Run": "manana",
+      "Run_Key": "2026-11-17|manana|sponsors",
+      "Status": "ok"
+    },
+    "id": "recoeZO9KJSMjy6F6"
   },
   {
     "createdTime": "2026-10-28T13:15:21.000Z",

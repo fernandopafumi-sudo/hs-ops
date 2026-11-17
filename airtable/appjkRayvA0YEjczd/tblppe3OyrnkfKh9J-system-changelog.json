@@ -44,6 +44,15 @@
     "id": "rec3JG5h7DxTJmP1T"
   },
   {
+    "createdTime": "2026-11-17T13:15:10.000Z",
+    "fields": {
+      "Change": "HS CEO diario 17-11",
+      "Date": "2026-11-17",
+      "Details": "Corrida 17-11 (tarea trig_01J2dn9zjexmqtsFnkv2szhF). Hecho: Deals WHX rec4AjJRQkuwbalIH (Next_Step esperar a Gil, 24-11), Hospitalar recUf7l23rZTdw2MG (esperar a Luciana, 23-11), CPHI recFtCIEtcVTgYJ5j (nota del contrafirmado del 16-11). Chequeos: Make sin DLQ ni inválidos activos, errores sin cambios, 6 scenarios clave activos, watchdog OK; Publisher 17-11 sin borrador nuevo; portadas OK. Mail 'HS decisiones — 17-11 — 6 para decidir' enviado a editor@ (msg 1a1e9a587d476a39). Decisiones pendientes: 6 (la más urgente: confirmar quién mandó los borradores de editor@ el 16-11 y el Blocklist Check Test del 17-11)."
+    },
+    "id": "rec6skDOE0ccsDvNX"
+  },
+  {
     "createdTime": "2026-09-23T04:36:52.000Z",
     "fields": {
       "Area": "Publisher (5133643)",

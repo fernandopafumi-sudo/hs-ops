@@ -93,7 +93,7 @@
       "Legal_Basis": "Legitimate interest (B2B)",
       "LinkedIn_URL": "https://www.linkedin.com/in/camilo-tamayo-64373699",
       "Name": "Camilo Tamayo",
-      "Notes": "Origen: lista Market Access Colombia #47 (investigación pública 14-11-2026, LinkedIn). Email: Apollo people match 16-11-2026, status verified.\nVoices Galán enviada 16-11-2026",
+      "Notes": "Origen: lista Market Access Colombia #47 (investigación pública 14-11-2026, LinkedIn). Email: Apollo people match 16-11-2026, status verified.\nVoices Galán enviada 16-11-2026\n2026-11-16: auto-respuesta: fuera de oficina del 06 al 25-11 (ISPOR Europe 6-12, vacaciones 13-25). Email válido. Cualquier seguimiento, después del 25-11.",
       "Outreach Log": [
         "recfajfXEOgSOZP12"
       ],
@@ -356,26 +356,6 @@
       "Stage": "Lost"
     },
     "id": "rec2DHWzSljpKgOMf"
-  },
-  {
-    "createdTime": "2026-11-13T00:43:14.000Z",
-    "fields": {
-      "Approval": "Hold",
-      "Company": "Informa (CPHI Americas / WHX Miami)",
-      "Country": "USA",
-      "Email": "Kathryn.Scott@informa.com",
-      "First_Name": "Kate",
-      "Last_Name": "Scott",
-      "Name": "Kate Scott",
-      "Notes": "Socio de eventos, no prospecto de sponsorship: Approval=Hold para que ninguna secuencia automática le escriba. Barter CPHI Americas 2027 firmado 12-11-2026 (US$3.300 por lado, sin facturas). Oportunidad abierta: mismo intercambio para WHX Miami 2027 (16-18 jun). Hilo Gmail 1a1c6bd5415a5f20.",
-      "Preferred_Channel": "Email",
-      "Region": "USA",
-      "Segment": "Other",
-      "Source": "Inbound",
-      "Stage": "Won",
-      "Title": "VP Events, Healthcare, South Florida Ventures"
-    },
-    "id": "rec2K7gR9qtS1oyFU"
   },
   {
     "createdTime": "2026-10-17T19:40:07.000Z",
@@ -1229,7 +1209,7 @@
       "Legal_Basis": "Legitimate interest (B2B)",
       "LinkedIn_URL": "https://www.linkedin.com/in/andrea-catano",
       "Name": "Andrea Cataño",
-      "Notes": "Origen: lista Market Access Colombia #43 (LinkedIn, 14-11-2026). Email: Apollo people match 16-11-2026, status verified.\nVoices Galán enviada 16-11-2026\n2026-11-16: REBOTE (mensaje bloqueado, Gmail DSN). Apollo email validation 16-11-2026 = no confirmado. Approval pasado a Hold: no reenviar a andrea_catano@baxter.com; buscar otro email.",
+      "Notes": "Origen: lista Market Access Colombia #43 (LinkedIn, 14-11-2026). Email: Apollo people match 16-11-2026, status verified.\nVoices Galán enviada 16-11-2026\n2026-11-16: REBOTE (550 5.4.1 Access denied, mensaje bloqueado). Apollo email validation 16-11-2026 = no confirmado. Approval pasado a Hold: no reenviar a andrea_catano@baxter.com.\n2026-11-17: Apollo re-match (1 cr) devolvió la MISMA dirección (verified, pero rebotó). Sin alternativa por email; contactar solo por LinkedIn DM.",
       "Outreach Log": [
         "recNFdI9Kl9Gx3Ru7"
       ],
@@ -5443,6 +5423,25 @@
     "id": "recMFSd9deUzm0X76"
   },
   {
+    "createdTime": "2026-11-17T17:22:59.000Z",
+    "fields": {
+      "Approval": "Pending Review",
+      "Collected_At": "2026-11-17",
+      "Company": "AstraZeneca México",
+      "Email": "nayma.peralta@astrazeneca.com",
+      "First_Name": "Julieta",
+      "ICP_Fit": "A",
+      "Last_Name": "Peralta",
+      "Name": "Julieta Peralta",
+      "Notes": "Equipo de Ricardo Blanco (AZ México). En copia del mail del 17-11-2026 'HealthSignals | posibles colaboraciones'. Cargo no confirmado. No contactar por separado: va dentro del hilo con Ricardo.",
+      "Preferred_Channel": "Email",
+      "Segment": "Pharma",
+      "Source": "Manual",
+      "Stage": "New"
+    },
+    "id": "recMGszC0aeup4JbS"
+  },
+  {
     "createdTime": "2026-10-18T17:51:27.000Z",
     "fields": {
       "Approval": "Pending Review",
@@ -6077,6 +6076,25 @@
       "Title": "Contacto Q&A RFP CAR-T (2025)"
     },
     "id": "recPIhRmseRVrSDUh"
+  },
+  {
+    "createdTime": "2026-11-17T17:22:59.000Z",
+    "fields": {
+      "Approval": "Pending Review",
+      "Collected_At": "2026-11-17",
+      "Company": "AstraZeneca México (Adecco)",
+      "Email": "mx-coa01025@astrazeneca.com",
+      "First_Name": "Jaqueline",
+      "ICP_Fit": "B",
+      "Last_Name": "Martínez Trejo",
+      "Name": "Jaqueline Martínez Trejo",
+      "Notes": "Contratista Adecco en AZ México, equipo de Ricardo Blanco. En copia del mail del 17-11-2026. Cargo no confirmado. No contactar por separado.",
+      "Preferred_Channel": "Email",
+      "Segment": "Pharma",
+      "Source": "Manual",
+      "Stage": "New"
+    },
+    "id": "recPJ05GU2UKoaGY4"
   },
   {
     "createdTime": "2026-10-17T19:36:20.000Z",
@@ -9942,7 +9960,7 @@
       "Legal_Basis": "Legitimate interest (B2B)",
       "LinkedIn_URL": "https://www.linkedin.com/in/germ%C3%A1n-fern%C3%A1ndez-4a303b2/",
       "Name": "Germán Fernández",
-      "Notes": "Origen: lista Market Access Colombia #31 (LinkedIn, 14-11-2026). Email: Apollo people match 16-11-2026, status verified.\nVoices Galán enviada 16-11-2026",
+      "Notes": "Origen: lista Market Access Colombia #31 (LinkedIn, 14-11-2026). Email: Apollo people match 16-11-2026, status verified.\nVoices Galán enviada 16-11-2026\n2026-11-16: auto-respuesta: fuera de oficina hasta el 17-11 (email válido, entrega OK).",
       "Outreach Log": [
         "rechpbKxlqqqEAUsk"
       ],
@@ -10442,7 +10460,7 @@
       "Legal_Basis": "Legitimate interest (B2B)",
       "LinkedIn_URL": "https://www.linkedin.com/in/carlos-mora-90089b2b",
       "Name": "Carlos Mora",
-      "Notes": "Origen: lista Market Access Colombia #40 (investigación pública 14-11-2026, LinkedIn). Email: Apollo people match 16-11-2026, status verified.\nVoices Galán enviada 16-11-2026",
+      "Notes": "Origen: lista Market Access Colombia #40 (investigación pública 14-11-2026, LinkedIn). Email: Apollo people match 16-11-2026, status verified.\nVoices Galán enviada 16-11-2026\n2026-11-16: auto-respuesta: fuera de oficina, sin fecha de regreso (email válido, entrega OK).",
       "Outreach Log": [
         "recbg5Uv3kUQMZFoR"
       ],
@@ -10733,12 +10751,12 @@
       ],
       "Email": "kathryn.scott@informa.com",
       "First_Name": "Kate",
-      "Last_Contacted": "2026-11-11",
+      "Last_Contacted": "2026-11-16",
       "Last_Name": "Scott",
       "Name": "Kate Scott",
-      "Next_Action": "Esperar contrato CPHI corregido; al firmar, proponer WHX Miami 2027 con el mismo esquema.",
-      "Next_Action_Date": "2026-11-16",
-      "Notes": "CONTACTO DE ALIANZAS (no outreach comercial automático). Decisora: maneja WHX Miami (ex FIME, 16-18 jun 2027) y CPHI Americas (25-26 may 2027, Miami Beach).\n- 08-11: propuesta de paquete a Matthew Ramirez y Luciana Perdomo; respondió Kate.\n- 10-11: Kate manda acuerdo de canje CPHI Americas (HealthSignals.docx) a partnerships@.\n- 11-11: Fer acepta y pide 4 ajustes antes de firmar (fecha de firma, dirección 407 Lincoln Rd, fechas de entrega: banner 27-04 a 26-05-2027, Brief último número pre-evento, 3 posts LinkedIn; sin facturas cruzadas).\nHilo Gmail editor@: 'Barter for CPHI Americas'.",
+      "Next_Action": "Esperar respuesta de Gil (Event Director WHX) sobre canje WHX Miami 2027; si no responde, recordar a Kate.",
+      "Next_Action_Date": "2026-11-24",
+      "Notes": "CONTACTO DE ALIANZAS (no outreach comercial automático). Decisora: maneja WHX Miami (ex FIME, 16-18 jun 2027) y CPHI Americas (25-26 may 2027, Miami Beach).\n- 08-11: propuesta de paquete a Matthew Ramirez y Luciana Perdomo; respondió Kate.\n- 10-11: Kate manda acuerdo de canje CPHI Americas (HealthSignals.docx) a partnerships@.\n- 11-11: Fer acepta y pide 4 ajustes antes de firmar (fecha de firma, dirección 407 Lincoln Rd, fechas de entrega: banner 27-04 a 26-05-2027, Brief último número pre-evento, 3 posts LinkedIn; sin facturas cruzadas).\n- 12-11: barter CPHI Americas 2027 firmado (US$3.300 por lado, sin facturas).\n- 16-11: Kate mandó el barter firmado por Informa (adjunto en el hilo). WHX: reenvió el pedido de Fer a Gil, Event Director de WHX, que responde a su regreso la semana próxima.\n- 17-11: fusionado con el registro duplicado rec2K7gR9qtS1oyFU (borrado). Hilo Gmail editor@: 'Barter for CPHI Americas' (1a1c6bd5415a5f20).",
       "Preferred_Channel": "Email",
       "Region": "USA",
       "Segment": "Other",
@@ -12013,6 +12031,28 @@
     "id": "recnt3W25hALURrX6"
   },
   {
+    "createdTime": "2026-11-17T17:22:59.000Z",
+    "fields": {
+      "Approval": "Approved",
+      "Collected_At": "2026-11-17",
+      "Company": "AstraZeneca México",
+      "Email": "ricardo.blanco1@astrazeneca.com",
+      "First_Name": "Ricardo",
+      "ICP_Fit": "A",
+      "Last_Contacted": "2026-11-17",
+      "Last_Name": "Blanco",
+      "Name": "Ricardo Blanco",
+      "Next_Action": "Enviar propuesta AZ México (doc) y proponer llamada semana 24-11",
+      "Next_Action_Date": "2026-11-18",
+      "Notes": "Contacto directo de Fer. 17-11-2026: respondió abriendo dos vías (editorial y pagada), caso por caso, sujeto a regulación MX; pidió formatos, audiencias, alcance y propuesta comercial. Puso en copia a Julieta Peralta y Jaqueline Martínez Trejo (Adecco). Cargo no confirmado. Propuesta: doc 'Propuesta HealthSignals para AstraZeneca México — noviembre 2026'.",
+      "Preferred_Channel": "Email",
+      "Segment": "Pharma",
+      "Source": "Manual",
+      "Stage": "Proposal"
+    },
+    "id": "recnyKXbnViVgs871"
+  },
+  {
     "createdTime": "2026-10-21T23:46:54.000Z",
     "fields": {
       "Approval": "Pending Review",
@@ -12260,7 +12300,7 @@
       "Approval": "Approved",
       "Company": "Brazmedia",
       "Name": "Freddy (apellido a confirmar)",
-      "Notes": "Registrado 26-09 segun Fernando: ya hablo con el (contacto 1-1). Completar apellido, cargo y resultado.",
+      "Notes": "Registrado 26-09 segun Fernando: ya hablo con el (contacto 1-1). Completar apellido, cargo y resultado.\n2026-11-16: organización Brazmedia (según nota de Fer en editor@, hilo 1a1e58c2b8919e1b). Freddy propuso una llamada el lunes; esta semana está de viaje en MG; pidió que Fer le mande invitación. Email, apellido y cargo siguen sin confirmar.",
       "Region": "LATAM",
       "Segment": "Other",
       "Source": "Manual",

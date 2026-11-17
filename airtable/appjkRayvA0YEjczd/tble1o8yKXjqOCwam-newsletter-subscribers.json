@@ -72,6 +72,27 @@
     "id": "rec8V6lYOGRa9bcyk"
   },
   {
+    "createdTime": "2026-11-17T14:46:45.000Z",
+    "fields": {
+      "Access": "Corporate",
+      "CTA Source": "newsletter_page",
+      "Company": "Roche",
+      "Consent At": "2026-11-17T14:47:43.000Z",
+      "Consent Text": "v2 2026-10-21 | By subscribing you agree to receive The HealthSignals Brief by email and accept our Privacy Policy.",
+      "Country": "Colombia",
+      "Email": "andres.toro@roche.com",
+      "Job Title": "Medical, Access, Regulatory & Quality Leader",
+      "Last Name": "Toro",
+      "Name": "Andres",
+      "Post URL": "https://healthsignals.news/newsletter/",
+      "Signup Stage": "complete",
+      "Source": "Website",
+      "Status": "Active",
+      "Subscribe Date": "2026-11-17"
+    },
+    "id": "rec8pPu97Uj5iX0W4"
+  },
+  {
     "createdTime": "2026-11-11T18:53:28.000Z",
     "fields": {
       "CTA Source": "invite-voices",
@@ -368,7 +389,7 @@
       "Post URL": "https://healthsignals.news/in-mexico-patients-pay-almost-as-much-as-the-state-for-health-care/",
       "Signup Stage": "complete",
       "Source": "Website",
-      "Status": "Requested",
+      "Status": "Active",
       "Subscribe Date": "2026-11-16"
     },
     "id": "recbZnsAJq85DRVTz"
