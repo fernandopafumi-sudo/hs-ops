@@ -44,6 +44,17 @@
     "id": "rec3JG5h7DxTJmP1T"
   },
   {
+    "createdTime": "2026-11-18T13:17:07.000Z",
+    "fields": {
+      "Area": "Otro",
+      "Change": "HS CEO diario 18-11",
+      "Date": "2026-11-18",
+      "Details": "Hecho: Voices rec84WRhsD2arnITg (Galán) Stage → Published (WP 37002 publicado 15-11). Chequeos Make/WP/Airtable/Gmail/tareas/Jetpack/Brevo. Hallazgos: sin nota programada hoy y Publisher 2 días sin borrador; 33 altas CRM Pending Review 17-11 (1 duplicado Andres Toro); borrador Méndez con CC a gmail personal; Jetpack sigue marcando advanced-ads; bandeja e invitaciones fallaron 17-11 por límite de uso. Mail 'HS decisiones — 18-11 — 8 para decidir' enviado a editor@ (msg 1a1eecdb40eeef45). Decisiones pendientes: 8. Tracker: 10 de 22 cerrados.",
+      "Status": "Done"
+    },
+    "id": "rec6Z7Hej5HSEbq4V"
+  },
+  {
     "createdTime": "2026-11-17T13:15:10.000Z",
     "fields": {
       "Change": "HS CEO diario 17-11",

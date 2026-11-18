@@ -1282,6 +1282,14 @@
   {
     "data": {
       "batch": "SCAN-EVENTS",
+      "headline": "Ambience Healthcare Launches AI Care Orchestration Suite to Improve Hospital Discharges and Case Mix Index",
+      "seen_at": "2026-11-18T12:24:20.207Z"
+    },
+    "key": "evt~0a6be4c64bcba4a0f5e93e1c11523986"
+  },
+  {
+    "data": {
+      "batch": "SCAN-EVENTS",
       "headline": "Anvisa proíbe loção e determina recolhimento de insumos para medicamentos emagrecedores - Estadão",
       "seen_at": "2026-11-14T12:24:42.735Z"
     },
@@ -1354,6 +1362,14 @@
   {
     "data": {
       "batch": "SCAN-EVENTS",
+      "headline": "The AI Billing Arms Race: Who Will Win?",
+      "seen_at": "2026-11-18T12:24:52.672Z"
+    },
+    "key": "evt~298090ff9f58cf1a4be4988007a5c5fa"
+  },
+  {
+    "data": {
+      "batch": "SCAN-EVENTS",
       "headline": "Daraxonrasib Improves OS Across Subgroups in Previously Treated mPDAC",
       "seen_at": "2026-10-24T11:23:58.361Z"
     },
@@ -1422,6 +1438,14 @@
       "seen_at": "2026-10-24T11:23:21.694Z"
     },
     "key": "evt~41b4bb3391fd0cd25fade6fb3a3ca053"
+  },
+  {
+    "data": {
+      "batch": "SCAN-EVENTS",
+      "headline": "HLTH26: New CVS study aims to identify the right price for GLP-1s",
+      "seen_at": "2026-11-18T12:24:33.605Z"
+    },
+    "key": "evt~44c7907bba6801e941969c973562f2e9"
   },
   {
     "data": {
@@ -1610,6 +1634,14 @@
   {
     "data": {
       "batch": "SCAN-EVENTS",
+      "headline": "HLTH26: Teladoc expands employer GLP-1 weight care program",
+      "seen_at": "2026-11-18T12:25:01.164Z"
+    },
+    "key": "evt~78c304c27d4925d0a63bfabb6d2dcf3e"
+  },
+  {
+    "data": {
+      "batch": "SCAN-EVENTS",
       "headline": "Potential changes in the cardiometabolic risk reduction landscape | Scientific Sessions",
       "seen_at": "2026-11-14T12:23:23.251Z"
     },
@@ -1638,6 +1670,14 @@
       "seen_at": "2026-11-16T12:25:01.746Z"
     },
     "key": "evt~7dc992d4e7f98db16efcdbc327468475"
+  },
+  {
+    "data": {
+      "batch": "SCAN-EVENTS",
+      "headline": "Optum Rx rolls out new pharmacy tools aimed at transparency | Fierce Healthcare",
+      "seen_at": "2026-11-18T12:24:27.968Z"
+    },
+    "key": "evt~7e178f33d486909b1d490c217cf5c69a"
   },
   {
     "data": {
@@ -1954,6 +1994,14 @@
   {
     "data": {
       "batch": "SCAN-EVENTS",
+      "headline": "Lower-dose CagriSema reduces body weight vs. placebo",
+      "seen_at": "2026-11-18T12:24:04.289Z"
+    },
+    "key": "evt~f8e29e3cb39bcbf7518168a07d663b51"
+  },
+  {
+    "data": {
+      "batch": "SCAN-EVENTS",
       "headline": "Insurance coverage, cost pivotal factors for continued GLP-1 use",
       "seen_at": "2026-11-15T12:24:09.729Z"
     },
@@ -2022,6 +2070,14 @@
       "seen_at": "2026-11-16T12:01:06.578Z"
     },
     "key": "farmacias del ahorro~m&a~2026-11-16"
+  },
+  {
+    "data": {
+      "batch": "SCAN-FDA",
+      "headline": "FDA Approves First Drug Shown to Help Patients with Infantile-Onset Niemann-Pick Disease Type C Live Longer",
+      "seen_at": "2026-11-18T11:41:10.105Z"
+    },
+    "key": "fda~1b65b247ba77c46eee4b3159d2aac4f0"
   },
   {
     "data": {
@@ -2110,6 +2166,14 @@
       "seen_at": "2026-10-21T16:10:42.485Z"
     },
     "key": "fda~f25710c435a1617b98de73dd4d99c6e2"
+  },
+  {
+    "data": {
+      "batch": "SCAN-FDA",
+      "headline": "FDA Launches the Global Reliance Disclosure Program to Expand Patient Access to Medicines Worldwide",
+      "seen_at": "2026-11-18T11:41:06.123Z"
+    },
+    "key": "fda~fceb335dad3d448970ebd11d0b0ff884"
   },
   {
     "data": {

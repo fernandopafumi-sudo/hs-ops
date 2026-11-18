@@ -161,6 +161,42 @@
     "id": "recE24zbRxkuI8TWg"
   },
   {
+    "createdTime": "2026-11-18T12:06:54.000Z",
+    "fields": {
+      "CTA Source": "invite-press",
+      "Consent At": "2026-11-18T12:06:53.000Z",
+      "Consent Text": "Clicked Subscribe in personal invitation email from editor@healthsignals.news (invite-2026-11 v1)",
+      "Country": "Brasil",
+      "Email": "vitoria.nascimento@valor.com.br",
+      "Name": "Vitória Nascimento",
+      "Source": "Invite",
+      "Status": "Active",
+      "Subscribe Date": "2026-11-18"
+    },
+    "id": "recIhgXGsnSkxYi9W"
+  },
+  {
+    "createdTime": "2026-11-18T12:06:16.000Z",
+    "fields": {
+      "Access": "Corporate",
+      "CTA Source": "newsletter_page",
+      "Company": "Valor Econômico",
+      "Consent At": "2026-11-18T12:06:30.000Z",
+      "Consent Text": "v2 2026-10-21 | By subscribing you agree to receive The HealthSignals Brief by email and accept our Privacy Policy.",
+      "Country": "Brazil",
+      "Email": "michael.esquer@valor.com.br",
+      "Job Title": "Repórter",
+      "Last Name": "Esquer",
+      "Name": "Michael",
+      "Post URL": "https://healthsignals.news/newsletter/",
+      "Signup Stage": "complete",
+      "Source": "Website",
+      "Status": "Active",
+      "Subscribe Date": "2026-11-18"
+    },
+    "id": "recKckyXpGhl3uErF"
+  },
+  {
     "createdTime": "2026-11-01T18:48:53.000Z",
     "fields": {
       "Access": "Webmail",
@@ -575,6 +611,28 @@
       "Subscribe Date": "2026-11-05"
     },
     "id": "recoMvzPrPTiCtjO6"
+  },
+  {
+    "createdTime": "2026-11-18T15:53:02.000Z",
+    "fields": {
+      "Access": "Corporate",
+      "CTA Source": "article_mid_cta",
+      "Company": "Medtronic",
+      "Consent At": "2026-11-18T15:53:35.000Z",
+      "Consent Text": "v2 2026-10-21 | By subscribing you agree to receive The HealthSignals Brief by email and accept our Privacy Policy.",
+      "Country": "United States",
+      "Email": "anita.natzkova@medtronic.com",
+      "Job Title": "Head Market Intelligence LatAm and Canada",
+      "Last Name": "Natzkova",
+      "Name": "Anita",
+      "Post Category": "Digital Health",
+      "Post URL": "https://healthsignals.news/in-mexico-patients-pay-almost-as-much-as-the-state-for-health-care/",
+      "Signup Stage": "complete",
+      "Source": "Website",
+      "Status": "Active",
+      "Subscribe Date": "2026-11-18"
+    },
+    "id": "recpT5sbBmAX3XMZP"
   },
   {
     "createdTime": "2026-10-22T17:27:56.000Z",

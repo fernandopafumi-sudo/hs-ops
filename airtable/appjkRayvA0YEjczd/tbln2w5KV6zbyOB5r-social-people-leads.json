@@ -254,6 +254,21 @@
     "id": "recPFEq8Hn9W2C7kd"
   },
   {
+    "createdTime": "2026-11-18T13:57:54.000Z",
+    "fields": {
+      "Country": "Regional (Washington, D.C.)",
+      "Date Found": "2026-11-18",
+      "Found Via": "https://www.paho.org/en/news/16-11-2026-paho-launches-regia-platform-explore-and-compare-clinical-trial-regulatory",
+      "Lead Type": "Voices (entrevista)",
+      "Name": "Carla Saenz",
+      "Organization": "PAHO / OPS",
+      "Role": "Regional Advisor on Bioethics",
+      "Status": "New",
+      "Why": "Lidera el Programa Regional de Bioética de OPS, que desarrolló REGIA (Clinical Trial Accelerator). Fit Voices o fuente técnica sobre ética y regulación de investigación clínica en LatAm."
+    },
+    "id": "recPHAaRCeZg58s6o"
+  },
+  {
     "createdTime": "2026-11-08T23:38:02.000Z",
     "fields": {
       "Country": "México",
@@ -407,6 +422,21 @@
       "Why": "Voices / Gobierno-multilateral. Conexión de LinkedIn de Fer (export propio, conectado 31 Mar 2018). Origen: barrido 18-10-2026. Verificar cargo actual antes de contactar."
     },
     "id": "recaUPZa8DXWYj3b8"
+  },
+  {
+    "createdTime": "2026-11-18T13:57:54.000Z",
+    "fields": {
+      "Country": "Regional (Washington, D.C.)",
+      "Date Found": "2026-11-18",
+      "Found Via": "https://www.paho.org/en/news/16-11-2026-paho-launches-regia-platform-explore-and-compare-clinical-trial-regulatory",
+      "Lead Type": "Voices (entrevista)",
+      "Name": "Ludovic Reveiz",
+      "Organization": "PAHO / OPS",
+      "Role": "Chief, Science and Knowledge for Impact Unit, Department of Evidence and Intelligence for Action in Health",
+      "Status": "New",
+      "Why": "Vocero del lanzamiento de REGIA (16-11-2026): dice que la plataforma ayuda a las autoridades nacionales a alinear su regulación de investigación con estándares internacionales. Fit Voices: evidencia y regulación de ensayos clínicos en la región."
+    },
+    "id": "recbYatoBLnsfcadp"
   },
   {
     "createdTime": "2026-11-10T13:56:48.000Z",

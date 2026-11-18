@@ -552,6 +552,26 @@
     "id": "recbqh7BeAtVYPshU"
   },
   {
+    "createdTime": "2026-11-18T13:57:53.000Z",
+    "fields": {
+      "Account": "PAHO",
+      "Comment": "The Pan American Health Organization (PAHO) launched REGIA (Regulation for Research in the Americas), a free, open-access platform that organizes and compares clinical trial regulatory requirements across 22 countries in the Americas, with side-by-side comparison of up to three countries. For sponsors, research ethics committees and regulators working on multi-country studies, which requirement do you most often need to compare: research ethics committee approval, regulatory authorization or import of the investigational product?\nhttps://healthsignals.news/?utm_source=linkedin&utm_medium=comment&utm_campaign=paho #HealthSignals",
+      "Comment Style": [
+        "Dato",
+        "Pregunta",
+        "Angulo LatAm"
+      ],
+      "Date": "2026-11-18",
+      "Fer Edits": "Post de LinkedIn a ubicar al publicar (fuente: nota PAHO 16-11). Link a home: no hay nota HS sobre regulación de ensayos. revisión adversarial (opus, 18-11): sigla REGIA expandida, 'up to three countries', pregunta reformulada para no leerse como crítica a la plataforma, terminología de la plataforma (investigational product, REC approval). Ojo tope: PAHO ya tiene rec4HUfqmJgGVqVaz en Proposed; si se aprueban ambas, publicar en días distintos.",
+      "HS Link": "https://healthsignals.news/",
+      "Network": "LinkedIn",
+      "Post Summary": "OPS lanza REGIA, plataforma gratuita que compara requisitos regulatorios de ensayos clínicos en 22 países (16-11)",
+      "Post URL": "https://www.paho.org/en/news/16-11-2026-paho-launches-regia-platform-explore-and-compare-clinical-trial-regulatory",
+      "Status": "Proposed"
+    },
+    "id": "recjYBKf4f7NJZkhR"
+  },
+  {
     "createdTime": "2026-10-17T18:02:50.000Z",
     "fields": {
       "Account": "PAHO",

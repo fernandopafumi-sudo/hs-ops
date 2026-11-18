@@ -232,12 +232,12 @@
   },
   {
     "data": {
-      "notes": "needs_edit: r1 12 corr de hecho (>5), una en el lede (Bristol Myers sin guion), sin r2. Falta Amgen en la lista; juez Walker 29-12-2025; $537M es anual y de Healthcare Dive; demanda AbbVie impugna definicion de paciente; MFP es solo Medicare. Cita PhRMA sin confirmar. Drive 1vA07Gn0fcEOECt7NZQZghqH-Yk66Ue-2",
-      "run_id": "20261114-1523",
-      "state": "needs_edit",
-      "title": "AbbVie, BMS, Boehringer Ingelheim Move to Join 340B Rebate Fight",
-      "updated_at": "2026-11-14T15:34:45-05:00",
-      "wp_modified": "2026-11-14T14:05:07"
+      "notes": "passed (re-gate tras edicion 17-11): 0 corr, r1 y r2 PUBLISH. Sin verificar: fecha de la nota Fierce 'feb-2026'; 'July 2026' viene de Advisory Board, no HCD. Drive 1xZ2swa1iIFMRwvhD-RipCWyLVwRX7csy",
+      "run_id": "20261118-0658",
+      "state": "passed",
+      "title": "Court Lets AbbVie, BMS, Boehringer Ingelheim Join 340B Rebate Fight",
+      "updated_at": "2026-11-18T07:08:36-05:00",
+      "wp_modified": "2026-11-17T09:08:35"
     },
     "key": "37007"
   },
@@ -254,23 +254,23 @@
   },
   {
     "data": {
-      "notes": "needs_edit (re-gate tras edicion 16-11): r1 8 corr de hecho (>5), una en el lede (acuerdo 12-11 segun BMV, no 13-11), sin r2. Clave: 96.56% de acciones; 'ambas cadenas comparten' es solo Ahorro; Castanon chairman; Gonzalez CEO; Similares ~9k (borrar 'no replicable'). Drive 1Bp6m9AT6wx-SVDU1XHzwwYtpzTjXp-6g",
-      "run_id": "20261117-0659",
-      "state": "needs_edit",
+      "notes": "passed (re-gate tras edicion 17-11): 1 corr de hecho r1 (borrar '(approximately US$638 million at the time)') + 1 de fuente r2 sin re-verificar (AmericaEconomia -> News-Medical). Drive 1wOPmYbXrHxZbN2JxISMzlJp6suJch-sU",
+      "run_id": "20261118-0658",
+      "state": "passed",
       "title": "Farmacias del Ahorro agrees to acquire Benavides, topping 3,000 stores",
-      "updated_at": "2026-11-17T07:10:37-05:00",
-      "wp_modified": "2026-11-16T10:16:05"
+      "updated_at": "2026-11-18T07:08:36-05:00",
+      "wp_modified": "2026-11-17T09:07:46"
     },
     "key": "37017"
   },
   {
     "data": {
-      "notes": "needs_edit (re-gate tras edicion 16-11): 12 corr de hecho (4 r1 + 8 r2 sin re-verificar) > 5. Clave: WHO EML sep-2025 suma dulaglutide/liraglutide; 'CDC-funded'->CDC; 'screening' no esta en fuentes (x4); 40.1M es toda diabetes; timeline fuera de orden (manual). Drive 1-k6JOtG-isqhUCQNIcF1pos4dBVsAmGy",
-      "run_id": "20261117-0659",
-      "state": "needs_edit",
+      "notes": "passed (re-gate tras edicion 17-11): 3 corr de hecho (r1 poblacion WHO EML; r2 sin re-verificar: 'proposal to the WHO', precios Ozempic/Wegovy en pasado) + 1 de fuente en el lede (atribucion JAMA). Drive 1t1Csobztpg2cvRGRr6FFRNcGq8dYQFkA",
+      "run_id": "20261118-0658",
+      "state": "passed",
       "title": "ADA and EASD Push Earlier GLP-1 and SGLT2 Use in Type 2 Diabetes",
-      "updated_at": "2026-11-17T07:10:37-05:00",
-      "wp_modified": "2026-11-16T10:16:44"
+      "updated_at": "2026-11-18T07:08:36-05:00",
+      "wp_modified": "2026-11-17T09:07:37"
     },
     "key": "37022"
   },
@@ -609,5 +609,16 @@
       "updated_at": "2026-11-17T07:11:30-05:00"
     },
     "key": "REPORT-20261117-0659"
+  },
+  {
+    "data": {
+      "notes": "- Sin fallos de acceso, sin aprobaciones pedidas, sin bloqueos, ningun post en tercer fallo.\n- run_id 20261118-0658. Borradores vistos 4, excluidos 0, skipped backlog nuevos 0, pendientes para manana 0.\n- 37007, 37017 y 37022 volvieron a pending: editados el 17-11 (aplicacion de correcciones del gate anterior). Re-revisados; sus hallazgos viejos de Drive fueron a la papelera.\n- 37007 'Court Lets AbbVie, BMS, Boehringer Ingelheim Join 340B Rebate Fight': passed, 0 corr de hecho (r1 y r2 PUBLISH). Sin verificar: fecha 'feb-2026' de la nota de Fierce; 'July 2026' lo confirma Advisory Board, no Healthcare Dive. Postura: publicar tal cual. Drive https://drive.google.com/file/d/1xZ2swa1iIFMRwvhD-RipCWyLVwRX7csy/view\n- 37017 'Farmacias del Ahorro agrees to acquire Benavides...': passed, 1 corr de hecho r1: borrar '(approximately US$638 million at the time)' (la fuente primaria solo da MXN 8.3bn; ojo, el titular de AmericaEconomia en hs-sources dice US$638M, decidilo vos). Fuente (ronda 2, sin re-verificar): 'report by AmericaEconomia' -> 'by News-Medical'. Sin verificar: 'Monterrey-based'; Guadalajara/San Pablo independientes y 'underfunded public primary-care' son analisis sin fuente; posible cambio de control de Boots (Forbes.it oct-2026). Postura: publicar tras aplicar. Drive https://drive.google.com/file/d/1wOPmYbXrHxZbN2JxISMzlJp6suJch-sU/view\n- 37022 'ADA and EASD Push Earlier GLP-1 and SGLT2 Use...': passed, 3 corr de hecho. r1: EML de WHO sep-2025 aclara poblacion (adultos con DM2 + enfermedad CV o renal + obesidad). Ronda 2, sin re-verificar: 'WHO proposal' -> 'proposal to the WHO'; precios de lista Ozempic USD 998 / Wegovy USD 1.350 pasan a pasado (Fierce: recorte a USD 675 desde 01-01-2027). Fuente (ronda 2, sin re-verificar), en el lede: separa la atribucion a JAMA y marca las implicancias para Novo/Lilly como lectura de HealthSignals. Sin verificar: criterio de prior-auth con metformina; divergencia ACP vs ADA-EASD. Postura: publicar tras aplicar. Drive https://drive.google.com/file/d/1t1Csobztpg2cvRGRr6FFRNcGq8dYQFkA/view\n- Sin cambios: 36926 Sepulveda (needs_edit 13-11).\n- Limpieza: a la papelera los hallazgos de 37012 y 36868 (ya no estan en draft). Ningun registro con mas de 30 dias para borrar.\n- Nota: el HTML original se guardo localmente transcribiendo la salida de posts.get; la sesion que aplique igual reaplica sobre el post vivo.\nPara aplicar y publicar, decile a Claude en un chat: aplicar gate <ID>. La sesion que aplique relee el post, rechaza si su modified es distinto del wp_modified del archivo, aplica los reemplazos con codigo, verifica el diff y publica solo con OK de Fer.",
+      "run_id": "20261118-0658",
+      "state": "passed",
+      "title": "REPORT",
+      "updated_at": "2026-11-18T07:09:09-05:00",
+      "wp_modified": null
+    },
+    "key": "REPORT-20261118-0658"
   }
 ]

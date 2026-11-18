@@ -195,6 +195,19 @@
     "id": "recAGhA5t6dTgpX9w"
   },
   {
+    "createdTime": "2026-11-18T13:58:49.000Z",
+    "fields": {
+      "Channel": "sponsors",
+      "Date": "2026-11-18",
+      "Items_Pending": 15,
+      "Notes": "Invitaciones confirmadas por Fer: 0. Aceptaciones: n/d. Pendientes estimadas: 0. Corridas seguidas con propuesta sin OK: 6 (10-11, 11-11, 12-11, 16-11, 17-11, 18-11). Acumulado sin OK aprox. 71.\nCandidatos 18-11 (nombre | URL):\n1 Diego Hovispo (Sanofi PE) | https://linkedin.com/in/diego-hovispo\n2 Miguel Angel Medina Mosto (Glenmark PE) | https://linkedin.com/in/miguel-angel-medina-mosto-a735aa69\n3 Karina Chuman Segersbol (Tuteur PE) | https://linkedin.com/in/karinachumansegersbol\n4 Angelo Robbiano (Saval PE) | https://linkedin.com/in/angelo-robbiano\n5 José Antonio González Orellana (Adium PE) | https://linkedin.com/in/jagexpertise\n6 Pavan Singh (Mega Lifesciences PE) | https://pe.linkedin.com/in/pavan-singh-678b5a15\n7 Simon Berdichevsky (ITF Farmacéutica PE) | https://linkedin.com/in/simon-berdichevsky-513979ab\n8 Víctor Hugo Arias Rico (Saval EC) | https://linkedin.com/in/v%C3%ADctor-hugo-arias-rico-a8866b44\n9 Osvaldo Peña (Siegfried EC) | https://ec.linkedin.com/in/osvaldope\n10 Edgardo Vázquez (Bagó AR) | https://linkedin.com/in/edgardo-vazquez-bago\n11 Arturo Braniff (Medtronic MX) | https://linkedin.com/in/arturo-braniff-a8808121\n12 Alejandro Posada Gutiérrez (Biotronik CO) | https://linkedin.com/in/alejandroposadag-mba\n13 Juan David Sierra Diaz (seca CO) | https://linkedin.com/in/juandavidsierradiaz\n14 Nelson Vicari (NSK Nakanishi BR) | https://linkedin.com/in/nelson-vicari\n15 Wakim Andre (Biocon Biologics US) | https://linkedin.com/in/wakim-andre-7a07a69",
+      "Run": "manana",
+      "Run_Key": "2026-11-18|manana|sponsors",
+      "Status": "ok"
+    },
+    "id": "recAS7G0kH2a7hRXd"
+  },
+  {
     "createdTime": "2026-11-11T14:01:38.000Z",
     "fields": {
       "Channel": "sponsors",
@@ -310,6 +323,19 @@
       "Status": "ok"
     },
     "id": "recEa9oGNcobWgls0"
+  },
+  {
+    "createdTime": "2026-11-17T21:43:21.000Z",
+    "fields": {
+      "Channel": "comentarios",
+      "Date": "2026-11-17",
+      "Items_Pending": 6,
+      "Notes": "Paso A: 0 Approved en cola, 0 Proposed vencidas (las 4 del 16-11 vencen el 19-11). Sin Published 2-7 días para métricas. Sin email.",
+      "Run": "tarde",
+      "Run_Key": "2026-11-17|tarde|comentarios",
+      "Status": "sin novedades"
+    },
+    "id": "recEqc0q6o5pvG1az"
   },
   {
     "createdTime": "2026-10-23T12:57:53.000Z",
@@ -533,6 +559,19 @@
     "id": "recQgOHQCSdWxd0Sa"
   },
   {
+    "createdTime": "2026-11-18T13:58:49.000Z",
+    "fields": {
+      "Channel": "grupos",
+      "Date": "2026-11-18",
+      "Items_Pending": 1,
+      "Notes": "Market Research (rec4tvEnKoos7Iypz), nivel A, compra consolidada México 3ra licitación, nota 36929. Last posted anterior 2026-11-05.",
+      "Run": "manana",
+      "Run_Key": "2026-11-18|manana|grupos",
+      "Status": "ok"
+    },
+    "id": "recRhtONEIODpHWSt"
+  },
+  {
     "createdTime": "2026-11-05T13:54:33.000Z",
     "fields": {
       "Channel": "grupos",
@@ -752,6 +791,19 @@
       "Status": "error"
     },
     "id": "recXlcdqENbExJnra"
+  },
+  {
+    "createdTime": "2026-11-18T13:58:49.000Z",
+    "fields": {
+      "Channel": "comentarios",
+      "Date": "2026-11-18",
+      "Items_Pending": 9,
+      "Notes": "1 nuevo Proposed (PAHO REGIA recjYBKf4f7NJZkhR; adversarial la corrió el principal porque el subagente no tenía Agent). 7 Proposed en total, 0 Approved, 0 Published desde 21-10. Personas: Reveiz, Saenz (OPS).",
+      "Run": "manana",
+      "Run_Key": "2026-11-18|manana|comentarios",
+      "Status": "ok"
+    },
+    "id": "recXn4icbrr36oG1g"
   },
   {
     "createdTime": "2026-11-11T18:53:33.000Z",
@@ -1079,6 +1131,19 @@
     "id": "rechxn29Sv7jXRckD"
   },
   {
+    "createdTime": "2026-11-18T13:58:49.000Z",
+    "fields": {
+      "Channel": "prensa",
+      "Date": "2026-11-18",
+      "Items_Pending": 0,
+      "Notes": "Sin respuestas/rebotes/inscripciones. Vence hoy plazo Soares (BMS BR); follow-up Argüelles 19-11; borrador Orcoyen 16-11 no encontrado.",
+      "Run": "manana",
+      "Run_Key": "2026-11-18|manana|prensa",
+      "Status": "sin novedades"
+    },
+    "id": "reciPXQQk1WMJ7c89"
+  },
+  {
     "createdTime": "2026-11-09T14:04:48.000Z",
     "fields": {
       "Channel": "socios",
@@ -1233,6 +1298,19 @@
       "Status": "ok"
     },
     "id": "recoeZO9KJSMjy6F6"
+  },
+  {
+    "createdTime": "2026-11-18T13:58:49.000Z",
+    "fields": {
+      "Channel": "voices",
+      "Date": "2026-11-18",
+      "Items_Pending": 2,
+      "Notes": "0 programados; 5 toques del 16-11 registrados; Levy respondió (Zoom); acuse Méndez recreado sin CC r8971495575676568603 (viejo con CC r3800921940972079758 a descartar); McClellan toque 3 sin fecha.",
+      "Run": "manana",
+      "Run_Key": "2026-11-18|manana|voices",
+      "Status": "ok"
+    },
+    "id": "recouQIwvJUHOIdY4"
   },
   {
     "createdTime": "2026-10-28T13:15:21.000Z",
