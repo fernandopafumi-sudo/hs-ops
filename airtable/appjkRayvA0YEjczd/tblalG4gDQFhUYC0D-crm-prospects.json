@@ -6063,6 +6063,24 @@
     "id": "recOOaMRhzpibBuDM"
   },
   {
+    "createdTime": "2026-11-19T13:16:06.000Z",
+    "fields": {
+      "Approval": "Pending Review",
+      "Company": "Medtronic",
+      "Email": "anita.natzkova@medtronic.com",
+      "First_Name": "Anita",
+      "Last_Name": "Natzkova",
+      "Name": "Anita Natzkova",
+      "Notes": "2026-11-19 (HS CEO diario): alta automática al Brief 18-11 15:53 UTC desde el CTA de la nota 'In Mexico, patients pay almost as much as the state for health care' (Newsletter Subscribers recpT5sbBmAX3XMZP, Active, Corporate). Cargada por fit (medtech, market intelligence LatAm). País sin confirmar (form dice United States).",
+      "Region": "LATAM",
+      "Segment": "Medtech",
+      "Source": "Inbound",
+      "Stage": "New",
+      "Title": "Head Market Intelligence LatAm and Canada"
+    },
+    "id": "recOXV70rmkEhyWXg"
+  },
+  {
     "createdTime": "2026-10-17T22:34:40.000Z",
     "fields": {
       "Approval": "Pending Review",
@@ -10756,6 +10774,23 @@
     "id": "recg5ZyoXvyt6xos3"
   },
   {
+    "createdTime": "2026-11-19T13:16:06.000Z",
+    "fields": {
+      "Approval": "Pending Review",
+      "Company": "Bausch Health",
+      "Email": "martin.barbeau@bauschhealth.com",
+      "First_Name": "Martin",
+      "Last_Name": "Barbeau",
+      "Name": "Martin Barbeau",
+      "Notes": "2026-11-19 (HS CEO diario): conexión de LinkedIn de Fer; se suscribió al Brief el 18-11 18:40 UTC desde la invitación personal (Newsletter Subscribers rec4lhZq8e6Fv1Pk6, Active). Cargo sin verificar.",
+      "Region": "USA",
+      "Segment": "Pharma",
+      "Source": "LinkedIn",
+      "Stage": "New"
+    },
+    "id": "recgNbV8qTYAYMIPv"
+  },
+  {
     "createdTime": "2026-10-18T13:39:41.000Z",
     "fields": {
       "Approval": "Pending Review",
@@ -12632,6 +12667,9 @@
       "Next_Action_Date": "2026-11-18",
       "Notes": "Contacto directo de Fer. 17-11-2026: respondió abriendo dos vías (editorial y pagada), caso por caso, sujeto a regulación MX; pidió formatos, audiencias, alcance y propuesta comercial. Puso en copia a Julieta Peralta y Jaqueline Martínez Trejo (Adecco). Cargo no confirmado. Propuesta: doc 'Propuesta HealthSignals para AstraZeneca México — noviembre 2026'.",
       "Preferred_Channel": "Email",
+      "Proposals": [
+        "recoA0CwGvQrKGCZQ"
+      ],
       "Segment": "Pharma",
       "Source": "Manual",
       "Stage": "Proposal"

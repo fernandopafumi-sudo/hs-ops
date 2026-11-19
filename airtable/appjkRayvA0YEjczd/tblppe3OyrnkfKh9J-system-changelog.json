@@ -163,6 +163,17 @@
     "id": "recRX2yRdqEo3fNWK"
   },
   {
+    "createdTime": "2026-11-19T13:17:03.000Z",
+    "fields": {
+      "Area": "Otro",
+      "Change": "HS CEO diario 19-11",
+      "Date": "2026-11-19",
+      "Details": "Latido Publisher: 4 corridas/48h, 3 borradores, 1 hold (+ fila 892 hold hoy con 'all checked claims supported'); cola: 0 approved, 33 hold. Hecho: Deals rec0k7uoIlJoo9BYm (AZ) Qualification->Proposal por propuesta enviada 18-11; Deals recSWuVIavTnWG9C7 (Merck) Next_Step actualizado; CRM Prospects +2 Pending Review (recOXV70rmkEhyWXg Natzkova/Medtronic, recgNbV8qTYAYMIPv Barbeau/Bausch). Make 0 DLQ, watchdog activo. Tarea 'HS contactos de email -> Airtable' sin corrida 19-11 00:13 UTC. Brevo MCP timeout. Mail 'HS decisiones — 19-11 — 10 para decidir' enviado a editor@ (msg 1a1f3f3f992b4b4c). 10 decisiones pendientes; tracker 10/22.",
+      "Status": "Done"
+    },
+    "id": "recRlnDzykO28kGRo"
+  },
+  {
     "createdTime": "2026-09-04T21:09:48.000Z",
     "fields": {
       "Area": "Otro",
@@ -293,6 +304,17 @@
       "Status": "Deployed"
     },
     "id": "reca3O3O8ftFQzYw7"
+  },
+  {
+    "createdTime": "2026-11-18T18:31:25.000Z",
+    "fields": {
+      "Area": "Otro",
+      "Change": "Invitaciones Brief 2026-11-18: 25 invitaciones, 15 recordatorios",
+      "Date": "2026-11-18",
+      "Details": "Cap: 40 (15 recordatorios + 25 invitaciones), tope normal; bounce rate 5/216 = 2,3% (<5%), sin quejas de spam.\nReconciliación: la corrida del 17-11 envió 16 invitaciones (linkedin) y 15 recordatorios (press) pero no actualizó Airtable ni dejó log. Verificado en Enviados y registrado hoy (31 filas: Sent/Reminded con fecha real 17-11).\nHoy: recordatorios 15 (press, invitados el 05-11; ES 4, PT 4, EN 7), en hilo. Invitaciones 25: linkedin 23 (ES 7, PT 5, EN 11) + events 2 (UNIDAS, PT). Último número citado: Issue 02, 22-10, URL verificada.\nHousekeeping: opt-outs 0, rebotes nuevos 0, respuestas: Guilherme Queiroz (Medtronic) 'Thanks' sin pedido + autorrespuesta; autorrespuesta Amanda Berenstein (Omnicom). Subscribed: 6 reales de 216 enviados (2,8%).\nQueued restante: 191 (crm 97 incl. 5 webmail, generic 89 incl. 2 webmail, press 3, events 2). Webmail retenidas: 7. CRM sin contacto previo (92) y press 3 siguen diferidos (decisión de Fer). Enviables: generic 87 + events 2 = 89 → ~4 corridas.",
+      "Status": "Done"
+    },
+    "id": "recarvOqOyk921F9i"
   },
   {
     "createdTime": "2026-08-29T19:16:46.000Z",

@@ -232,12 +232,12 @@
   },
   {
     "data": {
-      "notes": "passed (re-gate tras edicion 17-11): 0 corr, r1 y r2 PUBLISH. Sin verificar: fecha de la nota Fierce 'feb-2026'; 'July 2026' viene de Advisory Board, no HCD. Drive 1xZ2swa1iIFMRwvhD-RipCWyLVwRX7csy",
-      "run_id": "20261118-0658",
+      "notes": "passed (re-gate tras edicion 18-11): 2 corr de hecho (r1: sumar que el 1er Circuito anulo el rechazo de intervencion el 25-09-2026; r2 sin re-verificar: HHS 'had already consented in February 2026') + 2 de fuentes (Advisory Board, linea Sources del timeline). Sin fallo de la cautelar al 19-11. Drive 135dz7qXwFKbkp5T3mdszREPJ81opUw2w",
+      "run_id": "20261119-0659",
       "state": "passed",
       "title": "Court Lets AbbVie, BMS, Boehringer Ingelheim Join 340B Rebate Fight",
-      "updated_at": "2026-11-18T07:08:36-05:00",
-      "wp_modified": "2026-11-17T09:08:35"
+      "updated_at": "2026-11-19T07:12:00-05:00",
+      "wp_modified": "2026-11-18T20:12:47"
     },
     "key": "37007"
   },
@@ -254,36 +254,36 @@
   },
   {
     "data": {
-      "notes": "passed (re-gate tras edicion 17-11): 1 corr de hecho r1 (borrar '(approximately US$638 million at the time)') + 1 de fuente r2 sin re-verificar (AmericaEconomia -> News-Medical). Drive 1wOPmYbXrHxZbN2JxISMzlJp6suJch-sU",
-      "run_id": "20261118-0658",
-      "state": "passed",
+      "notes": "editado despues del gate",
+      "run_id": "20261119-0659",
+      "state": "pending",
       "title": "Farmacias del Ahorro agrees to acquire Benavides, topping 3,000 stores",
-      "updated_at": "2026-11-18T07:08:36-05:00",
+      "updated_at": "2026-11-19T07:01:00-05:00",
       "wp_modified": "2026-11-17T09:07:46"
     },
     "key": "37017"
   },
   {
     "data": {
-      "notes": "passed (re-gate tras edicion 17-11): 3 corr de hecho (r1 poblacion WHO EML; r2 sin re-verificar: 'proposal to the WHO', precios Ozempic/Wegovy en pasado) + 1 de fuente en el lede (atribucion JAMA). Drive 1t1Csobztpg2cvRGRr6FFRNcGq8dYQFkA",
-      "run_id": "20261118-0658",
-      "state": "passed",
+      "notes": "needs_edit: 3 corr de hecho; una en el lede (r2 sin re-verificar: el JAMA no menciona Novo/Lilly/pagadores -> recortar atribucion). r1: 'GLP-1-based therapies' (tirzepatida es dual). r2: Revolving Funds 'including'. Drive 1guECRGLoi-CT3fwezdQ5czYJLsvXkJIX",
+      "run_id": "20261119-0659",
+      "state": "needs_edit",
       "title": "ADA and EASD Push Earlier GLP-1 and SGLT2 Use in Type 2 Diabetes",
-      "updated_at": "2026-11-18T07:08:36-05:00",
-      "wp_modified": "2026-11-17T09:07:37"
+      "updated_at": "2026-11-19T07:12:00-05:00",
+      "wp_modified": "2026-11-18T14:11:54"
     },
     "key": "37022"
   },
   {
     "data": {
-      "notes": "- FALLO Drive: la carpeta 1ZpyZmnptFufBlsseJkdyxyDStjafzwgm y los archivos 1RKvJX... (36488) y 1yBsl3... (36460) dan 'not found'; search devuelve vacio. Posible cuenta de Drive distinta o archivos movidos. No se pudo hacer la limpieza de Drive\n- aviso: 36460 (Pichon-Riviere, estaba needs_edit) ahora esta programado (future, modified 18-10 09:21); el gate no lo re-reviso. 36447 sigue future (ya reportado). REPORT-20261009-0659 y -20261001-0658 siguen 'sin terminar'\n- run_id 20261019-0658\n- borradores vistos 14; excluidos 5 (Weekly 36411, 36146, 35939, 35772; post 36041); skipped backlog 7 sin cambios; 36488 sigue needs_edit y 36441 sigue passed, ambos sin edicion (wp_modified igual); sin locks in_review; pendientes para manana 0\n- 0 borradores pendientes, no se reviso ninguno\n- limpieza: Make sin REPORT ni registros de mas de 30 dias; Drive no se pudo (36460-...-hallazgos.md deberia ir a la papelera)\nPara aplicar y publicar, decile a Claude en un chat: aplicar gate <ID>. La sesión que aplique relee el post, rechaza si su modified es distinto del wp_modified del archivo, aplica los reemplazos con código, verifica el diff y publica solo con OK de Fer.",
-      "run_id": "20261019-0658",
-      "state": "passed",
-      "title": "REPORT",
-      "updated_at": "2026-10-19T07:03:00-04:00",
-      "wp_modified": null
+      "notes": "needs_edit: r1 13 corr de hecho (>5), una en el lede ('Three months' -> 'Six months' desde el modelo de mayo), sin r2. Claves: $28 = 'more than $28 average member savings', borrar cita de Kathryn Carey (no verificable; CEO Optum Rx = Jon Mahrt), 'more than 98%', terminos FTC de Optum no divulgados. Drive 1LLlGVg5352CiboQazZ7SayiKmsXLT-pX",
+      "run_id": "20261119-0659",
+      "state": "needs_edit",
+      "title": "Optum Rx launches Shop MyScript price tool under fee-based model",
+      "updated_at": "2026-11-19T07:12:00-05:00",
+      "wp_modified": "2026-11-19T06:55:13"
     },
-    "key": "REPORT-20261019-0658"
+    "key": "37086"
   },
   {
     "data": {
@@ -620,5 +620,15 @@
       "wp_modified": null
     },
     "key": "REPORT-20261118-0658"
+  },
+  {
+    "data": {
+      "notes": "- Sin fallos de acceso, aprobaciones ni bloqueos. Ningun post en tercer fallo.\n- run_id 20261119-0659\n- Borradores vistos 5, excluidos 0, skipped backlog 0. 36926 sigue needs_edit (sin cambios). Pendiente para manana: 1 (37017 Benavides, editado 18-11 despues del gate).\n- 37007 Court Lets AbbVie, BMS, Boehringer Ingelheim Join 340B Rebate Fight: PASSED. 2 corr de hecho: sumar que el 1er Circuito anulo el 25-09-2026 el rechazo de intervencion de la primera ronda (Becker's); 'HHS then consented' -> 'HHS had already consented in February 2026' (ronda 2, sin re-verificar). + 2 de fuentes (julio 2026 atribuido a Advisory Board; linea Sources del timeline ampliada). Nada borrado. Sin verificar: no hay fallo publicado de la cautelar al 19-11 (340B Report con paywall); Jardiance/'Germany-based' sin fuente citada. Postura: publicar tras aplicar. Drive https://drive.google.com/file/d/135dz7qXwFKbkp5T3mdszREPJ81opUw2w/view\n- 37022 ADA and EASD Push Earlier GLP-1 and SGLT2 Use: NEEDS_EDIT (correccion en el lede). 3 corr de hecho: lede atribuye al JAMA implicancias para Novo/Lilly/formularios que el JAMA no menciona -> recortar a 'updates a 2022 predecessor report, according to a JAMA news article' (ronda 2, sin re-verificar); 'GLP-1 receptor agonists' -> 'GLP-1-based therapies' en What to Watch (tirzepatida es dual); Revolving Funds '(including ...)' (ronda 2). Sin verificar: criterios de PA con falla a metformina, divergencia ACP vs ADA-EASD. Ojo: Novo baja lista de semaglutida a $675 desde 01-01-2027. Postura: no publicar sin revisar el lede. Drive https://drive.google.com/file/d/1guECRGLoi-CT3fwezdQ5czYJLsvXkJIX/view\n- 37086 Optum Rx launches Shop MyScript: NEEDS_EDIT. 13 corr de hecho (>5), una en el lede ('Three months' -> 'Six months', modelo anunciado 11-05). Claves: $28 = 'more than $28 in average member savings' (no 'early adopters'); BORRAR cita de 'Kathryn Carey, president of Optum Rx' (no aparece en el release ni en Becker's; CEO de Optum Rx = Jon Mahrt); 'more than 98%' y no atribuido a Witty; Price Wise es para pago cash fuera del beneficio; los terminos del acuerdo FTC-Optum no estan divulgados (3 frases que dicen que 'fija el estandar' -> reescribir). Sin ronda 2. Postura: no publicar. Drive https://drive.google.com/file/d/1LLlGVg5352CiboQazZ7SayiKmsXLT-pX/view\n- Limpieza: Drive viejos de 37007/37022/37017 a la papelera; borrado REPORT-20261019-0658.\nPara aplicar y publicar, decile a Claude en un chat: aplicar gate <ID>. La sesion que aplique relee el post, rechaza si su modified es distinto del wp_modified del archivo, aplica los reemplazos con codigo, verifica el diff y publica solo con OK de Fer.",
+      "run_id": "20261119-0659",
+      "state": "passed",
+      "title": "REPORT",
+      "updated_at": "2026-11-19T07:14:00-05:00"
+    },
+    "key": "REPORT-20261119-0659"
   }
 ]

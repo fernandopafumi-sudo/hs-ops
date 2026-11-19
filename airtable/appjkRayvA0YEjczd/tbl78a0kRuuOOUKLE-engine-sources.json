@@ -96,6 +96,18 @@
     "id": "rec4AubQstd1qpIPW"
   },
   {
+    "createdTime": "2026-11-18T18:23:02.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 2 · Think tank presupuestario independiente. Metodología propia: incluye Pemex en gasto en salud (SHCP lo clasifica como desarrollo económico), por eso sus totales difieren de los de SHCP. Según Judith Méndez (18-11-2026): el PEF 2027 aprobado no cambió salud respecto del PPEF; los ajustes fueron 6 mil mdp fuera de salud. Aportada en Voices.",
+      "Name": "CIEP (Centro de Investigación Económica y Presupuestaria, México) — gasto público en salud y PEF",
+      "Reliability": "Alta",
+      "Topics": "México, presupuesto (PEF/PPEF), gasto en salud por subsistema, IMSS, ISSSTE, IMSS-Bienestar, Pemex, medicamentos",
+      "Type": "Autoridad/Policy",
+      "URL": "https://ciep.mx"
+    },
+    "id": "rec6PDirAetVoZMgc"
+  },
+  {
     "createdTime": "2026-10-03T01:11:24.000Z",
     "fields": {
       "Freshness_Note": "Tier 3. Revisada por pares. Ítems 2026 confirmados (proyecciones NHE 2025-34). En Scanner: STRUCTURAL.",
@@ -252,6 +264,18 @@
     "id": "recJFN19Wteyu7iLY"
   },
   {
+    "createdTime": "2026-11-18T19:01:14.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 4 · Propuesta de comisión transversal coordinada por la entrevistada Voices. Uso: marco de propuestas, no dato neutral.",
+      "Name": "CEP Chile — Comisión para una Reforma Integral de Fonasa (coord. Carolina Velasco)",
+      "Reliability": "Media",
+      "Topics": "Chile, Fonasa, gobernanza, comprador estratégico, seguro público",
+      "Type": "Autoridad/Policy",
+      "URL": "https://static.cepchile.cl/uploads/cepchile/2022/09/reforma_integral_de_fonasa_web.pdf"
+    },
+    "id": "recJlODPJdF2sUeVK"
+  },
+  {
     "createdTime": "2026-07-18T23:05:14.000Z",
     "fields": {
       "Freshness_Note": "Tier 2 · Aprobaciones AR; lag vs FDA para tabla comparativa regulatoria",
@@ -384,6 +408,18 @@
     "id": "recP1UkszKriR5PLP"
   },
   {
+    "createdTime": "2026-11-18T18:23:02.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 4 · Propuesta de política de la entrevistada (Velasco) con José Manuel Cousiño. Uso: posición de autores, no dato neutral.",
+      "Name": "IPSUSS — Propuestas de intercambiabilidad (2024), Velasco y Cousiño",
+      "Reliability": "Media",
+      "Topics": "Chile, bioequivalencia, intercambiabilidad, medicamentos, ISP/ANAMED",
+      "Type": "Autoridad/Policy",
+      "URL": "https://cdn.uss.cl/content/uploads/2024/10/21190248/propuestas_intercambialidad_ipsuss_2024_1.pdf"
+    },
+    "id": "recPL0KxIyJQNizcJ"
+  },
+  {
     "createdTime": "2026-10-03T01:11:24.000Z",
     "fields": {
       "Freshness_Note": "Tier 6 — radar. Sitio financiado por Bloomberg Philanthropies; el CFR (matriz) tiene miembros corporativos pharma: Merck, Bayer, Royalty Pharma, Pfizer. En Scanner: STRUCTURAL.",
@@ -406,6 +442,18 @@
       "URL": "https://www.iets.org.co"
     },
     "id": "recQF0V9jVc6eaqV0"
+  },
+  {
+    "createdTime": "2026-11-18T19:01:14.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 1 · Informe trimestral oficial: 2.513.508 consultas nuevas no GES en espera, mediana 237 días. Se publica cada trimestre: buscar la glosa más reciente antes de citar.",
+      "Name": "Minsal — Glosa 06 listas de espera, II trimestre 2026 (corte 30-06-2026)",
+      "Reliability": "Alta",
+      "Topics": "Chile, listas de espera, GES, no GES, consultas de especialidad, cirugías",
+      "Type": "Autoridad/Policy",
+      "URL": "https://www.minsal.cl/wp-content/uploads/2026/08/Glosa-06-LE-II-trimestre.pdf"
+    },
+    "id": "recQP7O0sgCNA8Oxn"
   },
   {
     "createdTime": "2026-10-03T01:11:24.000Z",
@@ -442,6 +490,18 @@
       "URL": "https://www.thelancet.com/journals/lanpsy/home"
     },
     "id": "recRUMb7W05ePHXJn"
+  },
+  {
+    "createdTime": "2026-11-18T18:45:29.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 2 · Medicamentos 2027: 164.245,1 mdp, +4,6% real vs 2026; recorte IMSS 7.373,0 mdp (la entrevistada escribió 7.372). Aportada por Judith Méndez en Voices, 17-11-2026.",
+      "Name": "CIEP — Presupuesto para salud en 2027: récord en medicamentos, hospitales mantienen rezagos",
+      "Reliability": "Alta",
+      "Topics": "México, medicamentos, compra pública, IMSS, IMSS-Bienestar, presupuesto 2027",
+      "Type": "Autoridad/Policy",
+      "URL": "https://ciep.mx/presupuesto-para-salud-en-2027-record-en-medicamentos-hospitales-mantienen-rezagos/"
+    },
+    "id": "recRYIg4s8mhe5PBq"
   },
   {
     "createdTime": "2026-07-18T23:05:14.000Z",
@@ -612,6 +672,18 @@
     "id": "recb0Mjxjp9NrujXg"
   },
   {
+    "createdTime": "2026-11-18T18:23:02.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 4 · Centro académico (UNAB). Fuente de costos de cirugías y hospitalizaciones similares entre público y privado. Aportada por Carolina Velasco (LyD) en Voices, 18-11-2026. Leer metodología antes de citar cifras.",
+      "Name": "ISP Universidad Andrés Bello — Informe 5: costos público/privado por GRD (2024)",
+      "Reliability": "Media",
+      "Topics": "Chile, costos hospitalarios, GRD, sector público vs privado, compra a prestadores",
+      "Type": "Científica",
+      "URL": "https://www.ispandresbello.cl/wp-content/uploads/2024/12/informe-5-PSP-c-GRD.pdf"
+    },
+    "id": "recbOFGc4x7kBduZU"
+  },
+  {
     "createdTime": "2026-07-18T21:13:17.000Z",
     "fields": {
       "Freshness_Note": "Conteos reales de trials por país/sponsor; vía MCP",
@@ -634,6 +706,18 @@
       "URL": "https://hia.paho.org/en/country-profiles"
     },
     "id": "recbZu7Fse2Fw0ke9"
+  },
+  {
+    "createdTime": "2026-11-18T18:45:29.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 2 · Fuente de per cápita 2027 (IMSS-Bienestar 5.523; IMSS 11.519; ISSSTE 13.857; Pemex 29.712 pesos), espacio fiscal 1,6% PIB, salud 2,9% PIB. Según CIEP, el PEF aprobado no cambió salud. Aportada por Judith Méndez en Voices, 17/18-11-2026.",
+      "Name": "CIEP — Paquete Económico 2027 (PE2027), análisis completo",
+      "Reliability": "Alta",
+      "Topics": "México, PPEF/PEF 2027, gasto en salud por subsistema, per cápita, espacio fiscal, Servicio Universal de Salud",
+      "Type": "Autoridad/Policy",
+      "URL": "https://paqueteeconomico.ciep.mx/wp-content/uploads/2026/09/PE2027-v3.pdf"
+    },
+    "id": "recbiBal4hf2lm8QV"
   },
   {
     "createdTime": "2026-07-19T01:26:01.000Z",
@@ -708,6 +792,18 @@
     "id": "receuFD2YHDdP1jJq"
   },
   {
+    "createdTime": "2026-11-18T18:23:02.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 1 · Organismo público técnico. Fuente del dato de uso de pabellones 60-70% del tiempo laboral hábil. Aportada por Carolina Velasco (LyD) en Voices, 18-11-2026. Dato de 2020: verificar si hay actualización antes de citar.",
+      "Name": "CNEP (Comisión Nacional de Evaluación y Productividad, Chile) — Eficiencia de pabellones y priorización de cirugías (2020)",
+      "Reliability": "Alta",
+      "Topics": "Chile, pabellones, listas de espera, productividad hospitalaria, sector público",
+      "Type": "Autoridad/Policy",
+      "URL": "https://cnep.cl/estudios-publicados/sectores-y-areas-transversales/eficiencia-pabellones-y-priorizacion-cirugias-2020"
+    },
+    "id": "recfBupVoHTQy5keU"
+  },
+  {
     "createdTime": "2026-07-18T21:13:17.000Z",
     "fields": {
       "Freshness_Note": "Tier 1 en cobertura, NO independiente · 11th ed. 2025 (estimaciones 2024). FINANCIADORES DECLARADOS: Sanofi, Novo Nordisk, MSD (Lancet Diabetes Endocrinol 2025;14(2):149-156, PMID 41412135) — van SIEMPRE en la tabla del reporte. Modelo construido con 246 estudios 2005-2024 + extrapolación: vendimia real 2005-2024, no 2024. Ver Engine_Decisions recA7ZY4ph9avhXE6 (monodependencia), recRtYfkNWwlW0Prs (Teufel et al. NO es control independiente) y recQppD48563IwBLR (North America & Caribbean es ~71% EE.UU./Canadá). Corroborar contra NCD-RisC, GBD 2023 y encuestas nacionales. Ficha en Engine_Reference_Library recnXYDyyP45X1rbt",
@@ -718,6 +814,18 @@
       "URL": "https://diabetesatlas.org"
     },
     "id": "recgZd7EzarkKaTJM"
+  },
+  {
+    "createdTime": "2026-11-18T19:01:14.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 4 · Propone «idealmente, una Agencia de Evaluación autónoma». Autora: Carolina Velasco (entrevistada Voices). Uso: posición de autora.",
+      "Name": "CEP Chile — Puntos de Referencia 397: Proyecto de Ley Ricarte Soto, las definiciones que faltan (2015), C. Velasco",
+      "Reliability": "Media",
+      "Topics": "Chile, Ley Ricarte Soto, evaluación de tecnologías sanitarias, agencia autónoma, alto costo",
+      "Type": "Autoridad/Policy",
+      "URL": "https://static.cepchile.cl/uploads/cepchile/2022/09/pder397_CVelasco.pdf"
+    },
+    "id": "recgy9l9mPJ6dulUy"
   },
   {
     "createdTime": "2026-07-19T01:17:39.000Z",
@@ -816,6 +924,18 @@
     "id": "recmz0EK9hnIcQbQu"
   },
   {
+    "createdTime": "2026-11-18T18:23:02.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 4 · Centro académico. OJO: coautora Carolina Velasco (LyD), que lo aportó como fuente en su Voices (18-11-2026): si se cita junto a ella, declararlo. Corroborar con CNEP.",
+      "Name": "IPSUSS (Universidad San Sebastián) — Uso de pabellones en Chile (2022), Aguilar y Velasco",
+      "Reliability": "Media",
+      "Topics": "Chile, pabellones, listas de espera, eficiencia hospitalaria",
+      "Type": "Científica",
+      "URL": "https://www.ipsuss.cl/ipsuss/site/docs/20221125/20221125010103/uso_pabellones_en_chile__2022__aguilar__velasco__ipsuss_.pdf"
+    },
+    "id": "recn5RT6dsZh3Fvc7"
+  },
+  {
     "createdTime": "2026-09-22T21:08:34.000Z",
     "fields": {
       "Freshness_Note": "Tier 1-2 · Multilateral independiente. Notas técnicas y proyecciones propias; varios papers los firman autores financiados por el BID (declararlo). Muchas cifras de gasto vienen de OCDE/GHED: citar la primaria. Fichas en Engine_Reference_Library (recfaBOHb4VpNPxlp, recktl1EO3IEBc7T7, recb6TdU2u2q60742). Alta 22/09/2026",
@@ -840,6 +960,18 @@
     "id": "rectjy9NVmu3XNfcZ"
   },
   {
+    "createdTime": "2026-11-18T18:45:29.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 2 · Marco sobre etiquetado de impuestos saludables; datos de 2020, usar como marco, no como cifra actual. Aportada por Judith Méndez en Voices, 17-11-2026.",
+      "Name": "CIEP — Impuestos al tabaco y gastos en salud (2020)",
+      "Reliability": "Media",
+      "Topics": "México, impuestos saludables, IEPS, tabaco, etiquetado de recursos para salud",
+      "Type": "Autoridad/Policy",
+      "URL": "https://ciep.mx/wp-content/uploads/2020/08/Impuestos-al-tabaco-y-gastos-en-saludFinalestadossl.pdf"
+    },
+    "id": "rectlvzWAVAMw268p"
+  },
+  {
     "createdTime": "2026-09-22T20:36:37.000Z",
     "fields": {
       "Freshness_Note": "Tier 6 — radar, nunca fuente de datos. Honor roll 2025: Roche (US$250-500K), Pfizer (100-250K), Merck (50-100K), Bayer y Organon (10-25K); también DoD, Dept. of State, Emb. EAU, Rockefeller. Declarar financiador si se cita. En Scanner: STRUCTURAL (desde 02-10-2026).",
@@ -862,6 +994,18 @@
       "URL": "https://apalweb.org"
     },
     "id": "recuLU2wzd4PjOkbG"
+  },
+  {
+    "createdTime": "2026-11-18T18:23:02.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 4 · Think tank + universidad. Propuesta en la que participó Carolina Velasco (año correcto 2017, no 2015). Uso: contexto y posiciones, no dato duro.",
+      "Name": "CEP Chile / U. de Chile — Propuesta de reforma de salud: prestadores (2017)",
+      "Reliability": "Media",
+      "Topics": "Chile, reforma de salud, prestadores, Fonasa, ISAPRE",
+      "Type": "Autoridad/Policy",
+      "URL": "https://static.cepchile.cl/uploads/cepchile/2022/09/cep_udechile_propuesta_salud.pdf"
+    },
+    "id": "recx2NTLJXhUMO8a5"
   },
   {
     "createdTime": "2026-07-18T21:13:17.000Z",
@@ -898,6 +1042,18 @@
       "URL": "https://www.orpha.net"
     },
     "id": "recxXNI8GM0zGIbjM"
+  },
+  {
+    "createdTime": "2026-11-18T18:23:02.000Z",
+    "fields": {
+      "Freshness_Note": "Tier 1 · Serie WHO GHED vía Banco Mundial; último dato 2024 (según Velasco, 18-11-2026). Chile ~40% del gasto corriente. Citar año del dato, no de consulta.",
+      "Name": "Banco Mundial — Out-of-pocket expenditure (% of current health expenditure), por país",
+      "Reliability": "Alta",
+      "Topics": "gasto de bolsillo, financiamiento de la salud, LATAM (cambiar locations= por país)",
+      "Type": "Autoridad/Policy",
+      "URL": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=CL"
+    },
+    "id": "recy0dN6lNvXPamfO"
   },
   {
     "createdTime": "2026-10-03T01:11:24.000Z",

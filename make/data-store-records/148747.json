@@ -177,6 +177,14 @@
   },
   {
     "data": {
+      "batch": "SCAN-ANDINA",
+      "headline": "Importante EPS cambia de manos: SuperSalud dio luz verde a la compra del 75,25% de sus acciones - Semana",
+      "seen_at": "2026-11-19T12:01:27.712Z"
+    },
+    "key": "aliansalud eps~m&a~2026-11-19"
+  },
+  {
+    "data": {
       "batch": "SCAN-STRUCTURAL",
       "headline": "Blood-based CRC screening: closer, but not there yet - The Lancet Gastroenterology & Hepatology",
       "seen_at": "2026-10-26T11:03:03.451Z"
@@ -206,6 +214,14 @@
       "seen_at": "2026-11-05T12:01:20.342Z"
     },
     "key": "ancp colombia compra eficiente~drug pricing~2026-11-05"
+  },
+  {
+    "data": {
+      "batch": "SCAN-MONEY-LATAM",
+      "headline": "SEGUIMIENTO A INFORMES INTERNOS ANCP CCE 2026 III TRIM – ANCP Colombia Compra Eficiente",
+      "seen_at": "2026-11-19T12:03:22.496Z"
+    },
+    "key": "ancp colombia compra eficiente~market access~2026-11-19"
   },
   {
     "data": {
@@ -257,6 +273,14 @@
   },
   {
     "data": {
+      "batch": "SCAN-DEALS",
+      "headline": "Ansa Biotechnologies Raises $71.5 Million in Oversubscribed Series C Round to Scale Guaranteed DNA Synthesis",
+      "seen_at": "2026-11-19T12:02:08.678Z"
+    },
+    "key": "ansa biotechnologies~manufacturing~2026-11-19"
+  },
+  {
+    "data": {
       "batch": "SCAN-REG-LATAM",
       "headline": "Anvisa seleciona projetos de novos medicamentos para iniciativa de aconselhamento regulatório",
       "seen_at": "2026-09-26T23:03:29.004Z"
@@ -278,6 +302,14 @@
       "seen_at": "2026-10-29T11:01:00.420Z"
     },
     "key": "arcsa~pharma regulation~2026-10-29"
+  },
+  {
+    "data": {
+      "batch": "SCAN-REG-LATAM",
+      "headline": "Arcsa por el Mundo: Cooperación internacional para fortalecer la calidad de los medicamentos biológicos. – Agencia Nacional de Regulación, Control  y Vigilancia Sanitaria",
+      "seen_at": "2026-11-19T12:03:04.054Z"
+    },
+    "key": "arcsa~pharma regulation~2026-11-19"
   },
   {
     "data": {
@@ -350,6 +382,14 @@
       "seen_at": "2026-11-05T12:01:07.461Z"
     },
     "key": "auna~health systems & disease burden~2026-11-05"
+  },
+  {
+    "data": {
+      "batch": "SCAN-LATAM-CORP",
+      "headline": "Auna Announces 3Q26 Financial Results",
+      "seen_at": "2026-11-19T12:02:59.330Z"
+    },
+    "key": "auna~health systems & disease burden~2026-11-19"
   },
   {
     "data": {
@@ -446,6 +486,14 @@
       "seen_at": "2026-10-03T11:04:28.655Z"
     },
     "key": "biomarin~market access~2026-10-03"
+  },
+  {
+    "data": {
+      "batch": "SCAN-DEALS-LATAM",
+      "headline": "Biomolecular Life Holdings, Inc. alcanza un nuevo hito al prepararse para adquirir Dr Dacon Medicina Biológica SAS, la práctica médica del Dr. David Contreras",
+      "seen_at": "2026-11-19T12:02:38.251Z"
+    },
+    "key": "biomolecular life holdings, inc.~m&a~2026-11-19"
   },
   {
     "data": {
@@ -598,6 +646,14 @@
       "seen_at": "2026-11-09T12:05:02.072Z"
     },
     "key": "calox~manufacturing~2026-11-09"
+  },
+  {
+    "data": {
+      "batch": "SCAN-DEALS",
+      "headline": "Calytrix Bio enters an agreement to be acquired by Lilly to advance outcomes for patients living with essential thrombocythemia and myelofibrosis",
+      "seen_at": "2026-11-19T12:02:13.385Z"
+    },
+    "key": "calytrix bio~m&a~2026-11-19"
   },
   {
     "data": {
@@ -1146,10 +1202,26 @@
   {
     "data": {
       "batch": "SCAN-DEALS-LATAM",
+      "headline": "Eli Lilly acordó comprar Calytrix Bio por US$1.500 millones en apuesta contra cáncer de sangre",
+      "seen_at": "2026-11-19T12:02:33.715Z"
+    },
+    "key": "eli lilly~m&a~2026-11-19"
+  },
+  {
+    "data": {
+      "batch": "SCAN-DEALS-LATAM",
       "headline": "Los programas de fertilidad de PostEra, adquiridos por EMD Serono, Inc.",
       "seen_at": "2026-09-12T15:30:44.904Z"
     },
     "key": "emd serono, inc.~m&a~2026-09-12"
+  },
+  {
+    "data": {
+      "batch": "SCAN-CONOSUR",
+      "headline": "Un año después: Patria logra la última autorización para sellar compra de Empresas Banmédica - La Tercera",
+      "seen_at": "2026-11-19T12:01:15.519Z"
+    },
+    "key": "empresas banmédica~m&a~2026-11-19"
   },
   {
     "data": {
@@ -1450,6 +1522,14 @@
   {
     "data": {
       "batch": "SCAN-EVENTS",
+      "headline": "LEAP Trial Results Reinforce Long-Term Efficacy and Safety of Phentermine - The Obesity Society",
+      "seen_at": "2026-11-19T12:24:09.846Z"
+    },
+    "key": "evt~464cfee5935b9995f4ef8c54c5dea0cd"
+  },
+  {
+    "data": {
+      "batch": "SCAN-EVENTS",
       "headline": "Intensive blood pressure therapy did not cut cardiovascular events in adults with diabetes | American Heart Association",
       "seen_at": "2026-11-08T12:23:25.407Z"
     },
@@ -1470,6 +1550,14 @@
       "seen_at": "2026-11-17T12:24:15.544Z"
     },
     "key": "evt~4b1bc9ea87d3f51eda49c9fabfc1be59"
+  },
+  {
+    "data": {
+      "batch": "SCAN-EVENTS",
+      "headline": "Few payers are ready for looming electronic prior authorization deadline | Healthcare Dive",
+      "seen_at": "2026-11-19T12:24:43.851Z"
+    },
+    "key": "evt~4c1afa367db9561ff516727d8c92754a"
   },
   {
     "data": {
@@ -1906,6 +1994,14 @@
   {
     "data": {
       "batch": "SCAN-EVENTS",
+      "headline": "States get more time on Medicaid work mandate - POLITICO",
+      "seen_at": "2026-11-19T12:23:52.924Z"
+    },
+    "key": "evt~daa88cbe030c2d1e89376898c7937cb6"
+  },
+  {
+    "data": {
+      "batch": "SCAN-EVENTS",
       "headline": "FDA Grants Full Approval to Pembrolizumab for Unresectable/Metastatic TMB-H Solid Tumors",
       "seen_at": "2026-10-23T11:23:24.844Z"
     },
@@ -2065,11 +2161,27 @@
   },
   {
     "data": {
+      "batch": "SCAN-DEALS-LATAM",
+      "headline": "Farmacias Benavides anuncia un acuerdo definitivo para ser adquirida por Farmacias del Ahorro",
+      "seen_at": "2026-11-19T12:02:50.314Z"
+    },
+    "key": "farmacias benavides~m&a~2026-11-19"
+  },
+  {
+    "data": {
       "batch": "SCAN-MX",
       "headline": "Ni con Farmacias Benavides alcanza al Dr. Simi; Farmacias del Ahorro podrá llegar a poco más de 3,000 tiendas",
       "seen_at": "2026-11-16T12:01:06.578Z"
     },
     "key": "farmacias del ahorro~m&a~2026-11-16"
+  },
+  {
+    "data": {
+      "batch": "SCAN-MX",
+      "headline": "Farmacias del Ahorro acuerda la compra de Farmacias Benavides",
+      "seen_at": "2026-11-19T12:00:51.112Z"
+    },
+    "key": "farmacias del ahorro~m&a~2026-11-19"
   },
   {
     "data": {
@@ -2138,6 +2250,14 @@
   {
     "data": {
       "batch": "SCAN-FDA",
+      "headline": "FDA Approves First Drug to Treat Neurological Symptoms of Type 3 Gaucher Disease",
+      "seen_at": "2026-11-19T11:41:06.005Z"
+    },
+    "key": "fda~75bb6676e61df4ca9b51e6745250959a"
+  },
+  {
+    "data": {
+      "batch": "SCAN-FDA",
       "headline": "FDA Provides Clarity to Support Cell and Gene Therapy Development and Quality",
       "seen_at": "2026-11-03T11:41:06.874Z"
     },
@@ -2174,6 +2294,22 @@
       "seen_at": "2026-11-18T11:41:06.123Z"
     },
     "key": "fda~fceb335dad3d448970ebd11d0b0ff884"
+  },
+  {
+    "data": {
+      "batch": "SCAN-USA",
+      "headline": "FDA Launches the Global Reliance Disclosure Program to Expand Patient Access to Medicines Worldwide | FDA",
+      "seen_at": "2026-11-19T12:01:40.200Z"
+    },
+    "key": "fda~pharma regulation~2026-11-19"
+  },
+  {
+    "data": {
+      "batch": "SCAN-BR",
+      "headline": "Lucro do Fleury salta 43% no 3º trimestre | Empresas | Valor Econômico",
+      "seen_at": "2026-11-19T12:00:55.089Z"
+    },
+    "key": "fleury~health systems & disease burden~2026-11-19"
   },
   {
     "data": {
@@ -2458,6 +2594,14 @@
   {
     "data": {
       "batch": "SCAN-BR",
+      "headline": "Fleury firma acordo com Atlântica para nova empresa - 11/11/2026 - Negócios - C-Level",
+      "seen_at": "2026-11-19T12:00:59.148Z"
+    },
+    "key": "grupo fleury~m&a~2026-11-19"
+  },
+  {
+    "data": {
+      "batch": "SCAN-BR",
       "headline": "Fleury e Einstein trazem ao Brasil teste que detecta mais de 50 tipos de câncer | Exame",
       "seen_at": "2026-10-07T13:02:51.017Z"
     },
@@ -2646,6 +2790,14 @@
       "seen_at": "2026-10-12T11:01:53.864Z"
     },
     "key": "inmed pharmaceuticals inc.~m&a~2026-10-12"
+  },
+  {
+    "data": {
+      "batch": "SCAN-DEALS",
+      "headline": "Innogen Pharmaceuticals Enters into Licensing Agreement with Arcera Life Sciences for Efsubaglutide Alfa, Accelerating International Expansion",
+      "seen_at": "2026-11-19T12:02:04.036Z"
+    },
+    "key": "innogen pharmaceuticals~market access~2026-11-19"
   },
   {
     "data": {
@@ -2849,6 +3001,14 @@
   },
   {
     "data": {
+      "batch": "SCAN-DEALS",
+      "headline": "Johnson & Johnson to acquire Ollin Biosciences and late-stage bispecific antibody with best-in-class potential in ophthalmology",
+      "seen_at": "2026-11-19T12:02:21.303Z"
+    },
+    "key": "johnson & johnson~m&a~2026-11-19"
+  },
+  {
+    "data": {
       "batch": "SCAN-STRUCTURAL",
       "headline": "KFF Tracker: America First MOU Bilateral Global Health Agreements | KFF",
       "seen_at": "2026-11-01T22:08:31.488Z"
@@ -2878,6 +3038,14 @@
       "seen_at": "2026-09-26T23:00:09.674Z"
     },
     "key": "l&c bio~market access~2026-09-26"
+  },
+  {
+    "data": {
+      "batch": "SCAN-CONOSUR",
+      "headline": "Industria farmacéutica gira hacia los tratamientos contra la obesidad: Laboratorios preparan alternativas a Ozempic",
+      "seen_at": "2026-11-19T12:01:11.183Z"
+    },
+    "key": "laboratorio chile~market access~2026-11-19"
   },
   {
     "data": {
@@ -2958,6 +3126,14 @@
       "seen_at": "2026-09-14T17:43:56.406Z"
     },
     "key": "medtronic plc~m&a~2026-09-14"
+  },
+  {
+    "data": {
+      "batch": "SCAN-DEALS",
+      "headline": "Medtronic to acquire Contego Medical, expanding access to next-generation carotid therapies - Nov 16, 2026",
+      "seen_at": "2026-11-19T12:02:25.544Z"
+    },
+    "key": "medtronic~m&a~2026-11-19"
   },
   {
     "data": {
@@ -3057,11 +3233,35 @@
   },
   {
     "data": {
+      "batch": "SCAN-ANDINA",
+      "headline": "Colombia atrae inversiones por US$2.800 millones en salud, infraestructura y energía",
+      "seen_at": "2026-11-19T12:01:19.974Z"
+    },
+    "key": "ministerio de salud de colombia~health systems & disease burden~2026-11-19"
+  },
+  {
+    "data": {
+      "batch": "SCAN-ANDINA",
+      "headline": "Milagro Week: anuncian inversiones millonarias para la industria farmacéutica en Colombia - Semana",
+      "seen_at": "2026-11-19T12:01:23.889Z"
+    },
+    "key": "ministerio de salud de colombia~market access~2026-11-19"
+  },
+  {
+    "data": {
       "batch": "SCAN-REG-LATAM",
       "headline": "Minsa instala el SINPREM para negociar mejores precios en la compra de medicamentos | MINSA",
       "seen_at": "2026-11-12T12:03:45.649Z"
     },
     "key": "ministerio de salud de panama~drug pricing~2026-11-12"
+  },
+  {
+    "data": {
+      "batch": "SCAN-REG-LATAM",
+      "headline": "Uruguay inicia el proceso de trabajo hacia los 20 años del Sistema Nacional Integrado de Salud - OPS/OMS | Organización Panamericana de la Salud",
+      "seen_at": "2026-11-19T12:03:08.949Z"
+    },
+    "key": "ministerio de salud pública de uruguay~health systems & disease burden~2026-11-19"
   },
   {
     "data": {
@@ -3182,6 +3382,14 @@
       "seen_at": "2026-11-09T12:04:57.794Z"
     },
     "key": "multicare pharma~market access~2026-11-09"
+  },
+  {
+    "data": {
+      "batch": "SCAN-MX",
+      "headline": "El “Ozempic mexicano” ya tiene fecha de llegada: esta empresa lo venderá más barato en el país",
+      "seen_at": "2026-11-19T12:00:46.893Z"
+    },
+    "key": "médix~drug pricing~2026-11-19"
   },
   {
     "data": {
@@ -3433,6 +3641,14 @@
   },
   {
     "data": {
+      "batch": "SCAN-STRUCTURAL",
+      "headline": "Saúde infantil: Panorama da Saúde: América Latina e Caribe 2026",
+      "seen_at": "2026-11-19T12:03:52.409Z"
+    },
+    "key": "oecd~health systems & disease burden~2026-11-19"
+  },
+  {
+    "data": {
       "batch": "SCAN-MX",
       "headline": "OncoBayes avanza con OB-001 para abordar la resistencia a ADC y la penetración cerebral de TKI",
       "seen_at": "2026-10-07T13:02:37.613Z"
@@ -3550,6 +3766,14 @@
       "seen_at": "2026-11-14T16:52:43.574Z"
     },
     "key": "paho/who~health systems & disease burden~2026-11-14"
+  },
+  {
+    "data": {
+      "batch": "SCAN-STRUCTURAL",
+      "headline": "Actualización regional, Influenza y otros virus respiratorios. Semana Epidemiológica 44 (13 de noviembre del 2026) - OPS/OMS | Organización Panamericana de la Salud",
+      "seen_at": "2026-11-19T12:03:27.352Z"
+    },
+    "key": "paho/who~health systems & disease burden~2026-11-19"
   },
   {
     "data": {
@@ -3769,6 +3993,14 @@
   },
   {
     "data": {
+      "batch": "SCAN-STRUCTURAL",
+      "headline": "PAHO warns of increasing resistance to antibiotics used to treat serious infections in the Americas - PAHO/WHO | Pan American Health Organization",
+      "seen_at": "2026-11-19T12:03:31.807Z"
+    },
+    "key": "pan american health organization~health systems & disease burden~2026-11-19"
+  },
+  {
+    "data": {
       "batch": "SCAN-REG-LATAM",
       "headline": "Los Estados Miembros de la OPS aprueban el fortalecimiento de los Fondos Rotatorios Regionales para ampliar el acceso a tecnologías de salud - OPS/OMS | Organización Panamericana de la Salud",
       "seen_at": "2026-10-03T11:04:50.319Z"
@@ -3782,6 +4014,14 @@
       "seen_at": "2026-11-12T12:03:49.709Z"
     },
     "key": "pan american health organization~market access~2026-11-12"
+  },
+  {
+    "data": {
+      "batch": "SCAN-REG-LATAM",
+      "headline": "La OPS lanza REGIA, una plataforma para consultar y comparar los requisitos regulatorios de ensayos clínicos en las Américas - OPS/OMS | Organización Panamericana de la Salud",
+      "seen_at": "2026-11-19T12:03:12.854Z"
+    },
+    "key": "pan american health organization~pharma regulation~2026-11-19"
   },
   {
     "data": {
@@ -3833,6 +4073,14 @@
   },
   {
     "data": {
+      "batch": "SCAN-DEALS-LATAM",
+      "headline": "Patria Investments realizará una inversión aproximada de US$2.600 millones en salud",
+      "seen_at": "2026-11-19T12:02:42.049Z"
+    },
+    "key": "patria investments~health systems & disease burden~2026-11-19"
+  },
+  {
+    "data": {
       "batch": "SCAN-BR",
       "headline": "PNR Shareholder Alert: October 2, 2026 Lead Plaintiff",
       "seen_at": "2026-10-26T11:00:33.001Z"
@@ -3846,6 +4094,14 @@
       "seen_at": "2026-11-12T12:02:05.352Z"
     },
     "key": "pfizer~clinical catalyst~2026-11-12"
+  },
+  {
+    "data": {
+      "batch": "SCAN-DEALS",
+      "headline": "Pfizer Enters into Exclusive Licensing Agreement with Starna Therapeutics for Autoimmune Diseases | Pfizer",
+      "seen_at": "2026-11-19T12:01:54.607Z"
+    },
+    "key": "pfizer~m&a~2026-11-19"
   },
   {
     "data": {
@@ -4009,6 +4265,14 @@
   },
   {
     "data": {
+      "batch": "SCAN-BR",
+      "headline": "Caneta de semaglutida Owozy começa a ser vendida no Brasil a partir de R$ 349",
+      "seen_at": "2026-11-19T12:01:03.154Z"
+    },
+    "key": "sandoz~market access~2026-11-19"
+  },
+  {
+    "data": {
       "batch": "SCAN-ANDINA",
       "headline": "Sanfer impulsa la producción de medicamentos en Colombia con una inversión de más de 40 millones de dólares - Semana",
       "seen_at": "2026-09-26T22:59:51.076Z"
@@ -4145,6 +4409,14 @@
   },
   {
     "data": {
+      "batch": "SCAN-DEALS",
+      "headline": "Sofinnova books $815M fund toward up-and-coming ‘global leaders’",
+      "seen_at": "2026-11-19T12:02:29.561Z"
+    },
+    "key": "sofinnova partners~m&a~2026-11-19"
+  },
+  {
+    "data": {
       "batch": "SCAN-DEALS-LATAM",
       "headline": "SoftBank vai emitir US$ 11 bilhões em títulos para financiar investimento na OpenAI | Empresas | Valor Econômico",
       "seen_at": "2026-10-22T11:02:26.079Z"
@@ -4206,6 +4478,14 @@
       "seen_at": "2026-10-03T11:02:37.895Z"
     },
     "key": "supremo tribunal federal~litigation~2026-10-03"
+  },
+  {
+    "data": {
+      "batch": "SCAN-CONOSUR",
+      "headline": "Swiss Medical toma el control de Grupo Oroño y amplía su red de clínicas en el interior de la Argentina - LA NACION",
+      "seen_at": "2026-11-19T12:01:07.354Z"
+    },
+    "key": "swiss medical~m&a~2026-11-19"
   },
   {
     "data": {
@@ -4346,6 +4626,14 @@
   {
     "data": {
       "batch": "SCAN-JUDICIAL",
+      "headline": "Precedentes elevam padrão técnico da judicialização da saúde",
+      "seen_at": "2026-11-19T12:01:50.282Z"
+    },
+    "key": "tj-sp~litigation~2026-11-19"
+  },
+  {
+    "data": {
+      "batch": "SCAN-JUDICIAL",
       "headline": "TJ/SP obriga plano a custear remédio para paciente com doença de Crohn - Migalhas",
       "seen_at": "2026-10-12T11:02:01.600Z"
     },
@@ -4422,6 +4710,14 @@
       "seen_at": "2026-10-21T15:51:13.935Z"
     },
     "key": "unitedhealth group~payer systems~2026-10-21"
+  },
+  {
+    "data": {
+      "batch": "SCAN-USA",
+      "headline": "Recapping the major trends from payers' Q3 earnings calls",
+      "seen_at": "2026-11-19T12:01:36.183Z"
+    },
+    "key": "unitedhealth group~payer systems~2026-11-19"
   },
   {
     "data": {
@@ -4550,6 +4846,14 @@
       "seen_at": "2026-10-12T11:01:08.072Z"
     },
     "key": "viatris~m&a~2026-10-12"
+  },
+  {
+    "data": {
+      "batch": "SCAN-DEALS",
+      "headline": "VitriVax Announces $87 Million Series C Financing to Advance Lyme Disease Vaccine Candidate into the Clinic and Expand Pipeline",
+      "seen_at": "2026-11-19T12:01:59.654Z"
+    },
+    "key": "vitrivax~clinical catalyst~2026-11-19"
   },
   {
     "data": {
@@ -4694,6 +4998,14 @@
       "seen_at": "2026-11-12T12:04:27.530Z"
     },
     "key": "world health organization~health systems & disease burden~2026-11-12"
+  },
+  {
+    "data": {
+      "batch": "SCAN-STRUCTURAL",
+      "headline": "Pese a las dificultades, los países incrementan la inversión interna para proteger los progresos contra la tuberculosis",
+      "seen_at": "2026-11-19T12:03:36.123Z"
+    },
+    "key": "world health organization~health systems & disease burden~2026-11-19"
   },
   {
     "data": {

@@ -13,6 +13,19 @@
     "id": "rec1QMsGnJGeBwtCo"
   },
   {
+    "createdTime": "2026-11-19T13:55:13.000Z",
+    "fields": {
+      "Channel": "socios",
+      "Date": "2026-11-19",
+      "Items_Pending": 4,
+      "Notes": "4 seguimientos únicos en borrador (SMSP, UMIA, ACSP, INC) tras revisión adversarial opus (link directo a landing); esperan 'OK seguimientos socios 19-11'. 0 altas report_diabetes (el valor no aparece nunca en CTA Source: revisar formulario).",
+      "Run": "manana",
+      "Run_Key": "2026-11-19|manana|socios",
+      "Status": "ok"
+    },
+    "id": "rec1uyrK5QiOpDjEP"
+  },
+  {
     "createdTime": "2026-10-29T13:01:27.000Z",
     "fields": {
       "Channel": "voices",
@@ -338,6 +351,19 @@
     "id": "recEqc0q6o5pvG1az"
   },
   {
+    "createdTime": "2026-11-19T13:55:13.000Z",
+    "fields": {
+      "Channel": "grupos",
+      "Date": "2026-11-19",
+      "Items_Pending": 1,
+      "Notes": "Salud e Investigación Clínica en LatAm, nivel A, sarampión OPS (nota 36896), Brief issue02. Publicación manual sin confirmar.",
+      "Run": "manana",
+      "Run_Key": "2026-11-19|manana|grupos",
+      "Status": "ok"
+    },
+    "id": "recFRfOoR9dOQl2UA"
+  },
+  {
     "createdTime": "2026-10-23T12:57:53.000Z",
     "fields": {
       "Channel": "comentarios",
@@ -349,6 +375,19 @@
       "Status": "ok"
     },
     "id": "recFjl5WqG8Vi5NnX"
+  },
+  {
+    "createdTime": "2026-11-18T18:48:48.000Z",
+    "fields": {
+      "Channel": "comentarios",
+      "Date": "2026-11-18",
+      "Items_Pending": 7,
+      "Notes": "Paso B: 0 Approved en cola; la mañana ya cargó 1 Proposed (REGIA). Ningún Proposed >3 días (los del 16-11 vencen 20-11). Sin Published para métricas. Sin email.",
+      "Run": "tarde",
+      "Run_Key": "2026-11-18|tarde|comentarios",
+      "Status": "sin novedades"
+    },
+    "id": "recFqEcyWfGaqpFw7"
   },
   {
     "createdTime": "2026-10-29T13:01:27.000Z",
@@ -401,6 +440,19 @@
       "Status": "sin novedades"
     },
     "id": "recIEEZuNT2z6VEAq"
+  },
+  {
+    "createdTime": "2026-11-19T13:55:13.000Z",
+    "fields": {
+      "Channel": "comentarios",
+      "Date": "2026-11-19",
+      "Items_Pending": 7,
+      "Notes": "Sin redactar nuevos (7 Proposed sin decidir; subagente sin Agent para revisión adversarial). 4 del 16-11 vencen hoy 14:00 UTC. 0 Approved en cola. 5 personas New esperan decisión.",
+      "Run": "manana",
+      "Run_Key": "2026-11-19|manana|comentarios",
+      "Status": "ok"
+    },
+    "id": "recJYfxlVlKWJhSdH"
   },
   {
     "createdTime": "2026-11-02T14:27:06.000Z",
@@ -492,6 +544,19 @@
       "Status": "sin novedades"
     },
     "id": "recNsz26nPQcE9kXg"
+  },
+  {
+    "createdTime": "2026-11-19T13:55:13.000Z",
+    "fields": {
+      "Channel": "prensa",
+      "Date": "2026-11-19",
+      "Items_Pending": 0,
+      "Notes": "Sin respuestas/rebotes/bajas de periodistas. Decisiones abiertas: Lucas Soares (BMS BR) pide acuse de recibo de respuestas de voceros; follow-up Elsa Argüelles toca hoy; borrador Orcoyen del 16-11 no encontrado. Colombia (11) sin Status.",
+      "Run": "manana",
+      "Run_Key": "2026-11-19|manana|prensa",
+      "Status": "sin novedades"
+    },
+    "id": "recNwjFIetMJY15jx"
   },
   {
     "createdTime": "2026-11-09T14:04:48.000Z",
@@ -895,6 +960,19 @@
       "Status": "ok"
     },
     "id": "recaAzgeI6EKh4pTU"
+  },
+  {
+    "createdTime": "2026-11-19T13:55:13.000Z",
+    "fields": {
+      "Channel": "voices",
+      "Date": "2026-11-19",
+      "Items_Pending": 0,
+      "Notes": "Jueves: solo paso 0. Programados: 0 revisados (in:scheduled vacío; misma salvedad de visibilidad del 17-11). Sin invitaciones LinkedIn hoy ni atrasadas.",
+      "Run": "manana",
+      "Run_Key": "2026-11-19|manana|voices",
+      "Status": "sin novedades"
+    },
+    "id": "recaDl2X7e0NrTACS"
   },
   {
     "createdTime": "2026-11-12T13:57:45.000Z",
@@ -1415,6 +1493,19 @@
       "Status": "ok"
     },
     "id": "recsLPkLxpkzwImQA"
+  },
+  {
+    "createdTime": "2026-11-19T13:52:17.000Z",
+    "fields": {
+      "Channel": "sponsors",
+      "Date": "2026-11-19",
+      "Items_Pending": 14,
+      "Notes": "Invitaciones confirmadas por Fer: 0. Aceptaciones: n/d. Pendientes estimadas: 0. Corridas seguidas con propuesta sin OK: 7 (10-11, 11-11, 12-11, 16-11, 17-11, 18-11, 19-11). Acumulado sin OK aprox. 85 (71 anteriores + 14 hoy).\nCandidatos 19-11 (nombre | URL):\n1 Marcela Stagnaro (Boehringer Ingelheim AR/UY/PY, GM) | https://linkedin.com/in/marcela-stagnaro-88853611\n2 Matheus Gulin de Oliveira (Eurofarma Cluster Andino CL, GM) | https://linkedin.com/in/matheusgoliveira\n3 Pablo Angiono (Eurofarma Cluster Sur AR, GM) | https://linkedin.com/in/pablo-angiono-57646b5\n4 Pierina Rossetti (Ferrer CL, GM) | https://linkedin.com/in/pierina-rossetti-23559053\n5 Luis Alonso Carvajalino Castillo (Raffo CL, GM) | https://linkedin.com/in/luis-alonso-carvajalino\n6 Enrique Salinas Polanco (Adium CL, GM) | https://linkedin.com/in/enrique-salinas-polanco-4274b95a\n7 Eduardo Bolt (Grupo Pharmacosanté CL, GM) | https://linkedin.com/in/eduardo-bolt\n8 Markus Vinicius Prior Pereira da Silva (Medtronic North LATAM MX, Marketing Director) | https://linkedin.com/in/markus-vinicius-prior-pereira-da-silva-9582446\n9 Mirella Rubi (Smith+Nephew LatAm AWM MX, Marketing Director) | https://linkedin.com/in/mirellarubiestrella\n10 Alejandro Ochoa (Alcon LATAM MX, Area Marketing Director) | https://linkedin.com/in/alejandro-ochoa-55a45013\n11 Rafael Fideles (Penumbra BR, Marketing Director) | https://linkedin.com/in/rafael-fideles\n12 Suélen Ribeiro (Fresenius Medical Care ELAC BR, Regional Marketing Director) | https://linkedin.com/in/su%C3%A9len-ribeiro-17110636\n13 Jéssica Steffany Miranda (Convatec LATAM, Marketing Director) | https://linkedin.com/in/j%C3%A9ssica-steffany-miranda-84355a8a\n14 Janice Tuci Silva (Smith+Nephew BR, Marketing Director & Country Lead) | https://linkedin.com/in/janice-tuci-silva-867244361",
+      "Run": "manana",
+      "Run_Key": "2026-11-19|manana|sponsors",
+      "Status": "ok"
+    },
+    "id": "rect9HMYCkJCO485b"
   },
   {
     "createdTime": "2026-11-02T14:27:06.000Z",

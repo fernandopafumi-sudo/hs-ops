@@ -665,6 +665,11 @@
               "color": "blueLight2",
               "id": "selFuXbO4T5wvMdBI",
               "name": "México / EE.UU."
+            },
+            {
+              "color": "blueLight2",
+              "id": "sel9p3BuElgDUrnjn",
+              "name": "USA"
             }
           ]
         },
@@ -1410,6 +1415,17 @@
           }
         },
         "type": "date"
+      },
+      {
+        "id": "fldVPrRbq4O0tvxkP",
+        "name": "Proposals",
+        "options": {
+          "inverseLinkFieldId": "fldvMOGUONhADg85o",
+          "isReversed": false,
+          "linkedTableId": "tbl1pf6OQxhSKszIC",
+          "prefersSingleRecordLink": false
+        },
+        "type": "multipleRecordLinks"
       }
     ],
     "id": "tblalG4gDQFhUYC0D",
@@ -3478,6 +3494,17 @@
           }
         },
         "type": "formula"
+      },
+      {
+        "id": "fldgYSuw9idyA7BX1",
+        "name": "Proposals",
+        "options": {
+          "inverseLinkFieldId": "fldta9SXLjKwrpZkc",
+          "isReversed": false,
+          "linkedTableId": "tbl1pf6OQxhSKszIC",
+          "prefersSingleRecordLink": false
+        },
+        "type": "multipleRecordLinks"
       }
     ],
     "id": "tblYarTZzp99EHLVW",
@@ -6869,6 +6896,502 @@
     "views": [
       {
         "id": "viwBGfERTZMgy4ojQ",
+        "name": "Grid view",
+        "type": "grid"
+      }
+    ]
+  },
+  {
+    "description": "Registro de propuestas comerciales de HealthSignals. Una fila por documento enviado o por plantilla. La fila de tipo \"Plantilla genérica\" es el maestro del que salen las demás: antes de armar una propuesta nueva se parte de esa, no de la del cliente anterior. Los precios de cada nivel se guardan acá para que una propuesta futura no contradiga a una anterior; los precios unitarios viven en Products & Prices. El PDF enviado se adjunta en el campo PDF: es la única copia de lo que el cliente efectivamente recibió. Se arma con el skill hs-propuesta-comercial.",
+    "fields": [
+      {
+        "description": "Cliente + mes, ej. AstraZeneca México — nov 2026",
+        "id": "fldG2uYb80XT85YS0",
+        "name": "Proposal",
+        "type": "singleLineText"
+      },
+      {
+        "description": "Nombre de la compañía. CLIENTE en la plantilla genérica.",
+        "id": "fldlT5RVyc298H2vo",
+        "name": "Client",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldv3HEvyU0OTrG3T",
+        "name": "Market",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "sel1PG0ryC59BLac9",
+              "name": "México"
+            },
+            {
+              "color": "grayLight2",
+              "id": "seli3Bc6bXVMWy86V",
+              "name": "Brasil"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sellE1PBBSHkaVBCQ",
+              "name": "Colombia"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selA8fBZwBUMYuQLS",
+              "name": "Argentina"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel3sNhh2M4xu8qUW",
+              "name": "Chile"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selw9ISwfWUwsKvij",
+              "name": "Perú"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selSBivoZbLxzklOz",
+              "name": "LatAm regional"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sele7ReTcqMVpccto",
+              "name": "EE.UU."
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel02RKdHZzYfdAjV",
+              "name": "Sin definir"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldfW22gJ07AXYWKB",
+        "name": "Type",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selqiNVkNl1ksGoqI",
+              "name": "Cliente"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selNeTQmjL0q1Tqma",
+              "name": "Plantilla genérica"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldn2LnofPYYpUJxO",
+        "name": "Status",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selwr2kjUDHNsplje",
+              "name": "Borrador"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selmetjAPnGeqx4HG",
+              "name": "Enviada"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selsGRxw2WAOXvY7g",
+              "name": "En revisión del cliente"
+            },
+            {
+              "color": "grayLight2",
+              "id": "seleMig9kvaYxPPRV",
+              "name": "Ganada"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selHhNcg6yuNXXUqP",
+              "name": "Perdida"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selIKp4c5Dit7jEf6",
+              "name": "Vencida"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selZ7ABwZwr8SZ0qd",
+              "name": "Maestro vigente"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "id": "fldFFSII4cdqLtNSj",
+        "name": "Language",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "seljfH6yJCrHIEAYH",
+              "name": "Español"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel0kI2lehyrdo1zk",
+              "name": "Inglés"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel883yC5H7cugpVn",
+              "name": "Portugués"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "description": "Fecha en que se envió al cliente. Vacío si sigue en borrador.",
+        "id": "fldK8XxzPYbphtxTL",
+        "name": "Sent_Date",
+        "options": {
+          "dateFormat": {
+            "format": "YYYY-MM-DD",
+            "name": "iso"
+          }
+        },
+        "type": "date"
+      },
+      {
+        "description": "Fecha hasta la cual la propuesta queda firme en alcance y precio.",
+        "id": "fldVZdM8WuAriJLnv",
+        "name": "Valid_Until",
+        "options": {
+          "dateFormat": {
+            "format": "YYYY-MM-DD",
+            "name": "iso"
+          }
+        },
+        "type": "date"
+      },
+      {
+        "description": "Primer mes del programa propuesto. Se recalcula desde la fecha de la propuesta, nunca se copia de la anterior.",
+        "id": "fld3VJslPeJUubRc8",
+        "name": "Program_Start",
+        "options": {
+          "dateFormat": {
+            "format": "YYYY-MM-DD",
+            "name": "iso"
+          }
+        },
+        "type": "date"
+      },
+      {
+        "id": "fldPnVGFP79LiVsjR",
+        "name": "Program_End",
+        "options": {
+          "dateFormat": {
+            "format": "YYYY-MM-DD",
+            "name": "iso"
+          }
+        },
+        "type": "date"
+      },
+      {
+        "id": "fldlhNawxeSkeAYmG",
+        "name": "Recommended_Tier",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "sel8znGXl4jobw4YE",
+              "name": "A"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel9lsAGrn70D23Wg",
+              "name": "B"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel8WDc8gDFRpnW2q",
+              "name": "C"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "description": "Precio total de A comprando cada producto por separado",
+        "id": "fldMpLJlS4WH6AMTt",
+        "name": "Tier_A_List",
+        "options": {
+          "precision": 0,
+          "symbol": "USD "
+        },
+        "type": "currency"
+      },
+      {
+        "id": "fld5ygunpVkHvsKhy",
+        "name": "Tier_A_Final",
+        "options": {
+          "precision": 0,
+          "symbol": "USD "
+        },
+        "type": "currency"
+      },
+      {
+        "id": "fldIYPExDvxSARbxq",
+        "name": "Tier_B_List",
+        "options": {
+          "precision": 0,
+          "symbol": "USD "
+        },
+        "type": "currency"
+      },
+      {
+        "id": "fld9eezx0UFX01a7J",
+        "name": "Tier_B_Final",
+        "options": {
+          "precision": 0,
+          "symbol": "USD "
+        },
+        "type": "currency"
+      },
+      {
+        "id": "fldfwRjAjjvN23jBK",
+        "name": "Tier_C_List",
+        "options": {
+          "precision": 0,
+          "symbol": "USD "
+        },
+        "type": "currency"
+      },
+      {
+        "id": "fldAHklFqTe2Ueh88",
+        "name": "Tier_C_Final",
+        "options": {
+          "precision": 0,
+          "symbol": "USD "
+        },
+        "type": "currency"
+      },
+      {
+        "id": "fldvMOGUONhADg85o",
+        "name": "Prospect",
+        "options": {
+          "inverseLinkFieldId": "fldVPrRbq4O0tvxkP",
+          "isReversed": false,
+          "linkedTableId": "tblalG4gDQFhUYC0D",
+          "prefersSingleRecordLink": false
+        },
+        "type": "multipleRecordLinks"
+      },
+      {
+        "id": "fldta9SXLjKwrpZkc",
+        "name": "Deal",
+        "options": {
+          "inverseLinkFieldId": "fldgYSuw9idyA7BX1",
+          "isReversed": false,
+          "linkedTableId": "tblYarTZzp99EHLVW",
+          "prefersSingleRecordLink": false
+        },
+        "type": "multipleRecordLinks"
+      },
+      {
+        "description": "El PDF exacto que recibió el cliente. Adjuntar siempre al enviar.",
+        "id": "flduC6W1b1SsVNJNd",
+        "name": "PDF",
+        "options": {
+          "isReversed": false
+        },
+        "type": "multipleAttachments"
+      },
+      {
+        "id": "fldUyvn7ns1f3ufIE",
+        "name": "Gmail_Thread_ID",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldPOhgTJFXzXTCvX",
+        "name": "Gmail_Draft_ID",
+        "type": "singleLineText"
+      },
+      {
+        "description": "Dónde vive el generador y el doc de diseño, ej. claude/generador-propuestas-deck-2026-11-17.md",
+        "id": "fldCIaftw7pvPHFnP",
+        "name": "Generator",
+        "type": "singleLineText"
+      },
+      {
+        "description": "De qué propuesta o plantilla se partió",
+        "id": "fld5sDx13L7oZooq4",
+        "name": "Based_On",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldtkT3IZQ9DLVxuC",
+        "name": "Notes",
+        "type": "multilineText"
+      },
+      {
+        "id": "fld3shiZc1KsXrwuE",
+        "name": "Created",
+        "options": {
+          "dateFormat": {
+            "format": "YYYY-MM-DD",
+            "name": "iso"
+          }
+        },
+        "type": "date"
+      }
+    ],
+    "id": "tbl1pf6OQxhSKszIC",
+    "name": "Proposals",
+    "primaryFieldId": "fldG2uYb80XT85YS0",
+    "views": [
+      {
+        "id": "viwwNngS4X9yIpKxn",
+        "name": "Grid view",
+        "type": "grid"
+      }
+    ]
+  },
+  {
+    "description": "Lista de precios vigente de HealthSignals. Una fila por producto. Es la fuente de verdad: el precio de una propuesta se toma de acá, no se copia de la propuesta anterior. Regla dura: un producto con Delivery_Ready sin tildar NO se lista en una propuesta, porque un renglón en la tabla de precios es una promesa de entrega. Al cambiar un precio, actualizar la fila y dejar el anterior en Notes con fecha; no borrar el histórico.",
+    "fields": [
+      {
+        "description": "Nombre exacto como aparece en la propuesta",
+        "id": "fldJ62kUtCF1f9248",
+        "name": "Product",
+        "type": "singleLineText"
+      },
+      {
+        "description": "por reporte, por artículo, por entrevista, por webinar, por documento, por paquete, por posición seis meses, por seis meses",
+        "id": "fldlNfEu7QwuGa3S2",
+        "name": "Unit",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldy0UnH7CnIBs3n9",
+        "name": "Price_USD",
+        "options": {
+          "precision": 0,
+          "symbol": "USD "
+        },
+        "type": "currency"
+      },
+      {
+        "id": "fldlzNPXJCIvqB224",
+        "name": "Status",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selVFW7DAzAoZXnx1",
+              "name": "Vigente"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selJwGRazXTOdVL6q",
+              "name": "No ofrecer aún"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selLKENdGCCsoCSeX",
+              "name": "Descontinuado"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "description": "Sin tildar = no se puede entregar hoy, así que no va en ninguna propuesta.",
+        "id": "fld2PTV3cHcvfn2YW",
+        "name": "Delivery_Ready",
+        "options": {
+          "color": "greenBright",
+          "icon": "check"
+        },
+        "type": "checkbox"
+      },
+      {
+        "description": "En qué niveles del programa entra. Fuera de nivel = solo se cotiza suelto.",
+        "id": "fldx7UShQQTj5CyFG",
+        "name": "In_Tiers",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selZE8uAV7r0FuLDw",
+              "name": "A"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selFJUsX5VkrkEpJ2",
+              "name": "B"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selmy6wOt24PFM0ZN",
+              "name": "C"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selFNWlzhXhc3J58b",
+              "name": "Fuera de nivel"
+            }
+          ]
+        },
+        "type": "multipleSelects"
+      },
+      {
+        "description": "Si admite etiqueta de patrocinio. Voices editorial nunca.",
+        "id": "fldnsepuEExOTqI8I",
+        "name": "Sponsorable",
+        "options": {
+          "color": "greenBright",
+          "icon": "check"
+        },
+        "type": "checkbox"
+      },
+      {
+        "description": "Qué incluye y en cuánto tiempo se entrega",
+        "id": "fldp1SyasMhmWm93B",
+        "name": "Delivery_Notes",
+        "type": "multilineText"
+      },
+      {
+        "id": "fld3OrPDq5fjaNa4c",
+        "name": "Last_Reviewed",
+        "options": {
+          "dateFormat": {
+            "format": "YYYY-MM-DD",
+            "name": "iso"
+          }
+        },
+        "type": "date"
+      },
+      {
+        "description": "Historial de precio y decisiones",
+        "id": "fldhTkosLlhSI527J",
+        "name": "Notes",
+        "type": "multilineText"
+      }
+    ],
+    "id": "tblOd2SoXFOaUFNdv",
+    "name": "Products and Prices",
+    "primaryFieldId": "fldJ62kUtCF1f9248",
+    "views": [
+      {
+        "id": "viw4uB9TLGXzmKqFs",
         "name": "Grid view",
         "type": "grid"
       }

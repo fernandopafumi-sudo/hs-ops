@@ -1,0 +1,190 @@
+[
+  {
+    "createdTime": "2026-11-19T01:13:29.000Z",
+    "fields": {
+      "Delivery_Notes": "16 a 20 páginas, 2 a 3 entrevistas, fuentes primarias citadas. Tres a cuatro semanas del tema aprobado al borrador, sin contar la ventana de revisión.",
+      "Delivery_Ready": true,
+      "In_Tiers": [
+        "B",
+        "C"
+      ],
+      "Last_Reviewed": "2026-11-18",
+      "Notes": "18-11-2026: baja de 24.000 a 17.000 al recalcular la escalera de descuentos hacia atrás desde el nivel B en 48.000.",
+      "Price_USD": 17000,
+      "Product": "Special Report, 16 a 20 páginas",
+      "Sponsorable": true,
+      "Status": "Vigente",
+      "Unit": "por reporte"
+    },
+    "id": "recCZdOc3uoRSfMy1"
+  },
+  {
+    "createdTime": "2026-11-19T01:13:29.000Z",
+    "fields": {
+      "Delivery_Notes": "Son dos posiciones: portada y sección Pharma. El programa incluye las dos, o sea 8.000. La celda del nivel tiene que decir el conteo de posiciones o la suma no le cierra al comprador.",
+      "Delivery_Ready": true,
+      "In_Tiers": [
+        "B",
+        "C"
+      ],
+      "Last_Reviewed": "2026-11-18",
+      "Notes": "18-11-2026: baja de 6.000 a 4.000 y pasa a cobrarse por posición.",
+      "Price_USD": 4000,
+      "Product": "Banner en portada y en la sección Pharma",
+      "Sponsorable": true,
+      "Status": "Vigente",
+      "Unit": "por posición, seis meses"
+    },
+    "id": "recGgOrRT0Ti0yWI6"
+  },
+  {
+    "createdTime": "2026-11-19T01:13:29.000Z",
+    "fields": {
+      "Delivery_Notes": "Moderado por HealthSignals. Panelistas y plataforma los aporta el patrocinador, con fecha acordada en el kick off. Los registros quedan del lado del cliente.",
+      "Delivery_Ready": true,
+      "In_Tiers": [
+        "B",
+        "C"
+      ],
+      "Last_Reviewed": "2026-11-18",
+      "Notes": "18-11-2026: baja de 7.500 a 5.000.",
+      "Price_USD": 5000,
+      "Product": "Webinar de 45 minutos más preguntas",
+      "Sponsorable": true,
+      "Status": "Vigente",
+      "Unit": "por webinar"
+    },
+    "id": "recHTt0TUTqGiRew4"
+  },
+  {
+    "createdTime": "2026-11-19T01:13:29.000Z",
+    "fields": {
+      "Delivery_Notes": "Parte de evidencia que aporta el patrocinador, con fecha acordada en el kick off. No es lo mismo que Executive Voices: distinto producto y distinto precio.",
+      "Delivery_Ready": true,
+      "In_Tiers": [
+        "A",
+        "B",
+        "C"
+      ],
+      "Last_Reviewed": "2026-11-18",
+      "Notes": "18-11-2026: baja de 6.000 a 4.000.",
+      "Price_USD": 4000,
+      "Product": "Perspectiva ejecutiva sobre evidencia aportada",
+      "Sponsorable": true,
+      "Status": "Vigente",
+      "Unit": "por artículo"
+    },
+    "id": "recPryiSKp32pIc6C"
+  },
+  {
+    "createdTime": "2026-11-19T01:13:29.000Z",
+    "fields": {
+      "Delivery_Notes": "Formato patrocinado y etiquetado como tal, con el ejecutivo propuesto por el cliente. Queda publicado en el sitio. Voices, la sección editorial, nunca se vende.",
+      "Delivery_Ready": true,
+      "In_Tiers": [
+        "C"
+      ],
+      "Last_Reviewed": "2026-11-18",
+      "Notes": "18-11-2026: baja de 7.500 a 4.000. Se sumó al nivel C para llevar su descuento a 25% sin bajar el precio.",
+      "Price_USD": 4000,
+      "Product": "Executive Voices, entrevista a un ejecutivo",
+      "Sponsorable": true,
+      "Status": "Vigente",
+      "Unit": "por entrevista"
+    },
+    "id": "recSOZQARd1s6kLzH"
+  },
+  {
+    "createdTime": "2026-11-19T01:13:29.000Z",
+    "fields": {
+      "Delivery_Notes": "Cuatro briefings a 1.625 cada uno. Es la jugada más barata para subir el descuento de un nivel sin bajar el precio.",
+      "Delivery_Ready": true,
+      "In_Tiers": [
+        "Fuera de nivel"
+      ],
+      "Last_Reviewed": "2026-11-18",
+      "Notes": "18-11-2026: baja de 8.000 a 6.500.",
+      "Price_USD": 6500,
+      "Product": "Briefing interno, paquete de cuatro",
+      "Sponsorable": true,
+      "Status": "Vigente",
+      "Unit": "por paquete"
+    },
+    "id": "recZFKXzW1SqFJDTB"
+  },
+  {
+    "createdTime": "2026-11-19T01:13:29.000Z",
+    "fields": {
+      "Delivery_Notes": "Es Market Access Watch, el producto E del plan consolidado. Piloto de tres meses 2.700. Hoy NO hay forma de entregarlo, así que no va en ninguna propuesta.",
+      "In_Tiers": [
+        "Fuera de nivel"
+      ],
+      "Last_Reviewed": "2026-11-18",
+      "Notes": "18-11-2026: sacado de la propuesta a AstraZeneca. Estaba cotizado a 2.500 por mes, casi el triple de los 900 del plan aprobado del 19-10, por haberse copiado sin cruzar contra el plan. Precio de referencia: Inside Health Policy USD 1.005 por año por usuario; RegAlytics USD 18.900. HS a 900 por mes son 10.800 al año.",
+      "Price_USD": 900,
+      "Product": "Monitor de acceso México, boletín privado",
+      "Status": "No ofrecer aún",
+      "Unit": "por mes"
+    },
+    "id": "recju3YX0jWu11zlh"
+  },
+  {
+    "createdTime": "2026-11-19T01:13:29.000Z",
+    "fields": {
+      "Delivery_Notes": "Exclusividad por área terapéutica en Pharma, mención en las doce ediciones del Brief, mención como Founding Partner en el sitio y el media kit, y contacto directo con el editor con revisión trimestral. Máximo cinco posiciones.",
+      "Delivery_Ready": true,
+      "In_Tiers": [
+        "A",
+        "B",
+        "C"
+      ],
+      "Last_Reviewed": "2026-11-18",
+      "Notes": "18-11-2026: baja de 16.000 a 12.000. El banner NO está adentro de esta posición: se cotiza aparte, o es doble conteo.",
+      "Price_USD": 12000,
+      "Product": "Posición de Founding Partner",
+      "Sponsorable": true,
+      "Status": "Vigente",
+      "Unit": "por seis meses"
+    },
+    "id": "recnMA9QCMOhwPHXL"
+  },
+  {
+    "createdTime": "2026-11-19T01:13:29.000Z",
+    "fields": {
+      "Delivery_Notes": "Una o dos entrevistas. Una a dos semanas del tema aprobado al borrador.",
+      "Delivery_Ready": true,
+      "In_Tiers": [
+        "A",
+        "B",
+        "C"
+      ],
+      "Last_Reviewed": "2026-11-18",
+      "Notes": "18-11-2026: baja de 5.000 a 4.000.",
+      "Price_USD": 4000,
+      "Product": "Artículo, 1.100 a 1.650 palabras",
+      "Sponsorable": true,
+      "Status": "Vigente",
+      "Unit": "por artículo"
+    },
+    "id": "recnkKJ2jIQ9TesUP"
+  },
+  {
+    "createdTime": "2026-11-19T01:13:29.000Z",
+    "fields": {
+      "Delivery_Notes": "En Word editable, no publicado. Es el producto de menor costo de entrega del catálogo.",
+      "Delivery_Ready": true,
+      "In_Tiers": [
+        "B",
+        "C"
+      ],
+      "Last_Reviewed": "2026-11-18",
+      "Notes": "18-11-2026: baja de 2.500 a 2.000.",
+      "Price_USD": 2000,
+      "Product": "Briefing interno de 600 a 800 palabras",
+      "Sponsorable": true,
+      "Status": "Vigente",
+      "Unit": "por documento"
+    },
+    "id": "recv0BDhat09XxEvp"
+  }
+]

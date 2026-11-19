@@ -1,0 +1,55 @@
+[
+  {
+    "createdTime": "2026-11-19T01:13:59.000Z",
+    "fields": {
+      "Based_On": "Derivada de la propuesta a AstraZeneca México de nov 2026",
+      "Client": "CLIENTE",
+      "Created": "2026-11-18",
+      "Generator": "claude/generador-propuestas-deck-2026-11-17.md · skill hs-propuesta-comercial",
+      "Language": "Español",
+      "Market": "Sin definir",
+      "Notes": "ES EL MAESTRO: toda propuesta nueva parte de acá, no de la del cliente anterior.\n\nQué hay que cambiar en cada propuesta nueva:\n— Portada: el título plantea el problema del mercado del cliente, no a HealthSignals.\n— Ventana del programa: se recalcula desde la fecha de la propuesta. Default: primer mes completo a seis semanas o más de esa fecha. De ahí dependen el calendario, el período de banner y Founding Partner, y la fecha hasta la que queda firme.\n— Página 3: lo que el cliente solicitó, con sus palabras.\n— Página 4: cobertura reciente de SU mercado y de SU compañía, incluida la desfavorable.\n— Página 2: los ejemplos publicados se eligen por relevancia para su mercado. Es el único bloque que no se puede copiar.\n— Nombre del cliente solo donde la frase es sobre este pedido; en el resto, el patrocinador.\n\nLo que NO se toca: páginas 5, 6 y 11 (sistema de IA, método y anexo), que son cliente-agnósticas y se reusan enteras.",
+      "Proposal": "Plantilla genérica — nov 2026",
+      "Recommended_Tier": "B",
+      "Status": "Maestro vigente",
+      "Tier_A_Final": 22000,
+      "Tier_A_List": 24000,
+      "Tier_B_Final": 48000,
+      "Tier_B_List": 60000,
+      "Tier_C_Final": 65500,
+      "Tier_C_List": 87000,
+      "Type": "Plantilla genérica"
+    },
+    "id": "recY2K0dMRb5rogyo"
+  },
+  {
+    "createdTime": "2026-11-19T01:13:59.000Z",
+    "fields": {
+      "Based_On": "Primera de la serie. Molde: claude/molde-propuesta-economist-impact-2026-11-17.md",
+      "Client": "AstraZeneca México",
+      "Created": "2026-11-18",
+      "Generator": "claude/generador-propuestas-deck-2026-11-17.md · skill hs-propuesta-comercial",
+      "Gmail_Draft_ID": "r6099684194216919773",
+      "Gmail_Thread_ID": "1a1ea71ce27a5289",
+      "Language": "Español",
+      "Market": "México",
+      "Notes": "Respuesta al mail de Ricardo Blanco del 17-11-2026, con copia a Nayma Peralta y a mx-coa01025. Borrador en Gmail SIN ENVIAR al 18-11-2026.\n\nPendientes de decisión de Fer:\n— Qué pasa con la evidencia aportada por el cliente si retira el patrocinio. Hoy la nota se publica sin su nombre pero con sus datos adentro. Cumplimiento lo pide por escrito.\n— La licencia dice \"sin modificarlo\": si su regulación local le exige agregar avisos al reproducir, agregarlos sería incumplir.\n— Retiro del nombre de una pieza ya publicada por razón de cumplimiento.",
+      "Program_End": "2027-06-30",
+      "Program_Start": "2027-01-01",
+      "Proposal": "AstraZeneca México — nov 2026",
+      "Prospect": [
+        "recnyKXbnViVgs871"
+      ],
+      "Recommended_Tier": "B",
+      "Status": "Borrador",
+      "Tier_A_Final": 22000,
+      "Tier_A_List": 24000,
+      "Tier_B_Final": 48000,
+      "Tier_B_List": 60000,
+      "Tier_C_Final": 65500,
+      "Tier_C_List": 87000,
+      "Type": "Cliente"
+    },
+    "id": "recoA0CwGvQrKGCZQ"
+  }
+]

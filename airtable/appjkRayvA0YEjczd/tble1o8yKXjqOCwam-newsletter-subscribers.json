@@ -36,6 +36,21 @@
     "id": "rec1EZe5j0vSa2aHz"
   },
   {
+    "createdTime": "2026-11-18T18:40:17.000Z",
+    "fields": {
+      "CTA Source": "invite-linkedin",
+      "Consent At": "2026-11-18T18:40:17.000Z",
+      "Consent Text": "Clicked Subscribe in personal invitation email from editor@healthsignals.news (invite-2026-11 v1)",
+      "Country": "USA",
+      "Email": "martin.barbeau@bauschhealth.com",
+      "Name": "Martin Barbeau",
+      "Source": "Invite",
+      "Status": "Active",
+      "Subscribe Date": "2026-11-18"
+    },
+    "id": "rec4lhZq8e6Fv1Pk6"
+  },
+  {
     "createdTime": "2026-11-01T00:30:32.000Z",
     "fields": {
       "CTA Source": "invite-test",

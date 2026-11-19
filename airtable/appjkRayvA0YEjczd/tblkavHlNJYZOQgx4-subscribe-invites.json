@@ -82,11 +82,11 @@
       "Gmail_Message_ID": "1a1acfc08f98203a",
       "Language": "es",
       "Name": "Luz Alarcón",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada",
+      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada\n2026-11-18: recordatorio enviado (msg 1a1efe62354c83bf)",
       "Organization": "RPP",
       "Segment": "press",
       "Sent_At": "2026-11-05T18:32:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "rec1S1uEyOe2xpd1a"
   },
@@ -313,11 +313,11 @@
       "Gmail_Message_ID": "1a1acfc572d220cd",
       "Language": "pt",
       "Name": "Isabella França",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada",
+      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada\n2026-11-18: recordatorio enviado (msg 1a1efe627fc20a80)",
       "Organization": "Metrópoles",
       "Segment": "press",
       "Sent_At": "2026-11-05T18:32:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "rec3YEZ4m6DxAsbUO"
   },
@@ -330,11 +330,11 @@
       "Gmail_Message_ID": "1a1acfc7f06589a2",
       "Language": "pt",
       "Name": "Maurício Fogaça",
-      "Notes": "Source: Press & PR Contacts (Agencia PR)\n2026-11-05: invitación enviada",
+      "Notes": "Source: Press & PR Contacts (Agencia PR)\n2026-11-05: invitación enviada\n2026-11-18: recordatorio enviado (msg 1a1efe75dc44b858)",
       "Organization": "JeffreyGroup",
       "Segment": "press",
       "Sent_At": "2026-11-05T18:32:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "rec3Yui0AGHXYoZf4"
   },
@@ -396,13 +396,28 @@
       "Gmail_Message_ID": "1a1acfca14b766ab",
       "Language": "en",
       "Name": "Fiona Cookson",
-      "Notes": "Source: Press & PR Contacts (Pharma media office)\n2026-11-05: invitación enviada",
+      "Notes": "Source: Press & PR Contacts (Pharma media office)\n2026-11-05: invitación enviada\n2026-11-18: recordatorio enviado (msg 1a1efe761be1cdf2)",
       "Organization": "AstraZeneca",
       "Segment": "press",
       "Sent_At": "2026-11-05T18:32:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "rec3y28vO21B89bZy"
+  },
+  {
+    "createdTime": "2026-11-19T02:18:19.000Z",
+    "fields": {
+      "Country": "Argentina",
+      "Email": "apichon@iecs.org.ar",
+      "First_Name": "Andrés",
+      "Language": "es",
+      "Name": "Andrés Pichón-Riviere",
+      "Notes": "2026-11-19: origen barrido inbox editor@ (Voices ya publicada; hilo 22-10 con Silvina Lizzi, IECS). No estaba en Subscribe Invites, CRM ni Press.",
+      "Organization": "IECS",
+      "Segment": "voices",
+      "Status": "Queued"
+    },
+    "id": "rec4MDoHmq3ttMbDf"
   },
   {
     "createdTime": "2026-11-01T01:25:25.000Z",
@@ -413,11 +428,11 @@
       "Gmail_Message_ID": "1a1ad01c24d32160",
       "Language": "en",
       "Name": "Ekaterina Pesheva",
-      "Notes": "Source: Press & PR Contacts (Pharma media office)\n2026-11-05: invitación enviada",
+      "Notes": "Source: Press & PR Contacts (Pharma media office)\n2026-11-05: invitación enviada\n2026-11-19: recordatorio enviado (msg 1a1f50b452f9f88b)",
       "Organization": "Sanofi",
       "Segment": "press",
       "Sent_At": "2026-11-05T18:36:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "rec4NS91iExcndyef"
   },
@@ -489,11 +504,11 @@
       "Gmail_Message_ID": "1a1acfcc2feda177",
       "Language": "en",
       "Name": "Jeffrey Sharlach",
-      "Notes": "Source: Press & PR Contacts (Agencia PR)\n2026-11-05: invitación enviada",
+      "Notes": "Source: Press & PR Contacts (Agencia PR)\n2026-11-05: invitación enviada\n2026-11-18: recordatorio enviado (msg 1a1efe765278d395)",
       "Organization": "JeffreyGroup",
       "Segment": "press",
       "Sent_At": "2026-11-05T18:32:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "rec5EEVxoMKrQUSmf"
   },
@@ -709,11 +724,11 @@
       "Gmail_Message_ID": "1a1acfce67f007f1",
       "Language": "en",
       "Name": "Adam J. Fein",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada",
+      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada\n2026-11-18: recordatorio enviado (msg 1a1efe766befd071)",
       "Organization": "Drug Channels",
       "Segment": "press",
       "Sent_At": "2026-11-05T18:32:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "rec6q8n6cZcxtfrFm"
   },
@@ -743,13 +758,26 @@
       "Gmail_Message_ID": "1a1acfd2540de234",
       "Language": "en",
       "Name": "Peter Wehrwein",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada",
+      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada\n2026-11-18: recordatorio enviado (msg 1a1efe76bf2a4868)",
       "Organization": "Managed Healthcare Executive",
       "Segment": "press",
       "Sent_At": "2026-11-05T18:32:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "rec723XrtWvL82nZV"
+  },
+  {
+    "createdTime": "2026-11-19T02:18:19.000Z",
+    "fields": {
+      "Country": "Chile",
+      "Email": "prichter@ciq.uchile.cl",
+      "Language": "es",
+      "Notes": "2026-11-19: origen barrido inbox editor@ (en copia en hilo 28-10 con Mario Rivera). Nombre no confirmado: saludo generico. No estaba en Subscribe Invites, CRM ni Press.",
+      "Organization": "Universidad de Chile",
+      "Segment": "crm",
+      "Status": "Queued"
+    },
+    "id": "rec79P85W7cN4Wexs"
   },
   {
     "createdTime": "2026-11-01T01:23:00.000Z",
@@ -790,11 +818,11 @@
       "Gmail_Message_ID": "1a1acfd46342a0ca",
       "Language": "en",
       "Name": "Victor Rouault",
-      "Notes": "Source: Press & PR Contacts (Pharma media office)\n2026-11-05: invitación enviada",
+      "Notes": "Source: Press & PR Contacts (Pharma media office)\n2026-11-05: invitación enviada\n2026-11-18: recordatorio enviado (msg 1a1efe76f355260a)",
       "Organization": "Sanofi",
       "Segment": "press",
       "Sent_At": "2026-11-05T18:32:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "rec7pYniM2k8lYiCs"
   },
@@ -807,11 +835,11 @@
       "Gmail_Message_ID": "1a1acfd685be6803",
       "Language": "en",
       "Name": "Lauren Gardner",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada",
+      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada\n2026-11-18: recordatorio enviado (msg 1a1efe77220822d2)",
       "Organization": "Politico — Prescription Pulse",
       "Segment": "press",
       "Sent_At": "2026-11-05T18:32:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "rec8C3emcRQhBwsMI"
   },
@@ -1159,11 +1187,11 @@
       "Gmail_Message_ID": "1a1acfd9169cc99e",
       "Language": "pt",
       "Name": "Vilhena Soares",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada",
+      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada\n2026-11-19: recordatorio enviado (msg 1a1f50a5d5519b2a)",
       "Organization": "JOTA",
       "Segment": "press",
       "Sent_At": "2026-11-05T18:32:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "recBNBoe22ZKH1fxU"
   },
@@ -1228,12 +1256,14 @@
       "Country": "LATAM",
       "Email": "avalenc4@its.jnj.com",
       "First_Name": "Atanacio",
+      "Gmail_Message_ID": "1a1eac12a96ab33d",
       "Language": "es",
       "Name": "Atanacio Valencia Mendoza",
-      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08",
+      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-17: invitación enviada (registrada 2026-11-18: la corrida del 17 envió pero no actualizó Airtable; verificado en Enviados, hilo 1a1eac12a96ab33d).",
       "Organization": "Johnson & Johnson",
       "Segment": "linkedin",
-      "Status": "Queued"
+      "Sent_At": "2026-11-17T18:24:00.000Z",
+      "Status": "Sent"
     },
     "id": "recCEUrClSTnJQbwt"
   },
@@ -1271,12 +1301,14 @@
       "Country": "USA",
       "Email": "santiago.m.joaquin@gsk.com",
       "First_Name": "Santiago",
+      "Gmail_Message_ID": "1a1eac12d80603ab",
       "Language": "en",
       "Name": "Santiago Joaquin",
-      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08",
+      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-17: invitación enviada (registrada 2026-11-18: la corrida del 17 envió pero no actualizó Airtable; verificado en Enviados, hilo 1a1eac12d80603ab).",
       "Organization": "GSK",
       "Segment": "linkedin",
-      "Status": "Queued"
+      "Sent_At": "2026-11-17T18:24:00.000Z",
+      "Status": "Sent"
     },
     "id": "recCPEs0EUwoWZLmH"
   },
@@ -1457,12 +1489,14 @@
       "Country": "Global",
       "Email": "eleonora.e.leone@gsk.com",
       "First_Name": "Eleonora",
+      "Gmail_Message_ID": "1a1eac12f61a0f6c",
       "Language": "en",
       "Name": "Eleonora Leone",
-      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08",
+      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-17: invitación enviada (registrada 2026-11-18: la corrida del 17 envió pero no actualizó Airtable; verificado en Enviados, hilo 1a1eac12f61a0f6c).",
       "Organization": "GSK",
       "Segment": "linkedin",
-      "Status": "Queued"
+      "Sent_At": "2026-11-17T18:24:00.000Z",
+      "Status": "Sent"
     },
     "id": "recEnwFgeSBY2KU51"
   },
@@ -1475,11 +1509,11 @@
       "Gmail_Message_ID": "1a1acf6bd0b6c5bb",
       "Language": "es",
       "Name": "Marianne Mathieu",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada",
+      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada\n2026-11-17: recordatorio enviado (registrado 2026-11-18: la corrida del 17 envió pero no actualizó Airtable; verificado en Enviados, msg 1a1eabdb4fe92e81).",
       "Organization": "The Clinic",
       "Segment": "press",
       "Sent_At": "2026-11-05T18:25:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "recEqvG35MUZSbI4n"
   },
@@ -1492,11 +1526,11 @@
       "Gmail_Message_ID": "1a1acf78ea8614c9",
       "Language": "es",
       "Name": "Silvia Stang",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada",
+      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada\n2026-11-17: recordatorio enviado (registrado 2026-11-18: la corrida del 17 envió pero no actualizó Airtable; verificado en Enviados, msg 1a1eabf8ef134e1f).",
       "Organization": "La Nación (Argentina)",
       "Segment": "press",
       "Sent_At": "2026-11-05T18:28:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "recEsvuOX5fyE7Ikv"
   },
@@ -1627,12 +1661,14 @@
       "Country": "LATAM",
       "Email": "salvador.ledon@gehealthcare.com",
       "First_Name": "Salvador",
+      "Gmail_Message_ID": "1a1eac13345f0bcf",
       "Language": "es",
       "Name": "Salvador Ledon Macias",
-      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08",
+      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-17: invitación enviada (registrada 2026-11-18: la corrida del 17 envió pero no actualizó Airtable; verificado en Enviados, hilo 1a1eac13345f0bcf).",
       "Organization": "GE HealthCare",
       "Segment": "linkedin",
-      "Status": "Queued"
+      "Sent_At": "2026-11-17T18:24:00.000Z",
+      "Status": "Sent"
     },
     "id": "recGCIvVoXfRmzA6V"
   },
@@ -1692,11 +1728,11 @@
       "Gmail_Message_ID": "1a1acfdfec1b5d87",
       "Language": "es",
       "Name": "Octavio Amador",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada",
+      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada\n2026-11-19: recordatorio enviado (msg 1a1f50b2fd04d9bc)",
       "Organization": "El Economista (México)",
       "Segment": "press",
       "Sent_At": "2026-11-05T18:32:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "recGXN8rTBC2UMwo2"
   },
@@ -1738,11 +1774,11 @@
       "Gmail_Message_ID": "1a1ad01eb4b0d93a",
       "Language": "es",
       "Name": "Bárbara Haas",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada",
+      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada\n2026-11-19: recordatorio enviado (msg 1a1f50b48e27f7f4)",
       "Organization": "BioBioChile",
       "Segment": "press",
       "Sent_At": "2026-11-05T18:36:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "recH5sE9ZSSFUKiSl"
   },
@@ -1770,11 +1806,11 @@
       "Gmail_Message_ID": "1a1acfe2748812ef",
       "Language": "es",
       "Name": "Francisco Jueguen",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada",
+      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada\n2026-11-19: recordatorio enviado (msg 1a1f50b355f45fee)",
       "Organization": "La Nación (Argentina)",
       "Segment": "press",
       "Sent_At": "2026-11-05T18:32:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "recHHHcSsz4ADGRWN"
   },
@@ -1819,11 +1855,11 @@
       "Gmail_Message_ID": "1a1acfe4f43ef98c",
       "Language": "es",
       "Name": "Omar Ramírez",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada",
+      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada\n2026-11-19: recordatorio enviado (msg 1a1f50b38f8236d6)",
       "Organization": "Alto Nivel",
       "Segment": "press",
       "Sent_At": "2026-11-05T18:32:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "recHjKlgznj5GmV1k"
   },
@@ -1836,11 +1872,11 @@
       "Gmail_Message_ID": "1a1ad020d6bdfac3",
       "Language": "en",
       "Name": "Bridget Early",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada",
+      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada\n2026-11-19: recordatorio enviado (msg 1a1f50c19b391d3a)",
       "Organization": "Modern Healthcare",
       "Segment": "press",
       "Sent_At": "2026-11-05T18:36:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "recHsdbYiZj2kwDMd"
   },
@@ -1868,12 +1904,14 @@
       "Country": "LATAM",
       "Email": "sinara.corderon@abbott.com",
       "First_Name": "Sinara",
+      "Gmail_Message_ID": "1a1eac135b78993a",
       "Language": "pt",
       "Name": "Sinara Corderon",
-      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08",
+      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-17: invitación enviada (registrada 2026-11-18: la corrida del 17 envió pero no actualizó Airtable; verificado en Enviados, hilo 1a1eac135b78993a).",
       "Organization": "Abbott",
       "Segment": "linkedin",
-      "Status": "Queued"
+      "Sent_At": "2026-11-17T18:24:00.000Z",
+      "Status": "Sent"
     },
     "id": "recHy2L6pQ6967ULo"
   },
@@ -1883,12 +1921,14 @@
       "Country": "LATAM",
       "Email": "guilherme.queiroz@medtronic.com",
       "First_Name": "Guilherme",
+      "Gmail_Message_ID": "1a1eac1364cb1e13",
       "Language": "pt",
       "Name": "Guilherme Queiroz",
-      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08",
+      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-17: invitación enviada (registrada 2026-11-18: la corrida del 17 envió pero no actualizó Airtable; verificado en Enviados, hilo 1a1eac1364cb1e13). Respondió 2026-11-18 'Thanks. Gui' (hilo 1a1eac1364cb1e13), sin pedido; autorrespuesta fuera de oficina hasta 23-11.",
       "Organization": "Medtronic",
       "Segment": "linkedin",
-      "Status": "Queued"
+      "Sent_At": "2026-11-17T18:24:00.000Z",
+      "Status": "Sent"
     },
     "id": "recHyZg53HcYFMLjs"
   },
@@ -1914,11 +1954,11 @@
       "Gmail_Message_ID": "1a1acfe77aaa19aa",
       "Language": "es",
       "Name": "Karla Zamora",
-      "Notes": "Source: Press & PR Contacts (Agencia PR)\n2026-11-05: invitación enviada",
+      "Notes": "Source: Press & PR Contacts (Agencia PR)\n2026-11-05: invitación enviada\n2026-11-19: recordatorio enviado (msg 1a1f50b3ec609d6c)",
       "Organization": "JeffreyGroup México",
       "Segment": "press",
       "Sent_At": "2026-11-05T18:32:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "recILbzRxkghEjiXt"
   },
@@ -1938,6 +1978,18 @@
       "Status": "Reminded"
     },
     "id": "recINeTHkzAUAY4GL"
+  },
+  {
+    "createdTime": "2026-11-19T02:19:45.000Z",
+    "fields": {
+      "Email": "slevy@iadb.org",
+      "Language": "es",
+      "Notes": "2026-11-19: origen barrido inbox editor@. Nombre y país no confirmados. No estaba en Subscribe Invites, CRM ni Press.",
+      "Organization": "BID (IDB)",
+      "Segment": "crm",
+      "Status": "Queued"
+    },
+    "id": "recISP8SaLhcyVTrm"
   },
   {
     "createdTime": "2026-11-01T01:18:07.000Z",
@@ -2010,13 +2062,26 @@
       "Gmail_Message_ID": "1a1acff89bfdd349",
       "Language": "en",
       "Name": "Kathleen K. Quinn",
-      "Notes": "Source: Press & PR Contacts (Pharma media office)\n2026-11-05: invitación enviada",
+      "Notes": "Source: Press & PR Contacts (Pharma media office)\n2026-11-05: invitación enviada\n2026-11-19: recordatorio enviado (msg 1a1f50c1f0a712ef)",
       "Organization": "GSK",
       "Segment": "press",
       "Sent_At": "2026-11-05T18:36:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "recJ1COpwWvJmqFpv"
+  },
+  {
+    "createdTime": "2026-11-19T02:19:45.000Z",
+    "fields": {
+      "Country": "Ecuador",
+      "Email": "jose.ruales@uisek.edu.ec",
+      "Language": "es",
+      "Notes": "EXCLUDED: pendiente de aprobación de Fer. Hilo activo (respondió a propuesta de entrevista Ecuador). Liberar con Queued cuando cierre el hilo.",
+      "Organization": "Universidad UISEK",
+      "Segment": "crm",
+      "Status": "Excluded"
+    },
+    "id": "recJ5ZyewsmDUalFu"
   },
   {
     "createdTime": "2026-11-01T01:18:07.000Z",
@@ -2054,11 +2119,11 @@
       "Gmail_Message_ID": "1a1acf7b1f2fd9cb",
       "Language": "en",
       "Name": "Natalia Montoya",
-      "Notes": "Source: Press & PR Contacts (Agencia PR)\n2026-11-05: invitación enviada",
+      "Notes": "Source: Press & PR Contacts (Agencia PR)\n2026-11-05: invitación enviada\n2026-11-17: recordatorio enviado (registrado 2026-11-18: la corrida del 17 envió pero no actualizó Airtable; verificado en Enviados, msg 1a1eabf93922c972).",
       "Organization": "JeffreyGroup (HQ Miami)",
       "Segment": "press",
       "Sent_At": "2026-11-05T18:28:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "recJzpeoBLvng4BSR"
   },
@@ -2262,12 +2327,14 @@
       "Country": "Brazil",
       "Email": "hudson.santos@knighttx.com",
       "First_Name": "Hudson",
+      "Gmail_Message_ID": "1a1eac13a48f4465",
       "Language": "pt",
       "Name": "Hudson Santos",
-      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08",
+      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-17: invitación enviada (registrada 2026-11-18: la corrida del 17 envió pero no actualizó Airtable; verificado en Enviados, hilo 1a1eac13a48f4465).",
       "Organization": "Knight Therapeutics",
       "Segment": "linkedin",
-      "Status": "Queued"
+      "Sent_At": "2026-11-17T18:24:00.000Z",
+      "Status": "Sent"
     },
     "id": "recLxEv88hJsEvodi"
   },
@@ -2325,11 +2392,11 @@
       "Gmail_Message_ID": "1a1acffb00000c8f",
       "Language": "pt",
       "Name": "Luis Carlos Franco",
-      "Notes": "Source: Press & PR Contacts (Agencia PR)\n2026-11-05: invitación enviada",
+      "Notes": "Source: Press & PR Contacts (Agencia PR)\n2026-11-05: invitación enviada\n2026-11-19: recordatorio enviado (msg 1a1f50c23b799c14)",
       "Organization": "Ogilvy Brasil (Rio)",
       "Segment": "press",
       "Sent_At": "2026-11-05T18:36:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "recN1QOA1ifPrcze7"
   },
@@ -2371,12 +2438,14 @@
       "Country": "USA",
       "Email": "elsa.koutsavakis@pfizer.com",
       "First_Name": "Elsa",
+      "Gmail_Message_ID": "1a1eac13d461b3f7",
       "Language": "en",
       "Name": "Elsa Koutsavakis",
-      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08",
+      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-17: invitación enviada (registrada 2026-11-18: la corrida del 17 envió pero no actualizó Airtable; verificado en Enviados, hilo 1a1eac13d461b3f7).",
       "Organization": "Pfizer",
       "Segment": "linkedin",
-      "Status": "Queued"
+      "Sent_At": "2026-11-17T18:24:00.000Z",
+      "Status": "Sent"
     },
     "id": "recNwnTbP3RWiS54O"
   },
@@ -2389,11 +2458,11 @@
       "Gmail_Message_ID": "1a1acffd9422cd73",
       "Language": "es",
       "Name": "Margarita García",
-      "Notes": "Source: Press & PR Contacts (Pharma media office)\n2026-11-05: invitación enviada",
+      "Notes": "Source: Press & PR Contacts (Pharma media office)\n2026-11-05: invitación enviada\n2026-11-19: recordatorio enviado (msg 1a1f50c292662e94)",
       "Organization": "Abbott",
       "Segment": "press",
       "Sent_At": "2026-11-05T18:36:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "recO8FuuRrIxtN7K9"
   },
@@ -2417,12 +2486,14 @@
       "Country": "LATAM",
       "Email": "elaine.ferraz@thermofisher.com",
       "First_Name": "Elaine",
+      "Gmail_Message_ID": "1a1eac2a23991b76",
       "Language": "pt",
       "Name": "Elaine Ferraz",
-      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08",
+      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-17: invitación enviada (registrada 2026-11-18: la corrida del 17 envió pero no actualizó Airtable; verificado en Enviados, hilo 1a1eac2a23991b76).",
       "Organization": "Thermo Fisher Scientific",
       "Segment": "linkedin",
-      "Status": "Queued"
+      "Sent_At": "2026-11-17T18:26:00.000Z",
+      "Status": "Sent"
     },
     "id": "recO9kRkfMrjrj994"
   },
@@ -2492,12 +2563,14 @@
       "Country": "Brazil",
       "Email": "denise_bonamici@vrtx.com",
       "First_Name": "Denise",
+      "Gmail_Message_ID": "1a1eac2a65a30666",
       "Language": "pt",
       "Name": "Denise Bonamici",
-      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08",
+      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-17: invitación enviada (registrada 2026-11-18: la corrida del 17 envió pero no actualizó Airtable; verificado en Enviados, hilo 1a1eac2a65a30666).",
       "Organization": "Vertex Pharmaceuticals",
       "Segment": "linkedin",
-      "Status": "Queued"
+      "Sent_At": "2026-11-17T18:26:00.000Z",
+      "Status": "Sent"
     },
     "id": "recPBU7OgWpCeLQmh"
   },
@@ -2568,12 +2641,14 @@
       "Country": "LATAM",
       "Email": "alejandra.loureiro@bms.com",
       "First_Name": "Alejandra",
+      "Gmail_Message_ID": "1a1eac2a9e3679fc",
       "Language": "es",
       "Name": "Alejandra Loureiro",
-      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08",
+      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-17: invitación enviada (registrada 2026-11-18: la corrida del 17 envió pero no actualizó Airtable; verificado en Enviados, hilo 1a1eac2a9e3679fc).",
       "Organization": "Bristol Myers Squibb",
       "Segment": "linkedin",
-      "Status": "Queued"
+      "Sent_At": "2026-11-17T18:26:00.000Z",
+      "Status": "Sent"
     },
     "id": "recPdnBL7g6A23rrI"
   },
@@ -2616,11 +2691,11 @@
       "Gmail_Message_ID": "1a1ad002214b942d",
       "Language": "en",
       "Name": "Michael Erman",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada",
+      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada\n2026-11-19: recordatorio enviado (msg 1a1f50c2ddae70b1)",
       "Organization": "Reuters",
       "Segment": "press",
       "Sent_At": "2026-11-05T18:36:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "recPvJaiNPAOcoy5t"
   },
@@ -2650,11 +2725,11 @@
       "Gmail_Message_ID": "1a1acf7d9e6d1afa",
       "Language": "es",
       "Name": "Melissa Rodríguez Enciso",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada",
+      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada\n2026-11-17: recordatorio enviado (registrado 2026-11-18: la corrida del 17 envió pero no actualizó Airtable; verificado en Enviados, msg 1a1eabf978b62520).",
       "Organization": "El Comercio (Perú)",
       "Segment": "press",
       "Sent_At": "2026-11-05T18:28:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "recQ6b46CJMqYbu0T"
   },
@@ -2778,11 +2853,11 @@
       "Gmail_Message_ID": "1a1acf827bfafd50",
       "Language": "pt",
       "Name": "Ana Domingues",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada",
+      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada\n2026-11-17: recordatorio enviado (registrado 2026-11-18: la corrida del 17 envió pero no actualizó Airtable; verificado en Enviados, msg 1a1eabf9a45f6767).",
       "Organization": "Saúde Business",
       "Segment": "press",
       "Sent_At": "2026-11-05T18:28:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "recRxDC66xplukZxT"
   },
@@ -2890,11 +2965,11 @@
       "Gmail_Message_ID": "1a1acf84eafed7ec",
       "Language": "es",
       "Name": "José Carlos Reyes Leyva",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada",
+      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada\n2026-11-17: recordatorio enviado (registrado 2026-11-18: la corrida del 17 envió pero no actualizó Airtable; verificado en Enviados, msg 1a1eabf9cf47479f).",
       "Organization": "Gestión",
       "Segment": "press",
       "Sent_At": "2026-11-05T18:28:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "recT85h4Si8qwWkFk"
   },
@@ -2907,11 +2982,11 @@
       "Gmail_Message_ID": "1a1ad006ca34ffb3",
       "Language": "en",
       "Name": "Tina Reed",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada",
+      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada\n2026-11-19: recordatorio enviado (msg 1a1f50c334c1cc48)",
       "Organization": "Axios",
       "Segment": "press",
       "Sent_At": "2026-11-05T18:36:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "recTCkUOwli5cQbSr"
   },
@@ -2997,12 +3072,14 @@
     "fields": {
       "Country": "Brasil",
       "Email": "institucional@unidas.org.br",
+      "Gmail_Message_ID": "1a1efecf18baf61f",
       "Language": "pt",
       "Name": "UNIDAS (institucional)",
-      "Notes": "Source: gmail-2026-11-01; CC in UNIDAS thread; generic inbox",
+      "Notes": "Source: gmail-2026-11-01; CC in UNIDAS thread; generic inbox\n2026-11-18: invitación enviada",
       "Organization": "UNIDAS",
       "Segment": "events",
-      "Status": "Queued"
+      "Sent_At": "2026-11-18T18:30:00.000Z",
+      "Status": "Sent"
     },
     "id": "recU6Um2S718cHTAY"
   },
@@ -3039,12 +3116,14 @@
       "Country": "LATAM",
       "Email": "juan.valencia-zapata@medtronic.com",
       "First_Name": "Juan",
+      "Gmail_Message_ID": "1a1eac2aa0eddd77",
       "Language": "es",
       "Name": "Juan E. Valencia-Zapata",
-      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08",
+      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-17: invitación enviada (registrada 2026-11-18: la corrida del 17 envió pero no actualizó Airtable; verificado en Enviados, hilo 1a1eac2aa0eddd77).",
       "Organization": "Medtronic",
       "Segment": "linkedin",
-      "Status": "Queued"
+      "Sent_At": "2026-11-17T18:26:00.000Z",
+      "Status": "Sent"
     },
     "id": "recUKoVxBIDSq8xB0"
   },
@@ -3132,11 +3211,11 @@
       "Gmail_Message_ID": "1a1acf877b49a77c",
       "Language": "es",
       "Name": "Irene Hartmann",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada\n2026-11-06: respondió positivo ('Buenísimo, Fernando. Un gusto!') desde Ihartmann@agea.com.ar. No hizo clic; no está en Brevo al 08/11. Firma: tel +54 9 11 5920 8040.\n2026-11-12: sin recordatorio automático: Fer ya le respondió en persona el 09-11 en el hilo",
+      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada\n2026-11-06: respondió positivo ('Buenísimo, Fernando. Un gusto!') desde Ihartmann@agea.com.ar. No hizo clic; no está en Brevo al 08/11. Firma: tel +54 9 11 5920 8040.\n2026-11-12: sin recordatorio automático: Fer ya le respondió en persona el 09-11 en el hilo\n2026-11-19: recordatorio enviado (msg 1a1f50a597f0c73a) — ERROR de la corrida: la nota del 12-11 decía no recordar (Fer ya le respondió en persona) pero la fila seguía en Sent; se envió igual. Avisado a Fer.",
       "Organization": "Clarín",
       "Segment": "press",
       "Sent_At": "2026-11-05T18:28:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "recVBYA8NKqQYqtI9"
   },
@@ -3199,11 +3278,11 @@
       "Gmail_Message_ID": "1a1acf1d016fca8d",
       "Language": "pt",
       "Name": "Paulo Piratininga",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada\n2026-11-05: respondió; copió a la editora Adriana Bruno (adriana@panoramafarmaceutico.com.br) y a Leandro Luize (leandro@scritta.com.br). Leandro se suscribió 06/11 (Active). Paulo propone compartir contenidos.\n2026-11-12: sin recordatorio automático: Fer ya le respondió en persona el 09-11 en el hilo",
+      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada\n2026-11-05: respondió; copió a la editora Adriana Bruno (adriana@panoramafarmaceutico.com.br) y a Leandro Luize (leandro@scritta.com.br). Leandro se suscribió 06/11 (Active). Paulo propone compartir contenidos.\n2026-11-12: sin recordatorio automático: Fer ya le respondió en persona el 09-11 en el hilo\n2026-11-19: recordatorio enviado (msg 1a1f50a5035f07f7) — ERROR de la corrida: la nota del 12-11 decía no recordar (Fer ya le respondió en persona) pero la fila seguía en Sent; se envió igual. Avisado a Fer.",
       "Organization": "Panorama Farmacêutico",
       "Segment": "press",
       "Sent_At": "2026-11-05T18:21:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "recVjZZuODXqy4Wj5"
   },
@@ -3249,6 +3328,19 @@
       "Status": "Queued"
     },
     "id": "recWfmYs0lF43BT43"
+  },
+  {
+    "createdTime": "2026-11-19T02:18:19.000Z",
+    "fields": {
+      "Country": "Chile",
+      "Email": "dburgos@uchile.cl",
+      "Language": "es",
+      "Notes": "2026-11-19: origen barrido inbox editor@ (en copia en hilo 28-10 con Mario Rivera). Nombre no confirmado: saludo generico. No estaba en Subscribe Invites, CRM ni Press.",
+      "Organization": "Universidad de Chile",
+      "Segment": "crm",
+      "Status": "Queued"
+    },
+    "id": "recWhn9CsDvq7H1Re"
   },
   {
     "createdTime": "2026-11-01T01:32:43.000Z",
@@ -3305,11 +3397,11 @@
       "Gmail_Message_ID": "1a1acf89f6bff611",
       "Language": "es",
       "Name": "Amanda Berenstein",
-      "Notes": "Source: Press & PR Contacts (Agencia PR)\n2026-11-05: invitación enviada",
+      "Notes": "Source: Press & PR Contacts (Agencia PR)\n2026-11-05: invitación enviada\n2026-11-17: recordatorio enviado (registrado 2026-11-18: la corrida del 17 envió pero no actualizó Airtable; verificado en Enviados, msg 1a1eabfa0e690b6f). 2026-11-17: autorrespuesta (Omnicom, acceso limitado), sin acción.",
       "Organization": "Weber Shandwick Mexico City",
       "Segment": "press",
       "Sent_At": "2026-11-05T18:28:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "recXTDJliJP6U66AJ"
   },
@@ -3346,17 +3438,31 @@
     "id": "recXiPhvoHSTykREG"
   },
   {
+    "createdTime": "2026-11-19T02:19:45.000Z",
+    "fields": {
+      "Email": "amandajoy.berenstein@omc.com",
+      "Language": "en",
+      "Notes": "EXCLUDED: pendiente de aprobación de Fer. Contacto de agencia con hilo activo; no invitar sin visto bueno.",
+      "Organization": "Omnicom (agencia)",
+      "Segment": "generic",
+      "Status": "Excluded"
+    },
+    "id": "recXmib6S24B3QwHq"
+  },
+  {
     "createdTime": "2026-11-09T02:08:37.000Z",
     "fields": {
       "Country": "Global",
       "Email": "kkul@novonordisk.com",
       "First_Name": "Kristjan",
+      "Gmail_Message_ID": "1a1eac2aeb38fa00",
       "Language": "en",
       "Name": "Kristjan Kull",
-      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08",
+      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-17: invitación enviada (registrada 2026-11-18: la corrida del 17 envió pero no actualizó Airtable; verificado en Enviados, hilo 1a1eac2aeb38fa00).",
       "Organization": "Novo Nordisk",
       "Segment": "linkedin",
-      "Status": "Queued"
+      "Sent_At": "2026-11-17T18:26:00.000Z",
+      "Status": "Sent"
     },
     "id": "recXoFAJi5cgvEkmP"
   },
@@ -3369,11 +3475,11 @@
       "Gmail_Message_ID": "1a1acf8c1deed6ab",
       "Language": "en",
       "Name": "Oliver Renner",
-      "Notes": "Source: Press & PR Contacts (Pharma media office)\n2026-11-05: invitación enviada",
+      "Notes": "Source: Press & PR Contacts (Pharma media office)\n2026-11-05: invitación enviada\n2026-11-17: recordatorio enviado (registrado 2026-11-18: la corrida del 17 envió pero no actualizó Airtable; verificado en Enviados, msg 1a1eabfa3e20139d).",
       "Organization": "Bayer",
       "Segment": "press",
       "Sent_At": "2026-11-05T18:28:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "recXqk6wo8MxT8Y5F"
   },
@@ -3396,12 +3502,14 @@
       "Country": "Global",
       "Email": "ana.petry@viatris.com",
       "First_Name": "Ana Luiza",
+      "Gmail_Message_ID": "1a1eac2b02d8439b",
       "Language": "pt",
       "Name": "Ana Luiza Petry",
-      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08",
+      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-17: invitación enviada (registrada 2026-11-18: la corrida del 17 envió pero no actualizó Airtable; verificado en Enviados, hilo 1a1eac2b02d8439b).",
       "Organization": "Viatris",
       "Segment": "linkedin",
-      "Status": "Queued"
+      "Sent_At": "2026-11-17T18:26:00.000Z",
+      "Status": "Sent"
     },
     "id": "recY5BGmU2SrtCWiT"
   },
@@ -3411,12 +3519,14 @@
       "Country": "Brazil",
       "Email": "fernanda.gimenes@adium.com.br",
       "First_Name": "Fernanda",
+      "Gmail_Message_ID": "1a1eac2b3c29b058",
       "Language": "pt",
       "Name": "Fernanda Gimenes",
-      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08",
+      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-17: invitación enviada (registrada 2026-11-18: la corrida del 17 envió pero no actualizó Airtable; verificado en Enviados, hilo 1a1eac2b3c29b058).",
       "Organization": "Adium Brasil",
       "Segment": "linkedin",
-      "Status": "Queued"
+      "Sent_At": "2026-11-17T18:26:00.000Z",
+      "Status": "Sent"
     },
     "id": "recY8wYGlJXSVRhl3"
   },
@@ -3500,16 +3610,33 @@
     "id": "recYvYa9jhUdpvvRb"
   },
   {
+    "createdTime": "2026-11-19T02:18:19.000Z",
+    "fields": {
+      "Country": "Chile",
+      "Email": "antonio.morris@ciq.uchile.cl",
+      "First_Name": "Antonio",
+      "Language": "es",
+      "Name": "Antonio Morris",
+      "Notes": "2026-11-19: origen barrido inbox editor@ (en copia en hilo 28-10 con Mario Rivera, ya suscripto). No estaba en Subscribe Invites, CRM ni Press.",
+      "Organization": "Universidad de Chile",
+      "Segment": "crm",
+      "Status": "Queued"
+    },
+    "id": "recYzmGIyZGDhu9JY"
+  },
+  {
     "createdTime": "2026-11-01T21:51:34.000Z",
     "fields": {
       "Country": "Brasil",
       "Email": "rose@unidas.org.br",
+      "Gmail_Message_ID": "1a1efecf316393fb",
       "Language": "pt",
       "Name": "Rose (UNIDAS)",
-      "Notes": "Source: gmail-2026-11-01; CC in UNIDAS thread; first name only from address, left blank",
+      "Notes": "Source: gmail-2026-11-01; CC in UNIDAS thread; first name only from address, left blank\n2026-11-18: invitación enviada",
       "Organization": "UNIDAS",
       "Segment": "events",
-      "Status": "Queued"
+      "Sent_At": "2026-11-18T18:30:00.000Z",
+      "Status": "Sent"
     },
     "id": "recZT1LVzzHDSd6QA"
   },
@@ -3680,6 +3807,19 @@
     "id": "reca75RvLldnwGlON"
   },
   {
+    "createdTime": "2026-11-19T02:19:45.000Z",
+    "fields": {
+      "Email": "andres.vecino@gmail.com",
+      "First_Name": "Andrés",
+      "Language": "es",
+      "Name": "Andrés Vecino-Ortiz",
+      "Notes": "2026-11-19: origen barrido inbox editor@ (aceptó Voices, respuesta 8-nov). Gmail personal usado en el hilo. No estaba en Subscribe Invites, CRM ni Press.",
+      "Segment": "voices",
+      "Status": "Queued"
+    },
+    "id": "recaRU5wr189B03Rk"
+  },
+  {
     "createdTime": "2026-11-01T01:30:39.000Z",
     "fields": {
       "Country": "USA",
@@ -3794,12 +3934,14 @@
       "Country": "Brazil",
       "Email": "leandro.madeira@dsbr.com.br",
       "First_Name": "Leandro",
+      "Gmail_Message_ID": "1a1eac2b50e2fd25",
       "Language": "pt",
       "Name": "Leandro Madeira",
-      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08",
+      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-17: invitación enviada (registrada 2026-11-18: la corrida del 17 envió pero no actualizó Airtable; verificado en Enviados, hilo 1a1eac2b50e2fd25).",
       "Organization": "Daiichi Sankyo Brasil",
       "Segment": "linkedin",
-      "Status": "Queued"
+      "Sent_At": "2026-11-17T18:26:00.000Z",
+      "Status": "Sent"
     },
     "id": "recbOodyxLzvBwA2l"
   },
@@ -3918,12 +4060,14 @@
       "Country": "LATAM",
       "Email": "paulina.rensolimeana@roche.com",
       "First_Name": "Paulina",
+      "Gmail_Message_ID": "1a1efe91fabeb536",
       "Language": "es",
       "Name": "Paulina Rensoli Meana",
-      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08",
+      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-18: invitación enviada",
       "Organization": "Roche",
       "Segment": "linkedin",
-      "Status": "Queued"
+      "Sent_At": "2026-11-18T18:26:00.000Z",
+      "Status": "Sent"
     },
     "id": "reccF6ZeSwOJ2U3LK"
   },
@@ -3983,12 +4127,14 @@
       "Country": "LATAM",
       "Email": "christina.fabbro@abbott.com",
       "First_Name": "Christina",
+      "Gmail_Message_ID": "1a1efe9206599cbd",
       "Language": "es",
       "Name": "Christina Fabbro",
-      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08",
+      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-18: invitación enviada",
       "Organization": "Abbott",
       "Segment": "linkedin",
-      "Status": "Queued"
+      "Sent_At": "2026-11-18T18:26:00.000Z",
+      "Status": "Sent"
     },
     "id": "reccdpI7zyOyCCasQ"
   },
@@ -4061,12 +4207,14 @@
       "Country": "LATAM",
       "Email": "romina.fazio@latinaba.com",
       "First_Name": "Romina",
+      "Gmail_Message_ID": "1a1efe924c375e47",
       "Language": "es",
       "Name": "Romina Fazio Forte",
-      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08",
+      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-18: invitación enviada",
       "Organization": "LATINABA",
       "Segment": "linkedin",
-      "Status": "Queued"
+      "Sent_At": "2026-11-18T18:26:00.000Z",
+      "Status": "Sent"
     },
     "id": "recdBmqFlu792bwqL"
   },
@@ -4114,11 +4262,11 @@
       "Gmail_Message_ID": "1a1acf8e6569071b",
       "Language": "pt",
       "Name": "Victória Ribeiro",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada",
+      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada\n2026-11-17: recordatorio enviado (registrado 2026-11-18: la corrida del 17 envió pero no actualizó Airtable; verificado en Enviados, msg 1a1eabfa81e9de19).",
       "Organization": "O Estado de S. Paulo (Pulsa)",
       "Segment": "press",
       "Sent_At": "2026-11-05T18:28:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "recdh4dFPn9ULj4OM"
   },
@@ -4365,11 +4513,11 @@
       "Gmail_Message_ID": "1a1acf91daa3efa9",
       "Language": "en",
       "Name": "Tim Gilbert",
-      "Notes": "Source: Press & PR Contacts (Pharma media office)\n2026-11-05: invitación enviada",
+      "Notes": "Source: Press & PR Contacts (Pharma media office)\n2026-11-05: invitación enviada\n2026-11-17: recordatorio enviado (registrado 2026-11-18: la corrida del 17 envió pero no actualizó Airtable; verificado en Enviados, msg 1a1eabfadfa9a134).",
       "Organization": "Sanofi",
       "Segment": "press",
       "Sent_At": "2026-11-05T18:28:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "rechGWxX3NSJj58dH"
   },
@@ -4379,12 +4527,14 @@
       "Country": "USA",
       "Email": "lindsey.brylow@astrazeneca.com",
       "First_Name": "Lindsey",
+      "Gmail_Message_ID": "1a1efe9264df8b6d",
       "Language": "en",
       "Name": "Lindsey Brylow",
-      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08",
+      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-18: invitación enviada",
       "Organization": "AstraZeneca",
       "Segment": "linkedin",
-      "Status": "Queued"
+      "Sent_At": "2026-11-18T18:26:00.000Z",
+      "Status": "Sent"
     },
     "id": "rechSJpzoQNwGHUOb"
   },
@@ -4427,11 +4577,11 @@
       "Gmail_Message_ID": "1a1acf94258e31d4",
       "Language": "es",
       "Name": "Karen Guardia Quispe",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada",
+      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada\n2026-11-17: recordatorio enviado (registrado 2026-11-18: la corrida del 17 envió pero no actualizó Airtable; verificado en Enviados, msg 1a1eabfb0da5ad57).",
       "Organization": "Gestión",
       "Segment": "press",
       "Sent_At": "2026-11-05T18:28:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "rechXcx1CKqJ3wbJj"
   },
@@ -4531,12 +4681,14 @@
       "Country": "USA",
       "Email": "karina.mendez@boehringer-ingelheim.com",
       "First_Name": "Karina",
+      "Gmail_Message_ID": "1a1efe9290208f58",
       "Language": "es",
       "Name": "Karina Mendez",
-      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08",
+      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-18: invitación enviada",
       "Organization": "Boehringer Ingelheim",
       "Segment": "linkedin",
-      "Status": "Queued"
+      "Sent_At": "2026-11-18T18:26:00.000Z",
+      "Status": "Sent"
     },
     "id": "recie5rhmS4slFMCT"
   },
@@ -4563,12 +4715,14 @@
       "Country": "Global",
       "Email": "anmol.mazariegos@dreambighealth.com",
       "First_Name": "Anmol",
+      "Gmail_Message_ID": "1a1efe92cf27c3ab",
       "Language": "en",
       "Name": "Anmol Mazariegos",
-      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08",
+      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-18: invitación enviada",
       "Organization": "Dream Big Health",
       "Segment": "linkedin",
-      "Status": "Queued"
+      "Sent_At": "2026-11-18T18:26:00.000Z",
+      "Status": "Sent"
     },
     "id": "reciphOdb4Q5yDLNn"
   },
@@ -4691,11 +4845,11 @@
       "Gmail_Message_ID": "1a1acf96a9af98fe",
       "Language": "es",
       "Name": "Edwin Caicedo",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada",
+      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada\n2026-11-17: recordatorio enviado (registrado 2026-11-18: la corrida del 17 envió pero no actualizó Airtable; verificado en Enviados, msg 1a1eabfb483dcc9b).",
       "Organization": "El Tiempo",
       "Segment": "press",
       "Sent_At": "2026-11-05T18:28:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "recjUV8b3G469felV"
   },
@@ -4705,12 +4859,14 @@
       "Country": "USA",
       "Email": "ricardo.tapia@msd.com",
       "First_Name": "Ricardo",
+      "Gmail_Message_ID": "1a1efe92e574ee6b",
       "Language": "en",
       "Name": "Ricardo Tapia",
-      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08",
+      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-18: invitación enviada",
       "Organization": "MSD",
       "Segment": "linkedin",
-      "Status": "Queued"
+      "Sent_At": "2026-11-18T18:26:00.000Z",
+      "Status": "Sent"
     },
     "id": "recjeZp2oAxdQZ9Ls"
   },
@@ -4785,12 +4941,14 @@
       "Country": "Brazil",
       "Email": "jaime.oliveira@sanofi.com",
       "First_Name": "Jaime",
+      "Gmail_Message_ID": "1a1efe933d645172",
       "Language": "pt",
       "Name": "Jaime César M. Oliveira",
-      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08",
+      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-18: invitación enviada",
       "Organization": "Sanofi",
       "Segment": "linkedin",
-      "Status": "Queued"
+      "Sent_At": "2026-11-18T18:26:00.000Z",
+      "Status": "Sent"
     },
     "id": "reckWOJlQyfGVo301"
   },
@@ -4904,14 +5062,29 @@
       "Country": "LATAM",
       "Email": "karen.strandgaard@bd.com",
       "First_Name": "Karen",
+      "Gmail_Message_ID": "1a1efeaef16d543a",
       "Language": "en",
       "Name": "Karen Strandgaard",
-      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08",
+      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-18: invitación enviada",
       "Organization": "BD",
       "Segment": "linkedin",
-      "Status": "Queued"
+      "Sent_At": "2026-11-18T18:28:00.000Z",
+      "Status": "Sent"
     },
     "id": "recm3l28dKiY4Na2K"
+  },
+  {
+    "createdTime": "2026-11-19T02:19:45.000Z",
+    "fields": {
+      "Country": "Chile",
+      "Email": "ccortez@lyd.org",
+      "Language": "es",
+      "Notes": "2026-11-19: origen barrido inbox editor@. Nombre no confirmado. No estaba en Subscribe Invites, CRM ni Press.",
+      "Organization": "Libertad y Desarrollo",
+      "Segment": "crm",
+      "Status": "Queued"
+    },
+    "id": "recm4IAlCz7kP0FGM"
   },
   {
     "createdTime": "2026-11-09T02:08:37.000Z",
@@ -4919,12 +5092,14 @@
       "Country": "Brazil",
       "Email": "adalton.ribeiro@adium.com.br",
       "First_Name": "Adalton",
+      "Gmail_Message_ID": "1a1efeaf056e4025",
       "Language": "pt",
       "Name": "Adalton Ribeiro",
-      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08",
+      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-18: invitación enviada",
       "Organization": "Adium Brasil",
       "Segment": "linkedin",
-      "Status": "Queued"
+      "Sent_At": "2026-11-18T18:28:00.000Z",
+      "Status": "Sent"
     },
     "id": "recm6DDsDPVm7jCJm"
   },
@@ -4949,12 +5124,14 @@
       "Country": "Global",
       "Email": "arly.belas@thermofisher.com",
       "First_Name": "Arly",
+      "Gmail_Message_ID": "1a1efeaf21734a43",
       "Language": "en",
       "Name": "Arly Belas",
-      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08",
+      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-18: invitación enviada",
       "Organization": "Thermo Fisher Scientific",
       "Segment": "linkedin",
-      "Status": "Queued"
+      "Sent_At": "2026-11-18T18:28:00.000Z",
+      "Status": "Sent"
     },
     "id": "recmUj1VILuOHZtba"
   },
@@ -4964,12 +5141,14 @@
       "Country": "Global",
       "Email": "fabio.antoneli@abbott.com",
       "First_Name": "Fabio",
+      "Gmail_Message_ID": "1a1efeaf71a93074",
       "Language": "pt",
       "Name": "Fabio Antoneli",
-      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08",
+      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-18: invitación enviada",
       "Organization": "Abbott",
       "Segment": "linkedin",
-      "Status": "Queued"
+      "Sent_At": "2026-11-18T18:28:00.000Z",
+      "Status": "Sent"
     },
     "id": "recmVgBNxT288vBZZ"
   },
@@ -5047,12 +5226,14 @@
       "Country": "LATAM",
       "Email": "frederic.clement@gehealthcare.com",
       "First_Name": "Frederic",
+      "Gmail_Message_ID": "1a1efeaf85ba0c1e",
       "Language": "en",
       "Name": "Frederic Clement",
-      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08",
+      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-18: invitación enviada",
       "Organization": "GE HealthCare",
       "Segment": "linkedin",
-      "Status": "Queued"
+      "Sent_At": "2026-11-18T18:28:00.000Z",
+      "Status": "Sent"
     },
     "id": "recn6HDdi1rkzyCXH"
   },
@@ -5111,12 +5292,14 @@
       "Country": "LATAM",
       "Email": "diana.quintanilla@gehealthcare.com",
       "First_Name": "Diana",
+      "Gmail_Message_ID": "1a1efeafa3669791",
       "Language": "es",
       "Name": "Diana Quintanilla",
-      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08",
+      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-18: invitación enviada",
       "Organization": "GE HealthCare",
       "Segment": "linkedin",
-      "Status": "Queued"
+      "Sent_At": "2026-11-18T18:28:00.000Z",
+      "Status": "Sent"
     },
     "id": "recnZfwuv384naFph"
   },
@@ -5126,27 +5309,32 @@
       "Country": "USA",
       "Email": "zwessler@amgen.com",
       "First_Name": "Zac",
+      "Gmail_Message_ID": "1a1efeaffddc8592",
       "Language": "en",
       "Name": "Zac Wessler",
-      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08",
+      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-18: invitación enviada",
       "Organization": "Amgen",
       "Segment": "linkedin",
-      "Status": "Queued"
+      "Sent_At": "2026-11-18T18:28:00.000Z",
+      "Status": "Sent"
     },
     "id": "recngTwTt9S1Lx20Z"
   },
   {
     "createdTime": "2026-11-09T02:08:37.000Z",
     "fields": {
+      "Clicked_At": "2026-11-18T18:40:17.000Z",
       "Country": "USA",
       "Email": "martin.barbeau@bauschhealth.com",
       "First_Name": "Martin",
+      "Gmail_Message_ID": "1a1efeb00c1488b3",
       "Language": "en",
       "Name": "Martin Barbeau",
-      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08",
+      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-18: invitación enviada",
       "Organization": "Bausch Health, Canada Inc",
       "Segment": "linkedin",
-      "Status": "Queued"
+      "Sent_At": "2026-11-18T18:28:00.000Z",
+      "Status": "Subscribed"
     },
     "id": "recnwNvDnpqnwaQMt"
   },
@@ -5200,12 +5388,14 @@
       "Country": "Brazil",
       "Email": "priscila.freitas@gehealthcare.com",
       "First_Name": "Priscila",
+      "Gmail_Message_ID": "1a1efecdca00b85c",
       "Language": "pt",
       "Name": "Priscila Freitas",
-      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08",
+      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-18: invitación enviada",
       "Organization": "GE Healthcare",
       "Segment": "linkedin",
-      "Status": "Queued"
+      "Sent_At": "2026-11-18T18:30:00.000Z",
+      "Status": "Sent"
     },
     "id": "recoODNLJ1Y18RpFw"
   },
@@ -5266,11 +5456,11 @@
       "Gmail_Message_ID": "1a1acf9ae992c7b2",
       "Language": "en",
       "Name": "Diana Littman",
-      "Notes": "Source: Press & PR Contacts (Agencia PR)\n2026-11-05: invitación enviada",
+      "Notes": "Source: Press & PR Contacts (Agencia PR)\n2026-11-05: invitación enviada\n2026-11-17: recordatorio enviado (registrado 2026-11-18: la corrida del 17 envió pero no actualizó Airtable; verificado en Enviados, msg 1a1eabfb8e1cf7f8).",
       "Organization": "MSL (Publicis)",
       "Segment": "press",
       "Sent_At": "2026-11-05T18:28:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "recp1x5cqWBu6QgAW"
   },
@@ -5315,11 +5505,11 @@
       "Gmail_Message_ID": "1a1acf9d1a88bdce",
       "Language": "en",
       "Name": "Evan Berland",
-      "Notes": "Source: Press & PR Contacts (Pharma media office)\n2026-11-05: invitación enviada",
+      "Notes": "Source: Press & PR Contacts (Pharma media office)\n2026-11-05: invitación enviada\n2026-11-17: recordatorio enviado (registrado 2026-11-18: la corrida del 17 envió pero no actualizó Airtable; verificado en Enviados, msg 1a1eabfbbafe2dbc).",
       "Organization": "Sanofi",
       "Segment": "press",
       "Sent_At": "2026-11-05T18:28:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "recpsrmZWK2SanIkA"
   },
@@ -5443,6 +5633,20 @@
     "id": "recqWj8jqaHN84Tpc"
   },
   {
+    "createdTime": "2026-11-19T02:18:19.000Z",
+    "fields": {
+      "Country": "Colombia",
+      "Email": "galanau@gmail.com",
+      "First_Name": "Augusto",
+      "Language": "es",
+      "Name": "Augusto Galán Sarmiento",
+      "Notes": "2026-11-19: origen barrido inbox editor@ (Voices publicada 16-11). Direccion gmail personal: es la que uso en el hilo. No estaba en Subscribe Invites, CRM ni Press.",
+      "Segment": "voices",
+      "Status": "Queued"
+    },
+    "id": "recqeZKTonWswJLzf"
+  },
+  {
     "createdTime": "2026-11-01T01:20:33.000Z",
     "fields": {
       "Country": "Perú",
@@ -5451,11 +5655,11 @@
       "Gmail_Message_ID": "1a1acf9f9b6bce1d",
       "Language": "es",
       "Name": "Renzo Anselmo",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada",
+      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada\n2026-11-17: recordatorio enviado (registrado 2026-11-18: la corrida del 17 envió pero no actualizó Airtable; verificado en Enviados, msg 1a1eabfbeccf64d7).",
       "Organization": "La República (Perú)",
       "Segment": "press",
       "Sent_At": "2026-11-05T18:28:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "recqmDhUl9JrGKgKs"
   },
@@ -5603,12 +5807,14 @@
       "Country": "LATAM",
       "Email": "gonzalo.roiffe@bms.com",
       "First_Name": "Gonzalo",
+      "Gmail_Message_ID": "1a1efecde754a80a",
       "Language": "es",
       "Name": "Gonzalo Roiffe",
-      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08",
+      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-18: invitación enviada",
       "Organization": "Bristol Myers Squibb",
       "Segment": "linkedin",
-      "Status": "Queued"
+      "Sent_At": "2026-11-18T18:30:00.000Z",
+      "Status": "Sent"
     },
     "id": "recsG3aRAwgI8DSyl"
   },
@@ -5635,11 +5841,11 @@
       "Gmail_Message_ID": "1a1acfa210c74d50",
       "Language": "es",
       "Name": "Enrique Martínez Moreno",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada",
+      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada\n2026-11-18: recordatorio enviado (msg 1a1efe60c216f640)",
       "Organization": "Mundofarma",
       "Segment": "press",
       "Sent_At": "2026-11-05T18:28:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "recsVooVXNxurLmB9"
   },
@@ -5649,12 +5855,14 @@
       "Country": "USA",
       "Email": "mlongoni@rhythmtx.com",
       "First_Name": "Mauro",
+      "Gmail_Message_ID": "1a1efece2492dc37",
       "Language": "en",
       "Name": "Mauro Longoni",
-      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08",
+      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-18: invitación enviada",
       "Organization": "Rhythm Pharmaceuticals Inc.",
       "Segment": "linkedin",
-      "Status": "Queued"
+      "Sent_At": "2026-11-18T18:30:00.000Z",
+      "Status": "Sent"
     },
     "id": "recsbj2fWiFiYKBqP"
   },
@@ -5664,12 +5872,14 @@
       "Country": "Global",
       "Email": "elizabeth_f_stoll@baxter.com",
       "First_Name": "Elizabeth",
+      "Gmail_Message_ID": "1a1efece466efc72",
       "Language": "en",
       "Name": "Elizabeth Stoll",
-      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08",
+      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-18: invitación enviada",
       "Organization": "Baxter International Inc.",
       "Segment": "linkedin",
-      "Status": "Queued"
+      "Sent_At": "2026-11-18T18:30:00.000Z",
+      "Status": "Sent"
     },
     "id": "recseTkkKN3sWRiUj"
   },
@@ -5694,12 +5904,14 @@
       "Country": "USA",
       "Email": "carlos.souccar@sanofi.com",
       "First_Name": "Carlos",
+      "Gmail_Message_ID": "1a1efece9600cf45",
       "Language": "en",
       "Name": "Carlos Souccar",
-      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08",
+      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-18: invitación enviada",
       "Organization": "Sanofi",
       "Segment": "linkedin",
-      "Status": "Queued"
+      "Sent_At": "2026-11-18T18:30:00.000Z",
+      "Status": "Sent"
     },
     "id": "recswqGF2NmK8f1Ml"
   },
@@ -5802,11 +6014,11 @@
       "Gmail_Message_ID": "1a1acfa43e262395",
       "Language": "en",
       "Name": "Angus Liu",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada",
+      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada\n2026-11-18: recordatorio enviado (msg 1a1efe6111fdf6c9)",
       "Organization": "Fierce Pharma (Questex)",
       "Segment": "press",
       "Sent_At": "2026-11-05T18:28:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "recugPO48BAZXfaoS"
   },
@@ -5830,12 +6042,14 @@
       "Country": "LATAM",
       "Email": "grisel.trejo@msd.com",
       "First_Name": "Grisel",
+      "Gmail_Message_ID": "1a1efecebf889a69",
       "Language": "es",
       "Name": "Grisel Trejo",
-      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08",
+      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-18: invitación enviada",
       "Organization": "MSD",
       "Segment": "linkedin",
-      "Status": "Queued"
+      "Sent_At": "2026-11-18T18:30:00.000Z",
+      "Status": "Sent"
     },
     "id": "recv2S8YTYUqPXGNL"
   },
@@ -5920,11 +6134,11 @@
       "Gmail_Message_ID": "1a1acfa6ba580bd7",
       "Language": "es",
       "Name": "Fabio Quiroga",
-      "Notes": "Source: Press & PR Contacts (Agencia PR)\n2026-11-05: invitación enviada",
+      "Notes": "Source: Press & PR Contacts (Agencia PR)\n2026-11-05: invitación enviada\n2026-11-18: recordatorio enviado (msg 1a1efe6124962e68)",
       "Organization": "Ogilvy Colombia",
       "Segment": "press",
       "Sent_At": "2026-11-05T18:28:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "recvqD4mfbhQlTEVs"
   },
@@ -5934,12 +6148,14 @@
       "Country": "Global",
       "Email": "igor.zanetti@medtronic.com",
       "First_Name": "Igor",
+      "Gmail_Message_ID": "1a1efecece57c424",
       "Language": "pt",
       "Name": "Igor Zanetti",
-      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08",
+      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-18: invitación enviada",
       "Organization": "Medtronic",
       "Segment": "linkedin",
-      "Status": "Queued"
+      "Sent_At": "2026-11-18T18:30:00.000Z",
+      "Status": "Sent"
     },
     "id": "recvynKroeSr78F9H"
   },
@@ -5997,11 +6213,11 @@
       "Gmail_Message_ID": "1a1acfb90308e11f",
       "Language": "pt",
       "Name": "Michael Esquer",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada",
+      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada\n2026-11-18: recordatorio enviado (msg 1a1efe617fbcead3)",
       "Organization": "Valor Econômico",
       "Segment": "press",
       "Sent_At": "2026-11-05T18:32:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "recwix8pUDXYCVLLI"
   },
@@ -6014,11 +6230,11 @@
       "Gmail_Message_ID": "1a1acfbb6fbdc852",
       "Language": "pt",
       "Name": "Marcia Cirino",
-      "Notes": "Source: Press & PR Contacts (Agencia PR)\n2026-11-05: invitación enviada",
+      "Notes": "Source: Press & PR Contacts (Agencia PR)\n2026-11-05: invitación enviada\n2026-11-18: recordatorio enviado (msg 1a1efe61be57a778)",
       "Organization": "Weber Shandwick São Paulo",
       "Segment": "press",
       "Sent_At": "2026-11-05T18:32:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "recwjbdoGXUEdxLFz"
   },
@@ -6259,11 +6475,11 @@
       "Gmail_Message_ID": "1a1acfbe018c1086",
       "Language": "es",
       "Name": "Sergio Silva Numa",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada",
+      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada\n2026-11-18: recordatorio enviado (msg 1a1efe61e848be3e)",
       "Organization": "El Espectador",
       "Segment": "press",
       "Sent_At": "2026-11-05T18:32:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "recywT8UrpuFyPJ36"
   },
