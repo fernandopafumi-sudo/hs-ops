@@ -491,6 +491,27 @@
     "id": "recgnuYaAiOy36m07"
   },
   {
+    "createdTime": "2026-11-19T19:58:55.000Z",
+    "fields": {
+      "Access": "Corporate",
+      "CTA Source": "newsletter_page",
+      "Company": "Informa",
+      "Consent At": "2026-11-19T19:59:15.000Z",
+      "Consent Text": "v2 2026-10-21 | By subscribing you agree to receive The HealthSignals Brief by email and accept our Privacy Policy.",
+      "Country": "United States",
+      "Email": "kathryn.scott@informa.com",
+      "Job Title": "Vice President, Events",
+      "Last Name": "Scott",
+      "Name": "Kate",
+      "Post URL": "https://healthsignals.news/newsletter/",
+      "Signup Stage": "complete",
+      "Source": "Website",
+      "Status": "Active",
+      "Subscribe Date": "2026-11-19"
+    },
+    "id": "reciI2rbl6dMULG1A"
+  },
+  {
     "createdTime": "2026-11-05T18:39:56.000Z",
     "fields": {
       "CTA Source": "invite-press",
@@ -536,6 +557,27 @@
     "id": "reckmK5NrXkizEoBR"
   },
   {
+    "createdTime": "2026-11-19T21:06:17.000Z",
+    "fields": {
+      "Access": "Corporate",
+      "CTA Source": "newsletter_page",
+      "Company": "Panorama Farmacêutico",
+      "Consent At": "2026-11-19T21:06:45.000Z",
+      "Consent Text": "v2 2026-10-21 | By subscribing you agree to receive The HealthSignals Brief by email and accept our Privacy Policy.",
+      "Country": "Brazil",
+      "Email": "piratininga@panoramafarmaceutico.com.br",
+      "Job Title": "PUBLISHER",
+      "Last Name": "PIRATININGA",
+      "Name": "PAULO",
+      "Post URL": "https://healthsignals.news/newsletter/",
+      "Signup Stage": "complete",
+      "Source": "Website",
+      "Status": "Active",
+      "Subscribe Date": "2026-11-19"
+    },
+    "id": "reclBp8lwANe0QSZV"
+  },
+  {
     "createdTime": "2026-11-05T20:03:42.000Z",
     "fields": {
       "Access": "Corporate",
@@ -554,6 +596,27 @@
       "Subscribe Date": "2026-11-05"
     },
     "id": "recmPn5zlJe1agmV5"
+  },
+  {
+    "createdTime": "2026-11-19T19:22:43.000Z",
+    "fields": {
+      "Access": "Corporate",
+      "CTA Source": "newsletter_page",
+      "Company": "IECS",
+      "Consent At": "2026-11-19T19:22:57.000Z",
+      "Consent Text": "v2 2026-10-21 | By subscribing you agree to receive The HealthSignals Brief by email and accept our Privacy Policy.",
+      "Country": "Argentina",
+      "Email": "apichon@iecs.org.ar",
+      "Job Title": "Director",
+      "Last Name": "Pichon-Riviere",
+      "Name": "Andres",
+      "Post URL": "https://healthsignals.news/newsletter/",
+      "Signup Stage": "complete",
+      "Source": "Website",
+      "Status": "Active",
+      "Subscribe Date": "2026-11-19"
+    },
+    "id": "recnBCAH8xWUZs7EC"
   },
   {
     "createdTime": "2026-11-05T08:27:11.000Z",
@@ -575,6 +638,21 @@
       "Subscribe Date": "2026-11-05"
     },
     "id": "recnOxIytLMj5aaXJ"
+  },
+  {
+    "createdTime": "2026-11-19T21:15:34.000Z",
+    "fields": {
+      "CTA Source": "invite-press",
+      "Consent At": "2026-11-19T21:15:33.000Z",
+      "Consent Text": "Clicked Subscribe in personal invitation email from editor@healthsignals.news (invite-2026-11 v1)",
+      "Country": "Brasil",
+      "Email": "mateus.vargas@grupofolha.com.br",
+      "Name": "Mateus Vargas",
+      "Source": "Invite",
+      "Status": "Active",
+      "Subscribe Date": "2026-11-19"
+    },
+    "id": "recneguOpWSrqo5Oo"
   },
   {
     "createdTime": "2026-11-05T18:37:35.000Z",
@@ -747,6 +825,27 @@
       "Subscribe Date": "2026-11-09"
     },
     "id": "recxbzcBRuPXUa9wh"
+  },
+  {
+    "createdTime": "2026-11-20T00:44:50.000Z",
+    "fields": {
+      "Access": "Webmail",
+      "CTA Source": "report_diabetes",
+      "Company": "Personal",
+      "Consent At": "2026-11-20T00:45:31.000Z",
+      "Consent Text": "v2 2026-10-21 | By subscribing you agree to receive The HealthSignals Brief by email and accept our Privacy Policy.",
+      "Country": "Mexico",
+      "Email": "lucanor99@gmail.com",
+      "Job Title": "Personal",
+      "Last Name": "Silva",
+      "Name": "Luis",
+      "Post URL": "https://healthsignals.news/reports/diabetes-control-gap/",
+      "Signup Stage": "complete",
+      "Source": "Website",
+      "Status": "Requested",
+      "Subscribe Date": "2026-11-20"
+    },
+    "id": "recyJZBuQJN95WABY"
   },
   {
     "createdTime": "2026-11-05T18:26:38.000Z",

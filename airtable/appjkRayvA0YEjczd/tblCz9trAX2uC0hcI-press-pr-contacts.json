@@ -102,6 +102,53 @@
     "id": "rec0u33tjuaCEwNlU"
   },
   {
+    "createdTime": "2026-11-20T17:17:46.000Z",
+    "fields": {
+      "Contact_URL": "https://www.gov.br/anvisa/pt-br",
+      "Country": "Brasil",
+      "Name": "ANVISA",
+      "Notes": "Sin email de prensa público. Tel 0800 642 9782.",
+      "Organization": "ANVISA (Agência Nacional de Vigilância Sanitária)",
+      "Role": "Regulador sanitario",
+      "Source_URL": "https://www.gov.br/anvisa/pt-br/canais_atendimento",
+      "Status": "New",
+      "Type": "Organismo/gremio"
+    },
+    "id": "rec12f3DZ6h7MuFzM"
+  },
+  {
+    "createdTime": "2026-11-20T17:18:18.000Z",
+    "fields": {
+      "Contact_URL": "https://www.senado.gov.co/index.php/comisiones/constitucionales/comision-septima",
+      "Country": "Colombia",
+      "Name": "Andrés Eduardo Forero Molina (Pte.); Ana Paola Agudelo García (Vicepte.)",
+      "Notes": "Sin email/contacto de prensa personal publicado; usar canal institucional del Senado.",
+      "Organization": "Comisión Séptima – Senado de Colombia",
+      "Role": "Presidente/Vicepresidenta",
+      "Source_URL": "https://www.senado.gov.co/index.php/comisiones/constitucionales/comision-septima",
+      "Status": "New",
+      "Type": "Organismo/gremio"
+    },
+    "id": "rec1ulcm83sYTJgyT"
+  },
+  {
+    "createdTime": "2026-11-20T17:17:04.000Z",
+    "fields": {
+      "Contact_URL": "https://www.idsociety.org/news--publications-new/",
+      "Country": "USA",
+      "Email": "idsa@messagepartnerspr.com",
+      "Email verificado": true,
+      "Name": "Message Partners (agencia externa)",
+      "Notes": "Prensa manejada por agencia externa Message Partners.",
+      "Organization": "Infectious Diseases Society of America (IDSA)",
+      "Role": "Media contact (agencia)",
+      "Source_URL": "https://www.idsociety.org/news--publications-new/articles/2026/idsa-and-conexiant-launch-idsa-reporter-a-trusted-news-destination----for-infectious-disease-professionals/",
+      "Status": "New",
+      "Type": "Organismo/gremio"
+    },
+    "id": "rec20tgRynPnXdHz5"
+  },
+  {
     "createdTime": "2026-08-11T15:30:26.000Z",
     "fields": {
       "Contact_URL": "https://llyc.global/contacto",
@@ -153,6 +200,23 @@
       "Última nota firmada": "https://www.lanacion.com.ar/sociedad/anmat-me-gustaria-que-no-tengan-que-llamar-a-alguien-conocido-para-que-mueva-un-tramite-dijo-el-nid06102026/"
     },
     "id": "rec2FYdm2OEjZuf9X"
+  },
+  {
+    "createdTime": "2026-11-20T17:18:18.000Z",
+    "fields": {
+      "Contact_URL": "https://acin.org",
+      "Country": "Colombia",
+      "Email": "comunicaciones@acin.org",
+      "Email verificado": true,
+      "Name": "ACIN",
+      "Notes": "Dato completo. Tel +57 304 452 2659.",
+      "Organization": "Asociación Colombiana de Infectología (ACIN)",
+      "Role": "Comunicaciones",
+      "Source_URL": "https://acin.org",
+      "Status": "New",
+      "Type": "Organismo/gremio"
+    },
+    "id": "rec2Nt0KLczz9FXnP"
   },
   {
     "createdTime": "2026-08-11T15:30:26.000Z",
@@ -310,6 +374,21 @@
     "id": "rec47XtTkSYFhkU2C"
   },
   {
+    "createdTime": "2026-11-20T17:19:24.000Z",
+    "fields": {
+      "Contact_URL": "https://www.argentina.gob.ar/salud/0800saludresponde",
+      "Country": "Argentina",
+      "Name": "Comunicación / atención al público",
+      "Notes": "GAP: no se encontró email de prensa general; solo canales 0800 temáticos.",
+      "Organization": "Ministerio de Salud de la Nación (Argentina)",
+      "Role": "Institucional",
+      "Source_URL": "https://www.argentina.gob.ar/salud/0800saludresponde",
+      "Status": "New",
+      "Type": "Organismo/gremio"
+    },
+    "id": "rec495sBm2TlrZL8p"
+  },
+  {
     "createdTime": "2026-08-11T14:35:32.000Z",
     "fields": {
       "Contact_URL": "https://www.bayer.com/en/media/media-contacts",
@@ -323,6 +402,20 @@
       "Type": "Pharma media office"
     },
     "id": "rec4DimICcyGbMOLq"
+  },
+  {
+    "createdTime": "2026-11-20T17:18:18.000Z",
+    "fields": {
+      "Country": "Colombia",
+      "Name": "ACHO",
+      "Notes": "GAP TOTAL: sitio oficial (acho.org.co) no resolvió. Solo mencionada por terceros. Pendiente verificar manualmente.",
+      "Organization": "Asociación Colombiana de Hematología y Oncología (ACHO)",
+      "Role": "Institucional",
+      "Source_URL": "https://www.oncodaily.com",
+      "Status": "New",
+      "Type": "Organismo/gremio"
+    },
+    "id": "rec4FtS0mJQU850aE"
   },
   {
     "createdTime": "2026-08-11T02:56:07.000Z",
@@ -408,6 +501,21 @@
       "Type": "Agencia PR"
     },
     "id": "rec4ouwJBdq3LwiXj"
+  },
+  {
+    "createdTime": "2026-11-20T17:17:04.000Z",
+    "fields": {
+      "Contact_URL": "https://www.help.senate.gov/chair",
+      "Country": "USA",
+      "Name": "Sen. Bill Cassidy, M.D.",
+      "Notes": "Cassidy perdió primaria (mayo 2026), sigue como chair hasta fin de Congreso; sucesión en curso. Sin email/tel de prensa público.",
+      "Organization": "Senate Committee on Health, Education, Labor and Pensions (HELP)",
+      "Role": "Chair",
+      "Source_URL": "https://www.help.senate.gov/chair/newsroom/press",
+      "Status": "New",
+      "Type": "Organismo/gremio"
+    },
+    "id": "rec518aXGIOofWc6C"
   },
   {
     "createdTime": "2026-08-11T15:17:33.000Z",
@@ -605,6 +713,38 @@
       "Type": "Prensa especializada"
     },
     "id": "rec7T0Sqxucp3E7xf"
+  },
+  {
+    "createdTime": "2026-11-20T17:17:46.000Z",
+    "fields": {
+      "Contact_URL": "https://sboc.org.br",
+      "Country": "Brasil",
+      "Email": "gisele@gvcomunicacao.com",
+      "Email verificado": true,
+      "Name": "Gisele Vitória",
+      "Notes": "Contacto completo con nombre. Tel +55 11 99624-2133. Alt institucional: sboc@sboc.org.br.",
+      "Organization": "Sociedade Brasileira de Oncologia Clínica (SBOC)",
+      "Role": "Assessoria de Imprensa (agencia GV Comunicação)",
+      "Source_URL": "https://sboc.org.br/contato/",
+      "Status": "New",
+      "Type": "Organismo/gremio"
+    },
+    "id": "rec7TlotJUDa0Tehq"
+  },
+  {
+    "createdTime": "2026-11-20T17:18:18.000Z",
+    "fields": {
+      "Contact_URL": "https://www.camara.gov.co/integrantes-comision-septima-constitucional/",
+      "Country": "Colombia",
+      "Name": "Presidente/a no identificado",
+      "Notes": "GAP: la página de integrantes solo lista personal administrativo, no la mesa directiva. Requiere Gaceta del Congreso 2026.",
+      "Organization": "Comisión Séptima – Cámara de Representantes (Colombia)",
+      "Role": "Comisión constitucional",
+      "Source_URL": "https://www.camara.gov.co/integrantes-comision-septima-constitucional/",
+      "Status": "New",
+      "Type": "Organismo/gremio"
+    },
+    "id": "rec7paFDlqMQA39sd"
   },
   {
     "createdTime": "2026-08-11T02:56:07.000Z",
@@ -834,6 +974,21 @@
       "Type": "Prensa especializada"
     },
     "id": "rec9J9veS0CplFlqL"
+  },
+  {
+    "createdTime": "2026-11-20T17:17:04.000Z",
+    "fields": {
+      "Contact_URL": "https://www.cms.gov/newsroom/media-inquiries",
+      "Country": "USA",
+      "Name": "Office of Communications",
+      "Notes": "Sin email directo; solo formulario Media Inquiries.",
+      "Organization": "CMS – Office of Communications",
+      "Role": "Oficina de prensa",
+      "Source_URL": "https://www.cms.gov/newsroom/press-contacts",
+      "Status": "New",
+      "Type": "Organismo/gremio"
+    },
+    "id": "rec9JCGKABimV2wF6"
   },
   {
     "createdTime": "2026-08-11T15:30:26.000Z",
@@ -1068,6 +1223,23 @@
     "id": "recAU96kmvvevr3oc"
   },
   {
+    "createdTime": "2026-11-20T17:19:24.000Z",
+    "fields": {
+      "Contact_URL": "https://www.anmat.gob.ar/webanmat/prensa.asp",
+      "Country": "Argentina",
+      "Email": "prensa@anmat.gob.ar",
+      "Email verificado": true,
+      "Name": "Prensa y Comunicación",
+      "Notes": "Dato completo con 2 teléfonos directos.",
+      "Organization": "ANMAT – Oficina de Prensa",
+      "Role": "Oficina de prensa",
+      "Source_URL": "https://www.anmat.gob.ar/webanmat/prensa.asp",
+      "Status": "New",
+      "Type": "Organismo/gremio"
+    },
+    "id": "recAXOLZuYU4rXXQ7"
+  },
+  {
     "createdTime": "2026-10-15T11:13:46.000Z",
     "fields": {
       "Beat": "Industria/deals",
@@ -1187,6 +1359,39 @@
       "Type": "Prensa especializada"
     },
     "id": "recBXzjrghPfsxnI2"
+  },
+  {
+    "createdTime": "2026-11-20T17:18:53.000Z",
+    "fields": {
+      "Contact_URL": "https://www.gob.mx/salud",
+      "Country": "México",
+      "Email": "judith.coronel@salud.gob.mx",
+      "Name": "Judith Concepción Coronel Morales",
+      "Notes": "ALERTA DE VIGENCIA: directorio fuente fechado ene-2024, administración anterior. No confirmado que siga en el cargo bajo gestión actual (Secretario Kershenobich). Verificar antes de usar como dato firme.",
+      "Organization": "Secretaría de Salud (federal, México)",
+      "Role": "Directora General de Comunicación Social (DGCS) – a confirmar vigencia",
+      "Source_URL": "https://www.gob.mx/cms/uploads/attachment/file/884077/DIRECTORIO_DE_FUNCIONARIOS23012024.pdf",
+      "Status": "New",
+      "Type": "Organismo/gremio"
+    },
+    "id": "recBkuWDMvJr56osi"
+  },
+  {
+    "createdTime": "2026-11-20T17:17:04.000Z",
+    "fields": {
+      "Contact_URL": "https://society.asco.org/node/8606",
+      "Country": "USA",
+      "Email": "virtualpress@asco.org",
+      "Email verificado": true,
+      "Name": "ASCO Media Team",
+      "Notes": "No contactar staff individual; todo por escrito al Media Team. Alt: CommPolicies@asco.org.",
+      "Organization": "American Society of Clinical Oncology (ASCO)",
+      "Role": "Communications",
+      "Source_URL": "https://society.asco.org/node/8606",
+      "Status": "New",
+      "Type": "Organismo/gremio"
+    },
+    "id": "recBlDB9QzC70Pcxm"
   },
   {
     "createdTime": "2026-08-11T14:36:45.000Z",
@@ -1376,7 +1581,7 @@
       "Country": "Brasil",
       "Email": "piratininga@panoramafarmaceutico.com.br",
       "Name": "Paulo Piratininga",
-      "Notes": "2026-11-05: invitación al Brief enviada (canal invitaciones, no es la tanda de prensa).\n2026-11-05: respondió — agradece la presentación y copia a la editora para que evalúe el contenido.\n2026-11-08 (firma/CC, msg 1a1ada15b192620e): la editora es Adriana Bruno (adriana@panoramafarmaceutico.com.br, cargada aparte); CC también Leandro Luize (leandro@scritta.com.br, Scritta; suscripto al Brief 06/11). Propone 'compartilhamento de nossos conteúdos' (posible intercambio de contenidos). Panorama vende publicidad: WhatsApp comercial +55 11 99290-5159.",
+      "Notes": "2026-11-05: invitación al Brief enviada (canal invitaciones, no es la tanda de prensa).\n2026-11-05: respondió — agradece la presentación y copia a la editora para que evalúe el contenido.\n2026-11-08 (firma/CC, msg 1a1ada15b192620e): la editora es Adriana Bruno (adriana@panoramafarmaceutico.com.br, cargada aparte); CC también Leandro Luize (leandro@scritta.com.br, Scritta; suscripto al Brief 06/11). Propone 'compartilhamento de nossos conteúdos' (posible intercambio de contenidos). Panorama vende publicidad: WhatsApp comercial +55 11 99290-5159.\n2026-11-19 (barrido contactos, hilo 1a1acf1d016fca8d): tras el recordatorio del Brief (19-11 18:20 UTC) respondió 'Assinado' y elogió el contenido (21:08 y 21:10 UTC). 21:28 UTC pidió a Adriana Bruno agendar una conversación con Fer la semana próxima (contenidos complementarios, interés mutuo) y le ofreció a Fer ser un 'posto avançado' de HealthSignals en Brasil: cobertura de eventos de la industria y foros médicos con pago por demanda. Sin respuesta nuestra; decide Fer.",
       "Organization": "Panorama Farmacêutico",
       "Role": "Departamento Comercial",
       "Source_URL": "https://panoramafarmaceutico.com.br/contato/",
@@ -1594,6 +1799,27 @@
     "id": "recEl4DRbzZWuNHxi"
   },
   {
+    "createdTime": "2026-11-20T15:07:26.000Z",
+    "fields": {
+      "Client Accounts": [
+        "reccnthxwKHtoGeOu"
+      ],
+      "Contact_URL": "https://eurofarma.cl/lang/en/press-room/valda-partnership-stranger-things",
+      "Country": "Brasil",
+      "Email": "iza.franca@gaspar.com.br",
+      "Email verificado": true,
+      "Idioma": "PT",
+      "Name": "Iza França",
+      "Notes": "Email publicado en comunicado oficial de Eurofarma (press-room propio). Source_URL verificado 20-11-2026.",
+      "Organization": "G&A Relações Públicas (Gaspar) — Eurofarma",
+      "Role": "Public Relations, agencia de Eurofarma",
+      "Source_URL": "https://eurofarma.cl/lang/en/press-room/valda-partnership-stranger-things",
+      "Status": "New",
+      "Type": "Pharma media office"
+    },
+    "id": "recElRD9PsjAcDxRr"
+  },
+  {
     "createdTime": "2026-10-15T11:13:46.000Z",
     "fields": {
       "Beat": "Política sanitaria",
@@ -1626,6 +1852,23 @@
       "Type": "Prensa especializada"
     },
     "id": "recEsmJ2wscEmyaqf"
+  },
+  {
+    "createdTime": "2026-11-20T17:19:24.000Z",
+    "fields": {
+      "Contact_URL": "https://www.reumatologia.org.ar",
+      "Country": "Argentina",
+      "Email": "sociedad@reumatologia.org.ar",
+      "Email verificado": true,
+      "Name": "SAR",
+      "Notes": "Sin contacto de prensa diferenciado.",
+      "Organization": "Sociedad Argentina de Reumatología (SAR)",
+      "Role": "Institucional",
+      "Source_URL": "https://www.reumatologia.org.ar/contacto.php",
+      "Status": "New",
+      "Type": "Organismo/gremio"
+    },
+    "id": "recF2frICOFCJOz7K"
   },
   {
     "createdTime": "2026-08-11T14:36:45.000Z",
@@ -1938,6 +2181,23 @@
     "id": "recHBbP6MsGAEiFdW"
   },
   {
+    "createdTime": "2026-11-20T17:19:24.000Z",
+    "fields": {
+      "Contact_URL": "https://www.aamr.org.ar",
+      "Country": "Argentina",
+      "Email": "aamr@aamr.org.ar",
+      "Email verificado": true,
+      "Name": "AAMR",
+      "Notes": "Email institucional en meta de la página; principal canal es WhatsApp secretaría 011 6460-6084.",
+      "Organization": "Asociación Argentina de Medicina Respiratoria (AAMR)",
+      "Role": "Secretaría",
+      "Source_URL": "https://www.aamr.org.ar/contacto.php",
+      "Status": "New",
+      "Type": "Organismo/gremio"
+    },
+    "id": "recHGmuDnvPbO2qjM"
+  },
+  {
     "createdTime": "2026-10-15T11:13:46.000Z",
     "fields": {
       "Beat": "Política sanitaria",
@@ -1957,6 +2217,22 @@
       "Última nota firmada": "https://www.theclinic.cl/2026/10/06/es-delicada-la-senal-y-deberia-preocuparnos-gobierno-recorta-en-14-el-financiamiento-para-tratamientos-de-alto-costo/"
     },
     "id": "recHdEoFACoCC2PDv"
+  },
+  {
+    "createdTime": "2026-11-20T17:17:46.000Z",
+    "fields": {
+      "Contact_URL": "https://www.portal.cardiol.br",
+      "Country": "Brasil",
+      "Email": "sbc@cardiol.br",
+      "Name": "SBC",
+      "Notes": "Sin email de prensa dedicado, se usa institucional.",
+      "Organization": "Sociedade Brasileira de Cardiologia (SBC)",
+      "Role": "Institucional",
+      "Source_URL": "https://www.portal.cardiol.br/imprensa-e-parceiros",
+      "Status": "New",
+      "Type": "Organismo/gremio"
+    },
+    "id": "recHjAalgneL3FhY2"
   },
   {
     "createdTime": "2026-08-11T14:35:32.000Z",
@@ -1991,6 +2267,21 @@
       "Última nota firmada": "https://www1.folha.uol.com.br/equilibrioesaude/2026/10/pacientes-relatam-demora-da-anvisa-na-liberacao-de-medicamentos-importados-agencia-alega-alta-demanda.shtml"
     },
     "id": "recIHCWPlDGmXMhqU"
+  },
+  {
+    "createdTime": "2026-11-20T17:17:04.000Z",
+    "fields": {
+      "Contact_URL": "https://www.finance.senate.gov/",
+      "Country": "USA",
+      "Name": "Sen. Mike Crapo (chair full cte.); subcte. chair no confirmado",
+      "Notes": "GAP: chair del subcomité de salud no confirmado en fuentes públicas revisadas. Sin email/tel de prensa.",
+      "Organization": "Senate Committee on Finance – Health Care Subcommittee",
+      "Role": "Chair comité completo",
+      "Source_URL": "https://www.finance.senate.gov/",
+      "Status": "New",
+      "Type": "Organismo/gremio"
+    },
+    "id": "recIQfyKlG5OQzDJX"
   },
   {
     "createdTime": "2026-08-11T15:30:26.000Z",
@@ -2067,7 +2358,7 @@
       "Email": "adriana@panoramafarmaceutico.com.br",
       "Idioma": "PT",
       "Name": "Adriana Bruno",
-      "Notes": "2026-11-05: Paulo Piratininga la copió como editora para que evalúe el contenido de HealthSignals (respuesta a la invitación al Brief). Email tomado del CC de ese mail, no publicado en fuente propia: Email verificado sin tildar. Aún no se le escribió directo.",
+      "Notes": "2026-11-05: Paulo Piratininga la copió como editora para que evalúe el contenido de HealthSignals (respuesta a la invitación al Brief). Email tomado del CC de ese mail, no publicado en fuente propia: Email verificado sin tildar. Aún no se le escribió directo.\n2026-11-19 (barrido contactos, hilo 1a1acf1d016fca8d): Paulo le pidió agendar con Fer una conversación la semana próxima (intercambio de contenidos). Ella todavía no escribió.",
       "Organization": "Panorama Farmacêutico",
       "Role": "Editora",
       "Source_URL": "https://mail.google.com/mail/?authuser=editor@healthsignals.news#all/thread-f:1881043517865708173|msg-f:1881055581088932366",
@@ -2106,6 +2397,21 @@
       "Type": "Agencia PR"
     },
     "id": "recJ10dlGopg3FCgn"
+  },
+  {
+    "createdTime": "2026-11-20T17:19:57.000Z",
+    "fields": {
+      "Contact_URL": "https://www.camara.cl/legislacion/comisiones/resultados.aspx?prmID=3311",
+      "Country": "Chile",
+      "Name": "Presidente/a no identificado",
+      "Notes": "GAP: camara.cl bloqueó el fetch; prensa lista integrantes pero no confirma presidente/a. Requiere llamar a Secretaría de Comisiones.",
+      "Organization": "Comisión de Salud – Cámara de Diputados (Chile)",
+      "Role": "Comisión permanente",
+      "Source_URL": "https://www.latercera.com/politica/noticia/camara-de-diputados-realiza-primera-sesion-del-2026-establece-horarios-de-sesiones-y-miembros-de-sus-comisiones-permanentes/",
+      "Status": "New",
+      "Type": "Organismo/gremio"
+    },
+    "id": "recJ4gC5L2eVOncgJ"
   },
   {
     "createdTime": "2026-08-11T14:36:45.000Z",
@@ -2237,6 +2543,23 @@
     "id": "recJnlwMI6itOydQN"
   },
   {
+    "createdTime": "2026-11-20T17:17:46.000Z",
+    "fields": {
+      "Contact_URL": "https://legis.senado.leg.br/comissoes/composicao_comissao?codcol=40",
+      "Country": "Brasil",
+      "Email": "imprensa@senado.leg.br",
+      "Email verificado": true,
+      "Name": "Sen. Marcelo Castro (MDB/PI)",
+      "Notes": "Email de prensa es el genérico del Senado, no específico de la comisión. Confirmado vigente a 20-nov-2026.",
+      "Organization": "Comissão de Assuntos Sociais (CAS) – Senado Federal",
+      "Role": "Presidente",
+      "Source_URL": "https://legis.senado.leg.br/comissoes/composicao_comissao?codcol=40",
+      "Status": "New",
+      "Type": "Organismo/gremio"
+    },
+    "id": "recK475RbviDOlBbu"
+  },
+  {
     "createdTime": "2026-10-15T11:09:32.000Z",
     "fields": {
       "Beat": "Regulatorio",
@@ -2284,6 +2607,20 @@
       "Type": "Prensa especializada"
     },
     "id": "recKN34kG2f0bhERf"
+  },
+  {
+    "createdTime": "2026-11-20T17:19:57.000Z",
+    "fields": {
+      "Country": "Chile",
+      "Name": "SER",
+      "Notes": "GAP TOTAL: ser.cl bloqueó el fetch; sin URL activa confirmada ni contacto. Referencias académicas mencionan presidencia 2024-25 sin nombre accesible.",
+      "Organization": "Sociedad Chilena de Enfermedades Respiratorias (SER)",
+      "Role": "Institucional",
+      "Source_URL": "https://revistaschilenas.uchile.cl/handle/2250/243217",
+      "Status": "New",
+      "Type": "Organismo/gremio"
+    },
+    "id": "recKTGlXSS8mNM5eN"
   },
   {
     "createdTime": "2026-08-11T14:49:17.000Z",
@@ -2479,6 +2816,37 @@
     "id": "recM3YoIzodkyuBwp"
   },
   {
+    "createdTime": "2026-11-20T17:19:57.000Z",
+    "fields": {
+      "Country": "Chile",
+      "Name": "Sociedad Chilena de Oncología Médica",
+      "Notes": "GAP TOTAL: sin sitio web propio identificable. Único nombre hallado (Luis Villanueva) es de nota de 2016, desactualizado. Posible sin presencia web activa.",
+      "Organization": "Sociedad Chilena de Oncología Médica",
+      "Role": "Institucional",
+      "Source_URL": "https://www.diarioestrategia.cl/texto-diario/mostrar/1508021/cancer-chile-nuevo-desafio-oncologos",
+      "Status": "New",
+      "Type": "Organismo/gremio"
+    },
+    "id": "recMJFBsXRyOfFz0X"
+  },
+  {
+    "createdTime": "2026-11-20T17:17:04.000Z",
+    "fields": {
+      "Contact_URL": "https://www.diabetes.org/newsroom/press-releases",
+      "Country": "USA",
+      "Email": "press@diabetes.org",
+      "Email verificado": true,
+      "Name": "Press/Communications",
+      "Notes": "Email confirmado en header de press release mar-2026.",
+      "Organization": "American Diabetes Association (ADA)",
+      "Role": "Prensa",
+      "Source_URL": "https://diabetes.org/sites/default/files/2026-03/26.03.23-Diabetes%20Alert%20Day%20release_FINAL.pdf",
+      "Status": "New",
+      "Type": "Organismo/gremio"
+    },
+    "id": "recMMvUxAEsVs30Aw"
+  },
+  {
     "createdTime": "2026-10-15T11:18:57.000Z",
     "fields": {
       "Beat": "Salud pública",
@@ -2533,6 +2901,19 @@
     "id": "recMj4y3Wc8dwPWGJ"
   },
   {
+    "createdTime": "2026-11-20T17:18:53.000Z",
+    "fields": {
+      "Country": "México",
+      "Name": "Sociedad Mexicana de Cardiología",
+      "Notes": "GAP TOTAL: no se confirmó sitio web oficial propio ni contacto; búsquedas devuelven solo instituciones relacionadas (INC Ignacio Chávez, revistas). Pendiente verificar manualmente.",
+      "Organization": "Sociedad Mexicana de Cardiología",
+      "Role": "Institucional",
+      "Status": "New",
+      "Type": "Organismo/gremio"
+    },
+    "id": "recMqa3z87kncQyqk"
+  },
+  {
     "createdTime": "2026-10-15T11:09:32.000Z",
     "fields": {
       "Beat": "Acceso/precios",
@@ -2569,6 +2950,21 @@
       "Type": "Agencia PR"
     },
     "id": "recNGK0FcfWJuD3tt"
+  },
+  {
+    "createdTime": "2026-11-20T17:17:46.000Z",
+    "fields": {
+      "Contact_URL": "https://diabetes.org.br",
+      "Country": "Brasil",
+      "Name": "Rose Guirro (prensa)",
+      "Notes": "Contacto nombrado (Rose Guirro, cel 11 98317-1117) pero email ofuscado en el sitio, no capturable. Verificar manualmente vía 'Fale com a Imprensa'.",
+      "Organization": "Sociedade Brasileira de Diabetes (SBD)",
+      "Role": "Assessoria de imprensa",
+      "Source_URL": "https://diabetes.org.br",
+      "Status": "New",
+      "Type": "Organismo/gremio"
+    },
+    "id": "recNXOyf11wvrVYbm"
   },
   {
     "createdTime": "2026-10-15T11:09:32.000Z",
@@ -2625,6 +3021,38 @@
     "id": "recNuncnBSVeox6V5"
   },
   {
+    "createdTime": "2026-11-20T17:17:04.000Z",
+    "fields": {
+      "Contact_URL": "https://rheumatology.org/newsroom",
+      "Country": "USA",
+      "Email": "pr@rheumatology.org",
+      "Email verificado": true,
+      "Name": "Public Relations",
+      "Notes": "Tel 404-633-3777.",
+      "Organization": "American College of Rheumatology (ACR)",
+      "Role": "PR",
+      "Source_URL": "https://rheumatology.org/newsroom",
+      "Status": "New",
+      "Type": "Organismo/gremio"
+    },
+    "id": "recO7SvdBjVvTZXZT"
+  },
+  {
+    "createdTime": "2026-11-20T17:18:53.000Z",
+    "fields": {
+      "Country": "México",
+      "Email": "smnyct.2015.2016@gmail.com",
+      "Name": "SMNyCT",
+      "Notes": "DATO DUDOSO: email etiquetado '2015-2016' sugiere desactualización. Sin sitio web propio confirmado. Reverificar antes de usar.",
+      "Organization": "Sociedad Mexicana de Neumología y Cirugía de Tórax",
+      "Role": "Institucional",
+      "Source_URL": "https://www.medigraphic.com/cgi-bin/new/contenidoI.cgi?IDPUBLICACION=10107",
+      "Status": "New",
+      "Type": "Organismo/gremio"
+    },
+    "id": "recOFCkfYUTOM0SCL"
+  },
+  {
     "createdTime": "2026-08-11T14:49:17.000Z",
     "fields": {
       "Contact_URL": "https://mexicobusiness.news/contact",
@@ -2638,6 +3066,21 @@
       "Type": "Prensa especializada"
     },
     "id": "recOS8kk45vg4R5WV"
+  },
+  {
+    "createdTime": "2026-11-20T17:17:04.000Z",
+    "fields": {
+      "Contact_URL": "https://energycommerce.house.gov/committees/subcommittee/health",
+      "Country": "USA",
+      "Name": "Rep. Morgan Griffith (chair subcte.); Rep. Brett Guthrie (chair full cte.)",
+      "Notes": "Sin email de prensa público; solo tel (202) 226-4972.",
+      "Organization": "House Energy & Commerce Committee – Health Subcommittee",
+      "Role": "Chair, Health Subcommittee",
+      "Source_URL": "https://energycommerce.house.gov/contact-us",
+      "Status": "New",
+      "Type": "Organismo/gremio"
+    },
+    "id": "recOoGWqvOJHcBMFJ"
   },
   {
     "createdTime": "2026-10-18T17:36:17.000Z",
@@ -2826,6 +3269,22 @@
     "id": "recQKFIVwtGGqyRjH"
   },
   {
+    "createdTime": "2026-11-20T15:19:21.000Z",
+    "fields": {
+      "Contact_URL": "https://www.prnewswire.com/mx/comunicados-de-prensa/yaneth-giha-es-elegida-vicepresidenta-del-organismo-mundial-de-la-industria-farmaceutica-302795594.html",
+      "Country": "Regional LatAm",
+      "Idioma": "ES",
+      "Name": "Yaneth Giha",
+      "Notes": "Vocera citada en varios comunicados oficiales de FIFARMA via PR Newswire. SIN email directo publicado — gap para LinkedIn. No marcar email verificado.",
+      "Organization": "FIFARMA (Federación Latinoamericana de la Industria Farmacéutica)",
+      "Role": "Directora Ejecutiva",
+      "Source_URL": "https://www.prnewswire.com/mx/comunicados-de-prensa/yaneth-giha-es-elegida-vicepresidenta-del-organismo-mundial-de-la-industria-farmaceutica-302795594.html",
+      "Status": "New",
+      "Type": "Organismo/gremio"
+    },
+    "id": "recQKdRC0X8gtkODn"
+  },
+  {
     "createdTime": "2026-11-12T01:30:19.000Z",
     "fields": {
       "Client Accounts": [
@@ -2840,6 +3299,23 @@
       "Source_URL": "https://www.bms.com/co/media/press-release-listing/202205231.html"
     },
     "id": "recQP7VG9p1gM1oNj"
+  },
+  {
+    "createdTime": "2026-11-20T17:17:04.000Z",
+    "fields": {
+      "Contact_URL": "https://site.thoracic.org/about-us/news",
+      "Country": "USA",
+      "Email": "dmorris@thoracic.org",
+      "Email verificado": true,
+      "Name": "Dacia Morris",
+      "Notes": "Único contacto con nombre+cargo de persona entre sociedades US. Tel 212-315-8620.",
+      "Organization": "American Thoracic Society (ATS)",
+      "Role": "Director of Communications",
+      "Source_URL": "https://site.thoracic.org/about-us/news",
+      "Status": "New",
+      "Type": "Organismo/gremio"
+    },
+    "id": "recQS1r54dyMxllBz"
   },
   {
     "createdTime": "2026-08-11T14:36:45.000Z",
@@ -2946,6 +3422,40 @@
     "id": "recRGAVIMDVFifGOF"
   },
   {
+    "createdTime": "2026-11-20T17:18:53.000Z",
+    "fields": {
+      "Contact_URL": "https://www.amimc.org.mx",
+      "Country": "México",
+      "Email": "amimc.ac@gmail.com",
+      "Email verificado": true,
+      "Name": "Gisela Contreras Delgado",
+      "Notes": "Dato completo con nombre.",
+      "Organization": "Asociación Mexicana de Infectología y Microbiología Clínica (AMIMC)",
+      "Role": "Coordinación Administrativa",
+      "Source_URL": "https://www.amimc.org.mx",
+      "Status": "New",
+      "Type": "Organismo/gremio"
+    },
+    "id": "recRZLziRRR0CkAhc"
+  },
+  {
+    "createdTime": "2026-11-20T15:19:21.000Z",
+    "fields": {
+      "Contact_URL": "https://www.paho.org/contact/",
+      "Country": "EE.UU. (sede regional, Washington DC) / toda LatAm",
+      "Email": "mediateam@paho.org",
+      "Email verificado": true,
+      "Idioma": "EN",
+      "Notes": "Contacto de prensa institucional oficial, paho.org/contact y paho.org/en/enquiries. Verificado 20-11-2026.",
+      "Organization": "PAHO / OPS (Pan American Health Organization)",
+      "Role": "Equipo de medios / media team",
+      "Source_URL": "https://www.paho.org/en/enquiries",
+      "Status": "New",
+      "Type": "Organismo/gremio"
+    },
+    "id": "recRa9VWznk7Am6Pj"
+  },
+  {
     "createdTime": "2026-11-13T18:00:17.000Z",
     "fields": {
       "Client Accounts": [
@@ -3016,6 +3526,21 @@
     "id": "recSDRJ1GVY4nw1OF"
   },
   {
+    "createdTime": "2026-11-20T02:16:11.000Z",
+    "fields": {
+      "Country": "Regional (Washington D.C.)",
+      "Email": "baldwinash@paho.org",
+      "Email verificado": true,
+      "Idioma": "EN",
+      "Name": "Ashley Baldwin",
+      "Notes": "19-11-2026: Jarbas Barbosa (director OPS) indicó por LinkedIn que los pedidos de entrevista van a ella. Borrador Gmail r-1957441092631105059 con invitación Voices + cuestionario (plazo 11-12) sin enviar, espera OK de Fer.",
+      "Organization": "OPS / PAHO",
+      "Role": "Comunicaciones, OPS/PAHO (cargo exacto no confirmado)",
+      "Status": "Contacted"
+    },
+    "id": "recSEjTlbaOwYDyZy"
+  },
+  {
     "createdTime": "2026-10-15T11:18:57.000Z",
     "fields": {
       "Beat": "Salud pública",
@@ -3078,6 +3603,21 @@
       "Type": "Agencia PR"
     },
     "id": "recSQDkjDmnCxGZIy"
+  },
+  {
+    "createdTime": "2026-11-20T17:17:46.000Z",
+    "fields": {
+      "Contact_URL": "https://www2.camara.leg.br/atividade-legislativa/comissoes/comissoes-permanentes/cpasf",
+      "Country": "Brasil",
+      "Name": "Presidente incierto: Bruno Ganem o Ruy Carneiro (fuentes contradictorias)",
+      "Notes": "CONFLICTO sin resolver: dos fuentes dan presidentes distintos. Verificar manualmente antes de usar. Ex-CSSF, renombrada. Tel secretaria (61) 3216-6861/6863.",
+      "Organization": "Comissão de Previdência, Assistência Social, Infância, Adolescência e Família (CPASF) – Câmara dos Deputados (ex-CSSF)",
+      "Role": "Comissão permanente",
+      "Source_URL": "https://www2.camara.leg.br/atividade-legislativa/comissoes/comissoes-permanentes/arquivos-destaques/presidentes-e-vice-presidentes",
+      "Status": "New",
+      "Type": "Organismo/gremio"
+    },
+    "id": "recSdqeMDKg4K0q2J"
   },
   {
     "createdTime": "2026-10-15T11:18:57.000Z",
@@ -3211,6 +3751,23 @@
     "id": "recUgnaJgoOML9AT5"
   },
   {
+    "createdTime": "2026-11-20T17:18:18.000Z",
+    "fields": {
+      "Contact_URL": "https://scc.org.co",
+      "Country": "Colombia",
+      "Email": "comunicaciones@scc.org.co",
+      "Email verificado": true,
+      "Name": "SCC",
+      "Notes": "Dato completo. Tel (601) 3630150.",
+      "Organization": "Sociedad Colombiana de Cardiología y Cirugía Cardiovascular (SCC)",
+      "Role": "Comunicaciones",
+      "Source_URL": "https://scc.org.co",
+      "Status": "New",
+      "Type": "Organismo/gremio"
+    },
+    "id": "recUnHc2MIf6YSeNg"
+  },
+  {
     "createdTime": "2026-10-18T17:36:17.000Z",
     "fields": {
       "Contact_URL": "https://www.linkedin.com/in/mar%C3%ADa-ines-freire-132a73120",
@@ -3256,6 +3813,23 @@
     "id": "recVAycNG1S1cPg0p"
   },
   {
+    "createdTime": "2026-11-20T17:17:46.000Z",
+    "fields": {
+      "Contact_URL": "https://infectologia.org.br",
+      "Country": "Brasil",
+      "Email": "ana.krauss@vectorcomunica.com.br",
+      "Email verificado": true,
+      "Name": "Ana Krauss",
+      "Notes": "Contacto más completo de todo el relevamiento BR: nombre+cargo+email+tel +55 11 99534-3483. Alt institucional: sbi@infectologia.org.br.",
+      "Organization": "Sociedade Brasileira de Infectologia (SBI)",
+      "Role": "Assessoria de imprensa (agencia Vector Comunicação Científica)",
+      "Source_URL": "https://infectologia.org.br/imprensa/",
+      "Status": "New",
+      "Type": "Organismo/gremio"
+    },
+    "id": "recVFXKgALX4ix8Y0"
+  },
+  {
     "createdTime": "2026-10-15T11:09:32.000Z",
     "fields": {
       "Beat": "Política sanitaria",
@@ -3277,6 +3851,22 @@
     "id": "recVGeEtBj27l32ri"
   },
   {
+    "createdTime": "2026-11-20T17:19:57.000Z",
+    "fields": {
+      "Contact_URL": "https://www.soched.cl",
+      "Country": "Chile",
+      "Email": "soched@soched.cl",
+      "Name": "Presidente/a no confirmado",
+      "Notes": "Sección 'Autoridades' existe pero no se pudo leer. Tel +56 2 2457 4342.",
+      "Organization": "Sociedad Chilena de Endocrinología y Diabetes (SOCHED)",
+      "Role": "Institucional",
+      "Source_URL": "https://www.soched.cl",
+      "Status": "New",
+      "Type": "Organismo/gremio"
+    },
+    "id": "recVizeBrxSlokXs1"
+  },
+  {
     "createdTime": "2026-10-15T11:13:46.000Z",
     "fields": {
       "Beat": "Política sanitaria",
@@ -3296,6 +3886,23 @@
       "Última nota firmada": "https://www.eltiempo.com/salud/capitales-del-pais-alertan-por-crisis-en-la-red-de-salud-y-presentan-ruta-al-gobierno-para-enfrentarla-15-estan-en-riesgo-critico-y-16-en-riesgo-alto-3592630"
     },
     "id": "recVy9TiRD4Y9dbLu"
+  },
+  {
+    "createdTime": "2026-11-20T17:19:57.000Z",
+    "fields": {
+      "Contact_URL": "https://sochinf.cl",
+      "Country": "Chile",
+      "Email": "sochinf@sochinf.cl",
+      "Email verificado": true,
+      "Name": "Dra. Inés Cerón Araya",
+      "Notes": "Dato completo. Tel (+569) 72 46 1377.",
+      "Organization": "Sociedad Chilena de Infectología (SOCHINF)",
+      "Role": "Presidenta",
+      "Source_URL": "https://sochinf.cl/directorio/",
+      "Status": "New",
+      "Type": "Organismo/gremio"
+    },
+    "id": "recWOdLjR7DLM9SRD"
   },
   {
     "createdTime": "2026-08-11T14:35:32.000Z",
@@ -3327,6 +3934,36 @@
       "Type": "Pharma media office"
     },
     "id": "recWZfaxX0MLJURhz"
+  },
+  {
+    "createdTime": "2026-11-20T17:17:46.000Z",
+    "fields": {
+      "Contact_URL": "https://www.gov.br/conitec/pt-br",
+      "Country": "Brasil",
+      "Name": "CONITEC",
+      "Notes": "Sin contacto propio; usar prensa del Ministério da Saúde.",
+      "Organization": "CONITEC (Comissão Nacional de Incorporação de Tecnologias no SUS)",
+      "Role": "Comissão vinculada al Ministério da Saúde",
+      "Source_URL": "https://www.gov.br/conitec/pt-br/acesso-a-informacao/perguntas-frequentes",
+      "Status": "New",
+      "Type": "Organismo/gremio"
+    },
+    "id": "recWqv96bebw5Hsl4"
+  },
+  {
+    "createdTime": "2026-11-20T17:18:53.000Z",
+    "fields": {
+      "Contact_URL": "https://comisiones.senado.gob.mx/salud/",
+      "Country": "México",
+      "Name": "Presidencia incierta – fuente oficial desactualizada (2022)",
+      "Notes": "GAP DE VIGENCIA: fuente oficial da a Lilia Valdez como presidenta desde 2022, pero prensa indica que pasó a presidir Gobernación en la LXVI. Presidencia actual de Salud no confirmada. Verificar directo en comisiones.senado.gob.mx/salud antes de usar.",
+      "Organization": "Comisión de Salud – Senado de México (LXVI)",
+      "Role": "Comisión permanente",
+      "Source_URL": "https://comisiones.senado.gob.mx/salud/docs/memoria_salud.pdf",
+      "Status": "New",
+      "Type": "Organismo/gremio"
+    },
+    "id": "recWzDl1MWBOgh2ga"
   },
   {
     "createdTime": "2026-08-11T15:30:26.000Z",
@@ -3407,6 +4044,21 @@
       "Type": "Prensa especializada"
     },
     "id": "recXCO0LnIUYmPdPS"
+  },
+  {
+    "createdTime": "2026-11-20T17:18:18.000Z",
+    "fields": {
+      "Contact_URL": "https://invima.gov.co/sala-de-prensa",
+      "Country": "Colombia",
+      "Name": "INVIMA",
+      "Notes": "Sin email directo de prensa. Conmutador (601) 242 50 00.",
+      "Organization": "INVIMA",
+      "Role": "Regulador sanitario",
+      "Source_URL": "https://invima.gov.co/sala-de-prensa",
+      "Status": "New",
+      "Type": "Organismo/gremio"
+    },
+    "id": "recXCUdNlhuZpq7yZ"
   },
   {
     "createdTime": "2026-08-11T14:36:45.000Z",
@@ -3753,6 +4405,21 @@
     "id": "recaWwh7HgIcLTGKS"
   },
   {
+    "createdTime": "2026-11-20T17:19:57.000Z",
+    "fields": {
+      "Contact_URL": "https://www.ispch.gob.cl",
+      "Country": "Chile",
+      "Name": "ISP",
+      "Notes": "Sin email de prensa específico; solo canales OIRS/transparencia genéricos.",
+      "Organization": "Instituto de Salud Pública de Chile (ISP)",
+      "Role": "Regulador sanitario",
+      "Source_URL": "https://www.chileatiende.gob.cl/fichas/61694-consultas-reclamos-sugerencias-y-felicitaciones-al-instituto-de-salud-publica-isp",
+      "Status": "New",
+      "Type": "Organismo/gremio"
+    },
+    "id": "recavjN4Gpk3JmhSd"
+  },
+  {
     "createdTime": "2026-10-18T17:36:17.000Z",
     "fields": {
       "Contact_URL": "https://www.linkedin.com/in/valentin-betroni-968943162",
@@ -3816,6 +4483,41 @@
       "Type": "Pharma media office"
     },
     "id": "recbiA03n9SSZZ5a2"
+  },
+  {
+    "createdTime": "2026-11-20T17:18:18.000Z",
+    "fields": {
+      "Country": "Colombia",
+      "Name": "ACD",
+      "Notes": "GAP: solo dirección física vía ficha IDF; sin sitio web propio ni contacto directo encontrado.",
+      "Organization": "Asociación Colombiana de Diabetes (ACD)",
+      "Role": "Institucional",
+      "Source_URL": "https://idf.org/our-network/regions-and-members/south-and-central-america/members/colombia/asociacion-colombiana-de-diabetes/",
+      "Status": "New",
+      "Type": "Organismo/gremio"
+    },
+    "id": "recbiglqcl27dNOGZ"
+  },
+  {
+    "createdTime": "2026-11-20T15:07:26.000Z",
+    "fields": {
+      "Client Accounts": [
+        "reccnthxwKHtoGeOu"
+      ],
+      "Contact_URL": "https://eurofarma.com.br/lang/es/press-room/eurofarma-participates-in-cphi-worldwide-and-seeks-partners-to-market-and-license-medications",
+      "Country": "Brasil",
+      "Email": "carolina.carone@gaspar.com.br",
+      "Email verificado": true,
+      "Idioma": "PT",
+      "Name": "Carolina Carone",
+      "Notes": "Email publicado en comunicado oficial de Eurofarma (press-room propio). Source_URL verificado 20-11-2026.",
+      "Organization": "G&A Relações Públicas (Gaspar) — Eurofarma",
+      "Role": "Public Relations, agencia de Eurofarma",
+      "Source_URL": "https://eurofarma.com.br/lang/es/press-room/eurofarma-participates-in-cphi-worldwide-and-seeks-partners-to-market-and-license-medications",
+      "Status": "New",
+      "Type": "Pharma media office"
+    },
+    "id": "recbjEckoyLh7KIle"
   },
   {
     "createdTime": "2026-08-11T15:30:26.000Z",
@@ -3917,6 +4619,23 @@
     "id": "reccXMgbvLDIWt6vL"
   },
   {
+    "createdTime": "2026-11-20T17:19:24.000Z",
+    "fields": {
+      "Contact_URL": "https://sadi.org.ar",
+      "Country": "Argentina",
+      "Email": "secretaria@sadi.org.ar",
+      "Email verificado": true,
+      "Name": "Alejandra Sayago",
+      "Notes": "No hay contacto de prensa dedicado, se usó secretaría.",
+      "Organization": "Sociedad Argentina de Infectología (SADI)",
+      "Role": "Secretaría administrativa",
+      "Source_URL": "https://sadi.org.ar/contacto",
+      "Status": "New",
+      "Type": "Organismo/gremio"
+    },
+    "id": "reccdWKULxpnUENn3"
+  },
+  {
     "createdTime": "2026-10-15T11:09:32.000Z",
     "fields": {
       "Beat": "Regulatorio",
@@ -4002,6 +4721,21 @@
     "id": "recd2snmgJkr0AjkA"
   },
   {
+    "createdTime": "2026-11-20T17:19:24.000Z",
+    "fields": {
+      "Contact_URL": "https://www.hcdn.gob.ar",
+      "Country": "Argentina",
+      "Name": "Manuel Quintar",
+      "Notes": "Confirmado por citación oficial a reunión 08-sep-2026. Sin contacto de prensa directo.",
+      "Organization": "Comisión de Acción Social y Salud Pública – Cámara de Diputados (Argentina)",
+      "Role": "Presidente",
+      "Source_URL": "https://parlamentaria.hcdn.gob.ar/comisiones/reuniones/1297/archivo/8K0TF41FM8CE02FW.pdf",
+      "Status": "New",
+      "Type": "Organismo/gremio"
+    },
+    "id": "recd2zjwEFETF2gZC"
+  },
+  {
     "createdTime": "2026-08-11T02:56:07.000Z",
     "fields": {
       "Contact_URL": "https://www.pmfarma.com/contacto/",
@@ -4015,6 +4749,21 @@
       "Type": "Prensa especializada"
     },
     "id": "recdBWfn1ll1QeuWn"
+  },
+  {
+    "createdTime": "2026-11-20T17:17:04.000Z",
+    "fields": {
+      "Contact_URL": "https://waysandmeans.house.gov/subcommittee/health",
+      "Country": "USA",
+      "Name": "Rep. Vern Buchanan",
+      "Notes": "Buchanan no se reelige pero sigue como chair vigente (119º Congreso). Sin email de prensa.",
+      "Organization": "House Ways and Means Committee – Health Subcommittee",
+      "Role": "Chair, Health Subcommittee",
+      "Source_URL": "https://waysandmeans.house.gov/subcommittee/health",
+      "Status": "New",
+      "Type": "Organismo/gremio"
+    },
+    "id": "recdNTL92Ze7sq4f2"
   },
   {
     "createdTime": "2026-10-15T11:18:57.000Z",
@@ -4168,6 +4917,21 @@
       "Type": "Prensa especializada"
     },
     "id": "receJsnojh9MSsyLw"
+  },
+  {
+    "createdTime": "2026-11-20T17:18:53.000Z",
+    "fields": {
+      "Contact_URL": "https://sitl.diputados.gob.mx/LXVI_leg/album_comisiones_tc.pdf",
+      "Country": "México",
+      "Name": "Pedro Mario Zenteno Santaella (Morena)",
+      "Notes": "Verificado en 2 fuentes oficiales. Sin email de prensa dedicado a la comisión.",
+      "Organization": "Comisión de Salud – Cámara de Diputados (México, LXVI)",
+      "Role": "Presidente",
+      "Source_URL": "https://comunicacion.diputados.gob.mx/sintesis/LINKSIN2/291024_P_BOL_0_INSTALANENLA_COMISIONSALUD_3DIP_.pdf",
+      "Status": "New",
+      "Type": "Organismo/gremio"
+    },
+    "id": "recebG081ajNa7lgJ"
   },
   {
     "createdTime": "2026-08-11T14:36:45.000Z",
@@ -4381,6 +5145,21 @@
     "id": "recguMJbS3RiILUbh"
   },
   {
+    "createdTime": "2026-11-20T17:17:04.000Z",
+    "fields": {
+      "Contact_URL": "https://www.hhs.gov/press-room/index.html",
+      "Country": "USA",
+      "Name": "ASPA Press",
+      "Notes": "Solo credentialed media vía formulario request-for-comment.",
+      "Organization": "HHS – Office of the Assistant Secretary for Public Affairs",
+      "Role": "Oficina de prensa",
+      "Source_URL": "https://www.hhs.gov/about/contact-us/",
+      "Status": "New",
+      "Type": "Organismo/gremio"
+    },
+    "id": "rech07D4ZFcSClqS6"
+  },
+  {
     "createdTime": "2026-10-15T11:18:57.000Z",
     "fields": {
       "Beat": "Política sanitaria",
@@ -4418,6 +5197,23 @@
     "id": "rech7sFt9IP7q1BqK"
   },
   {
+    "createdTime": "2026-11-20T17:19:24.000Z",
+    "fields": {
+      "Contact_URL": "https://www.sac.org.ar",
+      "Country": "Argentina",
+      "Email": "comunicaciones@sac.org.ar",
+      "Email verificado": true,
+      "Name": "SAC",
+      "Notes": "Dato completo. También agencia externa jmoribe@jmoribe.com.",
+      "Organization": "Sociedad Argentina de Cardiología (SAC)",
+      "Role": "Comunicaciones",
+      "Source_URL": "https://www.sac.org.ar/institucional/contacto/",
+      "Status": "New",
+      "Type": "Organismo/gremio"
+    },
+    "id": "rechOU4bex96qUiwr"
+  },
+  {
     "createdTime": "2026-10-15T11:18:57.000Z",
     "fields": {
       "Beat": "Acceso/precios",
@@ -4437,6 +5233,21 @@
       "Última nota firmada": "https://www.nytimes.com/2026/08/31/business/pancreatic-cancer-drug-prices.html"
     },
     "id": "rechOdGnYawXChhKd"
+  },
+  {
+    "createdTime": "2026-11-20T17:18:53.000Z",
+    "fields": {
+      "Contact_URL": "https://www.smeo.org.mx",
+      "Country": "México",
+      "Name": "SMeO",
+      "Notes": "Sitio confirmado (Portal de Socios) pero sin email de contacto visible.",
+      "Organization": "Sociedad Mexicana de Oncología (SMeO)",
+      "Role": "Institucional",
+      "Source_URL": "https://www.smeo.org.mx",
+      "Status": "New",
+      "Type": "Organismo/gremio"
+    },
+    "id": "rechX93Ktc7ViZCJi"
   },
   {
     "createdTime": "2026-08-11T02:56:07.000Z",
@@ -4502,6 +5313,21 @@
       "Última nota firmada": "https://www.jota.info/saude/ans-abre-consulta-publica-sobre-inclusao-no-rol-de-medicamento-contra-o-cancer"
     },
     "id": "reciCnxNKhBN73BB8"
+  },
+  {
+    "createdTime": "2026-11-20T17:18:53.000Z",
+    "fields": {
+      "Contact_URL": "https://www.colmexreuma.org.mx",
+      "Country": "México",
+      "Name": "Colegio Mexicano de Reumatología",
+      "Notes": "Página de contacto dio error robots.txt; sin contacto verificado.",
+      "Organization": "Colegio Mexicano de Reumatología",
+      "Role": "Institucional",
+      "Source_URL": "https://www.colmexreuma.org.mx",
+      "Status": "New",
+      "Type": "Organismo/gremio"
+    },
+    "id": "reciLuDKmo0WrapV6"
   },
   {
     "createdTime": "2026-10-18T17:36:17.000Z",
@@ -4593,6 +5419,21 @@
     "id": "recigkjXSFl0GhXMP"
   },
   {
+    "createdTime": "2026-11-20T17:19:57.000Z",
+    "fields": {
+      "Contact_URL": "https://www.minsal.cl/?p=2065",
+      "Country": "Chile",
+      "Name": "Departamento de Comunicaciones",
+      "Notes": "Página propia indica 'en construcción'. Solo Mesa Central (+56 2) 2 5740 100.",
+      "Organization": "Ministerio de Salud de Chile (MINSAL) – Comunicaciones",
+      "Role": "Oficina de prensa",
+      "Source_URL": "https://www.minsal.cl/promocion_participacion_contacto/",
+      "Status": "New",
+      "Type": "Organismo/gremio"
+    },
+    "id": "recirTl4pPmu2HziE"
+  },
+  {
     "createdTime": "2026-08-11T14:36:45.000Z",
     "fields": {
       "Contact_URL": "https://www.jeffreygroup.com/contact",
@@ -4632,6 +5473,23 @@
       "Type": "Agencia PR"
     },
     "id": "recjDmuM8AU3HSxsf"
+  },
+  {
+    "createdTime": "2026-11-20T17:18:53.000Z",
+    "fields": {
+      "Contact_URL": "https://fmdiabetes.org",
+      "Country": "México",
+      "Email": "fmd@fmdiabetes.org",
+      "Email verificado": true,
+      "Name": "FMD",
+      "Notes": "Tel (55) 5511 4200. Sección de prensa existe pero sin contacto nombrado.",
+      "Organization": "Federación Mexicana de Diabetes, A.C. (FMD)",
+      "Role": "Institucional",
+      "Source_URL": "https://fmdiabetes.org",
+      "Status": "New",
+      "Type": "Organismo/gremio"
+    },
+    "id": "recjGraOHh3O9WqD4"
   },
   {
     "createdTime": "2026-08-11T14:36:45.000Z",
@@ -4677,6 +5535,23 @@
       "Type": "Prensa especializada"
     },
     "id": "recjvwtsgxKFqcsJm"
+  },
+  {
+    "createdTime": "2026-11-20T17:17:04.000Z",
+    "fields": {
+      "Contact_URL": "https://www.fda.gov/newsevents/newsroom/mediacontacts/default.htm",
+      "Country": "USA",
+      "Email": "fdaoma@fda.hhs.gov",
+      "Email verificado": true,
+      "Name": "Office of Media Affairs",
+      "Notes": "Dato completo. Tel 301-796-4540, horario hábil ET.",
+      "Organization": "FDA – Office of Media Affairs",
+      "Role": "Oficina de prensa",
+      "Source_URL": "https://www.fda.gov/newsevents/newsroom/mediacontacts/default.htm",
+      "Status": "New",
+      "Type": "Organismo/gremio"
+    },
+    "id": "reckCocXCT9KTIO5b"
   },
   {
     "createdTime": "2026-10-15T11:09:32.000Z",
@@ -4788,6 +5663,22 @@
     "id": "reclcGBjgY8Ew5lse"
   },
   {
+    "createdTime": "2026-11-20T17:18:18.000Z",
+    "fields": {
+      "Contact_URL": "https://www.endocrino.org.co",
+      "Country": "Colombia",
+      "Email": "revista@endocrino.org.co",
+      "Name": "ACE",
+      "Notes": "Email es el de la revista institucional, no confirmado como canal de prensa.",
+      "Organization": "Asociación Colombiana de Endocrinología, Diabetes y Metabolismo (ACE)",
+      "Role": "Institucional / revista",
+      "Source_URL": "https://revistaendocrino.org/",
+      "Status": "New",
+      "Type": "Organismo/gremio"
+    },
+    "id": "recliOZh5q0kI9XOR"
+  },
+  {
     "createdTime": "2026-08-11T15:17:33.000Z",
     "fields": {
       "Contact_URL": "https://llyc.global/en/contact/",
@@ -4871,6 +5762,21 @@
     "id": "recnHMyiDB6VvhZob"
   },
   {
+    "createdTime": "2026-11-20T17:18:18.000Z",
+    "fields": {
+      "Contact_URL": "https://asoreuma.org",
+      "Country": "Colombia",
+      "Name": "Asoreuma",
+      "Notes": "Solo formulario de contacto/PQRSF; sin email ni tel publicado.",
+      "Organization": "Asociación Colombiana de Reumatología (Asoreuma)",
+      "Role": "Institucional",
+      "Source_URL": "https://asoreuma.org/contacto-2/",
+      "Status": "New",
+      "Type": "Organismo/gremio"
+    },
+    "id": "recnaBIsVgSYPCXGu"
+  },
+  {
     "createdTime": "2026-10-15T11:13:46.000Z",
     "fields": {
       "Beat": "Política sanitaria",
@@ -4941,6 +5847,22 @@
     "id": "recnuC9DvsnkaRHFk"
   },
   {
+    "createdTime": "2026-11-20T17:17:46.000Z",
+    "fields": {
+      "Contact_URL": "https://sbpt.org.br",
+      "Country": "Brasil",
+      "Email": "sbpt@sbpt.org.br",
+      "Name": "SBPT",
+      "Notes": "Sin email de prensa dedicado. Tel 0800 061 6218.",
+      "Organization": "Sociedade Brasileira de Pneumologia e Tisiologia (SBPT)",
+      "Role": "Institucional",
+      "Source_URL": "https://sbpt.org.br/portal/fale-conosco/",
+      "Status": "New",
+      "Type": "Organismo/gremio"
+    },
+    "id": "recnw0Ur1RGAWbOCH"
+  },
+  {
     "createdTime": "2026-10-15T11:09:32.000Z",
     "fields": {
       "Beat": "Compras públicas",
@@ -4993,6 +5915,22 @@
     "id": "recoFRyLYo10x2dl8"
   },
   {
+    "createdTime": "2026-11-19T18:57:33.000Z",
+    "fields": {
+      "Country": "Latin America",
+      "Email": "qbourgau@amgen.com",
+      "Email verificado": true,
+      "Idioma": "EN",
+      "Name": "Quentin Bourgaud",
+      "Notes": "19-11-2026: respondió en el hilo de DeLLphi-305 (enviado a Akopyan). Sin entrevista; mandó statement regulatorio de tarlatamab. Cubre Europa, LatAm, Medio Oriente, África y Canadá. m +7 61 49 70 97. 19-11 agradecimiento enviado.",
+      "Organization": "Amgen",
+      "Role": "Senior Manager, External Communications, Corporate Affairs ELMAC",
+      "Status": "Contacted",
+      "Type": "Pharma media office"
+    },
+    "id": "recoMBP2Vjqb9QDLI"
+  },
+  {
     "createdTime": "2026-08-11T02:56:07.000Z",
     "fields": {
       "Contact_URL": "https://www.citeline.com/en/contact-us",
@@ -5005,6 +5943,40 @@
       "Type": "Prensa especializada"
     },
     "id": "recoQQQERz6nxM6ep"
+  },
+  {
+    "createdTime": "2026-11-20T17:18:53.000Z",
+    "fields": {
+      "Contact_URL": "https://www.endocrinologia.org.mx",
+      "Country": "México",
+      "Email": "contacto@endocrinologia.org.mx",
+      "Email verificado": true,
+      "Name": "SMNE",
+      "Notes": "Dato completo.",
+      "Organization": "Sociedad Mexicana de Nutrición y Endocrinología (SMNE)",
+      "Role": "Institucional",
+      "Source_URL": "https://www.endocrinologia.org.mx",
+      "Status": "New",
+      "Type": "Organismo/gremio"
+    },
+    "id": "recoRgySutf6deQAA"
+  },
+  {
+    "createdTime": "2026-11-20T17:19:24.000Z",
+    "fields": {
+      "Contact_URL": "https://www.aaoc.org.ar",
+      "Country": "Argentina",
+      "Email": "comunicacion@aaoc.org.ar",
+      "Email verificado": true,
+      "Name": "AAOC",
+      "Notes": "Email de comunicación específico encontrado, buen dato.",
+      "Organization": "Asociación Argentina de Oncología Clínica (AAOC)",
+      "Role": "Comunicación",
+      "Source_URL": "https://www.aaoc.org.ar/",
+      "Status": "New",
+      "Type": "Organismo/gremio"
+    },
+    "id": "recoU3DCyvuE3eAsv"
   },
   {
     "createdTime": "2026-08-11T14:49:17.000Z",
@@ -5043,6 +6015,23 @@
     "id": "recoxNC5ISedhpFLs"
   },
   {
+    "createdTime": "2026-11-20T17:17:46.000Z",
+    "fields": {
+      "Contact_URL": "https://www.gov.br/saude/pt-br",
+      "Country": "Brasil",
+      "Email": "imprensa@saude.gov.br",
+      "Email verificado": true,
+      "Name": "Assessoria Especial de Comunicação Social",
+      "Notes": "Dato completo. Tel (61) 3315-3580, plantão (61) 99196-7282.",
+      "Organization": "Ministério da Saúde – Assessoria de Imprensa",
+      "Role": "Prensa",
+      "Source_URL": "https://www.gov.br/saude/pt-br/canais-de-atendimento/sala-de-imprensa",
+      "Status": "New",
+      "Type": "Organismo/gremio"
+    },
+    "id": "recp412xRvhtaNrHX"
+  },
+  {
     "createdTime": "2026-08-11T14:36:45.000Z",
     "fields": {
       "Contact_URL": "https://golinketchum.com/contact/",
@@ -5070,6 +6059,38 @@
       "Type": "Prensa especializada"
     },
     "id": "recpIOjVaUwhecbSw"
+  },
+  {
+    "createdTime": "2026-11-20T17:17:04.000Z",
+    "fields": {
+      "Contact_URL": "https://newsroom.heart.org/newsmedia/contacts",
+      "Country": "USA",
+      "Email": "AHACommunications@heart.org",
+      "Email verificado": true,
+      "Name": "Media Relations",
+      "Notes": "Dato completo. Línea prensa 214-706-1173.",
+      "Organization": "American Heart Association (AHA)",
+      "Role": "Prensa",
+      "Source_URL": "https://newsroom.heart.org/newsmedia/contacts",
+      "Status": "New",
+      "Type": "Organismo/gremio"
+    },
+    "id": "recpYSvZcWy4caE0R"
+  },
+  {
+    "createdTime": "2026-11-20T17:19:24.000Z",
+    "fields": {
+      "Contact_URL": "https://www.senado.gob.ar",
+      "Country": "Argentina",
+      "Name": "Ivana Arrascaeta (LLA)",
+      "Notes": "Comisión reconstituida 29-abr-2026, reemplazó a Lucía Corpacci tras renovación del Senado dic-2025. Permalink directo no hallado, solo tag page. Sin contacto de prensa propio.",
+      "Organization": "Comisión de Salud – Senado de la Nación (Argentina)",
+      "Role": "Presidenta",
+      "Source_URL": "https://www.parlamentario.com/tag/comision-de-salud/",
+      "Status": "New",
+      "Type": "Organismo/gremio"
+    },
+    "id": "recq18WHQg7xH9Rgd"
   },
   {
     "createdTime": "2026-10-18T17:36:17.000Z",
@@ -5199,6 +6220,21 @@
     "id": "recs0rC5nRsMNmSjg"
   },
   {
+    "createdTime": "2026-11-20T17:19:57.000Z",
+    "fields": {
+      "Contact_URL": "https://sochire.cl/directorio/",
+      "Country": "Chile",
+      "Name": "Dra. Elena Jarpa M.",
+      "Notes": "Email institucional ofuscado; usar formulario https://sochire.cl/contacto/.",
+      "Organization": "Sociedad Chilena de Reumatología (SOCHIRE)",
+      "Role": "Presidenta (inferido por orden en página, no etiquetado explícitamente)",
+      "Source_URL": "https://sochire.cl/directorio/",
+      "Status": "New",
+      "Type": "Organismo/gremio"
+    },
+    "id": "recs7pAmFWbI1MR8u"
+  },
+  {
     "createdTime": "2026-11-14T14:35:32.000Z",
     "fields": {
       "Country": "Colombia",
@@ -5279,6 +6315,21 @@
       "Última nota firmada": "https://www.biobiochile.cl/noticias/nacional/chile/2026/10/08/chomali-dice-que-recorte-a-ley-ricarte-soto-no-afectara-entrega-de-medicamentos-no-es-preocupante.shtml"
     },
     "id": "recsisWVuWrukuS2Y"
+  },
+  {
+    "createdTime": "2026-11-20T17:19:57.000Z",
+    "fields": {
+      "Contact_URL": "https://www.senado.cl/actividad-legislativa/comisiones/195/22858",
+      "Country": "Chile",
+      "Name": "Juan Luis Castro (PS)",
+      "Notes": "Confirmado por 3 fuentes de prensa (mar/jul/nov-2026). Sin contacto de prensa propio de la comisión.",
+      "Organization": "Comisión de Salud – Senado de Chile",
+      "Role": "Presidente",
+      "Source_URL": "https://www.emol.com/noticias/Nacional/2026/03/26/1195421/asi-quedaron-conformadas-comisiones-senado.html",
+      "Status": "New",
+      "Type": "Organismo/gremio"
+    },
+    "id": "recsn5CL7Dr73SBxW"
   },
   {
     "createdTime": "2026-10-18T17:36:17.000Z",
@@ -5487,7 +6538,7 @@
       "Email": "lucas.soares@agora.site",
       "Idioma": "PT",
       "Name": "Lucas Soares",
-      "Notes": "Fuente: correo a editor@ 11-11-2026 (sin URL pública). Ofreció voceros BMS y A.C.Camargo. 12-11: Fer mandó 3 preguntas sobre el acuerdo de riesgo compartido BMS–A.C.Camargo para Christiano Silva y Rafael Ielpo, plazo 18-11-2026. 13-11: Lucas confirma que lo están verificando. 13-11: Fer le compartió la nota publicada. 13-11 (19:16 UTC): Lucas agradeció la publicación y reconfirmó que mandan las respuestas de BMS y A.C.Camargo 'o quanto antes'. Hilo Gmail 1a18f5731902670d.\n2026-11-19: el 18-11 (21:37 UTC) Lucas mandó las respuestas de los voceros con imágenes adjuntas y pidió confirmar recepción (msg 1a1f0981a4ca5f37). Sin respuesta nuestra al 19-11 mañana; decide Fer.",
+      "Notes": "Fuente: correo a editor@ 11-11-2026 (sin URL pública). Ofreció voceros BMS y A.C.Camargo. 12-11: Fer mandó 3 preguntas sobre el acuerdo de riesgo compartido BMS–A.C.Camargo para Christiano Silva y Rafael Ielpo, plazo 18-11-2026. 13-11: Lucas confirma que lo están verificando. 13-11: Fer le compartió la nota publicada. 13-11 (19:16 UTC): Lucas agradeció la publicación y reconfirmó que mandan las respuestas de BMS y A.C.Camargo 'o quanto antes'. Hilo Gmail 1a18f5731902670d.\n2026-11-19: el 18-11 (21:37 UTC) Lucas mandó las respuestas de los voceros con imágenes adjuntas y pidió confirmar recepción (msg 1a1f0981a4ca5f37). Sin respuesta nuestra al 19-11 mañana; decide Fer.\n2026-11-19 (barrido contactos): Fer confirmó recepción de respuestas y fotos el 19-11 18:59 UTC (msg 1a1f52d669daa1d3, CC Raquel y Julia) y planteó dos puntos antes de cerrar el texto (uno sobre la contrapartida). Esperando respuesta de Lucas.",
       "Organization": "Ágora (BMS Brasil)",
       "Role": "Cuenta BMS (cargo no confirmado)",
       "Status": "Responded",
@@ -5528,6 +6579,23 @@
       "Type": "Prensa especializada"
     },
     "id": "recvVyHFqEmQ28MKe"
+  },
+  {
+    "createdTime": "2026-11-20T17:18:18.000Z",
+    "fields": {
+      "Contact_URL": "https://minsalud.gov.co/Comunicaciones",
+      "Country": "Colombia",
+      "Email": "correo@minsalud.gov.co",
+      "Email verificado": true,
+      "Name": "Comunicaciones",
+      "Notes": "Email institucional general, no dedicado a prensa. Conmutador (601) 330 5000.",
+      "Organization": "Ministerio de Salud y Protección Social (Colombia)",
+      "Role": "Oficina de prensa",
+      "Source_URL": "https://minsalud.gov.co/Comunicaciones",
+      "Status": "New",
+      "Type": "Organismo/gremio"
+    },
+    "id": "recvcoUNqZCydDccZ"
   },
   {
     "createdTime": "2026-10-15T11:13:46.000Z",
@@ -5687,6 +6755,21 @@
     "id": "recweuMIMwyBycWYM"
   },
   {
+    "createdTime": "2026-11-20T17:17:46.000Z",
+    "fields": {
+      "Contact_URL": "https://www.reumatologia.org.br",
+      "Country": "Brasil",
+      "Name": "SBR",
+      "Notes": "Sin email publicado. Tel (11) 3289-7165, WhatsApp (11) 98606-0174.",
+      "Organization": "Sociedade Brasileira de Reumatologia (SBR)",
+      "Role": "Institucional",
+      "Source_URL": "https://www.reumatologia.org.br/contato/",
+      "Status": "New",
+      "Type": "Organismo/gremio"
+    },
+    "id": "recwgJcbhxbqJquyt"
+  },
+  {
     "createdTime": "2026-08-11T14:49:17.000Z",
     "fields": {
       "Contact_URL": "https://www.wsj.com/tips",
@@ -5699,6 +6782,23 @@
       "Type": "Prensa especializada"
     },
     "id": "recwliZK8l0qGOzp3"
+  },
+  {
+    "createdTime": "2026-11-20T17:18:53.000Z",
+    "fields": {
+      "Contact_URL": "https://www.gob.mx/cofepris",
+      "Country": "México",
+      "Email": "contactociudadano@cofepris.gob.mx",
+      "Email verificado": true,
+      "Name": "Víctor Hugo Borja Aburto",
+      "Notes": "Asumió ene-2026. Email es canal de Contacto Ciudadano general, no de prensa dedicado.",
+      "Organization": "COFEPRIS",
+      "Role": "Comisionado Federal (titular)",
+      "Source_URL": "https://politica.expansion.mx/mexico/2026/01/02/victor-hugo-borja-sera-el-nuevo-titular-de-cofepris-tras-salida-de-armida-zuniga",
+      "Status": "New",
+      "Type": "Organismo/gremio"
+    },
+    "id": "recx0A4tmUO6po5h0"
   },
   {
     "createdTime": "2026-10-15T11:09:32.000Z",
@@ -5770,6 +6870,57 @@
     "id": "recyi2S6KXGDfKpgn"
   },
   {
+    "createdTime": "2026-11-20T17:19:24.000Z",
+    "fields": {
+      "Contact_URL": "https://diabetes.org.ar",
+      "Country": "Argentina",
+      "Email": "sad@diabetes.org.ar",
+      "Email verificado": true,
+      "Name": "SAD",
+      "Notes": "Sin email específico de prensa, se usó institucional.",
+      "Organization": "Sociedad Argentina de Diabetes (SAD)",
+      "Role": "Institucional",
+      "Source_URL": "https://diabetes.org.ar/2020/contacto/",
+      "Status": "New",
+      "Type": "Organismo/gremio"
+    },
+    "id": "recymySyFldHz5xrw"
+  },
+  {
+    "createdTime": "2026-11-20T15:19:21.000Z",
+    "fields": {
+      "Contact_URL": "https://www.caf.com/",
+      "Country": "Regional LatAm (sede Caracas/multi-país)",
+      "Email": "prensa@caf.com",
+      "Email verificado": true,
+      "Idioma": "ES",
+      "Notes": "Contacto de prensa consistente en varios comunicados oficiales de CAF (Dirección de Comunicación Estratégica). Verificado 20-11-2026.",
+      "Organization": "CAF — Banco de Desarrollo de América Latina y el Caribe",
+      "Role": "Dirección de Comunicación Estratégica",
+      "Source_URL": "https://cdn.uc.assets.prezly.com/1aec2b55-14bd-4841-b45e-8891076d046a/-/inline/no/CAF_%2050%20a%C3%B1os%20impulsando%20lo%20mejor%20de%20Am%C3%A9rica%20Latina.pdf",
+      "Status": "New",
+      "Type": "Organismo/gremio"
+    },
+    "id": "recynLU2eG9fftc2L"
+  },
+  {
+    "createdTime": "2026-11-20T17:18:18.000Z",
+    "fields": {
+      "Contact_URL": "https://asoneumocito.org",
+      "Country": "Colombia",
+      "Email": "asoneumocito@asoneumocito.org",
+      "Email verificado": true,
+      "Name": "Asoneumocito",
+      "Notes": "Dato completo en email y dirección; sin tel publicado.",
+      "Organization": "Asociación Colombiana de Neumología y Cirugía de Tórax (Asoneumocito)",
+      "Role": "Administración",
+      "Source_URL": "https://asoneumocito.org",
+      "Status": "New",
+      "Type": "Organismo/gremio"
+    },
+    "id": "recyzQWCZNaREmjOs"
+  },
+  {
     "createdTime": "2026-10-15T11:18:57.000Z",
     "fields": {
       "Beat": "LatAm",
@@ -5803,6 +6954,23 @@
       "Type": "Pharma media office"
     },
     "id": "reczDRCPoAugEqtAQ"
+  },
+  {
+    "createdTime": "2026-11-20T17:19:57.000Z",
+    "fields": {
+      "Contact_URL": "https://sochicar.cl",
+      "Country": "Chile",
+      "Email": "info@sochicar.cl",
+      "Email verificado": true,
+      "Name": "Dr. Jorge Jalil Milad",
+      "Notes": "Dato completo. Vicepresidenta: Dra. Paola Varleta Olivares. Tel +56 2 2269 0076/77/78.",
+      "Organization": "Sociedad Chilena de Cardiología y Cirugía Cardiovascular (SOCHICAR)",
+      "Role": "Presidente (período 2025-2026)",
+      "Source_URL": "https://sochicar.cl/institucional/directorio/",
+      "Status": "New",
+      "Type": "Organismo/gremio"
+    },
+    "id": "reczGrf8rlPKOIcoX"
   },
   {
     "createdTime": "2026-10-15T11:18:57.000Z",

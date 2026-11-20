@@ -268,5 +268,15 @@
     "id": 7028872,
     "isActive": true,
     "name": "HS - Social: sync SOCIAL- tags al dedup de v3"
+  },
+  {
+    "id": 7113631,
+    "isActive": true,
+    "name": "[TEST] HS covers concept v11 + Gemini (ad-hoc)"
+  },
+  {
+    "id": 7117744,
+    "isActive": true,
+    "name": "PROD HS Cover Designer v11"
   }
 ]

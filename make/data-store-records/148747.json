@@ -1426,6 +1426,14 @@
   {
     "data": {
       "batch": "SCAN-EVENTS",
+      "headline": "Medicare Physician Payments: An Overview of Changes for 2027 and Broader Reform Efforts Under Discussion",
+      "seen_at": "2026-11-20T12:23:57.605Z"
+    },
+    "key": "evt~25d54f5cad4b59d6ed0a385890c6f081"
+  },
+  {
+    "data": {
+      "batch": "SCAN-EVENTS",
       "headline": "ESMO Congress: GI Cancers | ESMO Congress  | OncLive",
       "seen_at": "2026-10-24T11:24:15.147Z"
     },
@@ -1470,6 +1478,22 @@
       "seen_at": "2026-11-14T12:25:40.590Z"
     },
     "key": "evt~32d8cb50eec592be98cc170acb3dda80"
+  },
+  {
+    "data": {
+      "batch": "SCAN-EVENTS",
+      "headline": "Policy Brief: HHS opens funding opp for women’s preventive care",
+      "seen_at": "2026-11-20T12:24:10.716Z"
+    },
+    "key": "evt~3408cf8da855bf9d6a7ce243d376556d"
+  },
+  {
+    "data": {
+      "batch": "SCAN-EVENTS",
+      "headline": "Health AI spend doubles as providers invest in clinical copilots, front-office AI | Healthcare Dive",
+      "seen_at": "2026-11-20T12:24:27.027Z"
+    },
+    "key": "evt~34150a9e651ed85e51d1aa85df483946"
   },
   {
     "data": {
@@ -1622,6 +1646,14 @@
       "seen_at": "2026-11-10T12:24:12.185Z"
     },
     "key": "evt~5ea34187e229e62c17e4a73c632da347"
+  },
+  {
+    "data": {
+      "batch": "SCAN-EVENTS",
+      "headline": "HLTH26: Elsevier adds full patient context to ClinicalKey AI",
+      "seen_at": "2026-11-20T12:24:45.554Z"
+    },
+    "key": "evt~5f88d3528994963b597c857d23a0ebb9"
   },
   {
     "data": {

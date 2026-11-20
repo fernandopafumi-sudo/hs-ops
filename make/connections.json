@@ -9,6 +9,15 @@
     "scoped": true
   },
   {
+    "accountLabel": "Gemini AI",
+    "accountName": "gemini-ai-q9zyjp",
+    "accountType": "basic",
+    "expire": null,
+    "id": 12444726,
+    "name": "Fernando's Gemini AI connection",
+    "scoped": true
+  },
+  {
     "accountLabel": "Google Search Console",
     "accountName": "google-search-console",
     "accountType": "oauth",
@@ -21,7 +30,7 @@
     "accountLabel": "Google Drive",
     "accountName": "google-drive",
     "accountType": "oauth",
-    "expire": "2027-04-18T22:17:05.257Z",
+    "expire": "2027-05-20T13:10:03.105Z",
     "id": 11340939,
     "name": "Google Drive editor@ (full)",
     "scoped": true

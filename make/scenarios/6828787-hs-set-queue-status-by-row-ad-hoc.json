@@ -4,27 +4,19 @@
       {
         "id": 1,
         "mapper": {
-          "dateTimeRenderOption": "FORMATTED_STRING",
-          "filter": [
-            [
-              {
-                "a": "P",
-                "b": "published",
-                "o": "text:equal"
-              },
-              {
-                "a": "AO",
-                "o": "notexist"
-              }
-            ]
-          ],
           "from": "drive",
           "includesHeaders": true,
-          "limit": "30",
+          "mode": "select",
+          "rowNumber": "700",
           "sheetId": "Editorial Queue",
           "spreadsheetId": "1J8ca4Pvp3HTSdHqq9-TZ1H-nF6_fM5R3Jm1bf9bAU8A",
-          "tableFirstRow": "A1:CZ1",
-          "valueRenderOption": "FORMATTED_VALUE"
+          "useColumnHeaders": true,
+          "valueInputOption": "USER_ENTERED",
+          "values": {
+            "Current Step": "reaprobada 2026-11-20 con override (OK Fer): precheck dio todos los claims verificados",
+            "Notes": "PRECHECK-OVERRIDE (OK Fer 2026-11-20: precheck 13 claims, all checked claims supported)",
+            "Status": "approved"
+          }
         },
         "metadata": {
           "designer": {
@@ -32,7 +24,7 @@
             "y": 0
           }
         },
-        "module": "google-sheets:filterRows",
+        "module": "google-sheets:updateRow",
         "parameters": {
           "__IMTCONN__": 8923977
         },
@@ -43,18 +35,189 @@
         "mapper": {
           "from": "drive",
           "includesHeaders": true,
-          "mode": "map",
-          "rowNumber": "{{1.`__ROW_NUMBER__`}}",
+          "mode": "select",
+          "rowNumber": "892",
           "sheetId": "Editorial Queue",
           "spreadsheetId": "1J8ca4Pvp3HTSdHqq9-TZ1H-nF6_fM5R3Jm1bf9bAU8A",
+          "useColumnHeaders": true,
           "valueInputOption": "USER_ENTERED",
           "values": {
-            "40": "manual-row-{{1.`__ROW_NUMBER__`}}"
+            "Current Step": "reaprobada 2026-11-20 con override (OK Fer): precheck dio todos los claims verificados",
+            "Notes": "PRECHECK-OVERRIDE (OK Fer 2026-11-20: precheck 15 claims, all checked claims supported)",
+            "Status": "approved"
           }
         },
         "metadata": {
           "designer": {
-            "x": 300,
+            "x": 200,
+            "y": 0
+          }
+        },
+        "module": "google-sheets:updateRow",
+        "parameters": {
+          "__IMTCONN__": 8923977
+        },
+        "version": 2
+      },
+      {
+        "id": 3,
+        "mapper": {
+          "from": "drive",
+          "includesHeaders": true,
+          "mode": "select",
+          "rowNumber": "425",
+          "sheetId": "Editorial Queue",
+          "spreadsheetId": "1J8ca4Pvp3HTSdHqq9-TZ1H-nF6_fM5R3Jm1bf9bAU8A",
+          "useColumnHeaders": true,
+          "valueInputOption": "USER_ENTERED",
+          "values": {
+            "Current Step": "descartada 2026-11-20 (OK Fer): fecha de patente contradicha y nota vieja",
+            "Status": "discarded"
+          }
+        },
+        "metadata": {
+          "designer": {
+            "x": 400,
+            "y": 0
+          }
+        },
+        "module": "google-sheets:updateRow",
+        "parameters": {
+          "__IMTCONN__": 8923977
+        },
+        "version": 2
+      },
+      {
+        "id": 4,
+        "mapper": {
+          "from": "drive",
+          "includesHeaders": true,
+          "mode": "select",
+          "rowNumber": "558",
+          "sheetId": "Editorial Queue",
+          "spreadsheetId": "1J8ca4Pvp3HTSdHqq9-TZ1H-nF6_fM5R3Jm1bf9bAU8A",
+          "useColumnHeaders": true,
+          "valueInputOption": "USER_ENTERED",
+          "values": {
+            "Current Step": "descartada 2026-11-20 (OK Fer): ya publicada como 36842",
+            "Status": "discarded"
+          }
+        },
+        "metadata": {
+          "designer": {
+            "x": 600,
+            "y": 0
+          }
+        },
+        "module": "google-sheets:updateRow",
+        "parameters": {
+          "__IMTCONN__": 8923977
+        },
+        "version": 2
+      },
+      {
+        "id": 5,
+        "mapper": {
+          "from": "drive",
+          "includesHeaders": true,
+          "mode": "select",
+          "rowNumber": "608",
+          "sheetId": "Editorial Queue",
+          "spreadsheetId": "1J8ca4Pvp3HTSdHqq9-TZ1H-nF6_fM5R3Jm1bf9bAU8A",
+          "useColumnHeaders": true,
+          "valueInputOption": "USER_ENTERED",
+          "values": {
+            "Current Step": "descartada 2026-11-20 (OK Fer): nota vieja y fuente fuera de la evidencia",
+            "Status": "discarded"
+          }
+        },
+        "metadata": {
+          "designer": {
+            "x": 800,
+            "y": 0
+          }
+        },
+        "module": "google-sheets:updateRow",
+        "parameters": {
+          "__IMTCONN__": 8923977
+        },
+        "version": 2
+      },
+      {
+        "id": 6,
+        "mapper": {
+          "from": "drive",
+          "includesHeaders": true,
+          "mode": "select",
+          "rowNumber": "696",
+          "sheetId": "Editorial Queue",
+          "spreadsheetId": "1J8ca4Pvp3HTSdHqq9-TZ1H-nF6_fM5R3Jm1bf9bAU8A",
+          "useColumnHeaders": true,
+          "valueInputOption": "USER_ENTERED",
+          "values": {
+            "Current Step": "descartada 2026-11-20 (OK Fer): ya publicada como 36920",
+            "Status": "discarded"
+          }
+        },
+        "metadata": {
+          "designer": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        "module": "google-sheets:updateRow",
+        "parameters": {
+          "__IMTCONN__": 8923977
+        },
+        "version": 2
+      },
+      {
+        "id": 7,
+        "mapper": {
+          "from": "drive",
+          "includesHeaders": true,
+          "mode": "select",
+          "rowNumber": "869",
+          "sheetId": "Editorial Queue",
+          "spreadsheetId": "1J8ca4Pvp3HTSdHqq9-TZ1H-nF6_fM5R3Jm1bf9bAU8A",
+          "useColumnHeaders": true,
+          "valueInputOption": "USER_ENTERED",
+          "values": {
+            "Current Step": "descartada 2026-11-20 (OK Fer): superpuesta con 36886/36896 y error de atribucion",
+            "Status": "discarded"
+          }
+        },
+        "metadata": {
+          "designer": {
+            "x": 1200,
+            "y": 0
+          }
+        },
+        "module": "google-sheets:updateRow",
+        "parameters": {
+          "__IMTCONN__": 8923977
+        },
+        "version": 2
+      },
+      {
+        "id": 8,
+        "mapper": {
+          "from": "drive",
+          "includesHeaders": true,
+          "mode": "select",
+          "rowNumber": "897",
+          "sheetId": "Editorial Queue",
+          "spreadsheetId": "1J8ca4Pvp3HTSdHqq9-TZ1H-nF6_fM5R3Jm1bf9bAU8A",
+          "useColumnHeaders": true,
+          "valueInputOption": "USER_ENTERED",
+          "values": {
+            "Current Step": "descartada 2026-11-20 (OK Fer): ya publicada como 37071",
+            "Status": "discarded"
+          }
+        },
+        "metadata": {
+          "designer": {
+            "x": 1400,
             "y": 0
           }
         },

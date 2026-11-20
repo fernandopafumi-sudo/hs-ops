@@ -1,1 +1,19 @@
-[]
+[
+  {
+    "createdTime": "2026-11-20T15:39:40.000Z",
+    "fields": {
+      "Account Name": "BMS Brasil",
+      "Agency Group": "Ágora (independiente)",
+      "Article URL": "https://healthsignals.news/bms-and-a-c-camargo-say-their-oncology-risk-sharing-model-can-scale-if-regulators-help/",
+      "Client Account": [
+        "recDqTHTXUHbR7K4w"
+      ],
+      "Reason": "cooldown 7d (y cooldown 3d): Fer escribió a lucas.soares@agora.site (CC raquel.reis, julia.ramires) el 2026-11-19 18:59Z en el hilo 1a18f5731902670d (respuestas de voceros, crédito de fotos, promesa de mandar texto final para conferir citas). Cuenta libre desde 2026-11-22 18:59Z; destinatarios libres desde 2026-11-26 18:59Z. Último chequeo: 2026-11-20.",
+      "Status": "Skipped",
+      "Summary": "BMS Brasil – BMS and A.C.Camargo say their oncology risk-sharing model can scale",
+      "To": "lucas.soares@agora.site\nCC: raquel.reis@agora.site, julia.ramires@agora.site",
+      "WP Post ID": 37089
+    },
+    "id": "recQXEsZnQFFN8oWW"
+  }
+]

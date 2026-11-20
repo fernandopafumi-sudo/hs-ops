@@ -1,11 +1,136 @@
 [
   {
+    "createdTime": "2026-11-20T17:35:17.000Z",
+    "fields": {
+      "Account": "Takeda México",
+      "Active": true,
+      "Agency": "FleishmanHillard",
+      "CC": "leilani.baez@fleishman.com; andres.hernandez@takeda.com",
+      "Client": "Takeda",
+      "Geography": "México",
+      "Language": "es",
+      "Notes": "Dato vigente (comunicado 2026), agencia y contacto interno confirmados.",
+      "To": "adriana.tapia@fleishman.com"
+    },
+    "id": "rec4FNvPIPIRLkEuj"
+  },
+  {
+    "createdTime": "2026-11-20T17:42:04.000Z",
+    "fields": {
+      "Account": "Laboratorios Bagó",
+      "Client": "Bagó",
+      "Geography": "Argentina",
+      "Language": "es",
+      "Notes": "SEGUNDA PASADA (LinkedIn, 20-11-2026): Hernán da Cunha, Public Affairs and Corporate Communications Director de Laboratorios Bagó, Executive Board. Contacto senior confirmado en LinkedIn (sin URL guardada en esta carga). Sin email directo; pendiente InMail."
+    },
+    "id": "rec5Mgqu6BWeqV2le"
+  },
+  {
+    "createdTime": "2026-11-20T17:42:04.000Z",
+    "fields": {
+      "Account": "Laboratorio ELEA Phoenix",
+      "Client": "ELEA Phoenix",
+      "Geography": "Argentina",
+      "Language": "es",
+      "Notes": "SEGUNDA PASADA: sigue en gap. No se encontró contacto de prensa nombrado ni en LinkedIn ni en elea.com, solo canal general info@elea.com (formulario de contacto, no específico de medios).",
+      "To": "info@elea.com"
+    },
+    "id": "rec6aVzZ0UlsJIQlQ"
+  },
+  {
+    "createdTime": "2026-11-20T17:34:25.000Z",
+    "fields": {
+      "Account": "Johnson & Johnson (US, Innovative Medicine)",
+      "Client": "Johnson & Johnson",
+      "Geography": "USA",
+      "Language": "en",
+      "Notes": "GAP PARCIAL: email genérico de Global Media Relations, sin nombre ni tel.",
+      "To": "media-relations@its.jnj.com"
+    },
+    "id": "rec96YyOKqkpPdk5H"
+  },
+  {
+    "createdTime": "2026-11-20T17:35:17.000Z",
+    "fields": {
+      "Account": "Takeda Brasil",
+      "Agency": "Focal3 Comunicação",
+      "Client": "Takeda",
+      "Geography": "Brasil",
+      "Language": "pt",
+      "Notes": "GAP PARCIAL: agencia y nombres/teléfonos confirmados (Priscila Moreira, Elizabeth Boas, Jenifer Carpani), email oculto por protección Cloudflare."
+    },
+    "id": "rec9WIg9FzQrKxBRt"
+  },
+  {
+    "createdTime": "2026-11-20T17:34:25.000Z",
+    "fields": {
+      "Account": "Bayer (US, salud)",
+      "CC": "Nicole.Hayes@bayer.com",
+      "Client": "Bayer",
+      "Geography": "USA",
+      "Language": "en",
+      "Notes": "GAP PARCIAL: comunicación corporativa general, no separa contacto de pharma/salud.",
+      "To": "USmediainquiries@bayer.com"
+    },
+    "id": "recBSBLULdExtD9AT"
+  },
+  {
+    "createdTime": "2026-11-20T17:35:17.000Z",
+    "fields": {
+      "Account": "Novo Nordisk Argentina",
+      "Agency": "LLYC (solo campaña puntual)",
+      "Client": "Novo Nordisk",
+      "Geography": "Argentina",
+      "Language": "es",
+      "Notes": "GAP PARCIAL: LLYC confirmado solo para una campaña de obesidad (fuente EIKON 2024), no relación permanente confirmada. Sin contacto de persona."
+    },
+    "id": "recC6I5VuT6bHCFVd"
+  },
+  {
+    "createdTime": "2026-11-20T17:34:25.000Z",
+    "fields": {
+      "Account": "Novartis Chile",
+      "Agency": "Kreab",
+      "Client": "Novartis",
+      "Geography": "Chile",
+      "Language": "es",
+      "Notes": "GAP PARCIAL: fuente es postulación a premios autodescrita por Kreab/Novartis, no verificación independiente. Contacto Diego Basly (Kreab) sin email. Verificar antes de usar."
+    },
+    "id": "recC6t0pDMrPRf3jd"
+  },
+  {
+    "createdTime": "2026-11-20T17:34:25.000Z",
+    "fields": {
+      "Account": "Eli Lilly (US)",
+      "Client": "Eli Lilly",
+      "Geography": "USA",
+      "Language": "en",
+      "Notes": "GAP PARCIAL: solo email genérico corporativo.",
+      "To": "COMMUNICATIONS_CORPORATE@lilly.com"
+    },
+    "id": "recCVoZqGcjd6p8aa"
+  },
+  {
+    "createdTime": "2026-11-20T17:35:17.000Z",
+    "fields": {
+      "Account": "Pfizer Brasil",
+      "Client": "Pfizer",
+      "Geography": "Brasil",
+      "Language": "pt",
+      "Notes": "GAP PARCIAL: solo teléfono en release sin identificar como prensa/agencia (11) 36432907."
+    },
+    "id": "recDR17kLjFQseVz4"
+  },
+  {
     "createdTime": "2026-11-13T19:00:21.000Z",
     "fields": {
       "Account": "BMS Brasil",
       "Active": true,
       "Agency": "Ágora",
       "Agency Group": "Ágora (independiente)",
+      "Agency Sends": [
+        "recQXEsZnQFFN8oWW"
+      ],
       "CC": "raquel.reis@agora.site\njulia.ramires@agora.site",
       "Client": "Bristol Myers Squibb",
       "Contacts": [
@@ -23,6 +148,71 @@
       "To": "lucas.soares@agora.site"
     },
     "id": "recDqTHTXUHbR7K4w"
+  },
+  {
+    "createdTime": "2026-11-20T17:35:17.000Z",
+    "fields": {
+      "Account": "GSK Argentina",
+      "Agency": "Infomedia (sin confirmar)",
+      "Client": "GSK",
+      "Geography": "Argentina",
+      "Language": "es",
+      "Notes": "GAP PARCIAL: comunicado de 2021 (ViiV/Dovato) no aclara si Piera Basile trabaja para GSK, ViiV o Infomedia. Verificar antes de usar.",
+      "To": "pierabasile@infomedia.consulting"
+    },
+    "id": "recEWgursGQCLZGc9"
+  },
+  {
+    "createdTime": "2026-11-20T17:35:17.000Z",
+    "fields": {
+      "Account": "Cristália",
+      "Active": true,
+      "Client": "Cristália",
+      "Geography": "Brasil",
+      "Language": "pt",
+      "Notes": "Dato completo (contacto directo in-house, no agencia). Lidia Andreatta, Diretora de Marketing e Comunicação. Tel (11) 98364-4442.",
+      "To": "lidia.andreatta@cristalia.com.br"
+    },
+    "id": "recEyEqifZJ8AQD2L"
+  },
+  {
+    "createdTime": "2026-11-20T17:35:17.000Z",
+    "fields": {
+      "Account": "Novo Nordisk Brasil",
+      "Active": true,
+      "Agency": "Burson (inferido por dominio de email, no declarado explícitamente)",
+      "CC": "gabriela.castilho@bursonglobal.com; ana.sniesko@bursonglobal.com",
+      "Client": "Novo Nordisk",
+      "Geography": "Brasil",
+      "Language": "pt",
+      "Notes": "Dato completo en contactos; agencia 'Burson' es inferencia por dominio bursonglobal.com, marcar a confirmar.",
+      "To": "ENPS@novonordisk.com"
+    },
+    "id": "recFan1LioIkHHc9d"
+  },
+  {
+    "createdTime": "2026-11-20T17:34:25.000Z",
+    "fields": {
+      "Account": "Vertex Pharmaceuticals (US)",
+      "Client": "Vertex Pharmaceuticals",
+      "Geography": "USA",
+      "Language": "en",
+      "Notes": "GAP PARCIAL: email y teléfono genéricos, sin nombre.",
+      "To": "mediainfo@vrtx.com"
+    },
+    "id": "recHcnfDclwW9dQjw"
+  },
+  {
+    "createdTime": "2026-11-20T17:34:25.000Z",
+    "fields": {
+      "Account": "Pfizer Chile",
+      "Agency": "Tironi Asociados",
+      "Client": "Pfizer",
+      "Geography": "Chile",
+      "Language": "es",
+      "Notes": "GAP DE VIGENCIA: nota de 2021, no confirmado si sigue vigente 5 años después. Sin contacto nombrado."
+    },
+    "id": "recHzgZtpYWN16LLL"
   },
   {
     "createdTime": "2026-11-13T19:00:21.000Z",
@@ -46,6 +236,55 @@
       "To": "bruna.guimaraes@oficina.ci"
     },
     "id": "recIZhCWSApoF7jn1"
+  },
+  {
+    "createdTime": "2026-11-20T17:42:04.000Z",
+    "fields": {
+      "Account": "Laboratorios Richmond",
+      "Client": "Richmond",
+      "Geography": "Argentina",
+      "Language": "es",
+      "Notes": "SEGUNDA PASADA (LinkedIn, 20-11-2026): Daiana Sánchez, Lic. en Comunicación, Project Manager del área Comunicación y Campañas en Laboratorios Richmond. linkedin.com/in/daiana-sanchez-. Sin email directo; pendiente InMail."
+    },
+    "id": "recIqs1ZF7BvgO4eg"
+  },
+  {
+    "createdTime": "2026-11-20T17:35:17.000Z",
+    "fields": {
+      "Account": "Sofgen Pharma (ex-Procaps)",
+      "Client": "Sofgen Pharma",
+      "Geography": "Colombia",
+      "Language": "es",
+      "Notes": "GAP PARCIAL: es contacto de Investor Relations (Melissa Angelini), no de prensa. Dos emails distintos aparecen en el sitio (ir@procapsgroup.com también), inconsistencia a verificar.",
+      "To": "ir@SofgenPharma.com"
+    },
+    "id": "recLY6x4AClnYruAj"
+  },
+  {
+    "createdTime": "2026-11-20T17:34:25.000Z",
+    "fields": {
+      "Account": "AbbVie (US)",
+      "Active": true,
+      "CC": "stephanie.tennessen@abbvie.com; shant.salakian@abbvie.com",
+      "Client": "AbbVie",
+      "Geography": "USA",
+      "Language": "en",
+      "Notes": "Dato completo. Catherine Langel (corporativo) + 4 contactos por área terapéutica (immunology/oncology/specialty/neuroscience).",
+      "To": "catherine.langel@abbvie.com"
+    },
+    "id": "recMRsbQPDYb7tzlX"
+  },
+  {
+    "createdTime": "2026-11-20T17:34:25.000Z",
+    "fields": {
+      "Account": "Bristol Myers Squibb (US)",
+      "Client": "Bristol Myers Squibb",
+      "Geography": "USA",
+      "Language": "en",
+      "Notes": "GAP PARCIAL: solo email genérico.",
+      "To": "media@bms.com"
+    },
+    "id": "recNTD0nFpM6ladoK"
   },
   {
     "createdTime": "2026-11-13T19:00:21.000Z",
@@ -72,6 +311,30 @@
     "id": "recNf25axQjosXbPO"
   },
   {
+    "createdTime": "2026-11-20T17:35:17.000Z",
+    "fields": {
+      "Account": "GSK Brasil",
+      "Agency": "Burson (inferido por dominio de email)",
+      "Client": "GSK",
+      "Geography": "Brasil",
+      "Language": "pt",
+      "Notes": "GAP PARCIAL: email de prensa confirmado; agencia 'Burson' es inferencia por dominio, no declaración explícita.",
+      "To": "gskbrasil@bursonglobal.com"
+    },
+    "id": "recP2GsfA5BPNkTlo"
+  },
+  {
+    "createdTime": "2026-11-20T17:42:04.000Z",
+    "fields": {
+      "Account": "Bayer Colombia",
+      "Client": "Bayer",
+      "Geography": "Colombia",
+      "Language": "es",
+      "Notes": "HALLAZGO NUEVO no pedido (surgió en la búsqueda de Novartis Colombia): Diego Barreto Cajigas, Regional Communications Lead, Corporate Affairs #TeamBayer región NORLA (incluye Colombia). Sin email directo; pendiente InMail."
+    },
+    "id": "recSnZtuuhU0y9bdn"
+  },
+  {
     "createdTime": "2026-11-13T19:00:21.000Z",
     "fields": {
       "Account": "Sanofi México",
@@ -96,6 +359,44 @@
       "To": "elsa.arguelles@omc.com"
     },
     "id": "recSpelmQ8Pvt7XHg"
+  },
+  {
+    "createdTime": "2026-11-20T17:35:17.000Z",
+    "fields": {
+      "Account": "Sanofi México",
+      "Active": true,
+      "Agency": "Porter Novelli México",
+      "CC": "paola.maldonado@omc.com; silvana.blancas@omc.com",
+      "Client": "Sanofi",
+      "Geography": "México",
+      "Language": "es",
+      "Notes": "Dato completo y vigente. Pie de prensa oficial de comunicado Sanofi México (grupo Omnicom/OMC), 3 contactos con tel.",
+      "To": "elsa.arguelles@omc.com"
+    },
+    "id": "recT99kAyTOFJU9Uq"
+  },
+  {
+    "createdTime": "2026-11-20T17:34:25.000Z",
+    "fields": {
+      "Account": "Roche/Genentech (US)",
+      "Client": "Roche",
+      "Geography": "USA",
+      "Language": "en",
+      "Notes": "GAP PARCIAL: solo formulario de contacto de medios, sin email ni nombre."
+    },
+    "id": "recUEspXfCh3yZ7ru"
+  },
+  {
+    "createdTime": "2026-11-20T17:35:17.000Z",
+    "fields": {
+      "Account": "Laboratorios Silanes",
+      "Agency": "CEF&RP Comunicación Efectiva",
+      "Client": "Laboratorios Silanes",
+      "Geography": "México",
+      "Language": "es",
+      "Notes": "GAP PARCIAL: Hugo Lobato / Gloria Calleja con celulares confirmados pero emails ofuscados, no se pudieron leer."
+    },
+    "id": "recUcP7YMg6XHowyh"
   },
   {
     "createdTime": "2026-11-13T19:00:21.000Z",
@@ -140,6 +441,209 @@
     "id": "recWMOlU1Iac0zJwl"
   },
   {
+    "createdTime": "2026-11-20T17:35:17.000Z",
+    "fields": {
+      "Account": "Johnson & Johnson Colombia (Innovative Medicine)",
+      "Client": "Johnson & Johnson",
+      "Geography": "Colombia",
+      "Language": "es",
+      "Notes": "GAP PARCIAL: es canal de InfoCenter (farmacovigilancia/pacientes), no confirmado como canal de prensa.",
+      "To": "InfocenterCO@its.jnj.com"
+    },
+    "id": "recWNNMRlhgz8Ag3U"
+  },
+  {
+    "createdTime": "2026-11-20T17:34:25.000Z",
+    "fields": {
+      "Account": "Gilead Sciences (US)",
+      "Client": "Gilead Sciences",
+      "Geography": "USA",
+      "Language": "en",
+      "Notes": "GAP PARCIAL: solo email genérico.",
+      "To": "public_affairs@gilead.com"
+    },
+    "id": "recYEPdZNSlQAAQUm"
+  },
+  {
+    "createdTime": "2026-11-20T17:42:04.000Z",
+    "fields": {
+      "Account": "Novartis Colombia",
+      "Client": "Novartis",
+      "Geography": "Colombia",
+      "Language": "es",
+      "Notes": "SEGUNDA PASADA (LinkedIn, 20-11-2026): Nancy Rojas Londoño, Comms & Patient Advocacy Head en Novartis Colombia (también María Teresa Díaz, Senior Communication & Patient Advocacy Manager, como alternativa). Sin email directo; pendiente InMail."
+    },
+    "id": "recYsVOkxJrfSwDNn"
+  },
+  {
+    "createdTime": "2026-11-20T17:35:17.000Z",
+    "fields": {
+      "Account": "Novartis Brasil",
+      "Active": true,
+      "Agency": "Edelman",
+      "CC": "matheus.henrique@edelman.com; beatriz.mendes@edelman.com; juliana.vieira@edelman.com",
+      "Client": "Novartis",
+      "Geography": "Brasil",
+      "Language": "pt",
+      "Notes": "Dato completo. 10 contactos listados en página oficial de medios de Novartis, todos @edelman.com, divididos por área (Corporate Affairs / Innovative Medicines).",
+      "To": "andressa.scaldaferri@edelman.com"
+    },
+    "id": "recZveiZP31tDZVhe"
+  },
+  {
+    "createdTime": "2026-11-20T17:35:17.000Z",
+    "fields": {
+      "Account": "MSD Brasil",
+      "Active": true,
+      "CC": "leticia.silva1@msd.com",
+      "Client": "MSD",
+      "Geography": "Brasil",
+      "Language": "pt",
+      "Notes": "Contacto directo in-house verificado (página oficial de contatos), no agencia externa.",
+      "To": "felipe.cainelli@msd.com"
+    },
+    "id": "recaUXRCL1oUBiQvk"
+  },
+  {
+    "createdTime": "2026-11-20T17:42:04.000Z",
+    "fields": {
+      "Account": "Pfizer Colombia",
+      "Client": "Pfizer",
+      "Geography": "Colombia",
+      "Language": "es",
+      "Notes": "SEGUNDA PASADA (LinkedIn, 20-11-2026): Juliana Villarreal, Director Corporate Affairs / Senior Director Global Policy & Public Affairs, Pfizer (base Colombia). Sin email directo; pendiente InMail."
+    },
+    "id": "recbduoyl11PFASqb"
+  },
+  {
+    "createdTime": "2026-11-20T15:07:06.000Z",
+    "fields": {
+      "Account": "Eurofarma",
+      "Agency": "G&A Relações Públicas (Gaspar)",
+      "Agency Group": "G&A / Gaspar (independiente)",
+      "CC": "carolina.carone@gaspar.com.br\niza.franca@gaspar.com.br",
+      "Client": "Eurofarma",
+      "Contacts": [
+        "recbjEckoyLh7KIle",
+        "recElRD9PsjAcDxRr"
+      ],
+      "Geography": "Brasil (regional LatAm, Tier 2/3 — cliente potencial de HealthSignals)",
+      "Language": "PT",
+      "Notes": "20-11-2026: descubierto por barrido de comunicados propios de Eurofarma (eurofarma.com.br/press-room, eurofarma.cl/press-room — agencia y contactos firman varios comunicados oficiales 2023-2026). Queda Active=false hasta que Fer confirme antes de activar el envío automático.",
+      "To": "imprensaeurofarma@gaspar.com.br"
+    },
+    "id": "reccnthxwKHtoGeOu"
+  },
+  {
+    "createdTime": "2026-11-20T17:34:25.000Z",
+    "fields": {
+      "Account": "Biogen (US)",
+      "Active": true,
+      "Client": "Biogen",
+      "Geography": "USA",
+      "Language": "en",
+      "Notes": "Dato completo. Madeleine Shin, Media Contact.",
+      "To": "public.affairs@biogen.com"
+    },
+    "id": "recdlmRX8wPir91Bx"
+  },
+  {
+    "createdTime": "2026-11-20T17:34:25.000Z",
+    "fields": {
+      "Account": "MSD Chile",
+      "Agency": "Llyc (sin confirmar)",
+      "Client": "MSD",
+      "Geography": "Chile",
+      "Language": "es",
+      "Notes": "GAP PARCIAL: comunicado solo acredita 'Fuente: Llyc' sin aclarar si es agencia de PR o solo distribuidor."
+    },
+    "id": "rece29E2yT0rXAK30"
+  },
+  {
+    "createdTime": "2026-11-20T17:42:04.000Z",
+    "fields": {
+      "Account": "Sanofi Colombia",
+      "Client": "Sanofi",
+      "Geography": "Colombia",
+      "Language": "es",
+      "Notes": "SEGUNDA PASADA (LinkedIn, 20-11-2026): Kathleen Saavedra Ayarde, Public Affairs Project Manager @ Sanofi Colombia. Sin email directo; pendiente InMail."
+    },
+    "id": "recf3BMirKkQfAeMV"
+  },
+  {
+    "createdTime": "2026-11-20T17:34:25.000Z",
+    "fields": {
+      "Account": "Regeneron (US)",
+      "Active": true,
+      "Client": "Regeneron Pharmaceuticals",
+      "Geography": "USA",
+      "Language": "en",
+      "Notes": "Dato completo. Tammy Allen, Media Relations.",
+      "To": "tammy.allen@regeneron.com"
+    },
+    "id": "recfJVFx32DVZ77mG"
+  },
+  {
+    "createdTime": "2026-11-20T17:42:04.000Z",
+    "fields": {
+      "Account": "Laboratorios Roemmers",
+      "Client": "Roemmers",
+      "Geography": "Argentina",
+      "Language": "es",
+      "Notes": "SEGUNDA PASADA (LinkedIn, 20-11-2026): Andrea Anania, Lic. en RR.PP. e Institucionales, Comunicación Interna y Bienestar del Grupo Roemmers Argentina. linkedin.com/in/andrea-anania-739b0445. Sin email directo (LinkedIn no lo muestra sin conexión); pendiente InMail u otra vía para conseguirlo."
+    },
+    "id": "recfLENCBhsCP6YME"
+  },
+  {
+    "createdTime": "2026-11-20T17:34:25.000Z",
+    "fields": {
+      "Account": "Novo Nordisk (US)",
+      "Client": "Novo Nordisk",
+      "Geography": "USA",
+      "Language": "en",
+      "Notes": "GAP PARCIAL: solo formulario y teléfono general de oficina, sin email directo ni nombre."
+    },
+    "id": "recfSH1RwhoGJn7hc"
+  },
+  {
+    "createdTime": "2026-11-20T17:35:17.000Z",
+    "fields": {
+      "Account": "Johnson & Johnson Brasil (Innovative Medicine)",
+      "Active": true,
+      "Agency": "Edelman",
+      "CC": "carolina.massaro@edelman.com; caroline.pellegrino@edelman.com",
+      "Client": "Johnson & Johnson",
+      "Geography": "Brasil",
+      "Language": "pt",
+      "Notes": "Dato completo. Agencia Edelman + contactos internos (lcamar10@its.jnj.com).",
+      "To": "ana.carbonieri@edelman.com"
+    },
+    "id": "recfx4fZ0r1E0okYx"
+  },
+  {
+    "createdTime": "2026-11-20T17:35:17.000Z",
+    "fields": {
+      "Account": "Roche Argentina",
+      "Client": "Roche",
+      "Geography": "Argentina",
+      "Language": "es",
+      "Notes": "GAP PARCIAL: Carolina Dennin, Corporate Affairs and Strategic Communications Lead, nombrada por prensa pero sin email directo. In-house, no agencia."
+    },
+    "id": "recgUOBvLNtw5ShjS"
+  },
+  {
+    "createdTime": "2026-11-20T17:34:25.000Z",
+    "fields": {
+      "Account": "Saval",
+      "Agency": "CBR Comunicación (sin confirmar)",
+      "Client": "Saval",
+      "Geography": "Chile",
+      "Language": "es",
+      "Notes": "GAP PARCIAL: Claudio Bustos (CBR) aparece junto al contacto de Saval pero relación agencia-cliente no afirmada explícitamente."
+    },
+    "id": "recjD4NWnI6Efylrs"
+  },
+  {
     "createdTime": "2026-11-13T19:00:21.000Z",
     "fields": {
       "Account": "GSK Brasil",
@@ -156,6 +660,73 @@
       "To": "gskbrasil@bursonglobal.com"
     },
     "id": "recjcP16PqjxAzVzS"
+  },
+  {
+    "createdTime": "2026-11-20T17:34:25.000Z",
+    "fields": {
+      "Account": "Amgen (US)",
+      "Active": true,
+      "CC": "kshields@amgen.com",
+      "Client": "Amgen",
+      "Geography": "USA",
+      "Language": "en",
+      "Notes": "Dato completo. Melissa Witt (Executive Director) y Katherine Shields. Equipo propio.",
+      "To": "mwitt01@amgen.com"
+    },
+    "id": "recknVKb3j7W2iaAg"
+  },
+  {
+    "createdTime": "2026-11-20T17:35:17.000Z",
+    "fields": {
+      "Account": "Sanofi Argentina",
+      "Active": true,
+      "Client": "Sanofi",
+      "Geography": "Argentina",
+      "Language": "es",
+      "Notes": "Dato completo (contacto directo, no agencia). Daniela Raposo, Head Public Affairs and Comms South Cone. Fuente: comunicado oficial, sección Relaciones con los Medios.",
+      "To": "daniela.raposo@sanofi.com"
+    },
+    "id": "recl2B61BF6COV8mF"
+  },
+  {
+    "createdTime": "2026-11-20T17:35:17.000Z",
+    "fields": {
+      "Account": "Takeda Argentina",
+      "Active": true,
+      "Agency": "JM Oribe Comunicaciones",
+      "Client": "Takeda",
+      "Geography": "Argentina",
+      "Language": "es",
+      "Notes": "Dato completo. José María Oribe, sección 'Contacto de Prensa' en comunicado oficial. Tel +54 9 11 5412-0205, email protegido anti-spam."
+    },
+    "id": "recmzhwSQ0BT2y0gO"
+  },
+  {
+    "createdTime": "2026-11-20T17:34:25.000Z",
+    "fields": {
+      "Account": "Pfizer (US)",
+      "Client": "Pfizer",
+      "Geography": "USA",
+      "Language": "en",
+      "Notes": "GAP PARCIAL: email y tel genéricos, sin nombre de persona.",
+      "To": "PfizerMediaRelations@pfizer.com"
+    },
+    "id": "recn3cElgnjn89DWy"
+  },
+  {
+    "createdTime": "2026-11-20T17:34:25.000Z",
+    "fields": {
+      "Account": "Bristol Myers Squibb Chile",
+      "Active": true,
+      "Agency": "Quantico PR",
+      "CC": "mariana.stornini@bms.com",
+      "Client": "Bristol Myers Squibb",
+      "Geography": "Chile",
+      "Language": "es",
+      "Notes": "Fuente: comunicado oficial BMS Chile con sección 'Contactos de Prensa' (Fernando Caro Quantico PR + Mariana Stornini BMS). Dato sólido.",
+      "To": "fernando@estudioquantico.cl"
+    },
+    "id": "recnI73hhs6PqQk8V"
   },
   {
     "createdTime": "2026-11-13T19:00:21.000Z",
@@ -194,5 +765,93 @@
       "To": "natalia.montoya@jeffreygroup.com"
     },
     "id": "recrzx6w0dsCiKwnL"
+  },
+  {
+    "createdTime": "2026-11-20T17:35:17.000Z",
+    "fields": {
+      "Account": "Hypera Pharma",
+      "Client": "Hypera Pharma",
+      "Geography": "Brasil",
+      "Language": "pt",
+      "Notes": "GAP PARCIAL: canal de prensa oficial confirmado, sin nombre de persona ni agencia.",
+      "To": "imprensa@hypera.com.br"
+    },
+    "id": "recsRQ7yUxso28moy"
+  },
+  {
+    "createdTime": "2026-11-20T17:34:25.000Z",
+    "fields": {
+      "Account": "Sanofi (US)",
+      "Active": true,
+      "CC": "victor.rouault@sanofi.com",
+      "Client": "Sanofi",
+      "Geography": "USA",
+      "Language": "en",
+      "Notes": "Dato completo. Evan Berland y Victor Rouault, US Media Relations (Science & R&D). Equipo propio, sin agencia externa.",
+      "To": "evan.berland@sanofi.com"
+    },
+    "id": "rectwY4TsxPnHw9N0"
+  },
+  {
+    "createdTime": "2026-11-20T17:34:25.000Z",
+    "fields": {
+      "Account": "MSD/Merck (US)",
+      "Client": "Merck & Co.",
+      "Geography": "USA",
+      "Language": "en",
+      "Notes": "GAP PARCIAL: canal genérico 'Global media relations', sin nombre.",
+      "To": "mediarelations@merck.com"
+    },
+    "id": "recuvJo7jcGGb03PO"
+  },
+  {
+    "createdTime": "2026-11-20T17:34:25.000Z",
+    "fields": {
+      "Account": "Takeda (US)",
+      "Client": "Takeda",
+      "Geography": "USA",
+      "Language": "en",
+      "Notes": "GAP PARCIAL: solo email genérico, sin nombre ni tel de medios.",
+      "To": "media_relations@takeda.com"
+    },
+    "id": "recwI6JXKjJwGCMm2"
+  },
+  {
+    "createdTime": "2026-11-20T17:34:25.000Z",
+    "fields": {
+      "Account": "Novartis (US)",
+      "Client": "Novartis",
+      "Geography": "USA",
+      "Language": "en",
+      "Notes": "GAP TOTAL: email ofuscado técnicamente, no se pudo decodificar. Solo switchboard corporativo."
+    },
+    "id": "recx7zZ08UNHhB1zs"
+  },
+  {
+    "createdTime": "2026-11-20T17:35:17.000Z",
+    "fields": {
+      "Account": "Bristol Myers Squibb México",
+      "Agency": "Agencia dominio seisgradosc.mx (nombre no confirmado)",
+      "CC": "alonso.zepeda@bms.com",
+      "Client": "Bristol Myers Squibb",
+      "Geography": "México",
+      "Language": "es",
+      "Notes": "GAP PARCIAL: Vanessa Escobar (agencia, dominio seisgradosc.mx) + Alonso Zepeda (BMS interno). Nombre comercial de la agencia no confirmado en el texto.",
+      "To": "vanessa@seisgradosc.mx"
+    },
+    "id": "recxDi75XTTDLXSDP"
+  },
+  {
+    "createdTime": "2026-11-20T17:34:25.000Z",
+    "fields": {
+      "Account": "GSK (US)",
+      "Active": true,
+      "Client": "GSK",
+      "Geography": "USA",
+      "Language": "en",
+      "Notes": "Dato completo. Kathleen K. Quinn, VP US Corporate Media Relations. Hay además 4 contactos por área terapéutica, pendientes de cargar si se necesitan.",
+      "To": "Kathleen.x.quinn@gsk.com"
+    },
+    "id": "reczXG4uh77S5bKOa"
   }
 ]

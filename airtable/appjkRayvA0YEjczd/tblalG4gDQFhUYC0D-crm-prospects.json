@@ -188,6 +188,17 @@
     "id": "rec1M8AupMXZTmgrh"
   },
   {
+    "createdTime": "2026-11-19T21:04:40.000Z",
+    "fields": {
+      "Collected_At": "2026-11-19",
+      "Company": "Amgen",
+      "Email": "amatus01@amgen.com",
+      "Name": "Ariosto Matus",
+      "Notes": "De EI CONTACT LIST.pdf (Economist Impact), vía Drive personal de Fer. Ya en memoria /people/ariosto-matus.md."
+    },
+    "id": "rec1UGsROhk29ihHp"
+  },
+  {
     "createdTime": "2026-10-18T17:41:24.000Z",
     "fields": {
       "Approval": "Pending Review",
@@ -896,6 +907,17 @@
       "Stage": "New"
     },
     "id": "rec4FiWorqkbQfIMT"
+  },
+  {
+    "createdTime": "2026-11-19T21:04:40.000Z",
+    "fields": {
+      "Collected_At": "2026-11-19",
+      "Company": "Abbott LATAM",
+      "Email": "pilar.espinosa@abbott.com",
+      "Name": "Pilar Espinosa",
+      "Notes": "De EI CONTACT LIST.pdf (Economist Impact), vía Drive personal de Fer."
+    },
+    "id": "rec4Ij8NO9Ku2CxVj"
   },
   {
     "createdTime": "2026-10-18T18:02:31.000Z",
@@ -2985,6 +3007,17 @@
     "id": "recBs8RY6fySQlDKP"
   },
   {
+    "createdTime": "2026-11-19T21:04:40.000Z",
+    "fields": {
+      "Collected_At": "2026-11-19",
+      "Company": "MSD",
+      "Email": "margarita.restrepo@merck.com",
+      "Name": "Margarita Restrepo",
+      "Notes": "De EI CONTACT LIST.pdf (Economist Impact), vía Drive personal de Fer."
+    },
+    "id": "recBsWGouMYpZI19i"
+  },
+  {
     "createdTime": "2026-06-21T17:21:49.000Z",
     "fields": {
       "Approval": "Pending Review",
@@ -4601,6 +4634,17 @@
     "id": "recIJwhTxCFMgiMBb"
   },
   {
+    "createdTime": "2026-11-19T21:04:40.000Z",
+    "fields": {
+      "Collected_At": "2026-11-19",
+      "Company": "Amgen",
+      "Email": "vtzouma@amgen.com",
+      "Name": "Victoria Tzouma",
+      "Notes": "De EI CONTACT LIST.pdf (Economist Impact), vía Drive personal de Fer."
+    },
+    "id": "recIM0ogKhm6Meiza"
+  },
+  {
     "createdTime": "2026-10-17T19:32:30.000Z",
     "fields": {
       "Approval": "Pending Review",
@@ -5019,6 +5063,18 @@
       "Title": "Emerging Markets Specialty Care & Latam Access Team Lead"
     },
     "id": "recKBmrGnyUhfbdtp"
+  },
+  {
+    "createdTime": "2026-11-19T21:04:40.000Z",
+    "fields": {
+      "Collected_At": "2026-11-19",
+      "Company": "BeiGene",
+      "Email": "rafael.souza@beigene.com",
+      "Name": "Rafael Souza",
+      "Notes": "De EI CONTACT LIST.pdf (Economist Impact), vía Drive personal de Fer.",
+      "Title": "Market Access Director LATAM"
+    },
+    "id": "recKCht77onJOPDbJ"
   },
   {
     "createdTime": "2026-10-17T19:42:21.000Z",
@@ -5871,12 +5927,12 @@
       "Email": "diana.tellez@merckgroup.com",
       "First_Name": "Diana",
       "ICP_Fit": "A",
-      "Last_Contacted": "2026-10-26",
+      "Last_Contacted": "2026-11-18",
       "Last_Name": "Téllez",
       "Name": "Diana Téllez",
       "Next_Action": "Reunión Teams con Juliana Restrepo (organizadora): propuesta tumores desmoides / Ogsiveo LatAm",
       "Next_Action_Date": "2026-11-11",
-      "Notes": "Contacto cálido (champion interno). Firma: Diana Téllez, MD, MPH, DBA; Merck S.A., Financial Park Tower piso 34, Panamá; móvil +507 6314-8235.\n2026-10-26: Fer le mandó ejemplo de abordaje (artículo + serie + special report para pagadores/HTA) y el artículo sobre NICE/nirogacestat; ella lo pasó a Juliana Restrepo diciendo que puede apoyar el lanzamiento de Ogsiveo en LatAm.\n2026-11-11 11:00 Miami: reunión Teams (Diana invitada, sin confirmar al 08/11). Approval en Pending Review para que ningún scenario la contacte automáticamente.\n[Merge 17-11-2026] Fusionado el duplicado rec5TynU16RDBrYJo (creado 18-10-2026), que quedó borrado; su vínculo al Deal \"Merck KGaA — artículo o serie de artículos (sarcomas / tumores raros)\" se pasó a este registro. Notas del duplicado: \"Pidió RFP risk assessment Colombia (abr-2025); organizó meeting regional nov-2024; PO PVS nov-2024. Panamá. Último contacto: 2025-04-21. Origen: barrido Gmail personal 18-10-2026, hilo 19612071ec3f17bb. Relación vía PVS/Economist: reconectar, no cold. Ex cliente de Fer (Merck Group, PVS). Next_Action previo (18-10-2026): Verificar cargo y empresa actual antes de contactar.\" Valores alternativos del duplicado, no pisados acá — Title: \"Head of GVAP Operations Latin America (2025)\"; Stage: New; Next_Action: \"Ex cliente: ofrecer HealthSignals (founding partner) cuando arranque outreach\".",
+      "Notes": "Contacto cálido (champion interno). Firma: Diana Téllez, MD, MPH, DBA; Merck S.A., Financial Park Tower piso 34, Panamá; móvil +507 6314-8235.\n2026-10-26: Fer le mandó ejemplo de abordaje (artículo + serie + special report para pagadores/HTA) y el artículo sobre NICE/nirogacestat; ella lo pasó a Juliana Restrepo diciendo que puede apoyar el lanzamiento de Ogsiveo en LatAm.\n2026-11-11 11:00 Miami: reunión Teams (Diana invitada, sin confirmar al 08/11). Approval en Pending Review para que ningún scenario la contacte automáticamente.\n[Merge 17-11-2026] Fusionado el duplicado rec5TynU16RDBrYJo (creado 18-10-2026), que quedó borrado; su vínculo al Deal \"Merck KGaA — artículo o serie de artículos (sarcomas / tumores raros)\" se pasó a este registro. Notas del duplicado: \"Pidió RFP risk assessment Colombia (abr-2025); organizó meeting regional nov-2024; PO PVS nov-2024. Panamá. Último contacto: 2025-04-21. Origen: barrido Gmail personal 18-10-2026, hilo 19612071ec3f17bb. Relación vía PVS/Economist: reconectar, no cold. Ex cliente de Fer (Merck Group, PVS). Next_Action previo (18-10-2026): Verificar cargo y empresa actual antes de contactar.\" Valores alternativos del duplicado, no pisados acá — Title: \"Head of GVAP Operations Latin America (2025)\"; Stage: New; Next_Action: \"Ex cliente: ofrecer HealthSignals (founding partner) cuando arranque outreach\".\n2026-11-19 (barrido contactos): en copia del mail del 18-11 21:13 UTC a Juliana Restrepo con la propuesta de ejemplo genérica (hilo 1a1f081c3cda0386).",
       "Preferred_Channel": "Email",
       "Region": "LATAM",
       "Segment": "Pharma",
@@ -8483,6 +8539,17 @@
     "id": "recXuMSCjI248sWu2"
   },
   {
+    "createdTime": "2026-11-19T21:04:40.000Z",
+    "fields": {
+      "Collected_At": "2026-11-19",
+      "Company": "Amgen",
+      "Email": "howens@amgen.com",
+      "Name": "Holly Owens",
+      "Notes": "De EI CONTACT LIST.pdf (Economist Impact), vía Drive personal de Fer."
+    },
+    "id": "recXzmpOSjgXOH9nu"
+  },
+  {
     "createdTime": "2026-10-18T13:39:41.000Z",
     "fields": {
       "Approval": "Pending Review",
@@ -8539,6 +8606,17 @@
       "Stage": "New"
     },
     "id": "recYBWQg3JBYGAsD8"
+  },
+  {
+    "createdTime": "2026-11-19T21:04:40.000Z",
+    "fields": {
+      "Collected_At": "2026-11-19",
+      "Company": "Pfizer LATAM",
+      "Email": "patricia.a.dreosso@pfizer.com",
+      "Name": "Patricia Dreosso",
+      "Notes": "De EI CONTACT LIST.pdf (Economist Impact), vía Drive personal de Fer."
+    },
+    "id": "recYG2XUHm3FK83If"
   },
   {
     "createdTime": "2026-10-18T13:36:37.000Z",
@@ -9404,6 +9482,18 @@
     "id": "recbLzqqQR9U5lzZW"
   },
   {
+    "createdTime": "2026-11-19T21:04:40.000Z",
+    "fields": {
+      "Collected_At": "2026-11-19",
+      "Company": "GSK Consumer Healthcare",
+      "Email": "mariana.x.lucena@haelon.com",
+      "Name": "Mariana Lucena",
+      "Notes": "De EI CONTACT LIST.pdf (Economist Impact), vía Drive personal de Fer.",
+      "Title": "Corporate Affairs Head Colombia"
+    },
+    "id": "recbTTPBkjSEm95Fm"
+  },
+  {
     "createdTime": "2026-10-17T22:31:08.000Z",
     "fields": {
       "Approval": "Pending Review",
@@ -9943,12 +10033,12 @@
       "Country": "USA",
       "Email": "harold.hamana@knight-pawn.com",
       "First_Name": "Harold",
-      "Last_Contacted": "2026-11-12",
+      "Last_Contacted": "2026-11-18",
       "Last_Name": "Hamana",
       "Name": "Harold Hamana",
       "Next_Action": "Ver si Harold movió la oferta low-cost de fin de año con Bayer/J&J; si no, reactivar en enero para Q1 2027",
       "Next_Action_Date": "2026-11-30",
-      "Notes": "Canal/intermediario (no comprador directo). Firma: T 305.527.8560, 951 Brickell Ave, Suite 3411, Miami FL 33131; knight-pawn.com.\n2026-10-22: Fer le mandó one-pager Founding Partner (5 asientos, uno por sección; Policy & Markets como fit de market access) desde su Gmail personal.\n2026-10-26: respondió: lo compartió con su equipo de salud (feedback a fin de semana); lo comentó como teaser con J&J y GSK; pide permiso para compartirles el Brief de ejemplo; busca cómo aterrizar un cliente anchor; pregunta qué precio tiene Founding Partner.\n2026-10-26: Fer le dio referencia de precio (asiento completo ~USD 32,000/año, versiones menores) y OK para compartir el Brief. Harold: lo presenta como proyecto editorial de HS y como capability de K&P, caso por caso.\n2026-10-28: Fer respondió desde editor@ ('quedo atento la semana que viene') y ofreció armarle una página de Founding Partner con ejemplos del Brief y Voices.\n2026-11-11: Fer hizo follow-up preguntando por J&J.\n2026-11-12: Harold: de los candidatos conversados, solo Bayer y J&J parecen opciones, ambos para Q1 2027; seguirán intentando pero todo apunta al año próximo. Fer respondió proponiendo ofrecerles algo a muy bajo precio con presupuesto sobrante de fin de año.\nApproval en Pending Review para que ningún scenario lo contacte automáticamente: lo maneja Fer.",
+      "Notes": "Canal/intermediario (no comprador directo). Firma: T 305.527.8560, 951 Brickell Ave, Suite 3411, Miami FL 33131; knight-pawn.com.\n2026-10-22: Fer le mandó one-pager Founding Partner (5 asientos, uno por sección; Policy & Markets como fit de market access) desde su Gmail personal.\n2026-10-26: respondió: lo compartió con su equipo de salud (feedback a fin de semana); lo comentó como teaser con J&J y GSK; pide permiso para compartirles el Brief de ejemplo; busca cómo aterrizar un cliente anchor; pregunta qué precio tiene Founding Partner.\n2026-10-26: Fer le dio referencia de precio (asiento completo ~USD 32,000/año, versiones menores) y OK para compartir el Brief. Harold: lo presenta como proyecto editorial de HS y como capability de K&P, caso por caso.\n2026-10-28: Fer respondió desde editor@ ('quedo atento la semana que viene') y ofreció armarle una página de Founding Partner con ejemplos del Brief y Voices.\n2026-11-11: Fer hizo follow-up preguntando por J&J.\n2026-11-12: Harold: de los candidatos conversados, solo Bayer y J&J parecen opciones, ambos para Q1 2027; seguirán intentando pero todo apunta al año próximo. Fer respondió proponiendo ofrecerles algo a muy bajo precio con presupuesto sobrante de fin de año.\nApproval en Pending Review para que ningún scenario lo contacte automáticamente: lo maneja Fer.\n2026-11-19 (barrido contactos): el 18-11 21:14 UTC Fer le mandó una propuesta de ejemplo genérica para usar con sus clientes (hilo 1a17a0ad8bcfadbc). Sin respuesta al 19-11.",
       "Offer_Interest": [
         "Founding Partner"
       ],
@@ -10733,6 +10823,17 @@
       "Title": "Technical Director - Regulatory Affairs Manager Chile, Paraguay, Uruguay"
     },
     "id": "recfwrCy46lq6yFLe"
+  },
+  {
+    "createdTime": "2026-11-19T21:04:40.000Z",
+    "fields": {
+      "Collected_At": "2026-11-19",
+      "Company": "Medtronic",
+      "Email": "renato.amorim@medtronic.com",
+      "Name": "Renato Amorim",
+      "Notes": "De EI CONTACT LIST.pdf (Economist Impact), vía Drive personal de Fer."
+    },
+    "id": "recfxPUhjs0i4upiw"
   },
   {
     "createdTime": "2026-10-17T19:36:20.000Z",
@@ -12660,19 +12761,19 @@
       "Email": "ricardo.blanco1@astrazeneca.com",
       "First_Name": "Ricardo",
       "ICP_Fit": "A",
-      "Last_Contacted": "2026-11-17",
+      "Last_Contacted": "2026-11-18",
       "Last_Name": "Blanco",
       "Name": "Ricardo Blanco",
       "Next_Action": "Enviar propuesta AZ México (doc) y proponer llamada semana 24-11",
       "Next_Action_Date": "2026-11-18",
-      "Notes": "Contacto directo de Fer. 17-11-2026: respondió abriendo dos vías (editorial y pagada), caso por caso, sujeto a regulación MX; pidió formatos, audiencias, alcance y propuesta comercial. Puso en copia a Julieta Peralta y Jaqueline Martínez Trejo (Adecco). Cargo no confirmado. Propuesta: doc 'Propuesta HealthSignals para AstraZeneca México — noviembre 2026'.",
+      "Notes": "Contacto directo de Fer. 17-11-2026: respondió abriendo dos vías (editorial y pagada), caso por caso, sujeto a regulación MX; pidió formatos, audiencias, alcance y propuesta comercial. Puso en copia a Julieta Peralta y Jaqueline Martínez Trejo (Adecco). Cargo no confirmado. Propuesta: doc 'Propuesta HealthSignals para AstraZeneca México — noviembre 2026'.\n2026-11-19 (barrido contactos): el 18-11 21:09 UTC Fer envió la propuesta (programa de contenido estratégico de seis meses para AstraZeneca México, enero a junio 2027) a Ricardo, CC Julieta Peralta y Jaqueline Martínez Trejo (hilo 1a1f07d15e188dff). Stage → Proposal Sent. Sin respuesta al 19-11. Ojo: hay un registro viejo de Ricardo Blanco sin email (recpwHKFgEoG1UGVi) que parece duplicado; no se tocó.",
       "Preferred_Channel": "Email",
       "Proposals": [
         "recoA0CwGvQrKGCZQ"
       ],
       "Segment": "Pharma",
       "Source": "Manual",
-      "Stage": "Proposal"
+      "Stage": "Proposal Sent"
     },
     "id": "recnyKXbnViVgs871"
   },
@@ -12941,12 +13042,12 @@
       "Email": "juliana.restrepo@merckgroup.com",
       "First_Name": "Juliana",
       "ICP_Fit": "A",
-      "Last_Contacted": "2026-11-05",
+      "Last_Contacted": "2026-11-18",
       "Last_Name": "Restrepo Palacio",
       "Name": "Juliana Restrepo Palacio",
       "Next_Action": "Reunión Teams con Juliana + Diana Téllez: propuesta tumores desmoides / Ogsiveo LatAm",
       "Next_Action_Date": "2026-11-11",
-      "Notes": "Envió estructura del risk assessment Colombia. Último contacto: 2025-04-21. Origen: barrido Gmail personal 18-10-2026, hilo 19612071ec3f17bb. Relación vía PVS/Economist: reconectar, no cold.\nEx cliente de Fer (Merck Group, PVS).\n2026-10-26: Diana Téllez (GVAP Global Brand Lead Ogsiveo) le pasó la propuesta de HealthSignals (artículos + special report sobre tumores desmoides en LatAm, para pagadores y agencias HTA). Juliana está a cargo del tema.\n2026-11-05: Juliana propuso fechas; Fer confirmó mié 11/11 11:00 Miami. Invitación Teams en el calendario de editor@ (Diana aún sin confirmar).\n2026-11-08 (firma): Merck S.A., Av. Carrera 9 No. 101-67 Of. 501, Bogotá; móvil +57 316 473 8786.",
+      "Notes": "Envió estructura del risk assessment Colombia. Último contacto: 2025-04-21. Origen: barrido Gmail personal 18-10-2026, hilo 19612071ec3f17bb. Relación vía PVS/Economist: reconectar, no cold.\nEx cliente de Fer (Merck Group, PVS).\n2026-10-26: Diana Téllez (GVAP Global Brand Lead Ogsiveo) le pasó la propuesta de HealthSignals (artículos + special report sobre tumores desmoides en LatAm, para pagadores y agencias HTA). Juliana está a cargo del tema.\n2026-11-05: Juliana propuso fechas; Fer confirmó mié 11/11 11:00 Miami. Invitación Teams en el calendario de editor@ (Diana aún sin confirmar).\n2026-11-08 (firma): Merck S.A., Av. Carrera 9 No. 101-67 Of. 501, Bogotá; móvil +57 316 473 8786.\n2026-11-19 (barrido contactos): el 18-11 21:13 UTC Fer le mandó, CC Diana Téllez, una propuesta de ejemplo genérica como seguimiento de la conversación (hilo 1a1f081c3cda0386). Sin respuesta al 19-11.",
       "Preferred_Channel": "Email",
       "Region": "LATAM",
       "Segment": "Pharma",
@@ -14446,6 +14547,18 @@
     "id": "recvGnCYhTSxJlxrg"
   },
   {
+    "createdTime": "2026-11-19T21:04:40.000Z",
+    "fields": {
+      "Collected_At": "2026-11-19",
+      "Company": "Viatris LATAM",
+      "Email": "hilda.low@viatris.com",
+      "Name": "Hilda Low",
+      "Notes": "De EI CONTACT LIST.pdf (Economist Impact), vía Drive personal de Fer.",
+      "Title": "Billing Contact"
+    },
+    "id": "recvJiobsCBFX20Rr"
+  },
+  {
     "createdTime": "2026-10-18T17:45:10.000Z",
     "fields": {
       "Approval": "Pending Review",
@@ -14547,6 +14660,17 @@
       "Stage": "New"
     },
     "id": "recvm2ovfzzT2Scxk"
+  },
+  {
+    "createdTime": "2026-11-19T21:04:40.000Z",
+    "fields": {
+      "Collected_At": "2026-11-19",
+      "Company": "Teva Pharmaceuticals",
+      "Email": "riad.dirani@tevapharm.com",
+      "Name": "Riad Dirani",
+      "Notes": "De EI CONTACT LIST.pdf (Economist Impact), vía Drive personal de Fer."
+    },
+    "id": "recvq5YP8c6ea1fmA"
   },
   {
     "createdTime": "2026-10-17T22:34:40.000Z",
@@ -15226,6 +15350,18 @@
       "Title": "Head of Regulatory Affairs"
     },
     "id": "recyuPTYy4R5X8iPB"
+  },
+  {
+    "createdTime": "2026-11-19T21:04:40.000Z",
+    "fields": {
+      "Collected_At": "2026-11-19",
+      "Company": "FIFARMA",
+      "Email": "slay@fifarma.org",
+      "Name": "Silvana Lay",
+      "Notes": "De EI CONTACT LIST.pdf (Economist Impact), vía Drive personal de Fer.",
+      "Title": "Senior Director, Global"
+    },
+    "id": "recyuiSl4ikhKLYDn"
   },
   {
     "createdTime": "2026-10-18T17:51:27.000Z",

@@ -163,6 +163,15 @@
     "id": "recRX2yRdqEo3fNWK"
   },
   {
+    "createdTime": "2026-11-20T13:16:02.000Z",
+    "fields": {
+      "Change": "HS CEO diario 20-11",
+      "Date": "2026-11-20",
+      "Details": "Mail 'HS decisiones — 20-11 — 10 para decidir' enviado a editor@ (msg 1a1f91958780f215). Publisher: 4 corridas/48 h con borrador (hoy 37098 y 37103), 0 holds; cola 1 approved (fila 946), 4 hold. Nada publicado desde 18-11 (37071); 7 borradores con portada esperando. Make 56 scenarios, 0 DLQ, 6 clave activos; [TEST] 7113631 con 2 errores (WIP). Make pasó a Pro 40k créditos (USD 57,08) y Google Cloud a cuenta paga el 20-11: pedido a Fer que confirme excepción de gasto. Sin ejecuciones de la lista cerrada (nada vencía hoy). Tracker assessment 10/22 cerrados. 10 decisiones pendientes."
+    },
+    "id": "recRlmZxHjVpLJNa7"
+  },
+  {
     "createdTime": "2026-11-19T13:17:03.000Z",
     "fields": {
       "Area": "Otro",
@@ -381,6 +390,17 @@
       "Status": "Deployed"
     },
     "id": "reck1bUaNd8O0j4Hu"
+  },
+  {
+    "createdTime": "2026-11-19T18:31:30.000Z",
+    "fields": {
+      "Area": "Otro",
+      "Change": "Invitaciones Brief 2026-11-19: 25 invitaciones, 15 recordatorios",
+      "Date": "2026-11-19",
+      "Details": "Tope normal 40 (15 recordatorios + 25 invitaciones): rebote 5/216 = 2,3%, sin quejas.\nInvitaciones: voices 1 (IECS), crm 4 (UChile x3, LyD; contacto previo verificado en Gmail), events 2 (UNIDAS, Informa/CPHI), generic 18. Recordatorios: 15 press del 05-11.\nCRM sin contacto previo verificable en editor@ (~88 filas Pending Review) quedan Queued, igual que en corridas anteriores. Diferidos sin tocar: comercio.com.pe, endpointsnews.com, Burson (vacaciones hasta 30-11), Medtronic Ocampo, Merck Tellez; tambien Juliana Restrepo (Merck), Harold Hamana (Knight-Pawn) y Santiago Levy (BID) por hilo activo.\nHousekeeping: 0 rebotes nuevos, 0 bajas/opt-out, solo autorrespuestas (MSD, AstraZeneca, Medtronic, Omnicom). Subscribed 8 (8/241 = 3,3%).\nQueued restantes: 165 elegibles (crm 93, generic 69, press 3) + 9 webmail retenidas.\nLatest issue: Issue 02 es el ultimo Sent pero sin Send_Date ni descripcion; se uso solo el link a /newsletter/.\nERROR: se mandó recordatorio a Paulo (Panorama Farmaceutico) e Irene Hartmann (Clarin) pese a nota del 12-11 de no recordar (Fer ya les habia respondido); quedaron en Sent y entraron al filtro.",
+      "Status": "Done"
+    },
+    "id": "reckEuvO9pkE6fiEm"
   },
   {
     "createdTime": "2026-09-26T20:57:52.000Z",

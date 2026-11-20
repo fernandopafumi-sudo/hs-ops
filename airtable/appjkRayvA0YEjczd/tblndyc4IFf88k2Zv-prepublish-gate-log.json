@@ -13,6 +13,19 @@
     "id": "rec1BFikmi3UWVt8R"
   },
   {
+    "createdTime": "2026-11-20T14:27:38.000Z",
+    "fields": {
+      "Changes": "R1 (adversarial): borradas 3 afirmaciones solo atribuidas a Valor Econômico sin fuente directa accesible (séptimo acuerdo de risk-sharing del hospital; letters of intent con Hospital Israelita Albert Einstein y Unimed Porto Alegre; cita del abogado Rubens Granja/TozziniFreire). Cambiado '2019 pilot' a '2019 program' para Spinraza (precisión, confirmado como Acordo de Compartilhamento de Riscos via Portaria GM/MS 1.297/2019). R2 (independiente, post-corrección): PUBLISH sin ediciones adicionales; confirmó mecanismo de compensación, ventana de 90 días, combo de fármacos/indicación, Zolgensma/Novartis marzo 2025, siglas ANS/LGPD/SUS, y que la corrección no dejó frases huérfanas ni contradicciones nuevas.",
+      "Country": "Brazil",
+      "Post ID": 37089,
+      "Reviewed At": "2026-11-20T09:30:00.000Z",
+      "Title": "BMS and A.C.Camargo say their oncology risk-sharing model can scale, if regulators help",
+      "Unverified": "Citas textuales de Christiano Silva (BMS Brasil) y Rafael Ielpo (A.C.Camargo) son de respuestas escritas a HealthSignals (fuente propia, 18-nov-2026), no verificables externamente — se mantienen atribuidas a esa fuente, no a fuente pública.",
+      "Verdict": "Ready to publish"
+    },
+    "id": "rec6DNFmlEhb9CaOA"
+  },
+  {
     "createdTime": "2026-09-29T13:15:16.000Z",
     "fields": {
       "Changes": "R1: 13 errors (exchange ratio inverted, 47.3 vs 47.4 pct, dividend/premium terms, 26 states misread, figures wrongly credited to Exame, quote misattributed to Marques). Correction 1 BLOCKED by permission classifier: nothing saved. No R2.",

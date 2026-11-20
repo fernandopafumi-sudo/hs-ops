@@ -247,6 +247,19 @@
     "id": "recAhMfDssJs4RAtp"
   },
   {
+    "createdTime": "2026-11-20T13:56:05.000Z",
+    "fields": {
+      "Channel": "prensa",
+      "Date": "2026-11-20",
+      "Items_Pending": 0,
+      "Notes": "Sin respuestas/rebotes. Panorama Farmacêutico espera respuesta de Fer. Update Notas Argüelles denegado por permisos.",
+      "Run": "manana",
+      "Run_Key": "2026-11-20|manana|prensa",
+      "Status": "sin novedades"
+    },
+    "id": "recB1ZSdLDsTslObz"
+  },
+  {
     "createdTime": "2026-10-29T13:01:27.000Z",
     "fields": {
       "Channel": "grupos",
@@ -494,6 +507,19 @@
     "id": "recK0M5vnHBLaI7vu"
   },
   {
+    "createdTime": "2026-11-20T13:56:05.000Z",
+    "fields": {
+      "Channel": "comentarios",
+      "Date": "2026-11-20",
+      "Items_Pending": 5,
+      "Notes": "2 nuevos Proposed tras revisión adversarial (FDA GRDP recxtP3Qx4waKJxk8, PAHO baloxavir reczN12QgIzEul6Ef). 4 Proposed del 16-11 expirados. 0 Published desde 21-10.",
+      "Run": "manana",
+      "Run_Key": "2026-11-20|manana|comentarios",
+      "Status": "ok"
+    },
+    "id": "recLcBY1779FxlMIc"
+  },
+  {
     "createdTime": "2026-11-02T14:27:06.000Z",
     "fields": {
       "Channel": "voices",
@@ -518,6 +544,19 @@
       "Status": "ok"
     },
     "id": "recN0O3tXCBlvm2gx"
+  },
+  {
+    "createdTime": "2026-11-19T18:49:45.000Z",
+    "fields": {
+      "Channel": "comentarios",
+      "Date": "2026-11-19",
+      "Items_Pending": 7,
+      "Notes": "Tarde: 0 Approved en cola, 0 expiradas (las 4 del 16-11 vencen mañana 20-11), 0 métricas pendientes (no hay Published desde 21-10). 7 Proposed esperan OK. No se redactó: la mañana corrió y dejó la decisión abierta.",
+      "Run": "tarde",
+      "Run_Key": "2026-11-19|tarde|comentarios",
+      "Status": "sin novedades"
+    },
+    "id": "recNBylAxVgqCvnQ5"
   },
   {
     "createdTime": "2026-10-28T17:49:28.000Z",
@@ -622,6 +661,19 @@
       "Status": "ok"
     },
     "id": "recQgOHQCSdWxd0Sa"
+  },
+  {
+    "createdTime": "2026-11-20T13:56:05.000Z",
+    "fields": {
+      "Channel": "sponsors",
+      "Date": "2026-11-20",
+      "Items_Pending": 14,
+      "Notes": "Invitaciones confirmadas por Fer: 0. Aceptaciones: n/d. Pendientes estimadas: 0. Corridas seguidas sin OK: 8. Acumulado sin OK ~99.\nCandidatos 20-11 (nombre | URL):\n1 Renê Delsin (Carnot BR) | https://linkedin.com/in/renedelsin\n2 José Mario Ernesto Sánchez Carrillo (Liomont MX) | https://linkedin.com/in/jos%C3%A9-mario-ernesto-s%C3%A1nchez-carrillo-66977720\n3 Juan Carlos Guauque (Grupo Amarey CO) | https://linkedin.com/in/juan-carlos-guauque-39288011\n4 Sandra Soares (Glenmark Life Sciences BR) | https://linkedin.com/in/sandra-soares-a4515810\n5 Sergio Arturo Mendívil Zavala (Bausch Health MX) | https://linkedin.com/in/sergioarturomendivil\n6 Gualberto Curiel (AstraZeneca MX) | https://linkedin.com/in/gualberto-curiel-a9210134\n7 Román Saglio (Moderna US/MX) | https://www.linkedin.com/in/rsaglio\n8 David A. Sequeira (Mundipharma MX) | https://linkedin.com/in/david-a-sequeira-08280238\n9 Patricia Field (Novo Nordisk MX) | https://linkedin.com/in/patriciafield\n10 Juan Pablo Yeo (MSD MX) | https://linkedin.com/in/juan-pablo-yeo-07512332\n11 Karla Gonzalez (Pfizer MX) | https://linkedin.com/in/karla-gonzalez-5556285\n12 P. Pertel (J&J BR) | https://linkedin.com/in/patriciapertel\n13 Mandy Mancina (Teleflex US) | https://linkedin.com/in/mandy-mancina-2129b73\n14 Cyrille Schroeder (Beckman Coulter BR) | https://linkedin.com/in/cyrilleschroeder",
+      "Run": "manana",
+      "Run_Key": "2026-11-20|manana|sponsors",
+      "Status": "ok"
+    },
+    "id": "recRgXVHjbMWVnB3R"
   },
   {
     "createdTime": "2026-11-18T13:58:49.000Z",
@@ -975,6 +1027,19 @@
     "id": "recaDl2X7e0NrTACS"
   },
   {
+    "createdTime": "2026-11-20T13:56:05.000Z",
+    "fields": {
+      "Channel": "voices",
+      "Date": "2026-11-20",
+      "Items_Pending": 4,
+      "Notes": "Programados 0, sin alertas. Borrador toque 2 Rocha r4721135029068652139 (programar 24/11 12:00-12:30 UTC). R7 Velasco y Méndez en borradores (falta pedido vínculos industria). Baldwin sin adjunto. Descartar r3800921940972079758 (CC Fer) y r8971495575676568603.",
+      "Run": "manana",
+      "Run_Key": "2026-11-20|manana|voices",
+      "Status": "ok"
+    },
+    "id": "recaJOOxnJvewPip4"
+  },
+  {
     "createdTime": "2026-11-12T13:57:45.000Z",
     "fields": {
       "Channel": "prensa",
@@ -1311,6 +1376,19 @@
       "Status": "ok"
     },
     "id": "reclbEjqYojo933ub"
+  },
+  {
+    "createdTime": "2026-11-20T13:56:05.000Z",
+    "fields": {
+      "Channel": "grupos",
+      "Date": "2026-11-20",
+      "Items_Pending": 1,
+      "Notes": "Re-ofrecido Salud e Investigación Clínica en LatAm (nivel A, sarampión OPS, mismo texto del 19-11 sin confirmar). Last posted anterior 2026-11-19.",
+      "Run": "manana",
+      "Run_Key": "2026-11-20|manana|grupos",
+      "Status": "ok"
+    },
+    "id": "reclcfBVoGZHU0Ezg"
   },
   {
     "createdTime": "2026-11-04T13:56:16.000Z",

@@ -3853,6 +3853,11 @@
               "color": "purpleBright",
               "id": "selJFyNSYlaI6Dhuf",
               "name": "Agencia PR"
+            },
+            {
+              "color": "blueLight2",
+              "id": "selHIFF6QNd2NF9SE",
+              "name": "Organismo/gremio"
             }
           ]
         },
@@ -6698,6 +6703,21 @@
               "color": "grayLight2",
               "id": "selieuCmPB8ZKL6qU",
               "name": "EN"
+            },
+            {
+              "color": "blueLight2",
+              "id": "selD8hYwzyTFcMBcJ",
+              "name": "es"
+            },
+            {
+              "color": "cyanLight2",
+              "id": "selkBRM2pfoSpyDpw",
+              "name": "en"
+            },
+            {
+              "color": "blueLight2",
+              "id": "selE3Qwe17DldoQBE",
+              "name": "pt"
             }
           ]
         },

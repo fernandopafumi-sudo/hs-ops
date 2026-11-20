@@ -60,6 +60,8 @@ Regenerar con `python3 scripts/gen_ids.py` después de cada backup. Las referenc
 | 6854895 | HS Invite 1-click subscribe (Brief) | ON | immediately |  | 3008026 |  | airtable, builtin, gateway, sendinblue, util |
 | 6856433 | HS — Brevo: quitar internos de lista 5 (ad hoc) | off | on-demand |  |  |  | sendinblue |
 | 7028872 | HS - Social: sync SOCIAL- tags al dedup de v3 | ON | weekly:08:25 | 164495 HS LinkedIn shared posts |  |  | datastore, google-sheets, util |
+| 7113631 | [TEST] HS covers concept v11 + Gemini (ad-hoc) | ON | on-demand |  |  |  | anthropic-claude, builtin, gemini-ai, google-drive, http, json, openai-gpt-3, util, wordpress |
+| 7117744 | PROD HS Cover Designer v11 | ON | daily:08:10 |  |  |  | anthropic-claude, builtin, google-drive, http, json, openai-gpt-3, util, wordpress |
 
 ## Data stores → escenarios que los usan
 
@@ -82,12 +84,12 @@ Regenerar con `python3 scripts/gen_ids.py` después de cada backup. Las referenc
 | ID | Nombre | Escenarios |
 |---|---|---|
 | 8455399 | My Google Restricted connection | 0:  |
-| 8921729 | My WordPress connection | 10: 5133643, 5454484, 6234149, 6234307, 6313594, 6314042, 6424186, 6427153, 6735926, 6841390 |
+| 8921729 | My WordPress connection | 12: 5133643, 5454484, 6234149, 6234307, 6313594, 6314042, 6424186, 6427153, 6735926, 6841390, 7113631, 7117744 |
 | 8921875 | My LinkedIn connection | 0:  |
-| 8922808 | My Anthropic Claude connection | 6: 5133643, 5453337, 5699954, 5891229, 6313594, 6841390 |
+| 8922808 | My Anthropic Claude connection | 8: 5133643, 5453337, 5699954, 5891229, 6313594, 6841390, 7113631, 7117744 |
 | 8923111 | My Anthropic Claude connection | 6: 5096381, 6070111, 6233803, 6234307, 6721172, 6724293 |
 | 8923977 | My Google connection | 23: 5096381, 5133643, 5167429, 6070111, 6202822, 6245658, 6245964, 6246530, 6248217, 6251333, 6251400, 6263946, 6314042, 6424186, 6508650, 6543177, 6721172, 6724293, 6725295, 6735926, 6828787, 6841390, 7028872 |
-| 8943313 | My OpenAI connection | 7: 5133643, 6313594, 6314042, 6414510, 6424186, 6735926, 6841390 |
+| 8943313 | My OpenAI connection | 9: 5133643, 6313594, 6314042, 6414510, 6424186, 6735926, 6841390, 7113631, 7117744 |
 | 8944176 | My OpenAI connection | 0:  |
 | 8981470 | My Todoist connection | 0:  |
 | 8984010 | My Exa connection | 5: 5096381, 5133643, 6070111, 6724293, 6841390 |
@@ -95,8 +97,9 @@ Regenerar con `python3 scripts/gen_ids.py` después de cada backup. Las referenc
 | 9132003 | My Airtable Token or Key connection | 22: 5133643, 5453337, 5453401, 5453897, 5699954, 5841829, 5843912, 5886398, 5890673, 5893513, 6233803, 6234149, 6234307, 6234915, 6427153, 6459598, 6460310, 6488206, 6674701, 6726530, 6841390, 6854895 |
 | 9533217 | Resend HealthSignals | 6: 5453401, 5841829, 6314042, 6461147, 6674701, 6735926 |
 | 11075018 | Fernando's Google Search Console connection | 1: 6263946 |
-| 11340939 | Google Drive editor@ (full) | 4: 6414510, 6424186, 6424598, 6426906 |
+| 11340939 | Google Drive editor@ (full) | 6: 6414510, 6424186, 6424598, 6426906, 7113631, 7117744 |
 | 11417335 | Fernando's Brevo connection | 5: 6459598, 6460310, 6726530, 6854895, 6856433 |
+| 12444726 | Fernando's Gemini AI connection | 1: 7113631 |
 
 ## Webhooks
 

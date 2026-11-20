@@ -4,12 +4,14 @@
     "fields": {
       "Country": "Argentina",
       "Email": "info@pharmabiz.net",
+      "Gmail_Message_ID": "1a1f5128ace2de2c",
       "Language": "es",
       "Name": "Cristina Kroll",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-01: First_Name 'Cristina' cleared (generic/role inbox; greeting without name).",
+      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-01: First_Name 'Cristina' cleared (generic/role inbox; greeting without name).\n2026-11-19: invitación enviada",
       "Organization": "Pharmabiz",
       "Segment": "generic",
-      "Status": "Queued"
+      "Sent_At": "2026-11-19T18:30:00.000Z",
+      "Status": "Sent"
     },
     "id": "rec0KU8JOV5WJFSwk"
   },
@@ -175,11 +177,13 @@
     "fields": {
       "Country": "España",
       "Email": "info@sanitaria2000.com",
+      "Gmail_Message_ID": "1a1f5128dacb1287",
       "Language": "es",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)",
+      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-19: invitación enviada",
       "Organization": "Redacción Médica (Sanitaria 2000)",
       "Segment": "generic",
-      "Status": "Queued"
+      "Sent_At": "2026-11-19T18:30:00.000Z",
+      "Status": "Sent"
     },
     "id": "rec2OFrVHRACGQ1ez"
   },
@@ -410,12 +414,14 @@
       "Country": "Argentina",
       "Email": "apichon@iecs.org.ar",
       "First_Name": "Andrés",
+      "Gmail_Message_ID": "1a1f50f090116ebc",
       "Language": "es",
       "Name": "Andrés Pichón-Riviere",
-      "Notes": "2026-11-19: origen barrido inbox editor@ (Voices ya publicada; hilo 22-10 con Silvina Lizzi, IECS). No estaba en Subscribe Invites, CRM ni Press.",
+      "Notes": "2026-11-19: origen barrido inbox editor@ (Voices ya publicada; hilo 22-10 con Silvina Lizzi, IECS). No estaba en Subscribe Invites, CRM ni Press.\n2026-11-19: invitación enviada",
       "Organization": "IECS",
       "Segment": "voices",
-      "Status": "Queued"
+      "Sent_At": "2026-11-19T18:30:00.000Z",
+      "Status": "Sent"
     },
     "id": "rec4MDoHmq3ttMbDf"
   },
@@ -583,11 +589,13 @@
     "fields": {
       "Country": "Brasil",
       "Email": "media-brazil@bayer.com",
+      "Gmail_Message_ID": "1a1f5103a08a4608",
       "Language": "pt",
-      "Notes": "Source: Press & PR Contacts (Pharma media office)",
+      "Notes": "Source: Press & PR Contacts (Pharma media office)\n2026-11-19: invitación enviada",
       "Organization": "Bayer",
       "Segment": "generic",
-      "Status": "Queued"
+      "Sent_At": "2026-11-19T18:30:00.000Z",
+      "Status": "Sent"
     },
     "id": "rec6ARqlVf4OqOMb0"
   },
@@ -771,11 +779,13 @@
     "fields": {
       "Country": "Chile",
       "Email": "prichter@ciq.uchile.cl",
+      "Gmail_Message_ID": "1a1f50f0c390b2be",
       "Language": "es",
-      "Notes": "2026-11-19: origen barrido inbox editor@ (en copia en hilo 28-10 con Mario Rivera). Nombre no confirmado: saludo generico. No estaba en Subscribe Invites, CRM ni Press.",
+      "Notes": "2026-11-19: origen barrido inbox editor@ (en copia en hilo 28-10 con Mario Rivera). Nombre no confirmado: saludo generico. No estaba en Subscribe Invites, CRM ni Press.\n2026-11-19: invitación enviada (contacto previo verificado en Gmail: hilo CIQ UChile)",
       "Organization": "Universidad de Chile",
       "Segment": "crm",
-      "Status": "Queued"
+      "Sent_At": "2026-11-19T18:30:00.000Z",
+      "Status": "Sent"
     },
     "id": "rec79P85W7cN4Wexs"
   },
@@ -974,11 +984,13 @@
     "fields": {
       "Country": "Colombia",
       "Email": "info@consultorsalud.com",
+      "Gmail_Message_ID": "1a1f511e0794b896",
       "Language": "es",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)",
+      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-19: invitación enviada",
       "Organization": "CONSULTORSALUD",
       "Segment": "generic",
-      "Status": "Queued"
+      "Sent_At": "2026-11-19T18:30:00.000Z",
+      "Status": "Sent"
     },
     "id": "rec93Wz8x5q6PRbD3"
   },
@@ -1057,11 +1069,13 @@
     "fields": {
       "Country": "Global (Suiza HQ)",
       "Email": "media.relations@novartis.com",
+      "Gmail_Message_ID": "1a1f5111f0de8cdc",
       "Language": "en",
-      "Notes": "Source: Press & PR Contacts (Pharma media office)",
+      "Notes": "Source: Press & PR Contacts (Pharma media office)\n2026-11-19: invitación enviada",
       "Organization": "Novartis",
       "Segment": "generic",
-      "Status": "Queued"
+      "Sent_At": "2026-11-19T18:30:00.000Z",
+      "Status": "Sent"
     },
     "id": "recA0q9zI3BbGtxp7"
   },
@@ -1215,11 +1229,13 @@
     "fields": {
       "Country": "EE.UU. (global)",
       "Email": "tips2@bloomberg.net",
+      "Gmail_Message_ID": "1a1f511239cc1240",
       "Language": "en",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)",
+      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-19: invitación enviada",
       "Organization": "Bloomberg News",
       "Segment": "generic",
-      "Status": "Queued"
+      "Sent_At": "2026-11-19T18:30:00.000Z",
+      "Status": "Sent"
     },
     "id": "recC5O1lpVeAAvlW2"
   },
@@ -1242,11 +1258,13 @@
     "fields": {
       "Country": "Global (Alemania HQ)",
       "Email": "press@boehringer-ingelheim.com",
+      "Gmail_Message_ID": "1a1f511259fe0b78",
       "Language": "en",
-      "Notes": "Source: Press & PR Contacts (Pharma media office)",
+      "Notes": "Source: Press & PR Contacts (Pharma media office)\n2026-11-19: invitación enviada",
       "Organization": "Boehringer Ingelheim",
       "Segment": "generic",
-      "Status": "Queued"
+      "Sent_At": "2026-11-19T18:30:00.000Z",
+      "Status": "Sent"
     },
     "id": "recCECN5tYdBm2J5x"
   },
@@ -1272,12 +1290,14 @@
     "fields": {
       "Country": "México",
       "Email": "contacto@zimat.com.mx",
+      "Gmail_Message_ID": "1a1f512ceda06030",
       "Language": "es",
       "Name": "Marta Mejía",
-      "Notes": "Source: Press & PR Contacts (Agencia PR)\n2026-11-01: First_Name 'Marta' cleared (generic/role inbox; greeting without name).",
+      "Notes": "Source: Press & PR Contacts (Agencia PR)\n2026-11-01: First_Name 'Marta' cleared (generic/role inbox; greeting without name).\n2026-11-19: invitación enviada",
       "Organization": "Zimat Consultores",
       "Segment": "generic",
-      "Status": "Queued"
+      "Sent_At": "2026-11-19T18:30:00.000Z",
+      "Status": "Sent"
     },
     "id": "recCG2vj7NN7Mjnfa"
   },
@@ -1756,12 +1776,14 @@
     "fields": {
       "Country": "EE.UU. (global)",
       "Email": "news@haymarketmedia.com",
+      "Gmail_Message_ID": "1a1f5103e63e1d72",
       "Language": "en",
       "Name": "Lecia Bushak",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-01: First_Name 'Lecia' cleared (generic/role inbox; greeting without name).",
+      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-01: First_Name 'Lecia' cleared (generic/role inbox; greeting without name).\n2026-11-19: invitación enviada",
       "Organization": "MM+M (Medical Marketing + Media)",
       "Segment": "generic",
-      "Status": "Queued"
+      "Sent_At": "2026-11-19T18:30:00.000Z",
+      "Status": "Sent"
     },
     "id": "recGjicjhZkItvMxT"
   },
@@ -2088,11 +2110,13 @@
     "fields": {
       "Country": "México",
       "Email": "Media-requests-mexico@bayer.com",
+      "Gmail_Message_ID": "1a1f511e2d6c4ec6",
       "Language": "es",
-      "Notes": "Source: Press & PR Contacts (Pharma media office)",
+      "Notes": "Source: Press & PR Contacts (Pharma media office)\n2026-11-19: invitación enviada",
       "Organization": "Bayer",
       "Segment": "generic",
-      "Status": "Queued"
+      "Sent_At": "2026-11-19T18:30:00.000Z",
+      "Status": "Sent"
     },
     "id": "recJ7Rb5zrJAWprFR"
   },
@@ -2738,11 +2762,13 @@
     "fields": {
       "Country": "Brasil",
       "Email": "redacao@futurodasaude.com.br",
+      "Gmail_Message_ID": "1a1f51041816fb1e",
       "Language": "pt",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)",
+      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-19: invitación enviada",
       "Organization": "Futuro da Saúde",
       "Segment": "generic",
-      "Status": "Queued"
+      "Sent_At": "2026-11-19T18:30:00.000Z",
+      "Status": "Sent"
     },
     "id": "recQItURQHTyCuOWs"
   },
@@ -2813,6 +2839,7 @@
   {
     "createdTime": "2026-11-01T01:18:07.000Z",
     "fields": {
+      "Clicked_At": "2026-11-19T21:15:34.000Z",
       "Country": "Brasil",
       "Email": "mateus.vargas@grupofolha.com.br",
       "First_Name": "Mateus",
@@ -2823,7 +2850,7 @@
       "Organization": "Folha de S.Paulo",
       "Segment": "press",
       "Sent_At": "2026-11-05T18:21:00.000Z",
-      "Status": "Reminded"
+      "Status": "Subscribed"
     },
     "id": "recREpQ83ycfmudjb"
   },
@@ -3181,11 +3208,13 @@
     "fields": {
       "Country": "US/Norteamérica",
       "Email": "TevaCommunicationsNorthAmerica@tevapharm.com",
+      "Gmail_Message_ID": "1a1f510421bc858b",
       "Language": "en",
-      "Notes": "Source: Press & PR Contacts (Pharma media office)",
+      "Notes": "Source: Press & PR Contacts (Pharma media office)\n2026-11-19: invitación enviada",
       "Organization": "Teva Pharmaceuticals",
       "Segment": "generic",
-      "Status": "Queued"
+      "Sent_At": "2026-11-19T18:30:00.000Z",
+      "Status": "Sent"
     },
     "id": "recUdv0f5LvLjjTFW"
   },
@@ -3233,11 +3262,13 @@
     "fields": {
       "Country": "Global (Suiza HQ)",
       "Email": "media.relations@roche.com",
+      "Gmail_Message_ID": "1a1f510445e45a6c",
       "Language": "en",
-      "Notes": "Source: Press & PR Contacts (Pharma media office)",
+      "Notes": "Source: Press & PR Contacts (Pharma media office)\n2026-11-19: invitación enviada",
       "Organization": "Roche",
       "Segment": "generic",
-      "Status": "Queued"
+      "Sent_At": "2026-11-19T18:30:00.000Z",
+      "Status": "Sent"
     },
     "id": "recVHTzSZrZNhvPAv"
   },
@@ -3247,12 +3278,14 @@
       "Country": "EE.UU.",
       "Email": "Kathryn.Scott@informa.com",
       "First_Name": "Kate",
+      "Gmail_Message_ID": "1a1f510390a33c05",
       "Language": "en",
       "Name": "Kate Scott",
-      "Notes": "Source: barter CPHI Americas 2027 (firmado 12-11-2026); cargado a pedido de Fer 2026-11-12",
+      "Notes": "Source: barter CPHI Americas 2027 (firmado 12-11-2026); cargado a pedido de Fer 2026-11-12\n2026-11-19: invitación enviada",
       "Organization": "Informa (CPHI Americas / WHX Miami)",
       "Segment": "events",
-      "Status": "Queued"
+      "Sent_At": "2026-11-19T18:30:00.000Z",
+      "Status": "Sent"
     },
     "id": "recVbMa8PSKh40FK3"
   },
@@ -3334,11 +3367,13 @@
     "fields": {
       "Country": "Chile",
       "Email": "dburgos@uchile.cl",
+      "Gmail_Message_ID": "1a1f50f0eecd7a49",
       "Language": "es",
-      "Notes": "2026-11-19: origen barrido inbox editor@ (en copia en hilo 28-10 con Mario Rivera). Nombre no confirmado: saludo generico. No estaba en Subscribe Invites, CRM ni Press.",
+      "Notes": "2026-11-19: origen barrido inbox editor@ (en copia en hilo 28-10 con Mario Rivera). Nombre no confirmado: saludo generico. No estaba en Subscribe Invites, CRM ni Press.\n2026-11-19: invitación enviada (contacto previo verificado en Gmail: hilo CIQ UChile)",
       "Organization": "Universidad de Chile",
       "Segment": "crm",
-      "Status": "Queued"
+      "Sent_At": "2026-11-19T18:30:00.000Z",
+      "Status": "Sent"
     },
     "id": "recWhn9CsDvq7H1Re"
   },
@@ -3488,11 +3523,13 @@
     "fields": {
       "Country": "Brasil",
       "Email": "contato@jota.ag",
+      "Gmail_Message_ID": "1a1f5111be8165d4",
       "Language": "pt",
-      "Notes": "Source: Press & PR Contacts (Agencia PR)",
+      "Notes": "Source: Press & PR Contacts (Agencia PR)\n2026-11-19: invitación enviada",
       "Organization": "Jota (ex Jotacom)",
       "Segment": "generic",
-      "Status": "Queued"
+      "Sent_At": "2026-11-19T18:30:00.000Z",
+      "Status": "Sent"
     },
     "id": "recY0mLMVx33H349e"
   },
@@ -3615,12 +3652,14 @@
       "Country": "Chile",
       "Email": "antonio.morris@ciq.uchile.cl",
       "First_Name": "Antonio",
+      "Gmail_Message_ID": "1a1f50f1385db3ef",
       "Language": "es",
       "Name": "Antonio Morris",
-      "Notes": "2026-11-19: origen barrido inbox editor@ (en copia en hilo 28-10 con Mario Rivera, ya suscripto). No estaba en Subscribe Invites, CRM ni Press.",
+      "Notes": "2026-11-19: origen barrido inbox editor@ (en copia en hilo 28-10 con Mario Rivera, ya suscripto). No estaba en Subscribe Invites, CRM ni Press.\n2026-11-19: invitación enviada (contacto previo verificado en Gmail: hilo CIQ UChile)",
       "Organization": "Universidad de Chile",
       "Segment": "crm",
-      "Status": "Queued"
+      "Sent_At": "2026-11-19T18:30:00.000Z",
+      "Status": "Sent"
     },
     "id": "recYzmGIyZGDhu9JY"
   },
@@ -4175,12 +4214,14 @@
     "fields": {
       "Country": "Chile",
       "Email": "contacto@ex-ante.cl",
+      "Gmail_Message_ID": "1a1f511e4477bc46",
       "Language": "es",
       "Name": "Jaime Troncoso Rojas",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-01: First_Name 'Jaime' cleared (generic/role inbox; greeting without name).",
+      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-01: First_Name 'Jaime' cleared (generic/role inbox; greeting without name).\n2026-11-19: invitación enviada",
       "Organization": "Ex-Ante",
       "Segment": "generic",
-      "Status": "Queued"
+      "Sent_At": "2026-11-19T18:30:00.000Z",
+      "Status": "Sent"
     },
     "id": "reccsM4iafSnD3VTZ"
   },
@@ -4305,11 +4346,13 @@
     "fields": {
       "Country": "Brasil",
       "Email": "saudebusiness@informa.com",
+      "Gmail_Message_ID": "1a1f5111ddeb1b02",
       "Language": "pt",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)",
+      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-19: invitación enviada",
       "Organization": "Saúde Business",
       "Segment": "generic",
-      "Status": "Queued"
+      "Sent_At": "2026-11-19T18:30:00.000Z",
+      "Status": "Sent"
     },
     "id": "rece24hTweKW12qXs"
   },
@@ -4374,12 +4417,14 @@
     "fields": {
       "Country": "Argentina",
       "Email": "info@spread.com",
+      "Gmail_Message_ID": "1a1f511e8f8fc7e5",
       "Language": "es",
       "Name": "Damián Martínez Lahitou",
-      "Notes": "Source: Press & PR Contacts (Agencia PR)\n2026-11-01: First_Name 'Damián' cleared (generic/role inbox; greeting without name).",
+      "Notes": "Source: Press & PR Contacts (Agencia PR)\n2026-11-01: First_Name 'Damián' cleared (generic/role inbox; greeting without name).\n2026-11-19: invitación enviada",
       "Organization": "Feedback PR (Feedback Spread)",
       "Segment": "generic",
-      "Status": "Queued"
+      "Sent_At": "2026-11-19T18:30:00.000Z",
+      "Status": "Sent"
     },
     "id": "recfJLwPx2KyhFkE4"
   },
@@ -4543,11 +4588,13 @@
     "fields": {
       "Country": "Chile",
       "Email": "prensadf@df.cl",
+      "Gmail_Message_ID": "1a1f512899b6cc54",
       "Language": "es",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)",
+      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-19: invitación enviada",
       "Organization": "Diario Financiero",
       "Segment": "generic",
-      "Status": "Queued"
+      "Sent_At": "2026-11-19T18:30:00.000Z",
+      "Status": "Sent"
     },
     "id": "rechSQXcJrlEenNep"
   },
@@ -5078,11 +5125,13 @@
     "fields": {
       "Country": "Chile",
       "Email": "ccortez@lyd.org",
+      "Gmail_Message_ID": "1a1f50f159e1dd91",
       "Language": "es",
-      "Notes": "2026-11-19: origen barrido inbox editor@. Nombre no confirmado. No estaba en Subscribe Invites, CRM ni Press.",
+      "Notes": "2026-11-19: origen barrido inbox editor@. Nombre no confirmado. No estaba en Subscribe Invites, CRM ni Press.\n2026-11-19: invitación enviada (contacto previo verificado en Gmail: hilo LyD)",
       "Organization": "Libertad y Desarrollo",
       "Segment": "crm",
-      "Status": "Queued"
+      "Sent_At": "2026-11-19T18:30:00.000Z",
+      "Status": "Sent"
     },
     "id": "recm4IAlCz7kP0FGM"
   },
@@ -5487,12 +5536,14 @@
       "Country": "Brasil",
       "Email": "michele@unidas.org.br",
       "First_Name": "Michele",
+      "Gmail_Message_ID": "1a1f510343855bc9",
       "Language": "pt",
       "Name": "Michele (UNIDAS)",
-      "Notes": "Source: gmail-2026-11-01; UNIDAS congress media-partnership thread 15-16 Oct (two-way)",
+      "Notes": "Source: gmail-2026-11-01; UNIDAS congress media-partnership thread 15-16 Oct (two-way)\n2026-11-19: invitación enviada",
       "Organization": "UNIDAS",
       "Segment": "events",
-      "Status": "Queued"
+      "Sent_At": "2026-11-19T18:30:00.000Z",
+      "Status": "Sent"
     },
     "id": "recpYZ66RQFTrqhS8"
   },

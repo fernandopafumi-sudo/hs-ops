@@ -1,0 +1,988 @@
+{
+  "blueprint": {
+    "flow": [
+      {
+        "id": 50,
+        "mapper": {
+          "name": "rec",
+          "scope": "roundtrip",
+          "value": "RECIPE BOOK (built from the 111 stories HealthSignals has published). Identify the story type, then start from its devices; you may invent a better one, but beat these. Every device = one familiar object from the story's world + one twist that shows what changed.\nR1 APPROVAL / REGISTRATION (FDA, Anvisa, Cofepris, Digemid, EU nods; e.g. once-weekly insulin, first PROTAC, PrEP twice a year): the product's own packaging receiving the one mark that matters (a blank box getting its first label; a vial with a calendar label showing the new dosing rhythm; a key cut to fit one specific lock = targeted mechanism). Show what is NEW about this approval (dosing, first-in-class, new population), not approval in general.\nR2 COVERAGE / FORMULARY / ESSENTIAL LIST (SUS adds drugs, ANS mandates, Caremark adds or drops, Remediar narrows): a pharmacy shelf, formulary binder or pill organiser where items move in or out; for a swap, one box going in while another comes out of the same slot; for a narrowed list, a long shelf reduced to one section. For a gap between coverage and use (coverage without uptake), a full shelf with untouched boxes.\nR3 PRICE RULE / REFERENCE PRICE / PRICE CUT (SINPREM caps, Uruguay acquisition price, mandatory generic price cut, Medicare GLOBE benchmark, MFN): a price tag, receipt or till with the twist on the tag itself (a tag with a ceiling line drawn on it; a tag tied to tags from other countries; a receipt being trimmed). Never coins stacks.\nR4 BUDGET / FUNDING (Ricarte Soto cut, IHME funding falls, budget lines, mental-health gap): a household-budget object at system scale: an envelope, a piggy bank, a measuring jug, a plate portion; the twist is the size of the share versus the need (a small envelope for a long list; a portion that covers part of the plate).\nR5 PROCUREMENT / TENDER / SUPPLY CONTRACTS (Mexico consolidated tender, Sercop idle deals, multi-country imports, BIRMEX contract): an order slip, a delivery crate, a loading dock, a shopping list ticked line by line; for signed-but-idle deals, signed order slips pinned on a board with empty crates below.\nR6 PAYER DEBT / UNPAID BILLS / SERVICE SUSPENSION (EPS debts, PAMI fee gap, ADRES credit line): a stack of unpaid invoices, a clinic door sign turned around, a meter running; for a credit line, a bill paid with a ticket that is also a loan note. Never show patients suffering.\nR7 COURTS / LITIGATION / ENFORCEMENT (Consejo de Estado orders, 340B suits, compulsory licensing, suspensions, indictments): the rule or the case as a physical object, not a building: a court file with a new tab added (more parties join), a rulebook reopened at a blank chapter (ordered to write a new policy), a patent certificate with a hinge (compulsory licence), a production line paused by a pinned notice (suspension). Neutral: show the procedure, never a side winning.\nR8 DEALS / M&A / LICENSING (acquisitions, sublicences, biosimilar partnerships): two objects that fit: a key and a lock, two halves of a pill blister, a plug and a socket, a recipe card handed over (licence), a smaller box fitting a gap in a bigger case; price only if stated.\nR9 TRIAL RESULTS (risk cut 58 percent, PSA response, failed outcome despite biomarker drop, device trial head-to-head): the endpoint as an everyday measure: a ruler, a clock, a dial, a road length; positive = the measure visibly moves; mixed (marker falls, outcome does not) = one dial moves while the other stays put. Never bar charts, never patients.\nR10 EPIDEMIOLOGY / OUTBREAK / BURDEN (measles surge, PAHO risk, neurological burden, diagnostic wait): a calendar, a map-free tally board, a waiting-room ticket roll, a crowd of identical faceless figures with the stated share in the accent colour (only if the share is in the excerpt); for long diagnostic waits, a ticket roll unwinding across the frame.\nR11 MANUFACTURING / INVESTMENT / LOCALISATION (new plant, capacity, local biologics, API exports): the product line itself: a conveyor of vials, a blister press, a pallet; the twist is origin or scale (a production line growing out of a local landscape outline without borders; a shipping label turned from import to export).\nR12 MARKET STRUCTURE / PBM / TRANSPARENCY (fee disclosure rules, ownership bans, price-transparency tools): the transaction object made visible: a prescription with its price tag clipped on before the bag is sealed; a receipt printed both sides; an envelope with a window; two parts of a company drawn as a pill splitting along its score line (divestiture).\nR13 DIGITAL HEALTH / AI / DATA RULES (CFM AI rules, interoperability pacts, telemedicine standards, online drug sales): the tool with a rule attached: a plug with a new standard socket, a chat window shaped like a prescription pad, a cable joining two different connectors, a shopping cart icon next to a pharmacy counter.\nR14 COMPETITION / GENERICS / LAUNCH ORDER (generic race, generic pressure, launch order reshaped by MFN): a starting line or relay, a queue at a counter, identical boxes multiplying beside one branded box; launch order = boxes leaving a dock in a new sequence.\nR15 GUIDELINES / SCREENING / CLINICAL PRACTICE (earlier use, newborn screening, reordered treatment): timing and sequence: starting blocks moved, a calendar with an earlier date circled, a sequence of steps where one step moves forward.\nR16 ACCESS LAG / REACH (devices arriving years later, a therapy that reaches 30 patients): a long delivery path, a postmark sequence, a door opened only a crack; scale shift between the size of the need and the size of what arrived.\nR17 VOICES / INTERVIEWS (quotes from experts): never a portrait; draw the idea of the quote as an object (price to value = a price tag turning into a measuring cup; reckless proposal = a blueprint missing its foundation); the cover line can echo the quote without quotation marks."
+        },
+        "metadata": {
+          "designer": {
+            "x": -200,
+            "y": 0
+          }
+        },
+        "module": "util:SetVariable2",
+        "parameters": {},
+        "version": 1
+      },
+      {
+        "id": 51,
+        "mapper": {
+          "name": "bank",
+          "scope": "roundtrip",
+          "value": "REFERENCE BANK (what HealthSignals' editor has chosen and rejected; learn the pattern, never copy the picture)\nWINNERS\n+ Optum Rx price tool: a prescription slip marked Rx with a blank price tag clipped to it before it is filled. Why: the story's own object plus one twist; readable without the headline.\n+ ADA/EASD earlier GLP-1 and SGLT2: a running track whose starting blocks / starting line has been moved forward. Line: Moving the starting line. Why: guideline timing as a sport everyone knows; neutral; witty.\n+ BMS and A.C.Camargo 90-day risk-sharing: a medicine vial whose label is a calendar with one day circled. Line: The 90-day clause. Why: fusion of the product and the contract term; calm.\n+ Optum Rx (earlier version): a shopping cart holding one price tag. Line: See before you fill. Why: instant, but less specific than the Rx slip.\n+ BMS and A.C.Camargo 90-day risk-sharing (newer): medicine vials dropping into a jar used as a money box. Line: Paid back in kind. Why: the compensation is in vials, not cash; exact and witty.\n+ Novartis Lp(a) drug cuts the marker but fails the outcome trial: an auto-injector pen casting a question-mark shadow. Line: Perfect shot. No effect. Why: the paradox in one object.\n+ Global health funding falls again: a cracked piggy bank losing a big coin. Line: More out than in.\n+ Optum Rx price tool: a restaurant menu listing pills with dotted price lines. Line: The menu before the meal.\nLOSERS\n- A dipstick painted with EMPLOYER RANGE, BREAK-EVEN and MEDICARE: right idea, ruined by written words.\n- Grey figures in suits behind folders at a long table: generic, corporate, no wit.\n- A cheque with Pay to the order of and an elderly figure with a cane: text plus patient queue.\n- Revolving door labelled 340B: unclear, and a revolving door suggests lobbying (stakeholder risk).\n- A weight stamped WEIGHT casting a dollar-sign shadow: clever pun but relies on written words and misses the key fact.\n- A pill bottle with a cut-here line and a queue of patients including an elderly figure: reads as a payer cutting patients off (blames a named actor).\n- A flame on a gas canister labelled 340B with the line Still lit, for now: hints at a threat and takes a side.\n- Blank torn paper with a price tag: the main object is not recognisable.\n- Documents full of fake text lines, cards with big words (PRICE WISE): text-heavy, clashes with the headline.\n- A ruler with abstract bars; a seesaw with an AETNA block: abstract, reader cannot tell what is being measured.\n- Bridges, cliffs, forking roads, umbrellas: the old templates; generic."
+        },
+        "metadata": {
+          "designer": {
+            "x": -200,
+            "y": 0
+          }
+        },
+        "module": "util:SetVariable2",
+        "parameters": {},
+        "version": 1
+      },
+      {
+        "id": 52,
+        "mapper": {
+          "name": "cast",
+          "scope": "roundtrip",
+          "value": "HEALTHSIGNALS CAST (recurring characters for market actors; use them when the story is about who does what to whom). All are simple faceless figures with a round head and no facial features, gender-neutral, same height, same calm posture; each is identified only by one colour and one prop, never by clothes that signal class or occupation, never caricatured.\nPATIENT: soft rose figure holding a small paper prescription bag.\nPROVIDER (hospital, clinic, physician): sage-green figure holding a clipboard with a chart.\nINSURER / HEALTH PLAN / EPS / PAYER: slate-blue figure holding an oversized insurance card.\nPBM / INTERMEDIARY: mustard figure holding a long curling receipt.\nMANUFACTURER / PHARMA / BIOTECH: burnt-orange figure holding a medicine vial.\nREGULATOR (FDA, Anvisa, Cofepris, ANMAT, Digemid): dark-teal figure holding a large rubber stamp.\nGOVERNMENT / MINISTRY / PUBLIC SYSTEM: navy figure holding a budget envelope.\nCOURT: dark-ink figure holding an open rulebook (no robe, wig, gavel or uniform).\nEMPLOYER: warm-grey figure holding a payroll envelope.\nPHARMACY / RETAILER: terracotta figure behind a small plain counter.\nINVESTOR / ACQUIRER: plum figure holding a seedling in a pot.\nRules for the cast: every figure is a plain flat coloured silhouette with no costume, robe, wig, hat, uniform, suit or tie, whatever the rendering style; never fighting, pushing, chasing or towering over each other unless relative size is the stated fact; they may hand things over, queue, sit at a table, stand on a platform, hold opposite ends of an object; no more than four characters in one cover; one character may be the hero, none is the villain.\nCOUNTRY CUES (when the story is about one country): either paint the main object or the characters' bands in the country's flag colours (never a flag, emblem, coat of arms or map), or add one small iconic, non-political, non-religious place silhouette, only when the country's public system is involved. Brazil: green, yellow, blue; Copacabana wave pavement or Sugarloaf. Mexico: green, white, red; papel picado bunting or the Angel of Independence. Argentina: sky blue and white; the Obelisco. Colombia: yellow, blue, red; coffee hills with wax palms. Chile: red, white, blue; Andes peaks. Peru: red and white; Machu Picchu outline. Panama: red, white, blue; canal locks. Costa Rica: blue, white, red; a volcano cone. Uruguay: blue and white; Palacio Salvo outline. Ecuador: yellow, blue, red; Chimborazo. United States: navy, red, white; the Capitol dome only for federal policy. Never stereotypes: no sombreros, ponchos, carnival costumes, cartels, favelas or tropical fruit clichés."
+        },
+        "metadata": {
+          "designer": {
+            "x": -200,
+            "y": 0
+          }
+        },
+        "module": "util:SetVariable2",
+        "parameters": {},
+        "version": 1
+      },
+      {
+        "id": 53,
+        "mapper": {
+          "name": "styles",
+          "scope": "roundtrip",
+          "value": "STYLE BANK (choose ONE per cover; describe it in the image prompt exactly as written; never name a living artist; never photorealistic people)\nS01 PAPERCUT: layered coloured cut paper with soft drop shadows, visible paper fibre.\nS02 PAPER SCULPTURE: a small three-dimensional paper model photographed on a table, folded edges, soft studio light, shallow depth of field.\nS03 GOUACHE: matte opaque painted colour shapes, visible brush grain, slightly uneven edges.\nS04 WATERCOLOUR AND INK: loose transparent washes contained by a confident fine ink line, white paper showing through.\nS05 LINOCUT TWO-COLOUR: carved relief print in two inks with slight misregistration and carving marks.\nS06 WOODCUT: bold black woodgrain relief print with one spot colour.\nS07 RISOGRAPH: two or three soft overlapping inks, visible grain and slight misregistration.\nS08 SCREENPRINT POSTER: mid-century flat colour shapes, crisp edges, three to four inks, subtle halftone.\nS09 VINTAGE ENGRAVING COLLAGE: nineteenth-century engraved objects cut out and combined with flat colour paper shapes.\nS10 MIXED-MEDIA COLLAGE: torn coloured paper, a little printed texture and pencil marks, no photographs of people.\nS11 CERAMIC: the main object modelled as a glazed ceramic piece, photographed on a plain surface.\nS12 CLAY MINIATURE: a small handmade plasticine scene, fingerprints in the clay, soft light.\nS13 WOODEN TOY: painted wooden toy pieces with rounded edges on a plain backdrop.\nS14 EMBROIDERY: the image stitched in coloured thread on linen, visible stitches.\nS15 PRINTED TIN TOY: lithographed tin object with slightly worn paint.\nS16 ISOMETRIC MINIATURE: a tidy isometric diorama, soft shadows, muted colours.\nS17 CHARCOAL AND PASTEL: soft charcoal drawing with two pastel colour accents on toned paper.\nS18 PENCIL CRAYON: coloured pencil on warm paper, visible hatching in the colour only.\nS19 OIL PAINT: thick impasto oil paint, confident strokes, simple composition, still-life feeling.\nS20 STAINED GLASS: flat pieces of coloured glass held by dark leading, light glowing through.\nS21 MOSAIC: small ceramic tiles forming the image, a calm tile background.\nS22 FOLK ART PAINTED TIN: Latin American retablo-like painted metal with bright but harmonious colour, no religious figures.\nS23 SILHOUETTE THEATRE: layered cut-card silhouettes on a lit coloured backdrop.\nS24 ORIGAMI: the main object folded from a single sheet of coloured paper, crisp creases.\nSTYLE RULES: if the scene uses cast figures, use only S01, S03, S07, S08, S13 or S23 (flat styles), never engraving, woodcut, oil, charcoal or any style that adds clothing detail; match the style to the story (craft and toy styles for everyday mechanisms; engraving collage and woodcut for law and history; paper sculpture, ceramic and clay for products; folk-art tin, mosaic and embroidery only for Latin American stories); never use the same style family as the previous two covers listed below; colour stays calm and editorial whatever the style.\nRECENT STYLES: none yet."
+        },
+        "metadata": {
+          "designer": {
+            "x": -200,
+            "y": 0
+          }
+        },
+        "module": "util:SetVariable2",
+        "parameters": {},
+        "version": 1
+      },
+      {
+        "id": 1,
+        "mapper": {
+          "name": "ids",
+          "scope": "roundtrip",
+          "value": "36924,36929,36945,36886,36862"
+        },
+        "metadata": {
+          "designer": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        "module": "util:SetVariable2",
+        "parameters": {},
+        "version": 1
+      },
+      {
+        "id": 2,
+        "mapper": {
+          "array": "{{split(1.ids; \",\")}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 200,
+            "y": 0
+          }
+        },
+        "module": "builtin:BasicFeeder",
+        "parameters": {},
+        "version": 1
+      },
+      {
+        "id": 3,
+        "mapper": {
+          "id": "{{2.value}}",
+          "type": "posts"
+        },
+        "metadata": {
+          "designer": {
+            "x": 400,
+            "y": 0
+          }
+        },
+        "module": "wordpress:getPost",
+        "parameters": {
+          "__IMTCONN__": 8921729
+        },
+        "version": 3
+      },
+      {
+        "id": 4,
+        "mapper": {
+          "max_tokens": 2000,
+          "model": "claude-sonnet-5-5",
+          "textPrompt": "You are the story editor who opens HealthSignals' cover meeting, as the editor of The Economist does: before anyone draws, you tell the artists what the story really says. HealthSignals is a B2B pharma and health-policy intelligence publication for Latin America and the US.\n\nARTICLE\nTitle: {{stripHTML(3.title)}}\nExcerpt: {{stripHTML(3.excerpt)}}\nBody (truncated): {{substring(stripHTML(3.content); 0; 6000)}}\nCategory IDs: {{join(3.categories; \", \")}}\n\n{{50.rec}}\n\nDistil the story. Be concrete and neutral; use only facts in the article.\nOUTPUT valid JSON only, no fence, no double quotes inside any value (use single quotes if needed):\n{\"message\":\"one plain sentence: what happened\",\"before_after\":\"what was true before and what is true now\",\"surprise\":\"the one surprising, counter-intuitive or ironic element of the situation, or empty\",\"key_fact\":\"the single figure or detail that matters most, verbatim from the excerpt\",\"story_type\":\"R1..R17 and its name\",\"world_objects\":\"6 concrete everyday objects or settings that belong to this story's world\",\"stakeholders\":\"every named company, regulator, government, payer, patient group or professional body\",\"title_words\":\"every word of the title\"}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 500,
+            "y": 0
+          }
+        },
+        "module": "anthropic-claude:simpleTextPrompt",
+        "parameters": {
+          "__IMTCONN__": 8922808
+        },
+        "version": 1
+      },
+      {
+        "id": 5,
+        "mapper": {
+          "max_tokens": 6000,
+          "model": "claude-sonnet-5-5",
+          "textPrompt": "You are one of four competing cover creatives at HealthSignals. The best idea wins the cover; the art director judges clarity first, then wit, then craft.\n\nYOUR SPECIALITY: the OBJECT FUSION, The Economist's signature move: one familiar object from the story's world (see world_objects and the recipe for this story type) merged with a second idea that shows exactly what changed. Drawable and instantly recognisable.\n\nARTICLE\nTitle: {{stripHTML(3.title)}}\nExcerpt: {{stripHTML(3.excerpt)}}\nBody (truncated): {{substring(stripHTML(3.content); 0; 6000)}}\nCategory IDs: {{join(3.categories; \", \")}}\n\nSTORY BRIEF (from the story editor)\n{{4.result}}\n\n{{50.rec}}\n\nRULES for every idea: the picture alone must say what happened (wit is the second layer); specific to this story; honest (no invented rivals, motives, winners or losers; never readable as the opposite of the news); acceptable to every stakeholder in the brief: nobody mocked, blamed, cast as greedy, slow or threatening; no class or occupation stereotypes (no suits, ties or briefcases); no patients' bodies, injury or death; no queues of patients or elderly figures when the news is about prices, contracts or rules; people only as small faceless silhouettes and only if essential; at most one short label of 1-3 words painted on an object, only a named entity and only on the object that truly represents it; never rely on a written word to make the joke; cover line max 5 words, no title words, understood by an executive whose first language is Spanish or Portuguese. Banned main images: bridges, cliffs, chasms, umbrellas, forking roads, traffic lights, thermometers, scales of justice, seesaws, revolving doors, chess, puzzles, icebergs, lightbulbs, rising arrows, handshakes, loose pills, syringes, DNA, generic buildings, bar charts, vending machines, coin stacks, documents or screens full of text.\n\n{{51.bank}}\n\nYou may also use the HealthSignals cast and country cues when they make the idea clearer:\n{{52.cast}}\n\nMETHOD: first write the most obvious idea as id A0 and discard it; then write 3 ideas (A1-A3) that each beat the obvious one. For each give visible_details: 2-4 concrete visual features that make the main object instantly recognisable when drawn.\nOUTPUT valid JSON only, no fence, no double quotes inside any value (use single quotes if needed):\n{\"ideas\":[{\"id\":\"\",\"image\":\"\",\"visible_details\":\"\",\"label\":\"\",\"cover_line\":\"\",\"discarded\":false}]}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 700,
+            "y": 0
+          }
+        },
+        "module": "anthropic-claude:simpleTextPrompt",
+        "parameters": {
+          "__IMTCONN__": 8922808
+        },
+        "version": 1
+      },
+      {
+        "id": 6,
+        "mapper": {
+          "max_tokens": 6000,
+          "model": "claude-sonnet-5-5",
+          "textPrompt": "You are one of four competing cover creatives at HealthSignals. The best idea wins the cover; the art director judges clarity first, then wit, then craft.\n\nYOUR SPECIALITY: WORDPLAY FIRST: start from the cover line. Take an idiom or an industry term literally (pipeline, patent cliff, price ceiling, red tape, cold chain, formulary, carve-out, fine print, bottom line, headroom, waiting room, starting line) or twist a well-known English phrase a Spanish- or Portuguese-speaking executive would still get; then draw that literal picture so line and picture need each other. The pun must live in the picture plus line, never in words written inside the picture.\n\nARTICLE\nTitle: {{stripHTML(3.title)}}\nExcerpt: {{stripHTML(3.excerpt)}}\nBody (truncated): {{substring(stripHTML(3.content); 0; 6000)}}\nCategory IDs: {{join(3.categories; \", \")}}\n\nSTORY BRIEF (from the story editor)\n{{4.result}}\n\n{{50.rec}}\n\nRULES for every idea: the picture alone must say what happened (wit is the second layer); specific to this story; honest (no invented rivals, motives, winners or losers; never readable as the opposite of the news); acceptable to every stakeholder in the brief: nobody mocked, blamed, cast as greedy, slow or threatening; no class or occupation stereotypes (no suits, ties or briefcases); no patients' bodies, injury or death; no queues of patients or elderly figures when the news is about prices, contracts or rules; people only as small faceless silhouettes and only if essential; at most one short label of 1-3 words painted on an object, only a named entity and only on the object that truly represents it; never rely on a written word to make the joke; cover line max 5 words, no title words, understood by an executive whose first language is Spanish or Portuguese. Banned main images: bridges, cliffs, chasms, umbrellas, forking roads, traffic lights, thermometers, scales of justice, seesaws, revolving doors, chess, puzzles, icebergs, lightbulbs, rising arrows, handshakes, loose pills, syringes, DNA, generic buildings, bar charts, vending machines, coin stacks, documents or screens full of text.\n\n{{51.bank}}\n\nYou may also use the HealthSignals cast and country cues when they make the idea clearer:\n{{52.cast}}\n\nMETHOD: first write the most obvious idea as id B0 and discard it; then write 3 ideas (B1-B3) that each beat the obvious one. For each give visible_details: 2-4 concrete visual features that make the main object instantly recognisable when drawn.\nOUTPUT valid JSON only, no fence, no double quotes inside any value (use single quotes if needed):\n{\"ideas\":[{\"id\":\"\",\"image\":\"\",\"visible_details\":\"\",\"label\":\"\",\"cover_line\":\"\",\"discarded\":false}]}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 800,
+            "y": 0
+          }
+        },
+        "module": "anthropic-claude:simpleTextPrompt",
+        "parameters": {
+          "__IMTCONN__": 8922808
+        },
+        "version": 1
+      },
+      {
+        "id": 7,
+        "mapper": {
+          "max_tokens": 6000,
+          "model": "claude-sonnet-5-5",
+          "textPrompt": "You are one of four competing cover creatives at HealthSignals. The best idea wins the cover; the art director judges clarity first, then wit, then craft.\n\nYOUR SPECIALITY: the VISUAL ANALOGY and the SURPRISE: build on the brief's surprise or before_after; show the mechanism as a familiar everyday situation or a change of scale, as long as it is clearer than any object from the story's world.\n\nARTICLE\nTitle: {{stripHTML(3.title)}}\nExcerpt: {{stripHTML(3.excerpt)}}\nBody (truncated): {{substring(stripHTML(3.content); 0; 6000)}}\nCategory IDs: {{join(3.categories; \", \")}}\n\nSTORY BRIEF (from the story editor)\n{{4.result}}\n\n{{50.rec}}\n\nRULES for every idea: the picture alone must say what happened (wit is the second layer); specific to this story; honest (no invented rivals, motives, winners or losers; never readable as the opposite of the news); acceptable to every stakeholder in the brief: nobody mocked, blamed, cast as greedy, slow or threatening; no class or occupation stereotypes (no suits, ties or briefcases); no patients' bodies, injury or death; no queues of patients or elderly figures when the news is about prices, contracts or rules; people only as small faceless silhouettes and only if essential; at most one short label of 1-3 words painted on an object, only a named entity and only on the object that truly represents it; never rely on a written word to make the joke; cover line max 5 words, no title words, understood by an executive whose first language is Spanish or Portuguese. Banned main images: bridges, cliffs, chasms, umbrellas, forking roads, traffic lights, thermometers, scales of justice, seesaws, revolving doors, chess, puzzles, icebergs, lightbulbs, rising arrows, handshakes, loose pills, syringes, DNA, generic buildings, bar charts, vending machines, coin stacks, documents or screens full of text.\n\n{{51.bank}}\n\nYou may also use the HealthSignals cast and country cues when they make the idea clearer:\n{{52.cast}}\n\nMETHOD: first write the most obvious idea as id C0 and discard it; then write 3 ideas (C1-C3) that each beat the obvious one. For each give visible_details: 2-4 concrete visual features that make the main object instantly recognisable when drawn.\nOUTPUT valid JSON only, no fence, no double quotes inside any value (use single quotes if needed):\n{\"ideas\":[{\"id\":\"\",\"image\":\"\",\"visible_details\":\"\",\"label\":\"\",\"cover_line\":\"\",\"discarded\":false}]}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 900,
+            "y": 0
+          }
+        },
+        "module": "anthropic-claude:simpleTextPrompt",
+        "parameters": {
+          "__IMTCONN__": 8922808
+        },
+        "version": 1
+      },
+      {
+        "id": 55,
+        "mapper": {
+          "max_tokens": 6000,
+          "model": "claude-sonnet-5-5",
+          "textPrompt": "You are one of four competing cover creatives at HealthSignals. The best idea wins the cover; the art director judges clarity first, then wit, then craft.\n\nYOUR SPECIALITY: the CAST and the COUNTRY. Tell the story with the HealthSignals cast below (who hands what to whom, who waits for whom, who joins the table) and, when one country is at stake, with its country cues. The scene must be one clear action, as simple as a well-drawn cartoon panel without words.\n\n{{52.cast}}\n\nARTICLE\nTitle: {{stripHTML(3.title)}}\nExcerpt: {{stripHTML(3.excerpt)}}\nBody (truncated): {{substring(stripHTML(3.content); 0; 6000)}}\nCategory IDs: {{join(3.categories; \", \")}}\n\nSTORY BRIEF (from the story editor)\n{{4.result}}\n\n{{50.rec}}\n\nRULES for every idea: the picture alone must say what happened (wit is the second layer); specific to this story; honest (no invented rivals, motives, winners or losers; never readable as the opposite of the news); acceptable to every stakeholder in the brief: nobody mocked, blamed, cast as greedy, slow or threatening; no class or occupation stereotypes (no suits, ties or briefcases); no patients' bodies, injury or death; no queues of patients or elderly figures when the news is about prices, contracts or rules; people only as small faceless silhouettes and only if essential; at most one short label of 1-3 words painted on an object, only a named entity and only on the object that truly represents it; never rely on a written word to make the joke; cover line max 5 words, no title words, understood by an executive whose first language is Spanish or Portuguese. Banned main images: bridges, cliffs, chasms, umbrellas, forking roads, traffic lights, thermometers, scales of justice, seesaws, revolving doors, chess, puzzles, icebergs, lightbulbs, rising arrows, handshakes, loose pills, syringes, DNA, generic buildings, bar charts, vending machines, coin stacks, documents or screens full of text.\n\n{{51.bank}}\n\nMETHOD: first write the most obvious idea as id D0 and discard it; then write 3 ideas (D1-D3) that each beat the obvious one. For each give visible_details: 2-4 concrete visual features that make the main object instantly recognisable when drawn.\nOUTPUT valid JSON only, no fence, no double quotes inside any value (use single quotes if needed):\n{\"ideas\":[{\"id\":\"\",\"image\":\"\",\"visible_details\":\"\",\"label\":\"\",\"cover_line\":\"\",\"discarded\":false}]}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 900,
+            "y": 0
+          }
+        },
+        "module": "anthropic-claude:simpleTextPrompt",
+        "parameters": {
+          "__IMTCONN__": 8922808
+        },
+        "version": 1
+      },
+      {
+        "id": 8,
+        "mapper": {
+          "max_tokens": 6000,
+          "model": "claude-opus-5-5",
+          "textPrompt": "You are the cover art director of HealthSignals and you judge in the manner of Stephen Petch, The Economist's long-time cover creative director: one distilled message; one strong image and a short line that need each other, never a mash-up; the reader resolves the incongruity in a second and smiles; wit, never a sneer; clarity beats cleverness; covers must not become wallpaper; when in doubt, simplify.\n\nARTICLE\nTitle: {{stripHTML(3.title)}}\nExcerpt: {{stripHTML(3.excerpt)}}\nBody (truncated): {{substring(stripHTML(3.content); 0; 6000)}}\nCategory IDs: {{join(3.categories; \", \")}}\n\nSTORY BRIEF (from the story editor)\n{{4.result}}\n\n{{51.bank}}\n\n{{52.cast}}\n\nFOUR CREATIVES COMPETED (ignore ideas marked discarded)\nCREATIVE A:\n{{5.result}}\n\nCREATIVE B:\n{{6.result}}\n\nCREATIVE C:\n{{7.result}}\n\nCREATIVE D:\n{{55.result}}\n\nChoose FIRST, on creative merit: which idea would make a reader stop, get it in two seconds and smile, and would sit next to the editor's winners in the reference bank? Prefer one bold object or situation over documents, screens, charts or crowds. Pick a winner and a runner-up from different creatives. Reward ideas a reader would remember tomorrow; punish ideas that are merely correct. Sharpen each: simplify to the essential, keep the visible_details. Do not water the idea down for safety; a separate panel checks fairness.\nOUTPUT valid JSON only, no fence, no double quotes inside any value (use single quotes if needed):\n{\"winner\":{\"id\":\"\",\"image\":\"\",\"visible_details\":\"\",\"label\":\"\",\"cover_line\":\"\"},\"runner_up\":{\"id\":\"\",\"image\":\"\",\"visible_details\":\"\",\"label\":\"\",\"cover_line\":\"\"},\"why\":\"one sentence\"}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        "module": "anthropic-claude:simpleTextPrompt",
+        "parameters": {
+          "__IMTCONN__": 8922808
+        },
+        "version": 1
+      },
+      {
+        "id": 9,
+        "mapper": {
+          "name": "pj",
+          "scope": "roundtrip",
+          "value": "{{trim(replace(replace(replace(replace(8.result; \"```json\"; \"\"); \"```\"; \"\"); \"/^[^{]*/\"; \"\"); \"/}[^}]*$/\"; \"}\"))}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 1100,
+            "y": 0
+          }
+        },
+        "module": "util:SetVariable2",
+        "parameters": {},
+        "version": 1
+      },
+      {
+        "id": 10,
+        "mapper": {
+          "max_tokens": 6000,
+          "model": "claude-sonnet-5-5",
+          "textPrompt": "You are the adversarial panel of HealthSignals. The art director has chosen a cover. You may only VETO it or require a MINIMAL fix; you may not replace the idea with a safer or more literal one, and you may not add objects, documents, text or people.\n\nSTORY BRIEF (from the story editor)\n{{4.result}}\n\nARTICLE\nTitle: {{stripHTML(3.title)}}\nExcerpt: {{stripHTML(3.excerpt)}}\nBody (truncated): {{substring(stripHTML(3.content); 0; 6000)}}\nCategory IDs: {{join(3.categories; \", \")}}\n\n\nART DIRECTOR'S CHOICE\n{{9.pj}}\n\nCheck the winner against five lenses:\n1. BLIND READING: someone who sees only the picture and the line, without the article: what would they say happened? It must match the message.\n2. STAKEHOLDERS: would the communications team of any named company, regulator, government, patient group or professional body reasonably say it mocks, blames, threatens or misrepresents them, or takes a side in an open dispute? Patient queues, elderly figures, scissors, flames, locks, walls or revolving doors next to a named actor are red flags.\n3. FACTS AND ENTITIES: any label sits on the object that truly represents that entity; nothing implies facts, outcomes or motives not in the excerpt.\n4. LANGUAGE: the line is clear to an executive whose first language is Spanish or Portuguese, uses no title words, nothing sarcastic or hinting at a threat.\n5. CRAFT: one clear image, no text beyond the single label, no fake documents or screens, not a cliché.\nIf the winner passes, keep it. If a minimal change fixes it (drop the label, change one word of the line, remove the people), apply only that. If it cannot be fixed minimally, VETO it and run the same check on the runner-up.\n\nOUTPUT valid JSON only, no fence, no double quotes inside any value:\n{\"blind_reading\":\"\",\"decision\":\"PASS|FIX|VETO\",\"changes\":\"\",\"final\":{\"id\":\"\",\"image\":\"\",\"visible_details\":\"\",\"label\":\"\",\"cover_line\":\"\"}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 1200,
+            "y": 0
+          }
+        },
+        "module": "anthropic-claude:simpleTextPrompt",
+        "parameters": {
+          "__IMTCONN__": 8922808
+        },
+        "version": 1
+      },
+      {
+        "id": 11,
+        "mapper": {
+          "name": "pj",
+          "scope": "roundtrip",
+          "value": "{{trim(replace(replace(replace(replace(10.result; \"```json\"; \"\"); \"```\"; \"\"); \"/^[^{]*/\"; \"\"); \"/}[^}]*$/\"; \"}\"))}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 1300,
+            "y": 0
+          }
+        },
+        "module": "util:SetVariable2",
+        "parameters": {},
+        "version": 1
+      },
+      {
+        "id": 12,
+        "mapper": {
+          "max_tokens": 2000,
+          "model": "claude-sonnet-5-5",
+          "textPrompt": "You are the cover-line writer of HealthSignals, trained on The Economist's cover lines: two to five words, a twist on a familiar phrase that clicks with the picture, never sarcastic, never a pun the picture does not support.\n\nARTICLE\nTitle: {{stripHTML(3.title)}}\nExcerpt: {{stripHTML(3.excerpt)}}\nBody (truncated): {{substring(stripHTML(3.content); 0; 6000)}}\nCategory IDs: {{join(3.categories; \", \")}}\n\nSTORY BRIEF (from the story editor)\n{{4.result}}\n\nAPPROVED CONCEPT\n{{11.pj}}\n\nWrite 10 candidate cover lines for this picture. Rules: max 5 words and 28 characters; no word or figure from the title ({{stripHTML(3.title)}}); clear to an executive whose first language is Spanish or Portuguese; neutral to every stakeholder; no hints of threat (for now, still, yet). Then pick the best and a runner-up. Before answering, compare every word of best, runner_up, sub, alt_main and alt_sub with the title word by word (including plurals and other forms) and replace any that match; a line that repeats a title word will be thrown away by the layout system.\nAlso write: sub = one neutral descriptive line (attribution only with says, estimates, reports or finds; never claims, admits, slams or warns), max 70 characters, naming the key entity, no title words, any number verbatim from the excerpt; alt_main and alt_sub = a plainer pair (entity name and what changed) with the same rules.\nOUTPUT valid JSON only, no fence, no double quotes inside any value (use single quotes if needed):\n{\"candidates\":[\"\"],\"best\":\"\",\"runner_up\":\"\",\"sub\":\"\",\"alt_main\":\"\",\"alt_sub\":\"\"}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 1400,
+            "y": 0
+          }
+        },
+        "module": "anthropic-claude:simpleTextPrompt",
+        "parameters": {
+          "__IMTCONN__": 8922808
+        },
+        "version": 1
+      },
+      {
+        "id": 13,
+        "mapper": {
+          "name": "pj",
+          "scope": "roundtrip",
+          "value": "{{trim(replace(replace(replace(replace(12.result; \"```json\"; \"\"); \"```\"; \"\"); \"/^[^{]*/\"; \"\"); \"/}[^}]*$/\"; \"}\"))}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 1500,
+            "y": 0
+          }
+        },
+        "module": "util:SetVariable2",
+        "parameters": {},
+        "version": 1
+      },
+      {
+        "id": 14,
+        "mapper": {
+          "max_tokens": 4000,
+          "model": "claude-sonnet-5-5",
+          "textPrompt": "You are the production designer of HealthSignals covers. Turn the approved concept into an image prompt and overlay. Do not change the idea.\n\nARTICLE\nTitle: {{stripHTML(3.title)}}\nExcerpt: {{stripHTML(3.excerpt)}}\nBody (truncated): {{substring(stripHTML(3.content); 0; 6000)}}\nCategory IDs: {{join(3.categories; \", \")}}\nCATEGORY NAMES: 789154359 Latin America; 1113941 United States; 286880753 Policy & Markets; 21583 Pharma; 8782 Digital Health; 789170220 Medical Devices; 789170119 Oncology; 789170120 Cardiometabolic; 789170121 Rare Diseases; 789170122 Neuroscience; 789170123 Immunology; 789170124 Infectious Diseases; 789170098 Voices. The AREA in the kicker must be one of the article's own category names (prefer the therapeutic or policy one, never a region).\n\n\nCONCEPT (approved; use the final object)\n{{11.pj}}\n\nCOVER LINES (use 'best' as cover_line and copy sub, alt_main, alt_sub)\n{{13.pj}}\n\nSTORY BRIEF (from the story editor)\n{{4.result}}\n\nSTEP 3. Rendering style: pick one style from this bank that best suits the story and the object; render_style = its code, name and full description.\n{{53.styles}}\nSTEP 4. Palette: refined and editorial, like a quality weekly magazine cover: colour is present but calm. Background: one flat pale, low-saturation field (warm off-white, pale stone, pale grey-blue, pale sage, pale blush); never orange, ochre, yellow or any strong colour, because the kicker is printed in orange. Accent: if the Category IDs include 789154359 (Latin America) the accent is warm ochre; else if they include 1113941 (United States) deep navy; else Policy & Markets (286880753) deep teal; Pharma (21583) burnt orange; Digital Health (8782) muted violet; Medical Devices (789170220) slate blue; otherwise burnt orange. The accent goes on the key element only. Everything else in one or two muted mid-tones (dusty blue, sage, terracotta, warm grey, soft rose) plus dark ink; at most four colours in total besides the background; medium saturation, nothing fluorescent.\nSTEP 4b. If the concept uses the HealthSignals cast or country cues, keep their exact colours and props from this list; flag colours override the accent; still never draw a flag.\n{{52.cast}}\nSTEP 5. Image prompt for the winner, 130-180 words, self-contained, literal colour names: one dominant subject drawn with its visible_details so it is instantly recognisable, the exact action, scale and position of each element; the upper-left area (x 60-640, y 150-470) is a calm empty field of the background colour for the overlay; every element at least 120 px away from all edges; the background colour fills the entire canvas edge to edge (full bleed), with no inner panel, mat, border or lighter rectangle; people only as small faceless silhouettes; if the winner has a label, state exactly: the plain painted word(s) LABEL on the <object>, without quotation marks, and say no other text anywhere; otherwise no text, letters, numbers, logos, flags, maps or signage at all.\nSTEP 6. Overlay (no double quotes inside any value). FORBIDDEN WORDS: every word of the title ({{stripHTML(3.title)}}) and every figure in it, in any form, may not appear in cover_line, sub, alt_main or alt_sub; check each one word by word before writing it and report the check. cover_line = the winner's cover line, max 28 characters, no title words, descriptive not sarcastic, no 'for now', 'still', 'yet' or other hints of threat; sub = one neutral descriptive line, max 70 characters, naming the key entity, no title words, any number must appear verbatim in the excerpt; alt_main and alt_sub = a second, plainer pair (entity name and what changed) with the same rules; kicker = COUNTRY · ENTITY · AREA in capitals, max 45 characters; country = the main country in plain English; if the story is global or spans several countries, use GLOBAL (or LATIN AMERICA for a regional story) both here and as the first part of the kicker; never name a country only because the source organisation is based there. Neutral attribution: in sub and alt_sub use says, estimates, reports or finds; never claims, admits, slams, warns or touts.\n\n\n\nOUTPUT valid JSON only, no fence, no double quotes inside any value:\n{\"message\":\"copy the brief message\",\"render_style\":\"\",\"background\":\"\",\"accent\":\"\",\"supporting\":\"\",\"label\":\"\",\"image_prompt\":\"\",\"cover_line\":\"\",\"sub\":\"\",\"alt_main\":\"\",\"alt_sub\":\"\",\"forbidden_word_check\":\"\",\"kicker\":\"\",\"country\":\"\",\"alt_text\":\"one neutral sentence describing the picture\"}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 1700,
+            "y": 0
+          }
+        },
+        "module": "anthropic-claude:simpleTextPrompt",
+        "parameters": {
+          "__IMTCONN__": 8922808
+        },
+        "version": 1
+      },
+      {
+        "id": 15,
+        "mapper": {
+          "name": "pj",
+          "scope": "roundtrip",
+          "value": "{{trim(replace(replace(replace(replace(14.result; \"```json\"; \"\"); \"```\"; \"\"); \"/^[^{]*/\"; \"\"); \"/}[^}]*$/\"; \"}\"))}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 1800,
+            "y": 0
+          }
+        },
+        "module": "util:SetVariable2",
+        "parameters": {},
+        "version": 1
+      },
+      {
+        "id": 16,
+        "mapper": {
+          "json": "{{15.pj}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 1900,
+            "y": 0
+          }
+        },
+        "module": "json:ParseJSON",
+        "onerror": [
+          {
+            "id": 40,
+            "metadata": {
+              "designer": {
+                "x": 0,
+                "y": 0
+              }
+            },
+            "module": "builtin:Ignore",
+            "version": 1
+          }
+        ],
+        "parameters": {},
+        "version": 1
+      },
+      {
+        "id": 17,
+        "mapper": {
+          "convert": false,
+          "data": "BRIEF:\n{{4.result}}\n\nCREATIVE A:\n{{5.result}}\n\nCREATIVE B:\n{{6.result}}\n\nCREATIVE C:\n{{7.result}}\n\nCREATIVE D:\n{{55.result}}\n\nPETCH:\n{{9.pj}}\n\nPANEL:\n{{11.pj}}\n\nLINES:\n{{13.pj}}\n\nPRODUCTION:\n{{15.pj}}",
+          "filename": "concept-v11-post{{2.value}}.json.txt",
+          "folderId": "131ApKeYrTpSsDSEcKKeboAIt6eodC-AH",
+          "select": "map"
+        },
+        "metadata": {
+          "designer": {
+            "x": 2000,
+            "y": 0
+          }
+        },
+        "module": "google-drive:uploadAFile",
+        "parameters": {
+          "__IMTCONN__": 11340939
+        },
+        "version": 4
+      },
+      {
+        "id": 18,
+        "mapper": {
+          "model": "gpt-image-2.6-sunburst",
+          "n": 1,
+          "output_compression": 90,
+          "output_format": "jpeg",
+          "prompt": "{{16.image_prompt}} Rendering style: {{16.render_style}}, in full colour. Background: a flat {{16.background}} field. Accent: {{16.accent}} on the key element; supporting colours: {{16.supporting}}. STYLE (overrides anything above): cover illustration for a serious weekly current-affairs magazine; one bold idea, confident composition, generous negative space; refined, calm editorial colour at medium saturation, never loud, neon or monochrome; tactile print quality, no gradients, no photorealism, no 3D render look; the upper-left quarter stays an empty flat field of the background colour; every element well inside the frame, nothing touching an edge; people only as small faceless silhouettes; no frame or border; FULL BLEED: the flat background colour fills the whole canvas to every edge; no inner frame, mat, card, border, vignette or lighter rectangle. no logos, flags or signage; no text anywhere except the single label explicitly requested above, if any, spelled exactly.",
+          "quality": "high",
+          "size": "1536x1024"
+        },
+        "metadata": {
+          "designer": {
+            "x": 2000,
+            "y": 0
+          }
+        },
+        "module": "openai-gpt-3:GenerateImage",
+        "parameters": {
+          "__IMTCONN__": 8943313
+        },
+        "version": 1
+      },
+      {
+        "id": 19,
+        "mapper": {
+          "array": "{{18.data}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 2100,
+            "y": 0
+          }
+        },
+        "module": "builtin:BasicFeeder",
+        "parameters": {},
+        "version": 1
+      },
+      {
+        "id": 20,
+        "mapper": {
+          "name": "ql",
+          "scope": "roundtrip",
+          "value": "{{16.cover_line}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 2300,
+            "y": 0
+          }
+        },
+        "module": "util:SetVariable2",
+        "parameters": {},
+        "version": 1
+      },
+      {
+        "id": 21,
+        "mapper": {
+          "name": "qm",
+          "scope": "roundtrip",
+          "value": "{{16.message}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 2350,
+            "y": 0
+          }
+        },
+        "module": "util:SetVariable2",
+        "parameters": {},
+        "version": 1
+      },
+      {
+        "id": 22,
+        "mapper": {
+          "name": "qb",
+          "scope": "roundtrip",
+          "value": "{{if(16.label; 16.label; \"none\")}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 2400,
+            "y": 0
+          }
+        },
+        "module": "util:SetVariable2",
+        "parameters": {},
+        "version": 1
+      },
+      {
+        "id": 23,
+        "mapper": {
+          "body": "{\"model\": \"claude-sonnet-5-5\", \"max_tokens\": 1500, \"messages\": [{\"role\": \"user\", \"content\": [{\"type\": \"image\", \"source\": {\"type\": \"base64\", \"media_type\": \"image/jpeg\", \"data\": \"{{base64(19.fileData)}}\"}}, {\"type\": \"text\", \"text\": \"You are the final picture editor of HealthSignals, a B2B pharma and health-policy publication. You decide whether this AI-generated cover illustration can be published. Ignore the kicker and headline typography in the upper-left corner if present; it is added by code.\\nCover line: {{20.ql}}\\nIntended message: {{21.qm}}\\nThe only text allowed inside the picture: {{22.qb}}\\n\\nSTEP 1. List any real words or numbers you can clearly read in the picture outside the upper-left typography. Universal symbols (Rx, $, %, +, arrows, check marks, a heart, a cross-free medical sign) are not words. Decorative marks, ticks, grid lines and texture are not text. If unsure, it is not text.\\nSTEP 2. In one sentence, say what a reader would take from the picture together with the cover line. Judge the GIST only: the picture must make the mechanism of the news understandable with the line; specific figures, dates and names are carried by the headline and subtitle, so their absence is never a reason to reject.\\nSTEP 3. REJECT only if: there are real words other than the allowed label of at most two words; the picture plus line would mislead a reader about the gist or could be read as the opposite; the main object is not recognisable; documents or screens full of fake text; clutter with competing ideas; the main subject overlaps the upper-left text area or is cut by the frame; an identifiable face or photorealistic person; suits, ties or briefcases; queues of patients or elderly figures in a story about prices, contracts or rules; anything a named company, regulator, government or patient group could reasonably read as mocking, blaming or threatening them, or taking a side; loud or neon colours. Otherwise APPROVE: a good cover leaves room for the headline to do its job.\\nLast two lines exactly:\\nVERDICT: APPROVE or VERDICT: REJECT - one short reason\\nFIX: one concrete instruction for the illustrator that would solve the main problem, or none\"}]}]}",
+          "headers": [
+            {
+              "key": "content-type",
+              "value": "application/json"
+            }
+          ],
+          "method": "POST",
+          "url": "/v1/messages"
+        },
+        "metadata": {
+          "designer": {
+            "x": 2300,
+            "y": 0
+          }
+        },
+        "module": "anthropic-claude:makeAnApiCall",
+        "onerror": [
+          {
+            "id": 41,
+            "mapper": {},
+            "metadata": {
+              "designer": {
+                "x": 0,
+                "y": 0
+              }
+            },
+            "module": "builtin:Resume",
+            "version": 1
+          }
+        ],
+        "parameters": {
+          "__IMTCONN__": 8922808
+        },
+        "version": 1
+      },
+      {
+        "id": 24,
+        "mapper": {
+          "name": "qa",
+          "scope": "roundtrip",
+          "value": "{{join(map(23.body.content; \"text\"); \" \")}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 2500,
+            "y": 0
+          }
+        },
+        "module": "util:SetVariable2",
+        "parameters": {},
+        "version": 1
+      },
+      {
+        "id": 25,
+        "mapper": {
+          "convert": false,
+          "data": "{{24.qa}}",
+          "filename": "concept-v11-post{{2.value}}-img{{19.`__IMTINDEX__`}}-qa.txt",
+          "folderId": "131ApKeYrTpSsDSEcKKeboAIt6eodC-AH",
+          "select": "map"
+        },
+        "metadata": {
+          "designer": {
+            "x": 2550,
+            "y": 0
+          }
+        },
+        "module": "google-drive:uploadAFile",
+        "parameters": {
+          "__IMTCONN__": 11340939
+        },
+        "version": 4
+      },
+      {
+        "id": 26,
+        "mapper": {
+          "bodyType": "multipart_form_data",
+          "followAllRedirects": true,
+          "followRedirect": true,
+          "formDataFields": [
+            {
+              "data": "{{19.fileData}}",
+              "fieldType": "file",
+              "fileName": "cover.jpg",
+              "key": "image"
+            },
+            {
+              "fieldType": "text",
+              "key": "title",
+              "value": "{{stripHTML(3.title)}}"
+            },
+            {
+              "fieldType": "text",
+              "key": "excerpt",
+              "value": "{{stripHTML(3.excerpt)}}"
+            },
+            {
+              "fieldType": "text",
+              "key": "country",
+              "value": "{{16.country}}"
+            },
+            {
+              "fieldType": "text",
+              "key": "proposal",
+              "value": "{\"kicker\":\"{{16.kicker}}\",\"zone\":\"upper-left\",\"overlay_candidates\":[{\"protagonist_type\":\"MECHANISM\",\"main\":\"{{16.cover_line}}\",\"sub\":\"{{16.sub}}\",\"source_fact\":\"\"},{\"protagonist_type\":\"ACTOR\",\"main\":\"{{16.alt_main}}\",\"sub\":\"{{16.alt_sub}}\",\"source_fact\":\"\"}]}"
+            }
+          ],
+          "gzip": true,
+          "headers": [
+            {
+              "name": "x-cover-key",
+              "value": "hsc_SCvLx0u7SqB60ZTp6GU2XmYxtHTj9ztm"
+            }
+          ],
+          "method": "post",
+          "parseResponse": false,
+          "rejectUnauthorized": true,
+          "serializeUrl": false,
+          "shareCookies": false,
+          "timeout": 120,
+          "url": "https://lustrous-lebkuchen-b5da5f.netlify.app/cover",
+          "useMtls": false,
+          "useQuerystring": false
+        },
+        "metadata": {
+          "designer": {
+            "x": 2500,
+            "y": 0
+          }
+        },
+        "module": "http:ActionSendData",
+        "onerror": [],
+        "parameters": {
+          "handleErrors": false
+        },
+        "version": 3
+      },
+      {
+        "id": 27,
+        "mapper": {
+          "convert": false,
+          "data": "{{26.data}}",
+          "filename": "concept-v11-post{{2.value}}-img{{19.`__IMTINDEX__`}}-{{if(contains(24.qa; \"VERDICT: APPROVE\"); \"APPROVE\"; \"REJECT\")}}.jpg",
+          "folderId": "131ApKeYrTpSsDSEcKKeboAIt6eodC-AH",
+          "select": "map"
+        },
+        "metadata": {
+          "designer": {
+            "x": 2700,
+            "y": 0
+          }
+        },
+        "module": "google-drive:uploadAFile",
+        "parameters": {
+          "__IMTCONN__": 11340939
+        },
+        "version": 4
+      },
+      {
+        "id": 70,
+        "mapper": null,
+        "metadata": {
+          "designer": {
+            "x": 2800,
+            "y": 0
+          }
+        },
+        "module": "builtin:BasicRouter",
+        "routes": [
+          {
+            "flow": [
+              {
+                "id": 31,
+                "mapper": {
+                  "name": "fix",
+                  "scope": "roundtrip",
+                  "value": "{{trim(last(split(24.qa; \"FIX:\")))}}"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 2900,
+                    "y": 0
+                  }
+                },
+                "module": "util:SetVariable2",
+                "parameters": {},
+                "version": 1
+              },
+              {
+                "filter": {
+                  "conditions": [
+                    [
+                      {
+                        "a": "{{24.qa}}",
+                        "b": "VERDICT: REJECT",
+                        "o": "text:contain"
+                      }
+                    ]
+                  ],
+                  "name": "only if QA rejected"
+                },
+                "id": 28,
+                "mapper": {
+                  "model": "gpt-image-2.6-sunburst",
+                  "n": 1,
+                  "output_compression": 90,
+                  "output_format": "jpeg",
+                  "prompt": "{{16.image_prompt}} Rendering style: {{16.render_style}}, in full colour. Background: a flat {{16.background}} field. Accent: {{16.accent}} on the key element; supporting colours: {{16.supporting}}. STYLE (overrides anything above): cover illustration for a serious weekly current-affairs magazine; one bold idea, confident composition, generous negative space; refined, calm editorial colour at medium saturation, never loud, neon or monochrome; tactile print quality, no gradients, no photorealism, no 3D render look; the upper-left quarter stays an empty flat field of the background colour; every element well inside the frame, nothing touching an edge; people only as small faceless silhouettes; no frame or border; FULL BLEED: the flat background colour fills the whole canvas to every edge; no inner frame, mat, card, border, vignette or lighter rectangle. no logos, flags or signage; no text anywhere except the single label explicitly requested above, if any, spelled exactly. CORRECTION REQUIRED (apply it, keep everything else): {{31.fix}}",
+                  "quality": "high",
+                  "size": "1536x1024"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 3000,
+                    "y": 0
+                  }
+                },
+                "module": "openai-gpt-3:GenerateImage",
+                "parameters": {
+                  "__IMTCONN__": 8943313
+                },
+                "version": 1
+              },
+              {
+                "id": 32,
+                "mapper": {
+                  "array": "{{28.data}}"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 3100,
+                    "y": 0
+                  }
+                },
+                "module": "builtin:BasicFeeder",
+                "parameters": {},
+                "version": 1
+              },
+              {
+                "id": 29,
+                "mapper": {
+                  "bodyType": "multipart_form_data",
+                  "followAllRedirects": true,
+                  "followRedirect": true,
+                  "formDataFields": [
+                    {
+                      "data": "{{32.fileData}}",
+                      "fieldType": "file",
+                      "fileName": "cover.jpg",
+                      "key": "image"
+                    },
+                    {
+                      "fieldType": "text",
+                      "key": "title",
+                      "value": "{{stripHTML(3.title)}}"
+                    },
+                    {
+                      "fieldType": "text",
+                      "key": "excerpt",
+                      "value": "{{stripHTML(3.excerpt)}}"
+                    },
+                    {
+                      "fieldType": "text",
+                      "key": "country",
+                      "value": "{{16.country}}"
+                    },
+                    {
+                      "fieldType": "text",
+                      "key": "proposal",
+                      "value": "{\"kicker\":\"{{16.kicker}}\",\"zone\":\"upper-left\",\"overlay_candidates\":[{\"protagonist_type\":\"MECHANISM\",\"main\":\"{{16.cover_line}}\",\"sub\":\"{{16.sub}}\",\"source_fact\":\"\"},{\"protagonist_type\":\"ACTOR\",\"main\":\"{{16.alt_main}}\",\"sub\":\"{{16.alt_sub}}\",\"source_fact\":\"\"}]}"
+                    }
+                  ],
+                  "gzip": true,
+                  "headers": [
+                    {
+                      "name": "x-cover-key",
+                      "value": "hsc_SCvLx0u7SqB60ZTp6GU2XmYxtHTj9ztm"
+                    }
+                  ],
+                  "method": "post",
+                  "parseResponse": false,
+                  "rejectUnauthorized": true,
+                  "serializeUrl": false,
+                  "shareCookies": false,
+                  "timeout": 120,
+                  "url": "https://lustrous-lebkuchen-b5da5f.netlify.app/cover",
+                  "useMtls": false,
+                  "useQuerystring": false
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 3200,
+                    "y": 0
+                  }
+                },
+                "module": "http:ActionSendData",
+                "onerror": [],
+                "parameters": {
+                  "handleErrors": false
+                },
+                "version": 3
+              },
+              {
+                "id": 30,
+                "mapper": {
+                  "convert": false,
+                  "data": "{{29.data}}",
+                  "filename": "concept-v11-post{{2.value}}-img{{19.`__IMTINDEX__`}}-RETRY.jpg",
+                  "folderId": "131ApKeYrTpSsDSEcKKeboAIt6eodC-AH",
+                  "select": "map"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 3300,
+                    "y": 0
+                  }
+                },
+                "module": "google-drive:uploadAFile",
+                "parameters": {
+                  "__IMTCONN__": 11340939
+                },
+                "version": 4
+              }
+            ]
+          },
+          {
+            "flow": [
+              {
+                "id": 60,
+                "mapper": {
+                  "model": "gemini-3-pro-image",
+                  "prompt": "{{16.image_prompt}} Rendering style: {{16.render_style}}, in full colour. Background: a flat {{16.background}} field. Accent: {{16.accent}} on the key element; supporting colours: {{16.supporting}}. STYLE (overrides anything above): cover illustration for a serious weekly current-affairs magazine; one bold idea, confident composition, generous negative space; refined, calm editorial colour at medium saturation, never loud, neon or monochrome; tactile print quality, no gradients, no photorealism, no 3D render look; the upper-left quarter stays an empty flat field of the background colour; every element well inside the frame, nothing touching an edge; people only as small faceless silhouettes; no frame or border; FULL BLEED: the flat background colour fills the whole canvas to every edge; no inner frame, mat, card, border, vignette or lighter rectangle. no logos, flags or signage; no text anywhere except the single label explicitly requested above, if any, spelled exactly. Wide 3:2 landscape composition.",
+                  "response_format": {
+                    "aspectRatio": "3:2",
+                    "imageSize": "2K",
+                    "mimeType": "image/jpeg"
+                  }
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 2900,
+                    "y": 300
+                  }
+                },
+                "module": "gemini-ai:generateAnImageV2",
+                "onerror": [
+                  {
+                    "id": 63,
+                    "metadata": {
+                      "designer": {
+                        "x": 0,
+                        "y": 0
+                      }
+                    },
+                    "module": "builtin:Ignore",
+                    "version": 1
+                  }
+                ],
+                "parameters": {
+                  "__IMTCONN__": 12444726
+                },
+                "version": 1
+              },
+              {
+                "id": 61,
+                "mapper": {
+                  "bodyType": "multipart_form_data",
+                  "followAllRedirects": true,
+                  "followRedirect": true,
+                  "formDataFields": [
+                    {
+                      "data": "{{60.data}}",
+                      "fieldType": "file",
+                      "fileName": "cover.jpg",
+                      "key": "image"
+                    },
+                    {
+                      "fieldType": "text",
+                      "key": "title",
+                      "value": "{{stripHTML(3.title)}}"
+                    },
+                    {
+                      "fieldType": "text",
+                      "key": "excerpt",
+                      "value": "{{stripHTML(3.excerpt)}}"
+                    },
+                    {
+                      "fieldType": "text",
+                      "key": "country",
+                      "value": "{{16.country}}"
+                    },
+                    {
+                      "fieldType": "text",
+                      "key": "proposal",
+                      "value": "{\"kicker\":\"{{16.kicker}}\",\"zone\":\"upper-left\",\"overlay_candidates\":[{\"protagonist_type\":\"MECHANISM\",\"main\":\"{{16.cover_line}}\",\"sub\":\"{{16.sub}}\",\"source_fact\":\"\"},{\"protagonist_type\":\"ACTOR\",\"main\":\"{{16.alt_main}}\",\"sub\":\"{{16.alt_sub}}\",\"source_fact\":\"\"}]}"
+                    }
+                  ],
+                  "gzip": true,
+                  "headers": [
+                    {
+                      "name": "x-cover-key",
+                      "value": "hsc_SCvLx0u7SqB60ZTp6GU2XmYxtHTj9ztm"
+                    }
+                  ],
+                  "method": "post",
+                  "parseResponse": false,
+                  "rejectUnauthorized": true,
+                  "serializeUrl": false,
+                  "shareCookies": false,
+                  "timeout": 120,
+                  "url": "https://lustrous-lebkuchen-b5da5f.netlify.app/cover",
+                  "useMtls": false,
+                  "useQuerystring": false
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 3000,
+                    "y": 300
+                  }
+                },
+                "module": "http:ActionSendData",
+                "onerror": [],
+                "parameters": {
+                  "handleErrors": false
+                },
+                "version": 3
+              },
+              {
+                "id": 62,
+                "mapper": {
+                  "convert": false,
+                  "data": "{{61.data}}",
+                  "filename": "concept-v11-post{{2.value}}-GEMINI.jpg",
+                  "folderId": "131ApKeYrTpSsDSEcKKeboAIt6eodC-AH",
+                  "select": "map"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 3100,
+                    "y": 300
+                  }
+                },
+                "module": "google-drive:uploadAFile",
+                "parameters": {
+                  "__IMTCONN__": 11340939
+                },
+                "version": 4
+              }
+            ]
+          }
+        ],
+        "version": 1
+      }
+    ],
+    "metadata": {
+      "designer": {
+        "orphans": []
+      },
+      "instant": false,
+      "scenario": {
+        "autoCommit": true,
+        "autoCommitTriggerLast": true,
+        "confidential": false,
+        "dataloss": false,
+        "dlq": false,
+        "freshVariables": false,
+        "maxErrors": 3,
+        "roundtrips": 1,
+        "sequential": true
+      },
+      "version": 1
+    },
+    "name": "[TEST] HS covers concept v11 + Gemini (ad-hoc)"
+  },
+  "folderId": null,
+  "id": 7113631,
+  "interface": {
+    "input": [],
+    "output": []
+  },
+  "isActive": true,
+  "name": "[TEST] HS covers concept v11 + Gemini (ad-hoc)",
+  "scheduling": {
+    "type": "on-demand"
+  }
+}
