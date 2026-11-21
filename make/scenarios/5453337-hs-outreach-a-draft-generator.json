@@ -26,7 +26,7 @@
         "mapper": {
           "max_tokens": "1000",
           "model": "claude-sonnet-4-6",
-          "textPrompt": "Sos el equipo comercial de HealthSignals, inteligencia editorial de healthcare LATAM. Escribi un email de primer contacto en espanol, tono Bloomberg/FT (directo, sin hype), 5-8 lineas, para:\nNombre: {{1.Name}}\nEmpresa: {{1.Company}}\nCargo objetivo: {{1.Title}}\nSegmento: {{1.Segment}}\nPais/Region: {{1.Country}}\n\nReglas: 1 sola idea relevante a su segmento; ofrece una call de 15 min o un brief sin costo; cerra con opcion de baja (Responde 'baja' y no escribo mas). Firma como 'Fernando Pafumi - Editor, HealthSignals'. Devolve SOLO el cuerpo del email en texto plano, sin asunto, sin comillas dobles."
+          "textPrompt": "Sos el equipo comercial de HealthSignals, inteligencia editorial de healthcare LATAM. Escribi un email de primer contacto en espanol, tono Bloomberg/FT (directo, sin hype), 5-8 lineas, para:\nNombre: {{1.Name}}\nEmpresa: {{1.Company}}\nCargo objetivo: {{1.Title}}\nSegmento: {{1.Segment}}\nPais/Region: {{1.Country}}\n\nReglas: 1 sola idea relevante a su segmento; ofrece una call de 15 min o un brief sin costo; cerra con opcion de baja (Responde 'baja' y no escribo mas). Despues de la opcion de baja, termina con esta firma exacta, copiada letra por letra y sin agregar nada: Fernando Pafumi | CEO y editor, HealthSignals | healthsignals.news | Suscribirse a The Brief: healthsignals.news/newsletter | LinkedIn: linkedin.com/company/healthsignalsnews | X: x.com/HealthsignalsX\nDevolve SOLO el cuerpo del email en texto plano, sin asunto, sin comillas dobles."
         },
         "metadata": {
           "advanced": true,

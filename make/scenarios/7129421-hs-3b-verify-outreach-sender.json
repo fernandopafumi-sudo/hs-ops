@@ -1,0 +1,114 @@
+{
+  "blueprint": {
+    "flow": [
+      {
+        "id": 1,
+        "mapper": {
+          "from": "HealthSignals Verification Team <verify@healthsignals.news>",
+          "headers": [
+            {
+              "key": "X-HS-Ref",
+              "value": "{{var.input.token}}"
+            }
+          ],
+          "html": "{{var.input.questionHtml}}",
+          "replyTo": [
+            "verify@healthsignals.news"
+          ],
+          "sendEmailAs": "html",
+          "subject": "{{var.input.subject}}",
+          "to": [
+            "{{var.input.toEmail}}"
+          ]
+        },
+        "metadata": {
+          "designer": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        "module": "resend:sendAnEmail",
+        "parameters": {
+          "__IMTCONN__": 9533217
+        },
+        "version": 1
+      },
+      {
+        "id": 2,
+        "mapper": {
+          "from": "drive",
+          "includesHeaders": true,
+          "mode": "select",
+          "rowNumber": "{{var.input.row}}",
+          "sheetId": "Editorial Queue",
+          "spreadsheetId": "1J8ca4Pvp3HTSdHqq9-TZ1H-nF6_fM5R3Jm1bf9bAU8A",
+          "useColumnHeaders": true,
+          "valueInputOption": "USER_ENTERED",
+          "values": {
+            "3b_Reply_Date": "{{formatDate(now; \"YYYY-MM-DD HH:mm\")}}",
+            "3b_Reply_Text": "",
+            "3b_Status": "sent",
+            "3b_Token": "{{var.input.token}}"
+          }
+        },
+        "metadata": {
+          "designer": {
+            "x": 300,
+            "y": 0
+          }
+        },
+        "module": "google-sheets:updateRow",
+        "parameters": {
+          "__IMTCONN__": 8923977
+        },
+        "version": 2
+      }
+    ],
+    "metadata": {
+      "instant": false,
+      "version": 1
+    },
+    "name": "HS 3b - Verify Outreach Sender"
+  },
+  "folderId": null,
+  "id": 7129421,
+  "interface": {
+    "input": [
+      {
+        "name": "row",
+        "required": true,
+        "type": "number"
+      },
+      {
+        "name": "toEmail",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "name": "toName",
+        "type": "text"
+      },
+      {
+        "name": "subject",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "name": "questionHtml",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "name": "token",
+        "required": true,
+        "type": "text"
+      }
+    ],
+    "output": []
+  },
+  "isActive": true,
+  "name": "HS 3b - Verify Outreach Sender",
+  "scheduling": {
+    "type": "on-demand"
+  }
+}

@@ -130,6 +130,15 @@
     "id": "recLGmRNhYdunzA44"
   },
   {
+    "createdTime": "2026-11-21T12:15:01.000Z",
+    "fields": {
+      "Change": "HS CEO diario 21-11",
+      "Date": "2026-11-21",
+      "Details": "Hecho: borrados 2 borradores viejos a Méndez (r8971495575676568603, r3800921940972079758); Voices recpbvUNdZqctHcnB Sepúlveda Stage -> Published (36926 publicada 20-11). Mail 'HS decisiones — 21-11 — 13 para decidir' enviado a editor@. Publisher: 2 corridas/48h, 3 borradores, 0 aprobadas, 4 hold. Gate: 37163 needs_edit, 37089 passed (cita a HS en el cuerpo). 13 decisiones pendientes. Prioridades: 1) desactivar tarea intro Sepúlveda 09:41 (36926 ya publicada); 2) confirmar plan pago LinkedIn cancelado (vence hoy); 3) 37089 sacar cita a HS + aplicar gate. Revisión adversarial: 11 correcciones."
+    },
+    "id": "recMCF6GX4GMBrVtG"
+  },
+  {
     "createdTime": "2026-09-22T20:45:07.000Z",
     "fields": {
       "Area": "Otro",
@@ -598,6 +607,17 @@
       "Status": "Pendiente"
     },
     "id": "recwVr0Tv1SnqSGYz"
+  },
+  {
+    "createdTime": "2026-11-20T18:30:12.000Z",
+    "fields": {
+      "Area": "Otro",
+      "Change": "Invitaciones Brief 2026-11-20: 34 invitaciones, 6 recordatorios",
+      "Date": "2026-11-20",
+      "Details": "Tope 40 (6 recordatorios + 34 invitaciones): solo quedaban 6 Sent con >=7 dias sin recordar; los otros 9 cupos pasaron a invitaciones. Rebote 5/275 = 1,8% (sin rebotes nuevos, sin quejas). Bajas/opt-out nuevas: 0. Declined nuevos: 0. Subscribed: 9 (conversion 3,3%).\nInvitaciones: 34 generic (es 16, en 14, pt 4). Recordatorios: 6 press (en 5, es 1).\nRetenidas: redacao@panoramafarmaceutico (hilo activo de alianza con Paulo Piratininga, decide Fer); 3 press diferidas (comercio.com.pe, endpointsnews.com, Burson hasta 30-11); 93 crm Pending Review sin contacto previo verificado (misma regla que las corridas anteriores).\nQueued restantes: 34 generic elegibles + 97 retenidas (93 crm, 3 press, 1 Panorama) + 9 webmail personales sin enviar.\nUltimo numero: se uso el fallback /newsletter/ (el registro Sent mas reciente, Issue 02 del 22-10, no tiene descripcion; healthsignals.news no accesible desde el entorno para verificar URL).\nRespuestas: Panorama (Paulo Piratininga) propone reunion y 'posto avancado' en Brasil -> Fer. Autorespuestas Grisel Trejo (MSD) y Fiona Cookson (AZ), sin accion.",
+      "Status": "Done"
+    },
+    "id": "recxGl971TubSG9ZV"
   },
   {
     "createdTime": "2026-09-26T19:11:43.000Z",

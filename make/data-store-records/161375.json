@@ -287,12 +287,12 @@
   },
   {
     "data": {
-      "notes": "passed: 2 corr de hecho (r1 indicacion: ipi+nivo + 2 ciclos de platino, NSCLC metastasico sin EGFR/ALK; r2 sin re-verificar: Granja = socio de life sciences and healthcare en TozziniFreire) + 2 de fuentes. Valor bloqueado: 7mo acuerdo y cartas de intencion sin verificar. Drive 1rKWLyv33hnPklmccZ4oujRSGSFDaNB--",
-      "run_id": "20261120-0659",
+      "notes": "passed (re-gate tras edicion 20-11, faltaban correcciones previas): 3 corr de hecho (r1 NSCLC metastatic; r1 Granja socio life sciences and healthcare; r2 sin re-verificar: Valor 'vial credits, not cash refunds'). Conflicto r1/r2 sobre 'metastatic'. Valor bloqueado: 7mo acuerdo y cartas de intencion sin verificar. Meta desc vacia. Drive 1SFCZPK3k4JzZ5HY4WpqI7mYsz62QEc4K",
+      "run_id": "20261121-0658",
       "state": "passed",
       "title": "BMS and A.C.Camargo say their oncology risk-sharing model can scale, if regulators help",
-      "updated_at": "2026-11-20T07:11:50-05:00",
-      "wp_modified": "2026-11-19T21:17:47"
+      "updated_at": "2026-11-21T07:08:30-05:00",
+      "wp_modified": "2026-11-20T13:27:49"
     },
     "key": "37089"
   },
@@ -309,14 +309,14 @@
   },
   {
     "data": {
-      "notes": "- sin fallos de acceso, aprobaciones ni bloqueos; STATE.md leido sin choques con el prompt\n- aviso: REPORT-20261009-0659 y -20261001-0658 siguen 'sin terminar' (corridas viejas, ya reportadas)\n- run_id 20261021-0659\n- borradores vistos 14 (mismos que ayer; el Publisher de 06:40 no dejo borrador nuevo); excluidos 5 (Weekly 36411, 36146, 35939, 35772; post 36041); skipped backlog 7 sin cambios; 36488 sigue needs_edit y 36441 sigue passed, ambos sin edicion (wp_modified igual); sin locks in_review; pendientes para manana 0\n- 0 borradores pendientes, no se reviso ninguno\n- limpieza: nada que borrar (Drive tiene 36488 y 36441, vigentes; sin REPORT ni registros de mas de 30 dias)\nPara aplicar y publicar, decile a Claude en un chat: aplicar gate <ID>. La sesión que aplique relee el post, rechaza si su modified es distinto del wp_modified del archivo, aplica los reemplazos con código, verifica el diff y publica solo con OK de Fer.",
-      "run_id": "20261021-0659",
+      "notes": "aplicado con OK de Fer (chat 21-11) sobre version 08:48: 6 corr del re-gate (stat box, meta 20%, proveedores <1 en 10, ONC 12-11, pledge empleadores, 'early 2025 survey') + 2 URLs en hs-sources. Sigue draft, sin publicar. Drive 1W4iyZ6f1NHGpcXtkQQG5GwqCakMiJ5yb",
+      "run_id": "20261121-0847",
       "state": "passed",
-      "title": "REPORT",
-      "updated_at": "2026-10-21T07:01:00-04:00",
-      "wp_modified": null
+      "title": "WEDI Survey: Only 1 in 10 Payers Ready for Jan. 1 ePA API Deadline",
+      "updated_at": "2026-11-21T09:12:00-05:00",
+      "wp_modified": "2026-11-21T09:11:06"
     },
-    "key": "REPORT-20261021-0659"
+    "key": "37163"
   },
   {
     "data": {
@@ -652,5 +652,16 @@
       "updated_at": "2026-11-20T07:12:30-05:00"
     },
     "key": "REPORT-20261120-0659"
+  },
+  {
+    "data": {
+      "notes": "- sin fallos de acceso, aprobaciones pedidas ni bloqueos; STATE.md leido, sin choques con el prompt\n- run_id 20261121-0658\n- borradores vistos 2, excluidos 0, skipped backlog 0, pendientes para mañana 0. Revisados 2: 37163 (nuevo) y 37089 (editado el 20-11 despues del gate)\n- limpieza: REPORT-20261021-0659 borrado (>30 dias); a la papelera de Drive el hallazgos viejo de 37089 y los de 37086, 37098, 37022, 37007 y 36926 (ya no estan en draft). Se dejo 36926-2026-11-17-intro-propuesta.md porque no es archivo del gate\n\n- 37163 \"WEDI Survey: Only 1 in 10 Payers Ready for Jan. 1 ePA API Deadline\": needs_edit, 7 correcciones de hecho en r1 (>5), sin r2\n  - principales: John Whyte es CEO de la AMA, no President (2 lugares); Epic no firmo el pledge de Oz, firmo el compromiso de empresas de EHR de 2025; la frase de Epic sobre el footprint en payers es de Healthcare Dive (citando a PwC), no de Bohochik (2 lugares); alcance de CMS-0057-F (faltan Medicaid/CHIP fee-for-service, QHP en exchanges federales); la nota de HCD es del 18-11, no del 16-11\n  - lo grave: las cifras centrales de WEDI (17%, \"nearly two-thirds\", 62% costos, 7% de proveedores) solo las respalda Healthcare Dive. Becker's Payer y HCFN dan otras (20% sin empezar o sin saber; el 62% es apoyo a un rollout escalonado; el 7% de proveedores implemento del todo). No aparecio el comunicado/PDF de WEDI\n  - borrado: nada. Sin verificar: fuente primaria de WEDI y $182M/$1.6B (solo via HCD)\n  - postura: NO publicar hasta confirmar las cifras contra el documento de WEDI\n  - Drive: https://drive.google.com/file/d/1TP3YJQNw22weM8wGQxv-G33SpNq8xxSq/view\n\n- 37089 \"BMS and A.C.Camargo say their oncology risk-sharing model can scale, if regulators help\": passed, 3 correcciones de hecho\n  - ojo: la edicion del 20-11 no tiene aplicadas las correcciones del gate anterior, se vuelven a proponer\n  - r1: \"first-line treatment for metastatic NSCLC\" (por la bula); Granja es socio de Life Sciences and Healthcare en TozziniFreire\n  - r2 (sin re-verificar): \"no cash refunds, under any circumstance\" pasa a \"vial credits, not cash refunds\"\n  - conflicto: r2 queria sacar \"metastatic\" porque el anuncio no lo dice. Quedo r1, decidi vos\n  - no aplicado: \"Mr Ielpo put a figure on it\" (la frase siguiente no da ninguna cifra; el cambio de r2 no tenia fuente). Meta description vacia, hay propuesta en el archivo\n  - sin verificar (Valor bloqueado): el \"seventh risk-sharing agreement\", las cartas de intencion con Einstein y Unimed POA (ninguna otra fuente las menciona) y la cita de Granja\n  - postura: publicar despues de chequear en Valor las cartas de intencion\n  - Drive: https://drive.google.com/file/d/1SFCZPK3k4JzZ5HY4WpqI7mYsz62QEc4K/view\n\nPara aplicar y publicar, decile a Claude en un chat: aplicar gate <ID>. La sesión que aplique relee el post, rechaza si su modified es distinto del wp_modified del archivo, aplica los reemplazos con código, verifica el diff y publica solo con OK de Fer.",
+      "run_id": "20261121-0658",
+      "state": "passed",
+      "title": "REPORT",
+      "updated_at": "2026-11-21T07:09:08-05:00",
+      "wp_modified": null
+    },
+    "key": "REPORT-20261121-0658"
   }
 ]

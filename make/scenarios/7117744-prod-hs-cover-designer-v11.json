@@ -10,8 +10,8 @@
         },
         "metadata": {
           "designer": {
-            "x": -200,
-            "y": 0
+            "x": 0,
+            "y": 3900
           }
         },
         "module": "util:SetVariable2",
@@ -27,8 +27,8 @@
         },
         "metadata": {
           "designer": {
-            "x": -200,
-            "y": 0
+            "x": 300,
+            "y": 3900
           }
         },
         "module": "util:SetVariable2",
@@ -44,8 +44,8 @@
         },
         "metadata": {
           "designer": {
-            "x": -200,
-            "y": 0
+            "x": 600,
+            "y": 3900
           }
         },
         "module": "util:SetVariable2",
@@ -61,8 +61,8 @@
         },
         "metadata": {
           "designer": {
-            "x": -200,
-            "y": 0
+            "x": 900,
+            "y": 3900
           }
         },
         "module": "util:SetVariable2",
@@ -86,7 +86,7 @@
             },
             {
               "key": "per_page",
-              "value": "1"
+              "value": "10"
             },
             {
               "key": "orderby",
@@ -102,7 +102,7 @@
             },
             {
               "key": "after",
-              "value": "{{formatDate(addHours(now; -3); \"YYYY-MM-DDTHH:mm:ss\")}}"
+              "value": "{{formatDate(addHours(now; -240); \"YYYY-MM-DDTHH:mm:ss\")}}"
             },
             {
               "key": "_fields",
@@ -117,8 +117,122 @@
         },
         "metadata": {
           "designer": {
-            "x": 0,
-            "y": 0
+            "x": 1200,
+            "y": 3900
+          },
+          "expect": [
+            {
+              "label": "URL",
+              "name": "url",
+              "required": true,
+              "type": "text"
+            },
+            {
+              "label": "Method",
+              "name": "method",
+              "required": true,
+              "type": "select",
+              "validate": {
+                "enum": [
+                  "GET",
+                  "POST",
+                  "PUT",
+                  "PATCH",
+                  "DELETE"
+                ]
+              }
+            },
+            {
+              "label": "Headers",
+              "name": "headers",
+              "spec": [
+                {
+                  "label": "Key",
+                  "name": "key",
+                  "type": "text"
+                },
+                {
+                  "label": "Value",
+                  "name": "value",
+                  "type": "text"
+                }
+              ],
+              "type": "array"
+            },
+            {
+              "label": "Query String",
+              "name": "qs",
+              "spec": [
+                {
+                  "label": "Key",
+                  "name": "key",
+                  "type": "text"
+                },
+                {
+                  "label": "Value",
+                  "name": "value",
+                  "type": "text"
+                }
+              ],
+              "type": "array"
+            },
+            {
+              "label": "Body",
+              "name": "body",
+              "type": "any"
+            }
+          ],
+          "parameters": [
+            {
+              "label": "Connection",
+              "name": "__IMTCONN__",
+              "required": true,
+              "type": "account:wordpress4"
+            }
+          ],
+          "restore": {
+            "expect": {
+              "headers": {
+                "items": [
+                  null
+                ],
+                "mode": "chose"
+              },
+              "method": {
+                "label": "GET",
+                "mode": "chose"
+              },
+              "qs": {
+                "items": [
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null
+                ],
+                "mode": "chose"
+              }
+            },
+            "parameters": {
+              "__IMTCONN__": {
+                "data": {
+                  "connection": "wordpress4",
+                  "scoped": "true"
+                },
+                "label": "My WordPress connectionHealthSignals Editorial"
+              }
+            }
+          },
+          "setupValidation": {
+            "configuration": "b7bf2f658e887004",
+            "result": {
+              "fields": [],
+              "valid": true
+            },
+            "version": 1
           }
         },
         "module": "wordpress:makeApiCall",
@@ -127,8 +241,8 @@
             "id": 150,
             "metadata": {
               "designer": {
-                "x": 0,
-                "y": 0
+                "x": 1500,
+                "y": 7800
               }
             },
             "module": "builtin:Ignore",
@@ -147,8 +261,8 @@
         },
         "metadata": {
           "designer": {
-            "x": 200,
-            "y": 0
+            "x": 1500,
+            "y": 3750
           }
         },
         "module": "builtin:BasicFeeder",
@@ -191,8 +305,8 @@
         },
         "metadata": {
           "designer": {
-            "x": 300,
-            "y": 0
+            "x": 1800,
+            "y": 3750
           }
         },
         "module": "wordpress:makeApiCall",
@@ -201,8 +315,8 @@
             "id": 151,
             "metadata": {
               "designer": {
-                "x": 0,
-                "y": 0
+                "x": 2100,
+                "y": 7500
               }
             },
             "module": "builtin:Ignore",
@@ -244,8 +358,8 @@
         },
         "metadata": {
           "designer": {
-            "x": 400,
-            "y": 0
+            "x": 2100,
+            "y": 3600
           }
         },
         "module": "wordpress:getPost",
@@ -254,8 +368,8 @@
             "id": 152,
             "metadata": {
               "designer": {
-                "x": 0,
-                "y": 0
+                "x": 2400,
+                "y": 7200
               }
             },
             "module": "builtin:Ignore",
@@ -276,8 +390,8 @@
         },
         "metadata": {
           "designer": {
-            "x": 500,
-            "y": 0
+            "x": 2400,
+            "y": 3450
           }
         },
         "module": "anthropic-claude:simpleTextPrompt",
@@ -286,8 +400,8 @@
             "id": 153,
             "metadata": {
               "designer": {
-                "x": 0,
-                "y": 0
+                "x": 2700,
+                "y": 6900
               }
             },
             "module": "builtin:Ignore",
@@ -308,8 +422,8 @@
         },
         "metadata": {
           "designer": {
-            "x": 700,
-            "y": 0
+            "x": 2700,
+            "y": 3300
           }
         },
         "module": "anthropic-claude:simpleTextPrompt",
@@ -318,8 +432,8 @@
             "id": 154,
             "metadata": {
               "designer": {
-                "x": 0,
-                "y": 0
+                "x": 3000,
+                "y": 6600
               }
             },
             "module": "builtin:Ignore",
@@ -340,8 +454,8 @@
         },
         "metadata": {
           "designer": {
-            "x": 800,
-            "y": 0
+            "x": 3000,
+            "y": 3150
           }
         },
         "module": "anthropic-claude:simpleTextPrompt",
@@ -350,8 +464,8 @@
             "id": 155,
             "metadata": {
               "designer": {
-                "x": 0,
-                "y": 0
+                "x": 3300,
+                "y": 6300
               }
             },
             "module": "builtin:Ignore",
@@ -372,8 +486,8 @@
         },
         "metadata": {
           "designer": {
-            "x": 900,
-            "y": 0
+            "x": 3300,
+            "y": 3000
           }
         },
         "module": "anthropic-claude:simpleTextPrompt",
@@ -382,8 +496,8 @@
             "id": 156,
             "metadata": {
               "designer": {
-                "x": 0,
-                "y": 0
+                "x": 3600,
+                "y": 6000
               }
             },
             "module": "builtin:Ignore",
@@ -404,8 +518,8 @@
         },
         "metadata": {
           "designer": {
-            "x": 900,
-            "y": 0
+            "x": 3600,
+            "y": 2850
           }
         },
         "module": "anthropic-claude:simpleTextPrompt",
@@ -414,8 +528,8 @@
             "id": 157,
             "metadata": {
               "designer": {
-                "x": 0,
-                "y": 0
+                "x": 3900,
+                "y": 5700
               }
             },
             "module": "builtin:Ignore",
@@ -436,8 +550,8 @@
         },
         "metadata": {
           "designer": {
-            "x": 1000,
-            "y": 0
+            "x": 3900,
+            "y": 2700
           }
         },
         "module": "anthropic-claude:simpleTextPrompt",
@@ -446,8 +560,8 @@
             "id": 158,
             "metadata": {
               "designer": {
-                "x": 0,
-                "y": 0
+                "x": 4200,
+                "y": 5400
               }
             },
             "module": "builtin:Ignore",
@@ -468,8 +582,8 @@
         },
         "metadata": {
           "designer": {
-            "x": 1100,
-            "y": 0
+            "x": 4200,
+            "y": 2550
           }
         },
         "module": "util:SetVariable2",
@@ -485,8 +599,8 @@
         },
         "metadata": {
           "designer": {
-            "x": 1200,
-            "y": 0
+            "x": 4500,
+            "y": 2550
           }
         },
         "module": "anthropic-claude:simpleTextPrompt",
@@ -495,8 +609,8 @@
             "id": 159,
             "metadata": {
               "designer": {
-                "x": 0,
-                "y": 0
+                "x": 4800,
+                "y": 5100
               }
             },
             "module": "builtin:Ignore",
@@ -517,8 +631,8 @@
         },
         "metadata": {
           "designer": {
-            "x": 1300,
-            "y": 0
+            "x": 4800,
+            "y": 2400
           }
         },
         "module": "util:SetVariable2",
@@ -534,8 +648,8 @@
         },
         "metadata": {
           "designer": {
-            "x": 1400,
-            "y": 0
+            "x": 5100,
+            "y": 2400
           }
         },
         "module": "anthropic-claude:simpleTextPrompt",
@@ -544,8 +658,8 @@
             "id": 160,
             "metadata": {
               "designer": {
-                "x": 0,
-                "y": 0
+                "x": 5400,
+                "y": 4800
               }
             },
             "module": "builtin:Ignore",
@@ -566,8 +680,8 @@
         },
         "metadata": {
           "designer": {
-            "x": 1500,
-            "y": 0
+            "x": 5400,
+            "y": 2250
           }
         },
         "module": "util:SetVariable2",
@@ -583,8 +697,8 @@
         },
         "metadata": {
           "designer": {
-            "x": 1700,
-            "y": 0
+            "x": 5700,
+            "y": 2250
           }
         },
         "module": "anthropic-claude:simpleTextPrompt",
@@ -593,8 +707,8 @@
             "id": 161,
             "metadata": {
               "designer": {
-                "x": 0,
-                "y": 0
+                "x": 6000,
+                "y": 4500
               }
             },
             "module": "builtin:Ignore",
@@ -615,8 +729,8 @@
         },
         "metadata": {
           "designer": {
-            "x": 1800,
-            "y": 0
+            "x": 6000,
+            "y": 2100
           }
         },
         "module": "util:SetVariable2",
@@ -630,8 +744,8 @@
         },
         "metadata": {
           "designer": {
-            "x": 1900,
-            "y": 0
+            "x": 6300,
+            "y": 2100
           }
         },
         "module": "json:ParseJSON",
@@ -645,8 +759,8 @@
             },
             "metadata": {
               "designer": {
-                "x": 0,
-                "y": 0
+                "x": 6600,
+                "y": 4200
               }
             },
             "module": "anthropic-claude:simpleTextPrompt",
@@ -662,8 +776,8 @@
             },
             "metadata": {
               "designer": {
-                "x": 0,
-                "y": 0
+                "x": 6900,
+                "y": 4200
               }
             },
             "module": "json:ParseJSON",
@@ -690,8 +804,8 @@
             },
             "metadata": {
               "designer": {
-                "x": 0,
-                "y": 0
+                "x": 7200,
+                "y": 4200
               }
             },
             "module": "builtin:Resume",
@@ -712,8 +826,8 @@
         },
         "metadata": {
           "designer": {
-            "x": 2000,
-            "y": 0
+            "x": 6600,
+            "y": 1950
           }
         },
         "module": "google-drive:uploadAFile",
@@ -723,8 +837,8 @@
             "mapper": {},
             "metadata": {
               "designer": {
-                "x": 0,
-                "y": 0
+                "x": 6900,
+                "y": 3900
               }
             },
             "module": "builtin:Resume",
@@ -764,8 +878,8 @@
         },
         "metadata": {
           "designer": {
-            "x": 2000,
-            "y": 0
+            "x": 6900,
+            "y": 1800
           }
         },
         "module": "openai-gpt-3:GenerateImage",
@@ -774,8 +888,8 @@
             "id": 45,
             "metadata": {
               "designer": {
-                "x": 0,
-                "y": 0
+                "x": 7200,
+                "y": 3600
               }
             },
             "module": "builtin:Ignore",
@@ -794,8 +908,8 @@
         },
         "metadata": {
           "designer": {
-            "x": 2100,
-            "y": 0
+            "x": 7200,
+            "y": 1650
           }
         },
         "module": "builtin:BasicFeeder",
@@ -811,8 +925,8 @@
         },
         "metadata": {
           "designer": {
-            "x": 2300,
-            "y": 0
+            "x": 7500,
+            "y": 1650
           }
         },
         "module": "util:SetVariable2",
@@ -828,8 +942,8 @@
         },
         "metadata": {
           "designer": {
-            "x": 2350,
-            "y": 0
+            "x": 7800,
+            "y": 1650
           }
         },
         "module": "util:SetVariable2",
@@ -845,8 +959,8 @@
         },
         "metadata": {
           "designer": {
-            "x": 2400,
-            "y": 0
+            "x": 8100,
+            "y": 1650
           }
         },
         "module": "util:SetVariable2",
@@ -868,8 +982,8 @@
         },
         "metadata": {
           "designer": {
-            "x": 2300,
-            "y": 0
+            "x": 8400,
+            "y": 1650
           }
         },
         "module": "anthropic-claude:makeAnApiCall",
@@ -879,8 +993,8 @@
             "mapper": {},
             "metadata": {
               "designer": {
-                "x": 0,
-                "y": 0
+                "x": 8700,
+                "y": 3300
               }
             },
             "module": "builtin:Resume",
@@ -901,8 +1015,8 @@
         },
         "metadata": {
           "designer": {
-            "x": 2500,
-            "y": 0
+            "x": 8700,
+            "y": 1500
           }
         },
         "module": "util:SetVariable2",
@@ -920,8 +1034,8 @@
         },
         "metadata": {
           "designer": {
-            "x": 2550,
-            "y": 0
+            "x": 9000,
+            "y": 1500
           }
         },
         "module": "google-drive:uploadAFile",
@@ -931,8 +1045,8 @@
             "mapper": {},
             "metadata": {
               "designer": {
-                "x": 0,
-                "y": 0
+                "x": 9300,
+                "y": 3000
               }
             },
             "module": "builtin:Resume",
@@ -997,8 +1111,8 @@
         },
         "metadata": {
           "designer": {
-            "x": 2500,
-            "y": 0
+            "x": 9300,
+            "y": 1350
           }
         },
         "module": "http:ActionSendData",
@@ -1007,8 +1121,8 @@
             "id": 46,
             "metadata": {
               "designer": {
-                "x": 0,
-                "y": 0
+                "x": 9600,
+                "y": 2700
               }
             },
             "module": "builtin:Ignore",
@@ -1025,8 +1139,8 @@
         "mapper": null,
         "metadata": {
           "designer": {
-            "x": 2800,
-            "y": 0
+            "x": 9600,
+            "y": 1200
           }
         },
         "module": "builtin:BasicRouter",
@@ -1066,8 +1180,8 @@
                 },
                 "metadata": {
                   "designer": {
-                    "x": 0,
-                    "y": 0
+                    "x": 9900,
+                    "y": 300
                   }
                 },
                 "module": "wordpress:createMediaItem",
@@ -1076,8 +1190,8 @@
                     "id": 180,
                     "metadata": {
                       "designer": {
-                        "x": 0,
-                        "y": 0
+                        "x": 10200,
+                        "y": 600
                       }
                     },
                     "module": "builtin:Ignore",
@@ -1117,8 +1231,8 @@
                 },
                 "metadata": {
                   "designer": {
-                    "x": 0,
-                    "y": 0
+                    "x": 10200,
+                    "y": 150
                   }
                 },
                 "module": "wordpress:makeApiCall",
@@ -1127,8 +1241,8 @@
                     "id": 185,
                     "metadata": {
                       "designer": {
-                        "x": 0,
-                        "y": 0
+                        "x": 10500,
+                        "y": 300
                       }
                     },
                     "module": "builtin:Ignore",
@@ -1170,7 +1284,7 @@
                 },
                 "metadata": {
                   "designer": {
-                    "x": 0,
+                    "x": 10500,
                     "y": 0
                   }
                 },
@@ -1180,7 +1294,7 @@
                     "id": 181,
                     "metadata": {
                       "designer": {
-                        "x": 0,
+                        "x": 10800,
                         "y": 0
                       }
                     },
@@ -1206,8 +1320,8 @@
                 },
                 "metadata": {
                   "designer": {
-                    "x": 2800,
-                    "y": 0
+                    "x": 9900,
+                    "y": 1650
                   }
                 },
                 "module": "util:SetVariable2",
@@ -1244,8 +1358,8 @@
                 },
                 "metadata": {
                   "designer": {
-                    "x": 2900,
-                    "y": 0
+                    "x": 10200,
+                    "y": 1650
                   }
                 },
                 "module": "openai-gpt-3:GenerateImage",
@@ -1254,8 +1368,8 @@
                     "id": 49,
                     "metadata": {
                       "designer": {
-                        "x": 0,
-                        "y": 0
+                        "x": 10500,
+                        "y": 2400
                       }
                     },
                     "module": "builtin:Ignore",
@@ -1274,8 +1388,8 @@
                 },
                 "metadata": {
                   "designer": {
-                    "x": 3000,
-                    "y": 0
+                    "x": 10500,
+                    "y": 1500
                   }
                 },
                 "module": "builtin:BasicFeeder",
@@ -1297,8 +1411,8 @@
                 },
                 "metadata": {
                   "designer": {
-                    "x": 2300,
-                    "y": 0
+                    "x": 10800,
+                    "y": 1500
                   }
                 },
                 "module": "anthropic-claude:makeAnApiCall",
@@ -1308,8 +1422,8 @@
                     "mapper": {},
                     "metadata": {
                       "designer": {
-                        "x": 0,
-                        "y": 0
+                        "x": 11100,
+                        "y": 2100
                       }
                     },
                     "module": "builtin:Resume",
@@ -1330,8 +1444,8 @@
                 },
                 "metadata": {
                   "designer": {
-                    "x": 0,
-                    "y": 0
+                    "x": 11100,
+                    "y": 1350
                   }
                 },
                 "module": "util:SetVariable2",
@@ -1403,8 +1517,8 @@
                 },
                 "metadata": {
                   "designer": {
-                    "x": 3100,
-                    "y": 0
+                    "x": 11400,
+                    "y": 1350
                   }
                 },
                 "module": "http:ActionSendData",
@@ -1413,8 +1527,8 @@
                     "id": 39,
                     "metadata": {
                       "designer": {
-                        "x": 0,
-                        "y": 0
+                        "x": 11700,
+                        "y": 1800
                       }
                     },
                     "module": "builtin:Ignore",
@@ -1449,8 +1563,8 @@
                 },
                 "metadata": {
                   "designer": {
-                    "x": 0,
-                    "y": 0
+                    "x": 11700,
+                    "y": 1200
                   }
                 },
                 "module": "wordpress:createMediaItem",
@@ -1459,8 +1573,8 @@
                     "id": 182,
                     "metadata": {
                       "designer": {
-                        "x": 0,
-                        "y": 0
+                        "x": 12000,
+                        "y": 1500
                       }
                     },
                     "module": "builtin:Ignore",
@@ -1500,8 +1614,8 @@
                 },
                 "metadata": {
                   "designer": {
-                    "x": 0,
-                    "y": 0
+                    "x": 12000,
+                    "y": 1050
                   }
                 },
                 "module": "wordpress:makeApiCall",
@@ -1510,8 +1624,8 @@
                     "id": 186,
                     "metadata": {
                       "designer": {
-                        "x": 0,
-                        "y": 0
+                        "x": 12300,
+                        "y": 1200
                       }
                     },
                     "module": "builtin:Ignore",
@@ -1553,8 +1667,8 @@
                 },
                 "metadata": {
                   "designer": {
-                    "x": 0,
-                    "y": 0
+                    "x": 12300,
+                    "y": 900
                   }
                 },
                 "module": "wordpress:updatePost",
@@ -1563,8 +1677,8 @@
                     "id": 183,
                     "metadata": {
                       "designer": {
-                        "x": 0,
-                        "y": 0
+                        "x": 12600,
+                        "y": 900
                       }
                     },
                     "module": "builtin:Ignore",
@@ -1596,7 +1710,8 @@
         "freshVariables": false,
         "maxErrors": 3,
         "roundtrips": 1,
-        "sequential": true
+        "sequential": true,
+        "slots": null
       },
       "version": 1
     },

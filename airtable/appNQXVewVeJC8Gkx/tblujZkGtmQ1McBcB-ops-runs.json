@@ -1638,6 +1638,19 @@
     "id": "recwoUdXPH5KCuRn0"
   },
   {
+    "createdTime": "2026-11-20T18:48:09.000Z",
+    "fields": {
+      "Channel": "comentarios",
+      "Date": "2026-11-20",
+      "Items_Pending": 5,
+      "Notes": "Tarde sin novedades: 0 Approved en cola, 0 expirados (INVIMA y WHO del 17-11 cumplen 3 días hoy, vencen el lunes), sin Published de 2-7 días para métricas. 5 Proposed esperando OK. Corrida hecha por el principal sin subagente (solo lectura de cola).",
+      "Run": "tarde",
+      "Run_Key": "2026-11-20|tarde|comentarios",
+      "Status": "sin novedades"
+    },
+    "id": "recxa4bFkkHPiirdF"
+  },
+  {
     "createdTime": "2026-11-10T13:57:12.000Z",
     "fields": {
       "Channel": "prensa",

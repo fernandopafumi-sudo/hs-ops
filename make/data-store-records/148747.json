@@ -1818,6 +1818,14 @@
   {
     "data": {
       "batch": "SCAN-EVENTS",
+      "headline": "Early weight loss with tirzepatide tied to long-term maintenance",
+      "seen_at": "2026-11-21T12:23:09.924Z"
+    },
+    "key": "evt~8a6d6d8f72c9e5ca2de49f86eb136feb"
+  },
+  {
+    "data": {
+      "batch": "SCAN-EVENTS",
       "headline": "ESMO: BMS’ Massacesi hails PD-L1xVEGF data as ‘very promising’",
       "seen_at": "2026-10-26T11:23:31.880Z"
     },

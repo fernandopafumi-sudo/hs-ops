@@ -1,5 +1,20 @@
 [
   {
+    "createdTime": "2026-11-20T23:56:48.000Z",
+    "fields": {
+      "Country": "Brasil",
+      "Email": "diego.pacanaro@libbs.com.br",
+      "First_Name": "Diego",
+      "Language": "pt",
+      "Name": "Diego Pacanaro",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Gerente de Relações Governamentais). No enviar antes del 2026-11-25.",
+      "Organization": "Libbs",
+      "Segment": "pharma-policy",
+      "Status": "Queued"
+    },
+    "id": "rec0DVjiIiA6q85s8"
+  },
+  {
     "createdTime": "2026-11-01T01:20:33.000Z",
     "fields": {
       "Country": "Argentina",
@@ -16,13 +31,28 @@
     "id": "rec0KU8JOV5WJFSwk"
   },
   {
+    "createdTime": "2026-11-21T00:36:17.000Z",
+    "fields": {
+      "Country": "Ecuador",
+      "Email": "ebeltran@megalabs.com.ec",
+      "First_Name": "Eddy",
+      "Language": "es",
+      "Name": "Eddy Beltran",
+      "Notes": "Apollo 21-11. No enviar antes del 2026-11-25.",
+      "Organization": "Megalabs Ecuador",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "rec0O2S8v20FGTFxk"
+  },
+  {
     "createdTime": "2026-11-01T01:30:39.000Z",
     "fields": {
       "Country": "USA",
       "Email": "storto@as-coa.org",
       "Language": "en",
       "Name": "S. Torto (AS/COA)",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "Americas Society / Council of the Americas",
       "Segment": "crm",
       "Status": "Queued"
@@ -51,14 +81,61 @@
     "fields": {
       "Country": "Chile",
       "Email": "comunicaciones@ciq.uchile.cl",
+      "Gmail_Message_ID": "1a1fa377008e16f6",
       "Language": "es",
       "Name": "Facultad de Ciencias Químicas y Farmacéuticas U. de Chile (institucional)",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-20: invitación enviada",
       "Organization": "Facultad de Ciencias Químicas y Farmacéuticas, Universidad de Chile",
       "Segment": "generic",
-      "Status": "Queued"
+      "Sent_At": "2026-11-20T18:28:00.000Z",
+      "Status": "Sent"
     },
     "id": "rec0v6G8vaJoErm9u"
+  },
+  {
+    "createdTime": "2026-11-20T23:54:21.000Z",
+    "fields": {
+      "Country": "México",
+      "Email": "luismanuel.encarnacion@astrazeneca.com",
+      "First_Name": "Luis",
+      "Language": "es",
+      "Name": "Luis Manuel Encarnacion",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Government Affairs Senior Manager). No enviar antes del 2026-11-25.",
+      "Organization": "AstraZeneca",
+      "Segment": "pharma-policy",
+      "Status": "Queued"
+    },
+    "id": "rec0vlhHEguqVaDXx"
+  },
+  {
+    "createdTime": "2026-11-20T23:51:37.000Z",
+    "fields": {
+      "Country": "Brasil",
+      "Email": "andre.sisdeli@merckgroup.com",
+      "First_Name": "Andre",
+      "Language": "pt",
+      "Name": "Andre Sisdeli",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Head of Market Access). No enviar antes del 2026-11-25.",
+      "Organization": "Merck Group",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "rec0xyGClFOMvfUn2"
+  },
+  {
+    "createdTime": "2026-11-20T23:51:37.000Z",
+    "fields": {
+      "Country": "Brasil",
+      "Email": "thiago.goncalves@astrazeneca.com",
+      "First_Name": "Thiago",
+      "Language": "pt",
+      "Name": "Thiago Goncalves",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Brazil Market Access and Strategic Affairs Executive Director). No enviar antes del 2026-11-25.",
+      "Organization": "AstraZeneca",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "rec116AJDAx6HkZOO"
   },
   {
     "createdTime": "2026-11-01T01:30:39.000Z",
@@ -68,12 +145,42 @@
       "First_Name": "Santiago",
       "Language": "es",
       "Name": "Santiago Gutiérrez",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "Latin Trade",
       "Segment": "crm",
       "Status": "Queued"
     },
     "id": "rec17sk2K2awyrJ84"
+  },
+  {
+    "createdTime": "2026-11-20T23:54:21.000Z",
+    "fields": {
+      "Country": "LatAm regional",
+      "Email": "alonso.zepeda@bms.com",
+      "First_Name": "Alonso",
+      "Language": "es",
+      "Name": "Alonso Zepeda Chavez",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Director, Corporate Affairs - Latam). No enviar antes del 2026-11-25.",
+      "Organization": "Bristol Myers Squibb",
+      "Segment": "pharma-policy",
+      "Status": "Queued"
+    },
+    "id": "rec19Dq5hMv48FyfM"
+  },
+  {
+    "createdTime": "2026-11-20T23:56:48.000Z",
+    "fields": {
+      "Country": "Estados Unidos",
+      "Email": "alison.m.hunt@gsk.com",
+      "First_Name": "Alison",
+      "Language": "en",
+      "Name": "Alison Hunt",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Director, U.S. Corporate Media Relations). No enviar antes del 2026-11-25.",
+      "Organization": "GSK",
+      "Segment": "pharma-comms",
+      "Status": "Queued"
+    },
+    "id": "rec1A1f9CYCT3MmkK"
   },
   {
     "createdTime": "2026-11-01T01:23:00.000Z",
@@ -93,16 +200,33 @@
     "id": "rec1S1uEyOe2xpd1a"
   },
   {
+    "createdTime": "2026-11-20T23:54:21.000Z",
+    "fields": {
+      "Country": "Chile",
+      "Email": "vrna@novonordisk.com",
+      "First_Name": "Veronica",
+      "Language": "es",
+      "Name": "Veronica Urzua",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Market Access & Commercial Sr Manager). No enviar antes del 2026-11-25.",
+      "Organization": "Novo Nordisk",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "rec1TSHtswKD4MRby"
+  },
+  {
     "createdTime": "2026-11-01T01:25:25.000Z",
     "fields": {
       "Country": "Mexico",
       "Email": "comunicacion@amiif.org.mx",
+      "Gmail_Message_ID": "1a1fa37754f858c0",
       "Language": "es",
       "Name": "Lucía Salcedo",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-01: First_Name 'Lucía' cleared (generic/role inbox; greeting without name).",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-01: First_Name 'Lucía' cleared (generic/role inbox; greeting without name).\n2026-11-20: invitación enviada",
       "Organization": "AMIIF (Asociación Mexicana de Industrias de Investigación Farmacéutica)",
       "Segment": "generic",
-      "Status": "Queued"
+      "Sent_At": "2026-11-20T18:28:00.000Z",
+      "Status": "Sent"
     },
     "id": "rec1TpJdz1jlWXfSL"
   },
@@ -130,12 +254,27 @@
       "First_Name": "Eduardo",
       "Language": "en",
       "Name": "Eduardo Betancourt",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "Baxter",
       "Segment": "crm",
       "Status": "Queued"
     },
     "id": "rec1VGf12GAIZlbmJ"
+  },
+  {
+    "createdTime": "2026-11-20T23:54:21.000Z",
+    "fields": {
+      "Country": "México",
+      "Email": "alejandro.urtiz@biogen.com",
+      "First_Name": "Alejandro",
+      "Language": "es",
+      "Name": "Alejandro Urtiz Madrigal",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Market Access & Commercial Head Mexico and Colombia). No enviar antes del 2026-11-25.",
+      "Organization": "Biogen",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "rec1cuhBB2Ur5H52z"
   },
   {
     "createdTime": "2026-11-01T01:20:33.000Z",
@@ -171,6 +310,36 @@
       "Status": "Sent"
     },
     "id": "rec1lCUk4xYbiOxbt"
+  },
+  {
+    "createdTime": "2026-11-20T23:54:21.000Z",
+    "fields": {
+      "Country": "Colombia",
+      "Email": "jairo.bello@takeda.com",
+      "First_Name": "Jairo",
+      "Language": "es",
+      "Name": "Jairo Bello Castillo",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Corporate Affairs Head). No enviar antes del 2026-11-25.",
+      "Organization": "Takeda",
+      "Segment": "pharma-policy",
+      "Status": "Queued"
+    },
+    "id": "rec2D9kWkEf3iD2RY"
+  },
+  {
+    "createdTime": "2026-11-21T00:36:17.000Z",
+    "fields": {
+      "Country": "Ecuador",
+      "Email": "carlos.ramirez@milliporesigma.com",
+      "First_Name": "Carlos",
+      "Language": "es",
+      "Name": "Carlos Celis Ramirez",
+      "Notes": "Apollo 21-11. No enviar antes del 2026-11-25.",
+      "Organization": "Merck Group",
+      "Segment": "pharma-policy",
+      "Status": "Queued"
+    },
+    "id": "rec2NlO8wnEx0GBEz"
   },
   {
     "createdTime": "2026-11-01T01:20:33.000Z",
@@ -210,7 +379,7 @@
       "First_Name": "Patricia",
       "Language": "es",
       "Name": "Patricia Mena Sturla",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "INFADOMI (República Dominicana)",
       "Segment": "crm",
       "Status": "Queued"
@@ -225,7 +394,7 @@
       "First_Name": "Maria",
       "Language": "es",
       "Name": "Maria Camila Bustos Marquez",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "Johnson & Johnson Innovative Medicine",
       "Segment": "crm",
       "Status": "Queued"
@@ -240,12 +409,27 @@
       "First_Name": "Nany",
       "Language": "es",
       "Name": "Nany Aste Gordillo",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "ALAFAL (Perú)",
       "Segment": "crm",
       "Status": "Queued"
     },
     "id": "rec2WTUfULrbrBv83"
+  },
+  {
+    "createdTime": "2026-11-20T23:51:37.000Z",
+    "fields": {
+      "Country": "LatAm regional",
+      "Email": "maria.poplawskimolinari@biogen.com",
+      "First_Name": "Maria",
+      "Language": "es",
+      "Name": "Maria Poplawski",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Head of Corporate Affairs Latam). No enviar antes del 2026-11-25.",
+      "Organization": "Biogen",
+      "Segment": "pharma-policy",
+      "Status": "Queued"
+    },
+    "id": "rec2ZqSAnrfva4LiN"
   },
   {
     "createdTime": "2026-11-01T01:18:07.000Z",
@@ -272,7 +456,7 @@
       "First_Name": "Juan",
       "Language": "en",
       "Name": "Juan Carlos Trujillo",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "Sanofi Pasteur Inc",
       "Segment": "crm",
       "Status": "Queued"
@@ -287,12 +471,27 @@
       "First_Name": "María",
       "Language": "es",
       "Name": "María Gabriela Moncayo",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "ALFE (Ecuador)",
       "Segment": "crm",
       "Status": "Queued"
     },
     "id": "rec2kRfXYJsxD8kSG"
+  },
+  {
+    "createdTime": "2026-11-20T23:51:37.000Z",
+    "fields": {
+      "Country": "LatAm regional",
+      "Email": "dantunes@its.jnj.com",
+      "First_Name": "Daniela",
+      "Language": "es",
+      "Name": "Daniela Antunes",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Communications & Public Affairs Director, Latin America). No enviar antes del 2026-11-25.",
+      "Organization": "Johnson & Johnson",
+      "Segment": "pharma-comms",
+      "Status": "Queued"
+    },
+    "id": "rec2svqqzMuIFWJee"
   },
   {
     "createdTime": "2026-11-01T01:27:52.000Z",
@@ -301,12 +500,57 @@
       "First_Name": "Viitor",
       "Language": "pt",
       "Name": "Viitor Rezende",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "Thermofisher Brazil",
       "Segment": "crm",
       "Status": "Queued"
     },
     "id": "rec2wRQPcoqnRq3zf"
+  },
+  {
+    "createdTime": "2026-11-20T23:51:37.000Z",
+    "fields": {
+      "Country": "Brasil",
+      "Email": "paula.greter@roche.com",
+      "First_Name": "Paula",
+      "Language": "pt",
+      "Name": "Paula Greter",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Commercial Strategy & Market Access Director). No enviar antes del 2026-11-25.",
+      "Organization": "Roche",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "rec2xDW706zVMGeV3"
+  },
+  {
+    "createdTime": "2026-11-21T00:36:16.000Z",
+    "fields": {
+      "Country": "Ecuador",
+      "Email": "mandato@sicmafarma.com",
+      "First_Name": "Monserrat",
+      "Language": "es",
+      "Name": "Monserrat Barreno Bravo",
+      "Notes": "Apollo 21-11. No enviar antes del 2026-11-25.",
+      "Organization": "SICMAFARMA ECUADOR S.A.",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "rec3JWnVeY3TuG0FF"
+  },
+  {
+    "createdTime": "2026-11-21T00:36:17.000Z",
+    "fields": {
+      "Country": "Uruguay",
+      "Email": "pspitz@urufarma.com.uy",
+      "First_Name": "Patricia",
+      "Language": "es",
+      "Name": "Patricia Spitz",
+      "Notes": "Apollo 21-11. No enviar antes del 2026-11-25.",
+      "Organization": "Urufarma",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "rec3KykRMNcnHylJy"
   },
   {
     "createdTime": "2026-11-01T01:23:00.000Z",
@@ -400,13 +644,58 @@
       "Gmail_Message_ID": "1a1acfca14b766ab",
       "Language": "en",
       "Name": "Fiona Cookson",
-      "Notes": "Source: Press & PR Contacts (Pharma media office)\n2026-11-05: invitación enviada\n2026-11-18: recordatorio enviado (msg 1a1efe761be1cdf2)",
+      "Notes": "Source: Press & PR Contacts (Pharma media office)\n2026-11-05: invitación enviada\n2026-11-18: recordatorio enviado (msg 1a1efe761be1cdf2)\n2026-11-20: autorrespuesta fuera de oficina al recordatorio del 18-11 (hilo 1a1efe78d28199d3), sin acción.",
       "Organization": "AstraZeneca",
       "Segment": "press",
       "Sent_At": "2026-11-05T18:32:00.000Z",
       "Status": "Reminded"
     },
     "id": "rec3y28vO21B89bZy"
+  },
+  {
+    "createdTime": "2026-11-20T23:54:21.000Z",
+    "fields": {
+      "Country": "Colombia",
+      "Email": "allan.aldana@astrazeneca.com",
+      "First_Name": "Allan",
+      "Language": "es",
+      "Name": "Allan Felipe Aldana",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Government Affairs & Communications Head). No enviar antes del 2026-11-25.",
+      "Organization": "AstraZeneca",
+      "Segment": "pharma-policy",
+      "Status": "Queued"
+    },
+    "id": "rec41fbDOVsAZfQMY"
+  },
+  {
+    "createdTime": "2026-11-20T23:54:21.000Z",
+    "fields": {
+      "Country": "Perú",
+      "Email": "giselle.ojeda@msd.com",
+      "First_Name": "Giselle",
+      "Language": "es",
+      "Name": "Giselle Ojeda Botteri",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Associate Director Market Access - Oncology). No enviar antes del 2026-11-25.",
+      "Organization": "MSD",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "rec4CDr6i1wkyVwa7"
+  },
+  {
+    "createdTime": "2026-11-20T23:54:21.000Z",
+    "fields": {
+      "Country": "Panamá",
+      "Email": "daniel.hernan@merck.com",
+      "First_Name": "Daniel",
+      "Language": "es",
+      "Name": "Daniel Hernan",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Market Access and Key Account Management Director). No enviar antes del 2026-11-25.",
+      "Organization": "MSD",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "rec4HQkUgwcu1iXZj"
   },
   {
     "createdTime": "2026-11-19T02:18:19.000Z",
@@ -463,12 +752,42 @@
       "First_Name": "Catherine",
       "Language": "en",
       "Name": "Catherine Robinson",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "Pfizer LATAM",
       "Segment": "crm",
       "Status": "Queued"
     },
     "id": "rec4VNidL3oZR6Isq"
+  },
+  {
+    "createdTime": "2026-11-20T23:56:48.000Z",
+    "fields": {
+      "Country": "Panamá",
+      "Email": "alejandro.zambrano@novartis.com",
+      "First_Name": "Alejandro",
+      "Language": "es",
+      "Name": "Alejandro Zambrano Ramirez",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Senior Communications & Patient Advocacy Manager). No enviar antes del 2026-11-25.",
+      "Organization": "Novartis",
+      "Segment": "pharma-policy",
+      "Status": "Queued"
+    },
+    "id": "rec4XW1U5aBpy71VY"
+  },
+  {
+    "createdTime": "2026-11-21T00:36:16.000Z",
+    "fields": {
+      "Country": "República Dominicana",
+      "Email": "fernando.vives@suiphar.com",
+      "First_Name": "Fernando",
+      "Language": "es",
+      "Name": "Fernando Vives Lopez",
+      "Notes": "Apollo 21-11. No enviar antes del 2026-11-25.",
+      "Organization": "Suiphar Dominicana",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "rec4Y4tBwFpckECxR"
   },
   {
     "createdTime": "2026-11-01T01:27:52.000Z",
@@ -477,7 +796,7 @@
       "First_Name": "Danielle",
       "Language": "en",
       "Name": "Danielle Young",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "Teva Pharmaceuticals USA Inc",
       "Segment": "crm",
       "Status": "Queued"
@@ -517,6 +836,36 @@
       "Status": "Reminded"
     },
     "id": "rec5EEVxoMKrQUSmf"
+  },
+  {
+    "createdTime": "2026-11-21T00:36:16.000Z",
+    "fields": {
+      "Country": "Uruguay",
+      "Email": "ltorres@fu.com.uy",
+      "First_Name": "Leonardo",
+      "Language": "es",
+      "Name": "Leonardo Torres",
+      "Notes": "Apollo 21-11. No enviar antes del 2026-11-25.",
+      "Organization": "Fármaco Uruguayo",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "rec5MAUI35yS5WTpu"
+  },
+  {
+    "createdTime": "2026-11-20T23:54:21.000Z",
+    "fields": {
+      "Country": "México",
+      "Email": "cynthia.ramirez_manriquez@roche.com",
+      "First_Name": "Cynthia",
+      "Language": "es",
+      "Name": "Cynthia Ramirez Manriquez",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Communications Chapter Lead). No enviar antes del 2026-11-25.",
+      "Organization": "Roche",
+      "Segment": "pharma-comms",
+      "Status": "Queued"
+    },
+    "id": "rec5Q5YVpkmrKpg27"
   },
   {
     "createdTime": "2026-11-01T01:32:43.000Z",
@@ -566,6 +915,21 @@
       "Status": "Sent"
     },
     "id": "rec5nU6T90ss1y8ya"
+  },
+  {
+    "createdTime": "2026-11-20T23:51:37.000Z",
+    "fields": {
+      "Country": "México",
+      "Email": "karen.garcia@sanofi.com",
+      "First_Name": "Karen",
+      "Language": "es",
+      "Name": "Karen Garcia Valdivia",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Public Affairs and Advocacy Head). No enviar antes del 2026-11-25.",
+      "Organization": "Sanofi",
+      "Segment": "pharma-policy",
+      "Status": "Queued"
+    },
+    "id": "rec65eAezKj35VVyn"
   },
   {
     "createdTime": "2026-11-01T01:32:43.000Z",
@@ -666,13 +1030,30 @@
     "fields": {
       "Country": "México",
       "Email": "media@pharmaboardroom.com",
+      "Gmail_Message_ID": "1a1fa344ba99d53e",
       "Language": "es",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)",
+      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-20: invitación enviada",
       "Organization": "PharmaBoardroom",
       "Segment": "generic",
-      "Status": "Queued"
+      "Sent_At": "2026-11-20T18:24:00.000Z",
+      "Status": "Sent"
     },
     "id": "rec6T1aPB7fCGjlxH"
+  },
+  {
+    "createdTime": "2026-11-20T23:56:48.000Z",
+    "fields": {
+      "Country": "Estados Unidos",
+      "Email": "vanessa.mcgowan@bms.com",
+      "First_Name": "Vanessa",
+      "Language": "en",
+      "Name": "Vanessa McGowan",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Vice President Corporate Communications). No enviar antes del 2026-11-25.",
+      "Organization": "Bristol Myers Squibb",
+      "Segment": "pharma-comms",
+      "Status": "Queued"
+    },
+    "id": "rec6VRKveKsAbrFfx"
   },
   {
     "createdTime": "2026-11-01T01:32:43.000Z",
@@ -699,7 +1080,7 @@
       "First_Name": "Chrissy",
       "Language": "en",
       "Name": "Chrissy Bishop",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "Triangulate Health",
       "Segment": "crm",
       "Status": "Queued"
@@ -794,13 +1175,60 @@
     "fields": {
       "Country": "Global (US HQ)",
       "Email": "amgenmediarelations@amgen.com",
+      "Gmail_Message_ID": "1a1fa344da3a6b6e",
       "Language": "en",
-      "Notes": "Source: Press & PR Contacts (Pharma media office)",
+      "Notes": "Source: Press & PR Contacts (Pharma media office)\n2026-11-20: invitación enviada",
       "Organization": "Amgen",
       "Segment": "generic",
-      "Status": "Queued"
+      "Sent_At": "2026-11-20T18:24:00.000Z",
+      "Status": "Sent"
     },
     "id": "rec7BVkX8oxZoJleD"
+  },
+  {
+    "createdTime": "2026-11-21T00:36:17.000Z",
+    "fields": {
+      "Country": "Ecuador",
+      "Email": "jsalinas@medicamenta.com.ec",
+      "First_Name": "Jose",
+      "Language": "es",
+      "Name": "Jose Antonio Salinas",
+      "Notes": "Apollo 21-11. No enviar antes del 2026-11-25.",
+      "Organization": "Adium Ecuador",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "rec7GBI4anDrVmpTo"
+  },
+  {
+    "createdTime": "2026-11-21T00:36:16.000Z",
+    "fields": {
+      "Country": "Guatemala",
+      "Email": "alejandro.ceballos@alferlab.com",
+      "First_Name": "Alejandro",
+      "Language": "es",
+      "Name": "Alejandro Ceballos",
+      "Notes": "Apollo 21-11. No enviar antes del 2026-11-25.",
+      "Organization": "Laboratorios Alfer",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "rec7PPUYw6PDBNrpq"
+  },
+  {
+    "createdTime": "2026-11-20T23:51:37.000Z",
+    "fields": {
+      "Country": "LatAm regional",
+      "Email": "paola.martorelli@sanofi.com",
+      "First_Name": "Paola",
+      "Language": "es",
+      "Name": "Paola Martorelli",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Corporate Affairs Head Latam / Directora de Asuntos Corporativos Para Latinoamérica). No enviar antes del 2026-11-25.",
+      "Organization": "Sanofi",
+      "Segment": "pharma-policy",
+      "Status": "Queued"
+    },
+    "id": "rec7VmmAoBVF572qP"
   },
   {
     "createdTime": "2026-11-01T01:32:43.000Z",
@@ -837,6 +1265,36 @@
     "id": "rec7pYniM2k8lYiCs"
   },
   {
+    "createdTime": "2026-11-20T23:56:48.000Z",
+    "fields": {
+      "Country": "Brasil",
+      "Email": "tmarques@biolabfarma.com.br",
+      "First_Name": "Tati",
+      "Language": "pt",
+      "Name": "Tati Marques",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Communications and Impact Director). No enviar antes del 2026-11-25.",
+      "Organization": "Biolab",
+      "Segment": "pharma-comms",
+      "Status": "Queued"
+    },
+    "id": "rec8075zbWop5IIIY"
+  },
+  {
+    "createdTime": "2026-11-21T00:36:16.000Z",
+    "fields": {
+      "Country": "Uruguay",
+      "Email": "dgebelin@siegfried.com.uy",
+      "First_Name": "Dario",
+      "Language": "es",
+      "Name": "Dario Gebelin",
+      "Notes": "Apollo 21-11. No enviar antes del 2026-11-25.",
+      "Organization": "Siegfried Uruguay",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "rec80vg2iyY8B8qzH"
+  },
+  {
     "createdTime": "2026-11-01T01:23:00.000Z",
     "fields": {
       "Country": "EE.UU. (global)",
@@ -869,6 +1327,21 @@
       "Status": "Reminded"
     },
     "id": "rec8HWor0Fr2DHpCD"
+  },
+  {
+    "createdTime": "2026-11-21T00:36:16.000Z",
+    "fields": {
+      "Country": "Ecuador",
+      "Email": "jcampana@laboratoriosportugal.com",
+      "First_Name": "Jose",
+      "Language": "es",
+      "Name": "Jose Campana Palomino",
+      "Notes": "Apollo 21-11. No enviar antes del 2026-11-25.",
+      "Organization": "Laboratorios Portugal",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "rec8KBmR14YhR5mgi"
   },
   {
     "createdTime": "2026-11-01T01:27:52.000Z",
@@ -906,12 +1379,14 @@
     "fields": {
       "Country": "Brasil",
       "Email": "contato@futurodasaude.com.br",
+      "Gmail_Message_ID": "1a1fa32dd1dd8325",
       "Language": "pt",
       "Name": "Natalia Cuminale",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-01: First_Name 'Natalia' cleared (generic/role inbox; greeting without name).",
+      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-01: First_Name 'Natalia' cleared (generic/role inbox; greeting without name).\n2026-11-20: invitación enviada",
       "Organization": "Futuro da Saúde",
       "Segment": "generic",
-      "Status": "Queued"
+      "Sent_At": "2026-11-20T18:22:00.000Z",
+      "Status": "Sent"
     },
     "id": "rec8Ol8HlBXgGWJbN"
   },
@@ -937,13 +1412,30 @@
     "fields": {
       "Country": "Reino Unido (global)",
       "Email": "editorial@pharmaphorum.com",
+      "Gmail_Message_ID": "1a1fa344fd4a774b",
       "Language": "en",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)",
+      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-20: invitación enviada",
       "Organization": "pharmaphorum",
       "Segment": "generic",
-      "Status": "Queued"
+      "Sent_At": "2026-11-20T18:24:00.000Z",
+      "Status": "Sent"
     },
     "id": "rec8ZMu9svPRcmSpO"
+  },
+  {
+    "createdTime": "2026-11-20T23:54:21.000Z",
+    "fields": {
+      "Country": "Colombia",
+      "Email": "lacb@novonordisk.com",
+      "First_Name": "Luz",
+      "Language": "es",
+      "Name": "Luz Hernandez Vargas",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Market Access & Commercial Sr Director). No enviar antes del 2026-11-25.",
+      "Organization": "Novo Nordisk",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "rec8adUT7Z4bXfwYt"
   },
   {
     "createdTime": "2026-11-09T02:08:37.000Z",
@@ -961,6 +1453,21 @@
       "Status": "Sent"
     },
     "id": "rec8hD7lcqFrifMM6"
+  },
+  {
+    "createdTime": "2026-11-20T23:51:37.000Z",
+    "fields": {
+      "Country": "Argentina",
+      "Email": "fgarci64@its.jnj.com",
+      "First_Name": "Facundo",
+      "Language": "es",
+      "Name": "Facundo Nicolas Garcia",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: External Affairs Sr Manager). No enviar antes del 2026-11-25.",
+      "Organization": "Johnson & Johnson",
+      "Segment": "pharma-policy",
+      "Status": "Queued"
+    },
+    "id": "rec8t8OXI3Xdso9fM"
   },
   {
     "createdTime": "2026-11-01T01:20:33.000Z",
@@ -1034,7 +1541,7 @@
       "First_Name": "Alejandra",
       "Language": "en",
       "Name": "Alejandra Martinez",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "Sanofi",
       "Segment": "crm",
       "Status": "Queued"
@@ -1080,6 +1587,21 @@
     "id": "recA0q9zI3BbGtxp7"
   },
   {
+    "createdTime": "2026-11-21T00:36:17.000Z",
+    "fields": {
+      "Country": "Uruguay",
+      "Email": "luis.lavega@grunenthal.com",
+      "First_Name": "Luis",
+      "Language": "es",
+      "Name": "Luis Lavega",
+      "Notes": "Apollo 21-11. No enviar antes del 2026-11-25.",
+      "Organization": "Grünenthal Group",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "recA8AS6WuM9H4gAY"
+  },
+  {
     "createdTime": "2026-11-01T01:30:39.000Z",
     "fields": {
       "Country": "Argentina",
@@ -1087,12 +1609,27 @@
       "First_Name": "Carolina",
       "Language": "es",
       "Name": "Carolina Martinenghi",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "CAEMe (Cámara Argentina de Especialidades Medicinales)",
       "Segment": "crm",
       "Status": "Queued"
     },
     "id": "recACvyhWCBI9SjEr"
+  },
+  {
+    "createdTime": "2026-11-21T00:36:17.000Z",
+    "fields": {
+      "Country": "Ecuador",
+      "Email": "jfranco@tuteurgroup.com",
+      "First_Name": "Jose",
+      "Language": "es",
+      "Name": "Jose Franco",
+      "Notes": "Apollo 21-11. No enviar antes del 2026-11-25.",
+      "Organization": "Laboratorio Tuteur",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "recAMpyvoRpI3LMEB"
   },
   {
     "createdTime": "2026-11-01T01:30:39.000Z",
@@ -1102,12 +1639,27 @@
       "First_Name": "Maria",
       "Language": "en",
       "Name": "Maria Claret",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "Harwood Levitt",
       "Segment": "crm",
       "Status": "Queued"
     },
     "id": "recAPnIRTOrAJxruv"
+  },
+  {
+    "createdTime": "2026-11-20T23:51:37.000Z",
+    "fields": {
+      "Country": "Brasil",
+      "Email": "eliza.samartini@roche.com",
+      "First_Name": "Eliza",
+      "Language": "pt",
+      "Name": "Eliza Samartini",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Government Affairs Director na Roche Farma Brasil). No enviar antes del 2026-11-25.",
+      "Organization": "Roche",
+      "Segment": "pharma-policy",
+      "Status": "Queued"
+    },
+    "id": "recAa07sbLHFKGzQd"
   },
   {
     "createdTime": "2026-11-01T01:18:07.000Z",
@@ -1126,6 +1678,21 @@
       "Status": "Subscribed"
     },
     "id": "recArgcfsSbnXlo75"
+  },
+  {
+    "createdTime": "2026-11-20T23:54:21.000Z",
+    "fields": {
+      "Country": "Chile",
+      "Email": "andres.rodriguez@bayer.com",
+      "First_Name": "Andres",
+      "Language": "es",
+      "Name": "Andres Rodriguez",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Gerente de Acceso a Mercados). No enviar antes del 2026-11-25.",
+      "Organization": "Bayer",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "recAyEHFhCgPGAKTe"
   },
   {
     "createdTime": "2026-11-01T01:18:07.000Z",
@@ -1210,6 +1777,51 @@
     "id": "recBNBoe22ZKH1fxU"
   },
   {
+    "createdTime": "2026-11-21T00:36:16.000Z",
+    "fields": {
+      "Country": "USA",
+      "Email": "stom@novonordisk.com",
+      "First_Name": "Tom",
+      "Language": "en",
+      "Name": "Tom Scales",
+      "Notes": "Apollo 21-11. No enviar antes del 2026-11-25.",
+      "Organization": "Novo Nordisk",
+      "Segment": "pharma-policy",
+      "Status": "Queued"
+    },
+    "id": "recBV6283I4UCNuIJ"
+  },
+  {
+    "createdTime": "2026-11-20T23:54:21.000Z",
+    "fields": {
+      "Country": "México",
+      "Email": "gabriel.martinez@amgen.com",
+      "First_Name": "Gabriel",
+      "Language": "es",
+      "Name": "Gabriel Martinez Zuniga",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Government Affairs Head). No enviar antes del 2026-11-25.",
+      "Organization": "Amgen",
+      "Segment": "pharma-policy",
+      "Status": "Queued"
+    },
+    "id": "recBmfszCkCj95BRw"
+  },
+  {
+    "createdTime": "2026-11-20T23:56:48.000Z",
+    "fields": {
+      "Country": "Brasil",
+      "Email": "andrea.cepollina@eurofarma.com",
+      "First_Name": "Andrea",
+      "Language": "pt",
+      "Name": "Andrea Cepollina",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Senior Corporate Communications and Institutional Marketing Manager). No enviar antes del 2026-11-25.",
+      "Organization": "Eurofarma",
+      "Segment": "pharma-comms",
+      "Status": "Queued"
+    },
+    "id": "recBtvisgdxZcKT8M"
+  },
+  {
     "createdTime": "2026-11-01T01:23:00.000Z",
     "fields": {
       "Country": "Perú",
@@ -1246,7 +1858,7 @@
       "First_Name": "Yann",
       "Language": "en",
       "Name": "Yann Laurent Boixel",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "MCNEIL PANAMA LLC",
       "Segment": "crm",
       "Status": "Queued"
@@ -1286,6 +1898,21 @@
     "id": "recCEUrClSTnJQbwt"
   },
   {
+    "createdTime": "2026-11-21T00:36:17.000Z",
+    "fields": {
+      "Country": "Ecuador",
+      "Email": "cvillarroel@medicamenta.com.ec",
+      "First_Name": "Carolina",
+      "Language": "es",
+      "Name": "Carolina Villarroel",
+      "Notes": "Apollo 21-11. No enviar antes del 2026-11-25.",
+      "Organization": "Adium Ecuador",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "recCFUFtuYMPJdJE1"
+  },
+  {
     "createdTime": "2026-11-01T01:20:33.000Z",
     "fields": {
       "Country": "México",
@@ -1300,6 +1927,21 @@
       "Status": "Sent"
     },
     "id": "recCG2vj7NN7Mjnfa"
+  },
+  {
+    "createdTime": "2026-11-20T23:51:37.000Z",
+    "fields": {
+      "Country": "México",
+      "Email": "gabriela.sosa@boehringer-ingelheim.com",
+      "First_Name": "Gabriela",
+      "Language": "es",
+      "Name": "Gabriela Sosa",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Healthcare Affairs and Market Access Director Mexico, Central America and Caribbean (HAMA)). No enviar antes del 2026-11-25.",
+      "Organization": "Boehringer Ingelheim",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "recCJ6n572tPg2DgP"
   },
   {
     "createdTime": "2026-11-01T01:30:39.000Z",
@@ -1337,11 +1979,13 @@
     "fields": {
       "Country": "Global",
       "Email": "makehealthhappen@publicishealth.com",
+      "Gmail_Message_ID": "1a1fa32dfcf58086",
       "Language": "en",
-      "Notes": "Source: Press & PR Contacts (Agencia PR)",
+      "Notes": "Source: Press & PR Contacts (Agencia PR)\n2026-11-20: invitación enviada",
       "Organization": "Publicis Health",
       "Segment": "generic",
-      "Status": "Queued"
+      "Sent_At": "2026-11-20T18:22:00.000Z",
+      "Status": "Sent"
     },
     "id": "recCeNvztiK32YJK6"
   },
@@ -1352,7 +1996,7 @@
       "Email": "nposada@as-coa.org",
       "Language": "en",
       "Name": "N. Posada (AS/COA)",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "Americas Society / Council of the Americas",
       "Segment": "crm",
       "Status": "Queued"
@@ -1381,13 +2025,90 @@
     "fields": {
       "Country": "Global / LATAM desk",
       "Email": "pfizermediarelations@pfizer.com",
+      "Gmail_Message_ID": "1a1fa3776e1fa3bc",
       "Language": "en",
-      "Notes": "Source: Press & PR Contacts (Pharma media office)",
+      "Notes": "Source: Press & PR Contacts (Pharma media office)\n2026-11-20: invitación enviada",
       "Organization": "Pfizer",
       "Segment": "generic",
-      "Status": "Queued"
+      "Sent_At": "2026-11-20T18:28:00.000Z",
+      "Status": "Sent"
     },
     "id": "recCukuhkopNKDgpU"
+  },
+  {
+    "createdTime": "2026-11-20T23:51:37.000Z",
+    "fields": {
+      "Country": "Brasil",
+      "Email": "dafl@novonordisk.com",
+      "First_Name": "Daniel",
+      "Language": "pt",
+      "Name": "Daniel Flento",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Director of Public Affairs, Brazil). No enviar antes del 2026-11-25.",
+      "Organization": "Novo Nordisk",
+      "Segment": "pharma-policy",
+      "Status": "Queued"
+    },
+    "id": "recDALuYHD6e5rT6m"
+  },
+  {
+    "createdTime": "2026-11-20T23:51:37.000Z",
+    "fields": {
+      "Country": "México",
+      "Email": "j.martinez@abbvie.com",
+      "First_Name": "Jose",
+      "Language": "es",
+      "Name": "Jose Luis Hernandez Martinez",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Market Access & Commercial Director). No enviar antes del 2026-11-25.",
+      "Organization": "AbbVie",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "recDRDSGuGtgAbAxq"
+  },
+  {
+    "createdTime": "2026-11-21T00:36:17.000Z",
+    "fields": {
+      "Country": "Uruguay",
+      "Email": "deyanira.dolinsky@roche.com",
+      "First_Name": "Deyanira",
+      "Language": "es",
+      "Name": "Deyanira Dolinsky",
+      "Notes": "Apollo 21-11. No enviar antes del 2026-11-25.",
+      "Organization": "Roche",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "recDSj4qOEooPWxQ2"
+  },
+  {
+    "createdTime": "2026-11-20T23:56:48.000Z",
+    "fields": {
+      "Country": "Brasil",
+      "Email": "pedro.calamita@hypera.com.br",
+      "First_Name": "Pedro",
+      "Language": "pt",
+      "Name": "Pedro Calamita",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Diretor de Comunicação, Digital e Estratégia de Marcas / Head Agência). No enviar antes del 2026-11-25.",
+      "Organization": "Hypera",
+      "Segment": "pharma-comms",
+      "Status": "Queued"
+    },
+    "id": "recDatLO8eUuLmePi"
+  },
+  {
+    "createdTime": "2026-11-21T00:36:16.000Z",
+    "fields": {
+      "Country": "República Dominicana",
+      "Email": "ftarrago@dinafa.com",
+      "First_Name": "Francisco",
+      "Language": "es",
+      "Name": "Francisco Tarrago",
+      "Notes": "Apollo 21-11. No enviar antes del 2026-11-25.",
+      "Organization": "Dinafa, SA",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "recDhSt6Py0vNT4Zv"
   },
   {
     "createdTime": "2026-11-01T01:20:33.000Z",
@@ -1424,6 +2145,36 @@
     "id": "recDrvLScOeAUi77h"
   },
   {
+    "createdTime": "2026-11-20T23:54:21.000Z",
+    "fields": {
+      "Country": "México",
+      "Email": "javier.luna@roche.com",
+      "First_Name": "Javier",
+      "Language": "es",
+      "Name": "Javier Luna",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Medical, Regulatory, Market Access, Government and Quality Affairs Director). No enviar antes del 2026-11-25.",
+      "Organization": "Roche",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "recDtNN76oWAc47tw"
+  },
+  {
+    "createdTime": "2026-11-20T23:51:37.000Z",
+    "fields": {
+      "Country": "Brasil",
+      "Email": "demetrius.cruz@bayer.com",
+      "First_Name": "Demetrius",
+      "Language": "pt",
+      "Name": "Demetrius Cruz",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Head of Public Affairs, Science and Sustainability Brazil). No enviar antes del 2026-11-25.",
+      "Organization": "Bayer",
+      "Segment": "pharma-policy",
+      "Status": "Queued"
+    },
+    "id": "recE4Zlk7qrKRcyLX"
+  },
+  {
     "createdTime": "2026-11-01T01:18:07.000Z",
     "fields": {
       "Country": "EE.UU. (global)",
@@ -1441,13 +2192,28 @@
     "id": "recE7vZ0lZ2Mibb91"
   },
   {
+    "createdTime": "2026-11-20T23:56:48.000Z",
+    "fields": {
+      "Country": "Brasil",
+      "Email": "gagarcia@uniaoquimica.com.br",
+      "First_Name": "Gabriel",
+      "Language": "pt",
+      "Name": "Gabriel Garcia",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Diretor de Relações Institucionais e Governamentais). No enviar antes del 2026-11-25.",
+      "Organization": "União Química",
+      "Segment": "pharma-policy",
+      "Status": "Queued"
+    },
+    "id": "recE8g5schRRYOkjF"
+  },
+  {
     "createdTime": "2026-11-01T01:27:52.000Z",
     "fields": {
       "Email": "rcolnago@ptcbio.com",
       "First_Name": "Rafael",
       "Language": "pt",
       "Name": "Rafael Colnago",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "PTC Farmacêutica do Brasil Ltda.",
       "Segment": "crm",
       "Status": "Queued"
@@ -1478,12 +2244,27 @@
       "First_Name": "Vanessa",
       "Language": "pt",
       "Name": "Vanessa Gagliotta",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "Produtos Roche Químicos e Farmacêuticos S.A.",
       "Segment": "crm",
       "Status": "Queued"
     },
     "id": "recEVJ6qdNlJRWsGa"
+  },
+  {
+    "createdTime": "2026-11-20T23:54:21.000Z",
+    "fields": {
+      "Country": "Perú",
+      "Email": "tatiana.sarazu@sanofi.com",
+      "First_Name": "Tatiana",
+      "Language": "es",
+      "Name": "Tatiana Sarazu",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Market Access Manager Vaccines Copac). No enviar antes del 2026-11-25.",
+      "Organization": "Sanofi",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "recEVpbsOpJhvWOTf"
   },
   {
     "createdTime": "2026-11-01T01:18:07.000Z",
@@ -1502,6 +2283,21 @@
       "Status": "Sent"
     },
     "id": "recEZtZ1Em0H6c9Dz"
+  },
+  {
+    "createdTime": "2026-11-21T00:36:16.000Z",
+    "fields": {
+      "Country": "República Dominicana",
+      "Email": "steven.sabo@reckitt.com",
+      "First_Name": "Steven",
+      "Language": "en",
+      "Name": "Steven Sabo",
+      "Notes": "Apollo 21-11. No enviar antes del 2026-11-25.",
+      "Organization": "Reckitt",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "recEbk0Sp9p0FqnVr"
   },
   {
     "createdTime": "2026-11-09T02:08:37.000Z",
@@ -1555,6 +2351,21 @@
     "id": "recEsvuOX5fyE7Ikv"
   },
   {
+    "createdTime": "2026-11-21T00:36:16.000Z",
+    "fields": {
+      "Country": "Uruguay",
+      "Email": "jgril@calier.com.uy",
+      "First_Name": "Jaime",
+      "Language": "es",
+      "Name": "Jaime Gril",
+      "Notes": "Apollo 21-11. No enviar antes del 2026-11-25.",
+      "Organization": "Calier",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "recF6ZZv2H5d447lu"
+  },
+  {
     "createdTime": "2026-11-01T01:27:52.000Z",
     "fields": {
       "Country": "Other",
@@ -1562,12 +2373,27 @@
       "First_Name": "Anna",
       "Language": "en",
       "Name": "Anna Somuyiwa",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "CIRS - Centre for Innovation in Regulatory Science",
       "Segment": "crm",
       "Status": "Queued"
     },
     "id": "recF8tIu9YIi237C5"
+  },
+  {
+    "createdTime": "2026-11-20T23:56:48.000Z",
+    "fields": {
+      "Country": "Estados Unidos",
+      "Email": "gabrielle.dioguardi@abbvie.com",
+      "First_Name": "Gabrielle",
+      "Language": "en",
+      "Name": "Gabrielle Dioguardi",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Director, Corporate Communications and Media Relations). No enviar antes del 2026-11-25.",
+      "Organization": "AbbVie",
+      "Segment": "pharma-comms",
+      "Status": "Queued"
+    },
+    "id": "recFNMGhyw79EFWuc"
   },
   {
     "createdTime": "2026-11-01T21:51:34.000Z",
@@ -1602,13 +2428,30 @@
     "fields": {
       "Country": "Brasil",
       "Email": "novosclientes@cdn.com.br",
+      "Gmail_Message_ID": "1a1fa3452c59e373",
       "Language": "pt",
-      "Notes": "Source: Press & PR Contacts (Agencia PR)",
+      "Notes": "Source: Press & PR Contacts (Agencia PR)\n2026-11-20: invitación enviada",
       "Organization": "CDN Comunicação",
       "Segment": "generic",
-      "Status": "Queued"
+      "Sent_At": "2026-11-20T18:24:00.000Z",
+      "Status": "Sent"
     },
     "id": "recFSsanX8zdQ40hg"
+  },
+  {
+    "createdTime": "2026-11-20T23:51:37.000Z",
+    "fields": {
+      "Country": "México",
+      "Email": "eloy.martinez@boehringer-ingelheim.com",
+      "First_Name": "Eloy",
+      "Language": "es",
+      "Name": "Eloy Martinez Anguiano",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Gerente Senior de Asuntos Públicos y de Gobierno). No enviar antes del 2026-11-25.",
+      "Organization": "Boehringer Ingelheim",
+      "Segment": "pharma-policy",
+      "Status": "Queued"
+    },
+    "id": "recFUmCZm9vg5fS1v"
   },
   {
     "createdTime": "2026-11-01T01:23:00.000Z",
@@ -1629,6 +2472,21 @@
     "id": "recFcZ3c2pfkaVVOG"
   },
   {
+    "createdTime": "2026-11-20T23:51:37.000Z",
+    "fields": {
+      "Country": "LatAm regional",
+      "Email": "natalia.carcavilla@astrazeneca.com",
+      "First_Name": "Natalia",
+      "Language": "es",
+      "Name": "Natalia Carcavilla",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Director, Communications and Media Relations, Latin America). No enviar antes del 2026-11-25.",
+      "Organization": "AstraZeneca",
+      "Segment": "pharma-comms",
+      "Status": "Queued"
+    },
+    "id": "recFdiYGMrHMSojYI"
+  },
+  {
     "createdTime": "2026-11-01T01:30:39.000Z",
     "fields": {
       "Country": "Brazil",
@@ -1636,7 +2494,7 @@
       "First_Name": "Clovis",
       "Language": "pt",
       "Name": "Clovis Brito",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "Merck Group",
       "Segment": "crm",
       "Status": "Queued"
@@ -1651,12 +2509,27 @@
       "First_Name": "Daniela",
       "Language": "es",
       "Name": "Daniela Silva Benavides",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "Johnson & Johnson Innovative Medicine",
       "Segment": "crm",
       "Status": "Queued"
     },
     "id": "recFvJ7NH2YMDmXe7"
+  },
+  {
+    "createdTime": "2026-11-21T00:36:16.000Z",
+    "fields": {
+      "Country": "Guatemala",
+      "Email": "f.lopez@agefinsa.com.gt",
+      "First_Name": "Frine",
+      "Language": "es",
+      "Name": "Frine Lopez",
+      "Notes": "Apollo 21-11. No enviar antes del 2026-11-25.",
+      "Organization": "Agefinsa S.A.",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "recFxVXeSQf4y0NxI"
   },
   {
     "createdTime": "2026-11-01T01:18:07.000Z",
@@ -1674,6 +2547,21 @@
       "Status": "Reminded"
     },
     "id": "recFzloBs39zHqAzc"
+  },
+  {
+    "createdTime": "2026-11-20T23:51:37.000Z",
+    "fields": {
+      "Country": "Brasil",
+      "Email": "milena.bourroul@sandoz.com",
+      "First_Name": "Milena",
+      "Language": "pt",
+      "Name": "Milena Bourroul",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Head of Corporate Affairs at Sandoz Brazil). No enviar antes del 2026-11-25.",
+      "Organization": "Sandoz",
+      "Segment": "pharma-policy",
+      "Status": "Queued"
+    },
+    "id": "recG2p9pCW0AVTNfn"
   },
   {
     "createdTime": "2026-11-09T02:08:37.000Z",
@@ -1700,7 +2588,7 @@
       "First_Name": "Sothea",
       "Language": "en",
       "Name": "Sothea Shreck",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "BCW",
       "Segment": "crm",
       "Status": "Queued"
@@ -1764,7 +2652,7 @@
       "First_Name": "Omar",
       "Language": "es",
       "Name": "Omar Lombana Montoya",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "Baxter",
       "Segment": "crm",
       "Status": "Queued"
@@ -1812,7 +2700,7 @@
       "First_Name": "Alvaro",
       "Language": "es",
       "Name": "Alvaro Martínez",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "A.L.N. (Asociación de Laboratorios Nacionales, Uruguay)",
       "Segment": "crm",
       "Status": "Queued"
@@ -1837,6 +2725,21 @@
     "id": "recHHHcSsz4ADGRWN"
   },
   {
+    "createdTime": "2026-11-20T23:56:48.000Z",
+    "fields": {
+      "Country": "Estados Unidos",
+      "Email": "stacy.montejo@astrazeneca.com",
+      "First_Name": "Stacy",
+      "Language": "en",
+      "Name": "Stacy Montejo",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Head of US Corporate Communications). No enviar antes del 2026-11-25.",
+      "Organization": "AstraZeneca",
+      "Segment": "pharma-comms",
+      "Status": "Queued"
+    },
+    "id": "recHKnCBSDRdoUSmj"
+  },
+  {
     "createdTime": "2026-11-01T21:51:34.000Z",
     "fields": {
       "Country": "Chile",
@@ -1852,6 +2755,21 @@
       "Status": "Sent"
     },
     "id": "recHYP7AW3yzp5KYw"
+  },
+  {
+    "createdTime": "2026-11-21T00:36:17.000Z",
+    "fields": {
+      "Country": "Uruguay",
+      "Email": "fdelpuerto@megalabs.global",
+      "First_Name": "Fernando",
+      "Language": "es",
+      "Name": "Fernando Del Puerto",
+      "Notes": "Apollo 21-11. No enviar antes del 2026-11-25.",
+      "Organization": "Megalabs",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "recHcXd8VOYMaLRPN"
   },
   {
     "createdTime": "2026-11-01T01:23:00.000Z",
@@ -1901,6 +2819,21 @@
       "Status": "Reminded"
     },
     "id": "recHsdbYiZj2kwDMd"
+  },
+  {
+    "createdTime": "2026-11-21T00:36:16.000Z",
+    "fields": {
+      "Country": "Uruguay",
+      "Email": "mgiusti@megalabs.global",
+      "First_Name": "Marcos",
+      "Language": "es",
+      "Name": "Marcos Giusti",
+      "Notes": "Apollo 21-11. No enviar antes del 2026-11-25.",
+      "Organization": "Megalabs",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "recHt3Y5Fi2HybtKS"
   },
   {
     "createdTime": "2026-11-01T01:25:25.000Z",
@@ -1959,11 +2892,13 @@
     "fields": {
       "Country": "Global (UK HQ)",
       "Email": "corporate.media@gsk.com",
+      "Gmail_Message_ID": "1a1fa32e05108908",
       "Language": "en",
-      "Notes": "Source: Press & PR Contacts (Pharma media office)",
+      "Notes": "Source: Press & PR Contacts (Pharma media office)\n2026-11-20: invitación enviada",
       "Organization": "GSK",
       "Segment": "generic",
-      "Status": "Queued"
+      "Sent_At": "2026-11-20T18:22:00.000Z",
+      "Status": "Sent"
     },
     "id": "recIBoQ4NK56dNoOv"
   },
@@ -2006,7 +2941,7 @@
     "fields": {
       "Email": "slevy@iadb.org",
       "Language": "es",
-      "Notes": "2026-11-19: origen barrido inbox editor@. Nombre y país no confirmados. No estaba en Subscribe Invites, CRM ni Press.",
+      "Notes": "2026-11-19: origen barrido inbox editor@. Nombre y país no confirmados. No estaba en Subscribe Invites, CRM ni Press.\n2026-11-21: verificado en Gmail: solo en copia en la invitación a Voices vía Brookings (hilo 1a0fde3c107d66a3), sin respuesta. Contacto débil: decide Fer.",
       "Organization": "BID (IDB)",
       "Segment": "crm",
       "Status": "Queued"
@@ -2054,7 +2989,7 @@
       "First_Name": "Karina",
       "Language": "es",
       "Name": "Karina Basterrica",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "Merck Sharp & Dohme (LA) LLC",
       "Segment": "crm",
       "Status": "Queued"
@@ -2068,7 +3003,7 @@
       "First_Name": "Christel",
       "Language": "es",
       "Name": "Christel Arce",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "J&J LATAM",
       "Segment": "crm",
       "Status": "Queued"
@@ -2135,6 +3070,81 @@
     "id": "recJDJsWe7eh8nKDH"
   },
   {
+    "createdTime": "2026-11-20T23:54:21.000Z",
+    "fields": {
+      "Country": "México",
+      "Email": "carla.garay@viatris.com",
+      "First_Name": "Carla",
+      "Language": "es",
+      "Name": "Carla Garay",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Head of Corporate Affairs and Access, Mexico & CCS). No enviar antes del 2026-11-25.",
+      "Organization": "Viatris",
+      "Segment": "pharma-policy",
+      "Status": "Queued"
+    },
+    "id": "recJKi3wHKNt6Eycp"
+  },
+  {
+    "createdTime": "2026-11-21T00:36:16.000Z",
+    "fields": {
+      "Country": "Uruguay",
+      "Email": "veronica.conti@abbott.com",
+      "First_Name": "Veronica",
+      "Language": "es",
+      "Name": "Veronica Conti",
+      "Notes": "Apollo 21-11. No enviar antes del 2026-11-25.",
+      "Organization": "Abbott",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "recJP6BtthakfQ9TW"
+  },
+  {
+    "createdTime": "2026-11-20T23:54:21.000Z",
+    "fields": {
+      "Country": "Chile",
+      "Email": "monica.saavedra@merckgroup.com",
+      "First_Name": "Monica",
+      "Language": "es",
+      "Name": "Monica Saavedra Medel",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Market Access Strategy and Pricing Manager). No enviar antes del 2026-11-25.",
+      "Organization": "Merck Group",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "recJqJVkcaBQNslsB"
+  },
+  {
+    "createdTime": "2026-11-21T00:36:16.000Z",
+    "fields": {
+      "Country": "USA",
+      "Email": "heather_nichols@vrtx.com",
+      "First_Name": "Heather",
+      "Language": "en",
+      "Name": "Heather Nichols",
+      "Notes": "Apollo 21-11. No enviar antes del 2026-11-25.",
+      "Organization": "Vertex Pharmaceuticals",
+      "Segment": "pharma-comms",
+      "Status": "Queued"
+    },
+    "id": "recJrqrepEf5OViwL"
+  },
+  {
+    "createdTime": "2026-11-20T23:51:37.000Z",
+    "fields": {
+      "Country": "Argentina",
+      "Email": "hector.pourtale@pfizer.com",
+      "First_Name": "Hector",
+      "Language": "es",
+      "Name": "Hector Pourtale",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Policy and Communications Director South of Latin America). No enviar antes del 2026-11-25.",
+      "Organization": "Pfizer",
+      "Segment": "pharma-comms",
+      "Status": "Queued"
+    },
+    "id": "recJw6btOq3JyouRp"
+  },
+  {
     "createdTime": "2026-11-01T01:20:33.000Z",
     "fields": {
       "Country": "EE.UU. (hub LATAM)",
@@ -2176,7 +3186,7 @@
       "First_Name": "Laura",
       "Language": "es",
       "Name": "Laura Edith Duran Rivero",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "Johnson & Johnson Innovative Medicine",
       "Segment": "crm",
       "Status": "Queued"
@@ -2184,15 +3194,32 @@
     "id": "recKWTvKhHQfVkpJO"
   },
   {
+    "createdTime": "2026-11-20T23:51:37.000Z",
+    "fields": {
+      "Country": "México",
+      "Email": "maria.estrada@abbvie.com",
+      "First_Name": "Maria",
+      "Language": "es",
+      "Name": "Maria Estrada Ocampo",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: External Affairs Manager). No enviar antes del 2026-11-25.",
+      "Organization": "AbbVie",
+      "Segment": "pharma-policy",
+      "Status": "Queued"
+    },
+    "id": "recKWgFEB1H03eY8o"
+  },
+  {
     "createdTime": "2026-11-01T01:20:33.000Z",
     "fields": {
       "Country": "Chile",
       "Email": "contacto@azerta.cl",
+      "Gmail_Message_ID": "1a1fa32e2df485d4",
       "Language": "es",
-      "Notes": "Source: Press & PR Contacts (Agencia PR)",
+      "Notes": "Source: Press & PR Contacts (Agencia PR)\n2026-11-20: invitación enviada",
       "Organization": "Azerta Chile",
       "Segment": "generic",
-      "Status": "Queued"
+      "Sent_At": "2026-11-20T18:22:00.000Z",
+      "Status": "Sent"
     },
     "id": "recKZVlVQxJLSx2CA"
   },
@@ -2203,7 +3230,7 @@
       "First_Name": "Marcelo",
       "Language": "en",
       "Name": "Marcelo Ruiz",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "Frost & Sullivan",
       "Segment": "crm",
       "Status": "Queued"
@@ -2225,6 +3252,21 @@
     "id": "recKm5I4nKiISQ7aj"
   },
   {
+    "createdTime": "2026-11-21T00:36:16.000Z",
+    "fields": {
+      "Country": "Uruguay",
+      "Email": "agustina.navarro_saldias@roche.com",
+      "First_Name": "Agustina",
+      "Language": "es",
+      "Name": "Agustina Navarro",
+      "Notes": "Apollo 21-11. No enviar antes del 2026-11-25.",
+      "Organization": "Roche",
+      "Segment": "pharma-comms",
+      "Status": "Queued"
+    },
+    "id": "recKmOlxKlfQKDVMU"
+  },
+  {
     "createdTime": "2026-11-01T01:27:52.000Z",
     "fields": {
       "Country": "USA",
@@ -2232,7 +3274,7 @@
       "First_Name": "Ryan",
       "Language": "en",
       "Name": "Ryan Kuresman",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "GCI Health",
       "Segment": "crm",
       "Status": "Queued"
@@ -2244,11 +3286,13 @@
     "fields": {
       "Country": "EE.UU. (global)",
       "Email": "NewsTips@kff.org",
+      "Gmail_Message_ID": "1a1fa34550e932ab",
       "Language": "en",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)",
+      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-20: invitación enviada",
       "Organization": "KFF Health News",
       "Segment": "generic",
-      "Status": "Queued"
+      "Sent_At": "2026-11-20T18:24:00.000Z",
+      "Status": "Sent"
     },
     "id": "recKt1ukD9avYKkPh"
   },
@@ -2259,7 +3303,7 @@
       "First_Name": "Carlos",
       "Language": "es",
       "Name": "Carlos Dufeu Troncoso",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "Merck Sharp & Dohme (LA) LLC",
       "Segment": "crm",
       "Status": "Queued"
@@ -2279,6 +3323,21 @@
       "Status": "Queued"
     },
     "id": "recL1UqGAhN0qPt7l"
+  },
+  {
+    "createdTime": "2026-11-20T23:51:37.000Z",
+    "fields": {
+      "Country": "Argentina",
+      "Email": "gabriel.cejas@abbvie.com",
+      "First_Name": "Gabriel",
+      "Language": "es",
+      "Name": "Gabriel Cejas",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Director, External Affairs). No enviar antes del 2026-11-25.",
+      "Organization": "AbbVie",
+      "Segment": "pharma-policy",
+      "Status": "Queued"
+    },
+    "id": "recL3l7IXY0QrUgMs"
   },
   {
     "createdTime": "2026-11-01T21:51:34.000Z",
@@ -2408,6 +3467,36 @@
     "id": "recMUk7a2WPkNq4Kn"
   },
   {
+    "createdTime": "2026-11-21T00:36:16.000Z",
+    "fields": {
+      "Country": "USA",
+      "Email": "jared.shapiro@lilly.com",
+      "First_Name": "Jared",
+      "Language": "en",
+      "Name": "Jared Shapiro",
+      "Notes": "Apollo 21-11. No enviar antes del 2026-11-25.",
+      "Organization": "Eli Lilly and Company",
+      "Segment": "pharma-policy",
+      "Status": "Queued"
+    },
+    "id": "recMVM3gLLSzxU1W5"
+  },
+  {
+    "createdTime": "2026-11-20T23:54:21.000Z",
+    "fields": {
+      "Country": "Costa Rica",
+      "Email": "olman.lopez@roche.com",
+      "First_Name": "Olman",
+      "Language": "es",
+      "Name": "Olman Lopez Vargas",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Líder de Comunicación). No enviar antes del 2026-11-25.",
+      "Organization": "Roche",
+      "Segment": "pharma-comms",
+      "Status": "Queued"
+    },
+    "id": "recMwz2TeMFX0nCVN"
+  },
+  {
     "createdTime": "2026-11-01T01:23:00.000Z",
     "fields": {
       "Country": "Brasil",
@@ -2442,6 +3531,21 @@
     "id": "recNFKLUDwNb4e5LD"
   },
   {
+    "createdTime": "2026-11-20T23:54:21.000Z",
+    "fields": {
+      "Country": "Costa Rica",
+      "Email": "ana.bolanos@roche.com",
+      "First_Name": "Ana",
+      "Language": "es",
+      "Name": "Ana Bolanos Aguilar",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Cluster Lead Corporate Affairs). No enviar antes del 2026-11-25.",
+      "Organization": "Roche",
+      "Segment": "pharma-policy",
+      "Status": "Queued"
+    },
+    "id": "recNcSxmQXA8x5bRa"
+  },
+  {
     "createdTime": "2026-11-01T01:27:52.000Z",
     "fields": {
       "Country": "Other",
@@ -2449,7 +3553,7 @@
       "First_Name": "Ivy",
       "Language": "en",
       "Name": "Ivy Teh",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "Clearstate",
       "Segment": "crm",
       "Status": "Queued"
@@ -2472,6 +3576,21 @@
       "Status": "Sent"
     },
     "id": "recNwnTbP3RWiS54O"
+  },
+  {
+    "createdTime": "2026-11-20T23:56:48.000Z",
+    "fields": {
+      "Country": "Estados Unidos",
+      "Email": "sueann.pentecost@bayer.com",
+      "First_Name": "Sue",
+      "Language": "en",
+      "Name": "Sue Pentecost",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Head of External Communications, U.S. Pharmaceuticals). No enviar antes del 2026-11-25.",
+      "Organization": "Bayer",
+      "Segment": "pharma-comms",
+      "Status": "Queued"
+    },
+    "id": "recNyVfA8P0Tb31M6"
   },
   {
     "createdTime": "2026-11-01T01:23:00.000Z",
@@ -2497,7 +3616,7 @@
       "First_Name": "Leonor",
       "Language": "en",
       "Name": "Leonor Rodriguez",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "Jeffrey Group",
       "Segment": "crm",
       "Status": "Queued"
@@ -2529,7 +3648,7 @@
       "First_Name": "Ricardo",
       "Language": "es",
       "Name": "Ricardo Del Olmo Hidalgo",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "ANAFAM (México)",
       "Segment": "crm",
       "Status": "Queued"
@@ -2541,14 +3660,46 @@
     "fields": {
       "Country": "Chile",
       "Email": "decanato@ciq.uchile.cl",
+      "Gmail_Message_ID": "1a1fa377b333f658",
       "Language": "es",
       "Name": "Pablo Richter Duk",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-01: First_Name 'Pablo' cleared (generic/role inbox; greeting without name).",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-01: First_Name 'Pablo' cleared (generic/role inbox; greeting without name).\n2026-11-20: invitación enviada",
       "Organization": "Facultad de Ciencias Químicas y Farmacéuticas, Universidad de Chile",
       "Segment": "generic",
-      "Status": "Queued"
+      "Sent_At": "2026-11-20T18:28:00.000Z",
+      "Status": "Sent"
     },
     "id": "recOFqM9hIkMzXZC5"
+  },
+  {
+    "createdTime": "2026-11-21T00:36:16.000Z",
+    "fields": {
+      "Country": "Guatemala",
+      "Email": "wvazquez@donovanwerke.com",
+      "First_Name": "Walter",
+      "Language": "es",
+      "Name": "Walter Vazquez",
+      "Notes": "Apollo 21-11. No enviar antes del 2026-11-25.",
+      "Organization": "Donovan Werke",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "recOJzrPiUlRDsUnQ"
+  },
+  {
+    "createdTime": "2026-11-20T23:56:48.000Z",
+    "fields": {
+      "Country": "Estados Unidos",
+      "Email": "tina.parisituttle@regeneron.com",
+      "First_Name": "Tina",
+      "Language": "en",
+      "Name": "Tina Tuttle",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Senior Director, Corporate Communications & Media Relations). No enviar antes del 2026-11-25.",
+      "Organization": "Regeneron",
+      "Segment": "pharma-comms",
+      "Status": "Queued"
+    },
+    "id": "recONiYlzcr0Gxw8L"
   },
   {
     "createdTime": "2026-11-01T01:23:00.000Z",
@@ -2569,15 +3720,77 @@
     "id": "recOPD1q66ihQqMxa"
   },
   {
+    "createdTime": "2026-11-21T00:36:16.000Z",
+    "fields": {
+      "Country": "República Dominicana",
+      "Email": "milqueya.mota@bussie.com.co",
+      "First_Name": "Milqueya",
+      "Language": "es",
+      "Name": "Milqueya Mota Portes",
+      "Notes": "Apollo 21-11. No enviar antes del 2026-11-25.",
+      "Organization": "LABORATORIOS BUSSIE S.A",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "recOUUZPMVtXCqlgQ"
+  },
+  {
+    "createdTime": "2026-11-20T23:51:37.000Z",
+    "fields": {
+      "Country": "Argentina",
+      "Email": "claudia.oneto@msd.com",
+      "First_Name": "Claudia",
+      "Language": "es",
+      "Name": "Claudia Oneto",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Associate Director, Market Access and Goverment Affairs). No enviar antes del 2026-11-25.",
+      "Organization": "MSD",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "recOwidELwWAuXEm3"
+  },
+  {
+    "createdTime": "2026-11-20T23:56:48.000Z",
+    "fields": {
+      "Country": "Estados Unidos",
+      "Email": "pamela.eisele@pfizer.com",
+      "First_Name": "Pamela",
+      "Language": "en",
+      "Name": "Pamela Eisele",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Senior Director, Corporate Media Relations). No enviar antes del 2026-11-25.",
+      "Organization": "Pfizer",
+      "Segment": "pharma-comms",
+      "Status": "Queued"
+    },
+    "id": "recP19t6CYKlKflcg"
+  },
+  {
+    "createdTime": "2026-11-21T00:36:16.000Z",
+    "fields": {
+      "Country": "Ecuador",
+      "Email": "cristina.mendia@welkom.com.ec",
+      "First_Name": "Cristina",
+      "Language": "es",
+      "Name": "Cristina Mendia Luzuriaga",
+      "Notes": "Apollo 21-11. No enviar antes del 2026-11-25.",
+      "Organization": "Welkom Medicamentos de Especialidad",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "recP7h0yjZ1PGNAFE"
+  },
+  {
     "createdTime": "2026-11-01T01:23:00.000Z",
     "fields": {
       "Country": "Brasil",
       "Email": "contato@inpresspni.com.br",
+      "Gmail_Message_ID": "1a1fa35d9315d75b",
       "Language": "pt",
-      "Notes": "Source: Press & PR Contacts (Agencia PR)",
+      "Notes": "Source: Press & PR Contacts (Agencia PR)\n2026-11-20: invitación enviada",
       "Organization": "In Press Porter Novelli",
       "Segment": "generic",
-      "Status": "Queued"
+      "Sent_At": "2026-11-20T18:26:00.000Z",
+      "Status": "Sent"
     },
     "id": "recPAyd5tlA5syPWl"
   },
@@ -2605,7 +3818,7 @@
       "First_Name": "Fernando",
       "Language": "en",
       "Name": "Fernando Gianonni",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "Roche International Ltd.",
       "Segment": "crm",
       "Status": "Queued"
@@ -2629,6 +3842,21 @@
     "id": "recPN82vbtmEGgYa3"
   },
   {
+    "createdTime": "2026-11-20T23:54:21.000Z",
+    "fields": {
+      "Country": "LatAm regional",
+      "Email": "marina.caprioli1@msd.com",
+      "First_Name": "Marina",
+      "Language": "es",
+      "Name": "Marina Caprioli",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Director, Communications, Latin America). No enviar antes del 2026-11-25.",
+      "Organization": "MSD",
+      "Segment": "pharma-comms",
+      "Status": "Queued"
+    },
+    "id": "recPRKpbbmGi3RYVd"
+  },
+  {
     "createdTime": "2026-11-01T01:32:43.000Z",
     "fields": {
       "Country": "Global",
@@ -2646,18 +3874,78 @@
     "id": "recPS8VvuXJJWt3XV"
   },
   {
+    "createdTime": "2026-11-20T23:54:21.000Z",
+    "fields": {
+      "Country": "Chile",
+      "Email": "lesterjoel.astudillogonzalez@abbott.com",
+      "First_Name": "Lester",
+      "Language": "es",
+      "Name": "Lester Astudillo",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Gerente De Asuntos Corporativos En Abbott). No enviar antes del 2026-11-25.",
+      "Organization": "Abbott",
+      "Segment": "pharma-policy",
+      "Status": "Queued"
+    },
+    "id": "recPVvaMXoSu5aNTL"
+  },
+  {
     "createdTime": "2026-11-01T01:27:52.000Z",
     "fields": {
       "Country": "USA",
       "Email": "mrico@the-ahf.org",
       "Language": "en",
       "Name": "M. Rico (AHF)",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "Americas Health Foundation",
       "Segment": "crm",
       "Status": "Queued"
     },
     "id": "recPWFseQzXP7RJY1"
+  },
+  {
+    "createdTime": "2026-11-21T00:36:16.000Z",
+    "fields": {
+      "Country": "Uruguay",
+      "Email": "sol.hanan@roche.com",
+      "First_Name": "Sol",
+      "Language": "es",
+      "Name": "Sol Hanan",
+      "Notes": "Apollo 21-11. No enviar antes del 2026-11-25.",
+      "Organization": "Roche",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "recPaUFX1uzMEHT0t"
+  },
+  {
+    "createdTime": "2026-11-21T00:36:16.000Z",
+    "fields": {
+      "Country": "Ecuador",
+      "Email": "elopez@isispharma.com",
+      "First_Name": "Edwin",
+      "Language": "es",
+      "Name": "Edwin Lopez",
+      "Notes": "Apollo 21-11. No enviar antes del 2026-11-25.",
+      "Organization": "ISISPHARMA",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "recPbjczEfCoYzwfG"
+  },
+  {
+    "createdTime": "2026-11-20T23:54:21.000Z",
+    "fields": {
+      "Country": "LatAm regional",
+      "Email": "mccastil@its.jnj.com",
+      "First_Name": "Maria",
+      "Language": "es",
+      "Name": "Maria Castillo Charria",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: External Affairs and Access Policy Latam Director). No enviar antes del 2026-11-25.",
+      "Organization": "Johnson & Johnson",
+      "Segment": "pharma-policy",
+      "Status": "Queued"
+    },
+    "id": "recPdkhIathn0mHr9"
   },
   {
     "createdTime": "2026-11-09T02:08:37.000Z",
@@ -2684,7 +3972,7 @@
       "First_Name": "Isabel",
       "Language": "en",
       "Name": "Isabel Benitez-Bory",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "Merck Group (EMD Serono)",
       "Segment": "crm",
       "Status": "Queued"
@@ -2699,12 +3987,27 @@
       "First_Name": "Juanita",
       "Language": "es",
       "Name": "Juanita Barrios Azcona",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "Edelman",
       "Segment": "crm",
       "Status": "Queued"
     },
     "id": "recPruIbxSJ47zZai"
+  },
+  {
+    "createdTime": "2026-11-20T23:54:21.000Z",
+    "fields": {
+      "Country": "Perú",
+      "Email": "jose.allemant@abbott.com",
+      "First_Name": "Jose",
+      "Language": "es",
+      "Name": "Jose Allemant Sayan",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Government Affairs Director Perú & Chile). No enviar antes del 2026-11-25.",
+      "Organization": "Abbott",
+      "Segment": "pharma-policy",
+      "Status": "Queued"
+    },
+    "id": "recPte6k7O8WrNHwy"
   },
   {
     "createdTime": "2026-11-01T01:23:00.000Z",
@@ -2773,13 +4076,28 @@
     "id": "recQItURQHTyCuOWs"
   },
   {
+    "createdTime": "2026-11-20T23:51:37.000Z",
+    "fields": {
+      "Country": "Brasil",
+      "Email": "leandro.fonseca@astrazeneca.com",
+      "First_Name": "Leandro",
+      "Language": "pt",
+      "Name": "Leandro Fonseca",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Head of Corporate Affairs - Brazil). No enviar antes del 2026-11-25.",
+      "Organization": "AstraZeneca",
+      "Segment": "pharma-policy",
+      "Status": "Queued"
+    },
+    "id": "recQU9jp2s7an2QgQ"
+  },
+  {
     "createdTime": "2026-11-01T01:27:52.000Z",
     "fields": {
       "Email": "afigueira@ptcbio.com",
       "First_Name": "Andréa",
       "Language": "pt",
       "Name": "Andréa Figueira",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "PTC Farmacêutica do Brasil Ltda.",
       "Segment": "crm",
       "Status": "Queued"
@@ -2819,6 +4137,21 @@
     "id": "recR07z7v9QXdVSmU"
   },
   {
+    "createdTime": "2026-11-20T23:56:48.000Z",
+    "fields": {
+      "Country": "LatAm regional",
+      "Email": "nviscardi@megalabs.global",
+      "First_Name": "Natalia",
+      "Language": "es",
+      "Name": "Natalia Viscardi",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Corporate Communications Manager). No enviar antes del 2026-11-25.",
+      "Organization": "Megalabs",
+      "Segment": "pharma-comms",
+      "Status": "Queued"
+    },
+    "id": "recR2ysuzi3MRlRzj"
+  },
+  {
     "createdTime": "2026-11-01T01:20:33.000Z",
     "fields": {
       "Clicked_At": "2026-11-05T18:28:53.000Z",
@@ -2835,6 +4168,21 @@
       "Status": "Sent"
     },
     "id": "recR5TwhqERM5bYCz"
+  },
+  {
+    "createdTime": "2026-11-21T00:36:17.000Z",
+    "fields": {
+      "Country": "USA",
+      "Email": "lzol@novonordisk.com",
+      "First_Name": "Leslie",
+      "Language": "en",
+      "Name": "Leslie Zolov",
+      "Notes": "Apollo 21-11. No enviar antes del 2026-11-25.",
+      "Organization": "Novo Nordisk",
+      "Segment": "pharma-policy",
+      "Status": "Queued"
+    },
+    "id": "recR9eLYbcTYy6Mgm"
   },
   {
     "createdTime": "2026-11-01T01:18:07.000Z",
@@ -2872,6 +4220,81 @@
     "id": "recRKZ4UBJzN6j1x2"
   },
   {
+    "createdTime": "2026-11-20T23:54:21.000Z",
+    "fields": {
+      "Country": "Perú",
+      "Email": "jsantisteban@jnj.com",
+      "First_Name": "Janet",
+      "Language": "es",
+      "Name": "Janet Condor Santisteban",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Market Access & Health Economics Manager Perú & Ecuador). No enviar antes del 2026-11-25.",
+      "Organization": "Johnson & Johnson",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "recRS0gdTHlkfzQzV"
+  },
+  {
+    "createdTime": "2026-11-20T23:56:48.000Z",
+    "fields": {
+      "Country": "Estados Unidos",
+      "Email": "shannon.hatch@merck.com",
+      "First_Name": "Shannon",
+      "Language": "en",
+      "Name": "Shannon Hatch",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Director Global Media Relations). No enviar antes del 2026-11-25.",
+      "Organization": "MSD (Merck & Co.)",
+      "Segment": "pharma-comms",
+      "Status": "Queued"
+    },
+    "id": "recRfG43QoM1tjC2X"
+  },
+  {
+    "createdTime": "2026-11-20T23:54:21.000Z",
+    "fields": {
+      "Country": "México",
+      "Email": "raul.sanchezkobashi@pfizer.com",
+      "First_Name": "Raul",
+      "Language": "es",
+      "Name": "Raul Kobashi Meneses",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Market Access Cluster Lead). No enviar antes del 2026-11-25.",
+      "Organization": "Pfizer",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "recRjna0FRGgjHUKe"
+  },
+  {
+    "createdTime": "2026-11-20T23:56:48.000Z",
+    "fields": {
+      "Country": "Estados Unidos",
+      "Email": "jennifer.young@pfizer.com",
+      "First_Name": "Jennifer",
+      "Language": "en",
+      "Name": "Jennifer Young",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Vice President & Head, International Commercial Policy and Communications). No enviar antes del 2026-11-25.",
+      "Organization": "Pfizer",
+      "Segment": "pharma-policy",
+      "Status": "Queued"
+    },
+    "id": "recRsYjFnTJd6eq96"
+  },
+  {
+    "createdTime": "2026-11-20T23:51:37.000Z",
+    "fields": {
+      "Country": "Argentina",
+      "Email": "mara.leonardi@novartis.com",
+      "First_Name": "Mara",
+      "Language": "es",
+      "Name": "Mara Leonardi",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Communications and Advocacy Head). No enviar antes del 2026-11-25.",
+      "Organization": "Novartis",
+      "Segment": "pharma-comms",
+      "Status": "Queued"
+    },
+    "id": "recRtxyxIveL5DfD7"
+  },
+  {
     "createdTime": "2026-11-01T01:20:33.000Z",
     "fields": {
       "Country": "Brasil",
@@ -2887,6 +4310,36 @@
       "Status": "Reminded"
     },
     "id": "recRxDC66xplukZxT"
+  },
+  {
+    "createdTime": "2026-11-20T23:51:37.000Z",
+    "fields": {
+      "Country": "Brasil",
+      "Email": "jorge.a.mazzei@gsk.com",
+      "First_Name": "Jorge",
+      "Language": "pt",
+      "Name": "Jorge Mazzei",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Corporate Affairs & Patiente Advocacy Senior Director). No enviar antes del 2026-11-25.",
+      "Organization": "GSK",
+      "Segment": "pharma-policy",
+      "Status": "Queued"
+    },
+    "id": "recS7QzzgxHcuK7Pn"
+  },
+  {
+    "createdTime": "2026-11-20T23:51:37.000Z",
+    "fields": {
+      "Country": "Brasil",
+      "Email": "felippe.bento@sanofi.com",
+      "First_Name": "Felippe",
+      "Language": "pt",
+      "Name": "Felippe Bento",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Diretor de Acesso ao Mercado). No enviar antes del 2026-11-25.",
+      "Organization": "Sanofi",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "recS8JAZhd9k8dCuK"
   },
   {
     "createdTime": "2026-11-01T01:23:00.000Z",
@@ -2923,13 +4376,28 @@
     "id": "recSF0cdvipZ2HMma"
   },
   {
+    "createdTime": "2026-11-20T23:54:21.000Z",
+    "fields": {
+      "Country": "Colombia",
+      "Email": "daniel.restrepo@boehringer-ingelheim.com",
+      "First_Name": "Daniel",
+      "Language": "es",
+      "Name": "Daniel Restrepo Palacio",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Market Access Head). No enviar antes del 2026-11-25.",
+      "Organization": "Boehringer Ingelheim",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "recSG7hFrGzzppk9j"
+  },
+  {
     "createdTime": "2026-11-01T01:27:52.000Z",
     "fields": {
       "Email": "aschiaf1@its.jnj.com",
       "First_Name": "Agustin",
       "Language": "es",
       "Name": "Agustin Schiaffini",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "MCNEIL PANAMA LLC",
       "Segment": "crm",
       "Status": "Queued"
@@ -2960,7 +4428,7 @@
       "First_Name": "Matthijs",
       "Language": "en",
       "Name": "Matthijs Van Meerveld",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "Sanofi Pasteur Inc",
       "Segment": "crm",
       "Status": "Queued"
@@ -2982,6 +4450,21 @@
       "Status": "Reminded"
     },
     "id": "recSXR0vWaRpbkF30"
+  },
+  {
+    "createdTime": "2026-11-21T00:36:16.000Z",
+    "fields": {
+      "Country": "Uruguay",
+      "Email": "asaldana@imedicinesgroup.com",
+      "First_Name": "Alejandra",
+      "Language": "es",
+      "Name": "Alejandra Saldana",
+      "Notes": "Apollo 21-11. No enviar antes del 2026-11-25.",
+      "Organization": "Innovative Medicines Group",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "recT4wD9NzpDxXjLn"
   },
   {
     "createdTime": "2026-11-01T01:20:33.000Z",
@@ -3016,6 +4499,21 @@
       "Status": "Reminded"
     },
     "id": "recTCkUOwli5cQbSr"
+  },
+  {
+    "createdTime": "2026-11-20T23:56:48.000Z",
+    "fields": {
+      "Country": "Estados Unidos",
+      "Email": "madeleine.shin@biogen.com",
+      "First_Name": "Madeleine",
+      "Language": "en",
+      "Name": "Madeleine Shin",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Executive Director, Global Head of External Communications and Media). No enviar antes del 2026-11-25.",
+      "Organization": "Biogen",
+      "Segment": "pharma-comms",
+      "Status": "Queued"
+    },
+    "id": "recTFvGS7g68iB4Ef"
   },
   {
     "createdTime": "2026-11-01T01:32:43.000Z",
@@ -3073,12 +4571,57 @@
       "First_Name": "Sandra",
       "Language": "es",
       "Name": "Sandra Ocampo",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-10: diferido, no hay contacto previo desde editor@ (el borrador de outreach nunca salió), así que la línea 'estuvimos en contacto' sería falsa; email sin re-verificar. Queda Queued para que Fer decida",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-10: no había contacto previo desde editor@ (el borrador de outreach nunca salió), por eso no se usó la línea crm.\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Fer aprobó la línea neutra el 21-11; sale con ella.",
       "Organization": "Medtronic",
       "Segment": "crm",
       "Status": "Queued"
     },
     "id": "recTbhZQnFvDgVAxi"
+  },
+  {
+    "createdTime": "2026-11-21T00:36:16.000Z",
+    "fields": {
+      "Country": "Guatemala",
+      "Email": "jrodriguez@frycia.com",
+      "First_Name": "Juan",
+      "Language": "es",
+      "Name": "Juan Rodrigo Rodriguez",
+      "Notes": "Apollo 21-11. No enviar antes del 2026-11-25.",
+      "Organization": "Laboratorios Frycia",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "recTn8DxPwwfh5eKe"
+  },
+  {
+    "createdTime": "2026-11-20T23:54:21.000Z",
+    "fields": {
+      "Country": "Chile",
+      "Email": "carlota.quijada@abbott.com",
+      "First_Name": "Carlota",
+      "Language": "es",
+      "Name": "Carlota Quijada",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Market Access Director). No enviar antes del 2026-11-25.",
+      "Organization": "Abbott",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "recTsTCPT0huUSNM3"
+  },
+  {
+    "createdTime": "2026-11-20T23:54:21.000Z",
+    "fields": {
+      "Country": "LatAm regional",
+      "Email": "juansebastian.estrada@pfizer.com",
+      "First_Name": "Juan",
+      "Language": "es",
+      "Name": "Juan Estrada Escobar",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Director Policy and Communications (North Latam)). No enviar antes del 2026-11-25.",
+      "Organization": "Pfizer",
+      "Segment": "pharma-comms",
+      "Status": "Queued"
+    },
+    "id": "recTtCOybUR59yVcH"
   },
   {
     "createdTime": "2026-11-01T01:30:39.000Z",
@@ -3111,15 +4654,32 @@
     "id": "recU6Um2S718cHTAY"
   },
   {
+    "createdTime": "2026-11-20T23:56:48.000Z",
+    "fields": {
+      "Country": "Estados Unidos",
+      "Email": "elizabeth.baxter@gilead.com",
+      "First_Name": "Elizabeth",
+      "Language": "en",
+      "Name": "Elizabeth Baxter",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Deputy Head, Senior Director of Media Relations). No enviar antes del 2026-11-25.",
+      "Organization": "Gilead Sciences",
+      "Segment": "pharma-comms",
+      "Status": "Queued"
+    },
+    "id": "recUAPrsx4mNoXTkc"
+  },
+  {
     "createdTime": "2026-11-01T01:23:00.000Z",
     "fields": {
       "Country": "EE.UU. (biotech)",
       "Email": "mediateam@lifescicomms.com",
+      "Gmail_Message_ID": "1a1fa35dda2d4d55",
       "Language": "en",
-      "Notes": "Source: Press & PR Contacts (Agencia PR)",
+      "Notes": "Source: Press & PR Contacts (Agencia PR)\n2026-11-20: invitación enviada",
       "Organization": "LifeSci Communications",
       "Segment": "generic",
-      "Status": "Queued"
+      "Sent_At": "2026-11-20T18:26:00.000Z",
+      "Status": "Sent"
     },
     "id": "recUDRQ7diUKkykwv"
   },
@@ -3130,7 +4690,7 @@
       "Email": "mteran@as-coa.org",
       "Language": "en",
       "Name": "M. Terán (AS/COA)",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "Americas Society / Council of the Americas",
       "Segment": "crm",
       "Status": "Queued"
@@ -3223,11 +4783,13 @@
     "fields": {
       "Country": "Global (US HQ)",
       "Email": "media-relations@its.jnj.com",
+      "Gmail_Message_ID": "1a1fa35de878d459",
       "Language": "en",
-      "Notes": "Source: Press & PR Contacts (Pharma media office)",
+      "Notes": "Source: Press & PR Contacts (Pharma media office)\n2026-11-20: invitación enviada",
       "Organization": "Johnson & Johnson",
       "Segment": "generic",
-      "Status": "Queued"
+      "Sent_At": "2026-11-20T18:26:00.000Z",
+      "Status": "Sent"
     },
     "id": "recV5JY5O9vIJxB4O"
   },
@@ -3273,6 +4835,21 @@
     "id": "recVHTzSZrZNhvPAv"
   },
   {
+    "createdTime": "2026-11-20T23:56:48.000Z",
+    "fields": {
+      "Country": "Argentina",
+      "Email": "mfernandez@adium.com.ar",
+      "First_Name": "Maria",
+      "Language": "es",
+      "Name": "Maria Victoria Fernandez Lobbe",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Market Access & Government Affair | Value Proposition Lead). No enviar antes del 2026-11-25.",
+      "Organization": "Adium",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "recVUvpO7qFu3WkYC"
+  },
+  {
     "createdTime": "2026-11-13T00:38:21.000Z",
     "fields": {
       "Country": "EE.UU.",
@@ -3294,11 +4871,13 @@
     "fields": {
       "Country": "México",
       "Email": "contacto@elceo.com",
+      "Gmail_Message_ID": "1a1fa32e50c37150",
       "Language": "es",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)",
+      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-20: invitación enviada",
       "Organization": "El CEO",
       "Segment": "generic",
-      "Status": "Queued"
+      "Sent_At": "2026-11-20T18:22:00.000Z",
+      "Status": "Sent"
     },
     "id": "recVh0NENANbWyb6T"
   },
@@ -3311,7 +4890,7 @@
       "Gmail_Message_ID": "1a1acf1d016fca8d",
       "Language": "pt",
       "Name": "Paulo Piratininga",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada\n2026-11-05: respondió; copió a la editora Adriana Bruno (adriana@panoramafarmaceutico.com.br) y a Leandro Luize (leandro@scritta.com.br). Leandro se suscribió 06/11 (Active). Paulo propone compartir contenidos.\n2026-11-12: sin recordatorio automático: Fer ya le respondió en persona el 09-11 en el hilo\n2026-11-19: recordatorio enviado (msg 1a1f50a5035f07f7) — ERROR de la corrida: la nota del 12-11 decía no recordar (Fer ya le respondió en persona) pero la fila seguía en Sent; se envió igual. Avisado a Fer.",
+      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada\n2026-11-05: respondió; copió a la editora Adriana Bruno (adriana@panoramafarmaceutico.com.br) y a Leandro Luize (leandro@scritta.com.br). Leandro se suscribió 06/11 (Active). Paulo propone compartir contenidos.\n2026-11-12: sin recordatorio automático: Fer ya le respondió en persona el 09-11 en el hilo\n2026-11-19: recordatorio enviado (msg 1a1f50a5035f07f7) — ERROR de la corrida: la nota del 12-11 decía no recordar (Fer ya le respondió en persona) pero la fila seguía en Sent; se envió igual. Avisado a Fer.\n2026-11-20: respuestas del 19-11 en hilo 1a1acf1d016fca8d: 'Assinado' (dice que se suscribió; Clicked_At sigue vacío) y propuesta a Fer: reunión la semana próxima con Adriana y 'posto avançado' de HealthSignals en Brasil (cobertura de eventos con pago por demanda). Pendiente de Fer; no se respondió.\n2026-11-21: Fer aprobó respuesta: intercambio de contenidos sin pago, declina cobertura paga por ahora. Borrador en Gmail (msg 1a1fcb5cab909af2) para que Fer lo envíe.",
       "Organization": "Panorama Farmacêutico",
       "Segment": "press",
       "Sent_At": "2026-11-05T18:21:00.000Z",
@@ -3335,6 +4914,21 @@
     "id": "recVt239zNbqfmk8K"
   },
   {
+    "createdTime": "2026-11-21T00:36:16.000Z",
+    "fields": {
+      "Country": "Uruguay",
+      "Email": "mgonzalez@adium.com.uy",
+      "First_Name": "Martin",
+      "Language": "es",
+      "Name": "Martin Gonzalez Riccetto",
+      "Notes": "Apollo 21-11. No enviar antes del 2026-11-25.",
+      "Organization": "Adium Uruguay",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "recWcJlUJ82A7rfax"
+  },
+  {
     "createdTime": "2026-11-01T21:51:34.000Z",
     "fields": {
       "Country": "Chile",
@@ -3355,7 +4949,7 @@
       "First_Name": "Jose",
       "Language": "pt",
       "Name": "Jose Martinez",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "Sanofi Medley Farmacêutica Ltda",
       "Segment": "crm",
       "Status": "Queued"
@@ -3378,6 +4972,36 @@
     "id": "recWhn9CsDvq7H1Re"
   },
   {
+    "createdTime": "2026-11-20T23:54:21.000Z",
+    "fields": {
+      "Country": "Colombia",
+      "Email": "dmilena@its.jnj.com",
+      "First_Name": "Diana",
+      "Language": "es",
+      "Name": "Diana Milena",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Government Affairs & Policy Director). No enviar antes del 2026-11-25.",
+      "Organization": "Johnson & Johnson",
+      "Segment": "pharma-policy",
+      "Status": "Queued"
+    },
+    "id": "recWjKgmmQ8qZfizK"
+  },
+  {
+    "createdTime": "2026-11-20T23:51:37.000Z",
+    "fields": {
+      "Country": "Brasil",
+      "Email": "fernando.ramirez@biogen.com",
+      "First_Name": "Fernando",
+      "Language": "pt",
+      "Name": "Fernando Ramirez",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: External Affairs Director). No enviar antes del 2026-11-25.",
+      "Organization": "Biogen",
+      "Segment": "pharma-policy",
+      "Status": "Queued"
+    },
+    "id": "recWmcbhoKIb80Dx9"
+  },
+  {
     "createdTime": "2026-11-01T01:32:43.000Z",
     "fields": {
       "Country": "Global",
@@ -3395,6 +5019,36 @@
     "id": "recWpah6ETW2b04bg"
   },
   {
+    "createdTime": "2026-11-21T00:36:17.000Z",
+    "fields": {
+      "Country": "Uruguay",
+      "Email": "ernesto.varela@abbott.com",
+      "First_Name": "Ernesto",
+      "Language": "es",
+      "Name": "Ernesto Varela",
+      "Notes": "Apollo 21-11. No enviar antes del 2026-11-25.",
+      "Organization": "Abbott",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "recWvw1UW8sYrcHTu"
+  },
+  {
+    "createdTime": "2026-11-20T23:51:37.000Z",
+    "fields": {
+      "Country": "Brasil",
+      "Email": "leonardo.maurity@boehringer-ingelheim.com",
+      "First_Name": "Leonardo",
+      "Language": "pt",
+      "Name": "Leonardo Maurity",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Diretor de Relações Governamentais). No enviar antes del 2026-11-25.",
+      "Organization": "Boehringer Ingelheim",
+      "Segment": "pharma-policy",
+      "Status": "Queued"
+    },
+    "id": "recX949g4lR9aWjy1"
+  },
+  {
     "createdTime": "2026-11-01T01:25:25.000Z",
     "fields": {
       "Country": "Other",
@@ -3402,12 +5056,57 @@
       "First_Name": "Diana",
       "Language": "es",
       "Name": "Diana Téllez",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-10: diferido, deal activo Merck KGaA con reunión el 11-11; no mandar invitación automática sin OK de Fer. Queda Queued para que Fer decida",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-10: diferido, deal activo Merck KGaA con reunión el 11-11; no mandar invitación automática sin OK de Fer. Queda Queued para que Fer decida\n2026-11-21: verificado en Gmail: contacto real (hilos de propuesta Merck 1a1aca9a7d563a7f, 1a1f081c3cda0386). Deal activo: sigue retenida hasta OK de Fer.",
       "Organization": "Merck Group",
       "Segment": "crm",
       "Status": "Queued"
     },
     "id": "recX9V4ycWfRTbjfR"
+  },
+  {
+    "createdTime": "2026-11-20T23:56:48.000Z",
+    "fields": {
+      "Country": "LatAm regional",
+      "Email": "jose.cahuana@eurofarma.com",
+      "First_Name": "Jose",
+      "Language": "es",
+      "Name": "Jose Luis Mendez",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Gerente Ejecutivo de Relaciones Institucionales Latam). No enviar antes del 2026-11-25.",
+      "Organization": "Eurofarma",
+      "Segment": "pharma-policy",
+      "Status": "Queued"
+    },
+    "id": "recX9bUbeMWYlR87S"
+  },
+  {
+    "createdTime": "2026-11-20T23:56:48.000Z",
+    "fields": {
+      "Country": "Colombia",
+      "Email": "ansantos@procapslatam.com",
+      "First_Name": "Anderson",
+      "Language": "es",
+      "Name": "Anderson Santos Rueda",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Institutional Business and Market Access Director). No enviar antes del 2026-11-25.",
+      "Organization": "Procaps",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "recXAoeg5hljh2qkU"
+  },
+  {
+    "createdTime": "2026-11-21T00:36:16.000Z",
+    "fields": {
+      "Country": "Guatemala",
+      "Email": "j.rodriguez@baxter.com",
+      "First_Name": "Juan",
+      "Language": "es",
+      "Name": "Juan Guoron Rodriguez",
+      "Notes": "Apollo 21-11. No enviar antes del 2026-11-25.",
+      "Organization": "Baxter International Inc.",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "recXEwxoSzyi68OBU"
   },
   {
     "createdTime": "2026-11-01T01:30:39.000Z",
@@ -3422,6 +5121,21 @@
       "Status": "Excluded"
     },
     "id": "recXOQoiOCxB9SC3F"
+  },
+  {
+    "createdTime": "2026-11-21T00:36:16.000Z",
+    "fields": {
+      "Country": "República Dominicana",
+      "Email": "omar@gvlaboratorio.com",
+      "First_Name": "Omar",
+      "Language": "es",
+      "Name": "Omar Vicente Ramirez",
+      "Notes": "Apollo 21-11. No enviar antes del 2026-11-25.",
+      "Organization": "Gonzalez y Vicente Laboratorio",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "recXPlMRYQjMkz9Ji"
   },
   {
     "createdTime": "2026-11-01T01:20:33.000Z",
@@ -3447,7 +5161,7 @@
       "First_Name": "Andrés",
       "Language": "es",
       "Name": "Andrés Caicedo",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "Sanofi",
       "Segment": "crm",
       "Status": "Queued"
@@ -3502,6 +5216,21 @@
     "id": "recXoFAJi5cgvEkmP"
   },
   {
+    "createdTime": "2026-11-21T00:36:16.000Z",
+    "fields": {
+      "Country": "Uruguay",
+      "Email": "daniel.godin@abbvie.com",
+      "First_Name": "Daniel",
+      "Language": "es",
+      "Name": "Daniel Godin",
+      "Notes": "Apollo 21-11. No enviar antes del 2026-11-25.",
+      "Organization": "AbbVie",
+      "Segment": "pharma-policy",
+      "Status": "Queued"
+    },
+    "id": "recXohf3mLeFUOyek"
+  },
+  {
     "createdTime": "2026-11-01T01:20:33.000Z",
     "fields": {
       "Country": "Global (Alemania HQ)",
@@ -3519,6 +5248,21 @@
     "id": "recXqk6wo8MxT8Y5F"
   },
   {
+    "createdTime": "2026-11-20T23:56:48.000Z",
+    "fields": {
+      "Country": "Argentina",
+      "Email": "guido.baistrocchi@biogenesisbago.com",
+      "First_Name": "Guido",
+      "Language": "es",
+      "Name": "Guido Baistrocchi",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Director de Comunicación y Asuntos Públicos). No enviar antes del 2026-11-25.",
+      "Organization": "Biogénesis Bagó",
+      "Segment": "pharma-comms",
+      "Status": "Queued"
+    },
+    "id": "recXsaP4WaO2IKl95"
+  },
+  {
     "createdTime": "2026-11-01T01:18:07.000Z",
     "fields": {
       "Country": "Brasil",
@@ -3532,6 +5276,21 @@
       "Status": "Sent"
     },
     "id": "recY0mLMVx33H349e"
+  },
+  {
+    "createdTime": "2026-11-21T00:36:16.000Z",
+    "fields": {
+      "Country": "Guatemala",
+      "Email": "andy.reyes@grunenthal.com",
+      "First_Name": "Andy",
+      "Language": "es",
+      "Name": "Andy Reyes",
+      "Notes": "Apollo 21-11. No enviar antes del 2026-11-25.",
+      "Organization": "Grünenthal Group",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "recY4fYsh3rlkn0fd"
   },
   {
     "createdTime": "2026-11-09T02:08:37.000Z",
@@ -3549,6 +5308,21 @@
       "Status": "Sent"
     },
     "id": "recY5BGmU2SrtCWiT"
+  },
+  {
+    "createdTime": "2026-11-20T23:56:48.000Z",
+    "fields": {
+      "Country": "México",
+      "Email": "lsilanes@silanes.com.mx",
+      "First_Name": "María",
+      "Language": "es",
+      "Name": "María Eugenia López Silanes",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Communications Director). No enviar antes del 2026-11-25.",
+      "Organization": "Laboratorios Silanes",
+      "Segment": "pharma-comms",
+      "Status": "Queued"
+    },
+    "id": "recY65VTwlba49D8l"
   },
   {
     "createdTime": "2026-11-09T02:08:37.000Z",
@@ -3589,12 +5363,14 @@
     "fields": {
       "Country": "Mexico",
       "Email": "info@jackleckerman.com",
+      "Gmail_Message_ID": "1a1fa377c50ea0f8",
       "Language": "es",
       "Name": "Biosimilars LatAm Mexico (JackLeckerman)",
-      "Notes": "Source: CRM Prospects (Approval=Approved)",
+      "Notes": "Source: CRM Prospects (Approval=Approved)\n2026-11-20: invitación enviada",
       "Organization": "JackLeckerman",
       "Segment": "generic",
-      "Status": "Queued"
+      "Sent_At": "2026-11-20T18:28:00.000Z",
+      "Status": "Sent"
     },
     "id": "recYaAgcxdH4NrNcK"
   },
@@ -3607,11 +5383,11 @@
       "Gmail_Message_ID": "1a1ad008fb8baeeb",
       "Language": "en",
       "Name": "Priscila Delgado Martins",
-      "Notes": "Source: Press & PR Contacts (Pharma media office)\n2026-11-05: invitación enviada",
+      "Notes": "Source: Press & PR Contacts (Pharma media office)\n2026-11-05: invitación enviada\n2026-11-20: recordatorio enviado (msg 1a1fa313302380e2)",
       "Organization": "Abbott",
       "Segment": "press",
       "Sent_At": "2026-11-05T18:36:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "recYlMQLezkLVbE8F"
   },
@@ -3647,6 +5423,21 @@
     "id": "recYvYa9jhUdpvvRb"
   },
   {
+    "createdTime": "2026-11-20T23:51:37.000Z",
+    "fields": {
+      "Country": "LatAm regional",
+      "Email": "francisco.corbalan@takeda.com",
+      "First_Name": "Francisco",
+      "Language": "es",
+      "Name": "Francisco Corbalan",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Public Affairs Lead, Latam Cluster). No enviar antes del 2026-11-25.",
+      "Organization": "Takeda",
+      "Segment": "pharma-policy",
+      "Status": "Queued"
+    },
+    "id": "recYxHTR0JxWynod4"
+  },
+  {
     "createdTime": "2026-11-19T02:18:19.000Z",
     "fields": {
       "Country": "Chile",
@@ -3662,6 +5453,21 @@
       "Status": "Sent"
     },
     "id": "recYzmGIyZGDhu9JY"
+  },
+  {
+    "createdTime": "2026-11-20T23:51:37.000Z",
+    "fields": {
+      "Country": "Brasil",
+      "Email": "luiz.castilho@abbvie.com",
+      "First_Name": "Luiz",
+      "Language": "pt",
+      "Name": "Luiz Castilho",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Diretor de External Affairs e Comunicação). No enviar antes del 2026-11-25.",
+      "Organization": "AbbVie",
+      "Segment": "pharma-comms",
+      "Status": "Queued"
+    },
+    "id": "recZDPRcoDtL5tG2H"
   },
   {
     "createdTime": "2026-11-01T21:51:34.000Z",
@@ -3713,15 +5519,32 @@
     "id": "recZZ5dlSRKki6Ws0"
   },
   {
+    "createdTime": "2026-11-20T23:51:37.000Z",
+    "fields": {
+      "Country": "Brasil",
+      "Email": "bruna.ribeiro@merckgroup.com",
+      "First_Name": "Bruna",
+      "Language": "pt",
+      "Name": "Bruna Ribeiro",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Head de Relações Governamentais e Patient Advocacy). No enviar antes del 2026-11-25.",
+      "Organization": "Merck Group",
+      "Segment": "pharma-policy",
+      "Status": "Queued"
+    },
+    "id": "recZb7ipMqeuzKBMl"
+  },
+  {
     "createdTime": "2026-11-01T01:23:00.000Z",
     "fields": {
       "Country": "España/LATAM",
       "Email": "prensa@pmfarma.com",
+      "Gmail_Message_ID": "1a1fa35e0e755d06",
       "Language": "es",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)",
+      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-20: invitación enviada",
       "Organization": "PMFarma",
       "Segment": "generic",
-      "Status": "Queued"
+      "Sent_At": "2026-11-20T18:26:00.000Z",
+      "Status": "Sent"
     },
     "id": "recZdJxhULgQYAv97"
   },
@@ -3733,7 +5556,7 @@
       "First_Name": "Eduardo",
       "Language": "es",
       "Name": "Eduardo Franciosi",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "CILFA (Cámara Industrial de Laboratorios Farmacéuticos Argentinos)",
       "Segment": "crm",
       "Status": "Queued"
@@ -3748,12 +5571,42 @@
       "First_Name": "Cecilia",
       "Language": "en",
       "Name": "Cecilia Tanedo",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "Clearstate",
       "Segment": "crm",
       "Status": "Queued"
     },
     "id": "recZeNOTRs5DIa3MV"
+  },
+  {
+    "createdTime": "2026-11-20T23:51:37.000Z",
+    "fields": {
+      "Country": "México",
+      "Email": "garcia_kane_carlos_eduardo@lilly.com",
+      "First_Name": "Carlos",
+      "Language": "es",
+      "Name": "Carlos Garcia Kane",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Sr. Director - Access & Corporate Affairs Mexico). No enviar antes del 2026-11-25.",
+      "Organization": "Eli Lilly",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "recZhCLBiCTKudDDi"
+  },
+  {
+    "createdTime": "2026-11-21T00:36:16.000Z",
+    "fields": {
+      "Country": "USA",
+      "Email": "edel@novonordisk.com",
+      "First_Name": "Elizabeth",
+      "Language": "en",
+      "Name": "Elizabeth Deluca",
+      "Notes": "Apollo 21-11. No enviar antes del 2026-11-25.",
+      "Organization": "Novo Nordisk",
+      "Segment": "pharma-comms",
+      "Status": "Queued"
+    },
+    "id": "recZhay3RD6InCsij"
   },
   {
     "createdTime": "2026-11-01T01:27:52.000Z",
@@ -3762,7 +5615,7 @@
       "First_Name": "Gema",
       "Language": "es",
       "Name": "Gema Perez Olvera",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "MCNEIL PANAMA LLC",
       "Segment": "crm",
       "Status": "Queued"
@@ -3770,15 +5623,32 @@
     "id": "recZiOn6WMISd5K5O"
   },
   {
+    "createdTime": "2026-11-20T23:56:48.000Z",
+    "fields": {
+      "Country": "Brasil",
+      "Email": "jaqueline.guarnieri@cristalia.com.br",
+      "First_Name": "Jaqueline",
+      "Language": "pt",
+      "Name": "Jaqueline Guarnieri",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Gerente de Comunicação e Responsabilidade Social). No enviar antes del 2026-11-25.",
+      "Organization": "Cristália",
+      "Segment": "pharma-comms",
+      "Status": "Queued"
+    },
+    "id": "recZkMu70LLwG46je"
+  },
+  {
     "createdTime": "2026-11-01T01:20:33.000Z",
     "fields": {
       "Country": "Chile",
       "Email": "contacto@eldinamo.cl",
+      "Gmail_Message_ID": "1a1fa32e808c83ea",
       "Language": "es",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)",
+      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-20: invitación enviada",
       "Organization": "El Dínamo",
       "Segment": "generic",
-      "Status": "Queued"
+      "Sent_At": "2026-11-20T18:22:00.000Z",
+      "Status": "Sent"
     },
     "id": "recZnWGDDhbQPpo1k"
   },
@@ -3790,7 +5660,7 @@
       "First_Name": "Aaron",
       "Language": "en",
       "Name": "Aaron Handler",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "Baxter",
       "Segment": "crm",
       "Status": "Queued"
@@ -3804,7 +5674,7 @@
       "First_Name": "Daniel",
       "Language": "pt",
       "Name": "Daniel Messias Campos Alves",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "Abbvie Latam",
       "Segment": "crm",
       "Status": "Queued"
@@ -3859,6 +5729,21 @@
     "id": "recaRU5wr189B03Rk"
   },
   {
+    "createdTime": "2026-11-20T23:51:37.000Z",
+    "fields": {
+      "Country": "Argentina",
+      "Email": "juan_pablo.fornasari@roche.com",
+      "First_Name": "Juan",
+      "Language": "es",
+      "Name": "Juan Pablo Fornasari",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Public Policy & Government Affairs Manager - South American Network). No enviar antes del 2026-11-25.",
+      "Organization": "Roche",
+      "Segment": "pharma-policy",
+      "Status": "Queued"
+    },
+    "id": "recaSC4asOpE2ACAZ"
+  },
+  {
     "createdTime": "2026-11-01T01:30:39.000Z",
     "fields": {
       "Country": "USA",
@@ -3883,12 +5768,27 @@
       "First_Name": "Caroline",
       "Language": "pt",
       "Name": "Caroline Bruggemann",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "Merck Group",
       "Segment": "crm",
       "Status": "Queued"
     },
     "id": "recakzSzuK4xl07IS"
+  },
+  {
+    "createdTime": "2026-11-20T23:54:21.000Z",
+    "fields": {
+      "Country": "Perú",
+      "Email": "vanessa.rodriguez3@astrazeneca.com",
+      "First_Name": "Vanessa",
+      "Language": "es",
+      "Name": "Vanessa Rodriguez Marin",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Market Access & Value Proposition Lead). No enviar antes del 2026-11-25.",
+      "Organization": "AstraZeneca",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "recal5qvWB0flgV6X"
   },
   {
     "createdTime": "2026-11-01T01:18:07.000Z",
@@ -3912,11 +5812,13 @@
     "fields": {
       "Country": "Global (UK HQ)",
       "Email": "global-mediateam@astrazeneca.com",
+      "Gmail_Message_ID": "1a1fa377fd6b7cde",
       "Language": "en",
-      "Notes": "Source: Press & PR Contacts (Pharma media office)",
+      "Notes": "Source: Press & PR Contacts (Pharma media office)\n2026-11-20: invitación enviada",
       "Organization": "AstraZeneca",
       "Segment": "generic",
-      "Status": "Queued"
+      "Sent_At": "2026-11-20T18:28:00.000Z",
+      "Status": "Sent"
     },
     "id": "recaqCrufDoOVz5yM"
   },
@@ -3937,13 +5839,28 @@
     "id": "recavF6IblmUVRKWj"
   },
   {
+    "createdTime": "2026-11-21T00:36:16.000Z",
+    "fields": {
+      "Country": "Ecuador",
+      "Email": "mdjadan@labogenesis.com",
+      "First_Name": "Marco",
+      "Language": "es",
+      "Name": "Marco David Jadan",
+      "Notes": "Apollo 21-11. No enviar antes del 2026-11-25.",
+      "Organization": "Laboratorio Génesis CIA. LTDA.",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "recawefip6pZXmGRq"
+  },
+  {
     "createdTime": "2026-11-01T01:30:39.000Z",
     "fields": {
       "Email": "christie.bloomquist@astrazeneca.com",
       "First_Name": "Christie",
       "Language": "en",
       "Name": "Christie Bloomquist",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "Astra Zeneca",
       "Segment": "crm",
       "Status": "Queued"
@@ -3966,6 +5883,51 @@
       "Status": "Bounced"
     },
     "id": "recazx1zdCD0RBD3n"
+  },
+  {
+    "createdTime": "2026-11-20T23:54:21.000Z",
+    "fields": {
+      "Country": "Colombia",
+      "Email": "juan.david.hernandez@msd.com",
+      "First_Name": "Juan",
+      "Language": "es",
+      "Name": "Juan David Hernandez Ortiz",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Public Policy & Communications Director). No enviar antes del 2026-11-25.",
+      "Organization": "MSD",
+      "Segment": "pharma-comms",
+      "Status": "Queued"
+    },
+    "id": "recbDLdE2QnKfP68f"
+  },
+  {
+    "createdTime": "2026-11-20T23:51:37.000Z",
+    "fields": {
+      "Country": "Brasil",
+      "Email": "bruna.marreiro@pfizer.com",
+      "First_Name": "Bruna",
+      "Language": "pt",
+      "Name": "Bruna Marreiro",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Diretora de Políticas Públicas e Comunicação). No enviar antes del 2026-11-25.",
+      "Organization": "Pfizer",
+      "Segment": "pharma-comms",
+      "Status": "Queued"
+    },
+    "id": "recbDUBC1ZIitdrbc"
+  },
+  {
+    "createdTime": "2026-11-20T23:54:21.000Z",
+    "fields": {
+      "Country": "Chile",
+      "Email": "fernando.rojas@boehringer-ingelheim.com",
+      "First_Name": "Fernando",
+      "Language": "es",
+      "Name": "Fernando Rojas",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Head of Healthcare Affairs, Market Access & Commercial). No enviar antes del 2026-11-25.",
+      "Organization": "Boehringer Ingelheim",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "recbEYNfOjf66dd3B"
   },
   {
     "createdTime": "2026-11-09T02:08:37.000Z",
@@ -3991,12 +5953,42 @@
       "First_Name": "Tassia",
       "Language": "en",
       "Name": "Tassia Decimon",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "Johnson & Johnson Innovative Medicine",
       "Segment": "crm",
       "Status": "Queued"
     },
     "id": "recbT6jdOX2K2opF2"
+  },
+  {
+    "createdTime": "2026-11-21T00:36:16.000Z",
+    "fields": {
+      "Country": "Ecuador",
+      "Email": "gerencia@laboratorioslira.com",
+      "First_Name": "Jaime",
+      "Language": "es",
+      "Name": "Jaime Saona",
+      "Notes": "Apollo 21-11. No enviar antes del 2026-11-25.",
+      "Organization": "Laboratorios LIRA S.A.",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "recbUZPorzHx2ItK7"
+  },
+  {
+    "createdTime": "2026-11-20T23:54:21.000Z",
+    "fields": {
+      "Country": "Perú",
+      "Email": "cristhiam.uruma@astrazeneca.com",
+      "First_Name": "Cristhiam",
+      "Language": "es",
+      "Name": "Cristhiam Uruma",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Government Affairs Lead). No enviar antes del 2026-11-25.",
+      "Organization": "AstraZeneca",
+      "Segment": "pharma-policy",
+      "Status": "Queued"
+    },
+    "id": "recbsbnXUt1S0UwTB"
   },
   {
     "createdTime": "2026-11-01T01:25:25.000Z",
@@ -4005,7 +5997,7 @@
       "First_Name": "Marjorie",
       "Language": "pt",
       "Name": "Marjorie Nobrega",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "MCNEIL PANAMA LLC",
       "Segment": "crm",
       "Status": "Queued"
@@ -4037,7 +6029,7 @@
       "First_Name": "Josip",
       "Language": "es",
       "Name": "Josip Lino Eguino",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "CIFABOL (Bolivia)",
       "Segment": "crm",
       "Status": "Queued"
@@ -4086,7 +6078,7 @@
       "First_Name": "Trish",
       "Language": "en",
       "Name": "Trish Gannon",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "Catalytic Agency",
       "Segment": "crm",
       "Status": "Queued"
@@ -4118,7 +6110,7 @@
       "First_Name": "Simon",
       "Language": "en",
       "Name": "Simon Greaves",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "Harwood Levitt",
       "Segment": "crm",
       "Status": "Queued"
@@ -4178,6 +6170,21 @@
     "id": "reccdpI7zyOyCCasQ"
   },
   {
+    "createdTime": "2026-11-20T23:56:48.000Z",
+    "fields": {
+      "Country": "Brasil",
+      "Email": "julia.moreira@hypera.com.br",
+      "First_Name": "Julia",
+      "Language": "pt",
+      "Name": "Julia Moreira",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Communications Manager). No enviar antes del 2026-11-25.",
+      "Organization": "Hypera",
+      "Segment": "pharma-comms",
+      "Status": "Queued"
+    },
+    "id": "reccejhpYBgFvCYRV"
+  },
+  {
     "createdTime": "2026-11-01T01:18:07.000Z",
     "fields": {
       "Email": "naushad@techchannel.news",
@@ -4194,6 +6201,21 @@
     "id": "recciVCAGZ5girS2o"
   },
   {
+    "createdTime": "2026-11-20T23:54:21.000Z",
+    "fields": {
+      "Country": "Chile",
+      "Email": "juan.corona@bms.com",
+      "First_Name": "Juan",
+      "Language": "es",
+      "Name": "Juan Pedro Corona",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Sr. Market Access & Government Manager). No enviar antes del 2026-11-25.",
+      "Organization": "Bristol Myers Squibb",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "reccjF29YKunbM5os"
+  },
+  {
     "createdTime": "2026-11-13T00:38:21.000Z",
     "fields": {
       "Country": "EE.UU.",
@@ -4208,6 +6230,36 @@
       "Status": "Sent"
     },
     "id": "reccjkyglucoIQMdy"
+  },
+  {
+    "createdTime": "2026-11-21T00:36:16.000Z",
+    "fields": {
+      "Country": "USA",
+      "Email": "ckasinger@lilly.com",
+      "First_Name": "Courtney",
+      "Language": "en",
+      "Name": "Courtney Kasinger",
+      "Notes": "Apollo 21-11. No enviar antes del 2026-11-25.",
+      "Organization": "Eli Lilly and Company",
+      "Segment": "pharma-comms",
+      "Status": "Queued"
+    },
+    "id": "reccqy3jeDllqkb65"
+  },
+  {
+    "createdTime": "2026-11-21T00:36:17.000Z",
+    "fields": {
+      "Country": "Ecuador",
+      "Email": "opena@siegfried.com.ec",
+      "First_Name": "Osvaldo",
+      "Language": "es",
+      "Name": "Osvaldo Pena",
+      "Notes": "Apollo 21-11. No enviar antes del 2026-11-25.",
+      "Organization": "Laboratorios Siegfried Ecuador",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "reccrF2z8fnd2Fzg0"
   },
   {
     "createdTime": "2026-11-01T01:18:07.000Z",
@@ -4260,6 +6312,51 @@
     "id": "recdBmqFlu792bwqL"
   },
   {
+    "createdTime": "2026-11-20T23:54:21.000Z",
+    "fields": {
+      "Country": "LatAm regional",
+      "Email": "eva.barbosa@bayer.com",
+      "First_Name": "Eva",
+      "Language": "es",
+      "Name": "Eva Barbosa Venegas",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Corporate Communications + Consumer Health Regional Communications Lead). No enviar antes del 2026-11-25.",
+      "Organization": "Bayer",
+      "Segment": "pharma-comms",
+      "Status": "Queued"
+    },
+    "id": "recdGZNt53krShcjg"
+  },
+  {
+    "createdTime": "2026-11-21T00:36:16.000Z",
+    "fields": {
+      "Country": "República Dominicana",
+      "Email": "franrodriguez@farqui.com",
+      "First_Name": "Francisco",
+      "Language": "es",
+      "Name": "Francisco Rodriguez Valenzuela",
+      "Notes": "Apollo 21-11. No enviar antes del 2026-11-25.",
+      "Organization": "Industria Farmoquimica SRL",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "recdH7pTzLrlRTs6i"
+  },
+  {
+    "createdTime": "2026-11-20T23:54:21.000Z",
+    "fields": {
+      "Country": "México",
+      "Email": "orlando.aguirre@merckgroup.com",
+      "First_Name": "Orlando",
+      "Language": "es",
+      "Name": "Orlando Aguirre",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Director de Ventas a Gobierno, Market Access & Pricing). No enviar antes del 2026-11-25.",
+      "Organization": "Merck Group",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "recdJhv5vnuMfYF4F"
+  },
+  {
     "createdTime": "2026-11-01T01:18:07.000Z",
     "fields": {
       "Clicked_At": "2026-11-05T18:23:28.000Z",
@@ -4276,6 +6373,21 @@
       "Status": "Sent"
     },
     "id": "recdRAyVRuqzhqYCP"
+  },
+  {
+    "createdTime": "2026-11-21T00:36:16.000Z",
+    "fields": {
+      "Country": "Guatemala",
+      "Email": "afloriano@asofarma-ca.com",
+      "First_Name": "Alvaro",
+      "Language": "es",
+      "Name": "Alvaro Floriano",
+      "Notes": "Apollo 21-11. No enviar antes del 2026-11-25.",
+      "Organization": "Adium",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "recdS51OOaUJpndtw"
   },
   {
     "createdTime": "2026-11-01T01:32:43.000Z",
@@ -4316,13 +6428,30 @@
     "fields": {
       "Country": "Global (Dinamarca HQ)",
       "Email": "globalmedia@novonordisk.com",
+      "Gmail_Message_ID": "1a1fa35e25d67aee",
       "Language": "en",
-      "Notes": "Source: Press & PR Contacts (Pharma media office)",
+      "Notes": "Source: Press & PR Contacts (Pharma media office)\n2026-11-20: invitación enviada",
       "Organization": "Novo Nordisk",
       "Segment": "generic",
-      "Status": "Queued"
+      "Sent_At": "2026-11-20T18:26:00.000Z",
+      "Status": "Sent"
     },
     "id": "recdmL2TXSxgBKFUa"
+  },
+  {
+    "createdTime": "2026-11-20T23:56:48.000Z",
+    "fields": {
+      "Country": "Estados Unidos",
+      "Email": "furey.tracy@gene.com",
+      "First_Name": "Tracy",
+      "Language": "en",
+      "Name": "Tracy Furey",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Vice President, Corporate Communications). No enviar antes del 2026-11-25.",
+      "Organization": "Genentech (Roche)",
+      "Segment": "pharma-comms",
+      "Status": "Queued"
+    },
+    "id": "recdtgTsKaDmwStCu"
   },
   {
     "createdTime": "2026-11-01T01:32:43.000Z",
@@ -4363,7 +6492,7 @@
       "First_Name": "Jefferson",
       "Language": "pt",
       "Name": "Jefferson Alves",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "MCNEIL PANAMA LLC",
       "Segment": "crm",
       "Status": "Queued"
@@ -4377,12 +6506,57 @@
       "First_Name": "Jorge",
       "Language": "es",
       "Name": "Jorge Alvarez Albarran",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "MCNEIL PANAMA LLC",
       "Segment": "crm",
       "Status": "Queued"
     },
     "id": "rece6y5szxMeupTrc"
+  },
+  {
+    "createdTime": "2026-11-20T23:51:37.000Z",
+    "fields": {
+      "Country": "Argentina",
+      "Email": "alejandro.raiter@servier.com",
+      "First_Name": "Alejandro",
+      "Language": "es",
+      "Name": "Alejandro Raiter",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Value Market Access Manager). No enviar antes del 2026-11-25.",
+      "Organization": "Servier",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "rece7JA9w3gDjToC3"
+  },
+  {
+    "createdTime": "2026-11-21T00:36:17.000Z",
+    "fields": {
+      "Country": "Uruguay",
+      "Email": "fmoreira@urufarma.com.uy",
+      "First_Name": "Fernando",
+      "Language": "es",
+      "Name": "Fernando Moreira",
+      "Notes": "Apollo 21-11. No enviar antes del 2026-11-25.",
+      "Organization": "Urufarma",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "receCAPP3EhpmqSWR"
+  },
+  {
+    "createdTime": "2026-11-21T00:36:17.000Z",
+    "fields": {
+      "Country": "Ecuador",
+      "Email": "jstaceydobronsky@faesfarma.com",
+      "First_Name": "Juan",
+      "Language": "es",
+      "Name": "Juan Pablo Stacey Dobronsky",
+      "Notes": "Apollo 21-11. No enviar antes del 2026-11-25.",
+      "Organization": "FAES FARMA",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "receNnhiaUx3DKEm8"
   },
   {
     "createdTime": "2026-11-01T01:27:52.000Z",
@@ -4399,13 +6573,58 @@
     "id": "receQZPXJoDC60C7v"
   },
   {
+    "createdTime": "2026-11-20T23:56:48.000Z",
+    "fields": {
+      "Country": "México",
+      "Email": "ldorantes@silanes.com.mx",
+      "First_Name": "Laura",
+      "Language": "es",
+      "Name": "Laura Dorantes",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Corporate Communications Manager). No enviar antes del 2026-11-25.",
+      "Organization": "Laboratorios Silanes",
+      "Segment": "pharma-comms",
+      "Status": "Queued"
+    },
+    "id": "rececTDiQbpOhBtgb"
+  },
+  {
+    "createdTime": "2026-11-21T00:36:16.000Z",
+    "fields": {
+      "Country": "Ecuador",
+      "Email": "maria.ycazajijon@pfizer.com",
+      "First_Name": "Maria",
+      "Language": "es",
+      "Name": "Maria Ycaza Jijon",
+      "Notes": "Apollo 21-11. No enviar antes del 2026-11-25.",
+      "Organization": "Pfizer",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "recelBIUSqmV7Csd2"
+  },
+  {
+    "createdTime": "2026-11-20T23:54:21.000Z",
+    "fields": {
+      "Country": "Perú",
+      "Email": "giancarlo.gonzales@bayer.com",
+      "First_Name": "Giancarlo",
+      "Language": "es",
+      "Name": "Giancarlo Gonzales",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Government Affairs and Advocacy Manager - Pharma). No enviar antes del 2026-11-25.",
+      "Organization": "Bayer",
+      "Segment": "pharma-policy",
+      "Status": "Queued"
+    },
+    "id": "recen49izoLKntPr6"
+  },
+  {
     "createdTime": "2026-11-01T01:25:25.000Z",
     "fields": {
       "Email": "rinat.ariely@tevapharm.com",
       "First_Name": "Rinat",
       "Language": "en",
       "Name": "Rinat Ariely",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "Teva Pharmaceuticals USA Inc",
       "Segment": "crm",
       "Status": "Queued"
@@ -4436,12 +6655,27 @@
       "First_Name": "Santiago",
       "Language": "es",
       "Name": "Santiago Salguero",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "ALAFAR (Ecuador)",
       "Segment": "crm",
       "Status": "Queued"
     },
     "id": "recfLLxKZChkjDKgH"
+  },
+  {
+    "createdTime": "2026-11-21T00:36:16.000Z",
+    "fields": {
+      "Country": "USA",
+      "Email": "forbes_antoinette@lilly.com",
+      "First_Name": "Antoinette",
+      "Language": "en",
+      "Name": "Antoinette Forbes",
+      "Notes": "Apollo 21-11. No enviar antes del 2026-11-25.",
+      "Organization": "Eli Lilly and Company",
+      "Segment": "pharma-policy",
+      "Status": "Queued"
+    },
+    "id": "recfixvnfuteYzPsx"
   },
   {
     "createdTime": "2026-11-01T01:25:25.000Z",
@@ -4467,7 +6701,7 @@
       "First_Name": "Natalia",
       "Language": "es",
       "Name": "Natalia Corte",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "Bayer Argentina",
       "Segment": "crm",
       "Status": "Queued"
@@ -4489,6 +6723,21 @@
     "id": "recfxwunkwPb43w27"
   },
   {
+    "createdTime": "2026-11-20T23:51:37.000Z",
+    "fields": {
+      "Country": "México",
+      "Email": "rafael.x.polanco@gsk.com",
+      "First_Name": "Rafael",
+      "Language": "es",
+      "Name": "Rafael Polanco",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Government Affairs&Patient Advocacy Manager). No enviar antes del 2026-11-25.",
+      "Organization": "GSK",
+      "Segment": "pharma-policy",
+      "Status": "Queued"
+    },
+    "id": "recfzjJAX4xWXPqnX"
+  },
+  {
     "createdTime": "2026-11-01T01:30:39.000Z",
     "fields": {
       "Country": "Argentina",
@@ -4496,7 +6745,7 @@
       "First_Name": "Juan",
       "Language": "es",
       "Name": "Juan José Marconi",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "COOPERALA (Argentina)",
       "Segment": "crm",
       "Status": "Queued"
@@ -4522,6 +6771,21 @@
     "id": "recgW1kECT38qF0JC"
   },
   {
+    "createdTime": "2026-11-20T23:54:21.000Z",
+    "fields": {
+      "Country": "LatAm regional",
+      "Email": "luisa.dorrioranilla@sanofi.com",
+      "First_Name": "Luisa",
+      "Language": "es",
+      "Name": "Luisa Dorrio Ranilla",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Latam Communications Head). No enviar antes del 2026-11-25.",
+      "Organization": "Sanofi",
+      "Segment": "pharma-comms",
+      "Status": "Queued"
+    },
+    "id": "recgi7YfSPAacfDFS"
+  },
+  {
     "createdTime": "2026-11-01T01:30:39.000Z",
     "fields": {
       "Country": "Brazil",
@@ -4529,7 +6793,7 @@
       "First_Name": "Reginaldo",
       "Language": "pt",
       "Name": "Reginaldo Arcuri",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "Grupo FarmaBrasil",
       "Segment": "crm",
       "Status": "Queued"
@@ -4537,17 +6801,79 @@
     "id": "recgpd0jfdw8mH61q"
   },
   {
+    "createdTime": "2026-11-20T23:56:48.000Z",
+    "fields": {
+      "Country": "Brasil",
+      "Email": "samanta.greghi@libbs.com.br",
+      "First_Name": "Samanta",
+      "Language": "pt",
+      "Name": "Samanta Greghi",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Diretora de Comunicação e Experiência de Marca). No enviar antes del 2026-11-25.",
+      "Organization": "Libbs",
+      "Segment": "pharma-comms",
+      "Status": "Queued"
+    },
+    "id": "recguojICxzxwtQ57"
+  },
+  {
+    "createdTime": "2026-11-20T23:56:48.000Z",
+    "fields": {
+      "Country": "Brasil",
+      "Email": "jackson.lucena@ems.com.br",
+      "First_Name": "Jackson",
+      "Language": "pt",
+      "Name": "Jackson Lucena",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Institutional Relations Manager). No enviar antes del 2026-11-25.",
+      "Organization": "EMS",
+      "Segment": "pharma-policy",
+      "Status": "Queued"
+    },
+    "id": "recgvfpDDGvInGk5z"
+  },
+  {
+    "createdTime": "2026-11-20T23:54:21.000Z",
+    "fields": {
+      "Country": "Colombia",
+      "Email": "german.fernandez@bayer.com",
+      "First_Name": "German",
+      "Language": "es",
+      "Name": "German Fernandez",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Director of Public Affairs & Sustainability, Andean and Central American Countries.). No enviar antes del 2026-11-25.",
+      "Organization": "Bayer",
+      "Segment": "pharma-policy",
+      "Status": "Queued"
+    },
+    "id": "recgzBw25Iul5Tp1X"
+  },
+  {
     "createdTime": "2026-11-01T01:20:33.000Z",
     "fields": {
       "Country": "EE.UU. (biotech)",
       "Email": "info@tenbridgecommunications.com",
+      "Gmail_Message_ID": "1a1fa32eb719c224",
       "Language": "en",
-      "Notes": "Source: Press & PR Contacts (Agencia PR)",
+      "Notes": "Source: Press & PR Contacts (Agencia PR)\n2026-11-20: invitación enviada",
       "Organization": "Ten Bridge Communications",
       "Segment": "generic",
-      "Status": "Queued"
+      "Sent_At": "2026-11-20T18:22:00.000Z",
+      "Status": "Sent"
     },
     "id": "rech2s11oHvVpNiD8"
+  },
+  {
+    "createdTime": "2026-11-20T23:56:48.000Z",
+    "fields": {
+      "Country": "Estados Unidos",
+      "Email": "cgood2@its.jnj.com",
+      "First_Name": "Carol",
+      "Language": "en",
+      "Name": "Carol Goodrich",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Director, Corporate Media Relations). No enviar antes del 2026-11-25.",
+      "Organization": "Johnson & Johnson",
+      "Segment": "pharma-comms",
+      "Status": "Queued"
+    },
+    "id": "rech6WVrn9oSSAcRK"
   },
   {
     "createdTime": "2026-11-01T01:20:33.000Z",
@@ -4607,11 +6933,11 @@
       "Gmail_Message_ID": "1a1ad00ee3ad9dd0",
       "Language": "en",
       "Name": "Francesca Bruce",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada",
+      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada\n2026-11-20: recordatorio enviado (msg 1a1fa313651b512d)",
       "Organization": "Pink Sheet / Scrip (Citeline)",
       "Segment": "press",
       "Sent_At": "2026-11-05T18:36:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "rechUar9BMWdUssmG"
   },
@@ -4637,12 +6963,14 @@
     "fields": {
       "Country": "Colombia",
       "Email": "presidencia@asinfar.com.co",
+      "Gmail_Message_ID": "1a1fa3782bcf4830",
       "Language": "es",
       "Name": "Carlos Francisco Fernández",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-01: First_Name 'Carlos' cleared (generic/role inbox; greeting without name).",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-01: First_Name 'Carlos' cleared (generic/role inbox; greeting without name).\n2026-11-20: invitación enviada",
       "Organization": "ASINFAR (Asociación de Industrias Farmacéuticas en Colombia)",
       "Segment": "generic",
-      "Status": "Queued"
+      "Sent_At": "2026-11-20T18:28:00.000Z",
+      "Status": "Sent"
     },
     "id": "rechmH51EvnKbo7IE"
   },
@@ -4653,12 +6981,42 @@
       "First_Name": "Daniel",
       "Language": "en",
       "Name": "Daniel Quiñonez",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "Jeffrey Group",
       "Segment": "crm",
       "Status": "Queued"
     },
     "id": "rechsRVrYrYcCTuge"
+  },
+  {
+    "createdTime": "2026-11-21T00:36:16.000Z",
+    "fields": {
+      "Country": "República Dominicana",
+      "Email": "kcabrera@asofarma-ca.com",
+      "First_Name": "Karim",
+      "Language": "es",
+      "Name": "Karim Cabrera Regus",
+      "Notes": "Apollo 21-11. No enviar antes del 2026-11-25.",
+      "Organization": "Adium Centroamérica & Caribe",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "rechuE1ZCAxLibyYF"
+  },
+  {
+    "createdTime": "2026-11-21T00:36:16.000Z",
+    "fields": {
+      "Country": "USA",
+      "Email": "sara_latham@vrtx.com",
+      "First_Name": "Sara",
+      "Language": "en",
+      "Name": "Sara Latham",
+      "Notes": "Apollo 21-11. No enviar antes del 2026-11-25.",
+      "Organization": "Vertex Pharmaceuticals",
+      "Segment": "pharma-policy",
+      "Status": "Queued"
+    },
+    "id": "rechwh3CBEdV2dLtx"
   },
   {
     "createdTime": "2026-11-01T01:18:07.000Z",
@@ -4676,6 +7034,21 @@
       "Status": "Reminded"
     },
     "id": "reci51HgPw23aAWCg"
+  },
+  {
+    "createdTime": "2026-11-20T23:54:21.000Z",
+    "fields": {
+      "Country": "Colombia",
+      "Email": "yira.diaz@sanofi.com",
+      "First_Name": "Yira",
+      "Language": "es",
+      "Name": "Yira Diaz Toro",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Public Affairs Head at Sanofi for Copac). No enviar antes del 2026-11-25.",
+      "Organization": "Sanofi",
+      "Segment": "pharma-policy",
+      "Status": "Queued"
+    },
+    "id": "reciAS1EoRygSgwC0"
   },
   {
     "createdTime": "2026-11-01T21:51:34.000Z",
@@ -4709,6 +7082,36 @@
     "id": "reciX76zvEbMeARHJ"
   },
   {
+    "createdTime": "2026-11-21T00:36:16.000Z",
+    "fields": {
+      "Country": "Ecuador",
+      "Email": "leonardo.herdoiza@iqvia.com",
+      "First_Name": "Leonardo",
+      "Language": "es",
+      "Name": "Leonardo Herdoiza",
+      "Notes": "Apollo 21-11. No enviar antes del 2026-11-25.",
+      "Organization": "IQVIA",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "reciZX0vgTVQ2Qbz0"
+  },
+  {
+    "createdTime": "2026-11-20T23:56:48.000Z",
+    "fields": {
+      "Country": "LatAm regional",
+      "Email": "daniel.helou@biogenesisbago.com",
+      "First_Name": "Daniel",
+      "Language": "es",
+      "Name": "Daniel Helou",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Market Access and Development Director). No enviar antes del 2026-11-25.",
+      "Organization": "Biogénesis Bagó",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "reciaEWrV4SUIvfym"
+  },
+  {
     "createdTime": "2026-11-01T01:27:52.000Z",
     "fields": {
       "Country": "Colombia",
@@ -4738,6 +7141,21 @@
       "Status": "Sent"
     },
     "id": "recie5rhmS4slFMCT"
+  },
+  {
+    "createdTime": "2026-11-21T00:36:16.000Z",
+    "fields": {
+      "Country": "República Dominicana",
+      "Email": "oscar@prpharma.com",
+      "First_Name": "Oscar",
+      "Language": "es",
+      "Name": "Oscar Gomez Puello",
+      "Notes": "Apollo 21-11. No enviar antes del 2026-11-25.",
+      "Organization": "Puerto Rico Pharmaceutical, Inc.",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "recikiWniZCqhUv5A"
   },
   {
     "createdTime": "2026-11-01T01:32:43.000Z",
@@ -4781,7 +7199,7 @@
       "First_Name": "Alejandra",
       "Language": "es",
       "Name": "Alejandra del Río Vega",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "Facultad de Ciencias Químicas y Farmacéuticas, Universidad de Chile",
       "Segment": "crm",
       "Status": "Queued"
@@ -4793,11 +7211,13 @@
     "fields": {
       "Country": "México",
       "Email": "admin@mexicobusiness.mx",
+      "Gmail_Message_ID": "1a1fa32ed20cbfde",
       "Language": "es",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)",
+      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-20: invitación enviada",
       "Organization": "Mexico Business News (Health)",
       "Segment": "generic",
-      "Status": "Queued"
+      "Sent_At": "2026-11-20T18:22:00.000Z",
+      "Status": "Sent"
     },
     "id": "reciuFHrEBOH4o77R"
   },
@@ -4857,12 +7277,14 @@
     "fields": {
       "Country": "United States",
       "Email": "media@hlth.com",
+      "Gmail_Message_ID": "1a1fa3785c7adc7e",
       "Language": "en",
       "Name": "HLTH USA 2026 — Latin American Health Innovation Summit",
-      "Notes": "Source: CRM Prospects (Approval=empty)",
+      "Notes": "Source: CRM Prospects (Approval=empty)\n2026-11-20: invitación enviada",
       "Organization": "HLTH Inc. / Consenso Salud",
       "Segment": "generic",
-      "Status": "Queued"
+      "Sent_At": "2026-11-20T18:28:00.000Z",
+      "Status": "Sent"
     },
     "id": "recjDpFhPHo77Xk24"
   },
@@ -4899,6 +7321,21 @@
       "Status": "Reminded"
     },
     "id": "recjUV8b3G469felV"
+  },
+  {
+    "createdTime": "2026-11-20T23:56:48.000Z",
+    "fields": {
+      "Country": "Brasil",
+      "Email": "odiloncosta@cristalia.com.br",
+      "First_Name": "Odilon",
+      "Language": "pt",
+      "Name": "Odilon Costa",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Diretor de Relações Institucionais). No enviar antes del 2026-11-25.",
+      "Organization": "Cristália",
+      "Segment": "pharma-policy",
+      "Status": "Queued"
+    },
+    "id": "recjcmlRCVvRtIuq5"
   },
   {
     "createdTime": "2026-11-09T02:08:37.000Z",
@@ -4941,12 +7378,27 @@
       "First_Name": "Hampton",
       "Language": "en",
       "Name": "Hampton Shaddock",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "Sanofi Pasteur Inc",
       "Segment": "crm",
       "Status": "Queued"
     },
     "id": "recjumsQnXUUorSqv"
+  },
+  {
+    "createdTime": "2026-11-20T23:54:21.000Z",
+    "fields": {
+      "Country": "Colombia",
+      "Email": "ivan.arboleda@takeda.com",
+      "First_Name": "Ivan",
+      "Language": "es",
+      "Name": "Ivan Arboleda Arboleda",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Head of Market Access). No enviar antes del 2026-11-25.",
+      "Organization": "Takeda",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "reckGSEscr6rFCbiU"
   },
   {
     "createdTime": "2026-11-01T01:23:00.000Z",
@@ -4957,11 +7409,11 @@
       "Gmail_Message_ID": "1a1ad01118bb99aa",
       "Language": "en",
       "Name": "Christian Hartel",
-      "Notes": "Source: Press & PR Contacts (Pharma media office)\n2026-11-05: invitación enviada",
+      "Notes": "Source: Press & PR Contacts (Pharma media office)\n2026-11-05: invitación enviada\n2026-11-20: recordatorio enviado (msg 1a1fa313a37c0459)",
       "Organization": "Bayer",
       "Segment": "press",
       "Sent_At": "2026-11-05T18:36:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "reckIOrHtguQps1Ta"
   },
@@ -4983,6 +7435,21 @@
     "id": "reckULohofnEM3XMy"
   },
   {
+    "createdTime": "2026-11-20T23:56:48.000Z",
+    "fields": {
+      "Country": "Brasil",
+      "Email": "fernando.augusto@libbs.com.br",
+      "First_Name": "Fernando",
+      "Language": "pt",
+      "Name": "Fernando Tarquiani",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Gerente de Acesso ao Mercado). No enviar antes del 2026-11-25.",
+      "Organization": "Libbs",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "reckVSNMcMLbj80ug"
+  },
+  {
     "createdTime": "2026-11-09T02:08:37.000Z",
     "fields": {
       "Country": "Brazil",
@@ -5000,15 +7467,47 @@
     "id": "reckWOJlQyfGVo301"
   },
   {
+    "createdTime": "2026-11-20T23:54:21.000Z",
+    "fields": {
+      "Country": "México",
+      "Email": "sandra_marcela.rodriguez@novartis.com",
+      "First_Name": "Marcela",
+      "Language": "es",
+      "Name": "Marcela Rodriguez Torres",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Communications and Engagement Head). No enviar antes del 2026-11-25.",
+      "Organization": "Novartis",
+      "Segment": "pharma-comms",
+      "Status": "Queued"
+    },
+    "id": "reckoAdcEiv2FizaG"
+  },
+  {
+    "createdTime": "2026-11-21T00:36:16.000Z",
+    "fields": {
+      "Country": "USA",
+      "Email": "ashley_mahoney@vrtx.com",
+      "First_Name": "Ashley",
+      "Language": "en",
+      "Name": "Ashley Mahoney",
+      "Notes": "Apollo 21-11. No enviar antes del 2026-11-25.",
+      "Organization": "Vertex Pharmaceuticals",
+      "Segment": "pharma-comms",
+      "Status": "Queued"
+    },
+    "id": "reckrbat8Hgm7IC39"
+  },
+  {
     "createdTime": "2026-11-01T01:23:00.000Z",
     "fields": {
       "Country": "EE.UU. (global, salud)",
       "Email": "business@inizioevoke.com",
+      "Gmail_Message_ID": "1a1fa35e74a0d49a",
       "Language": "en",
-      "Notes": "Source: Press & PR Contacts (Agencia PR)",
+      "Notes": "Source: Press & PR Contacts (Agencia PR)\n2026-11-20: invitación enviada",
       "Organization": "Inizio Evoke",
       "Segment": "generic",
-      "Status": "Queued"
+      "Sent_At": "2026-11-20T18:26:00.000Z",
+      "Status": "Sent"
     },
     "id": "recl25uOEGwUQFpLl"
   },
@@ -5044,6 +7543,36 @@
     "id": "reclE7r3JhBiRCozY"
   },
   {
+    "createdTime": "2026-11-20T23:51:37.000Z",
+    "fields": {
+      "Country": "Argentina",
+      "Email": "mariana.voloni@takeda.com",
+      "First_Name": "Mariana",
+      "Language": "es",
+      "Name": "Mariana Voloni",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Communications Manager Takeda South Cone). No enviar antes del 2026-11-25.",
+      "Organization": "Takeda",
+      "Segment": "pharma-comms",
+      "Status": "Queued"
+    },
+    "id": "reclMFO8KmKMudu6u"
+  },
+  {
+    "createdTime": "2026-11-21T00:36:16.000Z",
+    "fields": {
+      "Country": "República Dominicana",
+      "Email": "lgalindo@acromax.com.do",
+      "First_Name": "Luisa",
+      "Language": "es",
+      "Name": "Luisa Galindo",
+      "Notes": "Apollo 21-11. No enviar antes del 2026-11-25.",
+      "Organization": "Acromax Dominicana",
+      "Segment": "pharma-comms",
+      "Status": "Queued"
+    },
+    "id": "reclNN2L5RcDu7aAf"
+  },
+  {
     "createdTime": "2026-11-01T01:30:39.000Z",
     "fields": {
       "Country": "Colombia",
@@ -5051,7 +7580,7 @@
       "First_Name": "Juliana",
       "Language": "es",
       "Name": "Juliana Restrepo Palacio",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail: contacto real (hilos de propuesta Merck 1a1aca9a7d563a7f, 1a1f081c3cda0386). Deal activo: retenida hasta OK de Fer.",
       "Organization": "Merck Group",
       "Segment": "crm",
       "Status": "Queued"
@@ -5080,11 +7609,13 @@
     "fields": {
       "Country": "Chile",
       "Email": "contacto@extend.cl",
+      "Gmail_Message_ID": "1a1fa3786384f6fc",
       "Language": "es",
-      "Notes": "Source: Press & PR Contacts (Agencia PR)",
+      "Notes": "Source: Press & PR Contacts (Agencia PR)\n2026-11-20: invitación enviada",
       "Organization": "Extend Comunicaciones",
       "Segment": "generic",
-      "Status": "Queued"
+      "Sent_At": "2026-11-20T18:28:00.000Z",
+      "Status": "Sent"
     },
     "id": "reclfZ8smbEQ6bmHe"
   },
@@ -5160,12 +7691,27 @@
       "First_Name": "Rubén",
       "Language": "es",
       "Name": "Rubén Abete",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "ALIFAR (Asociación Latinoamericana de Industrias Farmacéuticas)",
       "Segment": "crm",
       "Status": "Queued"
     },
     "id": "recmD3QacXjaUGZf7"
+  },
+  {
+    "createdTime": "2026-11-20T23:51:37.000Z",
+    "fields": {
+      "Country": "Argentina",
+      "Email": "luciano.viglione@bayer.com",
+      "First_Name": "Luciano",
+      "Language": "es",
+      "Name": "Luciano Viglione",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Head PASS Public Affairs & Sustainability - Bayer Cono Sur). No enviar antes del 2026-11-25.",
+      "Organization": "Bayer",
+      "Segment": "pharma-policy",
+      "Status": "Queued"
+    },
+    "id": "recmQiBqI1AkOcRpA"
   },
   {
     "createdTime": "2026-11-09T02:08:37.000Z",
@@ -5217,7 +7763,7 @@
       "Email": "redacao@panoramafarmaceutico.com.br",
       "Language": "pt",
       "Name": "Leandro Luize",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-01: First_Name 'Leandro' cleared (generic/role inbox; greeting without name).",
+      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-01: First_Name 'Leandro' cleared (generic/role inbox; greeting without name).\n2026-11-20: retenida, no invitada: hilo activo de Panorama con Fer (propuesta de alianza 19-11, hilo 1a1acf1d016fca8d). Queda Queued hasta que Fer decida.",
       "Organization": "Panorama Farmacêutico",
       "Segment": "generic",
       "Status": "Queued"
@@ -5253,6 +7799,36 @@
     "id": "recmlzCFjkzrVK3Rs"
   },
   {
+    "createdTime": "2026-11-21T00:36:17.000Z",
+    "fields": {
+      "Country": "Uruguay",
+      "Email": "eribeiro@scienza.com.uy",
+      "First_Name": "Eliana",
+      "Language": "es",
+      "Name": "Eliana Ribeiro",
+      "Notes": "Apollo 21-11. No enviar antes del 2026-11-25.",
+      "Organization": "Scienza Uruguay",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "recmmaR0Vm1A7AuHi"
+  },
+  {
+    "createdTime": "2026-11-20T23:56:48.000Z",
+    "fields": {
+      "Country": "LatAm regional",
+      "Email": "simona.sappia@novartis.com",
+      "First_Name": "Simona",
+      "Language": "es",
+      "Name": "Simona Sappia",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Communications and Patient Advocacy Head, LACan Region (Latin America and Canada)). No enviar antes del 2026-11-25.",
+      "Organization": "Novartis",
+      "Segment": "pharma-comms",
+      "Status": "Queued"
+    },
+    "id": "recmn0uaF7ZGeKr7L"
+  },
+  {
     "createdTime": "2026-11-01T01:30:39.000Z",
     "fields": {
       "Country": "Brazil",
@@ -5268,6 +7844,21 @@
       "Status": "Reminded"
     },
     "id": "recmpS5qVITHcLhDr"
+  },
+  {
+    "createdTime": "2026-11-20T23:51:37.000Z",
+    "fields": {
+      "Country": "México",
+      "Email": "mariana.mendez@takeda.com",
+      "First_Name": "Mariana",
+      "Language": "es",
+      "Name": "Mariana Mendez Lopez",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Market Access & Corporate Affairs Cluster Head). No enviar antes del 2026-11-25.",
+      "Organization": "Takeda",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "recmt1b3RD1oY0Fot"
   },
   {
     "createdTime": "2026-11-09T02:08:37.000Z",
@@ -5295,11 +7886,11 @@
       "Gmail_Message_ID": "1a1ad013315708f9",
       "Language": "en",
       "Name": "Annalee Armstrong",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada",
+      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada\n2026-11-20: recordatorio enviado (msg 1a1fa313cd045c05)",
       "Organization": "BioSpace",
       "Segment": "press",
       "Sent_At": "2026-11-05T18:36:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "recn6xE9eeuVzJDe1"
   },
@@ -5310,7 +7901,7 @@
       "First_Name": "Theodore",
       "Language": "en",
       "Name": "Theodore Liddell",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "Teva Pharmaceuticals USA Inc",
       "Segment": "crm",
       "Status": "Queued"
@@ -5336,6 +7927,21 @@
     "id": "recnGCSX0WX77Ktwk"
   },
   {
+    "createdTime": "2026-11-20T23:54:21.000Z",
+    "fields": {
+      "Country": "Colombia",
+      "Email": "diana.gomez@abbott.com",
+      "First_Name": "Diana",
+      "Language": "es",
+      "Name": "Diana Gomez Martinez",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Jefe de Comunicaciones y Bienestar). No enviar antes del 2026-11-25.",
+      "Organization": "Abbott",
+      "Segment": "pharma-comms",
+      "Status": "Queued"
+    },
+    "id": "recnNg7qcmF9VXgkB"
+  },
+  {
     "createdTime": "2026-11-09T02:08:37.000Z",
     "fields": {
       "Country": "LATAM",
@@ -5353,6 +7959,21 @@
     "id": "recnZfwuv384naFph"
   },
   {
+    "createdTime": "2026-11-20T23:56:48.000Z",
+    "fields": {
+      "Country": "Brasil",
+      "Email": "atrovo@uniaoquimica.com.br",
+      "First_Name": "Adinan",
+      "Language": "pt",
+      "Name": "Adinan Trovo",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Director of Government Relations). No enviar antes del 2026-11-25.",
+      "Organization": "União Química",
+      "Segment": "pharma-policy",
+      "Status": "Queued"
+    },
+    "id": "recng7Mfg1zs9yaJS"
+  },
+  {
     "createdTime": "2026-11-09T02:08:37.000Z",
     "fields": {
       "Country": "USA",
@@ -5368,6 +7989,21 @@
       "Status": "Sent"
     },
     "id": "recngTwTt9S1Lx20Z"
+  },
+  {
+    "createdTime": "2026-11-20T23:56:48.000Z",
+    "fields": {
+      "Country": "Argentina",
+      "Email": "ccardenas@bago.com.ar",
+      "First_Name": "Carina",
+      "Language": "es",
+      "Name": "Carina Cardenas",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Communications Manager). No enviar antes del 2026-11-25.",
+      "Organization": "Laboratorios Bagó",
+      "Segment": "pharma-comms",
+      "Status": "Queued"
+    },
+    "id": "recnv2YU47VLmqO2x"
   },
   {
     "createdTime": "2026-11-09T02:08:37.000Z",
@@ -5409,13 +8045,30 @@
     "fields": {
       "Country": "México",
       "Email": "info@gcya.net",
+      "Gmail_Message_ID": "1a1fa3442f7ae53e",
       "Language": "es",
-      "Notes": "Source: Press & PR Contacts (Agencia PR)",
+      "Notes": "Source: Press & PR Contacts (Agencia PR)\n2026-11-20: invitación enviada",
       "Organization": "Guerra Castellanos y Asociados (GCYA)",
       "Segment": "generic",
-      "Status": "Queued"
+      "Sent_At": "2026-11-20T18:24:00.000Z",
+      "Status": "Sent"
     },
     "id": "reco7EmMrhnKX8uSW"
+  },
+  {
+    "createdTime": "2026-11-21T00:36:17.000Z",
+    "fields": {
+      "Country": "Uruguay",
+      "Email": "isidoro.r.prudente@viivhealthcare.com",
+      "First_Name": "Isidoro",
+      "Language": "es",
+      "Name": "Isidoro Prudente Martinez",
+      "Notes": "Apollo 21-11. No enviar antes del 2026-11-25.",
+      "Organization": "ViiV Healthcare",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "reco9R5BmrGyCUypJ"
   },
   {
     "createdTime": "2026-11-01T01:25:25.000Z",
@@ -5455,7 +8108,7 @@
       "First_Name": "Harold",
       "Language": "es",
       "Name": "Harold Hamana",
-      "Notes": "Source: gmail-2026-11-01; founding partners thread 26-28 Oct (two-way)",
+      "Notes": "Source: gmail-2026-11-01; founding partners thread 26-28 Oct (two-way)\n2026-11-21: verificado en Gmail: contacto real (founding partners 1a17a0ad8bcfadbc; recibió el Issue 02 directo 1a16528b11617ad7). Prospecto comercial: retenida hasta OK de Fer.",
       "Organization": "Knight-Pawn",
       "Segment": "crm",
       "Status": "Queued"
@@ -5497,6 +8150,21 @@
     "id": "recopfog0pQ78QLID"
   },
   {
+    "createdTime": "2026-11-20T23:51:37.000Z",
+    "fields": {
+      "Country": "México",
+      "Email": "pedro.jimenez@astellas.com",
+      "First_Name": "Pedro",
+      "Language": "es",
+      "Name": "Pedro Jimenez Aranda",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Director Asociado Government Affairs Lead). No enviar antes del 2026-11-25.",
+      "Organization": "Astellas",
+      "Segment": "pharma-policy",
+      "Status": "Queued"
+    },
+    "id": "recoumvOw8SJuAy46"
+  },
+  {
     "createdTime": "2026-11-01T01:20:33.000Z",
     "fields": {
       "Country": "EE.UU.",
@@ -5512,6 +8180,51 @@
       "Status": "Reminded"
     },
     "id": "recp1x5cqWBu6QgAW"
+  },
+  {
+    "createdTime": "2026-11-21T00:36:16.000Z",
+    "fields": {
+      "Country": "Ecuador",
+      "Email": "maria.bastidas@qualipharmlab.com",
+      "First_Name": "Mary",
+      "Language": "es",
+      "Name": "Mary Carmen Bastidas",
+      "Notes": "Apollo 21-11. No enviar antes del 2026-11-25.",
+      "Organization": "Qualipharm Laboratorio Farmacéutico S.A.",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "recpBOZ2UEsWmOz5f"
+  },
+  {
+    "createdTime": "2026-11-20T23:51:37.000Z",
+    "fields": {
+      "Country": "Argentina",
+      "Email": "daniela.raposo@sanofi.com",
+      "First_Name": "Daniela",
+      "Language": "es",
+      "Name": "Daniela Raposo",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Public Affairs Head South Cone). No enviar antes del 2026-11-25.",
+      "Organization": "Sanofi",
+      "Segment": "pharma-policy",
+      "Status": "Queued"
+    },
+    "id": "recpPHfq8gn3FARiK"
+  },
+  {
+    "createdTime": "2026-11-20T23:51:37.000Z",
+    "fields": {
+      "Country": "Argentina",
+      "Email": "ana.baltz@abbvie.com",
+      "First_Name": "Ana",
+      "Language": "es",
+      "Name": "Ana Paula Baltz",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Communications and Patient Relations Manager). No enviar antes del 2026-11-25.",
+      "Organization": "AbbVie",
+      "Segment": "pharma-comms",
+      "Status": "Queued"
+    },
+    "id": "recpTdJty5xuHYQcy"
   },
   {
     "createdTime": "2026-11-01T01:18:07.000Z",
@@ -5548,6 +8261,51 @@
     "id": "recpYZ66RQFTrqhS8"
   },
   {
+    "createdTime": "2026-11-21T00:36:16.000Z",
+    "fields": {
+      "Country": "Ecuador",
+      "Email": "rcedeno@rocnarf.com",
+      "First_Name": "Rider",
+      "Language": "es",
+      "Name": "Rider Cedeno",
+      "Notes": "Apollo 21-11. No enviar antes del 2026-11-25.",
+      "Organization": "Laboratorios Rocnarf",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "recpbQivlWV8H3zyx"
+  },
+  {
+    "createdTime": "2026-11-20T23:54:21.000Z",
+    "fields": {
+      "Country": "México",
+      "Email": "avob@novonordisk.com",
+      "First_Name": "Andres",
+      "Language": "es",
+      "Name": "Andres Vasquez Obando",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Senior Director Market Access & Commercial Operations). No enviar antes del 2026-11-25.",
+      "Organization": "Novo Nordisk",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "recpk7VICZuDeADC6"
+  },
+  {
+    "createdTime": "2026-11-20T23:54:21.000Z",
+    "fields": {
+      "Country": "LatAm regional",
+      "Email": "martha.caballero@astrazeneca.com",
+      "First_Name": "Martha",
+      "Language": "es",
+      "Name": "Martha Caballero",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Senior Director for Corporate Affairs for Latin America and the Caribbean). No enviar antes del 2026-11-25.",
+      "Organization": "AstraZeneca",
+      "Segment": "pharma-policy",
+      "Status": "Queued"
+    },
+    "id": "recplKKJdrg0q54rp"
+  },
+  {
     "createdTime": "2026-11-01T01:20:33.000Z",
     "fields": {
       "Country": "US",
@@ -5571,12 +8329,42 @@
       "First_Name": "Maria",
       "Language": "es",
       "Name": "Maria Paula Marin",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "Merck Sharp & Dohme (LA) LLC",
       "Segment": "crm",
       "Status": "Queued"
     },
     "id": "recpu94NR9F8iLVU8"
+  },
+  {
+    "createdTime": "2026-11-21T00:36:16.000Z",
+    "fields": {
+      "Country": "República Dominicana",
+      "Email": "alfie.abad@msd.com",
+      "First_Name": "Alfie",
+      "Language": "es",
+      "Name": "Alfie Abad",
+      "Notes": "Apollo 21-11. No enviar antes del 2026-11-25.",
+      "Organization": "MSD",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "recq9TFlqBrX54Xh7"
+  },
+  {
+    "createdTime": "2026-11-20T23:56:48.000Z",
+    "fields": {
+      "Country": "Costa Rica",
+      "Email": "luisedgar.ibarra@bayer.com",
+      "First_Name": "Luis",
+      "Language": "es",
+      "Name": "Luis Ibarra Rosero",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Gerente de Acceso a Mercados). No enviar antes del 2026-11-25.",
+      "Organization": "Bayer",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "recqCqMOunxQeMx3E"
   },
   {
     "createdTime": "2026-11-01T01:32:43.000Z",
@@ -5596,15 +8384,32 @@
     "id": "recqDRf8aJVUvqJZq"
   },
   {
+    "createdTime": "2026-11-20T23:56:48.000Z",
+    "fields": {
+      "Country": "México",
+      "Email": "rgarcia@pisa.com.mx",
+      "First_Name": "Raquel",
+      "Language": "es",
+      "Name": "Raquel Garcia",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Gerente de Comunicación Externa). No enviar antes del 2026-11-25.",
+      "Organization": "PiSA",
+      "Segment": "pharma-comms",
+      "Status": "Queued"
+    },
+    "id": "recqFk73TQte24K91"
+  },
+  {
     "createdTime": "2026-11-01T01:23:00.000Z",
     "fields": {
       "Country": "Brasil (HQ SP; oficinas MX, CO, CL, PE, AR)",
       "Email": "contact@sherlockcomms.com",
+      "Gmail_Message_ID": "1a1fa35e8992c3aa",
       "Language": "pt",
-      "Notes": "Source: Press & PR Contacts (Agencia PR)",
+      "Notes": "Source: Press & PR Contacts (Agencia PR)\n2026-11-20: invitación enviada",
       "Organization": "Sherlock Communications",
       "Segment": "generic",
-      "Status": "Queued"
+      "Sent_At": "2026-11-20T18:26:00.000Z",
+      "Status": "Sent"
     },
     "id": "recqISqcSPPQSGX7T"
   },
@@ -5616,12 +8421,27 @@
       "First_Name": "Kent",
       "Language": "en",
       "Name": "Kent Jancarik",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "Merck Group (EMD Serono)",
       "Segment": "crm",
       "Status": "Queued"
     },
     "id": "recqK6jv20L9SiAdV"
+  },
+  {
+    "createdTime": "2026-11-20T23:51:37.000Z",
+    "fields": {
+      "Country": "Brasil",
+      "Email": "camila.higuchi@viatris.com",
+      "First_Name": "Camila",
+      "Language": "pt",
+      "Name": "Camila Higuchi",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Director of Market Access). No enviar antes del 2026-11-25.",
+      "Organization": "Viatris",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "recqL5kjtaNQC8Dfv"
   },
   {
     "createdTime": "2026-11-01T01:20:33.000Z",
@@ -5637,6 +8457,21 @@
       "Status": "Excluded"
     },
     "id": "recqNc8XcU19EnN0i"
+  },
+  {
+    "createdTime": "2026-11-20T23:51:37.000Z",
+    "fields": {
+      "Country": "Brasil",
+      "Email": "wagner.orlandi@takeda.com",
+      "First_Name": "Wagner",
+      "Language": "pt",
+      "Name": "Wagner Orlandi",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Public Affairs Director). No enviar antes del 2026-11-25.",
+      "Organization": "Takeda",
+      "Segment": "pharma-policy",
+      "Status": "Queued"
+    },
+    "id": "recqTOigUrWEIKjVa"
   },
   {
     "createdTime": "2026-11-01T21:51:34.000Z",
@@ -5698,6 +8533,21 @@
     "id": "recqeZKTonWswJLzf"
   },
   {
+    "createdTime": "2026-11-20T23:54:21.000Z",
+    "fields": {
+      "Country": "México",
+      "Email": "nicolas.yaghaian@msd.com",
+      "First_Name": "Nicolas",
+      "Language": "es",
+      "Name": "Nicolas Yaghaian",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Oncology & Phama New Products Market Access Associate Director (Mexico)). No enviar antes del 2026-11-25.",
+      "Organization": "MSD",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "recqhhC2922fnvW1d"
+  },
+  {
     "createdTime": "2026-11-01T01:20:33.000Z",
     "fields": {
       "Country": "Perú",
@@ -5729,6 +8579,21 @@
     "id": "recqpixxxcZG59oJp"
   },
   {
+    "createdTime": "2026-11-21T00:36:16.000Z",
+    "fields": {
+      "Country": "Ecuador",
+      "Email": "andres.crespo@controlsanitario.gob.ec",
+      "First_Name": "Andres",
+      "Language": "es",
+      "Name": "Andres Crespo Iniguez",
+      "Notes": "Apollo 21-11. No enviar antes del 2026-11-25.",
+      "Organization": "Arcsa, Agencia Nacional de Regulación, Control y Vigilancia Sanitaria.",
+      "Segment": "pharma-policy",
+      "Status": "Queued"
+    },
+    "id": "recqt28YHiZXAynd0"
+  },
+  {
     "createdTime": "2026-11-01T01:25:25.000Z",
     "fields": {
       "Email": "rgotamendi@gmail.com",
@@ -5741,6 +8606,21 @@
       "Status": "Queued"
     },
     "id": "recquwZ6YgiLDKn3J"
+  },
+  {
+    "createdTime": "2026-11-20T23:54:21.000Z",
+    "fields": {
+      "Country": "México",
+      "Email": "joseluis.paz@pfizer.com",
+      "First_Name": "Jose",
+      "Language": "es",
+      "Name": "Jose Luis Paz Vega",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Public and Policy Affairs Director). No enviar antes del 2026-11-25.",
+      "Organization": "Pfizer",
+      "Segment": "pharma-policy",
+      "Status": "Queued"
+    },
+    "id": "recrEhqsP6hadEnMF"
   },
   {
     "createdTime": "2026-11-01T21:51:34.000Z",
@@ -5774,6 +8654,21 @@
     "id": "recrXkmS7OUmPuZqm"
   },
   {
+    "createdTime": "2026-11-20T23:51:37.000Z",
+    "fields": {
+      "Country": "Brasil",
+      "Email": "juliana.festa@servier.com",
+      "First_Name": "Juliana",
+      "Language": "pt",
+      "Name": "Juliana Festa",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Head of Market Access). No enviar antes del 2026-11-25.",
+      "Organization": "Servier",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "recrYqsWlmDbjBqNX"
+  },
+  {
     "createdTime": "2026-11-01T21:51:34.000Z",
     "fields": {
       "Country": "Argentina",
@@ -5802,6 +8697,21 @@
       "Status": "Reminded"
     },
     "id": "recragF0KRLJacmCE"
+  },
+  {
+    "createdTime": "2026-11-20T23:51:37.000Z",
+    "fields": {
+      "Country": "LatAm regional",
+      "Email": "nicolas.deantoni@astrazeneca.com",
+      "First_Name": "Nicolas",
+      "Language": "es",
+      "Name": "Nicolas Deantoni",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Policy & Government Affairs Director, LatAm). No enviar antes del 2026-11-25.",
+      "Organization": "AstraZeneca",
+      "Segment": "pharma-policy",
+      "Status": "Queued"
+    },
+    "id": "recrbV8bFthfwbKHk"
   },
   {
     "createdTime": "2026-11-01T01:25:25.000Z",
@@ -5845,7 +8755,7 @@
       "First_Name": "Natalia",
       "Language": "es",
       "Name": "Natalia León",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "ALAFARPE (Asociación Nacional de Laboratorios Farmacéuticos)",
       "Segment": "crm",
       "Status": "Queued"
@@ -5901,6 +8811,21 @@
     "id": "recsVooVXNxurLmB9"
   },
   {
+    "createdTime": "2026-11-20T23:54:21.000Z",
+    "fields": {
+      "Country": "México",
+      "Email": "del@novonordisk.com",
+      "First_Name": "Fernando",
+      "Language": "es",
+      "Name": "Fernando Del Moral",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Senior Director Corporate Affairs, Communications & Sustainability). No enviar antes del 2026-11-25.",
+      "Organization": "Novo Nordisk",
+      "Segment": "pharma-comms",
+      "Status": "Queued"
+    },
+    "id": "recsYUlyWd0lJSnV7"
+  },
+  {
     "createdTime": "2026-11-09T02:08:37.000Z",
     "fields": {
       "Country": "USA",
@@ -5935,6 +8860,21 @@
     "id": "recseTkkKN3sWRiUj"
   },
   {
+    "createdTime": "2026-11-20T23:54:21.000Z",
+    "fields": {
+      "Country": "Colombia",
+      "Email": "carlos.mora@astellas.com",
+      "First_Name": "Carlos",
+      "Language": "es",
+      "Name": "Carlos Mora",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Head Government Affairs, Patient Partnership & Communications). No enviar antes del 2026-11-25.",
+      "Organization": "Astellas",
+      "Segment": "pharma-policy",
+      "Status": "Queued"
+    },
+    "id": "recsl3BY5L6lfAgKg"
+  },
+  {
     "createdTime": "2026-11-01T01:25:25.000Z",
     "fields": {
       "Country": "Chile",
@@ -5942,7 +8882,7 @@
       "First_Name": "Patricio",
       "Language": "es",
       "Name": "Patricio Huenchuñir Gómez",
-      "Notes": "Source: CRM Prospects (Approval=Approved)",
+      "Notes": "Source: CRM Prospects (Approval=Approved)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "ASILFA (Asociación Industrial de Laboratorios Farmacéuticos)",
       "Segment": "crm",
       "Status": "Queued"
@@ -5967,6 +8907,36 @@
     "id": "recswqGF2NmK8f1Ml"
   },
   {
+    "createdTime": "2026-11-20T23:51:37.000Z",
+    "fields": {
+      "Country": "Brasil",
+      "Email": "eder.correa@bayer.com",
+      "First_Name": "Eder",
+      "Language": "pt",
+      "Name": "Eder Correa",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Diretor de Acesso ao Mercado). No enviar antes del 2026-11-25.",
+      "Organization": "Bayer",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "rectVu4Rzux7b59oo"
+  },
+  {
+    "createdTime": "2026-11-21T00:36:16.000Z",
+    "fields": {
+      "Country": "Ecuador",
+      "Email": "lgaleas@labstein.com",
+      "First_Name": "Luis",
+      "Language": "es",
+      "Name": "Luis Galeas",
+      "Notes": "Apollo 21-11. No enviar antes del 2026-11-25.",
+      "Organization": "SteinCares",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "rectYgnQMAVmqiS0w"
+  },
+  {
     "createdTime": "2026-11-01T01:27:52.000Z",
     "fields": {
       "Country": "Other",
@@ -5974,12 +8944,27 @@
       "First_Name": "Irene",
       "Language": "en",
       "Name": "Irene Mia",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "IISS",
       "Segment": "crm",
       "Status": "Queued"
     },
     "id": "rectdIZ2DIM8DyZpz"
+  },
+  {
+    "createdTime": "2026-11-20T23:56:48.000Z",
+    "fields": {
+      "Country": "Brasil",
+      "Email": "gabriela.romariz@eurofarma.com",
+      "First_Name": "Gabriela",
+      "Language": "pt",
+      "Name": "Gabriela Romariz",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Head of Market Access). No enviar antes del 2026-11-25.",
+      "Organization": "Eurofarma",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "rectrRBf8mKyC59hH"
   },
   {
     "createdTime": "2026-11-01T01:27:52.000Z",
@@ -5989,7 +8974,7 @@
       "First_Name": "Yndira",
       "Language": "en",
       "Name": "Yndira Marin",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "LLYC",
       "Segment": "crm",
       "Status": "Queued"
@@ -6011,13 +8996,28 @@
     "id": "recu4vuyLyANY3r2e"
   },
   {
+    "createdTime": "2026-11-21T00:36:17.000Z",
+    "fields": {
+      "Country": "Uruguay",
+      "Email": "eduardo.molinari@beigene.com",
+      "First_Name": "Eduardo",
+      "Language": "es",
+      "Name": "Eduardo Molinari",
+      "Notes": "Apollo 21-11. No enviar antes del 2026-11-25.",
+      "Organization": "BeOne Medicines",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "recu7NFMgiO1nbXYB"
+  },
+  {
     "createdTime": "2026-11-01T01:27:52.000Z",
     "fields": {
       "Country": "USA",
       "Email": "wmulville@iadb.org",
       "Language": "en",
       "Name": "W. Mulville (IDB)",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "Inter-American Development Bank",
       "Segment": "crm",
       "Status": "Queued"
@@ -6042,6 +9042,21 @@
     "id": "recuXcDCDbOAunODz"
   },
   {
+    "createdTime": "2026-11-21T00:36:17.000Z",
+    "fields": {
+      "Country": "Ecuador",
+      "Email": "cristina.arteta@boehringer-ingelheim.com",
+      "First_Name": "Cristina",
+      "Language": "es",
+      "Name": "Cristina Arteta",
+      "Notes": "Apollo 21-11. No enviar antes del 2026-11-25.",
+      "Organization": "Boehringer Ingelheim",
+      "Segment": "pharma-comms",
+      "Status": "Queued"
+    },
+    "id": "recucgmPVFiaN12M8"
+  },
+  {
     "createdTime": "2026-11-01T01:27:52.000Z",
     "fields": {
       "Country": "USA",
@@ -6049,7 +9064,7 @@
       "First_Name": "Faith",
       "Language": "en",
       "Name": "Faith Tabak",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "BCW",
       "Segment": "crm",
       "Status": "Queued"
@@ -6088,6 +9103,36 @@
     "id": "recuyjMKeTt7vfx6T"
   },
   {
+    "createdTime": "2026-11-21T00:36:16.000Z",
+    "fields": {
+      "Country": "Guatemala",
+      "Email": "javier.villacorta@iqvia.com",
+      "First_Name": "Javier",
+      "Language": "es",
+      "Name": "Javier Villacorta",
+      "Notes": "Apollo 21-11. No enviar antes del 2026-11-25.",
+      "Organization": "IQVIA",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "recuypvwPae2TiJUt"
+  },
+  {
+    "createdTime": "2026-11-20T23:56:48.000Z",
+    "fields": {
+      "Country": "Estados Unidos",
+      "Email": "elizabeth.breeding@boehringer-ingelheim.com",
+      "First_Name": "Beth",
+      "Language": "en",
+      "Name": "Beth Breeding",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Associate Director, State Government Affairs & Public Policy Communications). No enviar antes del 2026-11-25.",
+      "Organization": "Boehringer Ingelheim",
+      "Segment": "pharma-policy",
+      "Status": "Queued"
+    },
+    "id": "recv1FeaEPqoUIFuJ"
+  },
+  {
     "createdTime": "2026-11-09T02:08:37.000Z",
     "fields": {
       "Country": "LATAM",
@@ -6096,7 +9141,7 @@
       "Gmail_Message_ID": "1a1efecebf889a69",
       "Language": "es",
       "Name": "Grisel Trejo",
-      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-18: invitación enviada",
+      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-18: invitación enviada\n2026-11-20: autorrespuesta fuera de oficina hasta 22-11 (hilo 1a1eff077e7feaeb), sin acción.",
       "Organization": "MSD",
       "Segment": "linkedin",
       "Sent_At": "2026-11-18T18:30:00.000Z",
@@ -6142,11 +9187,11 @@
       "Gmail_Message_ID": "1a1ad015ba684a61",
       "Language": "es",
       "Name": "Daniel Guerrero",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada",
+      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada\n2026-11-20: recordatorio enviado (msg 1a1fa314075397aa)",
       "Organization": "Bloomberg Línea Colombia",
       "Segment": "press",
       "Sent_At": "2026-11-05T18:36:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "recvZmGd8Jo82K08X"
   },
@@ -6158,6 +9203,21 @@
       "Status": "Excluded"
     },
     "id": "recvoHKy5JaQxvvSe"
+  },
+  {
+    "createdTime": "2026-11-20T23:56:48.000Z",
+    "fields": {
+      "Country": "Argentina",
+      "Email": "mcovini@gador.com",
+      "First_Name": "Maria",
+      "Language": "es",
+      "Name": "Maria Carla Covini",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Communications Manager). No enviar antes del 2026-11-25.",
+      "Organization": "Gador",
+      "Segment": "pharma-comms",
+      "Status": "Queued"
+    },
+    "id": "recvomMvojqFsvwTa"
   },
   {
     "createdTime": "2026-11-13T00:38:21.000Z",
@@ -6194,6 +9254,21 @@
     "id": "recvqD4mfbhQlTEVs"
   },
   {
+    "createdTime": "2026-11-20T23:51:37.000Z",
+    "fields": {
+      "Country": "Argentina",
+      "Email": "macarena.alvarez@merckgroup.com",
+      "First_Name": "Macarena",
+      "Language": "es",
+      "Name": "Macarena Alvarez",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Market Access Strategy & Pricing Sr. Manager | Oncology & Rare Tumors | South Cone). No enviar antes del 2026-11-25.",
+      "Organization": "Merck Group",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "recvuok8jB814WgGF"
+  },
+  {
     "createdTime": "2026-11-09T02:08:37.000Z",
     "fields": {
       "Country": "Global",
@@ -6211,18 +9286,63 @@
     "id": "recvynKroeSr78F9H"
   },
   {
+    "createdTime": "2026-11-20T23:56:48.000Z",
+    "fields": {
+      "Country": "Estados Unidos",
+      "Email": "kristi.bond@takeda.com",
+      "First_Name": "Kristi",
+      "Language": "en",
+      "Name": "Kristi Bond",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Media Relations & Operations Head). No enviar antes del 2026-11-25.",
+      "Organization": "Takeda",
+      "Segment": "pharma-comms",
+      "Status": "Queued"
+    },
+    "id": "recw2Q8FjYCjg7VKB"
+  },
+  {
     "createdTime": "2026-11-01T01:25:25.000Z",
     "fields": {
       "Email": "erfs@novonordisk.com",
       "First_Name": "Ediardo",
       "Language": "pt",
       "Name": "Ediardo Imperatriz Fonseca",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "NOVO NORDISK FARMACEUTICA DO BRASIL LTDA",
       "Segment": "crm",
       "Status": "Queued"
     },
     "id": "recwK8JrE6V2xlayd"
+  },
+  {
+    "createdTime": "2026-11-21T00:36:16.000Z",
+    "fields": {
+      "Country": "República Dominicana",
+      "Email": "dunia.fernandez@ompharma.com",
+      "First_Name": "Dunia",
+      "Language": "es",
+      "Name": "Dunia Fernandez",
+      "Notes": "Apollo 21-11. No enviar antes del 2026-11-25.",
+      "Organization": "OM Pharma",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "recwMYzx4NflOP8R2"
+  },
+  {
+    "createdTime": "2026-11-20T23:51:37.000Z",
+    "fields": {
+      "Country": "Argentina",
+      "Email": "pablo.monasterio@abbvie.com",
+      "First_Name": "Pablo",
+      "Language": "es",
+      "Name": "Pablo Monasterio",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Market Access Director). No enviar antes del 2026-11-25.",
+      "Organization": "AbbVie",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "recwa3nOe8oBnxNKu"
   },
   {
     "createdTime": "2026-11-01T01:25:25.000Z",
@@ -6231,7 +9351,7 @@
       "First_Name": "Claudia",
       "Language": "pt",
       "Name": "Claudia Burgos",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "Takeda Distribuidora Ltda",
       "Segment": "crm",
       "Status": "Queued"
@@ -6290,13 +9410,28 @@
     "id": "recwjbdoGXUEdxLFz"
   },
   {
+    "createdTime": "2026-11-20T23:54:21.000Z",
+    "fields": {
+      "Country": "Colombia",
+      "Email": "andres.ruiz@astrazeneca.com",
+      "First_Name": "Andres",
+      "Language": "es",
+      "Name": "Andres Felipe Ruiz",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Market Access & Business Director Andean Cluster). No enviar antes del 2026-11-25.",
+      "Organization": "AstraZeneca",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "recwnU99IsCpGoR9t"
+  },
+  {
     "createdTime": "2026-11-01T01:25:25.000Z",
     "fields": {
       "Email": "flavio.devoto@abbvie.com",
       "First_Name": "Flavio",
       "Language": "es",
       "Name": "Flavio Devoto",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "Abbvie Latam",
       "Segment": "crm",
       "Status": "Queued"
@@ -6310,12 +9445,27 @@
       "Email": "tvidal@the-ahf.org",
       "Language": "en",
       "Name": "T. Vidal (AHF)",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "Americas Health Foundation",
       "Segment": "crm",
       "Status": "Queued"
     },
     "id": "recwvEii7g8S8QR3x"
+  },
+  {
+    "createdTime": "2026-11-20T23:51:37.000Z",
+    "fields": {
+      "Country": "Brasil",
+      "Email": "f.reis@lilly.com",
+      "First_Name": "Felipe",
+      "Language": "pt",
+      "Name": "Felipe B",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Sr Director - Market Access and Corporate Affairs). No enviar antes del 2026-11-25.",
+      "Organization": "Eli Lilly",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "recwwFehX3t6E8VXl"
   },
   {
     "createdTime": "2026-11-01T01:27:52.000Z",
@@ -6325,7 +9475,7 @@
       "First_Name": "Carlos",
       "Language": "es",
       "Name": "Carlos Rangel",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "Johnson & Johnson Innovative Medicine",
       "Segment": "crm",
       "Status": "Queued"
@@ -6339,12 +9489,27 @@
       "First_Name": "Aida",
       "Language": "en",
       "Name": "Aida Soto",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "Teva Pharmaceuticals USA Inc",
       "Segment": "crm",
       "Status": "Queued"
     },
     "id": "recxZFDQr0yD59ktR"
+  },
+  {
+    "createdTime": "2026-11-20T23:51:37.000Z",
+    "fields": {
+      "Country": "México",
+      "Email": "miguel.x.mendez@gsk.com",
+      "First_Name": "Miguel",
+      "Language": "es",
+      "Name": "Miguel Reyes Mendez",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Director of Market Access). No enviar antes del 2026-11-25.",
+      "Organization": "GSK",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "recxZkIBIRfdEWecU"
   },
   {
     "createdTime": "2026-11-01T01:18:07.000Z",
@@ -6388,7 +9553,7 @@
       "First_Name": "Sandra",
       "Language": "en",
       "Name": "Sandra Ramos",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "LLYC",
       "Segment": "crm",
       "Status": "Queued"
@@ -6411,6 +9576,21 @@
       "Status": "Sent"
     },
     "id": "recxte4pvD8wzJHTl"
+  },
+  {
+    "createdTime": "2026-11-20T23:56:48.000Z",
+    "fields": {
+      "Country": "Chile",
+      "Email": "manuel.pizarro@laboratoriochile.cl",
+      "First_Name": "Manuel",
+      "Language": "es",
+      "Name": "Manuel Pizarro",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Assoc. Director Digital & Communication Strategy). No enviar antes del 2026-11-25.",
+      "Organization": "Laboratorio Chile Teva",
+      "Segment": "pharma-comms",
+      "Status": "Queued"
+    },
+    "id": "recxvVfuuvvemaClc"
   },
   {
     "createdTime": "2026-11-01T21:51:34.000Z",
@@ -6464,11 +9644,13 @@
     "fields": {
       "Country": "México",
       "Email": "proa@proacomunicacion.mx",
+      "Gmail_Message_ID": "1a1fa35eb3a765a3",
       "Language": "es",
-      "Notes": "Source: Press & PR Contacts (Agencia PR)",
+      "Notes": "Source: Press & PR Contacts (Agencia PR)\n2026-11-20: invitación enviada",
       "Organization": "PRoa Comunicación",
       "Segment": "generic",
-      "Status": "Queued"
+      "Sent_At": "2026-11-20T18:26:00.000Z",
+      "Status": "Sent"
     },
     "id": "recyZt7NAmgqRL7X2"
   },
@@ -6481,11 +9663,11 @@
       "Gmail_Message_ID": "1a1ad017db904ff5",
       "Language": "en",
       "Name": "Paige Minemyer",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada",
+      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada\n2026-11-20: recordatorio enviado (msg 1a1fa31425682235)",
       "Organization": "Fierce Healthcare",
       "Segment": "press",
       "Sent_At": "2026-11-05T18:36:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "recyjjnApyAXTpQDs"
   },
@@ -6494,13 +9676,30 @@
     "fields": {
       "Country": "Perú",
       "Email": "info@azerta.pe",
+      "Gmail_Message_ID": "1a1fa34458005991",
       "Language": "es",
-      "Notes": "Source: Press & PR Contacts (Agencia PR)",
+      "Notes": "Source: Press & PR Contacts (Agencia PR)\n2026-11-20: invitación enviada",
       "Organization": "Azerta Perú",
       "Segment": "generic",
-      "Status": "Queued"
+      "Sent_At": "2026-11-20T18:24:00.000Z",
+      "Status": "Sent"
     },
     "id": "recymjewKa4dG4geO"
+  },
+  {
+    "createdTime": "2026-11-20T23:54:21.000Z",
+    "fields": {
+      "Country": "Chile",
+      "Email": "branko.karlezi@roche.com",
+      "First_Name": "Branko",
+      "Language": "es",
+      "Name": "Branko Karlezi",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Corporate Affairs & Communications Lead). No enviar antes del 2026-11-25.",
+      "Organization": "Roche",
+      "Segment": "pharma-comms",
+      "Status": "Queued"
+    },
+    "id": "recyog5P00Y9TW7te"
   },
   {
     "createdTime": "2026-11-01T01:25:25.000Z",
@@ -6510,7 +9709,7 @@
       "First_Name": "Dick",
       "Language": "en",
       "Name": "Dick Salvatierra",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "Americas Health Foundation",
       "Segment": "crm",
       "Status": "Queued"
@@ -6535,15 +9734,47 @@
     "id": "recywT8UrpuFyPJ36"
   },
   {
+    "createdTime": "2026-11-21T00:36:16.000Z",
+    "fields": {
+      "Country": "Ecuador",
+      "Email": "jose.lascano@alcon.com",
+      "First_Name": "Jose",
+      "Language": "es",
+      "Name": "Jose Antonio Lascano",
+      "Notes": "Apollo 21-11. No enviar antes del 2026-11-25.",
+      "Organization": "Alcon",
+      "Segment": "pharma-access",
+      "Status": "Queued"
+    },
+    "id": "recz05dVUEXv17Jp5"
+  },
+  {
+    "createdTime": "2026-11-20T23:51:37.000Z",
+    "fields": {
+      "Country": "Brasil",
+      "Email": "vrosa@amgen.com",
+      "First_Name": "Veridiana",
+      "Language": "pt",
+      "Name": "Veridiana Rosa",
+      "Notes": "2026-11-20: cargado (ampliación contactos pharma, Apollo verified; cargo: Head of Corporate Affairs). No enviar antes del 2026-11-25.",
+      "Organization": "Amgen",
+      "Segment": "pharma-policy",
+      "Status": "Queued"
+    },
+    "id": "recz141ssmgMNX98p"
+  },
+  {
     "createdTime": "2026-11-01T01:20:33.000Z",
     "fields": {
       "Country": "Global (US HQ)",
       "Email": "mediarelations@msd.com",
+      "Gmail_Message_ID": "1a1fa3446af03cf0",
       "Language": "en",
-      "Notes": "Source: Press & PR Contacts (Pharma media office)",
+      "Notes": "Source: Press & PR Contacts (Pharma media office)\n2026-11-20: invitación enviada",
       "Organization": "MSD (Merck & Co.)",
       "Segment": "generic",
-      "Status": "Queued"
+      "Sent_At": "2026-11-20T18:24:00.000Z",
+      "Status": "Sent"
     },
     "id": "recz1lzBPsW7ARYZB"
   },
@@ -6554,7 +9785,7 @@
       "First_Name": "Tiffany",
       "Language": "en",
       "Name": "Tiffany Mak",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "Lyra Health Inc",
       "Segment": "crm",
       "Status": "Queued"
@@ -6583,7 +9814,7 @@
       "First_Name": "Maria",
       "Language": "es",
       "Name": "Maria Guadalupe Roel",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "Bayer Argentina",
       "Segment": "crm",
       "Status": "Queued"
@@ -6597,7 +9828,7 @@
       "First_Name": "Giancarlo",
       "Language": "pt",
       "Name": "Giancarlo Gonzales",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "Sanofi Medley Farmacêutica Ltda",
       "Segment": "crm",
       "Status": "Queued"
@@ -6626,11 +9857,13 @@
     "fields": {
       "Country": "España/LATAM",
       "Email": "pmfarma@pmfarma.com",
+      "Gmail_Message_ID": "1a1fa35ecda42291",
       "Language": "es",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)",
+      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-20: invitación enviada",
       "Organization": "PMFarma",
       "Segment": "generic",
-      "Status": "Queued"
+      "Sent_At": "2026-11-20T18:26:00.000Z",
+      "Status": "Sent"
     },
     "id": "recznfo3dfaClFmNv"
   },
@@ -6659,7 +9892,7 @@
       "First_Name": "Victoria",
       "Language": "es",
       "Name": "Victoria Brenes",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
       "Organization": "Fedefarma",
       "Segment": "crm",
       "Status": "Queued"

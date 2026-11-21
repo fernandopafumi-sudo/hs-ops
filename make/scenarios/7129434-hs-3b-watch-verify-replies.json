@@ -1,0 +1,237 @@
+{
+  "blueprint": {
+    "flow": [
+      {
+        "id": 1,
+        "mapper": {
+          "filterType": "gmailSearch",
+          "format": "full",
+          "includeHtmlBody": false,
+          "limit": 20,
+          "q": "to:verify@healthsignals.news is:unread"
+        },
+        "metadata": {
+          "designer": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        "module": "google-email:executeEmailSearchQuery",
+        "parameters": {
+          "__IMTCONN__": 12461515
+        },
+        "version": 4
+      },
+      {
+        "filter": {
+          "conditions": [
+            [
+              {
+                "a": "{{1.id}}",
+                "o": "exist"
+              }
+            ]
+          ],
+          "name": "hay un email real para procesar"
+        },
+        "id": 2,
+        "mapper": {},
+        "metadata": {
+          "designer": {
+            "x": 300,
+            "y": 0
+          }
+        },
+        "module": "builtin:BasicRouter",
+        "routes": [
+          {
+            "flow": [
+              {
+                "filter": {
+                  "conditions": [
+                    [
+                      {
+                        "a": "{{1.fullTextBody}}",
+                        "b": "HS3B-",
+                        "o": "text:contain"
+                      }
+                    ]
+                  ],
+                  "name": "token encontrado en el cuerpo"
+                },
+                "id": 3,
+                "mapper": {
+                  "dateTimeRenderOption": "FORMATTED_STRING",
+                  "filter": [
+                    [
+                      {
+                        "a": "AU",
+                        "b": "{{substring(1.fullTextBody; indexOf(1.fullTextBody; \"HS3B-\"); indexOf(1.fullTextBody; \"HS3B-\") + 16)}}",
+                        "o": "text:equal"
+                      }
+                    ]
+                  ],
+                  "from": "drive",
+                  "includesHeaders": true,
+                  "limit": "1",
+                  "sheetId": "Editorial Queue",
+                  "spreadsheetId": "1J8ca4Pvp3HTSdHqq9-TZ1H-nF6_fM5R3Jm1bf9bAU8A",
+                  "tableFirstRow": "A1:CZ1",
+                  "valueRenderOption": "FORMATTED_VALUE"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 600,
+                    "y": -150
+                  }
+                },
+                "module": "google-sheets:filterRows",
+                "parameters": {
+                  "__IMTCONN__": 8923977
+                },
+                "version": 2
+              },
+              {
+                "filter": {
+                  "conditions": [
+                    [
+                      {
+                        "a": "{{3.__ROW_NUMBER__}}",
+                        "o": "exist"
+                      }
+                    ]
+                  ],
+                  "name": "fila encontrada en Editorial Queue"
+                },
+                "id": 4,
+                "mapper": {
+                  "from": "drive",
+                  "includesHeaders": true,
+                  "mode": "select",
+                  "rowNumber": "{{3.__ROW_NUMBER__}}",
+                  "sheetId": "Editorial Queue",
+                  "spreadsheetId": "1J8ca4Pvp3HTSdHqq9-TZ1H-nF6_fM5R3Jm1bf9bAU8A",
+                  "useColumnHeaders": true,
+                  "valueInputOption": "USER_ENTERED",
+                  "values": {
+                    "3b_Reply_Date": "{{formatDate(now; \"YYYY-MM-DD HH:mm\")}}",
+                    "3b_Reply_Text": "{{substring(1.fullTextBody; 0; 3000)}}",
+                    "3b_Status": "replied"
+                  }
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 900,
+                    "y": -150
+                  }
+                },
+                "module": "google-sheets:updateRow",
+                "parameters": {
+                  "__IMTCONN__": 8923977
+                },
+                "version": 2
+              },
+              {
+                "id": 6,
+                "mapper": {
+                  "messageId": "{{1.id}}"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 1200,
+                    "y": -150
+                  }
+                },
+                "module": "google-email:markAnEmailAsRead",
+                "parameters": {
+                  "__IMTCONN__": 12461515
+                },
+                "version": 4
+              }
+            ]
+          },
+          {
+            "flow": [
+              {
+                "filter": {
+                  "conditions": [
+                    [
+                      {
+                        "a": "{{1.fullTextBody}}",
+                        "b": "HS3B-",
+                        "o": "text:notcontain"
+                      }
+                    ]
+                  ],
+                  "name": "sin token (revision manual)"
+                },
+                "id": 5,
+                "mapper": {
+                  "from": "drive",
+                  "includesHeaders": true,
+                  "mode": "select",
+                  "sheetId": "3b_Unmatched",
+                  "spreadsheetId": "1J8ca4Pvp3HTSdHqq9-TZ1H-nF6_fM5R3Jm1bf9bAU8A",
+                  "useColumnHeaders": true,
+                  "valueInputOption": "USER_ENTERED",
+                  "values": {
+                    "Date": "{{formatDate(1.internalDate; \"YYYY-MM-DD HH:mm\")}}",
+                    "From": "{{1.fromEmail}}",
+                    "Preview": "{{substring(1.fullTextBody; 0; 500)}}",
+                    "Subject": "{{1.subject}}"
+                  }
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 600,
+                    "y": 150
+                  }
+                },
+                "module": "google-sheets:addRow",
+                "parameters": {
+                  "__IMTCONN__": 8923977
+                },
+                "version": 2
+              },
+              {
+                "id": 7,
+                "mapper": {
+                  "messageId": "{{1.id}}"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 900,
+                    "y": 150
+                  }
+                },
+                "module": "google-email:markAnEmailAsRead",
+                "parameters": {
+                  "__IMTCONN__": 12461515
+                },
+                "version": 4
+              }
+            ]
+          }
+        ],
+        "version": 1
+      }
+    ],
+    "metadata": {
+      "instant": false,
+      "version": 1
+    },
+    "name": "HS 3b - Watch Verify Replies"
+  },
+  "folderId": null,
+  "id": 7129434,
+  "interface": {
+    "input": [],
+    "output": []
+  },
+  "isActive": true,
+  "name": "HS 3b - Watch Verify Replies",
+  "scheduling": {
+    "interval": 900,
+    "type": "indefinitely"
+  }
+}

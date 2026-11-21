@@ -1,0 +1,650 @@
+{
+  "blueprint": {
+    "flow": [
+      {
+        "id": 1,
+        "mapper": {
+          "name": "ids",
+          "scope": "roundtrip",
+          "value": "36930,36679,36929"
+        },
+        "metadata": {
+          "designer": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        "module": "util:SetVariable2",
+        "parameters": {},
+        "version": 1
+      },
+      {
+        "id": 2,
+        "mapper": {
+          "array": "{{split(1.ids; \",\")}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 100,
+            "y": 0
+          }
+        },
+        "module": "builtin:BasicFeeder",
+        "parameters": {},
+        "version": 1
+      },
+      {
+        "id": 3,
+        "mapper": {
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache"
+            }
+          ],
+          "method": "GET",
+          "qs": [
+            {
+              "key": "context",
+              "value": "edit"
+            },
+            {
+              "key": "_fields",
+              "value": "id,date,title,excerpt,content,tags,categories"
+            }
+          ],
+          "url": "posts/{{2.value}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 200,
+            "y": 0
+          }
+        },
+        "module": "wordpress:makeApiCall",
+        "onerror": [
+          {
+            "id": 103,
+            "metadata": {
+              "designer": {
+                "x": 0,
+                "y": 0
+              }
+            },
+            "module": "builtin:Ignore",
+            "version": 1
+          }
+        ],
+        "parameters": {
+          "__IMTCONN__": 8921729
+        },
+        "version": 3
+      },
+      {
+        "id": 4,
+        "mapper": {
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache"
+            }
+          ],
+          "method": "GET",
+          "qs": [
+            {
+              "key": "status",
+              "value": "publish"
+            },
+            {
+              "key": "per_page",
+              "value": "100"
+            },
+            {
+              "key": "orderby",
+              "value": "date"
+            },
+            {
+              "key": "order",
+              "value": "desc"
+            },
+            {
+              "key": "before",
+              "value": "{{3.body.date}}"
+            },
+            {
+              "key": "exclude",
+              "value": "{{3.body.id}}"
+            },
+            {
+              "key": "_fields",
+              "value": "id,date,title"
+            }
+          ],
+          "url": "posts"
+        },
+        "metadata": {
+          "designer": {
+            "x": 300,
+            "y": 0
+          }
+        },
+        "module": "wordpress:makeApiCall",
+        "onerror": [
+          {
+            "id": 104,
+            "metadata": {
+              "designer": {
+                "x": 0,
+                "y": 0
+              }
+            },
+            "module": "builtin:Ignore",
+            "version": 1
+          }
+        ],
+        "parameters": {
+          "__IMTCONN__": 8921729
+        },
+        "version": 3
+      },
+      {
+        "id": 41,
+        "mapper": {
+          "array": "{{4.body}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 400,
+            "y": 0
+          }
+        },
+        "module": "builtin:BasicFeeder",
+        "parameters": {},
+        "version": 1
+      },
+      {
+        "id": 42,
+        "mapper": {
+          "value": "{{41.id}} | {{substring(41.date; 0; 10)}} | {{41.title.rendered}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 500,
+            "y": 0
+          }
+        },
+        "module": "util:TextAggregator",
+        "parameters": {
+          "feeder": 41,
+          "rowSeparator": "\n"
+        },
+        "version": 1
+      },
+      {
+        "id": 5,
+        "mapper": {
+          "max_tokens": 3000,
+          "model": "claude-sonnet-5-5",
+          "textPrompt": "You are the archive desk of HealthSignals, a B2B pharma and health-policy intelligence publication for Latin America and the US. Your job is to propose connections between a new article and earlier published HealthSignals articles. Earlier articles are context for readers, never a source of facts.\n\nNEW ARTICLE\nTitle: {{3.body.title.raw}}\nExcerpt: {{stripHTML(3.body.excerpt.raw)}}\nBody (truncated): {{substring(stripHTML(3.body.content.raw); 0; 6000)}}\n\nPUBLISHED HEALTHSIGNALS ARCHIVE (the ONLY items that may be referenced; id | date | title):\n{{42.text}}\n\nTASK 1 RELATED: propose up to 3 archive items that a reader of the new article would genuinely want to read next: the same named company, regulator, drug, policy, payer programme or country health system, or the same specific mechanism. Sharing only a broad category (pharma, Latin America, oncology) is NOT enough. Prefer recent items. Propose none if nothing fits.\nTASK 2 SERIES: decide whether the new article directly continues an earlier archive story: the same named entity AND the same specific process (the same lawsuit, tender round, rule, trial programme, deal or outbreak). Same country or same company alone is NOT enough. If yes, list the earlier installments (chronological, max 3) and give a neutral series name of 2-5 words (no sides, no threat, no sarcasm). Otherwise series is null.\nNever invent an id; copy ids exactly from the archive list.\nOUTPUT valid JSON only, no fence, no double quotes inside any value:\n{\"related\":[{\"id\":0,\"why\":\"\"}],\"series\":{\"prior_ids\":[],\"name\":\"\",\"entity\":\"\",\"process\":\"\"}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 600,
+            "y": 0
+          }
+        },
+        "module": "anthropic-claude:simpleTextPrompt",
+        "onerror": [
+          {
+            "id": 105,
+            "metadata": {
+              "designer": {
+                "x": 0,
+                "y": 0
+              }
+            },
+            "module": "builtin:Ignore",
+            "version": 1
+          }
+        ],
+        "parameters": {
+          "__IMTCONN__": 8922808
+        },
+        "version": 1
+      },
+      {
+        "id": 6,
+        "mapper": {
+          "max_tokens": 3000,
+          "model": "claude-opus-5-5",
+          "textPrompt": "You are the master editor of HealthSignals for the topic of the new article below (decide the topic yourself: for example GLP-1 and obesity, oncology, PBMs and drug pricing, 340B, Mexico procurement). Nothing connects two HealthSignals articles without your approval. An archive desk has proposed connections; approve or reject each one. When in doubt, reject: an article with no connections is fine, a wrong connection is not.\n\nNEW ARTICLE\nTitle: {{3.body.title.raw}}\nExcerpt: {{stripHTML(3.body.excerpt.raw)}}\nBody (truncated): {{substring(stripHTML(3.body.content.raw); 0; 6000)}}\n\nPUBLISHED HEALTHSIGNALS ARCHIVE (the ONLY items that may be referenced; id | date | title):\n{{42.text}}\n\nPROPOSAL FROM THE ARCHIVE DESK\n{{5.result}}\n\nApprove a RELATED item only if all are true: (1) it is about the same named entity, programme or mechanism, not merely the same broad category; (2) a reader of the new article gains useful context from it; (3) nothing in the new article contradicts or supersedes it in a way that would mislead a reader who follows the link; (4) the new article does not rely on the older one for any fact. Maximum 3.\nApprove a SERIES only if: the same named entity AND the same specific process; the earlier items are genuinely earlier installments of that process; the name is neutral (no sides, no threat, no sarcasm, no hype). Maximum 3 earlier items.\nCopy ids exactly from the archive list; never add ids that were not proposed.\nOUTPUT valid JSON only, no fence, no double quotes inside any value:\n{\"topic\":\"\",\"related\":[{\"id\":0,\"reason\":\"\"}],\"series\":{\"approved\":false,\"name\":\"\",\"ids\":[]},\"rejected\":[{\"id\":0,\"reason\":\"\"}]}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 700,
+            "y": 0
+          }
+        },
+        "module": "anthropic-claude:simpleTextPrompt",
+        "onerror": [
+          {
+            "id": 106,
+            "metadata": {
+              "designer": {
+                "x": 0,
+                "y": 0
+              }
+            },
+            "module": "builtin:Ignore",
+            "version": 1
+          }
+        ],
+        "parameters": {
+          "__IMTCONN__": 8922808
+        },
+        "version": 1
+      },
+      {
+        "id": 7,
+        "mapper": {
+          "name": "ej",
+          "scope": "roundtrip",
+          "value": "{{trim(replace(replace(replace(replace(6.result; \"```json\"; \"\"); \"```\"; \"\"); \"/^[^{]*/\"; \"\"); \"/}[^}]*$/\"; \"}\"))}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 800,
+            "y": 0
+          }
+        },
+        "module": "util:SetVariable2",
+        "parameters": {},
+        "version": 1
+      },
+      {
+        "id": 8,
+        "mapper": {
+          "json": "{{replace(7.ej; \"/[\\r\\n\\t]+/g\"; \" \")}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 900,
+            "y": 0
+          }
+        },
+        "module": "json:ParseJSON",
+        "onerror": [
+          {
+            "id": 108,
+            "metadata": {
+              "designer": {
+                "x": 0,
+                "y": 0
+              }
+            },
+            "module": "builtin:Ignore",
+            "version": 1
+          }
+        ],
+        "parameters": {},
+        "version": 1
+      },
+      {
+        "id": 9,
+        "mapper": {
+          "convert": false,
+          "data": "POST {{3.body.id}}: {{3.body.title.raw}}\n\nARCHIVE DESK:\n{{5.result}}\n\nMASTER EDITOR:\n{{7.ej}}\n\nARCHIVE LIST:\n{{42.text}}",
+          "filename": "conn-test-post{{3.body.id}}.txt",
+          "folderId": "131ApKeYrTpSsDSEcKKeboAIt6eodC-AH",
+          "select": "map"
+        },
+        "metadata": {
+          "designer": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        "module": "google-drive:uploadAFile",
+        "onerror": [
+          {
+            "id": 109,
+            "mapper": {},
+            "metadata": {
+              "designer": {
+                "x": 0,
+                "y": 0
+              }
+            },
+            "module": "builtin:Resume",
+            "version": 1
+          }
+        ],
+        "parameters": {
+          "__IMTCONN__": 11340939
+        },
+        "version": 4
+      },
+      {
+        "id": 10,
+        "mapper": null,
+        "metadata": {
+          "designer": {
+            "x": 1100,
+            "y": 0
+          }
+        },
+        "module": "builtin:BasicRouter",
+        "routes": [
+          {
+            "flow": [
+              {
+                "id": 20,
+                "mapper": {
+                  "array": "{{8.related}}"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 1200,
+                    "y": 0
+                  }
+                },
+                "module": "builtin:BasicFeeder",
+                "parameters": {},
+                "version": 1
+              },
+              {
+                "id": 21,
+                "mapper": {
+                  "headers": [
+                    {
+                      "key": "Cache-Control",
+                      "value": "no-cache"
+                    }
+                  ],
+                  "method": "GET",
+                  "qs": [
+                    {
+                      "key": "_fields",
+                      "value": "id,link,title,status,date"
+                    },
+                    {
+                      "key": "hsnc",
+                      "value": "{{formatDate(now; \"x\")}}"
+                    }
+                  ],
+                  "url": "posts/{{20.id}}"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 1300,
+                    "y": 300
+                  }
+                },
+                "module": "wordpress:makeApiCall",
+                "onerror": [
+                  {
+                    "id": 121,
+                    "metadata": {
+                      "designer": {
+                        "x": 0,
+                        "y": 0
+                      }
+                    },
+                    "module": "builtin:Ignore",
+                    "version": 1
+                  }
+                ],
+                "parameters": {
+                  "__IMTCONN__": 8921729
+                },
+                "version": 3
+              },
+              {
+                "filter": {
+                  "conditions": [
+                    [
+                      {
+                        "a": "{{21.body.status}}",
+                        "b": "publish",
+                        "o": "text:equal"
+                      },
+                      {
+                        "a": "{{21.body.id}}",
+                        "b": "{{20.id}}",
+                        "o": "number:equal"
+                      }
+                    ]
+                  ],
+                  "name": "published and same id"
+                },
+                "id": 22,
+                "mapper": {
+                  "value": "<li><a href=\"{{21.body.link}}\">{{21.body.title.rendered}}</a></li>"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 1400,
+                    "y": 0
+                  }
+                },
+                "module": "util:TextAggregator",
+                "parameters": {
+                  "feeder": 20,
+                  "rowSeparator": "\n"
+                },
+                "version": 1
+              },
+              {
+                "id": 23,
+                "mapper": {
+                  "convert": false,
+                  "data": "<div class=\"hs-related\"><p class=\"hs-label\">Related coverage</p><ul>\n{{22.text}}\n</ul></div>",
+                  "filename": "conn-test-post{{3.body.id}}-related.html",
+                  "folderId": "131ApKeYrTpSsDSEcKKeboAIt6eodC-AH",
+                  "select": "map"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 1500,
+                    "y": 0
+                  }
+                },
+                "module": "google-drive:uploadAFile",
+                "onerror": [
+                  {
+                    "id": 123,
+                    "metadata": {
+                      "designer": {
+                        "x": 0,
+                        "y": 0
+                      }
+                    },
+                    "module": "builtin:Ignore",
+                    "version": 1
+                  }
+                ],
+                "parameters": {
+                  "__IMTCONN__": 11340939
+                },
+                "version": 4
+              }
+            ]
+          },
+          {
+            "flow": [
+              {
+                "filter": {
+                  "conditions": [
+                    [
+                      {
+                        "a": "{{8.series.approved}}",
+                        "b": "true",
+                        "o": "text:equal"
+                      }
+                    ]
+                  ],
+                  "name": "series approved"
+                },
+                "id": 30,
+                "mapper": {
+                  "array": "{{8.series.ids}}"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 1200,
+                    "y": 300
+                  }
+                },
+                "module": "builtin:BasicFeeder",
+                "parameters": {},
+                "version": 1
+              },
+              {
+                "id": 31,
+                "mapper": {
+                  "headers": [
+                    {
+                      "key": "Cache-Control",
+                      "value": "no-cache"
+                    }
+                  ],
+                  "method": "GET",
+                  "qs": [
+                    {
+                      "key": "_fields",
+                      "value": "id,link,title,status,date"
+                    },
+                    {
+                      "key": "hsnc",
+                      "value": "{{formatDate(now; \"x\")}}"
+                    }
+                  ],
+                  "url": "posts/{{30.value}}"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 1300,
+                    "y": 300
+                  }
+                },
+                "module": "wordpress:makeApiCall",
+                "onerror": [
+                  {
+                    "id": 131,
+                    "metadata": {
+                      "designer": {
+                        "x": 0,
+                        "y": 0
+                      }
+                    },
+                    "module": "builtin:Ignore",
+                    "version": 1
+                  }
+                ],
+                "parameters": {
+                  "__IMTCONN__": 8921729
+                },
+                "version": 3
+              },
+              {
+                "filter": {
+                  "conditions": [
+                    [
+                      {
+                        "a": "{{31.body.status}}",
+                        "b": "publish",
+                        "o": "text:equal"
+                      }
+                    ]
+                  ],
+                  "name": "published"
+                },
+                "id": 32,
+                "mapper": {
+                  "value": "<li>{{formatDate(31.body.date; \"MMM D, YYYY\")}}: <a href=\"{{31.body.link}}\">{{31.body.title.rendered}}</a></li>"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 1400,
+                    "y": 300
+                  }
+                },
+                "module": "util:TextAggregator",
+                "parameters": {
+                  "feeder": 30,
+                  "rowSeparator": "\n"
+                },
+                "version": 1
+              },
+              {
+                "id": 33,
+                "mapper": {
+                  "convert": false,
+                  "data": "<div class=\"hs-series\"><p class=\"hs-label\">The story so far · {{8.series.name}}</p><ul>\n{{32.text}}\n</ul></div>",
+                  "filename": "conn-test-post{{3.body.id}}-series.html",
+                  "folderId": "131ApKeYrTpSsDSEcKKeboAIt6eodC-AH",
+                  "select": "map"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 1500,
+                    "y": 300
+                  }
+                },
+                "module": "google-drive:uploadAFile",
+                "onerror": [
+                  {
+                    "id": 133,
+                    "metadata": {
+                      "designer": {
+                        "x": 0,
+                        "y": 0
+                      }
+                    },
+                    "module": "builtin:Ignore",
+                    "version": 1
+                  }
+                ],
+                "parameters": {
+                  "__IMTCONN__": 11340939
+                },
+                "version": 4
+              }
+            ]
+          }
+        ],
+        "version": 1
+      }
+    ],
+    "metadata": {
+      "designer": {
+        "orphans": []
+      },
+      "instant": false,
+      "scenario": {
+        "autoCommit": true,
+        "autoCommitTriggerLast": true,
+        "confidential": false,
+        "dataloss": false,
+        "dlq": false,
+        "freshVariables": false,
+        "maxErrors": 3,
+        "roundtrips": 1,
+        "sequential": true
+      },
+      "version": 1
+    },
+    "name": "[TEST] HS connections: related + series + master editor (ad-hoc)"
+  },
+  "folderId": 247198,
+  "id": 7128642,
+  "interface": {
+    "input": [],
+    "output": []
+  },
+  "isActive": true,
+  "name": "[TEST] HS connections: related + series + master editor (ad-hoc)",
+  "scheduling": {
+    "type": "on-demand"
+  }
+}

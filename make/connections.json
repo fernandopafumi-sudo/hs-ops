@@ -1,5 +1,14 @@
 [
   {
+    "accountLabel": "Gmail",
+    "accountName": "google-email",
+    "accountType": "oauth",
+    "expire": "2027-05-20T16:16:42.457Z",
+    "id": 12461515,
+    "name": "Fernando Pafumi's (editor@healthsignals.news) Gmail credentials - MCP",
+    "scoped": true
+  },
+  {
     "accountLabel": "Brevo",
     "accountName": "sendinblue2",
     "accountType": "basic",
@@ -30,7 +39,7 @@
     "accountLabel": "Google Drive",
     "accountName": "google-drive",
     "accountType": "oauth",
-    "expire": "2027-05-20T13:10:03.105Z",
+    "expire": "2027-05-21T12:10:01.483Z",
     "id": 11340939,
     "name": "Google Drive editor@ (full)",
     "scoped": true
@@ -150,6 +159,15 @@
     "expire": null,
     "id": 9533217,
     "name": "Resend HealthSignals",
+    "scoped": true
+  },
+  {
+    "accountLabel": "Others (IMAP)",
+    "accountName": "imap",
+    "accountType": "basic",
+    "expire": null,
+    "id": 12460823,
+    "name": "verify@healthsignals.news (Titan IMAP)",
     "scoped": true
   }
 ]

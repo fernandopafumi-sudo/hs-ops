@@ -190,6 +190,7 @@
   {
     "createdTime": "2026-11-19T21:04:40.000Z",
     "fields": {
+      "Approval": "Pending Review",
       "Collected_At": "2026-11-19",
       "Company": "Amgen",
       "Email": "amatus01@amgen.com",
@@ -911,6 +912,7 @@
   {
     "createdTime": "2026-11-19T21:04:40.000Z",
     "fields": {
+      "Approval": "Pending Review",
       "Collected_At": "2026-11-19",
       "Company": "Abbott LATAM",
       "Email": "pilar.espinosa@abbott.com",
@@ -3009,6 +3011,7 @@
   {
     "createdTime": "2026-11-19T21:04:40.000Z",
     "fields": {
+      "Approval": "Pending Review",
       "Collected_At": "2026-11-19",
       "Company": "MSD",
       "Email": "margarita.restrepo@merck.com",
@@ -4636,6 +4639,7 @@
   {
     "createdTime": "2026-11-19T21:04:40.000Z",
     "fields": {
+      "Approval": "Pending Review",
       "Collected_At": "2026-11-19",
       "Company": "Amgen",
       "Email": "vtzouma@amgen.com",
@@ -5067,6 +5071,7 @@
   {
     "createdTime": "2026-11-19T21:04:40.000Z",
     "fields": {
+      "Approval": "Pending Review",
       "Collected_At": "2026-11-19",
       "Company": "BeiGene",
       "Email": "rafael.souza@beigene.com",
@@ -8541,6 +8546,7 @@
   {
     "createdTime": "2026-11-19T21:04:40.000Z",
     "fields": {
+      "Approval": "Pending Review",
       "Collected_At": "2026-11-19",
       "Company": "Amgen",
       "Email": "howens@amgen.com",
@@ -8610,6 +8616,7 @@
   {
     "createdTime": "2026-11-19T21:04:40.000Z",
     "fields": {
+      "Approval": "Pending Review",
       "Collected_At": "2026-11-19",
       "Company": "Pfizer LATAM",
       "Email": "patricia.a.dreosso@pfizer.com",
@@ -9484,6 +9491,7 @@
   {
     "createdTime": "2026-11-19T21:04:40.000Z",
     "fields": {
+      "Approval": "Pending Review",
       "Collected_At": "2026-11-19",
       "Company": "GSK Consumer Healthcare",
       "Email": "mariana.x.lucena@haelon.com",
@@ -10827,6 +10835,7 @@
   {
     "createdTime": "2026-11-19T21:04:40.000Z",
     "fields": {
+      "Approval": "Pending Review",
       "Collected_At": "2026-11-19",
       "Company": "Medtronic",
       "Email": "renato.amorim@medtronic.com",
@@ -12715,6 +12724,29 @@
     "id": "recnVLScfAraXjIqx"
   },
   {
+    "createdTime": "2026-11-21T05:34:41.000Z",
+    "fields": {
+      "Approval": "Pending Review",
+      "Collected_At": "2026-11-20",
+      "Company": "Gilead Sciences",
+      "Email": "luciano.zylberberg@gilead.com",
+      "First_Name": "Luciano",
+      "Language": "Spanish",
+      "Last_Contacted": "2026-11-20",
+      "Last_Name": "Zylberberg",
+      "Legal_Basis": "Existing relationship",
+      "Name": "Luciano Zylberberg",
+      "Notes": "2026-11-20 (barrido contactos, hilo 1a1f6a0a2aef86c6): tras una charla con Fer, Fer le mandó desde editor@ la nota actualizada sobre el impasse de precios lenacapavir vs cabotegravir en Brasil (precio techo CMED de noviembre; versiones EN y PT en PDF), como muestra del trabajo de HS, y propuso explorar algo en conjunto. Luciano le había avisado del cambio de precio. Sin respuesta aún.\n2026-11-21: cargado en CRM por pedido de Fer, Approval = Pending Review. Cargo y país no confirmados.",
+      "Preferred_Channel": "Email",
+      "Region": "LATAM",
+      "Segment": "Pharma",
+      "Source": "Manual",
+      "Stage": "Contacted",
+      "Title": "cargo no confirmado"
+    },
+    "id": "recnVn4QBSTIOPehJ"
+  },
+  {
     "createdTime": "2026-10-18T17:49:17.000Z",
     "fields": {
       "Approval": "Pending Review",
@@ -14549,6 +14581,7 @@
   {
     "createdTime": "2026-11-19T21:04:40.000Z",
     "fields": {
+      "Approval": "Pending Review",
       "Collected_At": "2026-11-19",
       "Company": "Viatris LATAM",
       "Email": "hilda.low@viatris.com",
@@ -14664,6 +14697,7 @@
   {
     "createdTime": "2026-11-19T21:04:40.000Z",
     "fields": {
+      "Approval": "Pending Review",
       "Collected_At": "2026-11-19",
       "Company": "Teva Pharmaceuticals",
       "Email": "riad.dirani@tevapharm.com",
@@ -15354,6 +15388,7 @@
   {
     "createdTime": "2026-11-19T21:04:40.000Z",
     "fields": {
+      "Approval": "Pending Review",
       "Collected_At": "2026-11-19",
       "Company": "FIFARMA",
       "Email": "slay@fifarma.org",

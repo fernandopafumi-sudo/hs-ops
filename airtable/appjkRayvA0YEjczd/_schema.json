@@ -3858,6 +3858,16 @@
               "color": "blueLight2",
               "id": "selHIFF6QNd2NF9SE",
               "name": "Organismo/gremio"
+            },
+            {
+              "color": "blueLight2",
+              "id": "selk4kPTPFFXmyftm",
+              "name": "Legislador"
+            },
+            {
+              "color": "blueLight2",
+              "id": "selWdmfeV88qHIC8W",
+              "name": "Pharma market access"
             }
           ]
         },
@@ -6487,6 +6497,21 @@
               "color": "grayLight2",
               "id": "selaoh4bjYWsvou2o",
               "name": "test"
+            },
+            {
+              "color": "blueLight2",
+              "id": "sel7Fg2VToQFAA5G9",
+              "name": "pharma-policy"
+            },
+            {
+              "color": "cyanLight2",
+              "id": "selI0fniUcv0UGOFP",
+              "name": "pharma-access"
+            },
+            {
+              "color": "tealLight2",
+              "id": "selskAn5ACGQO2MOQ",
+              "name": "pharma-comms"
             }
           ]
         },
@@ -6718,6 +6743,21 @@
               "color": "blueLight2",
               "id": "selE3Qwe17DldoQBE",
               "name": "pt"
+            },
+            {
+              "color": "blueLight2",
+              "id": "selFWHI98i5xTG7im",
+              "name": "English"
+            },
+            {
+              "color": "cyanLight2",
+              "id": "selyohixAnB5xBqkB",
+              "name": "Portuguese"
+            },
+            {
+              "color": "blueLight2",
+              "id": "selJLkvWilZJvBYl3",
+              "name": "Spanish"
             }
           ]
         },

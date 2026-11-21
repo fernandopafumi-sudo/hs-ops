@@ -308,7 +308,7 @@
         "mapper": {
           "name": "title_clean",
           "scope": "roundtrip",
-          "value": "{{replace(replace(replace(replace(replace(replace(replace(replace(35.data.title.rendered; \"&#8217;\"; \"’\"); \"&#8216;\"; \"‘\"); \"&#8211;\"; \"–\"); \"&#8212;\"; \"—\"); \"&#8220;\"; \"“\"); \"&#8221;\"; \"”\"); \"&#038;\"; \"&\"); \"&amp;\"; \"&\")}}"
+          "value": "{{replace(replace(replace(replace(replace(replace(replace(replace(35.data.title.rendered; \"&#8217;\"; \"'\"); \"&#8216;\"; \"'\"); \"&#8211;\"; \"–\"); \"&#8212;\"; \"—\"); \"&#8220;\"; \"“\"); \"&#8221;\"; \"”\"); \"&#038;\"; \"&\"); \"&amp;\"; \"&\")}}"
         },
         "metadata": {
           "designer": {
@@ -325,7 +325,7 @@
         "mapper": {
           "name": "fallback",
           "scope": "roundtrip",
-          "value": "{{45.title_clean}}\n\n{{trim(replace(replace(replace(replace(replace(replace(replace(replace(stripHTML(35.data.excerpt.rendered); \"&#8217;\"; \"’\"); \"&#8216;\"; \"‘\"); \"&#8211;\"; \"–\"); \"&#8212;\"; \"—\"); \"&#8220;\"; \"“\"); \"&#8221;\"; \"”\"); \"&#038;\"; \"&\"); \"&amp;\"; \"&\"))}}"
+          "value": "{{45.title_clean}}\n\n{{trim(replace(replace(replace(replace(replace(replace(replace(replace(stripHTML(35.data.excerpt.rendered); \"&#8217;\"; \"'\"); \"&#8216;\"; \"'\"); \"&#8211;\"; \"–\"); \"&#8212;\"; \"—\"); \"&#8220;\"; \"“\"); \"&#8221;\"; \"”\"); \"&#038;\"; \"&\"); \"&amp;\"; \"&\"))}}"
         },
         "metadata": {
           "designer": {
