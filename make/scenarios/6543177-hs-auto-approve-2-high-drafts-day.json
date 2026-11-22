@@ -143,15 +143,1084 @@
         "version": 1
       },
       {
+        "id": 20,
+        "mapper": {
+          "dateTimeRenderOption": "FORMATTED_STRING",
+          "fieldType": "string",
+          "filter": [
+            [
+              {
+                "a": "P",
+                "b": "draft",
+                "o": "text:equal"
+              },
+              {
+                "a": "O",
+                "b": "high",
+                "o": "text:equal"
+              },
+              {
+                "a": "C",
+                "b": "EX-99",
+                "o": "text:notcontain"
+              },
+              {
+                "a": "W",
+                "o": "notexist"
+              },
+              {
+                "a": "E",
+                "b": "latam",
+                "o": "text:contain:ci"
+              }
+            ],
+            [
+              {
+                "a": "P",
+                "b": "draft",
+                "o": "text:equal"
+              },
+              {
+                "a": "O",
+                "b": "high",
+                "o": "text:equal"
+              },
+              {
+                "a": "C",
+                "b": "EX-99",
+                "o": "text:notcontain"
+              },
+              {
+                "a": "W",
+                "o": "notexist"
+              },
+              {
+                "a": "E",
+                "b": "latin",
+                "o": "text:contain:ci"
+              }
+            ],
+            [
+              {
+                "a": "P",
+                "b": "draft",
+                "o": "text:equal"
+              },
+              {
+                "a": "O",
+                "b": "high",
+                "o": "text:equal"
+              },
+              {
+                "a": "C",
+                "b": "EX-99",
+                "o": "text:notcontain"
+              },
+              {
+                "a": "W",
+                "o": "notexist"
+              },
+              {
+                "a": "E",
+                "b": "argentin",
+                "o": "text:contain:ci"
+              }
+            ],
+            [
+              {
+                "a": "P",
+                "b": "draft",
+                "o": "text:equal"
+              },
+              {
+                "a": "O",
+                "b": "high",
+                "o": "text:equal"
+              },
+              {
+                "a": "C",
+                "b": "EX-99",
+                "o": "text:notcontain"
+              },
+              {
+                "a": "W",
+                "o": "notexist"
+              },
+              {
+                "a": "E",
+                "b": "brazil",
+                "o": "text:contain:ci"
+              }
+            ],
+            [
+              {
+                "a": "P",
+                "b": "draft",
+                "o": "text:equal"
+              },
+              {
+                "a": "O",
+                "b": "high",
+                "o": "text:equal"
+              },
+              {
+                "a": "C",
+                "b": "EX-99",
+                "o": "text:notcontain"
+              },
+              {
+                "a": "W",
+                "o": "notexist"
+              },
+              {
+                "a": "E",
+                "b": "brasil",
+                "o": "text:contain:ci"
+              }
+            ],
+            [
+              {
+                "a": "P",
+                "b": "draft",
+                "o": "text:equal"
+              },
+              {
+                "a": "O",
+                "b": "high",
+                "o": "text:equal"
+              },
+              {
+                "a": "C",
+                "b": "EX-99",
+                "o": "text:notcontain"
+              },
+              {
+                "a": "W",
+                "o": "notexist"
+              },
+              {
+                "a": "E",
+                "b": "mexic",
+                "o": "text:contain:ci"
+              }
+            ],
+            [
+              {
+                "a": "P",
+                "b": "draft",
+                "o": "text:equal"
+              },
+              {
+                "a": "O",
+                "b": "high",
+                "o": "text:equal"
+              },
+              {
+                "a": "C",
+                "b": "EX-99",
+                "o": "text:notcontain"
+              },
+              {
+                "a": "W",
+                "o": "notexist"
+              },
+              {
+                "a": "E",
+                "b": "méxic",
+                "o": "text:contain:ci"
+              }
+            ],
+            [
+              {
+                "a": "P",
+                "b": "draft",
+                "o": "text:equal"
+              },
+              {
+                "a": "O",
+                "b": "high",
+                "o": "text:equal"
+              },
+              {
+                "a": "C",
+                "b": "EX-99",
+                "o": "text:notcontain"
+              },
+              {
+                "a": "W",
+                "o": "notexist"
+              },
+              {
+                "a": "E",
+                "b": "colombi",
+                "o": "text:contain:ci"
+              }
+            ],
+            [
+              {
+                "a": "P",
+                "b": "draft",
+                "o": "text:equal"
+              },
+              {
+                "a": "O",
+                "b": "high",
+                "o": "text:equal"
+              },
+              {
+                "a": "C",
+                "b": "EX-99",
+                "o": "text:notcontain"
+              },
+              {
+                "a": "W",
+                "o": "notexist"
+              },
+              {
+                "a": "E",
+                "b": "chile",
+                "o": "text:contain:ci"
+              }
+            ],
+            [
+              {
+                "a": "P",
+                "b": "draft",
+                "o": "text:equal"
+              },
+              {
+                "a": "O",
+                "b": "high",
+                "o": "text:equal"
+              },
+              {
+                "a": "C",
+                "b": "EX-99",
+                "o": "text:notcontain"
+              },
+              {
+                "a": "W",
+                "o": "notexist"
+              },
+              {
+                "a": "E",
+                "b": "peru",
+                "o": "text:contain:ci"
+              }
+            ],
+            [
+              {
+                "a": "P",
+                "b": "draft",
+                "o": "text:equal"
+              },
+              {
+                "a": "O",
+                "b": "high",
+                "o": "text:equal"
+              },
+              {
+                "a": "C",
+                "b": "EX-99",
+                "o": "text:notcontain"
+              },
+              {
+                "a": "W",
+                "o": "notexist"
+              },
+              {
+                "a": "E",
+                "b": "perú",
+                "o": "text:contain:ci"
+              }
+            ],
+            [
+              {
+                "a": "P",
+                "b": "draft",
+                "o": "text:equal"
+              },
+              {
+                "a": "O",
+                "b": "high",
+                "o": "text:equal"
+              },
+              {
+                "a": "C",
+                "b": "EX-99",
+                "o": "text:notcontain"
+              },
+              {
+                "a": "W",
+                "o": "notexist"
+              },
+              {
+                "a": "E",
+                "b": "panam",
+                "o": "text:contain:ci"
+              }
+            ],
+            [
+              {
+                "a": "P",
+                "b": "draft",
+                "o": "text:equal"
+              },
+              {
+                "a": "O",
+                "b": "high",
+                "o": "text:equal"
+              },
+              {
+                "a": "C",
+                "b": "EX-99",
+                "o": "text:notcontain"
+              },
+              {
+                "a": "W",
+                "o": "notexist"
+              },
+              {
+                "a": "E",
+                "b": "costa rica",
+                "o": "text:contain:ci"
+              }
+            ],
+            [
+              {
+                "a": "P",
+                "b": "draft",
+                "o": "text:equal"
+              },
+              {
+                "a": "O",
+                "b": "high",
+                "o": "text:equal"
+              },
+              {
+                "a": "C",
+                "b": "EX-99",
+                "o": "text:notcontain"
+              },
+              {
+                "a": "W",
+                "o": "notexist"
+              },
+              {
+                "a": "E",
+                "b": "ecuador",
+                "o": "text:contain:ci"
+              }
+            ],
+            [
+              {
+                "a": "P",
+                "b": "draft",
+                "o": "text:equal"
+              },
+              {
+                "a": "O",
+                "b": "high",
+                "o": "text:equal"
+              },
+              {
+                "a": "C",
+                "b": "EX-99",
+                "o": "text:notcontain"
+              },
+              {
+                "a": "W",
+                "o": "notexist"
+              },
+              {
+                "a": "E",
+                "b": "urugua",
+                "o": "text:contain:ci"
+              }
+            ],
+            [
+              {
+                "a": "P",
+                "b": "draft",
+                "o": "text:equal"
+              },
+              {
+                "a": "O",
+                "b": "high",
+                "o": "text:equal"
+              },
+              {
+                "a": "C",
+                "b": "EX-99",
+                "o": "text:notcontain"
+              },
+              {
+                "a": "W",
+                "o": "notexist"
+              },
+              {
+                "a": "E",
+                "b": "paragua",
+                "o": "text:contain:ci"
+              }
+            ],
+            [
+              {
+                "a": "P",
+                "b": "draft",
+                "o": "text:equal"
+              },
+              {
+                "a": "O",
+                "b": "high",
+                "o": "text:equal"
+              },
+              {
+                "a": "C",
+                "b": "EX-99",
+                "o": "text:notcontain"
+              },
+              {
+                "a": "W",
+                "o": "notexist"
+              },
+              {
+                "a": "E",
+                "b": "bolivia",
+                "o": "text:contain:ci"
+              }
+            ],
+            [
+              {
+                "a": "P",
+                "b": "draft",
+                "o": "text:equal"
+              },
+              {
+                "a": "O",
+                "b": "high",
+                "o": "text:equal"
+              },
+              {
+                "a": "C",
+                "b": "EX-99",
+                "o": "text:notcontain"
+              },
+              {
+                "a": "W",
+                "o": "notexist"
+              },
+              {
+                "a": "E",
+                "b": "venezuela",
+                "o": "text:contain:ci"
+              }
+            ],
+            [
+              {
+                "a": "P",
+                "b": "draft",
+                "o": "text:equal"
+              },
+              {
+                "a": "O",
+                "b": "high",
+                "o": "text:equal"
+              },
+              {
+                "a": "C",
+                "b": "EX-99",
+                "o": "text:notcontain"
+              },
+              {
+                "a": "W",
+                "o": "notexist"
+              },
+              {
+                "a": "E",
+                "b": "dominic",
+                "o": "text:contain:ci"
+              }
+            ],
+            [
+              {
+                "a": "P",
+                "b": "draft",
+                "o": "text:equal"
+              },
+              {
+                "a": "O",
+                "b": "high",
+                "o": "text:equal"
+              },
+              {
+                "a": "C",
+                "b": "EX-99",
+                "o": "text:notcontain"
+              },
+              {
+                "a": "W",
+                "o": "notexist"
+              },
+              {
+                "a": "E",
+                "b": "guatemala",
+                "o": "text:contain:ci"
+              }
+            ],
+            [
+              {
+                "a": "P",
+                "b": "draft",
+                "o": "text:equal"
+              },
+              {
+                "a": "O",
+                "b": "high",
+                "o": "text:equal"
+              },
+              {
+                "a": "C",
+                "b": "EX-99",
+                "o": "text:notcontain"
+              },
+              {
+                "a": "W",
+                "o": "notexist"
+              },
+              {
+                "a": "E",
+                "b": "honduras",
+                "o": "text:contain:ci"
+              }
+            ],
+            [
+              {
+                "a": "P",
+                "b": "draft",
+                "o": "text:equal"
+              },
+              {
+                "a": "O",
+                "b": "high",
+                "o": "text:equal"
+              },
+              {
+                "a": "C",
+                "b": "EX-99",
+                "o": "text:notcontain"
+              },
+              {
+                "a": "W",
+                "o": "notexist"
+              },
+              {
+                "a": "E",
+                "b": "salvador",
+                "o": "text:contain:ci"
+              }
+            ],
+            [
+              {
+                "a": "P",
+                "b": "draft",
+                "o": "text:equal"
+              },
+              {
+                "a": "O",
+                "b": "high",
+                "o": "text:equal"
+              },
+              {
+                "a": "C",
+                "b": "EX-99",
+                "o": "text:notcontain"
+              },
+              {
+                "a": "W",
+                "o": "notexist"
+              },
+              {
+                "a": "E",
+                "b": "nicaragua",
+                "o": "text:contain:ci"
+              }
+            ],
+            [
+              {
+                "a": "P",
+                "b": "draft",
+                "o": "text:equal"
+              },
+              {
+                "a": "O",
+                "b": "high",
+                "o": "text:equal"
+              },
+              {
+                "a": "C",
+                "b": "EX-99",
+                "o": "text:notcontain"
+              },
+              {
+                "a": "W",
+                "o": "notexist"
+              },
+              {
+                "a": "E",
+                "b": "caribbean",
+                "o": "text:contain:ci"
+              }
+            ],
+            [
+              {
+                "a": "P",
+                "b": "draft",
+                "o": "text:equal"
+              },
+              {
+                "a": "O",
+                "b": "high",
+                "o": "text:equal"
+              },
+              {
+                "a": "C",
+                "b": "EX-99",
+                "o": "text:notcontain"
+              },
+              {
+                "a": "W",
+                "o": "notexist"
+              },
+              {
+                "a": "E",
+                "b": "andean",
+                "o": "text:contain:ci"
+              }
+            ],
+            [
+              {
+                "a": "P",
+                "b": "draft",
+                "o": "text:equal"
+              },
+              {
+                "a": "O",
+                "b": "high",
+                "o": "text:equal"
+              },
+              {
+                "a": "C",
+                "b": "EX-99",
+                "o": "text:notcontain"
+              },
+              {
+                "a": "W",
+                "o": "notexist"
+              },
+              {
+                "a": "E",
+                "b": "andin",
+                "o": "text:contain:ci"
+              }
+            ],
+            [
+              {
+                "a": "P",
+                "b": "draft",
+                "o": "text:equal"
+              },
+              {
+                "a": "O",
+                "b": "high",
+                "o": "text:equal"
+              },
+              {
+                "a": "C",
+                "b": "EX-99",
+                "o": "text:notcontain"
+              },
+              {
+                "a": "W",
+                "o": "notexist"
+              },
+              {
+                "a": "E",
+                "b": "southern cone",
+                "o": "text:contain:ci"
+              }
+            ],
+            [
+              {
+                "a": "P",
+                "b": "draft",
+                "o": "text:equal"
+              },
+              {
+                "a": "O",
+                "b": "high",
+                "o": "text:equal"
+              },
+              {
+                "a": "C",
+                "b": "EX-99",
+                "o": "text:notcontain"
+              },
+              {
+                "a": "W",
+                "o": "notexist"
+              },
+              {
+                "a": "E",
+                "b": "cono sur",
+                "o": "text:contain:ci"
+              }
+            ],
+            [
+              {
+                "a": "P",
+                "b": "draft",
+                "o": "text:equal"
+              },
+              {
+                "a": "O",
+                "b": "high",
+                "o": "text:equal"
+              },
+              {
+                "a": "C",
+                "b": "EX-99",
+                "o": "text:notcontain"
+              },
+              {
+                "a": "W",
+                "o": "notexist"
+              },
+              {
+                "a": "E",
+                "b": "central america",
+                "o": "text:contain:ci"
+              }
+            ]
+          ],
+          "from": "drive",
+          "includesHeaders": true,
+          "limit": "15",
+          "orderBy": "B",
+          "sheetId": "Editorial Queue",
+          "sortOrder": "desc",
+          "spreadsheetId": "1J8ca4Pvp3HTSdHqq9-TZ1H-nF6_fM5R3Jm1bf9bAU8A",
+          "tableFirstRow": "A1:CZ1",
+          "valueRenderOption": "FORMATTED_VALUE"
+        },
+        "metadata": {
+          "designer": {
+            "x": 600,
+            "y": 0
+          }
+        },
+        "module": "google-sheets:filterRows",
+        "parameters": {
+          "__IMTCONN__": 8923977
+        },
+        "version": 2
+      },
+      {
         "filter": {
           "conditions": [
             [
               {
-                "a": "{{12.text}}",
+                "a": "|{{11.text}}|",
+                "b": "|{{20.`40`}}|",
+                "o": "text:notcontain"
+              },
+              {
+                "a": "{{20.`__ROW_NUMBER__`}}",
+                "o": "exist"
+              }
+            ]
+          ],
+          "name": "no duplicada (signal_hash no visto)"
+        },
+        "id": 21,
+        "mapper": {
+          "value": "{{20.`__ROW_NUMBER__`}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 900,
+            "y": 0
+          }
+        },
+        "module": "util:TextAggregator",
+        "parameters": {
+          "feeder": 20,
+          "otherRowSeparator": ",",
+          "rowSeparator": "other"
+        },
+        "version": 1
+      },
+      {
+        "id": 22,
+        "mapper": {
+          "dateTimeRenderOption": "FORMATTED_STRING",
+          "fieldType": "string",
+          "filter": [
+            [
+              {
+                "a": "P",
+                "b": "draft",
+                "o": "text:equal"
+              },
+              {
+                "a": "O",
+                "b": "high",
+                "o": "text:equal"
+              },
+              {
+                "a": "C",
+                "b": "EX-99",
+                "o": "text:notcontain"
+              },
+              {
+                "a": "W",
+                "o": "notexist"
+              },
+              {
+                "a": "E",
+                "b": "latam",
+                "o": "text:notcontain:ci"
+              },
+              {
+                "a": "E",
+                "b": "latin",
+                "o": "text:notcontain:ci"
+              },
+              {
+                "a": "E",
+                "b": "argentin",
+                "o": "text:notcontain:ci"
+              },
+              {
+                "a": "E",
+                "b": "brazil",
+                "o": "text:notcontain:ci"
+              },
+              {
+                "a": "E",
+                "b": "brasil",
+                "o": "text:notcontain:ci"
+              },
+              {
+                "a": "E",
+                "b": "mexic",
+                "o": "text:notcontain:ci"
+              },
+              {
+                "a": "E",
+                "b": "méxic",
+                "o": "text:notcontain:ci"
+              },
+              {
+                "a": "E",
+                "b": "colombi",
+                "o": "text:notcontain:ci"
+              },
+              {
+                "a": "E",
+                "b": "chile",
+                "o": "text:notcontain:ci"
+              },
+              {
+                "a": "E",
+                "b": "peru",
+                "o": "text:notcontain:ci"
+              },
+              {
+                "a": "E",
+                "b": "perú",
+                "o": "text:notcontain:ci"
+              },
+              {
+                "a": "E",
+                "b": "panam",
+                "o": "text:notcontain:ci"
+              },
+              {
+                "a": "E",
+                "b": "costa rica",
+                "o": "text:notcontain:ci"
+              },
+              {
+                "a": "E",
+                "b": "ecuador",
+                "o": "text:notcontain:ci"
+              },
+              {
+                "a": "E",
+                "b": "urugua",
+                "o": "text:notcontain:ci"
+              },
+              {
+                "a": "E",
+                "b": "paragua",
+                "o": "text:notcontain:ci"
+              },
+              {
+                "a": "E",
+                "b": "bolivia",
+                "o": "text:notcontain:ci"
+              },
+              {
+                "a": "E",
+                "b": "venezuela",
+                "o": "text:notcontain:ci"
+              },
+              {
+                "a": "E",
+                "b": "dominic",
+                "o": "text:notcontain:ci"
+              },
+              {
+                "a": "E",
+                "b": "guatemala",
+                "o": "text:notcontain:ci"
+              },
+              {
+                "a": "E",
+                "b": "honduras",
+                "o": "text:notcontain:ci"
+              },
+              {
+                "a": "E",
+                "b": "salvador",
+                "o": "text:notcontain:ci"
+              },
+              {
+                "a": "E",
+                "b": "nicaragua",
+                "o": "text:notcontain:ci"
+              },
+              {
+                "a": "E",
+                "b": "caribbean",
+                "o": "text:notcontain:ci"
+              },
+              {
+                "a": "E",
+                "b": "andean",
+                "o": "text:notcontain:ci"
+              },
+              {
+                "a": "E",
+                "b": "andin",
+                "o": "text:notcontain:ci"
+              },
+              {
+                "a": "E",
+                "b": "southern cone",
+                "o": "text:notcontain:ci"
+              },
+              {
+                "a": "E",
+                "b": "cono sur",
+                "o": "text:notcontain:ci"
+              },
+              {
+                "a": "E",
+                "b": "central america",
+                "o": "text:notcontain:ci"
+              }
+            ]
+          ],
+          "from": "drive",
+          "includesHeaders": true,
+          "limit": "15",
+          "orderBy": "B",
+          "sheetId": "Editorial Queue",
+          "sortOrder": "desc",
+          "spreadsheetId": "1J8ca4Pvp3HTSdHqq9-TZ1H-nF6_fM5R3Jm1bf9bAU8A",
+          "tableFirstRow": "A1:CZ1",
+          "valueRenderOption": "FORMATTED_VALUE"
+        },
+        "metadata": {
+          "designer": {
+            "x": 1200,
+            "y": 0
+          }
+        },
+        "module": "google-sheets:filterRows",
+        "parameters": {
+          "__IMTCONN__": 8923977
+        },
+        "version": 2
+      },
+      {
+        "filter": {
+          "conditions": [
+            [
+              {
+                "a": "|{{11.text}}|",
+                "b": "|{{22.`40`}}|",
+                "o": "text:notcontain"
+              },
+              {
+                "a": "{{22.`__ROW_NUMBER__`}}",
+                "o": "exist"
+              }
+            ]
+          ],
+          "name": "no duplicada (signal_hash no visto)"
+        },
+        "id": 23,
+        "mapper": {
+          "value": "{{22.`__ROW_NUMBER__`}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 1500,
+            "y": 0
+          }
+        },
+        "module": "util:TextAggregator",
+        "parameters": {
+          "feeder": 22,
+          "otherRowSeparator": ",",
+          "rowSeparator": "other"
+        },
+        "version": 1
+      },
+      {
+        "id": 13,
+        "mapper": {
+          "scope": "roundtrip",
+          "variables": [
+            {
+              "name": "ord",
+              "value": "{{first(remove(split(21.text; \",\"); \"\"))}},{{first(remove(split(23.text; \",\"); \"\"))}},{{12.text}}"
+            }
+          ]
+        },
+        "metadata": {
+          "designer": {
+            "x": 1800,
+            "y": 0
+          }
+        },
+        "module": "util:SetVariables",
+        "parameters": {},
+        "version": 1
+      },
+      {
+        "filter": {
+          "conditions": [
+            [
+              {
+                "a": "{{get(distinct(remove(split(13.ord; \",\"); \"\")); 1)}}",
                 "o": "exist"
               },
               {
-                "a": "{{12.text}}",
+                "a": "{{get(distinct(remove(split(13.ord; \",\"); \"\")); 1)}}",
                 "b": "",
                 "o": "text:notequal"
               }
@@ -164,20 +1233,20 @@
           "from": "drive",
           "includesHeaders": true,
           "mode": "select",
-          "rowNumber": "{{first(split(12.text; \",\"))}}",
+          "rowNumber": "{{get(distinct(remove(split(13.ord; \",\"); \"\")); 1)}}",
           "sheetId": "Editorial Queue",
           "spreadsheetId": "1J8ca4Pvp3HTSdHqq9-TZ1H-nF6_fM5R3Jm1bf9bAU8A",
           "useColumnHeaders": true,
           "valueInputOption": "USER_ENTERED",
           "values": {
             "Approved By": "Fer (auto 2/dia high, desde 22-11)",
-            "Current Step": "approved auto {{formatDate(now; \"YYYY-MM-DD\")}} (2/dia high, dedup, 1a)",
+            "Current Step": "approved auto {{formatDate(now; \"YYYY-MM-DD\")}} (2/dia high, dedup, balance LatAm/US, 1a)",
             "Status": "approved"
           }
         },
         "metadata": {
           "designer": {
-            "x": 600,
+            "x": 2100,
             "y": 0
           }
         },
@@ -192,37 +1261,37 @@
           "conditions": [
             [
               {
-                "a": "{{get(split(12.text; \",\"); 2)}}",
+                "a": "{{get(distinct(remove(split(13.ord; \",\"); \"\")); 2)}}",
                 "o": "exist"
               },
               {
-                "a": "{{get(split(12.text; \",\"); 2)}}",
-                "b": "{{first(split(12.text; \",\"))}}",
+                "a": "{{get(distinct(remove(split(13.ord; \",\"); \"\")); 2)}}",
+                "b": "{{get(distinct(remove(split(13.ord; \",\"); \"\")); 1)}}",
                 "o": "text:notequal"
               }
             ]
           ],
-          "name": "hay segunda candidata"
+          "name": "hay segunda candidata distinta"
         },
         "id": 3,
         "mapper": {
           "from": "drive",
           "includesHeaders": true,
           "mode": "select",
-          "rowNumber": "{{get(split(12.text; \",\"); 2)}}",
+          "rowNumber": "{{get(distinct(remove(split(13.ord; \",\"); \"\")); 2)}}",
           "sheetId": "Editorial Queue",
           "spreadsheetId": "1J8ca4Pvp3HTSdHqq9-TZ1H-nF6_fM5R3Jm1bf9bAU8A",
           "useColumnHeaders": true,
           "valueInputOption": "USER_ENTERED",
           "values": {
             "Approved By": "Fer (auto 2/dia high, desde 22-11)",
-            "Current Step": "approved auto {{formatDate(now; \"YYYY-MM-DD\")}} (2/dia high, dedup, 2a)",
+            "Current Step": "approved auto {{formatDate(now; \"YYYY-MM-DD\")}} (2/dia high, dedup, balance LatAm/US, 2a)",
             "Status": "approved"
           }
         },
         "metadata": {
           "designer": {
-            "x": 900,
+            "x": 2400,
             "y": 0
           }
         },

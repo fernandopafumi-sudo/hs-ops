@@ -3197,6 +3197,26 @@
           }
         },
         "type": "date"
+      },
+      {
+        "description": "Score 0-6 para ordenar la revisión en lote: +3 si el Segment es función ICP (Market Access/Economics, Government/Policy, Pharma - Regulatory/Medical), +1 si es stakeholder medio (Provider/Payer, Healthcare Professional, Research/Academic); +3 si el Title tiene palabra de seniority alta (Chief/CEO/President/VP/Head/Director), +1 si tiene seniority media (Senior/Manager/Gerente/Lead). Creado 21-11-2026 para la cola de revisión en lote.",
+        "id": "fldLjvmQwOeZUmRNM",
+        "name": "Priority_Score",
+        "options": {
+          "formula": "IF(OR({fldy997S4tV9qjXWg}=\"Market Access/Economics\",{fldy997S4tV9qjXWg}=\"Government/Policy\",{fldy997S4tV9qjXWg}=\"Pharma - Regulatory/Medical\"),3,IF(OR({fldy997S4tV9qjXWg}=\"Provider/Payer\",{fldy997S4tV9qjXWg}=\"Healthcare Professional\",{fldy997S4tV9qjXWg}=\"Research/Academic\"),1,0)) + IF(OR(FIND(\"CHIEF\",UPPER({fldynfqp80Dkvzggj}))>0,FIND(\"CEO\",UPPER({fldynfqp80Dkvzggj}))>0,FIND(\"PRESIDENT\",UPPER({fldynfqp80Dkvzggj}))>0,FIND(\"VP\",UPPER({fldynfqp80Dkvzggj}))>0,FIND(\"VICE PRESIDENT\",UPPER({fldynfqp80Dkvzggj}))>0,FIND(\"HEAD\",UPPER({fldynfqp80Dkvzggj}))>0,FIND(\"DIRECTOR\",UPPER({fldynfqp80Dkvzggj}))>0),3,IF(OR(FIND(\"SENIOR\",UPPER({fldynfqp80Dkvzggj}))>0,FIND(\"MANAGER\",UPPER({fldynfqp80Dkvzggj}))>0,FIND(\"GERENTE\",UPPER({fldynfqp80Dkvzggj}))>0,FIND(\"LEAD\",UPPER({fldynfqp80Dkvzggj}))>0),1,0))",
+          "isValid": true,
+          "referencedFieldIds": [
+            "fldy997S4tV9qjXWg",
+            "fldynfqp80Dkvzggj"
+          ],
+          "result": {
+            "options": {
+              "precision": 0
+            },
+            "type": "number"
+          }
+        },
+        "type": "formula"
       }
     ],
     "id": "tblfCpzJLRixXNy7G",
@@ -3205,7 +3225,7 @@
     "views": [
       {
         "id": "viwppkCT3RLkWV7IO",
-        "name": "Grid view",
+        "name": "Top prioridad para revisar",
         "type": "grid"
       }
     ]

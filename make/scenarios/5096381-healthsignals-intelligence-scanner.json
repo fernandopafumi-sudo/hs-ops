@@ -191,6 +191,13 @@
                 },
                 "metadata": {
                   "designer": {
+                    "messages": [
+                      {
+                        "category": "share",
+                        "message": "This module may contain parts which cannot be shared completely.",
+                        "severity": "warning"
+                      }
+                    ],
                     "x": 1200,
                     "y": 0
                   }
@@ -407,6 +414,13 @@
                 },
                 "metadata": {
                   "designer": {
+                    "messages": [
+                      {
+                        "category": "share",
+                        "message": "This module may contain parts which cannot be shared completely.",
+                        "severity": "warning"
+                      }
+                    ],
                     "x": 1200,
                     "y": 0
                   }
@@ -624,6 +638,13 @@
                 },
                 "metadata": {
                   "designer": {
+                    "messages": [
+                      {
+                        "category": "share",
+                        "message": "This module may contain parts which cannot be shared completely.",
+                        "severity": "warning"
+                      }
+                    ],
                     "x": 1200,
                     "y": 0
                   }
@@ -835,6 +856,13 @@
                 },
                 "metadata": {
                   "designer": {
+                    "messages": [
+                      {
+                        "category": "share",
+                        "message": "This module may contain parts which cannot be shared completely.",
+                        "severity": "warning"
+                      }
+                    ],
                     "x": 1200,
                     "y": 0
                   }
@@ -1089,6 +1117,13 @@
                 },
                 "metadata": {
                   "designer": {
+                    "messages": [
+                      {
+                        "category": "share",
+                        "message": "This module may contain parts which cannot be shared completely.",
+                        "severity": "warning"
+                      }
+                    ],
                     "x": 1200,
                     "y": 0
                   }
@@ -1296,6 +1331,13 @@
                 },
                 "metadata": {
                   "designer": {
+                    "messages": [
+                      {
+                        "category": "share",
+                        "message": "This module may contain parts which cannot be shared completely.",
+                        "severity": "warning"
+                      }
+                    ],
                     "x": 1200,
                     "y": 300
                   }
@@ -1549,6 +1591,13 @@
                 },
                 "metadata": {
                   "designer": {
+                    "messages": [
+                      {
+                        "category": "share",
+                        "message": "This module may contain parts which cannot be shared completely.",
+                        "severity": "warning"
+                      }
+                    ],
                     "x": 1200,
                     "y": 600
                   }
@@ -1768,6 +1817,13 @@
                 },
                 "metadata": {
                   "designer": {
+                    "messages": [
+                      {
+                        "category": "share",
+                        "message": "This module may contain parts which cannot be shared completely.",
+                        "severity": "warning"
+                      }
+                    ],
                     "x": 1200,
                     "y": 900
                   }
@@ -1999,6 +2055,13 @@
                 },
                 "metadata": {
                   "designer": {
+                    "messages": [
+                      {
+                        "category": "share",
+                        "message": "This module may contain parts which cannot be shared completely.",
+                        "severity": "warning"
+                      }
+                    ],
                     "x": 1200,
                     "y": 1200
                   }
@@ -2220,6 +2283,13 @@
                 },
                 "metadata": {
                   "designer": {
+                    "messages": [
+                      {
+                        "category": "share",
+                        "message": "This module may contain parts which cannot be shared completely.",
+                        "severity": "warning"
+                      }
+                    ],
                     "x": 1200,
                     "y": 1500
                   }
@@ -2429,6 +2499,13 @@
                 },
                 "metadata": {
                   "designer": {
+                    "messages": [
+                      {
+                        "category": "share",
+                        "message": "This module may contain parts which cannot be shared completely.",
+                        "severity": "warning"
+                      }
+                    ],
                     "x": 1200,
                     "y": 1800
                   }
@@ -2652,6 +2729,13 @@
                 },
                 "metadata": {
                   "designer": {
+                    "messages": [
+                      {
+                        "category": "share",
+                        "message": "This module may contain parts which cannot be shared completely.",
+                        "severity": "warning"
+                      }
+                    ],
                     "x": 1200,
                     "y": 2100
                   }
@@ -2852,6 +2936,13 @@
                 },
                 "metadata": {
                   "designer": {
+                    "messages": [
+                      {
+                        "category": "share",
+                        "message": "This module may contain parts which cannot be shared completely.",
+                        "severity": "warning"
+                      }
+                    ],
                     "x": 1200,
                     "y": 2400
                   }
@@ -2922,6 +3013,440 @@
                       "designer": {
                         "x": 1350,
                         "y": 2480
+                      }
+                    },
+                    "module": "builtin:Ignore",
+                    "version": 1
+                  }
+                ],
+                "parameters": {
+                  "__IMTCONN__": 8923977
+                },
+                "version": 2
+              }
+            ]
+          },
+          {
+            "flow": [
+              {
+                "id": 250,
+                "mapper": {
+                  "contents": {
+                    "text": {
+                      "maxCharacters": 2000
+                    }
+                  },
+                  "includeContent": true,
+                  "includeDomains": [
+                    "fda.gov",
+                    "cms.gov",
+                    "medtechdive.com",
+                    "massdevice.com",
+                    "fiercebiotech.com",
+                    "raps.org",
+                    "statnews.com",
+                    "medcitynews.com",
+                    "mobihealthnews.com",
+                    "reuters.com",
+                    "businesswire.com",
+                    "prnewswire.com",
+                    "globenewswire.com"
+                  ],
+                  "numResults": 3,
+                  "query": "US medical device and medtech news: FDA 510(k) clearance OR PMA approval OR De Novo authorization OR breakthrough device designation OR Class I device recall OR CMS coverage or payment for medical devices and diagnostics (NCD, TCET, new technology add-on payment) OR medtech earnings, acquisitions and investments, in cardiovascular devices, diabetes and continuous glucose monitors, neuromodulation, orthopedics, surgical robotics, in vitro diagnostics, imaging and AI-enabled devices.",
+                  "startPublishedDate": "{{formatDate(addDays(now; -14); \"YYYY-MM-DD\")}}",
+                  "type": "neural",
+                  "useAutoprompt": true
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 600,
+                    "y": 2700
+                  }
+                },
+                "module": "exa-ai:performASearchWithContent",
+                "parameters": {
+                  "__IMTCONN__": 8984010
+                },
+                "version": 1
+              },
+              {
+                "filter": {
+                  "conditions": [
+                    [
+                      {
+                        "a": "{{91.text}}",
+                        "b": "{{250.url}}",
+                        "o": "text:notcontain"
+                      }
+                    ]
+                  ],
+                  "name": "no duplicado"
+                },
+                "id": 251,
+                "mapper": {
+                  "max_tokens": 500,
+                  "messages": [
+                    {
+                      "content": "Return exactly one valid JSON object and nothing else: no markdown, no code fences, no text before or after. It must parse with JSON.parse. Each string value under 15 words, single line. If a value would contain a double quote, rephrase to avoid it.\nTITLE: {{250.title}}\nEXCERPT: {{substring(250.text; 0; 900)}}\n\nSchema (all string values):\ncategory: one of [medical devices, market access, drug pricing, pharma regulation, M&A, clinical catalyst, oncology, manufacturing, digital health, ai healthcare, payer systems, public health, litigation, health systems & disease burden]\ncountry: single country name or Global\ncompany: main institution or company\nangle: one affirmative sentence\nwhy_it_matters: one sentence\npatients_impact: one sentence\nindustry_impact: one sentence\nlitigation_risk: low, medium or high\npriority: breaking, high, medium or low. If the item is not mainly about a medical device, diagnostic or imaging system, a medtech company, or device regulation, coverage or procurement, set priority to low. Priority high ONLY for: a device approval, clearance or registration; a Class I recall or safety alert; a coverage, payment or public procurement decision for devices; or a material medtech acquisition, investment or plant. Everything else about devices is medium.",
+                      "inputType": "single",
+                      "role": "user"
+                    }
+                  ],
+                  "model": "claude-fable-5"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 900,
+                    "y": 2700
+                  }
+                },
+                "module": "anthropic-claude:createAMessage",
+                "parameters": {
+                  "__IMTCONN__": 8923111
+                },
+                "version": 1
+              },
+              {
+                "id": 252,
+                "mapper": {
+                  "json": "{{replace(replace(251.content[1].text; \"```json\"; \"\"); \"```\"; \"\")}}"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 1050,
+                    "y": 2700
+                  }
+                },
+                "module": "json:ParseJSON",
+                "onerror": [
+                  {
+                    "id": 255,
+                    "metadata": {
+                      "designer": {
+                        "x": 1050,
+                        "y": 2780
+                      }
+                    },
+                    "module": "builtin:Ignore",
+                    "version": 1
+                  }
+                ],
+                "parameters": {
+                  "type": 444121
+                },
+                "version": 1
+              },
+              {
+                "id": 253,
+                "mapper": {
+                  "data": {
+                    "batch": "SCAN-DEVICES-US",
+                    "headline": "{{250.title}}",
+                    "seen_at": "{{now}}"
+                  },
+                  "key": "{{lower(trim(252.company))}}~{{lower(trim(252.category))}}~{{formatDate(now; \"YYYY-MM-DD\")}}",
+                  "overwrite": false
+                },
+                "metadata": {
+                  "designer": {
+                    "messages": [
+                      {
+                        "category": "share",
+                        "message": "This module may contain parts which cannot be shared completely.",
+                        "severity": "warning"
+                      }
+                    ],
+                    "x": 1200,
+                    "y": 2700
+                  }
+                },
+                "module": "datastore:AddRecord",
+                "onerror": [
+                  {
+                    "id": 256,
+                    "metadata": {
+                      "designer": {
+                        "x": 1200,
+                        "y": 2780
+                      }
+                    },
+                    "module": "builtin:Ignore",
+                    "version": 1
+                  }
+                ],
+                "parameters": {
+                  "datastore": 148747
+                },
+                "version": 1
+              },
+              {
+                "id": 254,
+                "mapper": {
+                  "insertUnformatted": false,
+                  "mode": "map",
+                  "sheetId": "Editorial Queue",
+                  "spreadsheetId": "1J8ca4Pvp3HTSdHqq9-TZ1H-nF6_fM5R3Jm1bf9bAU8A",
+                  "tableFirstRow": "A1:CZ1",
+                  "valueInputOption": "USER_ENTERED",
+                  "values": {
+                    "1": "{{now}}",
+                    "10": "{{252.industry_impact}}",
+                    "11": "{{252.litigation_risk}}",
+                    "12": "{{250.url}}",
+                    "14": "{{252.priority}}",
+                    "15": "draft",
+                    "16": "awaiting editor review",
+                    "2": "{{250.title}}",
+                    "29": "Exa devices US",
+                    "3": "{{252.category}}",
+                    "30": "{{250.url}}",
+                    "31": "{{251.content[1].text}}",
+                    "35": "{{now}}",
+                    "39": "SCAN-DEVICES-US",
+                    "4": "USA",
+                    "40": "{{250.url}}",
+                    "5": "{{252.country}}",
+                    "6": "{{252.company}}",
+                    "7": "{{252.angle}}",
+                    "8": "{{252.why_it_matters}}",
+                    "9": "{{252.patients_impact}}"
+                  }
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 1350,
+                    "y": 2700
+                  }
+                },
+                "module": "google-sheets:addRow",
+                "onerror": [
+                  {
+                    "id": 257,
+                    "metadata": {
+                      "designer": {
+                        "x": 1350,
+                        "y": 2780
+                      }
+                    },
+                    "module": "builtin:Ignore",
+                    "version": 1
+                  }
+                ],
+                "parameters": {
+                  "__IMTCONN__": 8923977
+                },
+                "version": 2
+              }
+            ]
+          },
+          {
+            "flow": [
+              {
+                "id": 260,
+                "mapper": {
+                  "contents": {
+                    "text": {
+                      "maxCharacters": 2000
+                    }
+                  },
+                  "includeContent": true,
+                  "includeDomains": [
+                    "anvisa.gov.br",
+                    "cofepris.gob.mx",
+                    "invima.gov.co",
+                    "anmat.gob.ar",
+                    "ispch.gob.cl",
+                    "digemid.minsa.gob.pe",
+                    "valor.globo.com",
+                    "futurodasaude.com.br",
+                    "medicinasa.com.br",
+                    "abimo.org.br",
+                    "bnamericas.com",
+                    "eleconomista.com.mx",
+                    "expansion.mx",
+                    "larepublica.co",
+                    "consultorsalud.com",
+                    "gestion.pe",
+                    "cronista.com",
+                    "prnewswire.com",
+                    "businesswire.com"
+                  ],
+                  "numResults": 3,
+                  "query": "Dispositivos medicos y tecnologia medica en America Latina: aprobacion o registro sanitario de dispositivo medico, equipo medico, diagnostico in vitro o imagen OR licitacion o compra publica de equipos medicos OR incorporacion de dispositivos a la cobertura OR alerta o retiro de dispositivos OR inversion, fabrica o adquisicion de empresas medtech, por ANVISA, COFEPRIS, INVIMA, ANMAT, ISP Chile, DIGEMID, CENETEC, IMSS, SUS, ANS. Empresas como Medtronic, Boston Scientific, Abbott, Siemens Healthineers, GE HealthCare, Philips, BD, Stryker, Baxter, Dexcom, Roche Diagnostics, Johnson & Johnson MedTech, Lifemed, Magnamed, Biomm.",
+                  "startPublishedDate": "{{formatDate(addDays(now; -14); \"YYYY-MM-DD\")}}",
+                  "type": "neural",
+                  "useAutoprompt": true
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 600,
+                    "y": 3000
+                  }
+                },
+                "module": "exa-ai:performASearchWithContent",
+                "parameters": {
+                  "__IMTCONN__": 8984010
+                },
+                "version": 1
+              },
+              {
+                "filter": {
+                  "conditions": [
+                    [
+                      {
+                        "a": "{{91.text}}",
+                        "b": "{{260.url}}",
+                        "o": "text:notcontain"
+                      }
+                    ]
+                  ],
+                  "name": "no duplicado"
+                },
+                "id": 261,
+                "mapper": {
+                  "max_tokens": 500,
+                  "messages": [
+                    {
+                      "content": "Return exactly one valid JSON object and nothing else: no markdown, no code fences, no text before or after. It must parse with JSON.parse. Each string value under 15 words, single line. If a value would contain a double quote, rephrase to avoid it.\nTITLE: {{260.title}}\nEXCERPT: {{substring(260.text; 0; 900)}}\n\nSchema (all string values):\ncategory: one of [medical devices, market access, drug pricing, pharma regulation, M&A, clinical catalyst, oncology, manufacturing, digital health, ai healthcare, payer systems, public health, litigation, health systems & disease burden]\ncountry: single country name or Global\ncompany: main institution or company\nangle: one affirmative sentence\nwhy_it_matters: one sentence\npatients_impact: one sentence\nindustry_impact: one sentence\nlitigation_risk: low, medium or high\npriority: breaking, high, medium or low. If the item is not mainly about a medical device, diagnostic or imaging system, a medtech company, or device regulation, coverage or procurement, set priority to low. Priority high ONLY for: a device approval, clearance or registration; a Class I recall or safety alert; a coverage, payment or public procurement decision for devices; or a material medtech acquisition, investment or plant. Everything else about devices is medium.",
+                      "inputType": "single",
+                      "role": "user"
+                    }
+                  ],
+                  "model": "claude-fable-5"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 900,
+                    "y": 3000
+                  }
+                },
+                "module": "anthropic-claude:createAMessage",
+                "parameters": {
+                  "__IMTCONN__": 8923111
+                },
+                "version": 1
+              },
+              {
+                "id": 262,
+                "mapper": {
+                  "json": "{{replace(replace(261.content[1].text; \"```json\"; \"\"); \"```\"; \"\")}}"
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 1050,
+                    "y": 3000
+                  }
+                },
+                "module": "json:ParseJSON",
+                "onerror": [
+                  {
+                    "id": 265,
+                    "metadata": {
+                      "designer": {
+                        "x": 1050,
+                        "y": 3080
+                      }
+                    },
+                    "module": "builtin:Ignore",
+                    "version": 1
+                  }
+                ],
+                "parameters": {
+                  "type": 444121
+                },
+                "version": 1
+              },
+              {
+                "id": 263,
+                "mapper": {
+                  "data": {
+                    "batch": "SCAN-DEVICES-LATAM",
+                    "headline": "{{260.title}}",
+                    "seen_at": "{{now}}"
+                  },
+                  "key": "{{lower(trim(262.company))}}~{{lower(trim(262.category))}}~{{formatDate(now; \"YYYY-MM-DD\")}}",
+                  "overwrite": false
+                },
+                "metadata": {
+                  "designer": {
+                    "messages": [
+                      {
+                        "category": "share",
+                        "message": "This module may contain parts which cannot be shared completely.",
+                        "severity": "warning"
+                      }
+                    ],
+                    "x": 1200,
+                    "y": 3000
+                  }
+                },
+                "module": "datastore:AddRecord",
+                "onerror": [
+                  {
+                    "id": 266,
+                    "metadata": {
+                      "designer": {
+                        "x": 1200,
+                        "y": 3080
+                      }
+                    },
+                    "module": "builtin:Ignore",
+                    "version": 1
+                  }
+                ],
+                "parameters": {
+                  "datastore": 148747
+                },
+                "version": 1
+              },
+              {
+                "id": 264,
+                "mapper": {
+                  "insertUnformatted": false,
+                  "mode": "map",
+                  "sheetId": "Editorial Queue",
+                  "spreadsheetId": "1J8ca4Pvp3HTSdHqq9-TZ1H-nF6_fM5R3Jm1bf9bAU8A",
+                  "tableFirstRow": "A1:CZ1",
+                  "valueInputOption": "USER_ENTERED",
+                  "values": {
+                    "1": "{{now}}",
+                    "10": "{{262.industry_impact}}",
+                    "11": "{{262.litigation_risk}}",
+                    "12": "{{260.url}}",
+                    "14": "{{262.priority}}",
+                    "15": "draft",
+                    "16": "awaiting editor review",
+                    "2": "{{260.title}}",
+                    "29": "Exa devices LatAm",
+                    "3": "{{262.category}}",
+                    "30": "{{260.url}}",
+                    "31": "{{261.content[1].text}}",
+                    "35": "{{now}}",
+                    "39": "SCAN-DEVICES-LATAM",
+                    "4": "LATAM",
+                    "40": "{{260.url}}",
+                    "5": "{{262.country}}",
+                    "6": "{{262.company}}",
+                    "7": "{{262.angle}}",
+                    "8": "{{262.why_it_matters}}",
+                    "9": "{{262.patients_impact}}"
+                  }
+                },
+                "metadata": {
+                  "designer": {
+                    "x": 1350,
+                    "y": 3000
+                  }
+                },
+                "module": "google-sheets:addRow",
+                "onerror": [
+                  {
+                    "id": 267,
+                    "metadata": {
+                      "designer": {
+                        "x": 1350,
+                        "y": 3080
                       }
                     },
                     "module": "builtin:Ignore",

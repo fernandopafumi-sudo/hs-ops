@@ -28,8 +28,8 @@
     "id": 161375,
     "maxSize": "1048576",
     "name": "HS gate state (capa 2)",
-    "records": 62,
-    "size": "86364"
+    "records": 64,
+    "size": "87490"
   },
   {
     "datastructureId": null,
@@ -44,8 +44,8 @@
     "id": 164495,
     "maxSize": "1048576",
     "name": "HS LinkedIn shared posts",
-    "records": 2,
-    "size": "430"
+    "records": 3,
+    "size": "545"
   },
   {
     "datastructureId": null,

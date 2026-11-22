@@ -309,35 +309,47 @@
   },
   {
     "data": {
-      "notes": "aplicado con OK de Fer (chat 21-11) sobre version 08:48: 6 corr del re-gate (stat box, meta 20%, proveedores <1 en 10, ONC 12-11, pledge empleadores, 'early 2025 survey') + 2 URLs en hs-sources. Sigue draft, sin publicar. Drive 1W4iyZ6f1NHGpcXtkQQG5GwqCakMiJ5yb",
+      "notes": "PUBLICADO con OK de Fer (chat 21-11) tras aplicar 6 corr del re-gate + 2 URLs. wp_modified gate 09:11:06. Drive 1W4iyZ6f1NHGpcXtkQQG5GwqCakMiJ5yb",
       "run_id": "20261121-0847",
       "state": "passed",
       "title": "WEDI Survey: Only 1 in 10 Payers Ready for Jan. 1 ePA API Deadline",
-      "updated_at": "2026-11-21T09:12:00-05:00",
+      "updated_at": "2026-11-21T09:14:00-05:00",
       "wp_modified": "2026-11-21T09:11:06"
     },
     "key": "37163"
   },
   {
     "data": {
-      "notes": "- sin fallos de acceso, aprobaciones ni bloqueos; STATE.md leido sin choques con el prompt\n- aviso: REPORT-20261009-0659 y -20261001-0658 siguen 'sin terminar' (corridas viejas, ya reportadas)\n- run_id 20261022-0659\n- borradores vistos 14 (mismos que ayer; el Publisher de 06:40 no dejo borrador nuevo); excluidos 5 (Weekly 36411, 36146, 35939, 35772; post 36041); skipped backlog 7 sin cambios; 36488 sigue needs_edit y 36441 sigue passed, ambos sin edicion (wp_modified igual); sin locks in_review ni failed; pendientes para manana 0\n- 0 borradores pendientes, no se reviso ninguno\n- limpieza: nada que borrar (Drive tiene 36488 y 36441, vigentes; sin REPORT ni registros de mas de 30 dias)\nPara aplicar y publicar, decile a Claude en un chat: aplicar gate <ID>. La sesión que aplique relee el post, rechaza si su modified es distinto del wp_modified del archivo, aplica los reemplazos con código, verifica el diff y publica solo con OK de Fer.",
-      "run_id": "20261022-0659",
+      "notes": "passed: 1 corr de hecho (r1: 'was never issued' -> 'had still not been issued', quinto decreto). r2 PUBLISH sin hallazgos. Drive 12lCI1jsbcwycD63CulKxHBADkebR_VEz",
+      "run_id": "20261122-0658",
       "state": "passed",
-      "title": "REPORT",
-      "updated_at": "2026-10-22T07:01:00-04:00"
+      "title": "Chile's budget deal props up Ricarte Soto fund but adds no new diseases",
+      "updated_at": "2026-11-22T07:08:05-05:00",
+      "wp_modified": "2026-11-21T13:44:53"
     },
-    "key": "REPORT-20261022-0659"
+    "key": "37176"
   },
   {
     "data": {
-      "notes": "- FALLO Drive: create_file en la carpeta 1ZpyZmnptFufBlsseJkdyxyDStjafzwgm da 'Requested entity was not found' y search devuelve vacio (igual que el 19-10). No se guardo el archivo de hallazgos de 36552 ni se pudo limpiar Drive\n- STATE.md leido, sin choques con el prompt\n- run_id 20261023-0700\n- borradores vistos 13; excluidos 5 (Weekly 36411, 36146, 35939, 35772; post 36041); skipped backlog 7 sin cambios; revisados 1 (nuevo); pendientes para manana 0 (36552 vuelve a pending por reintento)\n- 36488 y 36441 ya no estan en draft: publicados el 22-10\n- 36552 Moderna and Liomont Strike Mexico mRNA Supply and Manufacturing Deal: failed (intento 1, por Drive); resultado de r1 = HOLD, sin r2\n  - motivo del hold: noticia vieja. El MOU se firmo el 9-02-2026 (comunicado de Moderna 10-02) y el kicker dice 22-10-2026; lo mas nuevo es El Pais del 28-05. Falta gancho de octubre o reencuadre como analisis\n  - 10 correcciones de hecho (todas con 1 coincidencia): fecha timeline 2026-02-10 -> 02-09; la adjudicacion de 10M dosis ya estaba otorgada, no es compromiso futuro (recuadro, cuerpo, timeline, excerpt); dengue 2024 123.283/855 PUIREE -> 125.160/478 DGE; RSV 'the pathogen responsible for viral pneumonia' -> 'a virus that can cause pneumonia'; Makary renuncio el 12-05-2026 ('Then-FDA Commissioner'); cita de Bancel recortada a lo literal; 'vaccine and biopharmaceutical' -> 'multinational and domestic pharmaceutical'\n  - sigla: BIRMEX no es 'Instituto de Salud para el Bienestar'\n  - borrado: nada\n  - sin verificar: cita de Sheinbaum 'consolidate as a global platform...' (riesgo alto, no esta en el comunicado oficial), Kershenobich presente, RSV como investigacion mexicana, 10M dosis vs 10M anuales 2025-2030, Sanofi 100%\n  - postura: no publicar\n  - Drive: sin archivo (fallo); resumen en notes del registro 36552\n- limpieza: Make sin REPORT ni registros de mas de 30 dias; Drive no se pudo (36488 y 36441 deberian ir a la papelera)\nPara aplicar y publicar, decile a Claude en un chat: aplicar gate <ID>. La sesión que aplique relee el post, rechaza si su modified es distinto del wp_modified del archivo, aplica los reemplazos con código, verifica el diff y publica solo con OK de Fer.",
-      "run_id": "20261023-0700",
-      "state": "passed",
-      "title": "REPORT",
-      "updated_at": "2026-10-23T07:09:30-04:00",
-      "wp_modified": null
+      "notes": "needs_edit: 6 corr de hecho en r1 (>5), sin r2. Cifras centrales OK; sobre-interpretaciones: resistencia in vitro leida como fracaso terapeutico (2), inferencia sin fuente a borrar, plan que 'requiere', reunion 'April', 'identified as unresolved'. 2 no aplicables tal cual (<em>). Drive 102hlhbzLzVMBcV9BWBalRdZFv0q1LPut",
+      "run_id": "20261122-0658",
+      "state": "needs_edit",
+      "title": "PAHO flags decade-long rise in carbapenem resistance across the Americas",
+      "updated_at": "2026-11-22T07:08:05-05:00",
+      "wp_modified": "2026-11-22T06:47:26"
     },
-    "key": "REPORT-20261023-0700"
+    "key": "37197"
+  },
+  {
+    "data": {
+      "notes": "needs_edit: 8 corr de hecho (4 r1 + 4 r2) >5. r1: lead->presenting investigator, pilot->initiative, list->self-pay price, caja Patients OR por punto porcentual. r2 (sin re-verificar, contradice r1): 75% of body weight -> of weight loss; rango $149-$350 era promedio. Drive 1sYQHhkJ5EdKehbHGWlyvBFbzgwv4XQRv",
+      "run_id": "20261122-0658",
+      "state": "needs_edit",
+      "title": "Lilly's tirzepatide: early weight loss predicts durable maintenance",
+      "updated_at": "2026-11-22T07:08:05-05:00",
+      "wp_modified": "2026-11-22T06:57:00"
+    },
+    "key": "37202"
   },
   {
     "data": {
@@ -663,5 +675,16 @@
       "wp_modified": null
     },
     "key": "REPORT-20261121-0658"
+  },
+  {
+    "data": {
+      "notes": "- sin fallos de acceso, aprobaciones ni bloqueos; STATE.md leido, sin choques con el prompt\n- run_id 20261122-0658\n- borradores vistos 3, excluidos 0, skipped backlog 0, pendientes para manana 0\n- 37176 Chile's budget deal props up Ricarte Soto fund but adds no new diseases: passed\n  - 1 correccion de hecho (r1): 'a fifth update decree, due in 2023, was never issued' -> '...had still not been issued' (El Dinamo jul-2026 dice 'continua sin dictarse'). r2: PUBLISH sin hallazgos. Diff OK\n  - borrado: nada. Sin verificar: '39 therapies already evaluated' (mas seguro sacar 'already evaluated'); 85.000 beneficiarios es solo dicho de Castro (ya aclarado). Kicker conserva 'NOVEMBER 2026' (formato viejo)\n  - postura: publicar tras el reemplazo\n  - Drive: https://drive.google.com/file/d/12lCI1jsbcwycD63CulKxHBADkebR_VEz/view\n- 37202 Lilly's tirzepatide: early weight loss predicts durable maintenance: needs_edit (8 corr de hecho >5)\n  - r1: 'lead investigator' -> 'presenting investigator'; CMS Bridge 'pilot' -> 'initiative'; 'list price' -> 'self-pay price' de viales Zepbound; caja Patients atribuia el OR 1.15 al grupo >20% (es por punto porcentual, y la poblacion es overweight or obesity)\n  - r2 (sin re-verificar): '75% of body weight' -> '75% of weight loss' en 2 lugares (r1 dijo que 'body weight' es literal de Healio: conflicto, decide Fer); metadesc 'at least 75%'; rango $149-$350 era promedio, no fijado para gobierno y cash\n  - sin verificar: nota Reuters de precios bloqueada; si el GLP-1 Bridge incluye tirzepatide; Healio declara que Thethi es consultora/speaker de Lilly (no esta en la nota)\n  - postura: no publicar hasta que Fer decida los 8 cambios\n  - Drive: https://drive.google.com/file/d/1sYQHhkJ5EdKehbHGWlyvBFbzgwv4XQRv/view\n- 37197 PAHO flags decade-long rise in carbapenem resistance across the Americas: needs_edit (6 corr de hecho en r1, sin r2)\n  - cifras centrales OK (15->26%, 3->5%, 77% mediana 7 paises, citas, 569k/141k, 322k)\n  - correcciones: lee la resistencia in vitro del 77% como fracaso de la terapia empirica (cuerpo y caja Payers); 'the plan requires' expansion de ReLAVRA+ (no lo dice el plan); 'April 2026' meeting (fecha no en fuente); 'identified ... as unresolved' -> 'discussed'; 1 in 7 WHO -> fuente PAHO 13-10-2025\n  - borrar: inferencia sin fuente sobre que el 77% refleja paises con capacidad de medir\n  - 2 reemplazos no aplicables tal cual (texto dentro de <em>)\n  - postura: no publicar hasta editar\n  - Drive: https://drive.google.com/file/d/102hlhbzLzVMBcV9BWBalRdZFv0q1LPut/view\n- limpieza: Drive a la papelera 3 archivos de posts ya no draft (37163 x2, 37089); 36926-...-intro-propuesta.md no es del gate, no se toco. Make: borrados REPORT-20261022-0659 y REPORT-20261023-0700\nPara aplicar y publicar, decile a Claude en un chat: aplicar gate <ID>. La sesión que aplique relee el post, rechaza si su modified es distinto del wp_modified del archivo, aplica los reemplazos con código, verifica el diff y publica solo con OK de Fer.",
+      "run_id": "20261122-0658",
+      "state": "passed",
+      "title": "REPORT",
+      "updated_at": "2026-11-22T07:08:05-05:00",
+      "wp_modified": null
+    },
+    "key": "REPORT-20261122-0658"
   }
 ]

@@ -44,6 +44,17 @@
     "id": "rec3JG5h7DxTJmP1T"
   },
   {
+    "createdTime": "2026-11-22T12:13:51.000Z",
+    "fields": {
+      "Area": "Otro",
+      "Change": "HS CEO diario 22-11",
+      "Date": "2026-11-22",
+      "Details": "Chequeo diario 07:05 Miami. Mail 'HS decisiones — 22-11 — 11 para decidir' enviado a editor@ (msg 1a2032d1f7702225). Nada ejecutado del lado de Claude (sin registros a corregir, sin altas aprobadas, sin comentarios listos, sin borradores a borrar, sin deals que venzan hoy). Publisher: 22-11 248 ops, borradores 37197 y 37202 (needs_edit en gate); cola 1 approved (fila 700, posible duplicado de 37098) y 4 hold. Gate 22-11: 37176 passed. Hallazgo: tarea trig_01237WRxmW3An1WER28TcQHY (23-11 15:17) arma 'Issue 03' pero el Issue 03 salió el 03-11 (Brevo campaña 17). 11 decisiones pendientes. Prioridades: 1) confirmar/invitar a Freddy (Brazmedia) para 23-11 10:00; 2) publicar 37176 Chile con portada y kicker sin fecha; 3) corregir numeración del Brief del 24-11 (Issue 04). Revisión adversarial con subagente: 11 correcciones aplicadas.",
+      "Status": "Done"
+    },
+    "id": "rec6TeiIfT4nppEzP"
+  },
+  {
     "createdTime": "2026-11-18T13:17:07.000Z",
     "fields": {
       "Area": "Otro",
