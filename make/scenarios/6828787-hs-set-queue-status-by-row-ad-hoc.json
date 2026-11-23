@@ -7,47 +7,20 @@
           "from": "drive",
           "includesHeaders": true,
           "mode": "select",
-          "rowNumber": "700",
+          "rowNumber": "848",
           "sheetId": "Editorial Queue",
           "spreadsheetId": "1J8ca4Pvp3HTSdHqq9-TZ1H-nF6_fM5R3Jm1bf9bAU8A",
           "useColumnHeaders": true,
           "valueInputOption": "USER_ENTERED",
           "values": {
-            "Current Step": "reaprobada 2026-11-21 (OK Fer, triage Grupo A): precheck dio todos los claims verificados ('all checked claims supported'); hold era falla pura del gate",
-            "Status": "approved"
+            "Current Step": "resuelta a mano 2026-11-23 (OK Fer, gate hs-prepublish-gate corrido: ronda1+ronda2+Economist, PUBLISH AFTER EDIT las 3): auto-repair habia fallado 2x, Claude 3 Raw vacio. Reescrita a mano, grounded en CMS fact sheet CY2027 OPPS (CMS-1850-FC) y comunicado AHA 4-nov-2026. Corregido: 647->637 servicios IPO, framing $900 (por beneficiario no por droga), framing $260M (total, no +70M aparte), grandfathered->excepted off-campus PBDs. Quote Thompson deeply concerned confirmado verbatim. Draft WP #37219, status draft, pendiente OK de publicacion de Fer.",
+            "Status": "published",
+            "WordPress Post ID": "37219"
           }
         },
         "metadata": {
           "designer": {
             "x": 0,
-            "y": 0
-          }
-        },
-        "module": "google-sheets:updateRow",
-        "parameters": {
-          "__IMTCONN__": 8923977
-        },
-        "version": 2
-      },
-      {
-        "id": 2,
-        "mapper": {
-          "from": "drive",
-          "includesHeaders": true,
-          "mode": "select",
-          "rowNumber": "558",
-          "sheetId": "Editorial Queue",
-          "spreadsheetId": "1J8ca4Pvp3HTSdHqq9-TZ1H-nF6_fM5R3Jm1bf9bAU8A",
-          "useColumnHeaders": true,
-          "valueInputOption": "USER_ENTERED",
-          "values": {
-            "Current Step": "descartada 2026-11-21 (OK Fer, triage Grupo A): duplicado de mismo evento, ya publicada como ?p=36842; claims 1-15 estaban respaldados pero es decisión de dedup, no de datos",
-            "Status": "discarded"
-          }
-        },
-        "metadata": {
-          "designer": {
-            "x": 200,
             "y": 0
           }
         },

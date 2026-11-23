@@ -331,35 +331,25 @@
   },
   {
     "data": {
-      "notes": "needs_edit: 6 corr de hecho en r1 (>5), sin r2. Cifras centrales OK; sobre-interpretaciones: resistencia in vitro leida como fracaso terapeutico (2), inferencia sin fuente a borrar, plan que 'requiere', reunion 'April', 'identified as unresolved'. 2 no aplicables tal cual (<em>). Drive 102hlhbzLzVMBcV9BWBalRdZFv0q1LPut",
-      "run_id": "20261122-0658",
+      "notes": "needs_edit (re-gate tras edicion 22-11 08:17; las correcciones previas NO estaban aplicadas): r1 14 corr de hecho (>5), sin r2. Clave: kicker LATIN AMERICA->AMERICAS, 'about 15%' en excerpt/metadesc, 77% in vitro leido como fracaso terapeutico (2), 'plan requires', 'identified...as unresolved', 40% de combinaciones; 3 BORRAR inferencias. Todos aplicables. Drive 1UisLTW17XoDvP_TdMlH9ixDBBSUesTyt",
+      "run_id": "20261123-0659",
       "state": "needs_edit",
       "title": "PAHO flags decade-long rise in carbapenem resistance across the Americas",
-      "updated_at": "2026-11-22T07:08:05-05:00",
-      "wp_modified": "2026-11-22T06:47:26"
+      "updated_at": "2026-11-23T07:06:07-05:00",
+      "wp_modified": "2026-11-22T08:17:03"
     },
     "key": "37197"
   },
   {
     "data": {
-      "notes": "needs_edit: 8 corr de hecho (4 r1 + 4 r2) >5. r1: lead->presenting investigator, pilot->initiative, list->self-pay price, caja Patients OR por punto porcentual. r2 (sin re-verificar, contradice r1): 75% of body weight -> of weight loss; rango $149-$350 era promedio. Drive 1sYQHhkJ5EdKehbHGWlyvBFbzgwv4XQRv",
-      "run_id": "20261122-0658",
+      "notes": "needs_edit (re-gate tras edicion 22-11 08:13; correcciones previas NO aplicadas): r1 9 corr de hecho (>5), sin r2. 75% of body weight->of weight loss (2), caja Patients OR por punto porcentual, lead investigator->presenter, pilot->initiative, list->self-pay price, $449 si refill en 45 dias, 'raises'->'associated with' en excerpt/metadesc. Drive 1okZozUZOjE83J44SeApkSgP__UeVWfjr",
+      "run_id": "20261123-0659",
       "state": "needs_edit",
       "title": "Lilly's tirzepatide: early weight loss predicts durable maintenance",
-      "updated_at": "2026-11-22T07:08:05-05:00",
-      "wp_modified": "2026-11-22T06:57:00"
+      "updated_at": "2026-11-23T07:06:07-05:00",
+      "wp_modified": "2026-11-22T08:13:36"
     },
     "key": "37202"
-  },
-  {
-    "data": {
-      "notes": "- FALLO Drive (3ra vez: 19-10, 23-10, hoy): la carpeta 1ZpyZmnptFufBlsseJkdyxyDStjafzwgm da 'not found' y search de 'hallazgos' vuelve vacio. El conector de Drive parece estar en otra cuenta de Google que no ve la carpeta. Sin archivo de hallazgos ni limpieza de Drive\n- 36552 queda failed intento 2: manana va por el 3ro y, con Drive asi, falla igual\n- STATE.md leido, sin choques con el prompt\n- run_id 20261024-0659\n- borradores vistos 13; excluidos 5 (Weekly 36411, 36146, 35939, 35772; post 36041); skipped backlog 7 sin cambios; revisados 1 (36552, reintento); pendientes para manana 0\n- 36552 Moderna and Liomont Strike Mexico mRNA Supply and Manufacturing Deal: failed (Drive); resultado de r1 = HOLD, sin r2\n  - hold: noticia vieja. MOU firmado 9-02-2026, kicker 22-10-2026, no aparece nada mas nuevo. Coincide con la r1 de ayer\n  - 10 correcciones de hecho, mas de 5 (todas con 1 coincidencia en el HTML; la fecha va sobre <p class='hs-tl-date'>2026-02-10):\n    - fecha 02-10 -> 02-09\n    - RSV: 'which she described as the virus that causes pneumonia'\n    - dengue 2024: 123.283/855 PUIREE -> 125.160/478 DGE\n    - cita de Sheinbaum 'consolidate as a global platform...': no aparece (frase parecida de Opella) -> la cambia por cita de gob.mx\n    - planta Sanofi: no es basal, son insulinas de 1ra/2da generacion y rapida\n    - Makary: 'Then-FDA Commissioner', renuncio 12-05-2026\n    - recorte de HHS: 'in 2025' (mRNA vaccine research)\n    - timeline: 'pharmaceutical and medical-device producers'\n    - Spikevax: 'for individuals aged 6 months and older'\n    - 'most operationally specific commitment' -> 'is tied to' (sin cita, dudoso)\n  - sigla: BIRMEX no es 'Instituto de Salud para el Bienestar'\n  - fuentes: falta link al comunicado de Moderna (newswire)\n  - pipeline: la fecha del kicker\n  - borrado: nada\n  - sin verificar: si la compra de 10M (adjudicada a Medistik) se ejecuto; 'five years after' (son casi 6); descripcion de Plan Mexico; los 100% de Sanofi son proyeccion; El Pais y Reuters bloqueados (confirmado por copias)\n  - postura: no publicar. Necesita gancho de octubre o reencuadre como analisis\n  - Drive: sin archivo (fallo); resumen en notes de 36552\n- limpieza: Make sin REPORT ni registros de mas de 30 dias; Drive no se pudo (36488 y 36441 siguen pendientes de la papelera)\nPara aplicar y publicar, decile a Claude en un chat: aplicar gate <ID>. La sesión que aplique relee el post, rechaza si su modified es distinto del wp_modified del archivo, aplica los reemplazos con código, verifica el diff y publica solo con OK de Fer.",
-      "run_id": "20261024-0659",
-      "state": "passed",
-      "title": "REPORT",
-      "updated_at": "2026-10-24T07:06:30-04:00"
-    },
-    "key": "REPORT-20261024-0659"
   },
   {
     "data": {
@@ -686,5 +676,15 @@
       "wp_modified": null
     },
     "key": "REPORT-20261122-0658"
+  },
+  {
+    "data": {
+      "notes": "- sin fallos de acceso, aprobaciones ni bloqueos; STATE.md leido, sin choques con el prompt\n- run_id 20261123-0659\n- borradores vistos 3, excluidos 0, skipped backlog 0, pendientes para manana 0\n- 37197 y 37202 se editaron el 22-11 ~08:15 (despues del gate de ayer) pero el texto sigue SIN las correcciones de ayer; se re-gatearon. 37176 sin cambios: sigue passed y sin publicar\n- 37197 PAHO flags decade-long rise in carbapenem resistance across the Americas: needs_edit\n  - 14 correcciones de hecho en r1 (>5), sin r2\n  - principales: kicker LATIN AMERICA -> AMERICAS; 'from 15%' -> 'about 15%' en excerpt y metadesc; el 77% in vitro leido como fracaso de la terapia empirica (cuerpo y caja Payers); 'the plan requires' -> marco regional de apoyo (cuerpo y Regulators); 'identified ... as unresolved' -> 'discussed'; '40% of monitored antibiotics' -> '40% of the pathogen-antibiotic combinations'; 'reduced or no' -> 'reduced'\n  - borrado: inferencia sobre paises con capacidad de medir; 'A parallel access mechanism is already in place.'; 'Those figures predate...'\n  - sin verificar: 'one in seven' de las Americas sale de la pagina de PAHO, no de WHO; cifra Lancet 322k solo via PAHO-GARDP; la cita de Barbosa une dos fragmentos\n  - todos aplicables (2 con <em>, el archivo trae actual_html)\n  - postura: no publicar hasta editar\n  - Drive: https://drive.google.com/file/d/1UisLTW17XoDvP_TdMlH9ixDBBSUesTyt/view\n- 37202 Lilly's tirzepatide: early weight loss predicts durable maintenance: needs_edit\n  - 9 correcciones de hecho en r1 (>5), sin r2\n  - principales: '75% of body weight' -> '75% of weight loss' (2 lugares); la caja Patients atribuia el OR 1.15 al grupo >20% (es por punto porcentual, y la poblacion es overweight or obesity); 'lead investigator' -> 'presenter'; CMS 'pilot' -> 'initiative'; 'list price' -> 'self-pay price'; $449 con refill dentro de 45 dias; 'raises' -> 'associated with' en excerpt y metadesc\n  - borrado: nada\n  - sin verificar: la nota de Reuters de jul-2026 (bloqueada); si el GLP-1 Bridge incluye tirzepatide; Thethi es consultora y speaker de Lilly (no esta en la nota)\n  - postura: no publicar hasta aplicar los 9 cambios\n  - Drive: https://drive.google.com/file/d/1okZozUZOjE83J44SeApkSgP__UeVWfjr/view\n- limpieza: archivos viejos de 37197 y 37202 a la papelera de Drive; borrado REPORT-20261024-0659\nPara aplicar y publicar, decile a Claude en un chat: aplicar gate <ID>. La sesión que aplique relee el post, rechaza si su modified es distinto del wp_modified del archivo, aplica los reemplazos con código, verifica el diff y publica solo con OK de Fer.",
+      "run_id": "20261123-0659",
+      "state": "passed",
+      "title": "REPORT",
+      "updated_at": "2026-11-23T07:06:07-05:00"
+    },
+    "key": "REPORT-20261123-0659"
   }
 ]

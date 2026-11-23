@@ -44,6 +44,21 @@
     "id": "rec26IexUuYqQerDA"
   },
   {
+    "createdTime": "2026-11-23T13:55:44.000Z",
+    "fields": {
+      "Country": "Perú",
+      "Date Found": "2026-11-23",
+      "Found Via": "https://www.paho.org/es/noticias/20-11-2026-director-ops-reafirma-cooperacion-con-peru-para-fortalecer-sistema-salud",
+      "Lead Type": "Voices (entrevista)",
+      "Name": "Zulema Tomás",
+      "Organization": "EsSalud (seguro social), Perú",
+      "Role": "Presidenta ejecutiva de EsSalud",
+      "Status": "New",
+      "Why": "La OPS informó el 20-11 que se reunió con el director de la OPS para explorar ampliar la cooperación; la OPS ofreció apoyar a EsSalud en la compra de medicamentos e insumos a través del Fondo Rotatorio Regional y se habló de telemedicina y equipamiento estratégico. Fit Voices: líder de un pagador con poder sobre compras y acceso (EsSalud). Cargo según la nota oficial de paho.org. Sin email publicado."
+    },
+    "id": "rec3HmjTcSy2TxzxD"
+  },
+  {
     "createdTime": "2026-11-09T13:57:05.000Z",
     "fields": {
       "Country": "Perú",
@@ -380,6 +395,37 @@
     "id": "recXvO6a1eAlFEvrO"
   },
   {
+    "createdTime": "2026-11-23T13:55:44.000Z",
+    "fields": {
+      "Country": "Colombia",
+      "Date Found": "2026-11-23",
+      "Found Via": "https://afidro.org/2026/11/18/senales-de-alivio-en-la-cartera-farmaceutica-el-reto-pendiente-soluciones-al-flujo-de-recursos-que-impacten-positivamente-el-funcionamiento-del-sistema-y-a-los-pacientes/",
+      "Lead Type": "Advisory / KOL",
+      "Name": "Alejandro Escobar",
+      "Organization": "Sectorial (consultora colombiana de inteligencia económica y análisis de mercados)",
+      "Role": "Gerente estratégico",
+      "Status": "New",
+      "Why": "Citado en el comunicado de AFIDRO del 18-11 sobre el Informe de Cartera del tercer trimestre de 2026 (elaborado por AFIDRO con Sectorial): dijo que la cartera atrasada con laboratorios bajó de 37 de cada 100 pesos en marzo a 28 en septiembre. Fit: voz de datos sobre flujo de pagos del sistema de salud colombiano (pagadores, EPS, gestores). Cargo según el comunicado en afidro.org. Sin email publicado."
+    },
+    "id": "recYFdkHXMLOwjaVj"
+  },
+  {
+    "createdTime": "2026-11-23T13:55:44.000Z",
+    "fields": {
+      "Country": "Brasil",
+      "Date Found": "2026-11-23",
+      "Found Via": "https://ictq.com.br/assuntos-regulatorios/anvisa-quer-proibir-o-protocolo-de-tirzepatida-manipulada-nas-clinicas-e-poe-em-xeque-a-competencia-dos-medicos",
+      "Lead Type": "Voices (entrevista)",
+      "Name": "Leandro Pinheiro Safatle",
+      "Organization": "Anvisa",
+      "Profile URL": "https://www.gov.br/anvisa/pt-br/composicao/diretoria-colegiada/composicao",
+      "Role": "Diretor-presidente (Dicol)",
+      "Status": "New",
+      "Why": "Preside la Diretoria Colegiada, que según ICTQ (20-11) vota el 25-11 una instrucción normativa sobre preparaciones magistrales de agonistas GLP-1/GIP. Además, un análisis de Alphagenics (9-11) le atribuye haber dicho que México aceptó por primera vez registros de Anvisa (vía abreviada Cofepris, 45 días hábiles), tema que HS cubrió. Fit Voices: decisor regulatorio de Brasil sobre registro, reliance y GLP-1. Cargo confirmado en la composición de la Dicol en gov.br/anvisa. Sin email publicado."
+    },
+    "id": "recYKdeUgPij0662T"
+  },
+  {
     "createdTime": "2026-10-21T15:56:27.000Z",
     "fields": {
       "Country": "Suiza (OMS Ginebra)",
@@ -568,6 +614,21 @@
       "Why": "Aparece en la nota de PAHO del 20-10-2026 sobre continuidad de la atención e integración de servicios (https://www.paho.org/en/news/20-10-2026-continuity-care-and-service-integration-lessons-local-experiences-strengthen). Posible voz/KOL."
     },
     "id": "recglG2Ih4vvzUsW6"
+  },
+  {
+    "createdTime": "2026-11-23T13:55:44.000Z",
+    "fields": {
+      "Country": "Perú",
+      "Date Found": "2026-11-23",
+      "Found Via": "https://www.paho.org/es/noticias/20-11-2026-director-ops-reafirma-cooperacion-con-peru-para-fortalecer-sistema-salud",
+      "Lead Type": "Voices (entrevista)",
+      "Name": "Luis Dyer Fernández",
+      "Organization": "Ministerio de Salud del Perú (Minsa)",
+      "Role": "Ministro de Salud",
+      "Status": "New",
+      "Why": "En la nota de la OPS del 20-11 firmó con el director de la OPS la Declaración Conjunta de la iniciativa Mejor atención para las enfermedades no transmisibles y el Acta de instalación de la Mesa Consultiva de la Alianza para la Atención Primaria de Salud, con BID y Banco Mundial presentes. Fit Voices: decisor de política sanitaria de Perú (ENT, atención primaria, acceso a medicamentos). Cargo según la nota oficial de paho.org. Sin email publicado."
+    },
+    "id": "rechixiavEDCoxlnD"
   },
   {
     "createdTime": "2026-11-06T13:53:12.000Z",

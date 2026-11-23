@@ -271,7 +271,7 @@
   },
   {
     "id": 7113631,
-    "isActive": true,
+    "isActive": false,
     "name": "[TEST] HS covers concept v11 + Gemini (ad-hoc)"
   },
   {
@@ -281,7 +281,7 @@
   },
   {
     "id": 7128642,
-    "isActive": true,
+    "isActive": false,
     "name": "[TEST] HS connections: related + series + master editor (ad-hoc)"
   },
   {

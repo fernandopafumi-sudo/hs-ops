@@ -36,6 +36,21 @@
     "id": "rec1EZe5j0vSa2aHz"
   },
   {
+    "createdTime": "2026-11-23T10:54:57.000Z",
+    "fields": {
+      "CTA Source": "invite-press",
+      "Consent At": "2026-11-23T10:54:57.000Z",
+      "Consent Text": "Clicked Subscribe in personal invitation email from editor@healthsignals.news (invite-2026-11 v1)",
+      "Country": "EE.UU. (global)",
+      "Email": "francesca.bruce@norstella.com",
+      "Name": "Francesca Bruce",
+      "Source": "Invite",
+      "Status": "Active",
+      "Subscribe Date": "2026-11-23"
+    },
+    "id": "rec3aOcfgERUgKsdf"
+  },
+  {
     "createdTime": "2026-11-18T18:40:17.000Z",
     "fields": {
       "CTA Source": "invite-linkedin",
@@ -64,6 +79,27 @@
       "Subscribe Date": "2026-10-31"
     },
     "id": "rec5U47BsQWHKHrak"
+  },
+  {
+    "createdTime": "2026-11-23T18:42:32.000Z",
+    "fields": {
+      "Access": "Corporate",
+      "CTA Source": "newsletter_page",
+      "Company": "LifeSci Communications",
+      "Consent At": "2026-11-23T18:42:44.000Z",
+      "Consent Text": "v2 2026-10-21 | By subscribing you agree to receive The HealthSignals Brief by email and accept our Privacy Policy.",
+      "Country": "United States",
+      "Email": "jpappas@lifescicomms.com",
+      "Job Title": "EVP",
+      "Last Name": "Pappas",
+      "Name": "Jonathan",
+      "Post URL": "https://healthsignals.news/newsletter/",
+      "Signup Stage": "complete",
+      "Source": "Website",
+      "Status": "Active",
+      "Subscribe Date": "2026-11-23"
+    },
+    "id": "rec6RBxL2poMCDqAC"
   },
   {
     "createdTime": "2026-11-16T17:34:30.000Z",

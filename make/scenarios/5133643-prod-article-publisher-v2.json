@@ -7521,6 +7521,113 @@
                                 "version": 3
                               },
                               {
+                                "id": 2001,
+                                "mapper": {
+                                  "max_tokens": 20,
+                                  "model": "claude-haiku-4-5",
+                                  "textPrompt": "Classify this HealthSignals article into exactly ONE subtopic. Reply with the slug only: lowercase, no punctuation, no explanation.\n\nCategory IDs on the article: {{join(942.categories_wp; \", \")}}\nRules:\n1. If 789170098 is present, reply: voices\n2. Else if 286880753 (Policy & Markets) is present, choose from LIST A.\n3. Else if 21583 (Pharma) is present, choose from LIST B.\n4. Otherwise reply: none\n\nLIST A (Policy & Markets):\n- payers-pbms-providers: insurers, PBMs, health plans, hospitals and providers: their finances, formularies, deals with drugmakers and the rules that govern them\n- drug-pricing-reimbursement: price setting, reference prices, rebates, MFN, risk-sharing or outcomes-based payment\n- health-budgets-procurement: public health budgets, health financing, public tenders and purchasing\n- coverage-hta-decisions: public coverage, formulary or HTA decisions on specific products\n- deals: M&A, licensing and investment deals\n- regulation-courts: regulatory rules, enforcement and court rulings that are not a product approval\n- public-health: outbreaks, disease burden, population-health data\n\nLIST B (Pharma):\n- approvals-regulation: product approvals, label changes, registrations, drug-regulator actions\n- clinical-evidence: trial results, real-world evidence, clinical guidelines\n- market-access: launches, uptake, payer economics and access for specific drugs\n- business-manufacturing: company results, pharma deals, manufacturing and supply investments\n\nTitle: {{942.title}}\nSummary: {{942.excerpt}}"
+                                },
+                                "metadata": {
+                                  "designer": {
+                                    "x": 8780,
+                                    "y": 300
+                                  }
+                                },
+                                "module": "anthropic-claude:simpleTextPrompt",
+                                "onerror": [
+                                  {
+                                    "id": 2004,
+                                    "mapper": {
+                                      "model": "",
+                                      "result": "",
+                                      "usage": {
+                                        "input_tokens": "",
+                                        "output_tokens": ""
+                                      }
+                                    },
+                                    "metadata": {
+                                      "designer": {
+                                        "x": 8780,
+                                        "y": 600
+                                      },
+                                      "restore": {}
+                                    },
+                                    "module": "builtin:Resume",
+                                    "parameters": {},
+                                    "version": 1
+                                  }
+                                ],
+                                "parameters": {},
+                                "version": 1
+                              },
+                              {
+                                "id": 2002,
+                                "mapper": {
+                                  "name": "hs_sub_id",
+                                  "scope": "roundtrip",
+                                  "value": "{{switch(replace(lower(trim(2001.result)); \"/[^a-z-]/g\"; \"\"); \"payers-pbms-providers\"; \"789170389\"; \"drug-pricing-reimbursement\"; \"789170390\"; \"health-budgets-procurement\"; \"789170391\"; \"coverage-hta-decisions\"; \"789170392\"; \"deals\"; \"789170393\"; \"regulation-courts\"; \"789170394\"; \"public-health\"; \"789170395\"; \"voices\"; \"789170396\"; \"approvals-regulation\"; \"789170397\"; \"clinical-evidence\"; \"789170398\"; \"market-access\"; \"789170399\"; \"business-manufacturing\"; \"789170400\"; \"\")}}"
+                                },
+                                "metadata": {
+                                  "designer": {
+                                    "x": 8860,
+                                    "y": 300
+                                  }
+                                },
+                                "module": "util:SetVariable2",
+                                "parameters": {},
+                                "version": 1
+                              },
+                              {
+                                "id": 2003,
+                                "mapper": {
+                                  "body": "{\"hs_subtopic\":[{{2002.hs_sub_id}}]}",
+                                  "headers": [
+                                    {
+                                      "key": "Content-Type",
+                                      "value": "application/json"
+                                    }
+                                  ],
+                                  "method": "{{if(length(2002.hs_sub_id) > 0; \"POST\"; \"GET\")}}",
+                                  "qs": [
+                                    {
+                                      "key": "_fields",
+                                      "value": "id,hs_subtopic"
+                                    }
+                                  ],
+                                  "url": "posts/{{17.id}}"
+                                },
+                                "metadata": {
+                                  "designer": {
+                                    "x": 8940,
+                                    "y": 300
+                                  }
+                                },
+                                "module": "wordpress:makeApiCall",
+                                "onerror": [
+                                  {
+                                    "id": 2005,
+                                    "mapper": {
+                                      "body": "",
+                                      "headers": "",
+                                      "statusCode": 0
+                                    },
+                                    "metadata": {
+                                      "designer": {
+                                        "x": 8940,
+                                        "y": 600
+                                      }
+                                    },
+                                    "module": "builtin:Resume",
+                                    "parameters": {},
+                                    "version": 1
+                                  }
+                                ],
+                                "parameters": {
+                                  "__IMTCONN__": 8921729
+                                },
+                                "version": 3
+                              },
+                              {
                                 "filter": null,
                                 "id": 19,
                                 "mapper": {

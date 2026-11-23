@@ -636,13 +636,13 @@
     },
     "name": "[TEST] HS connections: related + series + master editor (ad-hoc)"
   },
-  "folderId": 247198,
+  "folderId": 268065,
   "id": 7128642,
   "interface": {
     "input": [],
     "output": []
   },
-  "isActive": true,
+  "isActive": false,
   "name": "[TEST] HS connections: related + series + master editor (ad-hoc)",
   "scheduling": {
     "type": "on-demand"

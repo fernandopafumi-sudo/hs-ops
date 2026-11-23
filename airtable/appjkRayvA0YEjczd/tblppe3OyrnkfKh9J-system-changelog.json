@@ -22,6 +22,15 @@
     "id": "rec27yTETw4VUnJKZ"
   },
   {
+    "createdTime": "2026-11-23T12:15:42.000Z",
+    "fields": {
+      "Change": "HS CEO diario 23-11",
+      "Date": "2026-11-23",
+      "Details": "Hecho: borrador Gmail de seguimiento a Luciana Perdomo (Hospitalar, PT, hilo 1a1bc54c16520a82, draft r-5319206440444707679). Mail 'HS decisiones — 23-11 — 12 para decidir' enviado a editor@. Publisher: 22-11 2 borradores (37197, 37202), 23-11 hold por duplicado same-event (Benavides = 37017). Gate hoy: 37197 needs_edit 14, 37202 needs_edit 9. 12 decisiones pendientes. Prioridades: 1) Freddy/Brazmedia 10:00 sin invitados; 2) mandar seguimiento Hospitalar; 3) corregir tarea Brief 15:17 a Issue 04. Avisos: R7 Velasco y Méndez del 24-11 van a frenar; backup semanal sin archivos visibles en Drive; tarea comentarios LinkedIn/X suspendida. Revisión adversarial: 13 correcciones."
+    },
+    "id": "rec2PQlOAV4wRdpbD"
+  },
+  {
     "createdTime": "2026-09-28T17:31:33.000Z",
     "fields": {
       "Area": "Otro",
@@ -128,6 +137,17 @@
       "Status": "Deployed"
     },
     "id": "recKAH7xsYr4JL3S4"
+  },
+  {
+    "createdTime": "2026-11-23T18:29:15.000Z",
+    "fields": {
+      "Area": "Otro",
+      "Change": "Invitaciones Brief 2026-11-23: 25 invitaciones, 15 recordatorios",
+      "Date": "2026-11-23",
+      "Details": "Tope normal 40 (15 recordatorios + 25 invitaciones): rebote 5/302 = 1,7%, sin quejas.\nInvitaciones: 25 generic (es 22, pt 2, en 1). Recordatorios: 15 de los invitados el 16-11, en hilo (press 9, crm 6; es 8, pt 4, en 3). Quedan 8 Sent del 16-11 sin recordar para la proxima corrida.\nHousekeeping: 0 opt-outs, 0 rebotes nuevos, 0 respuestas nuevas a hilos de invitacion. Aviso de demora (no rebote) para comunicacion@amiif.org.mx (invitada 20-11), Gmail sigue reintentando. Subscribed 10 (10/302 = 3,3%).\nQueued restantes: 9 generic elegibles + 89 crm con linea neutra (aprobada 21-11, entran despues de generic) + 8 retenidas (Panorama, 3 press diferidas, Levy/BID, Tellez y Restrepo/Merck, Hamana) + 9 webmail sin enviar + 211 filas nuevas pharma-policy/access/comms (cargadas 20-11, nota 'No enviar antes del 2026-11-25'; segmento sin linea definida en la tarea: retenidas, decide Fer).\nUltimo numero: Issue 02 (22-10) sigue siendo el ultimo Sent, sin descripcion en el registro; se uso el fallback /newsletter/.",
+      "Status": "Done"
+    },
+    "id": "recKhwBTzwWO6PRnu"
   },
   {
     "createdTime": "2026-09-04T21:09:48.000Z",

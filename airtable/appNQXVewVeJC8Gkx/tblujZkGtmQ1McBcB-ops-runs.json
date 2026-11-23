@@ -130,6 +130,32 @@
     "id": "rec5ZCcr0QrpIgvZM"
   },
   {
+    "createdTime": "2026-11-23T18:49:06.000Z",
+    "fields": {
+      "Channel": "comentarios",
+      "Date": "2026-11-23",
+      "Items_Pending": 4,
+      "Notes": "Tarde: 1 Approved en cola (reczN12QgIzEul6Ef PAHO baloxavir, vence 24-11) + 3 Proposed de la mañana esperando OK. 0 expirados. Métricas FDA 20-11 no legibles sin navegador, pedidas a Fer. Mail bandeja 1a209bd60af1eb15.\nVerificación pedida por Fer (opus): los 4 textos verificados contra fuentes; AFIDRO 'la mitad' confirmado (CIRS final 50%); Economist: frase de ensayos suavizada, link home se mantiene. Ojo: el mail de bandeja muestra los links envueltos en google.com/url: copiar los comentarios desde el chat.",
+      "Run": "tarde",
+      "Run_Key": "2026-11-23|tarde|comentarios",
+      "Status": "ok"
+    },
+    "id": "rec5jOrXmZ8lRpAXo"
+  },
+  {
+    "createdTime": "2026-11-23T14:04:21.000Z",
+    "fields": {
+      "Channel": "grupos",
+      "Date": "2026-11-23",
+      "Items_Pending": 1,
+      "Notes": "GHEN recqxNllXt5pz1NRS, nivel A, CVS GLP-1 break-even, Brief issue02; Last posted anterior 2026-11-12",
+      "Run": "manana",
+      "Run_Key": "2026-11-23|manana|grupos",
+      "Status": "ok"
+    },
+    "id": "rec5lmV1A2DSN63Hs"
+  },
+  {
     "createdTime": "2026-11-02T18:49:00.000Z",
     "fields": {
       "Channel": "comentarios",
@@ -247,6 +273,19 @@
     "id": "recAhMfDssJs4RAtp"
   },
   {
+    "createdTime": "2026-11-23T14:04:21.000Z",
+    "fields": {
+      "Channel": "comentarios",
+      "Date": "2026-11-23",
+      "Items_Pending": 3,
+      "Notes": "3 Proposed tras adversarial principal (rec7mvG0ij3QGuEwk, recFOuJYLAYAY8dGC, rechif08v3Uz3Vbou); 1 Approved en cola reczN12QgIzEul6Ef; 3 Approved expiradas a Rejected; 4 personas; subagente sin Agent tool",
+      "Run": "manana",
+      "Run_Key": "2026-11-23|manana|comentarios",
+      "Status": "ok"
+    },
+    "id": "recAm5n7vrp3MR3wO"
+  },
+  {
     "createdTime": "2026-11-20T13:56:05.000Z",
     "fields": {
       "Channel": "prensa",
@@ -336,6 +375,19 @@
       "Status": "ok"
     },
     "id": "recESsx2cdzt80yof"
+  },
+  {
+    "createdTime": "2026-11-23T13:52:35.000Z",
+    "fields": {
+      "Channel": "sponsors",
+      "Date": "2026-11-23",
+      "Items_Pending": 15,
+      "Notes": "Invitaciones confirmadas por Fer: 0 (ultima nota 20-11). Aceptaciones: n/d. Pendientes estimadas: 0. Corridas seguidas sin OK: 9 (10-11 al 20-11 mas hoy; el 21-11 no hay fila). Acumulado sin OK aprox. 114 (99 + 15 hoy).\nCandidatos 23-11 (nombre | URL):\n1 Eliana B. Ribeiro (Scienza UY, GM) | https://linkedin.com/in/elianaribeiro24\n2 Martin Gonzalez Riccetto (Adium UY, GM) | https://linkedin.com/in/martingonzalez280581\n3 Jack Kassis (Eurofarma Centroamerica y Caribe GT, GM) | https://linkedin.com/in/jack-kassis-62886105\n4 Prithwiraj Chatterjee (Seven Pharma DO/Caribe, GM) | https://linkedin.com/in/prithwiraj-chatterjee-8235b017\n5 Andrea Vazquez (Pint Pharma AR/Cono Sur, GM) | https://linkedin.com/in/andrea-v%C3%A1zquez-63474a\n6 Ronald Morales (Suiphar Dominicana DO, GM) | https://linkedin.com/in/ronald-morales-37001118\n7 Allan Feoli (Alter-Pharma CR, Gerente General) | https://linkedin.com/in/allan-feoli-96055136\n8 Eduardo T. (Ultragenyx, SVP Head LatAm, Miami US) | https://linkedin.com/in/eduardo-t-515448\n9 Adrian Scovazzi (KARL STORZ Sud LatAm AR, GM) | https://linkedin.com/in/adrianscovazzi\n10 Fabio Alzate (Stryker CO, GM) | https://linkedin.com/in/fabio-alzate-221142a8\n11 Jefferson Cardoso (Zimmer Biomet BR, GM) | https://linkedin.com/in/jeffersoncardoso\n12 Bruno Amaro (Ambu LatAm BR, Commercial Director) | https://linkedin.com/in/brunoamaro1\n13 Ricardo Sanchez Moreno (Edwards Lifesciences Sud LatAm AR, Region Manager) | https://linkedin.com/in/ricardo-s%C3%A1nchez-moreno-1149903\n14 Pedro Ramazzotti (Stryker LatAm BR, VP & GM) | https://linkedin.com/in/pedro-ramazzotti-b7196027\n15 Martin Galindez (Khairi Pharmaceuticals UY, GM) | https://linkedin.com/in/magalindez\n2026-11-23 tarde: Fer dio 'dale sponsors' (aplica a esta tanda de 15). Lista entregada para conectar sin nota desde el teléfono. Enviadas confirmadas: pendiente de 'mandé ...'.",
+      "Run": "manana",
+      "Run_Key": "2026-11-23|manana|sponsors",
+      "Status": "ok"
+    },
+    "id": "recETElD4L2BIp5yS"
   },
   {
     "createdTime": "2026-11-17T13:54:21.000Z",
@@ -505,6 +557,19 @@
       "Status": "ok"
     },
     "id": "recK0M5vnHBLaI7vu"
+  },
+  {
+    "createdTime": "2026-11-23T14:04:21.000Z",
+    "fields": {
+      "Channel": "socios",
+      "Date": "2026-11-23",
+      "Items_Pending": 9,
+      "Notes": "T6-2026-11-23: 5 nuevos (FIU, Univalle, UFPE, PUC, UNLP) + 4 seguimientos, corregidos por adversarial; link sin https por wrap de Gmail; 12 a No reply; 4 seguimientos 21-11 salieron (confirmar OK)",
+      "Run": "manana",
+      "Run_Key": "2026-11-23|manana|socios",
+      "Status": "ok"
+    },
+    "id": "recKc39E1p8xHhBgz"
   },
   {
     "createdTime": "2026-11-20T13:56:05.000Z",
@@ -923,6 +988,19 @@
     "id": "recXn4icbrr36oG1g"
   },
   {
+    "createdTime": "2026-11-23T14:04:21.000Z",
+    "fields": {
+      "Channel": "prensa",
+      "Date": "2026-11-23",
+      "Items_Pending": 1,
+      "Notes": "Sin respuestas nuevas; borrador Panorama Farmacêutico r5081374184072717579 espera OK >48h; DSN delay amiif",
+      "Run": "manana",
+      "Run_Key": "2026-11-23|manana|prensa",
+      "Status": "sin novedades"
+    },
+    "id": "recXqCP5OY3UCoT0s"
+  },
+  {
     "createdTime": "2026-11-11T18:53:33.000Z",
     "fields": {
       "Channel": "comentarios",
@@ -1038,6 +1116,19 @@
       "Status": "ok"
     },
     "id": "recaJOOxnJvewPip4"
+  },
+  {
+    "createdTime": "2026-11-23T14:04:21.000Z",
+    "fields": {
+      "Channel": "voices",
+      "Date": "2026-11-23",
+      "Items_Pending": 4,
+      "Notes": "0 programados; sin respuestas nuevas; R7 Velasco y Méndez en borrador desde 18/11 sin pedido de vínculos; decisiones McClellan y toque 3 Socal/García/Vianna pendientes",
+      "Run": "manana",
+      "Run_Key": "2026-11-23|manana|voices",
+      "Status": "ok"
+    },
+    "id": "recanMnzh2XUvMHnE"
   },
   {
     "createdTime": "2026-11-12T13:57:45.000Z",

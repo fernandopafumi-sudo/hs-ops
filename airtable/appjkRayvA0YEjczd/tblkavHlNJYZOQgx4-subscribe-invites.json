@@ -610,10 +610,10 @@
       "Email": "medicinadaobesidade@gmail.com",
       "Language": "pt",
       "Name": "Congresso SBEMO 2026 (Medicina da Obesidade)",
-      "Notes": "Source: CRM Prospects (Approval=empty)",
+      "Notes": "Source: CRM Prospects (Approval=empty)\n2026-11-23: EXCLUDED bus dev (propuesta media partner): no enviar nada más, ni invitación ni recordatorio (regla Fer 23-11)",
       "Organization": "SBEMO",
       "Segment": "generic",
-      "Status": "Queued"
+      "Status": "Excluded"
     },
     "id": "rec3f6NDoJPd1sqqd"
   },
@@ -736,12 +736,14 @@
     "fields": {
       "Country": "Mexico",
       "Email": "contacto@endocrinologia.org.mx",
+      "Gmail_Message_ID": "1a209a3e570d6206",
       "Language": "es",
       "Name": "LXVI Congreso Internacional SMNE",
-      "Notes": "Source: CRM Prospects (Approval=empty)",
+      "Notes": "Source: CRM Prospects (Approval=empty)\n2026-11-23: invitación enviada\n2026-11-23: EXCLUDED bus dev (propuesta media partner SMNE): no enviar nada más, ni invitación ni recordatorio (regla Fer 23-11)",
       "Organization": "SMNE (Sociedad Mexicana de Nutrición y Endocrinología)",
       "Segment": "generic",
-      "Status": "Queued"
+      "Sent_At": "2026-11-23T18:30:00.000Z",
+      "Status": "Excluded"
     },
     "id": "rec4VCWCwnlAxR78S"
   },
@@ -889,12 +891,14 @@
     "fields": {
       "Country": "Chile",
       "Email": "secretaria.presidencia@soched.cl",
+      "Gmail_Message_ID": "1a209a74b6911bd2",
       "Language": "es",
       "Name": "SOCHED (secretaría presidencia)",
-      "Notes": "Source: gmail-2026-11-01; diabetes report offer 21-10 addressed to Dra. Claudia Campusano; generic inbox",
+      "Notes": "Source: gmail-2026-11-01; diabetes report offer 21-10 addressed to Dra. Claudia Campusano; generic inbox\n2026-11-23: invitación enviada",
       "Organization": "SOCHED",
       "Segment": "generic",
-      "Status": "Queued"
+      "Sent_At": "2026-11-23T18:30:00.000Z",
+      "Status": "Sent"
     },
     "id": "rec5ZeBmC5p2P8d9D"
   },
@@ -968,12 +972,14 @@
     "fields": {
       "Country": "USA",
       "Email": "info@globalhealthintelligence.com",
+      "Gmail_Message_ID": "1a209a60b6dfb8af",
       "Language": "en",
       "Name": "Guillaume Corpart",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-01: First_Name 'Guillaume' cleared (generic/role inbox; greeting without name).",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-01: First_Name 'Guillaume' cleared (generic/role inbox; greeting without name).\n2026-11-23: invitación enviada",
       "Organization": "Global Health Intelligence",
       "Segment": "generic",
-      "Status": "Queued"
+      "Sent_At": "2026-11-23T18:30:00.000Z",
+      "Status": "Sent"
     },
     "id": "rec6AkFikby61zfSi"
   },
@@ -1016,12 +1022,14 @@
     "fields": {
       "Country": "Mexico",
       "Email": "contactosocios@smeo.org.mx",
+      "Gmail_Message_ID": "1a209a3e7f645150",
       "Language": "es",
       "Name": "44° Congreso Nacional de Oncología SMeO",
-      "Notes": "Source: CRM Prospects (Approval=empty)",
+      "Notes": "Source: CRM Prospects (Approval=empty)\n2026-11-23: invitación enviada\n2026-11-23: EXCLUDED bus dev (propuesta media partner SMeO): no enviar nada más, ni invitación ni recordatorio (regla Fer 23-11)",
       "Organization": "SMeO (Sociedad Mexicana de Oncología)",
       "Segment": "generic",
-      "Status": "Queued"
+      "Sent_At": "2026-11-23T18:30:00.000Z",
+      "Status": "Excluded"
     },
     "id": "rec6SEuU2CLcc8GB9"
   },
@@ -1348,12 +1356,14 @@
     "fields": {
       "Country": "Argentina",
       "Email": "secretariageneral@alifar.org",
+      "Gmail_Message_ID": "1a209a3eba03d66d",
       "Language": "es",
       "Name": "ALIFAR (institucional)",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-23: invitación enviada",
       "Organization": "ALIFAR (Asociación Latinoamericana de Industrias Farmacéuticas)",
       "Segment": "generic",
-      "Status": "Queued"
+      "Sent_At": "2026-11-23T18:30:00.000Z",
+      "Status": "Sent"
     },
     "id": "rec8LkP4vOvLXwGXE"
   },
@@ -1750,12 +1760,14 @@
     "fields": {
       "Country": "Chile",
       "Email": "contacto@espaciopublico.cl",
+      "Gmail_Message_ID": "1a209a74c9d2de1b",
       "Language": "es",
       "Name": "Espacio Público",
-      "Notes": "Source: gmail-2026-11-01; Voices García Escorza diffusion 20-10; generic inbox",
+      "Notes": "Source: gmail-2026-11-01; Voices García Escorza diffusion 20-10; generic inbox\n2026-11-23: invitación enviada",
       "Organization": "Espacio Público",
       "Segment": "generic",
-      "Status": "Queued"
+      "Sent_At": "2026-11-23T18:30:00.000Z",
+      "Status": "Sent"
     },
     "id": "recBH104lZOzD9DmK"
   },
@@ -2229,11 +2241,11 @@
       "Gmail_Message_ID": "1a1e59d01925d11e",
       "Language": "pt",
       "Name": "Congresso SBOC 2026 (prensa: Gisele Vitória)",
-      "Notes": "Source: CRM Prospects (Approval=Approved)\n2026-11-16: invitación enviada (contacto previo verificado en Gmail: hilo SBOC)",
+      "Notes": "Source: CRM Prospects (Approval=Approved)\n2026-11-16: invitación enviada (contacto previo verificado en Gmail: hilo SBOC)\n2026-11-23: recordatorio enviado (1a209a83d5607f8c)",
       "Organization": "SBOC (Sociedade Brasileira de Oncologia Clínica) / GV Comunicação",
       "Segment": "crm",
       "Sent_At": "2026-11-16T18:26:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "recELBbhl3FvF7nO4"
   },
@@ -2400,12 +2412,14 @@
     "fields": {
       "Country": "Chile",
       "Email": "escribanos@cepchile.cl",
+      "Gmail_Message_ID": "1a209a74e72a9bf6",
       "Language": "es",
       "Name": "CEP Chile",
-      "Notes": "Source: gmail-2026-11-01; Voices García Escorza diffusion 20-10; generic inbox",
+      "Notes": "Source: gmail-2026-11-01; Voices García Escorza diffusion 20-10; generic inbox\n2026-11-23: invitación enviada",
       "Organization": "Centro de Estudios Públicos (CEP)",
       "Segment": "generic",
-      "Status": "Queued"
+      "Sent_At": "2026-11-23T18:30:00.000Z",
+      "Status": "Sent"
     },
     "id": "recFP0c4vs8kiBUSp"
   },
@@ -2414,12 +2428,14 @@
     "fields": {
       "Country": "Colombia",
       "Email": "directorejecutivo@ascif.co",
+      "Gmail_Message_ID": "1a209a60c7195798",
       "Language": "es",
       "Name": "Clara Isabel Rodríguez S.",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-01: First_Name 'Clara' cleared (generic/role inbox; greeting without name).",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-01: First_Name 'Clara' cleared (generic/role inbox; greeting without name).\n2026-11-23: invitación enviada",
       "Organization": "ASCIF (Colombia)",
       "Segment": "generic",
-      "Status": "Queued"
+      "Sent_At": "2026-11-23T18:30:00.000Z",
+      "Status": "Sent"
     },
     "id": "recFQe6j4e82Ka0n7"
   },
@@ -2600,12 +2616,14 @@
     "fields": {
       "Country": "Chile",
       "Email": "presidencia@colegiofarmaceutico.cl",
+      "Gmail_Message_ID": "1a209a3ed9c8abb7",
       "Language": "es",
       "Name": "Héctor Andrés Torres Aguilera",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-01: First_Name 'Héctor' cleared (generic/role inbox; greeting without name).",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-01: First_Name 'Héctor' cleared (generic/role inbox; greeting without name).\n2026-11-23: invitación enviada",
       "Organization": "Colegio de Químicos Farmacéuticos y Bioquímicos de Chile A.G.",
       "Segment": "generic",
-      "Status": "Queued"
+      "Sent_At": "2026-11-23T18:30:00.000Z",
+      "Status": "Sent"
     },
     "id": "recGOo3saFz1MdECH"
   },
@@ -2748,11 +2766,11 @@
       "Gmail_Message_ID": "1a1e59d078acc4cc",
       "Language": "es",
       "Name": "Paulina Pino",
-      "Notes": "Source: gmail-2026-11-01; Diabetes Control Gap report offer 28-10\n2026-11-16: invitación enviada (contacto previo verificado en Gmail: oferta 28-10 y seguimiento 09-11)",
+      "Notes": "Source: gmail-2026-11-01; Diabetes Control Gap report offer 28-10\n2026-11-16: invitación enviada (contacto previo verificado en Gmail: oferta 28-10 y seguimiento 09-11)\n2026-11-23: recordatorio enviado (1a209a9b912afb4f)",
       "Organization": "Universidad de Chile",
       "Segment": "crm",
       "Sent_At": "2026-11-16T18:26:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "recHYP7AW3yzp5KYw"
   },
@@ -3242,12 +3260,14 @@
     "fields": {
       "Country": "Chile",
       "Email": "opsomschile@paho.org",
+      "Gmail_Message_ID": "1a209a60e3417438",
       "Language": "es",
       "Name": "OPS/OMS Chile (institucional)",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-23: invitación enviada",
       "Organization": "OPS/OMS Chile",
       "Segment": "generic",
-      "Status": "Queued"
+      "Sent_At": "2026-11-23T18:30:00.000Z",
+      "Status": "Sent"
     },
     "id": "recKm5I4nKiISQ7aj"
   },
@@ -3315,12 +3335,14 @@
     "fields": {
       "Country": "Colombia",
       "Email": "comunicaciones@isporcolombia.org",
+      "Gmail_Message_ID": "1a209a751f4235b6",
       "Language": "es",
       "Name": "ISPOR Colombia (comunicaciones)",
-      "Notes": "Source: gmail-2026-11-01; report offer 28-10 addressed to Juan Guillermo Barrientos Gómez; generic inbox",
+      "Notes": "Source: gmail-2026-11-01; report offer 28-10 addressed to Juan Guillermo Barrientos Gómez; generic inbox\n2026-11-23: invitación enviada",
       "Organization": "ISPOR Colombia",
       "Segment": "generic",
-      "Status": "Queued"
+      "Sent_At": "2026-11-23T18:30:00.000Z",
+      "Status": "Sent"
     },
     "id": "recL1UqGAhN0qPt7l"
   },
@@ -3344,12 +3366,14 @@
     "fields": {
       "Country": "Chile",
       "Email": "asilfa@asilfa.cl",
+      "Gmail_Message_ID": "1a209a755f2823f8",
       "Language": "es",
       "Name": "ASILFA",
-      "Notes": "Source: gmail-2026-11-01; reaction request 20-10 addressed to Sr. Huenchuñir; generic inbox",
+      "Notes": "Source: gmail-2026-11-01; reaction request 20-10 addressed to Sr. Huenchuñir; generic inbox\n2026-11-23: invitación enviada",
       "Organization": "ASILFA",
       "Segment": "generic",
-      "Status": "Queued"
+      "Sent_At": "2026-11-23T18:30:00.000Z",
+      "Status": "Sent"
     },
     "id": "recL45TlCSD5fxEDa"
   },
@@ -3396,11 +3420,11 @@
       "Gmail_Message_ID": "1a1e59ad8c4fed47",
       "Language": "en",
       "Name": "Catherine Langel",
-      "Notes": "Source: Press & PR Contacts (Pharma media office)\n2026-11-16: invitación enviada",
+      "Notes": "Source: Press & PR Contacts (Pharma media office)\n2026-11-16: invitación enviada\n2026-11-23: recordatorio enviado (1a209a84154fd880)",
       "Organization": "AbbVie",
       "Segment": "press",
       "Sent_At": "2026-11-16T18:26:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "recLqNeGa7RvzUUU8"
   },
@@ -3457,12 +3481,14 @@
     "fields": {
       "Country": "Brazil",
       "Email": "imprensa@interfarma.org.br",
+      "Gmail_Message_ID": "1a209a4fad2f05bb",
       "Language": "pt",
       "Name": "Beatriz Rodrigues",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-01: First_Name 'Beatriz' cleared (generic/role inbox; greeting without name).",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-01: First_Name 'Beatriz' cleared (generic/role inbox; greeting without name).\n2026-11-23: invitación enviada",
       "Organization": "Interfarma",
       "Segment": "generic",
-      "Status": "Queued"
+      "Sent_At": "2026-11-23T18:30:00.000Z",
+      "Status": "Sent"
     },
     "id": "recMUk7a2WPkNq4Kn"
   },
@@ -3522,11 +3548,11 @@
       "Gmail_Message_ID": "1a1e59adc2053d92",
       "Language": "es",
       "Name": "Cristian Neira",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-16: invitación enviada",
+      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-16: invitación enviada\n2026-11-23: recordatorio enviado (1a209a8425c0764b)",
       "Organization": "El Desconcierto",
       "Segment": "press",
       "Sent_At": "2026-11-16T18:26:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "recNFKLUDwNb4e5LD"
   },
@@ -4533,16 +4559,35 @@
     "id": "recTKWGtyH7qq09y6"
   },
   {
+    "createdTime": "2026-11-23T19:15:51.000Z",
+    "fields": {
+      "Country": "Brazil",
+      "Email": "bilyk@brazmedia.com.br",
+      "First_Name": "Freddy",
+      "Gmail_Message_ID": "1a209d633ce1be79",
+      "Language": "en",
+      "Name": "Alfred (Freddy) Bilyk",
+      "Notes": "2026-11-23: alta manual por pedido de Fer en el chat (\"invitalo a suscribirse al brief\"); Fer habló con él hoy.\n2026-11-23: invitación enviada (EN) a mano por Claude, msg 1a209d633ce1be79.",
+      "Organization": "Brazmedia",
+      "Segment": "crm",
+      "Sent_At": "2026-11-23T19:16:30.000Z",
+      "Status": "Sent"
+    },
+    "id": "recTOVDiINnhRER6Y"
+  },
+  {
     "createdTime": "2026-11-01T01:30:39.000Z",
     "fields": {
       "Country": "Colombia",
       "Email": "congresosacho@acho.com.co",
+      "Gmail_Message_ID": "1a209a611f1ac215",
       "Language": "es",
       "Name": "VII Congreso Nacional de Investigación ACHO",
-      "Notes": "Source: CRM Prospects (Approval=empty)",
+      "Notes": "Source: CRM Prospects (Approval=empty)\n2026-11-23: invitación enviada\n2026-11-23: EXCLUDED bus dev (propuesta media partner ACHO): no enviar nada más, ni invitación ni recordatorio (regla Fer 23-11)",
       "Organization": "ACHO (Asociación Colombiana de Hematología y Oncología)",
       "Segment": "generic",
-      "Status": "Queued"
+      "Sent_At": "2026-11-23T18:30:00.000Z",
+      "Status": "Excluded"
     },
     "id": "recTZwMPFx9uvYMSV"
   },
@@ -4628,12 +4673,14 @@
     "fields": {
       "Country": "Chile",
       "Email": "saludsen@senado.cl",
+      "Gmail_Message_ID": "1a209a615fdb988f",
       "Language": "es",
       "Name": "Senado - Comisión de Salud (institucional)",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-23: invitación enviada",
       "Organization": "Senado de Chile",
       "Segment": "generic",
-      "Status": "Queued"
+      "Sent_At": "2026-11-23T18:30:00.000Z",
+      "Status": "Sent"
     },
     "id": "recTzp07mzlmFC12q"
   },
@@ -4645,11 +4692,11 @@
       "Gmail_Message_ID": "1a1efecf18baf61f",
       "Language": "pt",
       "Name": "UNIDAS (institucional)",
-      "Notes": "Source: gmail-2026-11-01; CC in UNIDAS thread; generic inbox\n2026-11-18: invitación enviada",
+      "Notes": "Source: gmail-2026-11-01; CC in UNIDAS thread; generic inbox\n2026-11-18: invitación enviada\n2026-11-23: EXCLUDED bus dev (hilo media partner UNIDAS): no enviar nada más, ni invitación ni recordatorio (regla Fer 23-11)",
       "Organization": "UNIDAS",
       "Segment": "events",
       "Sent_At": "2026-11-18T18:30:00.000Z",
-      "Status": "Sent"
+      "Status": "Excluded"
     },
     "id": "recU6Um2S718cHTAY"
   },
@@ -4858,11 +4905,11 @@
       "Gmail_Message_ID": "1a1f510390a33c05",
       "Language": "en",
       "Name": "Kate Scott",
-      "Notes": "Source: barter CPHI Americas 2027 (firmado 12-11-2026); cargado a pedido de Fer 2026-11-12\n2026-11-19: invitación enviada",
+      "Notes": "Source: barter CPHI Americas 2027 (firmado 12-11-2026); cargado a pedido de Fer 2026-11-12\n2026-11-19: invitación enviada\n2026-11-23: EXCLUDED bus dev (canje CPHI/WHX Informa): no enviar nada más, ni invitación ni recordatorio (regla Fer 23-11)",
       "Organization": "Informa (CPHI Americas / WHX Miami)",
       "Segment": "events",
       "Sent_At": "2026-11-19T18:30:00.000Z",
-      "Status": "Sent"
+      "Status": "Excluded"
     },
     "id": "recVbMa8PSKh40FK3"
   },
@@ -4905,11 +4952,11 @@
       "Email": "mcorrea@lyd.org",
       "Gmail_Message_ID": "1a1e59d08ff635f7",
       "Language": "es",
-      "Notes": "Source: gmail-2026-11-01; CC'd by Carolina Velasco in LyD thread; name unknown\n2026-11-16: invitación enviada (contacto previo verificado en Gmail: hilo LyD)",
+      "Notes": "Source: gmail-2026-11-01; CC'd by Carolina Velasco in LyD thread; name unknown\n2026-11-16: invitación enviada (contacto previo verificado en Gmail: hilo LyD)\n2026-11-23: recordatorio enviado (1a209a9bcdef85bc)",
       "Organization": "Libertad y Desarrollo (LyD)",
       "Segment": "crm",
       "Sent_At": "2026-11-16T18:26:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "recVt239zNbqfmk8K"
   },
@@ -5056,10 +5103,10 @@
       "First_Name": "Diana",
       "Language": "es",
       "Name": "Diana Téllez",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-10: diferido, deal activo Merck KGaA con reunión el 11-11; no mandar invitación automática sin OK de Fer. Queda Queued para que Fer decida\n2026-11-21: verificado en Gmail: contacto real (hilos de propuesta Merck 1a1aca9a7d563a7f, 1a1f081c3cda0386). Deal activo: sigue retenida hasta OK de Fer.",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-10: diferido, deal activo Merck KGaA con reunión el 11-11; no mandar invitación automática sin OK de Fer. Queda Queued para que Fer decida\n2026-11-21: verificado en Gmail: contacto real (hilos de propuesta Merck 1a1aca9a7d563a7f, 1a1f081c3cda0386). Deal activo: sigue retenida hasta OK de Fer.\n2026-11-23: EXCLUDED bus dev (deal Merck KGaA): no enviar nada más, ni invitación ni recordatorio (regla Fer 23-11)",
       "Organization": "Merck Group",
       "Segment": "crm",
-      "Status": "Queued"
+      "Status": "Excluded"
     },
     "id": "recX9V4ycWfRTbjfR"
   },
@@ -5366,11 +5413,11 @@
       "Gmail_Message_ID": "1a1fa377c50ea0f8",
       "Language": "es",
       "Name": "Biosimilars LatAm Mexico (JackLeckerman)",
-      "Notes": "Source: CRM Prospects (Approval=Approved)\n2026-11-20: invitación enviada",
+      "Notes": "Source: CRM Prospects (Approval=Approved)\n2026-11-20: invitación enviada\n2026-11-23: EXCLUDED bus dev (propuesta media partner): no enviar nada más, ni invitación ni recordatorio (regla Fer 23-11)",
       "Organization": "JackLeckerman",
       "Segment": "generic",
       "Sent_At": "2026-11-20T18:28:00.000Z",
-      "Status": "Sent"
+      "Status": "Excluded"
     },
     "id": "recYaAgcxdH4NrNcK"
   },
@@ -5414,11 +5461,11 @@
       "Gmail_Message_ID": "1a1e59ae27dd6fb1",
       "Language": "pt",
       "Name": "Luciana Novaes Magalhaes",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-16: invitación enviada",
+      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-16: invitación enviada\n2026-11-23: recordatorio enviado (1a209a847e8b985a)",
       "Organization": "Reuters",
       "Segment": "press",
       "Sent_At": "2026-11-16T18:26:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "recYvYa9jhUdpvvRb"
   },
@@ -5477,11 +5524,11 @@
       "Gmail_Message_ID": "1a1efecf316393fb",
       "Language": "pt",
       "Name": "Rose (UNIDAS)",
-      "Notes": "Source: gmail-2026-11-01; CC in UNIDAS thread; first name only from address, left blank\n2026-11-18: invitación enviada",
+      "Notes": "Source: gmail-2026-11-01; CC in UNIDAS thread; first name only from address, left blank\n2026-11-18: invitación enviada\n2026-11-23: EXCLUDED bus dev (hilo media partner UNIDAS): no enviar nada más, ni invitación ni recordatorio (regla Fer 23-11)",
       "Organization": "UNIDAS",
       "Segment": "events",
       "Sent_At": "2026-11-18T18:30:00.000Z",
-      "Status": "Sent"
+      "Status": "Excluded"
     },
     "id": "recZT1LVzzHDSd6QA"
   },
@@ -6563,12 +6610,14 @@
     "fields": {
       "Country": "Other",
       "Email": "gerencia@cifarma.org.py",
+      "Gmail_Message_ID": "1a209a4fd372cd34",
       "Language": "es",
       "Name": "Astrid Weiler",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-01: First_Name 'Astrid' cleared (generic/role inbox; greeting without name).",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-01: First_Name 'Astrid' cleared (generic/role inbox; greeting without name).\n2026-11-23: invitación enviada",
       "Organization": "CIFARMA (Paraguay)",
       "Segment": "generic",
-      "Status": "Queued"
+      "Sent_At": "2026-11-23T18:30:00.000Z",
+      "Status": "Sent"
     },
     "id": "receQZPXJoDC60C7v"
   },
@@ -6686,11 +6735,11 @@
       "Gmail_Message_ID": "1a1e59ae774fa16c",
       "Language": "en",
       "Name": "Christina Jewett",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-16: invitación enviada",
+      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-16: invitación enviada\n2026-11-23: recordatorio enviado (1a209a84bd51e207)",
       "Organization": "The New York Times",
       "Segment": "press",
       "Sent_At": "2026-11-16T18:26:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "recfjz0WAe0eLoLpP"
   },
@@ -6713,12 +6762,14 @@
     "fields": {
       "Country": "Mexico",
       "Email": "presidencia@canifarma.org.mx",
+      "Gmail_Message_ID": "1a209a501087cce4",
       "Language": "es",
       "Name": "CANIFARMA (institucional)",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-23: invitación enviada",
       "Organization": "CANIFARMA (Cámara Nacional de la Industria Farmacéutica y de Dispositivos Médicos)",
       "Segment": "generic",
-      "Status": "Queued"
+      "Sent_At": "2026-11-23T18:30:00.000Z",
+      "Status": "Sent"
     },
     "id": "recfxwunkwPb43w27"
   },
@@ -6927,6 +6978,7 @@
   {
     "createdTime": "2026-11-01T01:23:00.000Z",
     "fields": {
+      "Clicked_At": "2026-11-23T10:54:57.000Z",
       "Country": "EE.UU. (global)",
       "Email": "francesca.bruce@norstella.com",
       "First_Name": "Francesca",
@@ -6937,7 +6989,7 @@
       "Organization": "Pink Sheet / Scrip (Citeline)",
       "Segment": "press",
       "Sent_At": "2026-11-05T18:36:00.000Z",
-      "Status": "Reminded"
+      "Status": "Subscribed"
     },
     "id": "rechUar9BMWdUssmG"
   },
@@ -7059,11 +7111,11 @@
       "Gmail_Message_ID": "1a1e59bfaebd114f",
       "Language": "es",
       "Name": "Matías Rojas",
-      "Notes": "Source: gmail-2026-11-01; pitch Voices García Escorza 19-10\n2026-11-16: invitación enviada",
+      "Notes": "Source: gmail-2026-11-01; pitch Voices García Escorza 19-10\n2026-11-16: invitación enviada\n2026-11-23: recordatorio enviado (1a209a9bf140cae0)",
       "Organization": "El Desconcierto (editor jefe)",
       "Segment": "press",
       "Sent_At": "2026-11-16T18:26:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "reciCT78lKnrRlQ5q"
   },
@@ -7072,12 +7124,14 @@
     "fields": {
       "Country": "Brazil",
       "Email": "congresso@unidas.org.br",
+      "Gmail_Message_ID": "1a209a6177b60c5b",
       "Language": "pt",
       "Name": "29º Congresso Internacional UNIDAS",
-      "Notes": "Source: CRM Prospects (Approval=empty)",
+      "Notes": "Source: CRM Prospects (Approval=empty)\n2026-11-23: invitación enviada\n2026-11-23: EXCLUDED bus dev (propuesta media partner UNIDAS): no enviar nada más, ni invitación ni recordatorio (regla Fer 23-11)",
       "Organization": "UNIDAS Autogestão em Saúde",
       "Segment": "generic",
-      "Status": "Queued"
+      "Sent_At": "2026-11-23T18:30:00.000Z",
+      "Status": "Excluded"
     },
     "id": "reciX76zvEbMeARHJ"
   },
@@ -7116,12 +7170,14 @@
     "fields": {
       "Country": "Colombia",
       "Email": "comunicaciones@asinfar.com.co",
+      "Gmail_Message_ID": "1a209a5022966d10",
       "Language": "es",
       "Name": "ASINFAR (institucional)",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-23: invitación enviada",
       "Organization": "ASINFAR (Asociación de Industrias Farmacéuticas en Colombia)",
       "Segment": "generic",
-      "Status": "Queued"
+      "Sent_At": "2026-11-23T18:30:00.000Z",
+      "Status": "Sent"
     },
     "id": "recib6s1ssR1D7qx8"
   },
@@ -7264,11 +7320,11 @@
       "Gmail_Message_ID": "1a1e59d0afcb48a2",
       "Language": "es",
       "Name": "Héctor Valle Mesto",
-      "Notes": "Source: gmail-2026-11-01; Diabetes Control Gap report offer 28-10\n2026-11-16: invitación enviada (contacto previo verificado en Gmail: oferta 28-10 y seguimiento 09-11)",
+      "Notes": "Source: gmail-2026-11-01; Diabetes Control Gap report offer 28-10\n2026-11-16: invitación enviada (contacto previo verificado en Gmail: oferta 28-10 y seguimiento 09-11)\n2026-11-23: recordatorio enviado (1a209a9c3155b939)",
       "Organization": "FUNSALUD",
       "Segment": "crm",
       "Sent_At": "2026-11-16T18:26:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "recjAvzzhNaFe3uGh"
   },
@@ -7280,11 +7336,11 @@
       "Gmail_Message_ID": "1a1fa3785c7adc7e",
       "Language": "en",
       "Name": "HLTH USA 2026 — Latin American Health Innovation Summit",
-      "Notes": "Source: CRM Prospects (Approval=empty)\n2026-11-20: invitación enviada",
+      "Notes": "Source: CRM Prospects (Approval=empty)\n2026-11-20: invitación enviada\n2026-11-23: EXCLUDED bus dev (propuesta media partner HLTH): no enviar nada más, ni invitación ni recordatorio (regla Fer 23-11)",
       "Organization": "HLTH Inc. / Consenso Salud",
       "Segment": "generic",
       "Sent_At": "2026-11-20T18:28:00.000Z",
-      "Status": "Sent"
+      "Status": "Excluded"
     },
     "id": "recjDpFhPHo77Xk24"
   },
@@ -7516,12 +7572,14 @@
     "fields": {
       "Country": "Chile",
       "Email": "saludcam@congreso.cl",
+      "Gmail_Message_ID": "1a209a7443b45e6e",
       "Language": "es",
       "Name": "Cámara - Comisión de Salud (institucional)",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-23: invitación enviada",
       "Organization": "Cámara de Diputadas y Diputados de Chile",
       "Segment": "generic",
-      "Status": "Queued"
+      "Sent_At": "2026-11-23T18:30:00.000Z",
+      "Status": "Sent"
     },
     "id": "reclCD4zDlkN7UdMq"
   },
@@ -7580,10 +7638,10 @@
       "First_Name": "Juliana",
       "Language": "es",
       "Name": "Juliana Restrepo Palacio",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail: contacto real (hilos de propuesta Merck 1a1aca9a7d563a7f, 1a1f081c3cda0386). Deal activo: retenida hasta OK de Fer.",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail: contacto real (hilos de propuesta Merck 1a1aca9a7d563a7f, 1a1f081c3cda0386). Deal activo: retenida hasta OK de Fer.\n2026-11-23: EXCLUDED bus dev (deal Merck KGaA): no enviar nada más, ni invitación ni recordatorio (regla Fer 23-11)",
       "Organization": "Merck Group",
       "Segment": "crm",
-      "Status": "Queued"
+      "Status": "Excluded"
     },
     "id": "reclOJow4NVyLEIyY"
   },
@@ -7596,11 +7654,11 @@
       "Gmail_Message_ID": "1a1e59ae85ab370c",
       "Language": "pt",
       "Name": "Camila Mazzotto",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-16: invitación enviada",
+      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-16: invitación enviada\n2026-11-23: recordatorio enviado (1a209a8fade88361)",
       "Organization": "Veja",
       "Segment": "press",
       "Sent_At": "2026-11-16T18:26:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "reclRmfLRaoSzjKZF"
   },
@@ -7763,10 +7821,10 @@
       "Email": "redacao@panoramafarmaceutico.com.br",
       "Language": "pt",
       "Name": "Leandro Luize",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-01: First_Name 'Leandro' cleared (generic/role inbox; greeting without name).\n2026-11-20: retenida, no invitada: hilo activo de Panorama con Fer (propuesta de alianza 19-11, hilo 1a1acf1d016fca8d). Queda Queued hasta que Fer decida.",
+      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-01: First_Name 'Leandro' cleared (generic/role inbox; greeting without name).\n2026-11-20: retenida, no invitada: hilo activo de Panorama con Fer (propuesta de alianza 19-11, hilo 1a1acf1d016fca8d). Queda Queued hasta que Fer decida.\n2026-11-23: EXCLUDED bus dev (alianza Panorama): no enviar nada más, ni invitación ni recordatorio (regla Fer 23-11)",
       "Organization": "Panorama Farmacêutico",
       "Segment": "generic",
-      "Status": "Queued"
+      "Status": "Excluded"
     },
     "id": "recmZIrDE2To7osmb"
   },
@@ -7775,12 +7833,14 @@
     "fields": {
       "Country": "Argentina",
       "Email": "info@cilfa.org.ar",
+      "Gmail_Message_ID": "1a209a313976a161",
       "Language": "es",
       "Name": "CILFA (institucional)",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-23: invitación enviada",
       "Organization": "CILFA (Cámara Industrial de Laboratorios Farmacéuticos Argentinos)",
       "Segment": "generic",
-      "Status": "Queued"
+      "Sent_At": "2026-11-23T18:30:00.000Z",
+      "Status": "Sent"
     },
     "id": "recmgsf5KU1fadJ2M"
   },
@@ -7791,10 +7851,10 @@
       "First_Name": "Antonio",
       "Language": "en",
       "Name": "Antonio Arce",
-      "Notes": "Source: CRM Prospects (Approval=Approved)",
+      "Notes": "Source: CRM Prospects (Approval=Approved)\n2026-11-23: EXCLUDED bus dev (deal Antonio Arce): no enviar nada más, ni invitación ni recordatorio (regla Fer 23-11)",
       "Organization": "Merck",
       "Segment": "crm",
-      "Status": "Queued"
+      "Status": "Excluded"
     },
     "id": "recmlzCFjkzrVK3Rs"
   },
@@ -8075,12 +8135,14 @@
     "fields": {
       "Country": "Chile",
       "Email": "tercerapresupuestos@senado.cl",
+      "Gmail_Message_ID": "1a209a3e3c7cf83d",
       "Language": "es",
       "Name": "Tercera Subcomisión Mixta de Presupuestos (institucional)",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-23: invitación enviada",
       "Organization": "Congreso Nacional de Chile (Senado)",
       "Segment": "generic",
-      "Status": "Queued"
+      "Sent_At": "2026-11-23T18:30:00.000Z",
+      "Status": "Sent"
     },
     "id": "recoACqnkO7hBDp3j"
   },
@@ -8108,10 +8170,10 @@
       "First_Name": "Harold",
       "Language": "es",
       "Name": "Harold Hamana",
-      "Notes": "Source: gmail-2026-11-01; founding partners thread 26-28 Oct (two-way)\n2026-11-21: verificado en Gmail: contacto real (founding partners 1a17a0ad8bcfadbc; recibió el Issue 02 directo 1a16528b11617ad7). Prospecto comercial: retenida hasta OK de Fer.",
+      "Notes": "Source: gmail-2026-11-01; founding partners thread 26-28 Oct (two-way)\n2026-11-21: verificado en Gmail: contacto real (founding partners 1a17a0ad8bcfadbc; recibió el Issue 02 directo 1a16528b11617ad7). Prospecto comercial: retenida hasta OK de Fer.\n2026-11-23: EXCLUDED bus dev (founding partners Knight-Pawn): no enviar nada más, ni invitación ni recordatorio (regla Fer 23-11)",
       "Organization": "Knight-Pawn",
       "Segment": "crm",
-      "Status": "Queued"
+      "Status": "Excluded"
     },
     "id": "recoRYmDMlB7SEG3o"
   },
@@ -8124,11 +8186,11 @@
       "Gmail_Message_ID": "1a1e59df8e711bf7",
       "Language": "pt",
       "Name": "Rebeca Freitas",
-      "Notes": "Source: gmail-2026-11-01; Diabetes Control Gap report offer 28-10\n2026-11-16: invitación enviada (contacto previo verificado en Gmail: oferta 28-10 y seguimiento 09-11)",
+      "Notes": "Source: gmail-2026-11-01; Diabetes Control Gap report offer 28-10\n2026-11-16: invitación enviada (contacto previo verificado en Gmail: oferta 28-10 y seguimiento 09-11)\n2026-11-23: recordatorio enviado (1a209a9c5534293b)",
       "Organization": "IEPS",
       "Segment": "crm",
       "Sent_At": "2026-11-16T18:26:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "recog9lYvdVZarjIY"
   },
@@ -8252,11 +8314,11 @@
       "Gmail_Message_ID": "1a1f510343855bc9",
       "Language": "pt",
       "Name": "Michele (UNIDAS)",
-      "Notes": "Source: gmail-2026-11-01; UNIDAS congress media-partnership thread 15-16 Oct (two-way)\n2026-11-19: invitación enviada",
+      "Notes": "Source: gmail-2026-11-01; UNIDAS congress media-partnership thread 15-16 Oct (two-way)\n2026-11-19: invitación enviada\n2026-11-23: EXCLUDED bus dev (hilo media partner UNIDAS): no enviar nada más, ni invitación ni recordatorio (regla Fer 23-11)",
       "Organization": "UNIDAS",
       "Segment": "events",
       "Sent_At": "2026-11-19T18:30:00.000Z",
-      "Status": "Sent"
+      "Status": "Excluded"
     },
     "id": "recpYZ66RQFTrqhS8"
   },
@@ -8569,12 +8631,14 @@
     "fields": {
       "Country": "Chile",
       "Email": "secretaria-dn@colegiofarmaceutico.cl",
+      "Gmail_Message_ID": "1a209a504fb4b1cd",
       "Language": "es",
       "Name": "Colegio de Químicos Farmacéuticos y Bioquímicos de Chile (institucional)",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-23: invitación enviada",
       "Organization": "Colegio de Químicos Farmacéuticos y Bioquímicos de Chile A.G.",
       "Segment": "generic",
-      "Status": "Queued"
+      "Sent_At": "2026-11-23T18:30:00.000Z",
+      "Status": "Sent"
     },
     "id": "recqpixxxcZG59oJp"
   },
@@ -8722,11 +8786,11 @@
       "Gmail_Message_ID": "1a1e59bf0d586fce",
       "Language": "en",
       "Name": "Laura Romby",
-      "Notes": "Source: Press & PR Contacts (Pharma media office)\n2026-11-16: invitación enviada",
+      "Notes": "Source: Press & PR Contacts (Pharma media office)\n2026-11-16: invitación enviada\n2026-11-23: recordatorio enviado (1a209a8fe8270362)",
       "Organization": "Sanofi",
       "Segment": "press",
       "Sent_At": "2026-11-16T18:26:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "recrxSaqVTXWZ7vcg"
   },
@@ -8784,12 +8848,14 @@
     "fields": {
       "Country": "Colombia",
       "Email": "contactenos@afidro.org",
+      "Gmail_Message_ID": "1a209a7483bc2887",
       "Language": "es",
       "Name": "AFIDRO (institucional)",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-23: invitación enviada",
       "Organization": "AFIDRO (Asociación de Laboratorios Farmacéuticos de Investigación y Desarrollo)",
       "Segment": "generic",
-      "Status": "Queued"
+      "Sent_At": "2026-11-23T18:30:00.000Z",
+      "Status": "Sent"
     },
     "id": "recsOriV5fjvHFRYj"
   },
@@ -9093,12 +9159,14 @@
     "fields": {
       "Country": "Chile",
       "Email": "BIDChile@iadb.org",
+      "Gmail_Message_ID": "1a209a5075120a90",
       "Language": "es",
       "Name": "BID Chile (institucional)",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-23: invitación enviada",
       "Organization": "BID (IDB) - Representación Chile",
       "Segment": "generic",
-      "Status": "Queued"
+      "Sent_At": "2026-11-23T18:30:00.000Z",
+      "Status": "Sent"
     },
     "id": "recuyjMKeTt7vfx6T"
   },
@@ -9569,11 +9637,11 @@
       "Gmail_Message_ID": "1a1e59bf5a5c9511",
       "Language": "es",
       "Name": "Francisca Soto",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-16: invitación enviada",
+      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-16: invitación enviada\n2026-11-23: recordatorio enviado (1a209a900f2b2df3)",
       "Organization": "CIPER Chile",
       "Segment": "press",
       "Sent_At": "2026-11-16T18:26:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "recxte4pvD8wzJHTl"
   },
@@ -9631,11 +9699,11 @@
       "Gmail_Message_ID": "1a1e59d03f40c720",
       "Language": "es",
       "Name": "Silvana Lay",
-      "Notes": "Source: CRM Prospects (Approval=Approved)\n2026-11-16: invitación enviada (contacto previo verificado en Gmail: mail 19-10)",
+      "Notes": "Source: CRM Prospects (Approval=Approved)\n2026-11-16: invitación enviada (contacto previo verificado en Gmail: mail 19-10)\n2026-11-23: recordatorio enviado (1a209a90934ed814)",
       "Organization": "FIFARMA",
       "Segment": "crm",
       "Sent_At": "2026-11-16T18:26:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "recyWyBN1tVAmwMxZ"
   },
@@ -9799,11 +9867,11 @@
       "Email": "cleighton@elmostrador.cl",
       "Gmail_Message_ID": "1a1e59bf73b361a9",
       "Language": "es",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-16: invitación enviada",
+      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-16: invitación enviada\n2026-11-23: recordatorio enviado (1a209a905e9cd91b)",
       "Organization": "El Mostrador",
       "Segment": "press",
       "Sent_At": "2026-11-16T18:26:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "recz4rbPXfExUeI7I"
   },

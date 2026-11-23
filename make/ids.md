@@ -60,11 +60,11 @@ Regenerar con `python3 scripts/gen_ids.py` después de cada backup. Las referenc
 | 6854895 | HS Invite 1-click subscribe (Brief) | ON | immediately |  | 3008026 |  | airtable, builtin, gateway, sendinblue, util |
 | 6856433 | HS — Brevo: quitar internos de lista 5 (ad hoc) | off | on-demand |  |  |  | sendinblue |
 | 7028872 | HS - Social: sync SOCIAL- tags al dedup de v3 | ON | weekly:08:25 | 164495 HS LinkedIn shared posts |  |  | datastore, google-sheets, util |
-| 7113631 | [TEST] HS covers concept v11 + Gemini (ad-hoc) | ON | on-demand |  |  |  | anthropic-claude, builtin, gemini-ai, google-drive, http, json, openai-gpt-3, util, wordpress |
+| 7113631 | [TEST] HS covers concept v11 + Gemini (ad-hoc) | off | on-demand |  |  |  | anthropic-claude, builtin, gemini-ai, google-drive, http, json, openai-gpt-3, util, wordpress |
 | 7117744 | PROD HS Cover Designer v11 | ON | daily:08:10 |  |  |  | anthropic-claude, builtin, google-drive, http, json, openai-gpt-3, util, wordpress |
-| 7128642 | [TEST] HS connections: related + series + master editor (ad-hoc) | ON | on-demand |  |  |  | anthropic-claude, builtin, google-drive, json, util, wordpress |
+| 7128642 | [TEST] HS connections: related + series + master editor (ad-hoc) | off | on-demand |  |  |  | anthropic-claude, builtin, google-drive, json, util, wordpress |
 | 7129421 | HS 3b - Verify Outreach Sender | ON | on-demand |  |  |  | google-sheets, resend |
-| 7129434 | HS 3b - Watch Verify Replies | ON | indefinitely:900 |  |  |  | builtin, google-email, google-sheets |
+| 7129434 | HS 3b - Watch Verify Replies | ON | indefinitely:3600 |  |  |  | builtin, google-email, google-sheets |
 
 ## Data stores → escenarios que los usan
 

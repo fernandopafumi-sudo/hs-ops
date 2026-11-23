@@ -3209,6 +3209,9 @@
       "Account": "Bristol Myers Squibb Brasil",
       "Active": true,
       "Agency": "Ágora",
+      "Agency Sends": [
+        "recSdTFg4pFD5zhXJ"
+      ],
       "CC": "lucas.soares@agora.site; julia.ramires@agora.site",
       "Client": "Bristol Myers Squibb",
       "Geography": "Brasil",
@@ -8419,6 +8422,9 @@
     "fields": {
       "Account": "Novartis (US)",
       "Active": true,
+      "Agency Sends": [
+        "rec8gNLlobe3H5g68"
+      ],
       "CC": "media.relations@novartis.com",
       "Client": "Novartis",
       "Geography": "USA",

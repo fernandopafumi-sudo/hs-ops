@@ -1,5 +1,21 @@
 [
   {
+    "createdTime": "2026-11-23T15:40:11.000Z",
+    "fields": {
+      "Account Name": "Novartis (US)",
+      "Article URL": "https://healthsignals.news/novartis-pelacarsen-cuts-lpa-78-but-fails-cardiovascular-trial/",
+      "Client Account": [
+        "recx7zZ08UNHhB1zs"
+      ],
+      "Reason": "Ángulo negativo: la nota es sobre el fracaso del ensayo Fase III de pelacarsen (Novartis en el título). Además, cuenta cargada el 20-11 sin Keywords ni Agency Group. No se mandó. 2026-11-23.",
+      "Status": "Flagged for Fer",
+      "Summary": "Novartis (US) – Novartis' pelacarsen cuts Lp(a) 78% but fails cardiovascular trial",
+      "To": "eric.althoff@novartis.com\nCC: media.relations@novartis.com",
+      "WP Post ID": 36920
+    },
+    "id": "rec8gNLlobe3H5g68"
+  },
+  {
     "createdTime": "2026-11-20T15:39:40.000Z",
     "fields": {
       "Account Name": "BMS Brasil",
@@ -8,12 +24,29 @@
       "Client Account": [
         "recDqTHTXUHbR7K4w"
       ],
-      "Reason": "cooldown 7d (y cooldown 3d): Fer escribió a lucas.soares@agora.site (CC raquel.reis, julia.ramires) el 2026-11-19 18:59Z en el hilo 1a18f5731902670d (respuestas de voceros, crédito de fotos, promesa de mandar texto final para conferir citas). Cuenta libre desde 2026-11-22 18:59Z; destinatarios libres desde 2026-11-26 18:59Z. Último chequeo: 2026-11-20.",
+      "Reason": "cooldown 7d (y cooldown 3d): último mail nuestro a lucas.soares@agora.site y raquel.reis@agora.site (CC julia.ramires) fue el 2026-11-20 18:35Z, hilo 1a1fa3bacfc8d512 (confirmación de citas). Cuenta/Agency Group libre desde 2026-11-23 18:35Z; destinatarios libres desde 2026-11-27 18:35Z. Último chequeo: 2026-11-23.",
       "Status": "Skipped",
       "Summary": "BMS Brasil – BMS and A.C.Camargo say their oncology risk-sharing model can scale",
       "To": "lucas.soares@agora.site\nCC: raquel.reis@agora.site, julia.ramires@agora.site",
       "WP Post ID": 37089
     },
     "id": "recQXEsZnQFFN8oWW"
+  },
+  {
+    "createdTime": "2026-11-23T15:40:11.000Z",
+    "fields": {
+      "Account Name": "Bristol Myers Squibb Brasil",
+      "Agency Group": "Ágora",
+      "Article URL": "https://healthsignals.news/bms-and-a-c-camargo-say-their-oncology-risk-sharing-model-can-scale-if-regulators-help/",
+      "Client Account": [
+        "recMrnkR8SyRYvRxT"
+      ],
+      "Reason": "cooldown 7d (y cooldown 3d): mismos destinatarios que la cuenta BMS Brasil; último mail nuestro 2026-11-20 18:35Z (hilo 1a1fa3bacfc8d512). Destinatarios libres desde 2026-11-27 18:35Z. Ojo: esta cuenta parece duplicado de BMS Brasil (recDqTHTXUHbR7K4w). Último chequeo: 2026-11-23.",
+      "Status": "Skipped",
+      "Summary": "Bristol Myers Squibb Brasil (fila 20-11) – BMS and A.C.Camargo say their oncology risk-sharing model can scale",
+      "To": "raquel.reis@agora.site\nCC: lucas.soares@agora.site, julia.ramires@agora.site",
+      "WP Post ID": 37089
+    },
+    "id": "recSdTFg4pFD5zhXJ"
   }
 ]

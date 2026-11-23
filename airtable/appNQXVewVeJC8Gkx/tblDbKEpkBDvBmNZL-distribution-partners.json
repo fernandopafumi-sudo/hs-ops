@@ -29,12 +29,12 @@
       "Follow-up date": "2026-11-17",
       "Gmail draft id": "r4515831286559362824",
       "Language": "ES",
-      "Notes": "2026-11-02: revisión adversarial: título real del informe. 2026-11-12: enviado el 2026-11-10 14:13 UTC (verificado en in:sent), sin respuesta. 2026-11-19: seguimiento único en borrador r4515831286559362824 (revisión adversarial: link de la landing directo + saludo en renglón aparte); espera 'OK seguimientos socios 19-11'.",
+      "Notes": "2026-11-02: revisión adversarial: título real del informe. 2026-11-12: enviado el 2026-11-10 14:13 UTC (verificado en in:sent), sin respuesta. 2026-11-19: seguimiento único en borrador r4515831286559362824 (revisión adversarial: link de la landing directo + saludo en renglón aparte); espera 'OK seguimientos socios 19-11'. 2026-11-23: seguimiento único enviado el 2026-11-21 ~13:49 UTC (verificado en in:sent); sin respuesta ni rebote al 23-11. No reply si sigue sin respuesta el 2026-12-05.",
       "Organization": "SMSP (Sociedad Mexicana de Salud Pública)",
       "Role": "Presidente 2025-2026",
       "Sent date": "2026-11-10",
       "Source URL": "https://www.smsp.org.mx/consejo-directivo.html ; https://smsp.org.mx/",
-      "Status": "Sent",
+      "Status": "Follow-up sent",
       "Type": "Socio"
     },
     "id": "rec1iL2wvvcPa9Dxg"
@@ -67,14 +67,14 @@
       "Country": "United States",
       "Email": "despres@uthscsa.edu",
       "Follow-up date": "2026-11-19",
-      "Gmail draft id": "r-628290777919260205",
+      "Gmail draft id": "r-2613539328978193431",
       "Language": "EN",
-      "Notes": "2026-11-09 (lunes, paso 4): email leído en la página oficial del equipo. Fit medio (salud latina, audiencia comunitaria). Borrador en Gmail creado; pendiente revisión adversarial (orquestador) antes de Drafted/Batch.\n2026-11-12: revisión adversarial (opus) hecha y aplicada al borrador: saqué oferta del PDF y frase 'no mailing list'; 'maps the gap' -> 'on diabetes control'; asunto nuevo. Cargo confirmado (communications director, salud-america.org). Espera 'OK tanda T4'.\n2026-11-16: enviado el 2026-11-12 19:25 UTC (verificado en in:sent, asunto 'A free report on diabetes control in Latin America'), sin respuesta ni rebote al 16-11.",
+      "Notes": "2026-11-09 (lunes, paso 4): email leído en la página oficial del equipo. Fit medio. 2026-11-12: revisión adversarial aplicada. 2026-11-16: enviado el 2026-11-12 19:25 UTC (verificado en in:sent), sin respuesta ni rebote al 16-11.\n2026-11-23: seguimiento único en borrador r-2613539328978193431 (revisión adversarial opus hecha; link como texto sin https://). Sin respuesta ni rebote. Espera 'OK seguimientos socios 23-11'.\n2026-11-23: seguimiento enviado con 'OK seguimientos socios 23-11' de Fer, msg 1a20a1d5ff8219e1 (verificado en in:sent). No reply si sigue sin respuesta el 2026-12-07.",
       "Organization": "Salud America! (UT Health San Antonio, Institute for Health Promotion Research)",
       "Role": "Communications Manager",
       "Sent date": "2026-11-12",
       "Source URL": "https://www.salud-america.org/our-team/",
-      "Status": "Sent",
+      "Status": "Follow-up sent",
       "Type": "Socio"
     },
     "id": "rec2RbbSEMY15Z8yL"
@@ -125,17 +125,39 @@
       "Country": "United States",
       "Email": "kmccolli@miami.edu",
       "Follow-up date": "2026-11-19",
-      "Gmail draft id": "r-1156995683961755469",
+      "Gmail draft id": "r-853773816132065788",
       "Language": "EN",
-      "Notes": "2026-11-09 (lunes, paso 4): email leído en la página oficial de la división (ofuscado en entidades; decodificado). Dedupe: distinto de UMIA (instituto). Borrador en Gmail creado; pendiente de revisión adversarial (orquestador) antes de Drafted/Batch.\n2026-11-12: revisión adversarial (opus) hecha y aplicada al borrador: saqué oferta del PDF y frase 'no mailing list'; 'Professor' -> 'Dr.' (es Chair del Department of Public Health Sciences, med.miami.edu); asunto nuevo. Espera 'OK tanda T4'.\n2026-11-16: enviado el 2026-11-12 19:25 UTC (verificado en in:sent, asunto 'A free report on diabetes control and out-of-pocket costs in Latin America'), sin respuesta ni rebote al 16-11.",
+      "Notes": "2026-11-09 (lunes, paso 4): email leído en la página oficial de la división. Dedupe: distinto de UMIA. 2026-11-12: revisión adversarial aplicada. 2026-11-16: enviado el 2026-11-12 19:25 UTC (verificado en in:sent), sin respuesta ni rebote al 16-11.\n2026-11-23: seguimiento único en borrador r-853773816132065788 (revisión adversarial opus hecha; link como texto sin https:// por el envoltorio de Gmail). Sin respuesta ni rebote. Espera 'OK seguimientos socios 23-11'.\n2026-11-23: seguimiento enviado con 'OK seguimientos socios 23-11' de Fer, msg 1a20a1d62164a059 (verificado en in:sent). No reply si sigue sin respuesta el 2026-12-07.",
       "Organization": "University of Miami Miller School of Medicine — Department of Public Health Sciences",
       "Role": "Professor and Health Economist, Dept. of Public Health Sciences (nota de junio 2025 la nombra Interim Chair; vigencia sin verificar, no citar cargo)",
       "Sent date": "2026-11-12",
       "Source URL": "https://www.publichealth.med.miami.edu/divisions/health-services-research-and-policy/faculty/index.html ; https://www.publichealth.med.miami.edu/news/news-releases/2025/dr-kathryn-mccollister-appointed-interim-chair-of-the-department-of-public-health-sciences/index.html",
-      "Status": "Sent",
+      "Status": "Follow-up sent",
       "Type": "Docente"
     },
     "id": "rec6DwOcmRrBiNhfZ"
+  },
+  {
+    "createdTime": "2026-11-23T13:56:13.000Z",
+    "fields": {
+      "Audience estimate": "Sin número publicado (estimación pendiente)",
+      "Batch": "T6-2026-11-23",
+      "Channel": "Email",
+      "Contact": "Dr. Carlos Espinal",
+      "Country": "United States",
+      "Email": "caespina@fiu.edu",
+      "Follow-up date": "2026-11-30",
+      "Gmail draft id": "r-7262164291599762693",
+      "Language": "EN",
+      "Notes": "2026-11-23 (lunes, paso 4, cuota EE.UU.): email y cargo leídos en el perfil oficial de ghc.fiu.edu; el manual operativo 2026-2027 de Stempel College (stempel.fiu.edu) confirma 'Director, Dr. Carlos Espinal' y las prioridades del GHC. No citar el cargo de Interim Chair. Dedupe: distinto de UMIA y Univ. de Miami. Revisión adversarial (opus) hecha: corregido el link envuelto en google.com/url; el link queda como texto sin https:// (healthsignals.news/reports/diabetes-control-gap/) porque Gmail envuelve cualquier https:// en el borrador. Borrador final r-7262164291599762693.\n2026-11-23: enviado con 'OK tanda T6' de Fer, msg 1a20a1d1a98b4471 (verificado en in:sent).",
+      "Organization": "FIU Global Health Consortium (Robert Stempel College of Public Health & Social Work)",
+      "Role": "Director, Global Health Consortium",
+      "Sent date": "2026-11-23",
+      "Source URL": "https://ghc.fiu.edu/about/meet-the-team/profiles/dr.-carlos-espinal.html ; https://stempel.fiu.edu/_assets/docs/ops-manual-2026-2027.pdf",
+      "Status": "Sent",
+      "Type": "Socio"
+    },
+    "id": "rec7NNyghbmNBcbuN"
   },
   {
     "createdTime": "2026-10-21T22:15:24.000Z",
@@ -188,11 +210,11 @@
       "Follow-up date": "2026-10-28",
       "Gmail draft id": "r1594542876998494215",
       "Language": "ES",
-      "Notes": "Alternativa: noticias@endocrino.org.co. 2026-11-09: seguimiento único enviado 14:53 UTC (verificado en in:sent), sin respuesta al 2026-11-12. No reply si sigue sin respuesta el 2026-11-23.",
+      "Notes": "Alternativa: noticias@endocrino.org.co. 2026-11-09: seguimiento único enviado 14:53 UTC (verificado en in:sent), sin respuesta al 2026-11-12. 2026-11-23: 14 días desde el seguimiento sin respuesta ni rebote (inbox revisado) → No reply. No volver a escribir.",
       "Organization": "ACE (Asociación Colombiana de Endocrinología, Diabetes y Metabolismo)",
       "Role": "Presidente (2025-2027)",
       "Sent date": "2026-10-21",
-      "Status": "Follow-up sent",
+      "Status": "No reply",
       "Type": "Socio"
     },
     "id": "recA5GQJvzzuC6LzG"
@@ -209,12 +231,12 @@
       "Follow-up date": "2026-11-04",
       "Gmail draft id": "r-8410198051772603646",
       "Language": "ES",
-      "Notes": "2026-11-09: seguimiento único enviado 14:33 UTC (verificado en in:sent), sin respuesta al 2026-11-12. No reply si sigue sin respuesta el 2026-11-23.",
+      "Notes": "2026-11-09: seguimiento único enviado 14:33 UTC (verificado en in:sent), sin respuesta al 2026-11-12. 2026-11-23: 14 días desde el seguimiento sin respuesta ni rebote (inbox revisado) → No reply. No volver a escribir. Posible vía LinkedIn de Fer si se quiere insistir (decide Fer).",
       "Organization": "ISPOR Mexico Chapter",
       "Role": "Presidente (2026-2027)",
       "Sent date": "2026-10-28",
       "Source URL": "https://es.linkedin.com/posts/ispor-mexico-chapter-b904ba280_ispormexico-heor-hta-activity-7508696308908441600-08Lv",
-      "Status": "Follow-up sent",
+      "Status": "No reply",
       "Type": "Socio"
     },
     "id": "recAVPe2B8yiD52Em"
@@ -231,12 +253,12 @@
       "Follow-up date": "2026-11-04",
       "Gmail draft id": "r-5091094119489847694",
       "Language": "ES",
-      "Notes": "Email de directorio 2019: si rebota, reenviar a contacto@funsalud.org.mx. Verificar si la Sepúlveda del Consejo es la de Voices T1. 2026-11-09: seguimiento único enviado 14:29 UTC (verificado en in:sent), sin rebote ni respuesta al 2026-11-12. No reply si sigue sin respuesta el 2026-11-23.",
+      "Notes": "Email de directorio 2019: si rebota, reenviar a contacto@funsalud.org.mx. Verificar si la Sepúlveda del Consejo es la de Voices T1. 2026-11-09: seguimiento único enviado 14:29 UTC (verificado en in:sent), sin rebote ni respuesta al 2026-11-12. 2026-11-23: 14 días desde el seguimiento sin respuesta ni rebote (inbox revisado) → No reply. No volver a escribir.",
       "Organization": "FUNSALUD (Fundación Mexicana para la Salud)",
       "Role": "Presidente ejecutivo",
       "Sent date": "2026-10-28",
       "Source URL": "https://funsalud.org.mx/funsalud/directorio/",
-      "Status": "Follow-up sent",
+      "Status": "No reply",
       "Type": "Socio"
     },
     "id": "recBghbrkRqozaCJ2"
@@ -253,12 +275,12 @@
       "Follow-up date": "2026-11-04",
       "Gmail draft id": "r-3257382774656270164",
       "Language": "PT",
-      "Notes": "Presidente socio de consultora (Sano-Efiko): solo canal, no cliente. 2026-11-09: seguimiento único enviado 14:05 UTC (verificado en in:sent), sin respuesta al 2026-11-12. No reply si sigue sin respuesta el 2026-11-23.",
+      "Notes": "Presidente socio de consultora (Sano-Efiko): solo canal, no cliente. 2026-11-09: seguimiento único enviado 14:05 UTC (verificado en in:sent), sin respuesta al 2026-11-12. 2026-11-23: 14 días desde el seguimiento sin respuesta ni rebote (inbox revisado) → No reply. No volver a escribir.",
       "Organization": "ISPOR Capítulo Brasil",
       "Role": "Presidente (2024-2026)",
       "Sent date": "2026-10-28",
       "Source URL": "https://ispor.org.br/home/ispor-capitulo-brasil/diretoria-ispor-capitulo-brasil/",
-      "Status": "Follow-up sent",
+      "Status": "No reply",
       "Type": "Socio"
     },
     "id": "recCBDJE9duU0qSy0"
@@ -309,12 +331,12 @@
       "Follow-up date": "2026-11-04",
       "Gmail draft id": "r-3794185111838178709",
       "Language": "ES",
-      "Notes": "Casilla general del posgrado: complementar con DM de Fer. 2026-11-09: seguimiento único enviado 14:09 UTC (verificado en in:sent), sin respuesta al 2026-11-12. No reply si sigue sin respuesta el 2026-11-23.",
+      "Notes": "Casilla general del posgrado: complementar con DM de Fer. 2026-11-09: seguimiento único enviado 14:09 UTC (verificado en in:sent), sin respuesta al 2026-11-12. 2026-11-23: 14 días desde el seguimiento sin respuesta ni rebote (inbox revisado) → No reply. No volver a escribir por mail.",
       "Organization": "ISALUD — Maestría en Economía y Gestión de la Salud",
       "Role": "Director",
       "Sent date": "2026-10-28",
       "Source URL": "https://ftp.isalud.edu.ar/news/posgrado_economia/",
-      "Status": "Follow-up sent",
+      "Status": "No reply",
       "Type": "Docente"
     },
     "id": "recHKBoT4BuXDJjzy"
@@ -346,16 +368,39 @@
       "Country": "Brazil",
       "Email": "artemis@abrasco.org.br",
       "Follow-up date": "2026-11-23",
+      "Gmail draft id": "r-4994417106932547127",
       "Language": "PT",
-      "Notes": "2026-11-16 (lunes, paso 4): email leído en la página oficial Sala de Imprensa (abrasco.org.br). Alternativa publicada: comunica@abrasco.org.br. 2026-11-16 13:56 UTC: SALIÓ SIN OK DE FER (incidente: vaciado de borradores de editor@, causa desconocida), msg 1a1e4a5137ba01c1. Revisión adversarial posterior: ENVIAR (ok).\n2026-11-16: auto-respuesta: de vacaciones hasta el lunes 23-11; urgencias a comunica@abrasco.org.br o WhatsApp (21) 98578-1640. Tel. firma: 21 3976-5405. Seguimiento no antes del 23-11.",
+      "Notes": "2026-11-16 (lunes, paso 4): email leído en la página oficial Sala de Imprensa. Alternativa publicada: comunica@abrasco.org.br. 2026-11-16 13:56 UTC: SALIÓ SIN OK DE FER (incidente de borradores), msg 1a1e4a5137ba01c1. Revisión adversarial posterior: ENVIAR.\n2026-11-16: auto-respuesta: de vacaciones hasta el lunes 23-11.\n2026-11-23: seguimiento único en borrador r-4994417106932547127 (PT; revisión adversarial opus hecha: sin mención de vacaciones; link como texto sin https://). Sin respuesta ni rebote. Espera 'OK seguimientos socios 23-11'.\n2026-11-23: seguimiento enviado con 'OK seguimientos socios 23-11' de Fer, msg 1a20a1d66999f432 (verificado en in:sent). No reply si sigue sin respuesta el 2026-12-07.",
       "Organization": "Abrasco (Associação Brasileira de Saúde Coletiva)",
       "Role": "Gerente de Comunicação, Relacionamento e Marketing",
       "Sent date": "2026-11-16",
       "Source URL": "https://abrasco.org.br/sala-de-imprensa/ ; https://abrasco.org.br/contato/",
-      "Status": "Sent",
+      "Status": "Follow-up sent",
       "Type": "Socio"
     },
     "id": "recLlgASwbDrH7Ost"
+  },
+  {
+    "createdTime": "2026-11-23T13:56:13.000Z",
+    "fields": {
+      "Audience estimate": "Sin número publicado (estimación pendiente)",
+      "Batch": "T6-2026-11-23",
+      "Channel": "Email",
+      "Contact": "Héctor Ángel Calvo",
+      "Country": "Argentina",
+      "Email": "escuelaeconsalud@econo.unlp.edu.ar",
+      "Follow-up date": "2026-11-30",
+      "Gmail draft id": "r-2305077174869419045",
+      "Language": "ES",
+      "Notes": "2026-11-23 (lunes, paso 4): director leído en la página oficial del programa, sin fecha (vigencia sin verificar). Email cambiado tras revisión adversarial (opus) de posgrados@econo.unlp.edu.ar a escuelaeconsalud@econo.unlp.edu.ar (buzón de su Escuela, publicado en la página -4670). Corregido: 'No pedimos ni recibimos su base'. Borrador final r-2305077174869419045.\n2026-11-23: enviado con 'OK tanda T6' de Fer, msg 1a20a1d2d0528daa (verificado en in:sent).",
+      "Organization": "UNLP — Maestría en Economía de la Salud y Administración de Organizaciones de Salud",
+      "Role": "Director Académico (según la página; título profesional no indicado)",
+      "Sent date": "2026-11-23",
+      "Source URL": "https://www.econo.unlp.edu.ar/carreras_posgrado/maestria_en_economia_de_la_salud-4667 ; https://www.econo.unlp.edu.ar/carreras_posgrado/programa_de_acompanamiento_para_el_desarrollo_de_tesis_de_maestria-4670",
+      "Status": "Sent",
+      "Type": "Docente"
+    },
+    "id": "recNDtHwjhYdE7EHw"
   },
   {
     "createdTime": "2026-10-21T22:15:24.000Z",
@@ -382,11 +427,11 @@
       "Follow-up date": "2026-10-28",
       "Gmail draft id": "r-199097337211238575",
       "Language": "ES",
-      "Notes": "Socios Cooperadores corporativos. Alternativa: info@diabetes.org.ar. 2026-11-09: seguimiento único enviado 14:49 UTC (verificado en in:sent), sin respuesta al 2026-11-12. No reply si sigue sin respuesta el 2026-11-23.",
+      "Notes": "Socios Cooperadores corporativos. Alternativa: info@diabetes.org.ar. 2026-11-09: seguimiento único enviado 14:49 UTC (verificado en in:sent), sin respuesta al 2026-11-12. 2026-11-23: 14 días desde el seguimiento sin respuesta ni rebote (inbox revisado) → No reply. No volver a escribir.",
       "Organization": "SAD (Sociedad Argentina de Diabetes)",
       "Role": "Presidenta",
       "Sent date": "2026-10-21",
-      "Status": "Follow-up sent",
+      "Status": "No reply",
       "Type": "Socio"
     },
     "id": "recQ4YnM00EwCPNql"
@@ -403,12 +448,12 @@
       "Follow-up date": "2026-11-04",
       "Gmail draft id": "r1754484845259333615",
       "Language": "ES",
-      "Notes": "2026-11-09: seguimiento único enviado 14:25 UTC (verificado en in:sent), sin respuesta al 2026-11-12. No reply si sigue sin respuesta el 2026-11-23.",
+      "Notes": "2026-11-09: seguimiento único enviado 14:25 UTC (verificado en in:sent), sin respuesta al 2026-11-12. 2026-11-23: 14 días desde el seguimiento sin respuesta ni rebote (inbox revisado) → No reply. No volver a escribir.",
       "Organization": "Universidad de Chile — Magíster en Salud Pública",
       "Role": "Coordinadora",
       "Sent date": "2026-10-28",
       "Source URL": "https://medicina.uchile.cl/postgrados/50751/salud-publica",
-      "Status": "Follow-up sent",
+      "Status": "No reply",
       "Type": "Docente"
     },
     "id": "recS0uHzGz1Q5h6RM"
@@ -443,12 +488,12 @@
       "Follow-up date": "2026-11-04",
       "Gmail draft id": "r3427968004218103284",
       "Language": "ES",
-      "Notes": "Rosselli (Voices T1) lo presidió en 2017: no mezclar pedidos. 2026-11-09: seguimiento único enviado 14:13 UTC (verificado en in:sent), sin respuesta al 2026-11-12. No reply si sigue sin respuesta el 2026-11-23.",
+      "Notes": "Rosselli (Voices T1) lo presidió en 2017: no mezclar pedidos. 2026-11-09: seguimiento único enviado 14:13 UTC (verificado en in:sent), sin respuesta al 2026-11-12. 2026-11-23: 14 días desde el seguimiento sin respuesta ni rebote (inbox revisado) → No reply. No volver a escribir.",
       "Organization": "ISPOR Colombia",
       "Role": "Presidente",
       "Sent date": "2026-10-28",
       "Source URL": "https://www.isporcolombia.org/nosotros/",
-      "Status": "Follow-up sent",
+      "Status": "No reply",
       "Type": "Socio"
     },
     "id": "recSn1KZPvG5aZnxU"
@@ -482,12 +527,12 @@
       "Follow-up date": "2026-11-17",
       "Gmail draft id": "r-1509718765867095653",
       "Language": "EN",
-      "Notes": "2026-11-02: revisión adversarial: título real del informe. Manzor figura como interim director (news.miami.edu 28-04-2025); no citar cargo. 2026-11-12: enviado el 2026-11-10 14:17 UTC (verificado en in:sent), sin respuesta. 2026-11-19: seguimiento único en borrador r-1509718765867095653 (revisión adversarial: link directo; hilo verificado limpio); espera 'OK seguimientos socios 19-11'.",
+      "Notes": "2026-11-02: revisión adversarial: título real del informe. Manzor figura como interim director (news.miami.edu 28-04-2025); no citar cargo. 2026-11-12: enviado el 2026-11-10 14:17 UTC (verificado en in:sent), sin respuesta. 2026-11-19: seguimiento único en borrador r-1509718765867095653 (revisión adversarial: link directo; hilo verificado limpio); espera 'OK seguimientos socios 19-11'. 2026-11-23: seguimiento único enviado el 2026-11-21 13:47 UTC (verificado en in:sent); sin respuesta ni rebote al 23-11. No reply si sigue sin respuesta el 2026-12-05.",
       "Organization": "UMIA (University of Miami Institute for Advanced Study of the Americas)",
       "Role": "Director, UMIA",
       "Sent date": "2026-11-10",
       "Source URL": "https://mia.as.miami.edu/about-us/the-team/index.html ; https://mia.as.miami.edu/initiatives/index.html",
-      "Status": "Sent",
+      "Status": "Follow-up sent",
       "Type": "Socio"
     },
     "id": "recZ194yCjqKiSo0x"
@@ -525,12 +570,12 @@
       "Follow-up date": "2026-11-04",
       "Gmail draft id": "r-2100853533419127815",
       "Language": "PT",
-      "Notes": "2026-10-28: REBOTE en contato@abresbrasil.org.br (dominio sin MX). Reenviado a brasilabres@gmail.com (dirección publicada en su página de contacto) con OK de Fer. 2026-11-09: seguimiento único enviado 14:17 UTC (verificado en in:sent); llegó solo un acuse automático de brasilabres@gmail.com (no es respuesta humana). No reply si sigue sin respuesta el 2026-11-23.",
+      "Notes": "2026-10-28: REBOTE en contato@abresbrasil.org.br (dominio sin MX). Reenviado a brasilabres@gmail.com (dirección publicada en su página de contacto) con OK de Fer. 2026-11-09: seguimiento único enviado 14:17 UTC (verificado en in:sent); llegó solo un acuse automático de brasilabres@gmail.com (no es respuesta humana). 2026-11-23: 14 días desde el seguimiento sin respuesta humana ni rebote → No reply. No volver a escribir.",
       "Organization": "ABrES (Associação Brasileira de Economia da Saúde)",
       "Role": "Presidenta",
       "Sent date": "2026-10-28",
       "Source URL": "https://abresbrasil.org.br/equipe/",
-      "Status": "Follow-up sent",
+      "Status": "No reply",
       "Type": "Socio"
     },
     "id": "recbmIY4TggfhMJhw"
@@ -547,12 +592,12 @@
       "Follow-up date": "2026-11-17",
       "Gmail draft id": "r7516783529822320134",
       "Language": "PT",
-      "Notes": "2026-11-12: el borrador r1381302902704780614 salió el 2026-11-10 14:21 UTC (verificado en in:sent, asunto 'Material gratuito para seus alunos: lacuna no controle do diabetes'); sin respuesta. Batch viejo ('Reserva') sin actualizar. 2026-11-19: seguimiento único en borrador r7516783529822320134 (revisión adversarial: link directo + 'alunos e egressos'); espera 'OK seguimientos socios 19-11'.",
+      "Notes": "2026-11-12: el borrador r1381302902704780614 salió el 2026-11-10 14:21 UTC (verificado en in:sent, asunto 'Material gratuito para seus alunos: lacuna no controle do diabetes'); sin respuesta. Batch viejo ('Reserva') sin actualizar. 2026-11-19: seguimiento único en borrador r7516783529822320134 (revisión adversarial: link directo + 'alunos e egressos'); espera 'OK seguimientos socios 19-11'. 2026-11-23: seguimiento único enviado el 2026-11-21 13:49 UTC (verificado en in:sent); sin respuesta ni rebote al 23-11. No reply si sigue sin respuesta el 2026-12-05.",
       "Organization": "INC — Mestrado Profissional em ATS",
       "Role": "Coordenadora",
       "Sent date": "2026-11-10",
       "Source URL": "https://fundacor.org.br/cursos/mestrado/mestrado-profissional-em-avaliacao-de-tecnologias-em-saude-ats/",
-      "Status": "Sent",
+      "Status": "Follow-up sent",
       "Type": "Docente"
     },
     "id": "recdKpcfAeX3fIfLt"
@@ -567,16 +612,39 @@
       "Country": "United States",
       "Email": "info@healthyamericas.org",
       "Follow-up date": "2026-11-23",
+      "Gmail draft id": "r-6278734072297050431",
       "Language": "EN",
-      "Notes": "2026-11-16 (lunes, paso 4): cuota EE.UU.; info@ es el único email publicado. 2026-11-16 13:56 UTC: SALIÓ SIN OK DE FER (incidente de borradores), msg 1a1e4a50b9a3bde4, con el texto original (link incluido, pedía uso propio). Revisión adversarial posterior: ENVIAR CON CAMBIOS, prioridad baja (fit LatAm vs hispanos EE.UU. débil).",
+      "Notes": "2026-11-16 (lunes, paso 4): cuota EE.UU.; info@ es el único email publicado. 2026-11-16 13:56 UTC: SALIÓ SIN OK DE FER (incidente de borradores), msg 1a1e4a50b9a3bde4. Revisión adversarial posterior: ENVIAR CON CAMBIOS, prioridad baja.\n2026-11-23: seguimiento único en borrador r-6278734072297050431 (EN; revisión adversarial opus hecha; link como texto sin https://). Prioridad baja: Fer puede descartarlo. Sin respuesta ni rebote.\n2026-11-23: seguimiento enviado con 'OK seguimientos socios 23-11' de Fer, msg 1a20a1d6d89b38eb (verificado en in:sent). No reply si sigue sin respuesta el 2026-12-07.",
       "Organization": "National Alliance for Hispanic Health",
       "Role": "Managing Director for External Relations",
       "Sent date": "2026-11-16",
       "Source URL": "https://www.healthyamericas.org/key-staff ; https://www.healthyamericas.org/contact",
-      "Status": "Sent",
+      "Status": "Follow-up sent",
       "Type": "Socio"
     },
     "id": "recg7jQxwRLDOHAPc"
+  },
+  {
+    "createdTime": "2026-11-23T13:56:13.000Z",
+    "fields": {
+      "Audience estimate": "15 cupos por semestre (fuente, página del programa); egresados: sin dato",
+      "Batch": "T6-2026-11-23",
+      "Channel": "Email",
+      "Contact": "Sandra Lorena Girón Vargas",
+      "Country": "Colombia",
+      "Email": "maestria.economia.salud@correounivalle.edu.co",
+      "Follow-up date": "2026-11-30",
+      "Gmail draft id": "r6614970438869950896",
+      "Language": "ES",
+      "Notes": "2026-11-23 (lunes, paso 4): coordinadora según la página del personal de la Escuela de Salud Pública (actualizada 24-02-2026); una nota de junio 2024 nombraba a María Fernanda Tobar (cargo anterior, no usar). Email publicado en la página oficial del programa. Programa nuevo (creado 2023). Revisión adversarial (opus) hecha: 'No pedimos ni recibimos su base'. Borrador final r6614970438869950896.\n2026-11-23: enviado con 'OK tanda T6' de Fer, msg 1a20a1d1e8974ddb (verificado en in:sent).",
+      "Organization": "Universidad del Valle — Maestría en Economía de la Salud",
+      "Role": "Coordinadora de la Maestría en Economía de la Salud (Escuela de Salud Pública)",
+      "Sent date": "2026-11-23",
+      "Source URL": "https://saludpublica.univalle.edu.co/personal/administrativo-saludpublica ; https://salud.univalle.edu.co/posgrados/maestrias/29-maestrias/238-maestria-en-economia-de-la-salud",
+      "Status": "Sent",
+      "Type": "Docente"
+    },
+    "id": "rechXeQ3sGCl98ccQ"
   },
   {
     "createdTime": "2026-11-02T14:15:23.000Z",
@@ -590,12 +658,12 @@
       "Follow-up date": "2026-11-17",
       "Gmail draft id": "r5799983612954407284",
       "Language": "ES",
-      "Notes": "2026-11-02: revisión adversarial: título real del informe. 2026-11-12: enviado el 2026-11-10 14:09 UTC (verificado en in:sent), sin respuesta. 2026-11-19: seguimiento único en borrador r5799983612954407284 (revisión adversarial: link directo + saludo en renglón aparte); espera 'OK seguimientos socios 19-11'.",
+      "Notes": "2026-11-02: revisión adversarial: título real del informe. 2026-11-12: enviado el 2026-11-10 14:09 UTC (verificado en in:sent), sin respuesta. 2026-11-19: seguimiento único en borrador r5799983612954407284 (revisión adversarial: link directo + saludo en renglón aparte); espera 'OK seguimientos socios 19-11'. 2026-11-23: seguimiento único enviado el 2026-11-21 13:49 UTC (verificado en in:sent); sin respuesta ni rebote al 23-11. No reply si sigue sin respuesta el 2026-12-05.",
       "Organization": "Asociación Colombiana de Salud Pública",
       "Role": "Presidenta",
       "Sent date": "2026-11-10",
       "Source URL": "https://www.saludpublicacolombia.org/junta-directiva/ ; https://www.saludpublicacolombia.org/",
-      "Status": "Sent",
+      "Status": "Follow-up sent",
       "Type": "Socio"
     },
     "id": "recjMu2zV16F2ENoa"
@@ -612,12 +680,12 @@
       "Follow-up date": "2026-11-04",
       "Gmail draft id": "r-333118984269281108",
       "Language": "PT",
-      "Notes": "2026-11-09: seguimiento único enviado 14:21 UTC (verificado en in:sent), sin respuesta al 2026-11-12. No reply si sigue sin respuesta el 2026-11-23.",
+      "Notes": "2026-11-09: seguimiento único enviado 14:21 UTC (verificado en in:sent), sin respuesta al 2026-11-12. 2026-11-23: 14 días desde el seguimiento sin respuesta ni rebote (inbox revisado) → No reply. No volver a escribir.",
       "Organization": "IEPS (Instituto de Estudos para Políticas de Saúde)",
       "Role": "Directora de Relaciones Institucionales",
       "Sent date": "2026-10-28",
       "Source URL": "https://ieps.org.br/institucional/",
-      "Status": "Follow-up sent",
+      "Status": "No reply",
       "Type": "Socio"
     },
     "id": "reclJgP2M0QfKdxJP"
@@ -692,14 +760,36 @@
       "Follow-up date": "2026-10-28",
       "Gmail draft id": "r-1014465647737774345",
       "Language": "PT",
-      "Notes": "Vende partnerships a la industria. El email de prensa publicado es de una agencia externa. 2026-11-09: seguimiento único enviado 14:41 UTC (verificado en in:sent), sin respuesta al 2026-11-12. No reply si sigue sin respuesta el 2026-11-23.",
+      "Notes": "Vende partnerships a la industria. El email de prensa publicado es de una agencia externa. 2026-11-09: seguimiento único enviado 14:41 UTC (verificado en in:sent), sin respuesta al 2026-11-12. 2026-11-23: 14 días desde el seguimiento sin respuesta ni rebote (inbox revisado) → No reply. No volver a escribir.",
       "Organization": "SBD (Sociedade Brasileira de Diabetes)",
       "Role": "Presidente (2026-2027)",
       "Sent date": "2026-10-21",
-      "Status": "Follow-up sent",
+      "Status": "No reply",
       "Type": "Socio"
     },
     "id": "recsa08lak05603vX"
+  },
+  {
+    "createdTime": "2026-11-23T13:56:13.000Z",
+    "fields": {
+      "Audience estimate": "Sin número de alumnos publicado (estimación pendiente); estudiantes: edad promedio 36, 42% sector público / 56% privado (fuente, página del programa)",
+      "Batch": "T6-2026-11-23",
+      "Channel": "Email",
+      "Contact": "Carolina Marmolejo",
+      "Country": "Chile",
+      "Email": "carolina.marmolejo@uc.cl",
+      "Follow-up date": "2026-11-30",
+      "Gmail draft id": "r-7360988498109089646",
+      "Language": "ES",
+      "Notes": "2026-11-23 (lunes, paso 4): nombre, cargo y email leídos en la sección Contacto de la página oficial del programa. Fit medio (administración de salud, con un curso de Economía de la Salud). Dedupe: distinto de U. de Chile. Revisión adversarial (opus) hecha: 'No pedimos ni recibimos su base'. Borrador final r-7360988498109089646.\n2026-11-23: enviado con 'OK tanda T6' de Fer, msg 1a20a1d29a9a2e51 (verificado en in:sent).",
+      "Organization": "Pontificia Universidad Católica de Chile — Magíster en Administración de Salud",
+      "Role": "Coordinadora del Magíster en Administración de Salud (director: Fernando Poblete)",
+      "Sent date": "2026-11-23",
+      "Source URL": "https://escueladeadministracion.uc.cl/programas/mas/",
+      "Status": "Sent",
+      "Type": "Docente"
+    },
+    "id": "recuAKUEmvmUxPRxJ"
   },
   {
     "createdTime": "2026-10-21T23:57:30.000Z",
@@ -713,13 +803,35 @@
       "Follow-up date": "2026-10-28",
       "Gmail draft id": "r-2273088839647867944",
       "Language": "ES",
-      "Notes": "Alternativa: periodista@soched.cl. Seguimiento enviado a secretaria.presidencia@soched.cl. 2026-11-09: seguimiento único enviado 14:37 UTC (verificado en in:sent), sin respuesta al 2026-11-12. No reply si sigue sin respuesta el 2026-11-23.",
+      "Notes": "Alternativa: periodista@soched.cl. Seguimiento enviado a secretaria.presidencia@soched.cl. 2026-11-09: seguimiento único enviado 14:37 UTC (verificado en in:sent), sin respuesta al 2026-11-12. 2026-11-23: 14 días desde el seguimiento sin respuesta ni rebote (inbox revisado) → No reply. No volver a escribir.",
       "Organization": "SOCHED (Sociedad Chilena de Endocrinología y Diabetes)",
       "Role": "Presidenta (mandato termina nov-2026)",
       "Sent date": "2026-10-21",
-      "Status": "Follow-up sent",
+      "Status": "No reply",
       "Type": "Socio"
     },
     "id": "recw3dfdUKKgZJGVD"
+  },
+  {
+    "createdTime": "2026-11-23T13:56:13.000Z",
+    "fields": {
+      "Audience estimate": "Sin número publicado (estimación pendiente); edital de 2017 fijaba 30 vagas por turma (dato viejo)",
+      "Batch": "T6-2026-11-23",
+      "Channel": "Email",
+      "Contact": "Coordenação do PPGGES (Plataforma Sucupira lista a Profa. Tatiane Almeida de Menezes; vigencia sin verificar)",
+      "Country": "Brazil",
+      "Email": "ppgges@ufpe.br",
+      "Follow-up date": "2026-11-30",
+      "Gmail draft id": "r-772943940035533503",
+      "Language": "PT",
+      "Notes": "2026-11-23 (lunes, paso 4): email 'E-mail Institucional do Programa' leído en la ficha oficial de CAPES (Sucupira); no lo vi en ufpe.br/ppgges. Coordinadora de la ficha: Tatiane Almeida de Menezes (vigencia sin verificar), por eso el saludo es a la Coordenação. Revisión adversarial (opus) hecha: 'Não pedimos nem recebemos sua base'. Borrador final r-772943940035533503.\n2026-11-23: enviado con 'OK tanda T6' de Fer, msg 1a20a1d23fe65a15 (verificado en in:sent).",
+      "Organization": "UFPE — Mestrado Profissional em Gestão e Economia da Saúde (PPGGES)",
+      "Role": "Coordenação do programa",
+      "Sent date": "2026-11-23",
+      "Source URL": "https://www.ufpe.br/ppgges ; https://sucupira-legado.capes.gov.br/sucupira/public/consultas/coleta/programa/viewPrograma.jsf?cd_programa=25001019087P9&popup=true",
+      "Status": "Sent",
+      "Type": "Docente"
+    },
+    "id": "reczsyWjYJs7ZO5R0"
   }
 ]

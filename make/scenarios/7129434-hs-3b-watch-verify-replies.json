@@ -231,7 +231,7 @@
   "isActive": true,
   "name": "HS 3b - Watch Verify Replies",
   "scheduling": {
-    "interval": 900,
+    "interval": 3600,
     "type": "indefinitely"
   }
 }

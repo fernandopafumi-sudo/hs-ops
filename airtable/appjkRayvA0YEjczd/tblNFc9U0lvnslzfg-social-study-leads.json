@@ -33,6 +33,21 @@
     "id": "rec9uzuV0cfZgK3ql"
   },
   {
+    "createdTime": "2026-11-23T13:55:44.000Z",
+    "fields": {
+      "Date Found": "2026-11-23",
+      "Key Finding": "Leí solo el resumen en la página (búsqueda web, 23-11), no el informe: estudio de 10 autoridades regulatorias de América Latina sobre cómo se aplica el reliance según las WHO Good Reliance Practices (Annex 10); la fase 1 cubre nuevas autorizaciones y concluye que el reliance está bien establecido pero varía en cuán consistentemente se aplica, monitorea y evalúa. Próximas fases: inspecciones GMP, liberación de lotes de biológicos y vacunas, ensayos clínicos y cambios posteriores a la aprobación.",
+      "Publisher": "CIRS (Centre for Innovation in Regulatory Science)",
+      "Shared By": "CIRS (página de publicaciones; corrida sin navegador, no es un post)",
+      "Status": "New",
+      "Title": "Assessing the implementation of regulatory reliance in Latin America (CIRS, fase 1: nuevas autorizaciones de comercialización)",
+      "URL": "https://cirsci.org/publications/assessing-the-implementation-of-regulatory-reliance-in-latin-america/",
+      "Why It Matters": "Gancho para nota sobre reliance en la práctica en LatAm (10 autoridades, 5 funciones). Posible origen de la evaluación regional que cita el artículo de DIA (no confirmado). Abrir el informe de la fase 1 antes de citar.",
+      "Year": 2026
+    },
+    "id": "recCv8Knhpna6Piik"
+  },
+  {
     "createdTime": "2026-10-22T17:56:35.000Z",
     "fields": {
       "DOI or ID": "ISBN 9789240125018",

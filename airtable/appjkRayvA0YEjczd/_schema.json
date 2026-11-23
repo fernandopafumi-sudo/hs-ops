@@ -670,6 +670,11 @@
               "color": "blueLight2",
               "id": "sel9p3BuElgDUrnjn",
               "name": "USA"
+            },
+            {
+              "color": "blueLight2",
+              "id": "selCadxoWeR0qzOE6",
+              "name": "EE.UU. (global)"
             }
           ]
         },
@@ -3217,6 +3222,43 @@
           }
         },
         "type": "formula"
+      },
+      {
+        "description": "Base legal LGPD/GDPR para tener este contacto. Default aplicado 23-11-2026 a todo lo existente: 'Fuente pública' (perfil público de LinkedIn/Sales Navigator). Usar 'Interés legítimo (B2B)' o 'Consentimiento' solo para altas nuevas que no vengan de scraping de LinkedIn.",
+        "id": "fldDyt3pKjwBc1EQ2",
+        "name": "Legal_Basis",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selAnyFRwzjjvrxfQ",
+              "name": "Fuente pública"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selGbTOlBcBrqrP0V",
+              "name": "Interés legítimo (B2B)"
+            },
+            {
+              "color": "grayLight2",
+              "id": "selCSEfp2xQnxtGCy",
+              "name": "Consentimiento"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "description": "Fecha en que se incorporó el contacto a esta tabla. Para filas existentes al 23-11-2026 se llenó retroactivamente con la fecha de creación del registro en Airtable (createdTime), por no existir un dato de recolección más preciso.",
+        "id": "fldse2HAvl5Plntkq",
+        "name": "Collected_At",
+        "options": {
+          "dateFormat": {
+            "format": "YYYY-MM-DD",
+            "name": "iso"
+          }
+        },
+        "type": "date"
       }
     ],
     "id": "tblfCpzJLRixXNy7G",
@@ -4033,9 +4075,9 @@
         "type": "date"
       },
       {
-        "description": "Tildado solo si el email está publicado en fuente propia del medio/periodista (URL en Source). Nunca emails por patrón.",
+        "description": "Checkbox (no es el email en sí). Tildado solo si el email está publicado en fuente propia del medio/periodista (URL en Source). Nunca emails por patrón. Renombrado 23-11-2026 para no confundir con el campo \"Email verificado\" (tipo email) de Advertisers en la base Prospect Intelligence, que ahí sí guarda la dirección verificada.",
         "id": "fld6tV1oXMgsEIOtH",
-        "name": "Email verificado",
+        "name": "Fuente de email verificada",
         "options": {
           "color": "greenBright",
           "icon": "check"
@@ -4063,6 +4105,43 @@
           "prefersSingleRecordLink": false
         },
         "type": "multipleRecordLinks"
+      },
+      {
+        "description": "Base legal LGPD/GDPR para tener este contacto. Default aplicado 23-11-2026 a todo lo existente: 'Fuente pública' (dato publicado en el propio sitio del medio/gremio o en Source_URL). Usar 'Interés legítimo (B2B)' o 'Consentimiento' solo para altas nuevas que no vengan de fuente pública.",
+        "id": "fldi7ftqLGdb5pm5q",
+        "name": "Legal_Basis",
+        "options": {
+          "choices": [
+            {
+              "color": "grayLight2",
+              "id": "selHDsWsjnRckuANA",
+              "name": "Fuente pública"
+            },
+            {
+              "color": "grayLight2",
+              "id": "seleSGxb8XvAwkNRW",
+              "name": "Interés legítimo (B2B)"
+            },
+            {
+              "color": "grayLight2",
+              "id": "sel5JdUF8mz8FBS8j",
+              "name": "Consentimiento"
+            }
+          ]
+        },
+        "type": "singleSelect"
+      },
+      {
+        "description": "Fecha en que se incorporó el contacto a esta tabla. Para filas existentes al 23-11-2026 se llenó retroactivamente con la fecha de creación del registro en Airtable (createdTime), por no existir un dato de recolección más preciso.",
+        "id": "fld5ld4Pw8OZKyfw0",
+        "name": "Collected_At",
+        "options": {
+          "dateFormat": {
+            "format": "YYYY-MM-DD",
+            "name": "iso"
+          }
+        },
+        "type": "date"
       }
     ],
     "id": "tblCz9trAX2uC0hcI",

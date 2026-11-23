@@ -71,6 +71,27 @@
     "id": "rec4HUfqmJgGVqVaz"
   },
   {
+    "createdTime": "2026-11-23T14:00:53.000Z",
+    "fields": {
+      "Account": "AFIDRO",
+      "Comment": "Un dato para leer junto al Observatorio: el estudio del Centre for Innovation in Regulatory Science (CIRS) sobre reliance regulatorio en nuevas autorizaciones de comercialización en 10 países de la región halló, según resume DIA Global Forum, que todas las agencias tienen base legal para aplicarlo, pero solo la mitad cuenta con procedimientos operativos estándar. México, por ejemplo, estableció una vía abreviada que toma como base las evaluaciones de la agencia sanitaria de Brasil (Anvisa), con un plazo máximo de 45 días hábiles. ¿Qué indicador mostraría mejor que el reliance ya es rutina: tiempos de resolución publicados o procedimientos operativos públicos?\nhttps://healthsignals.news/cofepris-opens-abbreviated-drug-registration-path-via-anvisa/?utm_source=linkedin&utm_medium=comment&utm_campaign=afidro #HealthSignals",
+      "Comment Style": [
+        "Dato",
+        "Pregunta",
+        "Angulo LatAm",
+        "Estudio citado"
+      ],
+      "Date": "2026-11-23",
+      "Fer Edits": "[Reconstruido 23-11 tarde: la nota de la mañana se pisó por error; contenido tomado del mail de bandeja y del resumen del subagente] revisión adversarial: estudio atribuido a CIRS, 'toma como base' en vez de 'reconoce', sin juicio sobre Cofepris. Las slides preliminares de FIFARMA dicen 30% con SOP y DIA dice 'la mitad': verificar antes de publicar.\n2026-11-23 tarde, segunda verificación (opus): 'la mitad' confirmado. Informe final CIRS (fase 1, act. 04-11-2026): 'only 50% have an internal SOP'; el 30% de las slides FIFARMA de mayo 2026 era preliminar ('Results in the process of validation'). 10 países y base legal en todas: OK. COFEPRIS vía Anvisa y 45 días hábiles: OK (DOF 02-09-2026, art. 32). Sin cambios.",
+      "HS Link": "https://healthsignals.news/cofepris-opens-abbreviated-drug-registration-path-via-anvisa/",
+      "Network": "LinkedIn",
+      "Post Summary": "AFIDRO presenta la edición 2026 del Observatorio de Buenas Prácticas Regulatorias (INNOS con FIFARMA): regulación transparente y basada en evidencia para el acceso oportuno (19-11).",
+      "Post URL": "https://es.linkedin.com/posts/afidro-colombia_laevidenciagu%C3%ADalasbuenaspr%C3%A1cticas-obpr2026-activity-7529167093733298178--3p7",
+      "Status": "Approved"
+    },
+    "id": "rec7mvG0ij3QGuEwk"
+  },
+  {
     "createdTime": "2026-10-17T18:02:50.000Z",
     "fields": {
       "Account": "FIFARMA",
@@ -193,6 +214,26 @@
       "Status": "Rejected"
     },
     "id": "recEaXlUu4byeI3Xl"
+  },
+  {
+    "createdTime": "2026-11-23T14:00:53.000Z",
+    "fields": {
+      "Account": "PAHO",
+      "Comment": "En la apertura del XVII Encuentro de la Red de Evaluación de Tecnologías en Salud de las Américas (RedETSA), en Lima, el director de la Organización Panamericana de la Salud, Jarbas Barbosa, destacó que la evaluación de tecnologías sanitarias ayuda a guiar la innovación y a hacer más eficiente el gasto. En países sin un sistema de salud único, como Argentina, Andrés Pichon-Riviere, director general del Instituto de Efectividad Clínica y Sanitaria (IECS), propone en una entrevista con HealthSignals definir primero qué decisión informará o tomará una agencia y a qué pagadores obliga. ¿Qué decisión les gustaría ver informada primero por una evaluación de tecnologías sanitarias en su país: incorporación, precio o desinversión?\nhttps://healthsignals.news/andres-pichon-riviere-budget-impact-should-not-decide-what-is-adopted-but-how/?utm_source=linkedin&utm_medium=comment&utm_campaign=paho #HealthSignals",
+      "Comment Style": [
+        "Pregunta",
+        "Angulo acceso",
+        "Angulo LatAm"
+      ],
+      "Date": "2026-11-23",
+      "Fer Edits": "revisión adversarial: saco 'queda abierta una pregunta' (implicaba omisión del director); Pichon-Riviere presentado por cargo y entrevista; lista de pagadores reemplazada por su propio planteo (faltaba PAMI). No publicar el mismo día que reczN12QgIzEul6Ef (tope PAHO).",
+      "HS Link": "https://healthsignals.news/andres-pichon-riviere-budget-impact-should-not-decide-what-is-adopted-but-how/",
+      "Network": "LinkedIn",
+      "Post Summary": "El director de la OPS cierra su visita a Perú (20-11) y destaca en RedETSA que evaluar tecnologías sanitarias guía la innovación y hace más eficiente el gasto. Nota web; Fer ubica el post de LinkedIn.",
+      "Post URL": "https://www.paho.org/es/noticias/20-11-2026-director-ops-reafirma-cooperacion-con-peru-para-fortalecer-sistema-salud",
+      "Status": "Proposed"
+    },
+    "id": "recFOuJYLAYAY8dGC"
   },
   {
     "createdTime": "2026-10-19T14:52:32.000Z",
@@ -552,6 +593,25 @@
     "id": "recbqh7BeAtVYPshU"
   },
   {
+    "createdTime": "2026-11-23T14:00:53.000Z",
+    "fields": {
+      "Account": "Economist Enterprise",
+      "Comment": "The health sovereignty question here (who develops, who manufactures, who finances) has a Latin American counterpart. In Argentina, Grupo Insud's vaccine company, Sinergium Biotech, leads a project to develop an mRNA H5N1 vaccine under the mRNA Technology Transfer Programme of the WHO and the Medicines Patent Pool, with support from the Pan American Health Organization; no clinical trial of the candidate has been reported yet. For antibiotics and other infectious disease products, what makes local manufacturing viable first: committed public procurement, or development finance?\nhttps://healthsignals.news/?utm_source=linkedin&utm_medium=comment&utm_campaign=economist-enterprise #HealthSignals",
+      "Comment Style": [
+        "Pregunta",
+        "Angulo LatAm"
+      ],
+      "Date": "2026-11-23",
+      "Fer Edits": "revisión adversarial: saco mAbxience (vendida a Fresenius 30-09-2026); Sinergium lidera proyecto mRNA H5N1 del programa OMS/MPP con apoyo OPS; link a home porque la nota Insud está desactualizada.\n2026-11-23 tarde, segunda verificación (opus): todas las afirmaciones verificadas (OMS 29-07-2024, OPS 06-06-2025, tracker CIDRAP 13-11-2026 sin Sinergium, 0 ensayos en ClinicalTrials.gov). Cambio: 'the candidate has not yet reached clinical trials' -> 'no clinical trial of the candidate has been reported yet' (no se revisó el registro argentino). Link a home se mantiene.",
+      "HS Link": "https://healthsignals.news/",
+      "Network": "LinkedIn",
+      "Post Summary": "Economist Enterprise: evento 'Investing in health sovereignty' (23-11, Addis Ababa, junto a CPHIA 2026): financiar innovación en enfermedades infecciosas, regulación y manufactura local. Página del evento; Fer ubica el post de LinkedIn.",
+      "Post URL": "https://events.economistenterprise.com/custom-events/investing-in-health-sovereignty/",
+      "Status": "Approved"
+    },
+    "id": "rechif08v3Uz3Vbou"
+  },
+  {
     "createdTime": "2026-11-18T13:57:53.000Z",
     "fields": {
       "Account": "PAHO",
@@ -562,12 +622,12 @@
         "Angulo LatAm"
       ],
       "Date": "2026-11-18",
-      "Fer Edits": "Post de LinkedIn a ubicar al publicar (fuente: nota PAHO 16-11). Link a home: no hay nota HS sobre regulación de ensayos. revisión adversarial (opus, 18-11): sigla REGIA expandida, 'up to three countries', pregunta reformulada para no leerse como crítica a la plataforma, terminología de la plataforma (investigational product, REC approval). Ojo tope: PAHO ya tiene rec4HUfqmJgGVqVaz en Proposed; si se aprueban ambas, publicar en días distintos.",
+      "Fer Edits": "expirado en cola (23-11): post PAHO del 16-11, más de 5 días. Previo: Post de LinkedIn a ubicar al publicar (fuente: nota PAHO 16-11). revisión adversarial (opus, 18-11): sigla REGIA expandida, 'up to three countries', pregunta reformulada, terminología de la plataforma.",
       "HS Link": "https://healthsignals.news/",
       "Network": "LinkedIn",
       "Post Summary": "OPS lanza REGIA, plataforma gratuita que compara requisitos regulatorios de ensayos clínicos en 22 países (16-11)",
       "Post URL": "https://www.paho.org/en/news/16-11-2026-paho-launches-regia-platform-explore-and-compare-clinical-trial-regulatory",
-      "Status": "Approved"
+      "Status": "Rejected"
     },
     "id": "recjYBKf4f7NJZkhR"
   },
@@ -622,12 +682,12 @@
       "Account": "INVIMA",
       "Comment": "El Instituto Nacional de Vigilancia de Medicamentos y Alimentos (Invima) coordinará en 2027-2028 la Red de Puntos Focales de Farmacovigilancia de las Américas, designación que la Organización Panamericana de la Salud (OPS) oficializó en la reunión virtual del 10 de noviembre. Entre las líneas de trabajo propuestas figuran la vigilancia de la seguridad de las vacunas, la detección y evaluación de señales y la gestión de riesgos. ¿Qué información de seguridad compartida en la red sería más útil también para quienes planifican el acceso y las compras de medicamentos y vacunas?\nhttps://healthsignals.news/?utm_source=linkedin&utm_medium=comment&utm_campaign=invima #HealthSignals",
       "Date": "2026-11-17",
-      "Fer Edits": "Post de LinkedIn a ubicar al publicar (fuente: nota web oficial 13-11). revisión adversarial (opus, 17-11): Invima expandido; 'líneas de trabajo propuestas' y 'detección y evaluación de señales' como en la fuente; pregunta reformulada.",
+      "Fer Edits": "expirado en cola (23-11): fuente del 13-11, más de 5 días. Previo: revisión adversarial (opus, 17-11): Invima expandido; pregunta reformulada.",
       "HS Link": "https://healthsignals.news/",
       "Network": "LinkedIn",
       "Post Summary": "Invima coordinará la Red de Puntos Focales de Farmacovigilancia de las Américas 2027-2028 (OPS, 10-11)",
       "Post URL": "https://www.invima.gov.co/blog/sala-de-prensa-13/el-invima-coordinara-la-red-de-puntos-focales-de-farmacovigilancia-de-las-americas-en-2027-2028-681",
-      "Status": "Approved"
+      "Status": "Rejected"
     },
     "id": "recmSj48ciCUPcAwz"
   },
@@ -767,6 +827,16 @@
     "id": "recsebkEWBtOdSJB2"
   },
   {
+    "createdTime": "2026-11-23T19:29:49.000Z",
+    "fields": {
+      "Account": "N/A",
+      "Date": "2026-11-23",
+      "Fer Edits": "Ciclo autónomo diario (tarea programada 19:28 UTC): verificado navegador integrado del escritorio de Fer, conectado. LinkedIn (linkedin.com/feed) y X (x.com/home) mostraron pantalla de login, sin sesión iniciada en ninguna de las dos. Sin sesión no se puede publicar (regla del skill: nunca ingresar contraseñas). No se intentó publicar nada. No se avisa a Fer (día sin ciclo, no es una falla a reportar).",
+      "Status": "Failed"
+    },
+    "id": "recsh4zb8l93dPAgv"
+  },
+  {
     "createdTime": "2026-11-06T13:58:29.000Z",
     "fields": {
       "Account": "Anvisa",
@@ -832,12 +902,12 @@
       "Account": "WHO",
       "Comment": "WHO's new essential package of diagnostic tests for bacterial and fungal infections and antimicrobial resistance (AMR) maps rapid, microscopy, culture-based, serological and molecular tests to the tiers of the health system, from primary care to tertiary hospitals. It notes that major gaps in access persist, especially in low- and middle-income countries. In Latin America, where would early investment add the most value: rapid tests in primary care, or hospital microbiology and susceptibility testing?\nhttps://healthsignals.news/?utm_source=linkedin&utm_medium=comment&utm_campaign=who #HealthSignals",
       "Date": "2026-11-17",
-      "Fer Edits": "Post de LinkedIn a ubicar al publicar (fuente: toolkit WHO B09666, 16-11). revisión adversarial (opus, 17-11): 'each tier' -> 'the tiers' como en la fuente; una sola pregunta (se quitó la de quién paga).",
+      "Fer Edits": "expirado en cola (23-11): toolkit WHO del 16-11, más de 5 días. Previo: revisión adversarial (opus, 17-11): 'each tier' -> 'the tiers'; una sola pregunta.",
       "HS Link": "https://healthsignals.news/",
       "Network": "LinkedIn",
       "Post Summary": "WHO publica paquete esencial de pruebas diagnósticas para infecciones bacterianas/fúngicas y AMR (16-11)",
       "Post URL": "https://www.who.int/publications/i/item/B09666",
-      "Status": "Approved"
+      "Status": "Rejected"
     },
     "id": "recy2pn91yDuRg55z"
   },
