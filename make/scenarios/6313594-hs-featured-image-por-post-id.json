@@ -256,7 +256,7 @@
     ],
     "output": []
   },
-  "isActive": true,
+  "isActive": false,
   "name": "HS — Featured image por post ID",
   "scheduling": {
     "type": "on-demand"

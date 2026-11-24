@@ -44,11 +44,11 @@
       "Article_Count": 27,
       "Countries_Covered": "Latin America (Brazil, Mexico incl. Sepúlveda Voices, Colombia Galán Voices, Panama, 2 Charts), United States, Global",
       "Issue": "Issue 04",
-      "Notes": "23-11 (Claude, OK de Fer en chat): Issue 04 = 27 notas 01-11→23-11 no enviadas antes (Issue 03 = Brevo 17, 03-11). v3 tras mirada de editor jefe Economist: tapa 'The drug bill is up for renegotiation', cita de Galán, cifras $350 / 0.85 / 57,666; pág. 2 abre con el radar; Voices y Charts con imágenes; secciones con nota principal y portadas; bloque Measles; cierre con 'reenviá/suscribite' + media kit. Sin saltos de página forzados (5 pág.). Gate: fact-check 2 rondas + interna + Economist. PDF 8cbf6062 (render 6427153, 16:00). Draft; Brevo aún no creado.",
-      "PDF_URL": "https://healthsignals.news/wp-content/uploads/2026/11/the-healthsignals-brief-2026-11-23-8cbf6062.pdf",
+      "Notes": "Brevo campaña 18 PROGRAMADA 2026-11-24 08:30 Miami (13:30 UTC), lista 5 (32 destinatarios), con OK de Fer en chat (23-11). PDF final 69bdbc07 (formato v4). Web: página 37234 /brief-issue-04/ programada a la misma hora. Status=Sent desde la programación para que Production numere bien y Email Send 6234915 no cree otra campaña. 27 notas 01-11→23-11; gate: fact-check 2 rondas + interna + editor jefe Economist.",
+      "PDF_URL": "https://healthsignals.news/wp-content/uploads/2026/11/the-healthsignals-brief-2026-11-23-69bdbc07.pdf",
       "Period_End": "2026-11-23",
       "Period_Start": "2026-11-01",
-      "Status": "Draft"
+      "Status": "Sent"
     },
     "id": "rechQYilENAT3d7hL"
   },
@@ -74,6 +74,17 @@
       "Status": "Draft"
     },
     "id": "reciqcHDWvrHapJ7m"
+  },
+  {
+    "createdTime": "2026-11-23T23:44:25.000Z",
+    "fields": {
+      "Issue": "Issue 03",
+      "Notes": "Registro agregado 23-11 por Claude: el Issue 03 salió por Brevo campaña 17 el 03-11 (lista 5, 5 entregados) y no tenía fila acá, lo que hacía que Production numerara mal. Web: healthsignals.news/brief-issue-03/. Sin PDF (edición en HTML).",
+      "Period_End": "2026-11-02",
+      "Period_Start": "2026-10-23",
+      "Status": "Sent"
+    },
+    "id": "recmfV3YUIKjJavKq"
   },
   {
     "createdTime": "2026-10-04T22:32:58.000Z",

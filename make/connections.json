@@ -3,7 +3,7 @@
     "accountLabel": "Gmail",
     "accountName": "google-email",
     "accountType": "oauth",
-    "expire": "2027-05-22T21:04:15.673Z",
+    "expire": "2027-05-23T19:04:15.136Z",
     "id": 12461515,
     "name": "Fernando Pafumi's (editor@healthsignals.news) Gmail credentials - MCP",
     "scoped": true
@@ -39,7 +39,7 @@
     "accountLabel": "Google Drive",
     "accountName": "google-drive",
     "accountType": "oauth",
-    "expire": "2027-05-23T18:43:19.775Z",
+    "expire": "2027-05-24T19:10:48.964Z",
     "id": 11340939,
     "name": "Google Drive editor@ (full)",
     "scoped": true
@@ -102,7 +102,7 @@
     "accountLabel": "Google Restricted",
     "accountName": "google-restricted",
     "accountType": "oauth",
-    "expire": "2027-04-21T20:35:39.008Z",
+    "expire": "2027-05-24T15:21:26.444Z",
     "id": 8455399,
     "name": "My Google Restricted connection",
     "scoped": true

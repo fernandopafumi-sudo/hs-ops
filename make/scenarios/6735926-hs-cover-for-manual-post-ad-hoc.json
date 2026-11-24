@@ -8,23 +8,23 @@
           "variables": [
             {
               "name": "post_id",
-              "value": ""
+              "value": "{{var.input.post_id}}"
             },
             {
               "name": "category",
-              "value": ""
+              "value": "{{var.input.category}}"
             },
             {
               "name": "country",
-              "value": ""
+              "value": "{{var.input.country}}"
             },
             {
               "name": "institution",
-              "value": ""
+              "value": "{{var.input.institution}}"
             },
             {
               "name": "force",
-              "value": "0"
+              "value": "{{ifempty(var.input.force; \"0\")}}"
             }
           ]
         },
@@ -44,11 +44,11 @@
           "variables": [
             {
               "name": "title",
-              "value": ""
+              "value": "{{var.input.title}}"
             },
             {
               "name": "excerpt",
-              "value": ""
+              "value": "{{var.input.excerpt}}"
             }
           ]
         },
@@ -639,7 +639,7 @@
                 "mapper": {
                   "name": "fix_prompt",
                   "scope": "roundtrip",
-                  "value": "You are the template-rotation fixer of HealthSignals covers. The cover proposal below uses template {{214.template}}, which was already used in one of the last three covers (FORBIDDEN: {{264.recent_tpl}}). Choose the best-fitting OTHER template from the library below for the tension stated in the proposal, then rewrite only 'template', 'image_prompt' and 'alt_text' for the new scene. Keep 'tension', 'zone', 'kicker', 'overlay_candidates' and 'editor_notes' exactly as they are.\nImage prompt rules: 130-170 words, self-contained, literal colour names (warm cream, deep teal, burnt orange, dark ink, plus at most one country accent colour on no more than 15 percent of the picture), flat vector editorial style, all surfaces blank and unmarked, no text, letters, numbers, logos, flags, maps or signage, no faces, the reserved zone named in 'zone' stays empty, all subjects between y=180 and y=860, no element touching the edges, never ask for an exact count above 6 objects. Banned as dominant elements: pills, capsules, syringes, lab equipment, gears, lightbulbs, handshakes, scales of justice, gavels, padlocks. {{if(263.lm_off = \"1\"; \"Draw no landmark, monument or building.\"; \"Keep a landmark only if the original proposal had one, as a flat background silhouette.\")}}\n\nLIBRARY\nT01 FLOW_HALTED (suspension, strike, shortage, stoppage): a conveyor or line of care carrying plain items stops at a closed barrier; items pile up before it, the track after it is empty; tiny silhouettes wait at the pile.\nT02 FLOW_REDIRECTED (compulsory licence, reassignment, generic entry, rerouting): a pipe carrying plain units meets a new valve that diverts the stream into a second outlet.\nT03 SWITCH_ON (rule enters into force, mandate, ban): a large lever flipped; a line on the ground becomes active and everything already standing on it is now inside a closed frame or fence.\nT04 ABSORPTION (acquisition, merger, licensing deal): a smaller distinct piece is lowered by a crane or slotted into a larger structure that has a matching gap.\nT05 GATE_OPENED (approval, registration, launch): a barrier lifts and a single item or a short line passes into an open, wider space.\nT06 PRICE_DROP (price cut, copay reduction, discount): before on the left, after on the right: a tall stack of plain discs next to a very small stack, a downward curved arrow between them; for ratios above 5 the right side is one single disc. Prices and costs are always objects (discs, price tags, invoices), never people.\nT07 SHORT_BRIDGE (funding gap, tariff vs inflation, budget shortfall): a bridge or plank extends from one cliff and covers only the stated fraction of the chasm to the other cliff (fraction = smaller figure / larger figure); tiny silhouettes stand at the edge.\nT08 BOTTLENECK (backlog, delays, access queue): a wide funnel narrowing to a small opening with a long queue of silhouettes before it and few after.\nT09 SHIELD (prevention, vaccine, PrEP, protection): a large umbrella or canopy over a group of silhouettes while plain drops fall around it and none fall underneath.\nT10 SHELF_FILLED (formulary additions, coverage expansion, new indications): a long shelf where several new plain boxes slide into previously empty slots.\nT11 SUPPLY_CHAIN (manufacturing, exports, plant, logistics): a cutaway factory to ship to warehouse chain, one link highlighted in orange where the change happens.\nT12 RACE (competition, first-to-market, rival launches): two parallel tracks with vehicles or runners at clearly different positions; nobody wins or loses in the picture.\nT13 SPLIT_PATH (policy fork, ruling pending, two options): a road splitting in two, a single figure at the junction, both branches plain.\nT14 NETWORK_FRAMED (AI, data, digital health governance): a grid of connected nodes with a rectangular frame being lowered around it or already closing on it.\nT15 CROWD_SUBSET (prevalence, burden, coverage share): a crowd of identical silhouettes with a clearly highlighted subset only when the share is at most 1 in 5 and stated in the excerpt.\n\nARTICLE\nTitle: {{942.title}}\nExcerpt: {{942.excerpt}}\n\nPROPOSAL\n{{261.clean_cover_json}}\n\nOUTPUT: the full corrected JSON object only, same schema, starting with { and ending with }, nothing before or after."
+                  "value": "You are the template-rotation fixer of HealthSignals covers. The cover proposal below uses template {{214.template}}, which was already used in one of the last three covers (FORBIDDEN: {{264.recent_tpl}}). Choose the best-fitting OTHER template from the library below for the tension stated in the proposal, then rewrite only 'template', 'image_prompt' and 'alt_text' for the new scene. Keep 'tension', 'zone', 'kicker', 'overlay_candidates' and 'editor_notes' exactly as they are.\nImage prompt rules: 130-170 words, self-contained, literal colour names (warm cream, deep teal, burnt orange, dark ink, plus at most one country accent colour on no more than 15 percent of the picture), flat vector editorial style, all surfaces blank and unmarked, no text, letters, numbers, logos, flags or signage, no faces, the reserved zone named in 'zone' stays empty, all subjects between y=180 and y=860, no element touching the edges, never ask for an exact count above 6 objects. Banned as dominant elements: pills, capsules, syringes, lab equipment, gears, lightbulbs, handshakes, scales of justice, gavels, padlocks. {{if(263.lm_off = \"1\"; \"Draw no landmark, monument or building.\"; \"Keep a landmark only if the original proposal had one, as a flat background silhouette.\")}}\n\nLIBRARY\nT01 FLOW_HALTED (suspension, strike, shortage, stoppage): a conveyor or line of care carrying plain items stops at a closed barrier; items pile up before it, the track after it is empty; tiny silhouettes wait at the pile.\nT02 FLOW_REDIRECTED (compulsory licence, reassignment, generic entry, rerouting): a pipe carrying plain units meets a new valve that diverts the stream into a second outlet.\nT03 SWITCH_ON (rule enters into force, mandate, ban): a large lever flipped; a line on the ground becomes active and everything already standing on it is now inside a closed frame or fence.\nT04 ABSORPTION (acquisition, merger, licensing deal): a smaller distinct piece is lowered by a crane or slotted into a larger structure that has a matching gap.\nT05 GATE_OPENED (approval, registration, launch): a barrier lifts and a single item or a short line passes into an open, wider space.\nT06 PRICE_DROP (price cut, copay reduction, discount): before on the left, after on the right: a tall stack of plain discs next to a very small stack, a downward curved arrow between them; for ratios above 5 the right side is one single disc. Prices and costs are always objects (discs, price tags, invoices), never people.\nT07 SHORT_BRIDGE (funding gap, tariff vs inflation, budget shortfall): a bridge or plank extends from one cliff and covers only the stated fraction of the chasm to the other cliff (fraction = smaller figure / larger figure); tiny silhouettes stand at the edge.\nT08 BOTTLENECK (backlog, delays, access queue): a wide funnel narrowing to a small opening with a long queue of silhouettes before it and few after.\nT09 SHIELD (prevention, vaccine, PrEP, protection): a large umbrella or canopy over a group of silhouettes while plain drops fall around it and none fall underneath.\nT10 SHELF_FILLED (formulary additions, coverage expansion, new indications): a long shelf where several new plain boxes slide into previously empty slots.\nT11 SUPPLY_CHAIN (manufacturing, exports, plant, logistics): a cutaway factory to ship to warehouse chain, one link highlighted in orange where the change happens.\nT12 RACE (competition, first-to-market, rival launches): two parallel tracks with vehicles or runners at clearly different positions; nobody wins or loses in the picture.\nT13 SPLIT_PATH (policy fork, ruling pending, two options): a road splitting in two, a single figure at the junction, both branches plain.\nT14 NETWORK_FRAMED (AI, data, digital health governance): a grid of connected nodes with a rectangular frame being lowered around it or already closing on it.\nT15 CROWD_SUBSET (prevalence, burden, coverage share): a crowd of identical silhouettes with a clearly highlighted subset only when the share is at most 1 in 5 and stated in the excerpt.\n\nARTICLE\nTitle: {{942.title}}\nExcerpt: {{942.excerpt}}\n\nPROPOSAL\n{{261.clean_cover_json}}\n\nOUTPUT: the full corrected JSON object only, same schema, starting with { and ending with }, nothing before or after."
                 },
                 "metadata": {
                   "designer": {
@@ -1574,10 +1574,58 @@
   "folderId": 247198,
   "id": 6735926,
   "interface": {
-    "input": [],
+    "input": [
+      {
+        "help": "ID del post de WordPress",
+        "multiline": false,
+        "name": "post_id",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help": "Titulo final del post",
+        "multiline": false,
+        "name": "title",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "help": "Excerpt del post",
+        "multiline": true,
+        "name": "excerpt",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "multiline": false,
+        "name": "category",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "multiline": false,
+        "name": "country",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "multiline": false,
+        "name": "institution",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "default": "0",
+        "help": "1 = saltea la guarda de portada existente",
+        "multiline": false,
+        "name": "force",
+        "required": false,
+        "type": "text"
+      }
+    ],
     "output": []
   },
-  "isActive": true,
+  "isActive": false,
   "name": "HS - Cover for manual post (ad-hoc)",
   "scheduling": {
     "type": "on-demand"

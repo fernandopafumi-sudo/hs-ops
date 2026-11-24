@@ -69,7 +69,8 @@
       "Last_Name": "Basterrica",
       "Name": "Karina Basterrica",
       "Next_Action": "Ex cliente: ofrecer HealthSignals (founding partner) cuando arranque outreach",
-      "Notes": "Ex cliente de Fer en Economist Impact (cuenta Merck Sharp & Dohme (LA) LLC). Origen: lista de contactos EI en Drive personal, 18-10-2026. Verificar cargo actual antes de contactar.",
+      "Notes": "Ex cliente de Fer en Economist Impact (cuenta Merck Sharp & Dohme (LA) LLC). Origen: lista de contactos EI en Drive personal, 18-10-2026. Verificar cargo actual antes de contactar.\n2026-11-24: Fer confirma que Karina ya no está en Merck (salió de la empresa). Invitación al Brief del 24-11 rebotó (550 5.4.1, dirección rechazada). Marcada Opt_Out — no volver a contactar esta dirección. Contacto vigente en Merck para HealthSignals: Diana Téllez.",
+      "Opt_Out": true,
       "Preferred_Channel": "Email",
       "Segment": "Pharma",
       "Source": "Manual",
@@ -6353,6 +6354,23 @@
     "id": "recPc80dzpG8fMk7U"
   },
   {
+    "createdTime": "2026-11-24T19:27:35.000Z",
+    "fields": {
+      "Approval": "Pending Review",
+      "Collected_At": "2026-11-24",
+      "Email": "zanetti.marcio@gmail.com",
+      "First_Name": "Marcio",
+      "Last_Contacted": "2026-11-24",
+      "Last_Name": "Zanetti",
+      "Name": "Marcio Zanetti",
+      "Notes": "2026-11-24: cargado por pedido de Fer, que dio el email (Gmail personal). Empresa, cargo y país sin confirmar. Fer le mandó el Brief Issue 04 (PDF adjunto) con nota breve e invitación a suscribirse (msg 1a20e67cf0b6c894). Approval = Pending Review para que ningún scenario lo contacte automáticamente.",
+      "Preferred_Channel": "Email",
+      "Source": "Manual",
+      "Stage": "Contacted"
+    },
+    "id": "recPgQAqjUCKslid8"
+  },
+  {
     "createdTime": "2026-10-21T23:46:54.000Z",
     "fields": {
       "Approval": "Pending Review",
@@ -6416,13 +6434,15 @@
       "Deals": [
         "rec7mxJWkl4YjoowB"
       ],
+      "Email": "mestres@citycancerchallenge.org",
       "Name": "Isabel Mestres",
-      "Next_Action": "Conversacion esta semana",
-      "Notes": "Registrado 26-09 segun Fernando: conversa con ella la semana del 28-09. Completar cargo y fecha. ONG de oncologia: mas probable socio de contenido/voz o co-branding que sponsor pagante.",
+      "Next_Action": "Fer manda el mail de reconexión y propone llamada de 30' con ella y colegas",
+      "Notes": "Registrado 26-09 segun Fernando: conversa con ella la semana del 28-09. Completar cargo y fecha. ONG de oncologia: mas probable socio de contenido/voz o co-branding que sponsor pagante.\n24-11-2026: cargo verificado online (CEO de C/Can, Ginebra; perfil en citycancerchallenge.org). Email mestres@citycancerchallenge.org tomado de success.ai y coincide con el formato [apellido]@ que RocketReach da para el 96% de C/Can; no validado por Apollo. Borrador de reconexión en editor@ (r-8110534733228385741) con Brief 04 adjunto.",
       "Region": "Global",
       "Segment": "Other",
       "Source": "Manual",
-      "Stage": "Meeting"
+      "Stage": "Meeting",
+      "Title": "CEO, City Cancer Challenge Foundation (Ginebra)"
     },
     "id": "recPwdKO8EUDFOYWs"
   },
@@ -8162,7 +8182,7 @@
       "Segment": "Other",
       "Source": "Event",
       "Source_URL": "https://www.cphi.com/americas/press/",
-      "Stage": "Contacted",
+      "Stage": "Won",
       "Title": "Prensa / media, CPHI Americas"
     },
     "id": "recXeGw2P34xvbqJT"
@@ -9699,12 +9719,12 @@
       "Country": "USA",
       "Email": "harold.hamana@knight-pawn.com",
       "First_Name": "Harold",
-      "Last_Contacted": "2026-11-18",
+      "Last_Contacted": "2026-11-24",
       "Last_Name": "Hamana",
       "Name": "Harold Hamana",
       "Next_Action": "Ver si Harold movió la oferta low-cost de fin de año con Bayer/J&J; si no, reactivar en enero para Q1 2027",
       "Next_Action_Date": "2026-11-30",
-      "Notes": "Canal/intermediario (no comprador directo). Firma: T 305.527.8560, 951 Brickell Ave, Suite 3411, Miami FL 33131; knight-pawn.com.\n2026-10-22: Fer le mandó one-pager Founding Partner (5 asientos, uno por sección; Policy & Markets como fit de market access) desde su Gmail personal.\n2026-10-26: respondió: lo compartió con su equipo de salud (feedback a fin de semana); lo comentó como teaser con J&J y GSK; pide permiso para compartirles el Brief de ejemplo; busca cómo aterrizar un cliente anchor; pregunta qué precio tiene Founding Partner.\n2026-10-26: Fer le dio referencia de precio (asiento completo ~USD 32,000/año, versiones menores) y OK para compartir el Brief. Harold: lo presenta como proyecto editorial de HS y como capability de K&P, caso por caso.\n2026-10-28: Fer respondió desde editor@ ('quedo atento la semana que viene') y ofreció armarle una página de Founding Partner con ejemplos del Brief y Voices.\n2026-11-11: Fer hizo follow-up preguntando por J&J.\n2026-11-12: Harold: de los candidatos conversados, solo Bayer y J&J parecen opciones, ambos para Q1 2027; seguirán intentando pero todo apunta al año próximo. Fer respondió proponiendo ofrecerles algo a muy bajo precio con presupuesto sobrante de fin de año.\nApproval en Pending Review para que ningún scenario lo contacte automáticamente: lo maneja Fer.\n2026-11-19 (barrido contactos): el 18-11 21:14 UTC Fer le mandó una propuesta de ejemplo genérica para usar con sus clientes (hilo 1a17a0ad8bcfadbc). Sin respuesta al 19-11.",
+      "Notes": "Canal/intermediario (no comprador directo). Firma: T 305.527.8560, 951 Brickell Ave, Suite 3411, Miami FL 33131; knight-pawn.com.\n2026-10-22: Fer le mandó one-pager Founding Partner (5 asientos, uno por sección; Policy & Markets como fit de market access) desde su Gmail personal.\n2026-10-26: respondió: lo compartió con su equipo de salud (feedback a fin de semana); lo comentó como teaser con J&J y GSK; pide permiso para compartirles el Brief de ejemplo; busca cómo aterrizar un cliente anchor; pregunta qué precio tiene Founding Partner.\n2026-10-26: Fer le dio referencia de precio (asiento completo ~USD 32,000/año, versiones menores) y OK para compartir el Brief. Harold: lo presenta como proyecto editorial de HS y como capability de K&P, caso por caso.\n2026-10-28: Fer respondió desde editor@ ('quedo atento la semana que viene') y ofreció armarle una página de Founding Partner con ejemplos del Brief y Voices.\n2026-11-11: Fer hizo follow-up preguntando por J&J.\n2026-11-12: Harold: de los candidatos conversados, solo Bayer y J&J parecen opciones, ambos para Q1 2027; seguirán intentando pero todo apunta al año próximo. Fer respondió proponiendo ofrecerles algo a muy bajo precio con presupuesto sobrante de fin de año.\nApproval en Pending Review para que ningún scenario lo contacte automáticamente: lo maneja Fer.\n2026-11-19 (barrido contactos): el 18-11 21:14 UTC Fer le mandó una propuesta de ejemplo genérica para usar con sus clientes (hilo 1a17a0ad8bcfadbc). Sin respuesta al 19-11.\n2026-11-24: Fer le mandó el Brief Issue 04 (PDF adjunto) para usar con sus clientes, con invitación a suscribirse (msg 1a20e67b7cbbc2db).",
       "Offer_Interest": [
         "Founding Partner"
       ],
@@ -9866,15 +9886,15 @@
     "createdTime": "2026-09-26T18:57:54.000Z",
     "fields": {
       "Approval": "Approved",
-      "Company": "Merck",
+      "Company": "Merck (merck.com = Merck & Co./MSD)",
       "Deals": [
         "receY2bx9ygtvmd7m"
       ],
-      "Email": "toni.arce55@gmail.com",
+      "Email": "antonio.arce@merck.com",
       "ICP_Fit": "A",
       "Name": "Antonio Arce",
-      "Next_Action": "Ex cliente: ofrecer HealthSignals (founding partner) cuando arranque outreach",
-      "Notes": "Registrado 26-09 segun Fernando: ya hablo con el (contacto 1-1, LinkedIn o llamada). Confirmar si es Merck & Co/MSD o Merck KGaA, cargo y resultado de la charla.\n18-10-2026 (barrido Gmail personal, hilo 19332d72c01fdbfd): fue Head of International Affairs JANZ-EM y Head of Corporate Affairs LatAm en Viatris hasta 15-11-2024; al irse dejó toni.arce55@gmail.com. Empleador actual sin verificar.\nEx cliente de Fer (Viatris, Economist Impact; verificar)",
+      "Next_Action": "Mandar snapshot de HS + Brief 04 (borrador listo) y llamada a su regreso de vacaciones",
+      "Notes": "Registrado 26-09 segun Fernando: ya hablo con el (contacto 1-1, LinkedIn o llamada). Confirmar si es Merck & Co/MSD o Merck KGaA, cargo y resultado de la charla.\n18-10-2026 (barrido Gmail personal, hilo 19332d72c01fdbfd): fue Head of International Affairs JANZ-EM y Head of Corporate Affairs LatAm en Viatris hasta 15-11-2024; al irse dejó toni.arce55@gmail.com. Empleador actual sin verificar.\nEx cliente de Fer (Viatris, Economist Impact; verificar)\n24-11-2026 (Fer): ahora está en Merck, antonio.arce@merck.com (reemplaza al gmail personal como email de trabajo); de vacaciones estos días. Cargo actual sin confirmar.",
       "Region": "LATAM",
       "Segment": "Pharma",
       "Source": "Manual",
@@ -11094,7 +11114,7 @@
       "Segment": "Other",
       "Source": "Event",
       "Source_URL": "https://www.cphi.com/americas/",
-      "Stage": "Engaged",
+      "Stage": "Won",
       "Title": "Vice President, Events | Healthcare | South Florida Ventures"
     },
     "id": "rechtC5oF9ZxvrAGD"
@@ -12362,11 +12382,11 @@
       "Email": "luciano.zylberberg@gilead.com",
       "First_Name": "Luciano",
       "Language": "Spanish",
-      "Last_Contacted": "2026-11-20",
+      "Last_Contacted": "2026-11-24",
       "Last_Name": "Zylberberg",
       "Legal_Basis": "Existing relationship",
       "Name": "Luciano Zylberberg",
-      "Notes": "2026-11-20 (barrido contactos, hilo 1a1f6a0a2aef86c6): tras una charla con Fer, Fer le mandó desde editor@ la nota actualizada sobre el impasse de precios lenacapavir vs cabotegravir en Brasil (precio techo CMED de noviembre; versiones EN y PT en PDF), como muestra del trabajo de HS, y propuso explorar algo en conjunto. Luciano le había avisado del cambio de precio. Sin respuesta aún.\n2026-11-21: cargado en CRM por pedido de Fer, Approval = Pending Review. Cargo y país no confirmados.",
+      "Notes": "2026-11-20 (barrido contactos, hilo 1a1f6a0a2aef86c6): tras una charla con Fer, Fer le mandó desde editor@ la nota actualizada sobre el impasse de precios lenacapavir vs cabotegravir en Brasil (precio techo CMED de noviembre; versiones EN y PT en PDF), como muestra del trabajo de HS, y propuso explorar algo en conjunto. Luciano le había avisado del cambio de precio. Sin respuesta aún.\n2026-11-21: cargado en CRM por pedido de Fer, Approval = Pending Review. Cargo y país no confirmados.\n2026-11-24: Fer le mandó el Brief Issue 04 (PDF adjunto) con nota breve e invitación a suscribirse (msg 1a20e67bd5137dd8).",
       "Preferred_Channel": "Email",
       "Region": "LATAM",
       "Segment": "Pharma",
@@ -12423,12 +12443,12 @@
       "Email": "ricardo.blanco1@astrazeneca.com",
       "First_Name": "Ricardo",
       "ICP_Fit": "A",
-      "Last_Contacted": "2026-11-18",
+      "Last_Contacted": "2026-11-24",
       "Last_Name": "Blanco",
       "Name": "Ricardo Blanco",
       "Next_Action": "Enviar propuesta AZ México (doc) y proponer llamada semana 24-11",
       "Next_Action_Date": "2026-11-18",
-      "Notes": "Contacto directo de Fer. 17-11-2026: respondió abriendo dos vías (editorial y pagada), caso por caso, sujeto a regulación MX; pidió formatos, audiencias, alcance y propuesta comercial. Puso en copia a Julieta Peralta y Jaqueline Martínez Trejo (Adecco). Cargo no confirmado. Propuesta: doc 'Propuesta HealthSignals para AstraZeneca México — noviembre 2026'.\n2026-11-19 (barrido contactos): el 18-11 21:09 UTC Fer envió la propuesta (programa de contenido estratégico de seis meses para AstraZeneca México, enero a junio 2027) a Ricardo, CC Julieta Peralta y Jaqueline Martínez Trejo (hilo 1a1f07d15e188dff). Stage → Proposal Sent. Sin respuesta al 19-11. Ojo: hay un registro viejo de Ricardo Blanco sin email (recpwHKFgEoG1UGVi) que parece duplicado; no se tocó.",
+      "Notes": "Contacto directo de Fer. 17-11-2026: respondió abriendo dos vías (editorial y pagada), caso por caso, sujeto a regulación MX; pidió formatos, audiencias, alcance y propuesta comercial. Puso en copia a Julieta Peralta y Jaqueline Martínez Trejo (Adecco). Cargo no confirmado. Propuesta: doc 'Propuesta HealthSignals para AstraZeneca México — noviembre 2026'.\n2026-11-19 (barrido contactos): el 18-11 21:09 UTC Fer envió la propuesta (programa de contenido estratégico de seis meses para AstraZeneca México, enero a junio 2027) a Ricardo, CC Julieta Peralta y Jaqueline Martínez Trejo (hilo 1a1f07d15e188dff). Stage → Proposal Sent. Sin respuesta al 19-11. Ojo: hay un registro viejo de Ricardo Blanco sin email (recpwHKFgEoG1UGVi) que parece duplicado; no se tocó.\n2026-11-24: Fer le mandó el Brief Issue 04 (PDF adjunto) con nota breve e invitación a suscribirse, sin mencionar la propuesta (msg 1a20e67a1c29e9a4).",
       "Preferred_Channel": "Email",
       "Proposals": [
         "recoA0CwGvQrKGCZQ"
@@ -12688,11 +12708,12 @@
       "Company": "Brazmedia",
       "Email": "bilyk@brazmedia.com.br",
       "First_Name": "Alfred",
+      "Last_Contacted": "2026-11-24",
       "Last_Name": "Bilyk",
       "Name": "Alfred (Freddy) Bilyk",
       "Next_Action": "Definir condiciones de referido y mandarle material en PT (one-pager + oferta Brasil)",
       "Next_Action_Date": "2026-11-25",
-      "Notes": "Registrado 26-09 segun Fernando: ya hablo con el (contacto 1-1). Completar apellido, cargo y resultado.\n2026-11-16: organización Brazmedia (según nota de Fer en editor@, hilo 1a1e58c2b8919e1b). Freddy propuso una llamada el lunes; esta semana está de viaje en MG; pidió que Fer le mande invitación.\n2026-11-23: Fer habló con Freddy. Freddy está viendo en Brasil contactar clientes locales para que sean patrocinadores de HealthSignals (canal de venta/referidos en Brasil). Condiciones (comisión, productos, materiales) a definir.\n2026-11-23: nombre y email dados por Fer: Alfred Bilyk, bilyk@brazmedia.com.br (Brazmedia, Rua Brasilio Machado 371-601, São Paulo). Invitación al Brief enviada (msg 1a209d633ce1be79). Cargo sin confirmar.",
+      "Notes": "Registrado 26-09 segun Fernando: ya hablo con el (contacto 1-1). Completar apellido, cargo y resultado.\n2026-11-16: organización Brazmedia (según nota de Fer en editor@, hilo 1a1e58c2b8919e1b). Freddy propuso una llamada el lunes; esta semana está de viaje en MG; pidió que Fer le mande invitación.\n2026-11-23: Fer habló con Freddy. Freddy está viendo en Brasil contactar clientes locales para que sean patrocinadores de HealthSignals (canal de venta/referidos en Brasil). Condiciones (comisión, productos, materiales) a definir.\n2026-11-23: nombre y email dados por Fer: Alfred Bilyk, bilyk@brazmedia.com.br (Brazmedia, Rua Brasilio Machado 371-601, São Paulo). Invitación al Brief enviada (msg 1a209d633ce1be79). Cargo sin confirmar.\n2026-11-24: Fer le mandó el Brief Issue 04 en PT (PDF adjunto) como material para mostrar a sus contactos en Brasil, con invitación a suscribirse (msg 1a20e67d83bce39b).",
       "Region": "LATAM",
       "Segment": "Other",
       "Source": "Manual",
@@ -12709,12 +12730,12 @@
       "Email": "juliana.restrepo@merckgroup.com",
       "First_Name": "Juliana",
       "ICP_Fit": "A",
-      "Last_Contacted": "2026-11-18",
+      "Last_Contacted": "2026-11-24",
       "Last_Name": "Restrepo Palacio",
       "Name": "Juliana Restrepo Palacio",
       "Next_Action": "Reunión Teams con Juliana + Diana Téllez: propuesta tumores desmoides / Ogsiveo LatAm",
       "Next_Action_Date": "2026-11-11",
-      "Notes": "Envió estructura del risk assessment Colombia. Último contacto: 2025-04-21. Origen: barrido Gmail personal 18-10-2026, hilo 19612071ec3f17bb. Relación vía PVS/Economist: reconectar, no cold.\nEx cliente de Fer (Merck Group, PVS).\n2026-10-26: Diana Téllez (GVAP Global Brand Lead Ogsiveo) le pasó la propuesta de HealthSignals (artículos + special report sobre tumores desmoides en LatAm, para pagadores y agencias HTA). Juliana está a cargo del tema.\n2026-11-05: Juliana propuso fechas; Fer confirmó mié 11/11 11:00 Miami. Invitación Teams en el calendario de editor@ (Diana aún sin confirmar).\n2026-11-08 (firma): Merck S.A., Av. Carrera 9 No. 101-67 Of. 501, Bogotá; móvil +57 316 473 8786.\n2026-11-19 (barrido contactos): el 18-11 21:13 UTC Fer le mandó, CC Diana Téllez, una propuesta de ejemplo genérica como seguimiento de la conversación (hilo 1a1f081c3cda0386). Sin respuesta al 19-11.",
+      "Notes": "Envió estructura del risk assessment Colombia. Último contacto: 2025-04-21. Origen: barrido Gmail personal 18-10-2026, hilo 19612071ec3f17bb. Relación vía PVS/Economist: reconectar, no cold.\nEx cliente de Fer (Merck Group, PVS).\n2026-10-26: Diana Téllez (GVAP Global Brand Lead Ogsiveo) le pasó la propuesta de HealthSignals (artículos + special report sobre tumores desmoides en LatAm, para pagadores y agencias HTA). Juliana está a cargo del tema.\n2026-11-05: Juliana propuso fechas; Fer confirmó mié 11/11 11:00 Miami. Invitación Teams en el calendario de editor@ (Diana aún sin confirmar).\n2026-11-08 (firma): Merck S.A., Av. Carrera 9 No. 101-67 Of. 501, Bogotá; móvil +57 316 473 8786.\n2026-11-19 (barrido contactos): el 18-11 21:13 UTC Fer le mandó, CC Diana Téllez, una propuesta de ejemplo genérica como seguimiento de la conversación (hilo 1a1f081c3cda0386). Sin respuesta al 19-11.\n2026-11-24: Fer le mandó el Brief Issue 04 (PDF adjunto) con nota breve e invitación a suscribirse (msg 1a20e67a84467828).",
       "Preferred_Channel": "Email",
       "Region": "LATAM",
       "Segment": "Pharma",

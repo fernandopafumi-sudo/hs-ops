@@ -151,12 +151,12 @@
   },
   {
     "id": 6313594,
-    "isActive": true,
+    "isActive": false,
     "name": "HS — Featured image por post ID"
   },
   {
     "id": 6314042,
-    "isActive": true,
+    "isActive": false,
     "name": "HS — Guard imagen destacada (watchdog)"
   },
   {
@@ -241,7 +241,7 @@
   },
   {
     "id": 6735926,
-    "isActive": true,
+    "isActive": false,
     "name": "HS - Cover for manual post (ad-hoc)"
   },
   {
@@ -251,7 +251,7 @@
   },
   {
     "id": 6841390,
-    "isActive": true,
+    "isActive": false,
     "name": "TEST Publisher v2 - Evidencia C (fila 606)"
   },
   {
@@ -293,5 +293,15 @@
     "id": 7129434,
     "isActive": true,
     "name": "HS 3b - Watch Verify Replies"
+  },
+  {
+    "id": 7170691,
+    "isActive": true,
+    "name": "HS — Panel home sin laptop (WP settings)"
+  },
+  {
+    "id": 7173487,
+    "isActive": true,
+    "name": "HS — Etiquetador pais/empresa (cada 2h)"
   }
 ]

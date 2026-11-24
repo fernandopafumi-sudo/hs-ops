@@ -364,6 +364,20 @@
     "id": "recWUMUKAVpq7TGCo"
   },
   {
+    "createdTime": "2026-11-24T13:55:41.000Z",
+    "fields": {
+      "Date Found": "2026-11-24",
+      "Found Via": "https://www.paho.org/es/noticias/20-11-2026-ops-reafirmo-su-apoyo-agenda-sanitaria-regional-reunion-ministros-salud",
+      "Lead Type": "Voices (entrevista)",
+      "Name": "Santiago Cornejo",
+      "Organization": "OPS/OMS",
+      "Role": "gerente del Fondo Rotatorio",
+      "Status": "New",
+      "Why": "Presentó en forma virtual el estado de situación del Fondo Rotatorio ante la LIX Reunión de Ministros de Salud del MERCOSUR (Montevideo, 20-11-2026); poder sobre compras conjuntas regionales."
+    },
+    "id": "recXEU4a0WrNwKvhX"
+  },
+  {
     "createdTime": "2026-10-27T13:02:35.000Z",
     "fields": {
       "Country": "Colombia",

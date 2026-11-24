@@ -5,6 +5,7 @@
       "Batch": "T1 oct-2026",
       "Country": "Brasil",
       "Deadline": "2026-11-17",
+      "Decline_Reason": "Plazo vencido 17-11 sin respuesta por mail (rebote 27-10, servidor fgv.br). Fer aprobó 12-11 reintentar por LinkedIn; sin ejecutar aún. Cerrado como No answer por mail el 24-11.",
       "Docx_Drive_ID": "1PTf4tTSJSA5Lc_Cdm5R_iZsPji0Mg6iZ",
       "Email_Source": "Sin confirmar en Apollo (pendiente Fer)",
       "Email_Status": "Unconfirmed",
@@ -21,7 +22,7 @@
       "Name": "Gonzalo Vecina Neto",
       "Notes": "Envío después del balotaje del 25/10.\n2026-10-27: invitación SALIÓ 27/10 12:15 UTC (msg 1a17d4905a563ec0, con Word y CC fernandopafumi@gmail.com). Stage → Sent.\n2026-10-27: REBOTE (no declinó). Mailer-daemon 12:16 UTC: '550 5.4.1 Recipient address rejected: Access denied' (servidor de fgv.br). No más seguimientos por mail a gonzalo.neto@fgv.br (los Followup 3/11, 10/11 y 24/11 NO van). Sigue elegible para LinkedIn (https://www.linkedin.com/in/gonzalo-vecina-neto-47a812244/): decide Fer el otro canal.\n2026-11-12: Fer aprobó en el chat pasar a LinkedIn como canal alternativo. LinkedIn_Planned viejo (24/10) borrado por OK de Fer; la nota de conexión se arma y aprueba en la tarea mensual HS Voices LinkedIn (nube).",
       "Send_At": "2026-10-27T12:15:00.000Z",
-      "Stage": "Sent",
+      "Stage": "No answer",
       "To_Email": "gonzalo.neto@fgv.br",
       "Topic": "Entrevista para HealthSignals: regulação e acesso a medicamentos no Brasil",
       "Touches": 1
@@ -808,6 +809,17 @@
       "Topic": "Entrevista para HealthSignals: el sistema de salud en Paraguay"
     },
     "id": "recqhBIjMIE1wQk7v"
+  },
+  {
+    "createdTime": "2026-11-24T19:04:03.000Z",
+    "fields": {
+      "Country": "Regional (MERCOSUR)",
+      "Institution": "OPS/OMS — Fondo Rotatorio (gerente)",
+      "Name": "Santiago Cornejo",
+      "Notes": "2026-11-24: candidato nuevo detectado en la bandeja diaria. Presentó el estado del Fondo Rotatorio ante ministros de Salud del MERCOSUR el 20-11-2026. Falta email y LinkedIn para armar invitación. Aprobado por Fer para Voices el 24-11.",
+      "Stage": "Draft"
+    },
+    "id": "recujvdXML0tfjRcU"
   },
   {
     "createdTime": "2026-10-02T04:06:04.000Z",

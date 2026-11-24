@@ -1,5 +1,15 @@
 [
   {
+    "createdTime": "2026-11-24T19:33:48.000Z",
+    "fields": {
+      "Area": "Editorial",
+      "Date": "2026-11-21",
+      "Decision": "Medical Devices es categoría principal y entra al menú; el Scanner suma rutas de devices US y LatAm; meta 2-3 notas de devices por semana (revisar en 2 semanas)",
+      "Status": "Vigente"
+    },
+    "id": "rec0Nocxk0F0bjFfG"
+  },
+  {
     "createdTime": "2026-10-22T19:53:38.000Z",
     "fields": {
       "Alternatives": "Reenviar el Issue 02 con el bloque (descartado: ya salió y no lo justifica). Dejar Voices como tarjetas comunes (descartado: no se distinguen).",
@@ -10,6 +20,16 @@
       "Rationale": "Voices es marca propia y activo comercial; tiene que verse. El gráfico da un dato visual por número y es inventario sponsorizable a futuro."
     },
     "id": "rec1KMEp85E1f1HVB"
+  },
+  {
+    "createdTime": "2026-11-24T19:33:48.000Z",
+    "fields": {
+      "Area": "Comercial / Sponsors",
+      "Date": "2026-11-23",
+      "Decision": "Aprobados el plan gradual de sponsors v1 y la estrategia de audiencia orgánica \"B\"",
+      "Status": "Vigente"
+    },
+    "id": "rec1U93xbHHwGSOsa"
   },
   {
     "createdTime": "2026-08-29T19:44:30.000Z",
@@ -60,6 +80,16 @@
     "id": "rec24SbEKSj1h6dYd"
   },
   {
+    "createdTime": "2026-11-24T19:33:48.000Z",
+    "fields": {
+      "Area": "Editorial",
+      "Date": "2026-11-21",
+      "Decision": "El kicker de las notas no lleva fecha: CATEGORÍA · SUBCATEGORY · PAÍS",
+      "Status": "Vigente"
+    },
+    "id": "rec3VOc8NyL17yzFS"
+  },
+  {
     "createdTime": "2026-09-04T19:10:03.000Z",
     "fields": {
       "Area": "Editorial",
@@ -73,6 +103,16 @@
       "Status": "Vigente"
     },
     "id": "rec7jMnhl4our3xHq"
+  },
+  {
+    "createdTime": "2026-11-24T19:33:48.000Z",
+    "fields": {
+      "Area": "Editorial",
+      "Date": "2026-11-21",
+      "Decision": "El auto-approve diario prioriza 1 señal LatAm + 1 no-LatAm (piso: draft + high)",
+      "Status": "Vigente"
+    },
+    "id": "rec7vk4ppcod7AGIX"
   },
   {
     "createdTime": "2026-08-29T19:44:30.000Z",
@@ -123,6 +163,16 @@
     "id": "recC3oJ3m1WUpoFMj"
   },
   {
+    "createdTime": "2026-11-24T19:33:48.000Z",
+    "fields": {
+      "Area": "Producto / Web",
+      "Date": "2026-11-23",
+      "Decision": "Las páginas de categoría usan el diseño v2 (lead + filas por subtema + franja Voices + All coverage); reemplaza la agrupación por tags",
+      "Status": "Vigente"
+    },
+    "id": "recCdfSUiXqbENz98"
+  },
+  {
     "createdTime": "2026-09-23T04:36:37.000Z",
     "fields": {
       "Area": "Editorial",
@@ -135,6 +185,16 @@
       "Status": "Vigente"
     },
     "id": "recDi0my6HuZzAHBQ"
+  },
+  {
+    "createdTime": "2026-11-24T19:33:48.000Z",
+    "fields": {
+      "Area": "Producto / Web",
+      "Date": "2026-11-23",
+      "Decision": "Cada nota de Policy & Markets y Pharma lleva un subtema curado (taxonomía oculta hs_subtopic, 12 términos); el Publisher lo asigna solo desde el 23-11",
+      "Status": "Vigente"
+    },
+    "id": "recFP5F8zdo0XgPoz"
   },
   {
     "createdTime": "2026-08-29T19:44:30.000Z",
@@ -191,6 +251,16 @@
       "Status": "Pendiente"
     },
     "id": "recKTZQn2EiGtsiK4"
+  },
+  {
+    "createdTime": "2026-11-24T19:33:48.000Z",
+    "fields": {
+      "Area": "Infraestructura / Make",
+      "Date": "2026-11-24",
+      "Decision": "HealthSignals vuelve a operar con servidor (hs-cloud-01, Vultr Miami): la mayor cantidad de procesos en automático, acceso desde laptop o teléfono desde cualquier red, con backups automáticos",
+      "Status": "Vigente"
+    },
+    "id": "recKVViqQUOTYr6Dg"
   },
   {
     "createdTime": "2026-08-29T19:44:30.000Z",
@@ -406,6 +476,16 @@
     "id": "recZqEyUD2itVNXD5"
   },
   {
+    "createdTime": "2026-11-24T19:33:48.000Z",
+    "fields": {
+      "Area": "CRM / Outreach",
+      "Date": "2026-11-23",
+      "Decision": "Los webmail personales quedan en la cola de invitaciones 1-clic al Brief (excepción a la regla de solo correo corporativo del 21-10)",
+      "Status": "Vigente"
+    },
+    "id": "reca7t6NuuqZ9PPYi"
+  },
+  {
     "createdTime": "2026-08-29T19:44:30.000Z",
     "fields": {
       "Alternatives": "Descartado: schedule automático diario.",
@@ -453,6 +533,26 @@
     "id": "reccpCdVuNK8D6yrf"
   },
   {
+    "createdTime": "2026-11-24T19:33:48.000Z",
+    "fields": {
+      "Area": "Comercial / Sponsors",
+      "Date": "2026-11-23",
+      "Decision": "AstraZeneca: esperar respuesta a la propuesta del 18-11, sin seguimiento ni carga de monto por ahora. Lilly, C/Can y Arce siguen activos (no pasan a Nurture)",
+      "Status": "Vigente"
+    },
+    "id": "recdC0FkrAbSgkH0L"
+  },
+  {
+    "createdTime": "2026-11-24T19:33:48.000Z",
+    "fields": {
+      "Area": "Editorial",
+      "Date": "2026-11-21",
+      "Decision": "Las notas anteriores de HealthSignals nunca son fuente de una nota nueva (nada de \"as HealthSignals reported\")",
+      "Status": "Vigente"
+    },
+    "id": "recgEjvIQfJfjn0Y8"
+  },
+  {
     "createdTime": "2026-09-22T20:45:14.000Z",
     "fields": {
       "Alternatives": "B) Partir la base y quedar en Free: sacar Sucriptor prospects + Press + Doc Index deja 775 registros, margen de 225; se vuelve a chocar en 1-2 ciclos de reporte y obliga a reapuntar scenarios de Make. C) Migrar a NocoDB/Supabase: sin límite pero reescribe 9+ tablas, MCP y scenarios. Descuentos: anual ahorra 17%; créditos startup de hasta $1.000 (Secret, HubSpot for Startups) sin elegibilidad confirmada.",
@@ -468,6 +568,16 @@
     "id": "recjE0qNUQFLZmNej"
   },
   {
+    "createdTime": "2026-11-24T19:33:48.000Z",
+    "fields": {
+      "Area": "Infraestructura / Make",
+      "Date": "2026-11-20",
+      "Decision": "X/Twitter activo: Social Publisher v3 (6508650) publica cada nota en @HealthSignalsX junto con LinkedIn",
+      "Status": "Vigente"
+    },
+    "id": "recjHwxEaDUUYWu2L"
+  },
+  {
     "createdTime": "2026-08-29T19:44:30.000Z",
     "fields": {
       "Area": "Motor de reportes",
@@ -481,6 +591,16 @@
       "Status": "Vigente"
     },
     "id": "recjmKo5v9Z1375yk"
+  },
+  {
+    "createdTime": "2026-11-24T19:33:48.000Z",
+    "fields": {
+      "Area": "Editorial",
+      "Date": "2026-11-20",
+      "Decision": "El byline público de todas las notas es \"HealthSignals Editorial\", no Fernando Pafumi",
+      "Status": "Vigente"
+    },
+    "id": "recjtU5XoYJrVMaon"
   },
   {
     "createdTime": "2026-09-04T19:10:03.000Z",

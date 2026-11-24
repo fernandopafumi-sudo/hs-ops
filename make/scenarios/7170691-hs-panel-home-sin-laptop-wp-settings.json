@@ -1,0 +1,57 @@
+{
+  "blueprint": {
+    "flow": [
+      {
+        "id": 1,
+        "mapper": {
+          "body": "{{var.input.body}}",
+          "method": "{{var.input.method}}",
+          "url": "{{var.input.url}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        "module": "wordpress:makeApiCall",
+        "parameters": {
+          "__IMTCONN__": 8921729
+        },
+        "version": 3
+      }
+    ],
+    "metadata": {
+      "instant": false,
+      "version": 1
+    },
+    "name": "HS — Panel home sin laptop (WP settings)"
+  },
+  "folderId": null,
+  "id": 7170691,
+  "interface": {
+    "input": [
+      {
+        "name": "url",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "name": "method",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "name": "body",
+        "required": false,
+        "type": "text"
+      }
+    ],
+    "output": []
+  },
+  "isActive": true,
+  "name": "HS — Panel home sin laptop (WP settings)",
+  "scheduling": {
+    "type": "on-demand"
+  }
+}

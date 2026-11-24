@@ -1,0 +1,150 @@
+{
+  "blueprint": {
+    "flow": [
+      {
+        "id": 1,
+        "mapper": {
+          "method": "GET",
+          "url": "posts?status=draft,pending,future,publish&per_page=20&orderby=date&order=desc&context=edit&_fields=id,title,content,meta&after={{formatDate(addDays(now; -3); \"YYYY-MM-DDTHH:mm:ss\")}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        "module": "wordpress:makeApiCall",
+        "parameters": {
+          "__IMTCONN__": 8921729
+        },
+        "version": 3
+      },
+      {
+        "id": 2,
+        "mapper": {
+          "array": "{{1.body}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 300,
+            "y": 0
+          }
+        },
+        "module": "builtin:BasicFeeder",
+        "version": 1
+      },
+      {
+        "filter": {
+          "conditions": [
+            [
+              {
+                "a": "{{2.meta.hs_entities_done}}",
+                "o": "notexist"
+              }
+            ],
+            [
+              {
+                "a": "{{2.meta.hs_entities_done}}",
+                "b": "1",
+                "o": "text:notequal"
+              }
+            ]
+          ],
+          "name": "sin etiquetar todavia"
+        },
+        "id": 3,
+        "mapper": {
+          "container": {},
+          "max_tokens": 200,
+          "messages": [
+            {
+              "content": [
+                {
+                  "text": "You tag articles for HealthSignals, a B2B pharma and health-policy publication covering Latin America and the United States.\n\nReturn ONLY minified JSON, no markdown: {\"countries\":[...],\"companies\":[...]}\n\ncountries: 0-3 PRIMARY countries the article is ABOUT (where the decision, market, deal or event happens, or a party to it). Do NOT include countries mentioned only as comparison, precedent, data source or passing reference. Regional pieces about Latin America in general with no country focus, and global or EU-only pieces: []. Allowed values only: United States, Brazil, Mexico, Argentina, Chile, Colombia, Peru, Ecuador, Costa Rica, Panama, Uruguay, Paraguay, Bolivia, Venezuela, Guatemala, Honduras, El Salvador, Nicaragua, Dominican Republic, Cuba, Puerto Rico, Canada.\n\ncompanies: 0-4 PRIMARY companies (pharma, biotech, medtech, PBMs, insurers, pharmacies, hospital groups, distributors, health-tech or retail firms) that are a main subject or a party to the deal, decision or product. NOT competitors mentioned for context. NOT regulators, ministries, agencies, NGOs, universities or associations (ANVISA, FDA, PAHO, Fiocruz, Conitec, Canifarma are not companies). Use the common English name. Preferred spellings: Bristol Myers Squibb, Johnson & Johnson, MSD (for Merck & Co.), Merck KGaA (never merge with MSD), Eli Lilly, Novo Nordisk, AstraZeneca, Roche, Pfizer, Sanofi, Novartis, GSK, Abbott, AbbVie, Amgen, Moderna, Mercado Livre, Optum Rx, CVS Health.\n\nTITLE: {{2.title.raw}}\n\nTEXT: {{substring(stripHTML(2.content.rendered); 0; 6000)}}",
+                  "type": "text"
+                }
+              ],
+              "inputType": "multiple",
+              "role": "user"
+            }
+          ],
+          "metadata": {},
+          "model": "claude-haiku-4-5",
+          "outputFormat": {
+            "type": "text"
+          },
+          "temperature": 0,
+          "thinking": {
+            "type": "disabled"
+          },
+          "tool_choice": {}
+        },
+        "metadata": {
+          "designer": {
+            "x": 600,
+            "y": 0
+          }
+        },
+        "module": "anthropic-claude:createAMessage",
+        "parameters": {
+          "__IMTCONN__": 8922808
+        },
+        "version": 1
+      },
+      {
+        "id": 4,
+        "mapper": {
+          "body": "{\"meta\":{\"hs_entities\":{{trim(replace(replace(3.content[1].text; \"```json\"; \"\"); \"```\"; \"\"))}}}}",
+          "method": "POST",
+          "url": "posts/{{2.id}}"
+        },
+        "metadata": {
+          "designer": {
+            "x": 900,
+            "y": 0
+          }
+        },
+        "module": "wordpress:makeApiCall",
+        "onerror": [
+          {
+            "id": 5,
+            "mapper": {
+              "body": "",
+              "headers": "",
+              "statusCode": 0
+            },
+            "metadata": {
+              "designer": {
+                "x": 900,
+                "y": 300
+              }
+            },
+            "module": "builtin:Resume",
+            "version": 1
+          }
+        ],
+        "parameters": {
+          "__IMTCONN__": 8921729
+        },
+        "version": 3
+      }
+    ],
+    "metadata": {
+      "instant": false,
+      "version": 1
+    },
+    "name": "HS — Etiquetador pais/empresa (cada 2h)"
+  },
+  "folderId": null,
+  "id": 7173487,
+  "interface": {
+    "input": [],
+    "output": []
+  },
+  "isActive": true,
+  "name": "HS — Etiquetador pais/empresa (cada 2h)",
+  "scheduling": {
+    "interval": 7200,
+    "type": "indefinitely"
+  }
+}

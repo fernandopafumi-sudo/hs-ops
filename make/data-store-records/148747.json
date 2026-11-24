@@ -1482,6 +1482,14 @@
   {
     "data": {
       "batch": "SCAN-EVENTS",
+      "headline": "Canetas para obesidade funcionam em crianças e adolescentes? Novos estudos respondem - Estadão",
+      "seen_at": "2026-11-24T12:23:10.461Z"
+    },
+    "key": "evt~22e4da494cbdf31ba52736869f027677"
+  },
+  {
+    "data": {
+      "batch": "SCAN-EVENTS",
       "headline": "Researchers say inflammation as a treatment target still important despite neutral results of ZEUS trial | American Heart Association",
       "seen_at": "2026-11-08T12:23:41.061Z"
     },
@@ -2074,6 +2082,14 @@
   {
     "data": {
       "batch": "SCAN-EVENTS",
+      "headline": "Innovaccer Integrates Grok Voice to Expand AI-Powered Healthcare Automation",
+      "seen_at": "2026-11-24T12:23:35.024Z"
+    },
+    "key": "evt~d57f68c9fc7539114c7673d2c464002f"
+  },
+  {
+    "data": {
+      "batch": "SCAN-EVENTS",
       "headline": "SAFFRON Data Reveal New Global SOC in EGFR+ NSCLC With MET Overexpression and/or Amplification After Osimertinib",
       "seen_at": "2026-10-26T11:23:11.045Z"
     },
@@ -2134,6 +2150,14 @@
       "seen_at": "2026-11-16T12:24:54.524Z"
     },
     "key": "evt~dfb5bee2d8c67d2b64142f1f4d25d803"
+  },
+  {
+    "data": {
+      "batch": "SCAN-EVENTS",
+      "headline": "Semaglutide may improve eating disorder behaviors",
+      "seen_at": "2026-11-24T12:23:16.294Z"
+    },
+    "key": "evt~e0b676b4879d38994abf4e7a701b400e"
   },
   {
     "data": {
@@ -2306,6 +2330,14 @@
   {
     "data": {
       "batch": "SCAN-FDA",
+      "headline": "FDA Approves First Treatment for Limb-Girdle Muscular Dystrophy Type 2I/R9",
+      "seen_at": "2026-11-24T11:41:06.562Z"
+    },
+    "key": "fda~193298934b5a7d04d6a8fc16171e6b26"
+  },
+  {
+    "data": {
+      "batch": "SCAN-FDA",
       "headline": "FDA Approves First Drug Shown to Help Patients with Infantile-Onset Niemann-Pick Disease Type C Live Longer",
       "seen_at": "2026-11-18T11:41:10.105Z"
     },
@@ -2374,6 +2406,14 @@
       "seen_at": "2026-11-19T11:41:06.005Z"
     },
     "key": "fda~75bb6676e61df4ca9b51e6745250959a"
+  },
+  {
+    "data": {
+      "batch": "SCAN-FDA",
+      "headline": "FDA Approves First New Hormone Therapy for Early-Stage Breast Cancer in More Than 20 Years",
+      "seen_at": "2026-11-24T11:41:11.578Z"
+    },
+    "key": "fda~890ede5bd6dd817602073457304c5413"
   },
   {
     "data": {

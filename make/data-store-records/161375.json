@@ -320,46 +320,58 @@
   },
   {
     "data": {
-      "notes": "passed: 1 corr de hecho (r1: 'was never issued' -> 'had still not been issued', quinto decreto). r2 PUBLISH sin hallazgos. Drive 12lCI1jsbcwycD63CulKxHBADkebR_VEz",
-      "run_id": "20261122-0658",
-      "state": "passed",
+      "notes": "needs_edit (re-gate tras edicion 23-11 10:03, solo subtema; correcciones previas NO aplicadas): r1 5 corr de hecho, una en el lede (Camara ya aprobo 23-11, mixta por 10 partidas). Sin r2. Drive 1MQbRekELiayVzTG9S3LNU5fChu2i8sXm",
+      "run_id": "20261124-0658",
+      "state": "needs_edit",
       "title": "Chile's budget deal props up Ricarte Soto fund but adds no new diseases",
-      "updated_at": "2026-11-22T07:08:05-05:00",
-      "wp_modified": "2026-11-21T13:44:53"
+      "updated_at": "2026-11-24T07:07:18-05:00",
+      "wp_modified": "2026-11-23T10:03:36"
     },
     "key": "37176"
   },
   {
     "data": {
-      "notes": "needs_edit (re-gate tras edicion 22-11 08:17; las correcciones previas NO estaban aplicadas): r1 14 corr de hecho (>5), sin r2. Clave: kicker LATIN AMERICA->AMERICAS, 'about 15%' en excerpt/metadesc, 77% in vitro leido como fracaso terapeutico (2), 'plan requires', 'identified...as unresolved', 40% de combinaciones; 3 BORRAR inferencias. Todos aplicables. Drive 1UisLTW17XoDvP_TdMlH9ixDBBSUesTyt",
-      "run_id": "20261123-0659",
-      "state": "needs_edit",
+      "notes": "editado despues del gate",
+      "run_id": "20261124-0658",
+      "state": "pending",
       "title": "PAHO flags decade-long rise in carbapenem resistance across the Americas",
-      "updated_at": "2026-11-23T07:06:07-05:00",
-      "wp_modified": "2026-11-22T08:17:03"
+      "updated_at": "2026-11-24T06:58:30-05:00",
+      "wp_modified": "2026-11-23T10:03:33"
     },
     "key": "37197"
   },
   {
     "data": {
-      "notes": "needs_edit (re-gate tras edicion 22-11 08:13; correcciones previas NO aplicadas): r1 9 corr de hecho (>5), sin r2. 75% of body weight->of weight loss (2), caja Patients OR por punto porcentual, lead investigator->presenter, pilot->initiative, list->self-pay price, $449 si refill en 45 dias, 'raises'->'associated with' en excerpt/metadesc. Drive 1okZozUZOjE83J44SeApkSgP__UeVWfjr",
-      "run_id": "20261123-0659",
-      "state": "needs_edit",
+      "notes": "editado despues del gate",
+      "run_id": "20261124-0658",
+      "state": "pending",
       "title": "Lilly's tirzepatide: early weight loss predicts durable maintenance",
-      "updated_at": "2026-11-23T07:06:07-05:00",
-      "wp_modified": "2026-11-22T08:13:36"
+      "updated_at": "2026-11-24T06:58:30-05:00",
+      "wp_modified": "2026-11-23T10:03:30"
     },
     "key": "37202"
   },
   {
     "data": {
-      "notes": "- FALLO Drive (4ta vez: 19-10, 23-10, 24-10, hoy): la carpeta 1ZpyZmnptFufBlsseJkdyxyDStjafzwgm da 'not found' (metadata, search y create_file). El conector de Drive no ve la carpeta, probablemente esta conectado con otra cuenta. Sin archivo de hallazgos y sin limpieza de Drive. Hasta que se arregle, cada post revisado termina failed\n- STATE.md leido, sin choques con el prompt\n- run_id 20261025-0659\n- borradores vistos 13; excluidos 5 (Weekly 36411, 36146, 35939, 35772; post 36041); skipped backlog 7 sin cambios; revisados 1; pendientes para manana 0 (36552 reintenta por failed)\n- 36552 Moderna and Liomont Sign Mexico Licensing Deal as BIRMEX Awards Up to US$1.75 Billion Contract: failed intento 1, por Drive. Fue reescrito el 24-10, asi que el contador de intentos arranca de nuevo. Sin la falla de Drive quedaba passed\n  - el gancho de octubre ya esta resuelto: acuerdo Moderna-Liomont (enFarma 13-10) y adjudicacion directa BIRMEX de US$700M a 1.75bn (El Imparcial 11-10)\n  - r1 PUBLISH AFTER EDIT, 4 correcciones de hecho, todas con 1 coincidencia; diff OK; titulo y lead sin tocar\n    - sacar 'mRNA' del contrato BIRMEX en 3 lugares (p3, recuadro, timeline): las fuentes no dicen que el producto contratado sea de ARNm\n    - 'Laboratorios Kener, Sanofi, Bayer, Vazol Farma and Opella' pasa a 'Laboratorios Kener (part of Grupo Vazol), Sanofi, Bayer and Opella' (fuente: Expansion)\n  - r2 PUBLISH AFTER EDIT: expandir BIRMEX en el excerpt (sigla; ronda 2, sin re-verificar)\n  - descartado: un hallazgo 'pipeline' de r1 era un marcador del prompt del gate, no estaba en el post\n  - borrado: nada\n  - sin verificar en las 2 rondas (Executive Forecast da error): todo lo de Rimoch (julio; suministro local 2027-2028; ARNm operativo 2028; contratos de largo plazo). Aparece en el cuerpo, en el cierre y en Patients. El Pais, Reuters y El Universal estan bloqueados, pero se confirmaron con copias. Las citas de Saglio y Valentinotti son traducciones fieles. 'Palacio Nacional' solo aparece como 'anuncio desde'\n  - opcional: sumar el link de Expansion a hs-sources\n  - postura: publicar despues de aplicar los 5 reemplazos, si Fer confirma lo de Rimoch en Executive Forecast; si no, borrar esas frases antes\n  - Drive: sin archivo (fallo); resumen en notes del registro 36552\n- limpieza: en Make no hay REPORT ni registros de mas de 30 dias. Drive no se pudo: 36488 y 36441 siguen pendientes de ir a la papelera\nPara aplicar y publicar, decile a Claude en un chat: aplicar gate <ID>. La sesión que aplique relee el post, rechaza si su modified es distinto del wp_modified del archivo, aplica los reemplazos con código, verifica el diff y publica solo con OK de Fer.",
-      "run_id": "20261025-0659",
-      "state": "passed",
-      "title": "REPORT",
-      "updated_at": "2026-10-25T07:08:30-04:00"
+      "notes": "needs_edit: r1 11 corr de hecho (>5), una en el lede (1,200 sitios son mundiales). Sin fuente para fin de alianza OpenEvidence ni 'add-on module'. Sin r2. Drive 1HJF7DNSytsF0qYhxa-y8m_wTfq2HHMwa",
+      "run_id": "20261124-0658",
+      "state": "needs_edit",
+      "title": "Elsevier upgrades ClinicalKey AI with full patient EHR context",
+      "updated_at": "2026-11-24T07:07:18-05:00",
+      "wp_modified": "2026-11-23T14:10:38"
     },
-    "key": "REPORT-20261025-0659"
+    "key": "37217"
+  },
+  {
+    "data": {
+      "notes": "needs_edit: r1 10 corr de hecho (>5), una en el lede (post-anesthesia -> critical care). DA2610-00616 es ID interno de INVIMA, no de ANVISA; obligaciones de IPS/importador sobredimensionadas. Sin r2. Drive 13dgzKdR6J9CuC1zQBVlxZtuT77KAfsMC",
+      "run_id": "20261124-0658",
+      "state": "needs_edit",
+      "title": "GE HealthCare's Centricity anesthesia software flagged by Colombia's INVIMA",
+      "updated_at": "2026-11-24T07:07:18-05:00",
+      "wp_modified": "2026-11-24T06:46:40"
+    },
+    "key": "37238"
   },
   {
     "data": {
@@ -686,5 +698,16 @@
       "updated_at": "2026-11-23T07:06:07-05:00"
     },
     "key": "REPORT-20261123-0659"
+  },
+  {
+    "data": {
+      "notes": "- sin fallos de acceso, aprobaciones pedidas ni bloqueos; ningun post en tercer fallo. STATE.md leido, sin choques con el prompt\n- run_id 20261124-0658\n- borradores vistos 5, excluidos 0, skipped backlog 0. Pasaron a pending por \"editado despues del gate\" 37176, 37197 y 37202 (la edicion del 23-11 10:03 fue, segun STATE, la carga del subtema por Make). Revisados 3; quedan 2 pending para manana: 37197 y 37202 (sus correcciones del 23-11 siguen sin aplicar)\n- 37238 \"GE HealthCare's Centricity anesthesia software flagged by Colombia's INVIMA\": needs_edit, 10 corr de hecho, una en el lede. Principales: DA2610-00616 es ID interno de INVIMA, no de ANVISA (3 lugares); \"post-anesthesia\" -> \"critical care\"; la alerta no obliga a distribuidores ni a GE/G. Barco, la trazabilidad es de los establecimientos y no de las IPS; \"verify their configuration\" no esta en la fuente. Sin verificar: \"no es retiro ni suspension\". Postura: no publicar hasta aplicar. Drive https://drive.google.com/file/d/13dgzKdR6J9CuC1zQBVlxZtuT77KAfsMC/view\n- 37217 \"Elsevier upgrades ClinicalKey AI with full patient EHR context\": needs_edit, 11 corr de hecho, una en el lede (los 1,200 sitios son mundiales y el kicker dice US). Se borra el fin de la alianza con OpenEvidence (sin fuente, sale tambien del subtitulo) y el \"add-on module\" (3 lugares). Tambien: \"deciding factor\" -> \"key distinction\", \"early adopters\", \"peer-reviewed\", el 40% de Medicaid es de New Mexico y no del hospital, y una coma de mas en la cita de Lott. Se suman 3 fuentes primarias (Elsevier x2, 8-K de Doximity). Sin verificar: fecha de la nota de Oracle, \"cannot replicate by design\". Postura: no publicar hasta aplicar. Drive https://drive.google.com/file/d/1HJF7DNSytsF0qYhxa-y8m_wTfq2HHMwa/view\n- 37176 \"Chile's budget deal props up Ricarte Soto fund but adds no new diseases\": needs_edit, 5 corr de hecho, una en el lede. La Camara ya voto el 23-11: aprobo los CLP 28.207m de Ricarte Soto y mando 10 partidas a comision mixta. Lede, excerpt, metadesc y What to Watch la tratan como futura. Kicker sin fecha; \"was never issued\" -> \"had still not been issued by July 2026\"; se suman El Mostrador 23-11 y Meganoticias (fuente del \"unacceptable\" de Castro). Sin verificar: estado actual del quinto decreto y del boletin 17567-11. Es time-sensitive: si no sale esta semana, pierde vigencia. Postura: no publicar hasta aplicar. Drive https://drive.google.com/file/d/1MQbRekELiayVzTG9S3LNU5fChu2i8sXm/view\n- limpieza: a la papelera los hallazgos viejos de 37176, 37197 y 37202; borrado REPORT-20261025-0659 (>30 dias). Queda en Drive 36926-2026-11-17-intro-propuesta.md (36926 publicado): no es archivo del gate y no lo toque, decidi vos\nPara aplicar y publicar, decile a Claude en un chat: aplicar gate <ID>. La sesión que aplique relee el post, rechaza si su modified es distinto del wp_modified del archivo, aplica los reemplazos con código, verifica el diff y publica solo con OK de Fer.",
+      "run_id": "20261124-0658",
+      "state": "passed",
+      "title": "REPORT",
+      "updated_at": "2026-11-24T07:08:30-05:00",
+      "wp_modified": null
+    },
+    "key": "REPORT-20261124-0658"
   }
 ]

@@ -36,8 +36,8 @@ Regenerar con `python3 scripts/gen_ids.py` después de cada backup. Las referenc
 | 6251333 | HS - Skip rows for social (ad-hoc) | ON | on-demand |  |  |  | google-sheets |
 | 6251400 | HS - Scanner rows snapshot (last batch) | ON | on-demand | 148918 HS Queue Snapshot |  |  | builtin, datastore, google-sheets |
 | 6263946 | HS — SEO Rank Tracker (GSC weekly) | ON | weekly:08:00 |  |  |  | google-search-console, google-sheets |
-| 6313594 | HS — Featured image por post ID | ON | on-demand |  |  |  | anthropic-claude, builtin, json, openai-gpt-3, util, wordpress |
-| 6314042 | HS — Guard imagen destacada (watchdog) | ON | indefinitely:3600 | 200868 HS cover watchdog attempts |  | 6735926 | anthropic-claude, builtin, datastore, google-sheets, http, json, openai-gpt-3, resend, util, wordpress |
+| 6313594 | HS — Featured image por post ID | off | on-demand |  |  |  | anthropic-claude, builtin, json, openai-gpt-3, util, wordpress |
+| 6314042 | HS — Guard imagen destacada (watchdog) | off | indefinitely:3600 | 200868 HS cover watchdog attempts |  | 6735926 | anthropic-claude, builtin, datastore, google-sheets, http, json, openai-gpt-3, resend, util, wordpress |
 | 6414510 | [BORRAR] HS test 6414510 | off | on-demand |  |  |  | anthropic-claude, builtin, google-drive, json, openai-gpt-3, util |
 | 6424186 | [BORRAR] HS test cover fix 6424186 | off | on-demand |  |  |  | anthropic-claude, builtin, google-drive, google-sheets, http, json, openai-gpt-3, util, wordpress |
 | 6424598 | [BORRAR] HS test 6424598 | off | on-demand |  |  |  | google-drive, util |
@@ -54,9 +54,9 @@ Regenerar con `python3 scripts/gen_ids.py` después de cada backup. Las referenc
 | 6724293 | HS - Events Scanner (congresos y cumbres) | ON | daily:07:23 | 148747 HS Event Dedup |  |  | anthropic-claude, builtin, datastore, exa-ai, google-sheets, json, util |
 | 6725295 | HS - Auto-approve top policy/approvals/eventos (lun+jue) | ON | weekly:06:20 |  |  |  | google-sheets, util |
 | 6726530 | HS Brief Approvals (webmail aprobados por Fer) | ON | indefinitely:21600 |  |  |  | airtable, builtin, sendinblue |
-| 6735926 | HS - Cover for manual post (ad-hoc) | ON | on-demand | 200868 HS cover watchdog attempts |  |  | anthropic-claude, builtin, datastore, google-sheets, http, json, openai-gpt-3, resend, util, wordpress |
+| 6735926 | HS - Cover for manual post (ad-hoc) | off | on-demand | 200868 HS cover watchdog attempts |  |  | anthropic-claude, builtin, datastore, google-sheets, http, json, openai-gpt-3, resend, util, wordpress |
 | 6828787 | HS - Set queue status by row (ad-hoc) | ON | on-demand |  |  |  | google-sheets |
-| 6841390 | TEST Publisher v2 - Evidencia C (fila 606) | ON | on-demand |  |  |  | airtable, anthropic-claude, builtin, exa-ai, google-sheets, http, json, openai-gpt-3, util, wordpress |
+| 6841390 | TEST Publisher v2 - Evidencia C (fila 606) | off | on-demand |  |  |  | airtable, anthropic-claude, builtin, exa-ai, google-sheets, http, json, openai-gpt-3, util, wordpress |
 | 6854895 | HS Invite 1-click subscribe (Brief) | ON | immediately |  | 3008026 |  | airtable, builtin, gateway, sendinblue, util |
 | 6856433 | HS — Brevo: quitar internos de lista 5 (ad hoc) | off | on-demand |  |  |  | sendinblue |
 | 7028872 | HS - Social: sync SOCIAL- tags al dedup de v3 | ON | weekly:08:25 | 164495 HS LinkedIn shared posts |  |  | datastore, google-sheets, util |
@@ -65,6 +65,8 @@ Regenerar con `python3 scripts/gen_ids.py` después de cada backup. Las referenc
 | 7128642 | [TEST] HS connections: related + series + master editor (ad-hoc) | off | on-demand |  |  |  | anthropic-claude, builtin, google-drive, json, util, wordpress |
 | 7129421 | HS 3b - Verify Outreach Sender | ON | on-demand |  |  |  | google-sheets, resend |
 | 7129434 | HS 3b - Watch Verify Replies | ON | indefinitely:3600 |  |  |  | builtin, google-email, google-sheets |
+| 7170691 | HS — Panel home sin laptop (WP settings) | ON | on-demand |  |  |  | wordpress |
+| 7173487 | HS — Etiquetador pais/empresa (cada 2h) | ON | indefinitely:7200 |  |  |  | anthropic-claude, builtin, wordpress |
 
 ## Data stores → escenarios que los usan
 
@@ -87,9 +89,9 @@ Regenerar con `python3 scripts/gen_ids.py` después de cada backup. Las referenc
 | ID | Nombre | Escenarios |
 |---|---|---|
 | 8455399 | My Google Restricted connection | 0:  |
-| 8921729 | My WordPress connection | 13: 5133643, 5454484, 6234149, 6234307, 6313594, 6314042, 6424186, 6427153, 6735926, 6841390, 7113631, 7117744, 7128642 |
+| 8921729 | My WordPress connection | 15: 5133643, 5454484, 6234149, 6234307, 6313594, 6314042, 6424186, 6427153, 6735926, 6841390, 7113631, 7117744, 7128642, 7170691, 7173487 |
 | 8921875 | My LinkedIn connection | 0:  |
-| 8922808 | My Anthropic Claude connection | 9: 5133643, 5453337, 5699954, 5891229, 6313594, 6841390, 7113631, 7117744, 7128642 |
+| 8922808 | My Anthropic Claude connection | 10: 5133643, 5453337, 5699954, 5891229, 6313594, 6841390, 7113631, 7117744, 7128642, 7173487 |
 | 8923111 | My Anthropic Claude connection | 6: 5096381, 6070111, 6233803, 6234307, 6721172, 6724293 |
 | 8923977 | My Google connection | 25: 5096381, 5133643, 5167429, 6070111, 6202822, 6245658, 6245964, 6246530, 6248217, 6251333, 6251400, 6263946, 6314042, 6424186, 6508650, 6543177, 6721172, 6724293, 6725295, 6735926, 6828787, 6841390, 7028872, 7129421, 7129434 |
 | 8943313 | My OpenAI connection | 9: 5133643, 6313594, 6314042, 6414510, 6424186, 6735926, 6841390, 7113631, 7117744 |

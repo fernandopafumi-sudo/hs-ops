@@ -299,6 +299,19 @@
     "id": "recB1ZSdLDsTslObz"
   },
   {
+    "createdTime": "2026-11-24T13:56:50.000Z",
+    "fields": {
+      "Channel": "comentarios",
+      "Date": "2026-11-24",
+      "Items_Pending": 5,
+      "Notes": "1 Proposed nuevo (Anvisa recPy4egTTWr0T9pB, adversarial opus por el principal) + PAHO recFOuJYLAYAY8dGC; 3 Approved en cola (PAHO baloxavir vence 25-11); persona Cornejo recXEU4a0WrNwKvhX. Alerta: tarea autónoma de comentarios con navegador sigue activa.",
+      "Run": "manana",
+      "Run_Key": "2026-11-24|manana|comentarios",
+      "Status": "ok"
+    },
+    "id": "recB47FBzcyUocLp3"
+  },
+  {
     "createdTime": "2026-10-29T13:01:27.000Z",
     "fields": {
       "Channel": "grupos",
@@ -715,6 +728,19 @@
     "id": "recPtSn3sgWGRInxt"
   },
   {
+    "createdTime": "2026-11-24T13:56:50.000Z",
+    "fields": {
+      "Channel": "sponsors",
+      "Date": "2026-11-24",
+      "Items_Pending": 15,
+      "Notes": "15 candidatos, esperan 'dale sponsors'. Contactos en común n/d.\n1 Himanshu Rewani | Country Manager Brazil | Sun Pharma | BR | https://linkedin.com/in/himanshu-rewani-57813516\n2 Fernando Sampaio | Country Lead & GM Pharma | Sanofi | BR | https://linkedin.com/in/sampaio-fernando-sanofi\n3 Roberto Rego Vieira da Rocha | Country GM Brazil | Teva | BR | https://linkedin.com/in/roberto-rego-vieira-da-rocha-11932810\n4 Edson Paixão | Country Head Brazil, Andean, CA&C | Medison Pharma | BR | https://linkedin.com/in/edsonpaixao\n5 Renan Rosa | Country Lead Brazil & LatAm | Alnylam | BR | https://linkedin.com/in/renan-rosa-a05468b\n6 Eduardo Bargas | Country Manager | Grünenthal Brasil | BR | https://linkedin.com/in/eduardo-bargas-21b392b\n7 Haig Yeghiaian | GM Brazil | LEO Pharma | BR | https://linkedin.com/in/haigy\n8 Laurena Magnoni | GM, Head of Country | Besins Healthcare Brasil | BR | https://linkedin.com/in/laurena-magnoni\n9 Rogerio Peso | Head of LATAM & GM Brazil | Viatris | BR | https://linkedin.com/in/rogeriopeso\n10 Avinash Mishra | Country Head | Dr. Reddy's | BR | https://linkedin.com/in/avinash-mishra-8175ba5\n11 Flavio Santoro | GM | Pint Pharma | BR | https://linkedin.com/in/flavio-santoro-95090b5\n12 Fabio Ribas | VP Intl Markets Marketing & GM LATAM | Owens & Minor | US | https://linkedin.com/in/fabio-ribas\n13 Gustavo Gurgulino | Sr Director, GM VP LatAm | Cordis | US | https://linkedin.com/in/gustavogurgulino\n14 Robert Rodriguez | VP Latin America Division | Olympus | US | https://www.linkedin.com/in/robert-rodriguez-4647b14\n15 Pedro Miguel Huertas | VP Central Latin America | Medtronic | CO | https://linkedin.com/in/pedro-miguel-huertas-209973",
+      "Run": "manana",
+      "Run_Key": "2026-11-24|manana|sponsors",
+      "Status": "ok"
+    },
+    "id": "recQb4JmVV0NmiZAQ"
+  },
+  {
     "createdTime": "2026-11-12T18:48:45.000Z",
     "fields": {
       "Channel": "comentarios",
@@ -921,6 +947,19 @@
       "Status": "ok"
     },
     "id": "recWLzn56gDvS1sQp"
+  },
+  {
+    "createdTime": "2026-11-24T13:56:50.000Z",
+    "fields": {
+      "Channel": "grupos",
+      "Date": "2026-11-24",
+      "Items_Pending": 1,
+      "Notes": "GHEN re-ofrecido (sin confirmación 23-11), nivel A, mismo texto CVS GLP-1 con link issue04 (nota 37071). 4 días sin confirmación de Fer.",
+      "Run": "manana",
+      "Run_Key": "2026-11-24|manana|grupos",
+      "Status": "ok"
+    },
+    "id": "recWfLvoZYVRwZQs8"
   },
   {
     "createdTime": "2026-11-05T13:54:33.000Z",
@@ -1142,6 +1181,19 @@
       "Status": "sin novedades"
     },
     "id": "recchDdXArTIT7JX8"
+  },
+  {
+    "createdTime": "2026-11-24T18:49:23.000Z",
+    "fields": {
+      "Channel": "comentarios",
+      "Date": "2026-11-24",
+      "Items_Pending": 5,
+      "Notes": "PASO B: 3 Approved en cola (PAHO baloxavir y AFIDRO vencen 25-11, Economist Enterprise); 2 Proposed vigentes; nada expirado. Mail corto enviado 1a20ee41574ed689. FDA 20-11 sin métricas.",
+      "Run": "tarde",
+      "Run_Key": "2026-11-24|tarde|comentarios",
+      "Status": "ok"
+    },
+    "id": "recdhoLgsJSkAegGU"
   },
   {
     "createdTime": "2026-10-26T13:03:31.000Z",
@@ -1664,6 +1716,19 @@
     "id": "recsLPkLxpkzwImQA"
   },
   {
+    "createdTime": "2026-11-24T13:56:50.000Z",
+    "fields": {
+      "Channel": "voices",
+      "Date": "2026-11-24",
+      "Items_Pending": 0,
+      "Notes": "Solo auditoría (martes): 0 programados en in:scheduled. Campo 'Send' no existe en Voices Pipeline (422). Sin invitaciones LinkedIn planificadas hoy.",
+      "Run": "manana",
+      "Run_Key": "2026-11-24|manana|voices",
+      "Status": "sin novedades"
+    },
+    "id": "rect22TT31QTmQ6MJ"
+  },
+  {
     "createdTime": "2026-11-19T13:52:17.000Z",
     "fields": {
       "Channel": "sponsors",
@@ -1701,6 +1766,19 @@
       "Status": "ok"
     },
     "id": "recv2zquXfh3t6m0O"
+  },
+  {
+    "createdTime": "2026-11-24T13:56:50.000Z",
+    "fields": {
+      "Channel": "prensa",
+      "Date": "2026-11-24",
+      "Items_Pending": 0,
+      "Notes": "Sin respuestas, rebotes ni inscripciones nuevas. Pregunta a Fer por LinkedIn Canales/Mathieu/Baeza. Plazo Lucas Soares (Ágora/BMS) vence hoy.",
+      "Run": "manana",
+      "Run_Key": "2026-11-24|manana|prensa",
+      "Status": "sin novedades"
+    },
+    "id": "recvFgV6c5sVuVz4y"
   },
   {
     "createdTime": "2026-10-28T13:15:21.000Z",

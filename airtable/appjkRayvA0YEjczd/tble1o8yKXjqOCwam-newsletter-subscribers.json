@@ -227,6 +227,21 @@
     "id": "recIhgXGsnSkxYi9W"
   },
   {
+    "createdTime": "2026-11-24T20:09:19.000Z",
+    "fields": {
+      "Access": "Corporate",
+      "CTA Source": "fer-direct",
+      "Company": "Merck",
+      "Consent Text": "Alta pedida por Fer el 24-11-2026 (contacto directo, ex cliente). Pasar a Approved cuando Fer haya enviado su mail personal con el Brief 04, para que la bienvenida automática no llegue antes.",
+      "Email": "antonio.arce@merck.com",
+      "Last Name": "Arce",
+      "Name": "Antonio",
+      "Status": "Requested",
+      "Subscribe Date": "2026-11-24"
+    },
+    "id": "recIj6KtyqLzO3UXj"
+  },
+  {
     "createdTime": "2026-11-18T12:06:16.000Z",
     "fields": {
       "Access": "Corporate",
@@ -798,6 +813,27 @@
       "Subscribe Date": "2026-11-05"
     },
     "id": "recs2cTK57qcoQxOJ"
+  },
+  {
+    "createdTime": "2026-11-24T10:25:40.000Z",
+    "fields": {
+      "Access": "Corporate",
+      "CTA Source": "newsletter_page",
+      "Company": "Azerta",
+      "Consent At": "2026-11-24T10:25:50.000Z",
+      "Consent Text": "v2 2026-10-21 | By subscribing you agree to receive The HealthSignals Brief by email and accept our Privacy Policy.",
+      "Country": "Peru",
+      "Email": "icastrellon@azerta.pe",
+      "Job Title": "Public Affairs Manager",
+      "Last Name": "Castrellon",
+      "Name": "Imanol",
+      "Post URL": "https://healthsignals.news/newsletter/",
+      "Signup Stage": "complete",
+      "Source": "Website",
+      "Status": "Active",
+      "Subscribe Date": "2026-11-24"
+    },
+    "id": "rectbdhgL2LaNzZSY"
   },
   {
     "createdTime": "2026-10-28T15:35:32.000Z",
