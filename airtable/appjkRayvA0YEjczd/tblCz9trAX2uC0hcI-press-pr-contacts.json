@@ -4040,6 +4040,22 @@
     "id": "recENKEH8Zk0QT0eh"
   },
   {
+    "createdTime": "2026-11-25T18:23:00.000Z",
+    "fields": {
+      "Country": "Argentina",
+      "Email": "mikele@vesicly.com",
+      "Fuente de email verificada": true,
+      "Idioma": "ES",
+      "Name": "Mikele Amondarain",
+      "Notes": "Fuente para artículo de análisis sobre medicina regenerativa/startups biotech LatAm (no Voices). 25-11-2026: enviado mail con 5 preguntas abiertas, plazo 09-12-2026, thread 1a213f22adc46dbd; se le mostrarán solo sus citas antes de publicar. Socio en Vesicly: Carlos Luzzani (charlie@vesicly.com). Contexto: claude/contexto-vesicly-2026-11-25.md.",
+      "Organization": "Vesicly",
+      "Role": "Cofundadora de Vesicly (cargo a confirmar: CEO/CSO/Scientific Lead según fuente)",
+      "Source_URL": "https://www.vesicly.com/",
+      "Status": "Contacted"
+    },
+    "id": "recEOnbhzi4EJMZsV"
+  },
+  {
     "createdTime": "2026-11-20T19:56:58.000Z",
     "fields": {
       "Beat": "Política sanitaria",
@@ -10370,7 +10386,7 @@
       "Idioma": "EN",
       "Legal_Basis": "Fuente pública",
       "Name": "Akopyan",
-      "Notes": "Fuente: correo enviado 12-11-2026 sobre la cobertura de DeLLphi-305 (tarlatamab + durvalumab), pidiendo inclusión en la media list y un vocero para acceso en LatAm. Nombre de pila no confirmado (Ms. Akopyan). Invitación al Brief en cola.",
+      "Notes": "Fuente: correo enviado 12-11-2026 sobre la cobertura de DeLLphi-305 (tarlatamab + durvalumab), pidiendo inclusión en la media list y un vocero para acceso en LatAm. Nombre de pila no confirmado (Ms. Akopyan). Invitación al Brief en cola.\n2026-11-24 (barrido contactos): autorespuesta recibida en editor@ el 24-11-2026 (hilo 1a20ed58787bad7f) al recordatorio del Brief: de vacaciones la semana de Thanksgiving y viaje a Europa la semana del 30-11, con demoras. El nombre de pila figura como Jessica (Akopyan, Jessica). Posible duplicado: recrjQBGy0oe8M5d5 (Jessica Akopyan, mismo email); no se borró, decide Fer.",
       "Organization": "Amgen",
       "Status": "Contacted",
       "Type": "Pharma media office"
@@ -15438,7 +15454,7 @@
       "Idioma": "PT",
       "Legal_Basis": "Fuente pública",
       "Name": "Lucas Soares",
-      "Notes": "Fuente: correo a editor@ 11-11-2026 (sin URL pública). Ofreció voceros BMS y A.C.Camargo. 12-11: Fer mandó 3 preguntas sobre el acuerdo de riesgo compartido BMS–A.C.Camargo para Christiano Silva y Rafael Ielpo, plazo 18-11-2026. 13-11: Lucas confirma que lo están verificando. 13-11: Fer le compartió la nota publicada. 13-11 (19:16 UTC): Lucas agradeció la publicación y reconfirmó que mandan las respuestas de BMS y A.C.Camargo 'o quanto antes'. Hilo Gmail 1a18f5731902670d.\n2026-11-19: el 18-11 (21:37 UTC) Lucas mandó las respuestas de los voceros con imágenes adjuntas y pidió confirmar recepción (msg 1a1f0981a4ca5f37). Sin respuesta nuestra al 19-11 mañana; decide Fer.\n2026-11-19 (barrido contactos): Fer confirmó recepción de respuestas y fotos el 19-11 18:59 UTC (msg 1a1f52d669daa1d3, CC Raquel y Julia) y planteó dos puntos antes de cerrar el texto (uno sobre la contrapartida). Esperando respuesta de Lucas.\n2026-11-20 (barrido contactos): Fer mandó a Lucas y Raquel (CC Julia) 20-11 18:35 UTC, hilo nuevo 1a1fa3bacfc8d512: 3 citas traducidas al inglés para confirmar (2 de Christiano Silva, 1 de Rafael Ielpo) y 3 datos (esquema nivolumabe+ipilimumabe+quimio, quién certifica la progresión a 90 días y con qué criterio, a quién va el crédito de los frascos repuestos). Plazo martes 24-11-2026.\n2026-11-23 (barrido contactos): recibido en editor@ el 23-11-2026, hilo 1a18f5731902670d (msg 1a20915035ff3140, 15:45 UTC). Lucas respondió al mail de Fer del 19-11 con las citas traducidas (8 de Christiano Silva, 2 de Rafael Ielpo) y los términos 'compensação exclusivamente em produto, sem devolução em dinheiro' y crédito de fotos 'Acervo Pessoal/Divulgação': 'Podemos seguir assim!' → citas aprobadas. Ojo: el 20-11 rebotaron envíos a lucassoares@agora.site y raquelreis@agora.site (sin punto, no existen); las casillas correctas llevan punto (lucas.soares@, raquel.reis@). Sin respuesta aún en el hilo 1a1fa3bacfc8d512 (3 datos, plazo 24-11).",
+      "Notes": "Fuente: correo a editor@ 11-11-2026 (sin URL pública). Ofreció voceros BMS y A.C.Camargo. 12-11: Fer mandó 3 preguntas sobre el acuerdo de riesgo compartido BMS–A.C.Camargo para Christiano Silva y Rafael Ielpo, plazo 18-11-2026. 13-11: Lucas confirma que lo están verificando. 13-11: Fer le compartió la nota publicada. 13-11 (19:16 UTC): Lucas agradeció la publicación y reconfirmó que mandan las respuestas de BMS y A.C.Camargo 'o quanto antes'. Hilo Gmail 1a18f5731902670d.\n2026-11-19: el 18-11 (21:37 UTC) Lucas mandó las respuestas de los voceros con imágenes adjuntas y pidió confirmar recepción (msg 1a1f0981a4ca5f37). Sin respuesta nuestra al 19-11 mañana; decide Fer.\n2026-11-19 (barrido contactos): Fer confirmó recepción de respuestas y fotos el 19-11 18:59 UTC (msg 1a1f52d669daa1d3, CC Raquel y Julia) y planteó dos puntos antes de cerrar el texto (uno sobre la contrapartida). Esperando respuesta de Lucas.\n2026-11-20 (barrido contactos): Fer mandó a Lucas y Raquel (CC Julia) 20-11 18:35 UTC, hilo nuevo 1a1fa3bacfc8d512: 3 citas traducidas al inglés para confirmar (2 de Christiano Silva, 1 de Rafael Ielpo) y 3 datos (esquema nivolumabe+ipilimumabe+quimio, quién certifica la progresión a 90 días y con qué criterio, a quién va el crédito de los frascos repuestos). Plazo martes 24-11-2026.\n2026-11-23 (barrido contactos): recibido en editor@ el 23-11-2026, hilo 1a18f5731902670d (msg 1a20915035ff3140, 15:45 UTC). Lucas respondió al mail de Fer del 19-11 con las citas traducidas (8 de Christiano Silva, 2 de Rafael Ielpo) y los términos 'compensação exclusivamente em produto, sem devolução em dinheiro' y crédito de fotos 'Acervo Pessoal/Divulgação': 'Podemos seguir assim!' → citas aprobadas. Ojo: el 20-11 rebotaron envíos a lucassoares@agora.site y raquelreis@agora.site (sin punto, no existen); las casillas correctas llevan punto (lucas.soares@, raquel.reis@). Sin respuesta aún en el hilo 1a1fa3bacfc8d512 (3 datos, plazo 24-11).\n2026-11-24 (barrido contactos): recibido en editor@ el 24-11-2026, hilos 1a1fa3bacfc8d512 y 1a20f25fe7b72ce8. 15:46 UTC Lucas pidió un teléfono para hablar; 20:01 Fer prefirió seguir por mail. 21:58 Lucas pidió esperar para incluir las citas de BMS Brasil (necesitan OK del global porque el portal es EN/ES con foco LatAm); los datos a y b no se abren por temas contractuales; A.C.Camargo respondió el punto c (sin reembolso en dinero; compensación en créditos para futuras compras del medicamento según contrato). Disponible por teléfono y WhatsApp (número no indicado). 23:01 Fer propuso esperar hasta el martes 1-12-2026; si no hay OK de BMS, publica solo con la cita de A.C.Camargo y aclara que BMS no respondió a tiempo. Esperando confirmación de Lucas.",
       "Organization": "Ágora (BMS Brasil)",
       "Role": "Cuenta BMS (cargo no confirmado)",
       "Status": "Responded",

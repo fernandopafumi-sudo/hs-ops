@@ -104,6 +104,19 @@
     "id": "rec4zOb4NBOQtfXcX"
   },
   {
+    "createdTime": "2026-11-25T13:59:46.000Z",
+    "fields": {
+      "Channel": "prensa",
+      "Date": "2026-11-25",
+      "Items_Pending": 0,
+      "Notes": "Sin respuestas ni borradores. Pregunta LinkedIn Canales/Baeza. 2 rebotes Brief (Teva, Merck) fuera de tabla.",
+      "Run": "manana",
+      "Run_Key": "2026-11-25|manana|prensa",
+      "Status": "sin novedades"
+    },
+    "id": "rec5GhFtiOGG9KVtS"
+  },
+  {
     "createdTime": "2026-10-29T13:01:27.000Z",
     "fields": {
       "Channel": "comentarios",
@@ -754,6 +767,19 @@
     "id": "recQgOHQCSdWxd0Sa"
   },
   {
+    "createdTime": "2026-11-25T13:59:46.000Z",
+    "fields": {
+      "Channel": "voices",
+      "Date": "2026-11-25",
+      "Items_Pending": 2,
+      "Notes": "Programados 0. Méndez OK verificado; borradores toque 1 Vargas Bustamante r8818458824203513986 y cierre Méndez r3719343372855284557 esperan OK.",
+      "Run": "manana",
+      "Run_Key": "2026-11-25|manana|voices",
+      "Status": "ok"
+    },
+    "id": "recRO9CHn4leIDRni"
+  },
+  {
     "createdTime": "2026-11-20T13:56:05.000Z",
     "fields": {
       "Channel": "sponsors",
@@ -1051,6 +1077,19 @@
       "Status": "sin novedades"
     },
     "id": "recYGPbYrd0xmMVXb"
+  },
+  {
+    "createdTime": "2026-11-25T18:48:51.000Z",
+    "fields": {
+      "Channel": "comentarios",
+      "Date": "2026-11-25",
+      "Items_Pending": 5,
+      "Notes": "Tarde (sin subagente, la hizo el principal): 5 Approved en cola sin Comment URL (PAHO vence 26-11, Invima 'cierra hoy'), listos a Fer por mail 1a21409f3d6f9042. 0 Proposed vencidos. Métricas FDA/GRDP 20-11 no visibles, pedidas a Fer.",
+      "Run": "tarde",
+      "Run_Key": "2026-11-25|tarde|comentarios",
+      "Status": "ok"
+    },
+    "id": "recYXvIH9ofjZ9Fwb"
   },
   {
     "createdTime": "2026-11-06T13:59:12.000Z",
@@ -1430,6 +1469,19 @@
     "id": "reciPXQQk1WMJ7c89"
   },
   {
+    "createdTime": "2026-11-25T13:59:46.000Z",
+    "fields": {
+      "Channel": "grupos",
+      "Date": "2026-11-25",
+      "Items_Pending": 1,
+      "Notes": "GHEN (recqxNllXt5pz1NRS) re-ofrecido, texto CVS/GLP-1 nota 37071, 3er día sin confirmar. Last posted anterior 2026-11-24.",
+      "Run": "manana",
+      "Run_Key": "2026-11-25|manana|grupos",
+      "Status": "ok"
+    },
+    "id": "reciiVUh8qRXTGdxM"
+  },
+  {
     "createdTime": "2026-11-09T14:04:48.000Z",
     "fields": {
       "Channel": "socios",
@@ -1690,6 +1742,19 @@
     "id": "recqQ16d1aPMPkgCj"
   },
   {
+    "createdTime": "2026-11-25T13:59:46.000Z",
+    "fields": {
+      "Channel": "sponsors",
+      "Date": "2026-11-25",
+      "Items_Pending": 14,
+      "Notes": "Invitaciones confirmadas por Fer: 0 (ultima nota 20-11; 'mande' del 23-11 sin confirmar, pendientes hasta 15). Aceptaciones: n/d. Pendientes estimadas: 0-15. Sin OK desde antes de 23-11: tandas 10-11, 11-11, 12-11, 16-11, 17-11, 18-11, 19-11, 20-11 (99). Tanda 24-11 (15) espera OK. Acumulado sin OK aprox. 128.\nCandidatos 25-11 (nombre | URL), contactos en comun n/d:\n1 Daniel Agra Fidalgo (Rontag AR, Dir Mkt y Ventas) | https://linkedin.com/in/daniel-agra-fidalgo-b0a9a34\n2 Santiago Vaz (Andromaco AR, Dir Mkt y Com) | https://linkedin.com/in/santiagovaz\n3 Andrea Munoz Rojas (Genomma Lab AR, Dir Mkt Cono Sur) | https://linkedin.com/in/andreamu%C3%B1ozrojas\n4 Roxana Nestares (Adium AR, Commercial Director Onco/Rare) | https://linkedin.com/in/roxana-nestares-1b551511\n5 Francisco Mendez (Siegfried AR, Dir Mkt Promocion y Ventas) | https://linkedin.com/in/francisco-m%C3%A9ndez1986\n6 Luis Rilla Manta (Panalab AR, Medical & Marketing Director) | https://linkedin.com/in/luis-rilla-manta-ba17b57a\n7 Jose Alberto Escalera Garcia (Sanofi MX, Commercial Director) | https://linkedin.com/in/jose-alberto-escalera-garcia-10b80418\n8 Jonathan C. (Glenmark MX, Director Comercial, apellido sin confirmar) | https://linkedin.com/in/jonathan-c-a355aa6a\n9 Luis Michel (Adium MX, Commercial Director) | https://linkedin.com/in/luis-michel\n10 Eliana Cardozo (Galderma MX, Commercial Director) | https://linkedin.com/in/elianacardozo\n11 Maria Zelaya (GSK MX, HIV Commercial Director) | https://linkedin.com/in/maria-zelaya-853a6633\n12 Felipe Barreiro (Align Technology BR, VP & GM LatAm) | https://br.linkedin.com/in/felipebarreiro\n13 Antonio Marques (Globus Medical US, Zone VP LatAm & Canada) | https://linkedin.com/in/antonioomarques\n14 Matthew Collins (InspireMD US, VP Marketing) | https://linkedin.com/in/matthewjackcollins\nEsperan 'dale sponsors' (Fer).",
+      "Run": "manana",
+      "Run_Key": "2026-11-25|manana|sponsors",
+      "Status": "ok"
+    },
+    "id": "recqcGsm5RVYcXyww"
+  },
+  {
     "createdTime": "2026-11-03T13:55:36.000Z",
     "fields": {
       "Channel": "comentarios",
@@ -1714,6 +1779,19 @@
       "Status": "ok"
     },
     "id": "recsLPkLxpkzwImQA"
+  },
+  {
+    "createdTime": "2026-11-25T13:59:46.000Z",
+    "fields": {
+      "Channel": "comentarios",
+      "Date": "2026-11-25",
+      "Items_Pending": 5,
+      "Notes": "Proposed: Anvisa, PAHO RedETSA, CMS recmA5IIV3mNApkBV, FDA recSfO7F5L4k9IIS8, Invima reclUT6dTSiCsVNLh (adversarial opus por el principal). 1 Approved en cola (Economist Enterprise). AFIDRO y PAHO baloxavir -> Rejected expirado en cola. 4 personas y 3 estudios cargados.",
+      "Run": "manana",
+      "Run_Key": "2026-11-25|manana|comentarios",
+      "Status": "ok"
+    },
+    "id": "recsXRZTGV6eLQN9W"
   },
   {
     "createdTime": "2026-11-24T13:56:50.000Z",

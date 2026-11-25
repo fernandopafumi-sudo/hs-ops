@@ -675,6 +675,11 @@
               "color": "blueLight2",
               "id": "selCadxoWeR0qzOE6",
               "name": "EE.UU. (global)"
+            },
+            {
+              "color": "blueLight2",
+              "id": "sel4HFzILQNl7cjIC",
+              "name": ""
             }
           ]
         },
@@ -875,6 +880,11 @@
               "color": "grayLight2",
               "id": "selqCUp4xtKVabi7I",
               "name": "Global"
+            },
+            {
+              "color": "blueLight2",
+              "id": "seli9qHWXggTTq3IN",
+              "name": "North America"
             }
           ]
         },
@@ -958,6 +968,16 @@
               "color": "grayBright",
               "id": "sell9qYcWEGg8SG5n",
               "name": "C"
+            },
+            {
+              "color": "blueLight2",
+              "id": "sel13AqCdAZ4a9qOJ",
+              "name": "High"
+            },
+            {
+              "color": "cyanLight2",
+              "id": "selfOyXk8Pgo5trv5",
+              "name": "Medium"
             }
           ]
         },
@@ -1041,6 +1061,11 @@
               "color": "redBright",
               "id": "selQcYJDWyZ9X5XoP",
               "name": "Hold"
+            },
+            {
+              "color": "blueLight2",
+              "id": "seldJrAsqxtH559Dj",
+              "name": "Pending"
             }
           ]
         },
@@ -1129,6 +1154,11 @@
               "color": "grayLight2",
               "id": "seltBgEYFvuGGVoNm",
               "name": "Inbound"
+            },
+            {
+              "color": "blueLight2",
+              "id": "selqdmO49IRth8XSp",
+              "name": "LinkedIn Sales Navigator"
             }
           ]
         },
@@ -1247,6 +1277,11 @@
               "color": "grayLight2",
               "id": "selOVDClSDWA0DD7R",
               "name": "Phone"
+            },
+            {
+              "color": "blueLight2",
+              "id": "selBMoT0v1Xz07vkr",
+              "name": "LinkedIn InMail"
             }
           ]
         },
@@ -1354,6 +1389,11 @@
               "color": "grayLight2",
               "id": "sel5mQKDc5S6hFVCQ",
               "name": "Manager"
+            },
+            {
+              "color": "blueLight2",
+              "id": "selWeurBY6LOqsqu1",
+              "name": "Executive Director"
             }
           ]
         },
@@ -1404,6 +1444,11 @@
               "color": "grayLight2",
               "id": "selsonVEM1UTnApwh",
               "name": "Existing relationship"
+            },
+            {
+              "color": "blueLight2",
+              "id": "seltb3LyYCnhc1s1i",
+              "name": "Fuente pública"
             }
           ]
         },

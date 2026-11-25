@@ -232,11 +232,11 @@
       "Access": "Corporate",
       "CTA Source": "fer-direct",
       "Company": "Merck",
-      "Consent Text": "Alta pedida por Fer el 24-11-2026 (contacto directo, ex cliente). Pasar a Approved cuando Fer haya enviado su mail personal con el Brief 04, para que la bienvenida automática no llegue antes.",
+      "Consent Text": "Alta pedida por Fer el 24-11-2026 (contacto directo, ex cliente). Mail personal de Fer con Brief 04 enviado 24-11 (msg 1a20f3af983f6039); pasado a Approved para que HS Brief Approvals 6726530 lo dé de alta en Brevo.",
       "Email": "antonio.arce@merck.com",
       "Last Name": "Arce",
       "Name": "Antonio",
-      "Status": "Requested",
+      "Status": "Active",
       "Subscribe Date": "2026-11-24"
     },
     "id": "recIj6KtyqLzO3UXj"
@@ -563,6 +563,27 @@
     "id": "reciI2rbl6dMULG1A"
   },
   {
+    "createdTime": "2026-11-25T18:54:46.000Z",
+    "fields": {
+      "Access": "Corporate",
+      "CTA Source": "newsletter_page",
+      "Company": "Centre for Innovation in Regulatory Science",
+      "Consent At": "2026-11-25T18:54:57.000Z",
+      "Consent Text": "v2 2026-10-21 | By subscribing you agree to receive The HealthSignals Brief by email and accept our Privacy Policy.",
+      "Country": "Other",
+      "Email": "asomuyiwa@cirsci.org",
+      "Job Title": "Head",
+      "Last Name": "somuyiwa",
+      "Name": "adesola anna",
+      "Post URL": "https://healthsignals.news/newsletter/",
+      "Signup Stage": "complete",
+      "Source": "Website",
+      "Status": "Active",
+      "Subscribe Date": "2026-11-25"
+    },
+    "id": "recj8sC12SHfSLJB0"
+  },
+  {
     "createdTime": "2026-11-05T18:39:56.000Z",
     "fields": {
       "CTA Source": "invite-press",
@@ -627,6 +648,21 @@
       "Subscribe Date": "2026-11-19"
     },
     "id": "reclBp8lwANe0QSZV"
+  },
+  {
+    "createdTime": "2026-11-25T19:04:32.000Z",
+    "fields": {
+      "CTA Source": "invite-crm",
+      "Consent At": "2026-11-25T19:04:31.000Z",
+      "Consent Text": "Clicked Subscribe in personal invitation email from editor@healthsignals.news (invite-2026-11 v1)",
+      "Country": "",
+      "Email": "afigueira@ptcbio.com",
+      "Name": "Andréa Figueira",
+      "Source": "Invite",
+      "Status": "Active",
+      "Subscribe Date": "2026-11-25"
+    },
+    "id": "reclQLwvMIqm9RIxA"
   },
   {
     "createdTime": "2026-11-05T20:03:42.000Z",

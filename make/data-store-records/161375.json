@@ -320,12 +320,12 @@
   },
   {
     "data": {
-      "notes": "needs_edit (re-gate tras edicion 23-11 10:03, solo subtema; correcciones previas NO aplicadas): r1 5 corr de hecho, una en el lede (Camara ya aprobo 23-11, mixta por 10 partidas). Sin r2. Drive 1MQbRekELiayVzTG9S3LNU5fChu2i8sXm",
-      "run_id": "20261124-0658",
+      "notes": "needs_edit (re-gate; correcciones previas NO aplicadas): r1 6 corr de hecho, una en el lede (Camara aprobo Ricarte Soto 23-11, mixta 24-11, voto final previsto 25-11). Borra 'already evaluated' y 'no official figure'. Sin r2. Drive 1o7Jjge-nVBSKnnFQkNkpvmSTnLcpa1fs",
+      "run_id": "20261125-0659",
       "state": "needs_edit",
       "title": "Chile's budget deal props up Ricarte Soto fund but adds no new diseases",
-      "updated_at": "2026-11-24T07:07:18-05:00",
-      "wp_modified": "2026-11-23T10:03:36"
+      "updated_at": "2026-11-25T07:07:13-05:00",
+      "wp_modified": "2026-11-24T14:03:08"
     },
     "key": "37176"
   },
@@ -342,46 +342,36 @@
   },
   {
     "data": {
-      "notes": "editado despues del gate",
-      "run_id": "20261124-0658",
-      "state": "pending",
+      "notes": "needs_edit: r1 7 corr de hecho (>5), ninguna en titulo/lede. Thethi no es lead investigator; '>20%' es sugerencia, no el OR; texto etiqueta FDA; precios viales self-pay segun Lilly. Sin r2. Drive 1MF3SrQ7lOkO_gP4Omx-xPStHJr3enUeN",
+      "run_id": "20261125-0659",
+      "state": "needs_edit",
       "title": "Lilly's tirzepatide: early weight loss predicts durable maintenance",
-      "updated_at": "2026-11-24T06:58:30-05:00",
-      "wp_modified": "2026-11-23T10:03:30"
+      "updated_at": "2026-11-25T07:07:13-05:00",
+      "wp_modified": "2026-11-24T13:19:48"
     },
     "key": "37202"
   },
   {
     "data": {
-      "notes": "needs_edit: r1 11 corr de hecho (>5), una en el lede (1,200 sitios son mundiales). Sin fuente para fin de alianza OpenEvidence ni 'add-on module'. Sin r2. Drive 1HJF7DNSytsF0qYhxa-y8m_wTfq2HHMwa",
-      "run_id": "20261124-0658",
-      "state": "needs_edit",
+      "notes": "editado despues del gate",
+      "run_id": "20261125-0659",
+      "state": "pending",
       "title": "Elsevier upgrades ClinicalKey AI with full patient EHR context",
-      "updated_at": "2026-11-24T07:07:18-05:00",
+      "updated_at": "2026-11-25T06:59:05-05:00",
       "wp_modified": "2026-11-23T14:10:38"
     },
     "key": "37217"
   },
   {
     "data": {
-      "notes": "needs_edit: r1 10 corr de hecho (>5), una en el lede (post-anesthesia -> critical care). DA2610-00616 es ID interno de INVIMA, no de ANVISA; obligaciones de IPS/importador sobredimensionadas. Sin r2. Drive 13dgzKdR6J9CuC1zQBVlxZtuT77KAfsMC",
-      "run_id": "20261124-0658",
+      "notes": "needs_edit (re-gate; la edicion 24-11 14:24 no cambio el texto, correcciones previas NO aplicadas): r1 15 corr de hecho (>5), una en el lede (software que centraliza anestesia y posanestesia). DA2610-00616 es ID interno de INVIMA; ANVISA alerta 5335. Sin r2. Drive 1MI7heWpkW53BKmzaC4vWgxaar_j1ElIm",
+      "run_id": "20261125-0659",
       "state": "needs_edit",
       "title": "GE HealthCare's Centricity anesthesia software flagged by Colombia's INVIMA",
-      "updated_at": "2026-11-24T07:07:18-05:00",
-      "wp_modified": "2026-11-24T06:46:40"
+      "updated_at": "2026-11-25T07:07:13-05:00",
+      "wp_modified": "2026-11-24T14:24:50"
     },
     "key": "37238"
-  },
-  {
-    "data": {
-      "notes": "- FALLO Drive (5ta vez: 19, 23, 24, 25 y 26-10): la carpeta 1ZpyZmnptFufBlsseJkdyxyDStjafzwgm da 'Requested entity was not found' (metadata y create_file) y la busqueda vuelve vacia. El conector de Drive no ve la carpeta, probablemente esta conectado con otra cuenta de Google. No se guardo el archivo de hallazgos y no hubo limpieza de Drive\n- 36552 queda failed, intento 2. Manana va por el 3er y ultimo intento; si Drive sigue igual, queda failed definitivo\n- STATE.md leido, sin choques con el prompt\n- run_id 20261026-0659\n- borradores vistos 13 (mismos que ayer; el Publisher no dejo nada nuevo); excluidos 5 (Weekly 36411, 36146, 35939, 35772; post 36041); skipped backlog 7 sin cambios; revisados 1 (36552, reintento); pendientes para manana 0\n- 36552 Moderna and Liomont Sign Mexico Licensing Deal as BIRMEX Awards Up to US$1.75 Billion Contract: failed por Drive. Sin esa falla quedaba passed\n  - r1 PUBLISH AFTER EDIT, 3 correcciones de hecho, todas con 1 coincidencia, diff OK. Titulo y lead sin tocar; ya tenia hs-sources\n    - se saca 'Vazol Farma' de la lista de inversiones del 28-05, porque Kener es de Grupo Vazol (Expansion): 'Sanofi, Bayer, Vazol Farma and Opella' pasa a 'Sanofi, Bayer and Opella'\n    - excerpt: \"for Mexico's COVID-19 vaccines, with\" pasa a \"for Moderna's COVID-19 vaccine in Mexico, with\" (enFarma)\n    - metadesc: el mismo cambio\n  - r2 PUBLISH, sin hallazgos. Confirma montos, fechas, citas, Medistik, ComprasMX y Makary/BioSpace\n  - conflicto con la corrida de ayer: la r1 del 25-10 pedia sacar 'mRNA' del contrato BIRMEX en 3 lugares. Hoy ninguna ronda lo marco, y la r2 da el contrato por confirmado con El Imparcial. Decide Fer\n  - borrado: nada\n  - sin verificar: todo lo de Rimoch en Executive Forecast (julio, 2027-2028, 2028, 'long-term contracts'; el sitio esta bloqueado), 'at Palacio Nacional', Medistik como 'distributor', 'more than 21 billion pesos' (la suma da ~20 mil millones), y que COFEPRIS deba autorizar la planta (inferencia sin fuente)\n  - postura: publicar despues de aplicar los 3 reemplazos, si Fer confirma lo de Rimoch; si no, borrar esas frases\n  - Drive: sin archivo (fallo); los reemplazos estan en notes del registro 36552\n- limpieza: en Make no hay REPORT ni registros de mas de 30 dias. Drive no se pudo: 36488 y 36441 siguen pendientes de ir a la papelera\nPara aplicar y publicar, decile a Claude en un chat: aplicar gate <ID>. La sesión que aplique relee el post, rechaza si su modified es distinto del wp_modified del archivo, aplica los reemplazos con código, verifica el diff y publica solo con OK de Fer.",
-      "run_id": "20261026-0659",
-      "state": "passed",
-      "title": "REPORT",
-      "updated_at": "2026-10-26T07:08:00-04:00"
-    },
-    "key": "REPORT-20261026-0659"
   },
   {
     "data": {
@@ -709,5 +699,15 @@
       "wp_modified": null
     },
     "key": "REPORT-20261124-0658"
+  },
+  {
+    "data": {
+      "notes": "- Sin fallos de acceso ni bloqueos. Ojo: el Publisher no dejo borradores nuevos hoy, y 3 de los 5 borradores vuelven al gate cada dia por ediciones que no aplican las correcciones (probable etiquetador 7173487).\n- run_id 20261125-0659\n- Borradores vistos 5, excluidos 0, skipped backlog 0. Revisados 3; pendientes para manana 2 (37197 PAHO carbapenem, 37217 Elsevier ClinicalKey).\n- 37238 GE HealthCare Centricity / INVIMA: needs_edit, 15 corr de hecho (una en el lede). DA2610-00616 es ID interno de INVIMA (ANVISA emitio la alerta 5335); recomendaciones a IPS y establecimientos, no a distribuidores; IPS contactan al importador; software centraliza anestesia y posanestesia. Sin verificar: alerta ANVISA 5335, instalacion en Colombia. Correcciones de ayer no aplicadas. No publicar asi. Drive 1MI7heWpkW53BKmzaC4vWgxaar_j1ElIm\n- 37176 Chile Ricarte Soto: needs_edit, 6 corr de hecho (una en el lede). Texto desactualizado: Camara aprobo Ricarte Soto 23-11, mixta 24-11, voto final previsto 25-11. Borra 'already evaluated' y 'no official figure was found' (El Desconcierto cita 75.232 en 2025). Sin verificar: si se aprobo hoy; neto 5.464m solo Emol. No publicar hasta el voto final. Drive 1o7Jjge-nVBSKnnFQkNkpvmSTnLcpa1fs\n- 37202 Lilly tirzepatide: needs_edit, 7 corr de hecho (ninguna en titulo/lede). Thethi no es lead investigator; '>20%' es sugerencia, el hallazgo es OR 1.15 por punto; texto etiqueta FDA; precios viales self-pay segun Lilly. Sin verificar: abstract ObesityWeek, n=142 (suma), Zepbound en el Bridge. Publicable tras aplicar. Drive 1MF3SrQ7lOkO_gP4Omx-xPStHJr3enUeN\n- Limpieza: 3 hallazgos viejos a la papelera; borrado REPORT-20261026-0659.\nPara aplicar y publicar, decile a Claude en un chat: aplicar gate <ID>. La sesion que aplique relee el post, rechaza si su modified es distinto del wp_modified del archivo, aplica los reemplazos con codigo, verifica el diff y publica solo con OK de Fer.",
+      "run_id": "20261125-0659",
+      "state": "skipped",
+      "title": "REPORT",
+      "updated_at": "2026-11-25T07:07:13-05:00"
+    },
+    "key": "REPORT-20261125-0659"
   }
 ]

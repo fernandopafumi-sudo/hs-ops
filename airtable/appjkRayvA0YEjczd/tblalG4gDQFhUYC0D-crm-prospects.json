@@ -168,6 +168,33 @@
     "id": "rec1ABpORPl47BDym"
   },
   {
+    "createdTime": "2026-11-25T15:36:47.000Z",
+    "fields": {
+      "Apollo_ID": "65dccc7e12b8c70001fc64dd",
+      "Approval": "Pending Review",
+      "Collected_At": "2026-11-25",
+      "Company": "Johnson & Johnson",
+      "Country": "Colombia",
+      "Email": "dmilena@its.jnj.com",
+      "First_Name": "Diana",
+      "Function": "Public & Government Affairs",
+      "ICP_Fit": "B",
+      "Last_Name": "Milena",
+      "Legal_Basis": "Legitimate interest (B2B)",
+      "LinkedIn_URL": "http://www.linkedin.com/in/diana-milena-d-0b36b221",
+      "Name": "Diana Milena",
+      "Notes": "Apellido probablemente incompleto en Apollo (solo 'Milena'); verificar en LinkedIn antes de contactar. Sourced via Apollo.",
+      "Preferred_Channel": "Email",
+      "Region": "LATAM",
+      "Segment": "Pharma",
+      "Seniority": "Director",
+      "Source": "Scraper",
+      "Stage": "New",
+      "Title": "Government Affairs & Policy Director"
+    },
+    "id": "rec1ArMyJbvonqyZE"
+  },
+  {
     "createdTime": "2026-09-26T18:57:54.000Z",
     "fields": {
       "Approval": "Approved",
@@ -372,6 +399,33 @@
       "Title": "Abogado Secretario (subrogante), Comisión de Salud de la Cámara"
     },
     "id": "rec2XdZAELMcPd96E"
+  },
+  {
+    "createdTime": "2026-11-25T15:36:47.000Z",
+    "fields": {
+      "Apollo_ID": "5d384488a3ae61f4ed588856",
+      "Approval": "Pending Review",
+      "Collected_At": "2026-11-25",
+      "Company": "Roche",
+      "Country": "Brazil",
+      "Email": "paula.greter@roche.com",
+      "First_Name": "Paula",
+      "Function": "Market Access",
+      "ICP_Fit": "A",
+      "Last_Name": "Greter",
+      "Legal_Basis": "Legitimate interest (B2B)",
+      "LinkedIn_URL": "http://www.linkedin.com/in/paula-greter-9315ab97",
+      "Name": "Paula Greter",
+      "Notes": "Sourced via Apollo para prospección comercial HealthSignals (founding partners).",
+      "Preferred_Channel": "Email",
+      "Region": "LATAM",
+      "Segment": "Pharma",
+      "Seniority": "Director",
+      "Source": "Scraper",
+      "Stage": "New",
+      "Title": "Commercial Strategy & Market Access Director"
+    },
+    "id": "rec2XgGukftRHQKpo"
   },
   {
     "createdTime": "2026-10-17T19:17:49.000Z",
@@ -608,6 +662,15 @@
     "id": "rec3WT7FrPEp8unXO"
   },
   {
+    "createdTime": "2026-11-24T22:22:50.000Z",
+    "fields": {
+      "Company": "Janssen / J&J",
+      "Name": "Clayton Silva",
+      "Notes": "Ex contacto de proyectos de Fer (24-11-2026). Tel. +55 11 2788-1085 (dictado 5511-2788-1085)."
+    },
+    "id": "rec3XDOk1ULPZbRGJ"
+  },
+  {
     "createdTime": "2026-10-17T22:34:40.000Z",
     "fields": {
       "Approval": "Pending Review",
@@ -646,6 +709,24 @@
       "Title": "Directora Ejecutiva"
     },
     "id": "rec3hucI9Zjk9NyU8"
+  },
+  {
+    "createdTime": "2026-11-24T21:59:05.000Z",
+    "fields": {
+      "Approval": "Pending Review",
+      "Company": "Hologic",
+      "Email": "renata.daglio@hologic.com",
+      "First_Name": "Renata",
+      "Last_Name": "Daglio",
+      "Name": "Renata Daglio",
+      "Notes": "Contacto dado por Fer el 24-11-2026 (cuenta a seguir). Tel +55 11 99360-8050 (dictado como 551-99360-8050).",
+      "Region": "LATAM",
+      "Segment": "Medtech",
+      "Source": "Manual",
+      "Stage": "New",
+      "Title": "Regulatory Market Manager LATAM"
+    },
+    "id": "rec3lklFBt5xFO9oh"
   },
   {
     "createdTime": "2026-10-15T10:32:30.000Z",
@@ -1741,7 +1822,7 @@
       "Last_Name": "Ariely",
       "Name": "Rinat Ariely",
       "Next_Action": "Ex cliente: ofrecer HealthSignals (founding partner) cuando arranque outreach",
-      "Notes": "Ex cliente de Fer en Economist Impact (cuenta Teva Pharmaceuticals USA Inc). Origen: lista de contactos EI en Drive personal, 18-10-2026. Verificar cargo actual antes de contactar.",
+      "Notes": "Ex cliente de Fer en Economist Impact (cuenta Teva Pharmaceuticals USA Inc). Origen: lista de contactos EI en Drive personal, 18-10-2026. Verificar cargo actual antes de contactar.\n2026-11-24 (barrido contactos): la invitación al Brief del 24-11 18:26 UTC rebotó (550 5.1.0, dirección no encontrada), hilo 1a20ecf55bde2b91. No volver a usar rinat.ariely@tevapharm.com; verificar si sigue en Teva.",
       "Preferred_Channel": "Email",
       "Segment": "Pharma",
       "Source": "Manual",
@@ -2594,6 +2675,33 @@
     "id": "recA5uM9Xi9rxYXw5"
   },
   {
+    "createdTime": "2026-11-25T15:36:47.000Z",
+    "fields": {
+      "Apollo_ID": "684b8204fe0597000113b779",
+      "Approval": "Pending Review",
+      "Collected_At": "2026-11-25",
+      "Company": "MSD",
+      "Country": "Colombia",
+      "Email": "juan.david.hernandez@msd.com",
+      "First_Name": "Juan David",
+      "Function": "Public & Government Affairs",
+      "ICP_Fit": "B",
+      "Last_Name": "Hernandez Ortiz",
+      "Legal_Basis": "Legitimate interest (B2B)",
+      "LinkedIn_URL": "http://www.linkedin.com/in/hernandezjd",
+      "Name": "Juan David Hernandez Ortiz",
+      "Notes": "Sourced via Apollo para prospección comercial HealthSignals (founding partners).",
+      "Preferred_Channel": "Email",
+      "Region": "LATAM",
+      "Segment": "Pharma",
+      "Seniority": "Director",
+      "Source": "Scraper",
+      "Stage": "New",
+      "Title": "Public Policy & Communications Director"
+    },
+    "id": "recABrkz08oCJc7jt"
+  },
+  {
     "createdTime": "2026-10-18T18:02:31.000Z",
     "fields": {
       "Approval": "Pending Review",
@@ -3157,6 +3265,32 @@
     "id": "recCZ5kkVxRMKOJi7"
   },
   {
+    "createdTime": "2026-11-25T15:36:47.000Z",
+    "fields": {
+      "Apollo_ID": "57d8263ca6da980a1e32054b",
+      "Approval": "Pending Review",
+      "Collected_At": "2026-11-25",
+      "Company": "Sanofi",
+      "Country": "Colombia",
+      "First_Name": "Julia",
+      "Function": "Market Access",
+      "ICP_Fit": "A",
+      "Last_Name": "Leon",
+      "Legal_Basis": "Legitimate interest (B2B)",
+      "LinkedIn_URL": "http://www.linkedin.com/in/julia-leon-108a6796",
+      "Name": "Julia Leon",
+      "Notes": "Email no disponible en Apollo (unavailable); contactar por LinkedIn. Sourced via Apollo.",
+      "Preferred_Channel": "LinkedIn DM",
+      "Region": "LATAM",
+      "Segment": "Pharma",
+      "Seniority": "Director",
+      "Source": "Scraper",
+      "Stage": "New",
+      "Title": "Multicountry Market Access Director"
+    },
+    "id": "recCcMXPMKU5aJxFF"
+  },
+  {
     "createdTime": "2026-10-21T23:57:02.000Z",
     "fields": {
       "Approval": "Pending Review",
@@ -3534,6 +3668,33 @@
       "Title": "General Manager Colombia (2024)"
     },
     "id": "recDy1sH0rFkTqNyc"
+  },
+  {
+    "createdTime": "2026-11-25T15:36:47.000Z",
+    "fields": {
+      "Apollo_ID": "60f85cc923ea420001687074",
+      "Approval": "Pending Review",
+      "Collected_At": "2026-11-25",
+      "Company": "Bayer",
+      "Country": "Brazil",
+      "Email": "daniela.foli@bayer.com",
+      "First_Name": "Daniela",
+      "Function": "Market Access",
+      "ICP_Fit": "A",
+      "Last_Name": "Foli",
+      "Legal_Basis": "Legitimate interest (B2B)",
+      "LinkedIn_URL": "http://www.linkedin.com/in/daniela-foli-01878457",
+      "Name": "Daniela Foli",
+      "Notes": "Sourced via Apollo para prospección comercial HealthSignals (founding partners).",
+      "Preferred_Channel": "Email",
+      "Region": "LATAM",
+      "Segment": "Pharma",
+      "Seniority": "Director",
+      "Source": "Scraper",
+      "Stage": "New",
+      "Title": "Global Market Access Director"
+    },
+    "id": "recE65vJ98ib0Zl8R"
   },
   {
     "createdTime": "2026-10-18T17:51:27.000Z",
@@ -4421,6 +4582,31 @@
     "id": "recHinjg1zrJp1CGK"
   },
   {
+    "createdTime": "2026-11-25T18:01:43.000Z",
+    "fields": {
+      "Approval": "Pending",
+      "Collected_At": "2026-11-25",
+      "Company": "Syneos Health",
+      "Country": "United States",
+      "First_Name": "Michael",
+      "Function": "Market Access",
+      "ICP_Fit": "Medium",
+      "Language": "English",
+      "Last_Name": "Zilligen",
+      "Legal_Basis": "Fuente pública",
+      "Name": "Michael Zilligen",
+      "Notes": "1 contacto en común (fit algo más bajo). Syneos es CRO/consultora, no pharma/medtech directo. Pendiente: LinkedIn_URL exacta y email.",
+      "Preferred_Channel": "LinkedIn InMail",
+      "Region": "North America",
+      "Segment": "Medtech",
+      "Seniority": "VP",
+      "Source": "LinkedIn Sales Navigator",
+      "Stage": "New",
+      "Title": "VP, Market Access And Patient Support Solutions"
+    },
+    "id": "recHnDDR3yg3cPzXw"
+  },
+  {
     "createdTime": "2026-10-17T19:17:49.000Z",
     "fields": {
       "Approval": "Pending Review",
@@ -5001,6 +5187,33 @@
     "id": "recKMV05TIyvR55Dr"
   },
   {
+    "createdTime": "2026-11-25T15:36:47.000Z",
+    "fields": {
+      "Apollo_ID": "54a1821469702d9942074c00",
+      "Approval": "Pending Review",
+      "Collected_At": "2026-11-25",
+      "Company": "Merck Group",
+      "Country": "Brazil",
+      "Email": "clovis.brito@merckgroup.com",
+      "First_Name": "Clovis",
+      "Function": "Market Access",
+      "ICP_Fit": "A",
+      "Last_Name": "Brito",
+      "Legal_Basis": "Legitimate interest (B2B)",
+      "LinkedIn_URL": "http://www.linkedin.com/in/clovis-brito",
+      "Name": "Clovis Brito",
+      "Notes": "Sourced via Apollo para prospección comercial HealthSignals (founding partners).",
+      "Preferred_Channel": "Email",
+      "Region": "LATAM",
+      "Segment": "Pharma",
+      "Seniority": "Director",
+      "Source": "Scraper",
+      "Stage": "New",
+      "Title": "Market Access & Government Affairs Director"
+    },
+    "id": "recKOhBMVsnmtei9F"
+  },
+  {
     "createdTime": "2026-10-18T13:36:37.000Z",
     "fields": {
       "Approval": "Approved",
@@ -5042,6 +5255,33 @@
     "id": "recKVdfRVKyvStCyZ"
   },
   {
+    "createdTime": "2026-11-25T15:36:47.000Z",
+    "fields": {
+      "Apollo_ID": "66f7b465a26e730001899ef1",
+      "Approval": "Pending Review",
+      "Collected_At": "2026-11-25",
+      "Company": "AbbVie",
+      "Country": "Argentina",
+      "Email": "pablo.monasterio@abbvie.com",
+      "First_Name": "Pablo",
+      "Function": "Market Access",
+      "ICP_Fit": "A",
+      "Last_Name": "Monasterio",
+      "Legal_Basis": "Legitimate interest (B2B)",
+      "LinkedIn_URL": "http://www.linkedin.com/in/pablo-monasterio",
+      "Name": "Pablo Monasterio",
+      "Notes": "Sourced via Apollo para prospección comercial HealthSignals (founding partners).",
+      "Preferred_Channel": "Email",
+      "Region": "LATAM",
+      "Segment": "Pharma",
+      "Seniority": "Director",
+      "Source": "Scraper",
+      "Stage": "New",
+      "Title": "Market Access Director"
+    },
+    "id": "recKaRFA739Rkm3Nn"
+  },
+  {
     "createdTime": "2026-10-17T22:31:08.000Z",
     "fields": {
       "Approval": "Pending Review",
@@ -5059,6 +5299,33 @@
       "Title": "Gerente De Asuntos Regulatorios and Director Técnico"
     },
     "id": "recKfG7b0I8fgoMiw"
+  },
+  {
+    "createdTime": "2026-11-25T15:36:47.000Z",
+    "fields": {
+      "Apollo_ID": "66fb1017df84b400015ef085",
+      "Approval": "Pending Review",
+      "Collected_At": "2026-11-25",
+      "Company": "Takeda",
+      "Country": "Colombia",
+      "Email": "ivan.arboleda@takeda.com",
+      "First_Name": "Ivan",
+      "Function": "Market Access",
+      "ICP_Fit": "A",
+      "Last_Name": "Arboleda Arboleda",
+      "Legal_Basis": "Legitimate interest (B2B)",
+      "LinkedIn_URL": "http://www.linkedin.com/in/ivan-dario-arboleda-arboleda-467878297",
+      "Name": "Ivan Arboleda Arboleda",
+      "Notes": "Sourced via Apollo para prospección comercial HealthSignals (founding partners).",
+      "Preferred_Channel": "Email",
+      "Region": "LATAM",
+      "Segment": "Pharma",
+      "Seniority": "Head",
+      "Source": "Scraper",
+      "Stage": "New",
+      "Title": "Head of Market Access"
+    },
+    "id": "recKjhTBVY9QdeUwD"
   },
   {
     "createdTime": "2026-10-18T13:36:37.000Z",
@@ -5411,6 +5678,33 @@
     "id": "recLhGGYoiFDkSskw"
   },
   {
+    "createdTime": "2026-11-25T15:36:47.000Z",
+    "fields": {
+      "Apollo_ID": "54abee7a7468692ca1351517",
+      "Approval": "Pending Review",
+      "Collected_At": "2026-11-25",
+      "Company": "AstraZeneca",
+      "Country": "Argentina",
+      "Email": "santiago.veiga@pfizer.com",
+      "First_Name": "Santiago",
+      "Function": "Corporate Communications",
+      "ICP_Fit": "B",
+      "Last_Name": "Veiga",
+      "Legal_Basis": "Legitimate interest (B2B)",
+      "LinkedIn_URL": "http://www.linkedin.com/in/santiago-veiga-a807487",
+      "Name": "Santiago Veiga",
+      "Notes": "Apollo muestra empleo actual simultáneo en AstraZeneca y Pfizer (dato inconsistente); el email verificado es del dominio pfizer.com. Confirmar empleador actual antes de contactar. Sourced via Apollo.",
+      "Preferred_Channel": "Email",
+      "Region": "LATAM",
+      "Segment": "Pharma",
+      "Seniority": "Director",
+      "Source": "Scraper",
+      "Stage": "New",
+      "Title": "Corporate Affairs Director, South Cone"
+    },
+    "id": "recLnJC6iRau8uk0z"
+  },
+  {
     "createdTime": "2026-10-18T17:45:10.000Z",
     "fields": {
       "Approval": "Pending Review",
@@ -5510,6 +5804,31 @@
       "Title": "Director, Communications, Latin America"
     },
     "id": "recM8CW4l81wNW8ET"
+  },
+  {
+    "createdTime": "2026-11-25T18:01:43.000Z",
+    "fields": {
+      "Approval": "Pending",
+      "Collected_At": "2026-11-25",
+      "Company": "Summit Therapeutics",
+      "Country": "United States",
+      "First_Name": "Peter",
+      "Function": "Market Access",
+      "ICP_Fit": "High",
+      "Language": "English",
+      "Last_Name": "Avalos",
+      "Legal_Basis": "Fuente pública",
+      "Name": "Peter A. Avalos",
+      "Notes": "Recién contratado. Dallas-Fort Worth. Sales Navigator 2do grado. Pendiente: LinkedIn_URL exacta y email.",
+      "Preferred_Channel": "LinkedIn InMail",
+      "Region": "North America",
+      "Segment": "Pharma",
+      "Seniority": "VP",
+      "Source": "LinkedIn Sales Navigator",
+      "Stage": "New",
+      "Title": "VP Market Access & Pricing"
+    },
+    "id": "recMAtnvYC96jRYFN"
   },
   {
     "createdTime": "2026-10-18T17:49:17.000Z",
@@ -5800,6 +6119,33 @@
       "Title": "Coordinadora de Comunicaciones y Prensa"
     },
     "id": "recNZpGy6DLFoCopL"
+  },
+  {
+    "createdTime": "2026-11-25T15:36:47.000Z",
+    "fields": {
+      "Apollo_ID": "57e19122a6da987ddc755ad1",
+      "Approval": "Pending Review",
+      "Collected_At": "2026-11-25",
+      "Company": "AstraZeneca",
+      "Country": "Argentina",
+      "Email": "nicolas.deantoni@astrazeneca.com",
+      "First_Name": "Nicolas",
+      "Function": "Public & Government Affairs",
+      "ICP_Fit": "B",
+      "Last_Name": "Deantoni",
+      "Legal_Basis": "Legitimate interest (B2B)",
+      "LinkedIn_URL": "http://www.linkedin.com/in/nicolasdeantoni",
+      "Name": "Nicolas Deantoni",
+      "Notes": "Sourced via Apollo para prospección comercial HealthSignals (founding partners).",
+      "Preferred_Channel": "Email",
+      "Region": "LATAM",
+      "Segment": "Pharma",
+      "Seniority": "Director",
+      "Source": "Scraper",
+      "Stage": "New",
+      "Title": "Policy & Government Affairs Director, LatAm"
+    },
+    "id": "recNexOHiXlpuybks"
   },
   {
     "createdTime": "2026-11-08T23:38:17.000Z",
@@ -6197,6 +6543,33 @@
     "id": "recP7bdtlBCzJvUY9"
   },
   {
+    "createdTime": "2026-11-25T15:36:47.000Z",
+    "fields": {
+      "Apollo_ID": "650ecc8e81443f0001bc8fb0",
+      "Approval": "Pending Review",
+      "Collected_At": "2026-11-25",
+      "Company": "Johnson & Johnson",
+      "Country": "Brazil",
+      "Email": "dantunes@its.jnj.com",
+      "First_Name": "Daniela",
+      "Function": "Corporate Communications",
+      "ICP_Fit": "B",
+      "Last_Name": "Antunes",
+      "Legal_Basis": "Legitimate interest (B2B)",
+      "LinkedIn_URL": "http://www.linkedin.com/in/daniela-moreira-antunes",
+      "Name": "Daniela Antunes",
+      "Notes": "Sourced via Apollo para prospección comercial HealthSignals (founding partners).",
+      "Preferred_Channel": "Email",
+      "Region": "LATAM",
+      "Segment": "Pharma",
+      "Seniority": "Director",
+      "Source": "Scraper",
+      "Stage": "New",
+      "Title": "Communications & Public Affairs Director, Latin America"
+    },
+    "id": "recPA7vsoUVw8sOmP"
+  },
+  {
     "createdTime": "2026-10-21T23:54:53.000Z",
     "fields": {
       "Approval": "Pending Review",
@@ -6435,9 +6808,10 @@
         "rec7mxJWkl4YjoowB"
       ],
       "Email": "mestres@citycancerchallenge.org",
+      "Last_Contacted": "2026-11-24",
       "Name": "Isabel Mestres",
-      "Next_Action": "Fer manda el mail de reconexión y propone llamada de 30' con ella y colegas",
-      "Notes": "Registrado 26-09 segun Fernando: conversa con ella la semana del 28-09. Completar cargo y fecha. ONG de oncologia: mas probable socio de contenido/voz o co-branding que sponsor pagante.\n24-11-2026: cargo verificado online (CEO de C/Can, Ginebra; perfil en citycancerchallenge.org). Email mestres@citycancerchallenge.org tomado de success.ai y coincide con el formato [apellido]@ que RocketReach da para el 96% de C/Can; no validado por Apollo. Borrador de reconexión en editor@ (r-8110534733228385741) con Brief 04 adjunto.",
+      "Next_Action": "Esperar respuesta al mail de reconexión del 24-11 (llamada de 30' con ella y colegas); si no hay novedad ~4-12, decide Fer.",
+      "Notes": "Registrado 26-09 segun Fernando: conversa con ella la semana del 28-09. Completar cargo y fecha. ONG de oncologia: mas probable socio de contenido/voz o co-branding que sponsor pagante.\n24-11-2026: cargo verificado online (CEO de C/Can, Ginebra; perfil en citycancerchallenge.org). Email mestres@citycancerchallenge.org (success.ai + formato [apellido]@ de C/Can) VALIDADO por Apollo/LeadMagic el 24-11 (1 crédito). Borrador de reconexión en editor@ (r-8110534733228385741) con Brief 04 adjunto.\n2026-11-24 (barrido contactos): el mail de reconexión SALIÓ 24-11 20:24 UTC (hilo 1a20f358d1e32c6f, Brief 04 adjunto), proponiendo 30' con ella y colegas de C/Can. Sin respuesta aún.",
       "Region": "Global",
       "Segment": "Other",
       "Source": "Manual",
@@ -6935,6 +7309,33 @@
     "id": "recS2XJ623emXWSGk"
   },
   {
+    "createdTime": "2026-11-25T15:36:47.000Z",
+    "fields": {
+      "Apollo_ID": "54aa8c5d7468690630e2a80a",
+      "Approval": "Pending Review",
+      "Collected_At": "2026-11-25",
+      "Company": "Abbott",
+      "Country": "Chile",
+      "Email": "carlota.quijada@abbott.com",
+      "First_Name": "Carlota",
+      "Function": "Market Access",
+      "ICP_Fit": "A",
+      "Last_Name": "Quijada",
+      "Legal_Basis": "Legitimate interest (B2B)",
+      "LinkedIn_URL": "http://www.linkedin.com/in/carlota-quijada-",
+      "Name": "Carlota Quijada",
+      "Notes": "Sourced via Apollo para prospección comercial HealthSignals (founding partners).",
+      "Preferred_Channel": "Email",
+      "Region": "LATAM",
+      "Segment": "Pharma",
+      "Seniority": "Director",
+      "Source": "Scraper",
+      "Stage": "New",
+      "Title": "Market Access Director"
+    },
+    "id": "recS8uDANwxlT8Ouc"
+  },
+  {
     "createdTime": "2026-10-17T22:31:08.000Z",
     "fields": {
       "Approval": "Pending Review",
@@ -7086,6 +7487,15 @@
       "Title": "Gerente de Desarrollo y Asuntos Regulatorios"
     },
     "id": "recSS85cajM0qgFbT"
+  },
+  {
+    "createdTime": "2026-11-24T22:22:50.000Z",
+    "fields": {
+      "Company": "Janssen / J&J",
+      "Name": "Marjorie Nóbrega",
+      "Notes": "Ex cliente de Fer, a reconectar (24-11-2026). Estaba en Brasil; hicieron un proyecto juntos; cambió de posición. Contacto junto con Jorge Álvarez."
+    },
+    "id": "recSaDTDTdx3noI5z"
   },
   {
     "createdTime": "2026-10-18T18:02:31.000Z",
@@ -7473,6 +7883,31 @@
     "id": "recU6AYkLkZq3nEAS"
   },
   {
+    "createdTime": "2026-11-25T18:01:43.000Z",
+    "fields": {
+      "Approval": "Pending",
+      "Collected_At": "2026-11-25",
+      "Company": "Annexon Biosciences",
+      "Country": "United States",
+      "First_Name": "Dave",
+      "Function": "Market Access",
+      "ICP_Fit": "High",
+      "Language": "English",
+      "Last_Name": "James",
+      "Legal_Basis": "Fuente pública",
+      "Name": "Dave James, M.Sc.",
+      "Notes": "11 contactos en común. SF Bay Area. Sales Navigator 2do grado, filtro Market Access/Gov Affairs/Comms + Pharma/MedTech. Pendiente: LinkedIn_URL exacta y email.",
+      "Preferred_Channel": "LinkedIn InMail",
+      "Region": "North America",
+      "Segment": "Pharma",
+      "Seniority": "VP",
+      "Source": "LinkedIn Sales Navigator",
+      "Stage": "New",
+      "Title": "VP, Head of Market Access"
+    },
+    "id": "recU7uueGkVAXkSuq"
+  },
+  {
     "createdTime": "2026-10-17T22:34:40.000Z",
     "fields": {
       "Approval": "Pending Review",
@@ -7490,6 +7925,33 @@
       "Title": "Country Manager"
     },
     "id": "recU9xbRmCVtndQlH"
+  },
+  {
+    "createdTime": "2026-11-25T15:36:47.000Z",
+    "fields": {
+      "Apollo_ID": "60dc0bc6bbe3d200014394e4",
+      "Approval": "Pending Review",
+      "Collected_At": "2026-11-25",
+      "Company": "Fresenius Medical Care",
+      "Country": "Mexico",
+      "Email": "oscar.munozpuga@freseniusmedicalcare.com",
+      "First_Name": "Oscar",
+      "Function": "Market Access",
+      "ICP_Fit": "A",
+      "Last_Name": "Munoz Puga",
+      "Legal_Basis": "Legitimate interest (B2B)",
+      "LinkedIn_URL": "http://www.linkedin.com/in/%c3%b3scar-adri%c3%a1n-mu%c3%b1oz-puga-86b1b3b1",
+      "Name": "Oscar Munoz Puga",
+      "Notes": "Email extrapolado (no verificado). Sourced via Apollo.",
+      "Preferred_Channel": "Email",
+      "Region": "LATAM",
+      "Segment": "Medtech",
+      "Seniority": "Head",
+      "Source": "Scraper",
+      "Stage": "New",
+      "Title": "Head of Market Access & Government Affairs"
+    },
+    "id": "recUEEgb8s1djkkuZ"
   },
   {
     "createdTime": "2026-10-17T19:17:49.000Z",
@@ -7932,6 +8394,33 @@
     "id": "recWrQtBaBpZmIVl9"
   },
   {
+    "createdTime": "2026-11-25T15:36:47.000Z",
+    "fields": {
+      "Apollo_ID": "565048d2a6da9876230092fd",
+      "Approval": "Pending Review",
+      "Collected_At": "2026-11-25",
+      "Company": "Johnson & Johnson Innovative Medicine",
+      "Country": "Argentina",
+      "Email": "mfels@its.jnj.com",
+      "First_Name": "Maria Gimena",
+      "Function": "Market Access",
+      "ICP_Fit": "A",
+      "Last_Name": "Fels",
+      "Legal_Basis": "Legitimate interest (B2B)",
+      "LinkedIn_URL": "http://www.linkedin.com/in/maria-gimena-fels-73a1041a",
+      "Name": "Maria Gimena Fels",
+      "Notes": "Sourced via Apollo para prospección comercial HealthSignals (founding partners).",
+      "Preferred_Channel": "Email",
+      "Region": "LATAM",
+      "Segment": "Pharma",
+      "Seniority": "Director",
+      "Source": "Scraper",
+      "Stage": "New",
+      "Title": "Market Access Director"
+    },
+    "id": "recWtdzO1JmWjnUr6"
+  },
+  {
     "createdTime": "2026-11-11T23:30:21.000Z",
     "fields": {
       "Approval": "Hold",
@@ -7942,12 +8431,12 @@
       ],
       "Email": "luciana.perdomo@informa.com",
       "First_Name": "Luciana",
-      "Last_Contacted": "2026-11-08",
+      "Last_Contacted": "2026-11-24",
       "Last_Name": "Perdomo",
       "Name": "Luciana Perdomo",
       "Next_Action": "Seguimiento corto en portugués por Hospitalar 2027 (18-21 may, SP Expo).",
       "Next_Action_Date": "2026-11-16",
-      "Notes": "CONTACTO DE PRENSA DE EVENTO. Email publicado en la página de prensa de Hospitalar. Recibió la propuesta de paquete Informa del 08-11 (en inglés); sin respuesta al 11-11. Hospitalar tiene sección 'Mídia Oficial'.",
+      "Notes": "CONTACTO DE PRENSA DE EVENTO. Email publicado en la página de prensa de Hospitalar. Recibió la propuesta de paquete Informa del 08-11 (en inglés); sin respuesta al 11-11. Hospitalar tiene sección 'Mídia Oficial'.\n2026-11-24 (barrido contactos): Fer le mandó un segundo seguimiento en portugués el 24-11 16:28 UTC (hilo 1a1bc54c16520a82): permuta con Hospitalar 2027 (menciones en el Brief y posts en LinkedIn, sin facturas) y pide que derive si no es la persona. Sin respuesta (también al toque del 16-11).",
       "Preferred_Channel": "Email",
       "Region": "LATAM",
       "Segment": "Other",
@@ -8665,6 +9154,31 @@
     "id": "recZE5rzmav1WYZsz"
   },
   {
+    "createdTime": "2026-11-25T18:01:43.000Z",
+    "fields": {
+      "Approval": "Pending",
+      "Collected_At": "2026-11-25",
+      "Company": "BeOne Medicines",
+      "Country": "United States",
+      "First_Name": "Charlie",
+      "Function": "Market Access",
+      "ICP_Fit": "High",
+      "Language": "English",
+      "Last_Name": "S.",
+      "Legal_Basis": "Fuente pública",
+      "Name": "Charlie S.",
+      "Notes": "13 contactos en común. Apellido truncado por LinkedIn (perfil 2do grado, nombre completo visible solo al abrir). Pendiente: LinkedIn_URL exacta y email.",
+      "Preferred_Channel": "LinkedIn InMail",
+      "Region": "North America",
+      "Segment": "Pharma",
+      "Seniority": "Director",
+      "Source": "LinkedIn Sales Navigator",
+      "Stage": "New",
+      "Title": "Director of Market Access Oncology"
+    },
+    "id": "recZP5z8TLcvz1L7g"
+  },
+  {
     "createdTime": "2026-10-18T18:02:31.000Z",
     "fields": {
       "Approval": "Pending Review",
@@ -8704,6 +9218,15 @@
       "Title": "Communications Specialist"
     },
     "id": "recZUD7jlVzocAcbz"
+  },
+  {
+    "createdTime": "2026-11-24T22:22:50.000Z",
+    "fields": {
+      "Company": "A confirmar",
+      "Name": "Agustín Schiaffini",
+      "Notes": "Ex contacto de Fer a reconectar (24-11-2026). Tel. +54 9 11 3773-0553 (dictado 54911-3773-0553). Empresa sin registrar."
+    },
+    "id": "recZcmdekdIkb8zyb"
   },
   {
     "createdTime": "2026-10-17T19:17:49.000Z",
@@ -8831,6 +9354,33 @@
     "id": "recZxNwQTPqzGcIde"
   },
   {
+    "createdTime": "2026-11-25T15:36:47.000Z",
+    "fields": {
+      "Apollo_ID": "6853b36b83686f0001c9ee8c",
+      "Approval": "Pending Review",
+      "Collected_At": "2026-11-25",
+      "Company": "Eurofarma",
+      "Country": "Brazil",
+      "Email": "gabriela.romariz@eurofarma.com",
+      "First_Name": "Gabriela",
+      "Function": "Market Access",
+      "ICP_Fit": "A",
+      "Last_Name": "Romariz",
+      "Legal_Basis": "Legitimate interest (B2B)",
+      "LinkedIn_URL": "http://www.linkedin.com/in/gabriela-romariz-8247b98",
+      "Name": "Gabriela Romariz",
+      "Notes": "Sourced via Apollo para prospección comercial HealthSignals (founding partners).",
+      "Preferred_Channel": "Email",
+      "Region": "LATAM",
+      "Segment": "Pharma",
+      "Seniority": "Head",
+      "Source": "Scraper",
+      "Stage": "New",
+      "Title": "Head of Market Access"
+    },
+    "id": "reca0Ro8g3mzExNxf"
+  },
+  {
     "createdTime": "2026-06-21T17:21:49.000Z",
     "fields": {
       "Approval": "Pending Review",
@@ -8869,6 +9419,31 @@
       "Title": "Global Marketing Director"
     },
     "id": "reca4fIbjxj7IqLNO"
+  },
+  {
+    "createdTime": "2026-11-25T18:01:43.000Z",
+    "fields": {
+      "Approval": "Pending",
+      "Collected_At": "2026-11-25",
+      "Company": "Fosun Pharma USA",
+      "Country": "United States",
+      "First_Name": "Sara",
+      "Function": "Market Access",
+      "ICP_Fit": "High",
+      "Language": "English",
+      "Last_Name": "Yin",
+      "Legal_Basis": "Fuente pública",
+      "Name": "Sara Yin",
+      "Notes": "Recién contratada. 9 contactos en común. Pendiente: LinkedIn_URL exacta y email.",
+      "Preferred_Channel": "LinkedIn InMail",
+      "Region": "North America",
+      "Segment": "Pharma",
+      "Seniority": "VP",
+      "Source": "LinkedIn Sales Navigator",
+      "Stage": "New",
+      "Title": "VP, Head of Market Access Strategy & Pricing"
+    },
+    "id": "recaH3BNQsOrtxh5v"
   },
   {
     "createdTime": "2026-10-17T19:27:59.000Z",
@@ -9893,12 +10468,13 @@
       "Email": "antonio.arce@merck.com",
       "ICP_Fit": "A",
       "Name": "Antonio Arce",
-      "Next_Action": "Mandar snapshot de HS + Brief 04 (borrador listo) y llamada a su regreso de vacaciones",
-      "Notes": "Registrado 26-09 segun Fernando: ya hablo con el (contacto 1-1, LinkedIn o llamada). Confirmar si es Merck & Co/MSD o Merck KGaA, cargo y resultado de la charla.\n18-10-2026 (barrido Gmail personal, hilo 19332d72c01fdbfd): fue Head of International Affairs JANZ-EM y Head of Corporate Affairs LatAm en Viatris hasta 15-11-2024; al irse dejó toni.arce55@gmail.com. Empleador actual sin verificar.\nEx cliente de Fer (Viatris, Economist Impact; verificar)\n24-11-2026 (Fer): ahora está en Merck, antonio.arce@merck.com (reemplaza al gmail personal como email de trabajo); de vacaciones estos días. Cargo actual sin confirmar.",
+      "Next_Action": "De licencia por paternidad hasta ~mediados de enero 2027 (dato de Laura Dachner, 24-11). Reconectar entonces.",
+      "Notes": "Registrado 26-09 segun Fernando: ya hablo con el (contacto 1-1, LinkedIn o llamada). Confirmar si es Merck & Co/MSD o Merck KGaA, cargo y resultado de la charla.\n18-10-2026 (barrido Gmail personal, hilo 19332d72c01fdbfd): fue Head of International Affairs JANZ-EM y Head of Corporate Affairs LatAm en Viatris hasta 15-11-2024; al irse dejó toni.arce55@gmail.com. Empleador actual sin verificar.\nEx cliente de Fer (Viatris, Economist Impact; verificar)\n24-11-2026 (Fer): ahora está en Merck, antonio.arce@merck.com (reemplaza al gmail personal como email de trabajo); de vacaciones estos días. Cargo actual sin confirmar.\n2026-11-24 (barrido contactos): cargo confirmado por su firma en la autorespuesta recibida en editor@ el 24-11-2026, hilo 1a20f3d4c6069973: Director, Global Public Policy & Government Relations - Latin America, Merck (601 Pennsylvania Ave./North Tower, Suite 1200, Washington DC 20004); móvil +1-202-768-5007. Fer le mandó el 24-11 presentación de HS + Brief 04 (hilo 1a20f2ccf7c5343b).",
       "Region": "LATAM",
       "Segment": "Pharma",
       "Source": "Manual",
-      "Stage": "Engaged"
+      "Stage": "Engaged",
+      "Title": "Director, Global Public Policy & Government Relations - Latin America"
     },
     "id": "recdwhDwoQz5b4LT7"
   },
@@ -11103,12 +11679,12 @@
       ],
       "Email": "kathryn.scott@informa.com",
       "First_Name": "Kate",
-      "Last_Contacted": "2026-11-16",
+      "Last_Contacted": "2026-11-24",
       "Last_Name": "Scott",
       "Name": "Kate Scott",
       "Next_Action": "Esperar respuesta de Gil (Event Director WHX) sobre canje WHX Miami 2027; si no responde, recordar a Kate.",
       "Next_Action_Date": "2026-11-24",
-      "Notes": "CONTACTO DE ALIANZAS (no outreach comercial automático). Decisora: maneja WHX Miami (ex FIME, 16-18 jun 2027) y CPHI Americas (25-26 may 2027, Miami Beach).\n- 08-11: propuesta de paquete a Matthew Ramirez y Luciana Perdomo; respondió Kate.\n- 10-11: Kate manda acuerdo de canje CPHI Americas (HealthSignals.docx) a partnerships@.\n- 11-11: Fer acepta y pide 4 ajustes antes de firmar (fecha de firma, dirección 407 Lincoln Rd, fechas de entrega: banner 27-04 a 26-05-2027, Brief último número pre-evento, 3 posts LinkedIn; sin facturas cruzadas).\n- 12-11: barter CPHI Americas 2027 firmado (US$3.300 por lado, sin facturas).\n- 16-11: Kate mandó el barter firmado por Informa (adjunto en el hilo). WHX: reenvió el pedido de Fer a Gil, Event Director de WHX, que responde a su regreso la semana próxima.\n- 17-11: fusionado con el registro duplicado rec2K7gR9qtS1oyFU (borrado). Hilo Gmail editor@: 'Barter for CPHI Americas' (1a1c6bd5415a5f20).",
+      "Notes": "CONTACTO DE ALIANZAS (no outreach comercial automático). Decisora: maneja WHX Miami (ex FIME, 16-18 jun 2027) y CPHI Americas (25-26 may 2027, Miami Beach).\n- 08-11: propuesta de paquete a Matthew Ramirez y Luciana Perdomo; respondió Kate.\n- 10-11: Kate manda acuerdo de canje CPHI Americas (HealthSignals.docx) a partnerships@.\n- 11-11: Fer acepta y pide 4 ajustes antes de firmar (fecha de firma, dirección 407 Lincoln Rd, fechas de entrega: banner 27-04 a 26-05-2027, Brief último número pre-evento, 3 posts LinkedIn; sin facturas cruzadas).\n- 12-11: barter CPHI Americas 2027 firmado (US$3.300 por lado, sin facturas).\n- 16-11: Kate mandó el barter firmado por Informa (adjunto en el hilo). WHX: reenvió el pedido de Fer a Gil, Event Director de WHX, que responde a su regreso la semana próxima.\n- 17-11: fusionado con el registro duplicado rec2K7gR9qtS1oyFU (borrado). Hilo Gmail editor@: 'Barter for CPHI Americas' (1a1c6bd5415a5f20).\n- 24-11 (barrido contactos): Fer le mandó un recordatorio liviano sobre WHX Miami (16:28 UTC, msg 1a20e62c381cc8d5), ofreciendo mandarle a Gil un resumen directo o esperar. Sin respuesta aún.",
       "Preferred_Channel": "Email",
       "Region": "USA",
       "Segment": "Other",
@@ -11294,6 +11870,33 @@
     "id": "recia6CO986bymAQw"
   },
   {
+    "createdTime": "2026-11-25T15:36:47.000Z",
+    "fields": {
+      "Apollo_ID": "55c163957369645263334900",
+      "Approval": "Pending Review",
+      "Collected_At": "2026-11-25",
+      "Company": "Merck Group",
+      "Country": "Brazil",
+      "Email": "andre.sisdeli@merckgroup.com",
+      "First_Name": "Andre",
+      "Function": "Market Access",
+      "ICP_Fit": "A",
+      "Last_Name": "Sisdeli",
+      "Legal_Basis": "Legitimate interest (B2B)",
+      "LinkedIn_URL": "http://www.linkedin.com/in/sisdeli-andre-a0070817",
+      "Name": "Andre Sisdeli",
+      "Notes": "Sourced via Apollo para prospección comercial HealthSignals (founding partners).",
+      "Preferred_Channel": "Email",
+      "Region": "LATAM",
+      "Segment": "Pharma",
+      "Seniority": "Head",
+      "Source": "Scraper",
+      "Stage": "New",
+      "Title": "Head of Market Access"
+    },
+    "id": "recib7y89KEu1Ep7s"
+  },
+  {
     "createdTime": "2026-10-18T17:45:10.000Z",
     "fields": {
       "Approval": "Pending Review",
@@ -11441,6 +12044,30 @@
       "Title": "Presidente ejecutivo"
     },
     "id": "recj248CmnrAP5Yw8"
+  },
+  {
+    "createdTime": "2026-11-24T20:35:27.000Z",
+    "fields": {
+      "Approval": "Approved",
+      "Collected_At": "2026-11-24",
+      "Company": "Merck & Co. (MSD)",
+      "Email": "laura.dachner@merck.com",
+      "First_Name": "Laura",
+      "Language": "Spanish",
+      "Last_Contacted": "2026-11-24",
+      "Last_Name": "Dachner",
+      "Legal_Basis": "Existing relationship",
+      "Name": "Laura Dachner",
+      "Next_Action": "24-11-2026: respondió que no evalúan nuevas colaboraciones ahora (fin de año cargado, ya tienen otras fuentes). Reconectar informalmente a mediados de enero 2027, cuando Toni Arce vuelva de su licencia por paternidad. Cargo: Executive Director, Policy & Government Relations-Latin America, Merck.\n25-11-2026: Fer contestó el 24-11 (retomamos en enero; siguen recibiendo el Brief); ella agradeció. Próximo contacto: 15-01-2027, con Toni Arce en copia. Duplicado viejo: recpZ1V96iGtXflxs (decide Fer si se borra).",
+      "Next_Action_Date": "2027-01-15",
+      "Notes": "Delegada por Antonio (Toni) Arce (Director Global Public Policy & Government Relations LatAm, Merck) en su auto-respuesta de vacaciones del 24-11-2026, como uno de los puntos de contacto principales mientras está fuera. 24-11: presentación de HealthSignals + Brief Issue 04 enviada, explorando futuras opciones de trabajo.",
+      "Preferred_Channel": "Email",
+      "Region": "LATAM",
+      "Segment": "Pharma",
+      "Source": "Referral",
+      "Stage": "Contacted"
+    },
+    "id": "recj2O0sKArnXbkUS"
   },
   {
     "createdTime": "2026-10-17T19:36:20.000Z",
@@ -12039,6 +12666,33 @@
     "id": "reclsifXFy88M7RDC"
   },
   {
+    "createdTime": "2026-11-25T15:36:47.000Z",
+    "fields": {
+      "Apollo_ID": "54a22bc074686935be29fd12",
+      "Approval": "Pending Review",
+      "Collected_At": "2026-11-25",
+      "Company": "Novo Nordisk",
+      "Country": "Argentina",
+      "Email": "guea@novonordisk.com",
+      "First_Name": "Gustavo",
+      "Function": "Market Access",
+      "ICP_Fit": "A",
+      "Last_Name": "Allievi",
+      "Legal_Basis": "Legitimate interest (B2B)",
+      "LinkedIn_URL": "http://www.linkedin.com/in/gustavo-allievi-66361325",
+      "Name": "Gustavo Allievi",
+      "Notes": "Email conseguido via Apollo waterfall (verificado por ZeroBounce y LeadMagic), 25-11-2026. Sourced via Apollo.",
+      "Preferred_Channel": "Email",
+      "Region": "LATAM",
+      "Segment": "Pharma",
+      "Seniority": "Director",
+      "Source": "Scraper",
+      "Stage": "New",
+      "Title": "Market Access & Public Affairs Director"
+    },
+    "id": "recluqBia7tbkrIVM"
+  },
+  {
     "createdTime": "2026-10-17T19:27:59.000Z",
     "fields": {
       "Approval": "Pending Review",
@@ -12076,6 +12730,33 @@
       "Stage": "New"
     },
     "id": "recm16pIzMNmesZHy"
+  },
+  {
+    "createdTime": "2026-11-25T15:36:47.000Z",
+    "fields": {
+      "Apollo_ID": "54a3ab6374686932096b4c09",
+      "Approval": "Pending Review",
+      "Collected_At": "2026-11-25",
+      "Company": "Johnson & Johnson",
+      "Country": "USA",
+      "Email": "dalton.b@janssen-cilag.de",
+      "First_Name": "Brian",
+      "Function": "Market Access",
+      "ICP_Fit": "B",
+      "Last_Name": "Dalton",
+      "Legal_Basis": "Legitimate interest (B2B)",
+      "LinkedIn_URL": "http://www.linkedin.com/in/brian-dalton-4053a714",
+      "Name": "Brian Dalton",
+      "Notes": "Email conseguido via Apollo waterfall el 25-11-2026; ZeroBounce lo marca como catch-all (dominio acepta cualquier casilla, no 100% confiable) — verificar antes de depender solo de este canal. Rol global US, no LatAm. Sourced via Apollo.",
+      "Preferred_Channel": "Email",
+      "Region": "USA",
+      "Segment": "Pharma",
+      "Seniority": "Director",
+      "Source": "Scraper",
+      "Stage": "New",
+      "Title": "Global Market Access Director"
+    },
+    "id": "recm1kAK4CwIVn6O7"
   },
   {
     "createdTime": "2026-10-18T17:45:10.000Z",
@@ -12315,6 +12996,32 @@
     "id": "recnGUF6QCsXbfiQZ"
   },
   {
+    "createdTime": "2026-11-25T15:36:47.000Z",
+    "fields": {
+      "Apollo_ID": "54a1a94d74686949e793b305",
+      "Approval": "Pending Review",
+      "Collected_At": "2026-11-25",
+      "Company": "GSK",
+      "Country": "Colombia",
+      "First_Name": "Wilson",
+      "Function": "Market Access",
+      "ICP_Fit": "A",
+      "Last_Name": "Ulloa Gomez",
+      "Legal_Basis": "Legitimate interest (B2B)",
+      "LinkedIn_URL": "http://www.linkedin.com/in/wilson-gerardo-ulloa-gomez-4792133a",
+      "Name": "Wilson Ulloa Gomez",
+      "Notes": "Email no disponible en Apollo; contactar por LinkedIn. Sourced via Apollo.",
+      "Preferred_Channel": "LinkedIn DM",
+      "Region": "LATAM",
+      "Segment": "Pharma",
+      "Seniority": "Director",
+      "Source": "Scraper",
+      "Stage": "New",
+      "Title": "Market Access & Corporate Affairs Director"
+    },
+    "id": "recnKIwNXdZjdw5J9"
+  },
+  {
     "createdTime": "2026-10-18T18:02:31.000Z",
     "fields": {
       "Approval": "Pending Review",
@@ -12458,6 +13165,30 @@
       "Stage": "Proposal Sent"
     },
     "id": "recnyKXbnViVgs871"
+  },
+  {
+    "createdTime": "2026-11-24T20:35:27.000Z",
+    "fields": {
+      "Approval": "Approved",
+      "Collected_At": "2026-11-24",
+      "Company": "Merck & Co. (MSD)",
+      "Email": "martin.salazar1@merck.com",
+      "First_Name": "Martin",
+      "Language": "Spanish",
+      "Last_Contacted": "2026-11-24",
+      "Last_Name": "Salazar Duran",
+      "Legal_Basis": "Existing relationship",
+      "Name": "Martin Salazar Duran",
+      "Next_Action": "24-11-2026: Laura Dachner respondió por ambos: reconectar a mediados de enero 2027.",
+      "Next_Action_Date": "2026-12-04",
+      "Notes": "Delegado por Antonio (Toni) Arce (Director Global Public Policy & Government Relations LatAm, Merck) en su auto-respuesta de vacaciones del 24-11-2026, como uno de los puntos de contacto principales mientras está fuera. 24-11: presentación de HealthSignals + Brief Issue 04 enviada, explorando futuras opciones de trabajo.",
+      "Preferred_Channel": "Email",
+      "Region": "LATAM",
+      "Segment": "Pharma",
+      "Source": "Referral",
+      "Stage": "Contacted"
+    },
+    "id": "recnz02wVYmgMMP9K"
   },
   {
     "createdTime": "2026-10-21T23:46:54.000Z",
@@ -12771,7 +13502,7 @@
       "Last_Name": "Dachner",
       "LinkedIn_URL": "https://www.linkedin.com/in/lauradachner/",
       "Name": "Laura Dachner",
-      "Notes": "Difusión Voices 17-10-2026 (lista regional). Confianza: alta. Perfil LinkedIn (snapshot sep-2026). Ex diplomática de Costa Rica en EE.UU.",
+      "Notes": "Difusión Voices 17-10-2026 (lista regional). Confianza: alta. Perfil LinkedIn (snapshot sep-2026). Ex diplomática de Costa Rica en EE.UU.\n2026-11-24 (barrido contactos): posible duplicado de recj2O0sKArnXbkUS (Laura Dachner, laura.dachner@merck.com, creado 24-11 con el estado vigente: declinó por ahora, reconectar mediados de enero 2027). Firma del 24-11 (hilo 1a20f2ccf7c5343b): Executive Director, Policy & Government Relations-Latin America, Merck. No se borró; decide Fer cuál queda.",
       "Preferred_Channel": "LinkedIn DM",
       "Region": "LATAM",
       "Segment": "Pharma",
@@ -13561,6 +14292,33 @@
     "id": "recsMd3R00F5hgXxZ"
   },
   {
+    "createdTime": "2026-11-25T15:36:47.000Z",
+    "fields": {
+      "Apollo_ID": "54a4aab97468693676855b59",
+      "Approval": "Pending Review",
+      "Collected_At": "2026-11-25",
+      "Company": "Merck",
+      "Country": "USA",
+      "Email": "sarah.fleming@merck.com",
+      "First_Name": "Sarah",
+      "Function": "Market Access",
+      "ICP_Fit": "B",
+      "Last_Name": "Fleming",
+      "Legal_Basis": "Legitimate interest (B2B)",
+      "LinkedIn_URL": "http://www.linkedin.com/in/sarahzander",
+      "Name": "Sarah Fleming",
+      "Notes": "Rol global US, no LatAm. Sourced via Apollo.",
+      "Preferred_Channel": "Email",
+      "Region": "USA",
+      "Segment": "Pharma",
+      "Seniority": "Director",
+      "Source": "Scraper",
+      "Stage": "New",
+      "Title": "Global Market Access Director"
+    },
+    "id": "recsQStfofLKxJfYn"
+  },
+  {
     "createdTime": "2026-10-17T22:34:40.000Z",
     "fields": {
       "Approval": "Pending Review",
@@ -14251,6 +15009,33 @@
     "id": "recvq5YP8c6ea1fmA"
   },
   {
+    "createdTime": "2026-11-25T15:36:47.000Z",
+    "fields": {
+      "Apollo_ID": "54a602c07468692cf08aadba",
+      "Approval": "Pending Review",
+      "Collected_At": "2026-11-25",
+      "Company": "Pfizer",
+      "Country": "Mexico",
+      "Email": "joseluis.paz@pfizer.com",
+      "First_Name": "Jose Luis",
+      "Function": "Public & Government Affairs",
+      "ICP_Fit": "B",
+      "Last_Name": "Paz Vega",
+      "Legal_Basis": "Legitimate interest (B2B)",
+      "LinkedIn_URL": "http://www.linkedin.com/in/jose-luis-paz-vega-30b1426",
+      "Name": "Jose Luis Paz Vega",
+      "Notes": "Sourced via Apollo para prospección comercial HealthSignals (founding partners).",
+      "Preferred_Channel": "Email",
+      "Region": "LATAM",
+      "Segment": "Pharma",
+      "Seniority": "Director",
+      "Source": "Scraper",
+      "Stage": "New",
+      "Title": "Public and Policy Affairs Director"
+    },
+    "id": "recvxgc9pu15I63cH"
+  },
+  {
     "createdTime": "2026-10-17T22:34:40.000Z",
     "fields": {
       "Approval": "Pending Review",
@@ -14698,6 +15483,15 @@
     "id": "recyCJbzwqEPnSBn1"
   },
   {
+    "createdTime": "2026-11-24T22:22:50.000Z",
+    "fields": {
+      "Company": "Janssen / J&J",
+      "Name": "Gema Pérez Oliver",
+      "Notes": "Compras (procurement) en proyectos que Fer hizo con este equipo (24-11-2026). Tel. +52 55 5142-1181 (dictado 5255-5142-1181)."
+    },
+    "id": "recyGdEiD735tt3zh"
+  },
+  {
     "createdTime": "2026-11-17T22:36:18.000Z",
     "fields": {
       "Apollo_ID": "6afafff06aa6d700012556b9",
@@ -14972,6 +15766,31 @@
       "Title": "Chief Executive Officer"
     },
     "id": "recz1CdFMNOQoohcz"
+  },
+  {
+    "createdTime": "2026-11-25T18:01:43.000Z",
+    "fields": {
+      "Approval": "Pending",
+      "Collected_At": "2026-11-25",
+      "Company": "Gilead Sciences",
+      "Country": "United States",
+      "First_Name": "Harpreet",
+      "Function": "Market Access",
+      "ICP_Fit": "High",
+      "Language": "English",
+      "Last_Name": "Sandhu",
+      "Legal_Basis": "Fuente pública",
+      "Name": "Harpreet Sandhu",
+      "Notes": "16 contactos en común — mayor señal de red de la primera tanda. Pendiente: LinkedIn_URL exacta y email.",
+      "Preferred_Channel": "LinkedIn InMail",
+      "Region": "North America",
+      "Segment": "Pharma",
+      "Seniority": "Executive Director",
+      "Source": "LinkedIn Sales Navigator",
+      "Stage": "New",
+      "Title": "Executive Director, Market Access Cross Portfolio"
+    },
+    "id": "reczBVKoQnmed31VI"
   },
   {
     "createdTime": "2026-10-18T17:49:17.000Z",

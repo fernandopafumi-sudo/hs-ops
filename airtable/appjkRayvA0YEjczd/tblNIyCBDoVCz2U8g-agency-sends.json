@@ -24,7 +24,7 @@
       "Client Account": [
         "recDqTHTXUHbR7K4w"
       ],
-      "Reason": "cooldown 7d (y cooldown 3d): último mail nuestro a lucas.soares@agora.site y raquel.reis@agora.site (CC julia.ramires) fue el 2026-11-20 18:35Z, hilo 1a1fa3bacfc8d512 (confirmación de citas). Cuenta/Agency Group libre desde 2026-11-23 18:35Z; destinatarios libres desde 2026-11-27 18:35Z. Último chequeo: 2026-11-24 (sigue bloqueado por cooldown 7d).",
+      "Reason": "cooldown 7d (y cooldown 3d): nuevos mails nuestros a lucas.soares@agora.site el 2026-11-24 20:01Z y 23:01Z (hilo 1a20f25fe7b72ce8, Fer acordó esperar hasta 1-dic el OK global de BMS para las citas). Cuenta/Agency Group libre desde 2026-11-27 23:01Z; lucas.soares libre desde 2026-12-01 23:01Z; raquel.reis desde 2026-11-27 18:35Z. La nota (publicada 2026-11-21 13:25Z) sale de la ventana de 7 días el 2026-11-28 13:25Z, así que probablemente vence antes de liberarse. Último chequeo: 2026-11-25.",
       "Status": "Skipped",
       "Summary": "BMS Brasil – BMS and A.C.Camargo say their oncology risk-sharing model can scale",
       "To": "lucas.soares@agora.site\nCC: raquel.reis@agora.site, julia.ramires@agora.site",
@@ -41,7 +41,7 @@
       "Client Account": [
         "recMrnkR8SyRYvRxT"
       ],
-      "Reason": "cooldown 7d (y cooldown 3d): mismos destinatarios que la cuenta BMS Brasil; último mail nuestro 2026-11-20 18:35Z (hilo 1a1fa3bacfc8d512). Destinatarios libres desde 2026-11-27 18:35Z. Ojo: esta cuenta parece duplicado de BMS Brasil (recDqTHTXUHbR7K4w). Último chequeo: 2026-11-24 (sigue bloqueado por cooldown 7d).",
+      "Reason": "cooldown 7d (y cooldown 3d): mismos destinatarios que BMS Brasil (recDqTHTXUHbR7K4w); nuevos mails nuestros a lucas.soares@agora.site el 2026-11-24 20:01Z y 23:01Z (hilo 1a20f25fe7b72ce8). Agency Group libre desde 2026-11-27 23:01Z; lucas.soares desde 2026-12-01 23:01Z. La nota sale de la ventana de 7 días el 2026-11-28 13:25Z. Ojo: cuenta duplicada de BMS Brasil. Último chequeo: 2026-11-25.",
       "Status": "Skipped",
       "Summary": "Bristol Myers Squibb Brasil (fila 20-11) – BMS and A.C.Camargo say their oncology risk-sharing model can scale",
       "To": "raquel.reis@agora.site\nCC: lucas.soares@agora.site, julia.ramires@agora.site",

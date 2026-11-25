@@ -48,6 +48,21 @@
     "id": "recCv8Knhpna6Piik"
   },
   {
+    "createdTime": "2026-11-25T13:58:24.000Z",
+    "fields": {
+      "Date Found": "2026-11-25",
+      "Found Via": "https://g5noticias.cl/2026/11/02/observatorio-del-gasto-publico-en-farmacos-2026-el-estado-compra-solo-1-de-cada-5-medicamentos-innovadores-aprobados-en-el-mundo-y-casi-la-mitad-de-lo-que-gasta-en-ellos-llega-por-la-via-judicial/",
+      "Key Finding": "Según la prensa (no se abrió el informe): el Estado compró 92 de 448 innovadores aprobados (2018-2025); gasto vía judicial ~45% en 2025; gasto de bolsillo en medicamentos de farmacia 70,9%.",
+      "Publisher": "Cámara de la Innovación Farmacéutica (CIF) / Escuela de Gobierno UC",
+      "Status": "New",
+      "Title": "Observatorio del Gasto Público en Fármacos 2026 (CIF Chile / Escuela de Gobierno UC)",
+      "URL": "https://cifchile.cl/observatorio-gasto-publico-farmacos.html",
+      "Why It Matters": "Acceso, judicialización y gasto de bolsillo en Chile; abrir el informe antes de citar.",
+      "Year": 2026
+    },
+    "id": "recGqaHAGHGTvnNQw"
+  },
+  {
     "createdTime": "2026-10-22T17:56:35.000Z",
     "fields": {
       "DOI or ID": "ISBN 9789240125018",
@@ -147,6 +162,36 @@
       "Year": 2026
     },
     "id": "rechHv9llXMJIyVUb"
+  },
+  {
+    "createdTime": "2026-11-25T13:58:24.000Z",
+    "fields": {
+      "Date Found": "2026-11-25",
+      "Found Via": "https://www.cms.gov/newsroom/press-releases/cms-announces-lower-negotiated-prices-13-high-cost-drugs",
+      "Key Finding": "13 drugs, estimated 45% net savings ($9.2B) vs 2025; Trulicity $150 vs $965 (-84%); prices effective Jan 1, 2028.",
+      "Publisher": "CMS",
+      "Status": "Verified",
+      "Title": "Medicare Drug Price Negotiation Program: Negotiated Prices for Initial Price Applicability Year 2028 (fact sheet)",
+      "URL": "https://www.cms.gov/files/document/fact-sheet-negotiated-prices-ipay-2028.pdf",
+      "Why It Matters": "Referencia de precio público de GLP-1 y oncología (Kisqali, Verzenio) para compradores de LatAm.",
+      "Year": 2026
+    },
+    "id": "recpkKulhsESeNDjf"
+  },
+  {
+    "createdTime": "2026-11-25T13:58:24.000Z",
+    "fields": {
+      "Date Found": "2026-11-25",
+      "Found Via": "https://www.invima.gov.co/normatividad/proyectos-normativos",
+      "Key Finding": "Circular con Índice de Criticidad Integrado de 4 criterios (indicación, alternativas terapéuticas, abastecimiento, vulnerabilidad de la cadena); medida permanente, sin perjuicio del Plan de Contingencia (Res. 2026025611). Consulta 18-25 nov 2026.",
+      "Publisher": "Invima (Colombia)",
+      "Status": "Verified",
+      "Title": "Invima: memoria justificativa del proyecto de circular de gestión administrativa diferenciada (registro sanitario de medicamentos)",
+      "URL": "https://www.invima.gov.co/biblioteca/download/146194",
+      "Why It Matters": "Cambia cómo se ordena la espera de registros en Colombia; posible nota sobre acceso y desabastecimiento.",
+      "Year": 2026
+    },
+    "id": "recqDv7H8pyE7si3y"
   },
   {
     "createdTime": "2026-11-16T13:54:42.000Z",

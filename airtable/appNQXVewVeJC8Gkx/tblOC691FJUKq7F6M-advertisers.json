@@ -25,7 +25,9 @@
       "Category": "Pharma (multinacional)",
       "Confidence": "Alta",
       "Date added": "2026-09-20",
+      "Ex cliente de Fer": true,
       "Format bought": "Miembro FIFARMA + AMIIF + Interfarma; cliente agencia Bubblegum; Pharma Lions MX 2026",
+      "Historia con Fer": "Ex cliente de Fer (lista 24-11-2026). Fer (24-11): tiene que estar en el radar. Tema de entrada: pendiente.",
       "LatAm fit": "Alto",
       "Oferta HS": "Co-autoria de indice (ya produce reportes propios)",
       "Outreach status": "Researching",
@@ -134,6 +136,15 @@
     "id": "rec1eHMXCdfbVtonh"
   },
   {
+    "createdTime": "2026-11-24T22:01:22.000Z",
+    "fields": {
+      "Account": "Teva",
+      "Contacto nominal": "Riad Dirani / Manuel Pizarro — a confirmar con Fer",
+      "Historia con Fer": "Cuenta a re-engage según Fer (24-11-2026); Fer no recuerda nombres. En CRM Prospects: Riad Dirani (riad.dirani@tevapharm.com), Aida Soto, Rinat Ariely, Danielle Young (Teva USA); Laboratorio Chile/Teva: Manuel Pizarro (Digital & Communication Strategy), Nancy Araneda, Marcela Eyzaguirre, Claudio Osorio (Regulatory)."
+    },
+    "id": "rec1qr7w3gz0oJhvE"
+  },
+  {
     "createdTime": "2026-09-21T04:54:34.000Z",
     "fields": {
       "Account": "Carestream Health",
@@ -214,8 +225,11 @@
       "Account": "Johnson & Johnson + Legend Biotech",
       "Category": "Pharma / biotech — oncología, CAR-T (Carvykti / mieloma múltiple)",
       "Confidence": "Media",
+      "Contacto nominal": "Proyectos hechos por Fer: Jorge Álvarez (terapias avanzadas/hemato; reconectar), Marjorie Nóbrega (Brasil, cambió de posición), Gema Pérez Oliver (compras, +52 55 5142-1181), Clayton Silva (+55 11 2788-1085). También: Francesca Albanese, Larisa Lagata (MA), Alexandre Duba (aduba@its.jnj.com?), Alexander Minkov (México), Diana Panqueva, Laurent Boixel (retina) — empresa de Nóbrega/Pérez Oliver/Silva a confirmar",
       "Date added": "2026-09-20",
+      "Ex cliente de Fer": true,
       "Format bought": "Podcast patrocinado (disease awareness)",
+      "Historia con Fer": "Ex cliente de Fer (Janssen / J&J Innovative Medicine; lista 24-11-2026). También en conversación vía Knight Pawn (Harold Hamana) para Q1 2027. Oncología: Francesca Albanese; Larisa Lagata (Market Access, trabajaba con Francesca); Alexandre Duba (Precision Medicine Strategy; email dictado aduba@its.gng.com, probablemente aduba@its.jnj.com, sin validar); Alexander Minkov (México, Precision Medicine). Temas de Minkov: awareness, patient advocacy, access & reimbursement; a largo plazo el valor crítico de qué debe saber cada stakeholder; dissemination, data/evidence generation, adoption, affordability. \"Andrea\" (¿Andrés/Alexandre Duba?) trabajaba bladder cancer, lung cancer y outcomes in cancer care. Varias llamadas, no se cerró nada. También: Diana Panqueva.\n\nRetina (Fer dictó \"Jay/Jan\", se asume J&J/Janssen): Laurent Boixel trabajaba retinitis pigmentosa (gen que lleva a ceguera/visión de túnel en 20-30 años); terapia con nueva proteína para pacientes con algo de visión. Proyecto: barreras de acceso (40% out of pocket, 60% seguros), gap of access en LatAm, accionar sobre policy makers y decision makers; acceso, más innovación, análisis por país, cómo priorizar terapias; influir gobierno y reguladores, correcto resource allocation, cómo se prioriza el pago en el sistema de salud para una enfermedad no letal (Brasil, Argentina, Colombia, México); pilares de reasignación de recursos.\n\nJorge Álvarez (confirmado Janssen): terapias avanzadas y oncología, particularmente hematología.\n\nPricing & market access / specialty care (otra llamada con \"Jan\"): persona indicada Ricardo Rosin (trabajaba Alzheimer); Camila Bustos (ya salió; trabajaba sistema nervioso central). Intereses: descuentos, precios y bajas de precio, visibilidad de la competencia, inteligencia de mercado, affordability, cardio.",
       "LatAm fit": "Medio-Alto",
       "Outreach status": "Not started",
       "Priority": "P1",
@@ -335,6 +349,15 @@
     "id": "rec5AwplZjokn8i0k"
   },
   {
+    "createdTime": "2026-11-24T22:22:09.000Z",
+    "fields": {
+      "Account": "Llorente y Cuenca (LLYC)",
+      "Contacto nominal": "Indira (apellido pendiente)",
+      "Historia con Fer": "Agencia de comunicación/asuntos públicos. Fer (24-11-2026): recontactar a Indira (apellido pendiente)."
+    },
+    "id": "rec5QfpGXM4KGBO4W"
+  },
+  {
     "createdTime": "2026-09-21T04:54:34.000Z",
     "fields": {
       "Account": "Biomedisys",
@@ -359,9 +382,11 @@
       "Account": "Roche",
       "Category": "Pharma (multinacional)",
       "Confidence": "Alta",
-      "Contacto nominal": "Monica Palomanes (Roche Pharma Mexico) y Joao Carapeto (Roche Diagnostics Mexico) - PharmaBoardroom 2025, verificar vigencia",
+      "Contacto nominal": "Leonardo/Leandro Vía, Fernando Giannoni/Giannini, Héctor Castro, Olga Gil (?) — a verificar; también Monica Palomanes y Joao Carapeto (México, PharmaBoardroom 2025)",
       "Date added": "2026-09-20",
+      "Ex cliente de Fer": true,
       "Format bought": "Miembro FIFARMA + AMIIF + Interfarma",
+      "Historia con Fer": "Ex cliente de Fer (lista 24-11-2026). Contactos de Fer: Leonardo (o Leandro) Vía, Fernando Giannoni (o Giannini), Héctor Castro y Olga Gil (Fer con duda). Ricardo Bacina: Fer habló con él un tiempo pero cree que ya no está en Roche → fuera. Cargos y emails sin registrar. Tema de entrada: pendiente.",
       "LatAm fit": "Alto",
       "Oferta HS": "Co-autoria de indice (ya produce reportes propios)",
       "Outreach status": "Researching",
@@ -410,6 +435,15 @@
     "id": "rec6lSgpjPGoje3W1"
   },
   {
+    "createdTime": "2026-11-24T22:22:09.000Z",
+    "fields": {
+      "Account": "AS/COA (Americas Society / Council of the Americas)",
+      "Contacto nominal": "Susan Segal; oficina de Miami — contactos a registrar",
+      "Historia con Fer": "Fer (24-11-2026): hablar con Susan Segal y con la oficina de Miami, donde Fer tiene contactos."
+    },
+    "id": "rec6p7qXtSg7e1ph9"
+  },
+  {
     "createdTime": "2026-09-21T12:57:40.000Z",
     "fields": {
       "Account": "Meditech - Feria Internacional de la Salud (Corferias)",
@@ -451,8 +485,11 @@
       "Account": "Baxter",
       "Category": "Dispositivos medicos / terapias renales",
       "Confidence": "Media",
+      "Contacto nominal": "Gustavo Moreno (derivado por Andrea Cataño) — cargo y email a verificar",
       "Date added": "2026-09-21",
+      "Ex cliente de Fer": true,
       "Format bought": "Listado en Guia Sectorial de Proveedores (jul 2026) - no confirmado si es pago o editorial",
+      "Historia con Fer": "Prioridad MedTech según Fer (24-11-2026). Fer habló en su momento con Andrea Cataño (ya no está en Baxter), quien le pidió hablar con Gustavo Moreno. Temas: seguridad hospitalaria, medical devices y eficiencia de sus equipos.",
       "LatAm fit": "Alto",
       "Oferta HS": "Co-autoria de indice (ya produce reportes propios)",
       "Priority": "P1",
@@ -484,8 +521,11 @@
       "Account": "Amgen",
       "Category": "Biotech (multinacional)",
       "Confidence": "Alta",
+      "Contacto nominal": "Ryan Gill (clave), María Eugenia Osa (Rare Disease Manager) — a verificar",
       "Date added": "2026-09-20",
+      "Ex cliente de Fer": true,
       "Format bought": "Miembro FIFARMA + Interfarma; cliente Bubblegum; activación Mundial 2026",
+      "Historia con Fer": "Ex cliente de Fer (lista 24-11-2026). Persona clave: Ryan Gill. Contacto personal: Ariosto Matus. Tema conversado: Value of Innovation; querían información, infografías locales y sobre todo assets. Según Fer: cuenta difícil, NO prioritaria.",
       "LatAm fit": "Alto",
       "Oferta HS": "Co-autoria de indice (ya produce reportes propios)",
       "Outreach status": "Researching",
@@ -503,8 +543,11 @@
       "Account": "AstraZeneca",
       "Category": "Pharma (multinacional)",
       "Confidence": "Alta",
+      "Contacto nominal": "Ricardo Blanco (México, ricardo.blanco1@astrazeneca.com), Laura García — a verificar",
       "Date added": "2026-09-20",
+      "Ex cliente de Fer": true,
       "Format bought": "Miembro FIFARMA + AMIIF + Interfarma",
+      "Historia con Fer": "Ex cliente de Fer. Temas conversados: proyectos de enfermedad renal crónica (CKD) y cáncer de pulmón; mucho interés en detección temprana y su impacto en la toma de decisiones. Hoy: propuesta HS a AstraZeneca México (Ricardo Blanco) enviada 18-11-2026, en espera. Otro contacto a explorar: Laura García.",
       "LatAm fit": "Alto",
       "Oferta HS": "Co-autoria de indice (ya produce reportes propios)",
       "Outreach status": "Researching",
@@ -593,6 +636,17 @@
       "What to offer": "Colombiana, ticket chico, decision rapida."
     },
     "id": "rec8yuwMC0WXC4CsW"
+  },
+  {
+    "createdTime": "2026-11-24T21:58:51.000Z",
+    "fields": {
+      "Account": "C40 Cities",
+      "Category": "Red de ciudades / ONG",
+      "Date added": "2026-11-24",
+      "Ex cliente de Fer": true,
+      "Historia con Fer": "Ex cliente de Fer (lista 24-11-2026; asumido C40 Cities, sin confirmar). Tema de entrada: pendiente de que Fer lo cuente."
+    },
+    "id": "rec9eWeypsm3qcacm"
   },
   {
     "createdTime": "2026-09-20T22:44:21.000Z",
@@ -689,6 +743,15 @@
     "id": "recAIcaWK1G6azFXe"
   },
   {
+    "createdTime": "2026-11-24T22:07:00.000Z",
+    "fields": {
+      "Account": "Viatris",
+      "Contacto nominal": "Sin contacto vigente (Antonio Arce se fue a MSD)",
+      "Historia con Fer": "Fer (24-11-2026): su contacto era Tony (Antonio) Arce, que se fue (hoy en Merck & Co./MSD, ver cuenta MSD). Sin contacto vigente en Viatris. Fer lo dictó como \"Beatriz\"; se asume Viatris."
+    },
+    "id": "recAVL1ZaOpyDY5my"
+  },
+  {
     "createdTime": "2026-09-21T04:57:36.000Z",
     "fields": {
       "Account": "TeraRecon",
@@ -754,6 +817,7 @@
       "Date added": "2026-09-21",
       "Email verificado": "sandra.ocampo@medtronic.com",
       "Format bought": "Listado en Guia Sectorial de Proveedores, categoria Equipamiento medico",
+      "Historia con Fer": "Prioridad MedTech según Fer (24-11-2026). Sin contactos nominales dictados.",
       "LatAm fit": "Alto",
       "Oferta HS": "Co-autoria de indice (ya produce reportes propios)",
       "Priority": "P1",
@@ -789,8 +853,11 @@
       "Account": "Abbott Diagnostics",
       "Category": "Diagnostico in vitro",
       "Confidence": "Alta",
+      "Contacto nominal": "Sara Abadi — Latin American Marketing, Core Lab (Core Diagnostics) [email sin registrar]",
       "Date added": "2026-09-21",
+      "Ex cliente de Fer": true,
       "Format bought": "Listado en Guia Sectorial de Proveedores (jul 2026) - no confirmado si es pago o editorial",
+      "Historia con Fer": "Ex cliente de Fer. Fer (24-11-2026): Abbott en Latinoamérica tiene que estar en el radar (toda la compañía, no solo Diagnostics). En la lista MedTech Fer nombró \"Alere\" (diagnóstico rápido; hoy parte de Abbott). Fer contactó a Michael White (LatAm y Canadá), quien lo derivó a Sara Abadi (Latin American Marketing, Core Lab; controla todas las unidades de negocio de Core Diagnostics). Temas: diabetes, enfermedad renal crónica (CKD) y prevención cardíaca.",
       "LatAm fit": "Alto",
       "Oferta HS": "Co-autoria de indice (ya produce reportes propios)",
       "Priority": "P1",
@@ -876,6 +943,26 @@
     "id": "recDDPTAAK2Pzl1Y9"
   },
   {
+    "createdTime": "2026-11-24T21:58:51.000Z",
+    "fields": {
+      "Account": "Kenvue",
+      "Category": "Consumer health",
+      "Date added": "2026-11-24",
+      "Ex cliente de Fer": true,
+      "Historia con Fer": "Ex cliente de Fer (consumer health; lista 24-11-2026). Tema de entrada: pendiente de que Fer lo cuente."
+    },
+    "id": "recDPdPZrrbpUt8tw"
+  },
+  {
+    "createdTime": "2026-11-24T22:22:09.000Z",
+    "fields": {
+      "Account": "FIFARMA (Federación Latinoamericana de la Industria Farmacéutica)",
+      "Contacto nominal": "Janet (apellido pendiente), Silvana Lai — a verificar",
+      "Historia con Fer": "Gremio regional. Fer (24-11-2026): reconectar con Janet y Silvana Lai. Varios ex contactos de Fer pasaron por comités de FIFARMA (Pfizer, Juan Luis García de MSD)."
+    },
+    "id": "recDwHkMGxJ24EbS7"
+  },
+  {
     "createdTime": "2026-09-21T04:57:36.000Z",
     "fields": {
       "Account": "Natus Medical",
@@ -899,9 +986,11 @@
       "Account": "Bristol Myers Squibb",
       "Category": "Pharma (multinacional)",
       "Confidence": "Alta",
-      "Contacto nominal": "Oswaldo Bernal, General Manager Mexico (fuente: PharmaBoardroom Mexico Pharma Report 2025 - verificar vigencia)",
+      "Contacto nominal": "Alejandra Loureiro (Policy), Florencia Dave (presidenta LatAm) — a verificar; también Oswaldo Bernal, GM Mexico (PharmaBoardroom 2025)",
       "Date added": "2026-09-20",
+      "Ex cliente de Fer": true,
       "Format bought": "Miembro FIFARMA + Interfarma",
+      "Historia con Fer": "Ex cliente de Fer (lista 24-11-2026). Tema muy importante: dermatología (Fer lo dijo de \"VMS\", se asume BMS). Contactos a explorar: Alejandra Loureiro (a cargo de Policy) y Florencia Dave (presidenta, \"de la TAM\" = probablemente LatAm).",
       "LatAm fit": "Alto",
       "Oferta HS": "Co-autoria de indice (ya produce reportes propios)",
       "Outreach status": "Researching",
@@ -953,8 +1042,10 @@
       "Account": "Siemens Healthineers",
       "Category": "Imagenologia diagnostica",
       "Confidence": "Media",
+      "Contacto nominal": "Guillermo Fernández (Head of Strategy LatAm), Jorge Espinosa (Estrategia), Jason Velázquez — a verificar",
       "Date added": "2026-09-21",
       "Format bought": "Listado en Guia Sectorial de Proveedores (jul 2026) - no confirmado si es pago o editorial",
+      "Historia con Fer": "Prioridad MedTech según Fer (24-11-2026). Contactos de Fer: Jorge Espinosa (Estrategia), Guillermo Fernández (Head of Strategy América Latina), Jason Velázquez (cargo sin registrar). Sin emails.",
       "LatAm fit": "Alto",
       "Oferta HS": "Articulo / entrevista / webinar (ya compra contenido en medios)",
       "Priority": "P1",
@@ -964,6 +1055,17 @@
       "What to offer": "Operacion regional fuerte y presupuesto de marketing B2B grande. Ticket alto."
     },
     "id": "recG1mhDFVY39BAdH"
+  },
+  {
+    "createdTime": "2026-11-24T21:58:51.000Z",
+    "fields": {
+      "Account": "OPS / PAHO",
+      "Category": "Organismo multilateral",
+      "Date added": "2026-11-24",
+      "Ex cliente de Fer": true,
+      "Historia con Fer": "Ex cliente de Fer (\"Pajo\", confirmado OPS el 24-11-2026). En paralelo: Jarbas Barbosa (director) aceptó Voices el 19-11 y derivó a Ashley Baldwin (comunicaciones). Tema de entrada: pendiente de que Fer lo cuente."
+    },
+    "id": "recGRKm9gf09iwq8d"
   },
   {
     "createdTime": "2026-09-21T04:57:36.000Z",
@@ -1026,6 +1128,7 @@
       "Confidence": "Media",
       "Date added": "2026-09-21",
       "Format bought": "Listado en Guia Sectorial de Proveedores (jul 2026) - no confirmado si es pago o editorial",
+      "Historia con Fer": "Prioridad MedTech según Fer (24-11-2026). Sin contactos nominales dictados.",
       "LatAm fit": "Alto",
       "Oferta HS": "Co-autoria de indice (ya produce reportes propios)",
       "Priority": "P1",
@@ -1042,8 +1145,11 @@
       "Account": "AbbVie",
       "Category": "Pharma (multinacional)",
       "Confidence": "Alta",
+      "Contacto nominal": "Ana Paula (apellido pendiente; confirmado AbbVie por Fer 24-11-2026)",
       "Date added": "2026-09-20",
+      "Ex cliente de Fer": true,
       "Format bought": "Miembro FIFARMA + Interfarma (Consejo Director)",
+      "Historia con Fer": "Ex cliente de Fer, cuenta muy importante: tenía clientes ahí y trabajó mucho (24-11-2026). Temas trabajados: IBD (inflammatory bowel disease) y oncología (hemato-oncología, cáncer de ovario). Otros temas de interés: inmunología, dermatología, neurociencias. Contactos nominales: sin registrar.",
       "LatAm fit": "Alto",
       "Oferta HS": "Co-autoria de indice (ya produce reportes propios)",
       "Outreach status": "Researching",
@@ -1199,8 +1305,10 @@
       "Account": "Astellas Pharma",
       "Category": "Pharma (multinacional)",
       "Confidence": "Alta",
+      "Contacto nominal": "Marcela Jaramillo — a verificar",
       "Date added": "2026-09-20",
       "Format bought": "Miembro FIFARMA + Interfarma",
+      "Historia con Fer": "Contacto a reconectar según Fer (24-11-2026): Marcela Jaramillo.",
       "LatAm fit": "Alto",
       "Oferta HS": "Co-autoria de indice (ya produce reportes propios)",
       "Outreach status": "Researching",
@@ -1270,9 +1378,11 @@
       "Account": "Hologic",
       "Category": "Imagenologia / salud de la mujer",
       "Confidence": "Alta",
+      "Contacto nominal": "Renata Daglio — Regulatory Market Manager LATAM",
       "Date added": "2026-09-21",
-      "Email verificado": "SalesSupport@hologic.com",
+      "Email verificado": "renata.daglio@hologic.com",
       "Format bought": "Listado en Guia Sectorial de Proveedores (confirmado en la version completa de la guia)",
+      "Historia con Fer": "Cuenta a seguir y prioridad MedTech (Fer, 24-11-2026; no figura como ex cliente). Contacto: Renata Daglio, Regulatory Market Manager LATAM; tel +55 11 99360-8050.",
       "LatAm fit": "Alto",
       "Oferta HS": "Co-autoria de indice (ya produce reportes propios)",
       "Priority": "P1",
@@ -1414,8 +1524,11 @@
       "Account": "Bayer",
       "Category": "Pharma (multinacional)",
       "Confidence": "Alta",
+      "Contacto nominal": "Ana María Sarabia (Policy regional), Alicia Duque (comunicación), Dora Cano, Tiago (Healthcare Innovation comms) — a verificar",
       "Date added": "2026-09-20",
+      "Ex cliente de Fer": true,
       "Format bought": "Miembro Interfarma (Consejo Director); campaña Natele MX (agencia Códice)",
+      "Historia con Fer": "Ex cliente de Fer (lista 24-11-2026). También en conversación vía Knight Pawn (Harold Hamana) para Q1 2027. Contactos a explorar: Alicia Duque (comunicación), Dora Cano, Ana María Sarabia (Policy regional); en comunicaciones de Healthcare Innovation, Tiago (apellido sin registrar).",
       "LatAm fit": "Alto",
       "Oferta HS": "Co-autoria de indice (ya produce reportes propios)",
       "Outreach status": "Researching",
@@ -1629,6 +1742,14 @@
     "id": "recSEH1T0i2Hlbzkd"
   },
   {
+    "createdTime": "2026-11-24T22:02:49.000Z",
+    "fields": {
+      "Account": "Oral-B LatAm (P&G)",
+      "Historia con Fer": "Fer (24-11-2026): importante estar en contacto, empresa con la que podríamos trabajar. Sin contactos nominales dictados."
+    },
+    "id": "recSFAum3xgV7iGXp"
+  },
+  {
     "createdTime": "2026-09-20T22:03:16.000Z",
     "fields": {
       "Account": "Laboratorios Bago",
@@ -1672,8 +1793,10 @@
       "Account": "Roche Diagnostics",
       "Category": "Diagnostico in vitro",
       "Confidence": "Alta",
+      "Contacto nominal": "Vanessa (Montevideo), Rocío (Colombia) — apellidos pendientes",
       "Date added": "2026-09-21",
       "Format bought": "Listado en Guia Sectorial de Proveedores (jul 2026) - no confirmado si es pago o editorial",
+      "Historia con Fer": "Contactos de Fer (24-11-2026): Vanessa (Montevideo) y Rocío (Colombia), apellidos sin registrar.",
       "LatAm fit": "Alto",
       "Oferta HS": "Co-autoria de indice (ya produce reportes propios)",
       "Priority": "P1",
@@ -1763,8 +1886,10 @@
       "Account": "Gilead Sciences",
       "Category": "Pharma (multinacional)",
       "Confidence": "Alta",
+      "Contacto nominal": "Luciano Zylberberg (luciano.zylberberg@gilead.com) — cargo a confirmar; prioridad alta",
       "Date added": "2026-09-20",
       "Format bought": "Miembro FIFARMA",
+      "Historia con Fer": "Fer (24-11-2026, confirmado): es muy importante continuar hablando con Luciano Zylberberg (luciano.zylberberg@gilead.com). 20-11-2026: le gusta mucho HealthSignals, quiere trabajar con nosotros y tiene ideas propias a partir de nuestras notas sobre Gilead (lenacapavir).",
       "LatAm fit": "Alto",
       "Oferta HS": "Co-autoria de indice (ya produce reportes propios)",
       "Outreach status": "Researching",
@@ -1775,6 +1900,30 @@
       "What to offer": "Research/editorial co-branded sobre brechas de acceso y utilización de PrEP y hepatitis virales subdiagnosticadas en LatAm, anclado en la alianza Gilead–PAHO. Apetito: alianza Gilead-PAHO (lenacapavir PrEP, 14 países, sep-2026), Corporate Giving VIH/hepatitis, Media Masterclass con periodistas BR."
     },
     "id": "recUXd8bGLsQEBKEf"
+  },
+  {
+    "createdTime": "2026-11-24T21:58:51.000Z",
+    "fields": {
+      "Account": "Edelman (Edelman Global Advisory)",
+      "Category": "Agencia de comunicación",
+      "Contacto nominal": "Juanita Barrios (clave), Daniel Quiroga (regulación salud), Nicolás Puellar (comunicaciones salud) — Colombia; Gina Rubelo — Miami; Jorge Díaz, Carla Urribarri — a verificar",
+      "Date added": "2026-11-24",
+      "Ex cliente de Fer": true,
+      "Historia con Fer": "Ex cliente de Fer. Edelman Global Advisory, Colombia. Persona clave a retomar: Juanita Barrios (Public Affairs). Área salud: Daniel Quiroga (regulación) y Nicolás Puellar (comunicaciones). También dictados: Jorge Díaz (Public Affairs), Carla Urribarri, Daniel Ortega (¿mismo que Daniel Quiroga? a confirmar). Miami: Gina Rubelo, contacto anterior de Fer. Reuniones con Natalia Martínez sobre cáncer de pulmón. (24-11-2026; nombres dictados, sin emails verificados)"
+    },
+    "id": "recVYJvg1zle6Uj0K"
+  },
+  {
+    "createdTime": "2026-11-24T21:58:51.000Z",
+    "fields": {
+      "Account": "GSK",
+      "Category": "Pharma (multinacional)",
+      "Contacto nominal": "S.G. Erdogan (Market Access, Emerging Markets) / Eduardo Soler — a verificar",
+      "Date added": "2026-11-24",
+      "Ex cliente de Fer": true,
+      "Historia con Fer": "Ex cliente de Fer. Equipo Emerging Markets (entonces en Polonia): S.G. Erdogan (Market Access) y Eduardo Soler, nombres a verificar. Querían trabajar enfermedades respiratorias: incidir en política y acceso al cuidado (médicos, atención), crear un índice para impulsar mejoras, un paper de validación y engagement con policy makers; hablaban de un índice respiratorio dentro del Health Inclusivity Index. También oncología. Oferta HS: índice respiratorio propio (nombre y metodología de HS, no el HII)."
+    },
+    "id": "recVuStAbgBkrCCKa"
   },
   {
     "createdTime": "2026-09-20T22:44:21.000Z",
@@ -1972,6 +2121,7 @@
       "Confidence": "Alta",
       "Date added": "2026-09-20",
       "Format bought": "Playbook patrocinado (sterile development) + Trendline de biotech",
+      "Historia con Fer": "Prioridad MedTech según Fer (24-11-2026). Sin contactos nominales dictados.",
       "LatAm fit": "Alto",
       "Oferta HS": "Articulo / entrevista / webinar (ya compra contenido en medios)",
       "Priority": "P1",
@@ -2099,9 +2249,11 @@
       "Account": "Novo Nordisk",
       "Category": "Pharma (multinacional, obesidad/diabetes)",
       "Confidence": "Alta",
-      "Contacto nominal": "Valney Suzuki, VP & General Manager Mexico (fuente: PharmaBoardroom Mexico Pharma Report 2025 - verificar vigencia)",
+      "Contacto nominal": "Eduardo Imperatriz Ferraço (buscar en LinkedIn de Fer) — caliente; también Valney Suzuki, VP & GM Mexico (PharmaBoardroom 2025)",
       "Date added": "2026-09-20",
+      "Ex cliente de Fer": true,
       "Format bought": "Miembro Interfarma (Consejo Director); líder obesidad/diabetes MX",
+      "Historia con Fer": "Ex cliente de Fer. Temas conversados: proyectos de obesidad alrededor del World Obesity Day (4 de marzo) y un LATAM Obesity Tracker. En sus últimos días en The Economist, Fer contactó a Eduardo Imperatriz Ferraço (nombre a confirmar; está en el LinkedIn de Fer): interesado en trabajar con nosotros; margen para explorar con HealthSignals, sobre todo educación de pacientes.",
       "LatAm fit": "Alto",
       "Oferta HS": "Co-autoria de indice (ya produce reportes propios)",
       "Outreach status": "Researching",
@@ -2215,9 +2367,11 @@
       "Account": "Eli Lilly",
       "Category": "Pharma (multinacional)",
       "Confidence": "Alta",
-      "Contacto nominal": "Karla Alcazar, SVP LatAm (fuente: PharmaBoardroom Mexico Pharma Report 2025 - verificar vigencia)",
+      "Contacto nominal": "Juliana Karina Quiñones y Rubén Ortiz Vázquez (Market Access & Public Affairs); también en llamada: Julio Zapata, Laura Liaño, Claudio Vincenzo Fiorentini, José Luis Zaragoza — emails a conseguir; Karla Alcazar, SVP LatAm (PharmaBoardroom 2025)",
       "Date added": "2026-09-20",
+      "Ex cliente de Fer": true,
       "Format bought": "Miembro FIFARMA + Interfarma; banner Saludiario MX + Host City CDMX (agencia Edelman)",
+      "Historia con Fer": "Ex cliente de Fer: buenos compradores y buenos clientes suyos. Contactos clave: Juliana Karina Quiñones y Rubén Ortiz Vázquez (Market Access y Public Affairs); 24-11-2026 Fer intenta hablar con ellos. Países principales: Brasil, Colombia, México. Temas: obesidad (proyectos alrededor del World Obesity Day, 4 de marzo) y Alzheimer. Querían ver diagnóstico, impacto, próximos pasos comerciales y contactos con médicos; tenían eventos; cómo influir en ANVISA (Brasil) e INVIMA (Colombia); entender prácticas regulatorias.\n\nLlamada con Lilly (Value Access / Corporate Affairs): participaron Laura Liaño, Julio Zapata, Claudio Vincenzo Fiorentini, Juliana Karina Quiñones y José Luis Zaragoza. Temas: obesidad y Alzheimer. Problemas que plantearon Juliana y Julio: diagnóstico, guidelines, cómo entra el tratamiento al sistema, recursos y financiamiento, payers que no pagan (hoy Alzheimer paga cero), por qué pagarían una nueva droga y cómo empujar al gobierno a pagar esos tratamientos. Fer menciona que en EE.UU. se aprobó hace poco un plan para tratar Alzheimer (sin verificar). Oportunidad: trabajos para potenciar organizaciones de pacientes y otros stakeholders sobre la importancia del tratamiento temprano; todo lo de diagnóstico de Alzheimer; lanzar un barómetro; shape the environment (diagnóstico, biomarcadores).\n\nObesidad (conversación anterior): primer challenge, la idea de que \"obesity is not a disease\" (instalar que sí lo es); análisis de burden of disease; la estrategia actual falla, ver cómo influir la política pública y cuál es el mejor argumento. México específicamente: instituciones del sector salud; análisis costo-efectividad (años de vida ganados por curar la diabetes); crear un índice de QALY (quality-adjusted life years); comparar cómo se evalúa en México vs. cómo se elaboran los QALY, por qué el argumento estaba equivocado, ventajas y desventajas; armar un tracker. Era muy importante para ellos entonces; Fer no sabe si lo es hoy.",
       "LatAm fit": "Alto",
       "Oferta HS": "Co-autoria de indice (ya produce reportes propios)",
       "Outreach status": "Researching",
@@ -2249,6 +2403,17 @@
       "What to offer": "La cadencia de reporte mas consistente de Mexico (4 anos seguidos, bilingue). Senal fuerte de habito y presupuesto de publicacion."
     },
     "id": "rece4S6G8eUkDMabf"
+  },
+  {
+    "createdTime": "2026-11-24T21:58:51.000Z",
+    "fields": {
+      "Account": "BeiGene (BeOne Medicines)",
+      "Category": "Pharma (oncología)",
+      "Date added": "2026-11-24",
+      "Ex cliente de Fer": true,
+      "Historia con Fer": "Ex cliente de Fer (\"Beijing\", confirmado BeiGene el 24-11-2026). Tema de entrada: pendiente de que Fer lo cuente."
+    },
+    "id": "receC7u6BTVk16Qkh"
   },
   {
     "createdTime": "2026-09-20T18:29:03.000Z",
@@ -2290,7 +2455,9 @@
       "Category": "Biofarma (neurologia)",
       "Confidence": "Alta",
       "Date added": "2026-09-20",
+      "Ex cliente de Fer": true,
       "Format bought": "Premium Sponsor del STAT Summit 2025",
+      "Historia con Fer": "Ex cliente de Fer (lista 24-11-2026). Tema de entrada: pendiente de que Fer lo cuente.",
       "LatAm fit": "Medio",
       "Oferta HS": "Co-autoria de indice (ya produce reportes propios)",
       "Priority": "P2",
@@ -2467,6 +2634,15 @@
     "id": "reckKh4J2aG6uLLCs"
   },
   {
+    "createdTime": "2026-11-24T22:09:43.000Z",
+    "fields": {
+      "Account": "Lyra Health",
+      "Ex cliente de Fer": true,
+      "Historia con Fer": "Ex cliente de Fer, trabajó con ellos mucho tiempo; buen cliente, pagaban muy bien. Según Fer es cliente bastante exclusivo de The Economist y no va a tener llegada (24-11-2026). Baja prioridad."
+    },
+    "id": "reckS0EzAjD0ZLCbn"
+  },
+  {
     "createdTime": "2026-09-20T17:53:24.000Z",
     "fields": {
       "Account": "HaloMD",
@@ -2493,6 +2669,7 @@
       "Confidence": "Media",
       "Date added": "2026-09-21",
       "Format bought": "Listado en DOS categorias de la guia (Equipamiento medico e Imagenologia) - unica empresa con doble listado",
+      "Historia con Fer": "Prioridad MedTech según Fer (24-11-2026). Sin contactos nominales dictados.",
       "LatAm fit": "Alto",
       "Oferta HS": "Articulo / entrevista / webinar (ya compra contenido en medios)",
       "Priority": "P1",
@@ -2502,6 +2679,17 @@
       "What to offer": "Unica empresa listada en dos categorias de la guia, lo que sugiere presencia comercial pagada y no solo directorio. Lider global de imagenologia con operacion grande en LatAm. Ticket alto."
     },
     "id": "reclEAXJGXE8IWTEv"
+  },
+  {
+    "createdTime": "2026-11-24T21:58:51.000Z",
+    "fields": {
+      "Account": "JeffreyGroup",
+      "Category": "Agencia de comunicación",
+      "Date added": "2026-11-24",
+      "Ex cliente de Fer": true,
+      "Historia con Fer": "Ex cliente de Fer (lista 24-11-2026). Trabaja con AstraZeneca (dicho por Fer 13-11). Tema de entrada: pendiente de que Fer lo cuente."
+    },
+    "id": "reclLTFrkbRSROwdI"
   },
   {
     "createdTime": "2026-09-21T12:57:40.000Z",
@@ -2633,14 +2821,28 @@
     "id": "recpaBz6nVmyhL9y9"
   },
   {
+    "createdTime": "2026-11-24T21:58:51.000Z",
+    "fields": {
+      "Account": "Organon",
+      "Category": "Pharma (multinacional)",
+      "Contacto nominal": "Próximo paso según Fer: hablar con Gira Rosalba (Policy). También: Rafael Chávez (jefe), Susana Guitar (MA Colombia), Ricardo Salazar — a verificar",
+      "Date added": "2026-11-24",
+      "Ex cliente de Fer": true,
+      "Historia con Fer": "Ex cliente de Fer (lista 24-11-2026). Historia: Fer habló con Eric Baker (México/LatAm, ya no trabaja ahí); tema anticonceptivos; no se avanzó. Foco de Organon: concepción e inseminación in vitro, y sobre todo policy: garantizar crecimiento de poblaciones, métodos anticonceptivos de larga duración. Contactos de Fer: Susana Guitar (Market Access Colombia); Gira Rosalba (Policy \"de la TAM\", conoce a Fer de otras empresas; orden nombre/apellido a confirmar); jefe de todos: Rafael Chávez (no contesta mucho las llamadas); seguir contactando a Ricardo Salazar."
+    },
+    "id": "recpedjkDVYk9zbGy"
+  },
+  {
     "createdTime": "2026-09-20T18:29:03.000Z",
     "fields": {
       "Account": "Takeda",
       "Category": "Pharma (multinacional)",
       "Confidence": "Alta",
-      "Contacto nominal": "Hernan Porcile, General Manager Mexico (fuente: PharmaBoardroom Mexico Pharma Report 2025 - verificar vigencia)",
+      "Contacto nominal": "Adriana Méndez — General Manager según Fer (a confirmar: en CRM figura Mariana Méndez López, Market Access & Corporate Affairs Cluster Head LatAm); Claudia Burgos (Brasil, claudia.burgos@takeda.com); también Hernan Porcile, GM Mexico (PharmaBoardroom 2025)",
       "Date added": "2026-09-20",
+      "Ex cliente de Fer": true,
       "Format bought": "Miembro FIFARMA + Interfarma; campaña Neosaldina Brasil (agencia Santa Clara)",
+      "Historia con Fer": "Ex cliente de Fer; cuenta a re-engage (24-11-2026). Contacto a explorar según Fer: \"Claudia Borges\" en Brasil, casi seguro Claudia Burgos (Corporate Communication Associated Director Brasil & LatAm, claudia.burgos@takeda.com, ya en CRM). También en CRM: Mariana Méndez López, Verónica Sosa, Jairo Bello Castillo, Maite Tazon, Monica Assef, Diego Cortina.",
       "LatAm fit": "Alto",
       "Oferta HS": "Co-autoria de indice (ya produce reportes propios)",
       "Outreach status": "Researching",
@@ -3062,9 +3264,11 @@
       "Account": "Sanofi",
       "Category": "Pharma (multinacional)",
       "Confidence": "Alta",
-      "Contacto nominal": "Emily Morris, Head LatAm (fuente: PharmaBoardroom Mexico Pharma Report 2025 - verificar vigencia)",
+      "Contacto nominal": "Alejandra Martínez (\"fue buena ayudante\"; probablemente la \"Alexandra\" dictada antes), Daniel Lechuga (Boston), Andrés Caicedo — a verificar; también Emily Morris, Head LatAm (PharmaBoardroom 2025)",
       "Date added": "2026-09-20",
+      "Ex cliente de Fer": true,
       "Format bought": "Miembro FIFARMA + Interfarma; Medley (Brasil), Opella/Novalgina; cliente Bubblegum",
+      "Historia con Fer": "Ex cliente de Fer (lista 24-11-2026; Fer trabajó mucho con Sanofi en LatAm). Personas con las que Fer tiene que hablar: Andrés Caicedo y Alexandra (apellido sin registrar). Tema conversado con Andrés Caicedo: \"Epoch Awareness\" (dictado así; probablemente EPOC = enfermedad pulmonar obstructiva crónica, a confirmar).\n\nDaniel Lechuga (Sanofi, Boston): candidato a conversar. Se habló de hacer estudios con Dupixent en COPD/EPOC y con rilzabrutinib (Fer los mencionó juntos; son moléculas distintas). Quería entender cómo funcionaría en emerging markets, cómo hablar con los pagadores, quiénes son los decision makers y cómo llevarlos a invertir en innovación.",
       "LatAm fit": "Alto",
       "Oferta HS": "Co-autoria de indice (ya produce reportes propios)",
       "Outreach status": "Researching",
@@ -3082,8 +3286,11 @@
       "Account": "MSD (Merck & Co.)",
       "Category": "Pharma (multinacional)",
       "Confidence": "Alta",
+      "Contacto nominal": "Clave según Fer: Sinira Marcondes (Brasil, buena llegada, oportunidad), Paulo Ley (Oncology & Gov. Relations Lead, re-engage), Diego Guarín y Margarita Restrepo (Market Access LatAm; margarita.restrepo@merck.com), Juan Luis García (vacunas, ex FIFARMA). También: Laura Dachner, Martin Salazar Duran, Antonio Arce",
       "Date added": "2026-09-20",
+      "Ex cliente de Fer": true,
       "Format bought": "Miembro FIFARMA + AMIIF + Interfarma",
+      "Historia con Fer": "Ex cliente de Fer; cuenta a re-engage (24-11-2026). Historia: buena relación con Karina Basterrica (ya se fue); temas: cáncer cervical y de mama. Paulo Ley: en 2024 era Oncology & Government Relations Lead (Policy), le interesaba lung cancer; Fer lo contactó y no respondió mucho, hay que re-engagearlo. Sinira Marcondes (Brasil): temas breast, lung y cervical cancer; Fer tiene buena llegada, posible oportunidad de trabajo con HealthSignals. En CRM Prospects: Laura Dachner (laura.dachner@merck.com), Martin Salazar Duran (martin.salazar1@merck.com), Marina Caprioli, Margarita Restrepo, Juan David Hernández Ortiz, Erika Velásquez Cujar, Mauricio Cuadra, Bruna Capucci. Antonio Arce contactado 24-11.",
       "LatAm fit": "Alto",
       "Oferta HS": "Co-autoria de indice (ya produce reportes propios)",
       "Outreach status": "Researching",
@@ -3214,6 +3421,14 @@
     "id": "recz9FvXvBwWjKfWV"
   },
   {
+    "createdTime": "2026-11-24T22:02:49.000Z",
+    "fields": {
+      "Account": "Boston Scientific",
+      "Historia con Fer": "Prioridad MedTech según Fer (24-11-2026). Sin contactos nominales dictados."
+    },
+    "id": "reczJjYHOT9eM3Bhq"
+  },
+  {
     "createdTime": "2026-09-20T21:44:21.000Z",
     "fields": {
       "Account": "Global Market Access Solutions",
@@ -3238,8 +3453,11 @@
       "Account": "Pfizer",
       "Category": "Pharma (multinacional)",
       "Confidence": "Alta",
+      "Contacto nominal": "Carlos Murillo — VP regional Brasil (dictado por Fer, a verificar)",
       "Date added": "2026-09-20",
+      "Ex cliente de Fer": true,
       "Format bought": "Miembro FIFARMA + AMIIF + Interfarma; anunciante MX (agencia Carbono)",
+      "Historia con Fer": "Ex cliente de Fer, candidato (24-11-2026). Temas: oncología. Fer habló con una persona que estaba en un comité de FIFARMA (nombre sin registrar). Contacto a explorar: Carlos Murillo, VP regional Brasil.",
       "LatAm fit": "Alto",
       "Oferta HS": "Co-autoria de indice (ya produce reportes propios)",
       "Outreach status": "Researching",
@@ -3250,6 +3468,19 @@
       "What to offer": "Serie de research co-branded 'acceso equitativo y ecosistemas de salud' (su Visión 2030), anclada en vacunas/mRNA y oncología + market access intelligence MX/BR. Ya invierte: PfizerPro webinars, Visión 2030 con periodistas médicos, DIA LatAm."
     },
     "id": "reczTB6eN2kXUTCgV"
+  },
+  {
+    "createdTime": "2026-11-24T21:58:51.000Z",
+    "fields": {
+      "Account": "City Cancer Challenge (C/Can)",
+      "Category": "ONG (oncología)",
+      "Contacto nominal": "Isabel Mestres — CEO",
+      "Date added": "2026-11-24",
+      "Email verificado": "mestres@citycancerchallenge.org",
+      "Ex cliente de Fer": true,
+      "Historia con Fer": "Ex cliente de Fer. Isabel Mestres (CEO) le dijo que podían conversar más adelante y que lo pondría en contacto con colegas. 24-11-2026: mail de reconexión + Brief 04 enviado; propuesta de 30' con ella y colegas."
+    },
+    "id": "reczTU9F1gedkBPMw"
   },
   {
     "createdTime": "2026-09-20T17:53:24.000Z",

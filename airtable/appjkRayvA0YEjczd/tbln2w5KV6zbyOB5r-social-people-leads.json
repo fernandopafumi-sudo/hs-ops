@@ -77,6 +77,21 @@
     "id": "rec5imKHr8O2GG8OJ"
   },
   {
+    "createdTime": "2026-11-25T13:58:08.000Z",
+    "fields": {
+      "Country": "Chile",
+      "Date Found": "2026-11-25",
+      "Found Via": "https://www.infogate.cl/2026/11/fundaci-n-c-ncer-vida-llama-a-pasar-del-debate-a-la-acci-n-para-ampliar-el-acceso-a-tratamientos-con-biosimilares/",
+      "Lead Type": "Advisory / KOL",
+      "Name": "Daniela Paredes",
+      "Organization": "ISPOR Chile / Medtronic",
+      "Role": "Presidenta de ISPOR Chile; directora Market Access & Public Affairs, Medtronic SouthLatam",
+      "Status": "New",
+      "Why": "Planteó que los biosimilares necesitan una estrategia de política pública además de evidencia (congreso Biosimilares en Cáncer). Fit: KOL en economía de la salud y también prospecto comercial (market access en medtech). Cargo de ISPOR Chile confirmado en fonasa.gob.cl."
+    },
+    "id": "rec6tWMFSD1ne3YOu"
+  },
+  {
     "createdTime": "2026-10-18T18:03:26.000Z",
     "fields": {
       "Country": "Other",
@@ -104,6 +119,21 @@
       "Why": "Modératrice do painel 'Saúde Suplementar em Transição' (Rio Health Forum, 12-11) y panelista de 'Da Incorporação ao Acesso Efetivo'; en junio explicó el levantamiento de Interfarma según el cual 57,5% de los medicamentos judicializados ya estaban incorporados o con recomendación de incorporación al SUS (Futuro da Saúde, 22-06). Fit: voz con audiencia en acceso, incorporación y judicialización en Brasil; también puerta de entrada temática a Interfarma (Renato Porto ya está en CRM Prospects). Cargo según la página de Interfarma. Sin email publicado."
     },
     "id": "rec91PjJtHWZPxQEw"
+  },
+  {
+    "createdTime": "2026-11-25T13:58:08.000Z",
+    "fields": {
+      "Country": "Brasil",
+      "Date Found": "2026-11-25",
+      "Found Via": "https://www.devex.com/news/come-to-brazil-fiocruz-eyes-joint-ventures-with-pharma-113950/amp",
+      "Lead Type": "Voices (entrevista)",
+      "Name": "Mario Moreira",
+      "Organization": "Fiocruz",
+      "Role": "Presidente",
+      "Status": "New",
+      "Why": "Entrevista con Devex (24-11): su prioridad del próximo año son acuerdos de desarrollo de producto con farmas más allá de la transferencia de tecnología. Fit: líder de manufacturero público con poder sobre producción y acceso. Cargo y mandato 2025-2028 en fiocruz.br."
+    },
+    "id": "recBlpcjwfpI0uh8D"
   },
   {
     "createdTime": "2026-11-09T13:57:05.000Z",
@@ -484,6 +514,21 @@
     "id": "recaUPZa8DXWYj3b8"
   },
   {
+    "createdTime": "2026-11-25T13:58:08.000Z",
+    "fields": {
+      "Country": "Brasil",
+      "Date Found": "2026-11-25",
+      "Found Via": "https://www.interfarma.org.br/acesso-inovacao-e-pesquisa-clinica-marcam-participacao-da-interfarma-no-rio-health-forum-2026/",
+      "Lead Type": "Advisory / KOL",
+      "Name": "Renato Porto",
+      "Organization": "Interfarma",
+      "Role": "Presidente ejecutivo",
+      "Status": "New",
+      "Why": "En el Rio Health Forum (13-11) defendió acuerdos de riesgo compartido como instrumento de acceso y citó que cerca de 57% de los medicamentos judicializados ya estarían incorporados al SUS (cifra suya). Fit: voz de industria con audiencia en acceso. Cargo en interfarma.org.br."
+    },
+    "id": "recbVMzypTu9a054x"
+  },
+  {
     "createdTime": "2026-11-18T13:57:54.000Z",
     "fields": {
       "Country": "Regional (Washington, D.C.)",
@@ -757,6 +802,21 @@
       "Why": "Detectado en fuentes abiertas durante la corrida de comentarios del 22-10-2026. Voz regulatoria de México."
     },
     "id": "recsVfq51PTcCNU7f"
+  },
+  {
+    "createdTime": "2026-11-25T13:58:08.000Z",
+    "fields": {
+      "Country": "Chile",
+      "Date Found": "2026-11-25",
+      "Found Via": "https://www.infogate.cl/2026/11/fundaci-n-c-ncer-vida-llama-a-pasar-del-debate-a-la-acci-n-para-ampliar-el-acceso-a-tratamientos-con-biosimilares/",
+      "Lead Type": "Voices (entrevista)",
+      "Name": "Jorge Canales",
+      "Organization": "Instituto de Salud Pública (ISP)",
+      "Role": "Jefe del Departamento Agencia Nacional de Medicamentos (ANAMED)",
+      "Status": "New",
+      "Why": "En el congreso Biosimilares en Cáncer (Fundación Cáncer Vida) dijo que el ISP trabaja en modificar la Norma Técnica 170 para evaluar biosimilares más rápido. Fit: regulador con poder sobre acceso. Cargo también en ispch.gob.cl (22-09-2026). Ojo: El Desconcierto 03-07-2026 publicó posible conflicto de interés, en revisión de Contraloría según ISP."
+    },
+    "id": "recsaf7289x3dciqI"
   },
   {
     "createdTime": "2026-10-23T12:57:08.000Z",

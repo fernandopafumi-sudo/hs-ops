@@ -252,12 +252,14 @@
     "fields": {
       "Email": "eduardo_betancourt@baxter.com",
       "First_Name": "Eduardo",
+      "Gmail_Message_ID": "1a213f2d9ca99357",
       "Language": "en",
       "Name": "Eduardo Betancourt",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.\n2026-11-25: invitación enviada (línea neutra)",
       "Organization": "Baxter",
       "Segment": "crm",
-      "Status": "Queued"
+      "Sent_At": "2026-11-25T18:25:00.000Z",
+      "Status": "Sent"
     },
     "id": "rec1VGf12GAIZlbmJ"
   },
@@ -396,12 +398,14 @@
       "Country": "Colombia",
       "Email": "mbustos1@its.jnj.com",
       "First_Name": "Maria",
+      "Gmail_Message_ID": "1a213f47cbaf8c66",
       "Language": "es",
       "Name": "Maria Camila Bustos Marquez",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.\n2026-11-25: invitación enviada (línea neutra)",
       "Organization": "Johnson & Johnson Innovative Medicine",
       "Segment": "crm",
-      "Status": "Queued"
+      "Sent_At": "2026-11-25T18:25:00.000Z",
+      "Status": "Sent"
     },
     "id": "rec2UWunZ8gdFajTj"
   },
@@ -460,12 +464,14 @@
     "fields": {
       "Email": "juancarlos.trujillo@sanofi.com",
       "First_Name": "Juan",
+      "Gmail_Message_ID": "1a213f48087af31b",
       "Language": "en",
       "Name": "Juan Carlos Trujillo",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.\n2026-11-25: invitación enviada (línea neutra)",
       "Organization": "Sanofi Pasteur Inc",
       "Segment": "crm",
-      "Status": "Queued"
+      "Sent_At": "2026-11-25T18:25:00.000Z",
+      "Status": "Sent"
     },
     "id": "rec2iLWbWh0zjhB4g"
   },
@@ -504,12 +510,14 @@
     "fields": {
       "Email": "vitor.rezende@thermofisher.com",
       "First_Name": "Viitor",
+      "Gmail_Message_ID": "1a213f48327a3498",
       "Language": "pt",
       "Name": "Viitor Rezende",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.\n2026-11-25: invitación enviada (línea neutra; saludo sin nombre porque First_Name 'Viitor' parece error de carga)",
       "Organization": "Thermofisher Brazil",
       "Segment": "crm",
-      "Status": "Queued"
+      "Sent_At": "2026-11-25T18:25:00.000Z",
+      "Status": "Sent"
     },
     "id": "rec2wRQPcoqnRq3zf"
   },
@@ -802,12 +810,14 @@
     "fields": {
       "Email": "danielle.young02@tevapharm.com",
       "First_Name": "Danielle",
+      "Gmail_Message_ID": "1a213f4845baec8e",
       "Language": "en",
       "Name": "Danielle Young",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.\n2026-11-25: invitación enviada (línea neutra)",
       "Organization": "Teva Pharmaceuticals USA Inc",
       "Segment": "crm",
-      "Status": "Queued"
+      "Sent_At": "2026-11-25T18:25:00.000Z",
+      "Status": "Sent"
     },
     "id": "rec527rVuliUYFKTy"
   },
@@ -2012,12 +2022,14 @@
     "fields": {
       "Country": "USA",
       "Email": "nposada@as-coa.org",
+      "Gmail_Message_ID": "1a213f4886a3162d",
       "Language": "en",
       "Name": "N. Posada (AS/COA)",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.\n2026-11-25: invitación enviada (línea neutra)",
       "Organization": "Americas Society / Council of the Americas",
       "Segment": "crm",
-      "Status": "Queued"
+      "Sent_At": "2026-11-25T18:25:00.000Z",
+      "Status": "Sent"
     },
     "id": "recCiXHnwBpltZdh0"
   },
@@ -2229,12 +2241,14 @@
     "fields": {
       "Email": "rcolnago@ptcbio.com",
       "First_Name": "Rafael",
+      "Gmail_Message_ID": "1a213f48bbbe9e8d",
       "Language": "pt",
       "Name": "Rafael Colnago",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.\n2026-11-25: invitación enviada (línea neutra)",
       "Organization": "PTC Farmacêutica do Brasil Ltda.",
       "Segment": "crm",
-      "Status": "Queued"
+      "Sent_At": "2026-11-25T18:25:00.000Z",
+      "Status": "Sent"
     },
     "id": "recEIs6xXzbFJAaAE"
   },
@@ -2389,12 +2403,14 @@
       "Country": "Other",
       "Email": "asomuyiwa@cirsci.org",
       "First_Name": "Anna",
+      "Gmail_Message_ID": "1a213f48fd9b4afe",
       "Language": "en",
       "Name": "Anna Somuyiwa",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.\n2026-11-25: invitación enviada (línea neutra)",
       "Organization": "CIRS - Centre for Innovation in Regulatory Science",
       "Segment": "crm",
-      "Status": "Queued"
+      "Sent_At": "2026-11-25T18:25:00.000Z",
+      "Status": "Sent"
     },
     "id": "recF8tIu9YIi237C5"
   },
@@ -2676,12 +2692,14 @@
       "Country": "Colombia",
       "Email": "omar_lombana_montoya@baxter.com",
       "First_Name": "Omar",
+      "Gmail_Message_ID": "1a213f493592b401",
       "Language": "es",
       "Name": "Omar Lombana Montoya",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.\n2026-11-25: invitación enviada (línea neutra)",
       "Organization": "Baxter",
       "Segment": "crm",
-      "Status": "Queued"
+      "Sent_At": "2026-11-25T18:25:00.000Z",
+      "Status": "Sent"
     },
     "id": "recGXXpl2fLv0NafG"
   },
@@ -2724,12 +2742,14 @@
       "Country": "Other",
       "Email": "amj@netgate.com.uy",
       "First_Name": "Alvaro",
+      "Gmail_Message_ID": "1a213f4948f2769e",
       "Language": "es",
       "Name": "Alvaro Martínez",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.\n2026-11-25: invitación enviada (línea neutra)",
       "Organization": "A.L.N. (Asociación de Laboratorios Nacionales, Uruguay)",
       "Segment": "crm",
-      "Status": "Queued"
+      "Sent_At": "2026-11-25T18:25:00.000Z",
+      "Status": "Sent"
     },
     "id": "recHDXbOesricdqsZ"
   },
@@ -3016,11 +3036,11 @@
       "Gmail_Message_ID": "1a20ecd7370d8714",
       "Language": "es",
       "Name": "Karina Basterrica",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.\n2026-11-24: invitación enviada (línea neutra)",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.\n2026-11-24: invitación enviada (línea neutra)\n2026-11-25: rebotó (550 5.4.1 Recipient address rejected: Access denied, msdcloud/merck.com, DSN hilo 1a20ecd7370d8714). Posible bloqueo de dominio merck.com: no reintentar.",
       "Organization": "Merck Sharp & Dohme (LA) LLC",
       "Segment": "crm",
       "Sent_At": "2026-11-24T18:42:00.000Z",
-      "Status": "Sent"
+      "Status": "Bounced"
     },
     "id": "recIrfoq0QnburKds"
   },
@@ -3029,12 +3049,14 @@
     "fields": {
       "Email": "criarce0@its.jnj.com",
       "First_Name": "Christel",
+      "Gmail_Message_ID": "1a213f6059951d2c",
       "Language": "es",
       "Name": "Christel Arce",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.\n2026-11-25: invitación enviada (línea neutra)",
       "Organization": "J&J LATAM",
       "Segment": "crm",
-      "Status": "Queued"
+      "Sent_At": "2026-11-25T18:25:00.000Z",
+      "Status": "Sent"
     },
     "id": "recIuUGH2w4wut6kn"
   },
@@ -3256,12 +3278,14 @@
     "fields": {
       "Email": "marcelo.ruiz@frost.com",
       "First_Name": "Marcelo",
+      "Gmail_Message_ID": "1a213f607533bf70",
       "Language": "en",
       "Name": "Marcelo Ruiz",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.\n2026-11-25: invitación enviada (línea neutra)",
       "Organization": "Frost & Sullivan",
       "Segment": "crm",
-      "Status": "Queued"
+      "Sent_At": "2026-11-25T18:25:00.000Z",
+      "Status": "Sent"
     },
     "id": "recKhMfLqdoiwNYhQ"
   },
@@ -3302,12 +3326,14 @@
       "Country": "USA",
       "Email": "ryan.kuresman@gcihealth.com",
       "First_Name": "Ryan",
+      "Gmail_Message_ID": "1a213f6085fdc851",
       "Language": "en",
       "Name": "Ryan Kuresman",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.\n2026-11-25: invitación enviada (línea neutra)",
       "Organization": "GCI Health",
       "Segment": "crm",
-      "Status": "Queued"
+      "Sent_At": "2026-11-25T18:25:00.000Z",
+      "Status": "Sent"
     },
     "id": "recKpgLxRLHRc7lks"
   },
@@ -3333,7 +3359,7 @@
       "First_Name": "Carlos",
       "Language": "es",
       "Name": "Carlos Dufeu Troncoso",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.\n2026-11-25: diferido, merck.com rechazó la invitación a karina.basterrica (550 5.4.1 Access denied, 24-11); queda Queued para que Fer decida",
       "Organization": "Merck Sharp & Dohme (LA) LLC",
       "Segment": "crm",
       "Status": "Queued"
@@ -3587,12 +3613,14 @@
       "Country": "Other",
       "Email": "ivy.teh@clearstate.com",
       "First_Name": "Ivy",
+      "Gmail_Message_ID": "1a213f60d17e238d",
       "Language": "en",
       "Name": "Ivy Teh",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.\n2026-11-25: invitación enviada (línea neutra)",
       "Organization": "Clearstate",
       "Segment": "crm",
-      "Status": "Queued"
+      "Sent_At": "2026-11-25T18:25:00.000Z",
+      "Status": "Sent"
     },
     "id": "recNnkSWTHY3lwc1y"
   },
@@ -3605,11 +3633,11 @@
       "Gmail_Message_ID": "1a1eac13d461b3f7",
       "Language": "en",
       "Name": "Elsa Koutsavakis",
-      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-17: invitación enviada (registrada 2026-11-18: la corrida del 17 envió pero no actualizó Airtable; verificado en Enviados, hilo 1a1eac13d461b3f7).",
+      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-17: invitación enviada (registrada 2026-11-18: la corrida del 17 envió pero no actualizó Airtable; verificado en Enviados, hilo 1a1eac13d461b3f7).\n2026-11-25: recordatorio enviado (en hilo, msg 1a213f73194e700f)",
       "Organization": "Pfizer",
       "Segment": "linkedin",
       "Sent_At": "2026-11-17T18:24:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "recNwnTbP3RWiS54O"
   },
@@ -3668,11 +3696,11 @@
       "Gmail_Message_ID": "1a1eac2a23991b76",
       "Language": "pt",
       "Name": "Elaine Ferraz",
-      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-17: invitación enviada (registrada 2026-11-18: la corrida del 17 envió pero no actualizó Airtable; verificado en Enviados, hilo 1a1eac2a23991b76).",
+      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-17: invitación enviada (registrada 2026-11-18: la corrida del 17 envió pero no actualizó Airtable; verificado en Enviados, hilo 1a1eac2a23991b76).\n2026-11-25: recordatorio enviado (en hilo, msg 1a213f7353509195)",
       "Organization": "Thermo Fisher Scientific",
       "Segment": "linkedin",
       "Sent_At": "2026-11-17T18:26:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "recO9kRkfMrjrj994"
   },
@@ -3841,11 +3869,11 @@
       "Gmail_Message_ID": "1a1eac2a65a30666",
       "Language": "pt",
       "Name": "Denise Bonamici",
-      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-17: invitación enviada (registrada 2026-11-18: la corrida del 17 envió pero no actualizó Airtable; verificado en Enviados, hilo 1a1eac2a65a30666).",
+      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-17: invitación enviada (registrada 2026-11-18: la corrida del 17 envió pero no actualizó Airtable; verificado en Enviados, hilo 1a1eac2a65a30666).\n2026-11-25: recordatorio enviado (en hilo, msg 1a213f739eb90c01)",
       "Organization": "Vertex Pharmaceuticals",
       "Segment": "linkedin",
       "Sent_At": "2026-11-17T18:26:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "recPBU7OgWpCeLQmh"
   },
@@ -3931,12 +3959,14 @@
     "fields": {
       "Country": "USA",
       "Email": "mrico@the-ahf.org",
+      "Gmail_Message_ID": "1a213f61108c0b55",
       "Language": "en",
       "Name": "M. Rico (AHF)",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.\n2026-11-25: invitación enviada (línea neutra)",
       "Organization": "Americas Health Foundation",
       "Segment": "crm",
-      "Status": "Queued"
+      "Sent_At": "2026-11-25T18:25:00.000Z",
+      "Status": "Sent"
     },
     "id": "recPWFseQzXP7RJY1"
   },
@@ -3994,11 +4024,11 @@
       "Gmail_Message_ID": "1a1eac2a9e3679fc",
       "Language": "es",
       "Name": "Alejandra Loureiro",
-      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-17: invitación enviada (registrada 2026-11-18: la corrida del 17 envió pero no actualizó Airtable; verificado en Enviados, hilo 1a1eac2a9e3679fc).",
+      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-17: invitación enviada (registrada 2026-11-18: la corrida del 17 envió pero no actualizó Airtable; verificado en Enviados, hilo 1a1eac2a9e3679fc).\n2026-11-25: recordatorio enviado (en hilo, msg 1a213f73dbb5545a)",
       "Organization": "Bristol Myers Squibb",
       "Segment": "linkedin",
       "Sent_At": "2026-11-17T18:26:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "recPdnBL7g6A23rrI"
   },
@@ -4008,12 +4038,14 @@
       "Country": "Other",
       "Email": "isabel.benitez-bory@emdserono.com",
       "First_Name": "Isabel",
+      "Gmail_Message_ID": "1a213f6129d0e0aa",
       "Language": "en",
       "Name": "Isabel Benitez-Bory",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.\n2026-11-25: invitación enviada (línea neutra)",
       "Organization": "Merck Group (EMD Serono)",
       "Segment": "crm",
-      "Status": "Queued"
+      "Sent_At": "2026-11-25T18:25:00.000Z",
+      "Status": "Sent"
     },
     "id": "recPrnEOGAFao8FDC"
   },
@@ -4133,14 +4165,17 @@
   {
     "createdTime": "2026-11-01T01:27:52.000Z",
     "fields": {
+      "Clicked_At": "2026-11-25T19:04:32.000Z",
       "Email": "afigueira@ptcbio.com",
       "First_Name": "Andréa",
+      "Gmail_Message_ID": "1a213f6164183ae3",
       "Language": "pt",
       "Name": "Andréa Figueira",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.\n2026-11-25: invitación enviada (línea neutra)",
       "Organization": "PTC Farmacêutica do Brasil Ltda.",
       "Segment": "crm",
-      "Status": "Queued"
+      "Sent_At": "2026-11-25T18:25:00.000Z",
+      "Status": "Subscribed"
     },
     "id": "recQpTxiAOCNHOfF9"
   },
@@ -4437,12 +4472,14 @@
     "fields": {
       "Email": "aschiaf1@its.jnj.com",
       "First_Name": "Agustin",
+      "Gmail_Message_ID": "1a213f61a0cc9096",
       "Language": "es",
       "Name": "Agustin Schiaffini",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.\n2026-11-25: invitación enviada (línea neutra)",
       "Organization": "MCNEIL PANAMA LLC",
       "Segment": "crm",
-      "Status": "Queued"
+      "Sent_At": "2026-11-25T18:25:00.000Z",
+      "Status": "Sent"
     },
     "id": "recSJ0hLVhAhaLnyr"
   },
@@ -4773,11 +4810,11 @@
       "Gmail_Message_ID": "1a1eac2aa0eddd77",
       "Language": "es",
       "Name": "Juan E. Valencia-Zapata",
-      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-17: invitación enviada (registrada 2026-11-18: la corrida del 17 envió pero no actualizó Airtable; verificado en Enviados, hilo 1a1eac2aa0eddd77).",
+      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-17: invitación enviada (registrada 2026-11-18: la corrida del 17 envió pero no actualizó Airtable; verificado en Enviados, hilo 1a1eac2aa0eddd77).\n2026-11-25: recordatorio enviado (en hilo, msg 1a213f741ddd7e60)",
       "Organization": "Medtronic",
       "Segment": "linkedin",
       "Sent_At": "2026-11-17T18:26:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "recUKoVxBIDSq8xB0"
   },
@@ -4957,11 +4994,11 @@
       "Gmail_Message_ID": "1a1acf1d016fca8d",
       "Language": "pt",
       "Name": "Paulo Piratininga",
-      "Notes": "Source: Press & PR Contacts (Prensa especializada)\n2026-11-05: invitación enviada\n2026-11-05: respondió; copió a la editora Adriana Bruno (adriana@panoramafarmaceutico.com.br) y a Leandro Luize (leandro@scritta.com.br). Leandro se suscribió 06/11 (Active). Paulo propone compartir contenidos.\n2026-11-12: sin recordatorio automático: Fer ya le respondió en persona el 09-11 en el hilo\n2026-11-19: recordatorio enviado (msg 1a1f50a5035f07f7) — ERROR de la corrida: la nota del 12-11 decía no recordar (Fer ya le respondió en persona) pero la fila seguía en Sent; se envió igual. Avisado a Fer.\n2026-11-20: respuestas del 19-11 en hilo 1a1acf1d016fca8d: 'Assinado' (dice que se suscribió; Clicked_At sigue vacío) y propuesta a Fer: reunión la semana próxima con Adriana y 'posto avançado' de HealthSignals en Brasil (cobertura de eventos con pago por demanda). Pendiente de Fer; no se respondió.\n2026-11-21: Fer aprobó respuesta: intercambio de contenidos sin pago, declina cobertura paga por ahora. Borrador en Gmail (msg 1a1fcb5cab909af2) para que Fer lo envíe.",
+      "Notes": "Se suscribió directo desde el sitio (form del hero), no por el link de invitación 1-click; corregido manualmente 24-11-2026 tras cruce con Brevo list 5.",
       "Organization": "Panorama Farmacêutico",
       "Segment": "press",
       "Sent_At": "2026-11-05T18:21:00.000Z",
-      "Status": "Reminded"
+      "Status": "Subscribed"
     },
     "id": "recVjZZuODXqy4Wj5"
   },
@@ -5278,11 +5315,11 @@
       "Gmail_Message_ID": "1a1eac2aeb38fa00",
       "Language": "en",
       "Name": "Kristjan Kull",
-      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-17: invitación enviada (registrada 2026-11-18: la corrida del 17 envió pero no actualizó Airtable; verificado en Enviados, hilo 1a1eac2aeb38fa00).",
+      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-17: invitación enviada (registrada 2026-11-18: la corrida del 17 envió pero no actualizó Airtable; verificado en Enviados, hilo 1a1eac2aeb38fa00).\n2026-11-25: recordatorio enviado (en hilo, msg 1a213f745ca94276)",
       "Organization": "Novo Nordisk",
       "Segment": "linkedin",
       "Sent_At": "2026-11-17T18:26:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "recXoFAJi5cgvEkmP"
   },
@@ -5372,11 +5409,11 @@
       "Gmail_Message_ID": "1a1eac2b02d8439b",
       "Language": "pt",
       "Name": "Ana Luiza Petry",
-      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-17: invitación enviada (registrada 2026-11-18: la corrida del 17 envió pero no actualizó Airtable; verificado en Enviados, hilo 1a1eac2b02d8439b).",
+      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-17: invitación enviada (registrada 2026-11-18: la corrida del 17 envió pero no actualizó Airtable; verificado en Enviados, hilo 1a1eac2b02d8439b).\n2026-11-25: recordatorio enviado (en hilo, msg 1a213f74600959e0)",
       "Organization": "Viatris",
       "Segment": "linkedin",
       "Sent_At": "2026-11-17T18:26:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "recY5BGmU2SrtCWiT"
   },
@@ -5404,11 +5441,11 @@
       "Gmail_Message_ID": "1a1eac2b3c29b058",
       "Language": "pt",
       "Name": "Fernanda Gimenes",
-      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-17: invitación enviada (registrada 2026-11-18: la corrida del 17 envió pero no actualizó Airtable; verificado en Enviados, hilo 1a1eac2b3c29b058).",
+      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-17: invitación enviada (registrada 2026-11-18: la corrida del 17 envió pero no actualizó Airtable; verificado en Enviados, hilo 1a1eac2b3c29b058).\n2026-11-25: recordatorio enviado (en hilo, msg 1a213f74a61844dc)",
       "Organization": "Adium Brasil",
       "Segment": "linkedin",
       "Sent_At": "2026-11-17T18:26:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "recY8wYGlJXSVRhl3"
   },
@@ -6015,11 +6052,11 @@
       "Gmail_Message_ID": "1a1eac2b50e2fd25",
       "Language": "pt",
       "Name": "Leandro Madeira",
-      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-17: invitación enviada (registrada 2026-11-18: la corrida del 17 envió pero no actualizó Airtable; verificado en Enviados, hilo 1a1eac2b50e2fd25).",
+      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-17: invitación enviada (registrada 2026-11-18: la corrida del 17 envió pero no actualizó Airtable; verificado en Enviados, hilo 1a1eac2b50e2fd25).\n2026-11-25: recordatorio enviado (en hilo, msg 1a213f83274bdaea)",
       "Organization": "Daiichi Sankyo Brasil",
       "Segment": "linkedin",
       "Sent_At": "2026-11-17T18:26:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "recbOodyxLzvBwA2l"
   },
@@ -6177,7 +6214,7 @@
       "Gmail_Message_ID": "1a1efe91fabeb536",
       "Language": "es",
       "Name": "Paulina Rensoli Meana",
-      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-18: invitación enviada",
+      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-18: invitación enviada\n2026-11-25: recordatorio NO enviado: el hilo de la invitación no es accesible en Gmail (permiso denegado) y no aparece en Enviados; no se pudo verificar que no haya recordatorio previo. Decide Fer.",
       "Organization": "Roche",
       "Segment": "linkedin",
       "Sent_At": "2026-11-18T18:26:00.000Z",
@@ -6244,11 +6281,11 @@
       "Gmail_Message_ID": "1a1efe9206599cbd",
       "Language": "es",
       "Name": "Christina Fabbro",
-      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-18: invitación enviada",
+      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-18: invitación enviada\n2026-11-25: recordatorio enviado (en hilo, msg 1a213f8347c31f06)",
       "Organization": "Abbott",
       "Segment": "linkedin",
       "Sent_At": "2026-11-18T18:26:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "reccdpI7zyOyCCasQ"
   },
@@ -6386,11 +6423,11 @@
       "Gmail_Message_ID": "1a1efe924c375e47",
       "Language": "es",
       "Name": "Romina Fazio Forte",
-      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-18: invitación enviada",
+      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-18: invitación enviada\n2026-11-25: recordatorio enviado (en hilo, msg 1a213f839723f12c)",
       "Organization": "LATINABA",
       "Segment": "linkedin",
       "Sent_At": "2026-11-18T18:26:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "recdBmqFlu792bwqL"
   },
@@ -6990,11 +7027,11 @@
       "Gmail_Message_ID": "1a1efe9264df8b6d",
       "Language": "en",
       "Name": "Lindsey Brylow",
-      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-18: invitación enviada",
+      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-18: invitación enviada\n2026-11-25: recordatorio enviado (en hilo, msg 1a213f83cf1ff405)",
       "Organization": "AstraZeneca",
       "Segment": "linkedin",
       "Sent_At": "2026-11-18T18:26:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "rechSJpzoQNwGHUOb"
   },
@@ -7230,11 +7267,11 @@
       "Gmail_Message_ID": "1a1efe9290208f58",
       "Language": "es",
       "Name": "Karina Mendez",
-      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-18: invitación enviada",
+      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-18: invitación enviada\n2026-11-25: recordatorio enviado (en hilo, msg 1a213f840a67ac76)",
       "Organization": "Boehringer Ingelheim",
       "Segment": "linkedin",
       "Sent_At": "2026-11-18T18:26:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "recie5rhmS4slFMCT"
   },
@@ -7279,7 +7316,7 @@
       "Gmail_Message_ID": "1a1efe92cf27c3ab",
       "Language": "en",
       "Name": "Anmol Mazariegos",
-      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-18: invitación enviada",
+      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-18: invitación enviada\n2026-11-25: recordatorio NO enviado: el hilo de la invitación no es accesible en Gmail (permiso denegado) y no aparece en Enviados; no se pudo verificar que no haya recordatorio previo. Decide Fer.",
       "Organization": "Dream Big Health",
       "Segment": "linkedin",
       "Sent_At": "2026-11-18T18:26:00.000Z",
@@ -7442,11 +7479,11 @@
       "Gmail_Message_ID": "1a1efe92e574ee6b",
       "Language": "en",
       "Name": "Ricardo Tapia",
-      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-18: invitación enviada",
+      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-18: invitación enviada\n2026-11-25: recordatorio enviado (en hilo, msg 1a213f84469cfeb2)",
       "Organization": "MSD",
       "Segment": "linkedin",
       "Sent_At": "2026-11-18T18:26:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "recjeZp2oAxdQZ9Ls"
   },
@@ -7554,11 +7591,11 @@
       "Gmail_Message_ID": "1a1efe933d645172",
       "Language": "pt",
       "Name": "Jaime César M. Oliveira",
-      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-18: invitación enviada",
+      "Notes": "Source: Sucriptor prospects (LinkedIn 1er grado); email de Apollo 2026-11-08; tanda 2 aprobada por Fer 2026-11-08\n2026-11-18: invitación enviada\n2026-11-25: recordatorio enviado (en hilo, msg 1a213f84a474f846)",
       "Organization": "Sanofi",
       "Segment": "linkedin",
       "Sent_At": "2026-11-18T18:26:00.000Z",
-      "Status": "Sent"
+      "Status": "Reminded"
     },
     "id": "reckWOJlQyfGVo301"
   },
@@ -8431,7 +8468,7 @@
       "First_Name": "Maria",
       "Language": "es",
       "Name": "Maria Paula Marin",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.\n2026-11-25: diferido, merck.com rechazó la invitación a karina.basterrica (550 5.4.1 Access denied, 24-11); queda Queued para que Fer decida",
       "Organization": "Merck Sharp & Dohme (LA) LLC",
       "Segment": "crm",
       "Status": "Queued"
@@ -8992,12 +9029,14 @@
       "Country": "Chile",
       "Email": "patricio.huenchunir@asilfa.cl",
       "First_Name": "Patricio",
+      "Gmail_Message_ID": "1a213f2c4786af3d",
       "Language": "es",
       "Name": "Patricio Huenchuñir Gómez",
-      "Notes": "Source: CRM Prospects (Approval=Approved)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
+      "Notes": "Source: CRM Prospects (Approval=Approved)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.\n2026-11-25: invitación enviada (línea neutra)",
       "Organization": "ASILFA (Asociación Industrial de Laboratorios Farmacéuticos)",
       "Segment": "crm",
-      "Status": "Queued"
+      "Sent_At": "2026-11-25T18:25:00.000Z",
+      "Status": "Sent"
     },
     "id": "recssGcsPZKg89Yvz"
   },
@@ -9423,12 +9462,14 @@
     "fields": {
       "Email": "erfs@novonordisk.com",
       "First_Name": "Ediardo",
+      "Gmail_Message_ID": "1a213f2c7adb3e60",
       "Language": "pt",
       "Name": "Ediardo Imperatriz Fonseca",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.\n2026-11-25: invitación enviada (línea neutra; saludo sin nombre porque First_Name 'Ediardo' parece error de carga)",
       "Organization": "NOVO NORDISK FARMACEUTICA DO BRASIL LTDA",
       "Segment": "crm",
-      "Status": "Queued"
+      "Sent_At": "2026-11-25T18:25:00.000Z",
+      "Status": "Sent"
     },
     "id": "recwK8JrE6V2xlayd"
   },
@@ -9467,12 +9508,14 @@
     "fields": {
       "Email": "claudia.burgos@takeda.com",
       "First_Name": "Claudia",
+      "Gmail_Message_ID": "1a213f2ca05a8edc",
       "Language": "pt",
       "Name": "Claudia Burgos",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.\n2026-11-25: invitación enviada (línea neutra)",
       "Organization": "Takeda Distribuidora Ltda",
       "Segment": "crm",
-      "Status": "Queued"
+      "Sent_At": "2026-11-25T18:25:00.000Z",
+      "Status": "Sent"
     },
     "id": "recwcfWUJk6eool6H"
   },
@@ -9547,12 +9590,14 @@
     "fields": {
       "Email": "flavio.devoto@abbvie.com",
       "First_Name": "Flavio",
+      "Gmail_Message_ID": "1a213f2cd8a4fc5a",
       "Language": "es",
       "Name": "Flavio Devoto",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.\n2026-11-25: invitación enviada (línea neutra)",
       "Organization": "Abbvie Latam",
       "Segment": "crm",
-      "Status": "Queued"
+      "Sent_At": "2026-11-25T18:25:00.000Z",
+      "Status": "Sent"
     },
     "id": "recwtdv91mfbQQ7Ii"
   },
@@ -9561,12 +9606,14 @@
     "fields": {
       "Country": "USA",
       "Email": "tvidal@the-ahf.org",
+      "Gmail_Message_ID": "1a213f2cf0a2e680",
       "Language": "en",
       "Name": "T. Vidal (AHF)",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.\n2026-11-25: invitación enviada (línea neutra)",
       "Organization": "Americas Health Foundation",
       "Segment": "crm",
-      "Status": "Queued"
+      "Sent_At": "2026-11-25T18:25:00.000Z",
+      "Status": "Sent"
     },
     "id": "recwvEii7g8S8QR3x"
   },
@@ -9605,12 +9652,14 @@
     "fields": {
       "Email": "aida.soto@tevapharm.com",
       "First_Name": "Aida",
+      "Gmail_Message_ID": "1a213f2d2a9d5137",
       "Language": "en",
       "Name": "Aida Soto",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.\n2026-11-25: invitación enviada (línea neutra)",
       "Organization": "Teva Pharmaceuticals USA Inc",
       "Segment": "crm",
-      "Status": "Queued"
+      "Sent_At": "2026-11-25T18:25:00.000Z",
+      "Status": "Sent"
     },
     "id": "recxZFDQr0yD59ktR"
   },
@@ -9825,12 +9874,14 @@
       "Country": "USA",
       "Email": "dsalvatierra@the-ahf.org",
       "First_Name": "Dick",
+      "Gmail_Message_ID": "1a213f2d5facfc45",
       "Language": "en",
       "Name": "Dick Salvatierra",
-      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.",
+      "Notes": "Source: CRM Prospects (Approval=Pending Review)\n2026-11-21: verificado en Gmail de editor@: sin contacto previo. Pendiente de la línea neutra que apruebe Fer.\n2026-11-25: invitación enviada (línea neutra)",
       "Organization": "Americas Health Foundation",
       "Segment": "crm",
-      "Status": "Queued"
+      "Sent_At": "2026-11-25T18:25:00.000Z",
+      "Status": "Sent"
     },
     "id": "recyrEY4qKoz9WgVT"
   },

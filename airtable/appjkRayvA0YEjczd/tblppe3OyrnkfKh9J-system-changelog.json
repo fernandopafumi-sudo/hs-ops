@@ -137,6 +137,17 @@
     "id": "recHk1kNlckRA0Xl7"
   },
   {
+    "createdTime": "2026-11-25T18:31:40.000Z",
+    "fields": {
+      "Area": "Otro",
+      "Change": "Invitaciones Brief 2026-11-25: 25 invitaciones, 15 recordatorios",
+      "Date": "2026-11-25",
+      "Details": "Tope normal 40 (15 recordatorios + 25 invitaciones): rebote 7/326 = 2,1% (antes de hoy), sin quejas.\nInvitaciones: 25 crm con línea neutra (en 13, es 7, pt 5). Recordatorios: 15 en hilo (linkedin; 9 del 17-11 + 6 del 18-11; pt 6, es 5, en 4).\nHousekeeping: 0 opt-outs, 0 respuestas a hilos de invitación (solo autorrespuesta Amgen jakopyan, sin acción). Rebote nuevo: karina.basterrica@merck.com (550 5.4.1 Access denied, posible bloqueo de dominio) -> Bounced; las 2 crm restantes de merck.com (Dufeu, Marín) quedan diferidas. Subscribed 11 (11/351 = 3,1%). Bus dev excluidos hoy: 0 (Deals/Proposals/hilos comerciales sin coincidencias de contacto).\nRecordatorios retenidos: Paulina Rensoli (Roche) y Anmol Mazariegos (Dream Big Health): hilo de invitación inaccesible en Gmail (permiso denegado), no se pudo verificar recordatorio previo; decide Fer.\nÚltimo número: Issue 04 (Sent) verificado en https://healthsignals.news/brief-issue-04/ (HTTP 200, fecha 24 Nov 2026), usado con la descripción del registro (27 notas, AL/EE.UU./global). 2 saludos sin nombre (First_Name con error: Ediardo, Viitor).\nQueued restantes: 46 crm línea neutra elegibles + retenidas (2 merck.com, 3 press: comercio.com.pe, endpointsnews.com, Burson hasta 30-11; Levy/BID) + 7 webmail sin enviar + 211 pharma-policy/access/comms (segmento sin línea definida: decide Fer). Quedan 14 Sent del 18-11 sin recordar para la próxima corrida.",
+      "Status": "Done"
+    },
+    "id": "recIJDZRqK6KdyaJS"
+  },
+  {
     "createdTime": "2026-10-02T19:26:01.000Z",
     "fields": {
       "Area": "Otro",
@@ -439,6 +450,15 @@
       "Status": "Deployed"
     },
     "id": "recemNz6NzaXRIJbW"
+  },
+  {
+    "createdTime": "2026-11-25T12:16:11.000Z",
+    "fields": {
+      "Change": "HS CEO diario 25-11",
+      "Date": "2026-11-25",
+      "Details": "Mail 'HS decisiones — 25-11 — 15 para decidir' enviado a editor@ (msg 1a212a2661066ce8). Hallazgo: Publisher 5133643 desactivado 24-11 23:01 UTC y watchdog 6314042 desactivado 24-11 19:38 UTC (ambos por sesión MCP de Fer, sin registro); hoy sin corrida; 982 y 988 aprobadas sin procesar. Watchdog NO reactivado (apagado deliberado <17 h). Créditos Make: 14.196/50.000 en 5 días, se agotan ~9-12 al ritmo actual. Hecho: Deals Hospitalar y WHX -> 01-12; Arce -> 15-01-2027; última actualización Lilly/C-Can/Arce -> 24-11; Voices García y Vianna Deadline -> 09-12. Gate hoy: 37176 needs_edit 6 (lede), 37238 needs_edit 15 (lede), 37202 needs_edit 7. 15 decisiones pendientes. Prioridades: 1) seguimiento Merck KGaA (vencido 23-11); 2) confirmar si Publisher/watchdog quedan apagados; 3) cierre Voices Méndez (aprobó 25-11). Revisión adversarial con subagente: 11 correcciones."
+    },
+    "id": "recfpZYXQ78blfAGo"
   },
   {
     "createdTime": "2026-09-04T21:09:48.000Z",

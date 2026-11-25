@@ -7,7 +7,7 @@ Regenerar con `python3 scripts/gen_ids.py` después de cada backup. Las referenc
 | ID | Nombre | Estado | Schedule | Data stores | Hooks | IDs de escenarios citados | Apps |
 |---|---|---|---|---|---|---|---|
 | 5096381 | HealthSignals- Intelligence Scanner | ON | weekly:07:00 | 148747 HS Event Dedup |  |  | anthropic-claude, builtin, datastore, exa-ai, google-sheets, json, util |
-| 5133643 | PROD Article Publisher v2 | ON | daily:06:40 |  |  |  | airtable, anthropic-claude, builtin, exa-ai, google-sheets, http, json, openai-gpt-3, util, wordpress |
+| 5133643 | PROD Article Publisher v2 | off | daily:06:40 |  |  |  | airtable, anthropic-claude, builtin, exa-ai, google-sheets, http, json, openai-gpt-3, util, wordpress |
 | 5167429 | HS Social Publisher v2 | ON | indefinitely:1800 | 128118 X OAuth - HealthSignals |  | 5882000 | datastore, google-sheets, http, linkedin, regexp, util |
 | 5453337 | HS Outreach A - Draft Generator | ON | on-demand |  |  |  | airtable, anthropic-claude, util |
 | 5453401 | HS Outreach B - Sender | ON | on-demand |  |  |  | airtable, resend |

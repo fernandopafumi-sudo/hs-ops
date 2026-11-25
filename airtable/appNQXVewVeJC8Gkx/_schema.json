@@ -418,6 +418,22 @@
         "id": "fldym4eUPJIxNAgVv",
         "name": "Email verificado",
         "type": "email"
+      },
+      {
+        "description": "Cuenta que fue cliente de Fernando en su etapa anterior (lista dictada por Fer el 24-11-2026). Relación tibia: entrada por contacto personal, no en frío.",
+        "id": "fld2CCRtsroCRheB4",
+        "name": "Ex cliente de Fer",
+        "options": {
+          "color": "greenBright",
+          "icon": "check"
+        },
+        "type": "checkbox"
+      },
+      {
+        "description": "Lo que Fer conversó con la cuenta en el pasado: temas, proyectos propuestos y personas. Es el ángulo de entrada para la reconexión.",
+        "id": "fldg3TCkkUfMSN1kI",
+        "name": "Historia con Fer",
+        "type": "multilineText"
       }
     ],
     "id": "tblOC691FJUKq7F6M",
